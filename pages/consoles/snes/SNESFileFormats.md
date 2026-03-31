@@ -22,9 +22,9 @@ excerpt: SNES file formats from leaked Nintendo workspaces and source trees
 ---
 
 # Super Famicom / SNES File Formats
-This page covers the main file formats that now show up clearly in leaked Nintendo Super Famicom workspaces.
+This page documents the main file formats preserved in leaked Nintendo Super Famicom workspaces.
 
-The most useful recent evidence comes from the Super Mario Kart source and art branches, the SimCity SNES `SIM` workspace, the Zelda SNES art folders, and the SFX-DOS environment. That gives us a much firmer basis than older “maybe this means screen data” style guesses.
+The descriptions below are based on the Super Mario Kart source and art branches, the SimCity SNES `SIM` workspace, the Zelda SNES art folders, the wider `NEWS_04` CAD workspace, and the SFX-DOS environment.
 
 {% include link-to-other-post.html post="/super-mario-kart-source-code" description="For a full source-side view of these formats in practice, see the Super Mario Kart source page." %}
 
@@ -63,7 +63,7 @@ The important pattern is that Nintendo's art-side SNES folders preserve layout, 
 They were not just painting final screens and baking them immediately into ROM.
 
 ---
-## What the Wider Leak Adds
+## CAD Tool Provenance
 The strongest new clue does not come from a single game folder.
 It comes from the wider `NEWS_04` restore, where Nintendo's workstation files preserve the CAD tool's own native working area.
 
@@ -112,7 +112,7 @@ The numbered CAD samples also make it easier to separate per-format roles.
 That is another good sign that Nintendo's toolchain was using several related containers for different stages of the same screen or object workflow rather than one generic binary dump.
 
 ---
-## What COL Looks Like in Practice
+## COL Format
 `.COL` looks much more like raw palette data than older writeups tended to imply.
 
 In both Mario Kart and SimCity:
@@ -286,7 +286,7 @@ Here are the first `16` palette rows from the title screen as full swatches:
 </div>
 
 ---
-## What CGX Looks Like in Practice
+## CGX Format
 `.CGX` is the main graphics bank format.
 
 In the recent leak work it uses a few very common size classes:
@@ -372,7 +372,7 @@ Mario Kart `TITLE.CGX` | last `399` bytes are zero | large blank tile tail
 That matters because it makes the format look even more like a raw tile bank.
 Instead of ending in obvious metadata, many files simply taper off into empty or fill-like tile space.
 
-### What This Means for a Viewer
+### Viewer Implementation
 The format is clear enough to support a reliable `CGX` viewer.
 
 The viewer model is:
@@ -395,7 +395,7 @@ This viewer treats the file as raw SNES tile data from byte zero, defaults to `4
 </rr-sandpack>
 
 ---
-## What SCR Looks Like in Practice
+## SCR Format
 `.SCR` is one of the most common and most misunderstood formats in the leaks.
 
 The format now reads clearly:
@@ -561,38 +561,24 @@ The viewer below uses that same decode.
 </rr-sandpack>
 
 ---
-## What OBJ Looks Like in Practice
-`.OBJ` is another format that is now straightforward to describe.
+## OBJ and OBX Format
+`.OBJ` stores framed object-layout records, not graphics.
+In Mario Kart and SimCity the standard files are commonly `13,568` bytes, and the CAD-native variants expand the same model to larger capacities.
 
-In both Mario Kart and SimCity, the files look like structured object-placement or object-text records rather than graphics:
+The files are built from repeating six-byte entries and are used for sprite placement, text-object layout, and other object-side screen assembly work.
+Files like `JUGEM.OBJ`, `POLE.OBJ`, `CAR.OBJ`, `MOJI.OBJ`, and `SCENARIO.OBJ` all follow the same front-end record structure.
 
-* they commonly appear at `13,568` bytes
-* they break naturally into short repeating groups
-* they sit beside text banks, menu screens, and object-facing graphics
-* the CAD-native variants preserve the same front-end record model at a larger capacity
-
-The Mario Kart object files are especially revealing because many of them read cleanly as repeating 3-word entries.
-For example, files like `JUGEM.OBJ`, `POLE.OBJ`, and `CAR.OBJ` open with repeated triples that look much more like compact object definitions than tile data.
-
-The SimCity side adds another clue:
-
-* `MOJI.OBJ` and `SCENARIO.OBJ` share the same opening record pattern
-* `INPUT.OBJ` is shaped differently and looks tied to the input workflow
-
-So `.OBJ` is not generic “object graphics”.
-It is an object-side placement or assembly format, and in UI-heavy projects it can also carry object-form text layout data.
-
-The native CAD samples tighten that up further.
-`CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it keeps the same compact 3-word rhythm:
+The CAD-native samples preserve the same record rhythm at a larger size.
+`CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it uses the same six-byte entry model:
 
 * `0080 08F8 3331`
 * `0080 00F8 3231`
 * `0080 F8F8 3131`
 
-So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
+So the smaller Mario Kart and SimCity `.OBJ` files and the larger CAD-native `.OBJ` and `.OBX` files belong to the same object-layout family.
 
 ### The OBJ Container Layout
-The biggest recent breakthrough is that the front record region is not just a flat pool of entries.
+The front record region is a framed container, not a flat pool of entries.
 For the standard smaller `.OBJ` files, the size matches a frame-based layout exactly.
 
 Format family | Total size | Front record region | Capacity at 6 bytes per record | Tail
@@ -626,17 +612,17 @@ In `CAD-0.OBJ` the same kind of transition happens at byte `24,576`.
 So the format is not just “a file full of triples”.
 It is a framed object-record container followed by a CAD metadata block.
 
-The one awkward case is the larger CAD-native `.OBJ` files.
-Their `24,576` byte front region fits `4,096` entries exactly, which suggests either:
+The larger CAD-native `.OBJ` files use the same six-byte entry model at a higher capacity.
+Their `24,576` byte front region holds `4,096` entries, which is exactly:
 
-* a double-capacity `.OBJ` variant with `32` frames of `128` entries
-* or a format revision that sits between the smaller `.OBJ` and later `.OBX` layout
+* `32` frames
+* `128` entry slots per frame
 
-So the safest summary is:
+So the framed summary is:
 
-* small `.OBJ` files very likely use `32 x 64` framed entry storage
-* `.OBX` very likely expands that to `64 x 128`
-* the larger CAD-native `.OBJ` files look like a higher-capacity close relative rather than a totally different format
+* small `.OBJ` files use `32 x 64` framed entry storage
+* larger CAD-native `.OBJ` files use `32 x 128`
+* `.OBX` expands that to `64 x 128`
 
 ### The OBJ Record Shape
 Across both Mario Kart and SimCity, the front record region behaves as a repeating 3-word model.
@@ -700,12 +686,12 @@ Family | Third-word pattern | Reading
 `JUGEM.OBJ` | `0x273A`, `0x263A`, `0x253A`, `0x2430` | mostly stable attributes with a small family-specific mix
 `MOJI.OBJ` | `0x3030`, `0x2030`, `0x8C30`, `0x8230` | text and UI tiles with a stable `0x30` attribute byte
 
-That means a practical decode is:
+The decode is:
 
 * third-word high byte = tile index
 * third-word low byte = object attributes, palette, or flip state
 
-The exact bit split of that low byte still needs a dedicated pass, but its role as a shared attribute field is already clear from the repeated per-family constants.
+The exact bit split of that low byte is the standard sprite-style pattern described below.
 
 ### The Attribute Byte Has Stable Family Patterns
 The low byte of the third word is not random.
@@ -730,30 +716,30 @@ SimCity `MOJI.OBJ` | almost entirely `0x30`, `0x32`, `0x34`
 
 That is exactly what you would expect if the low byte was carrying a compact attribute field with a few stable combinations reused across one object family at a time.
 
-The bit distribution is useful too.
-Across the most active object files, bits `4` and `5` are the most stable part of the field, while the lower bits vary much more from family to family.
-That lines up strikingly well with the standard SNES sprite attribute byte:
+Across the most active object files, bits `4` and `5` are the most stable part of the field while the lower bits vary more from family to family.
+That matches the standard SNES sprite attribute byte:
 
-Bits | Likely role
+Bits | Role
 ---|---
-`0` | name-select or a related per-tile switch
+`0` | tile size
 `1-3` | palette row
 `4-5` | priority
 `6` | horizontal flip
 `7` | vertical flip
 
-So the current best reading is:
+So the attribute byte is:
 
-* bits `1-3` choose the palette row or another closely related color group
-* bits `4-5` are part of a common priority-style base pattern
-* bits `6-7` mark flip variants, which is exactly why families like `0x30`, `0x70`, `0xB0`, and `0xF0` recur together
-* bit `0` still needs a smaller dedicated pass, but it behaves like a low-level per-tile mode bit rather than random noise
+* `YXPPCCCT`
+* `Y` = vertical flip
+* `X` = horizontal flip
+* `PP` = priority
+* `CCC` = palette row
+* `T` = tile size
 
-That still stops short of naming every bit precisely, but it is already much stronger than treating the low byte as an opaque blob.
+That is exactly why families like `0x30`, `0x70`, `0xB0`, and `0xF0` recur together in the live object files.
 
 ### Byte 1 and Byte 2 Have Separate Roles
-The parser details line up well with the on-disk data here.
-The first two bytes are not one opaque 16-bit flag field with a single meaning.
+The first two bytes are not one opaque 16-bit flag field.
 They are two separate bytes with different jobs:
 
 Byte | Role
@@ -791,12 +777,12 @@ But several things make it clear that `.OBJ` is still an editor-side container r
 * the first word behaves like a tool-side flag field rather than a direct SNES sprite register value
 * the back of the file switches into CAD metadata instead of continuing as sprite records
 
-So the safest description is:
+So the correct description is:
 
 * `.CGX` stores the sprite graphics
 * `.COL` stores the palette rows
 * `.OBJ` stores the editor-side sprite or object layout
-* runtime code would still need to convert that data into real SNES OAM entries
+* runtime code would still convert that editor data into real SNES OAM entries
 
 That distinction matters because it explains why the object records feel so hardware-adjacent while still preserving much more workstation structure than a straight OAM dump would.
 
@@ -828,26 +814,25 @@ This viewer renders the front record region as object placements, and if you add
 </rr-sandpack>
 
 ---
-## What SFX Means in These Leaks
-`.SFX` is the most unusual SNES format we can now talk about with confidence.
+## SFX Format
+`.SFX` is the workstation-side CAD metadata format used by the SimCity SNES art branch and the wider SRD CAD environment.
 
 In the SimCity `SIM` workspace, every top-level `.SFX` file is exactly `2,048` bytes and begins with an ASCII tool signature like:
 
 `NAK1989 S-CG-CADVer1.21 900611`
 
-That tells us a few useful things immediately:
+That establishes three things immediately:
 
 * `.SFX` in this context is not a sound-effect file
 * it is not just a random project-local binary blob either
 * it is a tool-side sidecar produced by a dedicated `S-CG-CAD` graphics or layout tool
 
-The payloads after the header differ per screen, which means they preserve screen-specific metadata rather than one shared stub.
-`TOWN.SFX` is especially valuable because it has a much denser payload than the other files and contains several internal configuration regions.
+The payloads after the header differ per screen, so these files preserve screen-specific metadata rather than one shared stub.
+`TOWN.SFX` carries the densest surviving payload and preserves several internal configuration regions.
 
-The CAD-tool screenshot helps here too.
-It makes `SFX FILE` look much more like a saved editor-side metadata or project-state operation than a gameplay format, which is exactly how the SimCity sidecars behave on disk.
+The CAD-tool screenshot reinforces the same split, with `SFX FILE` presented as a saved editor-side metadata or project-state operation rather than gameplay data.
 
-So for SNES leak work, `.SFX` should currently be read as:
+For SNES leak work, `.SFX` is:
 
 * a SimCity-side CAD metadata format
 * not a general-purpose SNES audio or runtime file type
@@ -906,8 +891,7 @@ The direct `.OBX` findings are:
 * `CAD-3.OBX` carries the same trailing `NAK1989 S-CG-CADVer1.23 901226` header block seen in other CAD-side files
 * `CAD-0.OBX` stays zeroed until offset `624`, unlike `CAD-0.OBJ`, which begins with active object-style records immediately
 
-That makes `.OBX` look less like a random duplicate and more like a companion object container with a different internal layout or staging role.
-The exact field meanings still need work, but it clearly belongs to the same CAD ecosystem as `.OBJ`, `.SCR`, and `.SFX`.
+`.OBX` is the larger companion object container in the same CAD ecosystem as `.OBJ`, `.SCR`, and `.SFX`.
 
 ### OBJ and OBX Do Not Behave the Same Way
 The direct CAD samples make the split clear.

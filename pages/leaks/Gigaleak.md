@@ -114,7 +114,7 @@ Beyond the source trees, the `NEWS.7z` archive also contains a **テープリス
 
 | Archive | Size | Entries | Contents |
 |---------|------|---------|----------|
-| **NEWS_02.tar** | 12M | 187 | System logs and user configs (`.net`, `.cshrc`, `.login`, `.logout`, mail profiles) |
+| **NEWS_02.tar** | 12M | 187 | System logs and user configs (`.net`, `.cshrc`, `.login`, `.logout`, mail profiles) and some compressed ROMs inside emails |
 | **NEWS_04.tar** | 96M | 5,309 | **Mixed graphics workstation**: 2,297 `.BAK`, 991 `.SCR`, 876 `.CGX`, 431 `.COL`, 266 `.OBJ`, 108 `.MAP`; includes late Star Fox 2 art, Zelda/GB-Zelda branches, confirmed Super Mario Kart assets, and a likely Pilotwings-era prototype |
 | **NEWS_05.tar** | 109M | 3,831 | **Star Fox 2 3D CAD Pipeline & Development Toolkit**: 628 `.txt`, 500 `.cad` 3D models, 371 `.anm` animations, 307 `.nca` Nintendo CAD files, 268 `.c` C source files |
 | **NEWS_09.tar** | 34M | 1,374 | **SNES sprite/level assets**: 502 `.BAK` backups, 213 `.CGX`, 128 `.COL`, 117 `.OBJ`, 56 `.SCR`, 52 `.PNL` panels - Yoshi-related content |
@@ -125,6 +125,46 @@ Beyond the source trees, the `NEWS.7z` archive also contains a **テープリス
 These tars represent raw workstation snapshots rather than organized source archives. The bulk of the data (NEWS_04, NEWS_05, NEWS_09, NEWS_11) consists of SNES development assets - heavily weighted toward graphics files (`.CGX`/`.COL` color palettes and screens), object definitions (`.OBJ`/`.OBZ` 3D/sprite data), and map data (`.MAP` and `.SCR`). Notably, NEWS_05 also preserves CAD files and animation source, suggesting multi-disciplinary workstation backups captured during active development cycles.
 
 {% include link-to-other-post.html post="/gigaleak-news-05" description="For the Star Fox 2 CAD, animation, and 3D toolchain workstation snapshot, see the NEWS_05 deep-dive." %}
+
+### NEWS_02 - Email Attachments and ROM Payloads
+
+`NEWS_02.tar` is mostly system/user environment data, but it also preserves email payloads with attached ROM files.
+For extracting those attachments, use this [NEWS_02 email extraction script](https://pastebin.com/yxRwWjpE).
+
+Make sure to use the correct key for each email and put them in quotes e.g:
+
+```bash
+## eng/Mail/inbox
+python3 decode.py -i '/usr01/eng/Mail/inbox/1' -k 'nishi\0' # sromchk.lzh - SROMCHK.EXE (ROM CHECKER for SHVC/SNES  Version 0.02)
+python3 decode.py -i '/usr01/eng/Mail/inbox/2' -k 'is\0' # SNES Audio/Music Tooling from 12th March 1993 (containing SGE.ENV SGE.EXE SGE.OVR SME.EXE SME.OVR SWM.EXE SWM.OVR)
+python3 decode.py -i '/usr01/eng/Mail/inbox/3' -k 'isw\0' # 15th March 1993 isw.lzh - Only ISW.COM and ISW.EXE
+python3 decode.py -i '/usr01/eng/Mail/inbox/4' -k 'is\0'  # SNES SDK Binaries from March 1993 - ISASMN.lzh (IS65.EXE, ISLINK.EXE, ISSND.EXE), ISW0318.LZH (ISW.COM, ISWASM.BAT, ISWREQ.COM, TEST2.X65 ISW.EXE, ISWEDIT.BAT TEST1.X65, TEST3.X65)
+python3 decode.py -i '/usr01/eng/Mail/inbox/5' -k 'newscad\0' # mario-4.lzh (containing CHIJO.COL, M-POSE.CGX, M-POSE.OBJ, RUN.OBJ, YOSHI.CGX, YOSHI.OBJ)
+
+## Nintendo of America (NOA)
+python3 decode.py -i '/usr01/noa/Mail/inbox/1' -k 'angry\0' # neskr.lzh containing PRG.ROM from 11th March 1993
+python3 decode.py -i '/usr01/noa/Mail/inbox/#2' -k 'antepaenultima\0' # mar19th.lzh containing DMGJCX00.PRG
+
+##  Research and Development 1 (RD1)
+python3 decode.py -i '/usr01/rd1/Mail/inbox/1' -k 'izushi\0' # MINES.LZH - Containing Windows Minesweeper
+
+python3 decode.py -i '/usr01/uji/Mail/inbox/#1' -k 'pmdawn\0' # The Great Waldo Search (SGW05) and Bubsy (SUY02)
+python3 decode.py -i '/usr01/uji/Mail/inbox/1' -k 'sickboy\0' # Wayne's World (SWW07-0.COM and SWW07-1.COM) from Feb 17th
+python3 decode.py -i '/usr01/uji/Mail/inbox/2' -k 'starwing\0' # SFRG-FO - German Star Fox
+python3 decode.py -i '/usr01/uji/Mail/inbox/3' -k 'toomanygames\0' # 5 games (NHI02, NU803, SHX01, SMU00, STX02)
+```
+
+
+The recovered ROM groups include the following [^2]:
+* From the "5 games" email:
+  * `NHI02` (single file) and `NU803` (split) - do not currently load in bsnes; from size these are likely NES-side builds
+  * `SHX01` (split) - **Super High Impact**
+  * `SMU00` (split) - **Mario is Missing**
+  * `STX02` (split) - **TAZ-MANIA**
+* From the "bubsy and waldo" email:
+  * `SGW05` - **The Great Waldo Search**
+  * `SUY02` (split) - first **Bubsy**
+
 
 ## NEWS_04 - Nintendo Graphics Workstation Backup
 
@@ -822,3 +862,4 @@ That makes it one of the most useful repositories in the CVS leak for studying h
 ---
 # References
 [^1]: [Massive Nintendo "Gigaleak" Surfaces With ROMs, Canceled Games, and Much More Switcher.gg](https://switcher.gg/s/news/massive-nintendo-gigaleak-surfaces-with-roms-canceled-games-and-much-more/)
+[^2]: [Another Nintendo leak uploaded online, features betas and source code for many SNES games - Page 7 - GBAtemp.net](https://gbatemp.net/threads/another-nintendo-leak-uploaded-online-features-betas-and-source-code-for-many-snes-games.570553/page-7)

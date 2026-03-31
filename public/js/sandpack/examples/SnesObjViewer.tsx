@@ -3,6 +3,7 @@ import FileUpload from './FileUpload';
 
 type BitDepth = 2 | 4 | 8;
 type PaletteMode = 'attr' | 'manual';
+type GroupMode = 'frame64' | 'frame128';
 
 interface PaletteColor {
   value: number;
@@ -18,11 +19,15 @@ interface ParsedCgx {
   tileCount: number;
   bytesPerTile: number;
   tiles: Uint8Array[];
+  pixels: Uint8Array;
   warnings: string[];
 }
 
 interface ObjRecord {
-  flag: number;
+  byte1: number;
+  groupInfo: number;
+  display: boolean;
+  largeTile: boolean;
   rawXY: number;
   xByte: number;
   yByte: number;
@@ -37,12 +42,29 @@ interface ParsedObj {
   recordRegionBytes: number;
   metadataTailBytes: number;
   recordCount: number;
-  activeCount: number;
+  displayedCount: number;
   records: ObjRecord[];
-  flags: number[];
+  byte1Values: number[];
+  groupInfoValues: number[];
   attrs: number[];
   warnings: string[];
 }
+
+interface ObjGroup {
+  label: string;
+  records: ObjRecord[];
+}
+
+const OBJECT_SIZE_SETTINGS = {
+  0: { label: '8x8 and 16x16', small: [8, 8], large: [16, 16] },
+  1: { label: '8x8 and 32x32', small: [8, 8], large: [32, 32] },
+  2: { label: '8x8 and 64x64', small: [8, 8], large: [64, 64] },
+  3: { label: '16x16 and 32x32', small: [16, 16], large: [32, 32] },
+  4: { label: '16x16 and 64x64', small: [16, 16], large: [64, 64] },
+  5: { label: '32x32 and 64x64', small: [32, 32], large: [64, 64] },
+  6: { label: '16x32 and 32x64', small: [16, 32], large: [32, 64] },
+  7: { label: '16x32 and 32x32', small: [16, 32], large: [32, 32] },
+} as const;
 
 function bytesPerTile(bitDepth: BitDepth): number {
   if (bitDepth === 2) return 16;
@@ -75,9 +97,14 @@ function decodePaletteColor(value: number): PaletteColor {
 function parseCol(buffer: Uint8Array): ParsedCol | null {
   if (buffer.length < 2) return null;
 
+  let source = buffer;
+  if (buffer.length > 0x200 && buffer.length % 0x1000 === 0x200) {
+    source = buffer.slice(0, buffer.length - 0x200);
+  }
+
   const colors: PaletteColor[] = [];
-  for (let offset = 0; offset + 1 < buffer.length; offset += 2) {
-    const value = buffer[offset] | (buffer[offset + 1] << 8);
+  for (let offset = 0; offset + 1 < source.length; offset += 2) {
+    const value = source[offset] | (source[offset + 1] << 8);
     colors.push(decodePaletteColor(value));
   }
 
@@ -90,9 +117,15 @@ function parseCol(buffer: Uint8Array): ParsedCol | null {
 }
 
 function parseCgx(buffer: Uint8Array, bitDepth: BitDepth): ParsedCgx {
+  let source = buffer;
   const tileSize = bytesPerTile(bitDepth);
   const warnings: string[] = [];
-  const remainder = buffer.length % tileSize;
+  if (buffer.length > 0x500 && buffer.length % 0x1000 === 0x500) {
+    source = buffer.slice(0, buffer.length - 0x500);
+    warnings.push('Trimmed the standard 0x500-byte CAD tail from the CGX file before decoding.');
+  }
+
+  const remainder = source.length % tileSize;
 
   if (remainder !== 0) {
     warnings.push(
@@ -100,17 +133,25 @@ function parseCgx(buffer: Uint8Array, bitDepth: BitDepth): ParsedCgx {
     );
   }
 
-  const tileCount = Math.floor(buffer.length / tileSize);
+  const tileCount = Math.floor(source.length / tileSize);
   const tiles: Uint8Array[] = [];
+  const pixels = new Uint8Array(tileCount * 64);
   for (let i = 0; i < tileCount; i += 1) {
     const start = i * tileSize;
-    tiles.push(buffer.slice(start, start + tileSize));
+    const tile = source.slice(start, start + tileSize);
+    tiles.push(tile);
+    for (let y = 0; y < 8; y += 1) {
+      for (let x = 0; x < 8; x += 1) {
+        pixels[i * 64 + y * 8 + x] = decodePixel(tile, bitDepth, x, y);
+      }
+    }
   }
 
   return {
     tileCount,
     bytesPerTile: tileSize,
     tiles,
+    pixels,
     warnings,
   };
 }
@@ -134,13 +175,17 @@ function parseObj(buffer: Uint8Array): ParsedObj | null {
 
   const records: ObjRecord[] = [];
   for (let offset = 0; offset + 5 < recordRegionBytes; offset += 6) {
-    const flag = buffer[offset] | (buffer[offset + 1] << 8);
+    const byte1 = buffer[offset];
+    const groupInfo = buffer[offset + 1];
     const rawXY = buffer[offset + 2] | (buffer[offset + 3] << 8);
     const packed = buffer[offset + 4] | (buffer[offset + 5] << 8);
     const xByte = (rawXY >> 8) & 0xff;
     const yByte = rawXY & 0xff;
     records.push({
-      flag,
+      byte1,
+      groupInfo,
+      display: (byte1 & 0x80) !== 0,
+      largeTile: (byte1 & 0x01) !== 0,
       rawXY,
       xByte,
       yByte,
@@ -151,19 +196,28 @@ function parseObj(buffer: Uint8Array): ParsedObj | null {
     });
   }
 
-  const activeRecords = records.filter(
-    (record) => !(record.flag === 0 && record.rawXY === 0 && record.tileIndex === 0 && record.attr === 0),
+  const meaningfulRecords = records.filter(
+    (record) =>
+      !(
+        record.byte1 === 0 &&
+        record.groupInfo === 0 &&
+        record.rawXY === 0 &&
+        record.tileIndex === 0 &&
+        record.attr === 0
+      ),
   );
+  const displayedRecords = meaningfulRecords.filter((record) => record.display);
 
   return {
     byteLength: buffer.length,
     recordRegionBytes,
     metadataTailBytes,
     recordCount: records.length,
-    activeCount: activeRecords.length,
-    records: activeRecords,
-    flags: [...new Set(activeRecords.map((record) => record.flag))].sort((a, b) => a - b),
-    attrs: [...new Set(activeRecords.map((record) => record.attr))].sort((a, b) => a - b),
+    displayedCount: displayedRecords.length,
+    records,
+    byte1Values: [...new Set(meaningfulRecords.map((record) => record.byte1))].sort((a, b) => a - b),
+    groupInfoValues: [...new Set(meaningfulRecords.map((record) => record.groupInfo))].sort((a, b) => a - b),
+    attrs: [...new Set(meaningfulRecords.map((record) => record.attr))].sort((a, b) => a - b),
     warnings,
   };
 }
@@ -200,29 +254,16 @@ function getGrayscaleColor(index: number, bitDepth: BitDepth): [number, number, 
 
 function getPaletteRgb(
   palette: ParsedCol | null,
-  paletteRow: number,
-  colorIndex: number,
+  paletteIndex: number,
   bitDepth: BitDepth,
 ): [number, number, number] {
   if (!palette) {
-    return getGrayscaleColor(colorIndex, bitDepth);
+    return getGrayscaleColor(paletteIndex, bitDepth);
   }
 
-  if (bitDepth === 8) {
-    const flat = palette.rows.flat().slice(0, 256);
-    const picked = flat[colorIndex];
-    if (!picked) return getGrayscaleColor(colorIndex, bitDepth);
-    return [
-      parseInt(picked.rgbHex.slice(1, 3), 16),
-      parseInt(picked.rgbHex.slice(3, 5), 16),
-      parseInt(picked.rgbHex.slice(5, 7), 16),
-    ];
-  }
-
-  const row = palette.rows[paletteRow] || palette.rows[0];
-  const rowSize = bitDepth === 2 ? 4 : 16;
-  const picked = row?.[colorIndex % rowSize];
-  if (!picked) return getGrayscaleColor(colorIndex, bitDepth);
+  const flat = palette.rows.flat();
+  const picked = flat[paletteIndex];
+  if (!picked) return getGrayscaleColor(paletteIndex, bitDepth);
 
   return [
     parseInt(picked.rgbHex.slice(1, 3), 16),
@@ -235,6 +276,11 @@ function getAttrPaletteRow(attr: number): number {
   return (attr >> 1) & 0x07;
 }
 
+function getObjectDimensions(mode: number, largeTile: boolean): [number, number] {
+  const setting = OBJECT_SIZE_SETTINGS[mode as keyof typeof OBJECT_SIZE_SETTINGS] || OBJECT_SIZE_SETTINGS[0];
+  return largeTile ? [...setting.large] as [number, number] : [...setting.small] as [number, number];
+}
+
 function drawObjects(
   canvas: HTMLCanvasElement,
   records: ObjRecord[],
@@ -244,9 +290,13 @@ function drawObjects(
   scale: number,
   paletteMode: PaletteMode,
   manualPaletteRow: number,
+  objectSizeMode: number,
+  vramOffset: number,
+  cgramOffset: number,
 ) {
   const margin = 8;
-  if (records.length === 0) {
+  const visibleRecords = records.filter((record) => record.display);
+  if (visibleRecords.length === 0) {
     canvas.width = 64;
     canvas.height = 32;
     canvas.style.width = `${64 * scale}px`;
@@ -258,16 +308,20 @@ function drawObjects(
     ctx.fillRect(0, 0, 64, 32);
     ctx.fillStyle = '#fff';
     ctx.font = '12px sans-serif';
-    ctx.fillText('No active records', 6, 18);
+    ctx.fillText('No displayed records', 6, 18);
     return;
   }
 
-  const xs = records.map((record) => record.xSigned);
-  const ys = records.map((record) => record.ySigned);
+  const xs = visibleRecords.map((record) => record.xSigned);
+  const ys = visibleRecords.map((record) => record.ySigned);
   const minX = Math.min(...xs);
   const minY = Math.min(...ys);
-  const maxX = Math.max(...xs) + 7;
-  const maxY = Math.max(...ys) + 7;
+  const maxX = Math.max(
+    ...visibleRecords.map((record) => record.xSigned + getObjectDimensions(objectSizeMode, record.largeTile)[0] - 1),
+  );
+  const maxY = Math.max(
+    ...visibleRecords.map((record) => record.ySigned + getObjectDimensions(objectSizeMode, record.largeTile)[1] - 1),
+  );
   const width = maxX - minX + 1 + margin * 2;
   const height = maxY - minY + 1 + margin * 2;
 
@@ -283,16 +337,17 @@ function drawObjects(
   const image = ctx.createImageData(width, height);
   const imageData = image.data;
 
-  for (const record of records) {
+  for (const record of [...visibleRecords].reverse()) {
     const startX = record.xSigned - minX + margin;
     const startY = record.ySigned - minY + margin;
-    const tile = parsedCgx?.tiles[record.tileIndex] ?? null;
     const hFlip = (record.attr & 0x40) !== 0;
     const vFlip = (record.attr & 0x80) !== 0;
     const paletteRow = paletteMode === 'attr' ? getAttrPaletteRow(record.attr) : manualPaletteRow;
+    const [objectWidth, objectHeight] = getObjectDimensions(objectSizeMode, record.largeTile);
+    const tileBase = vramOffset * 2 + ((((record.attr & 0x01) << 8) | record.tileIndex) * 64);
 
-    for (let py = 0; py < 8; py += 1) {
-      for (let px = 0; px < 8; px += 1) {
+    for (let py = 0; py < objectHeight; py += 1) {
+      for (let px = 0; px < objectWidth; px += 1) {
         const outX = startX + px;
         const outY = startY + py;
         if (outX < 0 || outY < 0 || outX >= width || outY >= height) continue;
@@ -302,14 +357,24 @@ function drawObjects(
         let blue = 0;
         let alpha = 255;
 
-        if (tile) {
-          const sourceX = hFlip ? 7 - px : px;
-          const sourceY = vFlip ? 7 - py : py;
-          const colorIndex = decodePixel(tile, bitDepth, sourceX, sourceY);
+        if (parsedCgx) {
+          const sourceX = hFlip ? objectWidth - 1 - px : px;
+          const sourceY = vFlip ? objectHeight - 1 - py : py;
+          const pixelOffset =
+            tileBase +
+            ((sourceX & 0xfff8) << 3) +
+            ((sourceY & 0xfff8) << 7) +
+            (sourceX & 0x7) +
+            ((sourceY & 0x7) << 3);
+          const colorIndex = parsedCgx.pixels[pixelOffset] ?? 0;
           if (colorIndex === 0) {
             alpha = 0;
           } else {
-            [red, green, blue] = getPaletteRgb(parsedCol, paletteRow, colorIndex, bitDepth);
+            const paletteIndex =
+              bitDepth === 8
+                ? cgramOffset + colorIndex
+                : cgramOffset + paletteRow * 16 + colorIndex;
+            [red, green, blue] = getPaletteRgb(parsedCol, paletteIndex, bitDepth);
           }
         } else {
           const base = (record.tileIndex + px + py) & ((1 << Math.min(bitDepth, 4)) - 1);
@@ -332,6 +397,22 @@ function formatHex(value: number, width = 2): string {
   return `0x${value.toString(16).toUpperCase().padStart(width, '0')}`;
 }
 
+function buildGroups(records: ObjRecord[], mode: GroupMode): ObjGroup[] {
+  const frameSize = mode === 'frame64' ? 64 : 128;
+  const groups: ObjGroup[] = [];
+  for (let i = 0; i < records.length; i += frameSize) {
+    const frameRecords = records.slice(i, i + frameSize);
+    if (frameRecords.length > 0) {
+      const shown = frameRecords.filter((record) => record.display).length;
+      groups.push({
+        label: `${frameSize}-entry frame ${Math.floor(i / frameSize) + 1} (${shown} shown)`,
+        records: frameRecords,
+      });
+    }
+  }
+  return groups;
+}
+
 function SnesObjViewer() {
   const [objBuffer, setObjBuffer] = useState<Uint8Array | null>(null);
   const [cgxBuffer, setCgxBuffer] = useState<Uint8Array | null>(null);
@@ -341,24 +422,78 @@ function SnesObjViewer() {
   const [scale, setScale] = useState(3);
   const [paletteMode, setPaletteMode] = useState<PaletteMode>('attr');
   const [manualPaletteRow, setManualPaletteRow] = useState(0);
-  const [flagFilter, setFlagFilter] = useState('all');
+  const [groupMode, setGroupMode] = useState<GroupMode>('frame64');
+  const [groupIndex, setGroupIndex] = useState(0);
+  const [objectSizeMode, setObjectSizeMode] = useState(0);
+  const [vramOffset, setVramOffset] = useState(0);
+  const [cgramOffset, setCgramOffset] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const parsedObj = useMemo(() => (objBuffer ? parseObj(objBuffer) : null), [objBuffer]);
   const parsedCgx = useMemo(() => (cgxBuffer ? parseCgx(cgxBuffer, bitDepth) : null), [cgxBuffer, bitDepth]);
   const parsedCol = useMemo(() => (colBuffer ? parseCol(colBuffer) : null), [colBuffer]);
 
-  const filteredRecords = useMemo(() => {
-    if (!parsedObj) return [];
-    if (flagFilter === 'all') return parsedObj.records;
-    const wanted = Number.parseInt(flagFilter, 16);
-    return parsedObj.records.filter((record) => record.flag === wanted);
-  }, [parsedObj, flagFilter]);
+  useEffect(() => {
+    if (!parsedObj) return;
+    const likelyMode = parsedObj.recordRegionBytes >= 49152 ? 'frame128' : 'frame64';
+    setGroupMode(likelyMode);
+  }, [parsedObj]);
+
+  const groups = useMemo(() => buildGroups(parsedObj?.records || [], groupMode), [parsedObj, groupMode]);
+  const visibleRecords = useMemo(() => {
+    if (groups.length === 0) return [];
+    const safeIndex = Math.max(0, Math.min(groupIndex, groups.length - 1));
+    return groups[safeIndex]?.records ?? [];
+  }, [groups, groupIndex]);
+
+  useEffect(() => {
+    setGroupIndex(0);
+  }, [objBuffer, groupMode]);
 
   useEffect(() => {
     if (!canvasRef.current || !parsedObj) return;
-    drawObjects(canvasRef.current, filteredRecords, parsedCgx, parsedCol, bitDepth, scale, paletteMode, manualPaletteRow);
-  }, [filteredRecords, parsedObj, parsedCgx, parsedCol, bitDepth, scale, paletteMode, manualPaletteRow]);
+    drawObjects(
+      canvasRef.current,
+      visibleRecords,
+      parsedCgx,
+      parsedCol,
+      bitDepth,
+      scale,
+      paletteMode,
+      manualPaletteRow,
+      objectSizeMode,
+      vramOffset,
+      cgramOffset,
+    );
+  }, [
+    visibleRecords,
+    parsedObj,
+    parsedCgx,
+    parsedCol,
+    bitDepth,
+    scale,
+    paletteMode,
+    manualPaletteRow,
+    objectSizeMode,
+    vramOffset,
+    cgramOffset,
+  ]);
+
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (groups.length <= 1) return;
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        setGroupIndex((current) => Math.max(0, current - 1));
+      } else if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        setGroupIndex((current) => Math.min(groups.length - 1, current + 1));
+      }
+    }
+
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [groups.length]);
 
   const palettePreview = useMemo(() => {
     if (!parsedCol) return null;
@@ -371,18 +506,23 @@ function SnesObjViewer() {
     if (!canvas) return;
     const link = document.createElement('a');
     link.href = canvas.toDataURL('image/png');
-    link.download = `${objName}.png`;
+    const suffix = groups.length > 1 ? `-frame-${groupIndex + 1}` : '';
+    link.download = `${objName}${suffix}.png`;
     link.click();
   }
 
   return (
     <div style={{ display: 'grid', gap: '1rem' }}>
+      <div style={{ overflow: 'auto', border: '1px solid #ccc', padding: '0.5rem', background: '#111' }}>
+        <canvas ref={canvasRef} />
+      </div>
+
       <div>
-        <p>Load an SNES `.OBJ` file to render its object layout. Add matching `.CGX` and `.COL` files to see the real tiles and palettes.</p>
+        <p>Load an SNES `.OBJ` or `.OBX` file to render its framed object data. Add matching `.CGX` and `.COL` files to see the real tiles and palettes. The VRAM and CGRAM offsets default to `0` for direct companion-file viewing.</p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
           <label>
-            OBJ:
-            <div><FileUpload accept=".obj,.OBJ" onLoad={(buffer, file) => { setObjBuffer(buffer); setObjName(file?.name || 'object-layout'); }} /></div>
+            OBJ / OBX:
+            <div><FileUpload accept=".obj,.OBJ,.obx,.OBX" onLoad={(buffer, file) => { setObjBuffer(buffer); setObjName(file?.name || 'object-layout'); }} /></div>
           </label>
           <label>
             CGX:
@@ -419,16 +559,76 @@ function SnesObjViewer() {
         </label>
 
         <label>
-          Flag filter:
-          <select value={flagFilter} onChange={(event) => setFlagFilter(event.target.value)} style={{ marginLeft: '0.5rem' }}>
-            <option value="all">All</option>
-            {parsedObj?.flags.map((flag) => (
-              <option key={flag} value={flag.toString(16)}>
-                {formatHex(flag, 4)}
+          Frame mode:
+          <select value={groupMode} onChange={(event) => setGroupMode(event.target.value as GroupMode)} style={{ marginLeft: '0.5rem' }}>
+            <option value="frame64">64-entry frames</option>
+            <option value="frame128">128-entry frames</option>
+          </select>
+        </label>
+
+        <label>
+          OBJ size:
+          <select value={objectSizeMode} onChange={(event) => setObjectSizeMode(Number(event.target.value))} style={{ marginLeft: '0.5rem' }}>
+            {Object.entries(OBJECT_SIZE_SETTINGS).map(([key, value]) => (
+              <option key={key} value={key}>
+                {value.label}
               </option>
             ))}
           </select>
         </label>
+
+        <label>
+          VRAM offset:
+          <input
+            type="number"
+            value={vramOffset}
+            onChange={(event) => setVramOffset(Number(event.target.value) || 0)}
+            style={{ marginLeft: '0.5rem', width: '6rem' }}
+          />
+        </label>
+
+        <label>
+          CGRAM offset:
+          <input
+            type="number"
+            value={cgramOffset}
+            onChange={(event) => setCgramOffset(Number(event.target.value) || 0)}
+            style={{ marginLeft: '0.5rem', width: '6rem' }}
+          />
+        </label>
+
+        {groups.length > 1 && (
+          <>
+            <button
+              type="button"
+              onClick={() => setGroupIndex((current) => Math.max(0, current - 1))}
+              disabled={groupIndex <= 0}
+            >
+              Previous Frame
+            </button>
+            <label>
+              Frame:
+              <select
+                value={groupIndex}
+                onChange={(event) => setGroupIndex(Number(event.target.value))}
+                style={{ marginLeft: '0.5rem', maxWidth: '18rem' }}
+              >
+                {groups.map((group, index) => (
+                  <option key={`${group.label}-${index}`} value={index}>
+                    {index + 1}. {group.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <button
+              type="button"
+              onClick={() => setGroupIndex((current) => Math.min(groups.length - 1, current + 1))}
+              disabled={groupIndex >= groups.length - 1}
+            >
+              Next Frame
+            </button>
+          </>
+        )}
 
         <label>
           Palette mode:
@@ -468,10 +668,29 @@ function SnesObjViewer() {
             <strong>Metadata tail:</strong> {parsedObj.metadataTailBytes.toLocaleString()} bytes
           </div>
           <div>
-            <strong>Active records:</strong> {filteredRecords.length.toLocaleString()} of {parsedObj.activeCount.toLocaleString()}
+            <strong>Displayed records:</strong> {parsedObj.displayedCount.toLocaleString()}
           </div>
           <div>
-            <strong>Flags:</strong> {parsedObj.flags.map((flag) => formatHex(flag, 4)).join(', ')}
+            <strong>Visible slots:</strong> {visibleRecords.length.toLocaleString()}
+          </div>
+          <div>
+            <strong>Groups:</strong> {groups.length.toLocaleString()}
+            {groups.length > 0 ? ` (${groups[Math.max(0, Math.min(groupIndex, groups.length - 1))].label})` : ''}
+          </div>
+          <div>
+            <strong>OBJ size mode:</strong> {OBJECT_SIZE_SETTINGS[objectSizeMode as keyof typeof OBJECT_SIZE_SETTINGS]?.label}
+          </div>
+          <div>
+            <strong>VRAM offset:</strong> {vramOffset}
+          </div>
+          <div>
+            <strong>CGRAM offset:</strong> {cgramOffset}
+          </div>
+          <div>
+            <strong>Byte 1 values:</strong> {parsedObj.byte1Values.map((value) => formatHex(value, 2)).join(', ')}
+          </div>
+          <div>
+            <strong>Byte 2 values:</strong> {parsedObj.groupInfoValues.slice(0, 16).map((value) => formatHex(value, 2)).join(', ')}
           </div>
           <div>
             <strong>Sample attrs:</strong> {parsedObj.attrs.slice(0, 16).map((attr) => formatHex(attr, 2)).join(', ')}
@@ -507,13 +726,9 @@ function SnesObjViewer() {
         </div>
       )}
 
-      <div style={{ overflow: 'auto', border: '1px solid #ccc', padding: '0.5rem', background: '#111' }}>
-        <canvas ref={canvasRef} />
-      </div>
-
       <p>
-        This viewer treats each record as <code>flag</code>, packed <code>X/Y</code>, and packed <code>tile/attr</code>.
-        When palette mode is set to <code>Use OBJ attr bits 1-3</code>, the viewer interprets the low byte like a SNES sprite attribute byte.
+        This viewer treats each entry as byte <code>1</code> display and size flags, byte <code>2</code> group info, byte <code>3</code> <code>Y</code>, byte <code>4</code> <code>X</code>, byte <code>5</code> attributes, and byte <code>6</code> tile number.
+        When palette mode is set to <code>Use OBJ attr bits 1-3</code>, the viewer interprets the attribute byte like a SNES sprite attribute field and only draws entries whose display bit is set.
       </p>
     </div>
   );
