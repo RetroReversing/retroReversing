@@ -266,6 +266,10 @@ html {
     padding-left: 0 !important;
 }
 
+.rr-connected-folder-tree__body p {
+    padding-left: 10px !important;
+}
+
 .rr-connected-folder-tree__body > :first-child {
     margin-top: 0;
 }

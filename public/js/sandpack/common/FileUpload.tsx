@@ -1,7 +1,7 @@
 import React from "react";
 interface FileUploadProps {
   accept: string;
-  onLoad: (buffer: Uint8Array) => void;
+  onLoad: (buffer: Uint8Array, file?: File) => void;
 }
 
 /**
@@ -15,7 +15,7 @@ function FileUpload({ accept, onLoad }: FileUploadProps) {
     const reader = new FileReader();
     reader.onload = () => {
       const buffer = new Uint8Array(reader.result as ArrayBuffer);
-      onLoad(buffer);
+      onLoad(buffer, file);
     };
     reader.readAsArrayBuffer(file);
   }

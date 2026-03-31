@@ -493,6 +493,87 @@ The layout branch retained a minimal local graphics and palette payload for comp
 
 ---
 
+## Deep dive on under-documented format families
+
+The two highest-value remaining format families are `MET*` and `LICENSE*`.
+
+Both families preserve cross-file evidence (`SCR`, `CGX`, `COL`) and clear variant behavior.
+
+### MET family structure and variant behavior
+
+The `MET*` set is broader than the earlier meter discussion and appears to encode several HUD or mission-meter modes.
+
+Family slice | Files | Size pattern | What it suggests
+---|---|---|---
+Core meter layouts | `M7-METER.SCR`, `M7-METER-B.SCR`, `METER.SCR`, `METER-B.SCR` | all `8,960` | Shared base meter grammar across two naming namespaces
+Course meter variants | `METERC00.SCR`, `METERC00-B.SCR`, `METERC01.SCR`, `METERC01-B.SCR` | all `8,960` | Course-specific meter branches with A/B-style alternates
+Mode-specific meter layouts | `MET.SCR`, `MET-PARA.SCR` | all `8,960` | Meter behavior tied to a specific discipline or mission mode
+Meter graphics banks | `MET.CGX`, `MET-B.CGX`, `MET-S.CGX` | all `34,048` | Three graphics-bank variants feeding the meter layout side
+
+The opening words show four distinct meter-template classes:
+
+* `M7-METER` and `METER` families open with repeated `0x0080`
+* `METERC00` family opens with repeated `0x0030`
+* `METERC01` family opens with repeated `0x002D` before switching later
+* `MET`/`MET-PARA` family opens with repeated `0x0029`
+
+This means the meter system was not one template with small edits.
+
+It was a small cluster of related layout templates tuned for different course or discipline contexts.
+
+Pairwise diff evidence reinforces that reading:
+
+Pair | First differing byte | Reading
+---|---:|---
+`M7-METER.SCR` vs `METER.SCR` | identical | Same layout body survives under both names across folders
+`M7-METER.SCR` vs `M7-METER-B.SCR` | `93` | Small branch on top of shared base
+`METER.SCR` vs `METER-B.SCR` | `93` | Same branch point behavior as `M7-METER` pair
+`METERC00.SCR` vs `METERC00-B.SCR` | `87` | Late-ish divergence after shared prefix
+`METERC01.SCR` vs `METERC01-B.SCR` | `93` | Similar branch offset to meter B variants
+`METERC00.SCR` vs `METERC01.SCR` | `1` | Different course variant from first word onward
+`MET.SCR` vs `MET-PARA.SCR` | `79` | Shared front block with mode-specific edits afterward
+
+The practical implication is a two-layer meter pipeline:
+
+* shared meter base templates for broad HUD structure
+* per-course and per-discipline branches for mission-specific tuning
+
+### LICENSE family and localization behavior
+
+The `LICENSE*` family is one of the clearest UI/localization format clusters in the branch.
+
+Family slice | Files | Size pattern | What it suggests
+---|---|---|---
+License screens | `LICENSE.SCR`, `LICENSE-ENG.SCR`, `LICENSE2.SCR`, `LICENSE2-ENG.SCR` | all `8,960` | Two layout generations with English-localized pairs
+License graphics | `LICENSE.CGX`, `LICENSE-ENG.CGX` | both `34,048` | Dedicated localized graphics banks, not only layout swaps
+License palette | `LICENSE.COL` | `1,024` | Shared palette anchor for the license screen family
+
+All four `SCR` files begin with repeated `0x0CB2`, which suggests a shared screen template skeleton.
+
+But they are not duplicates:
+
+Pair | First differing byte | Reading
+---|---:|---
+`LICENSE.SCR` vs `LICENSE-ENG.SCR` | `777` | English variant keeps long common prefix, then diverges
+`LICENSE2.SCR` vs `LICENSE2-ENG.SCR` | `777` | Same localization branch point in second layout generation
+`LICENSE.SCR` vs `LICENSE2.SCR` | `407` | Second generation diverges earlier than language variants
+`LICENSE.CGX` vs `LICENSE-ENG.CGX` | `2,561` | Localized graphics banks share large common prefix before diverging
+
+Revision depth is also visible in the graphics backups:
+
+* `LICENSE.CGX` vs `LICENSE.CGX.BAK` first diff at byte `4,746`
+* `LICENSE-ENG.CGX` vs `LICENSE-ENG.CGX.BAK` first diff at byte `10,259`
+
+That combination suggests the family was maintained as a deliberate localization pipeline:
+
+* common template base
+* language-specific layout divergence at stable offsets
+* dedicated localized graphics banks with their own revision history
+
+This is stronger than a one-off translated screen and looks like a proper reusable front-end localization workflow.
+
+---
+
 ## Timestamp forensics
 
 Date behavior in NEWS_04 needs caution.

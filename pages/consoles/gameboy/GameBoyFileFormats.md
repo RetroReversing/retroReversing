@@ -71,21 +71,24 @@ Real project folders often mix them together in the same working directory.
 ## Graphics, Audio, and Data Files
 The asset side of the Game Boy workflow is just as revealing as the code side.
 The Zelda DX folders are especially useful here because they preserve active art, layout, and map work rather than just final ROMs.
+The newer DMG Zelda art folders are helpful too, because they preserve matching `CGX`, `COL`, and `SCR` sets like `end-demo-A.*`, `end-demo-B.*`, and `wak.*` rather than only loose graphics banks.
 
 Extension | What it usually is | What we now know
 ---|---|---
 `.CHR` | Character/tile graphics | Standard 2bpp tile graphics used by the Game Boy family. Files like `C1.CHR` through `C8.CHR` appear repeatedly in both DMG and CGB branches
-`.CGX` | Graphics resource file | Very close in role to `.CHR`, but used much more heavily in the Color-era content folders. In Zelda DX these hold title graphics, event graphics, room graphics, UI assets, and region-specific art
+`.CGX` | Graphics resource file | Much closer to a raw tile bank than older writeups implied. In both DMG and CGB workspaces these hold title graphics, event graphics, room graphics, and UI assets. DMG-targeted folders such as `z-dmg-zelda` show that `.CGX` is not automatically "color graphics": many of those banks are still plain 2bpp Game Boy tile data, just stored under the CAD-style `.CGX` extension rather than `.CHR`
 `.HEX` | Plain text or assembler-friendly data blob | In Nintendo Game Boy projects this is often audio-related rather than generic random data. Zelda DX uses `BGM_1.HEX`, `BGM_2.HEX`, `BGM_1F.HEX`, and `SE.HEX` for music and sound effect content
 `.BIN` | Raw binary data blob | A generic binary payload. In Zelda DX, folders like `New_sound` contain binary exports such as `bgm_1.bin`, `bgm_2.bin`, and `se.bin`
-`.CDT` | Color definition or color layout data | Strongly suggested by the `COLOR` and `COLOR2` folders in Zelda DX, where large banks of `.CDT` files sit beside graphics rather than code
-`.COL` | Color or palette-related data | Likely related to palette or color layout workflows, though the leaked Game Boy examples are much clearer for `.CDT` than for `.COL`
-`.SCR` | Screen or layout resource | Much more than a vague "screen file". In Zelda DX these appear as room and menu layout resources such as `ROOM20.SCR`, `ROOM20c.SCR`, `name_1.scr`, and `TEST1.SCR`
+`.CDT` | Color definition or color-layout data | The Zelda DX `COLOR` and `COLOR2` folders make this much firmer than before. Large banks of `.CDT` files sit beside graphics and map resources, which strongly suggests editor-side color definitions or color-layout tables rather than code
+`.COL` | Color or palette-related data | The DMG Zelda art folders make this much less vague than it used to be. Files such as `end-demo-A.COL`, `end-demo-B.COL`, `end-demo-C.COL`, and `wak.COL` sit directly beside matching `.CGX` and `.SCR` files, which supports the idea that `.COL` was the color or palette companion to a specific graphics/layout set rather than a random standalone blob
+`.SCR` | Screen or layout resource | Not just a vague "screen file". In Zelda DX these appear as room and menu layout resources such as `ROOM20.SCR`, `ROOM20c.SCR`, `name_1.scr`, and `TEST1.SCR`, while the DMG Zelda art folders preserve same-name `.SCR` companions for files like `end-demo-A`, `end-demo-B`, and `wak`. That makes the broad layering much clearer: `.CGX` stores the tile graphics, `.COL` stores the matching color data when needed, and `.SCR` stores the composed screen or layout side
 `.MDT` | Map data file | Seen concretely in Zelda DX as `zel_map1.MDT` and `zel_map2.MDT`, which strongly supports the idea that it is editable map data
 `.PDT` | Panel or attribute-related data | Found beside `.PNL` files in `ATR` and `ATR2`, suggesting layout or attribute resources rather than code
 `.PNL` | Panel or attribute layout resource | The Zelda DX `ATR2` folders make this much less mysterious than before. These look like editor-produced panel or attribute files used alongside other layout resources
 
 The broad pattern is that Nintendo's Game Boy projects often kept graphics, color definitions, maps, and layout files as their own editable layers rather than baking everything directly into the source code.
+The most important refinement now is that the extension alone does not tell you whether a graphics bank is monochrome or color.
+A `.CGX` file in a DMG-targeted workspace can still be ordinary 2bpp Game Boy tile data, while the matching `.SCR` and `.COL` files tell you how that bank was actually being laid out or colored inside the editor pipeline.
 
 ---
 ## ICE and Debugger Support Files
@@ -118,5 +121,4 @@ Tool | Role
 `isas32` | Later assembler used heavily in Color-era branches
 `islk32` | Later linker used with the newer assembler flow
 `isd` | Debugger front end used with ICE startup scripts and debugger images
-
 

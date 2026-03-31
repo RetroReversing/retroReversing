@@ -18,7 +18,7 @@ recommend:
 - fileformats
 editlink: /consoles/snes/SNESFileFormats.md
 updatedAt: '2026-03-30'
-excerpt: Evidence-backed SNES file formats from leaked Nintendo workspaces and source trees
+excerpt: SNES file formats from leaked Nintendo workspaces and source trees
 ---
 
 # Super Famicom / SNES File Formats
@@ -46,13 +46,14 @@ Editor code, game code, support libraries, and content pipelines often lived in 
 ---
 ## Graphics, Layout, and UI Formats
 The workstation-side asset formats are where the recent leak work has taught us the most.
+The deeper breakdown below now follows the same order the data tends to build up in practice: palette data in `.COL`, tile graphics in `.CGX`, then composed screen layouts in `.SCR`.
 
 Extension | What it usually is | What we now know
 ---|---|---
 `.SCR` | Screen or layout table | In the Mario Kart and SimCity art workspaces these are not raw images. They are fixed-layout screen or tile composition files, very often `8,960` bytes, built from structured 16-bit entries
 `.OBJ` | Object or object-layout data | In Mario Kart and SimCity these are fixed-capacity object-layout containers, often `13,568` bytes, with repeated short record patterns rather than graphic data
 `.CGX` | Character or tile graphics bank | One of the main Nintendo workstation graphics formats. In the art branches it holds text banks, menu graphics, object graphics, environment banks, and larger panel or HUD graphics
-`.COL` | Palette data | Strongly looks like packed color tables. In Mario Kart and SimCity these are very often `1,024` bytes and sit directly beside `SCR` and `CGX` files
+`.COL` | Palette data | Packed color tables. In Mario Kart and SimCity these are very often `1,024` bytes and sit directly beside `SCR` and `CGX` files
 `.MAP` | Map or area data | Seen heavily in Zelda SNES and the Mario Kart source tree. The name covers editable layout-side map resources rather than final ROM-only representations
 `.MD7` | Raw Mode 7 map data | Clearly visible in the Mario Kart art branch as `32,768` byte map files like `C.MD7` and `S.MD7`
 `.BAK` | Backup revision | Not a format in the gameplay sense, but an important part of how Nintendo workspaces were preserved. These are real earlier revisions, not just meaningless duplicates
@@ -64,7 +65,7 @@ They were not just painting final screens and baking them immediately into ROM.
 ---
 ## What the Wider Leak Adds
 The strongest new clue does not come from a single game folder.
-It comes from the wider `NEWS_04` restore, where Nintendo's workstation files preserve what looks like the CAD tool's own native working area.
+It comes from the wider `NEWS_04` restore, where Nintendo's workstation files preserve the CAD tool's own native working area.
 
 The most useful paths are:
 
@@ -111,302 +112,6 @@ The numbered CAD samples also make it easier to separate per-format roles.
 That is another good sign that Nintendo's toolchain was using several related containers for different stages of the same screen or object workflow rather than one generic binary dump.
 
 ---
-## What SCR Looks Like in Practice
-`.SCR` is one of the most common and most misunderstood formats in the leaks.
-
-The evidence now points in a much clearer direction:
-
-* many Nintendo SNES workstation `.SCR` files are exactly `8,960` bytes
-* they read as structured 16-bit values rather than bitmap pixels
-* their openings often look like ordered tile or layout tables, not compressed art
-
-<img src="/public/images/snes/CAD-TOOL-SCR.jpg" class="wow slideInLeft postImage" />
-
-The surviving CAD-tool screenshot is especially helpful here because it shows the format in its native context.
-The tool exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` as separate operations, which matches the exact layer split now visible in the SimCity and Mario Kart workspaces.
-
-A few examples:
-
-File | Opening pattern | Reading
----|---|---
-Mario Kart `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022`, `0x0023` | ordered layout/table entries
-Mario Kart `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` | another structured layout table
-SimCity `TOWN.SCR` | repeating low 16-bit values like `0x0601`, `0x100B`, `0x100C` | patterned screen composition data
-SimCity `bank-ji.SCR` | long run of `0x03FF` | special-purpose text or bank screen rather than ordinary menu art
-
-The safest current reading is that `.SCR` is an editor-side screen composition format built from 16-bit layout entries.
-It is close to “screen data,” but more precisely it looks like a reusable workstation layout table rather than a one-to-one PPU dump.
-
-Some files also show template reuse.
-In the SimCity branch, `SELECT-SCENARIO.SCR` and `INPUT1.SCR` share the same opening structure before diverging later, which suggests the team was building multiple UI screens from a shared composition base.
-
-### What We Can Say More Precisely About SCR
-The strongest low-level clues now are:
-
-* the files are consistently word-oriented rather than byte-oriented
-* many openings look like ordered tile or table IDs
-* some files are dominated by long repeated words, which suggests fill regions or template blocks
-
-That is easy to see in a few representative openings:
-
-File | First words | Likely reading
----|---|---
-SimCity `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022` ... `0x0060`, `0x0061` | ordered tile/table sequence
-SimCity `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` ... | layout table with a sentinel-like opening word
-Mario Kart `TITLE.SCR` | `0x00D9` repeated | large fill or repeated template region
-Mario Kart `DOKAN.SCR` | `0x1C00`, `0x1C01`, `0x5C01`, `0x5C00` repeating | strongly patterned tile/flip arrangement
-SimCity `bank-ji.SCR` | `0x03FF` repeated | special-purpose screen or text-bank support layout
-
-So while we still cannot name every bitfield, `.SCR` now looks much more like:
-
-* a 16-bit screen-composition format
-* with room for repeated fill regions and template reuse
-* probably storing tile IDs plus per-entry flags rather than raw pixels
-
-### The Strongest Current Model for SCR
-At least in the SimCity `SIM` workspace, the file structure now looks much clearer than before.
-
-An `8,960` byte `.SCR` file appears to break into three broad parts:
-
-Range | Size | Likely role
----|---:|---
-`0x0000` to `0x1fff` | `2,048` bytes | first `32x32` tilemap-like block
-`0x2000` to `0x3fff` | `2,048` bytes | second `32x32` tilemap-like block
-`0x4000` to `0x5fff` | `2,048` bytes | third `32x32` tilemap-like block
-`0x6000` to `0x7fff` | `2,048` bytes | fourth `32x32` tilemap-like block
-`0x8000` to `0x80ff` | `256` bytes | tool metadata block
-`0x8100` to `0x82ff` | `512` bytes | trailer or reserved tail region
-
-That first `8,192` byte region is the key insight.
-It is exactly four `2,048` byte chunks, and each `2,048` byte chunk is exactly `1,024` 16-bit entries, which matches a `32x32` tilemap very neatly.
-
-That means the current best working model is:
-
-* `.SCR` stores four `32x32` layout blocks, likely forming a larger editor canvas
-* then appends a small metadata area
-* then appends a final trailer region that may hold sentinels, padding, or editor-side state
-
-### The Metadata Block Is Real, Not Just Garbage
-The most surprising clue is what happens at offset `0x2000` words, or byte `8192`.
-
-In several SimCity `.SCR` files, the `256` byte block after the four tilemap-sized chunks begins with the same ASCII tool signature seen in `.SFX`:
-
-`NAK1989 S-CG-CADVer...`
-
-That means `.SCR` is not only “screen layout data.”
-At least in the SimCity pipeline, it is a container that mixes:
-
-* raw layout tables
-* a small embedded tool metadata block
-* a final trailer area
-
-This is a much stronger result than the earlier generic description, because it suggests the workstation was saving editor-state information directly inside the screen file rather than only in a separate sidecar.
-
-That also lines up very well with the surviving CAD-tool screenshot from the same broader Nintendo workstation ecosystem.
-The UI explicitly exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` operations side by side, which is exactly the same layered split now visible in the SimCity file set.
-
-### The First Four Blocks Really Do Behave Like Reusable Screen Chunks
-The repeated layout blocks make the four-part model even more convincing.
-
-For example:
-
-* `SELECT-SCENARIO.SCR` has the same opening words at word `0` and word `1024`
-* `MAP-SELECT.SCR` shows the same thing
-* `TOWN.SCR` repeats the same opening pattern at words `0`, `1024`, `2048`, and `3072`
-
-So the front of these files does not look like one long scrolling stream of tile entries.
-It looks like several fixed screen-sized layout blocks packed into one editor-side container.
-
-### The Four SCR Blocks Do Not All Play the Same Role
-The CAD-native samples help here too.
-`CAD-0.SCR` does not repeat the same leading words across all four blocks:
-
-* block `0` begins with `0x2001` repeated
-* block `1` begins with `0xFC01` repeated
-* blocks `2` and `3` begin as all zeroes
-
-That matters because it suggests the four `32x32` blocks are not simply four clones of one screen.
-They look more like four addressable screen-sized layers or pages inside one CAD container.
-
-By contrast, SimCity's `TOWN.SCR` repeats the same opening words across all four blocks:
-
-* `0x0601`
-* `0x0601`
-* `0x100B`
-* `0x100C`
-
-That suggests some files were using all four blocks as matching layout pages, while others were only actively populating the first one or two.
-
-The trailer is also more patterned than it first appeared.
-`CAD-0.SCR` alternates `0xFFFF` and `0x0000` pairs near the end, while `TOWN.SCR` ends in a solid run of `0xFFFF`.
-So the final `512` byte region probably was not random padding.
-It looks more like a reserved editor-side tail with stable sentinel behavior.
-
----
-## What OBJ Looks Like in Practice
-`.OBJ` is another format that is much clearer now than it used to be.
-
-In both Mario Kart and SimCity, the files look like structured object-placement or object-text records rather than graphics:
-
-* they commonly appear at `13,568` bytes
-* they break naturally into short repeating groups
-* they sit beside text banks, menu screens, and object-facing graphics
-
-The Mario Kart object files are especially revealing because many of them read cleanly as repeating 3-word entries.
-For example, files like `JUGEM.OBJ`, `POLE.OBJ`, and `CAR.OBJ` open with repeated triples that look much more like compact object definitions than tile data.
-
-The SimCity side adds another clue:
-
-* `MOJI.OBJ` and `SCENARIO.OBJ` share the same opening record pattern
-* `INPUT.OBJ` is shaped differently and looks tied to the input workflow
-
-So the current best reading is:
-
-* `.OBJ` is not generic “object graphics”
-* it is an object-side placement or assembly format
-* in UI-heavy projects it can also carry object-form text layout data
-
-The native CAD samples tighten that up further.
-`CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it keeps the same compact 3-word rhythm:
-
-* `0080 08F8 3331`
-* `0080 00F8 3231`
-* `0080 F8F8 3131`
-
-So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
-
-### What the OBJ Record Shape Seems to Be
-Across both Mario Kart and SimCity, the most convincing structural reading is a repeating 3-word record model.
-
-Representative openings:
-
-File | First record triples
----|---
-SimCity `MOJI.OBJ` | `[0x0080, 0xCAB2, 0x3030]`, `[0x0080, 0xCAAA, 0x2030]`, `[0x0080, 0x18C0, 0x8C30]`
-SimCity `SCENARIO.OBJ` | same opening triples as `MOJI.OBJ`
-SimCity `INPUT.OBJ` | `[0x0000, 0xE0E0, 0x7130]`, `[0x0000, 0xE8E0, 0x6130]`, `[0x0000, 0xF0E0, 0x7030]`
-Mario Kart `CAR.OBJ` | `[0x0080, 0xF8F8, 0xB333]`, `[0x0080, 0xF0F8, 0xB233]`, `[0x0080, 0xE8F8, 0xB133]`
-Mario Kart `JUGEM.OBJ` | `[0x0080, 0xED00, 0x0C30]`, `[0x0080, 0xEDF8, 0x0E30]`, `[0x0080, 0xEDF0, 0x0E30]`
-Mario Kart `POLE.OBJ` | `[0x0080, 0x18F8, 0x333A]`, `[0x0080, 0x10F8, 0x323A]`, `[0x0080, 0x18F0, 0x233A]`
-
-That gives us a stronger working model:
-
-* word 1 often behaves like a control or active-record marker
-* word 2 often behaves like a packed coordinate or placement value
-* word 3 often behaves like a tile, attribute, or object-type value
-
-That is still an inference, but it is now a much narrower one than “some kind of object data.”
-
----
-## What CGX Looks Like in Practice
-`.CGX` is the main graphics bank format.
-
-In the recent leak work it appears in a few very common size classes:
-
-Size | Where it shows up | Reading
----|---|---
-`17,664` bytes | smaller text and utility banks in SimCity and Mario Kart | compact tile or glyph bank
-`34,048` bytes | common menu, UI, object-text, and title banks | larger graphics or panel bank
-`65,792` bytes | large shared Mario Kart bank like `BG-ITEM.CGX` | very large packed graphics set
-
-The important thing is not the exact byte count alone, but the role.
-`.CGX` is consistently where Nintendo kept reusable character, tile, text, or panel graphics before they were assembled into complete screens.
-
-The surviving CAD-tool screenshot is especially helpful here too.
-Its left-hand controls explicitly show `4bit` and `8*8`, which strongly suggests the tool was editing at least some `CGX` banks as raw 8x8 4bpp SNES tiles rather than as a higher-level wrapped image format.
-
-<img src="/public/images/snes/SNES-CGE.jpg" class="wow slideInLeft postImage" />
-
-### What the Size Tiers Probably Mean
-The repeated size classes now look meaningful enough to treat as separate tiers rather than random project choices.
-
-Tier | Common sizes | Likely role
----|---|---
-Small text/utilities | `17,664` bytes | compact glyph banks, helper graphics, smaller text resources
-Standard UI banks | `34,048` bytes | title graphics, menu panels, object-text banks, larger icon sets
-Large shared banks | `65,792` bytes | broad multi-purpose environment or item banks
-
-SimCity shows the split very clearly:
-
-* top-level `KANJI.CGX` and `OBJ-MOJI.CGX` are both `34,048` bytes, but they behave differently
-* inside `SIM/is`, `moji.CGX`, `mojiA.CGX`, and `kanji.CGX` are all `17,664` bytes and look like a separate smaller text tier
-
-That suggests Nintendo's tools were not just saving “graphics” in one generic container.
-They were likely using a few stable bank sizes depending on whether the asset was a compact glyph set, a standard UI bank, or a much larger shared bank.
-
-The CAD-native `CGX` banks are also behaving like raw tile banks rather than wrapper formats.
-For example, `CAD-1.CGX` begins immediately with dense graphic-looking bytes such as:
-
-* `00 00 00 3F 1F 5F 3F 7F`
-* `3F 7F 3C 7C 38 78 38 78`
-
-while SimCity banks such as `KANJI.CGX` and `OBJ-MOJI.CGX` show very different early bytes but the same broad fixed-size bank behavior.
-
-That does not give us a full tile decode yet, but it does support a few practical conclusions:
-
-* `.CGX` probably does not carry a large structured header
-* it looks like direct character or tile-plane data from the start of the file
-* different size tiers likely reflect different bank capacities, not different container grammars
-
-### CGX Sizes Fit Raw 8x8 Tile Banks Well
-The common size classes also line up cleanly with raw SNES tile math.
-
-If you treat `.CGX` as 4bpp SNES character data, where each 8x8 tile takes `32` bytes, the standard file sizes become:
-
-Size | 4bpp tile count
----|---:
-`17,664` bytes | `552` tiles
-`34,048` bytes | `1,064` tiles
-`65,792` bytes | `2,056` tiles
-
-That is a very clean fit.
-It does not prove that every bank is 4bpp, but it is much more convincing than the older idea that these files needed a large hidden wrapper or a non-tile-oriented decode.
-
-The CAD screenshot strengthens that further because it shows `4bit` mode directly in the editor UI.
-So the safest current working model for a viewer is:
-
-* default to `8x8` tiles
-* default to `4bpp` for ordinary `CGX`
-* allow `2bpp` as an explicit option for special banks like `BG2bit.CGX`
-
-### Many CGX Files End in Blank or Fill Tiles
-The tails of the files are also informative.
-
-Representative endings:
-
-File | Tail behavior | Reading
----|---|---
-CAD `CAD-0.CGX` | ends with repeated `0x04` bytes | likely filled or reserved tile area
-SimCity `KANJI.CGX` | ends with repeated `0x02` bytes | another fill-like tail rather than a text header
-Mario Kart `MOJI.CGX` | last `92` bytes mostly zero | bank ends with partial blank area
-Mario Kart `TITLE.CGX` | last `399` bytes are zero | large blank tile tail
-
-That matters because it makes the format look even more like a raw tile bank.
-Instead of ending in obvious metadata, many files simply taper off into empty or fill-like tile space.
-
-### What This Means for a Viewer
-We are now close to having enough to build a useful `CGX` viewer.
-
-The current best assumptions are:
-
-* read the file from byte `0` as raw tile data
-* render it as `8x8` SNES character tiles
-* default to `4bpp`
-* support `2bpp` for files whose names or companion assets suggest a reduced-bit-depth bank
-* treat trailing zero or fill tiles as unused space rather than parsing them as a separate footer format
-
-What we still do not know with confidence is whether some projects also used `8bpp` banks under the same extension.
-So a practical viewer should probably expose a bit-depth toggle rather than hard-coding one mode forever.
-
-You can inspect a `.CGX` file directly below.
-This viewer treats the file as raw SNES tile data from byte zero, defaults to `4bpp`, and lets you switch bit depth when a bank like `BG2bit.CGX` needs a different decode.
-
-<rr-sandpack
-  template="react-ts"
-  app="/public/js/sandpack/examples/SnesCgxViewer.tsx">
-</rr-sandpack>
-
----
 ## What COL Looks Like in Practice
 `.COL` looks much more like raw palette data than older writeups tended to imply.
 
@@ -421,7 +126,7 @@ So the practical reading is simple:
 * `.CGX` is the graphics bank
 * `.COL` is the matching color table
 
-The current evidence also suggests `.COL` is usually an editor-side companion to a particular screen or graphics family rather than a project-global palette blob.
+`.COL` is usually an editor-side companion to a particular screen or graphics family rather than a project-global palette blob.
 That is why the files so often sit directly beside matching `SCR` and `CGX` names.
 
 For Super Mario Kart specifically, this matches how modern editors like Epic Edit read the format:
@@ -460,11 +165,11 @@ An ordinary `1,024` byte `.COL` file contains:
 * `512` little-endian 16-bit words
 * which divides cleanly into `32` groups of `16` colors
 
-That is the strongest current structural model:
+The structural model is:
 
 * `.COL` is a 32-row palette bank
 * each row holds 16 colors
-* the rows were likely meant to be consumed by different screen, tile, or object groups inside the CAD environment
+* the rows were consumed by different screen, tile, or object groups inside the CAD environment
 
 This fits the data better than treating the file as one flat pool of unrelated colors, because the values keep clustering cleanly into 16-color runs across multiple projects.
 
@@ -483,7 +188,7 @@ For example:
 * SimCity `BG2bit.COL` has `230` nonzero colors in the first half, `127` in the second
 * Mario Kart `TITLE.COL` has `237` nonzero colors in the first half, `137` in the second
 
-That suggests the later rows were often reserved, unused, or only partly populated rather than being a mandatory second image-sized block.
+The later rows were often reserved, unused, or only partly populated rather than being a mandatory second image-sized block.
 
 ### The First Entry in a 16-Color Row Often Behaves Like Transparency
 Another recurring pattern is what happens every 16 words.
@@ -499,11 +204,11 @@ That is especially obvious in SimCity `BG2bit.COL`, where the first entry of man
 That is exactly the sort of pattern you would expect if the format was organized around 16-color SNES palettes where color slot `0` often acts as a transparent or backdrop color.
 
 The same pattern is weaker but still visible in the CAD and Mario Kart files.
-So the safest current reading is:
+So `.COL`:
 
-* `.COL` stores palette rows, not arbitrary standalone colors
+* stores palette rows, not arbitrary standalone colors
 * many rows keep a conventional slot-zero black or transparent-like entry
-* the format is closely aligned with real SNES color usage rather than being a workstation-only abstract color list
+* is closely aligned with real SNES color usage rather than being a workstation-only abstract color list
 
 ### The Words Decode Cleanly as SNES-Style Colors
 The color values themselves also decode sensibly if read as SNES-style 15-bit colors.
@@ -581,6 +286,335 @@ Here are the first `16` palette rows from the title screen as full swatches:
 </div>
 
 ---
+## What CGX Looks Like in Practice
+`.CGX` is the main graphics bank format.
+
+In the recent leak work it uses a few very common size classes:
+
+Size | Where it shows up | Reading
+---|---|---
+`17,664` bytes | smaller text and utility banks in SimCity and Mario Kart | compact tile or glyph bank
+`34,048` bytes | common menu, UI, object-text, and title banks | larger graphics or panel bank
+`65,792` bytes | large shared Mario Kart bank like `BG-ITEM.CGX` | very large packed graphics set
+
+The important thing is not the exact byte count alone, but the role.
+`.CGX` is consistently where Nintendo kept reusable character, tile, text, or panel graphics before they were assembled into complete screens.
+
+The surviving CAD-tool screenshot is especially helpful here too.
+Its left-hand controls explicitly show `4bit` and `8*8`, which means the tool was editing at least some `CGX` banks as raw 8x8 4bpp SNES tiles rather than as a higher-level wrapped image format.
+
+<img src="/public/images/snes/SNES-CGE.jpg" class="wow slideInLeft postImage" />
+
+### What the Size Tiers Mean
+The repeated size classes are meaningful enough to treat as separate tiers rather than random project choices.
+
+Tier | Common sizes | Role
+---|---|---
+Small text/utilities | `17,664` bytes | compact glyph banks, helper graphics, smaller text resources
+Standard UI banks | `34,048` bytes | title graphics, menu panels, object-text banks, larger icon sets
+Large shared banks | `65,792` bytes | broad multi-purpose environment or item banks
+
+SimCity shows the split very clearly:
+
+* top-level `KANJI.CGX` and `OBJ-MOJI.CGX` are both `34,048` bytes, but they behave differently
+* inside `SIM/is`, `moji.CGX`, `mojiA.CGX`, and `kanji.CGX` are all `17,664` bytes and look like a separate smaller text tier
+
+Nintendo's tools were not just saving “graphics” in one generic container.
+They were using a few stable bank sizes depending on whether the asset was a compact glyph set, a standard UI bank, or a much larger shared bank.
+
+The CAD-native `CGX` banks are also behaving like raw tile banks rather than wrapper formats.
+For example, `CAD-1.CGX` begins immediately with dense graphic-looking bytes such as:
+
+* `00 00 00 3F 1F 5F 3F 7F`
+* `3F 7F 3C 7C 38 78 38 78`
+
+while SimCity banks such as `KANJI.CGX` and `OBJ-MOJI.CGX` show very different early bytes but the same broad fixed-size bank behavior.
+
+That does not give us a full tile decode yet, but it does support a few practical conclusions:
+
+* `.CGX` does not carry a large structured header
+* it is direct character or tile-plane data from the start of the file
+* different size tiers reflect different bank capacities, not different container grammars
+
+### CGX Sizes Fit Raw 8x8 Tile Banks Well
+The common size classes also line up cleanly with raw SNES tile math.
+
+If you treat `.CGX` as 4bpp SNES character data, where each 8x8 tile takes `32` bytes, the standard file sizes become:
+
+Size | 4bpp tile count
+---|---:
+`17,664` bytes | `552` tiles
+`34,048` bytes | `1,064` tiles
+`65,792` bytes | `2,056` tiles
+
+That is a very clean fit.
+It does not prove that every bank is 4bpp, but it is much more convincing than the older idea that these files needed a large hidden wrapper or a non-tile-oriented decode.
+
+The CAD screenshot strengthens that further because it shows `4bit` mode directly in the editor UI.
+So a viewer should:
+
+* default to `8x8` tiles
+* default to `4bpp` for ordinary `CGX`
+* allow `2bpp` as an explicit option for special banks like `BG2bit.CGX`
+
+### Many CGX Files End in Blank or Fill Tiles
+The tails of the files are also informative.
+
+Representative endings:
+
+File | Tail behavior | Reading
+---|---|---
+CAD `CAD-0.CGX` | ends with repeated `0x04` bytes | filled or reserved tile area
+SimCity `KANJI.CGX` | ends with repeated `0x02` bytes | another fill-like tail rather than a text header
+Mario Kart `MOJI.CGX` | last `92` bytes mostly zero | bank ends with partial blank area
+Mario Kart `TITLE.CGX` | last `399` bytes are zero | large blank tile tail
+
+That matters because it makes the format look even more like a raw tile bank.
+Instead of ending in obvious metadata, many files simply taper off into empty or fill-like tile space.
+
+### What This Means for a Viewer
+The format is clear enough to support a reliable `CGX` viewer.
+
+The viewer model is:
+
+* read the file from byte `0` as raw tile data
+* render it as `8x8` SNES character tiles
+* default to `4bpp`
+* support `2bpp` for files whose names or companion assets mark a reduced-bit-depth bank
+* treat trailing zero or fill tiles as unused space rather than parsing them as a separate footer format
+
+Some projects may also have used `8bpp` banks under the same extension.
+So a practical viewer should expose a bit-depth toggle rather than hard-coding one mode forever.
+
+You can inspect a `.CGX` file directly below.
+This viewer treats the file as raw SNES tile data from byte zero, defaults to `4bpp`, and lets you switch bit depth when a bank like `BG2bit.CGX` needs a different decode.
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesCgxViewer.tsx">
+</rr-sandpack>
+
+---
+## What SCR Looks Like in Practice
+`.SCR` is one of the most common and most misunderstood formats in the leaks.
+
+The format now reads clearly:
+
+* many Nintendo SNES workstation `.SCR` files are exactly `8,960` bytes
+* they read as structured 16-bit values rather than bitmap pixels
+* their openings often look like ordered tile or layout tables, not compressed art
+
+<img src="/public/images/snes/CAD-TOOL-SCR.jpg" class="wow slideInLeft postImage" />
+
+The surviving CAD-tool screenshot is especially helpful here because it shows the format in its native context.
+The tool exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` as separate operations, which matches the exact layer split now visible in the SimCity and Mario Kart workspaces.
+
+A few examples:
+
+File | Opening pattern | Reading
+---|---|---
+Mario Kart `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022`, `0x0023` | ordered layout/table entries
+Mario Kart `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` | another structured layout table
+SimCity `TOWN.SCR` | repeating low 16-bit values like `0x0601`, `0x100B`, `0x100C` | patterned screen composition data
+SimCity `bank-ji.SCR` | long run of `0x03FF` | special-purpose text or bank screen rather than ordinary menu art
+
+`.SCR` is an editor-side screen composition format built from 16-bit layout entries.
+It is reusable workstation layout data rather than a one-to-one PPU dump.
+
+Some files also show template reuse.
+In the SimCity branch, `SELECT-SCENARIO.SCR` and `INPUT1.SCR` share the same opening structure before diverging later, which shows the team was building multiple UI screens from a shared composition base.
+
+### What We Can Say More Precisely About SCR
+The strongest low-level clues now are:
+
+* the files are consistently word-oriented rather than byte-oriented
+* many openings look like ordered tile or table IDs
+* some files are dominated by long repeated words, marking fill regions or template blocks
+
+That is easy to see in a few representative openings:
+
+File | First words | Reading
+---|---|---
+SimCity `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022` ... `0x0060`, `0x0061` | ordered tile/table sequence
+SimCity `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` ... | layout table with a sentinel-like opening word
+Mario Kart `TITLE.SCR` | `0x00D9` repeated | large fill or repeated template region
+Mario Kart `DOKAN.SCR` | `0x1C00`, `0x1C01`, `0x5C01`, `0x5C00` repeating | strongly patterned tile/flip arrangement
+SimCity `bank-ji.SCR` | `0x03FF` repeated | special-purpose screen or text-bank support layout
+
+So `.SCR` is:
+
+* a 16-bit screen-composition format
+* with repeated fill regions and template reuse
+* storing tile IDs plus per-entry flags rather than raw pixels
+
+### The SCR Container Layout
+The SimCity `SIM` workspace shows the structure clearly.
+
+An `8,960` byte `.SCR` file breaks into three broad parts:
+
+Range | Size | Role
+---|---:|---
+`0x0000` to `0x1fff` | `2,048` bytes | first `32x32` tilemap-like block
+`0x2000` to `0x3fff` | `2,048` bytes | second `32x32` tilemap-like block
+`0x4000` to `0x5fff` | `2,048` bytes | third `32x32` tilemap-like block
+`0x6000` to `0x7fff` | `2,048` bytes | fourth `32x32` tilemap-like block
+`0x8000` to `0x80ff` | `256` bytes | tool metadata block
+`0x8100` to `0x82ff` | `512` bytes | trailer or reserved tail region
+
+That first `8,192` byte region is the key insight.
+It is exactly four `2,048` byte chunks, and each `2,048` byte chunk is exactly `1,024` 16-bit entries, which matches a `32x32` tilemap very neatly.
+
+The structure is:
+
+* `.SCR` stores four `32x32` layout blocks forming a larger editor canvas
+* then appends a small metadata area
+* then appends a final trailer region that may hold sentinels, padding, or editor-side state
+
+### The Metadata Block Is Real, Not Just Garbage
+The most surprising clue is what happens at offset `0x2000` words, or byte `8192`.
+
+In several SimCity `.SCR` files, the `256` byte block after the four tilemap-sized chunks begins with the same ASCII tool signature seen in `.SFX`:
+
+`NAK1989 S-CG-CADVer...`
+
+That means `.SCR` is not only “screen layout data.”
+At least in the SimCity pipeline, it is a container that mixes:
+
+* raw layout tables
+* a small embedded tool metadata block
+* a final trailer area
+
+This means the workstation was saving editor-state information directly inside the screen file rather than only in a separate sidecar.
+
+That also lines up very well with the surviving CAD-tool screenshot from the same broader Nintendo workstation ecosystem.
+The UI explicitly exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` operations side by side, which is exactly the same layered split now visible in the SimCity file set.
+
+### The First Four Blocks Really Do Behave Like Reusable Screen Chunks
+The repeated layout blocks make the four-part model even more convincing.
+
+For example:
+
+* `SELECT-SCENARIO.SCR` has the same opening words at word `0` and word `1024`
+* `MAP-SELECT.SCR` shows the same thing
+* `TOWN.SCR` repeats the same opening pattern at words `0`, `1024`, `2048`, and `3072`
+
+So the front of these files is not one long scrolling stream of tile entries.
+It is several fixed screen-sized layout blocks packed into one editor-side container.
+
+### The Four SCR Blocks Do Not All Play the Same Role
+The CAD-native samples help here too.
+`CAD-0.SCR` does not repeat the same leading words across all four blocks:
+
+* block `0` begins with `0x2001` repeated
+* block `1` begins with `0xFC01` repeated
+* blocks `2` and `3` begin as all zeroes
+
+That matters because the four `32x32` blocks are not simply four clones of one screen.
+They act as four addressable screen-sized layers or pages inside one CAD container.
+
+By contrast, SimCity's `TOWN.SCR` repeats the same opening words across all four blocks:
+
+* `0x0601`
+* `0x0601`
+* `0x100B`
+* `0x100C`
+
+Some files use all four blocks as matching layout pages, while others actively populate only the first one or two.
+
+The trailer is also more patterned than it first appeared.
+`CAD-0.SCR` alternates `0xFFFF` and `0x0000` pairs near the end, while `TOWN.SCR` ends in a solid run of `0xFFFF`.
+So the final `512` byte region was not random padding.
+It is a reserved editor-side tail with stable sentinel behavior.
+
+### What the SCR Words Actually Look Like
+The strongest breakthrough is that the main `8,192` byte layout region does not just look vaguely table-like.
+It behaves like standard SNES background tilemap words.
+
+Across Mario Kart, SimCity, and the native CAD samples, the same bit split keeps working:
+
+Bits | Meaning | Why it fits
+---|---|---
+`0-9` | Tile number | the low ten bits vary in the same way you would expect from tile references
+`10-12` | Palette row | files use small palette ranges like `0-3` or `0-7`, which matches SNES palette-bank selection
+`13` | Priority | some files toggle this bit while still keeping sensible tile IDs
+`14` | Horizontal flip | patterned files like `DOKAN.SCR` show symmetrical high-bit variants
+`15` | Vertical flip | the highest bit toggles in the same places as other tile-orientation style changes
+
+That matters because the layout side is no longer just a broad guess.
+An `.SCR` file stores four editor-side `32x32` SNES BG tilemaps, then appends CAD metadata and a trailer.
+
+### A Real Render Test Works
+The cleanest proof came from Mario Kart.
+When `TITLE.SCR` was rendered as four `32x32` blocks using that standard SNES tilemap model, with `TITLE.CGX` decoded as raw `4bpp` tiles and `TITLE.COL` used as the palette bank, the result produced a coherent Super Mario Kart title image instead of noise.
+
+That tells us three very useful things at once:
+
+* the tile numbers are real tile references
+* the palette bits are selecting the right color rows
+* the file is not some custom packed image format hiding behind the `.SCR` extension
+
+The viewer below uses that same decode.
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesScrViewer.tsx">
+</rr-sandpack>
+
+---
+## What OBJ Looks Like in Practice
+`.OBJ` is another format that is now straightforward to describe.
+
+In both Mario Kart and SimCity, the files look like structured object-placement or object-text records rather than graphics:
+
+* they commonly appear at `13,568` bytes
+* they break naturally into short repeating groups
+* they sit beside text banks, menu screens, and object-facing graphics
+
+The Mario Kart object files are especially revealing because many of them read cleanly as repeating 3-word entries.
+For example, files like `JUGEM.OBJ`, `POLE.OBJ`, and `CAR.OBJ` open with repeated triples that look much more like compact object definitions than tile data.
+
+The SimCity side adds another clue:
+
+* `MOJI.OBJ` and `SCENARIO.OBJ` share the same opening record pattern
+* `INPUT.OBJ` is shaped differently and looks tied to the input workflow
+
+So `.OBJ` is:
+
+* `.OBJ` is not generic “object graphics”
+* it is an object-side placement or assembly format
+* in UI-heavy projects it can also carry object-form text layout data
+
+The native CAD samples tighten that up further.
+`CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it keeps the same compact 3-word rhythm:
+
+* `0080 08F8 3331`
+* `0080 00F8 3231`
+* `0080 F8F8 3131`
+
+So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
+
+### The OBJ Record Shape
+Across both Mario Kart and SimCity, the most convincing structural reading is a repeating 3-word record model.
+
+Representative openings:
+
+File | First record triples
+---|---
+SimCity `MOJI.OBJ` | `[0x0080, 0xCAB2, 0x3030]`, `[0x0080, 0xCAAA, 0x2030]`, `[0x0080, 0x18C0, 0x8C30]`
+SimCity `SCENARIO.OBJ` | same opening triples as `MOJI.OBJ`
+SimCity `INPUT.OBJ` | `[0x0000, 0xE0E0, 0x7130]`, `[0x0000, 0xE8E0, 0x6130]`, `[0x0000, 0xF0E0, 0x7030]`
+Mario Kart `CAR.OBJ` | `[0x0080, 0xF8F8, 0xB333]`, `[0x0080, 0xF0F8, 0xB233]`, `[0x0080, 0xE8F8, 0xB133]`
+Mario Kart `JUGEM.OBJ` | `[0x0080, 0xED00, 0x0C30]`, `[0x0080, 0xEDF8, 0x0E30]`, `[0x0080, 0xEDF0, 0x0E30]`
+Mario Kart `POLE.OBJ` | `[0x0080, 0x18F8, 0x333A]`, `[0x0080, 0x10F8, 0x323A]`, `[0x0080, 0x18F0, 0x233A]`
+
+That gives us a concrete record model:
+
+* word 1 often behaves like a control or active-record marker
+* word 2 often behaves like a packed coordinate or placement value
+* word 3 often behaves like a tile, attribute, or object-type value
+
+That is much narrower than the old “some kind of object data” label.
+
 ## What SFX Means in These Leaks
 `.SFX` is the most unusual SNES format we can now talk about with confidence.
 
@@ -594,8 +628,8 @@ That tells us a few useful things immediately:
 * it is not just a random project-local binary blob either
 * it is a tool-side sidecar produced by a dedicated `S-CG-CAD` graphics or layout tool
 
-The payloads after the header differ per screen, which suggests they preserve screen-specific metadata rather than one shared stub.
-`TOWN.SFX` is especially valuable because it has a much denser payload than the other files and appears to contain several internal configuration regions.
+The payloads after the header differ per screen, which means they preserve screen-specific metadata rather than one shared stub.
+`TOWN.SFX` is especially valuable because it has a much denser payload than the other files and contains several internal configuration regions.
 
 The CAD-tool screenshot helps here too.
 It makes `SFX FILE` look much more like a saved editor-side metadata or project-state operation than a gameplay format, which is exactly how the SimCity sidecars behave on disk.
@@ -617,14 +651,14 @@ That tells us two useful things:
 * `sfx_main` was an actual SRD CAD-side tool component, not just a strange suffix in one SimCity branch
 * the `.SFX` sidecars and `sfx_main` naming belong to the same workstation ecosystem
 
-So the safest current reading is that `.SFX` does not mean one general Nintendo binary format.
-It means a CAD-tool metadata and loader layer inside SRD's Super Famicom art pipeline.
+So `.SFX` does not mean one general Nintendo binary format.
+It is a CAD-tool metadata and loader layer inside SRD's Super Famicom art pipeline.
 
 The tiny `.DAT` files paired with the manifests help here too.
 `CAD.sfx_main.DAT` and `sfx_main.DAT` are only `120` bytes long, but they are clearly structured binary records rather than text.
 That makes them look like project-state or transfer-parameter files used by `sfx_main`, not screen assets in their own right.
 
-### What the SFX Field Layout Seems to Look Like
+### What the SFX Field Layout Looks Like
 The SimCity sidecars are now clear enough to sketch a working structure.
 
 Common pattern:
@@ -634,9 +668,9 @@ Common pattern:
 * around `0x0100`: first short control block
 * later regions: screen-specific payloads
 
-The best example is `TOWN.SFX`, which appears to have at least these active regions:
+The best example is `TOWN.SFX`, which has at least these active regions:
 
-Range | Likely role
+Range | Role
 ---|---
 `0x0030` to `0x005f` | setup flags and small counters
 `0x0100` to `0x015f` | denser setup/control block
@@ -645,13 +679,13 @@ Range | Likely role
 `0x0400` to `0x04ef` | structured lower block
 `0x0500` to `0x05ef` | second lower block with similar shape
 
-That suggests `.SFX` is not just one flat parameter list.
-At least in SimCity, it looks like a serialized multi-block tool record for a screen definition.
+`.SFX` is not one flat parameter list.
+At least in SimCity, it is a serialized multi-block tool record for a screen definition.
 
 ### OBX Looks Like a Sister CAD Container
 The wider leak also hints at a second CAD-side object container: `.OBX`.
 
-What we can say so far:
+The direct `.OBX` findings are:
 
 * `CAD-0.OBX` and `CAD-3.OBX` survive directly inside `.CAD_SRD`
 * `CAD-0.OBX` is larger than its matching `CAD-0.OBJ`, at `51,456` bytes versus `26,880`
@@ -663,12 +697,12 @@ That makes `.OBX` look less like a random duplicate and more like a companion ob
 The exact field meanings still need work, but it clearly belongs to the same CAD ecosystem as `.OBJ`, `.SCR`, and `.SFX`.
 
 ### OBJ and OBX Do Not Behave the Same Way
-The direct CAD samples make the split much clearer than before.
+The direct CAD samples make the split clear.
 
 File | Size | First active offset | Reading
 ---|---:|---:|---
 `CAD-0.OBJ` | `26,880` | `0` | live object-style records begin immediately
-`CAD-0.OBX` | `51,456` | `624` | delayed start, sparse active regions, likely companion container
+`CAD-0.OBX` | `51,456` | `624` | delayed start, sparse active regions, companion container
 `CAD-3.OBJ` | `26,880` | `24,576` | mostly header and late active block only
 `CAD-3.OBX` | `26,880` | `24,576` | identical active tail to `CAD-3.OBJ`
 
@@ -686,7 +720,7 @@ The first live words show the contrast nicely.
 * `0080 0018 1B31`
 
 So `.OBX` does not just look bigger.
-It looks like a differently structured object-side container, probably preserving extra staging or banked object state that the plain `.OBJ` layer does not keep.
+It is a differently structured object-side container that preserves extra staging or banked object state that the plain `.OBJ` layer does not keep.
 
 One especially interesting detail is that `CAD-3.OBJ` and `CAD-3.OBX` are identical in size and both only become active at offset `24,576`.
 That makes them look like late-stage header-plus-tail containers rather than live fully populated editing banks.
@@ -720,10 +754,10 @@ It also includes older project paths like `.../arimoto/SF2/...`, which makes it 
 That makes `caddat` look like a compact project-state or recent-work record rather than a graphics bank.
 The `CAR/XX*` strings are especially interesting because they bridge this generic CAD workspace back toward the Mario Kart-style art branches.
 
-The safest current reading is:
+The current reading is:
 
-* `cadd` is probably the broader CAD-side program, session, or environment state container
-* `caddat` is probably a smaller associated project-data or current-work record
+* `cadd` is the broader CAD-side program, session, or environment state container
+* `caddat` is a smaller associated project-data or current-work record
 
 Neither file is decoded yet, but both now look like part of the same workstation toolchain rather than unrelated binary leftovers.
 
@@ -736,7 +770,7 @@ Extension | What it usually is | What we now know
 `.MD7` | Mode 7 map data | In the Mario Kart art branch these are raw `32 KB` files that look like dense structured map data rather than graphics
 `.MAP` | Editable map-side resource | Used in broader SNES art and source trees for room, area, or world layout data
 
-One useful detail from Mario Kart is that `C.MD7` and `CCC1.MD7` are identical while `S.MD7` is different, which suggests the files are stable raw map bodies rather than volatile export wrappers.
+One useful detail from Mario Kart is that `C.MD7` and `CCC1.MD7` are identical while `S.MD7` is different, which shows the files are stable raw map bodies rather than volatile export wrappers.
 
 ### What MD7 Looks Like at the Data Level
 The leaked `.MD7` files are useful because they do not behave like compressed art or wrapper files.
@@ -751,7 +785,7 @@ For example:
 
 * `C.MD7` begins with values like `0x08F0`, `0x08F0`, `0x08F0`, `0x07F0`
 * `S.MD7` has a different distribution and even includes more `0x0000` entries
-* `C.MD7` and `CCC1.MD7` are identical, which strongly suggests these are actual map bodies rather than one-off export sessions with volatile headers
+* `C.MD7` and `CCC1.MD7` are identical, confirming that these are actual map bodies rather than one-off export sessions with volatile headers
 
 So `.MD7` now looks much more like a raw Mode 7 map or cell table than a graphics format.
 

@@ -156,6 +156,47 @@ node scripts/generate-placeholder-social-images.js
 - `npm install` to install the Node rasterizer used for JPG output
 - Optional: `brew install librsvg` for `rsvg-convert` fallback support
 
+## convert-scr-to-png.js
+
+Converts Nintendo workstation `.SCR` layout files into PNGs using the matching `.CGX` graphics bank and optional `.COL` palette bank. In folder mode it also writes a standalone PNG tile-sheet for every `.CGX` it finds.
+
+### Usage
+```bash
+node scripts/convert-scr-to-png.js <file.scr|folder> [options]
+```
+
+### Options
+- `--cgx <file>` - Path to the matching `.CGX` file
+- `--col <file>` - Path to the matching `.COL` file
+- `--out <file>` - Output PNG path
+- `--bit-depth <n>` - Force `2`, `4`, or `8`
+- `--block <mode>` - Render `all`, `0`, `1`, `2`, or `3`
+- `--help` - Show usage
+
+### Default behavior
+- If you pass only a `.SCR` file, the script looks for a `.CGX` with the same basename in the same folder
+- It also looks for a `.COL` with the same basename in the same folder
+- If no `.COL` is found, it still renders using a grayscale fallback
+- If no bit depth is forced, the script tries to auto-detect it from the `.SCR` tile references and the `.CGX` size
+- If you pass a folder, the script scans it recursively and converts every `.SCR` it finds
+- In folder mode, it also renders every `.CGX` it finds as `filename.CGX.png`
+- For those standalone `.CGX` renders it uses:
+  - the same-name `.COL` first
+  - otherwise the closest-named sibling `.COL`
+  - otherwise grayscale
+- If a same-name `.SCR` exists beside a `.CGX`, the script uses it for bit-depth auto-detection
+- In folder mode, `--out` should be a directory. The script mirrors the source subfolder structure inside it
+- In folder mode, do not pass `--cgx` or `--col`. Each `.SCR` auto-matches its own sibling files
+
+### Examples
+```bash
+node scripts/convert-scr-to-png.js /path/to/TITLE.SCR
+node scripts/convert-scr-to-png.js /path/to/workspace/
+node scripts/convert-scr-to-png.js /path/to/workspace/ --out /tmp/rendered-scr/
+node scripts/convert-scr-to-png.js /path/to/TITLE.SCR --cgx /path/to/TITLE.CGX --col /path/to/TITLE.COL
+node scripts/convert-scr-to-png.js /path/to/end-demo-A.SCR --bit-depth 2 --out /tmp/end-demo-A.png
+```
+
 ## GitHub Action Integration
 
 The repository includes a GitHub Action (`.github/workflows/markdown-validation.yml`) that automatically runs these scripts on pull requests to ensure content quality.

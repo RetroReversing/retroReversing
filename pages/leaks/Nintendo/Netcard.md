@@ -111,11 +111,15 @@ Because this Netcard infrastructure required constant server-side connectivity, 
 5. **New Chinese Input Method** - A native Chinese localization input mechanism was built into the offline GBA game specifically to enable complex chat features within the newly designed 3F Communication Lobby.
 
 ---
-## The Fate of VNG (gba.tar)
-The 2.3 GB `gba.tar` archive included in the `netcard` folder has often been confusingly labelled as a GBA-focused SDK archive due to its placement. However, examining its internal file tree reveals an incredible twist in Nintendo's history!
+## The Birth of IOS and the Fate of VNG
+The most historic revelation discovered within these documents is how deeply the cancelled GBA Netcard influenced the future of Nintendo hardware.
 
-The massive repository does *not* contain standard GBA tools. It is an offline subversion depot (`depot-offline/sw/`) specifically containing the networking source code for **TWL** (Nintendo DSi), **RVL** (Nintendo Wii), and **IOS** (the Wii's Internal Operating System/eTicket system). 
+Looking into the actual GBA source code inside `iqgba.tar` (`nc_lobby.c`), the Netcard natively boots using `<sc/ios.h>` and starts its server matchmaking loops through explicit `IOS_CreateThread()` calls. **IOS** stands for Internal Operating System—the notoriously secure, proprietary operating system developed by BroadOn that eventually powered the entirety of the Nintendo Wii's background network processing.
 
-Crucially, inside `depot-offline/sw/common/lib/p2p/api/`, the archive explicitly preserves `vng_api.c`. This reveals that BroadOn's ambitious `VNG` matchmaking and networking API—originally conceptualized in 2004 exclusively for the Game Boy Advance Netcard connection—did not die with the project's cancellation!
+This source code confirms that BroadOn successfully prototyped and implemented the core foundations of the Nintendo Wii's IOS directly onto the primitive Game Boy Advance processor *years* before the Wii even launched!
 
-Instead, BroadOn took the underlying topology of the VNG Matchmaking API, massively scaled it up, and integrated it directly into the Nintendo Wii (RVL) and DSi (TWL) base operating systems to power the `es` (eTicket/eShop) networking infrastructure. The cancelled GBA Pokemon offline networking project directly laid the technical foundation for Nintendo's very first modern digital storefronts!
+This is completely corroborated by `gba.tar`, the massive 2.3 GB archive sitting next to it. Far from being a GBA SDK, `gba.tar` is actually an offline subversion depot (`depot-offline/sw/`) containing the entire finalized networking source code for **TWL** (Nintendo DSi) and **RVL** (Nintendo Wii) and the finished target **IOS**.
+
+Crucially, inside `depot-offline/sw/common/lib/p2p/api/`, the `gba.tar` Wii repository explicitly preserves `vng_api.c`. The `VNG` matchmaking and peer-to-peer networking API conceptualized in 2004 exclusively for the Game Boy Advance Netcard did not die with its cancellation.
+
+Instead, BroadOn took the underlying VNG Matchmaking topology and the rudimentary GBA IOS implementation, massively scaled them up, and integrated them directly into the Nintendo Wii and DSi base operating systems to power the `es` (eTicket/eShop) networking infrastructure. The cancelled Game Boy Advance online Pokémon project was literally the technological birthplace of Nintendo's modern digital networking ecosystem.

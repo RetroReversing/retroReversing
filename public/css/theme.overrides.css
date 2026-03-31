@@ -108,6 +108,11 @@ body {
   padding-left: 5%;
 }
 
+.row li p {
+  /* This handles the case where markdown sometimes puts a p tag inside a li */
+  padding-left: 0px !important;
+}
+
 .dataTables_filter input {
   border: 1px lightgrey solid;
   margin-top: 10px;
