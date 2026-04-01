@@ -9,7 +9,7 @@
   <!-- /header -->
 
   <!-- main -->
-  {% include breadcrumbs.html %}
+  {% include_cached breadcrumbs.html breadcrumbs=page.breadcrumbs %}
   
   {% include carousel.html %}
 
@@ -28,6 +28,6 @@
   </section>
   <!-- /main -->
   
-  {% include footer.html %}
+  {% include_cached footer.html %}
 </body>
 </html>

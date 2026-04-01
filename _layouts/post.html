@@ -10,9 +10,9 @@
   <!-- /header -->
 
   <!-- main -->
-  {% include breadcrumbs.html %}
+  {% include_cached breadcrumbs.html breadcrumbs=page.breadcrumbs %}
   
-  {% include video-header.html %}
+  {% include_cached video-header.html youtube=page.youtube image=page.image %}
   
   {% include video-carousel.html %}
 
@@ -37,7 +37,7 @@
   </section>
   <!-- /main -->
 
-  {% include footer.html %}
+  {% include_cached footer.html %}
 
  
 </body>
