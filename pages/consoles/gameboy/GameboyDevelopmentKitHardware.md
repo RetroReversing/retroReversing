@@ -58,7 +58,7 @@ Its batch files and debugger script make the older workflow unusually legible:
 * `isd` launched the debugger session
 * `START.ICE` told the debugger to load `SGB_MAIN`, map `CHRDAT.COM` into bank 2 at `$4000`, and then run against the DMG ICE environment
 
-{% include link-to-other-post.html post="/super-game-boy-sdk" description="For a concrete preserved example of the DMG ICE workflow in action, see the Super Game Boy sample package." %}
+{% include_cached link-to-other-post.html post="/super-game-boy-sdk" description="For a concrete preserved example of the DMG ICE workflow in action, see the Super Game Boy sample package." %}
 
 
 ## IS-CGB-EMU (Nintendo Game Boy Color Emulator)
@@ -78,7 +78,7 @@ Its Color-era build folders still preserve debugger-ready `.ISX` outputs, `.prn`
 
 The Super Game Boy sample package and the Zelda DX source leak preserve the PC-side tools and debugger metadata that would have been used with this hardware in practice.
 
-{% include link-to-other-post.html post="/game-boy-file-formats" description="For the file formats used by this toolchain, including `.ISX`, `.ICE`, `.PRN`, and the debugger sidecar files, see this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-file-formats" description="For the file formats used by this toolchain, including `.ISX`, `.ICE`, `.PRN`, and the debugger sidecar files, see this post." %}
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I picked up a cool GBC dev kit. The IS-CGB-Emulator. I love the cartridge and cable that connects the handheld to the unit. Does anyone else have one of these or even the GBA version? Please post photos of your kit. I’d love to see it :) <a href="https://t.co/NDhShaEToK">pic.twitter.com/NDhShaEToK</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1335466371463794688?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> 
 

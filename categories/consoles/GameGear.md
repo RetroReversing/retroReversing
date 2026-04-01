@@ -66,7 +66,7 @@ This section of our guide will provide you with comprehensive information and re
 ## Official Development Hardware
 We have a specific post all about the known Game Gear development hardware such as the development board and the ZAX-ICE **ERX308** that was used:
 
-{% include link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
 
 ### Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
@@ -81,7 +81,7 @@ You can find out more including lots of images on [Video Games Densetsu: The Seg
 
 ## Third Party Development Hardware
 There is one known third party development kit called **Krisalis** which we have a separate post about:
-{% include link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For information about the Krisalis 3rd party development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For information about the Krisalis 3rd party development hardware check out this post." %}
 
 ---
 # Software Development Kit

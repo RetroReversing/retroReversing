@@ -36,7 +36,7 @@ The Nintendo Gigaleak preserves a compact but very revealing Star Fox source dro
 Unlike the F-Zero leak, this one is not laid out as loose source folders from the start.
 It survives as two separate LZH archives: one for the main game/build tree and one for the map package that the main makefile expects to assemble into the final ROM.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
 
 ---
 ## At a Glance

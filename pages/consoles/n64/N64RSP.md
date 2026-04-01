@@ -39,11 +39,11 @@ The functionality of the RSP was first described in an interview with `George Za
 </div>
 </section>
 
-{% include link-to-other-post.html post="/n64rdp" description="For more information about the second half of the RCP known as the Reality Display Processor check out this post." %}
+{% include_cached link-to-other-post.html post="/n64rdp" description="For more information about the second half of the RCP known as the Reality Display Processor check out this post." %}
 
 You can think of the RSP as a more powerful version of the Sony PlayStation's Geometry Transformation Engine (GTE) in terms of functionality, but the RDP was a huge benefit over the PlayStation as it was able to do effects such as Texture Perspective correction.
 
-{% include link-to-other-post.html post="/ps1" description="For more information about Sony's answer to the Geometry calculation problem known as the GTE check out this post." %}
+{% include_cached link-to-other-post.html post="/ps1" description="For more information about Sony's answer to the Geometry calculation problem known as the GTE check out this post." %}
 
 ## Usage of RSP for Graphics
 Common tasks given to the RSP for graphical data processing are:

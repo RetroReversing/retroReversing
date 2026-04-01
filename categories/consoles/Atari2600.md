@@ -65,7 +65,7 @@ In the UK magazine **Zero** issue 7 there is an interview with the game develope
 ## Are there any Atari Reverse Engineered games or active projects?
 Before diving in its best to check if there are any existing reversing projects for the Atari 2600 that you can contribute to, check out our other post specifically on this topic:
 
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of disassembled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of disassembled games check out this post." %}
 
 ### Haunted House Disassembly
 [brandonrobertz](https://github.com/brandonrobertz) provides a commented disassembly of the classic Atari 2600 game **Haunted House**, often cited as one of the first survival horror titles. The repository includes the reverse-engineered 6502 assembly source code compatible with the DASM assembler, allowing developers to analyze the game's logic or rebuild the ROM from scratch.

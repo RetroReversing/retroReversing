@@ -580,7 +580,7 @@ While not quite a Lot Check release, you might also be interested in the **DSiWa
 
 These were sent to iQue for localisation for the Chinese market and were presumably taken from the Lot Check archive by Nintendo SPD.
 
-{% include link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
+{% include_cached link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
 
 ---
 # References

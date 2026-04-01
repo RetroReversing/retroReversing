@@ -55,7 +55,7 @@ In the sections below we will try to list any audio or video recordings we can f
 GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
 
 We have so much content on the GDC that we had to split this section out into its **own post** you can find it below:
-{% include link-to-other-post.html post="/gdc" description="For more information about the Game Developers Conference check out this post." %}
+{% include_cached link-to-other-post.html post="/gdc" description="For more information about the Game Developers Conference check out this post." %}
 
 ---
 # SIGGRAPH

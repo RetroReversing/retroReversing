@@ -1,9 +1,9 @@
 <!-- recommended-sidebar  -->
-{% assign related_topics = page.recommend | default: page.tags %}
+{% assign related_topics = include.recommend | default: include.tags %}
 {% if related_topics %}
   <div class="widget widget-videos">
-    {% if page.recommendTitle %}
-       <h5 class="widget-title">{{ page.recommendTitle }}</h5>
+   {% if include.recommend_title %}
+     <h5 class="widget-title">{{ include.recommend_title }}</h5>
     {% else %}
        <h5 class="widget-title">Recommended Content</h5>
     {% endif %}
@@ -16,9 +16,9 @@
       
         {% for recommend in related_topics %}
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
-              {% if post.tags contains recommend and post.title != page.title %}
+              {% if post.tags contains recommend and post.url != include.current_url %}
                 <li>
-                  {% include post-discovery/post-card.html post=post classes="" %}
+                  {% include_cached post-discovery/post-card.html post=post classes="" %}
                   <hr />
                 </li>
               {% endif %}
@@ -31,9 +31,9 @@
         {% endcomment %}
       
         {% for post in site.pages where_exp:"post","post.tags contains related_topics" %}
-          {% if post.tags contains related_topics and post.title != page.title %}
+          {% if post.tags contains related_topics and post.url != include.current_url %}
             <li>
-              {% include post-discovery/post-card.html post=post classes="" %} 
+              {% include_cached post-discovery/post-card.html post=post classes="" %} 
               <hr />
             </li>
           {% endif %}

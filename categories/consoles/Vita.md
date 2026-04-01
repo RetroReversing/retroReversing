@@ -55,7 +55,7 @@ The PS Vita took an off the shelf Quad core ARM CPU with a NEON coprocessor and 
 
 ## File Formats 
 When reverse engineering Vita games you will come across a number of different file formats, there were too many to list on this page so we now have a separate post specifically on Vita file formats: 
-{% include link-to-other-post.html post="/playstation-vita-file-formats" %}
+{% include_cached link-to-other-post.html post="/playstation-vita-file-formats" %}
 
 
 ## Reverse Engineering PlayStation Vita Game Cartridge Authentication

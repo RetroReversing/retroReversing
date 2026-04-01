@@ -26,7 +26,7 @@ This page documents the main file formats preserved in leaked Nintendo Super Fam
 
 The descriptions below are based on the Super Mario Kart source and art branches, the SimCity SNES `SIM` workspace, the Zelda SNES art folders, the wider `NEWS_04` CAD workspace, and the SFX-DOS environment.
 
-{% include link-to-other-post.html post="/super-mario-kart-source-code" description="For a full source-side view of these formats in practice, see the Super Mario Kart source page." %}
+{% include_cached link-to-other-post.html post="/super-mario-kart-source-code" description="For a full source-side view of these formats in practice, see the Super Mario Kart source page." %}
 
 ---
 ## Source and Build Files

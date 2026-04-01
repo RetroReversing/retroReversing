@@ -46,7 +46,7 @@ In late 1999 a rouge SGI developer leaked what became known as the `Oman Archive
 
 This included the full Verilog source code for both the retail console and the development hardware!
 
-{% include link-to-other-post.html post="/oman-archive" description="For more information about the Oman Archive Nintendo 64 Leak click here." %}
+{% include_cached link-to-other-post.html post="/oman-archive" description="For more information about the Oman Archive Nintendo 64 Leak click here." %}
 
 ## Nintendo Wii Components in Verilog
 More recently in May 2020, the official Verilog source code for a few of the Wii (Codename Revolution) chips were released to the internet.

@@ -1057,4 +1057,4 @@ This section was rather big so we have moved it out into its own post instead, y
 
   </div>
 </section>  
-{% include link-to-other-post.html post="/ati-low-level-wii-sdk" description="For more information about the ATI Low level SDK for Wii check out this post." %}
+{% include_cached link-to-other-post.html post="/ati-low-level-wii-sdk" description="For more information about the ATI Low level SDK for Wii check out this post." %}

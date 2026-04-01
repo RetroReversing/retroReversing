@@ -35,7 +35,7 @@ updatedAt: '2026-03-30'
 
 With 3,831 total files, NEWS_05 reveals the actual development process behind SNES 3D game creation—not the final code, but the tools that made it, the assets in progress, and the workflows that developers used.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the broader Gigaleak context and other major archives, see the main Gigaleak overview." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the broader Gigaleak context and other major archives, see the main Gigaleak overview." %}
 
 ---
 

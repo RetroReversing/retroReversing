@@ -77,7 +77,7 @@ You can see the GD-Writer in action in this video by Adam Koralik [^1]:
 
 In order to use the GD-Writer hardware you would need to run a program called GD Workshop on your dreamcast DEV.BOX.
 
-{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about GD Workshop check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about GD Workshop check out this post." %}
 
 ---
 ## Cross Products Dreamcast GD-ROM Duplicator GD-X (HKT-0500)
@@ -111,7 +111,7 @@ This additional layer of security helped game development studios put their mind
 
 The GD-R discs are writeable versions of GD-ROMs and are burned by developers using their Dreamcast development kits `DEV.BOX` using a program called the `GD Workshop`.
 
-{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="You can find out about the GD Workshop in this post." %}
+{% include_cached link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="You can find out about the GD Workshop in this post." %}
 
 
 

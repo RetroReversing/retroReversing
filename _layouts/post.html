@@ -29,7 +29,7 @@
         <aside class="col-lg-3">
           <div class="sidebar">
             {% include_cached sources-sidebar.html references=page.references hideTOC=page.hideTOC %}
-            {% include recommended-sidebar.html %}
+            {% include_cached recommended-sidebar.html recommend=page.recommend tags=page.tags recommend_title=page.recommendTitle current_url=page.url %}
           </div>
         </aside>
       </div>

@@ -231,7 +231,7 @@ The GCP-2000 USB Adapter connects via a Gamecube's memory card slot and has a us
 # SN Systems Development Kits
 SN Systems are very well known for their quality third party development kit hardware and SDKs and the gamecube was one of the last non-Sony platforms that they supported after being bought out by Sony.
 
-{% include link-to-other-post.html post="/companies/snsystems" description="For more information on SN Systems check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/snsystems" description="For more information on SN Systems check out this post." %}
 
 
 ## SN Systems Tiny Development Kit (SN-TDEV)
@@ -269,7 +269,7 @@ Here is an image of the Pro-DG SDK package that was sold to developers, looks be
 
 
 ---
-{% include link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardware, if so check out this post." %}
+{% include_cached link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardware, if so check out this post." %}
 
 
 ---

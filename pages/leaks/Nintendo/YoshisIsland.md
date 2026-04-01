@@ -35,7 +35,7 @@ The Nintendo Gigaleak preserves a very large Yoshi's Island archive under `other
 This is the Super Famicom codebase for **Super Mario World 2: Yoshi's Island**, and it survives in a much richer form than a simple asm drop.
 The leak keeps three Japanese version branches, a full SFC build tree, a separate `chip` audio-side build, huge piles of background and ending assets, message-conversion tools, debug notes, and a workstation-side converter farm under `ツール`.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the wider Nintendo Gigaleak, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the wider Nintendo Gigaleak, check out this post." %}
 
 ---
 ## At a Glance

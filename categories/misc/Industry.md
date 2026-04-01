@@ -66,7 +66,7 @@ You can find more information about this documentary over on **VHiStory**:
 This rare documentary was part of **Careers for the 21st Century** by Takeoff Multimedia, it shows what life was like as a developer working at **SEGA** between 1993 and 1995. 
 
 To find out more we have a separate post all about it here:
-{% include link-to-other-post.html post="/sega-documentary" description="For more information on working at SEGA check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-documentary" description="For more information on working at SEGA check out this post." %}
 
 ---
 ## 1996 - GRAND THEFT AUTO - Making Of - GTA
@@ -82,11 +82,11 @@ When researching a video game, for reverse engineering or otherwise it can be tr
 
 ## Magazines
 Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
-{% include link-to-other-post.html post="/magazines" description="For more information on all the Game development magazines check out this post." %}
+{% include_cached link-to-other-post.html post="/magazines" description="For more information on all the Game development magazines check out this post." %}
 
 ### Develop - UK Magazine dedicated to the games industry
 **Develop** was a magazine published in the UK targetted at games industry professionals, similar to the US magazine Game Developer it provides a unique insight into game engines, SDKs and other middleware which was never published online.
-{% include link-to-other-post.html post="/develop-magazine" description="For more information on the UK magazine Develop check out this post." %}
+{% include_cached link-to-other-post.html post="/develop-magazine" description="For more information on the UK magazine Develop check out this post." %}
 
 ---
 ## Bookazines
@@ -94,22 +94,22 @@ Due to the sheer number of magazines being published in the late 2000s, Publishe
 This resulted in a rather thick magazine with no advertisements about the size of a book but with the print quality of a magazine, hence the industry dubbed them **bookazines**.
 
 We have an entire page dedicated to just Bookazines related to game development and the technical creative industry as a whole here:
-{% include link-to-other-post.html post="/bookazines" description="For more information on all the game development Bookazines check out this post." %}
+{% include_cached link-to-other-post.html post="/bookazines" description="For more information on all the game development Bookazines check out this post." %}
 
 ---
 ## Conferences - GDC, E3 and other games industry related conferences
 One of the main ways for different game developers to speak to each other was at yearly conferences such as **GDC** or **Siggraph**:
-{% include link-to-other-post.html post="/conferences" description="For more information on all the Game industry Conferences check out this post." %}
+{% include_cached link-to-other-post.html post="/conferences" description="For more information on all the Game industry Conferences check out this post." %}
 
 ---
 ## Books - Game Development, 3D general games industry books
 Books were a must have for any game developers getting started in the industry, from teaching the basics of assembler/C to more advanced topics such as 3D rendering:
-{% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
+{% include_cached link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
 
 ---
 ## Museums - Games Industry related Museums
 Museums about video games and game development are rare but they are becoming more popular, some are physical and others might be virtual experiences, but they are all important for preserving the history of video games:
-{% include link-to-other-post.html post="/museums" description="For more information on all the Game related Museums check out this post." %}
+{% include_cached link-to-other-post.html post="/museums" description="For more information on all the Game related Museums check out this post." %}
 
 ---
 ## Commercial Documentaries on game development
@@ -144,12 +144,12 @@ There are a bunch of notable companies related to retro game development, many o
 ### Cross Products
 Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and **Vektor Grafix**. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
 
-{% include link-to-other-post.html post="/companies/crossproducts" description="For more information about Cross Products check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/crossproducts" description="For more information about Cross Products check out this post." %}
 
 ### SN Systems
 SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for Sega and Nintendo consoles but is most famous for their Sony PlayStation development tools like PSYQ.
 
-{% include link-to-other-post.html post="/companies/snsystems/" %}
+{% include_cached link-to-other-post.html post="/companies/snsystems/" %}
 
 ---
 ## Game Hacking Companies
@@ -158,12 +158,12 @@ There are a bunch of notable companies related to game hacking which not only wo
 ### Datel
 **Datel** is most famous for their **Action Replay** line of products but also created homebrew enablers for the Gamecube and Nintendo DS along with tons of unlicensed games and applications for a wide range of home consoles and handhelds.
 
-{% include link-to-other-post.html post="/companies/datel" description="For more information about Datel check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/datel" description="For more information about Datel check out this post." %}
 
 
 ### Codemasters
 
-{% include link-to-other-post.html post="/companies/codemasters" description="For more information about Codemasters check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/codemasters" description="For more information about Codemasters check out this post." %}
 
 
 ---

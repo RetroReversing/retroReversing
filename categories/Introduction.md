@@ -81,7 +81,7 @@ Presumably if you have read this far you are interested in learning at least the
 Let's start at the beginning, you might have seen ROM files before, well actually I can safely assume you HAVE used a few of them in your favourite emulator.
 
 But what exactly are ROM files? How did that big plastic cartridge become a single file that can be run into an emulator? Let's find out!
-{% include link-to-other-post.html post="/how-retro-cartridges-roms-worked" description="Have you ever wondered how a game cartridge for Game Boy or the NES actually works? Find out here!" %}
+{% include_cached link-to-other-post.html post="/how-retro-cartridges-roms-worked" description="Have you ever wondered how a game cartridge for Game Boy or the NES actually works? Find out here!" %}
 
 
 ## ISO files
@@ -188,7 +188,7 @@ strings your_file_name
 ## Game Audio and Music
 <div class="emoji">🎧</div>
 A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a separate post covering Game Audio and Music reversing and file format information.
-{% include link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
+{% include_cached link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
 
 ## Memory Dumps
 <div class="emoji">🧠</div>
@@ -374,7 +374,7 @@ The process of taking a final game executable/ROM and converting it into human r
 You need to choose a Disassembler that works for your game's Instruction Set Architecture (ISA), this will depend on which console or PC your game is compiled for.
 
 We have a separate post covering how disassemblers work below:
-{% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
+{% include_cached link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
 
 ---
@@ -688,11 +688,11 @@ This technique is frequently employed in early games, especially when other rand
 ---
 ## What is an emulator and how does it work?
 We have a specific post covering exactly how emulators works including tips for writing your own emulators:
-{% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
+{% include_cached link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
 ## Reversing with GDB
 GDB is a very useful tool to debug through an application, with functionality to set breakpoints and disassemble the code, which makes it a very useful tool for basic reverse engineering.
-{% include link-to-other-post.html post="/tutorials/gdb-reversing" description="For more information about GDB check out this post." %}
+{% include_cached link-to-other-post.html post="/tutorials/gdb-reversing" description="For more information about GDB check out this post." %}
 
 ---
 # Next Steps - Choosing your console

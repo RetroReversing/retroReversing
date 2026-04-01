@@ -46,7 +46,7 @@ Files Leaked:
 * oman.rar
 
 We have a post on the contents of the archive here:
-{% include link-to-other-post.html post="/oman-archive" description="For more information on the Oman Archive check out this post." %}
+{% include_cached link-to-other-post.html post="/oman-archive" description="For more information on the Oman Archive check out this post." %}
 
 ---
 # Pokemon Leak (April 2020)
@@ -57,7 +57,7 @@ Files Leaked:
 * **Gen2.7z** - Source code for Pokemon Gold/Silver, released on 24th April 2020
 
 We have a post on the contents of the **OriginalSouce.zip** archive here:
-{% include link-to-other-post.html post="/pokemon-original-source-code" description="For more information on the Pokemon leak check out this post." %}
+{% include_cached link-to-other-post.html post="/pokemon-original-source-code" description="For more information on the Pokemon leak check out this post." %}
 
 ---
 # BroadOn Archive (2nd May 2020)
@@ -67,7 +67,7 @@ Files leaked:
 * **unsorted.zip**
 
 We have a post on the contents of the archive here:
-{% include link-to-other-post.html post="/broadon-archive" description="For more information on the Paladin leak check out this post." %}
+{% include_cached link-to-other-post.html post="/broadon-archive" description="For more information on the Paladin leak check out this post." %}
 
 ---
 # Citrus Leak (May 24th 2020)
@@ -89,7 +89,7 @@ Files Leaked:
 * **other.7z** - Source code for DMG, GBC, SNES games
 
 We have a post on the contents of the archives here:
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 ---
 # Gigaleak 2 (25th July 2020)
@@ -100,7 +100,7 @@ Files Leaked:
 
 
 We have a post on the contents of the archive here:
-{% include link-to-other-post.html post="/gigaleak2" description="For more information on the second Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak2" description="For more information on the second Gigaleak check out this post." %}
 
 ---
 # Emerald Leak (2nd September 2020)
@@ -111,7 +111,7 @@ Files Leaked:
 
 
 We have a post on the contents of the archive here:
-{% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
+{% include_cached link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
 
 ---
 # Paladin Leak (30th September 2020)
@@ -121,7 +121,7 @@ Files Leaked:
 * paladin.7z (2.44GB)
 
 We have a post on the contents of the archive here:
-{% include link-to-other-post.html post="/paladinleak" description="For more information on the Paladin leak check out this post." %}
+{% include_cached link-to-other-post.html post="/paladinleak" description="For more information on the Paladin leak check out this post." %}
 
 ---
 # Unexpected Leak (20th July 2021)
@@ -139,11 +139,11 @@ Files Leaked:
 * **teru-sama_mail_2006.7z** - A dump of the personal email inbox of **Murakawa Tsushin**
 
 The main files inside **DIAG4RVL.zip** was the source code to a DVD that is used to test all the hardware components of the Gamecube/Wii's hardware. This was used throughout the development of the console and also for fixing retail units.
-{% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak" description="For more information on the contents of the DIAG4RVL archive check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-wii-diag4rvl-leak" description="For more information on the contents of the DIAG4RVL archive check out this post." %}
 
 Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
-{% include link-to-other-post.html post="/ati-low-level-wii-sdk" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/ati-low-level-wii-sdk" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
 
 For more information on the rest of the files leaked on the 20th July 2021 check out our post:
-{% include link-to-other-post.html post="/nintendo-2021-leak" description="For more information July 2021 leak check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-2021-leak" description="For more information July 2021 leak check out this post." %}
 

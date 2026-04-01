@@ -98,7 +98,7 @@ node scripts/extract-tags.js --export-json
 
 ## validate-includes.js
 
-Validates all `{% include link-to-other-post.html post="..." %}` references in markdown files to ensure the `post=` parameter matches an actual post's permalink.
+Validates all `{% include_cached link-to-other-post.html post="..." %}` references in markdown files to ensure the `post=` parameter matches an actual post's permalink.
 
 ### Usage
 ```bash
@@ -106,7 +106,7 @@ node scripts/validate-includes.js
 ```
 
 ### Description
-- Scans all markdown files in `categories/` and `pages/` for `{% include link-to-other-post.html post="..." %}` syntax.
+- Scans all markdown files in `categories/` and `pages/` for `{% include_cached link-to-other-post.html post="..." %}` syntax.
 - Checks that each `post=` value matches a valid permalink from the frontmatter of any markdown file.
 - Reports any invalid or missing references, including line numbers and suggestions for similar permalinks.
 

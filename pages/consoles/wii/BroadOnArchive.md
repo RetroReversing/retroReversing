@@ -41,7 +41,7 @@ In early May 2020 a leak of Nintendo Source Code hit the popular image board 4ch
 **BroadOn** was a third-party hardware and software company contracted by Nintendo, particularly involved during the era of the Wii console. BroadOn specialized in advanced technology development, and Nintendo engaged them for significant work on hardware and software components such as the **iQue**.
 
 More content was later uploaded throughout 2020 such as the **Gigaleak** which contained source code for many popular Nintendo classics.
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 This page details the contents of the BroadOn Archive
 
@@ -151,11 +151,11 @@ The executable `pkgbootrl` is whats called the "Bundle tool" and the source code
 
 The `N64 Sound Tools` folder holds the content distributed to Musicians as an addon to the official N64 SDK.
 
-{% include link-to-other-post.html post="/n64sound" description="You can find out more about the N64 Sound Tools here." %}
+{% include_cached link-to-other-post.html post="/n64sound" description="You can find out more about the N64 Sound Tools here." %}
 
 The `n64kit` folder partially contains the Japanese version of the N64 Developers Kit Version 5.1 from 2000/02/10. A newer more complete version of this development kit is available on `ultra64.ca` so the contents won't be mentioned here.
 
-{% include link-to-other-post.html post="/n64-sdk" description="For more information about the n64kit view this post." %}
+{% include_cached link-to-other-post.html post="/n64-sdk" description="For more information about the n64kit view this post." %}
 
 For some reason it only contains the `nusys`, `nustd` and `misc` folders of the n64kit.
 
@@ -163,7 +163,7 @@ For some reason it only contains the `nusys`, `nustd` and `misc` folders of the 
 #### n64os20I folder - Internal N64 development tools
 This folder contains the final version of the internal N64 development tools from SGI, an earlier version of this content was released as part of the "Oman Archive", so only the changes will be listed here.
 
-{% include link-to-other-post.html post="/oman-archive" description="To view details about the files released in the oman archive check out this post." %}
+{% include_cached link-to-other-post.html post="/oman-archive" description="To view details about the files released in the oman archive check out this post." %}
 
 ---
 ### Verification folder - AES encyption/decryption

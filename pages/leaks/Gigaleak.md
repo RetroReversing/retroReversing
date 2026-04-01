@@ -64,19 +64,19 @@ It contains these major sub-archives:
 ## Original Game Boy Source Code for The Legend of Zelda Links Awakening (dmg.7z)
 The archive **dmg.7z** contains the source code for the original version of The Legend of Zelda Links Awakening.
 
-{% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
+{% include_cached link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
 
 ---
 ## Game Boy Color Source Code for The Legend of Zelda Links Awakening DX (CGB.7z)
 The archive **CGB.7z** contains the source code for the Game Boy Color game The Legend of Zelda Links Awakening DX and pre-build ROM images of Hamtaro 2.
 
-{% include link-to-other-post.html post="/zelda-links-awakening-dx" description="For more information check out this post." %}
+{% include_cached link-to-other-post.html post="/zelda-links-awakening-dx" description="For more information check out this post." %}
 
 ---
 ## Famicom (NES) Lot Check ROMS (Famicom_NES.7z)
 We have a post covering the Full set of official JP/USA Famicom/NES ROMS released in the **Famicom_NES.7z** archive along with other LotCheck releases:
 
-{% include link-to-other-post.html post="/nintendo-lot-check" description="For more information on the Famicom Lot Check ROMS check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-lot-check" description="For more information on the Famicom Lot Check ROMS check out this post." %}
 
 ---
 ## Super Nintendo Source Code (SFC.7z/ソースデータ)
@@ -84,13 +84,13 @@ Contains the uncompiled raw source code for a number of Super Famicom (SNES) tit
 
 We have dedicated deep-dives exploring the leaked source code and assets for each of these massive titles:
 
-{% include link-to-other-post.html post="/star-fox-source-code" description="Explore the Star Fox 1 & 2 internal source code and 3D tooling here." %}
-{% include link-to-other-post.html post="/yoshis-island-source-code" description="Explore the Yoshi's Island (ヨッシーアイランド) source code here." %}
-{% include link-to-other-post.html post="/zelda-a-link-to-the-past-source-code" description="Explore the Legend of Zelda: A Link to the Past (ゼルダの伝説神々のトライフォース) source code here." %}
-{% include link-to-other-post.html post="/super-mario-kart-source-code" description="Explore the Super Mario Kart source code and original level editor here." %}
-{% include link-to-other-post.html post="/wild-trax-source-code" description="Explore the Stunt Race FX / Wild Trax (ワイルドトラックス) source code here." %}
-{% include link-to-other-post.html post="/f-zero-source-code" description="Explore the F-Zero prototype source code here." %}
-{% include link-to-other-post.html post="/super-mario-collection-source-code" description="Explore the Super Mario All-Stars (マリオコレクション) source code here." %}
+{% include_cached link-to-other-post.html post="/star-fox-source-code" description="Explore the Star Fox 1 & 2 internal source code and 3D tooling here." %}
+{% include_cached link-to-other-post.html post="/yoshis-island-source-code" description="Explore the Yoshi's Island (ヨッシーアイランド) source code here." %}
+{% include_cached link-to-other-post.html post="/zelda-a-link-to-the-past-source-code" description="Explore the Legend of Zelda: A Link to the Past (ゼルダの伝説神々のトライフォース) source code here." %}
+{% include_cached link-to-other-post.html post="/super-mario-kart-source-code" description="Explore the Super Mario Kart source code and original level editor here." %}
+{% include_cached link-to-other-post.html post="/wild-trax-source-code" description="Explore the Stunt Race FX / Wild Trax (ワイルドトラックス) source code here." %}
+{% include_cached link-to-other-post.html post="/f-zero-source-code" description="Explore the F-Zero prototype source code here." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-source-code" description="Explore the Super Mario All-Stars (マリオコレクション) source code here." %}
 
 One small provenance detail is easy to miss here.
 While the primary unzipped source directories live under `other/SFC/ソースデータ`, three of these source trees—**F-Zero**, **Star Fox 2**, and **Super Mario Collection** (`srd13-SFCマリオコレクション`)—also survive duplicated inside `other/NEWS`. 
@@ -120,7 +120,7 @@ Beyond the source trees, the `NEWS.7z` archive also contains a **テープリス
 
 These tars represent raw workstation snapshots rather than organized source archives. The bulk of the data (NEWS_04, NEWS_05, NEWS_09, NEWS_11) consists of SNES development assets - heavily weighted toward graphics files (`.CGX`/`.COL` color palettes and screens), object definitions (`.OBJ`/`.OBZ` 3D/sprite data), and map data (`.MAP` and `.SCR`). Notably, NEWS_05 also preserves CAD files and animation source, suggesting multi-disciplinary workstation backups captured during active development cycles.
 
-{% include link-to-other-post.html post="/gigaleak-news-05" description="For the Star Fox 2 CAD, animation, and 3D toolchain workstation snapshot, see the NEWS_05 deep-dive." %}
+{% include_cached link-to-other-post.html post="/gigaleak-news-05" description="For the Star Fox 2 CAD, animation, and 3D toolchain workstation snapshot, see the NEWS_05 deep-dive." %}
 
 ### NEWS_02 - Email Attachments and ROM Payloads
 `NEWS_02.tar` is mostly system/user environment data, but it also preserves email payloads with attached ROM files.
@@ -200,9 +200,9 @@ Project | Files | Dominant types | Date range | Reading
 `zelda` | `545` | `.BAK`, `.CGX`, `.SCR`, `.COL`, `.MAP`, `.PNL` | `1991-05-23` to `1994-07-25` | Earlier Zelda screen/map art branch
 `DELDA` | `213` | `.BAK`, `.CGX`, `.SCR`, `.COL` | `1991-05-23` to `1991-10-24` | Small early Zelda-related branch or internal variant
 
-{% include link-to-other-post.html post="/starfox2-2d-art-workspace" description="For the dedicated Star Fox 2 2D art workspace deep-dive, see this page." %}
-{% include link-to-other-post.html post="/zelda-snes-2d-art-workspace" description="For the dedicated SNES Zelda (DELDA + zelda) art workspace deep-dive, see this page." %}
-{% include link-to-other-post.html post="/zelda-links-awakening-art-workspace" description="For the dedicated Link's Awakening / GB-zelda art workspace deep-dive, see this page." %}
+{% include_cached link-to-other-post.html post="/starfox2-2d-art-workspace" description="For the dedicated Star Fox 2 2D art workspace deep-dive, see this page." %}
+{% include_cached link-to-other-post.html post="/zelda-snes-2d-art-workspace" description="For the dedicated SNES Zelda (DELDA + zelda) art workspace deep-dive, see this page." %}
+{% include_cached link-to-other-post.html post="/zelda-links-awakening-art-workspace" description="For the dedicated Link's Awakening / GB-zelda art workspace deep-dive, see this page." %}
 
 ---
 
@@ -240,29 +240,29 @@ Their `.LST` contents reference paths like `/usr/local/srd/cad/sfc/sfx_main.hex`
 #### fly and flyman
 `fly` and `flyman` are complementary art/layout directories for an early SNES flight-game branch, likely connected to a Pilotwings-era prototype path.
 
-{% include link-to-other-post.html post="/pilotwings-2d-art-workspace" description="For the full fly/flyman analysis, see the dedicated Pilotwings 2D art page." %}
+{% include_cached link-to-other-post.html post="/pilotwings-2d-art-workspace" description="For the full fly/flyman analysis, see the dedicated Pilotwings 2D art page." %}
 
 #### CAR
 `CAR` preserves unambiguous Super Mario Kart production assets (`MARIO-CAR`, `JUGEM`, `DOKAN`, `POLE`, `SLOT`) and Mode 7 track-map work.
 
-{% include link-to-other-post.html post="/super-mario-kart-2d-art-workspace" description="For the full CAR analysis, see the dedicated Super Mario Kart 2D art page." %}
+{% include_cached link-to-other-post.html post="/super-mario-kart-2d-art-workspace" description="For the full CAR analysis, see the dedicated Super Mario Kart 2D art page." %}
 
 #### SIM
 `SIM` preserves SimCity SNES menu/UI structures (`SELECT-SCENARIO`, `MAP-SELECT`, `TOWN`, `LEVEL`, `INPUT`) and a distinctive `.SFX` pairing workflow tied to an `S-CG-CAD` tool signature.
 
-{% include link-to-other-post.html post="/simcity-snes-2d-art-workspace" description="For the full SIM analysis, see the dedicated SimCity SNES 2D art page." %}
+{% include_cached link-to-other-post.html post="/simcity-snes-2d-art-workspace" description="For the full SIM analysis, see the dedicated SimCity SNES 2D art page." %}
 
 One important extra detail at the NEWS_04 level is that Sugiyama's root directory also preserves shared CAD-tool resources above the project folders themselves, including generic sample screens, `sfx_main` manifests, and thirty-one tiny `.cbm` files that look like editor command or button definitions for Nintendo's graphics tools.
 
 #### MARIO
 `MARIO` is a short, menu-heavy branch centered on `GAMESELECT.*`, `MA-ROGO-OBJ.CGX`, and `2PR-S1.*`, currently read as probable Super Mario Collection / All-Stars front-end work.
 
-{% include link-to-other-post.html post="/super-mario-all-stars-art-workspace" description="For the full MARIO deep-dive, see the dedicated Super Mario All-Stars art page." %}
+{% include_cached link-to-other-post.html post="/super-mario-all-stars-art-workspace" description="For the full MARIO deep-dive, see the dedicated Super Mario All-Stars art page." %}
 
 #### FX2
 `FX2` preserves Wild Trax / Stunt Race FX selection-screen assets, including lower-case naming patterns (`cpt`, `p-select`) that differ from earlier Sugiyama branches.
 
-{% include link-to-other-post.html post="/stunt-race-fx-2d-art-workspace" description="For the full FX2 analysis, see the dedicated Stunt Race FX 2D art page." %}
+{% include_cached link-to-other-post.html post="/stunt-race-fx-2d-art-workspace" description="For the full FX2 analysis, see the dedicated Stunt Race FX 2D art page." %}
 
 ---
 
@@ -411,20 +411,20 @@ If you don't have subversion tooling installed the full trunk versions of both w
 ### Gameboy Color Boot ROM (cgb_bootrom_trunk.zip)
 The `cgb_bootrom_trunk.zip` archive is best understood as an exported working copy from the `cgb_bootrom` Subversion repository preserved inside `other/agb_bootrom`.
 
-{% include link-to-other-post.html post="/game-boy-color-boot-rom-repository" description="For the repository layout, build flow, and surviving CGB trunk files, check out this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-color-boot-rom-repository" description="For the repository layout, build flow, and surviving CGB trunk files, check out this post." %}
 
 ---
 ### Game Boy Advance Boot ROM (agb_bootrom_trunk.zip)
 The `agb_bootrom_trunk.zip` archive is the extracted latest working copy from the much larger `agb_bootrom` Subversion repository found inside `other/agb_bootrom`.
 
-{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository" description="For the wider AGB repository contents, including the monitor code, include files, libraries, docs, and later tools like AgbComp and Bmp2Agb, check out this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-advance-boot-rom-repository" description="For the wider AGB repository contents, including the monitor code, include files, libraries, docs, and later tools like AgbComp and Bmp2Agb, check out this post." %}
 
 ---
 ---
 # Netcard & Online Pokémon Project
 We have a dedicated page delving deep into the BroadOn design documents regarding this cancelled Game Boy Advance online peripheral and the planned 3rd Floor of the Pokémon Center!
 
-{% include link-to-other-post.html post="/netcard" description="Read all about the cancelled 2004 GBA Netcard and ambitious Pokemon WAN project." %}
+{% include_cached link-to-other-post.html post="/netcard" description="Read all about the cancelled 2004 GBA Netcard and ambitious Pokemon WAN project." %}
 
 ---
 #  CVS Repository Dump (20100713cvs_backup.tar.7z)

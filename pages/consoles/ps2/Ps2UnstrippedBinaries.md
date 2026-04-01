@@ -843,7 +843,7 @@ Silent Hill 4 (E3 prototype, Apr 16 2004) | `SLUS_208.73` | .debug section inclu
 # PS2 Demos with Debug Symbols
 If your game is not listed in the retail game list above then fear not, there is still a chance that debug symbols are available for a demo of the game. We have a separate page listing all the PS2 Demos with Debug Symbols.
 
-{% include link-to-other-post.html post="/ps2-demos" description="For the Demo games with debug symbols check out this post." %}
+{% include_cached link-to-other-post.html post="/ps2-demos" description="For the Demo games with debug symbols check out this post." %}
 
 ---
 # Others

@@ -107,7 +107,7 @@ However looking closely at the keyboard and the PC we can see its a **Sony NEWS*
 ## Was there an official SDK?
 **Yes**, we have a separate page for the Official Super Nintendo Software Development kits:
 
-{% include link-to-other-post.html post="/super-famicom-snes-sdk" description="For more information about the **Super Nintendo** software development kit check out this post" %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-sdk" description="For more information about the **Super Nintendo** software development kit check out this post" %}
 
 ---
 ## ROM and RAM Mapping on the SNES
@@ -177,7 +177,7 @@ This segment of our guide will provide you with detailed information and resourc
 
 ## Development Kit Hardware
 We have a post all about the hardware that was used to develop for the Super Nintendo:
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **Super Nintendo** development hardware check out this post" %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **Super Nintendo** development hardware check out this post" %}
 
 ---
 ## Retail Console Hardware
@@ -274,11 +274,11 @@ The SNES wouldn't be as fondly remembered today if it didn't have its huge libra
 
 ## Official Retail SNES Game Source Code
 If you are interested to see officially released or leaked source code check for the Super Nintendo Entertainment System check out our other post:
-{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ## Reverse Engineered SNES Games
 If you are interested to see existing reversing projects for the SNES check out our other post specifically on this topic:
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ## The Polygons of Another World
 For an in-depth look at how the game **Another World** was ported to the Super Nintendo check out this article:

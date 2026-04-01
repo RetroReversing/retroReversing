@@ -78,4 +78,4 @@ Additional CDDA Audio tracks can be placed in Session 2 but they will not be pla
 # Playing Burned GD-Rs
 You need the System Disc 2 to play a burned GD-R, which you would put in your Dreamcast before your game then switch it out with your GD-R.
 
-{% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="You can find out about the System Disc 2 in this main katana development kit post." %}
+{% include_cached link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="You can find out about the System Disc 2 in this main katana development kit post." %}

@@ -36,7 +36,7 @@ They were one of the few developers to sign an agreement directly with Sony, mos
 ## Development Tools
 The team paid $35k for a development kit in 1994 which likely was the original prototype development kit known as the MW.3, this predated the PC-based SN Systems PSY-Q Development Kit that used an ISA card that plugged directly into a development PC.
 
-{% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the MW.3 and other official development kits please check out this post." %}
+{% include_cached link-to-other-post.html post="/official-playStation-devkit" description="For more information on the MW.3 and other official development kits please check out this post." %}
 
 ---
 # Assets

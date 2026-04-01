@@ -30,7 +30,7 @@ It is very rare that a commercial game releases its source code to the public, i
 To be considered for this list the game must have at least a quarter of the source code used to make the game/prototype released.
 
 This list does not contain fan decompilations of retail games, for those we have a separate page:
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 # Nintendo Systems
 Nintendo systems have by far the largest selection of official source code to choose from, some of it has been leaked and others have been released officially by the developers.
@@ -44,10 +44,10 @@ Nintendo systems have by far the largest selection of official source code to ch
 {% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="Source code for the retail game boy release of Little Mermaid Pinball" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
 
 ### Mr Do!
-{% include link-to-other-post.html post="/mrdo" description="For more information on the Mr Do! Game Boy source code check out this post." %}
+{% include_cached link-to-other-post.html post="/mrdo" description="For more information on the Mr Do! Game Boy source code check out this post." %}
 
 ### Pokemon Red/Blue/Yellow
-{% include link-to-other-post.html post="/pokemonredblue" description="For more information on the Pokemon Red and Blue Game Boy source code check out this post." %}
+{% include_cached link-to-other-post.html post="/pokemonredblue" description="For more information on the Pokemon Red and Blue Game Boy source code check out this post." %}
 
 ### Pokemon Silver/Gold
 The source code to Pokemon Silver and Gold were released as part of the Nintendo Leaks in early 2020.
@@ -70,7 +70,7 @@ Games for Nintendo's first console was almost exclusively written in 6502 assemb
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/HeroQuest" description="Unreleased NES game" image="https://upload.wikimedia.org/wikipedia/en/9/9e/Heroquest_C64_boxart.jpeg" title="Hero Quest"  %}
 
 ### Home Alone 2
-{% include link-to-other-post.html post="/home-alone-2-nes-source-code" description="For more information on the Home Alone Famicom source code check out this post." %}
+{% include_cached link-to-other-post.html post="/home-alone-2-nes-source-code" description="For more information on the Home Alone Famicom source code check out this post." %}
 
 ### John Smith Special Agent (aka James Bond Jr.`)
 {% include link-to-other-site.html url="https://shrigley.com/source_code_archive/" description="Source Code officially released by the developer Chris Shrigley" image="https://www.giantbomb.com/a/uploads/scale_medium/9/93770/2361885-nes_jamesbondjr.jpg" title="James Bond Jr"  %}
@@ -96,7 +96,7 @@ Games for Nintendo's first console was almost exclusively written in 6502 assemb
 Most of these games have been leaked due to part 2 of the infamous Gigaleak.
 
 ### Gigaleak 2 games
-{% include link-to-other-post.html post="/gigaleak2" description="For more information check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak2" description="For more information check out this post." %}
 
 Games with Source Code Leaked:
 * 1080 Snowboarding
@@ -114,13 +114,13 @@ Games with Source Code Leaked:
 {% include link-to-other-site.html url="https://hiddenpalace.org/Mortal_Kombat_Trilogy_(May_13,_1996_prototype)" description="" image="https://i.ytimg.com/vi/dXuNTPYF42A/hqdefault.jpg" title="Mortal Kombat Trilogy"  %}
 
 ### Turok 64
-{% include link-to-other-post.html post="/turok64sourcecode" description="For more information on the Turok source code check out this post." %}
+{% include_cached link-to-other-post.html post="/turok64sourcecode" description="For more information on the Turok source code check out this post." %}
 
 ---
 ## Nintendo Wii
 
 ### Resident Evil: Umbrella Chronicles
-{% include link-to-other-post.html post="/capcomleaks" description="For more information on the Biohazard Umbrella chronicles source code check out this post." %}
+{% include_cached link-to-other-post.html post="/capcomleaks" description="For more information on the Biohazard Umbrella chronicles source code check out this post." %}
 
 ---
 # Sega Systems
@@ -157,7 +157,7 @@ Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fac
 ## Sega Dreamcast
 
 ### Chicken Run
-{% include link-to-other-post.html post="/Chicken-Run-Source-Code" description="For more information on the Dreamcast Chicken Run source code check out this post." %}
+{% include_cached link-to-other-post.html post="/Chicken-Run-Source-Code" description="For more information on the Dreamcast Chicken Run source code check out this post." %}
 
 ### Hydro Thunder
 {% include link-to-other-site.html url="https://hiddenpalace.org/Hydro_Thunder_(Jun_16,_1999_prototype)" description="Unconfirmed if this actually contains source code" image="https://images-na.ssl-images-amazon.com/images/I/51d8RrDZf5L._AC_.jpg" title="Hydro Thunder"  %}
@@ -207,7 +207,7 @@ C/C++ Game source code. Including unreleased Xbox port." image="https://psxdatac
 ### The Misadventures of Tron Bonne
 The source code for the misadventures of Tron Bonne was released as part of the November 2020 Capcom leaks.
 
-{% include link-to-other-post.html post="/capcomleaks" description="For more information on the 
+{% include_cached link-to-other-post.html post="/capcomleaks" description="For more information on the 
 Tron Bonne source code check out this post." %}
 
 ### Tomb Raider II
@@ -234,7 +234,7 @@ This section lists all the known leaked source code for retail Playstation 2 gam
 ### Devil May Cry 2
 The source code to Devil May Cry 2 was released as part of the Capcom Leaks in November 2020.
 
-{% include link-to-other-post.html post="/capcomleaks" description="For more information on the Devil May Cry 2 source code check out this post." %}
+{% include_cached link-to-other-post.html post="/capcomleaks" description="For more information on the Devil May Cry 2 source code check out this post." %}
 
 ### Kelly Slater's Pro Surfer Source Code
 The complete source code for *Kelly Slater's Pro Surfer*, a 2002 extreme sports game developed by Treyarch has been released online. The repository offers a rare look into the development of a sixth-generation console title, containing C++ source files, engine logic (built on the *Tony Hawk's Pro Skater* engine framework), and development assets for the PS2, Xbox, and GameCube platforms.

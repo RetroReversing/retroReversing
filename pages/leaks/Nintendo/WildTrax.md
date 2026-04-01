@@ -36,8 +36,8 @@ This is the Japanese `Wild Trax` project, better known in the west as `Stunt Rac
 What makes the archive especially useful is that it does not look like a neat final-source export.
 It looks like a real working 1993 [Super FX](#glossary-superfx) tree, with banked assembly, compressed asset bundles, map scripts, sound binaries, and a lot of older Argonaut and Star Fox naming still left in place.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
-{% include link-to-other-post.html post="/gigaleak-news-04" description="For Tadashi Sugiyama's FX2 workstation-side art branch and related pre-release context, see the NEWS_04 deep-dive." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak-news-04" description="For Tadashi Sugiyama's FX2 workstation-side art branch and related pre-release context, see the NEWS_04 deep-dive." %}
 
 ---
 ## At a Glance

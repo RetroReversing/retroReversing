@@ -26,7 +26,7 @@ twitterimage: https://www.retroreversing.com/public/images/leaks/EmeraldLeak.jpg
 ---
 The Emerald leak occurred on the 2nd of September 2020 and included about 700MB of content related to the Wii and gamecube. So this would not quite qualify as a "Gigaleak" but it was definitely from the same source as the Gigaleak.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 Most notably it contains the ATI Wii Verilog files for **Vegas** (part of the Hollywood graphics chip) and of course the source code to Pokemon Emerald.
 
@@ -96,7 +96,7 @@ For More information about the Wii Startup Disc check out the page on WiiBrew:
 
 Although to be honest these files aren't as interesting as the Wii Startup Disc dump in the Platinum leak which contains the full **.gcm** file.
 
-{% include link-to-other-post.html post="/platinumleak" description="For more information on the Platinum Leak check out this post." %}
+{% include_cached link-to-other-post.html post="/platinumleak" description="For more information on the Platinum Leak check out this post." %}
 
 ---
 #  WifiTester (emeralds.7z/RVL-WTester.7z)
@@ -112,7 +112,7 @@ This doesn't seem to install in Dolphin so it can't be confirmed if it is a Wifi
 # Vegas/Tako (Hollywood) (emeralds.7z/tako_main_052306.tgz)
 The archive **tako_main_052306.tgz** has been created by ATI, another company responsible for working on the Nintendo Wii. We already have leaked Verilog files from the company BroadOn previously, so when joined with these files you have a more complete picture of the entire Wii Verilog source code.
 
-{% include link-to-other-post.html post="/broadon-archive" description="For more information on the BroadOn Verilog files check out this post." %}
+{% include_cached link-to-other-post.html post="/broadon-archive" description="For more information on the BroadOn Verilog files check out this post." %}
 
 
 This archive contains the hardware Verilog source code for the ArtX (ATI) Hollywood graphics processor. Specifically the Vegas portion which is the core of the Chip, note that the project was previously called **Tako** (after the sushi), the name change is noted in the index.html file in the web documentation.

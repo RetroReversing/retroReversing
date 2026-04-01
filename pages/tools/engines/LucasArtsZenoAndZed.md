@@ -138,7 +138,7 @@ It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used
 
 We have a separate post on the **Merkury** engine including analyzing the various game data formats used and any debug information left in the game, you can check it out below:
 
-{% include link-to-other-post.html post="/krome-merkury-engine" description="For more information on the **Merkury** engine by **Krome Studios** check out this post." %}
+{% include_cached link-to-other-post.html post="/krome-merkury-engine" description="For more information on the **Merkury** engine by **Krome Studios** check out this post." %}
 
 ---
 ## iOS and N-Gage Version

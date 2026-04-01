@@ -36,7 +36,7 @@ We highly suggest you take a look at this article by **Rodrigo Copetti** which i
 [Wii Architecture - A Practical Analysis](https://www.copetti.org/writings/consoles/wii/)
 
 ## Development Hardware
-{% include link-to-other-post.html post="/nintendo-wii-development-kit" description="For information about Nintendo's Wii development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-wii-development-kit" description="For information about Nintendo's Wii development hardware check out this post." %}
 
 ---
 # Games
@@ -45,7 +45,7 @@ What would the Nintendo Wii be without its excellent line-up of games? It was th
 ## Wii Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the **Debug symbols** in the retail release of the game. While this is not very common it has happened for a few games released for the Wii. This gives you access to all the original function and variables names that were used in the original source code!
 
-{% include link-to-other-post.html post="/wii-debug-symbols" description="For a list of Wii games that have debug symbols available check out this post." %}
+{% include_cached link-to-other-post.html post="/wii-debug-symbols" description="For a list of Wii games that have debug symbols available check out this post." %}
 
 ## Wii Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.

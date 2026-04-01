@@ -112,7 +112,7 @@ This folder also contains some interesting files with the following file formats
 
 Some of these file formats are covered in our Wii file formats page: 
 
-{% include link-to-other-post.html post="/wii-file-formats" description="For more information on other Wii File formats check out this post." %}
+{% include_cached link-to-other-post.html post="/wii-file-formats" description="For more information on other Wii File formats check out this post." %}
 
 The **Scenes** folder looks like it used to contain Softimage XSI assets, but not all the files were copied over so much of the folders are sadly empty.
 

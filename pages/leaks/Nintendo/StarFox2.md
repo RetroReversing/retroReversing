@@ -35,7 +35,7 @@ The Nintendo Gigaleak preserves a much larger and messier Star Fox 2 workspace u
 Unlike the original Star Fox drop, this one is not just a compact source archive.
 It preserves the main `SF2` game tree, a separate DOS-side content editor called `SFCAD`, a bundled `BIN` workstation tool directory, personal branch snapshots, packaged `.LZH` milestones, and even a standalone `SF.ROM` image in one developer folder.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
 
 ## At a Glance
 The biggest takeaways from this Star Fox 2 drop are:

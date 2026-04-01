@@ -34,7 +34,7 @@ updatedAt: '2026-03-29'
 The Nintendo Gigaleak preserves the AGB boot ROM material in two useful forms.
 Inside `other/agb_bootrom` it survives as a real Subversion repository, and separately the leak also includes `agb_bootrom_trunk.zip`, an extracted working tree that makes the source much easier to inspect.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Nintendo Gigaleak overview, including the other major archives, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Nintendo Gigaleak overview, including the other major archives, check out this post." %}
 
 
 
@@ -734,4 +734,4 @@ The pieces on disk point to:
 * internal graphics and compression tools
 * documentation tied to stack layout, joyboot, and SDK or toolchain context
 
-{% include link-to-other-post.html post="/game-boy-color-boot-rom-repository" description="For the smaller and older-style CGB monitor build package, check out the Game Boy Color boot ROM page." %}
+{% include_cached link-to-other-post.html post="/game-boy-color-boot-rom-repository" description="For the smaller and older-style CGB monitor build package, check out the Game Boy Color boot ROM page." %}

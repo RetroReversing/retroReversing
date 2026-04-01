@@ -29,7 +29,7 @@ updatedAt: '2020-09-20'
 
 As part of the Platinum Leak on the 9th of September 2020 a ton of DsiWare titles were leaked, including debug versions of games like Legend of Zelda Four Swords remaster.
 
-{% include link-to-other-post.html post="/platinumleak" description="For more information on the rest of the Platinum check out this post." %}
+{% include_cached link-to-other-post.html post="/platinumleak" description="For more information on the rest of the Platinum check out this post." %}
 
 The Platinum leak contained an archive called **generic.7z** it is inside this that you will find the **DSiWareROM.rar** archive covered in this post
 

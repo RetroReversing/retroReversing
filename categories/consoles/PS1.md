@@ -48,14 +48,14 @@ What would the Sony PlayStation be without its excellent line-up of games? It wa
 ### PlayStation 1 Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the PlayStation One and gives you access to all the original function and variables names that were used in the retail source code.
 
-{% include link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
+{% include_cached link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
 
 ### Crash Bandicoot
 Crash Bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. 
 
 It was created by Andy Gavin and Jason Rubin for release on the original PlayStation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
 
-{% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
+{% include_cached link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
 
 ### Evolution of (Playstation) PS1 Games 1995-2018
 GameForest presents a comprehensive visual timeline of the PlayStation platform's library, showcasing the graphical and gameplay evolution from 1995 to 2018. 
@@ -164,12 +164,12 @@ Development kits are released to game developers before the launch of the system
 ### Official Development Kit
 The official development kit for the PS1 was a partnership between Sony and SN Systems which allowed developers to use their PC to interact with the real PS1 hardware.
 
-{% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the official Sony PlayStation Devkit check out this post." %}
+{% include_cached link-to-other-post.html post="/official-playStation-devkit" description="For more information on the official Sony PlayStation Devkit check out this post." %}
 
 ### Official Consumer Development Kit (Net Yaroze)
 The official development kit for the PS1 was only available for licensed game developers but there was a stripped-down version available for the general public known as Net Yaroze.
 
-{% include link-to-other-post.html post="/net-yaroze" description="For more information on the consumer development kit known as Net Yaroze check out this post." %}
+{% include_cached link-to-other-post.html post="/net-yaroze" description="For more information on the consumer development kit known as Net Yaroze check out this post." %}
 
 ---
 ## Unofficial Hardware Add-ons
@@ -191,7 +191,7 @@ It was initially called **PSY-Q** and even although it was owned by Sony it was 
 
 Sony later rebranded the SDK to **SDevTC** at some point in 1998(?).
 
-{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on Official SDK for the PlayStation 1 check out this post." %}
+{% include_cached link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on Official SDK for the PlayStation 1 check out this post." %}
 
 ## Official 3D Graphics Tools (DTL-S220A)
 In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tools[^2] such as:
@@ -201,11 +201,11 @@ In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tool
 Also provided was the **3D Graphics Tools manual** with tutorials on how to use the provided software.
 
 ## PS1 File formats
-{% include link-to-other-post.html post="/ps1-file-formats" description="For more information on PS1 File Formats check out this post." %}
+{% include_cached link-to-other-post.html post="/ps1-file-formats" description="For more information on PS1 File Formats check out this post." %}
 
 ## PS1 Executable Format
 The PS1-EXE (executable) format is detailed in the post below:
-{% include link-to-other-post.html post="/ps1-exe" description="For more information on PS1 EXE File Format check out this post." %}
+{% include_cached link-to-other-post.html post="/ps1-exe" description="For more information on PS1 EXE File Format check out this post." %}
 
 ---
 ## PS1 Emulation

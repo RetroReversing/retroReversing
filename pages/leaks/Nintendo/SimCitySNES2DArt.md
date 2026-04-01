@@ -33,7 +33,7 @@ The Nintendo Gigaleak preserves a separate SimCity SNES art workspace under `oth
 Compared with the much broader Mario Kart `CAR` folder, `SIM` is smaller and more focused.
 It is almost entirely menu, panel, input, and city-interface material, with a distinctive `.SFX` side format that appears to preserve tool metadata from the asset pipeline itself.
 
-{% include link-to-other-post.html post="/snes-file-formats" description="For a broader explanation of formats like `.SCR`, `.OBJ`, `.CGX`, `.COL`, and SimCity's `.SFX` sidecars, see the SNES file-format reference page." %}
+{% include_cached link-to-other-post.html post="/snes-file-formats" description="For a broader explanation of formats like `.SCR`, `.OBJ`, `.CGX`, `.COL`, and SimCity's `.SFX` sidecars, see the SNES file-format reference page." %}
 
 ---
 ## At a Glance

@@ -30,7 +30,7 @@ updatedAt: '2025-04-04'
 ## What is the SN Systems ProDG PSP SDK?
 SN Systems were in the business of creating excellent 3rd party development tools and many game development studios relied on them to provide first class tools for console development. The PSP was no different and SN Systems started developing its PSP version of its popular ProDG SDK sometime in 2003 (as far as we know).
 
-{% include link-to-other-post.html post="/companies/snsystems" description="For more information about SN Systems check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/snsystems" description="For more information about SN Systems check out this post." %}
 
 Although SN Systems were later bought by Sony in 2005, the 2004 version of the SDKs are a true third party SDk competing with the official Sony software development kit [^4].
 

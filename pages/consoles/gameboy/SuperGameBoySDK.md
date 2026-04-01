@@ -36,7 +36,7 @@ This page covers the `sgb` folder preserved in the Nintendo Gigaleak inside:
 
 Although it was found inside the Link's Awakening DX demo workspace, the folder itself is a compact Super Game Boy sample and BIOS package with its own libraries, sample code, build scripts, and debugger files.
 
-{% include link-to-other-post.html post="/zelda-links-awakening-dx" description="For the full Zelda DX source archive and the wider Disk 1 demo workspace where this folder was found, check out this post." %}
+{% include_cached link-to-other-post.html post="/zelda-links-awakening-dx" description="For the full Zelda DX source archive and the wider Disk 1 demo workspace where this folder was found, check out this post." %}
 
 ---
 ## Why It Matters
@@ -422,7 +422,7 @@ What the sample proves directly is:
 
 Taken together, that suggests a workflow where the PC-side tools assembled and linked the program, then handed it off to an Intelligent Systems-style debugging environment that could inject ROM and banked resources into a Game Boy development target, start execution, and expose symbols and memory to the developer.
 
-{% include link-to-other-post.html post="/gameboy-development-kit-hardware" description="For the wider hardware side of this setup, including Nintendo's DMG-ICE and related Game Boy development hardware, check out this post." %}
+{% include_cached link-to-other-post.html post="/gameboy-development-kit-hardware" description="For the wider hardware side of this setup, including Nintendo's DMG-ICE and related Game Boy development hardware, check out this post." %}
 
 The hardware page is useful context here because the two sides fit together neatly. The development hardware provided the emulation or debugging target, while files like `C.BAT`, `START.ICE`, `sgb.isx`, and the `isdwd*.dat` outputs show the software instructions and debugger metadata that would have driven that target during day-to-day development.
 

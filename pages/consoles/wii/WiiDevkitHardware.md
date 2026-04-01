@@ -46,7 +46,7 @@ You can read more about the NR Reader and other Gamecube development kit hardwar
  </div>
 </section> 
 
-{% include link-to-other-post.html post="/gamecube-development-kit-hardware" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
+{% include_cached link-to-other-post.html post="/gamecube-development-kit-hardware" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
 
 ---
 # RVT-001 - NDEV

@@ -37,7 +37,7 @@ The RDP is used after the Reality Signal Processor has processed its calculation
 </div>
 </section>
 
-{% include link-to-other-post.html post="/n64rsp" description="For more information about the second half of the RCP known as the Reality Signal Processor check out this post." %}
+{% include_cached link-to-other-post.html post="/n64rsp" description="For more information about the second half of the RCP known as the Reality Signal Processor check out this post." %}
 
 ---
 # Purpose of the RDP

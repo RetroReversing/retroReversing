@@ -83,11 +83,11 @@ Thanks to a [Game SoundTracks](https://gstdaisuki.tumblr.com/post/74641670704798
 > The Sega development kit included a ZAX-ICE (In-Circuit Emulator), which plugged into an SMS where the Z80 cpu would be (the SMS top cover was removed in order to achieve that).
 
 We do have information about a third party development kit used for Master System development called the Krisalis development kit:
-{% include link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For more information on The Third Party Master System Development Hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For more information on The Third Party Master System Development Hardware check out this post." %}
 
 The Sega Game Gear was a very similar system so some of the development hardware for Game Gear was also used for Master System games, you can find out about Game Gear development hardware in the post below:
 
-{% include link-to-other-post.html post="/sega-game-gear-devkit" description="For more information on Master System Development Hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-game-gear-devkit" description="For more information on Master System Development Hardware check out this post." %}
 
 ### Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
@@ -113,7 +113,7 @@ For an in-depth look at the SMS Retail hardware architecture check out the excel
 ## Zilog Z80 Microprocessor
 The Z80 processor was a common choice for many home computers and gaming consoles during the early 1980s. It provided the computational power necessary to run a variety of games and applications on the Sega Master System. The Z80's architecture made it a versatile and widely used processor at the time, allowing developers to create games and software for the console.
 
-{% include link-to-other-post.html post="/z80" description="For more information about the Z80 CPU used in the Sega Master System check out this post." %}
+{% include_cached link-to-other-post.html post="/z80" description="For more information about the Z80 CPU used in the Sega Master System check out this post." %}
 
 ---
 # Software Development Kit

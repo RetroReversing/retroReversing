@@ -37,7 +37,7 @@ This is the Japanese game better known in the West as **The Legend of Zelda: A L
 What makes this archive especially useful is that it is not just one source branch.
 It preserves a whole family of regional worktrees: a large Japanese Ver3 branch, a US `NES_Ver2` branch, separate English/French/German PAL branches, and an extra French `N_F_asm` path.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
 
 ---
 ## At a Glance

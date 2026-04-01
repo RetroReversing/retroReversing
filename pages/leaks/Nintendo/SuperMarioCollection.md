@@ -37,7 +37,7 @@ This is the Japanese Super Famicom release better known in the West as **Super M
 This is not a clean one-folder master source tree.
 It is a nested export centered on `export/mario-z/linkp`, with one front-end branch, two main gameplay branches, and a smaller Mario 3 subsystem branch, plus linked outputs, linker files, map files, ROM layout scripts, and menu assets.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
 
 ---
 ## At a Glance
@@ -791,7 +791,7 @@ They also hint that the visible `mn_hp_mr3*.asm` files were living alongside a p
 Unlike `mario_n1` and `mario_n2`, `mario_n3` does not preserve its linked outputs in this export.
 So this folder feels more like a source-side slice of one subsystem than a full branch capture.
 
-{% include link-to-other-post.html post="/super-mario-collection-mario-n3-mario-3-branch" description="For a dedicated deep dive into the preserved mario_n3 Mario 3 source slice, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-mario-n3-mario-3-branch" description="For a dedicated deep dive into the preserved mario_n3 Mario 3 source slice, check out this post." %}
 
 ---
 ## How the Branches Fit Together
@@ -1081,11 +1081,11 @@ Branch | Most likely game
 That is important because it turns the missing branches from vague references into partially reconstructable ones.
 We now know not only that they existed, but roughly how they were modularized and where their linked code lived in the final memory map.
 
-{% include link-to-other-post.html post="/super-mario-collection-mario-n4-world-branch" description="For a deeper reconstruction of the missing World-era mario_n4 branch, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-mario-n4-world-branch" description="For a deeper reconstruction of the missing World-era mario_n4 branch, check out this post." %}
 
-{% include link-to-other-post.html post="/super-mario-collection-mario-nu-branch" description="For a deeper reconstruction of the missing mario_nu branch, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-mario-nu-branch" description="For a deeper reconstruction of the missing mario_nu branch, check out this post." %}
 
-{% include link-to-other-post.html post="/super-mario-collection-asm0-shared-assets" description="For a deeper reconstruction of the missing shared asm0 asset staging folder, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-asm0-shared-assets" description="For a deeper reconstruction of the missing shared asm0 asset staging folder, check out this post." %}
 
 So the export we have is not just missing "some folders".
 It is missing the rest of a wider branch-and-asset workspace that the surviving scripts still clearly expect to be present.

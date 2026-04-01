@@ -67,7 +67,7 @@ Of course as it was released in 1996 the development of the game goes back years
 ### Official Development Hardware
 The developers were using an IBM PC running either MSDOS or Windows 95/NT as the DMG software development kit only runs on these systems. This would be paired with a `DMG-ICE` Debugger/Emulator that allowed the developers to test how the game ran on the real hardware.
 
-{% include link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information about the DMG-ICE and other development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information about the DMG-ICE and other development hardware check out this post." %}
 
 ### Software Development Kit
 It is very likely that Game Freak used the official Software Development kit provided by Intelligent Systems. This would give them the IS Assembler and Linker programs needed to build the game into a working rom.

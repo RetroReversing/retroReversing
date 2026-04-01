@@ -26,7 +26,7 @@ twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
 The **Oman Archive** was a leak of Nintendo Technical documents from a source inside SGI in **late 1999**. It was uploaded to the internet under the name `oman.rar` but has since been repackaged into multiple other archive formats, such as the now more common **oman.7z** (148.3 MB).
 
 An updated version of the Oman Archive was released in 2020 at the same time as the Gigaleak, another Nintendo Leak which includes N64 content.
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 # History of the Oman Archive
 Even the origin of the name itself is clouded in mystery with some saying it was leaked by a person called "Oman" and others disagreeing, but very little information is known about the leak.
@@ -52,7 +52,7 @@ They are from a development kit by `SN Systems` known as `SN64` and this was the
 
 This made it a really popular choice for 3rd party game developers as it was slightly easier to port code between the consoles using the SDK.
 
-{% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="If you are wondering what these files do check out our page on the SN64 SDK." %}
+{% include_cached link-to-other-post.html post="/sn64-sdk-sn-systems" description="If you are wondering what these files do check out our page on the SN64 SDK." %}
 
 All of the files in the root directory up to and including `N64NOTES.TXT` (9th March 1997) are from this SN64 SDK. The other top level files are listed separately below.
 
@@ -491,7 +491,7 @@ Verilog is a Hardware Description Language used to Design and verify hardware. T
 
 HW.old contains version 1.0 of the RCP Verilog source code presumably for archival reasons.
 
-{% include link-to-other-post.html post="/verilog" description="For more information about Verilog source code click here" %}
+{% include_cached link-to-other-post.html post="/verilog" description="For more information about Verilog source code click here" %}
 
 ---
 # INCLUDE Folder
@@ -613,7 +613,7 @@ There are a few executables that this source code builds which are:
 
 These tools helped 1st party developers (and a few lucky third parties) write and debug their RSP microcode on their workstation without constantly testing on the hardware.
 
-{% include link-to-other-post.html post="/n64rsp" description="For more information about the RSP check out this page." %}
+{% include_cached link-to-other-post.html post="/n64rsp" description="For more information about the RSP check out this page." %}
 
 ---
 # TOOLS Folder
@@ -633,7 +633,7 @@ Multigen was a tool for creating 3D models and environments on SGI IRIX workstat
 
 In fact Nintendo had its own fork of the project specifically for the Nintendo 64 called `Ningen`.
 
-{% include link-to-other-post.html post="/n64-3d-modelling" description="For more information about MultiGen and Ningen check out this post on 3D Modelling Software for the N64." %}
+{% include_cached link-to-other-post.html post="/n64-3d-modelling" description="For more information about MultiGen and Ningen check out this post on 3D Modelling Software for the N64." %}
 
 The CONV project is source code for a series of tools to convert Multigen models and textures to a format that can be run on the N64. These tools include:
 * flt2c - Convert 3D models in FLT format to C code

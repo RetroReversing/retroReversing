@@ -5,7 +5,7 @@ const path = require('path');
 const { scanDirectories, readMarkdownFile, parseFrontmatter, findMarkdownFiles } = require('./markdown-utils');
 
 /**
- * Script to validate {% include link-to-other-post.html post="..." %} references
+ * Script to validate {% include_cached link-to-other-post.html post="..." %} references
  * Usage: node validate-includes.js
  */
 
@@ -56,12 +56,12 @@ class IncludeValidator {
 
     /**
      * Extract include references from markdown content
-     * Matches: {% include link-to-other-post.html post="/some-path" %}
+     * Matches: {% include_cached link-to-other-post.html post="/some-path" %}
      */
     extractIncludeReferences(content) {
         const references = [];
         
-        // Regex to match {% include link-to-other-post.html post="..." %}
+        // Regex to match {% include_cached link-to-other-post.html post="..." %}
         // Also handles variations with single quotes or no quotes
         const includeRegex = /\{%\s*include\s+link-to-other-post\.html\s+post=["']([^"']+)["']/g;
         
@@ -285,7 +285,7 @@ Include Reference Validator
 Usage: node validate-includes.js
 
 Description:
-  Validates all {% include link-to-other-post.html post="..." %} references
+  Validates all {% include_cached link-to-other-post.html post="..." %} references
   in markdown files to ensure the post= parameter matches an actual post's permalink.
 
 Examples:

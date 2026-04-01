@@ -61,7 +61,7 @@ The **IS-Debugger** is aimed at programmers and has functionality to inspect mem
 The Gigaleak gives one especially useful glimpse of the software side that could sit behind this kind of programmer-facing setup.
 Inside the Super Mario Kart source tree, Nintendo's `SFX-DOS` environment survives with floppy, keyboard, serial, printer, and text-console support, which helps show the kind of SNES-side operating layer these tools could rely on in practice.
 
-{% include link-to-other-post.html post="/super-famicom-sfx-dos" description="For a detailed look at the leaked SFX-DOS environment and how it fits together with editor tools and dev hardware, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-famicom-sfx-dos" description="For a detailed look at the leaked SFX-DOS environment and how it fits together with editor tools and dev hardware, check out this post." %}
 
 You can see a SHVC in use at Nintendo in 1994 thanks to a photo published in the May 1994 issue of the UK **Super Play** magazine, apparently being used for Metroid development, from the lighting of the sticker color its hard to tell if its the IS-Debugger or IS-Sound, but presumably it is an IS-Debugger due to the lack of Sound equipment:
 <img width="1316" height="741" alt="Nintendo Office May 1994" src="https://github.com/user-attachments/assets/850d6ad7-01b5-4f26-8d79-27fef586bed9" />

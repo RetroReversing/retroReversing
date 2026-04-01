@@ -486,7 +486,7 @@ The **zelda_tool_copy** founds far more interesting than it actually is, it is r
 
 Note that if you are interest in the source code for any of these tools then you can find it in "BroadOn Leak".
 
-{% include link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
+{% include_cached link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
 
 Name | Description
 ---|---

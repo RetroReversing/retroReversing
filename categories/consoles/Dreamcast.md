@@ -44,7 +44,7 @@ So grab your VMU, fire up your Dreamcast, and get ready to dive into the excitin
 ### How the Dreamcast's Security was Hacked (MIL-CD)
 This article debunks the common myth that the Dreamcast lacked security, explaining instead how the "MIL-CD" format—intended for interactive music albums—became the system's Achilles' heel. We detail how hackers exploited this oversight to bypass GD-ROM authenticity checks, allowing modified game ISOs to run on standard CD-Rs despite the console's built-in copy protection mechanisms.
 
-{% include link-to-other-post.html post="/How-the-Dreamcast-Security-was-Hacked" %}
+{% include_cached link-to-other-post.html post="/How-the-Dreamcast-Security-was-Hacked" %}
 
 
 
@@ -63,7 +63,7 @@ This segment of our guide furnishes you with comprehensive insights and resource
 ## Development Hardware
 The Dreamcast arguably had the best development kit that SEGA had ever sold for their consoles, it is just a shame the lifespan of the Dreamcast was cut short.
 
-{% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
 
 ## Unofficial Hardware
 
@@ -77,25 +77,25 @@ The Dreamcast arguably had the best development kit that SEGA had ever sold for 
 # Game Software Development
 
 ## Official Dreamcast Windows CE SDK
-{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For information about SEGA's Dreamcast Windows CE SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/dreamcast-windows-ce" description="For information about SEGA's Dreamcast Windows CE SDK check out this post." %}
 
 ## GD Workshop
-{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about the Dreamcast GD Workshop check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about the Dreamcast GD Workshop check out this post." %}
 
 ---
 # Games
 
 ## Chicken Run
 The full source code for the Dreamcast port of **Chicken Run** was released and we have a separate post covering the code:
-{% include link-to-other-post.html post="/Chicken-Run-Source-Code" description="For information about Chicken Run source code check out this post." %}
+{% include_cached link-to-other-post.html post="/Chicken-Run-Source-Code" description="For information about Chicken Run source code check out this post." %}
 
 
 ## Official Retail Dreamcast Game Source Code
 If you are interested in officially released or leaked source code for the Dreamcast check out our other post:
-{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ## Dreamcast games with Debug Symbols
-{% include link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="For a list of dreamcast games with debug symbols check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="For a list of dreamcast games with debug symbols check out this post." %}
 
 ## Games exclusive to the Dreamcast
 Wikipedia maintains a list of Dreamcast exclusives -  [Dreamcast-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Dreamcast-only_games)

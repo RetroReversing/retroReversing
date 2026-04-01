@@ -70,7 +70,7 @@ According to **MobyGames** There are 3,930 video games for the Amiga [^1] but th
 Reverse engineering is a process that can help uncover the inner workings of these games and reveal how they were programmed, designed, and even uncover hidden easter eggs.
 
 For more information on the basics and benefits of reverse engineering games in general check out our introductory guide:
-{% include link-to-other-post.html post="/tutorials/introduction" %}
+{% include_cached link-to-other-post.html post="/tutorials/introduction" %}
 
 ---
 ## Amiga Magazines
@@ -185,7 +185,7 @@ Additionally, Paula functions as the floppy drive controller, manages the UART f
 
 ### Is there any official source code for Amiga?
 If you are interested to see officially released or leaked source code, for Amiga check out our other post:
-{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ### The Story of Another World on the Amiga: Technical Deep Dive
 **[Modern Vintage Gamer](http://www.youtube.com/watch?v=0iz9PJbs5rE)**  provides a deep technical analysis of the 1991 cinematic platformer *Another World* on the Commodore Amiga. The video details how creator Eric Chahi achieved its unique 2D polygonal aesthetic by utilizing the Amiga's Blitter co-processor for line drawing and area filling, rather than traditional sprites [00:06:45].
@@ -230,7 +230,7 @@ Dutch Retro Guy's "Amiga Tech" playlist offers a deep dive into advanced graphic
 ## Are there any Amiga Reverse Engineered games or active projects?
 Before diving in its best to check if there are any existing reversing projects for the Amiga that you can contribute to, check out our other post specifically on this topic:
 
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ### Menace Amiga Code
 [Dave Poo 2](https://www.youtube.com/playlist?list=PLr783JgI3IBd9PZuc9WMmwwxoG2ic-NzB) has an excellent playlist about reverse engineering the Amiga game *Menace*. It covers the detailed analysis of the source code originally published in Amiga Format, walking through the 68000 assembly to understand game logic, fix bugs, and explore the engine's design.

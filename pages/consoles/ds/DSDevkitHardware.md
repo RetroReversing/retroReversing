@@ -343,7 +343,7 @@ Datel are a very talented company when to comes to by-passing security and doing
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Datel once released a multimedia cartridge for DS which allowed playing music, images, and user made apps. It was essentially a flash cart without a ROM loader. These were actually on store shelves in America?? It&#39;s how I got into piracy and homebrew on my DS at age like, 11... <a href="https://t.co/a7kDkDo7LW">pic.twitter.com/a7kDkDo7LW</a></p>&mdash; Kaitlyn Molinas (@orcastraw) <a href="https://twitter.com/orcastraw/status/1317956971128102912?ref_src=twsrc%5Etfw">October 18, 2020</a></blockquote>
 
 ---
-{% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="Since you have got this far you might be interested in Nintendo's previous generation of handheld development hardware, if so check out this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-advance-development-kit/" description="Since you have got this far you might be interested in Nintendo's previous generation of handheld development hardware, if so check out this post." %}
 
 ---
 # References

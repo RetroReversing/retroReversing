@@ -19,11 +19,11 @@ tags:
 ---
 
 # Vectors
-{% include link-to-other-post.html post="/Vectors" description="For more information on Vectors check out this post." %}
+{% include_cached link-to-other-post.html post="/Vectors" description="For more information on Vectors check out this post." %}
 
 # Matrices (Matrix)
 For an introduction to matrices we have a post on that topic:
-{% include link-to-other-post.html post="/Matrix" description="For more information on Matrices check out this post." %}
+{% include_cached link-to-other-post.html post="/Matrix" description="For more information on Matrices check out this post." %}
 
 ## View Projection Matrix 
 
@@ -36,7 +36,7 @@ This multi-part write-up systematically covers the foundational math of 3D trans
 
 ---
 # Quaternions
-{% include link-to-other-post.html post="/Quaternions" description="For more information on Quaternions check out this post." %}
+{% include_cached link-to-other-post.html post="/Quaternions" description="For more information on Quaternions check out this post." %}
 
 ---
 # All Posts

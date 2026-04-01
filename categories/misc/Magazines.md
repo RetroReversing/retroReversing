@@ -48,7 +48,7 @@ Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 202
 **Develop** was a UK magazine dedicated to game developers in the industry similar to the US magazine **Game Developer**, it published 11 issues a year, one a month except December and January where there was one issue for both months. After 188 issues it was merged with its sister title **MCV** to become **MCV/Develop** but it kept the MCV issue numbering.
 
 There is a wealth of relevant articles and information in this journal so we have split this section into its own post:
-{% include link-to-other-post.html post="/develop-magazine" description="For more information on Develop Magazine check out this post." %}
+{% include_cached link-to-other-post.html post="/develop-magazine" description="For more information on Develop Magazine check out this post." %}
 
 The post contains everything we know about the interviews and articles published every month along with additional information that may be relevant to game development history.
 
@@ -61,7 +61,7 @@ The post contains everything we know about the interviews and articles published
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
 We have a separate page with an index of all the articles and other information about the magazine here:
-{% include link-to-other-post.html post="/gamemaker-magazine" %}
+{% include_cached link-to-other-post.html post="/gamemaker-magazine" %}
 
 ---
 ## Journal of Computer Game Design
@@ -275,7 +275,7 @@ Retro Gamer is widely considered one of the **single best sources** for intervie
 So if you are looking for primary source information on how classic games were made, it is arguably the industry standard for print media.
 
 We have a separate page with an index of all the interviews, articles and other information about the magazine here:
-{% include link-to-other-post.html post="/retro-gamer" %}
+{% include_cached link-to-other-post.html post="/retro-gamer" %}
 
 ---
 # Creative Magazines

@@ -37,7 +37,7 @@ Discover the programming languages that powered the classics. From the assembly 
 - **C++**: The language that introduced object-oriented programming to game development.
 
 For more information on the programming languages used for game development check out this post:
-{% include link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
+{% include_cached link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
 
 ---
 ## Assemblers & Compilers
@@ -51,7 +51,7 @@ Understand the role of early compilers and their impact on game performance and 
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
 
 For more information on how GNU GCC was used in game development check out this post:
-{% include link-to-other-post.html post="/compilers" description="For more information on how GNU GCC was used in game development check out the GCC section in the compiler post." %}
+{% include_cached link-to-other-post.html post="/compilers" description="For more information on how GNU GCC was used in game development check out the GCC section in the compiler post." %}
 
 ---
 
@@ -77,7 +77,7 @@ Every platform had its own official Software Development Kit (SDK), so whether y
 
 We have a post specifically about all the different SDKs for each platform.
 
-{% include link-to-other-post.html post="/sdks" description="For more information on SDK used to create retro games, check out this post." %}
+{% include_cached link-to-other-post.html post="/sdks" description="For more information on SDK used to create retro games, check out this post." %}
 
 
 ---
@@ -91,7 +91,7 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 - **Texture Mapping**: Techniques for applying textures to 3D models to enhance visual realism.
 
 For more information on 3D Software check out this post:
-{% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
+{% include_cached link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
 
 ## 2D Images, Sprites and Textures
 Known software used in the creation of 2D Image asserts for retro video games include:
@@ -143,7 +143,7 @@ Disassemblers are crucial for breaking down compiled game code back into human-r
 * **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
 
 For more information on Disassemblers check out this post:
-{% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
+{% include_cached link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
 ---
 ## Debuggers
@@ -170,7 +170,7 @@ Decompilers attempt to convert executable code back into a higher-level programm
 - **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
 For more information on Ghidra check out this post:
-{% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+{% include_cached link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
 
 ---
 ## File Format Analyzers
@@ -209,7 +209,7 @@ Emulators replicate the hardware of old gaming systems on modern computers, allo
 - **Dolphin**: A GameCube and Wii emulator known for its accuracy and debugging tools.
 
 For more information on Reversing Emulators check out this post:
-{% include link-to-other-post.html post="/Reversing-Emulators" description="For more information on Reversing Emulators check out this post." %}
+{% include_cached link-to-other-post.html post="/Reversing-Emulators" description="For more information on Reversing Emulators check out this post." %}
 
 ### QEMU 
 QEMU is an open-source machine emulator and virtualizer that enables hardware-level virtualization and full-system emulation for running operating systems and software across different CPU architectures.
@@ -228,7 +228,7 @@ We have tons of modern software for Reverse Engineering and ROM Hacking but how 
 
 We have a post specifically about this software in the link below.
 
-{% include link-to-other-post.html post="/cracking-software" description="For more information on Game Cracking software used back in the day check out this post." %}
+{% include_cached link-to-other-post.html post="/cracking-software" description="For more information on Game Cracking software used back in the day check out this post." %}
 
 
 ---

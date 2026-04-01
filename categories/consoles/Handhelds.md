@@ -39,7 +39,7 @@ This page will cover not the obscure commerical handheld consoles that many peop
 # Game.com (Tiger Electronics)
 The Game.com (pronounced "game com") was a handheld game console released by Tiger Electronics in 1997. It was designed to compete with other handheld gaming devices of its time, such as the Nintendo Game Boy and the Sega Game Gear. However, despite some innovative features, the Game.com ultimately struggled to gain traction in the market.
 
-{% include link-to-other-post.html post="/gamecom" description="For more information about the Game.com check out this post." %}
+{% include_cached link-to-other-post.html post="/gamecom" description="For more information about the Game.com check out this post." %}
 
 ---
 # GP32 (Game Park Holdings)
@@ -67,13 +67,13 @@ The GP2X ran on a Linux-based operating system, which provided a stable and cust
 The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
 **Jupiter Corporation** and released in Japan on December 14th 2001.
 
-{% include link-to-other-post.html post="/PokemonMini" description="For more information about the Pokemon Mini check out this post." %}
+{% include_cached link-to-other-post.html post="/PokemonMini" description="For more information about the Pokemon Mini check out this post." %}
 
 ---
 # Wonderswan (Bandai)
 The Wonderswan is a classic video game console that was only ever released in Japan (on 4th March 1999).
 
-{% include link-to-other-post.html post="/wonderswan" description="For more information about the Bandai Wonderswan check out this post." %}
+{% include_cached link-to-other-post.html post="/wonderswan" description="For more information about the Bandai Wonderswan check out this post." %}
 
 ---
 # Lynx (Atari)
@@ -83,5 +83,5 @@ The Atari Lynx is a handheld gaming console released by Atari Corporation in Sep
 # Game Gear (SEGA)
 The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games.
 
-{% include link-to-other-post.html post="/gamegear" description="For more information about the Sega Game Gear check out this post." %}
+{% include_cached link-to-other-post.html post="/gamegear" description="For more information about the Sega Game Gear check out this post." %}
 

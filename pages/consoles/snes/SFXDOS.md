@@ -29,7 +29,7 @@ The Nintendo Gigaleak preserves a surprisingly complete Super Famicom disk and I
 This is the `SFX-DOS` stack: a SNES-side support layer for floppy access, directory walking, keyboard and serial I/O, printer output, and text-console interaction.
 It survives inside the Mario Kart leak because the game's editors were using it directly for save and load operations.
 
-{% include link-to-other-post.html post="/super-mario-kart-source-code" description="For the wider Super Mario Kart source archive, including the editor files that call into SFX-DOS, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-mario-kart-source-code" description="For the wider Super Mario Kart source archive, including the editor files that call into SFX-DOS, check out this post." %}
 
 ---
 ## Key Findings

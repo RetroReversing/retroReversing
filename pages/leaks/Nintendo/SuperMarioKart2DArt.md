@@ -33,7 +33,7 @@ The Nintendo Gigaleak preserves a separate Super Mario Kart art workspace under 
 Unlike the main source tree, this directory is almost entirely art-side production material.
 It is a flat workspace full of screen layouts, character graphics, palette files, object art, and raw Mode 7 maps, with a huge number of `.BAK` revisions still preserved beside the current files.
 
-{% include link-to-other-post.html post="/super-mario-kart-source-code" description="For source/build analysis, see the Super Mario Kart source page." %}
+{% include_cached link-to-other-post.html post="/super-mario-kart-source-code" description="For source/build analysis, see the Super Mario Kart source page." %}
 
 ---
 ## At a Glance

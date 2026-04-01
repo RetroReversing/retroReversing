@@ -75,20 +75,20 @@ Thus **libRetroReversing** enabled cores can run on any libRetro frontend such a
 ## Creating your own Reversing Emulator
 If an existing Reversing Emulator does not exist for your favourite console you can follow our guide to create your own based on an existing libRetro core.
 
-{% include link-to-other-post.html post="/create-reversing-emulator" description="For more information check out this post." %}
+{% include_cached link-to-other-post.html post="/create-reversing-emulator" description="For more information check out this post." %}
 
 ---
 # Available Consoles
 More and more consoles are becoming supported with the aim of most of the Sega/Nintendo/Sony LibRetro cores being supported by the end of 2021.
 
 ## Nintendo 64
-{% include link-to-other-post.html post="/mupen64RE" description="For more information about the N64 Reversing emulator based on Mupen64 check out this post." %}
+{% include_cached link-to-other-post.html post="/mupen64RE" description="For more information about the N64 Reversing emulator based on Mupen64 check out this post." %}
 
 ## Sega Saturn
-{% include link-to-other-post.html post="/Sega-Saturn-Reversing-Emulator" description="For more information about the Sega Saturn emulator based on Beetle check out this post." %}
+{% include_cached link-to-other-post.html post="/Sega-Saturn-Reversing-Emulator" description="For more information about the Sega Saturn emulator based on Beetle check out this post." %}
 
 ## Nintendo GameBoy (DMG & GBC)
-{% include link-to-other-post.html post="/GameBoy-Reversing-Emulator" description="For more information about the Game Boy and Game Boy Color reversing emulator based on Sameboy check out this post." %}
+{% include_cached link-to-other-post.html post="/GameBoy-Reversing-Emulator" description="For more information about the Game Boy and Game Boy Color reversing emulator based on Sameboy check out this post." %}
 
 ---
 # Similar projects

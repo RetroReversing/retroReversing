@@ -27,7 +27,7 @@ updatedAt: '2020-09-19'
 
 The Platinum leak occurred on the 9th of September 2020 and included gigabytes of content, hence why some call it GigaLeak 3.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 Most notably it contains the source code for Pokemon Platinum, the Wii Startup Disc and a ton of previously un released Game Boy and Game Boy Color ROMS from the Nintendo Lot Check process.
 
@@ -51,7 +51,7 @@ The Platinum.7z archive contains the following contents:
 # Game Boy Lot Check ROMS (dmg_sgb.7z)
 Similar to the previous Gigaleak, this leak also contains content from the Nintendo Lot Check process, in this case it was Game Boy and Game Boy Color roms. Tons of these games had been previously unreleased, you can find more details in our post about the Nintendo Lot Check roms.
 
-{% include link-to-other-post.html post="/nintendo-lot-check" description="For full information on the new GBC and DMG roms in the leak check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-lot-check" description="For full information on the new GBC and DMG roms in the leak check out this post." %}
 
 ---
 # Wii Startup Disc (20090512.rar)
@@ -527,7 +527,7 @@ The **DSiWareROM.rar** archive contains a ton of DSiWare ROMS in **TAD** format.
 
 We have a separate post on the **DSiWareROM.rar** archive contents with the intention to do a deep dive into the various debug versions included in the archive.
 
-{% include link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
+{% include_cached link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
 
 ---
 ## Chinese DsiWare ROM backup (generic.7z/ro.rar)

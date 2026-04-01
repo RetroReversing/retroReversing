@@ -38,7 +38,7 @@ The Paladin leak occurred on the 30th of September 2020 and included about 2.4GB
  </div>
 </section> 
 
-{% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
+{% include_cached link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
 
 # Files Leaked
 As usual the files were uploaded to anonfiles and the links shared on the 4Chan **/vp** board, the files were:
@@ -70,7 +70,7 @@ When the **paladin.7z** archive has been extracted it creates the following cont
 #  Famicom Disk System Lot Check ROMS (FMC_DISK.7z)
 Similar to the previous Gigaleak, this leak also contains content from the Nintendo Lot Check process, in this case it was the Famicom Disk System ROMs. Some of these games had been previously unreleased, you can find more details in our post about the Nintendo Lot Check ROMs.
 
-{% include link-to-other-post.html post="/nintendo-lot-check" description="For full information on the new Famicom Disk System ROMs in the leak check out this post." %}
+{% include_cached link-to-other-post.html post="/nintendo-lot-check" description="For full information on the new Famicom Disk System ROMs in the leak check out this post." %}
 
 ---
 # E3 Leaf Green and Fire Red GBA ROMS (/E3)

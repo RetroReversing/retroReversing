@@ -35,7 +35,7 @@ The Nintendo Gigaleak preserves a small but unusually useful F-Zero source archi
 This is not just a loose dump of assembly files.
 It preserves the main game code, a dated title page, multiple regional build variants, and a whole suite of C tools that converted maps, panels, characters, rivals, bombs, and perspective data into the formats the game actually used.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
 
 ---
 ## At a Glance

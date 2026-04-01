@@ -52,7 +52,7 @@ The Zilog Z80A is an 8-bit microprocessor with a comprehensive instruction set, 
 
 It features a set of general-purpose registers, alternate register sets, and specialized registers like the index registers IX and IY, which are particularly useful for advanced memory access patterns.
 
-{% include link-to-other-post.html post="/z80" description="For more information on the Zilog Z80 check out this post." %}
+{% include_cached link-to-other-post.html post="/z80" description="For more information on the Zilog Z80 check out this post." %}
 
 ---
 ## Sound Hardware

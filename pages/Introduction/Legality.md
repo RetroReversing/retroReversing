@@ -27,7 +27,7 @@ Most reverse engineering projects don't just convert a binary executable to a di
 The safest way legally speaking would be to distribute the annotations (comments, variable/function names) separate from the source material (disassembled code). One example of this is releasing a *symbol table* which contains the variable/function names along with their position in the original executable, it would then be up to the end-user to disassemble and join the symbol table to the output.
 
 Some impressive examples of disassembly annotations that are available on Github are covered in our post: 
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For more information check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For more information check out this post." %}
 
 Some release both the disassembled code and a symbol file which can be attached to a debugger.
 

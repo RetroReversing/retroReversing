@@ -73,7 +73,7 @@ There have been a few very successful reverse engineering projects for the Game 
 
 ## Pokemon Red/Blue/Yellow
 The Pokemon Reverse Engineering Team (PRET) have managed to pull off a marvellous achievement, they have fully reverse engineered Pokemon Red and Blue back into retail-matching assembly code.
-{% include link-to-other-post.html post="/pokemonredblue" description="For more information about the project check out this post." %}
+{% include_cached link-to-other-post.html post="/pokemonredblue" description="For more information about the project check out this post." %}
 
 ## Legend of Zelda Links Awakening
 In August 2016 the website KZone started a full disassembly of the classic Game Boy game Link's Awakening, along the way they have written some excellent in-depth articles about how the game works. Check it out!
@@ -89,11 +89,11 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 ## Game Boy Development Kit Hardware
 Special hardware was sold directly from Nintendo in order to make it easy for third party developers to get started making their own games for the new handheld.
 
-{% include link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information about the development hardware used for Game Boy projects check out this post." %}
+{% include_cached link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information about the development hardware used for Game Boy projects check out this post." %}
 
 ## Game Boy Software Development Kit
 Along with the hardware, Nintendo also provided a fairly limited software development kit, which contained tools such as z80 assemblers and linkers.
-{% include link-to-other-post.html post="/official-gameboy-software-dev-kit" description="For more information about the SDK used to make Game Boy games check out this post." %}
+{% include_cached link-to-other-post.html post="/official-gameboy-software-dev-kit" description="For more information about the SDK used to make Game Boy games check out this post." %}
 
 ---
 # Hardware
@@ -105,7 +105,7 @@ We used to have a post on the hardware architecture of the Game Boy, but now we 
 ## Sharp LR35902 Microprocessor
 The CPU used in the original Game Boy was a custom Sharp LR35902, which is often considered similar to the Zilog Z80 but with some variations. While it was based on the Z80 architecture, it was not produced by Zilog.
 
-{% include link-to-other-post.html post="/z80" description="For more information about the Z80-based CPU used in the Game Boy check out this post." %}
+{% include_cached link-to-other-post.html post="/z80" description="For more information about the Z80-based CPU used in the Game Boy check out this post." %}
 
 ## Game Boy Pocket Hardware Schematics
 If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Game Boy Circuit Schematics over on Github:
@@ -165,7 +165,7 @@ Konami came out with a custom "controller" for Dance Dance Revolution that goes 
 ## Mr Do! For Original Game Boy
 The source code for the Game Boy classic `Mr Do!` has been kindly released by two of the original game developers and can provide an excellent reference for how retail Game Boy games were developed in 1990!
 
-{% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
+{% include_cached link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
 
 ---
 # Game Boy Games
@@ -213,7 +213,7 @@ This is a very interesting project that played a large set of gameboy games in a
 
 ---
 # File Formats
-{% include link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
 
 ### DMG-palette-patcher
 [MrBlinky](https://github.com/MrBlinky/DMG-palette-patcher) has released a Python tool for patching Original Game Boy (DMG) ROMs to use specific color palettes when played on a Game Boy Color. The script works by modifying the ROM's header—specifically the license code and title checksum—to trick the Game Boy Color's boot ROM into automatically selecting one of 45 built-in color palettes, such as the classic grey theme, rather than the default blue-greenish hues.

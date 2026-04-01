@@ -47,7 +47,7 @@ The Sega Mega Drive, also known as the Sega Genesis in North America, was a popu
 ## Are there any Mega Drive Reverse Engineered games or active projects?
 Before diving in its best to check if there are any existing reversing projects for the Sega Mega Drive that you can contribute to, check out our other post specifically on this topic:
 
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ## What are the games exclusive to the Sega Mega Drive?
 There were many exclusive games for the Mega Drive and the various hardware add-ons that were released for it, these are ideal targets for reverse engineering and porting to other platforms:
@@ -66,7 +66,7 @@ In this section of our guide, we will provide you with detailed information and 
 ## Development Hardware
 In order for game developers to create software for the SEGA Mega Drive, they had the choice of a number of different development hardware to purchase, or they could go it alone and create their own hardware. To find out more check out the post below.
 
-{% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit" description="For information about SEGA's Mega Drive development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-development-kit" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
 ## Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. It required a **NEC PC-98** for development which was the ideal choice for many game developers in japan.
@@ -115,7 +115,7 @@ Although he also revealed that there was a tight development cycle for Alien Sol
 ---
 ## Mega Drive Software Development Kit
 To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:
-{% include link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
+{% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
 
 ---
 ## In-House Development Software

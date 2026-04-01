@@ -32,7 +32,7 @@ The Nintendo Gigaleak preserves a separate Super Mario Kart art workspace under 
 
 These directories are almost entirely art-side production material from the Super Nintendo Pilotwings game.
 
-{% include link-to-other-post.html post="/snes-file-formats" description="For cross-project format definitions and evidence-backed extension behavior, see the SNES File Formats page." %}
+{% include_cached link-to-other-post.html post="/snes-file-formats" description="For cross-project format definitions and evidence-backed extension behavior, see the SNES File Formats page." %}
 
 ---
 

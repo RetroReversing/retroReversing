@@ -66,7 +66,7 @@ Also note that in order to debug a game, not only does it have to be compiled wi
 ## N64OnlineManuals52
 This is the same documentation as could be found in version 5.2 of the Nintendo 64 SDK, as far as we know there has been no changes to it for iQue but someone should do a Folder Diff on this to make sure.
 
-{% include link-to-other-post.html post="/n64-sdk" description="For the contents of the 5.2 Nintendo 64 SDK Documentation check out this post." %}
+{% include_cached link-to-other-post.html post="/n64-sdk" description="For the contents of the 5.2 Nintendo 64 SDK Documentation check out this post." %}
 
 ---
 # Modules folder - Reality Debug Bridge Driver Module
@@ -379,7 +379,7 @@ The sbin directory contains pre-build command line tools that are useful for dev
 
 Note that if you are interest in the source code for any of these tools then you can find it in "BroadOn Leak".
 
-{% include link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
+{% include_cached link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
 
 Tool name | Description
 ---|---

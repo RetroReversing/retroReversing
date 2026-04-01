@@ -46,7 +46,7 @@ SNASM (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) 
 
 Note that Spiny Norman (Martin Day) would go on to found a rival development tools company known as SN Systems (Spiny Norman Systems) but they did not distribute SNASM itself.
 
-{% include link-to-other-post.html post="/companies/snsystems" description="For more information about SN Systems and their own development kits check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/snsystems" description="For more information about SN Systems and their own development kits check out this post." %}
 
 SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost **£600** and runs on PC [^2]. 
 
@@ -90,7 +90,7 @@ It was used by **Mike Dailly** for SNES game development back in the day:
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Some sexy <a href="https://twitter.com/hashtag/SNES?src=hash&amp;ref_src=twsrc%5Etfw">#SNES</a> dev stuff… My old SNASM devkit, a special SNES EPROM box that let you max out the ROM space, and aSNES dev cart.<br>Lastly a Psygnosis PsyQ devkit. <a href="https://t.co/bIeXhlx3Ok">pic.twitter.com/bIeXhlx3Ok</a></p>&mdash; Mike Dailly™ 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇺🇦🇵🇸💙 (@mdf200) <a href="https://twitter.com/mdf200/status/1555993551082766336?ref_src=twsrc%5Etfw">August 6, 2022</a></blockquote>
 
 We have a post all about Super Nintendo development kits which has a section on the **SNASM658**:
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the SNASM658 and other SNES dev kits check out this post." %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the SNASM658 and other SNES dev kits check out this post." %}
 
 ### SNASM for Atari ST
 The Atari ST was one of the first platforms supported by the original SNASM development kit, it allowed developing on a PC and debugging on an Atari ST, with the main benefit being that crashes on the Atari didn't affect development compared to editing on the Atari ST itself.

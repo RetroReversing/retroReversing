@@ -30,7 +30,7 @@ tags:
 
 Since Datel have produced many chat cartidges and other custom unlicensed console hardware we have split this section into its own page:
 
-{% include link-to-other-post.html post="/companies/datel/" %}
+{% include_cached link-to-other-post.html post="/companies/datel/" %}
 
 
 ---

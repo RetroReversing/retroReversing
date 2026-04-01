@@ -118,7 +118,7 @@ These are the files it contains:
 There are possible other versions of the GCC compilers for N64 made by SN systems that are based on a GCC build earlier that 2.7.2, but we have yet to find any.
 
 For more information check out our post on this SDK:
-{% include link-to-other-post.html post="/sn64-sdk-sn-systems" %}
+{% include_cached link-to-other-post.html post="/sn64-sdk-sn-systems" %}
 
 
 ---

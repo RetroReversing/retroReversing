@@ -45,11 +45,11 @@ In 1993, a surprising **55** new NES titles were released [^2], showcasing the e
 ---
 ## Official Retail NES Game Source Code
 If you are interested to see officially released or leaked source code for the Nintendo Entertainment System check out our other post:
-{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ### Home Alone NES Source Code
 The full source code for the NES game **Home Alone** was released online thats to the **Game History Org** and we have a specific post covering the details of the files included:
-{% include link-to-other-post.html post="/home-alone-2-nes-source-code" description="For the official source code to Home Alone for the NES check out this post." %}
+{% include_cached link-to-other-post.html post="/home-alone-2-nes-source-code" description="For the official source code to Home Alone for the NES check out this post." %}
 
 ---
 # Hardware
@@ -62,7 +62,7 @@ Since Nintendo were very new to the home video game market, they saw themselves 
 So they did not make a public NES development kit, so most third parties has to roll their own development kits.
 
 We have a specific post covering all the NES development kits that we know about here:
-{% include link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## Retail NES Hardware
 If you're interested in learning more about the hardware architecture of the NES, we highly recommend checking out the post on **Copetti.org**. This website is dedicated to exploring the technical details of the NES hardware, including the CPU, PPU, and APU, as well as other components that make up the console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the NES.
@@ -124,7 +124,7 @@ Some examples of the length of time it took to develop Nintendo Entertainment Sy
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
 
 They created their own development kits based on the PDS and you can find out more about it in our post on the NES Development Hardware:
-{% include link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## What do we know about the Official Famicom SDK?
 The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game.
@@ -140,11 +140,11 @@ It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems be
 
 ### What is a NES emulator and how does it work?
 We have a specific post covering exactly how emulators work including tips for writing your own emulators:
-{% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
+{% include_cached link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
 ### When was the first NES emulator?
 We have a specific post on the history of NES emulation:
-{% include link-to-other-post.html post="/nes-emulation" description="For more information on the history of NES emulators check out this post." %}
+{% include_cached link-to-other-post.html post="/nes-emulation" description="For more information on the history of NES emulators check out this post." %}
 
 
 ### NES Emulators with Debugging Functionality
@@ -226,7 +226,7 @@ Corrupting the memory of a ROM has become very popular over on Youtube with crea
 If you want to try it yourself we recommend the **Real-Time Corruptor Vanguard** (RTCV) available on Github: [redscientistlabs/RTCV: Real-Time Corruptor, Vanguard, CorruptCore, NetCore2 https://redscientist.com/rtc](https://github.com/redscientistlabs/RTCV). It is written using DotNet so it should work on Windows and MacOSX/Linux via Mono.
 
 For more information we have a specific post on the topic of Game memory corruption:
-{% include link-to-other-post.html post="/emulator-game-memory-corruption" description="For information about Game Memory Corruption check out this post." %}
+{% include_cached link-to-other-post.html post="/emulator-game-memory-corruption" description="For information about Game Memory Corruption check out this post." %}
 
 ### Deliberate NES Memory Corruption by Javidx9
 The Youtuber **Javidx9** has created a system that randomly corrupts the memory of a NES game (every 5 seconds) as it runs just for the fun of seeing the chaos that follows. The interesting part of this is that his system is somewhat smart in that it tracks the most common memory addresses used per frame (excluding screen memory) and changes those at a higher rate compared to just random memory locations.
@@ -302,13 +302,13 @@ In this section, we'll provide an overview of the basic techniques used to rever
 
 ### What games have already been reverse engineered or are under active development?
 If you are interested to see existing reversing projects for the NES check out our other post specifically on this topic:
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ### What does it mean to reverse engineer a NES game?
 Reverse engineering is a process that can help uncover the inner workings of these games and reveal how they were programmed, designed, and even uncover hidden easter eggs.
 
 For more information on the basics and benefits of reverse engineering games in general check out our introductory guide:
-{% include link-to-other-post.html post="/tutorials/introduction" %}
+{% include_cached link-to-other-post.html post="/tutorials/introduction" %}
 
 ### What are the different File Formats for the NES and Famicom?
 When reversing NES games you will come across a variety of file formats, this section will try to cover all of the most common formats you will encounter.
@@ -323,7 +323,7 @@ The formats for NES ROMS (virtual cartridges) are:
 ### How can I reverse engineer a NES ROM with Ghidra?
 Ghidra is an excellent tool to reverse engineer NES games but there is a lot to cover so we have moved this section to its own post which you can view here:
 
-{% include link-to-other-post.html post="/nes-ghidra" description="For a guide on how to reverse NES games with Ghidra check out this post." %}
+{% include_cached link-to-other-post.html post="/nes-ghidra" description="For a guide on how to reverse NES games with Ghidra check out this post." %}
 
 ---
 ## NES and Famicom Reverse Engineering Guides
@@ -349,7 +349,7 @@ The security blog **segfault.me** has an excellent write-up of a Capture The Fla
 ## Super Mario Bros Reverse Engineering
 The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
 
-{% include link-to-other-post.html post="/super-mario-bros" %}
+{% include_cached link-to-other-post.html post="/super-mario-bros" %}
 
 
 ### Super Mario Bros Annotated Disassembly

@@ -212,7 +212,7 @@ In this side by side example of the Sega Saturn and Nintendo 64 you can see whic
 # 3rd Party Development kits
 Although the Cross Products development kit was initially a 3rd party development kit it was included on this page as it became the official `CartDev` development kit. However there was also another competing 3rd party development kit by Sony of all people.. well technically a company that got bought by Sony: Sn Systems & Psygnosis. It was called the Psy-Q Saturn development kit and it was part of a cross platform suite of development kits.
 
-{% include link-to-other-post.html post="/psyq-sega-saturn" description="For more information on the SN Systems & Psygnosis PSYQ Saturn check out this post." %}
+{% include_cached link-to-other-post.html post="/psyq-sega-saturn" description="For more information on the SN Systems & Psygnosis PSYQ Saturn check out this post." %}
 
 ---
 # References

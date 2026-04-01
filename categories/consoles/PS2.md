@@ -92,11 +92,11 @@ The Emotion Engine can then request this information by calling the API scePadRe
 ---
 ## Development Hardware
 The hardware used to develop PlayStation 2 games was similar but had an increase in memory along with a few debugging features. The details are covered in a separate post:
-{% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's PlayStation Two development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's PlayStation Two development hardware check out this post." %}
 
 Later in the PS2's lifetime SN Systems released a specific development kit for developing online multiplayer PS2 games compatible with the PS2 Modem called the Network Development Kit (NDK).
 
-{% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2" description="For information about Network Development Kit development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2" description="For information about Network Development Kit development hardware check out this post." %}
 
 ---
 ## Third Party Hardware
@@ -116,10 +116,10 @@ What would the Sony Playstation 2 be without its excellent line-up of games? It 
 An excellent way to start reverse engineering is to find games where the developers accidentally left the Debug symbols in the retail release of the game. This was surprisingly common in early PS2 games as the SDK didn't remove them when building the final executables. 
 These gives you access to all the original function and variables names that were used in the retail source code so are very valuable for reversers!
 
-{% include link-to-other-post.html post="/ps2-unstripped" description="For a full list of PS2 games that have debug symbols check out this post." %}
+{% include_cached link-to-other-post.html post="/ps2-unstripped" description="For a full list of PS2 games that have debug symbols check out this post." %}
 
 ## Playstation 2 Demos with Debug Symbols
-{% include link-to-other-post.html post="/ps2-demos" description="For a full list of PS2 games that have debug symbols check out this post." %}
+{% include_cached link-to-other-post.html post="/ps2-demos" description="For a full list of PS2 games that have debug symbols check out this post." %}
 
 ## Playstation 2 Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
@@ -132,18 +132,18 @@ Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStatio
 ## Official Software development kit
 The Official Software development kit was developed by a partnership between SN Systems who are known for excellent 3rd party development kits and the Game Studio Psygnosis who are known for excellent quality games.
 
-{% include link-to-other-post.html post="/ps2-official-sdk" description="For information about Sony's Playstation Two SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/ps2-official-sdk" description="For information about Sony's Playstation Two SDK check out this post." %}
 
 ### Emotion Engine Static Libraries
 The Playstation 2 Software Development kit included various statically compiled libraries that could be optionally included in your games, these ranged from vital (gcc runtime) to optional such as Multi-tap support.
 
-{% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post." %}
 
 ### Emotion Engine Relocatable Executable (.ERX) Files
 This was a newer format introduced by Sony which can be used to provide patches for online PS2 games according to a GDC advert from Metrowerks Codewarrior [^4].
 
 ### IOP Relocatable Executable Executable (.IRX) Files
-{% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
+{% include_cached link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
 
 ---
 ## Consumer Development Kits
@@ -166,7 +166,7 @@ Athena is an environment that acts as a native PS2 program (written in C) which 
 ### 3D Studio Max
 3D Studio Max and Character Studio was used by **Runecraft software** to develop games such as Premier manager on the PS2[^3].
 
-We have a separate post on 3D Studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio Max check out this post." %}
+We have a separate post on 3D Studio Max which you can find below: {% include_cached link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio Max check out this post." %}
 
 ### Photoshop - industry standard for PS2 Texturing
 Photoshop was used by Runecraft software to develop games such as Premier manager on the PS2.
@@ -199,7 +199,7 @@ Krome Studios used the **Merkury Engine** for many of its own titles, particular
 * **Transformers: Revenge of the Fallen** (2009) - The PS2 and Wii versions were developed by Krome Studios.
 
 If you are interested in learning more we have a specific post about the Merkury engine:
-{% include link-to-other-post.html post="/krome-merkury-engine" %}
+{% include_cached link-to-other-post.html post="/krome-merkury-engine" %}
 
 
 ---

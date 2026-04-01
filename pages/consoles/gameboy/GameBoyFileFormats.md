@@ -28,7 +28,7 @@ This page covers the main file formats that show up in official Nintendo Game Bo
 
 After looking through the Zelda DX source leak and the Super Game Boy sample package, we can now describe several of these formats much more confidently.
 
-{% include link-to-other-post.html post="/super-game-boy-sdk" description="For a compact sample project that shows many of these formats in practice, see the Super Game Boy SDK sample preserved in the Nintendo leak." %}
+{% include_cached link-to-other-post.html post="/super-game-boy-sdk" description="For a compact sample project that shows many of these formats in practice, see the Super Game Boy SDK sample preserved in the Nintendo leak." %}
 
 ---
 ## ROM and Debug Images
@@ -107,7 +107,7 @@ The SGB sample is especially useful because it shows how these pieces fit togeth
 That is also why the Zelda DX folders are full of `isdwd*.dat` files.
 They are part of the debugger-facing side of Nintendo's Intelligent Systems development environment.
 
-{% include link-to-other-post.html post="/zelda-links-awakening-dx" description="To see a real-world production workspace, see the Zelda Link's Awakening DX source archive." %}
+{% include_cached link-to-other-post.html post="/zelda-links-awakening-dx" description="To see a real-world production workspace, see the Zelda Link's Awakening DX source archive." %}
 
 ---
 ## Quick Notes on the Toolchain

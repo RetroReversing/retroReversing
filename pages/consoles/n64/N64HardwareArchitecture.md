@@ -68,11 +68,11 @@ The RCP is actually split into two distinct parts one for the Gemotry transforma
 
 The Reality Display Processor (RDP) is used to render the polygons into 2D pixels that it stores in the FrameBuffer ready to be displayed on the screen.
 
-{% include link-to-other-post.html post="/n64rdp" description="For more information about the Reality Display Processor check out this post." %}
+{% include_cached link-to-other-post.html post="/n64rdp" description="For more information about the Reality Display Processor check out this post." %}
 
 The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor (RCP) that deals with data transform. It is a MIPS-based cpu like the main R4300 cpu but it also contains additional 8-bit vector opcodes.
 
-{% include link-to-other-post.html post="/n64rsp" description="For more information about the Reality Signal Processor check out this post." %}
+{% include_cached link-to-other-post.html post="/n64rsp" description="For more information about the Reality Signal Processor check out this post." %}
 
 </div>
 </section>

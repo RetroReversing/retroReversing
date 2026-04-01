@@ -28,7 +28,7 @@ videocarousel:
 ---
 This post covers the hardware used to develop PlayStation One games by major studios back in the day, for the software side see the post on the PsyQ Software Development Kit.
 
-{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
+{% include_cached link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
 
 
 # PC Development Environment
@@ -114,7 +114,7 @@ According to Cary Brisebois on Twitter there was software called `Bonk` that we 
 These photos are kindly contributed by Andrew Earley who recently obtained the development kit from a contact at a recycling center [^4]. 
 
 
-{% include link-to-other-post.html post="/hardware/devkits" description="For more information about all the other console development hardware check out this post" %}
+{% include_cached link-to-other-post.html post="/hardware/devkits" description="For more information about all the other console development hardware check out this post" %}
 
 ---
 # References

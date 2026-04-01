@@ -38,8 +38,8 @@ The `GB-zelda` directory belongs to **Masanao Arimoto** and represents a paralle
 
 The date range (November 1991 → August 1994) brackets the entire *Link's Awakening* localization window exactly: Japan release June 1993, North America August 1993, Europe December 1993.
 
-{% include link-to-other-post.html post="/gigaleak-news-04" description="For the broader NEWS_04 context, including Star Fox 2 and Sugiyama's multi-project workspace, see the main NEWS_04 deep-dive." %}
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak context and other NEWS tape archives, start with the main Gigaleak overview." %}
+{% include_cached link-to-other-post.html post="/gigaleak-news-04" description="For the broader NEWS_04 context, including Star Fox 2 and Sugiyama's multi-project workspace, see the main NEWS_04 deep-dive." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak context and other NEWS tape archives, start with the main Gigaleak overview." %}
 
 ---
 

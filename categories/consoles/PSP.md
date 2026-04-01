@@ -56,7 +56,7 @@ Capable of high-speed processing for geometry calculations, audio processing, an
 ---
 ## Development Hardware
 We have a separate post all about the development hardware used to make PSP games:
-{% include link-to-other-post.html post="/official-psp-devkit" description="For more information on the development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/official-psp-devkit" description="For more information on the development hardware check out this post." %}
 
 
 ---
@@ -65,7 +65,7 @@ We have a separate post all about the development hardware used to make PSP game
 ## SN Systems ProDG SDK
 There was a custom Software Development kit that was created by **SN Systems** before they got bought by Sony in 2005. It was later included in the official SDK when Sony bought the company.
 
-{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information on the SN Systems SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information on the SN Systems SDK check out this post." %}
 
 ---
 # File Formats
@@ -167,7 +167,7 @@ They are not essential to gameplay itself so they can be removed and the game us
 ## PSP Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the **Debug symbols** in the retail release of the game. While this is rare due to Sony's TRC requirements, it has happened for some PSP games. These gives you access to all the original function and variables names that were used in the retail source code so are very valuable for reversers!
 
-{% include link-to-other-post.html post="/psp-debug-symbols" description="For a list of PSP games that have debug symbols available check out this post." %}
+{% include_cached link-to-other-post.html post="/psp-debug-symbols" description="For a list of PSP games that have debug symbols available check out this post." %}
 
 ---
 # Reverse Engineering PSP Games with Ghidra

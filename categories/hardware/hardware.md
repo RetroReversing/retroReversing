@@ -53,33 +53,33 @@ Knowing their instruction sets, bus layouts, and quirks is essential for emulati
 ### MOS 6502 (1975+)
 Released by **MOS Technology** in 1975, the 6502 was designed as an affordable alternative to the more expensive microprocessors of its time. It was used in the Nintendo Entertainment System, Atari 2600, Commodore 64 and many others. We have a specific post all about is here:
 
-{% include link-to-other-post.html post="/6502" %}
+{% include_cached link-to-other-post.html post="/6502" %}
 
 ### Motorola 68K
 Motorola's 68K family powered a generation of consoles and computers thanks to its clean CISC design and generous register set.
 It was famously used in the Sega Genesis/Mega Drive, Atari ST, and early Macintosh systems, we have a specific post all about is here:
 
-{% include link-to-other-post.html post="/68k" %}
+{% include_cached link-to-other-post.html post="/68k" %}
 
 ### The PowerPC
 The PowerPC was a collaboration between Apple, IBM, and Motorola, custom PowerPC chips used in the Nintendo GameCube (Gekko), Wii (Broadway), Xbox 360, and PlayStation 3.
 
-{% include link-to-other-post.html post="/powerpc" %}
+{% include_cached link-to-other-post.html post="/powerpc" %}
 
 ---
 ## Development Kit Hardware
 We have all our Game Console Development Kit Hardware posts categorised from a single page, acting as a central hub for understanding the specialized hardware used to create video games:
 
-{% include link-to-other-post.html post="/hardware/devkits/" %}
+{% include_cached link-to-other-post.html post="/hardware/devkits/" %}
 
 ---
 # Game Specific Hardware
 
 ## Game Cartridge Hardware
-{% include link-to-other-post.html post="/how-retro-cartridges-roms-worked" %}
+{% include_cached link-to-other-post.html post="/how-retro-cartridges-roms-worked" %}
 
 ## Cheat Cartridge Hardware
-{% include link-to-other-post.html post="/hardware/cheatcartridge/" %}
+{% include_cached link-to-other-post.html post="/hardware/cheatcartridge/" %}
 
 ---
 ## Retail Console Hardware
@@ -91,22 +91,22 @@ We have all our Game Console Development Kit Hardware posts categorised from a s
 
 
 ### Nintendo 64 Console Hardware
-{% include link-to-other-post.html post="/n64-hardware-architecture/" %}
+{% include_cached link-to-other-post.html post="/n64-hardware-architecture/" %}
 
 ### SEGA Saturn Hardware
-{% include link-to-other-post.html post="/saturn-architecture" %}
+{% include_cached link-to-other-post.html post="/saturn-architecture" %}
 
 ### Nintendo Gamecube Hardware
-{% include link-to-other-post.html post="/gamecube-architecture" %}
+{% include_cached link-to-other-post.html post="/gamecube-architecture" %}
 
 ---
 # Hardware Reverse Engineering 
 
 ## How to Reverse engineer a microchip
-{% include link-to-other-post.html post="/how-to-reverse-microchip" %}
+{% include_cached link-to-other-post.html post="/how-to-reverse-microchip" %}
 
 ## Verilog - Hardware Description Language
-{% include link-to-other-post.html post="/verilog" %}
+{% include_cached link-to-other-post.html post="/verilog" %}
 
 ### rePalm: Porting PalmOS to the Fisher-Price Pixter Color
 Dmitry.GR has an excellent write up about reverse engineering the **Fisher-Price Pixter Color** to run **PalmOS 5**. It covers the challenges of the device's minimal **Sharp LH75411 ARM7 SoC** (lacking cache and MMU), creating a custom cartridge for code execution, and optimizing performance for the hardware's slow memory bus and STN display.

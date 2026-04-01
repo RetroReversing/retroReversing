@@ -238,7 +238,7 @@ You don't need to reference posts from RetroReversing.com. Instead, just link to
 
 ```ruby
 {% raw %}
-{% include link-to-other-post.html post="/permalink-goes-here" %}
+{% include_cached link-to-other-post.html post="/permalink-goes-here" %}
 {% endraw %}
 ```
 

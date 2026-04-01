@@ -310,7 +310,7 @@ Here are the games that used the Merkury Engine for the Original Xbox:
 * **The Legend of Spyro: A New Beginning** (2006) - Developed by Krome for the Xbox, PS2, GameCube, and GBA.
 
 If you are interested in learning more we have a specific post about the Merkury engine:
-{% include link-to-other-post.html post="/krome-merkury-engine" %}
+{% include_cached link-to-other-post.html post="/krome-merkury-engine" %}
 
 ---
 ## MercurySteam Engine
@@ -552,7 +552,7 @@ Games:
 ### Renderware Debug information
 There is a prototype version of Xyanide  (2003-05-07) that contains the full debug symbols files (.pdb) and linker map files (.map). 
 These could be useful to generate a function signature from and apply to other Renderware games.
-{% include link-to-other-post.html post="/xbox-game-debug-symbols" description="For more information on Xbox debug symbols check out this post." %}
+{% include_cached link-to-other-post.html post="/xbox-game-debug-symbols" description="For more information on Xbox debug symbols check out this post." %}
 
 
 </div>

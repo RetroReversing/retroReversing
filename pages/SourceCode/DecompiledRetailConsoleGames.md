@@ -27,7 +27,7 @@ updatedAt: '2026-01-01'
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
 If you are interested to see officially released or leaked source code check out this other post:
-{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+{% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 To be included in this list the project must have decompiled or disassembled at least 10% of the course code, in order to not pollute the post with hundreds of unfinished projects. An exemption to this rule can be made for consoles with very few reversing projects.
 

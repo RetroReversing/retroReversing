@@ -65,7 +65,7 @@ The software in this section are used by hundreds if not thousands of games and 
 3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2025).
 
 We have a separate post on 3D Studio Max which you can find below:
-{% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
+{% include_cached link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
 
 ## Lightwave 
 

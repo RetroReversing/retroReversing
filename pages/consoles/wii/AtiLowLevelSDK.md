@@ -1382,7 +1382,7 @@ The original fiddle files have already been documented in the Emerald leak, so i
   </div>
 </section>  
 
-{% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
+{% include_cached link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
 
 File Name | Extension | Description
 ---|---|---

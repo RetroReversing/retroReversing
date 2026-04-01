@@ -67,7 +67,7 @@ This suggests that SNES development at Nintendo was split between the **IBM-PC**
 The Gigaleak fills in one more layer beneath that host-side picture.
 Inside the Super Mario Kart source archive there is a full SNES-side `SFX-DOS` environment with floppy, keyboard, serial, printer, and console support, which gives us a much more concrete view of how file operations and editor tooling could work once code was already running on the target side.
 
-{% include link-to-other-post.html post="/super-famicom-sfx-dos" description="For a detailed breakdown of the leaked SFX-DOS environment and the files that implement it, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-famicom-sfx-dos" description="For a detailed breakdown of the leaked SFX-DOS environment and the files that implement it, check out this post." %}
 
 ---
 ## SNES SDK File Formats
@@ -129,7 +129,7 @@ It contains 2 drivers, one for the SNES and the other for the IBM-PC both in two
 
 These files are only useful if you have the rare **IS-SOUND** hardware, or the **SE Emulator**, but the files in the **SS** folder are useful for everyone.
 
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **IS-SOUND** or SE Emulator check out this post" %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **IS-SOUND** or SE Emulator check out this post" %}
 
 
 ---
@@ -434,7 +434,7 @@ The custom third party Software Development Kit for the Super Nintendo created b
 This SDK is to be used along with the Sculptured Software custom development kit hardware.
 
 For more information about the Sculptured Software hardware check out this post:
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **Sculptured Software** development hardware check out this post" %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **Sculptured Software** development hardware check out this post" %}
 
 Executables:
 * **RTM.EXE** - Produced by Borland C++ to load the other tools

@@ -41,7 +41,7 @@ The PS4 has an 8-core AMD x64 class CPU paired with a AMD DirectX 11 class GPU w
 
 ## Development Hardware
 We have a post all about the Official Playstation 4 Development Hardware:
-{% include link-to-other-post.html post="/official-playStation4-devkit" %}
+{% include_cached link-to-other-post.html post="/official-playStation4-devkit" %}
 
 
 ## Operating System

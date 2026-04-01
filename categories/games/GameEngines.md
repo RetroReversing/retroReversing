@@ -88,7 +88,7 @@ Game Maker is a popular 2D game development tool originally called **Animo** and
 Version 1.0 was built some time in 1998-1999 and never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
 
 We have so much content on Game Maker that we had to split this section out into its **own post** you can find it below:
-{% include link-to-other-post.html post="/game-maker" description="For more information about the Game Maker check out this post." %}
+{% include_cached link-to-other-post.html post="/game-maker" description="For more information about the Game Maker check out this post." %}
 
 
 ---

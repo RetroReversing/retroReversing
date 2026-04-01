@@ -35,8 +35,8 @@ The Nintendo Gigaleak preserves a very substantial Super Mario Kart source archi
 Unlike the F-Zero leak, this is not neatly split into `Game` and `Tools`.
 It looks much more like a live working directory copied straight out of development, with assembly source, prebuilt `.rel` objects, regional variants, editor code, backup-RAM routines, and even Super Famicom disk support code all sitting side by side.
 
-{% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
-{% include link-to-other-post.html post="/gigaleak-news-04" description="For workstation-side Super Mario Kart art, Mode 7 map tables, and localization assets from Sugiyama's CAR branch, see the NEWS_04 deep-dive." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak-news-04" description="For workstation-side Super Mario Kart art, Mode 7 map tables, and localization assets from Sugiyama's CAR branch, see the NEWS_04 deep-dive." %}
 
 ---
 ## At a Glance
@@ -974,7 +974,7 @@ Together with `fileio.asm`, `fdcdrv.asm`, `sccdrv.asm`, `ppidrv.asm`, `condrv.as
 
 That part of the leak is broader than Mario Kart itself, so it now has its own article:
 
-{% include link-to-other-post.html post="/super-famicom-sfx-dos" description="For a full breakdown of the SFX-DOS stack, the COP API, the file system layer, and the driver hardware, check out this post." %}
+{% include_cached link-to-other-post.html post="/super-famicom-sfx-dos" description="For a full breakdown of the SFX-DOS stack, the COP API, the file system layer, and the driver hardware, check out this post." %}
 
 For Mario Kart specifically, the important takeaway is simple:
 

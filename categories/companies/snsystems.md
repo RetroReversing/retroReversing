@@ -48,7 +48,7 @@ The game **Cybercon III** (1991) has **The Snasm Cross Development Tools** in th
 
 ### SNASM2 - Cross Products evolution of SNASM
 **Cross Products** then built upon the product and released their own version called **SNASM2**, which would later become a competitor for SN Systems next development kit known as **PSY-Q**. They are also a company worth learning about, we have a separate post on their development kit products such as **SNASM2**:
-{% include link-to-other-post.html post="/companies/crossproducts" description="For more information on Cross Products check out this post." %}
+{% include_cached link-to-other-post.html post="/companies/crossproducts" description="For more information on Cross Products check out this post." %}
 
 The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products as part of **SNASM2**, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
 
@@ -56,7 +56,7 @@ The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Pro
 ## SN64 - Nintendo 64 Development Kit
 **SN64** was a software development kit for the Nintendo 64 created by **SN Systems** and was especially popular with 3rd party game developers in the UK, but was never used by first or second party Nintendo 64 developers, so not many games were released that were built by it.
 
-{% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
+{% include_cached link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
 
 In the 1997 manual for SN64 titled **PC Development System for the Nintendo 64** it references both the Cross products and original SNASM in what it calls **compatible development systems**:
 * **Commodore Amiga 1200 and 600** - Reference to original SNASM
@@ -78,19 +78,19 @@ SN Systems were themselves bought by **Sony** in 2005 to exclusively create deve
 ### PSY-Q for Super Nintendo
 The PSY-Q development kit was available for a wide range of platforms including the Super Nintendo where it was distributed with a custom development cartridge similar to a flash cartridge.
 
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information on the Super Nintendo version of PSY-Q check out this post." %}
+{% include_cached link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information on the Super Nintendo version of PSY-Q check out this post." %}
 
 ### PSY-Q for Sony PlayStation 1
 The PSY-Q development was such a success for Sony PS1 development that it actually became the officially licensed development kit for the platform. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
 
-{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on the Sony PlayStation 1 version of PSY-Q check out this post." %}
+{% include_cached link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on the Sony PlayStation 1 version of PSY-Q check out this post." %}
 
 Note that PSY-Q for PS1 was later rebranded as **SDevTC** (Sony Developer Toolchain) sometime before August 1999 as it is mentioned the rebranding in the Official **Run-Time Library Overview** from August 1999.
 
 ### PSY-Q for SEGA Saturn
 Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q branding), it supported a competing platform also under the PSY-Q branding, the Sega Saturn!
 
-{% include link-to-other-post.html post="/psyq-sega-saturn" description="For more information on the SEGA Saturn version of PSY-Q check out this post." %}
+{% include_cached link-to-other-post.html post="/psyq-sega-saturn" description="For more information on the SEGA Saturn version of PSY-Q check out this post." %}
 
 ---
 ## ProDG - PS2, Gamecube, GBA and PSP
@@ -101,18 +101,18 @@ Although the name **ProDG** was originally used to refer to the SN Systems IDE t
 ### ProDG for GameCube
 SN Systems released their ProDG development kit for GameCube in 2001 and worked alongside the official Nintendo GameCube development kit (NR-Reader) by providing a **SN-TDEV** that was used for efficient debugging on the system.
 
-{% include link-to-other-post.html post="/gamecube-development-kit-hardware" description="For more information on the GameCube version of ProDG check out this post." %}
+{% include_cached link-to-other-post.html post="/gamecube-development-kit-hardware" description="For more information on the GameCube version of ProDG check out this post." %}
 
 ### ProDG for GBA
 There was also a version of ProDG available for the **Game Boy Advance** released in 2001 as an alternative to the official development kit from Nintendo.
 
-{% include link-to-other-post.html post="/game-boy-advance-development-kit" description="For more information on the GBA version of ProDG check out this post." %}
+{% include_cached link-to-other-post.html post="/game-boy-advance-development-kit" description="For more information on the GBA version of ProDG check out this post." %}
 
 ### ProDG for PSP
 ProDG was the third party SDK developed by SN Systems and later incorporated into the official PSP SDK when they got bought by Sony. 
 
 We have a post specifically about this SDK:
-{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
+{% include_cached link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
 
 ---
 ## SN Systems Distributed Build System (SN-DBS)

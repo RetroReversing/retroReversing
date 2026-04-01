@@ -38,11 +38,11 @@ Rodrigo Copetti has an excellent in-depth article about the hardware architectur
 {% include link-to-other-site.html url="https://www.copetti.org/projects/consoles/gamecube/" description="The website by Rodrigo Copetti is required reading for any information you want to know about the Gamecube console hardware architecture." image="/public/consoles/Nintendo Gamecube.png" title="Rodrigo Copetti's Gamecube Hardware Architecture"  %}
 
 ## Development Hardware
-{% include link-to-other-post.html post="/gamecube-development-kit-hardware" description="For information about Nintendo's Dolphin development hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/gamecube-development-kit-hardware" description="For information about Nintendo's Dolphin development hardware check out this post." %}
 
 ## Unreleased Hardware
 In China there were plans to release a version of the Gamecube with DVD playback functionality and additional security. This was to be a sequel to the iQue Player which was a Chinese only Nintendo 64 plug and play device. However half way through development the resources were moved to work on the Nintendo Wii instead.
-{% include link-to-other-post.html post="/ique-gamecube" description="For information about iQue/BroadOn's prototype Chinese Gamecube hardware check out this post." %}
+{% include_cached link-to-other-post.html post="/ique-gamecube" description="For information about iQue/BroadOn's prototype Chinese Gamecube hardware check out this post." %}
 
 
 ---
@@ -52,7 +52,7 @@ The Nintendo Gamecube has an excellent library of games just begging to be rever
 ## Games with Debug Symbols
 If you are interested in reverse engineering a Gamecube game, the first step is to find out if the game has its **debug symbols** available, this makes it much easier to reverse as all the functions will have nice friendly human readable names.
 
-{% include link-to-other-post.html post="/gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
+{% include_cached link-to-other-post.html post="/gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
 
 ## Gamecube Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
@@ -99,14 +99,14 @@ Here are the games that used the Merkury Engine for the GameCube:
 * **The Legend of Spyro: A New Beginning** (2006) - Developed by Krome for the GameCube, PS2, Xbox, and GBA.
 
 If you are interested in learning more we have a specific post about the **Merkury** engine:
-{% include link-to-other-post.html post="/krome-merkury-engine" %}
+{% include_cached link-to-other-post.html post="/krome-merkury-engine" %}
 
 ---
 # Reverse Engineering
 
 ## GameCube specific File Formats
 We have a specific post that covers all the file formats that can be found in gamecube games (or file formats used to store gamecube games) here:
-{% include link-to-other-post.html post="/gamecube-file-formats" description="Check out this post for a list of Gamecube file formats." %}
+{% include_cached link-to-other-post.html post="/gamecube-file-formats" description="Check out this post for a list of Gamecube file formats." %}
 
 
 ---

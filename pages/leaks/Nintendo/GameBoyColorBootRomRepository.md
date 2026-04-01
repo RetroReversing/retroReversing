@@ -31,7 +31,7 @@ updatedAt: '2026-03-29'
 The Nintendo Gigaleak preserves the [CGB](#glossary-cgb) boot ROM material in two useful forms.
 Inside `other/agb_bootrom` it survives as a compact [SVN](#glossary-svn) repository, and separately the leak also includes `cgb_bootrom_trunk.zip`, an extracted working tree that exposes the actual [DMG](#glossary-dmg)-format source files directly.
 
-{% include link-to-other-post.html post="/gigaleak" description="For the wider Nintendo Gigaleak overview, including the other major archives, check out this post." %}
+{% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Nintendo Gigaleak overview, including the other major archives, check out this post." %}
 
 Here, `monitor` means a small low-level boot control program, not the handheld's physical screen.
 So when this page says `boot monitor binary`, it means a compiled startup/control program that initializes hardware, runs checks, and then hands off to the cartridge code.
@@ -766,4 +766,4 @@ So the leak is valuable for more than just preserving one boot binary.
 It shows how Nintendo structured the logic behind Game Boy Color boot-time palette compatibility at a very low level.
 
 Now you might be interested in our post on the Game Boy Advance Boot ROM:
-{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}
+{% include_cached link-to-other-post.html post="/game-boy-advance-boot-rom-repository" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}
