@@ -169,7 +169,7 @@ Its own header names it `monitor`, which is where this page's "boot monitor" ter
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="agb_cgb.dmg" items=agbcgb_code_items functions="12" variables="5" lines="1428" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="agb_cgb.dmg" items=agbcgb_code_items functions="12" variables="5" lines="1428" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 The opening lines place all of the code into the first ROM bank (`BANK0 GROUP 0`), pull in the CGB hardware register definitions from `cgb_reg`, and pull in the shared memory-layout and palette constants from `cgbw6def` (the definitions file covered later on this page).
 
@@ -327,7 +327,7 @@ Its structure is almost the same, but the header is much simpler and only carrie
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="cgb_es2.dmg" items=cgbes2_code_items functions="12" variables="5" lines="1423" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="cgb_es2.dmg" items=cgbes2_code_items functions="12" variables="5" lines="1423" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 
 A quick diff between the two sources is revealing.
@@ -391,7 +391,7 @@ It also bundles fixed logo data, sound timing, and presentation-state constants 
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="cgbw6def.dmg" items=cgbw6def_code_items functions="0" variables="12" lines="103" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="cgbw6def.dmg" items=cgbw6def_code_items functions="0" variables="12" lines="103" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 
 The top half defines the monitor's memory layout, including VRAM, work RAM banks, OAM, CPU work RAM, stack positions, and palette-buffer scratch areas.

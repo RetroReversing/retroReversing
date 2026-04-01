@@ -1,21 +1,21 @@
 <div class="post-footer">
     <div class="post-actions">
-        {% if page.tags %}
+        {% if include.tags %}
             <div class="post-tags">
-            {% for tag in page.tags %}
+            {% for tag in include.tags %}
                 <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
             {% endfor %}
             </div>
         {% endif %}
         
-        {% include social-share.html %}
+        {% include_cached social-share.html title=page.title url=page.url %}
     </div>
         
     <div id="follow-retro-reversing" style="background-color:#242629; display: flex; justify-content: center;">
-        {% include followUs.html %}
+        {% include_cached followUs.html %}
     </div>
         
     <div id="comments" class="comments anchor">
-        {% include disqus.html %}
+        {% include_cached disqus.html %}
     </div>
 </div>

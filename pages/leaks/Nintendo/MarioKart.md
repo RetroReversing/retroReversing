@@ -353,6 +353,10 @@ They keep the same package shape and line up naturally with runtime groups like 
 `W1` is also starting to look like a plausible artist-side candidate for the runtime `ICE` family.
 Its palette is much brighter and more white-heavy than the other unresolved groups, and `Scene.asm` still preserves a `SNOW` comment alongside one of the shared obstacle paths used around the ice side of the game.
 That is still an inference, but it is a useful one.
+`K1` also now looks like a plausible artist-side candidate for `CASTLE`.
+On the code side that family means Bowser's castle courses, so an artist-side `K` shorthand based on `Koopa` is at least plausible, and `K1` preserves the same full bank-plus-companion-branch structure as the other major environment families.
+`H1` is also looking more convincing as the likely artist-side partner to `OBAKE`.
+The surviving preview images in the CAR workspace look ghost-course-like rather than neutral: dark vertical tiles, eye-like sprites, jagged skyline bands, and fence or grave-marker shapes fit the haunted-course side of Mario Kart much better than the remaining alternatives.
 
 The same is true for the drive data.
 The `MAPxx_area` and `MAPxx_target` labels all hang off one `Drive_data_address`, and the later `MAPxx_ARE` and `MAPxx_TRG` labels point to tightly packed per-course data blocks in ROM.

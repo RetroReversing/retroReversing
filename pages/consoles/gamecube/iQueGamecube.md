@@ -955,8 +955,8 @@ randmem | .c |
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="di_dev.c" items=card_1_1_items functions="23" variables="16" lines="1307" %}
-{% include source-code-card.html title="randmem.c" items=card_1_2_items functions="1" variables="0" lines="20" %}
+{% include_cached source-code-card.html title="di_dev.c" items=card_1_1_items functions="23" variables="16" lines="1307" %}
+{% include_cached source-code-card.html title="randmem.c" items=card_1_2_items functions="1" variables="0" lines="20" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
@@ -1008,8 +1008,8 @@ jfile | .c, .tab | C Source file that implements a few file opening functions to
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="TestPLI.c" items=card_2_1_items functions="8" variables="3" lines="443" %}
-{% include source-code-card.html title="jfile.c" items=card_2_2_items functions="10" variables="0" lines="361" %}
+{% include_cached source-code-card.html title="TestPLI.c" items=card_2_1_items functions="8" variables="3" lines="443" %}
+{% include_cached source-code-card.html title="jfile.c" items=card_2_2_items functions="10" variables="0" lines="361" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_2_cards %}

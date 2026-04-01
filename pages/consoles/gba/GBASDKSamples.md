@@ -59,8 +59,8 @@ rom_header_arm | .s | Assembly source file containing
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="Data.c" items=card_1_1_items functions="0" variables="2" lines="791" %}
-{% include source-code-card.html title="dummy.c" items=card_1_2_items functions="1" variables="0" lines="4" %}
+{% include_cached source-code-card.html title="Data.c" items=card_1_1_items functions="0" variables="2" lines="791" %}
+{% include_cached source-code-card.html title="dummy.c" items=card_1_2_items functions="1" variables="0" lines="4" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
@@ -246,11 +246,11 @@ stdSub | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="bg.h" items=card_2_1_items functions="53" variables="0" lines="127" %}
-{% include source-code-card.html title="myTypes.h" items=card_2_2_items functions="0" variables="0" lines="100" %}
-{% include source-code-card.html title="mylib.h" items=card_2_3_items functions="0" variables="0" lines="16" %}
-{% include source-code-card.html title="obj.h" items=card_2_4_items functions="10" variables="0" lines="114" %}
-{% include source-code-card.html title="stdSub.h" items=card_2_5_items functions="27" variables="1" lines="131" %}
+{% include_cached source-code-card.html title="bg.h" items=card_2_1_items functions="53" variables="0" lines="127" %}
+{% include_cached source-code-card.html title="myTypes.h" items=card_2_2_items functions="0" variables="0" lines="100" %}
+{% include_cached source-code-card.html title="mylib.h" items=card_2_3_items functions="0" variables="0" lines="16" %}
+{% include_cached source-code-card.html title="obj.h" items=card_2_4_items functions="10" variables="0" lines="114" %}
+{% include_cached source-code-card.html title="stdSub.h" items=card_2_5_items functions="27" variables="1" lines="131" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
@@ -341,7 +341,7 @@ wario | .o |
 {% endcapture %}
 
 {% capture section_3_cards %}
-{% include source-code-card.html title="m4aLib.h" items=card_3_1_items functions="24" variables="12" lines="134" %}
+{% include_cached source-code-card.html title="m4aLib.h" items=card_3_1_items functions="24" variables="12" lines="134" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
@@ -389,8 +389,8 @@ rom_header_arm | .s | Assembly source file containing
 {% endcapture %}
 
 {% capture section_4_cards %}
-{% include source-code-card.html title="data.c" items=card_4_1_items functions="0" variables="2" lines="57" %}
-{% include source-code-card.html title="main.c" items=card_4_2_items functions="6" variables="6" lines="188" %}
+{% include_cached source-code-card.html title="data.c" items=card_4_1_items functions="0" variables="2" lines="57" %}
+{% include_cached source-code-card.html title="main.c" items=card_4_2_items functions="6" variables="6" lines="188" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
@@ -503,10 +503,10 @@ share | .c, .h, .o |
 {% endcapture %}
 
 {% capture section_5_cards %}
-{% include source-code-card.html title="main.c" items=card_5_1_items functions="1" variables="0" lines="56" %}
-{% include source-code-card.html title="menu.c" items=card_5_2_items functions="14" variables="5" lines="351" %}
-{% include source-code-card.html title="menuitem.c" items=card_5_3_items functions="0" variables="1" lines="81" %}
-{% include source-code-card.html title="share.c" items=card_5_4_items functions="18" variables="7" lines="278" %}
+{% include_cached source-code-card.html title="main.c" items=card_5_1_items functions="1" variables="0" lines="56" %}
+{% include_cached source-code-card.html title="menu.c" items=card_5_2_items functions="14" variables="5" lines="351" %}
+{% include_cached source-code-card.html title="menuitem.c" items=card_5_3_items functions="0" variables="1" lines="81" %}
+{% include_cached source-code-card.html title="share.c" items=card_5_4_items functions="18" variables="7" lines="278" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_5_cards %}
@@ -555,9 +555,9 @@ ap_bg2 | .bmp, .c, .o |
 {% endcapture %}
 
 {% capture section_6_cards %}
-{% include source-code-card.html title="alexpl.c" items=card_6_1_items functions="0" variables="3" lines="30" %}
-{% include source-code-card.html title="alpha.c" items=card_6_2_items functions="5" variables="7" lines="265" %}
-{% include source-code-card.html title="alpha_data.c" items=card_6_3_items functions="0" variables="2" lines="87" %}
+{% include_cached source-code-card.html title="alexpl.c" items=card_6_1_items functions="0" variables="3" lines="30" %}
+{% include_cached source-code-card.html title="alpha.c" items=card_6_2_items functions="5" variables="7" lines="265" %}
+{% include_cached source-code-card.html title="alpha_data.c" items=card_6_3_items functions="0" variables="2" lines="87" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_6_cards %}
@@ -617,9 +617,9 @@ cl0 | .bmp, .c, .o |
 {% endcapture %}
 
 {% capture section_7_cards %}
-{% include source-code-card.html title="bg_map_map.c" items=card_7_1_items functions="0" variables="2" lines="74" %}
-{% include source-code-card.html title="bgexpl.c" items=card_7_2_items functions="0" variables="3" lines="34" %}
-{% include source-code-card.html title="bgmain.c" items=card_7_3_items functions="8" variables="16" lines="385" %}
+{% include_cached source-code-card.html title="bg_map_map.c" items=card_7_1_items functions="0" variables="2" lines="74" %}
+{% include_cached source-code-card.html title="bgexpl.c" items=card_7_2_items functions="0" variables="3" lines="34" %}
+{% include_cached source-code-card.html title="bgmain.c" items=card_7_3_items functions="8" variables="16" lines="385" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_7_cards %}
@@ -669,8 +669,8 @@ umiB | .bmp, .c, .o |
 {% endcapture %}
 
 {% capture section_8_cards %}
-{% include source-code-card.html title="bitmap.c" items=card_8_1_items functions="9" variables="11" lines="202" %}
-{% include source-code-card.html title="bmexpl.c" items=card_8_2_items functions="0" variables="3" lines="35" %}
+{% include_cached source-code-card.html title="bitmap.c" items=card_8_1_items functions="9" variables="11" lines="202" %}
+{% include_cached source-code-card.html title="bmexpl.c" items=card_8_2_items functions="0" variables="3" lines="35" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_8_cards %}
@@ -735,10 +735,10 @@ col | .ACT |
 {% endcapture %}
 
 {% capture section_9_cards %}
-{% include source-code-card.html title="c_effect.c" items=card_9_1_items functions="5" variables="7" lines="289" %}
-{% include source-code-card.html title="ce_dat.h" items=card_9_2_items functions="0" variables="10" lines="22" %}
-{% include source-code-card.html title="ce_data.c" items=card_9_3_items functions="0" variables="3" lines="102" %}
-{% include source-code-card.html title="ceexpl.c" items=card_9_4_items functions="0" variables="3" lines="33" %}
+{% include_cached source-code-card.html title="c_effect.c" items=card_9_1_items functions="5" variables="7" lines="289" %}
+{% include_cached source-code-card.html title="ce_dat.h" items=card_9_2_items functions="0" variables="10" lines="22" %}
+{% include_cached source-code-card.html title="ce_data.c" items=card_9_3_items functions="0" variables="3" lines="102" %}
+{% include_cached source-code-card.html title="ceexpl.c" items=card_9_4_items functions="0" variables="3" lines="33" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_9_cards %}
@@ -779,8 +779,8 @@ fontprn | .c, .h, .o |
 {% endcapture %}
 
 {% capture section_10_cards %}
-{% include source-code-card.html title="font8.h" items=card_10_1_items functions="0" variables="1" lines="6858" %}
-{% include source-code-card.html title="fontprn.c" items=card_10_2_items functions="14" variables="2" lines="503" %}
+{% include_cached source-code-card.html title="font8.h" items=card_10_1_items functions="0" variables="1" lines="6858" %}
+{% include_cached source-code-card.html title="fontprn.c" items=card_10_2_items functions="14" variables="2" lines="503" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_10_cards %}
@@ -822,8 +822,8 @@ obmain | .c, .o |
 {% endcapture %}
 
 {% capture section_11_cards %}
-{% include source-code-card.html title="obexpl.c" items=card_11_1_items functions="0" variables="3" lines="35" %}
-{% include source-code-card.html title="obmain.c" items=card_11_2_items functions="6" variables="8" lines="272" %}
+{% include_cached source-code-card.html title="obexpl.c" items=card_11_1_items functions="0" variables="3" lines="35" %}
+{% include_cached source-code-card.html title="obmain.c" items=card_11_2_items functions="6" variables="8" lines="272" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_11_cards %}
@@ -876,9 +876,9 @@ window | .c, .o |
 {% endcapture %}
 
 {% capture section_12_cards %}
-{% include source-code-card.html title="sw_dat.h" items=card_12_1_items functions="0" variables="11" lines="23" %}
-{% include source-code-card.html title="swexpl.c" items=card_12_2_items functions="0" variables="3" lines="28" %}
-{% include source-code-card.html title="window.c" items=card_12_3_items functions="3" variables="2" lines="149" %}
+{% include_cached source-code-card.html title="sw_dat.h" items=card_12_1_items functions="0" variables="11" lines="23" %}
+{% include_cached source-code-card.html title="swexpl.c" items=card_12_2_items functions="0" variables="3" lines="28" %}
+{% include_cached source-code-card.html title="window.c" items=card_12_3_items functions="3" variables="2" lines="149" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_12_cards %}
@@ -917,8 +917,8 @@ utility | .c, .h, .o |
 {% endcapture %}
 
 {% capture section_13_cards %}
-{% include source-code-card.html title="data.c" items=card_13_1_items functions="0" variables="4" lines="514" %}
-{% include source-code-card.html title="utility.c" items=card_13_2_items functions="2" variables="1" lines="40" %}
+{% include_cached source-code-card.html title="data.c" items=card_13_1_items functions="0" variables="4" lines="514" %}
+{% include_cached source-code-card.html title="utility.c" items=card_13_2_items functions="2" variables="1" lines="40" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_13_cards %}
@@ -1027,11 +1027,11 @@ types | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_14_cards %}
-{% include source-code-card.html title="MultiBoot.c" items=card_14_1_items functions="9" variables="1" lines="653" %}
-{% include source-code-card.html title="MultiSio.c" items=card_14_2_items functions="6" variables="4" lines="291" %}
-{% include source-code-card.html title="data.c" items=card_14_3_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="demo_main.c" items=card_14_4_items functions="5" variables="14" lines="229" %}
-{% include source-code-card.html title="main.c" items=card_14_5_items functions="1" variables="5" lines="148" %}
+{% include_cached source-code-card.html title="MultiBoot.c" items=card_14_1_items functions="9" variables="1" lines="653" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_14_2_items functions="6" variables="4" lines="291" %}
+{% include_cached source-code-card.html title="data.c" items=card_14_3_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="demo_main.c" items=card_14_4_items functions="5" variables="14" lines="229" %}
+{% include_cached source-code-card.html title="main.c" items=card_14_5_items functions="1" variables="5" lines="148" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_14_cards %}
@@ -1143,12 +1143,12 @@ types | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_15_cards %}
-{% include source-code-card.html title="MultiBoot.c" items=card_15_1_items functions="9" variables="1" lines="653" %}
-{% include source-code-card.html title="MultiSio.c" items=card_15_2_items functions="8" variables="4" lines="289" %}
-{% include source-code-card.html title="data.c" items=card_15_3_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="demo_main.c" items=card_15_4_items functions="5" variables="11" lines="217" %}
-{% include source-code-card.html title="main.c" items=card_15_5_items functions="1" variables="5" lines="154" %}
-{% include source-code-card.html title="types.h" items=card_15_6_items functions="0" variables="0" lines="18" %}
+{% include_cached source-code-card.html title="MultiBoot.c" items=card_15_1_items functions="9" variables="1" lines="653" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_15_2_items functions="8" variables="4" lines="289" %}
+{% include_cached source-code-card.html title="data.c" items=card_15_3_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="demo_main.c" items=card_15_4_items functions="5" variables="11" lines="217" %}
+{% include_cached source-code-card.html title="main.c" items=card_15_5_items functions="1" variables="5" lines="154" %}
+{% include_cached source-code-card.html title="types.h" items=card_15_6_items functions="0" variables="0" lines="18" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_15_cards %}
@@ -1221,9 +1221,9 @@ rom_header_arm | .s | Assembly source file containing
 {% endcapture %}
 
 {% capture section_16_cards %}
-{% include source-code-card.html title="MultiSio.c" items=card_16_1_items functions="6" variables="4" lines="291" %}
-{% include source-code-card.html title="data.c" items=card_16_2_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="main.c" items=card_16_3_items functions="5" variables="14" lines="226" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_16_1_items functions="6" variables="4" lines="291" %}
+{% include_cached source-code-card.html title="data.c" items=card_16_2_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="main.c" items=card_16_3_items functions="5" variables="14" lines="226" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_16_cards %}
@@ -1295,9 +1295,9 @@ rom_header_arm | .s | Assembly source file containing
 {% endcapture %}
 
 {% capture section_17_cards %}
-{% include source-code-card.html title="MultiSio.c" items=card_17_1_items functions="8" variables="4" lines="291" %}
-{% include source-code-card.html title="data.c" items=card_17_2_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="main.c" items=card_17_3_items functions="5" variables="11" lines="218" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_17_1_items functions="8" variables="4" lines="291" %}
+{% include_cached source-code-card.html title="data.c" items=card_17_2_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="main.c" items=card_17_3_items functions="5" variables="11" lines="218" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_17_cards %}
@@ -1389,13 +1389,13 @@ types | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_18_cards %}
-{% include source-code-card.html title="bgmove.c" items=card_18_1_items functions="3" variables="3" lines="118" %}
-{% include source-code-card.html title="data.c" items=card_18_2_items functions="0" variables="10" lines="636" %}
-{% include source-code-card.html title="main.c" items=card_18_3_items functions="1" variables="6" lines="82" %}
-{% include source-code-card.html title="objmove.c" items=card_18_4_items functions="3" variables="3" lines="119" %}
-{% include source-code-card.html title="sub.c" items=card_18_5_items functions="3" variables="0" lines="76" %}
-{% include source-code-card.html title="title.c" items=card_18_6_items functions="2" variables="4" lines="82" %}
-{% include source-code-card.html title="types.h" items=card_18_7_items functions="0" variables="0" lines="27" %}
+{% include_cached source-code-card.html title="bgmove.c" items=card_18_1_items functions="3" variables="3" lines="118" %}
+{% include_cached source-code-card.html title="data.c" items=card_18_2_items functions="0" variables="10" lines="636" %}
+{% include_cached source-code-card.html title="main.c" items=card_18_3_items functions="1" variables="6" lines="82" %}
+{% include_cached source-code-card.html title="objmove.c" items=card_18_4_items functions="3" variables="3" lines="119" %}
+{% include_cached source-code-card.html title="sub.c" items=card_18_5_items functions="3" variables="0" lines="76" %}
+{% include_cached source-code-card.html title="title.c" items=card_18_6_items functions="2" variables="4" lines="82" %}
+{% include_cached source-code-card.html title="types.h" items=card_18_7_items functions="0" variables="0" lines="27" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_18_cards %}
@@ -1442,8 +1442,8 @@ rom_header_arm | .s | Assembly source file containing
 {% endcapture %}
 
 {% capture section_19_cards %}
-{% include source-code-card.html title="data.c" items=card_19_1_items functions="0" variables="4" lines="514" %}
-{% include source-code-card.html title="main.c" items=card_19_2_items functions="5" variables="6" lines="179" %}
+{% include_cached source-code-card.html title="data.c" items=card_19_1_items functions="0" variables="4" lines="514" %}
+{% include_cached source-code-card.html title="main.c" items=card_19_2_items functions="5" variables="6" lines="179" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_19_cards %}
@@ -1490,8 +1490,8 @@ simple | .bin, .elf, .map |
 {% endcapture %}
 
 {% capture section_20_cards %}
-{% include source-code-card.html title="data.c" items=card_20_1_items functions="0" variables="4" lines="514" %}
-{% include source-code-card.html title="main.c" items=card_20_2_items functions="5" variables="6" lines="174" %}
+{% include_cached source-code-card.html title="data.c" items=card_20_1_items functions="0" variables="4" lines="514" %}
+{% include_cached source-code-card.html title="main.c" items=card_20_2_items functions="5" variables="6" lines="174" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_20_cards %}
@@ -1647,18 +1647,18 @@ types | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_21_cards %}
-{% include source-code-card.html title="MultiBoot.c" items=card_21_1_items functions="9" variables="1" lines="653" %}
-{% include source-code-card.html title="MultiSio.c" items=card_21_2_items functions="6" variables="4" lines="316" %}
-{% include source-code-card.html title="Sio32MultiLoad.c" items=card_21_3_items functions="3" variables="2" lines="213" %}
-{% include source-code-card.html title="bss.c" items=card_21_4_items functions="0" variables="10" lines="29" %}
-{% include source-code-card.html title="data.c" items=card_21_5_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="demo_main.c" items=card_21_6_items functions="1" variables="2" lines="135" %}
-{% include source-code-card.html title="intr_table.c" items=card_21_7_items functions="0" variables="2" lines="32" %}
-{% include source-code-card.html title="load_table_dest.c" items=card_21_8_items functions="0" variables="1" lines="19" %}
-{% include source-code-card.html title="load_table_src.c" items=card_21_9_items functions="0" variables="1" lines="20" %}
-{% include source-code-card.html title="loader_main.c" items=card_21_10_items functions="1" variables="4" lines="190" %}
-{% include source-code-card.html title="main.c" items=card_21_11_items functions="1" variables="5" lines="134" %}
-{% include source-code-card.html title="sub.c" items=card_21_12_items functions="5" variables="0" lines="77" %}
+{% include_cached source-code-card.html title="MultiBoot.c" items=card_21_1_items functions="9" variables="1" lines="653" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_21_2_items functions="6" variables="4" lines="316" %}
+{% include_cached source-code-card.html title="Sio32MultiLoad.c" items=card_21_3_items functions="3" variables="2" lines="213" %}
+{% include_cached source-code-card.html title="bss.c" items=card_21_4_items functions="0" variables="10" lines="29" %}
+{% include_cached source-code-card.html title="data.c" items=card_21_5_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="demo_main.c" items=card_21_6_items functions="1" variables="2" lines="135" %}
+{% include_cached source-code-card.html title="intr_table.c" items=card_21_7_items functions="0" variables="2" lines="32" %}
+{% include_cached source-code-card.html title="load_table_dest.c" items=card_21_8_items functions="0" variables="1" lines="19" %}
+{% include_cached source-code-card.html title="load_table_src.c" items=card_21_9_items functions="0" variables="1" lines="20" %}
+{% include_cached source-code-card.html title="loader_main.c" items=card_21_10_items functions="1" variables="4" lines="190" %}
+{% include_cached source-code-card.html title="main.c" items=card_21_11_items functions="1" variables="5" lines="134" %}
+{% include_cached source-code-card.html title="sub.c" items=card_21_12_items functions="5" variables="0" lines="77" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_21_cards %}
@@ -1815,18 +1815,18 @@ types | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_22_cards %}
-{% include source-code-card.html title="MultiBoot.c" items=card_22_1_items functions="9" variables="1" lines="653" %}
-{% include source-code-card.html title="MultiSio.c" items=card_22_2_items functions="8" variables="4" lines="317" %}
-{% include source-code-card.html title="Sio32MultiLoad.c" items=card_22_3_items functions="3" variables="2" lines="215" %}
-{% include source-code-card.html title="bss.c" items=card_22_4_items functions="0" variables="11" lines="30" %}
-{% include source-code-card.html title="data.c" items=card_22_5_items functions="0" variables="4" lines="536" %}
-{% include source-code-card.html title="demo_main.c" items=card_22_6_items functions="1" variables="0" lines="112" %}
-{% include source-code-card.html title="intr_table.c" items=card_22_7_items functions="0" variables="2" lines="32" %}
-{% include source-code-card.html title="load_table_dest.c" items=card_22_8_items functions="0" variables="1" lines="19" %}
-{% include source-code-card.html title="load_table_src.c" items=card_22_9_items functions="0" variables="1" lines="20" %}
-{% include source-code-card.html title="loader_main.c" items=card_22_10_items functions="1" variables="4" lines="192" %}
-{% include source-code-card.html title="main.c" items=card_22_11_items functions="1" variables="5" lines="136" %}
-{% include source-code-card.html title="sub.c" items=card_22_12_items functions="5" variables="0" lines="88" %}
+{% include_cached source-code-card.html title="MultiBoot.c" items=card_22_1_items functions="9" variables="1" lines="653" %}
+{% include_cached source-code-card.html title="MultiSio.c" items=card_22_2_items functions="8" variables="4" lines="317" %}
+{% include_cached source-code-card.html title="Sio32MultiLoad.c" items=card_22_3_items functions="3" variables="2" lines="215" %}
+{% include_cached source-code-card.html title="bss.c" items=card_22_4_items functions="0" variables="11" lines="30" %}
+{% include_cached source-code-card.html title="data.c" items=card_22_5_items functions="0" variables="4" lines="536" %}
+{% include_cached source-code-card.html title="demo_main.c" items=card_22_6_items functions="1" variables="0" lines="112" %}
+{% include_cached source-code-card.html title="intr_table.c" items=card_22_7_items functions="0" variables="2" lines="32" %}
+{% include_cached source-code-card.html title="load_table_dest.c" items=card_22_8_items functions="0" variables="1" lines="19" %}
+{% include_cached source-code-card.html title="load_table_src.c" items=card_22_9_items functions="0" variables="1" lines="20" %}
+{% include_cached source-code-card.html title="loader_main.c" items=card_22_10_items functions="1" variables="4" lines="192" %}
+{% include_cached source-code-card.html title="main.c" items=card_22_11_items functions="1" variables="5" lines="136" %}
+{% include_cached source-code-card.html title="sub.c" items=card_22_12_items functions="5" variables="0" lines="88" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_22_cards %}

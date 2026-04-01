@@ -24,32 +24,11 @@
             {% include posts/post-header.html %}
             {{ content | markdownify }}
           </div>
-          {% include posts/post-footer.html %}
-          <!-- <div class="post-actions">
-            {% if page.tags %}
-              <div class="post-tags">
-                {% for tag in page.tags %}
-                  <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-                {% endfor %}
-              </div>
-            {% endif %}
-            
-         
-            {% include social-share.html %}
-          </div>
-          
-          <div id="follow-retro-reversing" style="background-color:#242629; display: flex; justify-content: center;">
-            {% include followUs.html %}
-          </div>
-          
-          <div id="comments" class="comments anchor">
-            {% include disqus.html %}
-          </div> -->
-          
+          {% include_cached posts/post-footer.html tags=page.tags %}
         </div>
         <aside class="col-lg-3">
           <div class="sidebar">
-            {% include sources-sidebar.html %}
+            {% include_cached sources-sidebar.html references=page.references hideTOC=page.hideTOC %}
             {% include recommended-sidebar.html %}
           </div>
         </aside>

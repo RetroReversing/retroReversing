@@ -35,7 +35,6 @@ It was a mixed archive of ROMs, source trees, boot ROM repositories, internal to
 
 
 ## Uploaded Files
-
 These were the archive files uploaded on 4chan /g/ on 24 July 2020, the day the Gigaleak was leaked:
 * **other.7z** - The broadest archive, containing DMG, CGB, SFC, lot-check, and boot ROM material
 * **agb_bootrom_trunk.zip** - Extracted latest trunk snapshot of the AGB boot ROM repository
@@ -94,19 +93,16 @@ We have dedicated deep-dives exploring the leaked source code and assets for eac
 {% include link-to-other-post.html post="/super-mario-collection-source-code" description="Explore the Super Mario All-Stars (マリオコレクション) source code here." %}
 
 One small provenance detail is easy to miss here.
-The F-Zero source tree also survives under `other/NEWS/FZERO`, where the same `Game` and `Tools` folders appear again, including a second nested `FZERO` copy.
+While the primary unzipped source directories live under `other/SFC/ソースデータ`, three of these source trees—**F-Zero**, **Star Fox 2**, and **Super Mario Collection** (`srd13-SFCマリオコレクション`)—also survive duplicated inside `other/NEWS`. 
 
-So far that NEWS material looks identical to the `other/SFC/ソースデータ/FZERO` version rather than a different branch, but it is still useful because it shows the same snapshot was also present in a Sony NEWS-side working environment.
+So far this `NEWS` material looks identical to the `other/SFC/ソースデータ/` versions rather than a different branch, but it is still useful because it shows these exact snapshots were also present concurrently in a Sony NEWS-side working environment.
 
 ---
 ## NEWS Workstation Material (other/NEWS)
 The `NEWS.7z` archive is smaller and messier than `SFC.7z`, but it still preserves some useful workstation-side context.
 
-One example is F-Zero.
-Inside `other/NEWS/FZERO`, the same `Game` and `Tools` source tree appears again, and the folder is even duplicated as `other/NEWS/FZERO/FZERO`.
-
-That does not currently seem to add any new F-Zero content.
-The NEWS copy matches the SFC source tree exactly, so it is best understood as an additional preserved copy of the same archive rather than a different revision.
+As mentioned above, the F-Zero, Star Fox 2, and Super Mario Collection source trees also appear again here as exact copies, confirming they shared the same workstation environment snapshot. 
+Inside `other/NEWS/FZERO`, the `Game` and `Tools` folders reappear, and the folder is even duplicated as `other/NEWS/FZERO/FZERO`. That does not currently seem to add any new F-Zero content, but serves as an additional preserved copy of the same archive.
 
 Beyond the source trees, the `NEWS.7z` archive also contains a **テープリストア** (tape-restore) directory holding seven workstation backup snapshots in `.tar` format, plus a manifest file. These appear to be uncompressed mid-development system backups from around 2014:
 
@@ -127,7 +123,6 @@ These tars represent raw workstation snapshots rather than organized source arch
 {% include link-to-other-post.html post="/gigaleak-news-05" description="For the Star Fox 2 CAD, animation, and 3D toolchain workstation snapshot, see the NEWS_05 deep-dive." %}
 
 ### NEWS_02 - Email Attachments and ROM Payloads
-
 `NEWS_02.tar` is mostly system/user environment data, but it also preserves email payloads with attached ROM files.
 For extracting those attachments, use this [NEWS_02 email extraction script](https://pastebin.com/yxRwWjpE).
 
@@ -167,7 +162,6 @@ The recovered ROM groups include the following [^2]:
 
 
 ## NEWS_04 - Nintendo Graphics Workstation Backup
-
 `NEWS_04.tar` is a 96 MB Nintendo backup from one of their **Sony NEWS workstations** that preserves a large amount of graphics-side production material rather than source code.
 
 Where [NEWS_05](/gigaleak-news-05) captures the Star Fox 2 3D toolchain, `NEWS_04` captures the more traditional 2D side of console production: character banks, palettes, screen layouts, object definitions, maps, and a huge number of backup revisions.
@@ -178,7 +172,6 @@ It is a live multi-user workstation snapshot with three home directories, severa
 ---
 
 ### At a Glance
-
 `NEWS_04` is best understood as a **mixed graphics workstation backup**.
 It preserves:
 
@@ -197,7 +190,6 @@ Its value comes from file naming, layout formats, revision backups, and the way 
 ---
 
 ### The Main Story: Masanao Arimoto's Workspace
-
 Arimoto's home directory is the most important part of the archive.
 It combines one late and unusually dense `SF2` workspace with several older Zelda-related branches.
 
@@ -215,7 +207,6 @@ Project | Files | Dominant types | Date range | Reading
 ---
 
 ### Tadashi Sugiyama's Mixed Graphics Workspace
-
 Sugiyama's home is the second major component of `NEWS_04`.
 It is older than Arimoto's, broader in scope, and reads like a workstation that served multiple productions over five years rather than one focused project.
 
@@ -292,7 +283,6 @@ Period | Project | Status
 ---
 
 ### Practical 2D Workflow Pattern Preserved in NEWS_04
-
 ```mermaid
 flowchart LR
   A["<b>Graphics Bank</b><br>CGX character or tile art"] --> B["<b>Palette</b><br>COL color set"]
@@ -307,7 +297,6 @@ That pattern appears repeatedly across both Arimoto and Sugiyama workspaces.
 
 ---
 ## Super Famicom Built ROMs (other/SFC/ROM)
-
 The `other/SFC/ROM` folder contains an unexpected subset of built Super Famicom binaries and a utility executable rather than source code. Specifically, it holds what appears to be a build of Star Fox 2, multi-disc split ROMs for Super Mario RPG in both Japanese and US localizations, and a checksum application.
 
 ### At a Glance
@@ -433,7 +422,6 @@ The `agb_bootrom_trunk.zip` archive is the extracted latest working copy from th
 ---
 ---
 # Netcard & Online Pokémon Project
-
 We have a dedicated page delving deep into the BroadOn design documents regarding this cancelled Game Boy Advance online peripheral and the planned 3rd Floor of the Pokémon Center!
 
 {% include link-to-other-post.html post="/netcard" description="Read all about the cancelled 2004 GBA Netcard and ambitious Pokemon WAN project." %}
@@ -443,7 +431,6 @@ We have a dedicated page delving deep into the BroadOn design documents regardin
 The CVS Repository dump is from the 20th of October 2007 and mainly contains projects related to the WII Virtual console, such as emulators for Game Boy and DS, along with a few other small projects by individual developers.
 
 ## Checking out the latest version
-
 ### Step 1 - Extracting the tar
 The first step after extracting the 7Zip file to to extract the tar archive, you can do this like so:
 ```bash

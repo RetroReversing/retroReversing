@@ -570,10 +570,10 @@ These are the top-level world-building tools.
 They generate or archive the main race data, assemble world layouts, and place gameplay objects such as bombs.
 
 {% capture map_world_cards %}
-{% include source-code-card.html title="armap.c" items=armap_items functions="4" variables="7" lines="136" %}
-{% include source-code-card.html title="carmap.c" items=carmap_items functions="19" variables="20" lines="500" %}
-{% include source-code-card.html title="mkmap.c" items=mkmap_items functions="18" variables="18" lines="475" %}
-{% include source-code-card.html title="setbomb.c" items=setbomb_items functions="10" variables="12" lines="291" %}
+{% include_cached source-code-card.html title="armap.c" items=armap_items functions="4" variables="7" lines="136" %}
+{% include_cached source-code-card.html title="carmap.c" items=carmap_items functions="19" variables="20" lines="500" %}
+{% include_cached source-code-card.html title="mkmap.c" items=mkmap_items functions="18" variables="18" lines="475" %}
+{% include_cached source-code-card.html title="setbomb.c" items=setbomb_items functions="10" variables="12" lines="291" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Map and World Tools" content=map_world_cards %}
@@ -584,8 +584,8 @@ These are the bridge tools between raw screen data and the final world/map outpu
 They handle packed panel data and compressed slit data for the road/perspective system.
 
 {% capture panel_slit_cards %}
-{% include source-code-card.html title="mkpanel.c" items=mkpanel_items functions="11" variables="8" lines="325" %}
-{% include source-code-card.html title="slitpress.c" items=slitpress_items functions="4" variables="2" lines="97" %}
+{% include_cached source-code-card.html title="mkpanel.c" items=mkpanel_items functions="11" variables="8" lines="325" %}
+{% include_cached source-code-card.html title="slitpress.c" items=slitpress_items functions="4" variables="2" lines="97" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Panel and Slit Processing" content=panel_slit_cards %}
@@ -595,12 +595,12 @@ They handle packed panel data and compressed slit data for the road/perspective 
 These are the asset-packaging tools for vehicles, objects, and SNES-ready character graphics.
 
 {% capture character_cards %}
-{% include source-code-card.html title="chrar.c" items=chrar_items functions="5" variables="7" lines="156" %}
-{% include source-code-card.html title="enemy.c" items=enemy_items functions="6" variables="18" lines="221" %}
-{% include source-code-card.html title="mkbgchr.c" items=mkbgchr_items functions="6" variables="7" lines="150" %}
-{% include source-code-card.html title="mkenemy.c" items=mkenemy_items functions="6" variables="16" lines="212" %}
-{% include source-code-card.html title="mkrival.c" items=mkrival_items functions="6" variables="16" lines="209" %}
-{% include source-code-card.html title="mkspchr.c" items=mkspchr_items functions="8" variables="11" lines="234" %}
+{% include_cached source-code-card.html title="chrar.c" items=chrar_items functions="5" variables="7" lines="156" %}
+{% include_cached source-code-card.html title="enemy.c" items=enemy_items functions="6" variables="18" lines="221" %}
+{% include_cached source-code-card.html title="mkbgchr.c" items=mkbgchr_items functions="6" variables="7" lines="150" %}
+{% include_cached source-code-card.html title="mkenemy.c" items=mkenemy_items functions="6" variables="16" lines="212" %}
+{% include_cached source-code-card.html title="mkrival.c" items=mkrival_items functions="6" variables="16" lines="209" %}
+{% include_cached source-code-card.html title="mkspchr.c" items=mkspchr_items functions="8" variables="11" lines="234" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Character and Sprite Tools" content=character_cards %}
@@ -610,9 +610,9 @@ These are the asset-packaging tools for vehicles, objects, and SNES-ready charac
 These are the smaller helper tools for particular presentation tasks such as background compression, demo perspective data, and the car-select screen.
 
 {% capture support_cards %}
-{% include source-code-card.html title="mkback.c" items=mkback_items functions="3" variables="7" lines="127" %}
-{% include source-code-card.html title="mkpers.c" items=mkpers_items functions="4" variables="4" lines="98" %}
-{% include source-code-card.html title="mkselect.c" items=mkselect_items functions="4" variables="8" lines="120" %}
+{% include_cached source-code-card.html title="mkback.c" items=mkback_items functions="3" variables="7" lines="127" %}
+{% include_cached source-code-card.html title="mkpers.c" items=mkpers_items functions="4" variables="4" lines="98" %}
+{% include_cached source-code-card.html title="mkselect.c" items=mkselect_items functions="4" variables="8" lines="120" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Compression and Screen-Specific Tools" content=support_cards %}

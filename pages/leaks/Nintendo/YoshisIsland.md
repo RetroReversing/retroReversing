@@ -27,7 +27,7 @@ recommend:
 - leak
 - sourcecode
 editlink: /leaks/Nintendo/YoshisIsland.md
-updatedAt: '2026-03-30'
+updatedAt: '2026-03-31'
 ---
 
 The Nintendo Gigaleak preserves a very large Yoshi's Island archive under `other/SFC/ソースデータ/ヨッシーアイランド`.
@@ -1252,6 +1252,73 @@ One last detail makes this even more important:
 those `yoshi-*`, `tamago-*`, `baby-mario`, `WORLD-CLEAR-DEMO`, and `DOKAN-*` names do not show up at all in the main `日本_Ver2` tree.
 So this whole naming layer is effectively unique to the NEWS tape workspace.
 
+If you group those names by family, the shape becomes even clearer:
+
+Family | `OBZ` | `OBJ` | `SPR` | What it looks like
+---|---|---|---|---
+`yoshi-*` | 48 | 53 | 20 | Core Yoshi movement, pose, and interaction states
+`tamago-*` | 12 | 3 | 7 | Egg-related actions such as running, throwing, doors, and water-side variants
+`baby-*` | 3 | 3 | 1 | Baby Mario-specific demo or reaction states
+`DOKAN*` / `DOOR*` | 4 | 2 | 0 | Pipe and door transition resources
+
+That is much more specific than the main source archive.
+The integrated `日本_Ver2` branch gives the program, converted art banks, and object tables.
+`NEWS_11` adds a much more human-readable action vocabulary for how Yoshi, eggs, Baby Mario, and doors were being staged on the art side.
+
+The Yoshi family alone is broad enough to sketch out a rough state catalogue:
+
+* locomotion and pose states like `yoshi-stop-walk-run-jump`, `yoshi-naname`, and `yoshi-slow`
+* terrain or hazard states like `yoshi-SUBERI`, `yoshi-YOGAN`, and `yoshi-mizu`
+* interaction states like `yoshi-oshi`, `yoshi-pelori`, `yoshi-bomb`, and `yoshi-bero-ue-yoko`
+* balance or stumble states like `yoshi-ottotto`, `yoshi-fura-fura`, and `yoshi-boyoyon`
+* climb or transition states like `yoshi-KAIDAN` and `yoshi-KAIDAN-DOWN`
+* demo or special-sequence states like `yoshi-BOSS-END`, `yoshi-BABY-KIMEPOSE`, and `yoshi-bonus`
+
+The egg-side names are just as nice because they feel like a miniature subsystem of their own:
+
+* `tamago-run`
+* `tamago-nage`
+* `tamago-nage-2`
+* `tamago-door`
+* `tamago-door-out`
+* `tamago-umi`
+* `tamago-run-KOOPA`
+
+So `NEWS_11` is not only preserving character art.
+It is preserving a pretty granular naming layer for movement, interaction, demo, and projectile states that sits somewhere between animation planning and final resource packaging.
+
+---
+## Tracing One State Family
+One of the best examples is `yoshi-stop-walk-run-jump`, because the same name survives in three different NEWS-side formats:
+
+* `yoshi-stop-walk-run-jump.OBJ`
+* `yoshi-stop-walk-run-jump.OBZ`
+* `SPR/yoshi-stop-walk-run-jump.SPR`
+
+Those three files do not look like duplicates.
+They look like stages in the same broader asset path:
+
+File | Size | Date | What it most likely represents
+---|---|---|---
+`yoshi-stop-walk-run-jump.OBJ` | `13,568` bytes | `1993-07-28` | Older object-side or layout-side source asset
+`SPR/yoshi-stop-walk-run-jump.SPR` | `1,394` bytes | `1994-05-12` | Compact sprite-state companion data
+`yoshi-stop-walk-run-jump.OBZ` | `27,136` bytes | `1995-05-17` | Later fixed-size packed state resource
+
+That date spread is especially useful.
+It suggests the state family was not authored once and frozen.
+It was being carried forward through multiple production representations over at least two years.
+
+The same pattern shows up in other state families too:
+
+File family | Older layer | Smaller companion layer | Later packed layer
+---|---|---|---
+`yoshi-swiming` | `yoshi-swiming.OBJ` (`1992-06-23`) | `SPR/yoshi-swiming.SPR` (`1993-11-10`) | `yoshi-swiming.OBZ` (`1994-08-29`)
+`tamago-run` | no matching plain `.OBJ` seen here | `SPR/tamago-run.SPR` (`1994-06-03`) | `tamago-run.OBZ` (`1994-08-25`)
+`baby-mario` | no matching plain `.OBJ` seen here | `SPR/baby-mario.SPR` (`1994-02-02`) | `baby-mario.OBZ` (`1994-06-08`)
+
+That makes the NEWS material much more than "extra art."
+It is one of the clearest surviving windows into how character and interaction states were renamed, repackaged, and likely moved through multiple tool-side formats over time.
+
 ---
 ## The Ending Workspace
 `NEWS_11/ENDING` is another major addition.
@@ -1270,6 +1337,26 @@ The folder includes:
 That is a lot richer than the main Yoshi source branch, where ending logic is visible through `endt` and program-side references but the visual authoring process is much less exposed.
 
 The `STAF-ROLL-ENGRISH-*` names are especially fun because they show the ending workspace preserving draft or working labels for the staff-roll content rather than cleaned public-facing names.
+
+The folder structure also suggests the ending visuals were being built as composited scenes rather than one flat art bank.
+There are at least five numbered screen sets:
+
+* `No-1.SCR` to `No-5.SCR`
+* matching `No1-BG2.CGX` to `No5-BG2.CGX`
+* matching `ENDING-No1.COL` to `ENDING-No5.COL`
+
+That looks very much like a multi-screen ending sequence with per-scene background graphics and dedicated palette sets.
+
+Then, layered on top of those screens, the workspace keeps:
+
+* message-side objects such as `MESSAGE.OBJ`, `MESSAGE-5.OBJ`, and `MESSAGE.OBX`
+* staff-roll objects like `STAF-ROLL.OBJ`, `STAF-ROLL.OBX`, `STAF-ROLL-center.OBX`, and `STAF-ROLL-M.OBX`
+* language-specific or content-specific variants such as `STAF-ROLL-HIRAGANA-0.OBX` and `STAF-ROLL-ENGRISH-0.OBX` through `STAF-ROLL-ENGRISH-3.OBX`
+* bird graphics and object layers through `TORI.CGX`, `TORI.OBJ`, `TORI-INDY.CGX`, and `TORI-INDY.OBJ`
+
+That is a surprisingly complete look at the visual side of the game's ending and credits.
+The main source archive tells us where ending placement data lived.
+`NEWS_11/ENDING` shows that the ending artwork itself was being managed as a small production workspace with scene screens, layered message/staff-roll objects, character elements, and many nearby backups.
 
 ---
 ## Region Variants and Late Art Branching
@@ -1291,6 +1378,30 @@ At least some graphics banks were also being split into Japanese, PAL, and NOA-o
 That makes `NEWS_11` especially valuable when read beside `日本_Ver2`.
 One shows the regional switches inside the build system.
 The other shows the corresponding messier art-side branching that fed those builds.
+
+The actual bank comparison sharpens that point.
+All of these region-labelled files share the same `1995-07-10` date and the same `17,664` byte size:
+
+* `60-63-JAP.CGX`
+* `60-63-PAL.CGX`
+* `60-63-NOA.CGX.BAK`
+* `74-77-JAP.CGX`
+* `74-77-PAL.CGX`
+* `74-77-NOA.CGX.BAK`
+
+But they are not all the same data.
+
+Bank | JAP | PAL | NOA backup | Relation to `日本_Ver2`
+---|---|---|---|---
+`60-63` | distinct | distinct | distinct | no plain `60-63.CGX` was found in `日本_Ver2`
+`74-77` | distinct | identical to `NOA` backup | identical to `PAL` | plain `74-77.CGX` exists in `日本_Ver2`, but differs from both NEWS variants checked
+
+That is a nice concrete example of what the NEWS tapes add.
+The main source branch shows that Yoshi's Island still carried `JPN`, `NES`, and `PAL` conditionals.
+The NEWS art workspace shows that at least some character banks were being branched the same way, and not always as three fully independent end states.
+
+In the `74-77` case, the `PAL` build candidate and the backed-up `NOA` candidate are byte-identical, while the `JAP` bank differs from both.
+So the regional split could be two-way in practice even when three labels were present in the workspace.
 
 ---
 ## What Seems To Be New Versus Duplicated

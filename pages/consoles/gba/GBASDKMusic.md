@@ -140,7 +140,7 @@ You can view the main exports in the **mks4agbLib.h** header file below:
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="mks4agbLib.h" items=card_1_1_items functions="24" variables="7" lines="125" list_style="width:350px" %}
+{% include_cached source-code-card.html title="mks4agbLib.h" items=card_1_1_items functions="24" variables="7" lines="125" list_style="width:350px" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html content=section_1_cards style="justify-content: center" %}

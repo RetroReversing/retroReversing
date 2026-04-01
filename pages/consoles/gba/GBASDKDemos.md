@@ -276,15 +276,15 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="bg.c" items=card_1_1_items functions="36" variables="14" lines="790" %}
-{% include source-code-card.html title="enemy.c" items=card_1_2_items functions="29" variables="8" lines="733" %}
-{% include source-code-card.html title="enemy_dat.c" items=card_1_3_items functions="0" variables="8" lines="143" %}
-{% include source-code-card.html title="game_dat.c" items=card_1_4_items functions="0" variables="5" lines="112" %}
-{% include source-code-card.html title="hitcheck.c" items=card_1_5_items functions="4" variables="0" lines="201" %}
-{% include source-code-card.html title="main.c" items=card_1_6_items functions="9" variables="14" lines="325" %}
-{% include source-code-card.html title="player_dat.c" items=card_1_7_items functions="0" variables="12" lines="270" %}
-{% include source-code-card.html title="player.c" items=card_1_8_items functions="28" variables="2" lines="852" %}
-{% include source-code-card.html title="ring.c" items=card_1_9_items functions="8" variables="3" lines="260" %}
+{% include_cached source-code-card.html title="bg.c" items=card_1_1_items functions="36" variables="14" lines="790" %}
+{% include_cached source-code-card.html title="enemy.c" items=card_1_2_items functions="29" variables="8" lines="733" %}
+{% include_cached source-code-card.html title="enemy_dat.c" items=card_1_3_items functions="0" variables="8" lines="143" %}
+{% include_cached source-code-card.html title="game_dat.c" items=card_1_4_items functions="0" variables="5" lines="112" %}
+{% include_cached source-code-card.html title="hitcheck.c" items=card_1_5_items functions="4" variables="0" lines="201" %}
+{% include_cached source-code-card.html title="main.c" items=card_1_6_items functions="9" variables="14" lines="325" %}
+{% include_cached source-code-card.html title="player_dat.c" items=card_1_7_items functions="0" variables="12" lines="270" %}
+{% include_cached source-code-card.html title="player.c" items=card_1_8_items functions="28" variables="2" lines="852" %}
+{% include_cached source-code-card.html title="ring.c" items=card_1_9_items functions="8" variables="3" lines="260" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}

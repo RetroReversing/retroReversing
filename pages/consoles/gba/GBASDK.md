@@ -1422,12 +1422,12 @@ IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="AgbDefine.h" items=card_1_1_items functions="0" variables="0" lines="710" %}
-{% include source-code-card.html title="AgbIr.h" items=card_1_2_items functions="13" variables="0" lines="251" %}
-{% include source-code-card.html title="AgbMemoryMap.h" items=card_1_3_items functions="0" variables="0" lines="509" %}
-{% include source-code-card.html title="AgbMultiBoot.h" items=card_1_4_items functions="0" variables="0" lines="126" %}
-{% include source-code-card.html title="AgbTypes.h" items=card_1_5_items functions="0" variables="0" lines="729" %}
-{% include source-code-card.html title="IsAgbPrint.h" items=card_1_6_items functions="7" variables="0" lines="161" %}
+{% include_cached source-code-card.html title="AgbDefine.h" items=card_1_1_items functions="0" variables="0" lines="710" %}
+{% include_cached source-code-card.html title="AgbIr.h" items=card_1_2_items functions="13" variables="0" lines="251" %}
+{% include_cached source-code-card.html title="AgbMemoryMap.h" items=card_1_3_items functions="0" variables="0" lines="509" %}
+{% include_cached source-code-card.html title="AgbMultiBoot.h" items=card_1_4_items functions="0" variables="0" lines="126" %}
+{% include_cached source-code-card.html title="AgbTypes.h" items=card_1_5_items functions="0" variables="0" lines="729" %}
+{% include_cached source-code-card.html title="IsAgbPrint.h" items=card_1_6_items functions="7" variables="0" lines="161" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="API Header Files" content=section_1_cards %}
@@ -1482,9 +1482,9 @@ AgbSramFast | .h | Include file for declaring the faster (but more memory intens
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="AgbDacs.h" items=card_2_1_items functions="11" variables="2" lines="364" %}
-{% include source-code-card.html title="AgbSram.h" items=card_2_2_items functions="3" variables="0" lines="87" %}
-{% include source-code-card.html title="AgbSramFast.h" items=card_2_3_items functions="2" variables="2" lines="103" %}
+{% include_cached source-code-card.html title="AgbDacs.h" items=card_2_1_items functions="11" variables="2" lines="364" %}
+{% include_cached source-code-card.html title="AgbSram.h" items=card_2_2_items functions="3" variables="0" lines="87" %}
+{% include_cached source-code-card.html title="AgbSramFast.h" items=card_2_3_items functions="2" variables="2" lines="103" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Backup Library Header Files" content=section_2_cards %}

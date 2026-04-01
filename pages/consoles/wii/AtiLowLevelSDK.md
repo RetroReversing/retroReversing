@@ -1225,78 +1225,78 @@ The file **generic.h** is actually from the Linux Kernel (**linux/byteorder_gene
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="acr.h" items=card_1_1_items functions="16" variables="0" lines="31" %}
-{% include source-code-card.html title="aes.h" items=card_1_2_items functions="5" variables="0" lines="16" %}
-{% include source-code-card.html title="ahb.h" items=card_1_3_items functions="5" variables="0" lines="51" %}
-{% include source-code-card.html title="ahbdbg.h" items=card_1_4_items functions="1" variables="0" lines="15" %}
-{% include source-code-card.html title="ai.h" items=card_1_5_items functions="1" variables="0" lines="35" %}
-{% include source-code-card.html title="aram.h" items=card_1_6_items functions="4" variables="0" lines="28" %}
-{% include source-code-card.html title="arch.h" items=card_1_7_items functions="1" variables="1" lines="70" %}
-{% include source-code-card.html title="args.h" items=card_1_8_items functions="4" variables="2" lines="52" %}
-{% include source-code-card.html title="assert.h" items=card_1_9_items functions="1" variables="0" lines="35" %}
-{% include source-code-card.html title="axdbg.h" items=card_1_10_items functions="7" variables="2" lines="107" %}
-{% include source-code-card.html title="axmc.h" items=card_1_11_items functions="28" variables="0" lines="78" %}
-{% include source-code-card.html title="busclient.h" items=card_1_12_items functions="3" variables="0" lines="51" %}
-{% include source-code-card.html title="crc.h" items=card_1_13_items functions="3" variables="0" lines="41" %}
-{% include source-code-card.html title="dbg_viai_setup.h" items=card_1_14_items functions="2" variables="0" lines="6" %}
-{% include source-code-card.html title="dbgcomm.h" items=card_1_15_items functions="5" variables="0" lines="48" %}
-{% include source-code-card.html title="dbgint.h" items=card_1_16_items functions="1" variables="0" lines="34" %}
-{% include source-code-card.html title="dcbz_basic.h" items=card_1_17_items functions="2" variables="0" lines="9" %}
-{% include source-code-card.html title="di.h" items=card_1_18_items functions="11" variables="0" lines="117" %}
-{% include source-code-card.html title="diag.h" items=card_1_19_items functions="8" variables="0" lines="105" %}
-{% include source-code-card.html title="dma_basic.h" items=card_1_20_items functions="3" variables="0" lines="11" %}
-{% include source-code-card.html title="dolcnt.h" items=card_1_21_items functions="5" variables="0" lines="117" %}
-{% include source-code-card.html title="dsp.h" items=card_1_22_items functions="8" variables="0" lines="45" %}
-{% include source-code-card.html title="dspfix.h" items=card_1_23_items functions="1" variables="0" lines="2" %}
-{% include source-code-card.html title="dspmxic.h" items=card_1_24_items functions="7" variables="0" lines="93" %}
-{% include source-code-card.html title="dvd.h" items=card_1_25_items functions="22" variables="4" lines="121" %}
-{% include source-code-card.html title="dvdfs.h" items=card_1_26_items functions="6" variables="0" lines="51" %}
-{% include source-code-card.html title="ehci-hcd.h" items=card_1_27_items functions="1" variables="0" lines="12" %}
-{% include source-code-card.html title="ela.h" items=card_1_28_items functions="3" variables="0" lines="94" %}
-{% include source-code-card.html title="exi.h" items=card_1_29_items functions="12" variables="0" lines="85" %}
-{% include source-code-card.html title="eximdm.h" items=card_1_30_items functions="3" variables="0" lines="40" %}
-{% include source-code-card.html title="fifo.h" items=card_1_31_items functions="7" variables="0" lines="61" %}
-{% include source-code-card.html title="filerand.h" items=card_1_32_items functions="2" variables="0" lines="11" %}
-{% include source-code-card.html title="filerandom.h" items=card_1_33_items functions="2" variables="0" lines="11" %}
-{% include source-code-card.html title="flash.h" items=card_1_34_items functions="11" variables="0" lines="53" %}
-{% include source-code-card.html title="font.h" items=card_1_35_items functions="26" variables="0" lines="60" %}
-{% include source-code-card.html title="gecko_dma.h" items=card_1_36_items functions="8" variables="0" lines="84" %}
-{% include source-code-card.html title="getopt.h" items=card_1_37_items functions="1" variables="2" lines="36" %}
-{% include source-code-card.html title="gfxbu.h" items=card_1_38_items functions="2" variables="0" lines="42" %}
-{% include source-code-card.html title="gfxoldbu.h" items=card_1_39_items functions="5" variables="1" lines="84" %}
-{% include source-code-card.html title="gpioexi.h" items=card_1_40_items functions="3" variables="0" lines="10" %}
-{% include source-code-card.html title="hcd.h" items=card_1_41_items functions="13" variables="0" lines="298" %}
-{% include source-code-card.html title="hidutil.h" items=card_1_42_items functions="3" variables="0" lines="11" %}
-{% include source-code-card.html title="hub.h" items=card_1_43_items functions="1" variables="0" lines="152" %}
-{% include source-code-card.html title="i2c.h" items=card_1_44_items functions="9" variables="0" lines="51" %}
-{% include source-code-card.html title="irq.h" items=card_1_45_items functions="10" variables="0" lines="90" %}
-{% include source-code-card.html title="lib.h" items=card_1_46_items functions="176" variables="0" lines="309" %}
-{% include source-code-card.html title="mc.h" items=card_1_47_items functions="15" variables="0" lines="313" %}
-{% include source-code-card.html title="mem.h" items=card_1_48_items functions="22" variables="2" lines="72" %}
-{% include source-code-card.html title="ml.h" items=card_1_49_items functions="9" variables="0" lines="101" %}
-{% include source-code-card.html title="mrexi.h" items=card_1_50_items functions="3" variables="0" lines="63" %}
-{% include source-code-card.html title="n64cnt.h" items=card_1_51_items functions="7" variables="0" lines="85" %}
-{% include source-code-card.html title="ntd_regs.h" items=card_1_52_items functions="1" variables="2" lines="36" %}
-{% include source-code-card.html title="nvram.h" items=card_1_53_items functions="2" variables="0" lines="41" %}
-{% include source-code-card.html title="os.h" items=card_1_54_items functions="21" variables="3" lines="113" %}
-{% include source-code-card.html title="reset.h" items=card_1_55_items functions="1" variables="0" lines="32" %}
-{% include source-code-card.html title="sdi.h" items=card_1_56_items functions="96" variables="0" lines="263" %}
-{% include source-code-card.html title="serrx.h" items=card_1_57_items functions="4" variables="0" lines="35" %}
-{% include source-code-card.html title="sfx.h" items=card_1_58_items functions="2" variables="0" lines="37" %}
-{% include source-code-card.html title="sha.h" items=card_1_59_items functions="5" variables="0" lines="14" %}
-{% include source-code-card.html title="si.h" items=card_1_60_items functions="9" variables="0" lines="57" %}
-{% include source-code-card.html title="snake.h" items=card_1_61_items functions="6" variables="0" lines="117" %}
-{% include source-code-card.html title="standio.h" items=card_1_62_items functions="11" variables="0" lines="59" %}
-{% include source-code-card.html title="swab.h" items=card_1_63_items functions="10" variables="2" lines="159" %}
-{% include source-code-card.html title="usb.h" items=card_1_64_items functions="22" variables="0" lines="39" %}
-{% include source-code-card.html title="usb_input.h" items=card_1_65_items functions="7" variables="0" lines="747" %}
-{% include source-code-card.html title="usb_mem.h" items=card_1_66_items functions="13" variables="0" lines="35" %}
-{% include source-code-card.html title="usb_spin.h" items=card_1_67_items functions="2" variables="0" lines="34" %}
-{% include source-code-card.html title="usb_timer.h" items=card_1_68_items functions="7" variables="0" lines="25" %}
-{% include source-code-card.html title="util.h" items=card_1_69_items functions="3" variables="0" lines="20" %}
-{% include source-code-card.html title="vi.h" items=card_1_70_items functions="44" variables="3" lines="169" %}
-{% include source-code-card.html title="vi_conexant.h" items=card_1_71_items functions="6" variables="0" lines="15" %}
-{% include source-code-card.html title="video.h" items=card_1_72_items functions="5" variables="0" lines="71" %}
+{% include_cached source-code-card.html title="acr.h" items=card_1_1_items functions="16" variables="0" lines="31" %}
+{% include_cached source-code-card.html title="aes.h" items=card_1_2_items functions="5" variables="0" lines="16" %}
+{% include_cached source-code-card.html title="ahb.h" items=card_1_3_items functions="5" variables="0" lines="51" %}
+{% include_cached source-code-card.html title="ahbdbg.h" items=card_1_4_items functions="1" variables="0" lines="15" %}
+{% include_cached source-code-card.html title="ai.h" items=card_1_5_items functions="1" variables="0" lines="35" %}
+{% include_cached source-code-card.html title="aram.h" items=card_1_6_items functions="4" variables="0" lines="28" %}
+{% include_cached source-code-card.html title="arch.h" items=card_1_7_items functions="1" variables="1" lines="70" %}
+{% include_cached source-code-card.html title="args.h" items=card_1_8_items functions="4" variables="2" lines="52" %}
+{% include_cached source-code-card.html title="assert.h" items=card_1_9_items functions="1" variables="0" lines="35" %}
+{% include_cached source-code-card.html title="axdbg.h" items=card_1_10_items functions="7" variables="2" lines="107" %}
+{% include_cached source-code-card.html title="axmc.h" items=card_1_11_items functions="28" variables="0" lines="78" %}
+{% include_cached source-code-card.html title="busclient.h" items=card_1_12_items functions="3" variables="0" lines="51" %}
+{% include_cached source-code-card.html title="crc.h" items=card_1_13_items functions="3" variables="0" lines="41" %}
+{% include_cached source-code-card.html title="dbg_viai_setup.h" items=card_1_14_items functions="2" variables="0" lines="6" %}
+{% include_cached source-code-card.html title="dbgcomm.h" items=card_1_15_items functions="5" variables="0" lines="48" %}
+{% include_cached source-code-card.html title="dbgint.h" items=card_1_16_items functions="1" variables="0" lines="34" %}
+{% include_cached source-code-card.html title="dcbz_basic.h" items=card_1_17_items functions="2" variables="0" lines="9" %}
+{% include_cached source-code-card.html title="di.h" items=card_1_18_items functions="11" variables="0" lines="117" %}
+{% include_cached source-code-card.html title="diag.h" items=card_1_19_items functions="8" variables="0" lines="105" %}
+{% include_cached source-code-card.html title="dma_basic.h" items=card_1_20_items functions="3" variables="0" lines="11" %}
+{% include_cached source-code-card.html title="dolcnt.h" items=card_1_21_items functions="5" variables="0" lines="117" %}
+{% include_cached source-code-card.html title="dsp.h" items=card_1_22_items functions="8" variables="0" lines="45" %}
+{% include_cached source-code-card.html title="dspfix.h" items=card_1_23_items functions="1" variables="0" lines="2" %}
+{% include_cached source-code-card.html title="dspmxic.h" items=card_1_24_items functions="7" variables="0" lines="93" %}
+{% include_cached source-code-card.html title="dvd.h" items=card_1_25_items functions="22" variables="4" lines="121" %}
+{% include_cached source-code-card.html title="dvdfs.h" items=card_1_26_items functions="6" variables="0" lines="51" %}
+{% include_cached source-code-card.html title="ehci-hcd.h" items=card_1_27_items functions="1" variables="0" lines="12" %}
+{% include_cached source-code-card.html title="ela.h" items=card_1_28_items functions="3" variables="0" lines="94" %}
+{% include_cached source-code-card.html title="exi.h" items=card_1_29_items functions="12" variables="0" lines="85" %}
+{% include_cached source-code-card.html title="eximdm.h" items=card_1_30_items functions="3" variables="0" lines="40" %}
+{% include_cached source-code-card.html title="fifo.h" items=card_1_31_items functions="7" variables="0" lines="61" %}
+{% include_cached source-code-card.html title="filerand.h" items=card_1_32_items functions="2" variables="0" lines="11" %}
+{% include_cached source-code-card.html title="filerandom.h" items=card_1_33_items functions="2" variables="0" lines="11" %}
+{% include_cached source-code-card.html title="flash.h" items=card_1_34_items functions="11" variables="0" lines="53" %}
+{% include_cached source-code-card.html title="font.h" items=card_1_35_items functions="26" variables="0" lines="60" %}
+{% include_cached source-code-card.html title="gecko_dma.h" items=card_1_36_items functions="8" variables="0" lines="84" %}
+{% include_cached source-code-card.html title="getopt.h" items=card_1_37_items functions="1" variables="2" lines="36" %}
+{% include_cached source-code-card.html title="gfxbu.h" items=card_1_38_items functions="2" variables="0" lines="42" %}
+{% include_cached source-code-card.html title="gfxoldbu.h" items=card_1_39_items functions="5" variables="1" lines="84" %}
+{% include_cached source-code-card.html title="gpioexi.h" items=card_1_40_items functions="3" variables="0" lines="10" %}
+{% include_cached source-code-card.html title="hcd.h" items=card_1_41_items functions="13" variables="0" lines="298" %}
+{% include_cached source-code-card.html title="hidutil.h" items=card_1_42_items functions="3" variables="0" lines="11" %}
+{% include_cached source-code-card.html title="hub.h" items=card_1_43_items functions="1" variables="0" lines="152" %}
+{% include_cached source-code-card.html title="i2c.h" items=card_1_44_items functions="9" variables="0" lines="51" %}
+{% include_cached source-code-card.html title="irq.h" items=card_1_45_items functions="10" variables="0" lines="90" %}
+{% include_cached source-code-card.html title="lib.h" items=card_1_46_items functions="176" variables="0" lines="309" %}
+{% include_cached source-code-card.html title="mc.h" items=card_1_47_items functions="15" variables="0" lines="313" %}
+{% include_cached source-code-card.html title="mem.h" items=card_1_48_items functions="22" variables="2" lines="72" %}
+{% include_cached source-code-card.html title="ml.h" items=card_1_49_items functions="9" variables="0" lines="101" %}
+{% include_cached source-code-card.html title="mrexi.h" items=card_1_50_items functions="3" variables="0" lines="63" %}
+{% include_cached source-code-card.html title="n64cnt.h" items=card_1_51_items functions="7" variables="0" lines="85" %}
+{% include_cached source-code-card.html title="ntd_regs.h" items=card_1_52_items functions="1" variables="2" lines="36" %}
+{% include_cached source-code-card.html title="nvram.h" items=card_1_53_items functions="2" variables="0" lines="41" %}
+{% include_cached source-code-card.html title="os.h" items=card_1_54_items functions="21" variables="3" lines="113" %}
+{% include_cached source-code-card.html title="reset.h" items=card_1_55_items functions="1" variables="0" lines="32" %}
+{% include_cached source-code-card.html title="sdi.h" items=card_1_56_items functions="96" variables="0" lines="263" %}
+{% include_cached source-code-card.html title="serrx.h" items=card_1_57_items functions="4" variables="0" lines="35" %}
+{% include_cached source-code-card.html title="sfx.h" items=card_1_58_items functions="2" variables="0" lines="37" %}
+{% include_cached source-code-card.html title="sha.h" items=card_1_59_items functions="5" variables="0" lines="14" %}
+{% include_cached source-code-card.html title="si.h" items=card_1_60_items functions="9" variables="0" lines="57" %}
+{% include_cached source-code-card.html title="snake.h" items=card_1_61_items functions="6" variables="0" lines="117" %}
+{% include_cached source-code-card.html title="standio.h" items=card_1_62_items functions="11" variables="0" lines="59" %}
+{% include_cached source-code-card.html title="swab.h" items=card_1_63_items functions="10" variables="2" lines="159" %}
+{% include_cached source-code-card.html title="usb.h" items=card_1_64_items functions="22" variables="0" lines="39" %}
+{% include_cached source-code-card.html title="usb_input.h" items=card_1_65_items functions="7" variables="0" lines="747" %}
+{% include_cached source-code-card.html title="usb_mem.h" items=card_1_66_items functions="13" variables="0" lines="35" %}
+{% include_cached source-code-card.html title="usb_spin.h" items=card_1_67_items functions="2" variables="0" lines="34" %}
+{% include_cached source-code-card.html title="usb_timer.h" items=card_1_68_items functions="7" variables="0" lines="25" %}
+{% include_cached source-code-card.html title="util.h" items=card_1_69_items functions="3" variables="0" lines="20" %}
+{% include_cached source-code-card.html title="vi.h" items=card_1_70_items functions="44" variables="3" lines="169" %}
+{% include_cached source-code-card.html title="vi_conexant.h" items=card_1_71_items functions="6" variables="0" lines="15" %}
+{% include_cached source-code-card.html title="video.h" items=card_1_72_items functions="5" variables="0" lines="71" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
@@ -1353,7 +1353,7 @@ model/unshared | .h | Include file for declaring a bunch of powerPX functions  f
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="unshared.h" items=card_2_1_items functions="30" variables="0" lines="76" %}
+{% include_cached source-code-card.html title="unshared.h" items=card_2_1_items functions="30" variables="0" lines="76" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
@@ -1632,9 +1632,9 @@ vertex | .h | Include file for declaring pre-processor defines related to vertic
 {% endcapture %}
 
 {% capture section_3_cards %}
-{% include source-code-card.html title="gx.h" items=card_3_1_items functions="172" variables="0" lines="1513" %}
-{% include source-code-card.html title="gxfifo.h" items=card_3_2_items functions="5" variables="0" lines="172" %}
-{% include source-code-card.html title="gxreg.h" items=card_3_3_items functions="16" variables="0" lines="174" %}
+{% include_cached source-code-card.html title="gx.h" items=card_3_1_items functions="172" variables="0" lines="1513" %}
+{% include_cached source-code-card.html title="gxfifo.h" items=card_3_2_items functions="5" variables="0" lines="172" %}
+{% include_cached source-code-card.html title="gxreg.h" items=card_3_3_items functions="16" variables="0" lines="174" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
@@ -1711,7 +1711,7 @@ gxu | .h | Include file for declaring all the Utility functions provided by the 
 {% endcapture %}
 
 {% capture section_4_cards %}
-{% include source-code-card.html title="gxu.h" items=card_4_1_items functions="48" variables="5" lines="317" %}
+{% include_cached source-code-card.html title="gxu.h" items=card_4_1_items functions="48" variables="5" lines="317" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
@@ -1792,8 +1792,8 @@ gxtypes | .h | Include file for declaring useful graphical stuctures and functio
 {% endcapture %}
 
 {% capture section_5_cards %}
-{% include source-code-card.html title="gxreg.h" items=card_5_1_items functions="16" variables="0" lines="174" %}
-{% include source-code-card.html title="gxtypes.h" items=card_5_2_items functions="3" variables="14" lines="281" %}
+{% include_cached source-code-card.html title="gxreg.h" items=card_5_1_items functions="16" variables="0" lines="174" %}
+{% include_cached source-code-card.html title="gxtypes.h" items=card_5_2_items functions="3" variables="14" lines="281" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_5_cards %}

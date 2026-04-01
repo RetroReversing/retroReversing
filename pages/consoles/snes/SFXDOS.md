@@ -124,7 +124,7 @@ It is a shared system layer surviving inside a real game workspace, with the Mar
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="sfxdos.asm" items=sfxdos_core_items functions="4" variables="8" lines="400" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="sfxdos.asm" items=sfxdos_core_items functions="4" variables="8" lines="400" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 
 The heart of the stack is `sfxdos.asm`.
@@ -334,7 +334,7 @@ That suggests the broader SFX-DOS package may once have had an execution or laun
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="fileio.asm" items=sfxdos_fileio_items functions="12" variables="3" lines="1763" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="fileio.asm" items=sfxdos_fileio_items functions="12" variables="3" lines="1763" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 
 `fileio.asm` is where the stack becomes recognizably DOS-like.
@@ -586,7 +586,7 @@ So even at the lowest level, SFX-DOS is managing hardware lifecycle rather than 
 - variable::Keyboard_ctrl
 {% endcapture %}
 
-{% include source-code-card.html title="sccdrv.asm" items=sfxdos_scc_items functions="11" variables="7" lines="710" class="rr-file-card-float" %}
+{% include_cached source-code-card.html title="sccdrv.asm" items=sfxdos_scc_items functions="11" variables="7" lines="710" class="rr-file-card-float" %}
 
 `sccdrv.asm` targets the `Z8530`, and it is doing two jobs at once:
 
@@ -625,7 +625,7 @@ The Super Famicom-side tool stack was designed to receive keyboard input in a fo
 - function::Output_Printer
 {% endcapture %}
 
-{% include source-code-card.html title="ppidrv.asm" items=sfxdos_ppi_items functions="3" variables="0" lines="76" class="rr-file-card-float" %}
+{% include_cached source-code-card.html title="ppidrv.asm" items=sfxdos_ppi_items functions="3" variables="0" lines="76" class="rr-file-card-float" %}
 
 `ppidrv.asm` targets the `uPD71055`.
 It is simpler than the other two drivers, but still reveals that the environment expected to support printer output directly.
@@ -677,7 +677,7 @@ That is enough to tell us SFX-DOS expected a physically attached printer and kne
 - variable::Color_data
 {% endcapture %}
 
-{% include source-code-card.html title="condrv.asm" items=sfxdos_console_items functions="6" variables="4" lines="912" class="rr-file-card-float" %}
+{% include_cached source-code-card.html title="condrv.asm" items=sfxdos_console_items functions="6" variables="4" lines="912" class="rr-file-card-float" %}
 
 `condrv.asm` turns the hardware layer into something a person could actually use.
 
@@ -895,8 +895,8 @@ The easiest way to understand why this matters is to look at the Mario Kart edit
 {% endcapture %}
 
 {% capture sfxdos_bridge_cards %}
-{% include source-code-card.html title="ed_dos1.asm" items=sfxdos_bridge1_items functions="3" variables="0" lines="199" %}
-{% include source-code-card.html title="ed_dos2.asm" items=sfxdos_bridge2_items functions="7" variables="1" lines="315" %}
+{% include_cached source-code-card.html title="ed_dos1.asm" items=sfxdos_bridge1_items functions="3" variables="0" lines="199" %}
+{% include_cached source-code-card.html title="ed_dos2.asm" items=sfxdos_bridge2_items functions="7" variables="1" lines="315" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html content=sfxdos_bridge_cards %}

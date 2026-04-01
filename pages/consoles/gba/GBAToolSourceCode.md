@@ -165,9 +165,9 @@ resource | .h | Include file for declaring the default macros from Visual C++ 5.
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="colorspace.cpp" items=card_1_1_items functions="1" variables="0" lines="294" %}
-{% include source-code-card.html title="main.cpp" items=card_1_2_items functions="2" variables="1" lines="397" %}
-{% include source-code-card.html title="reduction.cpp" items=card_1_3_items functions="2" variables="0" lines="86" %}
+{% include_cached source-code-card.html title="colorspace.cpp" items=card_1_1_items functions="1" variables="0" lines="294" %}
+{% include_cached source-code-card.html title="main.cpp" items=card_1_2_items functions="2" variables="1" lines="397" %}
+{% include_cached source-code-card.html title="reduction.cpp" items=card_1_3_items functions="2" variables="0" lines="86" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
@@ -222,10 +222,10 @@ sgi2bmp | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for descr
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="GlobalFnc.cpp" items=card_2_1_items functions="9" variables="0" lines="82" %}
-{% include source-code-card.html title="RgbLoader.cpp" items=card_2_2_items functions="8" variables="0" lines="414" %}
-{% include source-code-card.html title="main.cpp" items=card_2_3_items functions="1" variables="0" lines="105" %}
-{% include source-code-card.html title="pic_create.cpp" items=card_2_4_items functions="4" variables="1" lines="335" %}
+{% include_cached source-code-card.html title="GlobalFnc.cpp" items=card_2_1_items functions="9" variables="0" lines="82" %}
+{% include_cached source-code-card.html title="RgbLoader.cpp" items=card_2_2_items functions="8" variables="0" lines="414" %}
+{% include_cached source-code-card.html title="main.cpp" items=card_2_3_items functions="1" variables="0" lines="105" %}
+{% include_cached source-code-card.html title="pic_create.cpp" items=card_2_4_items functions="4" variables="1" lines="335" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
@@ -374,27 +374,27 @@ util | .h | Include file for declaring
 {% endcapture %}
 
 {% capture section_3_cards %}
-{% include source-code-card.html title="agbtypes.h" items=card_3_1_items functions="0" variables="0" lines="154" %}
-{% include source-code-card.html title="angle.h" items=card_3_2_items functions="0" variables="2" lines="62" %}
-{% include source-code-card.html title="bmpstruct.h" items=card_3_3_items functions="0" variables="0" lines="60" %}
-{% include source-code-card.html title="buffer.h" items=card_3_4_items functions="0" variables="0" lines="81" %}
-{% include source-code-card.html title="char16set.h" items=card_3_5_items functions="0" variables="0" lines="49" %}
-{% include source-code-card.html title="char256set.h" items=card_3_6_items functions="0" variables="0" lines="50" %}
-{% include source-code-card.html title="character.h" items=card_3_7_items functions="0" variables="0" lines="138" %}
-{% include source-code-card.html title="character16.h" items=card_3_8_items functions="0" variables="0" lines="40" %}
-{% include source-code-card.html title="character256.h" items=card_3_9_items functions="0" variables="0" lines="25" %}
-{% include source-code-card.html title="charset.h" items=card_3_10_items functions="0" variables="0" lines="73" %}
-{% include source-code-card.html title="color.h" items=card_3_11_items functions="2" variables="0" lines="60" %}
-{% include source-code-card.html title="hpicture.h" items=card_3_12_items functions="0" variables="0" lines="108" %}
-{% include source-code-card.html title="map.h" items=card_3_13_items functions="0" variables="0" lines="78" %}
-{% include source-code-card.html title="map16.h" items=card_3_14_items functions="0" variables="0" lines="52" %}
-{% include source-code-card.html title="map256.h" items=card_3_15_items functions="0" variables="0" lines="49" %}
-{% include source-code-card.html title="mapsrimage.h" items=card_3_16_items functions="0" variables="0" lines="45" %}
-{% include source-code-card.html title="maptextimage.h" items=card_3_17_items functions="0" variables="0" lines="96" %}
-{% include source-code-card.html title="maptextunit.h" items=card_3_18_items functions="6" variables="0" lines="57" %}
-{% include source-code-card.html title="palette.h" items=card_3_19_items functions="0" variables="0" lines="101" %}
-{% include source-code-card.html title="picture.h" items=card_3_20_items functions="0" variables="0" lines="128" %}
-{% include source-code-card.html title="util.h" items=card_3_21_items functions="3" variables="0" lines="154" %}
+{% include_cached source-code-card.html title="agbtypes.h" items=card_3_1_items functions="0" variables="0" lines="154" %}
+{% include_cached source-code-card.html title="angle.h" items=card_3_2_items functions="0" variables="2" lines="62" %}
+{% include_cached source-code-card.html title="bmpstruct.h" items=card_3_3_items functions="0" variables="0" lines="60" %}
+{% include_cached source-code-card.html title="buffer.h" items=card_3_4_items functions="0" variables="0" lines="81" %}
+{% include_cached source-code-card.html title="char16set.h" items=card_3_5_items functions="0" variables="0" lines="49" %}
+{% include_cached source-code-card.html title="char256set.h" items=card_3_6_items functions="0" variables="0" lines="50" %}
+{% include_cached source-code-card.html title="character.h" items=card_3_7_items functions="0" variables="0" lines="138" %}
+{% include_cached source-code-card.html title="character16.h" items=card_3_8_items functions="0" variables="0" lines="40" %}
+{% include_cached source-code-card.html title="character256.h" items=card_3_9_items functions="0" variables="0" lines="25" %}
+{% include_cached source-code-card.html title="charset.h" items=card_3_10_items functions="0" variables="0" lines="73" %}
+{% include_cached source-code-card.html title="color.h" items=card_3_11_items functions="2" variables="0" lines="60" %}
+{% include_cached source-code-card.html title="hpicture.h" items=card_3_12_items functions="0" variables="0" lines="108" %}
+{% include_cached source-code-card.html title="map.h" items=card_3_13_items functions="0" variables="0" lines="78" %}
+{% include_cached source-code-card.html title="map16.h" items=card_3_14_items functions="0" variables="0" lines="52" %}
+{% include_cached source-code-card.html title="map256.h" items=card_3_15_items functions="0" variables="0" lines="49" %}
+{% include_cached source-code-card.html title="mapsrimage.h" items=card_3_16_items functions="0" variables="0" lines="45" %}
+{% include_cached source-code-card.html title="maptextimage.h" items=card_3_17_items functions="0" variables="0" lines="96" %}
+{% include_cached source-code-card.html title="maptextunit.h" items=card_3_18_items functions="6" variables="0" lines="57" %}
+{% include_cached source-code-card.html title="palette.h" items=card_3_19_items functions="0" variables="0" lines="101" %}
+{% include_cached source-code-card.html title="picture.h" items=card_3_20_items functions="0" variables="0" lines="128" %}
+{% include_cached source-code-card.html title="util.h" items=card_3_21_items functions="3" variables="0" lines="154" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
@@ -468,11 +468,11 @@ util | .cpp |
 {% endcapture %}
 
 {% capture section_4_cards %}
-{% include source-code-card.html title="color.cpp" items=card_4_1_items functions="1" variables="1" lines="74" %}
-{% include source-code-card.html title="filename.cpp" items=card_4_2_items functions="1" variables="0" lines="256" %}
-{% include source-code-card.html title="image.cpp" items=card_4_3_items functions="16" variables="0" lines="161" %}
-{% include source-code-card.html title="maptextunit.cpp" items=card_4_4_items functions="1" variables="1" lines="93" %}
-{% include source-code-card.html title="util.cpp" items=card_4_5_items functions="1" variables="0" lines="208" %}
+{% include_cached source-code-card.html title="color.cpp" items=card_4_1_items functions="1" variables="1" lines="74" %}
+{% include_cached source-code-card.html title="filename.cpp" items=card_4_2_items functions="1" variables="0" lines="256" %}
+{% include_cached source-code-card.html title="image.cpp" items=card_4_3_items functions="16" variables="0" lines="161" %}
+{% include_cached source-code-card.html title="maptextunit.cpp" items=card_4_4_items functions="1" variables="1" lines="93" %}
+{% include_cached source-code-card.html title="util.cpp" items=card_4_5_items functions="1" variables="0" lines="208" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_4_cards %}

@@ -337,9 +337,9 @@ If you are interested in the DOL format, it is partly documented in this WiiBrew
 {% endcapture %}
 
 {% capture section_1_cards %}
-{% include source-code-card.html title="TFileStream2.cpp" items=card_1_1_items functions="6" variables="5" lines="164" %}
-{% include source-code-card.html title="Unit1.cpp" items=card_1_2_items functions="59" variables="22" lines="2294" %}
-{% include source-code-card.html title="makedol.c" items=card_1_3_items functions="19" variables="3" lines="496" %}
+{% include_cached source-code-card.html title="TFileStream2.cpp" items=card_1_1_items functions="6" variables="5" lines="164" %}
+{% include_cached source-code-card.html title="Unit1.cpp" items=card_1_2_items functions="59" variables="22" lines="2294" %}
+{% include_cached source-code-card.html title="makedol.c" items=card_1_3_items functions="19" variables="3" lines="496" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
@@ -429,7 +429,7 @@ simplekit | .h | Include file for declaring all of the helpful render functions 
 {% endcapture %}
 
 {% capture section_2_cards %}
-{% include source-code-card.html title="simplekit.h" items=card_2_1_items functions="11" variables="0" lines="47" %}
+{% include_cached source-code-card.html title="simplekit.h" items=card_2_1_items functions="11" variables="0" lines="47" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
@@ -652,20 +652,20 @@ If we didn't already have multiple homebrew examples showing off similar functio
 {% endcapture %}
 
 {% capture section_3_cards %}
-{% include source-code-card.html title="BasicPad.h" items=card_3_1_items functions="4" variables="13" lines="100" %}
-{% include source-code-card.html title="BasicPuts.h" items=card_3_2_items functions="8" variables="1" lines="51" %}
-{% include source-code-card.html title="Crc.h" items=card_3_3_items functions="1" variables="0" lines="26" %}
-{% include source-code-card.html title="InitSystem.h" items=card_3_4_items functions="11" variables="1" lines="91" %}
-{% include source-code-card.html title="Layer.h" items=card_3_5_items functions="46" variables="1" lines="213" %}
-{% include source-code-card.html title="LayerInterface.h" items=card_3_6_items functions="5" variables="0" lines="139" %}
-{% include source-code-card.html title="Menu.h" items=card_3_7_items functions="2" variables="0" lines="66" %}
-{% include source-code-card.html title="PortExi.h" items=card_3_8_items functions="5" variables="0" lines="42" %}
-{% include source-code-card.html title="Thread.h" items=card_3_9_items functions="4" variables="0" lines="44" %}
-{% include source-code-card.html title="WriteLog.h" items=card_3_10_items functions="9" variables="0" lines="152" %}
-{% include source-code-card.html title="barcode.h" items=card_3_11_items functions="5" variables="0" lines="59" %}
-{% include source-code-card.html title="chklog.h" items=card_3_12_items functions="2" variables="0" lines="56" %}
-{% include source-code-card.html title="dpsram.h" items=card_3_13_items functions="3" variables="0" lines="43" %}
-{% include source-code-card.html title="sled.h" items=card_3_14_items functions="6" variables="0" lines="26" %}
+{% include_cached source-code-card.html title="BasicPad.h" items=card_3_1_items functions="4" variables="13" lines="100" %}
+{% include_cached source-code-card.html title="BasicPuts.h" items=card_3_2_items functions="8" variables="1" lines="51" %}
+{% include_cached source-code-card.html title="Crc.h" items=card_3_3_items functions="1" variables="0" lines="26" %}
+{% include_cached source-code-card.html title="InitSystem.h" items=card_3_4_items functions="11" variables="1" lines="91" %}
+{% include_cached source-code-card.html title="Layer.h" items=card_3_5_items functions="46" variables="1" lines="213" %}
+{% include_cached source-code-card.html title="LayerInterface.h" items=card_3_6_items functions="5" variables="0" lines="139" %}
+{% include_cached source-code-card.html title="Menu.h" items=card_3_7_items functions="2" variables="0" lines="66" %}
+{% include_cached source-code-card.html title="PortExi.h" items=card_3_8_items functions="5" variables="0" lines="42" %}
+{% include_cached source-code-card.html title="Thread.h" items=card_3_9_items functions="4" variables="0" lines="44" %}
+{% include_cached source-code-card.html title="WriteLog.h" items=card_3_10_items functions="9" variables="0" lines="152" %}
+{% include_cached source-code-card.html title="barcode.h" items=card_3_11_items functions="5" variables="0" lines="59" %}
+{% include_cached source-code-card.html title="chklog.h" items=card_3_12_items functions="2" variables="0" lines="56" %}
+{% include_cached source-code-card.html title="dpsram.h" items=card_3_13_items functions="3" variables="0" lines="43" %}
+{% include_cached source-code-card.html title="sled.h" items=card_3_14_items functions="6" variables="0" lines="26" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
@@ -889,13 +889,13 @@ The main question we have after looking into the files in this folder is what ex
 {% endcapture %}
 
 {% capture section_4_cards %}
-{% include source-code-card.html title="SItoUSB.h" items=card_4_1_items functions="6" variables="0" lines="39" %}
-{% include source-code-card.html title="SIusbOSReport.h" items=card_4_2_items functions="4" variables="0" lines="21" %}
-{% include source-code-card.html title="diagcommon.h" items=card_4_3_items functions="9" variables="0" lines="147" %}
-{% include source-code-card.html title="diagsdk.h" items=card_4_4_items functions="15" variables="0" lines="86" %}
-{% include source-code-card.html title="sdio.h" items=card_4_5_items functions="118" variables="0" lines="498" %}
-{% include source-code-card.html title="sdm.h" items=card_4_6_items functions="13" variables="0" lines="108" %}
-{% include source-code-card.html title="wkreport.h" items=card_4_7_items functions="5" variables="0" lines="22" %}
+{% include_cached source-code-card.html title="SItoUSB.h" items=card_4_1_items functions="6" variables="0" lines="39" %}
+{% include_cached source-code-card.html title="SIusbOSReport.h" items=card_4_2_items functions="4" variables="0" lines="21" %}
+{% include_cached source-code-card.html title="diagcommon.h" items=card_4_3_items functions="9" variables="0" lines="147" %}
+{% include_cached source-code-card.html title="diagsdk.h" items=card_4_4_items functions="15" variables="0" lines="86" %}
+{% include_cached source-code-card.html title="sdio.h" items=card_4_5_items functions="118" variables="0" lines="498" %}
+{% include_cached source-code-card.html title="sdm.h" items=card_4_6_items functions="13" variables="0" lines="108" %}
+{% include_cached source-code-card.html title="wkreport.h" items=card_4_7_items functions="5" variables="0" lines="22" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
@@ -1018,12 +1018,12 @@ The most interesting file in this directory is **hio.h** which acts as a host in
 {% endcapture %}
 
 {% capture section_5_cards %}
-{% include source-code-card.html title="ais.h" items=card_5_1_items functions="13" variables="0" lines="86" %}
-{% include source-code-card.html title="ar.h" items=card_5_2_items functions="15" variables="0" lines="173" %}
-{% include source-code-card.html title="arq.h" items=card_5_3_items functions="9" variables="0" lines="125" %}
-{% include source-code-card.html title="dtk.h" items=card_5_4_items functions="19" variables="0" lines="112" %}
-{% include source-code-card.html title="hio.h" items=card_5_5_items functions="13" variables="0" lines="77" %}
-{% include source-code-card.html title="jpeg.h" items=card_5_6_items functions="8" variables="0" lines="172" %}
+{% include_cached source-code-card.html title="ais.h" items=card_5_1_items functions="13" variables="0" lines="86" %}
+{% include_cached source-code-card.html title="ar.h" items=card_5_2_items functions="15" variables="0" lines="173" %}
+{% include_cached source-code-card.html title="arq.h" items=card_5_3_items functions="9" variables="0" lines="125" %}
+{% include_cached source-code-card.html title="dtk.h" items=card_5_4_items functions="19" variables="0" lines="112" %}
+{% include_cached source-code-card.html title="hio.h" items=card_5_5_items functions="13" variables="0" lines="77" %}
+{% include_cached source-code-card.html title="jpeg.h" items=card_5_6_items functions="8" variables="0" lines="172" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Code Files" content=section_5_cards %}

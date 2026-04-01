@@ -168,7 +168,7 @@ It brings together RAM reset, pause handling, VBlank setup, joypad input, sound,
 {% endcapture %}
 
 {% capture agbmon_code_cards %}
-{% include source-code-card.html title="AgbMon.c" items=agbmon_code_items functions="1" variables="11" lines="341" %}
+{% include_cached source-code-card.html title="AgbMon.c" items=agbmon_code_items functions="1" variables="11" lines="341" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="AgbMon.c Internals" content=agbmon_code_cards style="justify-content: center;" %}
@@ -248,11 +248,11 @@ It preserves fixed logo-layout data, runtime state buffers, affine helpers, and 
 {% endcapture %}
 
 {% capture agb_helper_code_cards %}
-{% include source-code-card.html title="AgbMonData.c" items=agb_helper_data_items functions="0" variables="1" lines="97" %}
-{% include source-code-card.html title="AgbMonSub16.c" items=agb_helper_sub16_items functions="17" variables="18" lines="440" %}
-{% include source-code-card.html title="AgbMonSub32.c" items=agb_helper_sub32_items functions="3" variables="0" lines="122" %}
-{% include source-code-card.html title="AgbMonUncompFilt16.c" items=agb_helper_filter16_items functions="6" variables="0" lines="165" %}
-{% include source-code-card.html title="AgbMonUncompFilt32.c" items=agb_helper_filter32_items functions="4" variables="0" lines="178" %}
+{% include_cached source-code-card.html title="AgbMonData.c" items=agb_helper_data_items functions="0" variables="1" lines="97" %}
+{% include_cached source-code-card.html title="AgbMonSub16.c" items=agb_helper_sub16_items functions="17" variables="18" lines="440" %}
+{% include_cached source-code-card.html title="AgbMonSub32.c" items=agb_helper_sub32_items functions="3" variables="0" lines="122" %}
+{% include_cached source-code-card.html title="AgbMonUncompFilt16.c" items=agb_helper_filter16_items functions="6" variables="0" lines="165" %}
+{% include_cached source-code-card.html title="AgbMonUncompFilt32.c" items=agb_helper_filter32_items functions="4" variables="0" lines="178" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Helper File Internals" content=agb_helper_code_cards style="justify-content: center;" %}
@@ -311,8 +311,8 @@ It contains vector entries, SWI dispatch, mode-specific stack setup, and the han
 {% endcapture %}
 
 {% capture crt0_code_cards %}
-{% include source-code-card.html title="crt0Arm.s" items=crt0_code_items functions="22" variables="6" lines="307" %}
-{% include source-code-card.html title="crt0Arm.s Externs" items=crt0_extern_items functions="40" variables="0" lines="307" %}
+{% include_cached source-code-card.html title="crt0Arm.s" items=crt0_code_items functions="22" variables="6" lines="307" %}
+{% include_cached source-code-card.html title="crt0Arm.s Externs" items=crt0_extern_items functions="40" variables="0" lines="307" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="crt0Arm.s Symbols" content=crt0_code_cards style="justify-content: center;" %}
@@ -425,7 +425,7 @@ It is also carrying a real startup framework, interrupt framework, and a small l
 {% endcapture %}
 
 {% capture agbcomp_code_cards %}
-{% include source-code-card.html title="AgbComp.cpp" items=agbcomp_code_items functions="29" variables="17" lines="1057" %}
+{% include_cached source-code-card.html title="AgbComp.cpp" items=agbcomp_code_items functions="29" variables="17" lines="1057" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="AgbComp.cpp Internals" content=agbcomp_code_cards style="justify-content: center;" %}
@@ -461,7 +461,7 @@ That makes it look like a general AGB data-preparation utility rather than a one
 {% endcapture %}
 
 {% capture bmp2agb_code_cards %}
-{% include source-code-card.html title="Bmp2Agb.cpp" items=bmp2agb_code_items functions="44" variables="15" lines="1651" %}
+{% include_cached source-code-card.html title="Bmp2Agb.cpp" items=bmp2agb_code_items functions="44" variables="15" lines="1651" %}
 {% endcapture %}
 
 {% include source-code-card-grid.html title="Bmp2Agb.cpp Internals" content=bmp2agb_code_cards style="justify-content: center;" %}

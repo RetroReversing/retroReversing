@@ -104,11 +104,11 @@ This folder holds the underlying proxy engines that allowed the Game Boy Advance
 ## Structural Gameplay Changes (Offline & Online)
 Because this Netcard infrastructure required constant server-side connectivity, the design specified making radical changes to the vanilla *FireRed* & *LeafGreen* game mechanics to incentivize internet usage and cater to the Chinese iQue audience:
 
-1. **The "Region" Concept** - To encourage massive online trading over the WAN, the initial retail release would contain the full *FireRed* and *LeafGreen* maps, but wild Pokémon distributions would be strictly "region-locked" depending on the player. You would literally *have* to trade online via the Global Trade Board to complete the Pokédex.
-2. **Online Hatching System** - The classic local egg hatching step-counter system was disabled offline. Eggs could presumably only be hatched while actively connected to the server, likely to track and prevent the illicit offline generation of rare Pokémon.
-3. **Restricted PC Storage** - Players could only access exactly 36 Pokémon in offline mode (6 in the party, and exactly 30 stored in a single PC Box). The rest had to be banked securely online on the IDC Linux servers to prevent offline save-file Hex editing.
-4. **Disabled Local Wireless** - The standard wireless Union Room was actively disabled offline to push players exclusively towards the new 3F Online Communication Lobby.
-5. **New Chinese Input Method** - A native Chinese localization input mechanism was built into the offline GBA game specifically to enable complex chat features within the newly designed 3F Communication Lobby.
+* **The "Region" Concept** - To encourage massive online trading over the WAN, the initial retail release would contain the full *FireRed* and *LeafGreen* maps, but wild Pokémon distributions would be strictly "region-locked" depending on the player. You would literally *have* to trade online via the Global Trade Board to complete the Pokédex.
+* **Online Hatching System** - The classic local egg hatching step-counter system was disabled offline. Eggs could presumably only be hatched while actively connected to the server, likely to track and prevent the illicit offline generation of rare Pokémon.
+* **Restricted PC Storage** - Players could only access exactly 36 Pokémon in offline mode (6 in the party, and exactly 30 stored in a single PC Box). The rest had to be banked securely online on the IDC Linux servers to prevent offline save-file Hex editing.
+* **Disabled Local Wireless** - The standard wireless Union Room was actively disabled offline to push players exclusively towards the new 3F Online Communication Lobby.
+* **New Chinese Input Method** - A native Chinese localization input mechanism was built into the offline GBA game specifically to enable complex chat features within the newly designed 3F Communication Lobby.
 
 ---
 ## The Birth of IOS and the Fate of VNG

@@ -160,9 +160,17 @@ function parseObj(buffer: Uint8Array): ParsedObj | null {
   if (buffer.length < 6) return null;
 
   const warnings: string[] = [];
+  const cut = buffer.length & 0x0fff;
   const marker = new TextDecoder().decode(buffer).indexOf('NAK1989');
-  const rawRecordBytes = marker >= 0 ? marker : buffer.length;
-  const recordRegionBytes = rawRecordBytes - (rawRecordBytes % 6);
+  let recordRegionBytes = buffer.length;
+
+  if (cut === 0x500 || cut === 0x900) {
+    recordRegionBytes = buffer.length - cut;
+  } else if (marker >= 0) {
+    recordRegionBytes = marker;
+  }
+
+  recordRegionBytes -= recordRegionBytes % 6;
   const metadataTailBytes = buffer.length - recordRegionBytes;
 
   if (marker >= 0) {
@@ -435,7 +443,7 @@ function SnesObjViewer() {
 
   useEffect(() => {
     if (!parsedObj) return;
-    const likelyMode = parsedObj.recordRegionBytes >= 49152 ? 'frame128' : 'frame64';
+    const likelyMode = parsedObj.recordRegionBytes >= 24576 ? 'frame128' : 'frame64';
     setGroupMode(likelyMode);
   }, [parsedObj]);
 
@@ -513,10 +521,6 @@ function SnesObjViewer() {
 
   return (
     <div style={{ display: 'grid', gap: '1rem' }}>
-      <div style={{ overflow: 'auto', border: '1px solid #ccc', padding: '0.5rem', background: '#111' }}>
-        <canvas ref={canvasRef} />
-      </div>
-
       <div>
         <p>Load an SNES `.OBJ` or `.OBX` file to render its framed object data. Add matching `.CGX` and `.COL` files to see the real tiles and palettes. The VRAM and CGRAM offsets default to `0` for direct companion-file viewing.</p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
@@ -537,25 +541,98 @@ function SnesObjViewer() {
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
         <label>
+          Palette mode:
+          <select
+            value={paletteMode}
+            onChange={(event) => setPaletteMode(event.target.value as PaletteMode)}
+            style={{ marginLeft: '0.5rem' }}
+          >
+            <option value="attr">Use OBJ attr bits 1-3</option>
+            <option value="manual">Manual row</option>
+          </select>
+        </label>
+
+        {paletteMode === 'manual' && (
+          <label>
+            Manual row:
+            <input
+              type="number"
+              min={0}
+              max={31}
+              value={manualPaletteRow}
+              onChange={(event) => setManualPaletteRow(Math.max(0, Math.min(31, Number(event.target.value) || 0)))}
+              style={{ marginLeft: '0.5rem', width: '4rem' }}
+            />
+          </label>
+        )}
+      </div>
+
+      {parsedObj && (
+        <>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
+            <label>
+              Scale:
+              <input
+                type="range"
+                min={1}
+                max={8}
+                value={scale}
+                onChange={(event) => setScale(Number(event.target.value))}
+                style={{ marginLeft: '0.5rem', verticalAlign: 'middle' }}
+              />
+              <span style={{ marginLeft: '0.5rem' }}>{scale}x</span>
+            </label>
+
+            <button type="button" onClick={exportPng}>Export Rendered PNG</button>
+          </div>
+
+          <div style={{ overflow: 'auto', border: '1px solid #ccc', padding: '0.5rem', background: '#111' }}>
+            <canvas ref={canvasRef} />
+          </div>
+
+          {groups.length > 1 && (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+              <button
+                type="button"
+                onClick={() => setGroupIndex((current) => Math.max(0, current - 1))}
+                disabled={groupIndex <= 0}
+              >
+                Previous Frame
+              </button>
+              <label>
+                Frame:
+                <select
+                  value={groupIndex}
+                  onChange={(event) => setGroupIndex(Number(event.target.value))}
+                  style={{ marginLeft: '0.5rem', maxWidth: '18rem' }}
+                >
+                  {groups.map((group, index) => (
+                    <option key={`${group.label}-${index}`} value={index}>
+                      {index + 1}. {group.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button
+                type="button"
+                onClick={() => setGroupIndex((current) => Math.min(groups.length - 1, current + 1))}
+                disabled={groupIndex >= groups.length - 1}
+              >
+                Next Frame
+              </button>
+            </div>
+          )}
+        </>
+      )}
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center' }}>
+        <label>
           Bit depth:
           <select value={bitDepth} onChange={(event) => setBitDepth(Number(event.target.value) as BitDepth)} style={{ marginLeft: '0.5rem' }}>
             <option value={2}>2bpp</option>
             <option value={4}>4bpp</option>
             <option value={8}>8bpp</option>
           </select>
-        </label>
-
-        <label>
-          Scale:
-          <input
-            type="range"
-            min={1}
-            max={8}
-            value={scale}
-            onChange={(event) => setScale(Number(event.target.value))}
-            style={{ marginLeft: '0.5rem', verticalAlign: 'middle' }}
-          />
-          <span style={{ marginLeft: '0.5rem' }}>{scale}x</span>
         </label>
 
         <label>
@@ -596,67 +673,6 @@ function SnesObjViewer() {
             style={{ marginLeft: '0.5rem', width: '6rem' }}
           />
         </label>
-
-        {groups.length > 1 && (
-          <>
-            <button
-              type="button"
-              onClick={() => setGroupIndex((current) => Math.max(0, current - 1))}
-              disabled={groupIndex <= 0}
-            >
-              Previous Frame
-            </button>
-            <label>
-              Frame:
-              <select
-                value={groupIndex}
-                onChange={(event) => setGroupIndex(Number(event.target.value))}
-                style={{ marginLeft: '0.5rem', maxWidth: '18rem' }}
-              >
-                {groups.map((group, index) => (
-                  <option key={`${group.label}-${index}`} value={index}>
-                    {index + 1}. {group.label}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <button
-              type="button"
-              onClick={() => setGroupIndex((current) => Math.min(groups.length - 1, current + 1))}
-              disabled={groupIndex >= groups.length - 1}
-            >
-              Next Frame
-            </button>
-          </>
-        )}
-
-        <label>
-          Palette mode:
-          <select
-            value={paletteMode}
-            onChange={(event) => setPaletteMode(event.target.value as PaletteMode)}
-            style={{ marginLeft: '0.5rem' }}
-          >
-            <option value="attr">Use OBJ attr bits 1-3</option>
-            <option value="manual">Manual row</option>
-          </select>
-        </label>
-
-        {paletteMode === 'manual' && (
-          <label>
-            Manual row:
-            <input
-              type="number"
-              min={0}
-              max={31}
-              value={manualPaletteRow}
-              onChange={(event) => setManualPaletteRow(Math.max(0, Math.min(31, Number(event.target.value) || 0)))}
-              style={{ marginLeft: '0.5rem', width: '4rem' }}
-            />
-          </label>
-        )}
-
-        <button type="button" onClick={exportPng}>Export Rendered PNG</button>
       </div>
 
       {parsedObj && (

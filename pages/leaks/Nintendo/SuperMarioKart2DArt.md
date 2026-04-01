@@ -821,11 +821,48 @@ It has the same strong family-package structure as the other major groups, inclu
 * four numbered screen layouts
 
 So it is clearly an important family.
-What is missing is a comparably clean naming hint.
+What was missing earlier was a clean naming hint.
+The preview images in the CAR folder help a lot here.
 
-The best cautious guess is that `H` may preserve an earlier artist-side label for the runtime `OBAKE` family, perhaps something closer to "horror" than the later descriptive code name.
-That would fit the fact that `OBAKE` is one of the major runtime families but has no obvious letter-side match yet.
-Still, that connection is much weaker than `W` to `ICE`, so it is better treated as a live possibility than a likely solution.
+`H1.CGX.png` and `H1-B.png` do not look neutral.
+They show dark vertical tile runs, eye-like or ghost-like small sprites, jagged skyline bands, and fence or grave-marker style motifs rather than bright terrain or castle masonry.
+That visual read fits the runtime `OBAKE` family much better than any of the other unresolved code-side groups.
+
+So `H` now looks more likely to be an earlier artist-side label for the runtime `OBAKE` branch, perhaps something closer to "horror" than the later descriptive code name.
+It is still not a perfect textual proof, but the visual evidence is much stronger than it was before.
+
+### K1 Now Looks Like the Best Candidate for the Castle Family
+`K1` is a better fit than `B` for the remaining runtime `CASTLE` family.
+
+It preserves the full family-package shape:
+
+* `K1.CGX`
+* `K1-B.CGX`
+* `K1-B.SCR`
+* `K1.COL`
+* `K1-0.SCR` to `K1-3.SCR`
+
+That already makes it look more like the other resolved environment families than `B`, which survives mostly as runs of numbered `.SCR` panels without the same full bank-and-palette package.
+
+The naming clue is also better than it looks at first.
+On the source side, the runtime family is called `CASTLE`, but the actual courses are Bowser's castles.
+So an artist-side shorthand based on `Koopa` is quite plausible.
+
+The visual previews make that interpretation stronger too.
+`K1.CGX.png` and `K1-B.png` look full of repeating stone or beam segments, arch-like structures, and lava- or bridge-adjacent decorative tiles.
+That reads much more naturally as a Bowser castle kit than as a ghost or snow set.
+
+The palette also fits that direction reasonably well.
+`K1.COL` opens with a darker run of browns, reds, and yellows rather than the cold whites of `W1` or the brighter grass-like sets:
+
+`0x0000`, `0x18C8`, `0x294C`, `0x318E`, `0x39D0`, `0x4212`, `0x4A54`, `0x5296`
+
+That is not a proof by itself, but it sits more comfortably with a castle or lava-adjacent environment than with a snow or ghost course.
+
+So the safest updated read is:
+
+* `K1` is the strongest remaining candidate for the runtime `CASTLE` family
+* `B` now looks less like a main environment family and more like some other screen-grouping branch
 
 ### C1 Is a Good Worked Example of a Full Family Package
 `C1` is one of the clearest families to study because it preserves almost every layer of the artist-side stack at once:
@@ -900,10 +937,11 @@ CAR family | Runtime-side candidate | Confidence | Why
 `STAR` | `STAR` | high | name survives directly on both sides
 `D` / `D1` | `DART` | medium | same family-package shape and matching initial, but no explicit descriptive label in `CAR`
 `G` / `G1` | `GRASS` | medium | same family-package shape and matching initial
+`K` / `K1` | `CASTLE` | medium | full family-package structure, plausible `Koopa` shorthand, and a darker castle-like palette
 `W` / `W1` | `ICE` | medium | bright white-heavy palette, plausible winter shorthand, and source-side `SNOW` comment near the ice/circuit obstacle path
 `S` / `S1` | `SAND` | medium | same family-package shape and matching initial, but could be confused with other `S`-prefixed material
-`H` | `OBAKE` or other earlier label | low | important family-package shape, but only a weak naming hypothesis
-`B`, `K` | unknown | low | strong family-package structure, but no confident descriptive match yet
+`H` / `H1` | `OBAKE` | medium | ghost-like preview imagery, strong family-package shape, and a plausible earlier "horror"-side label
+`B` | unknown | low | mostly survives as numbered `.SCR` panel groups without the same full bank-and-palette structure
 
 That table is still intentionally cautious.
 The important part is not pretending every letter is solved.

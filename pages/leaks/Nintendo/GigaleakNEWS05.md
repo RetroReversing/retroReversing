@@ -51,7 +51,7 @@ This archive is the most **process-oriented** snapshot in the tape-restore colle
 * **Workstation backup** capturing developer workflows, naming conventions, and iteration patterns
 
 The archive preserves two distinct working environments:
-- **Watanabe** (3D artist) – 1,549 AAfundoshi files, CAD tool source, historical projects
+- **Tsuyoshi Watanabe** (3D artist) – 1,549 AAfundoshi files, CAD tool source, historical projects
 - **Kimura** (tools engineer) – 665 utility files, graphics converters, ROM builders, 3D libraries
 
 ---
@@ -114,15 +114,10 @@ If you are new to SNES 3D development and Nintendo's internal tool ecosystem, th
 
 ---
 
-## Watanabe's Star Fox 2 3D Pipeline (AAfundoshi)
+## Tsuyoshi Watanabe's Star Fox 2 3D Pipeline (AAfundoshi)
 
-The **AAfundoshi** folder is the crown jewel—a complete snapshot of Star Fox 2's 3D asset production system. The name likely refers to a project codename (fundoshi = loincloth, possibly a codename or team reference).
-
-### Directory Structure
-
----
-
-## The Star Fox 2 3D Production Pipeline (Complete Workflow)
+The **AAfundoshi** folder is the crown jewel—a complete snapshot of Star Fox 2's 3D asset production system.
+The name likely refers to a project codename (fundoshi = traditional loincloth, possibly a team reference or humorous internal nickname).
 
 Before diving into individual components, it is essential to understand the **complete workflow** that NEWS_05 preserves.
 This is where the significance becomes clear: we see not just code or assets, but the **entire system** used to create 3D content for the SNES.
@@ -163,13 +158,6 @@ This workflow reveals several critical insights:
 
 The sheer volume of `.nca` files (307 total) relative to source `.cad` (500) and `.anm` (371) shows this workflow was **highly iterative**—artists were regularly recompiling and testing.
 
----
-
-## Watanabe's Star Fox 2 3D Pipeline (AAfundoshi)
-
-The **AAfundoshi** folder is the crown jewel—a complete snapshot of Star Fox 2's 3D asset production system.
-The name likely refers to a project codename (fundoshi = traditional loincloth, possibly a team reference or humorous internal nickname).
-
 ### Directory Structure and Organization
 
 ```
@@ -187,17 +175,6 @@ AAfundoshi/
 The presence of test builds (`demo.hex`, `demo2.hex`) alongside source assets is telling—this is a **working directory**, not an archived project.
 It captures assets mid-development.
 
-### Directory Structure
-```
-AAfundoshi/
-├── sf2-1/ through sf2-9/     # 9 stage/boss asset folders
-├── sf-myship1/                # Player ship variants
-├── sf-myship2/
-├── CAD/                       # 3D tool source (26 C/H files)
-├── color/                     # Color palette resources
-├── sos/                       # SOS (Sound Output System?) resources
-└── cadfun.c                   # Root CAD integration layer
-```
 
 ### Stage Folders (sf2-1 through sf2-9) – Detailed Breakdown
 
@@ -409,7 +386,7 @@ The CAD tool source comprises 26 files: 25 C modules plus a makefile. Key module
 {% endcapture %}
 
 <div class="rr-code-card-aside" markdown="1">
-{% include source-code-card.html title="CAD Tool Source (40 files)" items=cad_items functions="10" variables="2" lines="26174" class="rr-file-card-aside" %}
+{% include_cached source-code-card.html title="CAD Tool Source (40 files)" items=cad_items functions="10" variables="2" lines="26174" class="rr-file-card-aside" %}
 <div class="rr-code-card-aside-content" markdown="1">
 
 The source is cleanly organized around functional domains.
@@ -428,7 +405,7 @@ This structure matches professional software from the era, with clear separation
 
 #### Module Details
 
-**transfer.c (2,373 lines)** – The largest and most critical module.
+**transfer.c (2,373 lines)** – The most critical hardware module.
 
 Handles the bridge from X11 workstation to SNES development hardware:
 - Serialization of polygon data (vertices, normals, face indices)
@@ -437,30 +414,30 @@ Handles the bridge from X11 workstation to SNES development hardware:
 - Error recovery and retry logic
 - Format conversion (`.cad` + `.anm` → `.nca` binary)
 
-The sheer size (2,373 lines) reflects the complexity of hardware communication and binary packing.
+*Historical Curiosity:* `transfer.c`, `sos.c`, and `sos2.c` in this directory are all *exactly* 2,373 lines of code long, despite having distinct contents and purposes! 
 
-**PolyMain.c and PolyDraw.c (~1,400 lines combined)** – 3D geometry engine.
+**PolyMain.c and PolyDraw.c (825 lines combined)** – 3D geometry engine.
 
-`PolyMain.c` manages:
+`PolyMain.c` (436 lines) manages:
 - Polygon database (vertex arrays, face lists)
 - Mesh manipulation (extrude, scale, rotate, subdivide)
 - Hierarchical transforms (parent-child bone relationships)
 
-`PolyDraw.c` implements:
+`PolyDraw.c` (389 lines) implements:
 - Perspective projection (3D → 2D screen coordinates)
 - Z-sorting (painter's algorithm for depth ordering)
 - Rasterization (drawing polygons to X11 drawable)
 - Wireframe + shaded rendering modes
 
-**anim.c and transanm.c (~650 lines combined)** – Animation system.
+**anim.c and transanm.c (1,396 lines combined)** – Animation system.
 
-`anim.c` provides:
+`anim.c` (1,098 lines) provides:
 - Timeline editor with frame-by-frame playback
 - Keyframe insertion, deletion, modification
 - Smooth interpolation between poses
 - Real-time animation preview in viewport
 
-`transanm.c` implements:
+`transanm.c` (298 lines) implements:
 - Hierarchical skeletal animation (bones with parent-child relationships)
 - **Transform tracks** – separate keyframe sequences for translation, rotation, scale per bone
 - **Interpolation curves** – likely linear, ease-in, ease-out modes
@@ -487,10 +464,10 @@ This level of detail suggests a multi-paned UI, similar to modern 3D software.
 
 #### Build System
 
-The makefile is not visible in the leak, but the presence of **20+ `.rel` relocatable object files** and **compiled binaries** (`3dcad`, `caduser`) proves:
+The build instructions are preserved in an 80-line `makefile`. Along with the presence of **20+ `.o` relocatable object files** and **compiled binaries** (`3dcad`, `caduser`), the environment clearly involved:
 - Active compilation and linking
 - Multiple build targets (main tool, user variants)
-- Likely Makefile-based builds with dependency tracking
+- Makefile-based builds with dependency tracking directly inside the workspace
 
 #### Key Discovery: Japanese UI Strings
 
