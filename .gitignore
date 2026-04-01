@@ -66,3 +66,4 @@ templates
 .jekyll-metadata
 *.exe
 /public/generated/placeholders/*.svg
+_site.backup/

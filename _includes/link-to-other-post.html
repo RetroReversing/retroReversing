@@ -30,7 +30,7 @@
             {% elsif matched_post.youtube %}
               <img class="lazy-load otherPostImg" data-image-full="https://img.youtube.com/vi/{{ matched_post.youtube }}/" alt="{{ matched_post.title }}">
             {% else %}
-              {% include placeholder-post-image.html title=matched_post.title post=matched_post %}
+              {% include_cached placeholder-post-image.html title=matched_post.title post=matched_post %}
             {% endif %}
         </div>
         <div class="linkToOtherPostRight">

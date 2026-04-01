@@ -39,6 +39,18 @@ sass:
 permalink: pretty
 incremental: true
 
+exclude:
+  - _site.backup
+  - templates
+  - node_modules
+  - tmp
+  - .cache
+  - .DS_Store
+  - scripts
+  - .github
+  - .git
+  - .vscode
+
 version: 1.0.0
 
 # Navigation (2nd level links supported)

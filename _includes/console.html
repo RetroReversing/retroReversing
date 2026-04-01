@@ -18,7 +18,7 @@
   {% if include_post and post.url != page.url %}
   
   <div class="console-page-post">
-      {% include post-list-cards.html %}
+      {% include_cached post-list-cards.html post=post page_category=page_category %}
   </div>
   
     {% endif %}

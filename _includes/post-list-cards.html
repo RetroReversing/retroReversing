@@ -1,9 +1,12 @@
 <div class="post post-card">
         {%- comment -%}
-        <!-- This is used in the category page list of posts but not in the post layout as its a different header and uses "page" not "post" -->
-        Note: use post NOT page for each title BUT use page.category as page is the category containing the list of posts
+  <!-- This is used in the category page list of posts but not in the post layout as its a different header -->
+  Parameters:
+  * post - post object to render
+  * page_category - category/tag context for header icon
         {%- endcomment -%}
-        {% assign page_category_raw = page.category | default: page.console %}
+  {% assign post = include.post %}
+  {% assign page_category_raw = include.page_category %}
         {% assign page_category_json = page_category_raw | jsonify %}
         {% if page_category_json contains '[' %}
           {% assign page_category = page_category_raw | first %}
@@ -40,7 +43,7 @@
             {% elsif post.youtube %}
               <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
             {% else %}
-              {% include placeholder-post-image.html title=post.title post=post %}
+              {% include_cached placeholder-post-image.html title=post.title post=post %}
             {% endif %}
           </a>
 
