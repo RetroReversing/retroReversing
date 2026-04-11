@@ -3,7 +3,7 @@ permalink: /PokemonMini
 redirect_from:
   - /PokemonMini/
 layout: post
-category: PokemonMini
+category: pokemonmini
 title: 'Pokemon Mini'
 consoleimage: /public/consoles/PokemonMini.png
 image: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg

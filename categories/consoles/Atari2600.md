@@ -1,11 +1,8 @@
 ---
 permalink: /atari2600
 layout: post
-category: atari2600
+category: atari
 title: Atari 2600 VCS Reverse Engineering
-consoleimage: /public/consoles/Atari 2600.png
-image_: /public/images/nes/Atari 2600.jpg
-twitterimage_: https://www.retroreversing.com/public/images/atari/Atari 2600.jpg
 excerpt: Awesome list of Atari Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -19,6 +16,8 @@ recommend:
 recommendTitle: All Atari 2600 Posts
 editlink: ../categories/consoles/Atari2600.md
 updatedAt_: '2022-12-08'
+redirect_from:
+ - /atari
 tags:
   - atari
 ---

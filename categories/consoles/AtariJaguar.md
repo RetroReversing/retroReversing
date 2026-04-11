@@ -1,7 +1,7 @@
 ---
-permalink: /atarijaguar
+permalink: /jaguar
 layout: post
-category: atarijaguar
+category: jaguar
 title: Atari Jaguar Reverse Engineering
 consoleimage: /public/consoles/Atari Jaguar.png
 image_: /public/images/nes/Atari Jaguar.jpg
@@ -20,6 +20,8 @@ recommend:
 recommendTitle: All Atari Jaguar Posts
 editlink: ../categories/consoles/AtariJaguar.md
 updatedAt_: '2024-05-03'
+redirect_from:
+ - /atarijaguar
 tags:
   - atari
   - jaguar

@@ -1,10 +1,10 @@
 ---
 layout: post
 tags: 
-- PokemonMini
+- pokemonmini
 - sdk
 title: Pokemon Mini Official Software Development Kit (Toolchain)
-category: PokemonMini
+category: pokemonmini
 permalink: /official-pokemon-mini-sdk
 breadcrumbs:
   - name: Home
@@ -12,11 +12,11 @@ breadcrumbs:
   - name: SDKs
     url: /sdks
   - name: Pokemon Mini
-    url: /PokemonMini/
+    url: /PokemonMini
   - name: Pokemon Mini Official Software Development Kit (Toolchain)
     url: #
 recommend: 
-- PokemonMini
+- pokemonmini
 - sdk
 editlink: /consoles/pokemonMini/OfficialPokeMiniSDK.md
 ---

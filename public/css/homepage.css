@@ -120,14 +120,22 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
     }
     
     .console-post-numbers {
-      border-radius: 15px;
-      padding: 5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      margin-top: 2px;
       margin-left: 20px;
-      font-size: small;
-      height: 30px;
-      min-width: 30px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 0.85rem;
+      line-height: 1;
       text-align: center;
-      margin-top: 5px;
     }
 
 /* End of Homepage Console selector section */
