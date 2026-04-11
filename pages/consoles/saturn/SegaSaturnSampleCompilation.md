@@ -88,6 +88,7 @@ This happened when I set the SHC_LIB directory wrong. To fix it make sure this e
 Uses `gcc` to compile the *.c files and `gasm` to assemble the assembly files.
 
 ## Libraries Included
+The table below lists the relevant entries.
 
 name | purpose
 ---|---

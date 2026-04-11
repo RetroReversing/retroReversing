@@ -116,6 +116,7 @@ ide/diag.h | Common structure definitions and global variables for BOSTON diags
 ide/ide.h | Data structures used by the Interactive Diagnostic Environment interpreter.
 
 ### sys - System headers 
+The table below lists the relevant entries.
 
 Header File Name | Description
 ---|---

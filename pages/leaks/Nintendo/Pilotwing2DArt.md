@@ -542,6 +542,7 @@ Why this matters:
 
 ---
 ## Competing hypotheses and confidence
+The table below lists the relevant entries.
 
 Hypothesis | Description | Confidence
 ---|---|---
@@ -621,6 +622,7 @@ The combat tokens likely represent either:
 
 ---
 ## Evidence-weighted interpretation
+The table below lists the relevant entries.
 
 Signal class | Observed strength | Supports | Risk
 ---|---|---|---

@@ -36,6 +36,7 @@ To be included in this list the project must have decompiled or disassembled at 
 Nintendo systems are by far the most popular for reverse engineering projects, especially related to 1st party titles such as Mario, Zelda and Pokemon.
 
 ## Nintendo Entertainment System (NES)
+The table below lists the relevant entries.
 
 | Name | Project Type | Mapper | Status
 | ---- | ---- | --- | ---
@@ -81,6 +82,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ---
 ## Super Nintendo (SNES)
+The table below lists the relevant entries.
 
 | Name | Project Type |  
 | ---- | ---- |  
@@ -179,6 +181,7 @@ Name | Project Type | Status
 
 ---
 ## Nintendo GameCube
+The table below lists the relevant entries.
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -223,6 +226,7 @@ Name | Project Type | Status
 
 ---
 ## Nintendo Wii
+The table below lists the relevant entries.
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -278,6 +282,7 @@ Name | Project Type
 
 ---
 ## Game Boy Color
+The table below lists the relevant entries.
 
 Name | Project Type
 ---- | ----
@@ -294,6 +299,7 @@ Name | Project Type
 
 ---
 ## Game Boy Advance
+The table below lists the relevant entries.
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -430,6 +436,7 @@ Name | Project Type
 Compared to the other systems, Sony doesn't have many decompilation projects, mainly due to the higher complexity of the games developed by the PS1 era, requiring much larger teams to create the games in the first place.
 
 ## PlayStation 1
+The table below lists the relevant entries.
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -541,6 +548,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 
 ---
 ## PC (Windows)
+The table below lists the relevant entries.
 
 Name | Project Type | Status
 ---- | ---- | ----

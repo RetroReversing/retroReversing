@@ -246,6 +246,7 @@ YIELD.TXT | Notes on What Yield is (e.g `osSpTaskYield`)
 One of the most interesting documents in this list that can be easily read is `SWARCH.PS` as it contains plenty of interesting information about how the software architecture works.
 
 ## HW - Hardware Documentation
+The table below lists the relevant entries.
 
 Name | Description
 ---|---

@@ -196,6 +196,7 @@ nitro/hw/common/armArch.h |
 
 ---
 ## ARM7 Headers
+The table below lists the relevant entries.
 
 Name | Description
 ---|---
@@ -213,6 +214,7 @@ nitro/hw/ARM7/ioreg_GX.h |
 nitro/hw/ARM7/ioreg_SPI.h |
 
 ## ARM9 Headers
+The table below lists the relevant entries.
 
 Name | Description
 ---|---
@@ -253,6 +255,7 @@ nitro/mi/init.h |
 nitro/mi/exMemory.h |
 
 ## Misc Headers
+The table below lists the relevant entries.
 
 Name | Description
 ---|---

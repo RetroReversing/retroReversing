@@ -76,6 +76,7 @@ Strange thing is that Bug Too manages to find tons of library functions (160) bu
 My guess is that its because it was compiled/assembled with a different toolchain, so Bug Too was presumably GNU compiled but Baku Baku could have been compiled with something else.
 
 ## Known Versions of Libraries
+The table below lists the relevant entries.
 
 Library | Version
 ---|---

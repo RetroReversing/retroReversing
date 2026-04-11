@@ -446,6 +446,7 @@ Symbol | Notes
 
 ---
 # Sega Saturn Memory Symbols
+The table below lists the relevant entries.
 
 Address | Symbol | Notes
 ---|---|---

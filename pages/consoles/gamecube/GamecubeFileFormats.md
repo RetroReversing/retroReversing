@@ -20,6 +20,7 @@ updatedAt: '2020-04-25'
 ---
 
 ## Emulation File Formats
+The table below lists the relevant entries.
 
 Extension | Description
 --- | ---
@@ -28,6 +29,7 @@ iso | Disc Image (Uncompressed)
 
 
 ## Formats Used on Disc
+The table below lists the relevant entries.
 
 Extension | Description
 --- | ---
@@ -44,6 +46,7 @@ Extension | Description
 Documentation: 
 
 ## Games which have TGC files (Mostly demos):
+The table below lists the relevant entries.
 
 Game | Description
 --- | ---
@@ -57,6 +60,7 @@ Pokémon Colosseum Bonus Disc (US Version) | Contains pokedownload.tgc for sendi
 More information: http://www.emutalk.net/threads/33945-Naruto-fpk-format
 
 ## Games which have FPK files:
+The table below lists the relevant entries.
 
 Game | Description
 --- | ---

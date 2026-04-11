@@ -34,6 +34,7 @@ Some Information about the format:
 * ELF2EXE source code - https://github.com/cetygamer/psxsdk/blob/master/tools/elf2exe.c
 
 # EXE Header
+The table below lists the relevant entries.
 
 Name | Length | Description
 --- | --- | ---

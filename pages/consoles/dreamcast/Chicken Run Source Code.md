@@ -719,6 +719,7 @@ u16VECTOR | |
 # PlayStation 1
 
 ## PS1 GameShark cheats
+The table below lists the relevant entries.
 
 Name | Code
 --- | ---

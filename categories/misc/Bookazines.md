@@ -26,6 +26,7 @@ Many of these were published with topics related to the Games Industry such as 3
 
 ---
 # Programming Bookazines
+The table below lists the relevant entries.
 
 Title | Publisher | Notes
 ---|---|---
@@ -72,6 +73,7 @@ The UK Magazine **GamesTM** had a section dedicated to retro games every month, 
 There were 10 volumes published from 2011 until 2021.
 
 ### Behind The Scenes
+The table below lists the relevant entries.
 
 Game | Platform | Issue # | Notes
 ---|---|---|---
@@ -86,6 +88,7 @@ Star Trek Voyager Elite Force | | 9 |
 Ghostbusters 2 | | 9 | 
 
 ### Interviews
+The table below lists the relevant entries.
 
 Name | Company | Issue | Notes
 ---|---|---|---
@@ -115,6 +118,7 @@ They also managed to play around with one of the first SNES development kits in 
 
 ---
 # Digital Art Bookazines
+The table below lists the relevant entries.
 
 Title | Publisher | Notes
 ---|---|---

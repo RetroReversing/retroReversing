@@ -456,6 +456,7 @@ The `VMIMIME` library is used to connect between the main game code and the VMU 
 
 ---
 # Glossary
+The table below lists the relevant entries.
 
 Name | Meaning
 ---|---

@@ -24,6 +24,7 @@ editlink: /consoles/saturn/SegaSaturnHitachiToolchain.md
 Hitachi released a toolchain for Sega Saturn development, this is an alternative to the GNU toolchain also available from Sega.
 
 # Executables
+The table below lists the relevant entries.
 
 Executable | Description
 ---|---
@@ -62,6 +63,7 @@ SHC is the C compile provided for the SH processors by Hitachi.
 
 ---
 # Hitachi Libraries
+The table below lists the relevant entries.
 
 Name | Description
 ---|---

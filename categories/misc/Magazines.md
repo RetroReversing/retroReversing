@@ -709,6 +709,7 @@ Web Designer issue 101 also had a behind the scenes look at the website for **My
 **Web Techniques** was a US magazine that started in February 1996 and ran until February 2002 when it rebranded as **New Architect**.
 
 ### Relevant Articles
+The table below lists the relevant entries.
 
 Issue Date | Name | Author
 ---|---|---
@@ -746,6 +747,7 @@ VOL 13; NUMBER 21 (1994) | Power Programming: Real Games for Windows | Thielen, 
 VOL 15; NUMBER 14 (1996) | Power Programming: Using Microsoft's high-speed Direct Draw API in an arcade-style action game | Grell, G. |
 
 ## PC Plus
+The table below lists the relevant entries.
 
 Issue # | Title | Author | Notes
 ---|---|---|---

@@ -34,6 +34,7 @@ First known version: **0.3.0** [^2]
 Updates were provided to licenced PlayStation developers on ps2-pro.com, where the update contained just the files that have changed and could be dropped in place to overwrite the previous versions.
 
 ### SDK Versions
+The table below lists the relevant entries.
 
 SDK Version | Publicly Leaked? | Notes
 --- | --- | ---
@@ -207,6 +208,7 @@ The simulator was released before developers got access to the hardware [^3], it
 # Misc
 
 ## Legend of terms
+The table below lists the relevant entries.
 
 Name | Meaning
 --- | ---

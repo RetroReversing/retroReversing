@@ -259,6 +259,7 @@ The software for 2D/3D Artists, Designers and sound editors are covered in the f
 
 ---
 # Glossary
+The table below lists the relevant entries.
 
 Term | Meaning
 ---|---

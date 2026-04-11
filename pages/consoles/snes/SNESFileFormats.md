@@ -26,6 +26,7 @@ This page is a practical reference for common SNES file formats used for develop
 
 ---
 # Source and Build Files
+The table below lists the relevant entries.
 
 Extension | What it is
 ---|---
@@ -928,6 +929,7 @@ This makes the Mode 7 records particularly useful to preserve, even if you do no
 --- 
 
 ## Mode 7 and Map-Side Formats
+The table below lists the relevant entries.
 
 Extension | What it is
 ---|---
@@ -1004,6 +1006,7 @@ If you are round-tripping MAP files between tools, prefer preserving the header 
 
 ---
 ## Revision Markers
+The table below lists the relevant entries.
 
 Marker | Meaning
 ---|---

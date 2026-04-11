@@ -32,6 +32,7 @@ You can get the information from a .SYM file using **DUMPSYM.EXE** from the PSQ 
 Also the integration of .sym files into the No$PSX emulator is documented in the following forum thread: <a href="http://www.psxdev.net/forum/viewtopic.php?f=76&t=1318">http://www.psxdev.net/forum/viewtopic.php?f=76&t=1318</a>
 
 ## Games with SYM Symbol file
+The table below lists the relevant entries.
 
 Game Name | Symbol File | Genre | Youtube
 --- | --- | --- | ---
@@ -83,6 +84,7 @@ Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM | Quiz | https://www.youtu
 
 
 ## Demos and Betas with SYM Symbol file
+The table below lists the relevant entries.
 
 Game Name | Demo CD | Symbol File
 --- | --- | ---
@@ -117,6 +119,7 @@ Address  Names alphabetically
 These files contain all the information you need to get the full debug symbols back for a game! You just need to parse them and add them to your disassembler of choice (e.g Radare2 or IDA Pro)
 
 ## Games with Linker Map file
+The table below lists the relevant entries.
 
 Game Name | Map File
 --- | --- 
@@ -134,6 +137,7 @@ True Pinball | Contains PINBALL.MAP but doesn't seem to contain function names
 
 
 ## Demos and Betas with Linker Map file
+The table below lists the relevant entries.
 
 Game Name | Demo CD | Symbol File
 --- | --- 

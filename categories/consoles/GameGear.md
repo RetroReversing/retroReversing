@@ -152,6 +152,7 @@ Iff2Bin |  AIFF to raw binary converter IFF2BIN v1.2 (26MAR93) - (C) 1992 Sega o
 
 ---
 ## File Formats
+The table below lists the relevant entries.
 
 Name | Description
 ---|---

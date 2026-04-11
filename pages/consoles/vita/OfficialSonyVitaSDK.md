@@ -55,6 +55,7 @@ SDKS | 33.07 GB | Contains 3.300/3.500/3.550/3.570 SDKs plus the Photon PSVita S
 
 ---
 ## Software (/psvita/Software)
+The table below lists the relevant entries.
 
 Name | Size | Notes
 ---|---

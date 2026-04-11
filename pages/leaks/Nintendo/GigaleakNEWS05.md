@@ -90,6 +90,7 @@ If you are new to SNES 3D development and Nintendo's internal tool ecosystem, th
 
 ---
 ## Contents at a Glance
+The table below lists the relevant entries.
 
 Directory | Purpose | Key Files
 -----------|---------|-----------
@@ -171,6 +172,7 @@ It captures assets mid-development.
 Each stage folder represents a **complete level or boss encounter**, with self-contained assets and animations.
 
 #### Stage-by-Stage Breakdown
+The table below lists the relevant entries.
 
 Stage | Files | `.anm` | `.nca` | `.cad` | `.txt` | Purpose
 -------|-------|--------|--------|--------|--------|---------
@@ -1291,6 +1293,7 @@ Extension | Count | Purpose
 
 ---
 ## Comparison to Main Gigaleak
+The table below lists the relevant entries.
 
 Aspect | Main SFC.7z | NEWS_05.tar
 --------|------------|-----------
@@ -1361,6 +1364,7 @@ This adds poignancy: the 1,549 AAfundoshi files represent 3+ years of work that 
 ## Comparison to Main Gigaleak Archives
 
 ### NEWS_05 vs. SFC.7z (Main Source Code)
+The table below lists the relevant entries.
 
 Aspect | SFC.7z (Organized) | NEWS_05 (Raw Backup)
 --------|------------------|-------------------

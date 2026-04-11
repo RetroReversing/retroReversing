@@ -107,6 +107,7 @@ Inside `other/NEWS/FZERO`, the `Game` and `Tools` folders reappear, and the fold
 Beyond the source trees, the `NEWS.7z` archive also contains a **テープリストア** (tape-restore) directory holding seven workstation backup snapshots in `.tar` format, plus a manifest file. These appear to be uncompressed mid-development system backups from around 2014:
 
 ### Tape Archive Backups (テープリストア)
+The table below lists the relevant entries.
 
 Archive | Size | Entries | Contents
 ---------|------|---------|----------
@@ -263,6 +264,7 @@ One important extra detail at the NEWS_04 level is that Sugiyama's root director
 
 ---
 ### NEWS_04 Timeline Snapshot
+The table below lists the relevant entries.
 
 Period | Project | Status
 ---|---|---

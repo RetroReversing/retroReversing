@@ -95,6 +95,7 @@ Date window | `1993-07` to `1993-12` | Late production pass before 1994 release 
 
 ---
 ## Asset taxonomy
+The table below lists the relevant entries.
 
 Group | Example files | Interpretation
 ---|---|---
@@ -124,6 +125,7 @@ This is not proof of team change by itself, but it is a persistent marker of bra
 
 ---
 ## Timeline interpretation
+The table below lists the relevant entries.
 
 Date | Event | Reading
 ---|---|---

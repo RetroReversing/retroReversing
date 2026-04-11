@@ -58,12 +58,14 @@ These files are legitimately useless, why? Well they should list the contents of
 `00_INDEX.TXT`
 
 ## Documentation Files
+The table below lists the relevant entries.
 
 Name | Description
 ---|---
 README.zip | Contains documentation for the Psy-Q debugger (Version 2, Release 10, Patch Level 6) in TXT and RTF formats 
 
 ## Windows Executables
+The table below lists the relevant entries.
 
 Name | Description
 ---|---

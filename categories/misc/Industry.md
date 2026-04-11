@@ -172,6 +172,7 @@ This is a collection of known interviews with game developers who developed reta
 
 
 ## Commodore 64
+The table below lists the relevant entries.
 
 Source | Developer | Games | Description
 ---|---|---|---
@@ -181,6 +182,7 @@ Retro Gamer issue 95 | Shaun Hollingworth | **Firelord** | Shaun Hollingworth wo
 
 ---
 ## Nintendo Entertainment System (NES)
+The table below lists the relevant entries.
 
 Source | Developer | Games  | Description
 ---|---|---|---
@@ -188,6 +190,7 @@ Retro Gamer issue 11 | Color Dreams/Wisdom Tree | Bible Adventures |	This interv
 
 ---
 ## Nintendo 64
+The table below lists the relevant entries.
 
 Source | Developer | Games | Description
 ---|---|---|---
@@ -196,6 +199,7 @@ Retro Gamer issue 9 | David Doak | GoldenEye 007 | Doak is known for his work on
 
 ---
 ## Nintendo Wii
+The table below lists the relevant entries.
 
 Source | Developer | Games | Description
 ---|---|---|---
@@ -204,6 +208,7 @@ Retro Gamer issue 45 | Yuji Naka and Takashi Izuka | NiGHTS into Dreams, Journey
 
 ---
 ## Xbox consoles
+The table below lists the relevant entries.
 
 Source | Developer | Games | Description
 ---|---|---|---
