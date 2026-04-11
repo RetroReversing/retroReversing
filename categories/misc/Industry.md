@@ -10,6 +10,7 @@ redirect_from:
  - /documentaries
  - /sega
  - /companies
+ - /indie
 breadcrumbs:
   - name: Home
     url: /
@@ -41,7 +42,6 @@ If you know of any other footage or information that should be added to this pag
 
 ---
 # Documentaries showing life in the industry
-
 
 ## 1984 - Life in Imagine & Ocean Software (The Battle for Santa's Software)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChmQBK_EaUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -233,6 +233,23 @@ He heard about the job through his agent which was a common way for game program
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5yS_tmO_vSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
+# Indie Game Development
+
+## Why Nintendo doesn't like 3rd party developers?
+In 1986 the year in which many believed the video games industry was finished due to the Atari collapse (google for the ET situation..). Nintendo were doing well in Japan but they were worried about the collapsed video game market in the USA. They wanted to release their Famicom system in the US but due to what had just happened to Atari they were of course cautious. 
+
+**Hiroshi Yamauchi** president of Nintendo at the time believed the failure was due to too many 3rd party rubbish games: 
+![image alt text]({{ site.url }}/public/kCxNlbEqQBTmGsgDrzeh4w_img_0.png)
+
+Ever since Nintendo has been very wary of allowing 3rd party developers to release software for their consoles.
+
+They have even put in place a number of security measures to stop unlicensed developers including both hardware and software methods.
+
+This along with the threat of piracy has kept nintendo away from allowing 'homebrew development' on any of their consoles.
+
+### A Change In Direction?
+It wasn't until they saw the success of many indie games such as minecraft and the success of 'app stores for games' that they have started opening up their hardware to indie developers.
 
 
 ---
