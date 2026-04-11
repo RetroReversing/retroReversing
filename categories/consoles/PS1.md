@@ -20,6 +20,7 @@ redirect_from:
  - /Evolution-of-Playstation-Games
  - /inside-playstation
  - /ps1/
+ - /ps1-radare2
 videocarousel:
   - title: Video 1
     image: https://img.youtube.com/vi/MPXpH2hxuNc/hqdefault.jpg
@@ -235,6 +236,29 @@ To create 3D models for PlayStation 1 games the following tools are known to hav
 ## What software was used to create 2D Textures and Sprites for PS1 games?
 To create textures (and therefore sprites) the following tools are known to have been used:
 * **Adobe Photoshop** - A plugin was available to directly edit PlayStation TIM files without requiring conversion [^2].
+
+---
+# Reverse Engineering PS1 Games
+
+## Radare2
+First you need to find the executable on the PS1 disc image, it will be named after the unique Sony Code e.g `SLES_032.85`.
+
+Then open it with radare2 like so:
+```bash
+r2 ./SLES_032.85
+```
+
+### Fix the PS1 Offset in r2
+To Disassemble PS1 Binary files (MIPS little endian) you need to map a file at offset 0x80010000 like so:
+```
+o ./SLES_032.85 0x80010000 rwx
+```
+Replace SLES_032.85 with the location of your own PSX executable.
+
+Now we want to analyze all the functions in the executable like so:
+```
+aaaa
+```
 
 ---
 # All Posts
