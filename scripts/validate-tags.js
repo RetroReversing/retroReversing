@@ -5,11 +5,11 @@ const { scanDirectories, readMarkdownFile, extractTags, loadJsonFile } = require
 /**
  * Script to validate tags in markdown files against approved tags in valid-tags.json
  * Usage: node validate-tags.js [path-to-valid-tags.json]
- * Default: uses valid-tags.json in current directory
+ * Default: uses _data/valid-tags.json
  */
 
 class TagValidator {
-    constructor(validTagsFilePath = 'valid-tags.json') {
+    constructor(validTagsFilePath = '_data/valid-tags.json') {
         this.validTagsFilePath = validTagsFilePath;
         this.validTags = new Set();
         this.processedFiles = 0;
@@ -189,8 +189,8 @@ class TagValidator {
         console.log('\n--- SUGGESTIONS ---');
         console.log('To fix these issues, you can:');
         console.log('1. Remove the invalid tags from the affected files (or fix typos in tag names)');
-        console.log('2. Add the missing tags to valid-tags.json if they are legitimate tags you want to use.');
-        console.log('\nTo see all valid tags, run: jq -r ".tags | keys[]" valid-tags.json');
+        console.log('2. Add the missing tags to _data/valid-tags.json if they are legitimate tags you want to use.');
+        console.log('\nTo see all valid tags, run: jq -r ".tags | keys[]" _data/valid-tags.json');
         console.log('\nTo re-generate the list of valid tags, run: node scripts/extract-tags.js --export-json');
 
         return false;
@@ -241,7 +241,7 @@ Options:
   --help, -h              Show this help message
 
 Arguments:
-  path-to-valid-tags.json    Path to the valid tags JSON file (default: valid-tags.json)
+    path-to-valid-tags.json    Path to the valid tags JSON file (default: _data/valid-tags.json)
 
 Description:
   Validates all tags in markdown files against approved tags in valid-tags.json.
@@ -249,7 +249,7 @@ Description:
 
 Examples:
   node validate-tags.js
-  node validate-tags.js valid-tags.json
+    node validate-tags.js _data/valid-tags.json
   node validate-tags.js /path/to/custom-tags.json
 
 Exit Codes:
@@ -260,7 +260,7 @@ Exit Codes:
     }
 
     // Use custom tags file path if provided
-    const tagsFilePath = args[0] || 'valid-tags.json';
+    const tagsFilePath = args[0] || '_data/valid-tags.json';
     
     const validator = new TagValidator(tagsFilePath);
     const success = validator.run();

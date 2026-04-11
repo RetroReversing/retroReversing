@@ -13,10 +13,14 @@
         {% else %}
           {% assign page_category = page_category_raw %}
         {% endif %}
+        {% assign page_category_meta = site.category[page_category] %}
+        {% if page_category_meta == nil %}
+          {% assign page_category_meta = site.category[page_category | downcase] %}
+        {% endif %}
         <div class="post-header">
           <div>
-            {% if page_category and site.category_images[page_category] %}
-              <img class="post-header-icon" src="{{ site.category_images[page_category] }}" alt="{{ page_category }}">
+            {% if page_category and page_category_meta and page_category_meta.image %}
+              <img class="post-header-icon" src="{{ page_category_meta.image }}" alt="{{ page_category_meta.title | default: page_category }}">
             {% elsif post.thumbnail %}
               <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
             {% else %}

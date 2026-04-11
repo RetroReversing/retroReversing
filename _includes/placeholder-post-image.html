@@ -11,15 +11,20 @@ Parameters:
   {% else %}
     {% assign placeholder_category = placeholder_category_raw %}
   {% endif %}
-  {% assign placeholder_category_image = site.category_images[placeholder_category] %}
+  {% assign placeholder_category_meta = site.category[placeholder_category] %}
+  {% if placeholder_category_meta == nil %}
+    {% assign placeholder_category_meta = site.category[placeholder_category | downcase] %}
+  {% endif %}
+  {% assign placeholder_category_image = placeholder_category_meta.image %}
+  {% assign placeholder_category_title = placeholder_category_meta.title | default: placeholder_category | replace: '-', ' ' %}
   <div class="geopattern rr-placeholder-post-image" data-title="{{ include.post.title }}">
     <img class="lazy-load rr-placeholder-post-image__logo" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.post.title }}" />
     {% if placeholder_category %}
     {% if placeholder_category_image and placeholder_category_image != '/public/images/RetroReversingLogoSmall.png' %}
-      <img class="rr-placeholder-post-image__category-image" src="{{ placeholder_category_image }}" alt="{{ placeholder_category | replace: '-', ' ' }}" />
+      <img class="rr-placeholder-post-image__category-image" src="{{ placeholder_category_image }}" alt="{{ placeholder_category_title }}" />
     {% endif %}
     <span class="rr-placeholder-post-image__category">
-        {{ placeholder_category | replace: '-', ' ' }}
+        {{ placeholder_category_title }}
     </span>
     {% endif %}
     <span class="rr-placeholder-post-image__title">

@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
+const path = require('path');
 const { scanDirectories, readMarkdownFile, extractTags } = require('./markdown-utils');
+
+const VALID_TAGS_OUTPUT_PATH = path.join(__dirname, '..', '_data', 'valid-tags.json');
 
 /**
  * Script to extract and analyze all tags used in markdown frontmatter
@@ -114,9 +117,11 @@ class TagExtractor {
                 tags: Object.fromEntries(alphabeticallySortedTags),
                 fileTagMap: Object.fromEntries(this.fileTagMap)
             };
+
+            fs.mkdirSync(path.dirname(VALID_TAGS_OUTPUT_PATH), { recursive: true });
             
-            fs.writeFileSync('valid-tags.json', JSON.stringify(exportData, null, 2));
-            console.log('\nExported detailed data to valid-tags.json');
+            fs.writeFileSync(VALID_TAGS_OUTPUT_PATH, JSON.stringify(exportData, null, 2));
+            console.log(`\nExported detailed data to ${VALID_TAGS_OUTPUT_PATH}`);
         }
 
         if (process.argv.includes('--export-csv')) {
@@ -176,7 +181,7 @@ Options:
   --sort-by-count     Sort tags by usage count (default)
   --sort-by-name      Sort tags alphabetically
   --detailed          Show which files use each tag
-  --export-json       Export detailed data to valid-tags.json
+    --export-json       Export detailed data to _data/valid-tags.json
   --export-csv        Export tag statistics to tags-export.csv
   --help, -h          Show this help message
 

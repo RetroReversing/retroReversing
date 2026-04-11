@@ -38,7 +38,7 @@ node scripts/extract-tags.js [options]
 * `--sort-by-count` - Sort by usage count (default)
 * `--sort-by-name` - Sort alphabetically
 * `--detailed` - Show which files use each tag
-* `--export-json` - Export data to `valid-tags.json`
+* `--export-json` - Export data to `_data/valid-tags.json`
 * `--export-csv` - Export statistics to `tags-export.csv`
 * `--help` - Show help
 
@@ -61,7 +61,7 @@ node scripts/extract-tags.js --export-json --export-csv
 * Export options for JSON/CSV formats
 
 ## validate-tags.js
-Validates all tags in markdown files against approved tags from `valid-tags.json`.
+Validates all tags in markdown files against approved tags from `_data/valid-tags.json`.
 
 ### Usage
 ```bash
@@ -69,11 +69,11 @@ node scripts/validate-tags.js [path-to-valid-tags.json]
 ```
 
 ### Arguments
-* `path-to-valid-tags.json` - Path to valid tags file (default: `valid-tags.json`)
+* `path-to-valid-tags.json` - Path to valid tags file (default: `_data/valid-tags.json`)
 
 ### Examples
 ```bash
-# Validate against default valid-tags.json
+# Validate against default _data/valid-tags.json
 node scripts/validate-tags.js
 
 # Validate against custom tags file
@@ -131,7 +131,7 @@ node scripts/generate-placeholder-social-images.js
 
 ### Description
 * Scans `pages/` and `categories/` for Markdown and HTML content files
-* Uses `title`, `shorttitle`, `permalink`, `category` and the `category_images` block in `_config.yml`
+* Uses `title`, `shorttitle`, `permalink`, `category` and the `category` block in `_config.yml` (with per-key `title` and `image` fields)
 * Uses the Ruby `geo_pattern` gem to generate deterministic SVG backgrounds from each page seed
 * Uses `@resvg/resvg-js` in Node to rasterize the SVG into a JPG
 * Falls back to `rsvg-convert` when the Node renderer is unavailable

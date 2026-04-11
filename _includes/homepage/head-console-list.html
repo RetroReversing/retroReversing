@@ -1,0 +1,33 @@
+<div class="rr-head-consoles" style="background-color: #292F33;">
+  <ul class="head-console-list">
+    {% assign valid_tag_counts = site.data["valid-tags"].tags %}
+    {% assign sort_entries = "" %}
+    {% for category_entry in site.category %}
+      {% assign category_key = category_entry[0] %}
+      {% assign category_key_lc = category_key | downcase %}
+      {% assign post_count = valid_tag_counts[category_key_lc] | default: 0 %}
+      {% assign padded = post_count | plus: 10000 %}
+      {% assign entry = padded | append: "|" | append: category_key %}
+      {% if sort_entries == "" %}
+        {% assign sort_entries = entry %}
+      {% else %}
+        {% assign sort_entries = sort_entries | append: "~" | append: entry %}
+      {% endif %}
+    {% endfor %}
+    {% assign sort_entries_array = sort_entries | split: "~" %}
+    {% assign sorted_entries = sort_entries_array | sort | reverse %}
+    {% for entry in sorted_entries %}
+      {% assign parts = entry | split: "|" %}
+      {% assign category_key = parts[1] %}
+      {% assign category_meta = site.category[category_key] %}
+      {% assign category_title = category_meta.title | default: category_key | replace: '_', ' ' %}
+      {% assign category_image = category_meta.image %}
+      {% assign category_key_lc = category_key | downcase %}
+      {% assign category_url = '/' | append: category_key %}
+      {% assign post_count = valid_tag_counts[category_key_lc] | default: 0 %}
+      {% if post_count > 0 %}
+      <a href="{{ category_url }}" target="_blank"><li class="head-console-item"> <img alt="{{ category_title }}" class="console-img" src="{{ category_image }}" /> <strong>{{ category_title }}</strong><span class="console-post-numbers">{{ post_count }}</span></li></a>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

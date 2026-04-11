@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalFiles": 306,
-    "filesWithTags": 306,
-    "uniqueTags": 113,
-    "generatedAt": "2026-03-31T11:23:20.560Z"
+    "totalFiles": 300,
+    "filesWithTags": 300,
+    "uniqueTags": 108,
+    "generatedAt": "2026-04-11T15:02:54.945Z"
   },
   "tags": {
     "2d": 1,
@@ -13,9 +13,8 @@
     "3ds": 8,
     "amiga": 1,
     "android": 3,
-    "arcade": 1,
+    "arcade": 2,
     "assembly": 4,
-    "assets": 1,
     "atari": 3,
     "bookazines": 1,
     "books": 2,
@@ -36,8 +35,8 @@
     "dos": 4,
     "dreamcast": 8,
     "ds": 12,
-    "emulation": 1,
-    "fileformats": 14,
+    "emulation": 2,
+    "fileformats": 15,
     "gameboy": 20,
     "gamecom": 1,
     "gamecube": 10,
@@ -48,10 +47,10 @@
     "gdb": 2,
     "ghidra": 4,
     "gigaleak": 2,
-    "graphics": 2,
+    "graphics": 1,
     "hacking": 1,
     "handhelds": 4,
-    "hardware": 39,
+    "hardware": 38,
     "homebrew": 2,
     "incomplete": 1,
     "industry": 21,
@@ -59,11 +58,10 @@
     "ios": 1,
     "ique": 2,
     "jaguar": 1,
-    "leak": 51,
+    "leak": 45,
     "leaks": 1,
     "legal": 1,
     "magazines": 4,
-    "mario": 3,
     "mastersystem": 4,
     "maths": 4,
     "megadrive": 6,
@@ -71,17 +69,16 @@
     "middleware": 11,
     "msx": 3,
     "n64": 32,
-    "nds": 1,
     "nes": 15,
     "news": 2,
-    "nintendo": 2,
+    "nintendo": 3,
     "pc": 13,
     "pc-88": 1,
     "pc-engine": 1,
     "pokemon": 1,
     "pokemonmini": 3,
     "programming-languages": 1,
-    "ps1": 18,
+    "ps1": 17,
     "ps2": 10,
     "ps3": 3,
     "ps4": 2,
@@ -90,21 +87,19 @@
     "radare2": 1,
     "reverseengineering": 5,
     "reversingemulator": 5,
-    "saturn": 18,
-    "sdk": 49,
-    "sega": 28,
+    "saturn": 17,
+    "sdk": 48,
+    "sega": 27,
     "segasaturn": 1,
     "sg1000": 1,
-    "smb3": 1,
-    "snes": 30,
+    "snes": 25,
     "snsystems": 12,
     "software": 5,
-    "sourcecode": 27,
+    "sourcecode": 24,
     "starfox2": 1,
     "superfx": 1,
-    "supermarioworld": 1,
     "switch": 3,
-    "symbols": 14,
+    "symbols": 13,
     "tools": 18,
     "tutorial": 10,
     "tutorials": 1,
@@ -323,6 +318,12 @@
       "ios",
       "introduction"
     ],
+    "categories/games/DebugSymbolsInGames.md": [
+      "symbols",
+      "debug",
+      "games",
+      "sdk"
+    ],
     "categories/games/FileFormats.md": [
       "fileformats"
     ],
@@ -334,12 +335,6 @@
     ],
     "categories/games/Games.md": [
       "games"
-    ],
-    "categories/games/debugSymbols.md": [
-      "symbols",
-      "debug",
-      "games",
-      "sdk"
     ],
     "categories/hardware/CheatCartridges.md": [
       "hardware"
@@ -532,6 +527,11 @@
       "3d",
       "introduction"
     ],
+    "pages/SourceCode/mame/MAMESourceCode.md": [
+      "sourcecode",
+      "emulation",
+      "arcade"
+    ],
     "pages/consoles/3ds/3DSDevkitHardware.md": [
       "3ds",
       "devkit",
@@ -605,7 +605,6 @@
     ],
     "pages/consoles/ds/DSHomebrew.md": [
       "ds",
-      "nds",
       "homebrew",
       "3ds"
     ],
@@ -919,11 +918,6 @@
       "sdk",
       "symbols"
     ],
-    "pages/consoles/ps1/PS1_Radare2.md": [
-      "ps1",
-      "sdk",
-      "symbols"
-    ],
     "pages/consoles/ps1/PSYQSDKSetup.md": [
       "ps1",
       "reverseengineering",
@@ -1032,11 +1026,6 @@
       "saturn",
       "sega",
       "segasaturn"
-    ],
-    "pages/consoles/saturn/SaturnTransparencyEffects.md": [
-      "hardware",
-      "saturn",
-      "sega"
     ],
     "pages/consoles/saturn/SegaSaturnArtistTools.md": [
       "tools",
@@ -1330,6 +1319,12 @@
       "sourcecode",
       "tools"
     ],
+    "pages/leaks/Nintendo/GigaleakNEWS11.md": [
+      "nintendo",
+      "gigaleak",
+      "snes",
+      "fileformats"
+    ],
     "pages/leaks/Nintendo/MarioKart.md": [
       "snes",
       "leak",
@@ -1381,34 +1376,7 @@
       "snes",
       "leak"
     ],
-    "pages/leaks/Nintendo/SuperMarioAllStarsArt.md": [
-      "snes",
-      "leak",
-      "mario",
-      "graphics",
-      "gigaleak",
-      "all-stars"
-    ],
     "pages/leaks/Nintendo/SuperMarioCollection.md": [
-      "snes",
-      "leak",
-      "sourcecode"
-    ],
-    "pages/leaks/Nintendo/SuperMarioCollectionAsm0.md": [
-      "snes",
-      "leak",
-      "sourcecode",
-      "mario",
-      "assets"
-    ],
-    "pages/leaks/Nintendo/SuperMarioCollectionMario3Branch.md": [
-      "snes",
-      "leak",
-      "sourcecode",
-      "mario",
-      "smb3"
-    ],
-    "pages/leaks/Nintendo/SuperMarioCollectionNuBranch.md": [
       "snes",
       "leak",
       "sourcecode"
@@ -1416,12 +1384,6 @@
     "pages/leaks/Nintendo/SuperMarioKart2DArt.md": [
       "snes",
       "leak"
-    ],
-    "pages/leaks/Nintendo/SuperMarioWorldAllStarsBranch.md": [
-      "snes",
-      "leak",
-      "sourcecode",
-      "supermarioworld"
     ],
     "pages/leaks/Nintendo/WildTrax.md": [
       "snes",
@@ -1451,10 +1413,6 @@
       "gameboy",
       "leak",
       "sourcecode"
-    ],
-    "pages/leaks/Nintendo/ZeldaSNES2DArt.md": [
-      "snes",
-      "leak"
     ],
     "pages/leaks/NintendoLeaks.md": [
       "leak",

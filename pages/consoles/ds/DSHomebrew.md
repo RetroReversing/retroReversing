@@ -2,7 +2,6 @@
 layout: post
 tags: 
 - ds
-- nds
 - homebrew
 title: Nintendo DS Homebrew
 category: ds

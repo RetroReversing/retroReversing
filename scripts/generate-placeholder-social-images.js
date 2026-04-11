@@ -63,12 +63,24 @@ function parseCategoryImages(configPath) {
     const content = fs.readFileSync(configPath, 'utf8');
     const lines = content.split('\n');
     const categoryImages = {};
+    let inCategory = false;
     let inCategoryImages = false;
+    let currentCategoryKey = '';
 
     for (const line of lines) {
-        if (!inCategoryImages) {
-            if (line.trim() === 'category_images:') {
+        const trimmedLine = line.trim();
+
+        if (!inCategory && !inCategoryImages) {
+            if (trimmedLine === 'category:') {
+                inCategory = true;
+                inCategoryImages = false;
+                currentCategoryKey = '';
+                continue;
+            }
+            if (trimmedLine === 'category_images:') {
                 inCategoryImages = true;
+                inCategory = false;
+                currentCategoryKey = '';
             }
             continue;
         }
@@ -77,8 +89,25 @@ function parseCategoryImages(configPath) {
             break;
         }
 
-        const trimmed = line.trim();
+        const trimmed = trimmedLine;
         if (!trimmed || trimmed.startsWith('#')) {
+            continue;
+        }
+
+        if (inCategory) {
+            if (line.startsWith('  ') && !line.startsWith('    ')) {
+                const keyMatch = trimmed.match(/^['"]?([^'"]+)['"]?:\s*$/);
+                currentCategoryKey = keyMatch ? keyMatch[1] : '';
+                continue;
+            }
+
+            if (line.startsWith('    ') && currentCategoryKey) {
+                const imageMatch = trimmed.match(/^image:\s*(.+)$/);
+                if (imageMatch) {
+                    categoryImages[currentCategoryKey] = imageMatch[1].trim().replace(/^['"]|['"]$/g, '');
+                }
+            }
+
             continue;
         }
 
