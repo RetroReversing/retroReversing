@@ -339,9 +339,7 @@ However, it requires running the program, which might be risky if the program is
 Dynamic disassemblers function by instrumenting the program as it runs. This can be done in several ways:
 
 * **Binary Instrumentation**: The disassembler inserts additional code (probes) into the binary to monitor the execution of instructions. This method allows the disassembler to collect data such as which instructions are executed, how often they are run, and how they interact with memory and registers.
-  
 * **Emulation**: In some cases, dynamic disassemblers use emulation to simulate the execution of the program in a controlled environment. The disassembler steps through the instructions as they would execute on the actual hardware, allowing for detailed observation of the program's behavior.
-  
 * **Debugging Interface**: Some dynamic disassemblers leverage the debugging APIs provided by operating systems. By attaching to a running process or launching a program in a debug mode, the disassembler can intercept and analyze instructions as they are executed.
 
 ---
@@ -356,9 +354,7 @@ Dynamic Disassemblers have the following advantages:
 ## Challenges of Dynamic Disassemblers
 Dynamic Disassemblers have the following challenges:
 * **Performance Overhead**: Because dynamic disassembly involves running the program and monitoring its behavior, it often incurs significant performance overhead. The process can be much slower than static analysis, especially if instrumentation or emulation is used.
-
 * **Partial Coverage**: Dynamic disassembly is dependent on the execution paths taken during analysis. If certain parts of the code are not triggered during the monitored execution, they will not be disassembled. This makes it crucial to ensure comprehensive coverage during analysis, which can be challenging.
-
 * **Complex Setup**: Setting up a dynamic disassembler can be more complex than using a static disassembler. It often requires a controlled environment, such as a sandbox, and careful management of the execution context to avoid unwanted side effects.
 
 ---
@@ -388,19 +384,15 @@ An interactive disassembler is a software tool that converts machine code (binar
 
 ### Interactive Code Exploration
 * **Control Flow Graphs (CFGs)**: Interactive disassemblers often generate visual representations of a program's control flow, showing how different functions and loops interact. Users can click on different nodes and edges to explore these paths more thoroughly.
-  
 * **Jump and Call References**: Users can easily see where functions are called from or where jump instructions lead, making it easier to trace the flow of execution.
 
 ### Manual Adjustments
 * **Marking Code and Data**: Users can manually specify whether a section of the binary is code or data, which is particularly useful in binaries where the boundaries between code and data are not clear.
-  
 * **Renaming and Commenting**: Functions, variables, and memory locations can be renamed to more meaningful names, and users can add comments to help document the disassembly.
-
 * **Defining Data Structures**: Users can define and apply custom data structures to areas of memory, improving the clarity of complex data segments.
 
 ### Scripting and Automation
 * **Scripting Support**: Many interactive disassemblers support scripting languages like Python or JavaScript, allowing users to automate repetitive tasks, write custom analyses, or extend the functionality of the disassembler.
-
 * **Macros and Plugins**: Users can create or import plugins and macros to add new features, such as custom decoders for specific binary formats or automated analysis routines.
 
 ### Cross-Referencing

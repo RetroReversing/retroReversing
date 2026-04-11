@@ -388,9 +388,7 @@ By setting bit 4 to 1 (0x10) (with `| 0x10`), the code configures the PPU to use
 By clearing the lower nibble (with `& 0xF0`), the code is explicitly resetting bits 0–3 to 0. This ensures that specific settings for nametable selection, VRAM increment, and pattern table addresses are cleared. This can be important if the code needs a clean slate, especially if these bits were previously set to something that could conflict with the desired behavior.
 
 * **Reset Specific Settings** - By clearing the lower nibble (`& 0xF0`), the code is explicitly resetting bits 0–3 to `0`. This ensures that specific settings for nametable selection, VRAM increment, and pattern table addresses are cleared. This can be important if the code needs a clean slate, especially if these bits were previously set to something that could conflict with the desired behavior.
-
 * **Avoid Unintended Behavior** - If the lower nibble were not cleared, any leftover settings in bits 0–3 could cause unintended changes in how the PPU handles background rendering or sprite patterns. For example, if bit 3 were set to `1` instead of `0`, the background would use the first 4 KB of the pattern table instead of the second 4 KB, which could result in incorrect graphics being displayed.
-
 * **Explicit Control** - Clearing the lower nibble provides explicit control over which bits are set in the `PPUCTRL` register. This is especially important in NES development, where fine control over the PPU is crucial for correct rendering.
 
 #### What are the Lower nibble bytes doing?

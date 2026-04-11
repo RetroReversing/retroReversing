@@ -246,25 +246,20 @@ The key points from Keynote are as are as follows:
 * **Evaluation of Doom 3 Engine Decisions:**
    * He reflects on decisions made for the Doom 3 renderer over four years ago.
    * Acknowledges some flaws, such as seams on character heads due to mirroring repeat in texturing.
-
 * **Specularity and Lighting Improvements:**
    * Talks about limitations in skin tone realism due to a single level of specularity.
    * Introduces new technology for specular maps, allowing control over the breadth of specular highlights.
    * Addresses issues with specularity on broad surfaces and introduces reflection vector calculation for more accurate highlights.
    * Discusses the use of cubic environment maps and normalization for better quality highlights.
-
 * **Anti-Aliasing Challenges:**
    * Highlights the aliasing challenges in surfaces with normal maps and specular highlights.
    * Mentions ongoing work to combat aliasing, considering the analysis of surface normals and specularity factors.
-
 * **Multi-Channel Texture Considerations:**
    * Discusses the complexity introduced when combining multiple maps (normal, diffuse, specular, etc.) and the need for coordinated adjustments.
    * Notes potential challenges in scaling and rotating independent maps.
-
 * **Quality Improvement through Renormalization:**
    * Describes the benefits of renormalization of normal maps before lighting calculations for improved surface quality.
    * Addresses the issue of denormalization in cases where normal vectors deviate significantly.
-
 * **General Improvements and Considerations:**
    * Mentions the need for reevaluation and development of a new rendering engine based on current hardware capabilities.
    * Indicates ongoing efforts to enhance the Doom 3 graphics engine, considering issues like aliasing, specularity, and normal map quality.

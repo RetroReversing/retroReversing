@@ -197,6 +197,9 @@ category:
   "jaguar":
     title: Atari Jaguar
     image: /public/consoles/Atari Jaguar.png
+  "atari":
+    title: Atari
+    image: /public/consoles/Atari 2600.png
   "leak":
     title: Leak
     image: /public/consoles/Leaks.png

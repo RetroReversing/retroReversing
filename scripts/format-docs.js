@@ -15,6 +15,7 @@
  *   table-pipes      | col |    → col    (no leading/trailing pipe on rows)
  *   table-blank      text\ntbl  → text\n\ntbl (blank line before table)
  *   blank-before-heading text\n## → text\n\n## (blank line before headings)
+ *   tight-lists      * a\n\n* b → * a\n* b (no blank lines between list items)
  *   hr-heading       ---\n\n## → ---\n## (no blank between HR and heading)
  *   heading-content  ##\n\n txt → ##\n txt (no blank after heading before prose)
  *
@@ -83,6 +84,11 @@ function makeFenceTracker() {
     if (/^\{%-?\s*endcapture\b/.test(ln)) { inCapture = false;  return true; }
     return inFrontmatter || inFence || inCapture;
   };
+}
+
+/** True when a line is a Markdown list item marker (unordered or ordered). */
+function isListItemLine(ln) {
+  return /^\s*(?:[*+-]|\d+\.)\s+/.test(ln);
 }
 
 // ---------------------------------------------------------------------------
@@ -324,7 +330,48 @@ function applyMultiLineRules(text, fixes) {
     return out.join('\n');
   })();
 
-  return after4;
+  // Rule: no blank line(s) between adjacent list items.
+  // e.g.  * item a\n\n* item b  →  * item a\n* item b
+  // Uses protected-block tracking so fenced code, frontmatter, and capture
+  // blocks are never modified by this rule.
+  const after5 = (() => {
+    const lines       = after4.split('\n');
+    const out         = [];
+    const isProtected = makeFenceTracker();
+    let modified      = false;
+
+    for (let i = 0; i < lines.length; i++) {
+      const ln = lines[i];
+
+      if (isProtected(ln)) {
+        out.push(ln);
+        continue;
+      }
+
+      if (ln.trim() === '') {
+        let prevIndex = out.length - 1;
+        while (prevIndex >= 0 && out[prevIndex].trim() === '') prevIndex--;
+
+        let nextIndex = i + 1;
+        while (nextIndex < lines.length && lines[nextIndex].trim() === '') nextIndex++;
+
+        const prev = prevIndex >= 0 ? out[prevIndex] : '';
+        const next = nextIndex < lines.length ? lines[nextIndex] : '';
+
+        if (isListItemLine(prev) && isListItemLine(next)) {
+          modified = true;
+          continue;
+        }
+      }
+
+      out.push(ln);
+    }
+
+    if (modified) fixes.push('multiline: blank between list items');
+    return out.join('\n');
+  })();
+
+  return after5;
 }
 
 // ---------------------------------------------------------------------------

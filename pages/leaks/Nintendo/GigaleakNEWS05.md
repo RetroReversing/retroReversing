@@ -57,35 +57,20 @@ The archive preserves two distinct working environments:
 If you are new to SNES 3D development and Nintendo's internal tool ecosystem, this glossary will help:
 
 * <a id="glossary-cad"></a>**CAD** - Computer-Aided Design. Here, a proprietary 3D modeling and animation tool built by Nintendo for creating polygon geometry and animation keyframes on X11 workstations.
-
 * <a id="glossary-nca"></a>**NCA** - Nintendo CAD Animation binary format. Compiled output from the CAD tool, optimized for SNES hardware execution. Contains both geometry and animation keyframes in a compact binary layout.
-
 * <a id="glossary-anm"></a>**ANM** - Animation timeline source format. Text-readable keyframe data defining how 3D geometry transforms over time (skeletal animation, vertex morphing).
-
 * <a id="glossary-cad-source"></a>**CAD Source** - `.cad` and `.txt` files containing 3D model definitions. The `.txt` format is ASCII vertex lists; `.cad` is the compiled binary model.
-
 * <a id="glossary-transfer-protocol"></a>**Transfer Protocol** - Mechanism for sending compiled models and animations from the Unix workstation to SNES development hardware via serial link or Ethernet.
-
 * <a id="glossary-fundoshi"></a>**Fundoshi** - Likely a Nintendo-internal CPU optimization variant. Represents SNES-specific compiled binaries and math libraries optimized for the 65C816 processor.
-
 * <a id="glossary-ibm-variant"></a>**IBM Variant** - PC-compatible version of Kimura's utilities, allowing asset preview and testing on standard DOS/Windows workstations before final SNES compilation.
-
 * <a id="glossary-vram"></a>**VRAM** - Video RAM used on SNES for tile data, background maps, and sprite attributes. Extremely limited (64 KB total), requiring careful asset management.
-
 * <a id="glossary-wram"></a>**WRAM** - Work RAM (128 KB on SNES). Used for game state, sprite data, and runtime animation state.
-
 * <a id="glossary-eprom"></a>**EPROM** - Erasable Programmable Read-Only Memory. SNES development boards used 1MB EPROM chips; large games like SF2 required multiple chips. `partition.c` managed splitting ROM images across these boundaries.
-
 * <a id="glossary-z-buffer"></a>**Z-Buffer** - Depth buffer for 3D rendering. SNES has no hardware Z-buffer, so `depth.c` implements painter's algorithm (sorting polygons by depth).
-
 * <a id="glossary-x11"></a>**X11** - Network-capable graphical display system used on Unix workstations. The CAD tool uses X11 for its GUI.
-
 * <a id="glossary-skeletal-animation"></a>**Skeletal Animation** - Animation system where a 3D model is defined by bones/joints in a hierarchy. Transformations (translation, rotation, scale) are applied to bones, and geometry deforms based on bone positions.
-
 * <a id="glossary-keyframe-interpolation"></a>**Keyframe Interpolation** - Smooth transitions between animation poses. Animators define key poses at certain frames; the system automatically tweens intermediate frames.
-
 * <a id="glossary-painter-algorithm"></a>**Painter's Algorithm** - Rendering technique that sorts polygons by depth and draws them back-to-front. Used on SNES because hardware Z-buffering is unavailable.
-
 * <a id="glossary-mode7"></a>**Mode 7** - SNES background rotation/scaling capability. Used in F-Zero for the track perspective effect. `cnvmode7.c` converts graphics to Mode 7 format.
 
 ---
@@ -1021,11 +1006,9 @@ The **24 BGM modules** (`xlbgm01.bin` through `xlbgm24.bin`) suggest this was a 
    * Sound effect playback
    * BGM sequencing
    * Real-time mixing/volume control
-
 * **Sound Effects Library** (`xlsound.bin`, `xlsnd01` through `xlsnd04`)
    * Compiled SFX banks (weapon fire, explosions, footsteps)
    * Indexed by game state (which SFX to play for which action)
-
 * **BGM Database** (24 × musical pieces)
    * Titles, composers, loop points
    * Orchestration (which instruments active in each section)
@@ -1568,19 +1551,16 @@ Take fundoshi/depth.c (optimized for 65C816)
    * Modify transfer.c to output SF2-compatible `.nca` format
    * Create new stages or modify existing stages
    * Build custom ROM with replacement assets
-
 * **Character Model Swaps**
    * Extract `.cad` files from stages
    * Modify geometry (smooth, sharpen, enlarge)
    * Recompile and test in emulator
    * Example: Create "Giant Andross" mod
-
 * **Animation Editing**
    * Parse `.anm` keyframe format
    * Create custom animation editor
    * Blend animations (walk + run hybrid)
    * Slow-motion or speed-up effects
-
 * **Palette Hacking**
    * Extract `.col` color palettes
    * Create new color schemes

@@ -47,8 +47,6 @@ The back shows the port where you connect to the PC.
 
 ## References
 * [http://devkits.handheldmuseum.com/SN64.htm](http://devkits.handheldmuseum.com/SN64.htm) 
-
 * Official Website archive - [https://web.archive.org/web/19980523231505/http://www.snsys.com:80/snsys/page.asp?c=maestro64](https://web.archive.org/web/19980523231505/http://www.snsys.com:80/snsys/page.asp?c=maestro64) 
-
 * Images from [http://www.retrogames.co.uk/040010/Nintendo/N64-Maestro-Development-Kit](http://www.retrogames.co.uk/040010/Nintendo/N64-Maestro-Development-Kit) 
 

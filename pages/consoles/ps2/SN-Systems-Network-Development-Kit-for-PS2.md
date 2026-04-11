@@ -67,21 +67,13 @@ One big bonus feature of the SN Systems NDK is that it actually supports not jus
 According to the official specifications of the NDK it claims to support more than just TCP/IP [4]:
 
 * TCP/IP - Transport Control Protocol / Internet Protocol 
-
 * UDP - User Datagram Protocol 
-
 * PPP - Point-to-Point Protocol (PPP is always built into the Stack irx file but will only be used when a modem driver is used) 
-
 * PPPoE - PPP over Ethernet 
-
 * ARP - Address Resolution Protocol (ARP will only be used when an Ethernet or DECI2 driver is loaded) 
-
 * ICMP - Internet Control Message Protocol 
-
 * DHCP - Dynamic Host Configuration Protocol 
-
 * CHAP - Challenge-Handshake Authentication Protocol 
-
 * PAP - Password Authentication Protocol
 
 ## NDK Analyzer
