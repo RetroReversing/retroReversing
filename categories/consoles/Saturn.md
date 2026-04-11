@@ -21,6 +21,7 @@ redirect_from:
   - /segasaturn
   - /ss
   - /saturn/
+  - /saturn-transparency
 tags:
   - saturn
 ---
@@ -47,11 +48,7 @@ For a detailed breakdown of the password system and the newly discovered codes, 
 
 {% include_cached link-to-other-site.html url="https://32bits.substack.com/p/under-the-microscope-the-lost-world" description="Bo Bayles provides a comprehensive look at cracking the password encryption in The Lost World: Jurassic Park, revealing secret debug menus and arcade asset galleries hidden for nearly 30 years." title="Under the Microscope: The Lost World – Jurassic Park" %}
 
-## Sega Saturn Graphics
-There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be proven false with some clever programming techniques.
-
-{% include_cached link-to-other-post.html post="/saturn-transparency" description="For details on Transparency effects in Sega Saturn games check out this post." %}
-
+---
 ## Sega File Formats
 The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
@@ -110,6 +107,35 @@ The Official Software development kit was developed in-house by SEGA and was mad
 One of the best ways to get started understanding how games were made using the official SDK is to tinker with the samples that come packaged with the SDK. By compiling and running these on a Saturn console you can start to understand how everything pieces together.
 
 {% include_cached link-to-other-post.html post="/sega-saturn-compiling-samples" description="For more information on Official SDK for the Saturn check out this post." %}
+
+---
+# Sega Saturn Graphics
+There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be proven false with some clever programming techniques.
+
+## Sega Saturn Alpha Transparency Effects
+The Sega Saturn's unique way of drawing 3D vertices made life very difficult for developers to implement Alpha Transparency techniques such as objects fading into view.
+Unlike the Sony PlayStation or Nintendo 64, the Saturn's VDP1 graphics chip did not render true 3D polygons. Instead, it rendered 3D objects as **distorted 2D sprites** (quads). When developers attempted to apply standard alpha transparency to these overlapping, distorted sprites, it caused massive visual corruption and Z-sorting errors. 
+This is why contemporary Saturn games like **Daytona USA** had to rely on harsh "pop-in" for distant scenery rather than smooth fading.
+
+### Sonic R's "Impossible" Fading
+[GameHut](https://www.youtube.com/watch?v=FdD0GvVRSMc) has a deep dive into the coding secrets behind the distance fading and alpha transparency effects used in the Sega Saturn game, Sonic R. It covers the specific rendering techniques and hardware workarounds that Traveller's Tales employed to achieve these seemingly impossible 3D graphical effects on 32-bit architecture.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdD0GvVRSMc" title="Sonic R's Impossible Fading" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+To make the flat 2D sprites look like 3D objects with simulated volume and lighting, Traveller's Tales utilized **Gouraud shading**. 
+
+The core problem was that applying Gouraud shading consumed the exact same hardware color calculation pathways needed to render transparency. A developer could have dynamic lighting *or* transparency, but the Saturn could not natively handle both on a single sprite at the same time.
+
+#### Stripping the Lighting
+To fade an object in from a distance, Burton's engine first had to mathematically strip away its Gouraud shading to free up the color registers. However, simply turning off the lighting would cause a jarring visual pop on the textures. 
+To mask this transition, the engine stored and calculated three distinct sets of lighting data simultaneously. 
+As an object entered the draw distance, the game bridged the unlit texture with the shaded texture, creating a smooth visual transition before the full lighting was officially disabled.
+
+#### The 8-Register Fade
+Once the Gouraud shading was successfully stripped from the distant polygons, the hardware pathways were freed up. The engine then hijacked the Saturn's 8 available color calculation ratio hardware registers. By tying these 8 transparency levels to the in-game camera's Z-depth (distance), the now-unlit polygons could cycle through 8 distinct stages of alpha blending.
+
+### The Result
+As a piece of the track approaches the camera, it smoothly fades into existence through 8 steps of transparency. Once it becomes fully opaque and gets close enough to the player, the engine dynamically reapplies the Gouraud shading. This two-part swap happens entirely in the background, tricking the player's eye and creating a smooth draw distance that most developers considered fundamentally impossible on the Sega Saturn architecture.
 
 ---
 <div>
