@@ -16,6 +16,7 @@ breadcrumbs:
     url: #
 redirect_from:
 - /writing-nes-games/
+- /nes-programming/
 recommend:
  - nes
  - snes
@@ -247,6 +248,16 @@ Mesen even comes with a HD Pack Builder Tool to create your own texture packs, f
 
 ## NES Assembly Programming
 
+### Programming the Nintendo Entertainment System
+[Levi D. Smith](https://www.youtube.com/watch?v=XT95C4fT6zA) provides a deep dive into the NES architecture, specifically detailing the 6502 CPU registers, PPU and APU memory mapping, and cartridge components like PRG and CHR ROM. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XT95C4fT6zA" frameborder="0" allowfullscreen></iframe>
+
+The presentation extensively covers writing 6502 assembly, translating high-level programming constructs like loops and subroutines into opcodes, handling hardware interrupts (NMI), reading controller I/O ports, and utilizing the five audio channels. 
+
+Finally, it demonstrates the practical application of these concepts by assembling a custom homebrew title, "Space Dude," using the NESASM3 assembler and YCHR sprite editor.
+
+
 ### Nerdy Nights NES Programming Tutorials
 The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong!
 
@@ -260,6 +271,8 @@ The original posts have been taken down but you can find a mirror here:
 [Coding Tech](https://www.youtube.com/watch?v=kXbMCKMJXXQ) presents a talk by Christian, a web developer who spent three months learning 6502 assembly to build a game for the NES. The presentation walks through the technical hurdles of retro development, from understanding ROM board architecture and the Picture Processing Unit (PPU) to writing low-level code for sprite movement and controller input using the **CC65** toolchain.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kXbMCKMJXXQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IbS7uEsHV_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## How are NES games so small (40KB)?
 The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):

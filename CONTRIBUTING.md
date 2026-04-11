@@ -119,7 +119,7 @@ Here are some of the markdown rules:
 Rules for lists:
 * Lists can improve readability when used appropriately but should only be used when the context makes sense, don't overuse lists.
 * **Never use numbered lists** - Just use `*` for all unordered lists.
-* **Always have a sentence before the list** explaining the list, never just have a list after a heading.
+* **Always have a sentence before the list** explaining the list, never just have a list after a heading. The sentence should normally end with a colon `:` and there should not be a blank line between the colon and the first list element
 
 If using a list, we have a preferred format for lists where each list item has a short bold part followed by a dash (-) and more information:
 ```markdown
@@ -194,7 +194,7 @@ Field | Purpose
 `title` | Full page title shown in the page header and metadata (do not use colons! as it messes with the yaml frontmatter)
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category. This can be a single value (`category: leak`) or a list (`category: [leak, snes]`) when a page belongs to multiple categories.
 `image` | Optional main preview image used by the page and site cards, if there is not a unique one leave it blank and it will be generated based on the category and title, for new pages leave blank (don't include)
-`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated, if in doubt leave blank
+`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated, if in doubt leave blank (avoid using but don't remove)
 `permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page
 `recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site, only use valid tags from `valid-tags.json`
@@ -202,7 +202,7 @@ Field | Purpose
 `updatedAt` | Last meaningful content update date for the page
 `excerpt` | Optional short summary for pages that need it
 `hidden` | Optional flag for pages that should not appear in normal discovery
-`videocarousel` | Optional list used only on pages that embed the video header carousel
+`videocarousel` | Optional list used only on pages that embed the video header carousel (avoid using)
 
 Some frontmatter keys are now legacy or optional:
 * **Only add optional keys when they are actually needed** - Avoid copying large frontmatter blocks from unrelated pages
@@ -226,6 +226,22 @@ If it's a link, ensure it's a valid Markdown link so it's clickable:
 # References
 [^1]: [Reference Name](https://...)
 [^2]: Page X of Book Y
+```
+
+### External links vs citations
+Footnotes are for sources backing up claims (dates, attribution, technical assertions, quotes, etc). Not every link on a page needs to be a footnote, especially when the link is there as "further reading" that you want the reader to click.
+
+If you include an external link inline as part of a sentence, keep it as a normal Markdown link and only add a footnote if the link is acting as evidence for a specific claim.
+
+If an external link is presented on its own line / paragraph or end of a sentence (not inline in a table, list, or middle of a sentence), ALWAYS use the `link-to-other-site.html` include so it renders consistently and includes a short description:
+
+```ruby
+{% raw %}
+{% include link-to-other-site.html
+  title="Example external article title"
+  url="https://example.com/article"
+  description="1-2 sentences describing why this link is relevant." %}
+{% endraw %}
 ```
 
 ---

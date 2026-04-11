@@ -25,7 +25,8 @@ editlink: /consoles/n64/N64MipsAssembly.md
 First of all in order to help support the creation of more excellent N64 MIPS tutorials, consider subscribing to Fraser here:
 [Fraser N64 - YouTube](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w)
 
-Also if you are lucky you can catch the stream live here: [fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
+Also if you are lucky you can catch the stream live here: 
+[fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
 
 ## Source Code and Resources
 You can access all the source code and resources referenced in the videos here: 
@@ -46,7 +47,6 @@ This section is based on the technical walkthrough by Fraser N64[^1] and covers 
 
 ## Essential Development Tooling
 Here is the essential software stack:
-
 * **[bass](#glossary-bass) Assembler** - The primary tool for converting assembly source into N64 ROM data. The ARM9 github fork is the standard version used for these tutorials.
 * **GCC for Windows** - Used for creating Windows-side tools or if integrating C code into the pipeline.
 * **[n64chain](#glossary-n64chain)** - Essential for projects requiring the standard C library or more complex compilation.
@@ -63,6 +63,58 @@ This view provides direct access to the MIPS architecture internals:
 * **GPRs** - General Purpose Registers. MIPS contains 32 of these (ranging from `zero` to `ra`), though roughly 30 are practically usable since a few (like the `zero` register) are hard-wired by the architecture.
 * **HI / LO Registers** - Special-purpose registers used specifically to hold the 64-bit results of integer multiplication and division.
 * **Floating Point Registers** - The Coprocessor 1 (CP1/FPU) register set natively used for floating-point mathematical operations on the N64.
+
+---
+## Repo Layout and Template Baseline
+The `N64_ASM_Videos` repo is structured as a set of self-contained projects per lesson plus a shared `LIB/` folder. Knowing where things live makes the later lessons much easier to follow.
+
+Here is the high-level layout used by the repo:
+* **Template** - A minimal bootable ROM skeleton (`Template/Template.asm`, `Template/N64_Header.asm`, `Template/make.cmd`).
+* **LIB** - Shared includes, macros, and binary assets such as `LIB/N64.INC`, `LIB/N64_GFX.INC`, and `LIB/N64_BOOTCODE.BIN`.
+* **Video002 ... Video009** - Per-video projects that repeat the same pattern: `Video00X.asm`, `N64_Header.asm`, `make.cmd`, and the built `Video00X.N64`.
+
+## Build Loop (bass + chksum64)
+The repo uses the same 2-step build loop in every `make.cmd`: assemble, then patch header checksums.
+
+For example, `Template/make.cmd` looks like this:
+```bat
+@echo off
+bass Template.asm -strict -benchmark
+chksum64 Template.N64
+```
+
+This matters because `chksum64` is not optional: without it, CRC placeholders in the header remain unpatched and the ROM often will not boot reliably in stricter emulators or on hardware.
+
+## One-Click MAME Run and Debug Scripts
+The repo includes wrapper scripts that take a ROM path and launch MAME from a fixed install directory. This avoids retyping long `mame64.exe ...` commands every iteration.
+
+The basic pattern used in `bass/run.cmd` is:
+```bat
+@echo off
+set ROM=%~dpnx1
+set OLDDIR=%CD%
+cd \mame
+mame64.exe n64 -window -cart %ROM% -switchres -nofilter
+chdir /d %OLDDIR%
+```
+
+`bass/debug.cmd` is the same idea but launches with `-debug -log -verbose` enabled so you drop straight into the debugger and get a log file.
+
+## Toolchain Shells (n64chain + gcc)
+If you also use the repo's `n64chain/` and `gcc/` tooling, it provides small helper scripts that just set `PATH` and keep a dedicated prompt open.
+
+For example, `n64chain/WinN64.cmd` is:
+```bat
+@ECHO OFF
+SET PATH=C:\n64chain\bin;%PATH%
+ECHO N64 GCC Command Prompt
+```
+
+## Repo Naming Conventions
+The repo uses simple file naming conventions to separate macros/constants from executable code:
+* **`.asm`** - Main program file (entry point + top-level flow).
+* **`.INC`** - Variables, constants, and macros (included as source).
+* **`.S`** - Function bodies, often called via macros or `jal`.
 
 ---
 ## Workflow Automation
@@ -109,6 +161,38 @@ This section covers the fundamental keywords and directives used by the [bass](#
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lOW7CAkTfig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Walkthrough: Video002.asm Minimal Bootable ROM
+The `N64_ASM_Videos` repo includes a minimal, bootable skeleton in `Video002/Video002.asm` that is a good reference for what a known-good `bass` project looks like.
+
+This is the directive block used by the repo:
+```nasm
+arch n64.cpu
+endian msb
+output "Video002.N64", create
+
+fill $0010'1000
+origin $00000000
+base $80000000
+
+include "../LIB/N64.INC"
+include "../LIB/N64_GFX.INC"
+include "N64_Header.asm"
+insert "../LIB/N64_BOOTCODE.BIN"
+```
+
+Two directives that are easy to confuse early on are `origin` and `base`:
+* `origin` is the current write cursor inside the output ROM file (a file offset).
+* `base` is the runtime address space that labels resolve to (the address you will see in the debugger).
+
+In the repo's layout, the first `0x1000` bytes are deliberately reserved for the header + bootcode. With `base $80000000`, that means the label `Start:` ends up at runtime address `0x80001000`.
+
+The repo also makes the CRC patching step explicit. `Video002/make.cmd` is:
+```bat
+@echo off
+bass Video002.asm -strict -benchmark
+chksum64 Video002.N64
+```
+
 ## Core bass Directives
 The main directives required for an N64 project include:
 * **arch** - Defines the target architecture. For the primary N64 CPU, use `arch n64.cpu`. The assembler also supports `n64.rsp` for the Reality Signal Processor and `n64.rdp` for the Reality Display Processor.
@@ -146,6 +230,8 @@ insert "n64_bootcode.bin" // Physically dumps 4KB of raw binary boot code here.
 ## The N64 Header
 This section covers the small metadata block at the start of an N64 ROM, and the handful of fields you typically touch first when building a ROM from scratch.
 
+In the `N64_ASM_Videos` repo, the header file `N64_Header.asm` is structured to occupy exactly `0x40` (64) bytes, and it is immediately followed by a `0xFC0` (4032) byte bootcode blob. Together, these add up to `0x1000` (4096) bytes, which is why the repo's entrypoint code label typically starts at `0x80001000` when `base $80000000` is used.
+
 ### Data Width Keywords
 When manually constructing the header or laying out data, you use specific keywords to tell `bass` how many bytes to allocate for the literal value:
 
@@ -176,6 +262,32 @@ Address `0x80000400` is conventionally where control is handed over to the user'
 # Lesson 003 - Registers and First 6 Instructions
 This section covers the [MIPS](#glossary-mips) architecture fundamentals, register layout, and foundational instructions.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qqf7kmUDupA?si=C-yBL11AWQm3NK9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Walkthrough: Video003 First Instructions
+The `N64_ASM_Videos` repo includes a minimal entrypoint in `Video003/Video003.asm` that is useful for understanding what these first instructions do in practice.
+
+This is the first block of real code the repo runs after `Start:`:
+```nasm
+Start:
+  lui  t0, PIF_BASE
+  addi t1, zero, 8
+  sw   t1, PIF_CTRL(t0)
+
+Loop:
+  j Loop
+  nop
+```
+
+This short sequence is doing three important things:
+* It uses `lui` to build a memory-mapped IO base address in a register (`t0`).
+* It uses `addi` with `zero` to create a small immediate (`t1 = 8`) without needing a pseudo-instruction.
+* It uses `sw base+offset` addressing to write to a specific hardware register.
+
+If you expand the address math, this write becomes very concrete:
+* `PIF_BASE` is defined in `LIB/N64.INC` as `0xBFC0`, so `lui t0, PIF_BASE` yields `t0 = 0xBFC00000`.
+* `PIF_CTRL` is defined in `LIB/N64.INC` as `0x07FC`, so `sw t1, PIF_CTRL(t0)` writes to `0xBFC00000 + 0x07FC = 0xBFC007FC`.
+
+In debuggers, you will often see these addresses sign-extended into 64-bit registers as `FFFFFFFFBFC00000` and similar values. That is normal on the VR4300 and is the same sign-extension behaviour described later in this lesson.
 
 ---
 ## Memory Hierarchy
@@ -240,6 +352,40 @@ If the highest bit (the sign bit) of the 32-bit value is `1` (indicating a negat
 This section details the Nintendo 64 memory mapping, hardware interfaces, and the assembly required to initialize the video subsystem.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FoYPe_k0Fy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Walkthrough: Video004 VI Register Init
+The `N64_ASM_Videos` repo includes a complete, explicit VI init sequence in `Video004/Video004.asm`. It is a useful reference because it shows the exact register writes the later `ScreenNTSC(...)` macro wraps.
+
+The lesson uses a classic pattern: load the VI base, then `sw` to a series of fixed offsets:
+```nasm
+lui t0, VI_BASE
+
+li  t1, BPP16
+sw  t1, VI_STATUS(t0)
+
+li  t1, $A000'0000
+sw  t1, VI_ORIGIN(t0)
+
+li  t1, 320
+sw  t1, VI_WIDTH(t0)
+```
+
+If you are new to memory-mapped IO, it helps to see the address math that `bass` is doing for you. This table shows a few of the key VI registers and how their offsets relate to the VI base address:
+
+Register | Offset | Absolute address (KSEG1)
+---|---|---
+VI_STATUS | `0x00` | `0xA4400000`
+VI_ORIGIN | `0x04` | `0xA4400004`
+VI_WIDTH | `0x08` | `0xA4400008`
+VI_X_SCALE | `0x30` | `0xA4400030`
+VI_Y_SCALE | `0x34` | `0xA4400034`
+
+Once you understand the explicit sequence, you can switch to the repo's macro in `LIB/N64_GFX.INC`:
+```nasm
+ScreenNTSC(320, 240, BPP16, $A010'0000)
+```
+
+That macro writes the same VI registers, but it also documents what the “magic” constants mean (for example, the `VI_TIMING` and `VI_H_VIDEO` fields), which makes it a good long-term reference when you start changing resolution, origin, or scaling.
+
 ## The Flat Memory Map
 When the console boots, the BIOS places the [MIPS](#glossary-mips) processor into a 32-bit kernel mode. This provides a 4 Gigabyte (`0x00000000` to `0xFFFFFFFF`) address space. Even though 64-bit mathematics are available, memory addressing remains firmly in 32-bit.
 
@@ -299,6 +445,30 @@ You achieve this by loading the same 16-bit color constant into both the upper a
 
 Now, a single `sw` (Store Word) command writes two adjacent pixels to the frame buffer simultaneously.
 
+---
+## Walkthrough: Video005 Horizontal Line (Two Pixels Per Store)
+The repo's `Video005/Video005.asm` is a concrete implementation of the pixel math described above. It draws a horizontal line by writing 32-bit words into a 16bpp framebuffer.
+
+The key trick is that the repo packs a single 16-bit color constant into *both* halfwords of a 32-bit register, so each `sw` produces two adjacent pixels of the same color:
+```nasm
+lui t0, LAWN_GREEN16
+ori t0, t0, LAWN_GREEN16
+```
+
+Then it computes the starting pixel pointer using the same formula, and loops in 4-byte steps:
+```nasm
+la   t1, $A010'0000
+addi t1, t1, ((320 * 15) + 110) * 2
+addi t2, t1, 200
+
+do_Store2Pixels:
+  sw  t0, 0(t1)
+  bne t1, t2, do_Store2Pixels
+  addi t1, t1, 4
+```
+
+This loop is also a good demonstration of why delay slots matter: the `addi t1, t1, 4` runs in the branch delay slot, so it executes even on the final iteration when the branch falls through. When you start writing your own loops, be explicit about whether your end pointer is inclusive or end-exclusive so you do not accidentally do one extra store.
+
 ## Loop Construction
 MIPS favors a do-while loop structure. The typical flow is:
 * Calculate the starting pixel address (`t1`).
@@ -353,6 +523,28 @@ To optimize this and save execution time, you can pull the counter subtraction o
 
 Because the CPU always evaluates the delay slot before taking the jump, the counter is safely decremented on every pass, speeding up the geometry rendering loop.
 
+## Walkthrough: Video006 Vertical Line (Pitch in the Delay Slot)
+The repo's `Video006/Video006.asm` shows a practical version of this optimisation pattern. It decrements the counter in the loop body, then advances the framebuffer pointer by one full row in the branch delay slot:
+```nasm
+addi t2, r0, 200
+do_Store2Pixels:
+  sw   t0, 0(t1)
+  addi t2, t2, -1
+  bne  t2, r0, do_Store2Pixels
+  addi t1, t1, 320 * 2
+```
+
+This is a good template for learning because the delay-slot instruction is a single real instruction (`addi`), not a pseudo-instruction like `li` or `la`, so it cannot expand into multiple instructions and accidentally break control flow.
+
+## Pitfall: `sw` Writes Two Pixels in 16bpp Mode
+In `Video006/Video006.asm`, the color is loaded as `lui t0, LIGHT_BLUE16` but the matching `ori` is commented out. That means the lower 16 bits of the store are `0x0000`, so each `sw` writes one LIGHT_BLUE pixel and one black pixel.
+
+If you want each `sw` to write two identical 16bpp pixels, pack the color into both halfwords:
+```nasm
+lui t0, LIGHT_BLUE16
+ori t0, t0, LIGHT_BLUE16
+```
+
 ---
 # Lesson 007 - bass Macros and Debugger Scripts
 This section covers the seventh technical walkthrough by Fraser MIPS, focusing on code restructuring using [bass](#glossary-bass) assembler macros and automating the [MAME](#glossary-mame) debugger.
@@ -360,6 +552,21 @@ This section covers the seventh technical walkthrough by Fraser MIPS, focusing o
 
 ## Restructuring with Compile-Time Macros
 It is crucial to understand that [bass](#glossary-bass) macros evaluate strictly at **compile-time**. When the assembler encounters a macro call, it literally copies and pastes the underlying instruction block into the compiled ROM at that exact location. It does not perform a function jump (`jal`). If you invoke a large macro 20 times, the code is duplicated 20 times, heavily inflating the ROM size.
+
+## Repo Macro Examples (LIB/*.INC)
+The `N64_ASM_Videos` repo leans heavily on macros in `LIB/*.INC` to keep the main `.asm` files readable while still being explicit about what gets written to hardware.
+
+Two macros you will see in almost every lesson project are:
+* `init()` from `LIB/N64.INC`, which performs early boot stabilisation and sets up a usable stack pointer.
+* `ScreenNTSC(width, height, status, origin)` from `LIB/N64_GFX.INC`, which writes the full set of VI registers using the same constants as the explicit code in `Video004/Video004.asm`.
+
+For example, later lesson files call:
+```nasm
+init()
+ScreenNTSC(320, 240, BPP16, $A010'0000)
+```
+
+When you are learning, it is worth reading the macro bodies in `LIB/N64.INC` and `LIB/N64_GFX.INC` because they also serve as documentation: the repo includes comments that describe what each VI timing constant represents.
 
 ### Macro Syntax Rules
 When declaring a macro in `bass`, you must follow strict syntax constraints:
@@ -393,6 +600,16 @@ bp 80000400
 wp 80000400, 4, rw
 ```
 
+The repo also provides a practical starting point for launching into MAME's debugger without rewriting command lines each time. `bass/debug.cmd` launches MAME with `-debug -log -verbose` enabled:
+```bat
+@echo off
+set ROM=%~dpnx1
+set OLDDIR=%CD%
+cd \mame
+mame64.exe n64 -debug -log -verbose -window -cart %ROM% -switchres -nofilter
+chdir /d %OLDDIR%
+```
+
 ### Advanced Watchpoints
 The `wp` command in the script above sets a **Watchpoint**. Unlike a standard breakpoint that halts execution when the Program Counter reaches a line of code, a watchpoint halts execution whenever a specific memory address is accessed.
 
@@ -417,16 +634,59 @@ The standard ASCII table contains 32 non-printable control characters at the beg
 
 Because of the 1bpp density, an entire 8x8 ASCII font set requires extremely little memory-roughly 760 bytes. However, the N64 hardware only draws in 16-bit or 32-bit color depths. Therefore, before the font can be drawn to the screen, a routine must parse the 1bpp data and expand it into full 16-bit colors in RAM.
 
+---
+## Repo Walkthrough: PIXEL8 Font Pipeline (Video008/Video009)
+The `N64_ASM_Videos` repo implements an end-to-end font pipeline using a 1bpp 8x8 font file and a pair of routines in `LIB/PIXEL8_UTIL.S`.
+
+At a high level, the pipeline is:
+* Insert the 1bpp font data into the ROM (the repo uses `LIB/PIXEL8.FNT`).
+* Call `pixel8_init16(...)` once to expand the 1bpp font into a 16bpp font atlas in RAM.
+* Call `pixel8_static16(...)` to blit characters from the expanded atlas into the framebuffer.
+
+The repo wraps these routines with small calling macros in `LIB/PIXEL8_UTIL.INC` so the call sites stay readable. For example, `pixel8_init16(destination, forecolor, backcolor)` is implemented as a macro that sets `a0/a1/a2` and then calls the real routine:
+```nasm
+macro pixel8_init16(destination, forecolor, backcolor) {
+  li  a0, {destination}
+  ori a1, r0, {forecolor}
+  jal pixel8_init16
+  ori a2, r0, {backcolor}
+}
+```
+
+There are two details worth noticing in that macro:
+* It uses the `jal` delay slot intentionally to load `a2` with a single real instruction (`ori`), avoiding the pseudo-instruction hazard described later in this lesson.
+* It uses registers `a0/a1/a2` because the real implementation in `LIB/PIXEL8_UTIL.S` treats those as fixed parameters (`a0 = font destination`, `a1 = forecolor`, `a2 = backcolor`).
+
+`Video008/Video008.asm` demonstrates the "expand font into RAM" step by calling `pixel8_init16(...)` twice with different color pairs. `Video009/Video009.asm` demonstrates rendering text by calling `pixel8_static16(...)` and defining a ROM string with `db "Hello World!"`.
+
+---
 ## Data Inclusion and Alignment
 Always `insert` external binary assets at the very end of your source file, far away from your program loops.
 
 ### Byte Alignment
 When inserting binary files, it is highly recommended to enforce byte alignment. You can use the `align` macro in [bass](#glossary-bass) to force the assembler to pad the file with zeros until the data sits on a clean boundary.
 ```nasm
-align 8
-insert "font.bin"
+ALIGN(8)
+include "../LIB/PIXEL8_UTIL.S"
 ```
 Aligning data to an 8-byte boundary is a defensive programming habit that prevents critical crashes when reading blocks of memory into hardware systems like the DMA (Direct Memory Access) controller later on.
+
+### Repo Detail: How pixel8_static16 Passes Position and Length
+In the repo, the `pixel8_static16(...)` macro packs the on-screen position into a single register (`a2`) to keep the call ABI simple. The upper 16 bits are `top` and the lower 16 bits are `left`.
+
+The macro builds that packed value using two real instructions, avoiding `li` in a delay slot:
+```nasm
+lui a2, {top}
+ori a2, {left}
+```
+
+Inside the implementation in `LIB/PIXEL8_UTIL.S`, the routine unpacks those halves with:
+```nasm
+srl  top, position, 16
+andi left, position, 0xFFFF
+```
+
+The macro also passes the string length in `v1` as a simple safety bound. In the repo this is set with `ori v1, zero, {length}`, which again stays as a single instruction.
 
 ---
 ## File Structure Conventions
@@ -451,6 +711,22 @@ The `jal` instruction serves two purposes:
 * It automatically saves the address of the *next* instruction into the **Return Address (`ra`)** register.
 
 Once the `expand_font_routine` finishes its work, it terminates with a **Jump Register (`jr ra`)** instruction, sending the CPU straight back to where the macro was initially called.
+
+## Repo Implementation Notes: pixel8_init16 Expansion Loop
+The repo's `LIB/PIXEL8_UTIL.S` shows what a 1bpp-to-16bpp expansion loop looks like in real VR4300 code. Conceptually, it streams bits out of the 1bpp font and writes either the foreground or background 16-bit color into a destination buffer in RAM.
+
+One interesting instruction choice in the repo is the use of a branch-likely to place the foreground store in the delay slot:
+```nasm
+bltzl t1, _continue
+sh    forecolor, 0(font_addr)
+sh    backcolor, 0(font_addr)
+```
+
+Because `bltzl` only executes its delay-slot instruction when the branch is taken, this pattern becomes a compact per-bit decision:
+* If the current bit is set, store `forecolor` (delay slot runs) and skip the `backcolor` store.
+* If the bit is not set, the delay slot is nullified and the following `sh backcolor, ...` runs instead.
+
+The routine returns the expanded font memory size (in the repo this is `0x2F80`) so higher-level code can allocate multiple font atlases in RAM without guessing sizes.
 
 ---
 ## The Delay Slot Pseudo-Instruction Trap
