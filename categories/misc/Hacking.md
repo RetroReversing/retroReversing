@@ -11,8 +11,6 @@ recommend:
  - industry
  - introduction
  - pc
-image_: /public/images/categories/Hacking.jpg
-twitterimage_: https://www.retroreversing.com/public/images/categories/Hacking.jpg
 tags:
  - industry
  - hacking

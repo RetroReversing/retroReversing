@@ -32,7 +32,12 @@ On this page, we've compiled links to the Wii U posts on RetroReversing. The sec
 
 ---
 # Hardware
-Before you start digging into binaries, it helps to understand the storage and OS-level environment the software runs under. The following page is the most directly useful hardware-adjacent starting point we currently have:
+Before you start digging into binaries, it helps to understand the storage and OS-level environment the software runs under.
+
+## Nintendo Wii U Architecture
+[Copetti.org](https://www.copetti.org/writings/consoles/wiiu/) hosts a comprehensive technical write-up detailing the internal architecture of the Nintendo Wii U. The article explores the "Espresso" CPU and "Latte" GPU, providing insights into the console's memory hierarchy and the "Starbuck" security ARM processor. It further analyzes the hardware-level backward compatibility with the Wii and the low-latency wireless protocol used for GamePad communication.
+
+{% include_cached link-to-other-site.html url="https://www.copetti.org/writings/consoles/wiiu/" description="Rodrigo Copetti provides a comprehensive architectural deep dive into the Wii U, covering its multi-core Espresso CPU, Latte GPU, and security subsystems." title="Wii U Architecture: A Practical Analysis" %}
 
 ## NAND and Storage
 The NAND layout is one of the first Wii U-specific topics worth understanding, as it impacts both data extraction and the safety of modifications:
