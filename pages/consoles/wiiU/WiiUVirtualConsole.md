@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 title: Wii U Virtual Console Reversing
 image: /public/wiiU/WiiU Virtual Console Reversing.jpg
 twitterimage: https://www.retroreversing.com/public/wiiU/WiiU Virtual Console Reversing.jpg
@@ -11,10 +11,10 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: Wii U Virtual Console Reversing
     url: #
-recommend: wiiU
+recommend: wiiu
 editlink: /consoles/wiiU/WiiUVirtualConsole.md
 updatedAt: '2019-03-04'
 ---

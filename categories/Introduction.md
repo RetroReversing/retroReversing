@@ -702,7 +702,7 @@ We have pages on each of the following **Nintendo** consoles:
 * [Nintendo GameCube (Dolphin)](https://www.retroreversing.com/gamecube/)
 * [Nintendo Wii](https://www.retroreversing.com/wii/)
 * [Nintendo 3DS](https://www.retroreversing.com/3ds/)
-* [Nintendo Wii U](https://www.retroreversing.com/wiiU/)
+* [Nintendo Wii U](https://www.retroreversing.com/wiiu)
 
 ## SEGA Consoles
 We have pages on each of the following **SEGA** consoles:

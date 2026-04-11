@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 - symbols
 - games
 title: Wii U Games with Debug symbols (UnStripped Binaries)
@@ -15,10 +15,10 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: Wii U Games with Debug symbols (UnStripped Binaries)
     url: #
-recommend: wiiU
+recommend: wiiu
 editlink: /consoles/wiiU/WiiUUnStrippedBinaries.md
 references:
   - youtube

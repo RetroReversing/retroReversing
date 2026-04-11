@@ -1,6 +1,10 @@
 ---
 permalink: /wiiu
-title: Nintendo WiiU Reverse Engineering
+redirect_from:
+  - /wiiu/
+  - /wiiU
+  - /wiiU/
+title: Nintendo Wii U Reverse Engineering
 layout: post
 recommendTitle: All WiiU Posts
 editlink: ../categories/consoles/WiiU.md
@@ -11,7 +15,7 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /consoles
-  - name: Nintendo WiiU Reverse Engineering
+  - name: Nintendo Wii U Reverse Engineering
     url: #
 tags:
   - wiiu
@@ -22,25 +26,57 @@ recommend:
 ---
 
 # Introduction
-Welcome to our page dedicated to Wii U reverse engineering! The Wii U was a gaming console released by Nintendo in 2012, and it introduced several innovative features to the gaming world, such as a touch screen on the controller and the ability to play games on both the TV and the controller. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+Welcome to our page dedicated to Wii U reverse engineering! The Wii U was a gaming console released by Nintendo in 2012. Its mix of disc titles, eShop downloads, and Virtual Console releases makes it an interesting target for digital archaeology.
 
-On this page, we've compiled a list of links to other pages that cover various topics related to Wii U reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
-
-So grab your Wii U gamepad, and get ready to dive into the exciting world of Wii U reverse engineering!
-
-{% comment %}
+On this page, we've compiled links to the Wii U posts on RetroReversing. The sections are organised so you can jump in at whatever stage you're at, whether that's unpacking a title, identifying an engine, or picking a good first game to reverse.
 
 ---
 # Hardware
-If you're interested in reverse engineering software for the Wii U gaming console, it's crucial to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Wii U hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+Before you start digging into binaries, it helps to understand the storage and OS-level environment the software runs under. The following page is the most directly useful hardware-adjacent starting point we currently have:
 
-In this section of our guide, we will provide you with comprehensive information and resources on the hardware of the Wii U, including retail, prototype, and development hardware.
+## NAND and Storage
+The NAND layout is one of the first Wii U-specific topics worth understanding, as it impacts both data extraction and the safety of modifications:
+{% include_cached link-to-other-post.html post="/WiiUNAND" description="Background on the Wii U NAND layout (SLC/MLC), common pitfalls, and why storage knowledge matters when extracting, modding, or recovering data." %}
 
-## Retail Hardware
+---
+# Reverse Engineering
+If you are actively reversing Wii U titles, these pages cover the recurring platform-level topics you will keep meeting across games:
 
-## Development Hardware
+## File Formats and Title Layout
+Start here if you want to understand how Wii U titles are packaged on disc and in eShop/NUS formats:
+{% include_cached link-to-other-post.html post="/WiiUFileFormats" description="Practical notes on common Wii U container formats, and the title layout you will repeatedly run into when dumping discs or eShop titles." %}
 
-{% endcomment %}
+## Virtual Console Internals
+If you are interested in reverse engineering Nintendo's emulation-based releases, this page covers the shared structure and where to begin looking:
+{% include_cached link-to-other-post.html post="/WiiUVirtualConsole" description="A breakdown of the common Virtual Console title structure, and what to look at when reversing Nintendo's bundled emulators." %}
+
+---
+# Middleware
+Some Wii U titles use platform-specific middleware that changes what "reverse engineering" looks like compared to a normal native title.
+
+## Nintendo Web Framework
+Some Wii U applications are effectively WebKit-based apps rather than traditional native titles, which changes what artifacts you should prioritise:
+{% include_cached link-to-other-post.html post="/WiiUNWF" description="Notes on Nintendo's WebKit-based application framework and why it matters for reverse engineering HTML5-based Wii U titles." %}
+
+---
+# Game Engines
+For many Wii U eShop titles, identifying the engine early can save time. It gives you strong hints about file formats, scripting/runtime components, and what tooling approaches tend to work.
+
+## eShop Game Engines
+If you can identify the engine up front, you can usually predict what file formats and runtime components you will run into:
+{% include_cached link-to-other-post.html post="/WiiUeShopEngines" description="A survey of third-party engines seen on the Wii U eShop and hints for identifying them inside binaries." %}
+
+## Unity Titles on the eShop
+Unity was common on the Wii U eShop, and treating it as an engine-first reverse engineering problem can be a big time saver:
+{% include_cached link-to-other-post.html post="/WiiUUnity" description="A reference list of Unity-powered Wii U eShop titles, useful for engine-specific reversing workflows." %}
+
+---
+# Games
+If you want a higher-leverage target to start with, look for titles with debug symbols or otherwise unstripped binaries.
+
+## Games with Debug Symbols
+If you want a friendlier first target, games with symbols or unstripped binaries can dramatically reduce the amount of guesswork:
+{% include_cached link-to-other-post.html post="/wii-u-unstripped" description="A large reference table of Wii U titles known to ship with debug symbols or otherwise unstripped binaries." %}
 
 
 ---

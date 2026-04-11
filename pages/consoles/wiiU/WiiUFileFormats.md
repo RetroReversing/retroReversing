@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 - fileformats
 title: Wii U File Formats
 image:  /public/wiiU/WiiUFileFormats.jpg
@@ -11,10 +11,10 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: Wii U File Formats
     url: #
-recommend: wiiU
+recommend: wiiu
 editlink: /consoles/wiiU/WiiUFileFormats.md
 ---
 

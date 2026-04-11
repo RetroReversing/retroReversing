@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 title: WiiU NAND Flash
 image: /public/wiiU/WiiUnandFlash.jpg
 twitterimage: https://www.retroreversing.com/public/wiiU/WiiUnandFlash.jpg
@@ -11,10 +11,10 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: WiiU NAND Flash
     url: #
-recommend: wiiU
+recommend: wiiu
 editlink: /consoles/wiiU/WiiUNAND.md
 updatedAt: '2019-03-02'
 ---

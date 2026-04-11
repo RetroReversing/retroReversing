@@ -41,7 +41,7 @@ If you are new to MIPS or N64 development, these terms are fundamental to the wo
 
 ---
 # Lesson 001 - Dev Environment Setup
-This section is based on the technical walkthrough by Fraser N64[^1] and covers the initial setup of a Windows-based development environment for N64 [MIPS](#glossary-mips) development.
+This section is based on the technical walkthrough by [Fraser N64](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w) and covers the initial setup of a Windows-based development environment for N64 [MIPS](#glossary-mips) development.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m_eKDuWhBo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -131,29 +131,9 @@ By creating a Windows shortcut to your batch file and modifying the target, you 
 The `/k` parameter tells the command processor to carry out the command specified by the string but remain open, leaving you at a command prompt precisely where you need to be to run repeated `bass` assembly commands. You can pin these shortcuts directly to your taskbar for quick access.
 
 ### MAME Launch Scripts
-Because developers do not use a frontend, typing the full MAME executable path and N64 launch parameters repeatedly becomes tedious. A common pattern is to create batch files that capture your ROM file and route it into MAME automatically.
+Because developers do not use a frontend, typing the full MAME executable path and N64 launch parameters repeatedly becomes tedious. A common pattern is to create a `run.cmd` and `debug.cmd` wrapper that takes a ROM path, changes into the MAME install directory, then launches MAME.
 
-Here is the standard logic for a `run.bat` script that manages directory switching and parameter passing:
-```bat
-@echo off
-set ROM_PATH=%~f1
-set OLD_DIR=%CD%
-cd /d "C:\mame"
-mame64 n64 -window -cart "%ROM_PATH%"
-cd /d "%OLD_DIR%"
-```
-
-The `%~f1` syntax is a critical Windows batch trick; it takes the first parameter passed to the script (the ROM filename) and expands it into a fully qualified absolute path name. Since MAME requires absolute paths when invoked from outside its root directory, this automatically handles the path translation.
-
-You can also duplicate this script into a `debug.bat` file to automatically attach the debugger and verbose logging flags:
-```bat
-@echo off
-set ROM_PATH=%~f1
-set OLD_DIR=%CD%
-cd /d "C:\mame"
-mame64 -debug -log -verbose n64 -window -cart "%ROM_PATH%"
-cd /d "%OLD_DIR%"
-```
+If you are following along with the `N64_ASM_Videos` repo, prefer its existing wrappers (`bass/run.cmd` and `bass/debug.cmd`) rather than inventing your own. The key detail is that the wrapper should pass an absolute ROM path (the repo uses `%~dpnx1`) so it still works after switching directories.
 
 ---
 # Lesson 002 - bass Assembler Keywords
@@ -184,14 +164,9 @@ Two directives that are easy to confuse early on are `origin` and `base`:
 * `origin` is the current write cursor inside the output ROM file (a file offset).
 * `base` is the runtime address space that labels resolve to (the address you will see in the debugger).
 
-In the repo's layout, the first `0x1000` bytes are deliberately reserved for the header + bootcode. With `base $80000000`, that means the label `Start:` ends up at runtime address `0x80001000`.
+In the repo's layout, the first `0x1000` bytes are deliberately reserved for the header + bootcode, which is why the label `Start:` typically ends up at `0x80001000` with `base $80000000` (this is explained in more detail in the header section below).
 
-The repo also makes the CRC patching step explicit. `Video002/make.cmd` is:
-```bat
-@echo off
-bass Video002.asm -strict -benchmark
-chksum64 Video002.N64
-```
+Build uses the same `make.cmd` pattern described in Lesson 001: assemble with `bass -strict -benchmark`, then run `chksum64` on the resulting ROM to patch header CRCs.
 
 ## Core bass Directives
 The main directives required for an N64 project include:
@@ -558,13 +533,7 @@ The `N64_ASM_Videos` repo leans heavily on macros in `LIB/*.INC` to keep the mai
 
 Two macros you will see in almost every lesson project are:
 * `init()` from `LIB/N64.INC`, which performs early boot stabilisation and sets up a usable stack pointer.
-* `ScreenNTSC(width, height, status, origin)` from `LIB/N64_GFX.INC`, which writes the full set of VI registers using the same constants as the explicit code in `Video004/Video004.asm`.
-
-For example, later lesson files call:
-```nasm
-init()
-ScreenNTSC(320, 240, BPP16, $A010'0000)
-```
+* `ScreenNTSC(width, height, status, origin)` from `LIB/N64_GFX.INC`, which is covered in more detail in Lesson 004 (it wraps the same VI register writes shown in `Video004/Video004.asm`).
 
 When you are learning, it is worth reading the macro bodies in `LIB/N64.INC` and `LIB/N64_GFX.INC` because they also serve as documentation: the repo includes comments that describe what each VI timing constant represents.
 
@@ -599,16 +568,7 @@ To automate breakpoints, create a simple text file (e.g., `n64_debug.txt`) in yo
 bp 80000400
 wp 80000400, 4, rw
 ```
-
-The repo also provides a practical starting point for launching into MAME's debugger without rewriting command lines each time. `bass/debug.cmd` launches MAME with `-debug -log -verbose` enabled:
-```bat
-@echo off
-set ROM=%~dpnx1
-set OLDDIR=%CD%
-cd \mame
-mame64.exe n64 -debug -log -verbose -window -cart %ROM% -switchres -nofilter
-chdir /d %OLDDIR%
-```
+If you want to launch into MAME's debugger without rewriting command lines, use the repo's `bass/debug.cmd` wrapper described earlier in Lesson 001.
 
 ### Advanced Watchpoints
 The `wp` command in the script above sets a **Watchpoint**. Unlike a standard breakpoint that halts execution when the Program Counter reaches a line of code, a watchpoint halts execution whenever a specific memory address is accessed.
@@ -735,9 +695,3 @@ The routine returns the expanded font memory size (in the repo this is `0x2F80`)
 `li` is a pseudo-instruction. The assembler automatically breaks it down into *two* separate hardware instructions (`lui` and `ori`). The branch delay slot is strictly hardware-enforced to hold only *one* single instruction. If you place an `li` there, only the `lui` half will execute before the jump takes effect, resulting in a corrupted parameter and a broken font initialization.
 
 If you must optimize a parameter load into a delay slot, explicitly write the exact single hardware instruction (like `ori` or `addi`) yourself.
-
----
-# References
-[^1]: [Fraser N64 - YouTube](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w)
-[^2]: [fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
-[^3]: [fraser125/N64_ASM_Videos: The files complementing my video series N64 MIPS Assembly](https://github.com/fraser125/N64_ASM_Videos)

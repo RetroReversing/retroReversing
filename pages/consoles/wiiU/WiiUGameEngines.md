@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 - gameengines
 title: WiiU eShop Game Engines
 image:  /public/wiiU/WiiUeShopGameEngines.jpg
@@ -11,10 +11,10 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: WiiU eShop Game Engines
     url: #
-recommend: wiiU
+recommend: wiiu
 editlink: /consoles/wiiU/WiiUGameEngines.md
 ---
 

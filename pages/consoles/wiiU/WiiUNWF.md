@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wiiU
+- wiiu
 - middleware
 - gameengines
 title: Wii U Nintendo Web Framework
@@ -12,11 +12,11 @@ breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
-    url: /wiiU
+    url: /wiiu
   - name: Wii U Nintendo Web Framework (NWF)
     url: #
 recommend: 
-  - wiiU
+  - wiiu
   - middleware
 editlink: /consoles/wiiU/WiiUNWF.md
 ---
