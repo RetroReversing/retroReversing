@@ -9,6 +9,7 @@ consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of DOS Game Development and Reverse Engineering information
 redirect_from:
  - /msdos
+ - /RetroCityRampage
 breadcrumbs:
   - name: Home
     url: /
@@ -41,6 +42,13 @@ Note that if you are interested in reversing Windows bases PC games we have a se
 ## MSX Game Reversing
 Note that if you are interested in the MSX PC we have a separate post on that topic:
 {% include_cached link-to-other-post.html post="/msx" description="For more information on the MSX check out this post." %}
+
+## Glossary of Key Terms
+If you are unfamiliar with the technical specifications of late 80s and early 90s PC hardware, this glossary provides context for the techniques mentioned:
+* <a id="glossary-mode13h"></a>**Mode 13h** - A standard VGA graphics mode providing 320x200 resolution with 256 colors from a palette of 262,144.
+* <a id="glossary-pit"></a>**PIT** - The Programmable Interval Timer (Intel 8253/8254), used for system timing and generating precise hardware interrupts.
+* <a id="glossary-irq0"></a>**IRQ0** - The highest priority hardware interrupt on the PC, typically mapped to the system timer.
+* <a id="glossary-watcom"></a>**Open Watcom** - A C/C++ compiler suite famous for its high-performance code generation for DOS extenders.
 
 ---
 # DOS-era PC Hardware
@@ -102,6 +110,28 @@ Thanks to debug symbols being found in the **Carmageddon Splat Pack** expansion 
 
 {% include link-to-other-site.html url="https://pizzalegacy.nl/blog/traffic-system.html" description="The Pizza Legacy blog explores the reverse engineering of Pizza Tycoon's 1994 traffic engine, detailing how developers managed city-wide vehicle simulation with minimal CPU overhead." image="" title="How Pizza Tycoon simulated traffic on a 25 MHz CPU" %}
 
+---
+# DOS Game Development
+
+## Porting Retro City Rampage to MS-DOS
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kSKeWH4TY9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[GDC](https://www.youtube.com/watch?v=kSKeWH4TY9Y) hosted this technical presentation by Brian Provinciano, the creator of *Retro City Rampage*. The talk details the process of back-porting a modern game to the constraints of a 1990s MS-DOS environment, specifically targeting 486-class hardware with strict memory and storage limitations.
+
+### Technical Constraints and Goals
+The porting process was defined by the need to shrink a modern codebase into a footprint compatible with legacy hardware:
+* **Target Hardware** - Minimum requirement of a 486 DX IBM PC compatible with 4MB of RAM.
+* **Operating System** - Designed for MS-DOS 3.3 or higher.
+* **Storage Limit** - The entire game, including assets, was required to fit on a single 1.44MB 3.5" high-density floppy disk.
+* **Graphics Architecture** - Utilized a simple 1-byte-per-pixel buffer to map directly to VGA memory for performance.
+
+### Optimization Strategies
+Provinciano discusses several low-level techniques used to achieve real-time performance on the 486:
+* **Reprogramming PIT** - The system timer was reprogrammed to increase precision beyond the default 55ms tick, allowing for synchronized audio and video.
+* **Inline Assembly** - Used for performance-critical sections such as hiding the mouse cursor via `int 33h` and custom tile-drawing routines.
+* **Asset Compression** - Implemented a two-stage compression pipeline: RLE (Run-Length Encoding) for fast runtime rendering and zlib for minimizing executable size on disk.
+* **Data Generation** - To save disk space, pathfinding navigation data and car collision objects were generated procedurally from world collision data rather than being stored as distinct files.
+* **Memory Management** - Aggressive use of `#ifdef` blocks to strip out modern engine features while maintaining a shared codebase between PS4 and DOS versions.
 
 ---
 ## DOS Gaming Aspect Ratio - 320x200
