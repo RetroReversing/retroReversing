@@ -18,6 +18,11 @@ tags:
 
 # Hacking History
 
+### 2000 - ILOVEYOU Virus: Technical Breakdown and Demonstration
+[NationSquid](https://www.youtube.com/watch?v=NZDiQczOsdc) features a technical overview and demonstration of the ILOVEYOU worm, focusing on its VBScript architecture and rapid propagation through the MAPI interface. The video details how the malware manipulated files and utilized social engineering to achieve widespread system infections and data loss.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NZDiQczOsdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## 2005 - Samy Worm: The Myspace XSS Exploit
 [Motherboard](https://www.youtube.com/watch?v=DtnuaHl378M) features an interview with **Samy Kamkar** detailing the infamous 2005 "Samy Worm" that took down Myspace. Kamkar explains the technical mechanics of the Cross-Site Scripting (XSS) vulnerability that allowed the worm to exponentially propagate by automatically adding him as a friend and infecting visiting profiles. The video also covers the aftermath, including the site-wide outage and the legal repercussions that led to a three-year ban from computer use.
 

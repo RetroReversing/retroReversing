@@ -24,8 +24,7 @@ recommend:
 editlink: /consoles/nes/NESDevkitHardware.md
 redirect_from:
   - /official-nes-devkit/
-  - /famicom-nes-development-kit/
-updatedAt: '2020-07-18'
+updatedAt: '2026-04-12'
 ---
 
 # Introduction
@@ -175,7 +174,8 @@ Due to the lack of official NES development kits, many companies had to reverse 
 <img src="/public/images/nes/NESMissionControDeck.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-The `Mission Control NES development kit` was created by Rocket Science Productions to help smaller developers get into the market of creating games for Nintendos new console [^1].
+
+The **Mission Control NES development kit** was created by **Rocket Science Productions** to help smaller developers get into the market of creating games for Nintendos new console [^1].
 
 It consists of a breadboard filled with chips and screwed to a plank of wood and a modified retail NES console [^2].
 
@@ -203,7 +203,7 @@ Software Creations Ltd has a problem on their hands, they wanted to develop game
 
 This Catch-22 situation resulted in Mike Webb reverse engineering the NES hardware and creating his own development kit. According to an interview in Retro Gamer Magazine issue 37 it was quite an elaborate creation consisting of a stack of RAM chips that could be written on a Commodore 64 and then read via the cartridge port of a retail NES [^4]. 
 
-You can see Mike Webb talking about the making of Solstice for NES, a game he not only programmed but also created the hardware development kit for, in the video below.
+You can see **Mike Webb** talking about the making of Solstice for NES, a game he not only programmed but also created the hardware development kit for, in the video below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/894_PNqBkx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
