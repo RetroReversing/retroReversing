@@ -567,7 +567,7 @@
       "url": "https://www.youtube.com/embed/LMhrnuj01oY?si=7orEHKZ8cIsoG6V2",
       "type": "direct_link",
       "files": [
-        "categories/misc/Books.md"
+        "pages/Industry/Books.md"
       ],
       "title": "Writing a 3D game engine without Unity like it&#39;s 1995 again",
       "author": "ciciplusplus",
@@ -598,7 +598,7 @@
       "type": "direct_link",
       "files": [
         "categories/misc/Conferences.md",
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "The History of Game Developers Conference (documentary, 2019/2020)",
       "author": "GamersGlobal",
@@ -608,7 +608,7 @@
       "url": "https://www.youtube.com/embed/VwZi58u1FjI?si=hdShaCr7SG10Am3X",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "GDC Founder Chris Crawford&#39;s Dragon Speech",
       "author": "Game Developers Conference",
@@ -618,7 +618,7 @@
       "url": "https://www.youtube.com/embed/a9DlhDRZ0yA?si=ItR3cSooTvgHatKQ",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "Shigeru Miyamoto&#39;s 1999 GDC Keynote",
       "author": "Game Developers Conference",
@@ -628,7 +628,7 @@
       "url": "https://www.youtube.com/embed/mf_bfLmoOcw?si=1BWX-c9SnLTirvkF",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "Sega Dreamcast Keynote GDC 1999 with Bernie Stolar",
       "author": "freakdave",
@@ -638,7 +638,7 @@
       "url": "https://www.youtube.com/embed/iCj0OqZ8ByQ?si=jzBl4ABpkb0XH3PN",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "GDC ( Game Development Conference ) 2000 Microsoft keynote ( Prototype Original Xbox Unveiling )",
       "author": "OG-XboxMods",
@@ -648,14 +648,14 @@
       "url": "https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "l6he8GFGPzU": {
       "url": "https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "Extended Play - GDC 2002 (incomplete)",
       "author": "ENunn",
@@ -665,7 +665,7 @@
       "url": "https://www.youtube.com/embed/MusKnL2GbQE?si=6nXzztPh3XWHkEfk",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "GDC 2004 - John Carmack Keynote",
       "author": "Charlie",
@@ -675,7 +675,7 @@
       "url": "https://www.youtube.com/embed/RMrj8gdUfCU?si=ro-uTNmYG1SfHF4q",
       "type": "direct_link",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ],
       "title": "Satoru Iwata - Heart of a Gamer",
       "author": "Game Developers Conference",
@@ -2886,7 +2886,7 @@
       "url": "https://twitter.com/dosnostalgic/status/1489032479252041736?ref_src=twsrc%5Etfw",
       "type": "direct_link",
       "files": [
-        "categories/misc/Books.md"
+        "pages/Industry/Books.md"
       ]
     },
     "1459294881139023874": {
@@ -4025,105 +4025,105 @@
       "url": "https://github.com/user-attachments/assets/0cd0b132-5159-4583-b742-a68012ca5a44",
       "alt_text": "CGDC 1993 Proceedings Cover",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "36230338-99ba-4a18-b285-38d9d6b33151": {
       "url": "https://github.com/user-attachments/assets/36230338-99ba-4a18-b285-38d9d6b33151",
       "alt_text": "CGDC 1994 Proceedings",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "300ca4a6-6c79-40ff-88cb-cddd12f95665": {
       "url": "https://github.com/user-attachments/assets/300ca4a6-6c79-40ff-88cb-cddd12f95665",
       "alt_text": "CGDC 1995",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "f171d6a3-2725-43c9-9840-8875ede96bda": {
       "url": "https://github.com/user-attachments/assets/f171d6a3-2725-43c9-9840-8875ede96bda",
       "alt_text": "CGDC 1996",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "5842bfd7-c05a-47ac-a425-35037ff9de08": {
       "url": "https://github.com/user-attachments/assets/5842bfd7-c05a-47ac-a425-35037ff9de08",
       "alt_text": "CGDC 1997",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "c471536a-b80f-44de-ad23-e8707a67fef0": {
       "url": "https://github.com/user-attachments/assets/c471536a-b80f-44de-ad23-e8707a67fef0",
       "alt_text": "The CGDC hosted an all-day class on Friday April 25 on managing game development. The classic conference classes (April 25 to 29) covered everything from programming and production to business concerns and legal issues pertinent to the industry. Also, several roundtables focused on issues of game design and the future direction of gaming. Keynote speakers at the show included John Romero, Chris Roberts, and Nolan Bushnell.\nIntensive two-day tutorials focused on object-oriented game design, creating online games with lavg.\nSoftimage development tools and techniques, and 3D Studio Max. One-day tutorials covered OpenGL, windows programming, Debabelizer, and modeling.",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "110c049a-0b02-48b1-a4dd-8370dcf1826a": {
       "url": "https://github.com/user-attachments/assets/110c049a-0b02-48b1-a4dd-8370dcf1826a",
       "alt_text": "The CGDC show has been criticized since changing hands a year ago. Formerly put on by Computer Game Developers* Association (CGDA), the CDC was known as a small homegrown operation nurtured by the tight-knit game developer community. The first annual CDC was a group of 20 people (basically the CGDA) gathered in a living room. Although\nCGDA has always held and continues to hold a stake in the proceedings, in 1996 Miller Freeman Inc. took over the show. Many bemoaned the inevitable \"growth\" that MFI meant for the CDC, arguing that heavy traffic would ruin the independent feel that was once so integral to attendees' enjoyment of the show. The 1995 show (pre-MFI) saw 2,200 people, and MFI grew the 1996 show to 4,000.",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "af8f7754-a880-4972-bb19-ea122bd464c1": {
       "url": "https://github.com/user-attachments/assets/af8f7754-a880-4972-bb19-ea122bd464c1",
       "alt_text": "GDC 1998",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "3d3b6bf1-44c6-4857-b0b0-36ed7d5a622d": {
       "url": "https://github.com/user-attachments/assets/3d3b6bf1-44c6-4857-b0b0-36ed7d5a622d",
       "alt_text": "GDC 1999",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "c95f1f00-da6e-42e0-8b2c-529f2866efcb": {
       "url": "https://github.com/user-attachments/assets/c95f1f00-da6e-42e0-8b2c-529f2866efcb",
       "alt_text": "GDC 2000",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "aa852a36-1639-4d6a-834d-2f9c6b1f63b5": {
       "url": "https://github.com/user-attachments/assets/aa852a36-1639-4d6a-834d-2f9c6b1f63b5",
       "alt_text": "GDC 2001",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "46311f37-90c9-4e9d-9fea-7e47187b18c1": {
       "url": "https://github.com/user-attachments/assets/46311f37-90c9-4e9d-9fea-7e47187b18c1",
       "alt_text": "Outside of GDC 2002",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "542ff24b-93ad-4226-851b-1e71657a45ec": {
       "url": "https://github.com/user-attachments/assets/542ff24b-93ad-4226-851b-1e71657a45ec",
       "alt_text": "GDC 2002 Proceedings",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "b7a37493-bb7b-421c-8148-cd25111f7e7b": {
       "url": "https://github.com/user-attachments/assets/b7a37493-bb7b-421c-8148-cd25111f7e7b",
       "alt_text": "GDC 2003",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "793d25a9-71b6-40e9-b91c-0111d27f98d9": {
       "url": "https://github.com/user-attachments/assets/793d25a9-71b6-40e9-b91c-0111d27f98d9",
       "alt_text": "GDC 2005",
       "files": [
-        "categories/misc/GDC.md"
+        "pages/Industry/GDC.md"
       ]
     },
     "fef02646-f3d2-41a7-a468-6109fb25e091": {

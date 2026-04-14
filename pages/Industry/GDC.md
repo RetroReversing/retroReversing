@@ -10,7 +10,7 @@ breadcrumbs:
     url: /conferences
   - name: Game Developers Conference
     url: /gdc
-editlink: ../categories/misc/GDC.md
+editlink: ../pages/Industry/GDC.md
 recommend: 
  - industry
  - introduction

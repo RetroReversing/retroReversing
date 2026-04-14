@@ -21,6 +21,7 @@ recommend:
 editlink: /consoles/gameboy/Mrdo.md
 updatedAt: '2026-04-12'
 ---
+
 # Introduction
 This page documents the official release of the assembly source for Ocean Software's Mr Do! port to the Game Boy.
 It focuses on what the code is doing (maps, chewing, actors, rendering timing, and data formats), plus how to verify it in SameBoy.
@@ -94,6 +95,7 @@ If you want to understand the game quickly, it helps to treat `mrdo.asm` as a ha
 ## Frame pipeline
 The `MAINLOOP` order is deliberate.
 The parts that must run during VBlank (tilemap updates, OAM DMA) are clustered in `SPLITSCREEN`, and the rest of gameplay runs with predictable data flow:
+
 Routine | What it does | Why it matters
 ---|---|---
 `SPLITSCREEN` | Waits for VBlank, updates status, dumps dirty tiles, prints apples, then does <a href="#glossary-oam">OAM</a> <a href="#glossary-dma">DMA</a> swaps | Coordinates tilemap writes and sprite DMA so VRAM/OAM access stays safe
@@ -177,6 +179,7 @@ CDUMP		LD	E,(HL)
 ## Scene format (maps, cherries, apples, food)
 The map/scene data (`SCENE1`..`SCENE10`) is a compact stream consumed by `DRAWMAP`.
 At a high level, each scene contains:
+
 Part | Encoding | Consumed by
 ---|---|---
 Mr Do start + initial tunnel | 4 bytes: `MRDO_Y, MRDO_X, TUNNEL_Y, TUNNEL_X` | `DRAWMAP` then `DOTUNNEL`
@@ -301,6 +304,7 @@ It is a tiny micro-optimization, but it is also a very "real world" example of t
 ## Tile ID taxonomy
 This codebase relies heavily on treating a tile ID as a semantic category, not just a graphic.
 Most comparisons are against the base constants that define the background tile groups:
+
 Constant | Value | Used as
 ---|---|---
 `WL` | `$00` | "Wall/gravel" tile group used for initial fill and tunnel shaping
@@ -365,6 +369,7 @@ Apples are driven by a compact state machine very similar to the enemy and ball 
 Each apple is a fixed-size record in `APPLESP`, and `APPLEPIE` iterates `APNUM` entries and dispatches via `APPLETAB` based on `TYP`.
 
 The apple states are:
+
 Value | Meaning | Update routine
 ---|---|---
 0 | Inactive slot | `NOAPPLE`
@@ -394,6 +399,7 @@ carried (`CARRYBALL`), thrown (`THROWBALL`), spinning out (`OUTBALL`), and retur
 
 When carried, the ball is positioned relative to Mr Do using the facing direction and a small offset table.
 The key tables are:
+
 Table | Role | Notes
 ---|---|---
 `BALLOFF` | Base XY offset from Mr Do | Indexed by direction
@@ -462,6 +468,7 @@ When the counter reaches a threshold it transitions into `INBALL` and eventually
 ---
 ## Timing, VBlank, and the window split
 Most of the rendering safety in this codebase comes from two tiny wait primitives:
+
 Routine | Mechanism | Used for
 ---|---|---
 `WAITBLANK` | Sets `LYC=144` and busy-waits for `STAT` bit 2 (LYC=LY) | Entering VBlank before touching VRAM/tilemaps
@@ -536,6 +543,7 @@ To use the textual debugger you generally:
 
 ### Suggested watchpoints
 These watchpoints catch the most important hardware edges and RAM mirrors:
+
 Target | Why it matters | SameBoy command
 ---|---|---
 `$FF46` | <a href="#glossary-oam">OAM</a> <a href="#glossary-dma">DMA</a> trigger (writes happen in `SPLITSCREEN`) | `watch/w $ff46`
@@ -789,6 +797,7 @@ That makes it easy to add different point values by passing "digit + offset" pai
 ## High score table
 High scores are stored as a simple fixed-size table (`ENTRIES = 8`) beginning at `HIGHTAB`.
 Each entry is `LINELEN = 12` bytes, laid out as:
+
 Field | Bytes | Notes
 ---|---|---
 Score | 6 | ASCII digits (same format as `REALSCORE`)
@@ -805,6 +814,7 @@ The file defines a set of fixed addresses that make its rendering and buffering 
 This is also a good example of how much you can get done on a ROM-only cartridge by leaning on careful RAM layout.
 
 Key addresses used throughout the code are:
+
 Name | Address | Notes
 ---|---|---
 `STACK` | `$CFFF` | Stack top (end of WRAM)
@@ -822,6 +832,7 @@ The game uses fixed-size records in WRAM to represent sprites and "actors".
 The comments in the `SPRITES` block give the layout, and you can see the same pattern repeated in multiple systems (Mr Do, dinos/ghosts, apples).
 
 The sprite record fields are:
+
 Field | Offset | Purpose
 ---|---|---
 `TYP` | 0 | Actor type (used as an index into jump tables)
@@ -900,6 +911,7 @@ We have written a best-effort converter that keeps the original `mrdo.asm` untou
 What it does:
 * converts `EQU`/`DEFB`/`DEFW`/`DEFS`, turns `HEX` into `db $..`, and maps each `ORG` to an explicit `SECTION`.
 * **Heuristic bank split** - The converter includes a pragmatic split so the output links as a simple ROM-only build: `ORG $800` becomes fixed ROMX bank 1 code, and the `SCENE1`+ data block is placed back into ROM0 at `$0800`.
+* **Retail-style profile** - The converter also supports a `--profile retail-mbc1` mode that attempts to produce a 64 KiB `MBC1`-style image by placing a handful of large asset blocks into banks that match signature hits in the retail ROM.
 * **Main limitation** - The original toolchain could pre-initialize RAM, but RGBDS cannot, so WRAM/HRAM sections in the output are primarily for symbol addresses (you still need real init/copy code for a working rebuild).
 * **Interrupt vector stubs** - The converter injects `reti` stubs at `$0040/$0048/$0050/$0058/$0060` because the release enables interrupts (`IE=1` then `EI`) but does not define handlers in the vector table. Without this, a rebuild will often crash or "flash" as soon as VBlank fires [^3].
 
@@ -924,13 +936,147 @@ python3 scripts/convert-mrdo-to-rgbds.py mrdo.asm build/mrdo.rgbds.asm
 If you have RGBDS installed, you can sanity-check that the output parses and links:
 ```bash
 rgbasm -o build/mrdo.o build/mrdo.rgbds.asm
-rgblink -o build/mrdo.gb build/mrdo.o
-rgbfix -v -p 0 build/mrdo.gb
+rgblink -m build/mrdo.map -n build/mrdo.sym -o build/mrdo.gb build/mrdo.o
+rgbfix -v -p 0xFF -m 0x00 -t "MRDO!" build/mrdo.gb
 ```
+
+---
+### Comparing against a retail ROM
+Once you have a retail ROM to compare against, you can use the `scripts/compare-gb-roms.py` helper to quantify how close a rebuilt image is.
+It supports three useful comparisons:
+* **Header sanity** - title, MBC type, ROM size byte, plus recalculated header/global checksums.
+* **Coverage scan** - a fast sliding-window scan that estimates how much of the rebuilt ROM appears verbatim in the retail ROM (useful for data/graphics blocks that should match exactly).
+* **Signature search from a map** - take a `rgblink -m` map from the rebuilt ROM and search for `N`-byte sequences inside the retail ROM to find where specific labels land.
+
+For a retail-like 64 KiB build attempt:
+```bash
+python3 scripts/convert-mrdo-to-rgbds.py mrdo.asm build/mrdo.retail.rgbds.asm --profile retail-mbc1
+rgbasm -o build/mrdo.retail.o build/mrdo.retail.rgbds.asm
+rgblink -m build/mrdo.retail.map -n build/mrdo.retail.sym -o build/mrdo.retail.gb build/mrdo.retail.o
+rgbfix -v -p 0xFF -m MBC1 -t "MR.DO!" build/mrdo.retail.gb
+```
+
+Then compare it against your retail ROM:
+```bash
+python3 scripts/compare-gb-roms.py \
+  --rebuilt build/mrdo.retail.gb \
+  --original build/mrdo_original.gb \
+  --map build/mrdo.retail.map \
+  --scan-map \
+  --sig-len 128 \
+  --window 256 \
+  --strings
+```
+
+---
+#### Current repo comparison results
+This repository already includes a known-good retail ROM at `build/mrdo_original.gb`, plus two rebuild outputs (`build/mrdo.gb` and `build/mrdo.retail.gb`).
+As of `2026-04-12`, the headline results are:
+
+ROM | Size | Title | Cart type | SHA256
+---|---|---|---|---
+`build/mrdo_original.gb` | 64 KiB | `MR.DO!` | `MBC1` | `c19f7ec9ff29fa438d7ef189f81711dcaedaa55c86b192d6d9020f5f7dc22702`
+`build/mrdo.retail.gb` | 64 KiB | `MR.DO!` | `MBC1` | `5095c3b154dd09d9305bedc5cf81da80b0162804546112d7cce73a95c7476ac7`
+`build/mrdo.gb` | 32 KiB | `MRDO!` | `ROM ONLY` | `bb824ead872abaf5055be48c42c01873bbda749afb400353682bea9bfc565fda`
+
+Both 64 KiB images use the same visible header identity (title `MR.DO!`, cartridge type `MBC1`, ROM size code `0x01`).
+However, neither rebuilt image matches the retail binary byte-for-byte:
+* **No exact bank matches** - none of the 16 KiB banks in `build/mrdo.retail.gb` are identical to any bank in `build/mrdo_original.gb`.
+* **High verbatim data coverage** - a 256-byte sliding window scan still finds `49600/65536` bytes (75.7%) from the rebuild somewhere in the retail ROM.
+* **Big “no-match” regions** - at the same 256-byte window size, these rebuilt regions contain no 256-byte chunk that appears anywhere in the retail ROM:
+  * `bank1:4000..bank1:56DE` (5855 bytes)
+  * `bank3:4C00..bank3:609F` (5280 bytes)
+  * `bank2:4EC0..bank2:56FF` (2112 bytes)
+  * `bank0:0000..bank0:03FF` (1024 bytes)
+
+If you use `--scan-map` with a longer signature length (128 bytes), you do start getting “anchor” hits for a handful of large `HEX` blocks and assets.
+These are useful when tightening the bank-placement heuristic for a more retail-like layout:
+
+Symbol | Rebuilt bank:addr | Retail hit bank:addr
+---|---|---
+`CBADS` | `bank3:$4C00` | `bank1:4C00`, `bank3:4C00`
+`CHEADS` | `bank2:$4D60` | `bank2:4D60`
+`CHRTABLE` | `bank0:$0400` | `bank0:0400`
+`CICONS` | `bank2:$4B20` | `bank2:4B20`
+`CLOGO` | `bank2:$4080` | `bank2:4080`
+`CMRDO` | `bank3:$4000` | `bank3:4000`
+`CMRSDO` | `bank3:$4300` | `bank3:4300`
+`CSTAR` | `bank2:$47F0` | `bank2:47F0`
+`LOGO` | `bank0:$0E3B` | `bank0:0E3B`
+
+These numbers can look contradictory at first glance (for example: a symbol can have a 128-byte signature hit, while still sitting inside a “no 256-byte window match” region).
+That is simply an artifact of the window size: 128-byte runs can match without any 256-byte run matching.
+
+---
+#### Header-level differences
+The retail ROM's banking/layout is not described by the header block embedded in the released `mrdo.asm`.
+For example, the source's `ORG $100` header declares `ROM ONLY` and a ROM size code of `0`, while the retail ROM is a 64 KiB `MBC1` image.
+
+In this repository, the retail-style converter can splice the exact `$0100-$014F` header bytes from `build/mrdo_original.gb` into the rebuilt image so the header matches retail byte-for-byte.
+This is useful for isolating layout and bank-placement differences from header/metadata differences.
+
+---
+#### Offset-aligned similarity vs relocated similarity
+There are two different “closeness” metrics that are both useful:
+* **Offset-aligned equality** - how many bytes are identical at the same file offsets.
+* **Window coverage** - how much of the rebuild appears verbatim *somewhere* in the retail ROM, even if it moved.
+
+For the current retail-style rebuild, only `16280/65536` bytes (24.8%) are identical at the same offsets, because large blocks have moved between banks and within banks.
+By contrast, the 256-byte window coverage scan finds 75.7% of rebuilt bytes occurring verbatim somewhere in retail (and 77.9% at a 128-byte window).
+
+Per-bank offset-aligned equality looks like this:
+
+Bank | Equal bytes at same offsets | Notes
+---|---|---
+bank0 | `1498/16384` (9.1%) | Header is identical, but ROM0 tables are still in flux
+bank1 | `1080/16384` (6.6%) | Bank 1 still differs heavily (code + tables)
+bank2 | `5560/16384` (33.9%) | Many assets line up at the same offsets
+bank3 | `8142/16384` (49.7%) | Largest “same-offset” overlap in this build
+
+---
+#### Why the banking/layout differs
+Even when large chunks match byte-for-byte, the bank placement and offsets can still diverge from retail.
+In practice, the biggest drivers are:
+
+* **Header vs actual cartridge** - the embedded header block in `mrdo.asm` does not reflect the retail cartridge (it declares `ROM ONLY` / size code `0` while retail is 64 KiB `MBC1`).
+* **Toolchain differences** - the original Special FX/Ocean build tools could place and pack data/code into banks differently from modern RGBDS, even when assembling the same logical source.
+* **`ORG` vs final placement** - a monolithic file with `ORG` anchors does not automatically encode the final bank split; a linker/pack step may have decided which blocks live in which bank.
+* **Late-stage layout tuning** - it is common for a final build to reorder/move blocks to reduce bank switches or reclaim space, without meaningfully changing the underlying logic.
+
+The net effect is that a build can have high “verbatim somewhere in ROM” coverage while still having low same-offset equality.
+
+---
+#### Why retail uses MBC1 even if a ROM-only build exists
+It is tempting to assume a `ROM ONLY` image implies the retail cartridge could have used a no-mapper PCB.
+In practice, a ROM-only rebuild can exist for several reasons that do not contradict a banked retail cart:
+
+* **The converter is a minimal build** - the current RGBDS output is aimed at making the release assemble, not reproducing every late-stage asset, layout, or build-flag that shipped.
+* **Retail likely had more content** - additional assets, levels, audio, bugfix code, region tweaks, or tool-generated tables can push a project past 32 KiB.
+* **Banking is also about engineering** - even when size is close, MBC banking lets you keep hot code/data in fixed areas and move large/rarely-used blocks into switchable banks.
+* **Production standardization** - studios often standardized on a cart/PCB type across multiple titles for sourcing and manufacturing, even if some games could technically squeeze into a smaller ROM.
+
+Treat the `ORG $100` header block in `mrdo.asm` as “what this particular source snapshot declares”, not as authoritative evidence for the shipped cartridge configuration.
+
+---
+#### What is in the “no 256-byte match” regions
+The 256-byte window scan flags a few large regions where **no 256-byte chunk** matches anywhere in the retail ROM.
+To make those regions actionable, here are the notable map labels that live inside them:
+
+* `bank1:4000..bank1:56DE` - tables + core code, including `DMATRANS`, `SYSETUP`, and `START`.
+* `bank2:4EC0..bank2:56FF` - large graphics blocks `CBIGMRDO` and `CBIGAPPLES`.
+* `bank3:4C00..bank3:609F` - a large asset + menu cluster starting at `CBADS`, plus `MENU`/`SLOGO`/`OPTIONS` and friends.
+* `bank0:0000..bank0:03FF` - boot/interrupt-area differences (the converter emits minimal `reti` stubs rather than retail handlers).
+
+If you see:
+* **No exact bank matches** - that is normal when the layout does not match byte-for-byte.
+* **High window coverage** - that is a strong sign that many assets are identical, even if the overall banking/layout differs.
+* **Repeated signature hits for `HEX` labels** - that is usually where the retail build stores those graphics blocks, and it is a good next target for tightening the placement map.
 
 ---
 ### Rebuilt procedure map
 This table lists every procedure-style label detected in the converted RGBDS output, along with its rebuilt `bank:addr` location, so you can set breakpoints quickly:
+The retail columns are intentionally conservative and are only filled when a 32-byte signature from that label matches verbatim at a single location inside `build/mrdo_original.gb`.
+
 Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 ---|---|---|---
 `MULTIE` | `00:06A4` |  | 
@@ -991,8 +1137,8 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `TOTOTAL` | `00:3B9C` |  | 
 `UPTOTAL` | `00:3BA1` |  | 
 `DIGITADD` | `00:3BA6` |  | 
-`DUMPENDOBJ` | `00:3BB8` |  | 
-`DUMP2BY2SEQU` | `00:3BBD` |  | 
+`DUMPENDOBJ` | `00:3BB8` | `00:35F6` | `0x35F6`
+`DUMP2BY2SEQU` | `00:3BBD` | `00:35FB` | `0x35FB`
 `CHECKHIGH` | `00:3BE9` |  | 
 `CHECKLINE` | `00:3BEE` |  | 
 `CHECKCHR` | `00:3BF4` |  | 
@@ -1054,8 +1200,8 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `GETDINO` | `01:44D2` |  | 
 `GETSP` | `01:44D8` |  | 
 `GETAPPLE` | `01:44E3` |  | 
-`GETAP` | `01:44E9` |  | 
-`FLAGS` | `01:44F4` |  | 
+`GETAP` | `01:44E9` | `00:1BE4` | `0x1BE4`
+`FLAGS` | `01:44F4` | `00:1BEF` | `0x1BEF`
 `NOT3` | `01:451B` |  | 
 `COLLISIONS` | `01:451F` |  | 
 `BALLCP` | `01:4522` |  | 
@@ -1143,9 +1289,9 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `DUMPOBJ` | `01:4ACF` |  | 
 `MPLEX` | `01:4AEE` |  | 
 `DUMPL` | `01:4B14` |  | 
-`DUMP2BY1` | `01:4B29` |  | 
+`DUMP2BY1` | `01:4B29` | `00:283A` | `0x283A`
 `DUMP1BY1` | `01:4B4F` |  | 
-`DUMP2BY2` | `01:4B73` |  | 
+`DUMP2BY2` | `01:4B73` | `00:2884` | `0x2884`
 `DUMP2BY2S` | `01:4B86` |  | 
 `MRDOCHEW` | `01:4BCA` |  | 
 `GOCHEW` | `01:4BE1` |  | 
@@ -1196,13 +1342,13 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `COPYMAP` | `01:4F41` |  | 
 `COPYM` | `01:4F4A` |  | 
 `COPYLETTER` | `01:4F53` |  | 
-`PUTLINE` | `01:4F80` |  | 
+`PUTLINE` | `01:4F80` | `00:2CFB` | `0x2CFB`
 `KEYS` | `01:4FB6` |  | 
-`PIXAD` | `01:4FED` |  | 
+`PIXAD` | `01:4FED` | `00:2D63` | `0x2D63`
 `GETMAPHI` | `01:5004` |  | 
 `GETMAPLODE` | `01:501B` |  | 
 `GETMAPLO` | `01:502D` |  | 
-`GETBYTEHI` | `01:503F` |  | 
+`GETBYTEHI` | `01:503F` | `00:2DCC` | `0x2DCC`
 `GETBYTELO` | `01:504D` |  | 
 `LOWAD` | `01:5059` |  | 
 `WAITSC` | `01:5070` |  | 
@@ -1210,8 +1356,8 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `RESETOB` | `01:5087` |  | 
 `RESETO` | `01:508B` |  | 
 `RAND` | `01:5097` |  | 
-`PRINTEXT` | `01:50B1` |  | 
-`TEXTL` | `01:50B9` |  | 
+`PRINTEXT` | `01:50B1` | `00:2E45` | `0x2E45`
+`TEXTL` | `01:50B9` | `00:2E4D` | `0x2E4D`
 `PRINTSHAPE` | `01:50C1` |  | 
 `YROWS` | `01:50C5` |  | 
 `XROWS` | `01:50C7` |  | 
@@ -1221,16 +1367,16 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `CLEARSET` | `01:50FB` |  | 
 `SHUNT` | `01:5106` |  | 
 `DISPBIN` | `01:510F` |  | 
-`DOBIN` | `01:5114` |  | 
-`ISNONE` | `01:511B` |  | 
-`CLEARSTAT` | `01:5120` |  | 
+`DOBIN` | `01:5114` | `00:2EDA` | `0x2EDA`
+`ISNONE` | `01:511B` | `00:2EE1` | `0x2EE1`
+`CLEARSTAT` | `01:5120` | `00:2EE6` | `0x2EE6`
 `CLR` | `01:512B` |  | 
 `HEXBYTE` | `01:5134` |  | 
 `HEXWORD` | `01:5139` |  | 
 `PRHEX` | `01:5143` |  | 
 `PRDEC` | `01:5158` |  | 
 `PRDECDIGITS` | `01:5160` |  | 
-`PRDEC1` | `01:516B` |  |
+`PRDEC1` | `01:516B` |  | 
 
 ## Rebuild feasibility checklist
 If you want to go from "interesting source release" to a reproducible modern build, these are the main technical unknowns to resolve:
@@ -1252,7 +1398,7 @@ If you want a quick summary of what makes this source release interesting from a
 The release is full of tiny details that give it some personality and make it easier to follow.
 Some examples you will see while browsing:
 * **"STOPS STUPID BUG!"** - A defensive load before a compare in the status-sprite dump routine.
-* **`HIGHBUFF`** - A hardcoded string containing `FROBUSH HERE` in the high-score data block.
+* `HIGHBUFF` - A hardcoded string containing `FROBUSH HERE` in the high-score data block.
 
 
 ---

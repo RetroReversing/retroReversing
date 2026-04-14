@@ -10,7 +10,7 @@ breadcrumbs:
     url: /industry
 redirect_from:
   - /book
-editlink: ../categories/misc/Books.md
+editlink: ../pages/Industry/Books.md
 recommend: industry
 image: /public/images/categories/Games Industry Books.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
