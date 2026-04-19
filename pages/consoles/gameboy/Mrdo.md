@@ -19,7 +19,7 @@ breadcrumbs:
 recommend:
 - gameboy
 editlink: /consoles/gameboy/Mrdo.md
-updatedAt: '2026-04-12'
+updatedAt: '2026-04-14'
 ---
 
 # Introduction
@@ -976,20 +976,17 @@ As of `2026-04-12`, the headline results are:
 ROM | Size | Title | Cart type | SHA256
 ---|---|---|---|---
 `build/mrdo_original.gb` | 64 KiB | `MR.DO!` | `MBC1` | `c19f7ec9ff29fa438d7ef189f81711dcaedaa55c86b192d6d9020f5f7dc22702`
-`build/mrdo.retail.gb` | 64 KiB | `MR.DO!` | `MBC1` | `5095c3b154dd09d9305bedc5cf81da80b0162804546112d7cce73a95c7476ac7`
+`build/mrdo.retail.gb` | 64 KiB | `MR.DO!` | `MBC1` | `d6e4a52072e4c6d4d1a34bd126617ce4340150cd351ddeafdcc7d842bbb6e4f3`
 `build/mrdo.gb` | 32 KiB | `MRDO!` | `ROM ONLY` | `bb824ead872abaf5055be48c42c01873bbda749afb400353682bea9bfc565fda`
 
 Both 64 KiB images use the same visible header identity (title `MR.DO!`, cartridge type `MBC1`, ROM size code `0x01`).
 However, neither rebuilt image matches the retail binary byte-for-byte:
 * **No exact bank matches** - none of the 16 KiB banks in `build/mrdo.retail.gb` are identical to any bank in `build/mrdo_original.gb`.
-* **High verbatim data coverage** - a 256-byte sliding window scan still finds `49600/65536` bytes (75.7%) from the rebuild somewhere in the retail ROM.
-* **Big “no-match” regions** - at the same 256-byte window size, these rebuilt regions contain no 256-byte chunk that appears anywhere in the retail ROM:
-  * `bank1:4000..bank1:56DE` (5855 bytes)
-  * `bank3:4C00..bank3:609F` (5280 bytes)
-  * `bank2:4EC0..bank2:56FF` (2112 bytes)
-  * `bank0:0000..bank0:03FF` (1024 bytes)
+* **High verbatim data coverage** - a 256-byte sliding window scan finds `49600/65536` bytes (75.7%) from `build/mrdo.retail.gb` somewhere in the retail ROM.
+* **Explore build coverage is lower** - the ROM-only explore build (`build/mrdo.gb`) still finds `17024/32768` bytes (52.0%) somewhere in the retail ROM, which is a useful sanity check that many assets are shared even when the overall layout differs.
+* **Different build lineage strings** - text like `"CLONE"` / `"TWINS"` / `"REMIX"` appears in the source-derived builds but does not appear in the retail ROM, which is a quick way to confirm you are not comparing a simple re-link.
 
-If you use `--scan-map` with a longer signature length (128 bytes), you do start getting “anchor” hits for a handful of large `HEX` blocks and assets.
+If you use `--scan-map` with a longer signature length (128 bytes), you do start getting "anchor" hits for a handful of large `HEX` blocks and assets.
 These are useful when tightening the bank-placement heuristic for a more retail-like layout:
 
 Symbol | Rebuilt bank:addr | Retail hit bank:addr
@@ -1004,7 +1001,7 @@ Symbol | Rebuilt bank:addr | Retail hit bank:addr
 `CSTAR` | `bank2:$47F0` | `bank2:47F0`
 `LOGO` | `bank0:$0E3B` | `bank0:0E3B`
 
-These numbers can look contradictory at first glance (for example: a symbol can have a 128-byte signature hit, while still sitting inside a “no 256-byte window match” region).
+These numbers can look contradictory at first glance (for example: a symbol can have a 128-byte signature hit, while still sitting inside a "no 256-byte window match" region).
 That is simply an artifact of the window size: 128-byte runs can match without any 256-byte run matching.
 
 ---
@@ -1014,24 +1011,25 @@ For example, the source's `ORG $100` header declares `ROM ONLY` and a ROM size c
 
 In this repository, the retail-style converter can splice the exact `$0100-$014F` header bytes from `build/mrdo_original.gb` into the rebuilt image so the header matches retail byte-for-byte.
 This is useful for isolating layout and bank-placement differences from header/metadata differences.
+If you run `rgbfix -v` afterwards, RGBDS will recalculate and overwrite the checksum fields (`$014D` and `$014E-$014F`), so the rebuilt header will no longer be byte-identical to retail even if the title/logo fields match.
 
 ---
 #### Offset-aligned similarity vs relocated similarity
-There are two different “closeness” metrics that are both useful:
+There are two different "closeness" metrics that are both useful:
 * **Offset-aligned equality** - how many bytes are identical at the same file offsets.
 * **Window coverage** - how much of the rebuild appears verbatim *somewhere* in the retail ROM, even if it moved.
 
-For the current retail-style rebuild, only `16280/65536` bytes (24.8%) are identical at the same offsets, because large blocks have moved between banks and within banks.
+For the current retail-style rebuild, only `16278/65536` bytes (24.8%) are identical at the same offsets, because large blocks have moved between banks and within banks.
 By contrast, the 256-byte window coverage scan finds 75.7% of rebuilt bytes occurring verbatim somewhere in retail (and 77.9% at a 128-byte window).
 
 Per-bank offset-aligned equality looks like this:
 
 Bank | Equal bytes at same offsets | Notes
 ---|---|---
-bank0 | `1498/16384` (9.1%) | Header is identical, but ROM0 tables are still in flux
+bank0 | `1496/16384` (9.1%) | Header is identical, but ROM0 tables are still in flux
 bank1 | `1080/16384` (6.6%) | Bank 1 still differs heavily (code + tables)
 bank2 | `5560/16384` (33.9%) | Many assets line up at the same offsets
-bank3 | `8142/16384` (49.7%) | Largest “same-offset” overlap in this build
+bank3 | `8142/16384` (49.7%) | Largest "same-offset" overlap in this build
 
 ---
 #### Why the banking/layout differs
@@ -1043,7 +1041,7 @@ In practice, the biggest drivers are:
 * **`ORG` vs final placement** - a monolithic file with `ORG` anchors does not automatically encode the final bank split; a linker/pack step may have decided which blocks live in which bank.
 * **Late-stage layout tuning** - it is common for a final build to reorder/move blocks to reduce bank switches or reclaim space, without meaningfully changing the underlying logic.
 
-The net effect is that a build can have high “verbatim somewhere in ROM” coverage while still having low same-offset equality.
+The net effect is that a build can have high "verbatim somewhere in ROM" coverage while still having low same-offset equality.
 
 ---
 #### Why retail uses MBC1 even if a ROM-only build exists
@@ -1055,10 +1053,10 @@ In practice, a ROM-only rebuild can exist for several reasons that do not contra
 * **Banking is also about engineering** - even when size is close, MBC banking lets you keep hot code/data in fixed areas and move large/rarely-used blocks into switchable banks.
 * **Production standardization** - studios often standardized on a cart/PCB type across multiple titles for sourcing and manufacturing, even if some games could technically squeeze into a smaller ROM.
 
-Treat the `ORG $100` header block in `mrdo.asm` as “what this particular source snapshot declares”, not as authoritative evidence for the shipped cartridge configuration.
+Treat the `ORG $100` header block in `mrdo.asm` as "what this particular source snapshot declares", not as authoritative evidence for the shipped cartridge configuration.
 
 ---
-#### What is in the “no 256-byte match” regions
+#### What is in the "no 256-byte match" regions
 The 256-byte window scan flags a few large regions where **no 256-byte chunk** matches anywhere in the retail ROM.
 To make those regions actionable, here are the notable map labels that live inside them:
 
@@ -1242,7 +1240,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `BADLOOP` | `01:4813` |  | 
 `WORKBADDIE` | `01:4835` |  | 
 `NOBAD` | `01:4847` |  | 
-`CIRCLE` | `01:484C` |  | 
+`CIRCLE` | `01:484C` | `00:216A` | `0x216A`
 `MOVEBADF` | `01:4876` |  | 
 `MOVEBAD` | `01:487B` |  | 
 `FINDEXITS` | `01:4889` |  | 
@@ -1292,7 +1290,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `DUMP2BY1` | `01:4B29` | `00:283A` | `0x283A`
 `DUMP1BY1` | `01:4B4F` |  | 
 `DUMP2BY2` | `01:4B73` | `00:2884` | `0x2884`
-`DUMP2BY2S` | `01:4B86` |  | 
+`DUMP2BY2S` | `01:4B86` | `00:2897` | `0x2897`
 `MRDOCHEW` | `01:4BCA` |  | 
 `GOCHEW` | `01:4BE1` |  | 
 `CHEWS` | `01:4BF2` |  | 
@@ -1376,8 +1374,56 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset
 `PRHEX` | `01:5143` |  | 
 `PRDEC` | `01:5158` |  | 
 `PRDECDIGITS` | `01:5160` |  | 
-`PRDEC1` | `01:516B` |  | 
+`PRDEC1` | `01:516B` |  |
 
+---
+### Retail offsets for known verbatim code blocks
+If you want to map the retail ROM quickly, these labels have a unique 32-byte verbatim signature match inside `build/mrdo_original.gb` (found by scanning `build/mrdo.retail.map` against the retail binary):
+
+Label | Retail bank:addr | Retail file offset
+---|---|---
+`STATLINE` | `00:0D44` | `0x0D44`
+`LOGO` | `00:0E3B` | `0x0E3B`
+`GETAP` | `00:1BE4` | `0x1BE4`
+`FLAGS` | `00:1BEF` | `0x1BEF`
+`CIRCLE` | `00:216A` | `0x216A`
+`DUMP2BY1` | `00:283A` | `0x283A`
+`DUMP2BY2` | `00:2884` | `0x2884`
+`DUMP2BY2S` | `00:2897` | `0x2897`
+`PUTLINE` | `00:2CFB` | `0x2CFB`
+`PIXAD` | `00:2D63` | `0x2D63`
+`GETBYTEHI` | `00:2DCC` | `0x2DCC`
+`PRINTEXT` | `00:2E45` | `0x2E45`
+`TEXTL` | `00:2E4D` | `0x2E4D`
+`DOBIN` | `00:2EDA` | `0x2EDA`
+`ISNONE` | `00:2EE1` | `0x2EE1`
+`CLEARSTAT` | `00:2EE6` | `0x2EE6`
+`DUMPENDOBJ` | `00:35F6` | `0x35F6`
+`DUMP2BY2SEQU` | `00:35FB` | `0x35FB`
+
+These are also good candidates for setting breakpoints in SameBoy, because you can place the breakpoint at a confirmed retail address and then work backwards to the calling code.
+
+---
+### Retail offsets for known verbatim asset blocks
+If you are mapping data/graphics rather than code, these blocks also have unique 32-byte verbatim matches in the retail ROM:
+
+Label | Retail bank:addr | Retail file offset | Hit count
+---|---|---|---
+`CHRTABLE` | `00:0400` | `0x0400` | 1
+`CTAB` | `00:09A8` | `0x09A8` | 1
+`WAVETAB` | `00:0AA4` | `0x0AA4` | 1
+`CMRDO` | `01:4600`, `03:4000`, `03:4600` | `0x4600`, `0xC000`, `0xC600` | 3
+`CBADS` | `01:4C00`, `03:4C00` | `0x4C00`, `0xCC00` | 2
+`CLOGO` | `02:4080` | `0x8080` | 1
+`CSTAR` | `02:47F0` | `0x87F0` | 1
+`CICONS` | `02:4B20` | `0x8B20` | 1
+`CHEADS` | `02:4D60` | `0x8D60` | 1
+`CFINI` | `02:5840` | `0x9840` | 1
+`CMRSDO` | `03:4300` | `0xC300` | 1
+
+When a block has multiple hits, it means the same 32-byte signature occurs in multiple places in the retail ROM (so treat those offsets as "this data exists here", not "this is the only copy").
+
+---
 ## Rebuild feasibility checklist
 If you want to go from "interesting source release" to a reproducible modern build, these are the main technical unknowns to resolve:
 * **Interrupt vectors** - `SYSETUP` sets `IE=1` and executes `EI`, but `mrdo.asm` does not obviously define an ISR ending in `RETI`. You will want to verify what the original ROM has at `$0040` and friends before leaving IME enabled.
