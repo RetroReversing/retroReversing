@@ -1049,6 +1049,24 @@ If you see:
 * **Repeated signature hits for `HEX` labels** - that is usually where the retail build stores those graphics blocks, and it is a good next target for tightening the placement map.
 
 ---
+## Retail ROM disassembly (mgbdis)
+RGBDS does not ship a disassembler, so for the retail image the most practical option is `mgbdis`:
+* **Run mgbdis** - `python3 tools/mgbdis/mgbdis.py --output-dir build/mgbdis-retail --overwrite build/mrdo_original.gb`
+* **Browse by bank** - open `build/mgbdis-retail/bank_000.asm` (ROM0), `build/mgbdis-retail/bank_001.asm`, etc.
+* **Use the table as an index** - if a procedure row is mapped to `Retail file offset` `0x35A0`, that corresponds to a `bank_000.asm` label like `Jump_000_35a0:` (and you can search for `35a0`).
+
+This gives you a stable way to sanity-check the procedure mappings and to dig into retail-only regions without needing a full emulator trace.
+
+If you want to start from the retail entrypoint, mgbdis makes it easy to follow the exact flow from the reset vector:
+* **Header entrypoint** - `Boot::` at `00:0100` (`nop; jp Jump_000_0150`).
+* **Post-header jump** - `Jump_000_0150` at `00:0150` (`jp Jump_000_173b`).
+* **First real init routine** - `Jump_000_173b` at `00:173B` (sets `SP=$CFFF` and begins calling the init/menu/game loop routines).
+
+The first few calls in `Jump_000_173b` are a good place to start comparing factoring differences between retail and the rebuilt image:
+* **ROM0 calls** - calls like `call Call_000_14ba` are within bank 0.
+* **Banked calls** - calls to `$4459` / `$4432` jump into the `ROMX` window and rely on the currently selected MBC1 bank.
+
+---
 ### Rebuilt procedure map
 This table lists every procedure-style label detected in the converted RGBDS output, along with its rebuilt `bank:addr` location, so you can set breakpoints quickly:
 The retail columns are best-effort and are only filled when the mapper script can place the routine at a single retail offset in `build/mrdo_original.gb` using either byte-signature matching or opcode-stream matching (ignoring immediates).
