@@ -4,7 +4,7 @@ tags:
 - n64
 - devkit
 - hardware
-title: Official Nintendo 64 (Ultra 64) Development Kit Hardware
+title: Nintendo 64 (Ultra 64) Development Kit Hardware (Official & Unofficial)
 category: n64
 videocarousel:
   - title: Ultra64 Development Hardware & Prototype Ultra64 Controller
@@ -24,6 +24,7 @@ twitterimage: https://www.retroreversing.com/public/N64/N64 Development Kit Hard
 permalink: /official-n64-devkit
 redirect_from:
   - /official-n64-devkit/
+  - /Bung-Doctor-v64/
 breadcrumbs:
   - name: Home
     url: /
@@ -34,7 +35,7 @@ breadcrumbs:
   - name: Official Nintendo 64 (Ultra 64) Development Kit Hardware
     url: #
 recommend: n64
-editlink: /consoles/n64/OfficialN64Devkit.md
+editlink: /consoles/n64/N64DevelopmentKitHardware.md
 references:
   - archive.org
 updatedAt: '2020-01-11'
@@ -299,10 +300,41 @@ SN Systems also released an unofficial development kit created specifically for 
 {% include_cached link-to-other-post.html post="/maestro64" description="For information about SN Systems's Maestro64 development cartridge check out this post." %}
 
 ## Bung DoctorV64
-There was also a device created by Bung which advertised itself as a development kit but many consumers used it for backing up game cartridges. 
+The Doctor V64 was a 3rd Party Development kit and Piracy device that was much cheaper than the official nintendo development kits [^19]. It is the original Creator of .v64 files (it has functionality to dump carts) and even came with a CD full of N64 roms.
 
-{% include_cached link-to-other-post.html post="/Bung-Doctor-v64" description="For information about Bung's v64 development hardware check out this post." %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HrQYdr0FY70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Development Studios known to have used The V64
+* Acclaim/Iguana (Turok series)
+
+### Technical Specifications
+* **Manufacturer:** Bung Enterprises Limited
+* **Release Date:** 1997
+* **Launch Price:** $450 USD [^20]
+* **Onboard CPU:** MOS Technology 6502 (8-bit)
+* **System Memory:** 128 megabits (16 MB) DRAM initially; later revisions included 256 megabits (32 MB) to accommodate larger games.
+* **Storage Media:** IDE CD-ROM drive (initial runs featured 8x speed; later models were upgraded to 16x and 32x).
+* **Interfacing & I/O:**
+  * Connects to the N64 via the bottom EXT expansion port (which shares the same connector pinout as the top cartridge port) [^20].
+  * Pass-through cartridge adapter to mount a retail N64 cartridge, acting solely as a donor to satisfy the console's PIF (Peripheral Interface) and CIC security handshake.
+  * Standard Parallel Port located on the rear for PC data transfer.
+
+#### Pass-through Cartridge Adapter
+The Bung Dr V64 required a cartridge to be placed in the cartridge slot in order to interrupt the signal coming from the official game cartridge and instead send the data from the V64. The original cartridge that you put in the top was just used for the CIC anti-piracy check.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Doctor V64 emulation cartridge adapter; 50-pin connector and PCB with solder across pin 9 and 10 <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> <a href="https://t.co/tqrdJB9wZU">pic.twitter.com/tqrdJB9wZU</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/958296785604067330?ref_src=twsrc%5Etfw">January 30, 2018</a></blockquote> 
+
+### Core Functionality
+* **Cartridge Dumping:** Capable of copying native N64 cartridge data directly into its internal DRAM. This data can be transmitted to a PC over the parallel connection. The ubiquitous `.v64` ROM file extension originated directly from this hardware.
+* **ROM Execution:** Loads binary game files from a CD into DRAM, allowing the console to boot them as if they were genuine cartridges.
+* **Media Playback:** Operates as a standalone external Video CD (VCD) player.
+* **System BIOS:** Utilized a custom BIOS that could be updated or replaced by pushing a new firmware file over the PC transfer cable.
+
+### Connecting a Doctor V64 to a Windows PC for N64 Development
+[BehindTheCode](https://www.youtube.com/watch?v=BgYMihpfnjo) has a detailed video demonstrating how to configure a Doctor V64 backup device with Windows 98 and Windows 7 PCs to create a complete Nintendo 64 development test station. The video explores the device's internal PCBAs and demonstrates using software like TPC2 and RTOOL64 for loading ROMs into the DrV64's internal SRAM and dumping cartridge data directly to a PC. Additionally, it highlights a rare Acclaim "ArtSend" development cartridge setup that was utilized during the creation of Turok 3.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BgYMihpfnjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 ## Rareware custom cartridges
 
 ### RAREWARE N64 security dongle
@@ -346,4 +378,6 @@ The full n64 development kit was used by Sound designer Grant Kirkhope at Rare t
 [^15]: [Duke Nukem Prototype](http://www.nintendoplayer.com/prototype/duke-nukem-64/)
 [^16]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n7)
 [^17]: [Gamasutra - Postmortem: Angel Studios Resident Evil 2 N64 Version](https://www.gamasutra.com/view/feature/131556/postmortem_angel_studios_.php?page=3)
-[^18]: [(1998) BTC #3 RARE Nintendo N64 "IS-VIEWER 64" Development Cartridge - NOW WORKING!! - YouTube](https://www.youtube.com/watch?v=FbyHw3BDJJs)
+[^18]: [BTC #3 RARE Nintendo N64 "IS-VIEWER 64" Development Cartridge - NOW WORKING!! - YouTube](https://www.youtube.com/watch?v=FbyHw3BDJJs)
+[^19]: [Bung Doctor V64! A 3rd-Party N64 Development System - H4G - YouTube](https://www.youtube.com/watch?v=8Za3DNGeP5Y)
+[^20]: [The Doctor V64 - Nintendo 64 DevKit or Piracy Device - MVG - YouTube](https://www.youtube.com/watch?v=HrQYdr0FY70)
