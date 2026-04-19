@@ -289,12 +289,154 @@ function initializeMermaidDiagrams() {
     theme: "default"
   });
 
+  function setupMermaidDiagramZoom() {
+    var mermaidContainers = document.querySelectorAll(".mermaid");
+
+    mermaidContainers.forEach(function(container) {
+      if (container.dataset.rrMermaidZoomInitialized === "true") {
+        return;
+      }
+
+      var svg = container.querySelector("svg");
+      if (!svg) {
+        return;
+      }
+
+      container.dataset.rrMermaidZoomInitialized = "true";
+      container.dataset.rrMermaidZoom = "1";
+      container.classList.add("rr-mermaid-zoom");
+
+      var canvas = document.createElement("div");
+      canvas.className = "rr-mermaid-canvas";
+
+      // Mermaid may output other nodes (e.g. <style>) alongside the SVG; keep them together.
+      while (container.firstChild) {
+        canvas.appendChild(container.firstChild);
+      }
+
+      var controls = document.createElement("div");
+      controls.className = "rr-mermaid-controls";
+
+      function makeButton(label, className, title) {
+        var button = document.createElement("button");
+        button.type = "button";
+        button.className = className;
+        button.textContent = label;
+        button.setAttribute("aria-label", title);
+        button.title = title;
+        return button;
+      }
+
+      var zoomInButton = makeButton("+", "rr-mermaid-zoom-in", "Zoom in");
+      var zoomOutButton = makeButton("−", "rr-mermaid-zoom-out", "Zoom out");
+      var resetButton = makeButton("100%", "rr-mermaid-zoom-reset", "Reset zoom");
+
+      controls.appendChild(zoomOutButton);
+      controls.appendChild(resetButton);
+      controls.appendChild(zoomInButton);
+
+      container.appendChild(controls);
+      container.appendChild(canvas);
+
+      // Re-query after we moved the DOM around.
+      svg = canvas.querySelector("svg");
+      if (!svg) {
+        return;
+      }
+
+      function getBaseSize() {
+        if (svg.dataset.rrMermaidBaseWidth && svg.dataset.rrMermaidBaseHeight) {
+          return {
+            width: parseFloat(svg.dataset.rrMermaidBaseWidth),
+            height: parseFloat(svg.dataset.rrMermaidBaseHeight)
+          };
+        }
+
+        var rect = svg.getBoundingClientRect();
+        var baseWidth = rect.width;
+        var baseHeight = rect.height;
+
+        if ((!baseWidth || !baseHeight) && svg.viewBox && svg.viewBox.baseVal) {
+          baseWidth = svg.viewBox.baseVal.width;
+          baseHeight = svg.viewBox.baseVal.height;
+        }
+
+        // Fallback to something sensible rather than breaking.
+        if (!baseWidth) {
+          baseWidth = 800;
+        }
+        if (!baseHeight) {
+          baseHeight = 400;
+        }
+
+        svg.dataset.rrMermaidBaseWidth = String(baseWidth);
+        svg.dataset.rrMermaidBaseHeight = String(baseHeight);
+
+        return {
+          width: baseWidth,
+          height: baseHeight
+        };
+      }
+
+      function applyZoom(nextZoom) {
+        var zoom = Math.max(0.5, Math.min(4, nextZoom));
+        container.dataset.rrMermaidZoom = String(zoom);
+        resetButton.textContent = Math.round(zoom * 100) + "%";
+
+        var baseSize = getBaseSize();
+        svg.style.width = (baseSize.width * zoom) + "px";
+        svg.style.height = (baseSize.height * zoom) + "px";
+        svg.style.maxWidth = "none";
+      }
+
+      function getZoom() {
+        var zoom = parseFloat(container.dataset.rrMermaidZoom || "1");
+        return Number.isFinite(zoom) ? zoom : 1;
+      }
+
+      zoomInButton.addEventListener("click", function() {
+        applyZoom(getZoom() * 1.2);
+      });
+
+      zoomOutButton.addEventListener("click", function() {
+        applyZoom(getZoom() / 1.2);
+      });
+
+      resetButton.addEventListener("click", function() {
+        applyZoom(1);
+      });
+
+      // Ctrl/⌘ + wheel zoom, double-click reset.
+      canvas.addEventListener("wheel", function(event) {
+        if (!event.ctrlKey && !event.metaKey) {
+          return;
+        }
+
+        event.preventDefault();
+
+        var direction = event.deltaY < 0 ? 1 : -1;
+        var factor = direction > 0 ? 1.12 : (1 / 1.12);
+        applyZoom(getZoom() * factor);
+      }, { passive: false });
+
+      canvas.addEventListener("dblclick", function() {
+        applyZoom(1);
+      });
+
+      // Ensure zoom starts from the actual rendered size (not a 100% CSS-constrained size).
+      applyZoom(1);
+    });
+  }
+
   if (typeof mermaid.run === "function") {
-    mermaid.run({
+    Promise.resolve(mermaid.run({
       querySelector: ".mermaid"
+    })).then(setupMermaidDiagramZoom).catch(function() {
+      // If rendering fails, don't break the rest of the page.
     });
   } else if (typeof mermaid.init === "function") {
     mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+    setupMermaidDiagramZoom();
   }
 }
 

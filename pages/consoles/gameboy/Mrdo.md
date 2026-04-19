@@ -1051,10 +1051,11 @@ If you see:
 ---
 ### Rebuilt procedure map
 This table lists every procedure-style label detected in the converted RGBDS output, along with its rebuilt `bank:addr` location, so you can set breakpoints quickly:
-The retail columns are best-effort and are only filled when the mapper script can place the routine at a single retail offset using byte-signature matching against `build/mrdo_original.gb`.
+The retail columns are best-effort and are only filled when the mapper script can place the routine at a single retail offset in `build/mrdo_original.gb` using either byte-signature matching or opcode-stream matching (ignoring immediates).
 The `Retail match` column gives a rough confidence level:
 * `entry` - the routine entrypoint bytes match retail (high confidence).
 * `in-body` - the entrypoint is inferred from multiple in-body signature matches (use as a hint, not proof).
+* `opcodes` - the instruction opcode stream matches while ignoring immediates (useful when the routine moved, but still a hint rather than proof).
 * `unverified` - the row was previously filled but could not be re-verified by the current mapper settings.
 
 Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail match
@@ -1106,19 +1107,19 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `DODIMOVE` | `00:3A58` |  |  | 
 `DUMPBIG` | `00:3A7E` | `00:33CD` | `0x33CD` | entry
 `DUMPBG` | `00:3A93` |  |  | 
-`SHOWAVERAGES` | `00:3AA2` |  |  | 
+`SHOWAVERAGES` | `00:3AA2` | `00:340A` | `0x340A` | opcodes
 `PUTAVER` | `00:3ABF` |  |  | 
 `AVELOOP` | `00:3B10` |  |  | 
 `RESETBOARD` | `00:3B29` |  |  | 
 `RESETB` | `00:3B2E` |  |  | 
 `BOARDLINED` | `00:3B41` |  |  | 
-`BOARDLINE` | `00:3B61` |  |  | 
+`BOARDLINE` | `00:3B61` | `00:358E` | `0x358E` | opcodes
 `PUTSCORE` | `00:3B73` | `00:35A0` | `0x35A0` | in-body
 `TOTOTAL` | `00:3B9C` |  |  | 
 `UPTOTAL` | `00:3BA1` |  |  | 
 `DIGITADD` | `00:3BA6` |  |  | 
 `DUMPENDOBJ` | `00:3BB8` | `00:35F6` | `0x35F6` | unverified
-`DUMP2BY2SEQU` | `00:3BBD` | `00:35FB` | `0x35FB` | entry
+`DUMP2BY2SEQU` | `00:3BBD` | `00:35FB` | `0x35FB` | in-body
 `CHECKHIGH` | `00:3BE9` |  |  | 
 `CHECKLINE` | `00:3BEE` |  |  | 
 `CHECKCHR` | `00:3BF4` |  |  | 
@@ -1127,7 +1128,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `SHUNTLINE` | `00:3C11` |  |  | 
 `PUTDIG` | `00:3C20` |  |  | 
 `PRHIGHSCORES` | `00:3C39` |  |  | 
-`PRHIGHS` | `00:3C41` |  |  | 
+`PRHIGHS` | `00:3C41` | `00:3AA7` | `0x3AA7` | opcodes
 `PRHGH` | `00:3C85` |  |  | 
 `DMATRANS` | `01:40E9` |  |  | 
 `DMAL` | `01:40EF` |  |  | 
@@ -1158,8 +1159,8 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `PRAPPLES` | `01:434C` |  |  | 
 `PRALOOP` | `01:4352` |  |  | 
 `APPLEPIE` | `01:437F` |  |  | 
-`APLOOP` | `01:4388` |  |  | 
-`WORKAPPLE` | `01:439A` |  |  | 
+`APLOOP` | `01:4388` | `00:1942` | `0x1942` | opcodes
+`WORKAPPLE` | `01:439A` | `00:1954` | `0x1954` | opcodes
 `NOAPPLE` | `01:43AD` |  |  | 
 `NOLFALL` | `01:43B0` |  |  | 
 `GOSPLIT` | `01:43B2` |  |  | 
@@ -1181,7 +1182,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `GETSP` | `01:44D8` |  |  | 
 `GETAPPLE` | `01:44E3` |  |  | 
 `GETAP` | `01:44E9` | `00:1BE4` | `0x1BE4` | unverified
-`FLAGS` | `01:44F4` | `00:1BEF` | `0x1BEF` | entry
+`FLAGS` | `01:44F4` | `00:1BEF` | `0x1BEF` | in-body
 `NOT3` | `01:451B` |  |  | 
 `COLLISIONS` | `01:451F` |  |  | 
 `BALLCP` | `01:4522` | `00:1F9D` | `0x1F9D` | in-body
@@ -1219,15 +1220,15 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `INVALID` | `01:47DD` |  |  | 
 `DOBALL` | `01:47E7` |  |  | 
 `BADDIES` | `01:480E` |  |  | 
-`BADLOOP` | `01:4813` |  |  | 
+`BADLOOP` | `01:4813` | `00:2131` | `0x2131` | opcodes
 `WORKBADDIE` | `01:4835` | `00:2153` | `0x2153` | entry
 `NOBAD` | `01:4847` |  |  | 
-`CIRCLE` | `01:484C` | `00:216A` | `0x216A` | unverified
+`CIRCLE` | `01:484C` | `00:216A` | `0x216A` | opcodes
 `MOVEBADF` | `01:4876` |  |  | 
 `MOVEBAD` | `01:487B` |  |  | 
 `FINDEXITS` | `01:4889` |  |  | 
 `NOUP` | `01:48A4` |  |  | 
-`NORT` | `01:48B0` |  |  | 
+`NORT` | `01:48B0` | `00:21DD` | `0x21DD` | opcodes
 `NODW` | `01:48C7` |  |  | 
 `NOLF` | `01:48D3` |  |  | 
 `WORKEXITS` | `01:48D6` |  |  | 
@@ -1299,10 +1300,10 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `CHRDUMPER` | `01:4D4A` |  |  | 
 `CDUMP` | `01:4D59` |  |  | 
 `PRSCORE` | `01:4D64` |  |  | 
-`SCOREADD` | `01:4D81` |  |  | 
+`SCOREADD` | `01:4D81` | `00:2AAA` | `0x2AAA` | opcodes
 `UPSCORE` | `01:4D97` |  |  | 
 `NOSCRP` | `01:4DA3` |  |  | 
-`CLOCK` | `01:4DA5` |  |  | 
+`CLOCK` | `01:4DA5` | `00:2ACE` | `0x2ACE` | opcodes
 `UPCLOCK` | `01:4DC0` |  |  | 
 `STATUS` | `01:4DC5` |  |  | 
 `STATSP` | `01:4DDE` |  |  | 
@@ -1312,17 +1313,17 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `FILLMAP` | `01:4E28` |  |  | 
 `FILLBYTE` | `01:4E3F` |  |  | 
 `PUTFOOD` | `01:4E76` |  |  | 
-`DRAWBLOCK` | `01:4E91` |  |  | 
+`DRAWBLOCK` | `01:4E91` | `00:2C07` | `0x2C07` | opcodes
 `DRWBLOCK` | `01:4EA1` | `00:2C17` | `0x2C17` | in-body
-`DOTUNNEL` | `01:4EB9` |  |  | 
-`DRAWREP` | `01:4ED2` |  |  | 
+`DOTUNNEL` | `01:4EB9` | `00:2C2F` | `0x2C2F` | opcodes
+`DRAWREP` | `01:4ED2` | `00:2C48` | `0x2C48` | opcodes
 `ENDTUNNEL` | `01:4EE6` |  |  | 
-`PUTCHERRY` | `01:4EEF` |  |  | 
+`PUTCHERRY` | `01:4EEF` | `00:2C65` | `0x2C65` | opcodes
 `PUTAPPLE` | `01:4F1F` |  |  | 
 `COPYMAP` | `01:4F41` |  |  | 
 `COPYM` | `01:4F4A` |  |  | 
-`COPYLETTER` | `01:4F53` |  |  | 
-`PUTLINE` | `01:4F80` | `00:2CFB` | `0x2CFB` | entry
+`COPYLETTER` | `01:4F53` | `00:2CCE` | `0x2CCE` | opcodes
+`PUTLINE` | `01:4F80` | `00:2CFB` | `0x2CFB` | in-body
 `KEYS` | `01:4FB6` |  |  | 
 `PIXAD` | `01:4FED` | `00:2D63` | `0x2D63` | entry
 `GETMAPHI` | `01:5004` | `00:2D7A` | `0x2D7A` | entry
@@ -1343,7 +1344,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `XROWS` | `01:50C7` | `00:2E5B` | `0x2E5B` | entry
 `DIVIDE` | `01:50DA` |  |  | 
 `DIVE` | `01:50DE` |  |  | 
-`CREATESET` | `01:50E6` |  |  | 
+`CREATESET` | `01:50E6` | `00:2EAC` | `0x2EAC` | opcodes
 `CLEARSET` | `01:50FB` |  |  | 
 `SHUNT` | `01:5106` |  |  | 
 `DISPBIN` | `01:510F` |  |  | 
@@ -1353,7 +1354,7 @@ Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail m
 `CLR` | `01:512B` |  |  | 
 `HEXBYTE` | `01:5134` |  |  | 
 `HEXWORD` | `01:5139` |  |  | 
-`PRHEX` | `01:5143` |  |  | 
+`PRHEX` | `01:5143` | `00:2F09` | `0x2F09` | opcodes
 `PRDEC` | `01:5158` |  |  | 
 `PRDECDIGITS` | `01:5160` |  |  | 
 `PRDEC1` | `01:516B` |  |  | 

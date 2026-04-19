@@ -362,6 +362,40 @@ rr-sandpack {
   text-align: center;
 }
 
+.post .mermaid.rr-mermaid-zoom {
+  position: relative;
+}
+
+.post .mermaid.rr-mermaid-zoom .rr-mermaid-canvas {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.post .mermaid.rr-mermaid-zoom .rr-mermaid-controls {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.post .mermaid.rr-mermaid-zoom .rr-mermaid-controls button {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.dark .post .mermaid.rr-mermaid-zoom .rr-mermaid-controls button {
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(17, 17, 17, 0.9);
+  color: #fff;
+}
+
 .post .mermaid svg {
   max-width: 100%;
   height: auto;
