@@ -50,13 +50,13 @@ class MarkdownSizeReporter {
         }
 
         const sorted = [...this.fileSizes].sort((a, b) => a.size - b.size);
-        const smallest = sorted.slice(0, 10);
+        const smallest = sorted.slice(0, 30);
         const largest = sorted.slice(-10).reverse();
 
         console.log(`\nTotal markdown files scanned: ${this.totalFiles}`);
         console.log(`Files with readable sizes: ${this.fileSizes.length}`);
 
-        this.printList('Top 10 Smallest Files', smallest);
+        this.printList('Top 30 Smallest Files', smallest);
         this.printList('Top 10 Largest Files', largest);
     }
 }
