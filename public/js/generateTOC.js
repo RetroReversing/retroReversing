@@ -19,7 +19,7 @@ $(document).ready(function(){
         if (!$list.length) return;
 
         if (tagName === topLevel) {
-            $list.append("<li><a class=\"jumper\" href=\"#" + id + "\">" + $this.text() + "</a></li>");
+            $list.append("<li class=\"jumper--"+tagName+"\"><a class=\"jumper\" href=\"#" + id + "\">" + $this.text() + "</a></li>");
         } else {
             $list.append("<li class=\"jumper--"+tagName+"\"><a class=\"jumper--child\" href=\"#" + id + "\">" + $this.text() + "</a></li>");
         }

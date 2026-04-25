@@ -37,7 +37,7 @@ This video provides a brief look at the Game Boy port and is useful context befo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WniQSM86SP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-# Source code release
+## Source code release
 The original release is a single monolithic assembly file (`mrdo.asm`) containing code, data tables, and large blocks of embedded graphics data [^2].
 
 Description from Paul Hughes [^1]:
@@ -89,9 +89,6 @@ Some highlights worth skimming first:
 * **2x2 meta-tiles** - The map is built from 4-tile blocks (top-left/top-right/bottom-left/bottom-right) with additional tables for "eaten" wall variants.
 * **Split-screen rendering** - `SPLITSCREEN` does a status-window pass, then triggers OAM DMA for gameplay sprites after a timing delay.
 
----
-# Deeper file tour
-If you want to understand the game quickly, it helps to treat `mrdo.asm` as a handful of tightly-coupled subsystems that run in a strict per-frame pipeline.
 
 ## Frame pipeline
 The `MAINLOOP` order is deliberate.

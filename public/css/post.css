@@ -472,12 +472,110 @@ h5 + .emoji {
 
 .post-directory-list li {
   list-style: none;
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+.post-directory-list li.jumper--H1 {
+  margin-left: 0;
+}
+
+.post-directory-list li.jumper--H2 {
+  margin-left: 12px;
+}
+
+.post-directory-list li.jumper--H3 {
+  margin-left: 24px;
+}
+
+.post-directory-list li.jumper--H4 {
+  margin-left: 32px;
+}
+
+.post-directory-list li.jumper--H5 {
+  margin-left: 38px;
+}
+
+.post-directory-list li.jumper--H6 {
+  margin-left: 44px;
+}
+
+.post-directory-list li.jumper--H1 > a {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #006d96;
+  padding: 8px 8px;
+}
+
+.post-directory-list li.jumper--H2 > a {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0085b6;
+  padding: 8px 8px;
+}
+
+.post-directory-list li.jumper--H1 + li.jumper--H1,
+.post-directory-list li.jumper--H2 + li.jumper--H2 {
+  margin-top: 8px;
+}
+
+.post-directory-list li.jumper--H3 > a {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.post-directory-list li.jumper--H4 > a,
+.post-directory-list li.jumper--H5 > a,
+.post-directory-list li.jumper--H6 > a {
+  font-size: 0.84rem;
+  font-weight: 400;
+}
+
+.post-directory-list li.jumper--H3 > a,
+.post-directory-list li.jumper--H4 > a,
+.post-directory-list li.jumper--H5 > a,
+.post-directory-list li.jumper--H6 > a {
+  position: relative;
+  padding-left: 14px;
+}
+
+.post-directory-list li.jumper--H3 > a::before,
+.post-directory-list li.jumper--H4 > a::before,
+.post-directory-list li.jumper--H5 > a::before,
+.post-directory-list li.jumper--H6 > a::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 1px;
+  background: rgba(0, 133, 182, 0.4);
 }
 
 .post-directory-list a {
   display: block;
   padding: 6px 8px;
   border-radius: 6px;
+  text-decoration: none;
+}
+
+.post-directory-list li + li {
+  margin-top: 2px;
+}
+
+.post-directory .jumper {
+  margin: 0;
+}
+
+.post-directory a.jumper--child {
+  color: #848484;
+}
+
+.post-directory a.jumper--child:hover,
+.post-directory a.jumper--child:focus {
+  color: #0085b6;
 }
 
 .post-directory-list a:focus-visible {

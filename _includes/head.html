@@ -81,7 +81,7 @@
 
   
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | relative_url }}">
 
@@ -97,7 +97,7 @@
     {% endif %}
   </title>
 
-  <!--   <link rel="canonical" href="{{ site.baseurl }}/{{ page.permalink }}" /> -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- CSS -->
 
