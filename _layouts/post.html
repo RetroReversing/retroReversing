@@ -39,7 +39,16 @@
   </main>
   <!-- /main -->
 
-  {% include_cached footer.html %}
+  {% assign has_mermaid = false %}
+  {% if page.mermaid == true or page.content contains '```mermaid' or page.content contains 'language-mermaid' or page.content contains 'lang-mermaid' %}
+    {% assign has_mermaid = true %}
+  {% endif %}
+
+  {% assign has_twitter = false %}
+  {% if page.content contains 'twitter-tweet' or page.content contains 'twitter-timeline' %}
+    {% assign has_twitter = true %}
+  {% endif %}
+  {% include_cached footer.html has_mermaid=has_mermaid has_twitter=has_twitter %}
 
  
 </body>
