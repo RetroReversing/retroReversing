@@ -2,9 +2,9 @@
 /* Don't use nesting as it doesn't work in older browsers (pre: 2023) e.g .post { a { color: blue } } */
 
 :root {
-  --color-bold: #0085b6; /* bold/strong */
+  --color-bold: #00577A; /* bold/strong */
   /* --color-link: #00a3d9; */
-  --color-link: #0085b6; /* current the same as bold */
+  --color-link: #0085b6;
   --color-text: #333;
   --color-link-hover: #006a91;
 }
@@ -341,7 +341,7 @@ table.dataTable {
 }
 
 .table > thead > tr > th {
-  color: #0085b6
+  color: var(--color-bold);
 }
 
 /* #endregion Tables */
@@ -556,6 +556,7 @@ h5 + .emoji {
   display: block;
   border-radius: 6px;
   text-decoration: none;
+  padding: 5px 0px;
 }
 
 .post-directory-list li + li {
@@ -572,11 +573,11 @@ h5 + .emoji {
 
 .post-directory a.jumper--child:hover,
 .post-directory a.jumper--child:focus {
-  color: #0085b6;
+  color: var(--color-bold);
 }
 
 .post-directory-list a:focus-visible {
-  outline: 2px solid #0085b6;
+  outline: 2px solid var(--color-bold);
   outline-offset: 2px;
 }
 
@@ -588,7 +589,7 @@ h5 + .emoji {
 
 .jumper {
   font-weight: 500;
-  color: #0085b6;
+  color: var(--color-bold);
   margin-bottom:5px;
   margin-top:15px;
 }

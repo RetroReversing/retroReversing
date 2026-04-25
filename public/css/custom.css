@@ -5,7 +5,7 @@ html {
 
 .rr-changelog-date, .rr-changelog h5 {
     font-size: 1.125rem;
-    color: #0085b6;
+    color: var(--color-bold);
 }
 
 /*  Change log start */
@@ -36,7 +36,7 @@ html {
     bottom: 0;
     left: 28px;
     width: 3px;
-    background-color: #0085b6;
+    background-color: var(--color-bold);
     border-radius: 3px;
     margin-left: 5%;
 }
@@ -85,7 +85,7 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #0085b6;
+    background-color: var(--color-bold);
     border-radius: 3px;
     -webkit-transform: skew(-2deg);
     -ms-transform: skew(-2deg);
