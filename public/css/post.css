@@ -510,8 +510,7 @@ h5 + .emoji {
 
 .post-directory-list li.jumper--H2 > a {
   font-size: 0.95rem;
-  font-weight: 700;
-  color: #0085b6;
+  font-weight: 500;
 }
 
 .post-directory-list li.jumper--H1 + li.jumper--H1,
