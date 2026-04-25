@@ -11,7 +11,9 @@ layout: none
    {% endif %}
    <url>
       <loc>https://www.retroreversing.com{{ post.url }}</loc>
-      <lastmod>{{ post.updatedAt }}</lastmod>
+      {% if post.updatedAt %}
+        <lastmod>{{ post.updatedAt }}</lastmod>
+      {% endif %}
       <changefreq>daily</changefreq>
      {% if post.priority %}
        <priority>{{ post.priority }}</priority>
