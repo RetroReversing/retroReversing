@@ -15,6 +15,7 @@
   {% include_cached video-header.html youtube=page.youtube image=page.image %}
   
   {% include_cached video-carousel.html videocarousel=page.videocarousel %}
+  {% capture rendered_post_content %}{{ content | markdownify }}{% endcapture %}
 
   <main id="main-content">
     <section>
@@ -23,13 +24,13 @@
           <div class="col-lg-9" style="padding-left: 0px;">
             <div class="post post-single">
               {% include posts/post-header.html %}
-              {{ content | markdownify }}
+              {{ rendered_post_content }}
             </div>
             {% include_cached posts/post-footer.html tags=page.tags %}
           </div>
           <aside class="col-lg-3">
             <div class="sidebar">
-              {% include_cached sources-sidebar.html references=page.references hideTOC=page.hideTOC %}
+              {% include sources-sidebar.html references=page.references hideTOC=page.hideTOC content_html=rendered_post_content %}
               {% include_cached recommended-sidebar.html recommend=page.recommend tags=page.tags recommend_title=page.recommendTitle current_url=page.url %}
             </div>
           </aside>
