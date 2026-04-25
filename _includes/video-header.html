@@ -3,7 +3,15 @@
     <div class="overlay-light"></div>
     <div class="container">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ include.youtube }}" allowfullscreen></iframe>
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}"
+          title="YouTube video"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </section>

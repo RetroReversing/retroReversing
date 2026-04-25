@@ -502,9 +502,92 @@ document.addEventListener("DOMContentLoaded", function() {
     var $tablesToEnhance = $tables.filter(onlyRowsGreaterThanMinimum);
     if (!$tablesToEnhance.length) return;
 
+    function isEligibleForDataTable($table) {
+      // DataTables expects a reasonably well-formed table with a header row.
+      // Some pages have layout/diagram tables or mixed colspan/rowspan that break initialization.
+      var hasHeaderCells = $table.find('thead tr th').length > 0;
+      if (!hasHeaderCells) return false;
+
+      var hasComplexSpans = $table.find('th[colspan],th[rowspan],td[colspan],td[rowspan]').length > 0;
+      if (hasComplexSpans) return false;
+
+      // DataTables assumes a consistent column count across the header and body rows.
+      var $headerRows = $table.find('thead tr');
+      if ($headerRows.length !== 1) return false;
+
+      var $headerRow = $headerRows.first();
+      var headerColumnCount = $headerRow.children('th,td').length;
+      if (!headerColumnCount) return false;
+
+      var $bodyRows = $table.find('tbody tr');
+      if (!$bodyRows.length) {
+        $bodyRows = $table.find('tr').not($table.find('thead tr'));
+      }
+      if (!$bodyRows.length) return false;
+
+      var hasMismatchedColumns = false;
+      $bodyRows.each(function() {
+        if ($(this).children('th,td').length !== headerColumnCount) {
+          hasMismatchedColumns = true;
+          return false;
+        }
+      });
+      if (hasMismatchedColumns) return false;
+
+      return true;
+    }
+
     function initialize() {
       if (typeof $.fn.DataTable !== 'function') return;
-      $tablesToEnhance.DataTable();
+
+      if (!window.__rrDataTablesErrorHandlerInstalled) {
+        window.__rrDataTablesErrorHandlerInstalled = true;
+        window.addEventListener('error', function(event) {
+          var message = (event && event.message) ? String(event.message) : '';
+          var filename = (event && event.filename) ? String(event.filename) : '';
+          var isDataTablesError = message.indexOf('mData') !== -1 && filename.indexOf('datatables') !== -1;
+          if (!isDataTablesError) return;
+
+          try {
+            var lastTable = window.__rrLastDataTableTable;
+            if (lastTable && typeof $ !== 'undefined') {
+              // Prevent repeated attempts on a table that DataTables cannot parse.
+              lastTable.setAttribute('data-rr-datatable-disabled', 'true');
+              if ($.fn.dataTable && typeof $.fn.dataTable.isDataTable === 'function' && $.fn.dataTable.isDataTable(lastTable)) {
+                $(lastTable).DataTable().destroy();
+              }
+            }
+          } catch (e) {
+            // Swallow cleanup errors.
+          }
+
+          if (event && typeof event.preventDefault === 'function') {
+            event.preventDefault();
+          }
+        }, true);
+      }
+
+      $tablesToEnhance.each(function() {
+        var table = this;
+        var $table = $(table);
+        if (!isEligibleForDataTable($table)) return;
+        if (table.getAttribute('data-rr-datatable-disabled') === 'true') return;
+
+        if ($.fn.dataTable && typeof $.fn.dataTable.isDataTable === 'function' && $.fn.dataTable.isDataTable(table)) {
+          return;
+        }
+
+        try {
+          window.__rrLastDataTableTable = table;
+          $table.DataTable({
+            autoWidth: false,
+            deferRender: true
+          });
+        } catch (e) {
+          // If a single table is malformed, don't break the rest of the page.
+          console.warn('DataTables init skipped for a table:', e);
+        }
+      });
     }
 
     if (typeof $.fn.DataTable === 'function') {

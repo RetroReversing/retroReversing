@@ -22,11 +22,15 @@ excerpt: Awesome list of Historic GDC Conferences including Audio and Video reco
 updatedAt: '2024-11-23'
 ---
 
-# GDC - Game Developer's Conference
-<section class="postSection">
-    <img data-image-full="https://github.com/user-attachments/assets/d3665255-3b43-4787-819f-92a49fcd1030" class="lazy-load wow slideInLeft postImage" />
-
- <div markdown="1" class="rr-post-markdown">
+<img    class="wow slideInLeft postImage"
+        src="https://github.com/user-attachments/assets/d3665255-3b43-4787-819f-92a49fcd1030"
+        width="578"
+        height="325"
+        alt="Game Developers Conference (GDC)"
+        style="margin-bottom: 10px;"
+        decoding="async"
+        fetchpriority="high"
+    />
 
 GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. 
 
@@ -35,10 +39,6 @@ Originally it was called the **Computer Game Developers Conference** but the Com
 GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. 
 
 The event includes a wide range of sessions, panels, workshops, and networking opportunities.
- </div>
-</section> 
-
-
 
 
 ## CGDC 1988
