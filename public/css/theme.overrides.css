@@ -125,7 +125,7 @@ body {
 .post .post-header > div:last-child .post-title {
   font-size: 2em;
   margin-top: 0px;
-  color: #0085b6;
+  color: var(--color-bold);
   margin-left: 0;
 }
 
