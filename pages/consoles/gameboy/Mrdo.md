@@ -52,7 +52,7 @@ The header for the source file also mentions Wesley Knackers and gives a start d
 ****************************************************************************
 *									   
 *		MR DO! (C) 1990 SPECIAL FX SOFTWARE LIMITED		   
-*									   
+*		   
 *		           BY WESLEY KNACKERS				   
 *									   
 *		  	  START DATE 28/06/90				   

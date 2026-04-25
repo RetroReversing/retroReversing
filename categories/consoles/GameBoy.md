@@ -221,6 +221,11 @@ This is a very interesting project that played a large set of gameboy games in a
 
 {% include link-to-other-site.html url="https://github.com/MrBlinky/DMG-palette-patcher" description="MrBlinky has released DMG-palette-patcher, a tool that modifies Game Boy ROM headers to trigger specific built-in color palettes on the Game Boy Color." title="DMG-palette-patcher by MrBlinky" %}
 
+### gb-save-states: Save States for Original Game Boy Hardware
+[mattcurrie](https://github.com/mattcurrie/gb-save-states) has a repository of patches that add save state functionality to Game Boy and Game Boy Color games running on original hardware. The project utilizes bsdiff patches to modify original ROM files, allowing users to save and load game states via specific button combinations on compatible flash cartridges.
+
+{% include_cached link-to-other-site.html url="https://github.com/mattcurrie/gb-save-states" description="mattcurrie has released gb-save-states, a collection of patches to add save state support to Game Boy games when playing on original hardware." title="gb-save-states by mattcurrie" %}
+
 ---
 # All Posts tagged with GameBoy
 
