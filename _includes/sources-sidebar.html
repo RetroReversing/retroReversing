@@ -2,7 +2,7 @@
 {% if include.references %}
   
       <div class="widget widget-friends">
-        <h5 class="widget-title">Sources <span>({{ include.references.size }})</span></h5>
+        <span class="widget-title">Sources <span>({{ include.references.size }})</span></span>
         <ul>
           {% for reference in site.references %}
             {% if include.references contains reference.name %}
@@ -17,7 +17,7 @@
   {% assign toc_markup_stripped = toc_markup | strip %}
   {% if toc_markup_stripped != '' %}
     <div class="post-directory widget">
-      <h2 class="widget-title">Table of Contents</h2>
+      <span class="widget-title">Table of Contents</span>
       {{ toc_markup_stripped }}
     </div>
   {% endif %}
