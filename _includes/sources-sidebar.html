@@ -13,11 +13,13 @@
   </div>
 {% endif %}
 {% if include.hideTOC != true %}
-  <div class="post-directory widget">
-    <h2 class="widget-title">Table of Contents</h2>
-    <nav class="post-directory-nav" aria-label="Table of contents">
-      <ul class="post-directory-list"></ul>
-    </nav>
-  </div>
+  {% capture toc_markup %}{% include post-toc.html content_html=include.content_html %}{% endcapture %}
+  {% assign toc_markup_stripped = toc_markup | strip %}
+  {% if toc_markup_stripped != '' %}
+    <div class="post-directory widget">
+      <h2 class="widget-title">Table of Contents</h2>
+      {{ toc_markup_stripped }}
+    </div>
+  {% endif %}
 {% endif %}
 <!-- /sources-sidebar -->

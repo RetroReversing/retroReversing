@@ -1,0 +1,35 @@
+{% assign heading_segments = include.content_html | split: '<h' %}
+{% assign top_level = 7 %}
+{% assign heading_count = 0 %}
+
+{% for heading_segment in heading_segments %}
+  {% assign heading_level = heading_segment | slice: 0, 1 | plus: 0 %}
+  {% if heading_level >= 1 and heading_level <= 6 and heading_segment contains 'id="' %}
+    {% assign heading_count = heading_count | plus: 1 %}
+    {% if heading_level < top_level %}
+      {% assign top_level = heading_level %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if heading_count > 0 %}
+  <nav class="post-directory-nav" aria-label="Table of contents">
+    <ul class="post-directory-list">
+      {% for heading_segment in heading_segments %}
+        {% assign heading_level = heading_segment | slice: 0, 1 | plus: 0 %}
+        {% if heading_level >= 1 and heading_level <= 6 and heading_segment contains 'id="' %}
+          {% assign heading_id = heading_segment | split: 'id="' | last | split: '"' | first %}
+          {% capture heading_open_tag %}{{ heading_segment | split: '>' | first }}>{% endcapture %}
+          {% assign heading_text = heading_segment | split: '</h' | first | remove_first: heading_open_tag | strip_html | strip %}
+          {% if heading_id != '' and heading_text != '' %}
+            {% assign heading_class = 'jumper--child' %}
+            {% if heading_level == top_level %}
+              {% assign heading_class = 'jumper' %}
+            {% endif %}
+            <li class="jumper--H{{ heading_level }}"><a class="{{ heading_class }}" href="#{{ heading_id }}">{{ heading_text }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}
