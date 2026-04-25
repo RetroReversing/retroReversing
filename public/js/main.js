@@ -441,7 +441,26 @@ function initializeMermaidDiagrams() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  initializeMermaidDiagrams();
+  document.querySelectorAll('[role="doc-endnote"], [role="doc-backlink"], [role="doc-noteref"]').forEach(function(el) {
+    el.removeAttribute("role");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var hasMermaidBlocks = document.querySelector("pre code.language-mermaid, pre code.lang-mermaid");
+  if (!hasMermaidBlocks) {
+    return;
+  }
+
+  function runMermaid() {
+    initializeMermaidDiagrams();
+  }
+
+  if (typeof window.requestIdleCallback === "function") {
+    window.requestIdleCallback(runMermaid, { timeout: 2500 });
+  } else {
+    setTimeout(runMermaid, 2500);
+  }
 });
 
   function setupCarousel() {
@@ -466,28 +485,38 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   }
 
-  function setupDataTables(retryCount) {
+  function setupDataTables() {
     // Table Handling
-    try {
-          // Make markdown tables have the bootstrap table class to look pretty
-          $('table').addClass('table');
+    // Make markdown tables have the bootstrap table class to look pretty
+    var $tables = $('table');
+    if (!$tables.length) return;
 
-          // We only want striped tables if the table has more than one element
-          function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
-          $('table').filter(onlyRowsGreaterThanTwo).addClass('table-striped');
+    $tables.addClass('table');
 
-          // Only use the fancy table if elements greater than minimum
-          function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length > 11 }
+    // We only want striped tables if the table has more than one element
+    function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
+    $tables.filter(onlyRowsGreaterThanTwo).addClass('table-striped');
 
+    // Only use the fancy table if elements greater than minimum
+    function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length > 11 }
+    var $tablesToEnhance = $tables.filter(onlyRowsGreaterThanMinimum);
+    if (!$tablesToEnhance.length) return;
 
-          $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
-    } catch (e) {
-      console.error("Exception with table handling:", e, retryCount);
-      if (retryCount < 5) {
-        // Try again after 10seconds
-        setTimeout(setupDataTables.bind(null, retryCount+1), 10000);
-      }
+    function initialize() {
+      if (typeof $.fn.DataTable !== 'function') return;
+      $tablesToEnhance.DataTable();
     }
+
+    if (typeof $.fn.DataTable === 'function') {
+      initialize();
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.src = 'https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js';
+    script.defer = true;
+    script.onload = initialize;
+    document.head.appendChild(script);
     //  End Table Handling
 
   }
@@ -534,7 +563,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
      $(document).ready(function() {
       setupCarousel();
-      setupDataTables(0);
+      setupDataTables();
+
+      $("img.postImage").each(function() {
+        var $img = $(this);
+        var $parent = $img.parent();
+        if ($parent && $parent.is("a[data-lightbox]")) {
+          return;
+        }
+        $img.wrap($("<a/>", {
+            href: $img.attr("src"),
+            "data-lightbox": '{"gallery": "page-images"}'
+        }));
+      });
 
       // lightbox
       // $('[data-lightbox]').lightbox();
@@ -548,9 +589,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // geopattern
       $(function() {
+        if (typeof $.fn.geopattern !== 'function') {
+          return;
+        }
         $('.geopattern').each(function geoP() {
           $(this).geopattern($(this).attr('data-title'));
-        })
+        });
       });
       // end geopattern
 
