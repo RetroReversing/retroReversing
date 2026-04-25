@@ -1066,6 +1066,13 @@ The first few calls in `Jump_000_173b` are a good place to start comparing facto
 * **ROM0 calls** - calls like `call Call_000_14ba` are within bank 0.
 * **Banked calls** - calls to `$4459` / `$4432` jump into the `ROMX` window and rely on the currently selected MBC1 bank.
 
+To quickly identify routines that look shared between the source rebuild and retail, you can use `python3 scripts/report-mrdo-retail-similar-functions.py`, which measures exact byte and opcode-stream similarity for every procedure row that currently has a retail placement.
+Some of the higher-similarity hits so far include:
+* **Map/address helpers** - `PIXAD`, `GETMAPHI`, `GETMAPLODE`, `GETBYTEHI`.
+* **Tile/sprite dump helpers** - `DUMP2BY1`, `DUMP2BY2`, `DUMP2BY2SEQU`, `DUMP2BY2S`.
+* **Gameplay loops** - `APLOOP` / `WORKAPPLE`, `BADLOOP` / `WORKBADDIE`.
+* **Score/text helpers** - `PUTSCORE`, `PUTLINE`.
+
 ---
 ### Rebuilt procedure map
 This table lists every procedure-style label detected in the converted RGBDS output, along with its rebuilt `bank:addr` location, so you can set breakpoints quickly:
@@ -1074,308 +1081,313 @@ The `Retail match` column gives a rough confidence level:
 * `entry` - the routine entrypoint bytes match retail (high confidence).
 * `in-body` - the entrypoint is inferred from multiple in-body signature matches (use as a hint, not proof).
 * `opcodes` - the instruction opcode stream matches while ignoring immediates (useful when the routine moved, but still a hint rather than proof).
+* `candidate` - a top-ranked candidate was promoted from the candidates table by passing additional similarity heuristics (treat as a strong hint, but still validate in the retail disassembly).
+* `callgraph` - promoted by matching the sequence of calls/jumps to already-mapped routines (useful when entry bytes differ heavily, but still validate in the retail disassembly).
 * `unverified` - the row was previously filled but could not be re-verified by the current mapper settings.
+The similarity columns are a quick way to see "how close" the mapped routine looks:
+* `Retail byte prefix` - number of identical bytes from the mapped entrypoint (capped and limited to the routine span within the rebuilt bank).
+* `Retail opcode prefix ops` - number of matching decoded instruction opcodes (immediates ignored), starting at the mapped entrypoint.
 
-Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail match
----|---|---|---|---
-`MULTIE` | `00:06A4` |  |  | 
-`MULTID` | `00:06A9` |  |  | 
-`MENU` | `00:363C` |  |  | 
-`SLOGO` | `00:3661` |  |  | 
-`RESETST` | `00:366F` |  |  | 
-`LOGOLOOP` | `00:3699` |  |  | 
-`WORKMENU` | `00:36B5` |  |  | 
-`EXITMENU` | `00:36D6` |  |  | 
-`OPTIONS` | `00:36E2` |  |  | 
-`NEXTUP` | `00:36FD` |  |  | 
-`NEXTMENU` | `00:3702` |  |  | 
-`NOGAME` | `00:370A` |  |  | 
-`NEWSEL` | `00:3715` |  |  | 
-`NOSEL` | `00:3723` |  |  | 
-`UPMENU` | `00:3732` |  |  | 
-`HANDYMAN` | `00:3743` |  |  | 
-`SOUNDOPT` | `00:375D` |  |  | 
-`DWMENU` | `00:3765` |  |  | 
-`LOGOPULSE` | `00:377B` |  |  | 
-`FADE` | `00:37D0` |  |  | 
-`LOGOON` | `00:37E0` |  |  | 
-`LOGON` | `00:37EB` |  |  | 
-`NOMOV` | `00:37FE` |  |  | 
-`BARREL` | `00:3803` |  |  | 
-`BARON` | `00:3810` |  |  | 
-`RASTARS` | `00:3823` |  |  | 
-`RASTAR` | `00:3832` |  |  | 
-`STARFALL` | `00:3845` | `00:31D5` | `0x31D5` | in-body
-`ANIHEAD` | `00:3872` | `00:3202` | `0x3202` | in-body
-`MENUOBJ` | `00:3894` |  |  | 
-`WORKSTAR` | `00:38AC` |  |  | 
-`STAROFF` | `00:38B7` |  |  | 
-`NOBOW` | `00:38E4` |  |  | 
-`DUMP3BY3` | `00:38F8` |  |  | 
-`SHOWRESULTS` | `00:395F` |  |  | 
-`SETBIG` | `00:3989` | `00:32DA` | `0x32DA` | in-body
-`RESLOOP` | `00:39B5` |  |  | 
-`APLM` | `00:39CE` |  |  | 
-`WORKWELL` | `00:3A1A` |  |  | 
-`EMOVE` | `00:3A30` |  |  | 
-`UPWELLY` | `00:3A3A` |  |  | 
-`UPWELL` | `00:3A3F` |  |  | 
-`ALLWAIT` | `00:3A47` |  |  | 
-`ALLMOVE` | `00:3A51` |  |  | 
-`DODIMOVE` | `00:3A58` |  |  | 
-`DUMPBIG` | `00:3A7E` | `00:33CD` | `0x33CD` | entry
-`DUMPBG` | `00:3A93` |  |  | 
-`SHOWAVERAGES` | `00:3AA2` | `00:340A` | `0x340A` | opcodes
-`PUTAVER` | `00:3ABF` |  |  | 
-`AVELOOP` | `00:3B10` |  |  | 
-`RESETBOARD` | `00:3B29` |  |  | 
-`RESETB` | `00:3B2E` |  |  | 
-`BOARDLINED` | `00:3B41` |  |  | 
-`BOARDLINE` | `00:3B61` | `00:358E` | `0x358E` | opcodes
-`PUTSCORE` | `00:3B73` | `00:35A0` | `0x35A0` | in-body
-`TOTOTAL` | `00:3B9C` |  |  | 
-`UPTOTAL` | `00:3BA1` |  |  | 
-`DIGITADD` | `00:3BA6` |  |  | 
-`DUMPENDOBJ` | `00:3BB8` | `00:35F6` | `0x35F6` | unverified
-`DUMP2BY2SEQU` | `00:3BBD` | `00:35FB` | `0x35FB` | in-body
-`CHECKHIGH` | `00:3BE9` |  |  | 
-`CHECKLINE` | `00:3BEE` |  |  | 
-`CHECKCHR` | `00:3BF4` |  |  | 
-`NEXTLINE` | `00:3BFF` |  |  | 
-`ISBIG` | `00:3C08` |  |  | 
-`SHUNTLINE` | `00:3C11` |  |  | 
-`PUTDIG` | `00:3C20` |  |  | 
-`PRHIGHSCORES` | `00:3C39` |  |  | 
-`PRHIGHS` | `00:3C41` | `00:3AA7` | `0x3AA7` | opcodes
-`PRHGH` | `00:3C85` |  |  | 
-`DMATRANS` | `01:40E9` |  |  | 
-`DMAL` | `01:40EF` |  |  | 
-`SYSETUP` | `01:40F4` |  |  | 
-`RESETV` | `01:4101` |  |  | 
-`TOINTRAM` | `01:4114` |  |  | 
-`GAMESETUP` | `01:4122` |  |  | 
-`LEVELSETUP` | `01:4141` |  |  | 
-`ISMISTER` | `01:4165` |  |  | 
-`RESETSP` | `01:4198` |  |  | 
-`SETAPPLES` | `01:41AB` |  |  | 
-`RESETEX` | `01:41BD` |  |  | 
-`SETET` | `01:420E` |  |  | 
-`START` | `01:4219` |  |  | 
-`MAINLOOP` | `01:4228` |  |  | 
-`EXITLEVEL` | `01:426A` |  |  | 
-`NOMAPR` | `01:4288` |  |  | 
-`NOLEVR` | `01:42A4` |  |  | 
-`WAITISH` | `01:42AA` |  |  | 
-`WINHOW` | `01:42B2` |  |  | 
-`EXTRALIFE` | `01:42BE` |  |  | 
-`SETEXTRA` | `01:42C8` |  |  | 
-`RESETET` | `01:42D3` |  |  | 
-`PAUSEGAME` | `01:42DE` |  |  | 
-`NOSTRT` | `01:42F3` |  |  | 
-`WAITNOK` | `01:4303` |  |  | 
-`SPLITSCREEN` | `01:430A` |  |  | 
-`PRAPPLES` | `01:434C` |  |  | 
-`PRALOOP` | `01:4352` |  |  | 
-`APPLEPIE` | `01:437F` |  |  | 
-`APLOOP` | `01:4388` | `00:1942` | `0x1942` | opcodes
-`WORKAPPLE` | `01:439A` | `00:1954` | `0x1954` | opcodes
-`NOAPPLE` | `01:43AD` |  |  | 
-`NOLFALL` | `01:43B0` |  |  | 
-`GOSPLIT` | `01:43B2` |  |  | 
-`APPLEWAIT` | `01:43BA` |  |  | 
-`APPLEJIG` | `01:43D5` |  |  | 
-`APPLEFALL` | `01:43E4` |  |  | 
-`LEEV0` | `01:4419` |  |  | 
-`LEEV1` | `01:442B` |  |  | 
-`FLOUT` | `01:442D` |  |  | 
-`HLOUT` | `01:443E` |  |  | 
-`REPBACK` | `01:4440` |  |  | 
-`STOPAFALL` | `01:444B` |  |  | 
-`APPLESPLIT` | `01:4455` |  |  | 
-`NOASPL` | `01:4461` |  |  | 
-`LEEV2` | `01:4493` |  |  | 
-`LEEV3` | `01:44A5` | `00:1ABA` | `0x1ABA` | entry
-`BRINGON` | `01:44BE` |  |  | 
-`GETDINO` | `01:44D2` |  |  | 
-`GETSP` | `01:44D8` |  |  | 
-`GETAPPLE` | `01:44E3` |  |  | 
-`GETAP` | `01:44E9` | `00:1BE4` | `0x1BE4` | unverified
-`FLAGS` | `01:44F4` | `00:1BEF` | `0x1BEF` | in-body
-`NOT3` | `01:451B` |  |  | 
-`COLLISIONS` | `01:451F` |  |  | 
-`BALLCP` | `01:4522` | `00:1F9D` | `0x1F9D` | in-body
-`BALLCPL` | `01:4535` | `00:1FB0` | `0x1FB0` | in-body
-`NBALLCP` | `01:4551` |  |  | 
-`MRDOCATCH` | `01:455A` |  |  | 
-`GHOSTDIE` | `01:4563` |  |  | 
-`NOTLASTG` | `01:4574` |  |  | 
-`EXDIE` | `01:4582` |  |  | 
-`GAPPLE` | `01:45D6` |  |  | 
-`GOAPPLE` | `01:45DF` |  |  | 
-`GOBALLBANG` | `01:45FE` |  |  | 
-`BALLSCORE` | `01:4606` |  |  | 
-`DUFKILL` | `01:462B` |  |  | 
-`EATCHERRY` | `01:462D` |  |  | 
-`NOCHSEQU` | `01:4651` |  |  | 
-`RESCHSEQU` | `01:4656` |  |  | 
-`EATWALL` | `01:4668` |  |  | 
-`EATFOOD` | `01:4675` |  |  | 
-`GETLET` | `01:46A0` |  |  | 
-`GOTLET` | `01:46AB` |  |  | 
-`ISOUT` | `01:46D1` |  |  | 
-`PUTGHST` | `01:46D8` |  |  | 
-`SETGHST` | `01:46E1` |  |  | 
-`DECODE` | `01:46F5` |  |  | 
-`NOGODEL` | `01:4700` |  |  | 
-`NODECBON` | `01:470A` |  |  | 
-`DECODER` | `01:4734` |  |  | 
-`ISSLOW` | `01:4749` |  |  | 
-`NOSLOW` | `01:4751` |  |  | 
-`INVALIDX` | `01:4776` |  |  | 
-`NEWMOVE` | `01:4790` |  |  | 
-`NOWRAP` | `01:479D` |  |  | 
-`NOSCROLL` | `01:47C4` |  |  | 
-`INVALID` | `01:47DD` |  |  | 
-`DOBALL` | `01:47E7` |  |  | 
-`BADDIES` | `01:480E` |  |  | 
-`BADLOOP` | `01:4813` | `00:2131` | `0x2131` | opcodes
-`WORKBADDIE` | `01:4835` | `00:2153` | `0x2153` | entry
-`NOBAD` | `01:4847` |  |  | 
-`CIRCLE` | `01:484C` | `00:216A` | `0x216A` | opcodes
-`MOVEBADF` | `01:4876` |  |  | 
-`MOVEBAD` | `01:487B` |  |  | 
-`FINDEXITS` | `01:4889` |  |  | 
-`NOUP` | `01:48A4` |  |  | 
-`NORT` | `01:48B0` | `00:21DD` | `0x21DD` | opcodes
-`NODW` | `01:48C7` |  |  | 
-`NOLF` | `01:48D3` |  |  | 
-`WORKEXITS` | `01:48D6` |  |  | 
-`CHANGEDIR` | `01:48EA` |  |  | 
-`FINDEX` | `01:48F4` |  |  | 
-`GOEXIT` | `01:4902` |  |  | 
-`DINODE` | `01:4907` |  |  | 
-`DINO` | `01:4909` |  |  | 
-`DINOMOVE` | `01:491A` |  |  | 
-`DINOEAT` | `01:492A` |  |  | 
-`DINOPUSH` | `01:492C` |  |  | 
-`EXDANCE` | `01:492E` |  |  | 
-`NOEXFL` | `01:4941` |  |  | 
-`UPTYPE` | `01:4973` |  |  | 
-`EXUP` | `01:4979` |  |  | 
-`EXEAT` | `01:4985` |  |  | 
-`EXWALK` | `01:4987` |  |  | 
-`EXMOVE` | `01:4998` |  |  | 
-`EXOUT` | `01:49A1` |  |  | 
-`GHOST` | `01:49A3` |  |  | 
-`GHOSTMOVE` | `01:49B4` |  |  | 
-`GHOSTR` | `01:49C0` |  |  | 
-`GHOSTEAT` | `01:49C7` |  |  | 
-`CARRYBALL` | `01:49C9` |  |  | 
-`THROWBALL` | `01:49EE` |  |  | 
-`CDEL0` | `01:49F8` |  |  | 
-`ISCHN` | `01:4A06` |  |  | 
-`NOCHWL` | `01:4A16` |  |  | 
-`BCHECK` | `01:4A24` |  |  | 
-`NRNDB` | `01:4A3A` |  |  | 
-`NOBHIT` | `01:4A3D` |  |  | 
-`NOCHN` | `01:4A41` |  |  | 
-`OUTBALL` | `01:4A50` |  |  | 
-`GOINBALL` | `01:4A7D` |  |  | 
-`INBALL` | `01:4A87` |  |  | 
-`INBALL0` | `01:4A91` |  |  | 
-`INBALL1` | `01:4A9B` |  |  | 
-`POINTS` | `01:4AC3` |  |  | 
-`DUMPOBJ` | `01:4ACF` | `00:27C2` | `0x27C2` | in-body
-`MPLEX` | `01:4AEE` |  |  | 
-`DUMPL` | `01:4B14` |  |  | 
-`DUMP2BY1` | `01:4B29` | `00:283A` | `0x283A` | entry
-`DUMP1BY1` | `01:4B4F` | `00:2861` | `0x2861` | in-body
-`DUMP2BY2` | `01:4B73` | `00:2884` | `0x2884` | entry
-`DUMP2BY2S` | `01:4B86` | `00:2897` | `0x2897` | in-body
-`MRDOCHEW` | `01:4BCA` |  |  | 
-`GOCHEW` | `01:4BE1` |  |  | 
-`CHEWS` | `01:4BF2` |  |  | 
-`CHEWUP` | `01:4C14` |  |  | 
-`CHU0` | `01:4C21` |  |  | 
-`CHU1` | `01:4C32` |  |  | 
-`CHU2` | `01:4C49` |  |  | 
-`CHU3` | `01:4C5A` |  |  | 
-`CHEWRT` | `01:4C61` |  |  | 
-`CHR0` | `01:4C6E` |  |  | 
-`CHR1` | `01:4C7F` |  |  | 
-`CHR2` | `01:4C96` |  |  | 
-`CHR3` | `01:4CA7` |  |  | 
-`CHEWDW` | `01:4CAE` |  |  | 
-`CHD0` | `01:4CBB` |  |  | 
-`CHD1` | `01:4CCC` |  |  | 
-`CHD2` | `01:4CE3` |  |  | 
-`CHD3` | `01:4CF4` |  |  | 
-`CHEWLT` | `01:4CFB` |  |  | 
-`CHL0` | `01:4D0A` |  |  | 
-`CHL1` | `01:4D1B` |  |  | 
-`CHL2` | `01:4D32` |  |  | 
-`CHL3` | `01:4D43` |  |  | 
-`CHRDUMPER` | `01:4D4A` |  |  | 
-`CDUMP` | `01:4D59` |  |  | 
-`PRSCORE` | `01:4D64` |  |  | 
-`SCOREADD` | `01:4D81` | `00:2AAA` | `0x2AAA` | opcodes
-`UPSCORE` | `01:4D97` |  |  | 
-`NOSCRP` | `01:4DA3` |  |  | 
-`CLOCK` | `01:4DA5` | `00:2ACE` | `0x2ACE` | opcodes
-`UPCLOCK` | `01:4DC0` |  |  | 
-`STATUS` | `01:4DC5` |  |  | 
-`STATSP` | `01:4DDE` |  |  | 
-`PUTSSP` | `01:4DF4` | `00:2B44` | `0x2B44` | in-body
-`ONSTAT` | `01:4E1A` |  |  | 
-`DRAWMAP` | `01:4E22` |  |  | 
-`FILLMAP` | `01:4E28` |  |  | 
-`FILLBYTE` | `01:4E3F` |  |  | 
-`PUTFOOD` | `01:4E76` |  |  | 
-`DRAWBLOCK` | `01:4E91` | `00:2C07` | `0x2C07` | opcodes
-`DRWBLOCK` | `01:4EA1` | `00:2C17` | `0x2C17` | in-body
-`DOTUNNEL` | `01:4EB9` | `00:2C2F` | `0x2C2F` | opcodes
-`DRAWREP` | `01:4ED2` | `00:2C48` | `0x2C48` | opcodes
-`ENDTUNNEL` | `01:4EE6` |  |  | 
-`PUTCHERRY` | `01:4EEF` | `00:2C65` | `0x2C65` | opcodes
-`PUTAPPLE` | `01:4F1F` |  |  | 
-`COPYMAP` | `01:4F41` |  |  | 
-`COPYM` | `01:4F4A` |  |  | 
-`COPYLETTER` | `01:4F53` | `00:2CCE` | `0x2CCE` | opcodes
-`PUTLINE` | `01:4F80` | `00:2CFB` | `0x2CFB` | in-body
-`KEYS` | `01:4FB6` |  |  | 
-`PIXAD` | `01:4FED` | `00:2D63` | `0x2D63` | entry
-`GETMAPHI` | `01:5004` | `00:2D7A` | `0x2D7A` | entry
-`GETMAPLODE` | `01:501B` | `00:2DBA` | `0x2DBA` | entry
-`GETMAPLO` | `01:502D` | `00:2DA8` | `0x2DA8` | entry
-`GETBYTEHI` | `01:503F` | `00:2DCC` | `0x2DCC` | unverified
-`GETBYTELO` | `01:504D` |  |  | 
-`LOWAD` | `01:5059` | `00:2DE6` | `0x2DE6` | in-body
-`WAITSC` | `01:5070` |  |  | 
-`RESETOBJ` | `01:5078` |  |  | 
-`RESETOB` | `01:5087` |  |  | 
-`RESETO` | `01:508B` |  |  | 
-`RAND` | `01:5097` |  |  | 
-`PRINTEXT` | `01:50B1` | `00:2E45` | `0x2E45` | unverified
-`TEXTL` | `01:50B9` | `00:2E4D` | `0x2E4D` | unverified
-`PRINTSHAPE` | `01:50C1` |  |  | 
-`YROWS` | `01:50C5` |  |  | 
-`XROWS` | `01:50C7` | `00:2E5B` | `0x2E5B` | entry
-`DIVIDE` | `01:50DA` |  |  | 
-`DIVE` | `01:50DE` |  |  | 
-`CREATESET` | `01:50E6` | `00:2EAC` | `0x2EAC` | opcodes
-`CLEARSET` | `01:50FB` |  |  | 
-`SHUNT` | `01:5106` |  |  | 
-`DISPBIN` | `01:510F` |  |  | 
-`DOBIN` | `01:5114` | `00:2EDA` | `0x2EDA` | unverified
-`ISNONE` | `01:511B` | `00:2EE1` | `0x2EE1` | unverified
-`CLEARSTAT` | `01:5120` | `00:2EE6` | `0x2EE6` | unverified
-`CLR` | `01:512B` |  |  | 
-`HEXBYTE` | `01:5134` |  |  | 
-`HEXWORD` | `01:5139` |  |  | 
-`PRHEX` | `01:5143` | `00:2F09` | `0x2F09` | opcodes
-`PRDEC` | `01:5158` |  |  | 
-`PRDECDIGITS` | `01:5160` |  |  | 
-`PRDEC1` | `01:516B` |  |  | 
+Procedure | Rebuilt bank:addr | Retail bank:addr | Retail file offset | Retail match | Retail byte prefix | Retail opcode prefix ops
+---|---|---|---|---|---|---
+`MULTIE` | `00:06A4` |  |  |  |  | 
+`MULTID` | `00:06A9` |  |  |  |  | 
+`MENU` | `00:363C` |  |  |  |  | 
+`SLOGO` | `00:3661` |  |  |  |  | 
+`RESETST` | `00:366F` |  |  |  |  | 
+`LOGOLOOP` | `00:3699` |  |  |  |  | 
+`WORKMENU` | `00:36B5` |  |  |  |  | 
+`EXITMENU` | `00:36D6` |  |  |  |  | 
+`OPTIONS` | `00:36E2` |  |  |  |  | 
+`NEXTUP` | `00:36FD` |  |  |  |  | 
+`NEXTMENU` | `00:3702` |  |  |  |  | 
+`NOGAME` | `00:370A` |  |  |  |  | 
+`NEWSEL` | `00:3715` |  |  |  |  | 
+`NOSEL` | `00:3723` |  |  |  |  | 
+`UPMENU` | `00:3732` |  |  |  |  | 
+`HANDYMAN` | `00:3743` |  |  |  |  | 
+`SOUNDOPT` | `00:375D` |  |  |  |  | 
+`DWMENU` | `00:3765` |  |  |  |  | 
+`LOGOPULSE` | `00:377B` |  |  |  |  | 
+`FADE` | `00:37D0` |  |  |  |  | 
+`LOGOON` | `00:37E0` |  |  |  |  | 
+`LOGON` | `00:37EB` |  |  |  |  | 
+`NOMOV` | `00:37FE` |  |  |  |  | 
+`BARREL` | `00:3803` |  |  |  |  | 
+`BARON` | `00:3810` |  |  |  |  | 
+`RASTARS` | `00:3823` |  |  |  |  | 
+`RASTAR` | `00:3832` |  |  |  |  | 
+`STARFALL` | `00:3845` | `00:31D5` | `0x31D5` | in-body | 3 | 27
+`ANIHEAD` | `00:3872` | `00:3202` | `0x3202` | in-body | 3 | 27
+`MENUOBJ` | `00:3894` |  |  |  |  | 
+`WORKSTAR` | `00:38AC` |  |  |  |  | 
+`STAROFF` | `00:38B7` |  |  |  |  | 
+`NOBOW` | `00:38E4` |  |  |  |  | 
+`DUMP3BY3` | `00:38F8` |  |  |  |  | 
+`SHOWRESULTS` | `00:395F` |  |  |  |  | 
+`SETBIG` | `00:3989` | `00:32DA` | `0x32DA` | in-body | 20 | 15
+`RESLOOP` | `00:39B5` |  |  |  |  | 
+`APLM` | `00:39CE` |  |  |  |  | 
+`WORKWELL` | `00:3A1A` |  |  |  |  | 
+`EMOVE` | `00:3A30` |  |  |  |  | 
+`UPWELLY` | `00:3A3A` |  |  |  |  | 
+`UPWELL` | `00:3A3F` |  |  |  |  | 
+`ALLWAIT` | `00:3A47` |  |  |  |  | 
+`ALLMOVE` | `00:3A51` |  |  |  |  | 
+`DODIMOVE` | `00:3A58` |  |  |  |  | 
+`DUMPBIG` | `00:3A7E` | `00:33CD` | `0x33CD` | entry | 21 | 12
+`DUMPBG` | `00:3A93` |  |  |  |  | 
+`SHOWAVERAGES` | `00:3AA2` | `00:340A` | `0x340A` | opcodes | 1 | 13
+`PUTAVER` | `00:3ABF` |  |  |  |  | 
+`AVELOOP` | `00:3B10` |  |  |  |  | 
+`RESETBOARD` | `00:3B29` |  |  |  |  | 
+`RESETB` | `00:3B2E` |  |  |  |  | 
+`BOARDLINED` | `00:3B41` |  |  |  |  | 
+`BOARDLINE` | `00:3B61` | `00:358E` | `0x358E` | opcodes | 2 | 12
+`PUTSCORE` | `00:3B73` | `00:35A0` | `0x35A0` | in-body | 18 | 28
+`TOTOTAL` | `00:3B9C` |  |  |  |  | 
+`UPTOTAL` | `00:3BA1` |  |  |  |  | 
+`DIGITADD` | `00:3BA6` |  |  |  |  | 
+`DUMPENDOBJ` | `00:3BB8` | `00:35F6` | `0x35F6` | unverified | 5 | 4
+`DUMP2BY2SEQU` | `00:3BBD` | `00:35FB` | `0x35FB` | in-body | 44 | 37
+`CHECKHIGH` | `00:3BE9` |  |  |  |  | 
+`CHECKLINE` | `00:3BEE` |  |  |  |  | 
+`CHECKCHR` | `00:3BF4` |  |  |  |  | 
+`NEXTLINE` | `00:3BFF` |  |  |  |  | 
+`ISBIG` | `00:3C08` |  |  |  |  | 
+`SHUNTLINE` | `00:3C11` |  |  |  |  | 
+`PUTDIG` | `00:3C20` |  |  |  |  | 
+`PRHIGHSCORES` | `00:3C39` |  |  |  |  | 
+`PRHIGHS` | `00:3C41` | `00:3AA7` | `0x3AA7` | opcodes | 2 | 44
+`PRHGH` | `00:3C85` |  |  |  |  | 
+`DMATRANS` | `01:40E9` |  |  |  |  | 
+`DMAL` | `01:40EF` |  |  |  |  | 
+`SYSETUP` | `01:40F4` |  |  |  |  | 
+`RESETV` | `01:4101` |  |  |  |  | 
+`TOINTRAM` | `01:4114` |  |  |  |  | 
+`GAMESETUP` | `01:4122` |  |  |  |  | 
+`LEVELSETUP` | `01:4141` |  |  |  |  | 
+`ISMISTER` | `01:4165` |  |  |  |  | 
+`RESETSP` | `01:4198` |  |  |  |  | 
+`SETAPPLES` | `01:41AB` |  |  |  |  | 
+`RESETEX` | `01:41BD` |  |  |  |  | 
+`SETET` | `01:420E` |  |  |  |  | 
+`START` | `01:4219` |  |  |  |  | 
+`MAINLOOP` | `01:4228` | `00:175D` | `0x175D` | callgraph | 1 | 13
+`EXITLEVEL` | `01:426A` |  |  |  |  | 
+`NOMAPR` | `01:4288` |  |  |  |  | 
+`NOLEVR` | `01:42A4` |  |  |  |  | 
+`WAITISH` | `01:42AA` |  |  |  |  | 
+`WINHOW` | `01:42B2` |  |  |  |  | 
+`EXTRALIFE` | `01:42BE` |  |  |  |  | 
+`SETEXTRA` | `01:42C8` |  |  |  |  | 
+`RESETET` | `01:42D3` |  |  |  |  | 
+`PAUSEGAME` | `01:42DE` |  |  |  |  | 
+`NOSTRT` | `01:42F3` |  |  |  |  | 
+`WAITNOK` | `01:4303` |  |  |  |  | 
+`SPLITSCREEN` | `01:430A` |  |  |  |  | 
+`PRAPPLES` | `01:434C` |  |  |  |  | 
+`PRALOOP` | `01:4352` |  |  |  |  | 
+`APPLEPIE` | `01:437F` |  |  |  |  | 
+`APLOOP` | `01:4388` | `00:1942` | `0x1942` | opcodes | 2 | 15
+`WORKAPPLE` | `01:439A` | `00:1954` | `0x1954` | opcodes | 11 | 17
+`NOAPPLE` | `01:43AD` |  |  |  |  | 
+`NOLFALL` | `01:43B0` |  |  |  |  | 
+`GOSPLIT` | `01:43B2` |  |  |  |  | 
+`APPLEWAIT` | `01:43BA` |  |  |  |  | 
+`APPLEJIG` | `01:43D5` |  |  |  |  | 
+`APPLEFALL` | `01:43E4` |  |  |  |  | 
+`LEEV0` | `01:4419` |  |  |  |  | 
+`LEEV1` | `01:442B` |  |  |  |  | 
+`FLOUT` | `01:442D` |  |  |  |  | 
+`HLOUT` | `01:443E` |  |  |  |  | 
+`REPBACK` | `01:4440` |  |  |  |  | 
+`STOPAFALL` | `01:444B` |  |  |  |  | 
+`APPLESPLIT` | `01:4455` |  |  |  |  | 
+`NOASPL` | `01:4461` |  |  |  |  | 
+`LEEV2` | `01:4493` |  |  |  |  | 
+`LEEV3` | `01:44A5` | `00:1ABA` | `0x1ABA` | entry | 25 | 23
+`BRINGON` | `01:44BE` |  |  |  |  | 
+`GETDINO` | `01:44D2` |  |  |  |  | 
+`GETSP` | `01:44D8` |  |  |  |  | 
+`GETAPPLE` | `01:44E3` |  |  |  |  | 
+`GETAP` | `01:44E9` | `00:1BE4` | `0x1BE4` | unverified | 11 | 10
+`FLAGS` | `01:44F4` | `00:1BEF` | `0x1BEF` | in-body | 39 | 20
+`NOT3` | `01:451B` |  |  |  |  | 
+`COLLISIONS` | `01:451F` |  |  |  |  | 
+`BALLCP` | `01:4522` | `00:1F9D` | `0x1F9D` | in-body | 18 | 13
+`BALLCPL` | `01:4535` | `00:1FB0` | `0x1FB0` | in-body | 20 | 22
+`NBALLCP` | `01:4551` |  |  |  |  | 
+`MRDOCATCH` | `01:455A` |  |  |  |  | 
+`GHOSTDIE` | `01:4563` |  |  |  |  | 
+`NOTLASTG` | `01:4574` |  |  |  |  | 
+`EXDIE` | `01:4582` |  |  |  |  | 
+`GAPPLE` | `01:45D6` |  |  |  |  | 
+`GOAPPLE` | `01:45DF` |  |  |  |  | 
+`GOBALLBANG` | `01:45FE` |  |  |  |  | 
+`BALLSCORE` | `01:4606` |  |  |  |  | 
+`DUFKILL` | `01:462B` |  |  |  |  | 
+`EATCHERRY` | `01:462D` |  |  |  |  | 
+`NOCHSEQU` | `01:4651` |  |  |  |  | 
+`RESCHSEQU` | `01:4656` |  |  |  |  | 
+`EATWALL` | `01:4668` |  |  |  |  | 
+`EATFOOD` | `01:4675` |  |  |  |  | 
+`GETLET` | `01:46A0` |  |  |  |  | 
+`GOTLET` | `01:46AB` |  |  |  |  | 
+`ISOUT` | `01:46D1` |  |  |  |  | 
+`PUTGHST` | `01:46D8` |  |  |  |  | 
+`SETGHST` | `01:46E1` |  |  |  |  | 
+`DECODE` | `01:46F5` |  |  |  |  | 
+`NOGODEL` | `01:4700` |  |  |  |  | 
+`NODECBON` | `01:470A` |  |  |  |  | 
+`DECODER` | `01:4734` |  |  |  |  | 
+`ISSLOW` | `01:4749` |  |  |  |  | 
+`NOSLOW` | `01:4751` |  |  |  |  | 
+`INVALIDX` | `01:4776` |  |  |  |  | 
+`NEWMOVE` | `01:4790` |  |  |  |  | 
+`NOWRAP` | `01:479D` |  |  |  |  | 
+`NOSCROLL` | `01:47C4` |  |  |  |  | 
+`INVALID` | `01:47DD` |  |  |  |  | 
+`DOBALL` | `01:47E7` |  |  |  |  | 
+`BADDIES` | `01:480E` |  |  |  |  | 
+`BADLOOP` | `01:4813` | `00:2131` | `0x2131` | opcodes | 4 | 26
+`WORKBADDIE` | `01:4835` | `00:2153` | `0x2153` | entry | 18 | 17
+`NOBAD` | `01:4847` |  |  |  |  | 
+`CIRCLE` | `01:484C` | `00:216A` | `0x216A` | opcodes | 8 | 34
+`MOVEBADF` | `01:4876` |  |  |  |  | 
+`MOVEBAD` | `01:487B` |  |  |  |  | 
+`FINDEXITS` | `01:4889` |  |  |  |  | 
+`NOUP` | `01:48A4` |  |  |  |  | 
+`NORT` | `01:48B0` | `00:21DD` | `0x21DD` | opcodes | 9 | 15
+`NODW` | `01:48C7` |  |  |  |  | 
+`NOLF` | `01:48D3` |  |  |  |  | 
+`WORKEXITS` | `01:48D6` |  |  |  |  | 
+`CHANGEDIR` | `01:48EA` |  |  |  |  | 
+`FINDEX` | `01:48F4` |  |  |  |  | 
+`GOEXIT` | `01:4902` |  |  |  |  | 
+`DINODE` | `01:4907` |  |  |  |  | 
+`DINO` | `01:4909` |  |  |  |  | 
+`DINOMOVE` | `01:491A` |  |  |  |  | 
+`DINOEAT` | `01:492A` |  |  |  |  | 
+`DINOPUSH` | `01:492C` |  |  |  |  | 
+`EXDANCE` | `01:492E` |  |  |  |  | 
+`NOEXFL` | `01:4941` |  |  |  |  | 
+`UPTYPE` | `01:4973` |  |  |  |  | 
+`EXUP` | `01:4979` |  |  |  |  | 
+`EXEAT` | `01:4985` |  |  |  |  | 
+`EXWALK` | `01:4987` |  |  |  |  | 
+`EXMOVE` | `01:4998` |  |  |  |  | 
+`EXOUT` | `01:49A1` |  |  |  |  | 
+`GHOST` | `01:49A3` |  |  |  |  | 
+`GHOSTMOVE` | `01:49B4` |  |  |  |  | 
+`GHOSTR` | `01:49C0` |  |  |  |  | 
+`GHOSTEAT` | `01:49C7` |  |  |  |  | 
+`CARRYBALL` | `01:49C9` |  |  |  |  | 
+`THROWBALL` | `01:49EE` |  |  |  |  | 
+`CDEL0` | `01:49F8` |  |  |  |  | 
+`ISCHN` | `01:4A06` |  |  |  |  | 
+`NOCHWL` | `01:4A16` |  |  |  |  | 
+`BCHECK` | `01:4A24` |  |  |  |  | 
+`NRNDB` | `01:4A3A` |  |  |  |  | 
+`NOBHIT` | `01:4A3D` |  |  |  |  | 
+`NOCHN` | `01:4A41` |  |  |  |  | 
+`OUTBALL` | `01:4A50` |  |  |  |  | 
+`GOINBALL` | `01:4A7D` |  |  |  |  | 
+`INBALL` | `01:4A87` |  |  |  |  | 
+`INBALL0` | `01:4A91` |  |  |  |  | 
+`INBALL1` | `01:4A9B` |  |  |  |  | 
+`POINTS` | `01:4AC3` |  |  |  |  | 
+`DUMPOBJ` | `01:4ACF` | `00:27C2` | `0x27C2` | in-body | 18 | 9
+`MPLEX` | `01:4AEE` |  |  |  |  | 
+`DUMPL` | `01:4B14` |  |  |  |  | 
+`DUMP2BY1` | `01:4B29` | `00:283A` | `0x283A` | entry | 37 | 30
+`DUMP1BY1` | `01:4B4F` | `00:2861` | `0x2861` | in-body | 28 | 21
+`DUMP2BY2` | `01:4B73` | `00:2884` | `0x2884` | entry | 19 | 14
+`DUMP2BY2S` | `01:4B86` | `00:2897` | `0x2897` | in-body | 13 | 59
+`MRDOCHEW` | `01:4BCA` |  |  |  |  | 
+`GOCHEW` | `01:4BE1` |  |  |  |  | 
+`CHEWS` | `01:4BF2` |  |  |  |  | 
+`CHEWUP` | `01:4C14` |  |  |  |  | 
+`CHU0` | `01:4C21` |  |  |  |  | 
+`CHU1` | `01:4C32` |  |  |  |  | 
+`CHU2` | `01:4C49` |  |  |  |  | 
+`CHU3` | `01:4C5A` |  |  |  |  | 
+`CHEWRT` | `01:4C61` |  |  |  |  | 
+`CHR0` | `01:4C6E` | `00:2916` | `0x2916` | candidate | 13 | 14
+`CHR1` | `01:4C7F` |  |  |  |  | 
+`CHR2` | `01:4C96` |  |  |  |  | 
+`CHR3` | `01:4CA7` |  |  |  |  | 
+`CHEWDW` | `01:4CAE` |  |  |  |  | 
+`CHD0` | `01:4CBB` |  |  |  |  | 
+`CHD1` | `01:4CCC` |  |  |  |  | 
+`CHD2` | `01:4CE3` |  |  |  |  | 
+`CHD3` | `01:4CF4` |  |  |  |  | 
+`CHEWLT` | `01:4CFB` |  |  |  |  | 
+`CHL0` | `01:4D0A` |  |  |  |  | 
+`CHL1` | `01:4D1B` |  |  |  |  | 
+`CHL2` | `01:4D32` |  |  |  |  | 
+`CHL3` | `01:4D43` |  |  |  |  | 
+`CHRDUMPER` | `01:4D4A` |  |  |  |  | 
+`CDUMP` | `01:4D59` |  |  |  |  | 
+`PRSCORE` | `01:4D64` |  |  |  |  | 
+`SCOREADD` | `01:4D81` | `00:2AAA` | `0x2AAA` | opcodes | 3 | 15
+`UPSCORE` | `01:4D97` |  |  |  |  | 
+`NOSCRP` | `01:4DA3` |  |  |  |  | 
+`CLOCK` | `01:4DA5` | `00:2ACE` | `0x2ACE` | opcodes | 1 | 13
+`UPCLOCK` | `01:4DC0` |  |  |  |  | 
+`STATUS` | `01:4DC5` |  |  |  |  | 
+`STATSP` | `01:4DDE` |  |  |  |  | 
+`PUTSSP` | `01:4DF4` | `00:2B44` | `0x2B44` | in-body | 23 | 30
+`ONSTAT` | `01:4E1A` |  |  |  |  | 
+`DRAWMAP` | `01:4E22` |  |  |  |  | 
+`FILLMAP` | `01:4E28` |  |  |  |  | 
+`FILLBYTE` | `01:4E3F` |  |  |  |  | 
+`PUTFOOD` | `01:4E76` |  |  |  |  | 
+`DRAWBLOCK` | `01:4E91` | `00:2C07` | `0x2C07` | opcodes | 5 | 12
+`DRWBLOCK` | `01:4EA1` | `00:2C17` | `0x2C17` | in-body | 1 | 22
+`DOTUNNEL` | `01:4EB9` | `00:2C2F` | `0x2C2F` | opcodes | 10 | 19
+`DRAWREP` | `01:4ED2` | `00:2C48` | `0x2C48` | opcodes | 11 | 15
+`ENDTUNNEL` | `01:4EE6` |  |  |  |  | 
+`PUTCHERRY` | `01:4EEF` | `00:2C65` | `0x2C65` | opcodes | 12 | 26
+`PUTAPPLE` | `01:4F1F` |  |  |  |  | 
+`COPYMAP` | `01:4F41` |  |  |  |  | 
+`COPYM` | `01:4F4A` |  |  |  |  | 
+`COPYLETTER` | `01:4F53` | `00:2CCE` | `0x2CCE` | opcodes | 3 | 26
+`PUTLINE` | `01:4F80` | `00:2CFB` | `0x2CFB` | in-body | 54 | 41
+`KEYS` | `01:4FB6` |  |  |  |  | 
+`PIXAD` | `01:4FED` | `00:2D63` | `0x2D63` | entry | 23 | 13
+`GETMAPHI` | `01:5004` | `00:2D7A` | `0x2D7A` | entry | 23 | 13
+`GETMAPLODE` | `01:501B` | `00:2DBA` | `0x2DBA` | entry | 18 | 13
+`GETMAPLO` | `01:502D` | `00:2DA8` | `0x2DA8` | entry | 18 | 13
+`GETBYTEHI` | `01:503F` | `00:2DCC` | `0x2DCC` | unverified | 14 | 10
+`GETBYTELO` | `01:504D` |  |  |  |  | 
+`LOWAD` | `01:5059` | `00:2DE6` | `0x2DE6` | in-body | 18 | 13
+`WAITSC` | `01:5070` |  |  |  |  | 
+`RESETOBJ` | `01:5078` |  |  |  |  | 
+`RESETOB` | `01:5087` |  |  |  |  | 
+`RESETO` | `01:508B` |  |  |  |  | 
+`RAND` | `01:5097` |  |  |  |  | 
+`PRINTEXT` | `01:50B1` | `00:2E45` | `0x2E45` | unverified | 8 | 8
+`TEXTL` | `01:50B9` | `00:2E4D` | `0x2E4D` | unverified | 8 | 6
+`PRINTSHAPE` | `01:50C1` |  |  |  |  | 
+`YROWS` | `01:50C5` |  |  |  |  | 
+`XROWS` | `01:50C7` | `00:2E5B` | `0x2E5B` | entry | 19 | 16
+`DIVIDE` | `01:50DA` |  |  |  |  | 
+`DIVE` | `01:50DE` |  |  |  |  | 
+`CREATESET` | `01:50E6` | `00:2EAC` | `0x2EAC` | opcodes | 15 | 18
+`CLEARSET` | `01:50FB` |  |  |  |  | 
+`SHUNT` | `01:5106` |  |  |  |  | 
+`DISPBIN` | `01:510F` |  |  |  |  | 
+`DOBIN` | `01:5114` | `00:2EDA` | `0x2EDA` | unverified | 7 | 4
+`ISNONE` | `01:511B` | `00:2EE1` | `0x2EE1` | unverified | 5 | 4
+`CLEARSTAT` | `01:5120` | `00:2EE6` | `0x2EE6` | unverified | 11 | 4
+`CLR` | `01:512B` |  |  |  |  | 
+`HEXBYTE` | `01:5134` |  |  |  |  | 
+`HEXWORD` | `01:5139` |  |  |  |  | 
+`PRHEX` | `01:5143` | `00:2F09` | `0x2F09` | opcodes | 4 | 15
+`PRDEC` | `01:5158` |  |  |  |  | 
+`PRDECDIGITS` | `01:5160` |  |  |  |  | 
+`PRDEC1` | `01:516B` |  |  |  |  | 
 
 ---
 ### Retail offsets for known verbatim code blocks

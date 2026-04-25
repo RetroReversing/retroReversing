@@ -15,9 +15,9 @@
           </div>
           <div class="footer-bottom">
             <div class="footer-social">
-              <a rel="noreferrer" href="https://twitter.com/RetroReversing" target="_blank" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
-              <a rel="noreferrer" href="https://www.youtube.com/user/RetroReversing" target="_blank" data-toggle="tooltip" title="youtube"><i class="fa fa-youtube"></i></a>
-              <a rel="noreferrer" href="/atom.xml" target="_blank" data-toggle="tooltip" title="rss"><i class="fa fa-rss"></i></a>
+              <a rel="noreferrer" href="https://twitter.com/RetroReversing" target="_blank" data-toggle="tooltip" title="twitter" aria-label="RetroReversing on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a rel="noreferrer" href="https://www.youtube.com/user/RetroReversing" target="_blank" data-toggle="tooltip" title="youtube" aria-label="RetroReversing on YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+              <a rel="noreferrer" href="/atom.xml" target="_blank" data-toggle="tooltip" title="rss" aria-label="RetroReversing RSS feed"><i class="fa fa-rss" aria-hidden="true"></i></a>
 
             </div>
             <p>Copyright &copy; 2026 <a href="https://www.retroreversing.com/" target="_blank">Retro Reversing</a>. All rights reserved.</p>
@@ -25,40 +25,27 @@
     </div>
   </footer>
   <!-- /footer -->
-<script src="/public/js/jquery.min.js"></script>
+<script defer src="/public/js/jquery.min.js"></script>
 <script defer src="/public/js/popper.min.js"></script>
 <script defer src="/public/js/bootstrap.min.js"></script>
 <script defer src="/public/js/generateTOC.js"></script>
 <script defer src="/public/js/owl.carousel.min.js"></script>
 <script defer src="/public/js/lightbox.js"></script>
 <script defer src="/public/js/wow.min.js"></script>
+
+{% if page.mermaid == true or page.content contains '```mermaid' %}
 <script defer src="https://unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+{% endif %}
 
-<script async id="datatable-scr" type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
-
-<!-- GeoPattern generates a nice patten for any element that has class="geopatten" and data-title="whatever" -->
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+<!-- GeoPattern generates a nice pattern for any element that has class="geopattern" and data-title="whatever" -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
 <!-- End GeoPattern -->
 <script defer src="{{ '/public/js/main.js' | relative_url }}"></script>
 
 <!-- Search functionality -->
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-<script src="{{ '/public/js/search-index.js' | relative_url }}"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script defer src="{{ '/public/js/search-index.js' | relative_url }}"></script>
 <script defer src="{{ '/public/js/search.js' | relative_url }}"></script>
-
-<script>
-  $(document).ready(function() {
-    $("img.postImage").each(function() {
-        $(this).wrap($("<a/>", {
-            href: $(this).attr("src"),
-            "data-lightbox": '{"gallery": "page-images"}'
-        }));
-    });
-    // $('[data-lightbox]').lightbox({
-    //   disqus: 'retro-reversing'
-    // });
-  });
-</script>
 
 <!-- Only include certain scripts when specific custom elements are used  -->
 <script type="module">
@@ -68,4 +55,6 @@
 </script>
 
 <!-- This is to avoid having to include widgets.js every time a tweet is embedded -->
+{% if page.content contains 'twitter-tweet' or page.content contains 'twitter-timeline' %}
 <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endif %}

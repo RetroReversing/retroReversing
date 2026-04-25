@@ -15,12 +15,14 @@ $(document).ready(function(){
         if (!id) return;
         
         var tagName = $this.prop("tagName").toUpperCase();
+        var $list = $(".post-directory .post-directory-list");
+        if (!$list.length) return;
+
         if (tagName === topLevel) {
-            $(".post-directory dl").append("<dt><a class=\"jumper\" href=\"#" + id + "\">" + $this.text() + "</a></dt>");
+            $list.append("<li><a class=\"jumper\" href=\"#" + id + "\">" + $this.text() + "</a></li>");
         } else {
-            $(".post-directory dl").append("<dt><a class=\"jumper--child\" href=\"#" + id + "\"><li class=\"jumper--"+tagName+"\"> " + $this.text() + "</li></a></dt>");
+            $list.append("<li class=\"jumper--"+tagName+"\"><a class=\"jumper--child\" href=\"#" + id + "\">" + $this.text() + "</a></li>");
         }
     });
 
 });
-
