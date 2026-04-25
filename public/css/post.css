@@ -479,6 +479,7 @@ h5 + .emoji {
 
 .post-directory-list li.jumper--H1 {
   margin-left: 0;
+  margin-top: 10px;
 }
 
 .post-directory-list li.jumper--H2 {
@@ -505,14 +506,12 @@ h5 + .emoji {
   font-size: 1.02rem;
   font-weight: 800;
   color: #006d96;
-  padding: 8px 8px;
 }
 
 .post-directory-list li.jumper--H2 > a {
   font-size: 0.95rem;
   font-weight: 700;
   color: #0085b6;
-  padding: 8px 8px;
 }
 
 .post-directory-list li.jumper--H1 + li.jumper--H1,
@@ -556,7 +555,6 @@ h5 + .emoji {
 
 .post-directory-list a {
   display: block;
-  padding: 6px 8px;
   border-radius: 6px;
   text-decoration: none;
 }
@@ -585,7 +583,6 @@ h5 + .emoji {
 
 .reversefootnote {
   display: inline-block;
-  padding: 6px 8px;
   margin-left: 4px;
   border-radius: 6px;
 }

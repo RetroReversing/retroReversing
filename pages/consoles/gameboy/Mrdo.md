@@ -43,22 +43,21 @@ The original release is a single monolithic assembly file (`mrdo.asm`) containin
 Description from Paul Hughes [^1]:
 > Many moons ago I debugged and finished off Ocean's Mr Do! for the original Game Boy. 
 > 
-> As **Joffa**, the late, great original author, decided to release the source code, 
-> 
+> As **Joffa**, the late, great original author, decided to release the source code,
 > I thought I'd also put it up.
 
 The header for the source file also mentions Wesley Knackers and gives a start date of June 28, 1990 and a last date of September 5, 1990:
 
 ```cpp
 ****************************************************************************
-*									   *
-*		MR DO! (C) 1990 SPECIAL FX SOFTWARE LIMITED		   *
-*									   *
-*		           BY WESLEY KNACKERS				   *
-*									   *
-*		  	  START DATE 28/06/90				   *
-*		  	   LAST DATE 05/09/90				   *
-*									   *
+*									   
+*		MR DO! (C) 1990 SPECIAL FX SOFTWARE LIMITED		   
+*									   
+*		           BY WESLEY KNACKERS				   
+*									   
+*		  	  START DATE 28/06/90				   
+*		  	   LAST DATE 05/09/90				   
+*									   
 ****************************************************************************
 ```
 
@@ -80,8 +79,7 @@ If you are new to Game Boy reverse engineering terminology, this quick glossary 
 
 ---
 # Code overview
-The source is useful because it is not a "disassembly" or a ROM dump.
-It is proper annotated game code with labels and routines that map closely onto the retail behaviour.
+The source is useful because it is not a "disassembly" or a ROM dump, it is a rare case of real Game Boy source code being released online for a commerical game.
 
 Some highlights worth skimming first:
 * **Main loop** - `START` runs `SYSETUP`, `MENU`, and then enters a per-level loop that calls the gameplay subsystems in a predictable order.

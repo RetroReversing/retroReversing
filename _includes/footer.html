@@ -33,7 +33,7 @@
 <script defer src="/public/js/lightbox.js"></script>
 <script defer src="/public/js/wow.min.js"></script>
 
-{% if page.mermaid == true or page.content contains '```mermaid' %}
+{% if include.has_mermaid %}
 <script defer src="https://unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
 {% endif %}
 
@@ -55,6 +55,6 @@
 </script>
 
 <!-- This is to avoid having to include widgets.js every time a tweet is embedded -->
-{% if page.content contains 'twitter-tweet' or page.content contains 'twitter-timeline' %}
+{% if include.has_twitter %}
 <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {% endif %}

@@ -452,15 +452,35 @@ document.addEventListener("DOMContentLoaded", function() {
     return;
   }
 
-  function runMermaid() {
-    initializeMermaidDiagrams();
+  function scheduleMermaidInit() {
+    if (typeof window.requestIdleCallback === "function") {
+      window.requestIdleCallback(function() {
+        initializeMermaidDiagrams();
+      }, { timeout: 2500 });
+    } else {
+      setTimeout(function() {
+        initializeMermaidDiagrams();
+      }, 0);
+    }
   }
 
-  if (typeof window.requestIdleCallback === "function") {
-    window.requestIdleCallback(runMermaid, { timeout: 2500 });
-  } else {
-    setTimeout(runMermaid, 2500);
+  function waitForMermaid(attemptsRemaining) {
+    if (typeof mermaid !== "undefined") {
+      scheduleMermaidInit();
+      return;
+    }
+
+    if (attemptsRemaining <= 0) {
+      return;
+    }
+
+    setTimeout(function() {
+      waitForMermaid(attemptsRemaining - 1);
+    }, 250);
   }
+
+  // Mermaid is loaded via a deferred external script; wait briefly for it to be available.
+  waitForMermaid(20);
 });
 
   function setupCarousel() {
