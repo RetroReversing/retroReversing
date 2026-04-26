@@ -72,7 +72,7 @@ h4.card-title {
 }
 /* #endregion Cards */
 
-body {
+html, body {
   font-family: 
       /* Use the system UI font on Apple platforms (macOS, iOS) */
       -apple-system, 
