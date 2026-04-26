@@ -60,7 +60,7 @@ The NAND contains the **entire operating system stack**, including:
 * System firmware (menu, system services)
 * Security components (encryption keys, signature checks)
 
-Without NAND, the console has **no instructions to execute**, so it cannot boot at all. Unlike systems that rely on removable storage, the Wii U’s internal NAND is mandatory for initialization.
+Without NAND, the console has **no instructions to execute**, so it cannot boot at all. Unlike systems that rely on removable storage, the Wii U's internal NAND is mandatory for initialization.
 
 ### System updates and installed content
 System updates are written directly to NAND:
@@ -99,7 +99,7 @@ The SLC contains the early boot stages:
 If anything here is corrupted, the console **cannot boot at all** (hard brick).
 
 ### IOSU (system operating environment)
-The Wii U runs a subsystem similar to the Wii’s IOS, called **IOSU** which handles:
+The Wii U runs a subsystem similar to the Wii's IOS, called **IOSU** which handles:
 * File system
 * Permissions
 * Hardware access
@@ -124,7 +124,7 @@ This is one of the most important parts:
 * Certificates
 * Signing data used to verify software
 
-These enforce Nintendo’s trust chain:
+These enforce Nintendo's trust chain:
 * Every executable must be signed
 * Boot stages verify each other
 * Prevents unauthorized code execution
@@ -221,7 +221,7 @@ This Leads to missing games, save data loss and installation failures but typica
 
 ---
 # Security and anti-piracy
-The NAND plays a critical role in enforcing Nintendo’s security model:
+The NAND plays a critical role in enforcing Nintendo's security model:
 * Stores **console-unique encryption keys**
 * Holds signed system titles verified during boot
 * Prevents unauthorized code execution

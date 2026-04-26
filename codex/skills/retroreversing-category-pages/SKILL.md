@@ -17,7 +17,6 @@ If you are not editing `categories/**`, use the broader `retroreversing-contribu
 * Do not remove existing embedded content such as videos, tweets, or other primary-source embeds unless the user explicitly asks for their removal. These embeds often preserve useful technical or historical context. You may move or regroup them into more appropriate sections.
 
 ## Frontmatter checklist (category pages)
-
 Follow `CONTRIBUTING.md` frontmatter rules and keep it minimal.
 
 Required/typical keys:
@@ -41,11 +40,11 @@ Useful/optional keys:
 * `image:` and `twitterimage:` only when you have a real hero image; otherwise omit
 
 ## Minimal starter template
-
 Use this as a starting point for a new console hub page (adjust values; omit optional keys you do not need):
 
 ```yaml
 ---
+
 layout: post
 permalink: /wiiu
 title: Nintendo Wii U Reverse Engineering
@@ -69,6 +68,7 @@ editlink: ../categories/consoles/WiiU.md
 excerpt: Awesome list of Nintendo Wii U reverse engineering and dev resources
 updatedAt: "2026-04-12"
 ---
+
 ```
 
 Recommended heading skeleton:
@@ -94,7 +94,6 @@ Recommended heading skeleton:
 
 
 ## Common H1 sections (recommended)
-
 Across existing category pages (especially `categories/consoles/*.md`), the most common H1 sections are:
 
 * `# Introduction`
@@ -127,7 +126,6 @@ Common optional H1 sections when the platform/topic needs them:
 
 
 ## Content structure (recommended)
-
 For hub-style pages, follow the newer pattern seen in `categories/consoles/WiiU.md`:
 
 * 2-4 sentence **intro** explaining why the category matters and how to use the page.
@@ -144,7 +142,6 @@ For hub-style pages, follow the newer pattern seen in `categories/consoles/WiiU.
 * Prefer short subsections that end in one or more links (internal or external), rather than long essay blocks.
 
 ## Console hub extras (NES-style)
-
 `categories/consoles/Nes.md` is a good example of a *fully built-out* console hub. When a console category has enough material, these patterns work well:
 
 * **Lead-in before the first H1** - 2 short paragraphs that explain the two roles of the page (internal hub + curated external reference) and how the sections are organised.
@@ -155,12 +152,12 @@ For hub-style pages, follow the newer pattern seen in `categories/consoles/WiiU.
   * `# Reverse Engineering <console> games`
   Only add these if you have enough links/content to avoid thin sections.
 * **FAQ-style subheadings** - within an H1 section, use `###` question headings ("How long did it take…?", "What did the SDK look like?") to make the page skimmable; each answer should end in one or more links (internal or external).
-* **Primary-source quote blocks** - short `>` quotes are useful for provenance and “why this matters”, backed by a footnote when the quote is evidence.
+* **Primary-source quote blocks** - short `>` quotes are useful for provenance and "why this matters", backed by a footnote when the quote is evidence.
 * **Embedded media (sparingly)** - a teardown / explanation video, tweet, or other primary-source embed can be worth keeping when it teaches a hardware concept or preserves development context; keep the surrounding text tight and technical.
 * **Preserve existing embeds** - when editing an existing category page, keep embedded videos, tweets, and similar source material unless the user explicitly asks to remove them. Reorganising is fine, deletion is not.
-* **Hands-on callouts** - include at least one concrete “try this” (emulator/debugger step, tool invocation, or a small workflow) when the console has established reversing tooling.
+* **Hands-on callouts** - include at least one concrete "try this" (emulator/debugger step, tool invocation, or a small workflow) when the console has established reversing tooling.
 
-If a console doesn’t have enough depth yet, prefer the simpler hub pattern (short intro + links + `# All Posts`) rather than forcing these extras.
+If a console doesn't have enough depth yet, prefer the simpler hub pattern (short intro + links + `# All Posts`) rather than forcing these extras.
 
 
 Remember the Markdown hygiene rules from `CONTRIBUTING.md`:
@@ -172,7 +169,6 @@ Remember the Markdown hygiene rules from `CONTRIBUTING.md`:
 * Use tables when a list would exceed ~10 items.
 
 ## Linking rules
-
 Internal links (to other RetroReversing pages):
 
 ```liquid

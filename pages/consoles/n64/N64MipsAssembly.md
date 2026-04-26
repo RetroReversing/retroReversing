@@ -112,9 +112,9 @@ ECHO N64 GCC Command Prompt
 
 ## Repo Naming Conventions
 The repo uses simple file naming conventions to separate macros/constants from executable code:
-* **`.asm`** - Main program file (entry point + top-level flow).
-* **`.INC`** - Variables, constants, and macros (included as source).
-* **`.S`** - Function bodies, often called via macros or `jal`.
+* `.asm` - Main program file (entry point + top-level flow).
+* `.INC` - Variables, constants, and macros (included as source).
+* `.S` - Function bodies, often called via macros or `jal`.
 
 ---
 ## Workflow Automation
@@ -359,7 +359,7 @@ Once you understand the explicit sequence, you can switch to the repo's macro in
 ScreenNTSC(320, 240, BPP16, $A010'0000)
 ```
 
-That macro writes the same VI registers, but it also documents what the “magic” constants mean (for example, the `VI_TIMING` and `VI_H_VIDEO` fields), which makes it a good long-term reference when you start changing resolution, origin, or scaling.
+That macro writes the same VI registers, but it also documents what the "magic" constants mean (for example, the `VI_TIMING` and `VI_H_VIDEO` fields), which makes it a good long-term reference when you start changing resolution, origin, or scaling.
 
 ## The Flat Memory Map
 When the console boots, the BIOS places the [MIPS](#glossary-mips) processor into a 32-bit kernel mode. This provides a 4 Gigabyte (`0x00000000` to `0xFFFFFFFF`) address space. Even though 64-bit mathematics are available, memory addressing remains firmly in 32-bit.
@@ -511,7 +511,7 @@ do_Store2Pixels:
 
 This is a good template for learning because the delay-slot instruction is a single real instruction (`addi`), not a pseudo-instruction like `li` or `la`, so it cannot expand into multiple instructions and accidentally break control flow.
 
-## Pitfall: `sw` Writes Two Pixels in 16bpp Mode
+## Pitfall: sw Writes Two Pixels in 16bpp Mode
 In `Video006/Video006.asm`, the color is loaded as `lui t0, LIGHT_BLUE16` but the matching `ori` is commented out. That means the lower 16 bits of the store are `0x0000`, so each `sw` writes one LIGHT_BLUE pixel and one black pixel.
 
 If you want each `sw` to write two identical 16bpp pixels, pack the color into both halfwords:

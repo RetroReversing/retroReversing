@@ -59,6 +59,7 @@ If you are new to rotation-heavy game math, these are the main terms worth keepi
 
 ---
 ## Core Quaternion Concepts
+
 ### Why games use quaternions
 The big practical win is that quaternions treat orientation as one object instead of three loosely related angle channels [^1].
 That makes them a better fit for camera systems, skeletal animation, aiming, and smooth turning.
@@ -229,11 +230,11 @@ Unity is a useful modern reference point because it exposes the same operations 
 It also makes the "tool UI versus engine storage" split very visible, because you often edit rotations in Euler form in the Inspector while `Transform.rotation` is stored as a quaternion internally [^1].
 
 The most common Unity quaternion helpers are:
-* **`Quaternion.AngleAxis`** - Build a rotation from an axis and angle [^2]
-* **`Quaternion.Slerp`** - Blend smoothly between rotations [^3]
-* **`Quaternion.Inverse`** - Compute the opposite rotation [^5]
-* **`Quaternion.LookRotation`** - Build an orientation from `forward` and `up` vectors [^6]
-* **`Quaternion.ToAngleAxis`** - Convert a quaternion back into axis-angle form [^7]
+* `Quaternion.AngleAxis` - Build a rotation from an axis and angle [^2]
+* `Quaternion.Slerp` - Blend smoothly between rotations [^3]
+* `Quaternion.Inverse` - Compute the opposite rotation [^5]
+* `Quaternion.LookRotation` - Build an orientation from `forward` and `up` vectors [^6]
+* `Quaternion.ToAngleAxis` - Convert a quaternion back into axis-angle form [^7]
 
 [Unity](https://www.youtube.com/watch?v=hd1QzLf4ZH8) provides an intermediate-level tutorial that focuses on how these quaternion helpers appear in day-to-day engine scripting rather than only in pure math form.
 
@@ -396,10 +397,10 @@ ScePspFVector4 *sceVfpuQuaternionToRotYXZ(ScePspFVector4 *pv, const ScePspFQuate
 {% include rr-tabs.html group="psp-quaternion-group" tabs=psp_quaternion_tabs %}
 
 The function names also give away several practical use cases [^10]:
-* **`QuaternionApply`** - Rotate vectors directly, which is useful for camera basis vectors, aiming, and transforming local directions into world directions
-* **`QuaternionInnerProduct`** - Another name for quaternion dot product, often used to measure orientation similarity or to support interpolation logic
+* `QuaternionApply` - Rotate vectors directly, which is useful for camera basis vectors, aiming, and transforming local directions into world directions
+* `QuaternionInnerProduct` - Another name for quaternion dot product, often used to measure orientation similarity or to support interpolation logic
 * **`QuaternionConj` and `QuaternionInverse`** - Expose the common "reverse this rotation" operations explicitly instead of forcing programmers to reconstruct them from scratch
-* **`QuaternionFromRotate`** - Builds a quaternion from axis-angle input and normalizes the axis internally, which matches the mental model most developers start from
+* `QuaternionFromRotate` - Builds a quaternion from axis-angle input and normalizes the axis internally, which matches the mental model most developers start from
 * **`QuaternionToRotZYX` and `QuaternionToRotYXZ`** - Convert back to Euler-style forms, and the source includes special handling near singular cases when extracting those angles
 
 The PSP header also makes it obvious that quaternion terminology varies.

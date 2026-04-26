@@ -34,9 +34,9 @@ A matrix is a table of numbers, but in game code the important part is what that
 Matrices let engines package translation, rotation, scale, camera transforms, and projection into a form that composes cleanly and applies efficiently to many points at once [^1][^2].
 
 Matrices in games usually show up in three common shapes:
-* **`3x3`** - Useful for rotation, scale, and basis changes when no translation is needed
-* **`4x4`** - The standard choice for full 3D transforms because it can also encode translation and projection through homogeneous coordinates [^1]
-* **`4x3`** - A compact affine form used by some SDKs, including the Nintendo DS, when projection is handled separately
+* `3x3` - Useful for rotation, scale, and basis changes when no translation is needed
+* `4x4` - The standard choice for full 3D transforms because it can also encode translation and projection through homogeneous coordinates [^1]
+* `4x3` - A compact affine form used by some SDKs, including the Nintendo DS, when projection is handled separately
 
 Matrices are useful for:
 * **Model transforms** - Move a mesh from local space into world space
@@ -54,6 +54,7 @@ If vectors are still new, it helps to read that page first because matrix math b
 
 ---
 ## Core Matrix Concepts
+
 ### Identity matrix
 The identity matrix is the matrix equivalent of multiplying by `1`.
 Applying it leaves a vector unchanged, which is why it is the default starting point for many transform pipelines [^1].
@@ -184,9 +185,9 @@ That is why APIs that expose `Before` and `After` variants are useful: they make
 
 ### 3x3, 4x3, 4x4, and homogeneous coordinates
 In game math, matrix size usually tells you what kind of transform is being represented:
-* **`3x3`** - Rotation, scale, or basis conversion only
-* **`4x3`** - Affine 3D transform, usually rotation/scale plus translation, but not full projective math
-* **`4x4`** - Full transform matrix, including projection [^1]
+* `3x3` - Rotation, scale, or basis conversion only
+* `4x3` - Affine 3D transform, usually rotation/scale plus translation, but not full projective math
+* `4x4` - Full transform matrix, including projection [^1]
 
 The usual trick behind `4x4` matrices is homogeneous coordinates [^1].
 Points get a final coordinate of `w = 1`, while pure directions use `w = 0`.
