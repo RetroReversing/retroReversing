@@ -460,7 +460,11 @@ Readme_Sample_Code_Data-Sound-English | .txt | Changelog for the Sound samples
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/module</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the PSP runtime modules that ship with the SDK as `.prx` binaries.
+ These are loadable kernel or user-mode components rather than normal static libraries.
+
+ The table below covers the 35 PRX modules present in the leaked SDK tree.
+ They include utility libraries, multimedia support such as `libpsmfplayer`, and small diagnostic modules such as `show_macaddr`.
 
   </div>
 </section>  
@@ -502,8 +506,22 @@ libsha384                 | .prx      | Implements the SHA-384 hashing algorithm
 libsha512                 | .prx      | Implements the SHA-512 hashing algorithm.             
 psmf                      | .prx      | Provides core functionality for handling PSP Motion Format headers.
 pspnet_ap_dialog_dummy    | .prx      | Dummy module for PSP network access point dialogs.     
-scan                      | .prx      | 
+scan                      | .prx      | Performs scanning operations (e.g., QR codes or network).
 show_macaddr              | .prx      | Displays the device's MAC address.                    
+
+
+## What is a PRX file?
+On PSP, a PRX file is a relocatable module that the kernel loader can map into memory at runtime.
+It is related to ELF, but it is packaged for the PSP module loader rather than as a plain standalone executable.
+
+That distinction matters because PRX files usually carry:
+* **Imports and exports** - Function and variable linkage data so one module can call into another resident library
+* **Module metadata** - The module name, attributes, version fields, and startup or shutdown entry points used by the loader
+* **Relocations** - Fixups that let the loader place the module at a suitable address in memory
+
+In practice, a PSP build often starts from ordinary ELF objects and then converts them into PRX modules for loading on hardware or devkit targets.
+That is why this SDK ships with tools such as `pspfixup`, `psplibgen`, `prxinfo`, and `psp-prx-strip`.
+Those utilities handle PRX conversion, stub generation, inspection, and symbol stripping.
 
 
 
@@ -611,11 +629,6 @@ PSP_System_Overview-English | .pdf | 8 Page high level hardware architecture
 Patch-Overview-English | .pdf | A patch system is provided that can add or replace any program or data file of a previously released application supplied on a UMD, or of a PSPTM downloadable game application installed on a Memory Stick.
 Patch-Packaging-English | .pdf | PSP Patch Package Creation Guide
 Programming-Overview-English | .pdf | PSP Programming Tutorial
-
-The PSP kernel loader can handle two types of object files. One is a relocatable object file format unique to the PSPTM kernel called a PRX file, and the other is a normal ELF executable object file.
-Every module that is loaded in memory is identified by a unique 32-bit ID called a module ID.
-
-A PRX-format module can be used as a resident library. A resident library provides some of its functions to another module.
 
 ---
 #### Debug_support (/document/pdf/debug_support)
@@ -1999,5 +2012,4 @@ File Name | Extension | Description
 ---|---|---
 Makefile | N/A | Used to build the source code in the folder (run make)
 PSP Samples | .sln | 
-
 

@@ -5,8 +5,8 @@ tags:
 - games
 - assembly
 title: Reversing Pokemon Red and Blue (Game Boy)
-image: /public/games/pokemonBludeBox.jpg
-twitterimage: http://img.youtube.com/vi/0s3z1t5Li5A/0.jpg
+placeholderimages:
+- /public/games/pokemonBludeBox.jpg
 videocarousel:
   - title: Making of Pokemon Red
     image: http://img.youtube.com/vi/0s3z1t5Li5A/0.jpg
@@ -32,7 +32,9 @@ breadcrumbs:
     url: /gameboy
   - name: Pokemon Red/Blue Assembly Code (Game Boy)
     url: #
-recommend: gameboy
+recommend: 
+- gameboy
+- sourcecode
 editlink: /consoles/gameboy/PokemonRedBlue.md
 ---
 
@@ -118,4 +120,3 @@ In the pokered source code the maps are saved as `.blk` files, these files are s
 [^4]: [The Making of Pokemon Red, Green and Blue - YouTube](https://www.youtube.com/watch?v=0s3z1t5Li5A)
 [^5]: [An Exclusive Look At Pokémon's Early Design Documents - YouTube](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)
 [^6]: [What Dreams May Come: Prototype Data for Pokémon Red and Green – Helix Chamber](https://helixchamber.com/2019/02/16/what-dreams-may-come/)
-

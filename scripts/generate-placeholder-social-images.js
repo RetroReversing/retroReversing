@@ -324,6 +324,47 @@ function resolveCategories(metadata) {
     return ['Reverse Engineering'];
 }
 
+function normalizeFrontmatterImageList(value) {
+    if (Array.isArray(value)) {
+        return value
+            .map((item) => String(item || '').trim())
+            .filter(Boolean);
+    }
+    if (typeof value === 'string' && value.trim()) {
+        return [value.trim()];
+    }
+    return [];
+}
+
+function resolveRepoAssetPath(assetPath) {
+    const normalizedPath = String(assetPath || '').trim();
+    if (!normalizedPath || /^[a-z]+:\/\//i.test(normalizedPath)) {
+        return '';
+    }
+    if (normalizedPath.startsWith(ROOT_DIR)) {
+        return normalizedPath;
+    }
+    return path.join(ROOT_DIR, normalizedPath.replace(/^\//, ''));
+}
+
+function resolvePlaceholderImagePaths(metadata, categoryImages, limit = 2) {
+    const customImagePaths = normalizeFrontmatterImageList(metadata.placeholderimages)
+        .map(resolveRepoAssetPath)
+        .filter((imagePath) => imagePath && fs.existsSync(imagePath));
+
+    const categoryImagePaths = resolveCategories(metadata)
+        .slice(0, limit)
+        .map((category) => {
+            const categoryImageRelativePath = categoryImages[category];
+            return categoryImageRelativePath
+                ? resolveRepoAssetPath(categoryImageRelativePath)
+                : '';
+        })
+        .filter((imagePath) => imagePath && fs.existsSync(imagePath));
+
+    return [...new Set([...customImagePaths, ...categoryImagePaths])].slice(0, limit);
+}
+
 function wrapTitle(title, maxLineLength = 31, maxLines = 3) {
     const words = String(title || '').trim().split(/\s+/).filter(Boolean);
     if (words.length === 0) {
@@ -367,10 +408,11 @@ function wrapTitle(title, maxLineLength = 31, maxLines = 3) {
         });
 }
 
-function getInputTimestamp(filePath, configPath) {
+function getInputTimestamp(filePath, configPath, dependencyPaths = []) {
     return Math.max(
-        fs.statSync(filePath).mtimeMs,
-        fs.statSync(configPath).mtimeMs
+        ...[filePath, configPath, ...dependencyPaths]
+            .filter((dependencyPath) => dependencyPath && fs.existsSync(dependencyPath))
+            .map((dependencyPath) => fs.statSync(dependencyPath).mtimeMs)
     );
 }
 
@@ -412,21 +454,21 @@ function buildGeoPatternSvg(seed) {
     }
 }
 
-function buildSvg({ title, categories, categoryImagePaths, seed }) {
+function buildSvg({ title, categories, placeholderImagePaths, seed }) {
     const titleLines = wrapTitle(title);
     const titleY = titleLines.length === 1 ? 132 : 123;
     const categoryText = categories
         .slice(0, 2)
         .map((category) => String(category).replace(/-/g, ' ').toUpperCase())
         .join(' • ');
-    const categoryImageHrefs = categoryImagePaths.map((categoryImagePath) => fileToDataUri(categoryImagePath));
+    const categoryImageHrefs = placeholderImagePaths.map((categoryImagePath) => fileToDataUri(categoryImagePath));
     const logoImageHref = fileToDataUri(RR_LOGO_IMAGE);
     const geoPatternSvg = buildGeoPatternSvg(seed);
     const geoPatternHref = geoPatternSvg
         ? `data:image/svg+xml;base64,${Buffer.from(geoPatternSvg).toString('base64')}`
         : '';
     const textX = 171;
-    const categoryImageLayouts = getCategoryImageLayouts(categoryImagePaths);
+    const categoryImageLayouts = getCategoryImageLayouts(placeholderImagePaths);
 
     const titleTspans = titleLines
         .slice(0, 2)
@@ -474,7 +516,7 @@ function buildOutputPath(permalink) {
     };
 }
 
-function convertPngToJpeg(inputPath, outputPath, quality = '88') {
+function convertPngToJpeg(inputPath, outputPath, quality = '80') {
     if (IMAGE_MAGICK_CONVERT_PATH) {
         execFileSync(IMAGE_MAGICK_CONVERT_PATH, [
             inputPath,
@@ -588,17 +630,10 @@ function main() {
         }
 
         const categories = resolveCategories(metadata).slice(0, 2);
-        const categoryImagePaths = categories
-            .map((category) => {
-                const categoryImageRelativePath = categoryImages[category];
-                return categoryImageRelativePath
-                    ? path.join(ROOT_DIR, categoryImageRelativePath.replace(/^\//, ''))
-                    : '';
-            })
-            .filter(Boolean);
+        const placeholderImagePaths = resolvePlaceholderImagePaths(metadata, categoryImages);
 
         const outputPaths = buildOutputPath(metadata.permalink);
-        const inputTimestamp = getInputTimestamp(filePath, CONFIG_PATH);
+        const inputTimestamp = getInputTimestamp(filePath, CONFIG_PATH, placeholderImagePaths);
 
         const jpgGenerationAvailable = canGenerateJpg();
         const jpgUpToDate = !jpgGenerationAvailable || isUpToDate(outputPaths.jpg, inputTimestamp);
@@ -616,7 +651,7 @@ function main() {
         const svgContent = buildSvg({
             title: metadata.shorttitle || metadata.title,
             categories,
-            categoryImagePaths,
+            placeholderImagePaths,
             seed
         });
 
