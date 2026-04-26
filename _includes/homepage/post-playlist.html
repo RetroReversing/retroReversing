@@ -26,9 +26,9 @@ Usage:
 {%- endif -%}
 
 {%- if include.tag and include.tag != "" -%}
-  {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
+  {%- assign filtered_pages = site.pages | where_exp: "page", "page.layout == 'post' and page.permalink and page.hidden != true and page.tags contains include.tag" -%}
 {%- else -%}
-  {%- assign filtered_pages = site.pages -%}
+  {%- assign filtered_pages = site.pages | where_exp: "page", "page.layout == 'post' and page.permalink and page.hidden != true" -%}
 {%- endif -%}
 {%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
 
@@ -42,9 +42,7 @@ Usage:
   <div class="rr-post-playlist-container">
     <div class="row rr-post-playlist-row {{ include.classes }}">
       {%- for relevant_page in filtered_pages limit: limit -%}
-        {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
-          {% include post-discovery/post-card.html post=relevant_page classes="" %}
-        {%- endif -%}
+        {% include post-discovery/post-card.html post=relevant_page classes="" %}
       {%- endfor -%}
     </div>
   </div>
