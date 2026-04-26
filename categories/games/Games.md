@@ -1,7 +1,9 @@
 ---
 permalink: /games
 layout: post
-category: games
+category: 
+- games
+- introduction
 title: Games specific posts
 breadcrumbs:
   - name: Home

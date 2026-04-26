@@ -194,6 +194,7 @@ Field | Purpose
 `title` | Full page title shown in the page header and metadata (do not use colons! as it messes with the yaml frontmatter)
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category. This can be a single value (`category: leak`) or a list (`category: [leak, snes]`) when a page belongs to multiple categories.
 `image` | Optional main preview image used by the page and site cards, if there is not a unique one leave it blank and it will be generated based on the category and title, for new pages leave blank (don't include)
+`placeholderimages` | Optional list of local repo image paths to blend into the generated placeholder/social image when `image` and `twitterimage` are omitted
 `twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated, if in doubt leave blank (avoid using but don't remove)
 `permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page

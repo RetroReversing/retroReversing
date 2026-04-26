@@ -163,7 +163,7 @@ category:
     image: /public/consoles/Sega Game Gear.png
   "games":
     title: Games
-    image: /public/images/RetroReversingLogoSmall.png
+    image: /public/consoles/Games.png
   "gba":
     title: Nintendo Game Boy Advance
     image: /public/consoles/Nintendo Game Boy Advance.png
@@ -184,7 +184,7 @@ category:
     image: /public/consoles/Hardware.png
   "incomplete":
     title: Incomplete
-    image: /public/images/RetroReversingLogoSmall.png
+    image: /public/consoles/PC.png
   "industry":
     title: Industry
     image: /public/consoles/Magazine.png
@@ -193,7 +193,7 @@ category:
     image: /public/consoles/Intellivision.png
   "introduction":
     title: Introduction
-    image: /public/consoles/PC.png
+    image: /public/consoles/Introduction.png
   "jaguar":
     title: Atari Jaguar
     image: /public/consoles/Atari Jaguar.png
