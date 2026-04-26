@@ -23,6 +23,7 @@ Pick the smallest structure that fits:
 * **Timeline/index:** lots of items grouped by year/event (example: `categories/misc/GDC.md`).
 
 When extending an older, very large page, avoid sweeping rewrites. Preserve stable headings and refactor incrementally.
+Do not remove existing embedded content such as videos, tweets, or other primary-source embeds unless the user explicitly asks for their removal. These embeds often preserve useful technical or historical context. You may move or regroup them into more appropriate sections.
 
 ## Frontmatter checklist (category pages)
 
@@ -164,7 +165,8 @@ For hub-style pages, follow the newer pattern seen in `categories/consoles/WiiU.
   Only add these if you have enough links/content to avoid thin sections.
 * **FAQ-style subheadings** - within an H1 section, use `###` question headings ("How long did it take…?", "What did the SDK look like?") to make the page skimmable; each answer should end in one or more links (internal or external).
 * **Primary-source quote blocks** - short `>` quotes are useful for provenance and “why this matters”, backed by a footnote when the quote is evidence.
-* **Embedded media (sparingly)** - a single teardown / explanation video can be worth embedding when it teaches a hardware concept; keep the surrounding text tight and technical.
+* **Embedded media (sparingly)** - a teardown / explanation video, tweet, or other primary-source embed can be worth keeping when it teaches a hardware concept or preserves development context; keep the surrounding text tight and technical.
+* **Preserve existing embeds** - when editing an existing category page, keep embedded videos, tweets, and similar source material unless the user explicitly asks to remove them. Reorganising is fine, deletion is not.
 * **Hands-on callouts** - include at least one concrete “try this” (emulator/debugger step, tool invocation, or a small workflow) when the console has established reversing tooling.
 
 If a console doesn’t have enough depth yet, prefer the simpler hub pattern (short intro + links + `# All Posts`) rather than forcing these extras.

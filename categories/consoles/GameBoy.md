@@ -3,7 +3,6 @@ layout: post
 permalink: /gameboy
 title: Nintendo Game Boy Reverse Engineering
 category: gameboy
-excerpt: Awesome list of Nintendo Game Boy Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /
@@ -27,8 +26,6 @@ redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
   - /gameboy/
-tags:
-  - gameboy
 ---
 
 # Introduction
@@ -100,10 +97,15 @@ Along with the hardware, Nintendo also provided a fairly limited software develo
 
 ---
 # Hardware
+Understanding the platform before opening a ROM saves time. The Game Boy family is simple enough to study at board-level, but it still has enough cartridge and accessory variation that hardware context matters.
 
 ## Hardware Architecture
-We used to have a post on the hardware architecture of the Game Boy, but now we have replaced it for a link to the far superior page on **copetti.org**, it is a must read for any reverse engineer or beginner emulator developer.
-{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="This page on copetti.org has everything you need to know about the Game Boy Hardware, it is a must read!" image="/public/NintendoGameBoyThumb.png" title="Game boy Architecture - A Practical Analysis"  %}
+If you want a broad architectural overview before going deeper, Copetti's write-up is one of the best starting points:
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="Rodrigo Copetti provides a practical architectural overview of the Game Boy, covering the CPU, memory layout, graphics pipeline, audio system, and cartridge hardware." image="/public/NintendoGameBoyThumb.png" title="Game Boy Architecture - A Practical Analysis" %}
+
+## Boot ROM
+The boot ROM is one of the first platform-specific code paths worth understanding. It establishes initial hardware state, checks cartridge header data, and controls the startup sequence:
+{% include link-to-other-site.html url="https://realboyemulator.wordpress.com/2013/01/03/a-look-at-the-game-boy-bootstrap-let-the-fun-begin/" description="A practical breakdown of the original Game Boy bootstrap process, useful when studying cartridge headers, reset state, and emulator accuracy." title="A Look At The Game Boy Bootstrap" %}
 
 ## Sharp LR35902 Microprocessor
 The CPU used in the original Game Boy was a custom Sharp LR35902, which is often considered similar to the Zilog Z80 but with some variations. While it was based on the Z80 architecture, it was not produced by Zilog.
