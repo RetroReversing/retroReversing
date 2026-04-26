@@ -18,6 +18,8 @@ breadcrumbs:
 recommend: 
 - sdk
 - vita
+redirect_from:
+- /official-vita-sdk/
 editlink: /consoles/vita/OfficialSonyVitaSDK.md
 ---
 

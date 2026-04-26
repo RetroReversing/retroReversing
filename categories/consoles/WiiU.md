@@ -2,6 +2,7 @@
 permalink: /wiiu
 redirect_from:
   - /wiiu/
+  - /wiiu
   - /wiiU
   - /wiiU/
 title: Nintendo Wii U Reverse Engineering
