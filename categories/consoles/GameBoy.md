@@ -1,27 +1,28 @@
 ---
-permalink: /gameboy
 layout: post
-title: Nintendo Game Boy (DMG & GBC) Reversing
-recommend: 
- - gameboy
- - gba
- - ds
-recommendTitle: All GameBoy Posts
-editlink: ../categories/consoles/GameBoy.md
+permalink: /gameboy
+title: Nintendo Game Boy Reverse Engineering
 category: gameboy
 excerpt: Awesome list of Nintendo Game Boy Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo GameBoy
-    url: /gameboy
-videocarousel:
-  - title: The Ultimate Game Boy Talk
-    image: https://img.youtube.com/vi/HyzD8pNlpwI/hqdefault.jpg
-    youtube: HyzD8pNlpwI
-  - title: The Game Boy, a hardware autopsy
-    image: https://img.youtube.com/vi/RZUDEaLa5Nw/hqdefault.jpg
-    youtube: RZUDEaLa5Nw
+  - name: Consoles
+    url: /consoles
+  - name: Nintendo Game Boy Reverse Engineering
+    url: #
+tags:
+  - gameboy
+  - introduction
+recommendTitle: All Game Boy Posts
+recommend:
+  - gameboy
+  - gba
+  - introduction
+  - ds
+editlink: ../categories/consoles/GameBoy.md
+excerpt: Hub page for Game Boy and Game Boy Color hardware, development, reverse engineering, and source code resources
+updatedAt: '2026-04-26'
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
@@ -198,7 +199,7 @@ If you are interested in reverse engineering Gamy Boy Homebrew you will want to 
 [bbbbbr/gbtoolsid: A command line app for identifying tools used to build Game Boy ROMs](https://github.com/bbbbbr/gbtoolsid)
 
 ## Blem! Playstation Emulator for the GB
-Blem! was a prank ROM for the Game Boy which pretended to load up a Playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstation emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (Septermber 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^11].
+Blem! was a prank ROM for the Game Boy which pretended to load up a Playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstation emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (September 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^3].
 
 
 ---
