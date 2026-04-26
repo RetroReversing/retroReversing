@@ -78,6 +78,15 @@ Critical Engine Bugs & Logic Errors:
 * **Stun/Sleep Accuracy Omission:** When an attack target is under Stun or Sleep status, the attacker correctly receives a +25% attack power bonus. However, the logic jump bypasses the instruction to apply the attacker's accuracy stat entirely, locking the base hit chance at a fixed `84%` (168 base / 200).
 
 ---
+# PC Games
+
+## Deponia Magnet Puzzle Soft-Lock Fix
+[Nathan Baggs](https://www.youtube.com/watch?v=lT4McPl5kQU) has a detailed video breakdown about reverse engineering a persistent, game-breaking bug in the point-and-click adventure game **Deponia**. The investigation covers diagnosing a magnet puzzle soft-lock using tools like Ghidra, x64dbg, and RenderDoc to analyze memory and engine behavior. 
+By discovering an embedded Lua debugger (**mobdebug**) and decompiling the game's bytecode (**LuaJit**), the root cause—a failure to initialize condition states upon reloading—is identified and resolved via custom Lua code injection.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lT4McPl5kQU" title="Why Saving This Game Breaks It Forever" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
 # All Posts related to Specific Games
 
 {% include console.html %}
