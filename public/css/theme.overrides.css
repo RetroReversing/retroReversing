@@ -280,6 +280,11 @@ rr-sandpack {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
+
+.rr-tabs .rr-tab div p
+{
+    padding-left: 0px !important; /** Override the padding added to p tags in .row when in a tab **/
+}
 /* #endregion Tabs  */
 
 /*  ILBM Viewer */

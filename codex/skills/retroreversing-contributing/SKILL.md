@@ -55,7 +55,9 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Source-file callouts: `source-code-card.html` / `source-code-card-grid.html` when actually showing real file contents/symbols.
   * The `functions`, `variables`, and `lines` fields must be exact numeric counts from the file.
   * Omit the card if you can't provide exact counts yet.
-* Tabs: prefer the `rr-tabs` pattern shown in `CONTRIBUTING.md` when comparing variants (e.g., C vs ASM).
+* Tabs: prefer the `rr-tabs.html` and `rr-tab.html` includes shown in `CONTRIBUTING.md` when comparing variants (e.g., C vs ASM).
+  * `rr-tabs.html` defaults to a scrollable content area with `max-height: 50vh`.
+  * Use the optional `maxHeight` argument on `rr-tabs.html` when you need to override that default for a specific page.
 
 ### Images
 * Prefer linking externally hosted box-art (e.g. MobyGames) for "section about a specific game" figures when appropriate.

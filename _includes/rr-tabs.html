@@ -1,0 +1,17 @@
+{% comment %}
+Wrap one or more rr-tab includes in the DOM structure expected by the site tab JS.
+
+Usage:
+{% raw %}
+{% capture tab_items %}
+{% include rr-tab.html title="Types" default=true content=types_content %}
+{% include rr-tab.html title="Functions" content=functions_content %}
+{% endcapture %}
+{% include rr-tabs.html group="example-group" tabs=tab_items %}
+{% endraw %}
+{% endcomment %}
+<div class="rr-tabs"{% if include.group %} title="{{ include.group | escape }}"{% endif %}>
+<div style="max-height: {% if include.maxHeight %}{{ include.maxHeight | escape }}{% else %}50vh{% endif %}; overflow-y: auto;">
+{{ include.tabs }}
+</div>
+</div>
