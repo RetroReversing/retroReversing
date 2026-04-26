@@ -339,6 +339,7 @@ What makes the PSP vector API interesting is that it looks much closer to a mode
 The use of floating-point vector types, 16-byte-aligned 4D vectors, and operations such as dot product, cross product, normalization, lerp, reflection, refraction, and face-forward suggests an API designed around the PSP's VFPU and 3D rendering workloads rather than just basic gameplay math.
 
 The repeated `XYZ` variants are especially telling, because they imply that many engine data structures were stored in 4D form while still treating only the first three components as position or direction data.
+In that style of API, the `w` component is often used for homogeneous-coordinate math, padding/alignment, or some non-spatial extra value while `x`, `y`, and `z` carry the actual spatial direction or position.
 
 {% capture psp_vector_types_tab %}
 Here are the main storage types exposed by the header (`psptypes.h`). 
@@ -475,6 +476,7 @@ Some of the less obvious helpers are worth explaining before reading the declara
 * `InnerProduct` is the PSP SDK's formal name for the dot product, while `OuterProduct` is used as the implementation name behind the SDK's cross-product helpers.
 * `Funnel` is an unusual name, but the implementation shows that it literally sums the components of the vector. `Average` does the same reduction and then divides by the number of components.
 * `FaceForward`, `Reflect`, and `Refract` are surface-response helpers that fit naturally with lighting, collision response, and other rendering-style calculations.
+* The `sceVfpuVector2FaceForwardXYZ` name shown below looks inconsistent with the surrounding 4D `XYZ` helpers. It is reproduced here as written in the SDK header, but it likely reflects a naming mistake or typo in the original API.
 * `NormalizePhase` is not vector normalization in the usual magnitude sense. The implementation wraps each component back into the `[-pi, +pi]` range, so it is better understood as angle or phase normalisation.
 
 ```c
