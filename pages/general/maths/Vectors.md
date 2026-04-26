@@ -239,11 +239,7 @@ Both `VEC2D_DotProduct` and `VEC2D_CrossProduct` shift by `V_SFT`, which looks m
 
 Combined with `Vec10` and the separate `Fast` variants, the header reads like an interface designed around compact integer storage and predictable performance on DS-era hardware.
 
-{% include_cached link-to-other-post.html post="/platinumleak" description="For more information on the Nintendo Platinum leak that exposed these DS headers, check out this post." %}
-
-<div class="rr-tabs" title="group1">
-  <div class="rr-tab" title="Types" default>
-<div markdown="1">
+{% capture ds_vector_types_tab %}
 Here are the main storage types exposed by the header:
 
 ```c
@@ -280,11 +276,9 @@ typedef  vl Pos32     vPos32;
 typedef  vl Pos       vPos;
 ```
 
-</div>
-</div>
+{% endcapture %}
 
-  <div class="rr-tab" title="Functions">
-<div markdown="1">
+{% capture ds_vector_functions_tab %}
 Here are the main vector helpers exposed by the header:
 
 ```c
@@ -326,10 +320,18 @@ void VEC32_Lerp(Vec32 *a, Vec32 *b, Vec32 *d, s32 t);
 void VEC32_LerpFast(Vec32 *a, Vec32 *b, Vec32 *d, s32 t);
 ```
 
-</div>
-  </div>
-</div>
+{% endcapture %}
 
+{% capture ds_vector_tabs %}
+{% include rr-tab.html title="Types" default=true content=ds_vector_types_tab %}
+{% include rr-tab.html title="Functions" content=ds_vector_functions_tab %}
+{% endcapture %}
+{% include rr-tabs.html group="group1" tabs=ds_vector_tabs %}
+
+You can find out more about the Nintendo DS Boot ROM in the Platinum leak:
+{% include_cached link-to-other-post.html post="/platinumleak" description="For more information on the Nintendo Platinum leak that exposed these DS headers, check out this post." %}
+
+---
 ### Sony PSP Vector Library
 The official PlayStation Portable (PSP) SDK exposes vector types such as `ScePspVector2`, `ScePspVector3` through the `psptypes.h` header and vector functions through the VFPU library header `libvfpu.h`.
 What makes the PSP vector API interesting is that it looks much closer to a modern real-time graphics math library than the simpler DS helper headers.
@@ -338,11 +340,11 @@ The use of floating-point vector types, 16-byte-aligned 4D vectors, and operatio
 
 The repeated `XYZ` variants are especially telling, because they imply that many engine data structures were stored in 4D form while still treating only the first three components as position or direction data.
 
-<div class="rr-tabs" title="psp-group1">
-  <div class="rr-tab" title="PSP Vector Types" default>
-    <div markdown="1">
+{% capture psp_vector_types_tab %}
+Here are the main storage types exposed by the header (`psptypes.h`). 
+The prefix tells you the underlying storage format: `S` means `short`, `I` means `int`, `L64` means 64-bit integer storage, and `F` means `float`. 
 
-  Here are the main storage types exposed by the header (`psptypes.h`):
+The union forms such as `ScePspVector2` and `ScePspVector3` are useful because they let the same bytes be viewed either as named vector structs (`fv`, `iv`) or plain arrays (`f[]`, `i[]`), which makes it easier to switch between component-wise code and bulk math or VFPU-oriented helper code:
   ```c
   // 2D Vectors
   typedef struct ScePspSVector2 {
@@ -461,11 +463,9 @@ The repeated `XYZ` variants are especially telling, because they imply that many
   #define	FVector4		ScePspFVector4
   #define	Vector4			ScePspVector4
   ```
-  </div>
-  </div>
+{% endcapture %}
 
-  <div class="rr-tab" title="PSP Vector Functions">
-    <div markdown="1">
+{% capture psp_vector_functions_tab %}
 Here are the main vector helpers exposed by the header `libvfpu.h`, note that they are repeated for each of the vector sizes so we only include first first one and have the variant names in the comment at the end of the line:
 
 ```c
@@ -554,10 +554,13 @@ ScePspFVector4 *sceVfpuVector4ReflectXYZ(ScePspFVector4 *pv0, const ScePspFVecto
 ScePspFVector2 *sceVfpuVector2Refract(ScePspFVector2 *pv0, const ScePspFVector2 *pv1, const ScePspFVector2 *pv2, float eta); // Variants: sceVfpuVector3Refract, sceVfpuVector4RefractXYZ
 ScePspFVector4 *sceVfpuVector4RefractXYZ(ScePspFVector4 *pv0, const ScePspFVector4 *pv1, const ScePspFVector4 *pv2, float eta);
 ```
+{% endcapture %}
 
-  </div>
-  </div>
-</div>
+{% capture psp_vector_tabs %}
+{% include rr-tab.html title="PSP Vector Types" default=true content=psp_vector_types_tab %}
+{% include rr-tab.html title="PSP Vector Functions" content=psp_vector_functions_tab %}
+{% endcapture %}
+{% include rr-tabs.html group="psp-group1" tabs=psp_vector_tabs %}
 
 ---
 # References

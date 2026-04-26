@@ -388,39 +388,48 @@ You can use tabs to show different variations of the same content, for example i
 This is how you use tabs:
 ```html
 {% raw %}
-<div class="rr-tabs">
-  <div class="rr-tab" title="Tab 1 Title" default>
-    <div markdown="1">
-      Contents of Tab 1
-    </div>
-  </div>
-  
-  <div class="rr-tab" title="Tab 2 Title">
-    <div markdown="1">
-      Contents of Tab 2
-    </div>
-  </div>
-</div>
+{% capture tab_1_content %}
+Contents of Tab 1
+{% endcapture %}
+
+{% capture tab_2_content %}
+Contents of Tab 2
+{% endcapture %}
+
+{% capture example_tabs %}
+{% include rr-tab.html title="Tab 1 Title" default=true content=tab_1_content %}
+{% include rr-tab.html title="Tab 2 Title" content=tab_2_content %}
+{% endcapture %}
+
+{% include rr-tabs.html group="example-group" tabs=example_tabs %}
 {% endraw %}
 ```
+
+Tab content now defaults to a vertically scrollable area with `max-height: 50vh`.
+The `maxHeight` argument is optional when you want to override that default, for example `maxHeight="50vw"`.
 
 Here is an example of what it will render:
 
 {% raw %}
-<div class="rr-tabs">
-<div class="rr-tab" title="C Code Example" default markdown="1">
+{% capture c_code_example %}
 
 # Heading
 **Default** - C Code would be here
 ```c
 sleep(1);
 ```  
-</div>
-  
-<div class="rr-tab" title="Assembly Code" markdown="1">
-   **Assembly** code would be here
-</div>
-</div>
+{% endcapture %}
+
+{% capture asm_code_example %}
+**Assembly** code would be here
+{% endcapture %}
+
+{% capture code_example_tabs %}
+{% include rr-tab.html title="C Code Example" default=true content=c_code_example %}
+{% include rr-tab.html title="Assembly Code" content=asm_code_example %}
+{% endcapture %}
+
+{% include rr-tabs.html group="example-group" tabs=code_example_tabs %}
 {% endraw %}
 
 ---

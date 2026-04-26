@@ -41,10 +41,7 @@ A Vector is basically a Matrix with just 1 row, you can find out more about Vect
 # Nintendo DS
 The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisMTX.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
-<div class="rr-tabs" title="group1">
-  <div class="rr-tab" title="Types" default>
-
-<div  markdown="1" >
+{% capture matrix_types_tab %}
 Here are the types it provides to the developer:
 
 ```c
@@ -90,11 +87,9 @@ typedef union {
 typedef  vl Mtx44   vMtx44;
 ```
 
-</div>
-  </div>
+{% endcapture %}
 
-  <div class="rr-tab" title="Functions">
-<div  markdown="1" >
+{% capture matrix_functions_tab %}
 Here are a all of the functions it provides:
   
 ```c
@@ -292,7 +287,10 @@ void MTX_MultVecArraySR(  const Mtx   *mult, Vec *srcBasep, Vec *dstBasep, u32 c
 void MTX44_MultVecArraySR(const Mtx44 *mult, Vec *srcBasep, Vec *dstBasep, u32 count);
 ```
 
-</div>
-  </div>
-</div>
+{% endcapture %}
 
+{% capture matrix_tabs %}
+{% include rr-tab.html title="DS Matrix Types" default=true content=matrix_types_tab %}
+{% include rr-tab.html title="DS Martix Functions" content=matrix_functions_tab %}
+{% endcapture %}
+{% include rr-tabs.html group="group1" tabs=matrix_tabs %}

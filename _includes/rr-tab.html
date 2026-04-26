@@ -1,0 +1,9 @@
+{% comment %}
+Render one rr-tab pane. The inner content is wrapped in a markdown-enabled div so
+pages can pass normal Markdown via a capture block.
+{% endcomment %}
+<div class="rr-tab" title="{{ include.title | escape }}"{% if include.default %} default{% endif %}>
+<div markdown="1">
+{{ include.content }}
+</div>
+</div>
