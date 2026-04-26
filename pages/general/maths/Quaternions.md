@@ -4,7 +4,6 @@ tags:
 - maths
 title: Quaternions (Maths for Game Developers)
 category: maths
-image: /public/consoles/Computer Old Design.png
 permalink: /Quaternions
 breadcrumbs:
   - name: Home
@@ -13,7 +12,10 @@ breadcrumbs:
     url: /maths
   - name: Quaternions
     url: #
-recommend: maths
+recommend: 
+ - maths
+ - introduction
+ - sdk
 editlink: /articles/maths/Quaternions.md
 videocarousel:
   - title: Part 1 Gimbal Lock

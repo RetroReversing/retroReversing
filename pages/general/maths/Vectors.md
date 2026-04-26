@@ -4,7 +4,6 @@ tags:
 - maths
 title: Vectors (Maths for Game Developers)
 category: maths
-image: /public/consoles/Computer Old Design.png
 permalink: /Vectors
 breadcrumbs:
   - name: Home
@@ -13,12 +12,11 @@ breadcrumbs:
     url: /maths
   - name: Vectors
     url: #
-recommend: maths
+recommend: 
+- maths
+- introduction
+- sdk
 editlink: /articles/maths/Vectors.md
-videocarousel:
-  - title: Part 1 Intro
-    image: https://i.ytimg.com/vi/xyAuNHPsq-g/sddefault.jpg
-    youtube: 'xyAuNHPsq-g'
 ---
 
 # Introduction to Vectors

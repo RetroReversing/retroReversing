@@ -4,7 +4,6 @@ tags:
 - maths
 title: Matrices/Matrix (Maths for Game Developers)
 category: maths
-image: /public/consoles/Computer Old Design.png
 permalink: /Matrix
 breadcrumbs:
   - name: Home
@@ -13,12 +12,11 @@ breadcrumbs:
     url: /maths
   - name: Matrices/Matrix
     url: #
-recommend: maths
+recommend: 
+- maths
+- sdk
+- introduction
 editlink: /articles/maths/Matrix.md
-videocarousel:
-  - title: Part 1 Intro
-    image: https://i.ytimg.com/vi/xyAuNHPsq-g/sddefault.jpg
-    youtube: 'xyAuNHPsq-g'
 ---
 
 # Introduction to matrices
