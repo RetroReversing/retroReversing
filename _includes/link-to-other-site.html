@@ -8,9 +8,9 @@
   <blockquote>
       <div class="widget-img">
           {% if include.image %}
-            <img style="max-width:200px" class="lazy-load otherPostImg" data-image-full="{{ include.image }}" alt="Link to {{ include.title }}" width="320" height="180">
+            <img style="max-width:200px" class="lazy-load otherPostImg" data-image-full="{{ include.image }}" alt="Thumbnail of {{ include.title }}" width="320" height="180" />
           {% else %}
-            <img style="max-width:200px; width:100px !important; height:100px !important;" class="geopattern" data-title="{{ include.title }}" alt="Link to {{ include.title }}" />
+            <span style="max-width:200px; width:100px !important; height:100px !important;" class="geopattern" data-title="{{ include.title }}"></span>
           {% endif %}
       </div>
       <div class="linkToOtherPostRight">

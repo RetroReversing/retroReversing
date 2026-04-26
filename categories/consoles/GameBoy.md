@@ -25,6 +25,7 @@ videocarousel:
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
+  - /gameboy/
 tags:
   - gameboy
 ---
