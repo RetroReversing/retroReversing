@@ -15,7 +15,7 @@
         {% endcomment %}
       
         {% for recommend in related_topics %}
-          {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
+          {% for post in site.pages where_exp:"post","post.tags contains recommend and post.hidden != true" %}
               {% if post.tags contains recommend and post.url != include.current_url %}
                 <li>
                   {% include_cached post-discovery/post-card.html post=post classes="" %}
@@ -30,7 +30,7 @@
           This is for when the related topics are NOT an array
         {% endcomment %}
       
-        {% for post in site.pages where_exp:"post","post.tags contains related_topics" %}
+        {% for post in site.pages where_exp:"post","post.tags contains related_topics and post.hidden != true" %}
           {% if post.tags contains related_topics and post.url != include.current_url %}
             <li>
               {% include_cached post-discovery/post-card.html post=post classes="" %} 
