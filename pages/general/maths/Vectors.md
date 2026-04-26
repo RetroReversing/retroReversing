@@ -34,8 +34,6 @@ Vectors appear everywhere in game engines:
 * **Surface normals** - Perpendicular directions used for lighting and collision
 * **Facing directions** - Where a camera, enemy, or projectile is aimed
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZoMmiQes_lE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 ## Core Operations
 A few vector operations appear in almost every game codebase:
@@ -143,6 +141,7 @@ In this example `lengthSq(toEnemy)` is `52`, so `inRange` is `true`.
 ### Dot product
 The dot product measures how much one vector points in the direction of another [^1][^4].
 For normalized vectors, it collapses to the cosine of the angle between them [^4].
+It is also often called the **inner product**, especially in more formal math libraries and SDKs such as the Sony PSP VFPU headers.
 
 The sign and size of the result usually mean:
 * **Positive** - The vectors point in roughly the same direction
@@ -188,6 +187,7 @@ In this example it is about `0.83`, which means the enemy is clearly in front of
 ### Cross product
 The cross product only makes sense in 3D [^1][^5].
 It returns a new vector perpendicular to both inputs, with a magnitude based on the sine of the angle between them [^5].
+Some libraries also call this an **outer product**, although in broader linear algebra that term can mean a different operation.
 In practice, game programmers use it to build triangle normals, construct camera bases, and derive `right`, `up`, or `forward` axes from each other.
 
 [Jorge Rodriguez](https://www.youtube.com/watch?v=FT7MShdqK6w) has a good video on how to derive a character's "right" vector from their "forward" and "up" vectors using the cross product. This video demonstrates how to implement lateral movement (strafing) relative to a camera's orientation, which is a fundamental requirement for first-person and third-person movement systems. Rodriguez provides both the mathematical theory for calculating orthogonal vectors and the practical C++ implementation needed to integrate these concepts into a game's velocity calculations.
@@ -466,7 +466,16 @@ The union forms such as `ScePspVector2` and `ScePspVector3` are useful because t
 {% endcapture %}
 
 {% capture psp_vector_functions_tab %}
-Here are the main vector helpers exposed by the header `libvfpu.h`, note that they are repeated for each of the vector sizes so we only include first first one and have the variant names in the comment at the end of the line:
+Here are the main vector helpers exposed by the header `libvfpu.h` [^7]. They are repeated for each of the vector sizes, so this tab only shows one representative declaration and lists the related variants in a trailing comment.
+
+Some of the less obvious helpers are worth explaining before reading the declarations [^8]:
+* `PositiveZero` and `NegativeZero` show that the PSP SDK cared about exact floating-point bit patterns as well as numeric value. In the source, the negative-zero helpers write the `0x80000000` sign-bit pattern directly into each float lane.
+* `Ceil`, `Trunc`, `Round`, `Floor`, and `FromIVector` make the bridge between float vectors and integer vectors explicit. That is useful when an engine moves between VFPU math, grid or tile coordinates, screen-space values, and packed gameplay data.
+* `Clamp`, `Min`, `Max`, `Abs`, and `Neg` are all component-wise cleanup helpers. They are the kinds of operations you need when bounding movement, constraining camera input, mirroring directions, or sanitising values before later math.
+* `InnerProduct` is the PSP SDK's formal name for the dot product, while `OuterProduct` is used as the implementation name behind the SDK's cross-product helpers.
+* `Funnel` is an unusual name, but the implementation shows that it literally sums the components of the vector. `Average` does the same reduction and then divides by the number of components.
+* `FaceForward`, `Reflect`, and `Refract` are surface-response helpers that fit naturally with lighting, collision response, and other rendering-style calculations.
+* `NormalizePhase` is not vector normalization in the usual magnitude sense. The implementation wraps each component back into the `[-pi, +pi]` range, so it is better understood as angle or phase normalisation.
 
 ```c
 // Initialize vectors to positive or negative zero
@@ -570,3 +579,5 @@ ScePspFVector4 *sceVfpuVector4RefractXYZ(ScePspFVector4 *pv0, const ScePspFVecto
 [^4]: [Unity Scripting API - Vector3.Dot](https://docs.unity3d.com/ScriptReference/Vector3.Dot.html)
 [^5]: [Unity Scripting API - Vector3.Cross](https://docs.unity3d.com/ScriptReference/Vector3.Cross.html)
 [^6]: [RetroReversing - Nintendo Platinum Leak](/platinumleak)
+[^7]: Sony PSP SDK headers `psptypes.h` and `libvfpu.h`.
+[^8]: Sony PSP SDK implementations `src/vfpu/vector2.c`, `src/vfpu/vector3.c`, and `src/vfpu/vector4.c`.
