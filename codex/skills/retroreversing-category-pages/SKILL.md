@@ -22,8 +22,9 @@ Pick the smallest structure that fits:
 * **Reference list:** mostly tables of resources grouped by subtopic.
 * **Timeline/index:** lots of items grouped by year/event (example: `categories/misc/GDC.md`).
 
-When extending an older, very large page, avoid sweeping rewrites. Preserve stable headings and refactor incrementally.
-Do not remove existing embedded content such as videos, tweets, or other primary-source embeds unless the user explicitly asks for their removal. These embeds often preserve useful technical or historical context. You may move or regroup them into more appropriate sections.
+## Editing Rules
+* When extending an older, very large page, avoid sweeping rewrites. Preserve stable headings and refactor incrementally.
+* Do not remove existing embedded content such as videos, tweets, or other primary-source embeds unless the user explicitly asks for their removal. These embeds often preserve useful technical or historical context. You may move or regroup them into more appropriate sections.
 
 ## Frontmatter checklist (category pages)
 
@@ -199,16 +200,19 @@ External links that stand alone as their own paragraph/line:
 
 Inline external links inside a sentence can be normal Markdown links; add a footnote only when the link is serving as evidence for a claim.
 
+## Youtube Rules
+If its a YouTube video always have an embed and mention the author and content of the video before it, e.g:
+```markdown
+[PothOnProgramming](https://www.youtube.com/watch?v=b5TjpTBW6yw) offers a technical breakdown of the 2D dot product and its critical applications in game design and engine logic. The video highlights several fundamental applications of the dot product used in game development and vector math.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b5TjpTBW6yw" title="2D Dot Product - Cool Things To Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
 ## References
-
 If the page makes specific historical/technical claims (dates, counts, quotes), add footnotes and end with:
-
 `# References`
-
 Keep quotes short and make sure references back up the specific claim.
 
 ## Creating a brand-new category
-
 If you add a new top-level category page:
-
 * Ensure the `category:` key exists in `_config.yml` under `category:` with `title` and `image`.
