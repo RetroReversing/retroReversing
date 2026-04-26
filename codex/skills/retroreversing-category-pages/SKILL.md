@@ -4,23 +4,13 @@ description: "Use when creating or editing RetroReversing category hub pages und
 ---
 
 # RetroReversing Category Pages
-
 Category pages live in `categories/**` and publish to a top-level permalink like `/nes`, `/wiiu`, `/disassemblers`, or `/gdc`.
 
 They have two jobs:
-
 * act as the hub/index for a topic (usually a console/tool/company), linking to relevant RetroReversing posts
 * curate high-quality external sources so the page stands alone as a reference
 
 If you are not editing `categories/**`, use the broader `retroreversing-contributing` skill instead.
-
-## Identify the category page type
-
-Pick the smallest structure that fits:
-
-* **Hub (preferred for new pages):** short intro + organised internal links + a small curated external list.
-* **Reference list:** mostly tables of resources grouped by subtopic.
-* **Timeline/index:** lots of items grouped by year/event (example: `categories/misc/GDC.md`).
 
 ## Editing Rules
 * When extending an older, very large page, avoid sweeping rewrites. Preserve stable headings and refactor incrementally.
@@ -207,6 +197,9 @@ If its a YouTube video always have an embed and mention the author and content o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b5TjpTBW6yw" title="2D Dot Product - Cool Things To Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
+
+## Tweet and Primary-source Embed Rules
+If you keep or add an embedded tweet or other primary-source embed, include a short sentence before or after it explaining why it matters. Focus on the technical or historical value of the embed rather than leaving it to stand alone without context.
 
 ## References
 If the page makes specific historical/technical claims (dates, counts, quotes), add footnotes and end with:

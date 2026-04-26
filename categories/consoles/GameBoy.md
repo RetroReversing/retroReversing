@@ -35,6 +35,7 @@ This page serves two roles. It groups the RetroReversing posts related to the Ga
 
 ## Quick Technical Reference
 The quick reference below is useful when choosing an emulator, debugger, or disassembly target:
+
 Property | Notes
 ---|---
 CPU | Sharp LR35902, an 8-bit CPU with `i8080` and Z80 ancestry
@@ -64,11 +65,11 @@ If you want to work from recreated board-level documentation, Gekkio's schematic
 {% include link-to-other-site.html url="https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf" description="Recreated schematics for the Game Boy Pocket CPU board, useful for tracing signals and understanding hardware level behaviour." title="Game Boy Pocket Hardware Schematics" %}
 
 ## The Ultimate Game Boy Talk
-This talk is still one of the best broad introductions to the hardware and the programming model, especially if you want one long-form overview before drilling into specific subsystems:
+The video below is still one of the best broad introductions to the hardware and the programming model, especially if you want one long-form overview before drilling into specific subsystems:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The Game Boy, a hardware autopsy
-These two videos are worth keeping together because they focus more on the physical hardware itself than the higher-level architectural write-ups above:
+These two videos are worth keeping together because they focus on the physical hardware itself rather than the higher-level architectural write-ups above:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RZUDEaLa5Nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ecTQVa42sJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -124,7 +125,6 @@ Some game-specific anecdotes are worth keeping because they point to development
 
 ## Alien 3
 `Alien 3` is a useful reminder of how compressed licensed handheld schedules could be. Jas Austin has said the Game Boy version was written in about five weeks [^1].
-The Game Boy game **Alien 3** was written in only 5 weeks by legendary game programmer **Jas Austin**:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Game Boy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
 
 ## R-Type
@@ -134,7 +134,7 @@ He also described being hired after showing a one-week demo to B.I.T.S, which is
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I agree, it&#39;s amazing some of the lengths we have to go to when we didn&#39;t have code or assets. For R-Type I did most of it from memory after visits to the Trocadero in London. And I didn&#39;t live in London.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1251581149643780097?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote>
 
-The company **B.I.T.S** obtained the license to develop the Game Boy version of the game but required a programmer to work on the title. **Jas Austin** heard about this through his agency and travelled to London to meet up, he impressed them so much that he was given a development kit and a deadline of a week to come up with a demo! He did such a good job he got a permanent job at **B.I.T.S** [^1].
+The company **B.I.T.S** obtained the license to develop the Game Boy version of the game but required a programmer to work on the title. **Jas Austin** heard about this through his agency and travelled to London to meet up, he impressed them so much that he was given a development kit and a deadline of a week to come up with a demo. He did such a good job he got a permanent job at **B.I.T.S** [^2].
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway's game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
 
@@ -156,12 +156,12 @@ Nintendo released a Japanese accessory called the Mobile Adapter GB which connec
 {% include link-to-other-site.html url="https://xcellerator.github.io/posts/tetsuji/" description="TheXcellerator explains how the Mobile Adapter GB works and how it was turned into a route for running custom code years after release." title="Tetsuji - Remote Code Execution on a Game Boy Colour 22 Years Later" %}
 
 ## Super Game Boy
-The Super Game Boy is important because it effectively embeds Game Boy hardware inside a Super Nintendo cartridge, creating a hybrid environment with its own timing and presentation quirks:
+The video below explains how the Super Game Boy embeds Game Boy hardware inside a Super Nintendo cartridge, creating a hybrid environment with its own timing and presentation quirks:
 {% include link-to-other-site.html url="https://www.youtube.com/watch?v=uaeLY441Fwc" description="A video overview of the Super Game Boy hardware and how Nintendo adapted the handheld for television output." title="Super Game Boy Overview" %}
 <iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
 
 ## Wide Boy 64
-The **Wide Boy 64** was an official but non-retail device used by developers and press to run Game Boy and Game Boy Advance software through an N64 based setup:
+The video below covers the **Wide Boy 64**, an official but non-retail device used by developers and press to run Game Boy and Game Boy Advance software through an N64 based setup:
 {% include link-to-other-site.html url="https://www.youtube.com/watch?v=llIz6qjDfLc" description="An overview of the Wide Boy 64 and why it matters as a rare Nintendo evaluation and capture device." title="Wide Boy 64 Overview" %}
 <iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
 
@@ -175,13 +175,15 @@ The **GB Booster** was an unlicensed Nintendo 64 accessory in the same broad spa
 <iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
 
 ## Datel Game Booster and GameStudio
-Datel also shipped PlayStation accessories for running Game Boy software, including the PlayStation Game Booster and the later `GameStudio` for PlayStation 2:
+The video below shows Datel's PlayStation Game Booster:
 <iframe width="560" height="420" src="https://www.youtube.com/embed/SxF2e6DUMRo?color=white&theme=dark"></iframe>
-![Datel GameStudio](https://github.com/RetroReversing/retroReversing/assets/40120498/9026fc2e-7577-447d-94ee-e1643e97aa11)
+
+The Image below shows the later `GameStudio` accessory for PlayStation 2 also by Datel:
+<img alt="Datel GameStudio" src="https://github.com/RetroReversing/retroReversing/assets/40120498/9026fc2e-7577-447d-94ee-e1643e97aa11">
 
 ## Dance Dance Revolution Controller for GBC
 Konami's `Dance Dance Revolution` controller for the Game Boy Color is a useful example of how far the accessory ecosystem stretched beyond normal link cable peripherals:
-![Dance Dance Revolution Controller for GBC](https://github.com/RetroReversing/retroReversing/assets/40120498/5de18708-4006-471f-88f4-3864f6a7f34a)
+<img alt="Dance Dance Revolution Controller for GBC" src="https://github.com/RetroReversing/retroReversing/assets/40120498/5de18708-4006-471f-88f4-3864f6a7f34a">
 
 ---
 # Sound
@@ -193,9 +195,9 @@ The audio hardware is one of the most technically interesting parts of the platf
 
 {% include link-to-other-site.html url="http://www.righto.com/2020/05/reverse-engineering-audio-chip-in.html" description="A transistor level analysis of the Game Boy Color audio amplifier chip, including die photos, schematic reconstruction, and analogue behaviour." title="Reverse Engineering the Audio Amplifier Chip in the Nintendo Game Boy Color" %}
 
-## Synthic: Automatically generate gameboy music using machine learning
-This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Game Boy Music! Check it out here:
-[jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
+## Synthic
+`Synthic` played a large set of Game Boy games in a custom headless emulator and tracked the audio registers into a text format. That data was then used to train a machine learning model to generate new Game Boy music:
+{% include link-to-other-site.html url="https://github.com/jawline/Synthic" description="A project that records Game Boy audio register activity from emulated play sessions and uses that data to generate new music." title="Synthic" %}
 
 ---
 # Tools and File Formats
@@ -209,7 +211,7 @@ Start here if you want a broader survey of Game Boy file structures before drill
 When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical first pass because it can often identify the toolchain used to build a Game Boy ROM:
 {% include link-to-other-site.html url="https://github.com/bbbbbr/gbtoolsid" description="A command line utility for identifying which tools or engines were likely used to build a Game Boy ROM." title="gbtoolsid" %}
 
-### DMG-palette-patcher
+## DMG-palette-patcher
 [MrBlinky](https://github.com/MrBlinky/DMG-palette-patcher) has released a Python tool for patching Original Game Boy (DMG) ROMs to use specific color palettes when played on a Game Boy Color. The script works by modifying the ROM's header-specifically the license code and title checksum-to trick the Game Boy Color's boot ROM into automatically selecting one of 45 built-in color palettes, such as the classic grey theme, rather than the default blue-greenish hues.
 
 {% include link-to-other-site.html url="https://github.com/MrBlinky/DMG-palette-patcher" description="MrBlinky has released DMG-palette-patcher, a tool that modifies Game Boy ROM headers to trigger specific built-in color palettes on the Game Boy Color." title="DMG-palette-patcher by MrBlinky" %}
