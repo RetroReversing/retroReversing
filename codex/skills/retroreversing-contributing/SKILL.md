@@ -5,6 +5,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Target audience is technical: assume programming literacy, don't assume reverse-engineering literacy.
 * Prefer linking to high-quality sources over duplicating other sites' content; still provide a short summary so the page reads coherently without clicking out.
 * Reference sources for technical claims and dates; Wikipedia only as a last resort.
+* Do not remove YouTube iframes and the reference information, they were added to the page for a reason, but you may move them to another section if required.
 
 ### Workflow (content edits)
 1) Decide fit: does this belong on RetroReversing (retro game dev + reverse engineering / digital archaeology; ~1980–2015)?
@@ -43,6 +44,8 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 8) Code examples:
    * Use TypeScript when it's runnable interactively in-browser; otherwise use Python for local scripts.
    * Use fenced code blocks with a language tag; use `nasm` for assembly highlighting.
+   * On concept-heavy reference pages, place code examples directly under the section they illustrate rather than collecting them in a separate generic example section.
+   * Only use a standalone "examples" section when the page is explicitly structured as a tutorial, walkthrough, or end-to-end implementation guide.
    * Mermaid diagrams: use sparingly; keep labels short; bold the first line in nodes when there's a title + explanation.
 
 ### Preferred Site Components (use instead of ad-hoc HTML)
@@ -68,6 +71,14 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 ### Spelling
 * Use cspell blocks when needed:
   * `<!-- cspell:disable -->` / `<!-- cspell:enable -->`
+
+### Videos
+Make sure to have a sentence before any embedded youtube video explaining who created the video and what it contains, e.g:
+```markdown
+[PothOnProgramming](https://www.youtube.com/watch?v=b5TjpTBW6yw) offers a technical breakdown of the 2D dot product and its critical applications in game design and engine logic. The video highlights several fundamental applications of the dot product used in game development and vector math.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b5TjpTBW6yw" title="2D Dot Product - Cool Things To Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
 
 ### Reminder
 * `CONTRIBUTING.md` is the source of truth for edge-cases and newer patterns; consult it if unsure.
