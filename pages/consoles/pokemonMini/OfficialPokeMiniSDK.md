@@ -18,6 +18,8 @@ breadcrumbs:
 recommend: 
 - pokemonmini
 - sdk
+redirect_from:
+- /official-pokemon-mini-sdk/
 editlink: /consoles/pokemonMini/OfficialPokeMiniSDK.md
 ---
 

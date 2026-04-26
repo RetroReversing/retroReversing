@@ -20,6 +20,8 @@ breadcrumbs:
 recommend: 
 - sdk
 - snes
+redirect_from:
+- /super-famicom-snes-sdk/
 editlink: /consoles/snes/SNESSDK.md
 updatedAt: '2021-07-03'
 ---

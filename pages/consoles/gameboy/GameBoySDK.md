@@ -20,6 +20,8 @@ breadcrumbs:
 recommend: 
 - gameboy
 - sdk
+redirect_from:
+ - /official-gameboy-software-dev-kit/
 editlink: /consoles/gameboy/GameBoySDK.md
 updatedAt: '2026-04-04'
 ---

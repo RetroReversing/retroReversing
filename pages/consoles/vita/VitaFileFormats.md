@@ -18,13 +18,15 @@ breadcrumbs:
 recommend: 
 - vita
 - fileformats
+redirect_from:
+- /playstation-vita-file-formats/
 editlink: /consoles/vita/VitaFileFormats.md
 ---
 
-When reverse engineering Playstation Vita games you will come across a number of different file formats, this post will explain all the file formats and how to use them.
+When reverse engineering PlayStation Vita games you will come across a number of different file formats, this post will explain all the file formats and how to use them.
 
 # Package files
-Package files are ways to distribute the full games to be installed on Playstation Vita consoles, the contains all the assets and executables required to run the game.
+Package files are ways to distribute the full games to be installed on PlayStation Vita consoles, the contains all the assets and executables required to run the game.
 
 ## PKG - Official Sony Package Files
 The games available on the Vita shop comes in an encrypted .PKG format along with a user-specific license. In order to disassemble/decompile or modify games they need to be decrypted [^2].
