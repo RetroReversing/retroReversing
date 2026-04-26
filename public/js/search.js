@@ -23,9 +23,25 @@
     return '/' + encodeURIComponent(normalized);
   }
 
+  function whenSearchReady(callback, attemptsRemaining = 40) {
+    if (window.RRSearch && typeof window.RRSearch.ready === 'function') {
+      window.RRSearch.ready(callback);
+      return;
+    }
+
+    if (attemptsRemaining <= 0) {
+      console.warn('RRSearch is unavailable on this page.');
+      return;
+    }
+
+    window.setTimeout(function() {
+      whenSearchReady(callback, attemptsRemaining - 1);
+    }, 50);
+  }
+
   // Initialize search when the page loads
   function initSearch() {
-    window.RRSearch.ready(function (fuseInstance) {
+    whenSearchReady(function (fuseInstance) {
       fuse = fuseInstance;
       if (fuse) {
         console.log('Search index ready');
