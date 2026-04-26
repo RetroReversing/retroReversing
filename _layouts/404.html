@@ -120,7 +120,23 @@
         return d.innerHTML;
       }
 
-      window.RRSearch.ready(function (fuse) {
+      function whenSearchReady(callback, attemptsRemaining) {
+        if (window.RRSearch && typeof window.RRSearch.ready === 'function') {
+          window.RRSearch.ready(callback);
+          return;
+        }
+
+        if (attemptsRemaining <= 0) {
+          console.warn('RRSearch is unavailable on this page.');
+          return;
+        }
+
+        window.setTimeout(function () {
+          whenSearchReady(callback, attemptsRemaining - 1);
+        }, 50);
+      }
+
+      whenSearchReady(function (fuse) {
         if (!fuse) return;
 
         var results = fuse.search(query, { limit: 6 });
@@ -165,7 +181,7 @@
         }).join('');
 
         relatedWrapper.style.display = '';
-      });
+      }, 40);
     })();
   </script>
 
