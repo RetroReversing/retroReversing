@@ -65,15 +65,9 @@
     <meta name="twitter:description" content="Retro Reversing - Peek behind the curtain to see how your favourite video games were made.">
   {% endif %}
 
-
-
+  <!-- Standard Meta -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.retroreversing.com/" />
- {% if page.excerpt %}
-  <meta property="og:description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering enthusiasts." />
- {% else %}
-  <meta property="og:description" content="The home of reverse engineering enthusiasts. Learn about RetroReversing and join the community today!" />
- {% endif %}
 
   <!--  Twitter Meta  -->
   <meta name="twitter:site" content="@RetroReversing">
@@ -100,7 +94,6 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- CSS -->
-
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">  <!--  Font awesome is used for: edit button, dropdown icon  -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/brands.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">  <!--  Font awesome is used for: twitter icon, bluesky icon  -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" rel="preload" as="style" onload="this.rel='stylesheet'">
