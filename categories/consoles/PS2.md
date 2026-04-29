@@ -31,6 +31,21 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your DualShock controller, and get ready to dive into the exciting world of PS2 reverse engineering!
 
 ---
+# Game Software Development for the Sony Playstation 2
+
+## How long did it take to develop PS2 games back in the day?
+In *Postmortems from Game Developer*, one LucasArts PlayStation 2 production released in February 2001 is described as taking 30 months to complete [^5].
+At the height of production, the team had approximately 40 full-time developers [^5].
+
+The postmortem also provides a useful snapshot of a relatively large early-PS2 production:
+* **Schedule** - 30 months of development
+* **Team size** - Approximately 40 full-time developers at peak production
+* **Project scale** - 301,000 lines of code, including internal tools
+* **Development hardware** - 700MHz Pentium III PCs with 256MB of RAM, GeForce 256 graphics cards, and dedicated PS2 tools
+* **Software stack** - Windows 2000, Microsoft Visual C++, Metrowerks for PS2, 3D Studio Max, Softimage, Photoshop, Bryce, Visual SourceSafe, Perl, AfterEffects, and Premiere
+* **Specialized technology** - The Eve level design tool, Miles Sound System, ObjectSpace STL, Macromedia/Secret Level Flash, and Planet Blue's Tulip for prerendered cut-scene lip-syncing
+
+---
 # Hardware
 Similar to the original PlayStation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
 
@@ -215,3 +230,4 @@ If you are interested in learning more we have a specific post about the Merkury
 [^2]: Psi2 issue 18
 [^3]: Psi2 issue 20
 [^4]: [GDC 2004 Evolve](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
+[^5]: Postmortems from Game Developer (Austin Grossman, 2003) Page 299
