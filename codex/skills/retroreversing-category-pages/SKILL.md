@@ -116,6 +116,7 @@ Typical `# All Posts` section:
 
 Common optional H1 sections when the platform/topic needs them:
 
+* `# Game Software Development for the <console>`
 * `# File Formats`
 * `# Emulation`
 * `# Development Kits (Hardware)`
@@ -151,7 +152,8 @@ For hub-style pages, follow the newer pattern seen in `categories/consoles/WiiU.
   * `# Homebrew <console> Development`
   * `# Reverse Engineering <console> games`
   Only add these if you have enough links/content to avoid thin sections.
-* **FAQ-style subheadings** - within an H1 section, use `###` question headings ("How long did it take…?", "What did the SDK look like?") to make the page skimmable; each answer should end in one or more links (internal or external).
+* **Game development production snapshots** - for console hubs, `# Game Software Development for the <console>` is often a strong section to include when you have sourced postmortem or interview material. It works especially well for compact facts such as schedule length, team size, budget, workstation specs, software stack, tools, and codebase size.
+* **FAQ-style subheadings** - within an H1 section, use `###` question headings ("How long did it take…?", "What did the SDK look like?") to make the page skimmable; a short "How long did it take to develop <console> games back in the day?" subsection is a good fit when you have reliable production data. Each answer should end in one or more links (internal or external).
 * **Primary-source quote blocks** - short `>` quotes are useful for provenance and "why this matters", backed by a footnote when the quote is evidence.
 * **Embedded media (sparingly)** - a teardown / explanation video, tweet, or other primary-source embed can be worth keeping when it teaches a hardware concept or preserves development context; keep the surrounding text tight and technical.
 * **Preserve existing embeds** - when editing an existing category page, keep embedded videos, tweets, and similar source material unless the user explicitly asks to remove them. Reorganising is fine, deletion is not.

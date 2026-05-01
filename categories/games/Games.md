@@ -4,7 +4,7 @@ layout: post
 category: 
 - games
 - introduction
-title: Games specific posts
+title: Game-specific reverse engineering posts
 breadcrumbs:
   - name: Home
     url: /
@@ -14,11 +14,14 @@ redirect_from:
   - /games/all
   - /games/
 editlink: ../categories/games/Games.md
+updatedAt: '2026-04-26'
 tags:
   - games
 ---
 
 This page collects all the posts that are related to reverse engineering a specific game rather than an entire console or platform.
+It starts with a curated set of notable game pages grouped by platform, then points to a few external deep dives that are worth studying, and finally ends with an automatically generated index of broader tagged pages.
+This makes it easier to browse the highlights first without losing the wider archive.
 
 ## Decompiled Retail Console Games
 This page maintains a comprehensive, curated list of retail console games that have been successfully reverse engineered and decompiled back into compilable source code (C/C++). It tracks the progress of major community projects across platforms like the **Nintendo 64**, **GameCube**, and **PlayStation**, including high-profile achievements such as *Super Mario 64*, *The Legend of Zelda: Ocarina of Time*, and *Jak and Daxter*. We have a specific post all about it here:
@@ -60,7 +63,11 @@ This post covers reverse engineering work on the original **Super Mario Bros** f
 This post covers the recovered **Home Alone 2** NES source code and explains what survives in the archive for researchers interested in late-era commercial NES development.
 {% include_cached link-to-other-post.html post="/home-alone-2-nes-source-code" %}
 
-## The Final Fantasy Battle Engine: A Dissection of Physical Attacks
+---
+## External Deep Dives
+This section highlights external reverse engineering breakdowns for specific games that are useful companion material alongside the internal posts above:
+
+### The Final Fantasy Battle Engine: A Dissection of Physical Attacks
 [Displaced Gamers](https://www.youtube.com/watch?v=O_CLnBCgJks) has an excellent video dissecting the underlying code, hidden math, and bugs governing physical attacks in the original NES Final Fantasy. The video explores how battle stats like accuracy, critical hit rates, and elemental weaknesses are processed in Assembly, revealing several programming oversights that heavily impact gameplay. It provides a fascinating look into early RPG mechanics and console game reverse engineering.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O_CLnBCgJks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -69,25 +76,6 @@ Core Architecture:
 * **System Scope:** Analysis of the physical attack mechanics within the Final Fantasy (NES/Famicom) battle engine.
 * **Code Footprint:** The execution logic for a single physical attack consists of 781 total bytes (excluding called subroutines), responsible for animation, damage calculation, and variable reporting.
 
-Base Stat Formulas:
-* **Attack Power:** Calculated as `(Character Strength / 2) + Weapon Power`. The decimal value is truncated.
-* **Accuracy:** Calculated as `Base Character Accuracy + Equipped Weapon Accuracy`.
-* **Hits per Attack:** Calculated as `(Accuracy / 32) + 1`. This value determines how many discrete damage rolls are executed per attack command.
-* **Evade:** Calculated as `Base 48 + Agility Modifier - Armor Weight Penalty`.
-* **Absorb (Defense):** Total numerical summation of all equipped armor mitigation values.
-
-The Black Belt / Master Class Exceptions:
-* **Armed:** Attack power receives a hardcoded `+1` modifier in addition to standard formulas.
-* **Unarmed:** Attack power and Critical Hit values bypass standard logic and are set to `Current Level * 2`. The hit count is calculated normally but then strictly doubled.
-* **Unarmored:** Absorb value logic is bypassed and set equal to the character's `Current Level`.
-
-RNG, Hit Validation, and Damage Calculation:
-* **Turn Order:** Agility does not govern turn priority. An array queue of players and enemies undergoes 16 RNG-based memory position swaps to randomize round sequence.
-* **Hit Chance Formula:** `168 (Flat Base Constant) + Attacker Accuracy - Defender Evade`. The initial calculation before the evasion deduction is hard-capped at 255.
-* **Battle RNG Validation:** A random value generated between `0` and `200`. A roll of `200` forces an automatic miss. If `Hit Chance >= Battle RNG`, the attack successfully lands.
-* **Base Damage Roll:** Generates a random value bounded by `[Attack Power]` and `[Attack Power * 2]`. 
-* **Calculated Damage:** `Damage Roll - Defender Absorb`. Floor value is strictly clamped at a minimum of `1` damage.
-* **Critical Hits:** If the same `Battle RNG <= Critical Hit Rate`, a critical strike occurs. A secondary raw damage roll is executed and added directly to the damage total, completely ignoring the defender's Absorb stat.
 
 Critical Engine Bugs & Logic Errors:
 * **Critical Hit Memory Fetch Error:** When querying the ROM table for a weapon's stored critical hit rate, the engine skips the instruction to load the stat. Instead, it writes the weapon's *index array ID* into RAM. Consequently, later-game weapons (higher index table values) yield artificially high crit rates regardless of intended design.
@@ -157,6 +145,34 @@ This post covers the leaked **A Link to the Past** source code and its importanc
 {% include_cached link-to-other-post.html post="/zelda-a-link-to-the-past-source-code" %}
 
 ---
+# Development Art Archives
+This section collects game-specific archive pages that focus more on art workspaces, asset pipelines, and development materials than on full source code releases:
+
+### Pilotwings 2D Art Workspace
+This post covers a recovered **Pilotwings** 2D art workspace, which is useful for studying Nintendo's internal art production flow rather than the gameplay code itself.
+{% include_cached link-to-other-post.html post="/pilotwings-2d-art-workspace" %}
+
+### SimCity SNES 2D Art Workspace
+This post covers the **SimCity SNES** art workspace files, giving a narrower look at how project assets were organized during development.
+{% include_cached link-to-other-post.html post="/simcity-snes-2d-art-workspace" %}
+
+### Star Fox 2 2D Art Workspace
+This post covers a **Star Fox 2** art workspace archive that complements the source-code page by showing more of the project's asset-side workflow.
+{% include_cached link-to-other-post.html post="/starfox2-2d-art-workspace" %}
+
+### Stunt Race FX 2D Art Workspace
+This post covers a **Stunt Race FX / Wild Trax** art workspace archive, which helps document the content pipeline around a Super FX title.
+{% include_cached link-to-other-post.html post="/stunt-race-fx-2d-art-workspace" %}
+
+### Super Mario Kart 2D Art Workspace
+This post covers the **Super Mario Kart** art workspace files, which are useful for understanding track and sprite production outside the main game code.
+{% include_cached link-to-other-post.html post="/super-mario-kart-2d-art-workspace" %}
+
+### Zelda Link's Awakening 2D Art Workspace
+This post covers the **Link's Awakening** art workspace archive and adds asset-side context to the related Game Boy source code material.
+{% include_cached link-to-other-post.html post="/zelda-links-awakening-art-workspace" %}
+
+---
 # GameCube Games
 This section collects our GameCube game-specific posts:
 
@@ -220,13 +236,18 @@ This section collects our PC game-specific posts and source code investigations:
 This post covers **Planet X3**, a modern MS-DOS strategy game whose tooling and technical design make it relevant to retro PC development research.
 {% include_cached link-to-other-post.html post="/planet-x3-dos" %}
 
-## Deponia Magnet Puzzle Soft-Lock Fix
+---
+## External Deep Dives
+This section highlights external reverse engineering breakdowns for specific PC games that are useful companion material alongside the internal posts above:
+
+### Deponia Magnet Puzzle Soft-Lock Fix
 [Nathan Baggs](https://www.youtube.com/watch?v=lT4McPl5kQU) has a detailed video breakdown about reverse engineering a persistent, game-breaking bug in the point-and-click adventure game **Deponia**. The investigation covers diagnosing a magnet puzzle soft-lock using tools like Ghidra, x64dbg, and RenderDoc to analyze memory and engine behavior. 
 By discovering an embedded Lua debugger (**mobdebug**) and decompiling the game's bytecode (**LuaJit**), the root cause-a failure to initialize condition states upon reloading-is identified and resolved via custom Lua code injection.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lT4McPl5kQU" title="Why Saving This Game Breaks It Forever" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-# All Posts related to Specific Games
+# Automatically Listed Game Pages
+This final section is generated from site tags, so it acts as a wider catch-all index beyond the curated platform sections above:
 
 {% include console.html %}

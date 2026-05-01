@@ -8,7 +8,8 @@ title: Mr Do! Source Code (Game Boy)
 category: 
 - gameboy
 - sourcecode
-image: /public/games/MrDoGameboy.jpg
+placeholderimages:
+- /public/games/MrDoGameboy.jpg
 permalink: /mrdo
 breadcrumbs:
   - name: Home

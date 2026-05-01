@@ -29,6 +29,25 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your Xbox controller, and get ready to dive into the exciting world of Xbox reverse engineering!
 
 ---
+# Game Software Development for the Microsoft Xbox
+
+## How long did it take to develop games for the Xbox back in the day?
+In the 2003 book *Postmortems from Game Developer*, the developers of *Cel Damage* describe a 2-year Xbox development cycle with 16 full-time developers and 12 contractors [^1].
+Given the November 1, 2001 release date, that puts the bulk of development roughly in the late-1999 to 2001 period [^1].
+
+The postmortem also gives a useful snapshot of what an original Xbox production looked like at the time:
+* **Team size** - 28 developers in total, split between 16 full-time staff and 12 contractors
+* **Budget** - Approximately $2 million
+* **Project scale** - Around 800,000 lines of code
+* **Development hardware** - 600MHz Pentium III PCs with 256MB of RAM, 30GB hard drives, and Nvidia GeForce graphics cards
+* **Software stack** - Microsoft Visual Studio, 3DS Max, Photoshop, Illustrator, Winamp, and SourceSafe
+* **Performance and tooling** - `pitaSim`, `Vtune`, and Microsoft Visual C++
+
+That is only one data point, but it is still a useful baseline.
+For an early Xbox title, a 2-year schedule with a sub-30-person team and commodity PC workstations appears to have been enough to ship a retail game [^1].
+
+
+---
 # Games
 
 ## Exclusives
@@ -61,3 +80,7 @@ This section of our guide will provide you with detailed information and resourc
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: Postmortems from Game Developer (Austin Grossman, 2003) Page 66
