@@ -16,7 +16,7 @@ breadcrumbs:
     url: /handhelds
   - name: Pokemon Mini
     url: #
-updatedAt: '2021-04-18'
+updatedAt: '2026-05-25'
 tags:
   - pokemonmini
 ---
@@ -122,6 +122,12 @@ It is now possible to flash your games onto a development cartridge thanks to th
 
 ---
 # Emulation
+
+## GBE+ Pokemon Mini Core
+Shonumi's Edge of Emulation article walks through adding Pokemon Mini support to GBE+.
+It covers the emulator work needed for the memory map, S1C88 CPU, interrupt handling, LCD rendering, input, rumble, shock detector, RTC, infrared, and audio.
+
+{% include link-to-other-site.html url="https://shonumi.github.io/articles/art25.html" description="A detailed emulator-development article on implementing Pokemon Mini support in GBE+, including the S1C88 CPU, memory banking, LCD rendering, interrupts, and hardware features such as infrared and rumble." title="Edge of Emulation: Pokemon Mini" %}
 
 ## Browser-based Emulator
 The developer `Scylus` has created a brand new browser-based (javascript) Pokemon Mini emulator which wile not yet as stable as PokeMini emulator it supports the official S1C88 assembly language. It even contains basic debugging support but there are a few known bugs which cause inaccuracies in the emulation.
