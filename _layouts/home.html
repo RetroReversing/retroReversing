@@ -25,6 +25,7 @@
     </div>
 
     <div class="rr-home-section-right">
+      {% include homepage/start-here.html %}
       {% include_cached homepage/post-playlist.html heading="Recently Updated Posts" limit=4 hide_show_all=true %}
       {% include_cached homepage/post-playlist.html tag="introduction" heading="Introduction to Game Reversing" limit=4 %}
       {% include_cached homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" limit=4 %}
