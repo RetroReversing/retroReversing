@@ -5,20 +5,10 @@ redirect_from:
 layout: post
 category: pokemonmini
 title: 'Pokemon Mini'
-consoleimage: /public/consoles/PokemonMini.png
-image: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
-twitterimage: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
 recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
 excerpt: Awesome list of Nintendo Pokemon Mini Game Development and Reverse Engineering information
-videocarousel:
-  - title: Nintendo's Forgotten Console
-    image: https://img.youtube.com/vi/_Da5CfhH128/hqdefault.jpg
-    youtube: '_Da5CfhH128'
-  - title: Did You Known Gaming
-    image: https://img.youtube.com/vi/JHSQsxWMWwY/hqdefault.jpg
-    youtube: 'JHSQsxWMWwY'
 breadcrumbs:
   - name: Home
     url: /
@@ -31,38 +21,52 @@ tags:
   - pokemonmini
 ---
 
-# Introduction to the Pokemon Mini (PM)
-<section class="postSection">
-    <img src="/public/images/PokemonMini/Pokemon Mini Introduction.jpg" class="wow slideInLeft postImage" />
-
- <div markdown="1">
+# Introduction to the Pokemon Mini
+![PokemonMiniConsole](../../public/images/PokemonMini/PokemonMiniConsole.png)
 The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
-**Jupiter Corporation** and released in Japan on December 14th 2001. 
+**Jupiter Corporation**.
+It was first unveiled in September 2001 at a Nintendo event called the Nintendo Show, held at Westminster Hall in London, England [^6] and released in Japan on December 14th 2001.
 
-They had previously worked with the Jupiter Corporation on hardware such as the Pocket Pikachu which created the foundation for the Pokemon Mini project.
+Nintendo had previously worked with the **Jupiter Corporation** on hardware such as the **Pocket Pikachu** which created the foundation for the Pokemon Mini project.
 
 The Japanese company **Denyusha** was also contracted to create games for the Pokemon Mini and would become one of only 3 developers for the system (SDD, Jupiter and Denyusha).
- </div>
-</section> 
+
+Despite its innovations and later being emulated on the GameCube, the system struggled to find a market, leading to a small library of games and a dedicated homebrew scene.
+
+## Analysis of the Pokemon Mini
+[The Golden Bolt](https://www.youtube.com/@TheGoldenBolt) explores the technical specifications, unique hardware features, and library of the Pokémon mini, Nintendo's smallest cartridge-based system. This analysis covers the console's launch history, its place in the market alongside the Game Boy Advance, and the diverse range of games developed for the portable device.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Da5CfhH128" title="Pokemon mini - Nintendo's Forgotten Handheld Console - The Golden Bolt" frameborder="0"></iframe>
+
+### The Capabilities of Pokemon Mini
+[DidYouKnowGaming](https://www.youtube.com/@DidYouKnowGamin) has a video where they discuss the unique capabilities such as: 
+* **Internal Real-Time Clock and Timer** - Capable of keeping track of time even when the system was powered off.
+* **Infrared Sensor** - Enabled multiplayer functionality, with at least one game supporting up to 10 players simultaneously.
+* **Built-in Rumble Feature** - Provided physical vibration feedback during gameplay.
+* **Shock Detector** - An innovative sensor that allowed players to control on-screen Pokémon by physically shaking the device.
+* **Battery Efficiency** - Boasted a 60-hour battery life powered by a single AAA battery.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JHSQsxWMWwY" title="The Pokemon Mini: Nintendo's Failed Console - Did You Know Gaming? extra Feat. Dazz" frameborder="0"></iframe>
 
 
 ## Nintendo System Development Division
-The Nintendo System Development Division (SDD) was a small development team in charge of lower-profile hardware such as the **Pokewalker**, **Pokemotion** and Pokemon Mini [^3]. 
+The Nintendo **System Development Division** (SDD) was a small development team in charge of lower-profile hardware such as the **Pokewalker**, **Pokemotion** and Pokemon Mini [^3]. 
 
 SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon Mini project were the two directors `Yoshikazu Mori` and `Shinya Kawada`. 
 
 There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as **Pokemon Tetris** and **Snorlax's Lunchtime**, along with also working closely with the **Jupiter Corporation** and **Denyusha** to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
 
 The games SDD developed for the Pokemon Mini are as follows:
-* Pokemon Shock Tetris
-* Snorlax's Lunchtime (Only released as part of Pokemon Channel)
+* **Pokemon Shock Tetris** - Pokemon themed version of Tetris
+* **Snorlax's Lunchtime** - Only released as part of the Pokemon Channel Gamecube game
 
 Employees at SDD responsible for Pokemon Mini programming:
-* Daisuke Tsujimura
-* Koji Yoshizaki
+* **Daisuke Tsujimura**
+* **Koji Yoshizaki**
 
 ## Jupiter Corporation
-Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
+![Jupiter Corporation Logo](../../public/images/PokemonMini/Jupiter Corporation Logo.png)
+Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed **more than half** of the games available for the console with 6 in total!
 
 Jupiter had a long history working with Nintendo and were trusted licensees of many Nintendo characters after creating game such as **Mario Picross** in as far back as 1995.
 
@@ -79,10 +83,10 @@ The games Jupiter developed for the Pokemon Mini are as follows:
 * Pokémon Breeder mini
 
 Employees at Jupiter responsible for Pokemon Mini programming:
-* Yoshikazu Mori (Pokémon Pinball mini, Pokémon Race mini, Togepi's Great Adventure)
-* Hiroyuki Kawaharabayashi (Pokémon Puzzle Collection, Togepi's Great Adventure)
-* Hiraku Kitawaki (Pokémon Puzzle Collection)
-* Masato Furukawa (Pokémon Race mini)
+* **Yoshikazu Mori**  - Pokémon Pinball mini, Pokémon Race mini, Togepi's Great Adventure
+* **Hiroyuki Kawaharabayashi** - Pokémon Puzzle Collection, Togepi's Great Adventure
+* **Hiraku Kitawaki** - Pokémon Puzzle Collection
+* **Masato Furukawa** - Pokémon Race mini
 
 ## Denyusha
 Denyusha were contracted out by The Pokemon Company to make 3 different games for the Pokemon Mini console, according to their official website they started working with the Pokemon Corporation in June 2001 but had already worked with Nintendo since 1998 [^5].
@@ -122,7 +126,7 @@ It is now possible to flash your games onto a development cartridge thanks to th
 ## Browser-based Emulator
 The developer `Scylus` has created a brand new browser-based (javascript) Pokemon Mini emulator which wile not yet as stable as PokeMini emulator it supports the official S1C88 assembly language. It even contains basic debugging support but there are a few known bugs which cause inaccuracies in the emulation.
 
-{% include link-to-other-site.html url="https://minimon.scyl.us/" description="An excellent browser-based emulator and debugger for Pokemon Mini games, the first one to support the official S1C88 assembly language" title="Minimon.js by Scylus" image="http://www.retroreversing.com/public/consoles/PokemonMini.png" %}
+{% include link-to-other-site.html url="https://minimon.scyl.us/" description="An excellent browser-based emulator and debugger for Pokemon Mini games, the first one to support the official S1C88 assembly language" title="Minimon.js by Scylus" %}
 
 ---
 # Reverse Engineering Pokémon Mini games
@@ -131,19 +135,13 @@ The developer `Scylus` has created a brand new browser-based (javascript) Pokemo
 {% include link-to-other-site.html url="https://github.com/pokemon-mini/mindis2" description="Pokémon Mini ROM disassembler with support for the official S1C88 assembly language" title="mindis2 - Pokémon Mini ROM disassembler" image="http://www.retroreversing.com/public/consoles/PokemonMini.png"  %}
 
 --- 
-
 # ROM Hacking Pokémon Mini games
 
 ## Tile and Sprite editing
-<section class="postSection">
-    <img src="/public/images/PokemonMini/Pokemon Mini ROM Image Editing.png" class="wow slideInLeft postImage" />
-
- <div markdown="1">
-    You can open any Pokemon Mini rom file (`*.min`) in a tool called `Tile Molester` with the Codec setup to be `1BPP`, as Pokemon Mini is only back and white all images are stored as 1 bit per pixed, with black as 0 and white as 1.
+<img src="/public/images/PokemonMini/Pokemon Mini ROM Image Editing.png" class="wow slideInLeft postImage" />
+You can open any Pokemon Mini rom file (`*.min`) in a tool called `Tile Molester` with the Codec setup to be `1BPP`, as Pokemon Mini is only back and white all images are stored as 1 bit per pixed, with black as 0 and white as 1.
     
-   In the screenshot on the left you can see what initially looks like lots of duplicate tiles, these are infact the Masks used for transparency and you can see the tile they apply to to the right of the mask.
- </div>
-</section> 
+In the screenshot on the left you can see what initially looks like lots of duplicate tiles, these are infact the Masks used for transparency and you can see the tile they apply to to the right of the mask.
 
 
 ---
@@ -173,3 +171,4 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 [^3]: [Nintendo System Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_System_Development)
 [^4]: [Daisuke Tsujimura](https://nintendo.fandom.com/wiki/Daisuke_Tsujimura)
 [^5]: [denyu-sha.co.jp - Wayback Machine](https://web.archive.org/web/20021002220556/https://denyu-sha.co.jp/)
+[^6]: [Pokemon Mini: Further Details - News - Nintendo World Report](https://www.nintendoworldreport.com/news/6413/pokemon-mini-further-details)

@@ -26,22 +26,21 @@
 
     <div class="rr-home-section-right">
       {% include homepage/start-here.html %}
-      {% include_cached homepage/post-playlist.html heading="Recently Updated Posts" limit=4 hide_show_all=true %}
-      {% include_cached homepage/post-playlist.html tag="introduction" heading="Introduction to Game Reversing" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="sdk" heading="Console & PC Software Development Kits" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="industry" heading="Game Industry History" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="games" heading="Explore your favourite games" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="leak" heading="Notable Source Code Leaks" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="ps2" heading="Playstation 2 Reverse Engineering" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="n64" heading="Nintendo 64 Reverse Engineering" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="nes" heading="NES & Famicom Reversing" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="ps1" heading="PlayStation One Reversing" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="saturn" heading="Sega Saturn Reversing" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="gba" heading="Game Boy Advance" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="tools" heading="Tools" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="middleware" heading="Middleware" limit=4 %}
-      {% include_cached homepage/post-playlist.html tag="gameengines" heading="Game Engines" limit=4 %}
+      {% include_cached homepage/post-playlist.html heading="Recently Updated Posts" description="The newest pages and recently refreshed research across the archive." limit=4 hide_show_all=true %}
+      {% include_cached homepage/post-playlist.html tag="introduction" heading="Introduction to Game Reversing" description="Beginner-friendly routes into emulation, binaries, tools and first reversing workflows." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" description="Hardware used by studios to test, debug and ship games on real consoles." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="sdk" heading="Console & PC Software Development Kits" description="Official and leaked SDK material, libraries, samples and development environments." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="industry" heading="Game Industry History" description="Context from studios, publishers, conferences and the business of making games." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="games" heading="Explore your favourite games" description="Game-specific breakdowns, file formats, symbols and code research." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="leak" heading="Notable Source Code Leaks" description="Preserved source drops and archive material that reveal production workflows." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="ps2" heading="Playstation 2 Reverse Engineering" description="PS2 hardware, IOP modules, SDKs, symbols and game internals." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="n64" heading="Nintendo 64 Reverse Engineering" description="N64 architecture, SDKs, decompilation, memory editing and source analysis." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="nes" heading="NES & Famicom Reversing" description="6502-era reversing, cartridge formats, dev hardware and homebrew research." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="ps1" heading="PlayStation One Reversing" description="PS1 executable formats, Psy-Q libraries, symbols, hardware and tooling." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="saturn" heading="Sega Saturn Reversing" description="Saturn hardware, libraries, file formats and development environment notes." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="gba" heading="Game Boy Advance" description="GBA SDK material, samples, sound tools and hardware-focused reversing." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="tools" heading="Tools" description="Disassemblers, viewers, editors and utilities for inspecting game data." limit=4 %}
+      {% include_cached homepage/post-playlist.html tag="gameengines" heading="Game Engines" description="Engine-specific research, recovered code and development technology notes." limit=4 %}
       {% comment %}
       {% include_cached homepage/post-playlist.html tag="psp" heading="Sony PSP Reversing" limit=4 %}
       {% include_cached homepage/post-playlist.html tag="3d" heading="3D Software" limit=4 %}
@@ -51,7 +50,7 @@
       {% capture heading_with_total_number_of_pages %}
         All Posts ({{ total_number_of_pages }})
       {% endcapture %}
-      {% include_cached homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages hide_show_all=true %}
+      {% include_cached homepage/post-playlist.html heading=heading_with_total_number_of_pages description="A full chronological browse of visible pages in the site archive." limit=total_number_of_pages hide_show_all=true %}
    
     </div>
     

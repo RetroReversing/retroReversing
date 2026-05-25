@@ -52,8 +52,60 @@
   margin-bottom: 0px !important;
 }
 
-.rr-post-playlist .toolbar { 
+.rr-post-playlist {
+  background: #ffffff;
+  border-bottom: 1px solid #e9edf2;
+  padding-bottom: 18px;
+}
+
+.rr-home-section-right > .rr-post-playlist:nth-of-type(even) {
+  background: #f7f9fc;
+}
+
+.rr-home-section-right > .rr-post-playlist:nth-of-type(odd) {
+  background: #ffffff;
+}
+
+.rr-post-playlist .toolbar.toolbar-links {
+  display: flex;
+  align-items: flex-start;
+  background: transparent;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: auto;
+  padding: 22px 26px 18px;
   margin-bottom: 10px;
+}
+
+.rr-post-playlist-heading {
+  display: block;
+  min-width: 0;
+  max-width: 820px;
+}
+
+.rr-post-playlist-heading h5 {
+  display: block;
+  float: none;
+  margin: 0 0 6px;
+  padding: 0;
+}
+
+.rr-post-playlist-heading p {
+  clear: both;
+  margin: 0;
+  color: #737373;
+  font-size: 0.94rem;
+  line-height: 1.4;
+}
+
+.rr-post-playlist .toolbar ul.toolbar-nav {
+  flex: 0 0 auto;
+  float: none;
+  margin: 0;
+}
+
+.rr-post-playlist .toolbar ul.toolbar-nav li a {
+  padding: 4px 0;
 }
 
 .rr-post-playlist-container {
@@ -169,8 +221,13 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
 
 /* Homepage Phone screen overrides  */
 @media (max-width: 768px) {
-  .toolbar .toolbar-links {
-    min-height: 55px !important;
+  .rr-post-playlist .toolbar.toolbar-links {
+    display: block;
+    padding: 18px 14px 14px;
+  }
+
+  .rr-post-playlist-heading p {
+    font-size: 0.86rem;
   }
 
   .rr-head-hero-container {
