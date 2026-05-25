@@ -68,3 +68,7 @@ templates
 /public/generated/placeholders/*.svg
 _site.backup/
 */__pycache__/*
+build/
+
+# BackstopJS visual regression reports and generated test screenshots.
+/test/backstop/

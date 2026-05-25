@@ -166,7 +166,12 @@ The video below covers the **Wide Boy 64**, an official but non-retail device us
 <iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
 
 ## Game Boy Printer
-The Game Boy Printer is relevant because it exposes another side of the accessory protocol stack, and because several games shipped explicit printing features rather than treating it as a camera-only novelty. `Pokemon Yellow`, `Pokemon Gold`, and `Pokemon Silver` all used it for game-specific output such as Pokedex stickers [^5].
+![Game Boy Printer](../../public/images/GameBoy/Game Boy Printer.png)
+The Game Boy Printer not only supported the Game Boy Camera, several games shipped explicit printing features, games such as `Pokemon Yellow`, `Pokemon Gold`, and `Pokemon Silver` all used it for output such as Pokedex stickers [^5].
+
+Shonumi has an in-depth article on emulating the Game Boy Printer, it explains the printer packet format, serial link behaviour, command set, dot-data transfer, status handling, and the run-length encoding used for compressed print data.
+
+{% include link-to-other-site.html url="https://shonumi.github.io/articles/art2.html" description="A technical breakdown of Game Boy Printer emulation, covering link cable serial packets, printer commands, image dot-data, status responses, and the compression format used by some games." title="In Depth: The Game Boy Printer" %}
 
 ## GB Booster
 The **GB Booster** was an unlicensed Nintendo 64 accessory in the same broad space as the Super Game Boy, but built outside Nintendo's official hardware ecosystem. Two short references are useful if you want to document it further:
