@@ -1,0 +1,72 @@
+<section class="rr-start-here rr-start-here-alt" aria-labelledby="rr-technical-index-title">
+  <div class="rr-start-here-header">
+    <p class="rr-start-here-kicker">Start Here</p>
+    <h1 id="rr-technical-index-title">Explore how games were really made</h1>
+    <p>
+      Retro Reversing focuses on the technical details behind retro game development, including source code, hardware, toolchains, file formats, emulation and reverse engineering techniques.
+    </p>
+  </div>
+
+  <div class="rr-technical-index-layout">
+    <div class="rr-technical-index-left">
+      <article class="rr-start-here-card">
+        <h2>New to reversing?</h2>
+        <p>Start with the core concepts first, then move into platform-specific tooling and file formats.</p>
+        <div class="rr-start-here-links">
+          <a href="/introduction">Introduction</a>
+          <a href="/source-code/decompiled-retail-console-games">Decompiled games</a>
+          <a href="/disassemblers">Disassemblers</a>
+        </div>
+      </article>
+
+      <article class="rr-start-here-card">
+        <h2>Development</h2>
+        <p>Follow the tools and infrastructure that studios used to build and ship games.</p>
+        <div class="rr-start-here-links">
+          <a href="/source-code/retail-console-source-code">Retail source code</a>
+          <a href="/hardware/devkits">Development hardware</a>
+          <a href="/sdks">SDKs</a>
+          <a href="/games/engines">Game engines</a>
+          <a href="/tools">Tools</a>
+          <a href="/games/fileformats">File formats</a>
+          <a href="/leaks">Leaks</a>
+        </div>
+      </article>
+
+      <article class="rr-start-here-card">
+        <h2>Research</h2>
+        <p>Use secondary material to add context around teams, tools, and production practices.</p>
+        <div class="rr-start-here-links">
+          <a href="/industry">Industry</a>
+          <a href="/conferences">Conferences</a>
+          <a href="/magazines">Magazines</a>
+          <a href="/games">Games</a>
+        </div>
+      </article>
+    </div>
+
+    <article class="rr-start-here-card rr-platforms-card">
+      <h2>Platforms</h2>
+      <p>Browse by console when you want hardware notes, tools, and reversing examples in one place.</p>
+      {% assign platform_keys = "nes,snes,n64,gamecube,mastersystem,megadrive,saturn,dreamcast,ps1,ps2,xbox" | split: "," %}
+      <div class="rr-platform-grid">
+        {% for platform_key in platform_keys %}
+          {% assign platform_meta = site.category[platform_key] %}
+          {% if platform_meta %}
+            <a class="rr-platform-tile" href="/{{ platform_key }}">
+              <img
+                alt="{{ platform_meta.title | default: platform_key }}"
+                class="rr-platform-tile-image"
+                src="{{ platform_meta.image }}"
+              />
+              <span>{{ platform_meta.title | default: platform_key }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+        <a class="rr-platform-tile rr-platform-tile-more" href="/consoles">
+          <span>More...</span>
+        </a>
+      </div>
+    </article>
+  </div>
+</section>

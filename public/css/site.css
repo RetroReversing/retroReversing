@@ -30,4 +30,7 @@ permalink: /public/css/site.css
 {% include_relative cssfolder.css %}
 {% include_relative code-cards.css %}
 {% include_relative search.css %}
+
+/* Homepage specific */
 {% include_relative homepage.css %}
+{% include_relative start-here.css %}

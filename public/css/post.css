@@ -199,6 +199,8 @@ blockquote {
 .post-header-icon {
   min-height: 50px !important;
   max-height: 100px !important;
+  height:100px;
+  width:100px;
 }
 
 /* Set width static to avoid page layout shifting */
