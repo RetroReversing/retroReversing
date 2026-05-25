@@ -4,8 +4,17 @@
   "version": "1.0.0",
   "description": "Local tooling for RetroReversing content generation",
   "license": "UNLICENSED",
+  "scripts": {
+    "backstop:reference": "backstop reference --config=backstop.config.js",
+    "backstop:test": "backstop test --config=backstop.config.js",
+    "backstop:approve": "backstop approve --config=backstop.config.js",
+    "backstop:open-report": "backstop openReport --config=backstop.config.js"
+  },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "geopattern": "^1.2.3"
+  },
+  "devDependencies": {
+    "backstopjs": "^6.3.2"
   }
 }

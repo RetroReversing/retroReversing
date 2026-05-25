@@ -123,3 +123,37 @@ To preview the site on your machine:
 For faster local iteration while writing content:
 * Run `jekyll serve --config _config.yml,_config.dev.yml --livereload`
 * This disables redirect generation locally, which reduces rebuild fan-out.
+
+---
+# Visual Regression Testing
+BackstopJS is configured for a small set of representative pages and viewport sizes. Use it when changing CSS, layouts, includes, or page structures that could affect rendered output.
+
+Install the npm dependencies first:
+```bash
+npm install
+```
+
+Start the local Jekyll server in another terminal:
+```bash
+jekyll serve --config _config.yml,_config.dev.yml --livereload
+```
+
+Create or update the approved screenshot baselines:
+```bash
+npm run backstop:reference
+```
+
+Run a visual regression check:
+```bash
+npm run backstop:test
+```
+
+If the differences are intentional, approve the new screenshots:
+```bash
+npm run backstop:approve
+```
+
+By default BackstopJS targets `http://localhost:4000`. To test a different preview URL, set `BACKSTOP_BASE_URL`:
+```bash
+BACKSTOP_BASE_URL=https://example-preview-url npm run backstop:test
+```
