@@ -169,7 +169,11 @@ The video below covers the **Wide Boy 64**, an official but non-retail device us
 ![Game Boy Printer](../../public/images/GameBoy/Game Boy Printer.png)
 The Game Boy Printer not only supported the Game Boy Camera, several games shipped explicit printing features, games such as `Pokemon Yellow`, `Pokemon Gold`, and `Pokemon Silver` all used it for output such as Pokedex stickers [^5].
 
-Shonumi has an in-depth article on emulating the Game Boy Printer, it explains the printer packet format, serial link behaviour, command set, dot-data transfer, status handling, and the run-length encoding used for compressed print data.
+At the protocol level, the printer behaves like a link-cable serial peripheral. The Game Boy remains the master, while the printer waits for packets beginning with the magic bytes `0x88, 0x33`. Known commands include `INIT`, `PRINT`, `DATA`, and `STATUS`, with image dot-data transferred in `160x16` strips until a full `160x144` image is buffered [^6].
+
+This is useful for emulator authors because the print data uses the same 2bpp tile-style format as normal Game Boy graphics. Some games also use the printer's optional run-length encoding, and robust emulators need to handle edge cases such as empty `DATA` packets [^6].
+
+Shonumi has an in-depth article on emulating the Game Boy Printer, it explains the printer packet format, serial link behaviour, command set, dot-data transfer, status handling, and the run-length encoding used for compressed print data:
 
 {% include link-to-other-site.html url="https://shonumi.github.io/articles/art2.html" description="A technical breakdown of Game Boy Printer emulation, covering link cable serial packets, printer commands, image dot-data, status responses, and the compression format used by some games." title="In Depth: The Game Boy Printer" %}
 
@@ -226,7 +230,7 @@ When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical fir
 {% include link-to-other-site.html url="https://github.com/mattcurrie/gb-save-states" description="A collection of patches that add save state support to Game Boy and Game Boy Color titles on original hardware." title="gb-save-states" %}
 
 ## Blem! PlayStation Emulator for the GB
-`Blem!` was a prank ROM that pretended to boot a PlayStation emulator on the Game Boy. The joke was a reference to the `Bleem!` PlayStation emulator, and it was notable enough to show up in `GBX` issue 3 in a short discussion of Game Boy emulation on PC and Mac [^6]. It is not technically important in the same way as the tools above, but it is a useful reminder that handheld homebrew culture also produced jokes, hoaxes, and magazine folklore around emulation.
+`Blem!` was a prank ROM that pretended to boot a PlayStation emulator on the Game Boy. The joke was a reference to the `Bleem!` PlayStation emulator, and it was notable enough to show up in `GBX` issue 3 in a short discussion of Game Boy emulation on PC and Mac [^7]. It is not technically important in the same way as the tools above, but it is a useful reminder that handheld homebrew culture also produced jokes, hoaxes, and magazine folklore around emulation.
 
 ---
 # All Posts
@@ -243,4 +247,5 @@ When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical fir
 [^3]: [Jas Austin on hiding Conway's Game of Life inside R-Type - Twitter/X](https://twitter.com/IamXERO/status/1379131739415719941)
 [^4]: [Jas Austin sharing R-Type source graphics by Mark Jones - Twitter/X](https://twitter.com/IamXERO/status/591964228053016577)
 [^5]: [Game Boy Printer - Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Printer)
-[^6]: GBX issue 3 (September 2001) page 11
+[^6]: [Shonumi - In Depth: The Game Boy Printer](https://shonumi.github.io/articles/art2.html)
+[^7]: GBX issue 3 (September 2001) page 11

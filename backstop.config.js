@@ -59,7 +59,7 @@ module.exports = {
     html_report: "test/backstop/report",
     ci_report: "test/backstop/ci"
   },
-  report: ["browser", "CI"],
+  report: process.env.CI ? ["CI"] : ["browser", "CI"],
   engine: "playwright",
   engineOptions: {
     args: ["--no-sandbox"]
