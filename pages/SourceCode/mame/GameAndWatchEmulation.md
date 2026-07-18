@@ -1,7 +1,7 @@
 ---
 permalink: /game-and-watch-emulation
 layout: post
-title: "How MAME Emulates Game & Watch"
+title: "Emulating Game & Watch (MAME)"
 excerpt: A technical guide to how MAME emulates Nintendo Game and Watch hardware, from the Sharp SM5xx MCU family to LCD segment rendering and input scanning.
 category:
 - sourcecode

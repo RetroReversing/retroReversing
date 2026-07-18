@@ -20,6 +20,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * Short paragraphs, short sentences, encourage hands-on experimentation.
    * Present terminology first, then explain/justify.
    * Sections should be readable non-linearly (don't rely on strict reading order).
+   * Use stable site wording. Avoid phrases that imply a recent site change, such as "we now have", "now has its own page", or "this now lives"; prefer "For the full history, see:" or "A dedicated page covers this in more detail:".
 4) Apply Markdown/structure rules:
    * Don't bold headings; don't put emojis or backticks in headings.
    * Use `---` before major section jumps, and when jumping back up the heading hierarchy.
@@ -39,6 +40,8 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 7) Links and references:
    * Use footnotes for citations under an H1 `# References` at the end.
    * If a footnote is at sentence end: put it before the period (`text [^1].`).
+   * If the prose is talking about a specific external site, article, tool page, archive, or other resource, link the name or descriptive phrase directly in the body text.
+   * Footnotes are enough when the source is only being used to support a claim, date, or technical detail.
    * For external "standalone" links (own paragraph/line), use the include:
      * `link-to-other-site.html` with `title`, `url`, `description`.
    * When mentioning a company or console with a dedicated category page, link the first meaningful mention in that section to the internal page, such as `[Datel](/companies/datel)`, `[Sony PlayStation](/ps1)`, or `[PlayStation 2](/ps2)`.
@@ -65,7 +68,8 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 
 ### Images
 * Prefer linking externally hosted box-art (e.g. MobyGames) for "section about a specific game" figures when appropriate.
-* If a pasted Markdown image created a generic file such as `image.png`, convert it to JPG for screenshots/photos unless transparency or lossless pixel-perfect detail is required.
+* Never leave pasted Markdown images named only `image.png` in the repository.
+* Always convert generic pasted PNG files to JPG for screenshots/photos unless transparency or lossless pixel-perfect detail is required.
 * Rename generic pasted image files to a descriptive filename. Prefer the manually filled alt text; otherwise infer the name from the nearest useful heading, caption, or surrounding paragraph context.
 * Update Markdown references after renaming/converting pasted images so no content points at `image.png`.
 * Lazy loading: use `<img class="lazy-load" data-image-full="/images/highres.jpg" ...>` (optionally with a placeholder `src`).

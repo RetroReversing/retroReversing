@@ -1,16 +1,16 @@
 {
   "summary": {
-    "totalFiles": 300,
-    "filesWithTags": 300,
+    "totalFiles": 295,
+    "filesWithTags": 295,
     "uniqueTags": 108,
-    "generatedAt": "2026-04-11T15:02:54.945Z"
+    "generatedAt": "2026-07-18T18:36:42.014Z"
   },
   "tags": {
     "2d": 1,
     "32x": 1,
     "3d": 6,
     "3do": 1,
-    "3ds": 8,
+    "3ds": 9,
     "amiga": 1,
     "android": 3,
     "arcade": 2,
@@ -29,18 +29,19 @@
     "crossproducts": 5,
     "datel": 2,
     "debug": 6,
-    "devkit": 29,
+    "delphi": 1,
+    "devkit": 28,
     "disassemblers": 1,
     "documentary": 2,
-    "dos": 4,
+    "dos": 3,
     "dreamcast": 8,
-    "ds": 12,
-    "emulation": 2,
+    "ds": 15,
+    "emulation": 3,
     "fileformats": 15,
     "gameboy": 20,
     "gamecom": 1,
     "gamecube": 10,
-    "gameengines": 13,
+    "gameengines": 12,
     "gamegear": 4,
     "games": 25,
     "gba": 17,
@@ -49,12 +50,12 @@
     "gigaleak": 2,
     "graphics": 1,
     "hacking": 1,
-    "handhelds": 4,
-    "hardware": 38,
+    "handhelds": 5,
+    "hardware": 37,
     "homebrew": 2,
-    "incomplete": 1,
-    "industry": 21,
-    "introduction": 56,
+    "incomplete": 2,
+    "industry": 19,
+    "introduction": 60,
     "ios": 1,
     "ique": 2,
     "jaguar": 1,
@@ -65,51 +66,51 @@
     "mastersystem": 4,
     "maths": 4,
     "megadrive": 6,
-    "memory": 3,
-    "middleware": 11,
+    "memory": 2,
+    "middleware": 10,
     "msx": 3,
-    "n64": 32,
-    "nes": 15,
+    "n64": 30,
+    "nes": 14,
     "news": 2,
     "nintendo": 3,
-    "pc": 13,
+    "pc": 12,
     "pc-88": 1,
     "pc-engine": 1,
     "pokemon": 1,
-    "pokemonmini": 3,
+    "pokemonmini": 4,
     "programming-languages": 1,
     "ps1": 17,
     "ps2": 10,
     "ps3": 3,
     "ps4": 2,
-    "psp": 7,
+    "psp": 10,
     "psyq": 3,
     "radare2": 1,
-    "reverseengineering": 5,
+    "reverseengineering": 6,
     "reversingemulator": 5,
     "saturn": 17,
-    "sdk": 48,
+    "sdk": 51,
     "sega": 27,
     "segasaturn": 1,
     "sg1000": 1,
     "snes": 25,
     "snsystems": 12,
-    "software": 5,
-    "sourcecode": 24,
+    "software": 6,
+    "sourcecode": 26,
     "starfox2": 1,
     "superfx": 1,
     "switch": 3,
     "symbols": 13,
-    "tools": 18,
+    "tools": 19,
     "tutorial": 10,
     "tutorials": 1,
-    "unity3d": 3,
+    "unity3d": 2,
     "vectrex": 1,
-    "vita": 5,
+    "vita": 6,
     "wii": 12,
     "wiiu": 8,
     "windows": 1,
-    "wonderswan": 1,
+    "wonderswan": 2,
     "xbox": 8,
     "xbox360": 2,
     "zxspectrum": 1
@@ -192,6 +193,7 @@
     ],
     "categories/consoles/GameBoy.md": [
       "gameboy",
+      "introduction",
       "gba",
       "ds"
     ],
@@ -208,11 +210,17 @@
       "gamecube"
     ],
     "categories/consoles/Handhelds.md": [
+      "3ds",
+      "ds",
       "gba",
       "gameboy",
       "gamecom",
       "gamegear",
-      "handhelds"
+      "handhelds",
+      "pokemonmini",
+      "psp",
+      "vita",
+      "wonderswan"
     ],
     "categories/consoles/Intellivision.md": [
       "console",
@@ -228,7 +236,8 @@
       "sega"
     ],
     "categories/consoles/N64.md": [
-      "n64"
+      "n64",
+      "introduction"
     ],
     "categories/consoles/Nes.md": [
       "nes",
@@ -261,6 +270,7 @@
       "psp"
     ],
     "categories/consoles/PokemonMini.md": [
+      "pokemonmini",
       "pokemonmini"
     ],
     "categories/consoles/SG1000.md": [
@@ -352,14 +362,7 @@
       "books",
       "industry"
     ],
-    "pages/Industry/Books.md": [
-      "industry"
-    ],
     "categories/misc/Conferences.md": [
-      "industry",
-      "introduction"
-    ],
-    "pages/Industry/GDC.md": [
       "industry",
       "introduction"
     ],
@@ -389,9 +392,6 @@
     ],
     "categories/misc/Maths.md": [
       "maths"
-    ],
-    "categories/misc/Museums.md": [
-      "industry"
     ],
     "categories/tools/3DSoftware.md": [
       "3d",
@@ -432,6 +432,9 @@
     "pages/About.md": [
       "introduction"
     ],
+    "pages/Industry/Books.md": [
+      "industry"
+    ],
     "pages/Industry/Copyright.md": [
       "industry",
       "legal",
@@ -443,13 +446,14 @@
       "magazines",
       "introduction"
     ],
+    "pages/Industry/GDC.md": [
+      "industry",
+      "introduction"
+    ],
     "pages/Industry/GameMakerMagazine.md": [
       "industry",
       "magazines",
       "introduction"
-    ],
-    "pages/Industry/IndieDevelopment.md": [
-      "industry"
     ],
     "pages/Industry/RetroGamer.md": [
       "industry",
@@ -525,6 +529,11 @@
       "2d",
       "3d",
       "introduction"
+    ],
+    "pages/SourceCode/mame/GameAndWatchEmulation.md": [
+      "sourcecode",
+      "emulation",
+      "handhelds"
     ],
     "pages/SourceCode/mame/MAMESourceCode.md": [
       "sourcecode",
@@ -638,7 +647,8 @@
     "pages/consoles/gameboy/PokemonRedBlue.md": [
       "gameboy",
       "games",
-      "assembly"
+      "assembly",
+      "sourcecode"
     ],
     "pages/consoles/gameboy/SuperGameBoySDK.md": [
       "gameboy",
@@ -712,11 +722,6 @@
       "gba",
       "sdk"
     ],
-    "pages/consoles/n64/Bung-Doctor-v64.md": [
-      "n64",
-      "devkit",
-      "hardware"
-    ],
     "pages/consoles/n64/Datel-Action-Replay-Professional.md": [
       "n64",
       "memory",
@@ -746,13 +751,14 @@
     "pages/consoles/n64/Mupen64SourceCodeAnalysis.md": [
       "n64"
     ],
-    "pages/consoles/n64/Mystical-Ninja-N64-Memory-Rom-Editing.md": [
-      "n64",
-      "memory"
-    ],
     "pages/consoles/n64/N64BootCode.md": [
       "n64",
       "assembly"
+    ],
+    "pages/consoles/n64/N64DevelopmentKitHardware.md": [
+      "n64",
+      "devkit",
+      "hardware"
     ],
     "pages/consoles/n64/N64HardwareArchitecture.md": [
       "n64",
@@ -762,7 +768,8 @@
     "pages/consoles/n64/N64MipsAssembly.md": [
       "n64",
       "assembly",
-      "tutorial"
+      "tutorial",
+      "incomplete"
     ],
     "pages/consoles/n64/N64RDP.md": [
       "n64"
@@ -785,11 +792,6 @@
       "n64",
       "3d",
       "tools"
-    ],
-    "pages/consoles/n64/OfficialN64Devkit.md": [
-      "n64",
-      "devkit",
-      "hardware"
     ],
     "pages/consoles/n64/OmanArchive.md": [
       "n64",
@@ -850,10 +852,6 @@
       "nes",
       "ghidra"
     ],
-    "pages/consoles/nes/NesProgrammingIntro.md": [
-      "nes",
-      "introduction"
-    ],
     "pages/consoles/nes/Super-Mario-Bros.md": [
       "nes",
       "games"
@@ -863,10 +861,6 @@
       "pc",
       "sourcecode",
       "games"
-    ],
-    "pages/consoles/pc/RetroCityRampage.md": [
-      "pc",
-      "dos"
     ],
     "pages/consoles/pc/WindowsExecutables.md": [
       "pc",
@@ -1230,13 +1224,23 @@
       "introduction"
     ],
     "pages/general/maths/Matrix.md": [
-      "maths"
+      "maths",
+      "psp",
+      "ds",
+      "sdk",
+      "introduction"
     ],
     "pages/general/maths/Quaternions.md": [
-      "maths"
+      "maths",
+      "psp",
+      "ds",
+      "introduction",
+      "sdk"
     ],
     "pages/general/maths/Vectors.md": [
-      "maths"
+      "maths",
+      "introduction",
+      "sdk"
     ],
     "pages/hardware/Verilog.md": [
       "hardware",
@@ -1453,6 +1457,12 @@
       "sdk",
       "tools"
     ],
+    "pages/tools/Delphi.md": [
+      "delphi",
+      "tools",
+      "software",
+      "reverseengineering"
+    ],
     "pages/tools/GameMaker.md": [
       "gameengines",
       "middleware"
@@ -1478,11 +1488,6 @@
       "tools"
     ],
     "pages/tools/Unity3d.md": [
-      "gameengines",
-      "middleware",
-      "unity3d"
-    ],
-    "pages/tools/Unity3d_additions2.md": [
       "gameengines",
       "middleware",
       "unity3d"

@@ -60,6 +60,9 @@ Please try to link out to other sites that have high-quality information on a pa
 
 However, please provide at least a brief description of the page you are linking to and its content before the reference so readers understand the relevance. The page here should still form a cohesive narrative even without the reader following the external links. If an external page is critical, tell the user to read it before continuing.
 
+When the prose is talking about a specific external site, article, tool page, archive, or other resource, link the name or descriptive phrase directly in the body text.
+Footnotes are enough when the source is only being used to support a claim, date, or technical detail, but a reader should not have to check the references section just to reach a resource being discussed.
+
 ### Reference when possible
 <div class="emoji">📚</div>
 We want to avoid spreading misinformation as much as possible, which can be tricky when researching old software tools since there can be conflicting information. Please reference sources so readers can verify whether the information is correct. You may use Wikipedia as a source but only as a last resort if no other websites have the information.
@@ -81,6 +84,7 @@ Some general rules are below:
 * **Non-linear order** - Never assume the reader will follow a linear order. Each section should be standalone so they can read only the parts they are interested in.
 * **Present then explain** - Present terminology as factual first, then justify or contextualize ("What is it?" then "Why is it useful?").
 * **Encourage hands-on experimentation** - Suggest trying tools, running commands, or inspecting files.
+* **Use stable site wording** - Avoid wording that implies a recent site change, such as "we now have", "now has its own page", or "this now lives". Prefer stable phrases such as "For the full history, see:" or "A dedicated page covers this in more detail:".
 
 ### Character Rules
 <div class="emoji">🔤</div>
@@ -355,9 +359,10 @@ This saves hosting all the images in this Git repository and links back to **Mob
 
 ## Pasted VS Code images
 VS Code can create generic files such as `image.png` when an image is pasted into Markdown.
-Before committing a pasted image like this, replace it with a descriptive filename and avoid leaving files named only `image.png`.
+Always replace pasted images named only `image.png` with a descriptive filename.
+Do not leave generic `image.png` files in the repository.
 
-For screenshots and photos, convert generic pasted PNG files to JPG unless the image needs transparency or lossless pixel-perfect detail.
+For screenshots and photos, always convert generic pasted PNG files to JPG unless the image needs transparency or lossless pixel-perfect detail.
 Use the Markdown alt text as the preferred filename source when it has been filled in.
 If the alt text is blank or generic, name the file from the nearest useful heading, caption, or surrounding paragraph context.
 

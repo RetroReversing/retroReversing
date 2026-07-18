@@ -453,7 +453,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | 3D Game Engine Design: A Practical Approach to Real-Time Computer Graphics | David H. Eberly | Maths, Pseudo code |  
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg" /> | 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/515JX12N26L._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/519GMY0BG3L._AC_UY436_FMwebp_QL65_.jpg" /> | Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/519GMY0BG3L._AC_UY436_FMwebp_QL65_.jpg" /> | Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | [Delphi](/delphi) and DirectX | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/514iD3PtOXL._AC_UY436_FMwebp_QL65_.jpg" /> | Designing Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
 <img class="lazy-load" data-image-full="" /> | Developer's guide to computer game design | John Scott Lewinski | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Learn Computer Game Programming with Directx 7.0 | Ian Parberry | DirectX 7.0 | 
