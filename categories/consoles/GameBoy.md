@@ -169,9 +169,11 @@ The video below covers the **Wide Boy 64**, an official but non-retail device us
 ![Game Boy Printer](../../public/images/GameBoy/Game Boy Printer.png)
 The Game Boy Printer not only supported the Game Boy Camera, several games shipped explicit printing features, games such as `Pokemon Yellow`, `Pokemon Gold`, and `Pokemon Silver` all used it for output such as Pokedex stickers [^5].
 
-At the protocol level, the printer behaves like a link-cable serial peripheral. The Game Boy remains the master, while the printer waits for packets beginning with the magic bytes `0x88, 0x33`. Known commands include `INIT`, `PRINT`, `DATA`, and `STATUS`, with image dot-data transferred in `160x16` strips until a full `160x144` image is buffered [^6].
+Wikipedia currently lists 110 games with Game Boy Printer support, including 35 released outside Japan. See the [full Game Boy Printer compatibility list](https://en.wikipedia.org/wiki/Game_Boy_Printer#Games_with_Game_Boy_Printer_support) if you want to check a specific title [^6].
 
-This is useful for emulator authors because the print data uses the same 2bpp tile-style format as normal Game Boy graphics. Some games also use the printer's optional run-length encoding, and robust emulators need to handle edge cases such as empty `DATA` packets [^6].
+At the protocol level, the printer behaves like a link-cable serial peripheral. The Game Boy remains the master, while the printer waits for packets beginning with the magic bytes `0x88, 0x33`. Known commands include `INIT`, `PRINT`, `DATA`, and `STATUS`, with image dot-data transferred in `160x16` strips until a full `160x144` image is buffered [^7].
+
+This is useful for emulator authors because the print data uses the same 2bpp tile-style format as normal Game Boy graphics. Some games also use the printer's optional run-length encoding, and robust emulators need to handle edge cases such as empty `DATA` packets [^7].
 
 Shonumi has an in-depth article on emulating the Game Boy Printer, it explains the printer packet format, serial link behaviour, command set, dot-data transfer, status handling, and the run-length encoding used for compressed print data:
 
@@ -183,12 +185,31 @@ The **GB Booster** was an unlicensed Nintendo 64 accessory in the same broad spa
 * **[GameHacking.org Wiki](https://gamehacking.org/wiki/Game_Booster_(Nintendo_64))** - A general reference page for the accessory.
 <iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
 
-## Datel Game Booster and GameStudio
-The video below shows Datel's PlayStation Game Booster:
+## Datel Game Booster (PS1)
+The [Datel](/companies/datel) Game Booster is a third-party accessory for the original [Sony PlayStation](/ps1) that was designed to allow users to play Game Boy cartridges on their television screens. It connects to the console's **parallel port**, which limits its compatibility to older PlayStation models, as this port was removed from later revisions and smaller versions of the hardware.
+
+In practice, the device has significant performance and design limitations. It does not support in-game audio, so users need to play audio CDs if they want background music. It includes a built-in settings menu for options such as frame skipping and color palettes, but the low frame rate makes many games difficult to play [^9].
+
+[JohnnyBareToes](https://www.youtube.com/@JohnnyBareToes1) demonstrates Datel's PlayStation Game Booster in action:
 <iframe width="560" height="420" src="https://www.youtube.com/embed/SxF2e6DUMRo?color=white&theme=dark"></iframe>
 
-The Image below shows the later `GameStudio` accessory for PlayStation 2 also by Datel:
+## Datel GameStudio (PS2)
+The image below shows an advert for `GameStudio`, [Datel](/companies/datel)'s later evolution of the Game Booster concept. It is a [PlayStation 2](/ps2) accessory that plugs into the memory card slot:
 <img alt="Datel GameStudio" src="https://github.com/RetroReversing/retroReversing/assets/40120498/9026fc2e-7577-447d-94ee-e1643e97aa11">
+
+[RetroBreak](https://www.youtube.com/@RetroBreak) demonstrates GameStudio running on PlayStation 2 hardware:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HgJS8_p0aZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+GameStudio includes a **Trainer** option for creating cheat codes for Game Boy games, similar to Cheat Engine on PC. The workflow starts with a memory search for a known value, such as `3` lives. After losing a life, the user searches again for `2`, repeating the process until the memory address for the player's lives is isolated. That value can then be frozen to keep the player alive [^10].
+![Trainer Option in Game Studio](../../public/images/GameBoy/Trainer Option in Game Studio.jpg)
+
+GameStudio also includes [Datel](/companies/datel)'s Rocket Games pre-installed, as shown in the screenshot below:
+![Rocket Games Built in to GameStudio](../../public/images/GameBoy/Rocket Games Built in to GameStudio.jpg)
+
+The Rocket Games can be played or written to the provided Games To Go cartridge:
+![Games To Go Cartridge](../../public/images/GameBoy/GamesToGo.png)
+
+GameStudio does not support Super Game Boy features, but it does support Game Boy Color games. It also supports Save RAM (SRAM), so games can still save to the cartridge [^10]. Unlike the Datel Game Booster, it has working sound, although the output has a noticeable hiss.
 
 ## Dance Dance Revolution Controller for GBC
 Konami's `Dance Dance Revolution` controller for the Game Boy Color is a useful example of how far the accessory ecosystem stretched beyond normal link cable peripherals:
@@ -230,7 +251,7 @@ When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical fir
 {% include link-to-other-site.html url="https://github.com/mattcurrie/gb-save-states" description="A collection of patches that add save state support to Game Boy and Game Boy Color titles on original hardware." title="gb-save-states" %}
 
 ## Blem! PlayStation Emulator for the GB
-`Blem!` was a prank ROM that pretended to boot a PlayStation emulator on the Game Boy. The joke was a reference to the `Bleem!` PlayStation emulator, and it was notable enough to show up in `GBX` issue 3 in a short discussion of Game Boy emulation on PC and Mac [^7]. It is not technically important in the same way as the tools above, but it is a useful reminder that handheld homebrew culture also produced jokes, hoaxes, and magazine folklore around emulation.
+`Blem!` was a prank ROM that pretended to boot a PlayStation emulator on the Game Boy. The joke was a reference to the `Bleem!` PlayStation emulator, and it was notable enough to show up in `GBX` issue 3 in a short discussion of Game Boy emulation on PC and Mac [^8]. It is not technically important in the same way as the tools above, but it is a useful reminder that handheld homebrew culture also produced jokes, hoaxes, and magazine folklore around emulation.
 
 ---
 # All Posts
@@ -247,5 +268,8 @@ When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical fir
 [^3]: [Jas Austin on hiding Conway's Game of Life inside R-Type - Twitter/X](https://twitter.com/IamXERO/status/1379131739415719941)
 [^4]: [Jas Austin sharing R-Type source graphics by Mark Jones - Twitter/X](https://twitter.com/IamXERO/status/591964228053016577)
 [^5]: [Game Boy Printer - Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Printer)
-[^6]: [Shonumi - In Depth: The Game Boy Printer](https://shonumi.github.io/articles/art2.html)
-[^7]: GBX issue 3 (September 2001) page 11
+[^6]: [Game Boy Printer games with Game Boy Printer support - Wikipedia](https://en.wikipedia.org/wiki/Game_Boy_Printer#Games_with_Game_Boy_Printer_support)
+[^7]: [Shonumi - In Depth: The Game Boy Printer](https://shonumi.github.io/articles/art2.html)
+[^8]: GBX issue 3 (September 2001) page 11
+[^9]: [JohnnyBareToes - Datel PlayStation Game Booster - YouTube](https://www.youtube.com/watch?v=SxF2e6DUMRo)
+[^10]: [RetroBreak - Datel GameStudio demonstration - YouTube](https://www.youtube.com/watch?v=HgJS8_p0aZk)

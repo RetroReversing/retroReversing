@@ -38,6 +38,14 @@ This can include:
 * **Tutorials** - on reverse engineering or writing emulators
 * **Research material related to the game industry** - e.g. content of game industry conferences, programming/software books, game industry magazines, or even just game magazines from the past that contain interviews with game developers
 
+### Let categories incubate smaller topics
+<div class="emoji">🌱</div>
+When adding information on a topic that is useful but not yet large enough for its own page, add it to the most relevant existing category or hub page first.
+This keeps related research discoverable while avoiding lots of thin pages.
+
+Once a section grows large enough to stand alone, split it into a dedicated page and leave a short summary plus an internal link from the original category page.
+The category page should remain useful as a high-level guide, while the dedicated page can hold the deeper history, technical details, references, and examples.
+
 ### Types of content we don't want
 <div class="emoji">❌</div>
 
@@ -256,6 +264,10 @@ You don't need to reference posts from RetroReversing.com. Instead, just link to
 {% endraw %}
 ```
 
+When mentioning a company or console that already has a dedicated category page, link the first meaningful mention in that section to the relevant RetroReversing page.
+For example, use `[Datel](/companies/datel)`, `[Sony PlayStation](/ps1)`, or `[PlayStation 2](/ps2)` in normal prose.
+Do not link headings just to satisfy this rule; keep headings plain and link the first suitable mention in the body text instead.
+
 ---
 ## Rules for Code Examples
 For code that could be useful to run interactively in the browser, provide the example in TypeScript. Otherwise, use Python for any scripts intended to run locally.
@@ -340,6 +352,20 @@ Text for the section...
 ```
 
 This saves hosting all the images in this Git repository and links back to **MobyGames**, whose bandwidth we are using for the images.
+
+## Pasted VS Code images
+VS Code can create generic files such as `image.png` when an image is pasted into Markdown.
+Before committing a pasted image like this, replace it with a descriptive filename and avoid leaving files named only `image.png`.
+
+For screenshots and photos, convert generic pasted PNG files to JPG unless the image needs transparency or lossless pixel-perfect detail.
+Use the Markdown alt text as the preferred filename source when it has been filled in.
+If the alt text is blank or generic, name the file from the nearest useful heading, caption, or surrounding paragraph context.
+
+For example, `![Trainer Option in Game Studio](image/image.png)` should become a JPG with a meaningful path such as:
+
+```markdown
+![Trainer Option in Game Studio](/public/images/GameBoy/Trainer Option in Game Studio.jpg)
+```
 
 ---
 ## Emoji on left after heading
