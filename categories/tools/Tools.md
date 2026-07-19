@@ -162,11 +162,18 @@ Hex editors let you view and modify the raw binary data of game files. They are 
 Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
 
 * **Reko**: An open-source decompiler designed for multiple architectures and file formats.
-* **RetDec**: A retagetable machine-code decompiler that supports various architectures and file types.
+* **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
 * **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
 For more information on Ghidra check out this post:
 {% include_cached link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+
+### Delphi Decompilers
+Delphi decompilers are a useful special case because Delphi binaries can preserve class metadata, RTTI, DFM form resources, event-handler names, package information, and other structured hints that a generic native-code decompiler may miss.
+This makes Delphi-aware recovery useful for old Windows game tools, editors, launchers, installers, and some games.
+
+For the full history of Delphi decompilers, see:
+{% include_cached link-to-other-post.html post="/delphi" description="A guide to Delphi decompilation and reverse engineering, including Revendepro, DeDe, DCU32INT, IDR, Pythia, DelphiHelper, Dhrake, and DelphiReSym." %}
 
 ---
 ## File Format Analyzers

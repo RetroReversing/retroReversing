@@ -13,7 +13,9 @@ exclude:
   - _site.backup
   - templates
   - node_modules
+  - vendor
   - tmp
+  - test
   - .cache
   - .DS_Store
   - scripts

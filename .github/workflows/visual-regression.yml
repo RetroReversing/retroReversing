@@ -1,0 +1,78 @@
+name: Visual Regression
+
+on:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'assets/**'
+      - '_includes/**'
+      - '_layouts/**'
+      - 'categories/**/*.md'
+      - 'pages/**/*.md'
+      - 'index.md'
+      - '_config.yml'
+      - '_config.dev.yml'
+      - 'backstop.config.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/visual-regression.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  backstop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
+
+      - name: Start Jekyll preview
+        env:
+          LANG: C.UTF-8
+          LC_ALL: C.UTF-8
+        run: |
+          bundle exec jekyll serve --config _config.yml,_config.dev.yml --host 127.0.0.1 --port 4000 > jekyll.log 2>&1 &
+          for attempt in {1..60}; do
+            if curl --fail --silent --show-error http://127.0.0.1:4000/ > /dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          cat jekyll.log
+          exit 1
+
+      - name: Run BackstopJS
+        env:
+          BACKSTOP_BASE_URL: http://127.0.0.1:4000
+        run: npm run backstop:test
+
+      - name: Upload Backstop report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backstop-report
+          path: |
+            test/backstop/report
+            test/backstop/test
+            test/backstop/ci
+            jekyll.log

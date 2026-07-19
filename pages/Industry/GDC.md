@@ -507,6 +507,9 @@ Google Books claims to have the proceedings of the 1996 Computer Game Developers
 
 There were at least 234 talks at CGDC 1996 that to **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
 
+Archive.org hosts a collection of audio recordings from the 1996 Computer Game Developers Conference:
+{% include link-to-other-site.html url="https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1996" description="Archive.org collection containing audio recordings from the 1996 Computer Game Developers Conference." title="Computer Game Developers Conference Tapes 1996" %}
+
 Title | Presenter | Notes
 ---|---|---
 Don't Flip the Bozo Bit...and other Principles of Shipping Great Software on Time | Jim McCarthy | CGDC96-001
@@ -559,7 +562,7 @@ Story vs. Gameplay | Raymond Benson | CGDC96-047
 DirectPlay: Protocol Independent Multiplayer Games | Donna Scott & G. Eric Engstrom, Microsoft | CGDC96-048
 Analog Devices | | CGDC96-049
 Writing Applications for the Intel Architecture: Video | Intel | CGDC96-050
-Using COM to Develop Games in Delphi and Borland C++ | Charles Calvert & Lar Mader, Borland Int | CGDC96-051
+Using COM to Develop Games in [Delphi](/delphi) and Borland C++ | Charles Calvert & Lar Mader, Borland Int | CGDC96-051
 Diamond Developer Relations Program | Gary Kinsey, Diamond Multimedia | CGDC96-052
 The Making of the 11th Hour | Robert Stein III & David Wheeler | CGDC96-053 [Video](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
 Current Issues in Licensing & Royalty Rates | Brian Napper | CGDC96-054

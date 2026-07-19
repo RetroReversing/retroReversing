@@ -751,7 +751,7 @@ The table below lists the relevant entries.
 
 Issue # | Title | Author | Notes
 ---|---|---|---
-ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN |
+ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for [Delphi](/delphi), a DirectX toolkit for VB game programmers, and MSDN |
 
 ---
 # Translating Foreign magazines

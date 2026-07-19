@@ -361,7 +361,7 @@ When you check out the SVN repository you get the following folders:
 
 ### Build (TwlToolsRED/build)
 Contains the source code for the following tools:
-* A9Ovl_Chk - Delphi/pascal project to check ARM9 overlay in rom?
+* A9Ovl_Chk - [Delphi](/delphi)/Pascal project to check ARM9 overlay in rom?
 * AccessLogConverter - Perl script to convert access log format
 * BannerForcefulInserter - Forcefully inserts a Banner into an SRL ROM
 * CardToSD - DS tool to Dump Game Cartridge to SD card

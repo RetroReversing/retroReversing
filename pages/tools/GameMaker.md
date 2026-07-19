@@ -34,9 +34,9 @@ You can think of Game Maker as being made up of two main parts:
 
 ## Original Source Code
 Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
-Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
-* **2003** - Delphi version 5. The IDE was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
-* **2004** - Delphi version 7. The IDE source code is now over **40,000** lines of code. The source code for the runner part is similar in size [^11]
+Both the IDE and runner were written in [Delphi](/delphi), initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
+* **2003** - Delphi version 5. The IDE for GM 4.x was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
+* **2004** - Delphi version 7. The IDE source code for GM 5.x is now over **40,000** lines of code. The source code for the runner part is similar in size [^11]
 
 It was later rewritten by YoYoGames with the runner now being written in C++ and the IDE in C#.
 

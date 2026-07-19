@@ -184,7 +184,7 @@ As fascinating as the **JASPAR** engine is, this page is about **Merkury** and n
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
 
 In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released the following games:
-* **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
+* **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in [Delphi](/delphi)
 * **Mike Stewart's Pro Bodyboarding** - February 1999 on Windows
 * **The Chronicles of Jaruu Tenk** - October 1999 on Windows (sold via ScreenOpera)
 * **Halloween Spirit Board** - October 1999 on Windows (sold via ScreenOpera)
@@ -206,7 +206,7 @@ Tony has worked on many games, some of which actually made it onto the shelves, 
 
 ---
 ### Zombie Wars (1996)
-Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delphi, it has the codename **Harry95** left in the executable.
+Zombie Wars was a sequal to Halloween Harry released in 1996 and written in [Delphi](/delphi), it has the codename **Harry95** left in the executable.
 
 **Pratik Anand** has reverse engineered the assets for Zombie wars and has an excellent write up here:  [Detective work on Reverse Engineering obscure 16-bit Windows game (Zombie Wars) · Pratik Anand](https://pratikone.github.io/gaming/2021/09/02/reverse-engineer-zombiewars.html)
 
@@ -217,7 +217,7 @@ It was built using the **Microsoft WinG** library, which was the original name f
 For the limited analysis of the binary I can do there doesn't seem to be any connection between the game and what would become the Merkury engine or the 3d library Blast Graphics) and it was written in a completely different programming language so it is unlikely there is a strong connection.
 
 ### Delphi Programming
-**Robert Crane** was a big fan of the **Delphi** programming language (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
+**Robert Crane** was a big fan of the [Delphi](/delphi) programming language (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.

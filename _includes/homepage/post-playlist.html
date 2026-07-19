@@ -9,6 +9,7 @@ Usage:
   Optional parameters:
    * tag: Filter pages by this tag (default is no filter)
    * limit: Number of pages to show (default: 10)
+   * description: Short helper text shown under the heading
    * hide_show_all: Whether to hide the default show all button
    * pinned_permalink: Permalink to "pin" at the start of the list
   Notes:
@@ -33,7 +34,12 @@ Usage:
 
 <div class="rr-post-playlist">
   <div class="toolbar toolbar-links">
-    <h5>{{ heading }}</h5>
+    <div class="rr-post-playlist-heading">
+      <h5>{{ heading }}</h5>
+      {%- if include.description and include.description != "" -%}
+        <p>{{ include.description }}</p>
+      {%- endif -%}
+    </div>
     {%- if include.hide_show_all != true -%}
         <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="{{ site.baseurl }}{{ include.tag }}">Show All {{ filtered_pages | size }} Posts</a></li></ul>
     {%- endif -%}

@@ -38,42 +38,6 @@
   }
 }
 
-.rr-post-playlist-row  {
-  display: flex;
-  flex-wrap: wrap;
-  margin: unset;
-  gap: 40px;
-  /* padding: 20px; */
-  justify-content: space-evenly;
-  padding-left: 1em;
-}
-
-.rr-post-playlist-row .card {
-  margin-bottom: 0px !important;
-}
-
-.rr-post-playlist .toolbar { 
-  margin-bottom: 10px;
-}
-
-.rr-post-playlist-container {
-  overflow-x: scroll;
-  /* max-width: 75vw; */
-}
-
-div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
-  /* applies if fewer than 5 children */
-  flex-wrap: nowrap !important;
-  overflow: hidden;
-  min-width: fit-content;
-}
-
-.rr-post-playlist-row-nowrap {
-  /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
-  overflow: scroll !important;
-  flex-wrap: nowrap !important;
-}
-
 /* Start of the Homepage Hero selectors  */
     .rr-head-hero {
       /* width: 80%;  */
@@ -140,17 +104,6 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
 
 /* End of Homepage Console selector section */
 
-/* Toolbar overrides for Post playlist  */
-.rr-post-playlist { 
-  .toolbar {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    padding-top: 0px;
-    padding-bottom: 0px
-  } 
-}
-
-
 /* Desktop Homepage media query  */
 @media (min-width: 768px) {
 
@@ -169,10 +122,6 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
 
 /* Homepage Phone screen overrides  */
 @media (max-width: 768px) {
-  .toolbar .toolbar-links {
-    min-height: 55px !important;
-  }
-
   .rr-head-hero-container {
    display: none !important;
   }

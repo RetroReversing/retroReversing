@@ -41,7 +41,9 @@ exclude:
   - _site.backup
   - templates
   - node_modules
+  - vendor
   - tmp
+  - test
   - .cache
   - .DS_Store
   - scripts
@@ -381,4 +383,3 @@ references:
     name: segaretro.org
     link: https://www.segaretro.org
     image: https://segaretro.org/skins/foreground/assets/img/segaretro_logo.png
-
