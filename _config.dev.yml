@@ -13,6 +13,7 @@ exclude:
   - _site.backup
   - templates
   - node_modules
+  - vendor
   - tmp
   - test
   - .cache
