@@ -17,6 +17,9 @@ on:
       - 'package-lock.json'
       - '.github/workflows/visual-regression.yml'
 
+permissions:
+  contents: read
+
 jobs:
   backstop:
     runs-on: ubuntu-latest
