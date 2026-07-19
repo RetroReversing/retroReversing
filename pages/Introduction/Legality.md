@@ -45,6 +45,10 @@ First of all it is important to make sure no original game assets (sprites, soun
 ## Potentially supports the source material
 This also has the added benefit that any users for your re-implementation will need to own a copy of the original game in order to obtain the assets, supporting the original copyrighted work in the process. Although note that this in no way will prevent the copyright holder from pursuing legal action and would not be a strong defense in court, but it can help your case and not doing it would most definitely harm your case.
 
+For emulation and preservation work, the [RED-Project wiki](https://github.com/farmerbb/RED-Project/wiki) is a useful external reference because it focuses on obtaining ROMs from officially released products rather than downloading loose files from the internet.
+
+{% include link-to-other-site.html url="https://github.com/farmerbb/RED-Project/wiki" description="Documentation for legally obtaining ROMs from game compilations, mini classic consoles, and other officially released products for use with compatible emulators." title="ROM Extraction Documentation Project" %}
+
 ---
 # Legality of approaches for Reverse Engineering Code
 Now what about the code for the re-implementation or any compiled executables built from that source code?

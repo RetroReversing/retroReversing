@@ -54,6 +54,10 @@ Certain hardware relies on proprietary initialization code or system routines st
 ### What role do ROMs and ISOs play in emulation?
 They contain the original software or firmware images meant for the target hardware. The emulator loads and executes them exactly as the real system would.
 
+If you are building a legal test library for emulator research, the [RED-Project wiki](https://github.com/farmerbb/RED-Project/wiki) documents ROM extraction from mini consoles, game compilations, and other commercially released products.
+
+{% include link-to-other-site.html url="https://github.com/farmerbb/RED-Project/wiki" description="Documentation for legally obtaining ROMs from game compilations, mini classic consoles, and other officially released products for use with compatible emulators." title="ROM Extraction Documentation Project" %}
+
 ---
 ## Is an emulator similar to an interpreter for a high level language?
 There is a loose similarity. Both run instructions that were written for something else and translate them into operations the host system can perform.
