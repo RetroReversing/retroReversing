@@ -71,4 +71,6 @@ _site.backup/
 build/
 
 # BackstopJS visual regression reports and generated test screenshots.
-/test/backstop/
+/test/backstop/ci
+/test/backstop/test
+/test/backstop/report
