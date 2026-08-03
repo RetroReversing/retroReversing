@@ -3,71 +3,77 @@
 <head>
   {% include head.html %}
 </head>
-<body class="fixed-header">
+<body class="fixed-header has-site-sidebar">
   <!-- header -->
   {% include header.html %}
   <!-- /header -->
 
-  <!-- breadcrumbs -->
-  <section class="breadcrumbs">
-    <div class="container">
-      <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li><span id="breadcrumb-topic">Pages Related to This Topic</span></li>
-      </ol>
-    </div>
-  </section>
+  <section class="rr-home-section">
+    {% include site-sidebar-left.html %}
 
-  <!-- main -->
-  <section>
-    <div class="container post-container">
-      <div class="row">
+    <div class="rr-home-section-right">
+      <!-- breadcrumbs -->
+      <section class="breadcrumbs">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><span id="breadcrumb-topic">Pages Related to This Topic</span></li>
+          </ol>
+        </div>
+      </section>
 
-        <!-- content -->
-        <div class="col-lg-9">
-          <div class="post post-single">
+      <!-- main -->
+      <section>
+        <div class="container post-container">
+          <div class="row">
 
-            <!-- <div class="post-header-top">
-              <div>
-                <h1 class="post-title">Pages related to <span id="missing-url"></span></h1>                
+            <!-- content -->
+            <div class="col-lg-9">
+              <div class="post post-single">
+
+                <!-- <div class="post-header-top">
+                  <div>
+                    <h1 class="post-title">Pages related to <span id="missing-url"></span></h1>                
+                  </div>
+                </div> -->
+
+                <div id="related-posts-wrapper" style="display:none;">
+                  <div id="related-posts-list" class="console-pages"></div>
+                </div>
+
               </div>
-            </div> -->
-
-            <div id="related-posts-wrapper" style="display:none;">
-              <div id="related-posts-list" class="console-pages"></div>
             </div>
+            <!-- /content -->
+
+            <!-- sidebar -->
+            <aside class="col-lg-3">
+              <div class="sidebar">
+                <div class="widget widget-videos">
+                  <span class="widget-title">Recently Updated</span>
+                  <ul class="widget-list">
+                    {% assign recent_posts = site.pages | where: "layout", "post" | sort: "updatedAt" | reverse %}
+                    {% assign shown = 0 %}
+                    {% for post in recent_posts %}
+                      {% if post.title and shown < 10 %}
+                        <li>
+                          {% include post-discovery/post-card.html post=post classes="" %}
+                          <hr />
+                        </li>
+                        {% assign shown = shown | plus: 1 %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </aside>
+            <!-- /sidebar -->
 
           </div>
         </div>
-        <!-- /content -->
-
-        <!-- sidebar -->
-        <aside class="col-lg-3">
-          <div class="sidebar">
-            <div class="widget widget-videos">
-              <span class="widget-title">Recently Updated</span>
-              <ul class="widget-list">
-                {% assign recent_posts = site.pages | where: "layout", "post" | sort: "updatedAt" | reverse %}
-                {% assign shown = 0 %}
-                {% for post in recent_posts %}
-                  {% if post.title and shown < 10 %}
-                    <li>
-                      {% include post-discovery/post-card.html post=post classes="" %}
-                      <hr />
-                    </li>
-                    {% assign shown = shown | plus: 1 %}
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-        </aside>
-        <!-- /sidebar -->
-
-      </div>
+      </section>
+      <!-- /main -->
     </div>
   </section>
-  <!-- /main -->
 
   {% include_cached footer.html has_mermaid=false has_twitter=false %}
 
@@ -147,6 +153,10 @@
           var title   = escapeHtml(item.title || item.url || 'Untitled');
           var url     = escapeHtml(item.url || '/');
           var excerpt = escapeHtml((item.excerpt || '').replace(/\s+/g, ' ').trim().slice(0, 180));
+          var formattedExcerpt = excerpt
+            .replace(/\. /g, '.<br /><br />')
+            .replace(/! /g, '!<br /><br />')
+            .replace(/\? /g, '?<br /><br />');
           var image        = escapeHtml(item.image || '/public/images/RetroReversingLogoSmall.png');
           var consoleImage = escapeHtml(item.consoleImage || '/public/images/RetroReversingLogoSmall.png');
           var tags    = Array.isArray(item.tags) ? item.tags : [];
@@ -170,11 +180,11 @@
               '</div>' +
               '<div class="post-thumbnail">' +
                 '<a href="' + url + '">' + imgTag + '</a>' +
-                (excerpt ? '<p>' + excerpt + ' <a href="' + url + '">...</a></p>' : '') +
+                (excerpt ? '<p>' + formattedExcerpt + ' <a href="' + url + '">...</a></p>' : '') +
               '</div>' +
               '<div class="post-footer">' +
-                '<a class="btn btn-secondary" href="' + url + '" role="button">Read More</a>' +
                 tagsHtml +
+                '<a class="btn post-card-cta" href="' + url + '" role="button">Read More</a>' +
               '</div>' +
             '</div>' +
           '</div>';

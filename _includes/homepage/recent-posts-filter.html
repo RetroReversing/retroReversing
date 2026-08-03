@@ -1,0 +1,38 @@
+{%- assign recent_pool_limit = include.pool_limit | default: 80 -%}
+{%- assign recent_display_limit = include.limit | default: 4 -%}
+{%- assign recent_pages = site.pages | where: "layout", "post" | where_exp: "page", "page.hidden != true" | sort: "updatedAt" | reverse -%}
+
+<div class="rr-post-playlist rr-recent-posts-filter" id="rr-recent-posts-filter" data-display-limit="{{ recent_display_limit }}" data-baseurl="{{ site.baseurl }}">
+  <div class="rr-post-playlist-container">
+    <div class="rr-recent-posts-scroll">
+      <div class="rr-post-playlist-row rr-recent-posts-row" id="rr-recent-posts-row">
+        {%- for relevant_page in recent_pages limit: recent_pool_limit -%}
+          {%- if relevant_page.permalink -%}
+            {%- assign card_tag_list = "" -%}
+            {%- for tag_name in relevant_page.tags -%}
+              {%- assign card_tag_list = card_tag_list | append: tag_name | append: "," -%}
+            {%- endfor -%}
+            {%- if relevant_page.recommend -%}
+              {%- if relevant_page.recommend.first -%}
+                {%- for tag_name in relevant_page.recommend -%}
+                  {%- assign card_tag_list = card_tag_list | append: tag_name | append: "," -%}
+                {%- endfor -%}
+              {%- else -%}
+                {%- assign card_tag_list = card_tag_list | append: relevant_page.recommend | append: "," -%}
+              {%- endif -%}
+            {%- endif -%}
+            <div class="rr-recent-post-item" data-tags="{{ card_tag_list | downcase }}">
+              {% include post-discovery/post-card.html post=relevant_page classes="" %}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+        <a class="rr-recent-posts-show-all-tile rr-post-playlist-show-all" id="rr-recent-posts-show-all" href="{{ site.baseurl }}#all-posts">
+          <span class="rr-recent-posts-show-all-icon" aria-hidden="true">
+            <i class="fa fa-chevron-right"></i>
+          </span>
+          <span class="rr-recent-posts-show-all-label">Show all</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

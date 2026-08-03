@@ -1,0 +1,304 @@
+/* Apply design tokens to content pages (posts, listings, sidebars) */
+
+body {
+  color: var(--rr-color-body-text);
+  background-color: var(--rr-color-body-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--rr-color-heading);
+}
+
+b,
+strong {
+  color: var(--rr-color-strong);
+}
+
+p b,
+p strong {
+  color: var(--rr-color-strong);
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--rr-color-accent);
+}
+
+pre {
+  background-color: var(--rr-color-pre-bg);
+  border-color: var(--rr-color-pre-border);
+}
+
+.breadcrumbs {
+  background-color: var(--rr-color-breadcrumb-bg);
+  border-bottom: 1px solid var(--rr-color-breadcrumb-border);
+}
+
+.breadcrumb > li > a {
+  color: var(--rr-color-breadcrumb-link);
+}
+
+.breadcrumb > li + li:before {
+  color: var(--rr-color-breadcrumb-separator);
+}
+
+.post {
+  border-bottom-color: var(--rr-color-content-border);
+}
+
+.post .post-meta,
+.post .post-meta span {
+  color: var(--rr-color-meta);
+}
+
+.post .post-header > div:last-child .post-title {
+  color: var(--rr-color-content-strong);
+}
+
+.widget .widget-title {
+  color: var(--rr-color-widget-title);
+  border-left-color: var(--rr-color-accent);
+}
+
+.widget-post .widget-list li {
+  border-top-color: var(--rr-color-widget-border);
+}
+
+.sidebar .card-video .card-title a {
+  color: var(--rr-color-widget-card-title);
+}
+
+.sidebar .card-video .card-block .card-meta,
+.sidebar .card-video .card-block .card-meta span {
+  color: var(--rr-color-widget-card-meta);
+}
+
+.sidebar .widget-list hr {
+  border-color: var(--rr-color-widget-border);
+}
+
+.post-directory-list li.jumper--H1 > a {
+  color: var(--rr-color-toc-level-1);
+}
+
+.post-directory-list li.jumper--H2 > a {
+  color: var(--rr-color-toc-level-2);
+}
+
+.post-directory-list li.jumper--H3 > a {
+  color: var(--rr-color-toc-level-3);
+}
+
+.post-directory-list li.jumper--H4 > a {
+  color: var(--rr-color-toc-level-4);
+}
+
+.post-directory-list li.jumper--H5 > a {
+  color: var(--rr-color-toc-level-5);
+}
+
+.post-directory-list li.jumper--H6 > a {
+  color: var(--rr-color-toc-level-6);
+}
+
+/* Top-level TOC sections always use the lightest shade */
+.post-directory-list a.jumper {
+  color: var(--rr-color-toc-level-1);
+}
+
+.post-directory-list a:hover,
+.post-directory-list a:focus {
+  color: var(--rr-color-toc-hover);
+}
+
+.rr-tabs ul.tabs li a {
+  color: var(--rr-color-tab-text);
+}
+
+.dataTable a {
+  color: var(--rr-color-content-link) !important;
+}
+
+.dataTable a:hover {
+  color: var(--rr-color-content-link-hover) !important;
+}
+
+.dataTables_filter input {
+  border-color: var(--rr-color-content-border-subtle);
+  background-color: var(--rr-color-pre-bg);
+  color: var(--rr-color-content-text);
+}
+
+code.language-plaintext {
+  color: var(--rr-color-code-text);
+}
+
+code.language-plaintext:hover {
+  border-color: var(--rr-color-code-border);
+  background: var(--rr-color-code-bg);
+}
+
+.post .table,
+.post table.table {
+  color: var(--rr-color-table-cell-text);
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table > thead > tr > th {
+  color: var(--rr-color-table-head-text);
+  background-color: var(--rr-color-table-head-bg);
+}
+
+.post .table > thead > tr > th,
+.post .table > tbody > tr > td,
+.post .table > tfoot > tr > td {
+  border-color: var(--rr-color-table-border);
+}
+
+.post .table > tbody > tr {
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: var(--rr-color-table-stripe);
+}
+
+.post .table-striped > tbody > tr:nth-of-type(even) {
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table-hover > tbody > tr:hover {
+  background-color: var(--rr-color-table-hover);
+}
+
+.post .table-bordered,
+.post .table-bordered > tbody > tr > td,
+.post .table-bordered > tbody > tr > th,
+.post .table-bordered > tfoot > tr > td,
+.post .table-bordered > tfoot > tr > th,
+.post .table-bordered > thead > tr > td,
+.post .table-bordered > thead > tr > th {
+  border-color: var(--rr-color-table-border-strong);
+}
+
+.post-tags a,
+.post-tags a.post-tag {
+  color: var(--rr-color-tag-text);
+  background-color: var(--rr-color-tag-bg);
+  border-color: var(--rr-color-tag-border);
+}
+
+.post-tags a:hover,
+.post-tags a.post-tag:hover {
+  color: var(--rr-color-tag-hover-text);
+  background-color: var(--rr-color-tag-hover-bg);
+  border-color: var(--rr-color-tag-hover-border);
+  box-shadow: 0 1px 1px 0 var(--rr-color-tag-hover-shadow);
+}
+
+.post-card {
+  background-color: var(--rr-color-card-bg);
+  border-color: var(--rr-color-card-border);
+  box-shadow: 0 1px 2px 0 var(--rr-color-card-shadow);
+  color: var(--rr-color-content-text);
+}
+
+.post-card .post-footer {
+  border-top-color: var(--rr-color-card-footer-border);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-card .post-footer .post-tags {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-card .post-title a {
+  color: var(--rr-color-content-strong);
+}
+
+.post-card .post-header > div:first-child {
+  width: 52px;
+}
+
+.post-card .post-header-icon,
+.post-card .post-header > div:first-child img {
+  width: 52px !important;
+  height: 52px !important;
+  min-height: 52px !important;
+  max-height: 52px !important;
+  object-fit: contain;
+}
+
+.post-card .post-thumbnail {
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.post-card .post-thumbnail p {
+  color: var(--rr-color-body-text);
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  line-height: 1.65;
+}
+
+.post-card .post-card-cta {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--rr-color-accent);
+  background-color: transparent;
+  border: 1px solid var(--rr-color-accent);
+  font-weight: 400;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.post-card .post-card-cta:hover,
+.post-card .post-card-cta:focus {
+  color: #ffffff;
+  background-color: var(--rr-color-accent);
+  border-color: var(--rr-color-accent);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  color: var(--rr-color-btn-secondary-text);
+  background-color: var(--rr-color-btn-secondary-bg);
+  border-color: var(--rr-color-btn-secondary-border);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--rr-color-btn-secondary-hover-text);
+  background-color: var(--rr-color-btn-secondary-hover-bg);
+  border-color: var(--rr-color-btn-secondary-hover-border);
+}
+
+.post .linkToOtherPost blockquote {
+  color: var(--rr-color-link-card-text);
+  border-left-color: var(--rr-color-link-card-text);
+}
+
+.post .linkToOtherPost a:hover blockquote {
+  background: var(--rr-color-link-card-hover-bg);
+}
+
+.post .linkToOtherPostRight h3 {
+  color: var(--rr-color-content-link);
+}
+
+.post .linkToOtherPostRight p {
+  color: var(--rr-color-link-card-text);
+}

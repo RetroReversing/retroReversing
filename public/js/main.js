@@ -37,23 +37,177 @@
   });
 
 
-	// Responsive Navbar
+	// Responsive Navbar (legacy mobile nav removed; sidebar handles navigation)
   // ======================
-	// Toggle Navbar
-	$(".navbar-toggle").click(function () {
-		$('body').toggleClass('navbar-open');
-		return false;
-	});
+	// Toggle Navbar - no-op when top nav is removed
 
-	// Nav Responsive
-	$('#header .navbar-left .nav').clone().prependTo("body").addClass('nav-responsive');
+	// Site sidebar toggle (YouTube-style)
+	// ======================
+	(function () {
+		if (!$('body').hasClass('has-site-sidebar')) return;
 
-	// Nav Responsive
-	$('.nav-responsive .has-dropdown > a').click(function() {
-		$(this).parent().toggleClass('open');
-		return false;
-	});
+		var $toggle = $('.rr-home-sidebar-toggle');
+		var desktopQuery = window.matchMedia('(min-width: 1201px)');
 
+		function isDesktop() {
+			return desktopQuery.matches;
+		}
+
+		function isHomePage() {
+			return $('body').hasClass('home-page');
+		}
+
+		function applyInitialState() {
+			if (!isDesktop()) return;
+			if (isHomePage()) {
+				$('body').removeClass('home-sidebar-collapsed');
+				$toggle.attr('aria-expanded', 'true');
+			} else {
+				$('body').addClass('home-sidebar-collapsed');
+				$toggle.attr('aria-expanded', 'false');
+			}
+		}
+
+		applyInitialState();
+
+		$toggle.click(function () {
+			if (isDesktop()) {
+				$('body').toggleClass('home-sidebar-collapsed');
+				var collapsed = $('body').hasClass('home-sidebar-collapsed');
+				$toggle.attr('aria-expanded', collapsed ? 'false' : 'true');
+			} else {
+				$('body').toggleClass('home-sidebar-open');
+				var open = $('body').hasClass('home-sidebar-open');
+				$toggle.attr('aria-expanded', open ? 'true' : 'false');
+			}
+			return false;
+		});
+
+		$(document).click(function (e) {
+			if (isDesktop() || !$('body').hasClass('home-sidebar-open')) return;
+			if (!$(e.target).closest('.rr-home-section-left, .rr-home-sidebar-toggle').length) {
+				$('body').removeClass('home-sidebar-open');
+				$toggle.attr('aria-expanded', 'false');
+			}
+		});
+
+		$('.rr-home-sidebar-backdrop').click(function () {
+			$('body').removeClass('home-sidebar-open');
+			$toggle.attr('aria-expanded', 'false');
+		});
+
+		$(window).resize(function () {
+			if (isDesktop()) {
+				$('body').removeClass('home-sidebar-open');
+				applyInitialState();
+			} else {
+				$('body').removeClass('home-sidebar-collapsed');
+			}
+		});
+
+		$(document).on('click', '.rr-home-sidebar-show-more', function (e) {
+			e.preventDefault();
+			var $section = $(this).closest('.rr-home-sidebar-consoles');
+			var expanded = $section.toggleClass('rr-home-sidebar-consoles-expanded').hasClass('rr-home-sidebar-consoles-expanded');
+			$(this).attr('aria-expanded', expanded ? 'true' : 'false');
+			$(this).find('.rr-home-sidebar-show-more-label').text(expanded ? 'Show less' : 'Show more');
+			return false;
+		});
+
+		$(document).on('click', '.rr-home-sidebar-section-toggle', function (e) {
+			e.preventDefault();
+			if (isDesktop() && $('body').hasClass('home-sidebar-collapsed')) {
+				$('body').removeClass('home-sidebar-collapsed');
+				$toggle.attr('aria-expanded', 'true');
+				$(this).closest('.rr-home-sidebar-section').addClass('rr-home-sidebar-section-open');
+				$(this).attr('aria-expanded', 'true');
+				return false;
+			}
+			var $section = $(this).closest('.rr-home-sidebar-section');
+			var open = $section.toggleClass('rr-home-sidebar-section-open').hasClass('rr-home-sidebar-section-open');
+			$(this).attr('aria-expanded', open ? 'true' : 'false');
+			return false;
+		});
+
+	})();
+
+	// Homepage chip filter for recently updated posts
+	// ======================
+	(function () {
+		if (!$('body').hasClass('home-page')) return;
+
+		var $filterSection = $('#rr-recent-posts-filter');
+		if (!$filterSection.length) return;
+
+		var $items = $filterSection.find('.rr-recent-post-item');
+		var $showAll = $('#rr-recent-posts-show-all');
+		var initialLimit = parseInt($filterSection.attr('data-display-limit'), 10) || 4;
+		var currentFilter = '';
+		var $chips = $('.rr-youtube-chip');
+		var baseUrl = $filterSection.attr('data-baseurl') || '';
+
+		function parseTags(tagString) {
+			return (tagString || '').toLowerCase().split(',').map(function (tag) {
+				return tag.trim();
+			}).filter(Boolean);
+		}
+
+		function itemMatchesFilter(tags, filter) {
+			if (!filter) return true;
+			return tags.indexOf(filter.toLowerCase()) !== -1;
+		}
+
+		function updateShowAll($chip) {
+			var showAllHref = $chip.attr('data-show-all-href');
+			if (!showAllHref) {
+				$showAll.attr('hidden', 'hidden');
+				return;
+			}
+
+			if (showAllHref.charAt(0) === '#') {
+				$showAll.attr('href', showAllHref);
+			} else {
+				$showAll.attr('href', baseUrl + showAllHref);
+			}
+			$showAll.removeAttr('hidden');
+		}
+
+		function renderFilter() {
+			var shown = 0;
+
+			$items.each(function () {
+				var $item = $(this);
+				var tags = parseTags($item.attr('data-tags'));
+				if (itemMatchesFilter(tags, currentFilter)) {
+					if (shown < initialLimit) {
+						$item.show();
+						shown += 1;
+					} else {
+						$item.hide();
+					}
+				} else {
+					$item.hide();
+				}
+			});
+
+			if (typeof lazyLoad === 'function') {
+				lazyLoad();
+			}
+		}
+
+		$chips.on('click', function () {
+			var $chip = $(this);
+			$chips.removeClass('rr-youtube-chip-active').attr('aria-selected', 'false');
+			$chip.addClass('rr-youtube-chip-active').attr('aria-selected', 'true');
+			currentFilter = $chip.attr('data-filter') || '';
+			updateShowAll($chip);
+			renderFilter();
+			this.blur();
+		});
+
+		updateShowAll($chips.filter('.rr-youtube-chip-active').first());
+		renderFilter();
+	})();
 
 	// Search Bar
   // ======================
@@ -64,18 +218,9 @@
 	});
 
 	// Close Search
-	$(".navbar-search .close").click(function () {
+	$(".navbar-search-overlay .close").click(function () {
 		$('body').removeClass('navbar-search-open');
 		return false;
-	});
-
-
-	// Nav Dropdown Open
-	// ======================
-	$('#header .has-dropdown').hover(function() {
-		$(this).addClass('open');
-	}, function() {
-		$(this).removeClass('open');
 	});
 
 

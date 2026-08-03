@@ -1,18 +1,49 @@
 <div class="comments">
- <script src="https://giscus.app/client.js"
-        data-repo="RetroReversing/retroReversing"
-        data-repo-id="MDEwOlJlcG9zaXRvcnk2NTY4MDg2Mg=="
-        data-category="Post Comments"
-        data-category-id="DIC_kwDOA-o13s4CYl6s"
-        data-mapping="title"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+  <script>
+    (function () {
+      function getGiscusTheme() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark_dimmed' : 'light';
+      }
+
+      function updateGiscusTheme() {
+        var iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe || !iframe.contentWindow) return;
+
+        iframe.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: getGiscusTheme() } } },
+          'https://giscus.app'
+        );
+      }
+
+      var script = document.createElement('script');
+      script.src = 'https://giscus.app/client.js';
+      script.setAttribute('data-repo', 'RetroReversing/retroReversing');
+      script.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnk2NTY4MDg2Mg==');
+      script.setAttribute('data-category', 'Post Comments');
+      script.setAttribute('data-category-id', 'DIC_kwDOA-o13s4CYl6s');
+      script.setAttribute('data-mapping', 'title');
+      script.setAttribute('data-strict', '0');
+      script.setAttribute('data-reactions-enabled', '1');
+      script.setAttribute('data-emit-metadata', '0');
+      script.setAttribute('data-input-position', 'top');
+      script.setAttribute('data-theme', getGiscusTheme());
+      script.setAttribute('data-lang', 'en');
+      script.setAttribute('data-loading', 'lazy');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.async = true;
+      document.currentScript.parentElement.appendChild(script);
+
+      window.addEventListener('message', function (event) {
+        if (event.origin !== 'https://giscus.app') return;
+        updateGiscusTheme();
+      });
+
+      var colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      if (typeof colorSchemeQuery.addEventListener === 'function') {
+        colorSchemeQuery.addEventListener('change', updateGiscusTheme);
+      } else if (typeof colorSchemeQuery.addListener === 'function') {
+        colorSchemeQuery.addListener(updateGiscusTheme);
+      }
+    })();
   </script>
 </div>

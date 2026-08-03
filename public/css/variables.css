@@ -1,0 +1,261 @@
+/* RetroReversing design tokens - single source of truth for site colours */
+
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --rr-color-accent: #2575dc;
+
+  /* Page shell */
+  --rr-color-body-bg: #fafafa;
+  --rr-color-body-text: #848484;
+  --rr-color-heading: #4f4f4f;
+  --rr-color-strong: #585858;
+  --rr-color-main-bg: #fafafa;
+  --rr-color-main-text: #848484;
+  --rr-color-meta: #888888;
+
+  /* Post and article content */
+  --rr-color-content-text: #333333;
+  --rr-color-content-strong: #00577a;
+  --rr-color-content-link: #0085b6;
+  --rr-color-content-link-hover: #006a91;
+  --rr-color-content-border: #ececec;
+  --rr-color-content-border-subtle: #e2e2e2;
+
+  /* Inline code */
+  --rr-color-code-text: #0a3069;
+  --rr-color-code-bg: #f6f8fa;
+  --rr-color-code-border: #d0d7de;
+
+  /* Preformatted blocks */
+  --rr-color-pre-bg: #ffffff;
+  --rr-color-pre-border: #eaeaea;
+
+  /* Sidebar widgets on content pages */
+  --rr-color-widget-title: #424242;
+  --rr-color-widget-border: #e8e8e8;
+  --rr-color-widget-card-title: #4f4f4f;
+  --rr-color-widget-card-meta: #888888;
+  --rr-color-widget-directory-muted: #848484;
+
+  /* Table of contents sidebar */
+  --rr-color-toc-level-1: #006d96;
+  --rr-color-toc-level-2: #007fa8;
+  --rr-color-toc-level-3: #5f7d8a;
+  --rr-color-toc-level-4: #748891;
+  --rr-color-toc-level-5: #88949b;
+  --rr-color-toc-level-6: #9aa3a8;
+  --rr-color-toc-hover: #0085b6;
+  --rr-color-toc-marker: rgba(0, 133, 182, 0.4);
+
+  /* Tabs include */
+  --rr-color-tab-text: #4c4c4c;
+
+  /* Tables */
+  --rr-color-table-bg: transparent;
+  --rr-color-table-stripe: #f3f3f3;
+  --rr-color-table-hover: #f5f5f5;
+  --rr-color-table-head-bg: transparent;
+  --rr-color-table-head-text: #616161;
+  --rr-color-table-border: #e6e6e6;
+  --rr-color-table-border-strong: #eaeaea;
+  --rr-color-table-cell-text: var(--rr-color-content-text);
+
+  /* Table pagination (DataTables / Bootstrap) */
+  --rr-color-pagination-text: #808080;
+  --rr-color-pagination-bg: #ffffff;
+  --rr-color-pagination-border: #e4e4e4;
+  --rr-color-pagination-hover-bg: #f5f5f5;
+  --rr-color-pagination-active-bg: #2575dc;
+  --rr-color-pagination-active-text: #ffffff;
+  --rr-color-pagination-active-border: #2575dc;
+  --rr-color-pagination-disabled-text: #bdbdbd;
+
+  /* Post footer tags */
+  --rr-color-tag-text: #7d7d7d;
+  --rr-color-tag-bg: #ffffff;
+  --rr-color-tag-border: #e2e2e2;
+  --rr-color-tag-hover-text: #505050;
+  --rr-color-tag-hover-bg: #ffffff;
+  --rr-color-tag-hover-border: #c7c7c7;
+  --rr-color-tag-hover-shadow: rgba(0, 0, 0, 0.05);
+
+  /* Post listing cards (tag/category pages) */
+  --rr-color-card-bg: #ffffff;
+  --rr-color-card-border: #e4e4e4;
+  --rr-color-card-shadow: rgba(0, 0, 0, 0.03);
+  --rr-color-card-footer-border: #efefef;
+
+  /* Secondary buttons (Read More on listing cards) */
+  --rr-color-btn-secondary-text: #787a7b;
+  --rr-color-btn-secondary-bg: #fafafa;
+  --rr-color-btn-secondary-border: #e6e6e6;
+  --rr-color-btn-secondary-hover-text: #787a7b;
+  --rr-color-btn-secondary-hover-bg: #ffffff;
+  --rr-color-btn-secondary-hover-border: #ffffff;
+
+  /* Link-to-other-post/site preview cards */
+  --rr-color-link-card-text: #7a7a7a;
+  --rr-color-link-card-hover-bg: rgba(229, 229, 229, 0.56);
+
+  /* Breadcrumbs */
+  --rr-color-breadcrumb-bg: #ffffff;
+  --rr-color-breadcrumb-border: #e2e2e2;
+  --rr-color-breadcrumb-link: #737373;
+  --rr-color-breadcrumb-separator: #b5b5b5;
+
+  /* Shared dark sidebar rail */
+  --rr-color-sidebar-bg: #0f0f0f;
+  --rr-color-sidebar-text: #ffffff;
+  --rr-color-sidebar-text-muted: rgba(255, 255, 255, 0.7);
+  --rr-color-sidebar-hover-bg: rgba(255, 255, 255, 0.1);
+  --rr-color-sidebar-border: rgba(255, 255, 255, 0.1);
+  --rr-color-sidebar-scrollbar-thumb: rgba(255, 255, 255, 0.2);
+  --rr-color-sidebar-overlay: rgba(0, 0, 0, 0.5);
+
+  /* Header search (dark navbar) */
+  --rr-color-search-field-bg: rgba(255, 255, 255, 0.08);
+  --rr-color-search-field-border: rgba(255, 255, 255, 0.18);
+  --rr-color-search-field-text: #ffffff;
+  --rr-color-search-field-placeholder: rgba(255, 255, 255, 0.65);
+  --rr-color-search-field-bg-focus: rgba(255, 255, 255, 0.12);
+  --rr-color-search-field-border-focus: rgba(255, 255, 255, 0.35);
+  --rr-color-search-button-text: rgba(255, 255, 255, 0.8);
+  --rr-color-search-results-bg: #ffffff;
+  --rr-color-search-results-border: #dddddd;
+  --rr-color-search-results-header-bg: #f8f9fa;
+  --rr-color-search-results-header-border: #eeeeee;
+  --rr-color-search-results-item-border: #eeeeee;
+  --rr-color-search-results-item-hover-bg: #f8f9fa;
+  --rr-color-search-results-title: #333333;
+  --rr-color-search-results-text: #666666;
+  --rr-color-search-results-badge-bg: #6c757d;
+
+  /* Homepage feed (YouTube-style dark shelves) */
+  --rr-color-feed-bg: #0f0f0f;
+  --rr-color-feed-text: #ffffff;
+  --rr-color-feed-text-muted: rgba(255, 255, 255, 0.7);
+  --rr-color-feed-text-subtle: rgba(255, 255, 255, 0.6);
+  --rr-color-feed-text-soft: rgba(255, 255, 255, 0.9);
+  --rr-color-feed-surface: rgba(255, 255, 255, 0.08);
+  --rr-color-feed-surface-hover: rgba(255, 255, 255, 0.1);
+  --rr-color-feed-surface-strong: rgba(255, 255, 255, 0.14);
+  --rr-color-feed-surface-icon: rgba(255, 255, 255, 0.18);
+  --rr-color-feed-chip-bg: rgba(255, 255, 255, 0.1);
+  --rr-color-feed-chip-bg-hover: rgba(255, 255, 255, 0.2);
+  --rr-color-feed-chip-text: #ffffff;
+  --rr-color-feed-chip-active-bg: #ffffff;
+  --rr-color-feed-chip-active-bg-hover: #e5e5e5;
+  --rr-color-feed-chip-active-text: #0f0f0f;
+  --rr-color-feed-chip-ring: rgba(255, 255, 255, 0.45);
+}
+
+/* System dark mode for content pages (homepage stays on the feed palette below) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --rr-color-body-bg: #0f0f0f;
+    --rr-color-body-text: rgba(255, 255, 255, 0.7);
+    --rr-color-heading: #ffffff;
+    --rr-color-strong: rgba(255, 255, 255, 0.85);
+    --rr-color-main-bg: #0f0f0f;
+    --rr-color-main-text: rgba(255, 255, 255, 0.7);
+    --rr-color-meta: rgba(255, 255, 255, 0.55);
+
+    --rr-color-content-text: rgba(255, 255, 255, 0.88);
+    --rr-color-content-strong: #8fd4ef;
+    --rr-color-content-link: #7ec8e8;
+    --rr-color-content-link-hover: #a8daf0;
+    --rr-color-content-border: rgba(255, 255, 255, 0.12);
+    --rr-color-content-border-subtle: rgba(255, 255, 255, 0.1);
+
+    --rr-color-code-text: #c9d7ff;
+    --rr-color-code-bg: rgba(255, 255, 255, 0.08);
+    --rr-color-code-border: rgba(255, 255, 255, 0.18);
+
+    --rr-color-pre-bg: #1a1a1a;
+    --rr-color-pre-border: rgba(255, 255, 255, 0.12);
+
+    --rr-color-widget-title: rgba(255, 255, 255, 0.92);
+    --rr-color-widget-border: rgba(255, 255, 255, 0.12);
+    --rr-color-widget-card-title: rgba(255, 255, 255, 0.92);
+    --rr-color-widget-card-meta: rgba(255, 255, 255, 0.55);
+    --rr-color-widget-directory-muted: rgba(255, 255, 255, 0.55);
+
+    --rr-color-toc-level-1: rgba(255, 255, 255, 0.95);
+    --rr-color-toc-level-2: rgba(255, 255, 255, 0.82);
+    --rr-color-toc-level-3: rgba(255, 255, 255, 0.68);
+    --rr-color-toc-level-4: rgba(255, 255, 255, 0.55);
+    --rr-color-toc-level-5: rgba(255, 255, 255, 0.45);
+    --rr-color-toc-level-6: rgba(255, 255, 255, 0.38);
+    --rr-color-toc-hover: #b8e4f8;
+    --rr-color-toc-marker: rgba(184, 228, 248, 0.45);
+
+    --rr-color-tab-text: rgba(255, 255, 255, 0.75);
+
+    --rr-color-table-bg: transparent;
+    --rr-color-table-stripe: rgba(255, 255, 255, 0.04);
+    --rr-color-table-hover: rgba(255, 255, 255, 0.08);
+    --rr-color-table-head-bg: transparent;
+    --rr-color-table-head-text: rgba(255, 255, 255, 0.75);
+    --rr-color-table-border: rgba(255, 255, 255, 0.12);
+    --rr-color-table-border-strong: rgba(255, 255, 255, 0.15);
+    --rr-color-table-cell-text: rgba(255, 255, 255, 0.88);
+
+    --rr-color-pagination-text: rgba(255, 255, 255, 0.65);
+    --rr-color-pagination-bg: #1a1a1a;
+    --rr-color-pagination-border: rgba(255, 255, 255, 0.15);
+    --rr-color-pagination-hover-bg: rgba(255, 255, 255, 0.08);
+    --rr-color-pagination-active-bg: var(--rr-color-accent);
+    --rr-color-pagination-active-text: #ffffff;
+    --rr-color-pagination-active-border: var(--rr-color-accent);
+    --rr-color-pagination-disabled-text: rgba(255, 255, 255, 0.35);
+
+    --rr-color-tag-text: rgba(255, 255, 255, 0.75);
+    --rr-color-tag-bg: rgba(255, 255, 255, 0.08);
+    --rr-color-tag-border: rgba(255, 255, 255, 0.15);
+    --rr-color-tag-hover-text: #ffffff;
+    --rr-color-tag-hover-bg: rgba(255, 255, 255, 0.14);
+    --rr-color-tag-hover-border: rgba(255, 255, 255, 0.25);
+    --rr-color-tag-hover-shadow: rgba(0, 0, 0, 0.2);
+
+    --rr-color-card-bg: #1a1a1a;
+    --rr-color-card-border: rgba(255, 255, 255, 0.12);
+    --rr-color-card-shadow: rgba(0, 0, 0, 0.3);
+    --rr-color-card-footer-border: rgba(255, 255, 255, 0.1);
+
+    --rr-color-btn-secondary-text: rgba(255, 255, 255, 0.85);
+    --rr-color-btn-secondary-bg: rgba(255, 255, 255, 0.08);
+    --rr-color-btn-secondary-border: rgba(255, 255, 255, 0.15);
+    --rr-color-btn-secondary-hover-text: #ffffff;
+    --rr-color-btn-secondary-hover-bg: rgba(255, 255, 255, 0.14);
+    --rr-color-btn-secondary-hover-border: rgba(255, 255, 255, 0.25);
+
+    --rr-color-link-card-text: rgba(255, 255, 255, 0.75);
+    --rr-color-link-card-hover-bg: rgba(255, 255, 255, 0.08);
+
+    --rr-color-breadcrumb-bg: #181818;
+    --rr-color-breadcrumb-border: rgba(255, 255, 255, 0.1);
+    --rr-color-breadcrumb-link: rgba(255, 255, 255, 0.65);
+    --rr-color-breadcrumb-separator: rgba(255, 255, 255, 0.35);
+
+    --rr-color-search-results-bg: #1a1a1a;
+    --rr-color-search-results-border: rgba(255, 255, 255, 0.12);
+    --rr-color-search-results-header-bg: #242424;
+    --rr-color-search-results-header-border: rgba(255, 255, 255, 0.1);
+    --rr-color-search-results-item-border: rgba(255, 255, 255, 0.08);
+    --rr-color-search-results-item-hover-bg: rgba(255, 255, 255, 0.06);
+    --rr-color-search-results-title: rgba(255, 255, 255, 0.92);
+    --rr-color-search-results-text: rgba(255, 255, 255, 0.65);
+    --rr-color-search-results-badge-bg: #5a6268;
+  }
+}
+
+/* Homepage always uses the dark feed palette regardless of system theme */
+body.home-page {
+  --rr-color-main-bg: var(--rr-color-feed-bg);
+  --rr-color-main-text: var(--rr-color-feed-text);
+  background-color: var(--rr-color-feed-bg);
+}

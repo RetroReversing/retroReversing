@@ -9,7 +9,8 @@
   let fuse = null;
   const desktopSearchForm = document.getElementById('desktop-search-form');
   const desktopSearchInput = document.getElementById('desktop-search-input');
-  const headerEl = document.getElementById('header');
+  const desktopSearchSuggestions = document.getElementById('desktop-search-suggestions');
+  const desktopSearchSuggestionsList = document.getElementById('desktop-search-suggestions-list');
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
   const searchResultsList = document.getElementById('search-results-list');
@@ -39,29 +40,50 @@
     }, 50);
   }
 
-  // Initialize search when the page loads
   function initSearch() {
     whenSearchReady(function (fuseInstance) {
       fuse = fuseInstance;
-      if (fuse) {
-        console.log('Search index ready');
-      }
     });
   }
 
-  // Perform search
-  function performSearch(query) {
-    if (!fuse || !query || query.trim().length < 2) {
-      searchResults.style.display = 'none';
-      return;
-    }
-
-    const results = fuse.search(query);
-    displayResults(results, query);
+  function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
   }
 
-  // Display search results
-  function displayResults(results, query) {
+  const DEFAULT_SUGGESTION_IMAGE = '/public/images/RetroReversingLogoSmall.png';
+
+  function getSuggestionImage(item) {
+    return (item && item.image) ? item.image : DEFAULT_SUGGESTION_IMAGE;
+  }
+
+  function renderSuggestionItem(item) {
+    let html = '<a href="' + escapeHtml(item.url) + '">';
+    html += '<span class="navbar-search-suggestion-thumb">';
+    html += '<img src="' + escapeHtml(getSuggestionImage(item)) + '" alt="" loading="lazy" onerror="this.src=\'' + DEFAULT_SUGGESTION_IMAGE + '\'">';
+    html += '</span>';
+    html += '<span class="navbar-search-suggestion-body">';
+    html += '<span class="navbar-search-suggestion-title">' + escapeHtml(item.title) + '</span>';
+    if (item.excerpt) {
+      html += '<span class="navbar-search-suggestion-excerpt">' + escapeHtml(item.excerpt) + '</span>';
+    }
+    html += '</span></a>';
+    return html;
+  }
+
+  function searchPosts(query, limit) {
+    if (!fuse || !query || query.trim().length < 2) {
+      return [];
+    }
+
+    return fuse.search(query, { limit: limit || 10 });
+  }
+
+  function renderFullResults(results, query) {
+    if (!searchResults || !searchResultsList) return;
+
     if (results.length === 0) {
       searchResultsList.innerHTML = '<div class="search-no-results"><p>No results found for "' + escapeHtml(query) + '"</p></div>';
       searchResults.style.display = 'block';
@@ -71,33 +93,8 @@
     let html = '<div class="search-results-header"><h4>Search Results (' + results.length + ')</h4></div>';
     html += '<div class="search-results-items">';
 
-    // Limit to top 10 results
-    results.slice(0, 10).forEach(result => {
-      const item = result.item;
-      const score = result.score;
-      
-      html += '<div class="search-result-item">';
-      
-      if (item.image) {
-        html += '<div class="search-result-image">';
-        html += '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title) + '">';
-        html += '</div>';
-      }
-      
-      html += '<div class="search-result-content">';
-      html += '<h5><a href="' + escapeHtml(item.url) + '">' + escapeHtml(item.title) + '</a></h5>';
-      html += '<p>' + escapeHtml(item.excerpt) + '</p>';
-      
-      if (item.tags && item.tags.length > 0) {
-        html += '<div class="search-result-tags">';
-        item.tags.slice(0, 3).forEach(tag => {
-          html += '<a href="/'+ escapeHtml(tag) +'" class="badge badge-secondary">' + escapeHtml(tag) + '</a> ';
-        });
-        html += '</div>';
-      }
-      
-      html += '</div>';
-      html += '</div>';
+    results.slice(0, 10).forEach(function(result) {
+      html += renderFullResultItem(result.item);
     });
 
     html += '</div>';
@@ -105,12 +102,89 @@
     searchResults.style.display = 'block';
   }
 
-  // Escape HTML to prevent XSS
-  function escapeHtml(text) {
-    if (!text) return '';
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
+  function renderFullResultItem(item) {
+    let html = '<div class="search-result-item">';
+
+    if (item.image) {
+      html += '<div class="search-result-image">';
+      html += '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title) + '">';
+      html += '</div>';
+    }
+
+    html += '<div class="search-result-content">';
+    html += '<h5><a href="' + escapeHtml(item.url) + '">' + escapeHtml(item.title) + '</a></h5>';
+    html += '<p>' + escapeHtml(item.excerpt) + '</p>';
+
+    if (item.tags && item.tags.length > 0) {
+      html += '<div class="search-result-tags">';
+      item.tags.slice(0, 3).forEach(function(tag) {
+        html += '<a href="/' + escapeHtml(tag) + '" class="badge badge-secondary">' + escapeHtml(tag) + '</a> ';
+      });
+      html += '</div>';
+    }
+
+    html += '</div></div>';
+    return html;
+  }
+
+  function hideDesktopSuggestions() {
+    if (!desktopSearchSuggestions || !desktopSearchInput) return;
+
+    desktopSearchSuggestions.hidden = true;
+    desktopSearchInput.setAttribute('aria-expanded', 'false');
+    if (desktopSearchSuggestionsList) {
+      desktopSearchSuggestionsList.innerHTML = '';
+    }
+  }
+
+  function showDesktopSuggestions(results, query) {
+    if (!desktopSearchSuggestions || !desktopSearchSuggestionsList || !desktopSearchInput) return;
+
+    if (!query || query.trim().length < 2) {
+      hideDesktopSuggestions();
+      return;
+    }
+
+    if (results.length === 0) {
+      desktopSearchSuggestionsList.innerHTML =
+        '<li class="navbar-search-suggestion navbar-search-suggestion-empty" role="presentation">' +
+          '<span>No results for "' + escapeHtml(query) + '"</span>' +
+        '</li>';
+      desktopSearchSuggestions.hidden = false;
+      desktopSearchInput.setAttribute('aria-expanded', 'true');
+      return;
+    }
+
+    let html = '';
+    results.slice(0, 8).forEach(function(result, index) {
+      const item = result.item;
+      html += '<li class="navbar-search-suggestion" role="option" id="desktop-search-option-' + index + '">';
+      html += renderSuggestionItem(item);
+      html += '</li>';
+    });
+
+    html += '<li class="navbar-search-suggestion navbar-search-suggestion-more" role="presentation">';
+    html += '<a href="' + escapeHtml(getRelatedResultsUrl(query)) + '">View all results for "' + escapeHtml(query) + '"</a>';
+    html += '</li>';
+
+    desktopSearchSuggestionsList.innerHTML = html;
+    desktopSearchSuggestions.hidden = false;
+    desktopSearchInput.setAttribute('aria-expanded', 'true');
+  }
+
+  function performOverlaySearch(query) {
+    if (!searchResults) return;
+
+    if (!query || query.trim().length < 2) {
+      searchResults.style.display = 'none';
+      return;
+    }
+
+    renderFullResults(searchPosts(query, 10), query);
+  }
+
+  function performDesktopSearch(query) {
+    showDesktopSuggestions(searchPosts(query, 8), query);
   }
 
   function syncSearchInputsFromUrl() {
@@ -122,32 +196,47 @@
     }
   }
 
-  function updateInlineSearchVisibility() {
-    // Inline search is now forced visible via CSS.
-  }
-
-  // Event listeners
   if (searchInput) {
-    // Search as user types (with debounce)
-    let searchTimeout;
+    let overlaySearchTimeout;
     searchInput.addEventListener('input', function() {
-      clearTimeout(searchTimeout);
-      searchTimeout = setTimeout(function() {
-        performSearch(searchInput.value);
+      clearTimeout(overlaySearchTimeout);
+      overlaySearchTimeout = setTimeout(function() {
+        performOverlaySearch(searchInput.value);
       }, 300);
     });
 
-    // Prevent form submission
     const searchForm = document.getElementById('search-form');
     if (searchForm) {
       searchForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        performSearch(searchInput.value);
+        performOverlaySearch(searchInput.value);
       });
     }
   }
 
   if (desktopSearchForm && desktopSearchInput) {
+    let desktopSearchTimeout;
+
+    desktopSearchInput.addEventListener('input', function() {
+      clearTimeout(desktopSearchTimeout);
+      desktopSearchTimeout = setTimeout(function() {
+        performDesktopSearch(desktopSearchInput.value);
+      }, 200);
+    });
+
+    desktopSearchInput.addEventListener('focus', function() {
+      if (desktopSearchInput.value.trim().length >= 2) {
+        performDesktopSearch(desktopSearchInput.value);
+      }
+    });
+
+    desktopSearchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        hideDesktopSuggestions();
+        desktopSearchInput.blur();
+      }
+    });
+
     desktopSearchForm.addEventListener('submit', function (e) {
       const query = desktopSearchInput.value.trim();
 
@@ -157,12 +246,17 @@
       }
 
       e.preventDefault();
+      hideDesktopSuggestions();
       window.location.href = getRelatedResultsUrl(query);
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.navbar-search-wrap')) {
+        hideDesktopSuggestions();
+      }
     });
   }
 
-  // Initialize on page load
   initSearch();
   syncSearchInputsFromUrl();
-
 })();
