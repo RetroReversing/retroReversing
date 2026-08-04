@@ -1,0 +1,161 @@
+/* Table and DataTables overrides - loaded after DataTables CDN */
+
+.post .table,
+.post table.table,
+.post table.dataTable {
+  color: var(--rr-color-table-cell-text);
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table > thead > tr > th,
+.post .table > tbody > tr > th,
+.post .table > tfoot > tr > th,
+.post table.dataTable thead th,
+.post table.dataTable thead td {
+  color: var(--rr-color-table-head-text);
+  background-color: var(--rr-color-table-head-bg);
+  border-color: var(--rr-color-table-border);
+}
+
+.post .table > tbody > tr > td,
+.post .table > tbody > tr > th,
+.post .table > tfoot > tr > td,
+.post .table > tfoot > tr > th,
+.post .table > thead > tr > td,
+.post table.dataTable tbody td,
+.post table.dataTable tbody th {
+  color: var(--rr-color-table-cell-text);
+  border-color: var(--rr-color-table-border);
+  background-color: inherit;
+}
+
+.post .table > tbody > tr,
+.post table.dataTable tbody tr {
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table-striped > tbody > tr:nth-of-type(odd),
+.post table.dataTable.stripe tbody tr.odd,
+.post table.dataTable.display tbody tr.odd,
+.post table.dataTable.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--rr-color-table-stripe);
+}
+
+.post table.dataTable.stripe tbody tr.even,
+.post table.dataTable.display tbody tr.even,
+.post table.dataTable.table-striped tbody tr:nth-of-type(even) {
+  background-color: var(--rr-color-table-bg);
+}
+
+.post .table-hover > tbody > tr:hover,
+.post table.dataTable.hover tbody tr:hover,
+.post table.dataTable.display tbody tr:hover {
+  background-color: var(--rr-color-table-hover);
+}
+
+.post .table-bordered,
+.post .table-bordered > tbody > tr > td,
+.post .table-bordered > tbody > tr > th,
+.post .table-bordered > tfoot > tr > td,
+.post .table-bordered > tfoot > tr > th,
+.post .table-bordered > thead > tr > td,
+.post .table-bordered > thead > tr > th {
+  border-color: var(--rr-color-table-border-strong);
+}
+
+.post .dataTables_wrapper {
+  color: var(--rr-color-body-text);
+}
+
+.post .dataTables_wrapper .dataTables_length,
+.post .dataTables_wrapper .dataTables_filter,
+.post .dataTables_wrapper .dataTables_info,
+.post .dataTables_wrapper .dataTables_processing,
+.post .dataTables_wrapper .dataTables_paginate {
+  color: var(--rr-color-body-text);
+}
+
+.post .dataTables_wrapper .dataTables_length label,
+.post .dataTables_wrapper .dataTables_filter label {
+  color: var(--rr-color-body-text);
+}
+
+.post .dataTables_wrapper .dataTables_length select,
+.post .dataTables_wrapper .dataTables_filter input {
+  background-color: var(--rr-color-pre-bg);
+  color: var(--rr-color-content-text);
+  border: 1px solid var(--rr-color-table-border);
+}
+
+.post .dataTables_wrapper .dataTables_paginate .paginate_button {
+  color: var(--rr-color-pagination-text) !important;
+  background: var(--rr-color-pagination-bg) !important;
+  border-color: var(--rr-color-pagination-border) !important;
+}
+
+.post .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: var(--rr-color-pagination-text) !important;
+  background: var(--rr-color-pagination-hover-bg) !important;
+  border-color: var(--rr-color-pagination-border) !important;
+}
+
+.post .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.post .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: var(--rr-color-pagination-active-text) !important;
+  background: var(--rr-color-pagination-active-bg) !important;
+  border-color: var(--rr-color-pagination-active-border) !important;
+}
+
+.post .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.post .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover {
+  color: var(--rr-color-pagination-disabled-text) !important;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+.post .pagination > li > span,
+.post .pagination > li > a {
+  color: var(--rr-color-pagination-text);
+  background-color: var(--rr-color-pagination-bg);
+  border-color: var(--rr-color-pagination-border);
+}
+
+.post .pagination > li > span:hover,
+.post .pagination > li > a:hover {
+  color: var(--rr-color-pagination-text);
+  background-color: var(--rr-color-pagination-hover-bg);
+}
+
+.post .pagination .active > a,
+.post .pagination .active > a:hover,
+.post .pagination .active > span,
+.post .pagination .active > span:hover {
+  color: var(--rr-color-pagination-active-text) !important;
+  background-color: var(--rr-color-pagination-active-bg) !important;
+  border-color: var(--rr-color-pagination-active-border) !important;
+}
+
+.post .page-item .page-link {
+  color: var(--rr-color-pagination-text);
+  background-color: var(--rr-color-pagination-bg);
+  border-color: var(--rr-color-pagination-border);
+}
+
+.post .page-item .page-link:hover {
+  color: var(--rr-color-pagination-text);
+  background-color: var(--rr-color-pagination-hover-bg);
+}
+
+.post .page-item.active .page-link {
+  color: var(--rr-color-pagination-active-text);
+  background-color: var(--rr-color-pagination-active-bg);
+  border-color: var(--rr-color-pagination-active-border);
+}
+
+.post .dataTable a {
+  color: var(--rr-color-content-link);
+}
+
+.post .dataTable a:hover {
+  color: var(--rr-color-content-link-hover);
+}

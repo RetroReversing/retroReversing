@@ -26,7 +26,7 @@
       {% assign category_url = '/' | append: category_key %}
       {% assign post_count = valid_tag_counts[category_key_lc] | default: 0 %}
       {% if post_count > 0 %}
-      <a href="{{ category_url }}" target="_blank"><li class="head-console-item"> <img alt="{{ category_title }}" class="console-img" src="{{ category_image }}" /> <strong>{{ category_title }}</strong><span class="console-post-numbers">{{ post_count }}</span></li></a>
+      <a href="{{ category_url }}" target="_blank" title="{{ category_title }}"><li class="head-console-item"> <img alt="{{ category_title }}" class="console-img" src="{{ category_image }}" /> <strong>{{ category_title }}</strong><span class="console-post-numbers">{{ post_count }}</span></li></a>
       {% endif %}
     {% endfor %}
   </ul>

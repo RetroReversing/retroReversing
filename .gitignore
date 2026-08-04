@@ -74,3 +74,4 @@ build/
 /test/backstop/ci
 /test/backstop/test
 /test/backstop/report
+vendor/

@@ -9,6 +9,9 @@ permalink: /public/css/site.css
 {% include_relative animate.min.css %}
 {% include_relative owl.carousel.min.css %}
 
+/* RR CSS Variables */
+{% include_relative variables.css %}
+
 /* Game Forest CSS */
 {% include_relative theme.css %}
 {% include_relative custom.css %}
@@ -19,6 +22,8 @@ permalink: /public/css/site.css
 
 /* Utility CSS */
 {% include_relative tailwind.css %}
+
+{% include_relative content-theme.css %}
 
 /* Site-specific CSS */
 {% include_relative theme.overrides.css %}

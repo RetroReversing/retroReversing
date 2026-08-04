@@ -102,12 +102,19 @@ https://www.canva.com
 ---
 # Running Locally
 
-## Update Ruby Version to 3.2.2
-e.g on MacOS:
+## Update Ruby Version to 3.3.12
+Ruby 3.2 is end-of-life. Use Ruby 3.3.x for local development.
+
+The easiest option on macOS is the prebuilt Homebrew formula:
+```bash
+brew install ruby@3.3
+```
+
+If you prefer rbenv, install the same major version:
 ```bash
 brew install rbenv ruby-build
-rbenv install 3.2.2
-rbenv global 3.2.2
+rbenv install 3.3.12
+rbenv local 3.3.12
 ```
 
 ## Install the Gems

@@ -4,41 +4,47 @@
   {% include head.html %}
   
 </head>
-<body class="fixed-header">
+<body class="fixed-header has-site-sidebar">
   <!-- header -->
   {% include header.html %}
   <!-- /header -->
 
-  <!-- main -->
-  {% include_cached breadcrumbs.html breadcrumbs=page.breadcrumbs %}
-  
-  {% include_cached video-header.html youtube=page.youtube image=page.image %}
-  
-  {% include_cached video-carousel.html videocarousel=page.videocarousel %}
-  {% capture rendered_post_content %}{{ content | markdownify }}{% endcapture %}
+  <section class="rr-home-section">
+    {% include_cached site-sidebar-left.html %}
 
-  <main id="main-content">
-    <section>
-      <div class="container post-container">
-        <div class="row">
-          <div class="col-lg-9" style="padding-left: 0px;">
-            <div class="post post-single">
-              {% include posts/post-header.html %}
-              {{ rendered_post_content }}
+    <div class="rr-home-section-right">
+      <!-- main -->
+      {% include_cached breadcrumbs.html breadcrumbs=page.breadcrumbs %}
+      
+      {% include_cached video-header.html youtube=page.youtube image=page.image %}
+      
+      {% include_cached video-carousel.html videocarousel=page.videocarousel %}
+      {% capture rendered_post_content %}{{ content | markdownify }}{% endcapture %}
+
+      <main id="main-content">
+        <section>
+          <div class="container post-container">
+            <div class="row">
+              <div class="col-lg-9" style="padding-left: 0px;">
+                <div class="post post-single">
+                  {% include posts/post-header.html %}
+                  {{ rendered_post_content }}
+                </div>
+                {% include_cached posts/post-footer.html tags=page.tags %}
+              </div>
+              <aside class="col-lg-3">
+                <div class="sidebar">
+                  {% include sources-sidebar.html references=page.references hideTOC=page.hideTOC content_html=rendered_post_content %}
+                  {% include_cached recommended-sidebar.html recommend=page.recommend tags=page.tags recommend_title=page.recommendTitle current_url=page.url %}
+                </div>
+              </aside>
             </div>
-            {% include_cached posts/post-footer.html tags=page.tags %}
           </div>
-          <aside class="col-lg-3">
-            <div class="sidebar">
-              {% include sources-sidebar.html references=page.references hideTOC=page.hideTOC content_html=rendered_post_content %}
-              {% include_cached recommended-sidebar.html recommend=page.recommend tags=page.tags recommend_title=page.recommendTitle current_url=page.url %}
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- /main -->
+        </section>
+      </main>
+      <!-- /main -->
+    </div>
+  </section>
 
   {% assign has_mermaid = false %}
   {% if page.mermaid == true or page.content contains '```mermaid' or page.content contains 'language-mermaid' or page.content contains 'lang-mermaid' %}

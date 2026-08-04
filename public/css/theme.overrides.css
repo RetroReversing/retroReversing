@@ -20,43 +20,86 @@ body {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-/* #region Nav Bar  */
-.navbar-container {
-  max-width: 95vw !important;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  width: 95vw;
-}
+/* Breadcrumbs - see content-theme.css */
 
-@media (min-width: 1300px) {
-  /* larger desktop styles */
-  .navbar-container {
-    width: 80vw !important;
-  }
+/* #region Nav Bar  */
+.navbar-shell {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 16px;
 }
 
 #header .navbar {
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
-  min-width:95vw;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   flex-wrap: nowrap;
+  align-items: center;
+  gap: 16px;
 }
 
-.nav {
+#header .navbar .navbar-left {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+#header .navbar .navbar-center {
+  flex: 1 1 auto;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  min-width: 0;
+  padding: 0 24px;
 }
 
-@media (min-width: 1200px) {
-  .nav {
-    min-width: 70vw;
-  }
+#header .navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  margin-left: 0;
+}
+
+.navbar-brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.navbar-brand-link:hover,
+.navbar-brand-link:focus {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand-logo {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  flex-shrink: 0;
 }
 
 #header .logo {
+  float: none;
+  height: auto;
+  padding: 0;
+  margin: 0;
   color: white;
   font-weight: 600;
-  min-width:120px;
-  margin-right: 5px;
+  min-width: 0;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.nav {
+  display: none;
 }
 /* #endregion */
 
@@ -125,16 +168,12 @@ html, body {
 .post .post-header > div:last-child .post-title {
   font-size: 2em;
   margin-top: 0px;
-  color: var(--color-bold);
+  color: var(--rr-color-content-strong);
   margin-left: 0;
 }
 
 section {
   padding: 30px 0;
-}
-
-.dataTable a {
-  color: #007bff !important;
 }
 
 /*           */
@@ -192,7 +231,7 @@ rr-sandpack {
 	text-align: center;	
 	text-decoration: none;
 /* 	color: #ffffff; */
-  color: #4c4c4c;
+  color: var(--rr-color-tab-text);
   /* background: #f6f6f6; */
 /* 	background: #6edeef; */
   border: 0px solid #000000;

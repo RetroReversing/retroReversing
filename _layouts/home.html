@@ -3,30 +3,18 @@
 <head>
   {% include head.html %}
 </head>
-<body class="fixed-header">
+<body class="fixed-header home-page has-site-sidebar">
   <!-- header -->
-  {% include_cached header.html %}
+  {% include header.html %}
   <!-- /header -->
 
   <section class="rr-home-section">
-    <div class="rr-home-section-left">
-        {% include_cached homepage/head-console-list.html %}
-      <!-- Twitter feed -->
-      <div class="rr-twitter">
-        <!-- <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-        <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-        <bsky-embed
-          username="retroreversing.bsky.social"
-          mode="dark"
-          limit="20"
-        >
-        </bsky-embed>
-      </div>
-    </div>
+    {% include_cached site-sidebar-left.html %}
 
     <div class="rr-home-section-right">
       {% include homepage/start-here.html %}
-      {% include_cached homepage/post-playlist.html heading="Recently Updated Posts" description="The newest pages and recently refreshed research across the archive." limit=4 hide_show_all=true %}
+      {% include_cached homepage/recent-posts-filter.html limit=4 pool_limit=80 %}
+      {% include_cached homepage/platform-shelf.html %}
       {% include_cached homepage/post-playlist.html tag="introduction" heading="Introduction to Game Reversing" description="Beginner-friendly routes into emulation, binaries, tools and first reversing workflows." limit=4 %}
       {% include_cached homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" description="Hardware used by studios to test, debug and ship games on real consoles." limit=4 %}
       {% include_cached homepage/post-playlist.html tag="sdk" heading="Console & PC Software Development Kits" description="Official and leaked SDK material, libraries, samples and development environments." limit=4 %}
@@ -50,7 +38,7 @@
       {% capture heading_with_total_number_of_pages %}
         All Posts ({{ total_number_of_pages }})
       {% endcapture %}
-      {% include_cached homepage/post-playlist.html heading=heading_with_total_number_of_pages description="A full chronological browse of visible pages in the site archive." limit=total_number_of_pages hide_show_all=true %}
+      {% include_cached homepage/post-playlist.html id="all-posts" heading=heading_with_total_number_of_pages description="A full chronological browse of visible pages in the site archive." limit=total_number_of_pages hide_show_all=true classes="rr-post-playlist-grid" %}
    
     </div>
     

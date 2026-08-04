@@ -2,11 +2,10 @@
 /* Don't use nesting as it doesn't work in older browsers (pre: 2023) e.g .post { a { color: blue } } */
 
 :root {
-  --color-bold: #00577A; /* bold/strong */
-  /* --color-link: #00a3d9; */
-  --color-link: #0085b6;
-  --color-text: #333;
-  --color-link-hover: #006a91;
+  --color-bold: var(--rr-color-content-strong);
+  --color-link: var(--rr-color-content-link);
+  --color-text: var(--rr-color-content-text);
+  --color-link-hover: var(--rr-color-content-link-hover);
 }
 
 /* ------------------------------- */
@@ -268,15 +267,15 @@ code.language-plaintext {
   font-family: "IBM Plex Mono", monospace;
   font-size: 80%;
   background: none;
-  color: #0a3069;
+  color: var(--rr-color-code-text);
   border-radius: 3px;
   border: 1px solid transparent;
   padding: 0.1em 0.35em;
 }
 
 code.language-plaintext:hover {
-    border: 1px solid #d0d7de;
-    background: #f6f8fa;
+    border: 1px solid var(--rr-color-code-border);
+    background: var(--rr-color-code-bg);
     cursor: default;
 }
 
@@ -384,7 +383,7 @@ table.dataTable {
 }
 
 .table > thead > tr > th {
-  color: var(--color-bold);
+  color: var(--rr-color-table-head-text);
 }
 
 /* #endregion Tables */
@@ -548,7 +547,6 @@ h5 + .emoji {
 .post-directory-list li.jumper--H1 > a {
   font-size: 1.02rem;
   font-weight: 800;
-  color: #006d96;
 }
 
 .post-directory-list li.jumper--H2 > a {
@@ -592,7 +590,7 @@ h5 + .emoji {
   transform: translateY(-50%);
   width: 6px;
   height: 1px;
-  background: rgba(0, 133, 182, 0.4);
+  background: var(--rr-color-toc-marker);
 }
 
 .post-directory-list a {
@@ -611,12 +609,12 @@ h5 + .emoji {
 }
 
 .post-directory a.jumper--child {
-  color: #848484;
+  color: var(--rr-color-widget-directory-muted);
 }
 
 .post-directory a.jumper--child:hover,
 .post-directory a.jumper--child:focus {
-  color: var(--color-bold);
+  color: var(--rr-color-toc-hover);
 }
 
 .post-directory-list a:focus-visible {
@@ -703,8 +701,7 @@ h5 + .emoji {
 }
 
 .post .linkToOtherPost blockquote:hover {
-  /* background: #0085b60d; */
-  background: #e5e5e590;
+  background: var(--rr-color-link-card-hover-bg);
 }
 
 .post .linkToOtherPost blockquote {

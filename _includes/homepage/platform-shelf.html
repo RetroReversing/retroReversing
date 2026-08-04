@@ -1,0 +1,23 @@
+<div class="rr-youtube-shelf">
+  <div class="rr-youtube-shelf-header">
+    <h2>Platforms</h2>
+    <a class="rr-youtube-shelf-link" href="/consoles">Browse all <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="rr-youtube-shelf-row">
+    {% assign platform_keys = "nes,snes,n64,gamecube,mastersystem,megadrive,saturn,dreamcast,ps1,ps2,xbox,gba,ds,wii" | split: "," %}
+    {% for platform_key in platform_keys %}
+      {% assign platform_meta = site.category[platform_key] %}
+      {% if platform_meta %}
+        <a class="rr-youtube-shelf-item" href="/{{ platform_key }}">
+          <div class="rr-youtube-shelf-thumb">
+            <img
+              alt="{{ platform_meta.title | default: platform_key }}"
+              src="{{ platform_meta.image }}"
+            />
+          </div>
+          <span class="rr-youtube-shelf-label">{{ platform_meta.title | default: platform_key }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

@@ -51,21 +51,21 @@
             {% endif %}
           </a>
 
-          {% if post.excerpt %}
-            <p>
-                {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
-            </p>
-          {% else %}
-            <p>
-              {{ post.content | markdownify | strip_html | truncatewords: 30 }}
-              <a href="{{ site.baseurl }}{{ post.url }}">...</a>
-            </p>
-          {% endif %}
+          {% capture raw_card_excerpt %}
+            {% if post.excerpt %}
+              {{ post.excerpt | markdownify | strip_html }}
+            {% else %}
+              {{ post.content | markdownify | strip_html | truncatewords: 40 }}
+            {% endif %}
+          {% endcapture %}
+          {% assign card_excerpt = raw_card_excerpt | replace: '. ', '.<br /><br />' | replace: '! ', '!<br /><br />' | replace: '? ', '?<br /><br />' | strip %}
+          <p>
+            {{ card_excerpt }}
+            <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+          </p>
         </div>       
 
         <div class="post-footer">
-          
-          <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
           {% if post.tags %}
               <div class="post-tags">
                 {% for tag in post.tags %}
@@ -73,7 +73,6 @@
                 {% endfor %}
               </div>
            {% endif %}
-          <!-- <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a> -->
-          
+          <a class="btn post-card-cta" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
         </div>
 </div>
