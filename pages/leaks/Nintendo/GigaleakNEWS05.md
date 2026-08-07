@@ -788,17 +788,6 @@ kimura/
 * `partition.c` – Manages 1MB ROM chip boundaries (SNES SA-1 boards use multiple EPROMS)
 * `parth.bin`, `partition` – Pre-built partitioner
 
-#### Sound/Audio Tools (5 utilities)
-**Sound Effects:**
-* `sfxdmp.c` – "SFX Dumper" – extracts sound effects from ROM
-* `sfxlst.c` – "SFX List" – generates list of SFX from SFX bank
-* `sfxdmp` – Compiled dumper (binary)
-* `sfxlst` – Compiled list generator
-
-**Sound System:**
-* `sos.c`, `sos2.c` (in AAfundoshi/CAD) – Sound Output System driver
-* Likely SNES audio hardware interface
-
 #### 3D & Math Utilities (9 utilities across fundoshi + ibm)
 **Fundoshi Variant (Nintendo-specific CPU optimization?):**
 * `fundoshi/light.c` – 3D lighting calculations
@@ -824,7 +813,7 @@ This **dual-platform approach** allowed:
 #### File Utilities (10+ utilities)
 **Comparison & Diff:**
 * `fcmp.c` – File comparison (binary or text)
-* `cvsource.c` – Likely CVS integration (version control)
+* `cvsource.c` – Convert binary file into assembler source file
 
 **Format Conversion:**
 * `hex2bin.c`, `hex2bin` – Intel HEX → raw binary
@@ -832,17 +821,21 @@ This **dual-platform approach** allowed:
 * `unix2dos.c`, `unix2msdos.c` – Line ending conversion
 * `dos2unix.c`, `ms2unix.c` – Reverse conversion
 * `mscnv.c`, `mscnv` – MS-DOS to Unix conversion
-
+* `sfxdmp.c` – Binary file dumper, to dump sections of a file
+* `sfxlst.c` – header removal tool
+* `sfxdmp` – Compiled dumper (binary)
+* `sfxlst` – Compiled header removal tool
+  
 **Text/Code:**
 * `tab2spc.c`, `tab2spc` – Tab → space conversion
 * `tab8spc.c` – Tab → 8 spaces
-* `source.c` – Source code formatting/processing
-* `type.c` – File type detector
+* `source.c` – Source File Creation Program, Version 2.00
+* `type.c` – Source code formatting/processing
 
 **Data Manipulation:**
 * `cut.c` – Binary/text cutting (like Unix cut utility)
 * `sum8.c` – 8-bit checksum calculator
-* `label.c` – Label generation
+* `label.c` – Used to generate 3D data and writes ASM files
 
 #### Hex/Binary Editors (3 utilities)
 * `hxed.c` – Hex editor source
@@ -852,25 +845,23 @@ This **dual-platform approach** allowed:
 Used for low-level binary patching and ROM inspection.
 
 #### Miscellaneous Tools (10 utilities)
-* `calc.c` – Calculation utilities (possibly for coordinate/parameter computation)
+* `calc.c` – Simple pocket calculator
 * `getch.c` – Character input handler
 * `pr201.c` – Likely printer driver (NEC PR-201)
-* `partition.c` – Disk partitioning
-* `arrenge.c` – Likely "arrange" – data organization utility
+* `partition.c` – File partitioner
+* `arrenge.c` – copy of cnvmode7.c
 * `jisclr.c` – Japanese character/JIS handling
 * `id.c` – ID generation/assignment
-* LHA compression library (7+ files) – Archive/compress assets
+* LHArc UNIX v1.02
 
 #### XL Project (360 files, 25 C source)
-Largest sub-project, possibly:
-* An audio/music toolchain (given many audio-related binaries: `xlbgm*.bin`, `xleng*.bin`, `xlsnd*.bin`)
-* Or a comprehensive game development framework
+Contains audiovisual assets from FX Trax (Wild Trax prototype)
 
 File inventory includes:
 * **Music/BGM**: 24 BGM files (`xlbgm01.bin` through `xlbgm24.bin`)
 * **Engine**: 9 engine modules (`xleng01` through `xleng09`)
 * **Sound**: 2 sound modules (`xlsound.bin`, `xlsnd01` through `xlsnd04`)
-* **Graphics**: Demo/test graphics and palettes
+* **Graphics**: Graphics from Wild Trax including some 3D asm tools
 
 ### Compiled Tool Distribution
 Beyond source, Kimura's directory contains **200+ compiled binaries and test ROMs**:
@@ -995,34 +986,6 @@ This allows engineers to:
 * PC version lets animators **scrub through timelines** and **preview smoothly**
 * SNES version ensures **exact behavior** on target hardware
 
-### XL Project: The Audio Infrastructure
-Kimura's 360-file XL subdirectory deserves special attention.
-The **24 BGM modules** (`xlbgm01.bin` through `xlbgm24.bin`) suggest this was a **complete audio toolkit**.
-
-**Likely components:**
-
-* **Audio Engine** (`xleng01` through `xleng09`)
-   * APU communication layer (SNES has a separate audio processor)
-   * Sound effect playback
-   * BGM sequencing
-   * Real-time mixing/volume control
-* **Sound Effects Library** (`xlsound.bin`, `xlsnd01` through `xlsnd04`)
-   * Compiled SFX banks (weapon fire, explosions, footsteps)
-   * Indexed by game state (which SFX to play for which action)
-* **BGM Database** (24 × musical pieces)
-   * Titles, composers, loop points
-   * Orchestration (which instruments active in each section)
-   * Potentially the **complete Star Fox 2 soundtrack**
-
-**Historical Context:**
-
-Star Fox 2's music is **orchestral and complex** (arranged by Hiroshi Shibuya, Shoji Maekawa).
-The SNES APU could play only **8 channels** of 16-bit PCM.
-XL likely managed:
-* Channel allocation per instrument
-* Real-time mixing/layering
-* Tempo synchronization with gameplay
-
 ### Cross-Project Asset Management
 The preservation of **experimental, legacy, and multi-project code** reveals how Kimura managed a growing codebase.
 
@@ -1030,7 +993,7 @@ The preservation of **experimental, legacy, and multi-project code** reveals how
 
 ```
 util/              # Current/stable utilities
-xl/                # Latest audio project
+xl/                # Assets from FX Trax
 exp/               # Active experiments
 old/               # Legacy code (but kept for reference)
 kart/              # Specific game (Mario Kart work?)
@@ -1078,14 +1041,14 @@ This is a **mature, professional build system**-not ad-hoc, but systematic.
 ---
 ## Other Projects
 
-### FX2 (Stunt Race FX)
-A 2.8 MB graphics asset dump for Stunt Race FX (Wild Trax):
+### FX2
+A 2.8 MB graphics asset dump from various games including SimCity
 * 42 `.cgx` graphics files
 * 36 `.bak` backups
 * 16 `.scr` screen layouts
 * 15 `.col` color palettes
 
-Likely stage/track graphics and UI elements.
+
 
 ### 3DCAD
 CAD tool UI and demo assets:
