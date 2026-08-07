@@ -39,6 +39,23 @@ The PS3 moved from a MIPS-based CPU to the PowerPC architecture and its CPU was 
 The GPU was built by Nvidia and was called the **RSX** it was as powerful as a DirectX9 class GPU.
 
 ---
+# Emulation
+
+## PS3 emulation is fast on ARM now
+The video below details a six-month effort to optimize the RPCS3 PlayStation 3 emulator for ARM architecture, specifically for devices like the Odin 2. [Whatcookie](https://www.youtube.com/@MrWhatcookie) explains how they closed the performance gap between ARM and x86 by meticulously analyzing hardware manuals and rewriting key sections of the emulator's code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-aI_XEwmKFk?si=tRhyNtw-4npgUZNR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The key optimizations implemented to improve *RPCS3* performance on *ARM* hardware are:
+* **Fixing the Busy Wait Function:** The team scaled wait times based on the actual *ARM* hardware timer frequency, which differs from *x86*, to reduce unnecessary CPU overhead and power consumption.
+* **Improving Busy Wait Throttling:** The *yield* instruction was replaced with *ISB* (Instruction Synchronization Barrier), allowing the CPU to effectively throttle execution instead of just sending a hint to the operating system.
+* **Optimizing Shuffle Instructions:** By rewriting *SHUFB* emulation to use native *ARM* shuffle instructions like *TBL* and *TBX*, the instruction count was reduced from 10 to 5, resulting in a significant performance boost.
+* **Advanced Instruction Mapping:** The team leveraged *ARM* dot-product and multiply-accumulate instructions (such as *US dot* and *SMMLA*) to better mimic *x86* behavior and accelerate complex operations.
+* **Comparison and Checksum Optimization:** New techniques were developed to utilize the specific ratio of load-to-arithmetic ports on *ARM* mid-cores, greatly speeding up comparison and checksum operations.
+* **SVE Integration:** Using *SVE* (Scalable Vector Extensions), the team optimized multiply-subtract and rotation operations to provide efficiency gains on supported hardware.
+* **Hardware-Specific Wait Instructions:** Implementing *WFE* (Wait For Event) allowed the emulator to enter a low-power state while waiting for cache line updates, leading to measurable power savings.
+
+---
 # All Posts
 <div>
 
