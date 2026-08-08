@@ -39,6 +39,22 @@ This multi-part write-up systematically covers the foundational math of 3D trans
 {% include_cached link-to-other-post.html post="/Quaternions" description="For more information on Quaternions check out this post." %}
 
 ---
+# Harmonic Analysis
+Harmonic Analysis is a major area of mathematical analysis that focuses on how functions—whether they are signals, images, or sound—can be decomposed and reconstructed using simpler, oscillating building blocks like sine and cosine waves.
+
+## How I released a game that has no assets using Sine Waves
+In this project, [Zanzlanz](https://www.youtube.com/@zanzlanz) builds a fully functional game, *Crow Sign*, without using any traditional image, audio, or animation assets. Instead, the game generates all graphics, sound, music, and gameplay loops in real-time using sine waves and Fourier transform principles. The result is a highly compressed, mathematically generated experience that demonstrates the creative potential of fundamental wave physics in game development.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qr3VsZYQy4s?si=bfYtgv8iclIKINb1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Here are the key techniques used by the developer:
+* **Fourier Transform:** This is the core algorithm used to convert shapes and audio into frequency data, essentially breaking down complex inputs into a series of **sine wave frequencies**. 
+* **Discrete Cosine Transform (DCT):** Used in the game’s in-game **JPEG shader** to simulate image compression by converting pixel groups into sine waves and discarding less important frequencies.
+* **Frequency Modulation (FM) Synthesis:** Used to create complex sound effects, such as simulated noise and instrument textures, by modulating the pitch of one sine wave with another.
+* **ADSR Envelopes:** Applied to audio to control the volume shape (Attack, Decay, Sustain, Release) of sound effects like balloon pops.
+* **Hyperbolic Tangent:** Employed to create the specific **infinitely squished visual effect** seen in the mini-map and heads-up display, drawing inspiration from *MC Escher*.
+
+---
 # All Posts
 <div>
 
