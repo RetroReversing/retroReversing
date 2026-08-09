@@ -115,10 +115,12 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">  <!--  Font awesome is used for: edit button, dropdown icon  -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/brands.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">  <!--  Font awesome is used for: twitter icon, bluesky icon  -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" rel="preload" as="style" onload="this.rel='stylesheet'"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+  {% comment %}
+    Load Font Awesome as a real stylesheet (not preload+onload). Brand icons need
+    the "Font Awesome 6 Brands" face via fa-brands/fab; all.min.css already includes it.
+  {% endcomment %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
 
 <!--  Bundled site CSS built from the editable files in `public/css/`  -->
   <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">

@@ -49,6 +49,15 @@ For a detailed breakdown of the password system and the newly discovered codes, 
 {% include_cached link-to-other-site.html url="https://32bits.substack.com/p/under-the-microscope-the-lost-world" description="Bo Bayles provides a comprehensive look at cracking the password encryption in The Lost World: Jurassic Park, revealing secret debug menus and arcade asset galleries hidden for nearly 30 years." title="Under the Microscope: The Lost World – Jurassic Park" %}
 
 ---
+## Sega Saturn Demo Discs
+<div class="emoji">💿</div>
+Sega Saturn demo discs are useful for reverse engineering because they often ship earlier or alternate builds of retail games, and they can expose different SDK library versions than the final release. Official samplers and magazine covermounts also pack multiple playable demos onto one disc.
+
+A dedicated page covers this catalogue in more detail, with **176** Europe, USA, and Japan demo and magazine disc dumps including Flash SegaSaturn, Tech Saturn, Saturn Super, and Saturn Power covermounts:
+
+{% include_cached link-to-other-post.html post="/saturn-demos" description="For a full catalogue of Sega Saturn demo and magazine discs check out this post." %}
+
+---
 ## Sega File Formats
 The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
