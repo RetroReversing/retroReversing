@@ -1,0 +1,11 @@
+{
+  "id": "my-file-lab-plugin",
+  "title": "My Plugin",
+  "module": "./index.js",
+  "css": "plugin.css",
+  "order": 100,
+  "match": {
+    "extensions": [".bin"],
+    "minSize": 16
+  }
+}

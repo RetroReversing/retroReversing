@@ -1,0 +1,196 @@
+.rr-file-lab-hex-row {
+  height: 19px;
+  padding: 0 14px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  line-height: 19px;
+  color: var(--rr-color-code-text);
+  white-space: pre;
+  overflow: hidden;
+}
+
+.rr-file-lab-hex-row .hex-bytes-track,
+.rr-file-lab-hex-row .ascii-track {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rr-file-lab-hex-row .hex-block-outline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 1;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.rr-file-lab-hex-row .hex-block-outline.outline-hover {
+  border-color: var(--rr-color-hex-highlight-hover-border);
+}
+
+.rr-file-lab-hex-row .hex-block-outline.outline-selected {
+  border-color: var(--rr-color-hex-highlight-selected-border);
+}
+
+.rr-file-lab-hex-row .hex-block-outline:not(.is-first-row) {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.rr-file-lab-hex-row .hex-block-outline:not(.is-last-row) {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rr-file-lab-hex-row .offset {
+  color: var(--rr-color-meta);
+}
+
+.rr-file-lab-hex-row .hex-bytes {
+  color: var(--rr-color-content-strong);
+}
+
+.rr-file-lab-hex-row .ascii {
+  color: var(--rr-color-heading);
+}
+
+.rr-file-lab-hex-row .non-printable {
+  color: var(--rr-color-widget-directory-muted);
+}
+
+.rr-file-lab-hex-row .hex-byte,
+.rr-file-lab-hex-row .ascii-byte {
+  border-radius: 2px;
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-0,
+.rr-file-lab-hex-row .ascii-byte.hl-0 {
+  background: var(--rr-color-hex-highlight-0-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-1,
+.rr-file-lab-hex-row .ascii-byte.hl-1 {
+  background: var(--rr-color-hex-highlight-1-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-2,
+.rr-file-lab-hex-row .ascii-byte.hl-2 {
+  background: var(--rr-color-hex-highlight-2-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-3,
+.rr-file-lab-hex-row .ascii-byte.hl-3 {
+  background: var(--rr-color-hex-highlight-3-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-4,
+.rr-file-lab-hex-row .ascii-byte.hl-4 {
+  background: var(--rr-color-hex-highlight-4-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-5,
+.rr-file-lab-hex-row .ascii-byte.hl-5 {
+  background: var(--rr-color-hex-highlight-5-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-6,
+.rr-file-lab-hex-row .ascii-byte.hl-6 {
+  background: var(--rr-color-hex-highlight-6-bg);
+}
+
+.rr-file-lab-hex-row .hex-byte.hl-7,
+.rr-file-lab-hex-row .ascii-byte.hl-7 {
+  background: var(--rr-color-hex-highlight-7-bg);
+}
+
+.rr-file-lab-hex-layout {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+}
+
+.rr-file-lab-hex-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.rr-file-lab-hex-details {
+  flex: 0 0 260px;
+  width: 260px;
+  min-height: 0;
+  overflow: auto;
+  border-left: 1px solid var(--rr-color-content-border);
+  background: var(--rr-color-pre-bg);
+  padding: 12px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--rr-color-content-text);
+}
+
+.rr-file-lab-hex-details-empty {
+  color: var(--rr-color-meta);
+  padding: 8px 4px;
+}
+
+.rr-file-lab-hex-details-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rr-file-lab-hex-details-title {
+  font-weight: 600;
+  color: var(--rr-color-heading);
+  font-size: 13px;
+}
+
+.rr-file-lab-hex-detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rr-file-lab-hex-detail-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--rr-color-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.rr-file-lab-hex-detail-value {
+  color: var(--rr-color-content-text);
+  word-break: break-word;
+}
+
+.rr-file-lab-hex-details code,
+.rr-file-lab-hex-detail-value code,
+.rr-file-lab-hex-detail-preview {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 11px;
+  color: var(--rr-color-code-text);
+  background: var(--rr-color-code-bg);
+  border: 1px solid var(--rr-color-code-border);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.rr-file-lab-hex-detail-preview {
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.rr-file-lab-hex-row .hex-byte[data-region-id],
+.rr-file-lab-hex-row .ascii-byte[data-region-id] {
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "file-lab-r2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "File Lab plugin: radare2 function list via r2wasm (Lit + web worker)",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "sync:coi": "cp node_modules/coi-serviceworker/coi-serviceworker.min.js ../../../../../coi-serviceworker.min.js"
+  },
+  "dependencies": {
+    "@wasmer/sdk": "^0.9.0",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "coi-serviceworker": "^0.1.7",
+    "vite": "^6.0.7"
+  }
+}

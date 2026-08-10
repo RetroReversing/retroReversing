@@ -430,6 +430,8 @@ The main advantages of Interactive Disassemblers over static and dynamic are:
 * **Binary Ninja** is another interactive disassembler that focuses on providing a modern, user-friendly interface with powerful analysis features. It is designed to be both accessible to beginners and powerful for advanced users.
 * **Features**: Binary Ninja offers a highly interactive and customizable interface, with strong support for Python scripting and plugins.
 
+For the next step up from disassembly, see:
+{% include_cached link-to-other-post.html post="/decompilers" description="Decompilers - A Deep Dive explains how tools recover C-like pseudo-code from machine code." %}
 
 
 

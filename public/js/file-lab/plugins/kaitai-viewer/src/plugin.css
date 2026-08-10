@@ -1,0 +1,12 @@
+.kaitai-viewer-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+  padding: 4px 0;
+}
+
+.rr-file-lab-tab-panel[data-plugin-id="kaitai-viewer"] .rr-file-lab-content,
+.rr-file-lab-tab-panel[data-plugin-id="kaitai-viewer"] {
+  min-height: 320px;
+}

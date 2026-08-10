@@ -376,6 +376,12 @@ You need to choose a Disassembler that works for your game's Instruction Set Arc
 We have a separate post covering how disassemblers work below:
 {% include_cached link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
+## How do I convert assembly back into something like C?
+The process of recovering high-level structure from machine code is called decompilation.
+Interactive decompilers such as Ghidra and Hex-Rays produce C-like pseudo-code that is easier to read than raw assembly, though it is rarely identical to the original source.
+
+We have a separate post covering how decompilers work below:
+{% include_cached link-to-other-post.html post="/decompilers" description="Decompilers - A Deep Dive explains lifting, SSA, type recovery, and structure recovery." %}
 
 ---
 # Lesson 5 - CPU
