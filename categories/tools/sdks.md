@@ -55,6 +55,9 @@ The Nintendo 64 SDK was leaked some time in the late 2000s and now can be easily
 {% include_cached link-to-other-post.html post="/ique-sdk" description="For the China-focused iQue variant built on top of the N64 SDK, check out this post." %}
 
 ## Nintendo Gamecube
+A dedicated write-up of the GameCube software kit is not on the site yet. The console page and the development-kit hardware page cover the tooling that is documented so far.
+{% include_cached link-to-other-post.html post="/gamecube" description="The GameCube page covers Dolphin hardware and the reversing material around it." %}
+{% include_cached link-to-other-post.html post="/gamecube-development-kit-hardware" description="The GameCube development kit hardware, including the official kits, is covered here." %}
 
 ## Nintendo Wii
 {% include_cached link-to-other-post.html post="/ati-low-level-wii-sdk" description="For the low-level ATI/ArtX Wii SDK used in internal tooling, check out this post." %}
@@ -87,9 +90,13 @@ We are currently in the process of documenting the files found in the Official N
 
 ## SEGA Master System
 No information is known about an official SDK for the SEGA Master System or Mark-3 consoles, it is likely that SEGA relied on the hardware manufacturers and third parties to provide the tooling such as Assemblers and Linkers.
+{% include_cached link-to-other-post.html post="/mastersystem" description="The Master System page covers the console and the third-party development hardware." %}
+{% include_cached link-to-other-post.html post="/krisalis-development-kit-(sega)" description="The Krisalis kit was a third-party development system for the Master System and Game Gear." %}
 
 ## SEGA Game Gear
-Again no information is available about any Official Game Gear Software Development Kit
+Again no information is available about any Official Game Gear Software Development Kit.
+{% include_cached link-to-other-post.html post="/gamegear" description="The Game Gear page covers the handheld and its development hardware." %}
+{% include_cached link-to-other-post.html post="/sega-game-gear-devkit" description="The Game Gear development hardware that is documented is covered here." %}
 
 ## SEGA Mega Drive (Genesis)
 {% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For the Sega Mega Drive/Genesis SDK files and tooling, check out this post." %}
@@ -123,6 +130,7 @@ We are currently in the process of documenting the files in the Official Sony Pl
 
 ## Sony PlayStation 3
 We are currently looking for information about the Sony PlayStation 3 Software Development Kit and will write a post on it in future.
+{% include_cached link-to-other-post.html post="/ps3" description="The PlayStation 3 page covers the console and its development hardware." %}
 
 ## Sony PlayStation Vita
 {% include_cached link-to-other-post.html post="/official-vita-sdk" description="For leaked official PlayStation Vita SDK files and structure, check out this post." %}
@@ -136,6 +144,8 @@ We are currently working on a post that will document the files in the Microsoft
 
 ## Microsoft Xbox 360
 We are still collecting information about the Xbox 360 software development kit provided by Microsoft, a post will become available in the future.
+{% include_cached link-to-other-post.html post="/xbox360" description="The Xbox 360 page covers the console and its development kit." %}
+{% include_cached link-to-other-post.html post="/microsoft-xbox-360-development-kit" description="The Xbox 360 development kit hardware, including the early Power Mac kits, is covered here." %}
 
 ---
 # Other SDKs  

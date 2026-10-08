@@ -70,7 +70,9 @@ It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 
 ---
 ## Unity
-Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However, over its lifetime it has grown to support not just PC but also many games consoles (Wii, Xbox 360, PS3) and mobile platforms (iOS, Android). It was developed by the Danish vendor **OTEE**.
+Unless you have been living under a rock you will have heard about [Unity3D](/unity3d), it was originally released the 8th of June 2005 as a MacOSX only engine. However, over its lifetime it has grown to support not just PC but also many games consoles ([Wii](/wii), [Xbox 360](/xbox360), [PS3](/ps3)) and mobile platforms ([iOS](/ios), [Android](/Android)). It was developed by the Danish vendor **OTEE**.
+
+{% include_cached link-to-other-post.html post="/unity3d" description="For the history and technology of Unity in game development, see this page." %}
 
 Key milestones include:
 * **Unity 1.0** first version that even included a full version of the physics engine Ageia PhysX (8th June 2005).
@@ -98,11 +100,19 @@ Although game engines can be used across multiple games consoles or platforms, w
 
 Platform Name | Game Engine List
 ---|---
-Microsoft Xbox | [Original Xbox Game Engines](https://www.retroreversing.com/xbox-game-engines)
-Nintendo Wii U | [Wii U eShop Game Engines](https://www.retroreversing.com/WiiUeShopEngines) <br /> [Unity Game Engine Games on Wii U eShop](https://www.retroreversing.com/WiiUUnity) <br /> [Wii U Nintendo Web Framework](https://www.retroreversing.com/WiiUNWF)
+Microsoft Xbox | [Original Xbox Game Engines](/xbox-game-engines)
+Nintendo Wii U | [Wii U eShop Game Engines](/WiiUeShopEngines) <br /> [Unity Game Engine Games on Wii U eShop](/WiiUUnity) <br /> [Wii U Nintendo Web Framework](/WiiUNWF)
 
 ---
 # Commercial Middleware
+
+## FMOD
+FMOD is audio middleware from Firelight Technologies, first released in 1995 and still widely used.
+{% include_cached link-to-other-post.html post="/fmod-middleware" description="For how FMOD shows up in retail games, and what to look for when reversing it, see this page." %}
+
+## UDK Ultimate
+The Unreal Development Kit was a free Unreal Engine 3 release. UDK Ultimate is a later project that added homebrew [PlayStation 3](/ps3) and [Xbox 360](/xbox360) support.
+{% include_cached link-to-other-post.html post="/udk-ultimate" description="For the UDK Ultimate homebrew port and what it changes, see this page." %}
 
 ## Ageia PhysX SDK
 Originally known as NovodeX (by Swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in 2008, Nvidia bought Ageia and continued to support the SDK even releasing it as open source in December 2018.
@@ -113,7 +123,7 @@ PhysX under Ageia allowed the SDK binaries to be offered royalty free but access
 **Unity** announced that they would be including the full version of Ageia PhysX on March 4th 2005 which was before version 1.0 was released, which means many Unity games are using the SDK.
 
 ## Menus Master (by omegame)
-**Menus Master** was a middleware specifically for creating game menu interfaces it was first released April 15th 2005 [^2]. It has an interface to create the menus along with a C++ SDK that is compatible with the PS2, Xbox, GameCube, and PC.
+**Menus Master** was a middleware specifically for creating game menu interfaces it was first released April 15th 2005 [^2]. It has an interface to create the menus along with a C++ SDK that is compatible with the [PS2](/ps2), [Xbox](/xbox), [GameCube](/gamecube), and PC.
 
 It was used by **Delphine Software** in the **Moto Racer** series to great success!
 

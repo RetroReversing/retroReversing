@@ -17,7 +17,7 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /Introduction/GameArchitecture.md
-updatedAt: '2023-11-22'
+updatedAt: '2026-10-08'
 ---
 
 # Introduction
@@ -32,7 +32,7 @@ If you are reversing a 8-bit or 16-bit game it is unlikely that these patterns w
 However from 32-bit and beyond these patterns become very valuable as many games used variations of these and knowing that its a common pattern can save you some time understanding how the game works.
 
 ## Architecture in off-the-Shelf Game Engines
-Many game engines are built with a very specific architecture in mind (ECS for Unity, OOP for Unreal Engine), so knowing why these architectures were chosen and their many benefits and drawback is very useful when choosing a game engine.
+Many game engines are built with a very specific architecture in mind (ECS for [Unity](/unity3d), OOP for Unreal Engine), so knowing why these architectures were chosen and their many benefits and drawback is very useful when choosing a game engine.
 
 ---
 # Basic Game Architecture

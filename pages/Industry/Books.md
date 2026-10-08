@@ -15,7 +15,7 @@ recommend: industry
 image: /public/images/categories/Games Industry Books.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
 excerpt: Awesome list of Historic Retro Games Industry Books and their impact on the industry
-updatedAt: '2024-08-04'
+updatedAt: '2026-10-08'
 tags:
  - industry
 ---
@@ -59,7 +59,7 @@ Some of the most note-worthy publishers for game development related books on th
 ## Notable Authors
 Some of the most prolific authors in the game development genre are:
 * **Andre LaMothe** - Celebrated author and editor for the entire Prima Tech/Premier Press Game Development Book Series.
-* **Jonathan S. Harbour** - Authored over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language.
+* **Jonathan S. Harbour** - Authored over 20 programming books. Worked on the [Sega Mega Drive](/megadrive) version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language.
 * **Mark DeLoura** - Author of the first two Game Programming Gems books (along with the Best of version) and editor of Game Developer magazine.
 * **Steve Rabin** - Specializes in Game AI books such as the Game AI Wisdom series.
 * **Wolfgang Engel** - Specializes in game graphics, specifically shader development, writing books such as the ShaderX series.
@@ -77,7 +77,7 @@ We have a separate post on the excellent "Game Programming Starter Kit" series. 
 
 ---
 ## Published in 1976
-This section will cover books related to game development published in the year 1976, the year when the home game console market was just starting to take off with the release of the **Channel F**. It was also the year that Zilog would launch their Z80 microchip which would be used in many consoles and home computers in the future. 
+This section will cover books related to game development published in the year 1976, the year when the home game console market was just starting to take off with the release of the **Channel F**. It was also the year that Zilog would launch their [Z80](/z80) microchip which would be used in many consoles and home computers in the future. 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -102,11 +102,11 @@ Fairchild released a development kit which came with a book titled **F8 Guide to
 
  <div markdown="1" class="rr-post-markdown">
 We start with the **Z80-CPU Technical Manual** from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for any of the following:
-* Game Boy
-* Master System/Game Gear
+* [Game Boy](/gameboy)
+* [Master System](/mastersystem)/[Game Gear](/gamegear)
 * AmstradCPC
-* MSX
-* ZX Spectrum.
+* [MSX](/msx)
+* [ZX Spectrum](/zxspectrum).
 
 Of course by the time those consoles came out there were newer editions of the book and a few people had written their own Z80 textbooks but it remains a very important book int he history of game development.
  </div>
@@ -116,7 +116,7 @@ Of course by the time those consoles came out there were newer editions of the b
 ## Published in 1978
 This section will cover books related to game development published in the year 1978.
 
-The **Apple II** and **Atari 2600 VCS** had just been released in the previous year (September 1977) which was using a variant of the popular 6502 CPU (6507) and books were starting to spring up on the topic of programming for this family of chips.
+The **Apple II** and **Atari 2600 VCS** had just been released in the previous year (September 1977) which was using a variant of the popular [6502](/6502) CPU (6507) and books were starting to spring up on the topic of programming for this family of chips.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -150,14 +150,14 @@ It was the go to choice for bedroom programmers as it was very cheap and games c
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/68000 assembly language programming.jpg" /> | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/68000 assembly language programming.jpg" /> | [68000](/68k) assembly language programming | Osborne McGraw-Hill | Assembly | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer: design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
 <img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61qRddsXbdL._AC_UY218_.jpg" /> | A Practical Introduction to Computer Graphics | Ian O. Angell | FORTRAN | Good introduction to the mathematics behind creating graphics using simple lines
 
 ---
 ## Published in 1982
-This section will cover books related to game development published in the year 1982. The year that Sinclair released the **ZX spectrum**, CBM released the **Commodore 64** along with the **Dragon 32** which came with **Microsoft BASIC**.
+This section will cover books related to game development published in the year 1982. The year that Sinclair released the **ZX spectrum**, CBM released the **[Commodore 64](/C64)** along with the **Dragon 32** which came with **Microsoft BASIC**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -172,7 +172,7 @@ This section will cover books related to game development published in the year 
 
 It was also a big year for Japan with the release of the **MSX** which for many was their first experience having a programmable home computer. With a Zilog Z80 cpu and a variant of BASIC (MSX BASIC) it was ideal for bedroom game development in Japan.
 
-As for consoles it was also the year that Nintendo released their **Famicom** based on a 6502 CPU, but Nintendo has strict licensing agreements which limited third-party development. Despite this famous developers such as **Satoshi Tajiri** of Pokemon fame cobbled together his own Famicom development kit from old circuit boards obtained in Akihabara junk shops [^7].
+As for consoles it was also the year that Nintendo released their **[Famicom](/nes)** based on a 6502 CPU, but Nintendo has strict licensing agreements which limited third-party development. Despite this famous developers such as **Satoshi Tajiri** of Pokemon fame cobbled together his own Famicom development kit from old circuit boards obtained in Akihabara junk shops [^7].
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -236,7 +236,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the [Amiga](/Amiga) and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 <img class="lazy-load" data-image-full="[https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://m.media-amazon.com/images/I/5140fiS5s4L._SX342_SY445_.jpg)" /> | Computer graphics - a programming approach | Steven Harrington | Language Independent (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31nXJhAWSWL._BO1,204,203,200_.jpg" /> | Techniques for computer graphics | David F Rogers,  Rae A. Earnshaw | 
 
@@ -329,7 +329,7 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Published in 1995
-This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the Saturn and Playstation were released in the US & Europe.
+This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the [Saturn](/saturn) and [Playstation](/ps1) were released in the US & Europe.
 
 On the Windows front, for graphics programming the API **WinG** was released by Microsoft in 1994 so in 1995 we started to see our first books about programming games in this API. 
 Although the API was short lived as it was replaced by the **Windows Games SDK** in 1995 and later renamed to **DirectX**.
@@ -378,7 +378,7 @@ You can find the source code ported to a modern toolchain (SDL + MacOS) here: [c
 
 ---
 ## Published in 1996
-This section will cover books related to game development published in the year 1996, which is the year the Nintendo 64 was released.
+This section will cover books related to game development published in the year 1996, which is the year the [Nintendo 64](/n64) was released.
 
 There were some excellent books released by **Waite Group Press** [^1] such as the **Black Art of Macintosh Game Programming** and the **OpenGL SuperBible** which were both cutting-edge at the time.
 
@@ -640,13 +640,13 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Artificial Intelligence for Computer Games: An Introduction | John David Funge | |  
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/513gVsR0noL._AC_UY436_FMwebp_QL65_.jpg" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41X27dRWptL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginning C++ Game Programming (Game Development Series) | Michael Dawson | C++ | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/412ZHMQ786L._SX383_BO1,204,203,200_.jpg" /> | Beginning Game Boy Advance Programming | Jonathan Harbour | C Programming, GBA | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/412ZHMQ786L._SX383_BO1,204,203,200_.jpg" /> | Beginning [Game Boy Advance](/gba) Programming | Jonathan Harbour | C Programming, GBA | 
 <img class="lazy-load" data-image-full="" /> | Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41kcOqG0SnL._SX394_BO1,204,203,200_.jpg" /> | Beginning OpenGL Game Programming | Dave Astle, Kevin Hawkins | OpenGL | 
 <img class="lazy-load" data-image-full="" /> | Character development and storytelling for games | Lee Sheldon | | 
 <img class="lazy-load" data-image-full="" /> | Creating the Art of the Game | Matthew Omernick | Maya, 3ds Max | 
 <img class="lazy-load" data-image-full="" /> | DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
-<img class="lazy-load" data-image-full="" /> | Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
+<img class="lazy-load" data-image-full="" /> | Game Console Hacking: [Xbox](/xbox), PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
 <img class="lazy-load" data-image-full="" /> | Game Character Development with Maya | Antony Ward | Maya | 
 <img class="lazy-load" data-image-full="" /> | Game Development essentials: An Introduction | Jeannie Novak | | 
 <img class="lazy-load" data-image-full="" /> | Game Development with Lua | Paul Schuytema, Mark Manyen | Lua | 
@@ -797,7 +797,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51OiEeyGWSL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 7 | Scott Jacobs | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
 <img class="lazy-load" data-image-full="" /> | Multiplayer Gaming and Engine Coding for the Torque Game Engine | Edward F. Maurina III | Torque Game Engine | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51ikJvGzsuL.jpg" /> | Nintendo Wii Flash Game Creator's Guide: Design, Develop, and Share Your Games Online | Todd Perkins | Flash | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51ikJvGzsuL.jpg" /> | [Nintendo Wii](/wii) Flash Game Creator's Guide: Design, Develop, and Share Your Games Online | Todd Perkins | Flash | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rHYE6fuAL._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX6: Advanced Rendering Techniques | Wolfgang Engel | | 
 <img class="lazy-load" data-image-full="" /> | The Complete Guide to Torque X | John Kanalakis | XNA, Torque Game Engine | 
 

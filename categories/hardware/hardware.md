@@ -97,7 +97,7 @@ We have all our Game Console Development Kit Hardware posts categorised from a s
 {% include_cached link-to-other-post.html post="/saturn-architecture" %}
 
 ### Nintendo Gamecube Hardware
-{% include_cached link-to-other-post.html post="/gamecube-architecture" %}
+{% include_cached link-to-other-post.html post="/gamecube" description="The GameCube page covers the console hardware, development kit, and related reversing posts." %}
 
 ---
 # Hardware Reverse Engineering 

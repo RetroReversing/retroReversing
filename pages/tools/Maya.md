@@ -43,7 +43,7 @@ Before Maya, Alias PowerAnimator (also just "Alias") was Alias Research's flagsh
 
 Notably, it was used to create groundbreaking effects like the water pseudopod in **The Abyss** (1989) and the liquid-metal T-1000 in **Terminator 2** [^3].
 
-In game development, PowerAnimator was part of **Nintendo 64**'s SGI-based dev kit and was used for modeling/animation on several '90s games. 
+In game development, PowerAnimator was part of **[Nintendo 64](/n64)**'s SGI-based dev kit and was used for modeling/animation on several '90s games. 
 
 **Crash Bandicoot** (1996) on PS1 is another example of a game whose characters and environments were built with PowerAnimator. 
 

@@ -53,17 +53,17 @@ Sony consoles have the highest likelihood of shipping with debug symbols, specif
 
 ### Sony Playstation 1 
 We have a post specifically listing all the debug symbols for the PS1 here:
-[Playstation 1 Games with Debug Symbols](https://www.retroreversing.com/ps1-debug-symbols)
+{% include_cached link-to-other-post.html post="/ps1-debug-symbols" description="Retail PlayStation 1 games that shipped with debug symbols." %}
 
 ### Sony Playstation 2
 We have a post specifically listing all the debug symbols for the PS2 Demos here:
-[PS2 Demo Discs](https://www.retroreversing.com/ps2-demos/) 
+{% include_cached link-to-other-post.html post="/ps2-demos" description="PlayStation 2 demo discs that still contain debug symbols." %} 
 
 Plenty of retail games also has their debug symbols:
-[PS2 Retail Games](https://www.retroreversing.com/ps2-unstripped/)
+{% include_cached link-to-other-post.html post="/ps2-unstripped" description="Retail PlayStation 2 games that shipped with debug symbols." %}
 
 ### Sony Playstation Portable
-[Playstation Portable Games with Debug Symbols](https://www.retroreversing.com/psp-debug-symbols)
+{% include_cached link-to-other-post.html post="/psp-debug-symbols" description="PSP games that shipped with debug symbols." %}
 
 ---
 ## Nintendo consoles
@@ -72,18 +72,18 @@ Finding debug symbols on Nintendo consoles was like finding a needle in a haysta
 ### Nintendo 64
 You will not find any debug symbols left in retail Nintendo 64 games due to limitations of cart size, developers has to squeeze out every last byte to avoid the more expensive cartridges so debug symbols were the first to go. 
 
-But we do have part of the Turok source code which contains them: [Turok 64 Official Source Code Analysis](https://www.retroreversing.com/turok64sourcecode)
+But we do have part of the Turok source code which contains them: [Turok 64 Official Source Code Analysis](/turok64sourcecode)
 
 There has also been a number of Nintendo leaks, leaking the full source code for multiple Nintendo 64 games. Not to forget the excellent work the community is doing on reversing N64 games even without any symbols present!
 
 ### Nintendo GameCube 
-[Nintendo Gamecube Games with Debug Symbols](https://www.retroreversing.com/gamecube-debug-symbols)
+{% include_cached link-to-other-post.html post="/gamecube-debug-symbols" description="GameCube games that shipped with debug symbols." %}
 
 ### Nintendo Wii 
-[Wii Games with Debug Symbols](https://www.retroreversing.com/wii-debug-symbols/)
+{% include_cached link-to-other-post.html post="/wii-debug-symbols" description="Wii games that shipped with debug symbols." %}
 
 ### Nintendo Wii U
-[Wii U Games with Debug Symbols](https://www.retroreversing.com/wii-u-unstripped/)
+{% include_cached link-to-other-post.html post="/wii-u-unstripped" description="Wii U games that shipped with debug symbols." %}
 
 
 ---
@@ -91,13 +91,13 @@ There has also been a number of Nintendo leaks, leaking the full source code for
 We have never been able to find any Sega Saturn games that actually have debug symbols left on the disc! Sega must have been a little more strict on game developers before the dreamcast, so if you do find any games with debug symbols then please let us know.
 
 ### Sega Dreamcast
-[Sega Dreamcast Games with Debug Symbols](https://www.retroreversing.com/sega-dreamcast-game-debug-symbols)
+{% include_cached link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="Dreamcast games that shipped with debug symbols." %}
 
 ---
 ## Debug symbols on Microsoft consoles
 
 ### Microsoft Xbox 
-[Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-game-debug-symbols)
+{% include_cached link-to-other-post.html post="/xbox-game-debug-symbols" description="Original Xbox games that shipped with debug symbols." %}
 
 
 There are also a few platforms that may have games with debug symbols but it is currently unknown:
