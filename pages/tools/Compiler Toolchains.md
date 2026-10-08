@@ -18,7 +18,7 @@ recommend:
 - tools
 - sdk
 editlink: /tools/Compiler Toolchains.md
-updatedAt: '2020-08-31'
+updatedAt: '2026-10-08'
 ---
 
 When reverse engineering commercial console binaries built from **C/C++**, the first question is often *which* toolchain produced the code as it can make your job reverse engineering a game so much easier.
@@ -37,15 +37,15 @@ Each platform had an official prefferred compiler toolchain but this does not me
 
 Platform | Primary official compilers (high-level) | Notes
 --- | --- | --
-PlayStation (PS1) | GCC-based flow in **PSY-Q** feeding SN Systems assembler/linker | Later PS1 builds also saw 2.8.x-based drops. [^1]
-Sega Saturn | **Hitachi SHC** and a bundled **GNU SH-2** (`GNUSH`) in PSY-Q | Teams used either; both target the same ABI.
-Nintendo 64 | **SGI MIPSpro** on IRIX as baseline | Windows-based **Partner-N64PC** and SN Systems kits provided GCC-based options based on 2.7.2; many studios used these, but IRIX MIPSpro remained the reference SDK. [^3]
-Sega Dreamcast | **Hitachi SHC** via Katana; **Microsoft VC++** for the WinCE path | Sega also licensed CodeWarrior late-gen; all official, non-GCC.
+[PlayStation (PS1)](/ps1) | GCC-based flow in **PSY-Q** feeding [SN Systems](/companies/snsystems) assembler/linker | Later PS1 builds also saw 2.8.x-based drops. [^1]
+[Sega Saturn](/saturn) | **Hitachi SHC** and a bundled **GNU SH-2** (`GNUSH`) in PSY-Q | Teams used either; both target the same ABI.
+[Nintendo 64](/n64) | **SGI MIPSpro** on IRIX as baseline | Windows-based **Partner-N64PC** and SN Systems kits provided GCC-based options based on 2.7.2; many studios used these, but IRIX MIPSpro remained the reference SDK. [^3]
+[Sega Dreamcast](/dreamcast) | **Hitachi SHC** via Katana; **Microsoft VC++** for the WinCE path | Sega also licensed CodeWarrior late-gen; all official, non-GCC.
 3DO | **ARM SDT / ARM C++ (proprietary)** | ARM toolchains predate GBA/DS era use.
-PlayStation 2 | **ee-gcc 2.95.2**, **iop-gcc 2.95.x** (Sony/SN builds) | GCC-based official cross tools for EE/IOP.
-GameCube | **Metrowerks CodeWarrior** | Official Nintendo SDK path.
-PSP | **SNC** (SN Systems) | Official compiler; GCC commonly seen only in homebrew.
-PlayStation 3 | **SNC** and **SCE GCC** (PPU/SPU) | Two official compilers shipped side-by-side.
+[PlayStation 2](/ps2) | **ee-gcc 2.95.2**, **iop-gcc 2.95.x** (Sony/SN builds) | GCC-based official cross tools for EE/IOP.
+[GameCube](/gamecube) | **Metrowerks CodeWarrior** | Official Nintendo SDK path.
+[PSP](/psp) | **SNC** ([SN Systems](/companies/snsystems)) | Official compiler; GCC commonly seen only in homebrew.
+[PlayStation 3](/ps3) | **SNC** and **SCE GCC** (PPU/SPU) | Two official compilers shipped side-by-side.
 
 *Homebrew toolchains (devkitX family, etc.) are intentionally excluded from the table above.*
 
@@ -92,7 +92,9 @@ Year | Version   | Notes (GCC forks / console SDKs)
 
 ---
 ## PS1 PSY-Q - GCC 2.7/2.8
-PSY-Q shipped with a customized GCC front end that emitted the original 32-bit **MIPS I** assembly consumed by SN Systems' assembler/linker to produce a **PS-X EXE** PlayStation 1 executable. [^1]
+PSY-Q shipped with a customized GCC front end that emitted the original 32-bit **MIPS I** assembly consumed by [SN Systems](/companies/snsystems)' assembler/linker to produce a **PS-X EXE** [PlayStation 1](/ps1) executable. [^1]
+
+{% include_cached link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="The official PlayStation 1 SDK, including PSY-Q, is documented here." %}
 
 ### MIPS I o32 Application Binary Interface (ABI)
 The o32 ABI is the convention used by classic MIPS I CPUs like the PlayStation 1's R3000A, defining things like argument passing, stack layout, and binary object file format. It ensures that the assembly and binaries produced by the compiler/toolchain match what the hardware and system expect.
@@ -132,7 +134,9 @@ We don't know the precise date since the page was first archived on 23rd May 199
 
 ---
 ## Cygnus 2.7 Sega SATURN Compiler Toolchain (1996)
-**Version 2.7** of the GNU Compiler Collection was built in **September 1996** specifically for the Sega Saturn.
+**Version 2.7** of the GNU Compiler Collection was built in **September 1996** specifically for the [Sega Saturn](/saturn).
+
+{% include_cached link-to-other-post.html post="/sega-saturn-sdk" description="The official Sega Saturn SDK, including the GNU SH toolchain, is documented here." %}
 
 ---
 # References

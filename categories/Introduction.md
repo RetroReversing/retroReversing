@@ -695,33 +695,33 @@ You may already have a game or console chosen that you would like to reverse, if
 
 ## Nintendo Consoles
 We have pages on each of the following **Nintendo** consoles:
-* [Nintendo Entertainment System](https://www.retroreversing.com/nes)
-* [Super Nintendo Entertainment System](https://www.retroreversing.com/snes/)
-* [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
-* [Nintendo 64](https://www.retroreversing.com/n64/)
-* [Nintendo GameCube (Dolphin)](https://www.retroreversing.com/gamecube/)
-* [Nintendo Wii](https://www.retroreversing.com/wii/)
-* [Nintendo 3DS](https://www.retroreversing.com/3ds/)
-* [Nintendo Wii U](https://www.retroreversing.com/wiiu)
+* [Nintendo Entertainment System](/nes)
+* [Super Nintendo Entertainment System](/snes)
+* [Nintendo Game Boy](/gameboy)
+* [Nintendo 64](/n64)
+* [Nintendo GameCube (Dolphin)](/gamecube)
+* [Nintendo Wii](/wii)
+* [Nintendo 3DS](/3ds)
+* [Nintendo Wii U](/wiiu)
 
 ## SEGA Consoles
 We have pages on each of the following **SEGA** consoles:
-* [Sega Master System](https://www.retroreversing.com/mastersystem)
-* [Sega Mega Drive (Genesis)](https://www.retroreversing.com/md/)
-* [Sega Saturn](https://www.retroreversing.com/saturn/)
-* [Sega Dreamcast](https://www.retroreversing.com/dreamcast/)
-* [Sega Game Gear](https://www.retroreversing.com/gamegear/)
+* [Sega Master System](/mastersystem)
+* [Sega Mega Drive (Genesis)](/megadrive)
+* [Sega Saturn](/saturn)
+* [Sega Dreamcast](/dreamcast)
+* [Sega Game Gear](/gamegear)
 
 ## Sony Consoles
 We have pages on each of the following **Sony** consoles:
-* [Sony PlayStation 1](https://www.retroreversing.com/ps1/)
-* [Sony PlayStation 2](https://www.retroreversing.com/ps2)
-* [Sony PlayStation Portable](https://www.retroreversing.com/psp/)
+* [Sony PlayStation 1](/ps1)
+* [Sony PlayStation 2](/ps2)
+* [Sony PlayStation Portable](/psp)
 
 ## Microsoft Consoles & PC
 We have pages on each of the following **Microsoft** consoles along with a section of the IBM-PC:
-* [Microsoft Xbox](https://www.retroreversing.com/xbox/)
-* [PC](https://www.retroreversing.com/pc/)
+* [Microsoft Xbox](/xbox)
+* [PC](/pc)
 
 
 ---

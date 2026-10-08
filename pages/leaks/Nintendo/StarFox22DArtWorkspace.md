@@ -30,7 +30,7 @@ recommend:
 - starfox2
 - gigaleak
 editlink: /leaks/Nintendo/StarFox22DArtWorkspace.md
-updatedAt: '2026-03-30'
+updatedAt: '2026-10-08'
 ---
 
 ## Archive Source
@@ -40,7 +40,6 @@ This article analyzes the **Star Fox 2 2D art and graphics workspace** preserved
 
 The `arimoto` home directory belongs to **Masanao Arimoto**, a graphics engineer who maintained multiple active projects on this machine. His directory contains three major Zelda workspaces and one Star Fox 2 branch. This SF2 folder represents the **presentation and interface side of the project** - 2D graphics banks, palettes, screen layouts, and object definitions - rather than the 3D polygon authoring workflow (which is preserved in `NEWS_05`).
 
-{% include_cached link-to-other-post.html post="/gigaleak-news-04" description="For the broader NEWS_04 context, including Zelda material, Sugiyama's multi-project workspace, and the overall archive structure, see the main NEWS_04 deep-dive." %}
 {% include_cached link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak context and other NEWS tape archives, start with the main Gigaleak overview." %}
 
 ---

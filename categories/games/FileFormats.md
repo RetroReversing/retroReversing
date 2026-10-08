@@ -48,9 +48,9 @@ Although game formats can be used across multiple games consoles or platforms, w
 
 Platform Name | Game Engine List
 ---|---
-Nintendo Gamecube | [Nintendo Gamecube (Dolphin) File Formats](https://www.retroreversing.com/gamecube-file-formats)
-Nintendo WiiU | [Wii U File Formats](https://www.retroreversing.com/WiiUFileFormats)
-Sony Playstation 1 | [Playstation 1 File Formats](https://www.retroreversing.com/ps1-file-formats)
+Nintendo Gamecube | [Nintendo Gamecube (Dolphin) File Formats](/gamecube-file-formats)
+Nintendo WiiU | [Wii U File Formats](/WiiUFileFormats)
+Sony Playstation 1 | [Playstation 1 File Formats](/ps1-file-formats)
 
 
 ---

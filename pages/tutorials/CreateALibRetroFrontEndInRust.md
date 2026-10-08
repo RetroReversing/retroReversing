@@ -20,12 +20,14 @@ recommend:
 - introduction
 - tutorial
 editlink: /tutorials/CreateALibRetroFrontEndInRust.md
-updatedAt: '2023-05-07'
+updatedAt: '2026-10-08'
 ---
 
 Welcome to this comprehensive tutorial on creating a LibRetro Frontend using Rust! If you're passionate about retro gaming and interested in creating your very own emulation frontend from scratch, you've come to the right place. Rust, with its strong safety guarantees, performance, and concurrency support, makes it an ideal choice for developing such applications.
 
 In this tutorial, we will walk you through the process of building a fully-functional LibRetro frontend from the ground up. We will start by introducing you to the basics of creating a graphical Rust application and the LibRetro API, then delve into essential concepts such as handling input, video, and audio. By the end of this tutorial, you'll have a solid understanding of the inner workings of a LibRetro frontend and the knowledge to create your own customized version to relive your favorite gaming memories.
+
+{% include_cached link-to-other-post.html post="/libRetro" description="For how libRetro cores and frontends talk to each other, see the libRetro internals page." %}
 
 # Step 1 - Setup MiniFB
 The first step was just to get a window where we can draw pixels and respond to user input, we want it to be very simple and cross-platform so we can use the `minifb` library.
@@ -1164,7 +1166,7 @@ Which will result in Tetris looking much nicer:
 ![TetrisRunning](https://user-images.githubusercontent.com/40120498/236680095-2d56e924-8322-4a4a-987b-686c01bad6c0.jpeg)
 
 
-The 140 height is set to the height of the Game Boy screen, but the width is actually set to the `pitch` divded by 2, as the pitch value that comes back is actually the number of bytes for each row of pixels (not the number of actual pixels).
+The 140 height is set to the height of the [Game Boy](/gameboy) screen, but the width is actually set to the `pitch` divded by 2, as the pitch value that comes back is actually the number of bytes for each row of pixels (not the number of actual pixels).
 
 The `WIDTH` and `HEIGHT` variables are hard-coded and will only work for this Game Boy core as the 140 pixels in height would not be applicable for other cores like NES or SNES. Lets move these variables to our global variable so we can adapt them, based on the values the cores give us:
 
@@ -2187,7 +2189,7 @@ Just after this code we can use that active_gamepad variable to check if any but
 Now if you run the program you will be able to control your Game Boy ROM with a plugged in game controller. However I personally had problems with a few controllers that I own while running this on MacOSX:
 
 * Controller from PS1 Mini - D-pad issues where the only d-pad button that works is RIGHT, it thinks DOWN is up and UP/LEFT don't do anything.
-* RetroBit Sega Saturn Controller - Same issues as above
+* RetroBit [Sega Saturn](/saturn) Controller - Same issues as above
 
 I am not sure if its the `gilrs` library or a MacOSX issue, or it could be my controllers.
 

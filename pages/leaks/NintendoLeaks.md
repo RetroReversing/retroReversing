@@ -27,7 +27,7 @@ redirect_from:
   - /nintendo
 editlink: /leaks/NintendoLeaks.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/All Nintendo Leaks.jpg
-updatedAt: '2020-10-03'
+updatedAt: '2026-10-08'
 ---
 
 Nintendo has has many data leaks in the past, but none as huge as the original **Oman Archive** of the late 90s or the **Gigaleaks** of 2020. This post is a reference point to help people catch up on any content they might have missed, each leak has its own page with much more detail about the contents of the archives. 
@@ -122,6 +122,12 @@ Files Leaked:
 
 We have a post on the contents of the archive here:
 {% include_cached link-to-other-post.html post="/paladinleak" description="For more information on the Paladin leak check out this post." %}
+
+---
+# Ninja Leak (22nd December 2020)
+The Ninja leak was posted on 22nd December 2020. The name comes from internal Nintendo security documents about tracking people who found 3DS exploits. The archive also holds security specifications for the 3DS, Switch, and Wii U amiibo, plus an old Switch SDK snapshot.
+
+{% include_cached link-to-other-post.html post="/ninjaleak" description="For the Ninja leak file list and the security documents it contains, see this page." %}
 
 ---
 # Unexpected Leak (20th July 2021)

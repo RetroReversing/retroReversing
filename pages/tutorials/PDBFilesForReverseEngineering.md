@@ -28,7 +28,7 @@ If you are very lucky indeed then the game you want to reverse engineer comes wi
 
 These files tend to be created by Microsoft Visual C++ compilers and contain all the debug symbol information for an executable (function names, class names etc) [^1].
 
-This means the PDB files are much more likely for platforms such as the PC and Xbox.
+This means the PDB files are much more likely for platforms such as the PC and [Xbox](/xbox).
 
 They are a lot harder to find than executables with symbols embedded inside as it is much easier for developers to spot the file on a disc than to check if an executable is suspiciously large.
 
@@ -64,7 +64,7 @@ This will open a file dialog, use it to find where you have your .pdb file. Now 
 # Using PDB files with Ghidra
 To load a pdb file, first open the PE game executable and run analysis. Next just Go to the menu option File -> Load PDB File. 
 
-If the executable is in the PE format and has been compiled with debug support Ghidra will start to populate the function names correctly.
+If the executable is in the PE format and has been compiled with debug support [Ghidra](/ghidra) will start to populate the function names correctly.
 
 Note that there is also a Download PDB file but it is really only for standard Microsoft symbols.
 

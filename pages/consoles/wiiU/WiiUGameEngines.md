@@ -61,13 +61,13 @@ Known wiiU Games that use the vision engine:
 The Nintendo Web Framework was by far the easiest way to develop a game or app for the wiiU. 
 It was an HTML5 framework that has an interface for the wiiU controllers.
  
-We have full coverage of the NWF framework here: [Wii U Nintendo Web Framework · RetroReversing](https://www.retroreversing.com/WiiUNWF)
+We have full coverage of the NWF framework here: [Wii U Nintendo Web Framework](/WiiUNWF)
 
 ---
 ## Unity Engine
 The Unity engine was by far the most popular game engine for wiiU eShop developers, this was helped by Nintendo's official support of the engine [^9].
 
-There was over 200 wiiU eShop games developed with the Unity engine, we have a complete list on the wiiU Unity section of the site here: [Unity Game Engine Games on wiiU eShop · RetroReversing](https://www.retroreversing.com/WiiUUnity)
+There was over 200 wiiU eShop games developed with the Unity engine, we have a complete list on the wiiU Unity section of the site here: [Unity games on the Wii U eShop](/WiiUUnity)
 
 ---
 ## Unreal Engine

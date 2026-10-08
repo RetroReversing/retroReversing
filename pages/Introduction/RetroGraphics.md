@@ -24,7 +24,7 @@ videocarousel:
   - title: Part 2
     image: https://img.youtube.com/vi/_rsycfDliZU/maxresdefault.jpg
     youtube: '_rsycfDliZU'
-updatedAt: '2026-03-28'
+updatedAt: '2026-10-08'
 ---
 
 The **8-bit Guy** on Youtube has an excellent series of videos covering how early computer graphics were implemented with the limitations of the hardware in mind.
@@ -60,7 +60,7 @@ To get around this limitation the Commodore64 had a mode called "Multi-color Mod
 So it was a trade off in terms of resolution to get more colours.
 
 Colour Cells were Used in:
-* Commodore 64/128/VIC-20/Plus4.
+* [Commodore 64](/C64)/128/VIC-20/Plus4.
 * TI-99, Sinclair Spectrum
 * Nintendo Entertainment System
 
