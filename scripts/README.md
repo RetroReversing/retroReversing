@@ -26,6 +26,19 @@ node scripts/check-metadata.js updatedAt
 * Distinguishes between files with no frontmatter (❌) vs missing specific fields (⚠️)
 * Shows coverage statistics
 
+## find-missing-updatedAt.js
+Lists markdown posts in `pages/` that do not have an `updatedAt` field.
+
+### Usage
+```bash
+node scripts/find-missing-updatedAt.js
+```
+
+### Output
+* Shows every file missing `updatedAt`
+* Distinguishes between files with no frontmatter (❌) vs files with frontmatter but no `updatedAt` (⚠️)
+* Prints a total count of scanned files and missing files
+
 ## extract-tags.js
 Extracts and analyzes all tags used in markdown frontmatter.
 

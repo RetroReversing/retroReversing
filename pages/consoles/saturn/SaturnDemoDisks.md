@@ -24,9 +24,9 @@ updatedAt: '2026-08-09'
 <div class="emoji">💿</div>
 [Sega Saturn](/saturn) demo discs are useful for reverse engineering because they often ship earlier or alternate builds of retail games, and they can expose different SDK library versions than the final release. Official samplers and magazine covermounts also pack multiple playable demos onto one disc, which makes them a good starting point when hunting for symbols, leftover debug strings, or unreleased content.
 
-The tables below catalogue **176** Saturn demo and magazine disc dumps across Europe, USA, and Japan. Demo names omit region and redundant `(Demo)` tags already covered by other columns. Notes capture useful extras such as magazine covermount links and alternate dump labels where known.
+The tables below catalogue **184** Saturn demo and magazine disc dumps across Europe, USA, and Japan. Demo names omit region and redundant `(Demo)` tags already covered by other columns. Notes capture useful extras such as magazine covermount links and alternate dump labels where known.
 
-Product codes, versions, and dates come from each disc's `IP.BIN` header. Every dump in this set exposed a readable product number this way.
+Product codes, versions, and dates come from each disc's `IP.BIN` header when a dump is available. Printed product codes are used when a covermount is documented without a local dump.
 
 For multi-game samplers and magazine discs, the **Games** column lists titles recovered from per-game `*_IP.BIN` files on the ISO when present. If those headers are missing or reused, the column falls back to distinctive ISO directory names from the disc.
 
@@ -36,7 +36,7 @@ For multi-game samplers and magazine discs, the **Games** column lists titles re
 
 ---
 ## Europe and USA samplers / covermounts
-These discs package multiple demos or trailers onto one CD. They are grouped below into official Sega samplers and publisher-produced sampler discs.
+These discs package multiple demos or trailers onto one CD. They are grouped below into official Sega samplers, the European Sega Flash series, and publisher-produced sampler discs.
 
 ### Official samplers
 The table below lists 5 official sampler discs:
@@ -48,6 +48,22 @@ Preview Sega Saturn Vol. 1 | Europe |  | SG0000000 | V1.000 | 1996-08-08 |
 Bootleg Sampler | USA | World Series Baseball, Clockwork Knight 2, Sega Rally Championship | MK-81031 V | 1.006 | 1995-10-26 | 
 Sega Saturn Bootleg II - On the Road | USA | Virtual On, Daytona USA CCE, Three Dirty Dwarves, Baku Baku Animal | MK-81068 | V1.002 | 1996-10-25 | 
 Sega Saturn Choice Cuts | USA |  | 81600 | V1.000 | 1995-04-17 | RE
+
+---
+### Sega Flash
+Sega Flash was Sega Europe's official Saturn demo-disc series. Discs were console pack-ins and covermounts for the UK magazine **Sega Saturn Magazine**. [Sega Retro](https://segaretro.org/Sega_Flash) lists **7** volumes from 1996 to 1998 [^8]. Do not confuse it with the Japanese Flash SegaSaturn club series.
+
+The table below lists 7 disc dumps:
+
+Demo | Games | Product | Version | Date | Notes
+--- | --- | --- | --- | --- | ---
+Vol. 1 | Virtua Fighter 2, Baku Baku Animal, Golden Axe The Duel, Panzer Dragoon Zwei, Sega Rally Championship | 610-6288A | V1.001 | 1996-05-14 | Console pack-in; VF2 is a rolling demo
+Vol. 2 | NiGHTS, Sega Worldwide Soccer 97, Athlete Kings, Panzer Dragoon Zwei, Baku Baku Animal | 610-6288B | V1.000 | 1996-07-19 | Sega Saturn Magazine #12
+Vol. 3 | Daytona USA Championship Circuit Edition, Virtual-On, Tomb Raider, Sega Worldwide Soccer 97 | 610-6288C | V1.001 | 1996-11-06 | Sega Saturn Magazine #15
+Vol. 4 | Sonic 3D Flickies Island, Die Hard Arcade, Virtual-On | 610-6288D | V1.003 | 1997-02-19 | Sega Saturn Magazine #19
+Vol. 5 | Sonic Jam, Sonic 3D Flickies Island, Sega Rally Championship, Die Hard Arcade | 610-6288E | V1.002 | 1997-07-03 | Sega Saturn Magazine #23
+Vol. 6 | Sega Worldwide Soccer 98, Sega Touring Car Championship, Steep Slope Sliders | 610-6288F | V1.000 | 1997-11-06 | Sega Saturn Magazine #27
+Vol. 7 | Sega Touring Car Championship, Steep Slope Sliders, World League Soccer | 610-6288G | V1.000 | 1998-03-20 | Sega Saturn Magazine #32
 
 ---
 ### Publisher samplers
@@ -69,7 +85,7 @@ UK magazine **Saturn Power** shipped covermount discs with several issues. Known
 
 ---
 ## Single-game demos (Europe and USA)
-The table below lists 12 disc dumps from this group:
+The table below lists 13 disc dumps from this group:
 
 Demo | Region | Type | Product | Version | Date | Notes
 --- | --- | --- | --- | --- | --- | ---
@@ -81,6 +97,7 @@ Victory Boxing | Europe | Single-game demo | T-6005H-50 | 1.0ED | 1995-10-02 |
 Winter Heat | Europe | Single-game demo | MK-81125 | V0.000 | 1997-12-01 | 
 WipEout 2097 | Europe | Single-game demo | T-6106698 | V0.900 | 1997-07-04 | Also Saturn Power 5 covermount
 WWF WrestleMania - The Arcade Game | Europe | Single-game demo | T-99901G | V1.000 | 1995-04-18 | 
+Panzer Dragoon Saga | Europe | Single-game demo | 700-0012-PM |  | 1998-04-15 | Sega Saturn Magazine #31 (May 1998); full retail Disc 1, not a truncated demo [^9]
 Bug! | USA | Single-game demo | MK-81030 | V1.002 | 1995-09-20 | 
 NiGHTS into Dreams... | USA | Single-game demo | MK-81063 | V1.001 | 1996-09-10 | 
 Panzer Dragoon | USA | Single-game demo | MK-81018 | V0.901 | 1995-03-16 | 
@@ -539,6 +556,106 @@ python3 saturn_ip_info.py "Bootleg Sampler (Europe) (Track 01).bin"
 When contributing a missing disc, send the Demo name, Region, Product, Version, Date, and the playable games list if it is a multi-game disc.
 
 ---
+## SDK library versions in demo executables
+<div class="emoji">📚</div>
+Many Saturn demos still embed Sega SDK library banners inside their game executables (`.BIN`, `.PRG`, and similar). The banner format is:
+
+```text
+GFS_SGL Version 2.11 1996-03-21
+```
+
+These strings identify which SEGALIB / SGL companion libraries were linked, and roughly when that library build was dated. They are useful for FLIRT-style matching and for dating a build relative to retail.
+
+{% include_cached link-to-other-post.html post="/sega-saturn-sdk" description="For the official Saturn SDK layout including SEGALIB source folders check out this post." %}
+
+{% include_cached link-to-other-post.html post="/saturn-reversing" description="For reversing workflow that uses these library banners and generated signatures check out this post." %}
+
+### Method
+The scan used the dumps catalogued on this page and worked in two steps:
+
+* Extract likely game executables from each demo Track 1 ISO (`scripts/saturn-demo-extract-ip.py --mode exe`)
+* Search those binaries for known library banners (`scripts/saturn-demo-sdk-versions.py`)
+
+Across **1190** extracted executables, **418** contained at least one banner. That produced **45** unique library + version pairs (or **51** if identical version numbers with different embedded dates are counted separately).
+
+Hits count how many extracted executables contained that banner. One example executable is listed per version.
+
+### Findings
+The most common banners in this demo set are:
+
+* `CPK Version 1.20 1995-10-05` - 152 hits (Cinepak / FILM playback)
+* `GFS_SBL Version 2.10 1996-02-01` - 131 hits (file system, SBL-linked)
+* `GFS_SGL Version 2.11 1996-03-21` - 92 hits (file system, SGL-linked)
+* `STM_SGL Version 2.11 1996-03-21` - 62 hits (stream system, SGL-linked)
+* `SYS Version 2.11 1996-02-26` - 49 hits (system / init helpers)
+
+A few patterns stand out:
+
+* SGL titles cluster around `GFS_SGL` / `STM_SGL` **2.11**; SBL titles cluster around `GFS_SBL` / `STM_SBL` **2.10**
+* Later `SYS` **2.50** / **2.52** / **2.53** banners appear mainly on 1997-98 demos
+* `MPG` banners show up in SoftBank / Mogitate `SFDPLAY` MPEG players rather than ordinary game code
+* Rare but present: `GFS_SBL` **2.13**, `DPSYS` **2.10**, and a single `SYS` **3.00** string inside Mogitate Vol. 2's `SFDPLAY.BIN`
+
+Not every demo leaves banners behind. Stripped retail-style builds, PSY-Q titles, and assets-only files will not appear below.
+
+### Unique library versions
+The table below lists each unique library version found in the extracted demo executables, with hit count and one example file:
+
+Library | Version | Date | Hits | Example
+--- | --- | --- | --- | ---
+BUP | 1.21 | 1996-08-06 | 13 | Flash SegaSaturn Vol. 15 (`AP_MAIN.PRG`)
+BUP | 1.23 | 1997-01-08 | 3 | Sega Flash Vol. 6 (`1.BIN`)
+BUP | 1.25 | 1997-06-20 | 14 | Cross Tantei Monogatari Demo 1 (`0`)
+CDC | 1.22 | 1997-02-27 | 22 | Cross Tantei Monogatari Demo 1 (`0`)
+CPK | 1.10 | 1995-03-31 | 21 | Flash SegaSaturn Vol. 15 (`AP_MAIN.PRG`)
+CPK | 1.20 | 1995-10-05 | 152 | Crimewave (`0000`)
+CPK | 1.24 | 1996-06-14 | 3 | Flash SegaSaturn Vol. 18 (`1ST_READ.PRG`)
+CPK | 1.25 | 1997-06-11 | 10 | Eve - The Lost One (`00EVE2.BIN`)
+DPSYS | 2.10 | 1996-01-31 | 2 | Gremlin Demo Disc (`AAA.BIN`)
+FLD | 1.20 | 1996-01-31 | 2 | Gremlin Demo Disc (`AAA.BIN`)
+FLD | 1.21 | 1996-02-28 | 40 | Flash SegaSaturn Vol. 10 (`0`)
+GFS_SBL | 2.10 | 1996-02-01 | 131 | Crimewave (`0000`)
+GFS_SBL | 2.11 | 1996-03-21 | 5 | Saturn Super Vol. 11 (`SMPSFD1.BIN`)
+GFS_SBL | 2.12 | 1996-12-04 | 20 | Flash SegaSaturn Vol. 23 (`0.BIN`)
+GFS_SBL | 2.13 | 1997-01-27 | 2 | Tech Saturn Aug.1997 (`OTAMA.BIN`)
+GFS_SBL | 2.14 | 1997-04-11 | 18 | Cross Tantei Monogatari Demo 1 (`0`)
+GFS_SBL | 2.15 |  | 1 | Sega Touring Car Championship (`0.BIN`)
+GFS_SGL | 2.10 | 1996-02-01 | 12 | Farland Story - Habou no Mai (`1ST_FS2.BIN`)
+GFS_SGL | 2.11 | 1996-03-21 | 92 | Core Demo Disc (`0.BIN`)
+GFS_SGL | 2.12 | 1996-12-04 | 37 | DJ Wars (`0.BIN`)
+GFS_SGL | 2.14 | 1997-04-11 | 24 | Eve - The Lost One (`00EVE2.BIN`)
+MPG | 1.25 | 1996-02-21 | 9 | Mogitate SegaSaturn Vol. 2 (`SFDPLAY.BIN`)
+MPG | 1.26 | 1996-02-21 | 4 | Mogitate SegaSaturn Vol. 3 (`SFDPLAY.BIN`)
+PCM | 1.15 | 1995-02-21 | 16 | Flash SegaSaturn Ochikazuki-hen (`0KRNL.BIN`)
+PCM | 1.16 | 1995-03-31 | 45 | DJ Wars (`0.BIN`)
+PCM | 1.20 | 1996-08-01 | 1 | Jantei Battle Cos-Player (`1JANTEI.BIN`)
+PCM | 1.21 | 1996-10-14 | 5 | SatMag Sono CD (`RIVEN.BIN`)
+PCM | 1.22 | 1996-07-24 | 2 | Saturn Super Vol. 11 (`SMPSFD1.BIN`)
+PCM | 1.23 | 1997-06-10 | 6 | Flash SegaSaturn Vol. 29 (`0`)
+PCM | 1.24 | 1997-06-23 | 2 | Shiroki Majo (`0.BIN`)
+PCM | 1.26 | 1997-08-26 | 5 | Cross Tantei Monogatari Demo 1 (`0`)
+PCM | 1.28 | 1997-11-21 | 1 | Mogitate SegaSaturn Vol. 3 (`LANG5.BIN`)
+STM_SBL | 2.10 | 1996-02-01 | 26 | Crimewave (`0000`)
+STM_SBL | 2.11 | 1996-03-21 | 11 | Hudson Soft New Soft Line Up (`0`)
+STM_SBL | 2.12 | 1997-02-27 | 15 | Mogitate SegaSaturn Vol. 2 (`0`)
+STM_SGL | 2.11 | 1996-03-21 | 62 | Develo Magazine Appendix CD-ROM (`0RM.BIN`)
+STM_SGL | 2.12 | 1997-02-27 | 3 | Flash SegaSaturn Vol. 26 (`0.BIN`)
+SYS | 2.10 | 1996-01-31 | 22 | Flash SegaSaturn Vol. 11 (`0.BIN`)
+SYS | 2.11 | 1996-02-26 | 49 | Flash SegaSaturn Vol. 14 (`0.BIN`)
+SYS | 2.20 | 1996-08-06 | 8 | Flash SegaSaturn Vol. 13 (`1ST_READ.PRG`)
+SYS | 2.21 | 1996-10-01 | 7 | Flash SegaSaturn Vol. 18 (`1ST.BIN`)
+SYS | 2.50 | 1997-06-10 | 13 | Cross Tantei Monogatari Demo 1 (`0`)
+SYS | 2.52 | 1997-09-24 | 12 | Flash SegaSaturn Vol. 24 (`0`)
+SYS | 2.53 | 1997-12-15 | 9 | Mogitate SegaSaturn Vol. 3 (`0`)
+SYS | 3.00 | 1997-05-06 | 1 | Mogitate SegaSaturn Vol. 2 (`SFDPLAY.BIN`)
+
+To reproduce against a local extract folder:
+
+```bash
+python3 scripts/saturn-demo-sdk-versions.py /path/to/SaturnDemoExes
+```
+
+---
 # References
 [^1]: [Category:Flash Sega Saturn - Sega Retro](https://segaretro.org/Category:Flash_Sega_Saturn)
 [^2]: [Mogitate Sega Saturn Vol. 2 - Sega Retro](https://segaretro.org/Mogitate_Sega_Saturn_Vol._2)
@@ -547,3 +664,5 @@ When contributing a missing disc, send the Demo name, Region, Product, Version, 
 [^5]: [Saturn Super - Sega Retro](https://segaretro.org/Saturn_Super)
 [^6]: [Develo Magazine Appendix CD-ROM for Sega Saturn - Sega Retro](https://segaretro.org/Develo_Magazine_Appendix_CD-ROM_for_Sega_Saturn)
 [^7]: [Saturn Super Vol. 1 - Redump](http://redump.org/disc/41098/)
+[^8]: [Sega Flash - Sega Retro](https://segaretro.org/Sega_Flash)
+[^9]: [Panzer Dragoon Saga Demo Disc - Sega Retro](https://segaretro.org/Panzer_Dragoon_Saga_Demo_Disc)

@@ -22,6 +22,7 @@ recommend:
 - sdk
 - megadrive
 editlink: /consoles/Mega Drive/MegaDriveSDK.md
+updatedAt: '2026-04-11'
 ---
 
 # Sega Mega Drive (Genesis) SDK

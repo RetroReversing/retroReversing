@@ -21,7 +21,7 @@ _twitterimage: https://www.retroreversing.com/public/images/magazines/GameMaker 
 tags:
  - industry
  - magazines
-_updatedAt: '2025-02-15'
+updatedAt: '2025-02-15'
 ---
 
 **GameMaker** was a unique magazine first published by **Future PLC** in the UK in October 2003. It was a game development and modding magazine targeted at the general public!  

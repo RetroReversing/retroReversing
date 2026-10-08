@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-01-01'
+updatedAt: '2026-08-15'
 ---
 
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
@@ -133,7 +133,7 @@ Name | Project Type | Status
 ![](https://upload.wikimedia.org/wikipedia/en/d/d9/Dr._Mario_64.jpg){:width="100"} [Dr. Mario 64](https://github.com/angheloalf/drmario64)              | Decompilation | Active, 98% Done
 ![](https://static.wikia.nocookie.net/nintendo/images/9/92/N64_DukeNukem64_NA1.png/revision/latest?cb=20110703215052&path-prefix=en){:width="100"} [Duke Nukem 64](https://github.com/nblood/duke64-re)              | Decompilation | Active
 ![](https://upload.wikimedia.org/wikipedia/en/7/7e/Duke_Nukem_Zero_Hour_box.jpg){:width="100"} [Duke Nukem: Zero Hour](https://github.com/gillou68310/dukenukemzerohour)              | Decompilation | Completed
-![](https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg){:width="100"} [F-Zero X](https://github.com/inspectredc/fzerox)              | Decompilation | Active, 95% Done
+![](https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg){:width="100"} [F-Zero X](https://github.com/inspectredc/fzerox)              | Decompilation | Active, 95% Done; [G-Diffuser](https://github.com/Zorkats/G-Diffuser) provides an unofficial native PC port based on the decompilation
 ![](https://static.wikia.nocookie.net/fzero/images/6/65/JapaneseBoxArt.jpg){:width="100"} [F-Zero X Expansion Kit](https://github.com/inspectredc/fzerox-expansion-kit)              | Decompilation | Active, 97% Done
 ![](https://upload.wikimedia.org/wikipedia/en/6/6f/Gauntlet_Legends_Coverart.png){:width="100"} [Gauntlet Legends](https://github.com/Drahsid/gauntlet-legends)              | Decompilation | Inactive
 ![](https://static.wikia.nocookie.net/nintendo/images/c/c4/Gex_Enter_the_Gecko_%28Nintendo_64%29_%28NA%29.jpg/revision/latest?cb=20110218174255&path-prefix=en){:width="100"} [Gex 64: Enter the Gecko](https://github.com/matbourgon/gex64decomp)              | Decompilation | Active
@@ -321,7 +321,7 @@ Name | Project Type | Status
 ![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/freshollie/sa2)              | Decompilation | Active, 67% Done
 ![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Active
 ![](https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Active
-![](https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG){:width="100"} [The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)              | Decompilation | Completed
+![](https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG){:width="100"} [The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)              | Decompilation | Completed; an [unofficial 3DS port has been reported](https://gonintendo.com/contents/63754-the-legend-of-zelda-the-minish-cap-gets-an-unofficial-3ds-port)
 ![](https://static.wikia.nocookie.net/yugioh/images/6/6f/Yu-Gi-Oh%21_Reshef_of_Destruction.jpg){:width="100"} [Yu-Gi-Oh! Reshef of Destruction](https://github.com/shinny456/ygodm8)              | Decompilation | Active
 
 ---
@@ -460,7 +460,7 @@ Name | Project Type | Status
 ![](https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg){:width="100"} [PSX DOOM](https://github.com/Erick194/PSXDOOM-RE)              | Decompilation | Completed
 ![](https://upload.wikimedia.org/wikipedia/en/4/43/Shin_Megami_Tensei_The_First.jpg){:width="100"} [Shin Megami Tensei](https://codeberg.org/chickenzes/smt-decomp)              | Decompilation | Active
 ![](https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active, 26% Done
-![](https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg){:width="100"} [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)              | Decompilation | Active, 58% Done
+![](https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg){:width="100"} [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)              | Decompilation | Active, 58% Done; [OpenPete](https://openpete.com/) provides a native PC port using a hybrid static-recompilation and matching-decompilation approach
 ![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable
 ![](https://psxdatacenter.com/images/covers/U/T/SLUS-00437.jpg){:width="100"} [Tomb Raider II](https://github.com/Arsunt/TR2Main)              | Reimplementation | Active - v0.8.2 release
 ![](https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive

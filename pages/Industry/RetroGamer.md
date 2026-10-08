@@ -21,7 +21,7 @@ _twitterimage: https://www.retroreversing.com/public/images/magazines/Retro Game
 tags:
  - industry
  - magazines
-_updatedAt: '2025-02-15'
+updatedAt: '2025-02-15'
 ---
 
 Retro Gamer is a British magazine devoted entirely to classic video games, first launched in January 2004 [^1]. Over the past 20+ years it has grown from a niche quarterly into a monthly archive of gaming history, publishing high-quality retrospectives, developer interviews, and reader-favorite features on titles from the 1970s through early 2000s . 
