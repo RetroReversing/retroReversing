@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalFiles": 296,
-    "filesWithTags": 295,
-    "uniqueTags": 109,
-    "generatedAt": "2026-07-18T18:36:42.014Z"
+    "totalFiles": 298,
+    "filesWithTags": 298,
+    "uniqueTags": 108,
+    "generatedAt": "2026-08-09T14:09:24.775Z"
   },
   "tags": {
     "2d": 1,
@@ -14,7 +14,7 @@
     "amiga": 1,
     "android": 3,
     "arcade": 2,
-    "assembly": 4,
+    "assembly": 5,
     "atari": 3,
     "bookazines": 1,
     "books": 2,
@@ -29,7 +29,7 @@
     "crossproducts": 5,
     "datel": 2,
     "debug": 6,
-    "delphi": 1,
+    "delphi": 2,
     "devkit": 28,
     "disassemblers": 1,
     "documentary": 2,
@@ -41,12 +41,12 @@
     "gameboy": 20,
     "gamecom": 1,
     "gamecube": 10,
-    "gameengines": 12,
+    "gameengines": 13,
     "gamegear": 4,
-    "games": 25,
+    "games": 26,
     "gba": 17,
     "gdb": 2,
-    "ghidra": 4,
+    "ghidra": 5,
     "gigaleak": 2,
     "graphics": 1,
     "hacking": 1,
@@ -55,7 +55,7 @@
     "homebrew": 2,
     "incomplete": 2,
     "industry": 19,
-    "introduction": 60,
+    "introduction": 61,
     "ios": 1,
     "ique": 2,
     "jaguar": 1,
@@ -86,11 +86,11 @@
     "psp": 10,
     "psyq": 3,
     "radare2": 1,
-    "reverseengineering": 6,
+    "reverseengineering": 8,
     "reversingemulator": 5,
-    "saturn": 17,
+    "saturn": 18,
     "sdk": 51,
-    "sega": 27,
+    "sega": 28,
     "segasaturn": 1,
     "sg1000": 1,
     "snes": 25,
@@ -101,8 +101,8 @@
     "superfx": 1,
     "switch": 3,
     "symbols": 13,
-    "tools": 19,
-    "tutorial": 10,
+    "tools": 20,
+    "tutorial": 11,
     "tutorials": 1,
     "unity3d": 2,
     "vectrex": 1,
@@ -1008,6 +1008,11 @@
       "snsystems",
       "psyq"
     ],
+    "pages/consoles/saturn/SaturnDemoDisks.md": [
+      "saturn",
+      "sega",
+      "games"
+    ],
     "pages/consoles/saturn/SaturnLibraryFormats.md": [
       "sdk",
       "saturn",
@@ -1458,14 +1463,20 @@
       "tools"
     ],
     "pages/tools/Delphi.md": [
-      "delphi",
       "tools",
+      "delphi",
       "software",
       "reverseengineering"
     ],
     "pages/tools/GameMaker.md": [
       "gameengines",
       "middleware"
+    ],
+    "pages/tools/GameMaker11Recreation.md": [
+      "gameengines",
+      "delphi",
+      "reverseengineering",
+      "tools"
     ],
     "pages/tools/GameProgrammingStarterKit.md": [
       "tools",
@@ -1521,6 +1532,13 @@
       "introduction",
       "gdb",
       "tutorial"
+    ],
+    "pages/tutorials/HowDecompilersWork.md": [
+      "tutorial",
+      "introduction",
+      "reverseengineering",
+      "assembly",
+      "ghidra"
     ],
     "pages/tutorials/PDBFilesForReverseEngineering.md": [
       "introduction",
