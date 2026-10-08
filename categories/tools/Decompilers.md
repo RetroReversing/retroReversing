@@ -13,7 +13,6 @@ recommend:
  - tools
  - software
 tags:
- - decompilers
  - tools
  - software
 updatedAt: '2026-08-02'
