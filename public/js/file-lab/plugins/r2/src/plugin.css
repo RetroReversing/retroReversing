@@ -1,0 +1,15 @@
+.rr-file-lab-tab-panel[data-plugin-id="r2"] {
+  padding: 0;
+  margin: 0;
+}
+
+.rr-file-lab-tab-panel[data-plugin-id="r2"].is-active {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.rr-file-lab-tab-panel[data-plugin-id="r2"] r2-viewer {
+  flex: 1;
+  min-height: 0;
+}

@@ -1,0 +1,90 @@
+{% comment %}
+  File Lab application chrome (dialog body). Used by the site modal and /file-lab/.
+{% endcomment %}
+<div id="rr-file-lab-dialog" class="rr-file-lab-dialog" role="dialog" aria-modal="true" aria-labelledby="rr-file-lab-title">
+  <div class="rr-file-lab-header">
+    <div class="rr-file-lab-header-main">
+      <div id="rr-file-lab-header-tree" class="rr-file-lab-header-tree">
+        <div class="rr-file-lab-title-wrap">
+          <i class="fa fa-flask" aria-hidden="true"></i>
+          <div>
+            <h2 id="rr-file-lab-title" class="rr-file-lab-title">File Lab</h2>
+            <p class="rr-file-lab-subtitle">Inspect binaries locally in your browser. Nothing is uploaded.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="rr-file-lab-header-detail" class="rr-file-lab-header-detail" hidden>
+        <button type="button" id="rr-file-lab-back" class="rr-file-lab-back" aria-label="Back to file tree">
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          Back
+        </button>
+        <div class="rr-file-lab-detail-meta">
+          <p id="rr-file-lab-detail-name" class="rr-file-lab-detail-name"></p>
+          <p id="rr-file-lab-detail-path" class="rr-file-lab-detail-path"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="rr-file-lab-tabs" class="rr-file-lab-tabs" role="tablist" aria-label="File views" hidden></div>
+
+    <div class="rr-file-lab-header-actions">
+      <button type="button" id="rr-file-lab-settings-toggle" class="rr-file-lab-settings-toggle" aria-label="File Lab settings" aria-expanded="false" aria-controls="rr-file-lab-settings">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+      </button>
+      <button type="button" id="rr-file-lab-minimize" class="rr-file-lab-minimize" aria-label="Minimize File Lab">
+        <i class="fa fa-window-minimize" aria-hidden="true"></i>
+      </button>
+      <button type="button" id="rr-file-lab-close" class="rr-file-lab-close" aria-label="Close File Lab">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="rr-file-lab-body">
+    <aside id="rr-file-lab-settings" class="rr-file-lab-settings" hidden aria-label="File Lab settings">
+      <div class="rr-file-lab-settings-inner">
+        <h3 class="rr-file-lab-settings-title">Settings</h3>
+        <section class="rr-file-lab-settings-section">
+          <h4 class="rr-file-lab-settings-heading">Plugins</h4>
+          <div class="rr-file-lab-install">
+            <label class="rr-file-lab-install-label" for="rr-file-lab-plugin-url">Install plugin</label>
+            <div class="rr-file-lab-install-row">
+              <input id="rr-file-lab-plugin-url" class="rr-file-lab-install-input" type="url" placeholder="https://unpkg.com/package@1.0.0/file-lab-plugin.json" autocomplete="off">
+              <button type="button" id="rr-file-lab-plugin-install" class="rr-file-lab-install-button">Install</button>
+            </div>
+            <p class="rr-file-lab-install-help">Paste a hosted <code>file-lab-plugin.json</code> manifest URL. See the <a href="/public/js/file-lab/PLUGIN-API.md" target="_blank" rel="noopener noreferrer">Plugin API guide</a>.</p>
+            <ul id="rr-file-lab-installed-plugins" class="rr-file-lab-installed-plugins"></ul>
+            <p id="rr-file-lab-install-error" class="rr-file-lab-install-error" hidden></p>
+          </div>
+        </section>
+      </div>
+    </aside>
+    <div id="rr-file-lab-stage" class="rr-file-lab-stage">
+      <section class="rr-file-lab-pane" aria-label="File tree">
+        <div id="rr-file-lab-storage-notice" class="rr-file-lab-notice rr-file-lab-storage-notice" hidden></div>
+        <div id="rr-file-lab-dropzone" class="rr-file-lab-dropzone">
+          <div class="rr-file-lab-dropzone-icon"><i class="fa fa-cloud-upload" aria-hidden="true"></i></div>
+          <p class="rr-file-lab-dropzone-title">Drop files or folders here</p>
+          <p class="rr-file-lab-dropzone-text">ROMs, executables, archives, symbol dumps, and other binaries stay on your machine.</p>
+          <label class="rr-file-lab-browse">
+            <i class="fa fa-folder-open" aria-hidden="true"></i>
+            Browse files
+            <input id="rr-file-lab-file-input" type="file" multiple>
+          </label>
+        </div>
+        <div id="rr-file-lab-tree-wrap" class="rr-file-lab-tree-wrap">
+          <div class="rr-file-lab-tree-empty">No files loaded yet. Drop binaries, ROMs, archives, or folders above.</div>
+        </div>
+      </section>
+
+      <section class="rr-file-lab-pane rr-file-lab-pane-detail" aria-label="File inspector">
+        <div id="rr-file-lab-plugin-panels" class="rr-file-lab-content"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="rr-file-lab-footer-note">
+    Tabs are File Lab plugins. Developers: see the <a href="/public/js/file-lab/PLUGIN-API.md" target="_blank" rel="noopener noreferrer">Plugin API guide</a>.
+  </div>
+</div>

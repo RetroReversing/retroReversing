@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "hex",
+      "title": "Hex",
+      "module": "/public/js/file-lab/plugins/hex/index.js",
+      "css": "plugin.css",
+      "preload": true,
+      "order": 10,
+      "match": {
+        "always": true
+      }
+    },
+    {
+      "id": "strings",
+      "title": "Strings",
+      "module": "/public/js/file-lab/plugins/strings/index.js",
+      "css": "plugin.css",
+      "preload": true,
+      "order": 20,
+      "match": {
+        "always": true
+      }
+    },
+    {
+      "id": "r2",
+      "title": "R2",
+      "module": "/public/js/file-lab/plugins/r2/dist/index.js",
+      "css": "plugin.css",
+      "order": 35,
+      "match": {
+        "minSize": 16
+      }
+    },
+    {
+      "id": "pyre",
+      "title": "Pyre",
+      "module": "/public/js/file-lab/plugins/pyre/dist/index.js",
+      "css": "plugin.css",
+      "order": 36,
+      "match": {
+        "minSize": 16
+      }
+    },
+    {
+      "id": "gameboy-emulator",
+      "title": "Emulator",
+      "module": "/public/js/file-lab/plugins/gameboy-emulator/index.js",
+      "order": 30,
+      "match": {
+        "extensions": [".gb", ".gbc"],
+        "minSize": 32768,
+        "magic": [
+          {
+            "offset": 260,
+            "bytes": ["CE", "ED", "66", "66"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kaitai-viewer",
+      "title": "Kaitai",
+      "module": "/public/js/file-lab/plugins/kaitai-viewer/dist/index.js",
+      "css": "plugin.css",
+      "preload": true,
+      "order": 25,
+      "match": {
+        "always": true
+      }
+    },
+    {
+      "id": "remote-example",
+      "title": "Remote Plugin",
+      "module": "https://example.com/file-lab/my-plugin/index.js",
+      "base": "https://example.com/file-lab/my-plugin/",
+      "wasm": "core.wasm",
+      "css": "plugin.css",
+      "enabled": false,
+      "order": 1000,
+      "match": {
+        "extensions": [".nes"]
+      }
+    }
+  ]
+}
