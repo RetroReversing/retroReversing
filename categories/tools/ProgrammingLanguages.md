@@ -34,6 +34,8 @@ However Assembly language programs are written for a specific CPU and not portab
 
 Most commercial games written for Game Boy/Game Boy Color/NES/SNES/SMS/MegaDrive are written in an Assembly language such as Z80/6502/68000 as C compilers were generally not good enough at the time to create optimized code for those platforms.
 
+{% include link-to-other-site.html url="https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/" description="gingerBill explains how Odin integrates typed inline assembly with the language's type system, register bindings, clobbers, and multiple-return-value semantics." title="Designing Odin's Inline Assembly" %}
+
 ## x86 Assembly Language
 
 ### x86-64 Playground

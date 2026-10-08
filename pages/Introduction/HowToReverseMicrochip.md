@@ -24,6 +24,7 @@ videocarousel:
   - title: Part 2 Imaging
     image: https://i.ytimg.com/vi/r8Vq5NV4Ens/sddefault.jpg
     youtube: 'r8Vq5NV4Ens'
+updatedAt: '2026-04-11'
 ---
 
 In this tutorial from Robert Baruch on his youtube channel [], the target chip used in the video series is the Texas Instruments 74LS01 Logic gate from 1986.

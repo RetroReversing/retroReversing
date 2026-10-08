@@ -24,6 +24,7 @@ videocarousel:
   - title: Part 2
     image: https://img.youtube.com/vi/_rsycfDliZU/maxresdefault.jpg
     youtube: '_rsycfDliZU'
+updatedAt: '2026-03-28'
 ---
 
 The **8-bit Guy** on Youtube has an excellent series of videos covering how early computer graphics were implemented with the limitations of the hardware in mind.

@@ -14,13 +14,11 @@ editlink: ../pages/Industry/Copyright.md
 recommend:
  - industry
  - introduction
-_image: /public/images/magazines/Develop UK Magazine.jpg
-_twitterimage: https://www.retroreversing.com/public/images/magazines/Develop UK Magazine.jpg
 tags:
  - industry
  - legal
  - copyright
-_updatedAt: '2025-02-15'
+updatedAt: '2025-02-15'
 ---
 
 The practice of game cloning in arcades and consoles goes back to the industry's origins – to take a quote from a 2001 issue of the Japanese **CONTINUE** magazine [^1]:
