@@ -1,21 +1,26 @@
 name: Visual Regression
 
+# Temporarily disabled on pull requests because the Backstop job is not currently working.
+# Restore the pull_request trigger below when visual regression is reliable again.
 on:
-  pull_request:
-    branches: [ main, master ]
-    paths:
-      - 'assets/**'
-      - '_includes/**'
-      - '_layouts/**'
-      - 'categories/**/*.md'
-      - 'pages/**/*.md'
-      - 'index.md'
-      - '_config.yml'
-      - '_config.dev.yml'
-      - 'backstop.config.js'
-      - 'package.json'
-      - 'package-lock.json'
-      - '.github/workflows/visual-regression.yml'
+  workflow_dispatch:
+
+# on:
+#   pull_request:
+#     branches: [ main, master ]
+#     paths:
+#       - 'assets/**'
+#       - '_includes/**'
+#       - '_layouts/**'
+#       - 'categories/**/*.md'
+#       - 'pages/**/*.md'
+#       - 'index.md'
+#       - '_config.yml'
+#       - '_config.dev.yml'
+#       - 'backstop.config.js'
+#       - 'package.json'
+#       - 'package-lock.json'
+#       - '.github/workflows/visual-regression.yml'
 
 permissions:
   contents: read

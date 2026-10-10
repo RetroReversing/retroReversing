@@ -1,0 +1,23 @@
+{
+  "name": "file-lab-kaitai-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "File Lab plugin: Kaitai Struct binary format visualizer (Lit + kaitai-struct)",
+  "type": "module",
+  "scripts": {
+    "compile:formats": "node scripts/compile-formats.mjs",
+    "extract:docs": "node scripts/extract-docs.mjs",
+    "export:parsers": "node scripts/export-parsers.mjs",
+    "build": "npm run compile:formats && npm run extract:docs && npm run export:parsers && vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "kaitai-struct": "^0.11.0",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "kaitai-struct-compiler": "^0.11.0",
+    "vite": "^6.0.7",
+    "yaml": "^2.7.0"
+  }
+}

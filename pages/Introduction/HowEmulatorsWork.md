@@ -20,17 +20,17 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /Introduction/HowEmulatorsWork.md
-updatedAt: '2022-10-09'
+updatedAt: '2026-10-08'
 ---
 
 Have you ever wondered how emulators work? How would you implement an emulator? Where should you start if you are interested in emulator development? 
 This post attempts to answer all those questions.
 
 # Introduction to Emulators
-Emulators are computer programs that run on one system, such as a PC or game console, but pretend to be another system, such as a retro console like the NES or Game Boy.
+Emulators are computer programs that run on one system, such as a PC or game console, but pretend to be another system, such as a retro console like the [NES](/nes) or [Game Boy](/gameboy).
 
 ## What exactly does an emulator do?
-It reproduces the behavior of a specific hardware system (e.g NES, SEGA Mega Drive) in software so that original programs can run unchanged. 
+It reproduces the behavior of a specific hardware system (e.g NES, [SEGA Mega Drive](/megadrive)) in software so that original programs can run unchanged. 
 
 It models CPU instructions, memory interactions, and device behavior well enough for software to behave as if real hardware were present.
 
@@ -127,7 +127,7 @@ So in this post, we are just going to call the thing we want to pretend to be: t
 
 ### What is a System made of?
 Normally, when we are talking about a system such as a game console or PC, they have a few common components that we will need to simulate on our host system, such as:
-* **A CPU Chip** - e.g Z80, 6502, SH-2, x86, ARM, etc.
+* **A CPU Chip** - e.g [Z80](/z80), [6502](/6502), SH-2, x86, ARM, etc.
 * **ROM** - Read-Only Memory, such as a game cartridge (or ISO for CD-based systems, which are also read-only)
 * **RAM** - Memory modules to store the current state of the system
 * **Input Interface** - Such as controllers for game consoles or keyboard/mouse for PC-like systems
@@ -380,7 +380,7 @@ A very cool feature of his emulator is it has an embedded 6502 assembler inside 
 <iframe height="300" class="wow slideInLeft postImage" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  <div markdown="1" class="rr-post-markdown">
-**Imran Nazar** goes over how and why he created a Commodore 64 emulator in Javascript. It is a very good introduction to the concepts of emulators such as the CPU loop, MMU and PPU but doesn't go into the specifics for how his emulator works in terms of code.
+**Imran Nazar** goes over how and why he created a [Commodore 64](/C64) emulator in Javascript. It is a very good introduction to the concepts of emulators such as the CPU loop, MMU and PPU but doesn't go into the specifics for how his emulator works in terms of code.
  </div>
 </section> 
 
@@ -395,7 +395,7 @@ A very cool feature of his emulator is it has an embedded 6502 assembler inside 
 </section> 
 
 ## ZX Spectrum emulator from scratch using C# and Blazor
-[Øredev Conference](https://www.youtube.com/watch?v=AI_gtlR_k5Y) features a presentation by Jimmy Engström detailing his personal history with the ZX Spectrum and his journey to build an emulator for it. He dives into the technical challenges of emulating the Z80 CPU instructions, memory management, and screen rendering, eventually demonstrating how he ported the project to the web using C# and Blazor WebAssembly with AOT compilation for performance.
+[Øredev Conference](https://www.youtube.com/watch?v=AI_gtlR_k5Y) features a presentation by Jimmy Engström detailing his personal history with the [ZX Spectrum](/zxspectrum) and his journey to build an emulator for it. He dives into the technical challenges of emulating the Z80 CPU instructions, memory management, and screen rendering, eventually demonstrating how he ported the project to the web using C# and Blazor WebAssembly with AOT compilation for performance.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AI_gtlR_k5Y" frameborder="0" allowfullscreen></iframe>
 

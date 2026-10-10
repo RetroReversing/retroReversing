@@ -1,0 +1,56 @@
+name: Generate Thumbnails
+
+on:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'categories/**'
+      - 'pages/**'
+      - 'scripts/generate-placeholder-social-images.js'
+      - 'scripts/markdown-utils.js'
+      - '_config.yml'
+      - 'public/images/RetroReversingLogo.png'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/generate-thumbnails.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-thumbnails-${{ github.event.pull_request.head.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate-thumbnails:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Generate placeholder thumbnails
+        run: node scripts/generate-placeholder-social-images.js
+
+      - name: Commit generated thumbnails
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Generate placeholder social thumbnails
+          file_pattern: public/generated/placeholders/*.jpg
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

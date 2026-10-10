@@ -40,7 +40,7 @@ Studios would either contract the job out to third-party animation studios, whic
 ## What 3D Software Was Used to Create Cut Scenes in Retro Games?
 The most popular 3D software for developing retro game cutscenes included:
 * 3D Studio Max
-* Maya
+* [Maya](/maya)
 * SoftImage
 
 ## What Compositing Software Was Used to Create Retro Game Cut Scenes?
@@ -64,10 +64,14 @@ The software in this section are used by hundreds if not thousands of games and 
 We have a separate post on 3D Studio Max which you can find below:
 {% include_cached link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
 
+## Maya
+Maya was first released in 1998 as the successor to Alias PowerAnimator, and it is still one of the main 3D modeling programs in game development.
+{% include_cached link-to-other-post.html post="/maya" description="For the history of Maya in game development, from PowerAnimator onward, see this page." %}
+
 ## Lightwave 
 
 ### Lightwave used by Team17 for WORMS on the Amiga
-[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development Amiga 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, **Chris Blythe**.
+[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development [Amiga](/Amiga) 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, **Chris Blythe**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rcyHqJ6ZHXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

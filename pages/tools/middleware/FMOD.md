@@ -38,7 +38,7 @@ FMOD is used in so many games that creating comprehensive a list would be a time
 * Starcraft II
 
 We have also created a list of the Xbox games we know are using FMOD for sound:
-[Xbox Games using FMOD · RetroReversing](https://www.retroreversing.com/xbox-game-engines#fmod-sound-and-music-middleware)
+[Xbox games using FMOD](/xbox-game-engines#fmod-sound-and-music-middleware)
 
 ---
 # Reverse Engineering games with FMOD

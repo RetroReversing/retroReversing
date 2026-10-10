@@ -30,7 +30,7 @@ videocarousel:
   - title: Part 2 MVG
     image: https://i.ytimg.com/vi/gYQMdox5gzI/sddefault.jpg
     youtube: 'gYQMdox5gzI'
-updatedAt: '2020-08-24'
+updatedAt: '2026-10-08'
 ---
 
 Have you ever wondered what exactly is inside those retro game Cartridges (ROMs)? In this post we will find out the purpose of ROM cartridges and how they worked.
@@ -41,7 +41,7 @@ Cartridges are not the only format available to distribute games for consoles, w
 ## Additional Hardware inside Cartridges
 Cartridges have the benefit of being able to include custom chips to make the hardware more capable. One example is games that came with additional RAM right inside the cartridge [^1].
 
-One of the most famous was the SuperFX chip included in games like Starfox or Stunt Race FX which allowed the Super Nintendo to do 3D polygon rendering [^1].
+One of the most famous was the SuperFX chip included in games like Starfox or Stunt Race FX which allowed the [Super Nintendo](/snes) to do 3D polygon rendering [^1].
 
 Super Mario RPG also contains a chip called the SA-1 which contains a CPU core similar to the core inside the SNES.
 
@@ -73,7 +73,7 @@ The two ROMs in the cartridge are:
 ---
 # Game Boy Cartridges
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gYQMdox5gzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-The Nintendo Game Boy was one of the first handheld systems that featured inter-changeable cartridges [^4]. 
+The [Nintendo Game Boy](/gameboy) was one of the first handheld systems that featured inter-changeable cartridges [^4]. 
 
 Only 32KB of the cartridge ROM is available to the CPU at any one time, early games such as Tetris were only 32KB so this wasn't a problem. 
 

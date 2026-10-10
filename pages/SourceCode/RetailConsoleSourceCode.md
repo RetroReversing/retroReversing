@@ -21,7 +21,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/RetailConsoleSourceCode.md
-updatedAt: '2022-04-09'
+updatedAt: '2026-10-08'
 redirect_from:
   - /sourcecode
 ---
@@ -37,6 +37,8 @@ This list does not contain fan decompilations of retail games, for those we have
 Nintendo systems have by far the largest selection of official source code to choose from, some of it has been leaked and others have been released officially by the developers.
 
 ## GameBoy (DMG & GBC)
+Retail Game Boy and Game Boy Color source that has turned up is listed under this heading.
+{% include_cached link-to-other-post.html post="/gameboy" description="The Game Boy page covers DMG and GBC hardware, SDKs, and reversing posts." %}
 
 ### Days of Thunder 
 {% include link-to-other-site.html url="https://github.com/DickBlackshack/Days-of-Thunder-NES-Unpublished" description="Days of Thunder was an unpublished NES game by developer Chris Oberth" image="https://images-na.ssl-images-amazon.com/images/I/61rhbiNhkoL._AC_.jpg" title="Days of Thunder"  %}
@@ -57,12 +59,16 @@ The source code to Pokemon Silver and Gold were released as part of the Nintendo
 ## Game Boy Advance
 The GBA was the first Nintendo portable to have most of its games written in the C language as compilers had finally become good enough to develop full retail games with.
 
+{% include_cached link-to-other-post.html post="/gba" description="The Game Boy Advance page covers the console, SDK, and related reversing posts." %}
+
 ### Manic Miner
 {% include link-to-other-site.html url="https://illusion.64history.net/2022/manic-miner-gba-source" description="Manic Miner for the GBA full Source code" image="https://upload.wikimedia.org/wikipedia/en/3/31/Manic_miner_bugbyte.jpg" title="Manic Miner (GBA)"  %}
 
 ---
 ## Nintendo Entertainment System
 Games for Nintendo's first console was almost exclusively written in 6502 assembly language as anything higher level would simply be too slow due to early compilers producing less efficient code than human programmers.
+
+{% include_cached link-to-other-post.html post="/nes" description="The NES page covers Famicom and NES hardware, development kits, and reversing posts." %}
 
 ### Captain Comic
 {% include link-to-other-site.html url="https://archive.org/details/CaptainComicSourceCode" description="Source code for the unlicensed NES game Captain Comic by Color Dreams" image="https://upload.wikimedia.org/wikipedia/en/9/99/CaptainComicBoxart.jpg" title="Captain Comic"  %}
@@ -85,6 +91,8 @@ Games for Nintendo's first console was almost exclusively written in 6502 assemb
 
 ---
 ## Super Nintendo Entertainment System
+Official Super Nintendo source that has been written up separately is linked from the console page.
+{% include_cached link-to-other-post.html post="/snes" description="The Super Nintendo page covers Super Famicom hardware, SDKs, and reversing posts." %}
 
 ### DOOM (DOOM FX)
 {% include link-to-other-site.html url="https://github.com/RandalLinden/DOOM-FX" description="Officially released source code to the FX version of DOOM for Super Famicom" image="https://static.wikia.nocookie.net/doom/images/f/ff/SNES_Doom_Box_Art.jpg/revision/latest/scale-to-width-down/514?cb=20080602063339" title="DOOM (DOOM FX)"  %}
@@ -95,6 +103,8 @@ Games for Nintendo's first console was almost exclusively written in 6502 assemb
 ---
 ## Nintendo 64
 Most of these games have been leaked due to part 2 of the infamous Gigaleak.
+
+{% include_cached link-to-other-post.html post="/n64" description="The Nintendo 64 page covers the console, SDK, and reversing introduction." %}
 
 ### Gigaleak 2 games
 {% include_cached link-to-other-post.html post="/gigaleak2" description="For more information check out this post." %}
@@ -119,6 +129,8 @@ Games with Source Code Leaked:
 
 ---
 ## Nintendo Wii
+Retail Wii source that has turned up is listed under this heading.
+{% include_cached link-to-other-post.html post="/wii" description="The Wii page covers Hollywood hardware, the development kit, and related posts." %}
 
 ### Resident Evil: Umbrella Chronicles
 {% include_cached link-to-other-post.html post="/capcomleaks" description="For more information on the Biohazard Umbrella chronicles source code check out this post." %}
@@ -128,6 +140,8 @@ Games with Source Code Leaked:
 Finding source code for SEGA systems is many times harder than finding code from their rival Nintendo.
 
 ## Sega Mega Drive
+Mega Drive and Genesis source that has been written up separately is linked from the console page.
+{% include_cached link-to-other-post.html post="/megadrive" description="The Mega Drive page covers Genesis hardware, the SDK, and related posts." %}
 
 ### Cliff Hanger
 [Source Code Archive : The Chris Shrigley Page](https://shrigley.com/source_code_archive/)
@@ -151,11 +165,15 @@ Finding source code for SEGA systems is many times harder than finding code from
 ## Sega Saturn
 Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fact we have included **Three Dirty Dwarves** but cannot yet confirm if it actually contains complete source code or not.
 
+{% include_cached link-to-other-post.html post="/saturn" description="The Saturn page covers the console, PSY-Q, and reversing posts." %}
+
 ### Three Dirty Dwarves
 {% include link-to-other-site.html url="https://hiddenpalace.org/Three_Dirty_Dwarves_(Apr_17,_1996_prototype)" description="Currently unconfirmed if this contains actual source code" image="https://upload.wikimedia.org/wikipedia/en/6/64/Sega_Saturn_Three_Dirty_Dwarves_cover_art.jpg" title="Three Dirty Dwarves"  %}
 
 ---
 ## Sega Dreamcast
+Retail Dreamcast source that has turned up is listed under this heading.
+{% include_cached link-to-other-post.html post="/dreamcast" description="The Dreamcast page covers Katana hardware, the SDK, and related posts." %}
 
 ### Chicken Run
 {% include_cached link-to-other-post.html post="/Chicken-Run-Source-Code" description="For more information on the Dreamcast Chicken Run source code check out this post." %}
@@ -167,6 +185,8 @@ Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fac
 # Sony Systems
 
 ## Sony Playstation 1
+Retail PlayStation 1 source that has turned up is listed under this heading.
+{% include_cached link-to-other-post.html post="/ps1" description="The PlayStation 1 page covers PSX hardware, PSY-Q, and related posts." %}
 
 ### 360: Three Sixty
 {% include link-to-other-site.html url="https://tcrf.net/360:_Three_Sixty" description="Source code that was left in the retail disc." image="https://upload.wikimedia.org/wikipedia/en/1/10/360_Three_Sixty_%28Playstation_video_game%29_boxart.jpg" title="Cryo Interactive's 360: Three Sixty"  %}
@@ -229,6 +249,8 @@ On the 27th March 2022 **March42** and **Forest of Illusion** released the offic
 ## Sony Playstation 2
 This section lists all the known leaked source code for retail Playstation 2 games. This does not include Homebrew or decompiled games as they have their own pages.
 
+{% include_cached link-to-other-post.html post="/ps2" description="The PlayStation 2 page covers the console, SDK, and development hardware." %}
+
 ### Tony Hawk's Underground
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/TonyHawksUnderground" description="Tony Hawk's Underground Source Code" image="https://images-na.ssl-images-amazon.com/images/I/51G573DV9KL._AC_.jpg" title="Tony Hawk's Underground"  %}
 
@@ -249,10 +271,14 @@ This section has all the consoles Microsoft made which are considered retro enou
 ## Original Xbox
 The original Xbox was a joy to program for, especially for PC developers who were familiar with the Direct X API. However very few xbox games have ever has their source code leaked.
 
+{% include_cached link-to-other-post.html post="/xbox" description="The original Xbox page covers the console, XDK, and related posts." %}
+
 ### Star Wars: Jedi Academy
 {% include link-to-other-site.html url="https://assembler-games.com/threads/star-wars-jedi-academy-jedi-knight-ii-jedi-outcast-source-code-released.45272/" description="Star Wars:Jedi Academy & Jedi Knight II: Jedi Outcast Source Code Released" image="https://images-na.ssl-images-amazon.com/images/I/512KMVAS6RL._AC_.jpg" title="Star Wars:Jedi Academy"  %}
 
 ## Windows (PC)
+PC source that has been written up separately is linked from the Windows page.
+{% include_cached link-to-other-post.html post="/pc" description="The Windows page covers PC game development and reversing notes." %}
 
 ### Jurassic Park: Trespasser
 {% include link-to-other-site.html url="https://github.com/OpenTrespasser/JurassicParkTrespasser" description="A git-based fork of the Jurassic Park: Trespasser source code." image="https://upload.wikimedia.org/wikipedia/en/3/3c/Jp-trespasser-cover.png" title="Jurassic Park: Trespasser"  %}
@@ -279,9 +305,9 @@ You can get the official source code for the first Postal <a href="https://bitbu
 [^6]: [Mortal Kombat Trilogy (May 13, 1996 prototype) - Hidden Palace](https://hiddenpalace.org/Mortal_Kombat_Trilogy_(May_13,_1996_prototype))
 [^7]: [Raid 2020](https://archive.org/details/gamesourcecode)
 [^8]: [RandalLinden/DOOM-FX: Doom/FX for Super Nintendo with SuperFX GSU2A](https://github.com/RandalLinden/DOOM-FX)
-[^9]: [Chicken Run Source Code · RetroReversing](https://www.retroreversing.com/Chicken-Run-Source-Code)
-[^10]: [Home Alone 2 NES Source Code · RetroReversing](https://www.retroreversing.com/home-alone-2-nes-source-code/)
-[^11]: [Mr Do! Source Code (Game Boy) · RetroReversing](https://www.retroreversing.com/mrdo)
+[^9]: [Chicken Run Source Code](/Chicken-Run-Source-Code)
+[^10]: [Home Alone 2 NES Source Code](/home-alone-2-nes-source-code)
+[^11]: [Mr Do! Source Code (Game Boy)](/mrdo)
 [^12]: [GitHub - RetailGameSourceCode/BOB: Source code for BOB (SNES)](https://github.com/RetailGameSourceCode/BOB)
 [^13]: [GitHub - RetailGameSourceCode/BattleKonchuuden: Battle Konchuuden PS1 Source Code](https://github.com/RetailGameSourceCode/BattleKonchuuden)
 [^14]: [GitHub - RetailGameSourceCode/PachiSlotMaster: Pachi Slot Master](https://github.com/RetailGameSourceCode/PachiSlotMaster)

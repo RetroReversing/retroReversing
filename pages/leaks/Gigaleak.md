@@ -25,7 +25,7 @@ recommend:
  - leak
  - sourcecode
 editlink: /leaks/Gigaleak.md
-updatedAt: '2026-03-30'
+updatedAt: '2026-10-08'
 twitterimage: https://www.retroreversing.com/public/N64/Gigaleak.jpg
 ---
 
@@ -200,7 +200,6 @@ Project | Files | Dominant types | Date range | Reading
 `DELDA` | `213` | `.BAK`, `.CGX`, `.SCR`, `.COL` | `1991-05-23` to `1991-10-24` | Small early Zelda-related branch or internal variant
 
 {% include_cached link-to-other-post.html post="/starfox2-2d-art-workspace" description="For the dedicated Star Fox 2 2D art workspace deep-dive, see this page." %}
-{% include_cached link-to-other-post.html post="/zelda-snes-2d-art-workspace" description="For the dedicated SNES Zelda (DELDA + zelda) art workspace deep-dive, see this page." %}
 {% include_cached link-to-other-post.html post="/zelda-links-awakening-art-workspace" description="For the dedicated Link's Awakening / GB-zelda art workspace deep-dive, see this page." %}
 
 ---
@@ -255,7 +254,7 @@ One important extra detail at the NEWS_04 level is that Sugiyama's root director
 #### MARIO
 `MARIO` is a short, menu-heavy branch centered on `GAMESELECT.*`, `MA-ROGO-OBJ.CGX`, and `2PR-S1.*`, currently read as probable Super Mario Collection / All-Stars front-end work.
 
-{% include_cached link-to-other-post.html post="/super-mario-all-stars-art-workspace" description="For the full MARIO deep-dive, see the dedicated Super Mario All-Stars art page." %}
+{% include_cached link-to-other-post.html post="/super-mario-collection-source-code" description="The Super Mario Collection / All-Stars source archive, including the front-end shell, is covered on its own page." %}
 
 #### FX2
 `FX2` preserves Wild Trax / Stunt Race FX selection-screen assets, including lower-case naming patterns (`cpt`, `p-select`) that differ from earlier Sugiyama branches.

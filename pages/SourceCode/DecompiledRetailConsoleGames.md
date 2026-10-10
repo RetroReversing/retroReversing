@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-08-15'
+updatedAt: '2026-10-08'
 ---
 
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
@@ -37,6 +37,9 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ## Nintendo Entertainment System (NES)
 The table below lists the relevant entries.
+
+{% include_cached link-to-other-post.html post="/nes" description="The NES page covers Famicom and NES hardware, development kits, and reversing posts." %}
+{% include_cached link-to-other-post.html post="/super-mario-bros" description="A dedicated page walks through reversing Super Mario Bros. on the NES." %}
 
 | Name | Project Type | Mapper | Status
 | ---- | ---- | --- | ---
@@ -84,6 +87,10 @@ The table below lists the relevant entries.
 ## Super Nintendo (SNES)
 The table below lists the relevant entries.
 
+{% include_cached link-to-other-post.html post="/snes" description="The Super Nintendo page covers Super Famicom hardware, SDKs, and reversing posts." %}
+{% include_cached link-to-other-post.html post="/yoshis-island-source-code" description="The original Yoshi's Island source from the Gigaleak is covered on its own page." %}
+{% include_cached link-to-other-post.html post="/zelda-a-link-to-the-past-source-code" description="The original A Link to the Past source from the Gigaleak is covered on its own page." %}
+
 | Name | Project Type |  
 | ---- | ---- |  
 |![](https://upload.wikimedia.org/wikipedia/en/2/21/Demonscrest_us.jpg){:width="100"} [Demon's Crest](https://github.com/fredyeye/various-game-disassembly)              | Disassembly |  
@@ -106,7 +113,11 @@ The table below lists the relevant entries.
 
 ---
 ## Nintendo 64
-Recently, mainly in thanks to the huge success of the Super Mario 64 project, there has been revived interest in Nintendo 64 Decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
+Recently, mainly in thanks to the huge success of the [Super Mario 64](/super-mario-64) project, there has been revived interest in [Nintendo 64](/n64) decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
+
+{% include_cached link-to-other-post.html post="/n64" description="The Nintendo 64 page covers the console, SDK, and reversing introduction." %}
+{% include_cached link-to-other-post.html post="/super-mario-64" description="Super Mario 64, including the decompilation effort, is covered on its own page." %}
+{% include_cached link-to-other-post.html post="/mario-kart-64" description="Mario Kart 64 is covered on its own page." %}
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -183,6 +194,8 @@ Name | Project Type | Status
 ## Nintendo GameCube
 The table below lists the relevant entries.
 
+{% include_cached link-to-other-post.html post="/gamecube" description="The GameCube page covers Dolphin hardware, the development kit, and related posts." %}
+
 Name | Project Type | Status
 ---- | ---- | ----
 ![](https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png){:width="100"} [Animal Crossing](https://github.com/acreteam/ac-decomp)              | Decompilation | Active, 99% Done
@@ -228,6 +241,8 @@ Name | Project Type | Status
 ## Nintendo Wii
 The table below lists the relevant entries.
 
+{% include_cached link-to-other-post.html post="/wii" description="The Wii page covers Hollywood hardware, the development kit, and related posts." %}
+
 Name | Project Type | Status
 ---- | ---- | ----
 ![](https://upload.wikimedia.org/wikipedia/en/a/ac/InazumaElevenStrikers.jpg){:width="100"} [Inazuma Eleven Strikers](https://github.com/SwareJonge/IEStrikers)              | Decompilation | Active
@@ -251,6 +266,9 @@ Name | Project Type | Status
 
 ---
 ## Nintendo Switch
+Switch file formats and eShop engines are documented on their own pages.
+{% include_cached link-to-other-post.html post="/SwitchFileFormats" description="Nintendo Switch file formats are documented here." %}
+{% include_cached link-to-other-post.html post="/SwitchGameEngines" description="Game engines used in Switch eShop titles are documented here." %}
 
 ### Super Mario 3D World + Bowser's Fury
 {% include link-to-other-site.html url="https://github.com/3DWCommunity/3dcomp" description="Active, 3% Done" image="https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg" title="A decompilation of Super Mario 3D World + Bowser's Fury"  %}
@@ -266,6 +284,9 @@ Name | Project Type | Status
 
 ## Game Boy
 The following table presents the latest updates on ongoing Game Boy reverse engineering projects.
+
+{% include_cached link-to-other-post.html post="/gameboy" description="The Game Boy page covers DMG and GBC hardware, SDKs, and reversing posts." %}
+{% include_cached link-to-other-post.html post="/pokemonredblue" description="A dedicated page covers reversing Pokemon Red and Blue." %}
 
 Name | Project Type
 | ---- | ---- | 
@@ -284,6 +305,8 @@ Name | Project Type
 ## Game Boy Color
 The table below lists the relevant entries.
 
+{% include_cached link-to-other-post.html post="/gameboy" description="Game Boy Color shares the Game Boy page, which also covers the GBC boot ROM and SDK material." %}
+
 Name | Project Type
 ---- | ----
 |![](https://upload.wikimedia.org/wikipedia/en/d/d7/Dragonwarrior1.jpg){:width="100"} [Dragon Warrior Monsters (German)](https://github.com/Ebernacher90/DragonQuestMonstersGerman)              | Disassembly |  
@@ -300,6 +323,8 @@ Name | Project Type
 ---
 ## Game Boy Advance
 The table below lists the relevant entries.
+
+{% include_cached link-to-other-post.html post="/gba" description="The Game Boy Advance page covers the console, SDK, and related reversing posts." %}
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -326,6 +351,8 @@ Name | Project Type | Status
 
 ---
 ## Nintendo DS
+Decompiled Nintendo DS projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/ds" description="The Nintendo DS page covers Nitro hardware, the NITRO SDK, and related posts." %}
 
 ### Castlevania: Order of Ecclesia
 {% include link-to-other-site.html url="https://github.com/lagolunatic/ooe" description="This is a decompilation of Castlevania: Order of Ecclesia." image="https://static.wikia.nocookie.net/nintendo/images/b/ba/Castlevania_Order_of_Ecclesia_%28NA%29.jpg" title="Decompilation of Castlevania: Order of Ecclesia"  %}
@@ -356,6 +383,8 @@ Name | Project Type | Status
 
 ---
 ## Nintendo 3DS
+Decompiled Nintendo 3DS projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/3ds" description="The Nintendo 3DS page covers Citrus hardware and the development kit." %}
 
 ### Paper Mario: Sticker Star
 {% include link-to-other-site.html url="https://github.com/darxoon/leaflitter" description="This is a decompilation of Paper Mario: Sticker Star." image="https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png" title="Paper Mario: Sticker Star Decompilation"  %}
@@ -385,6 +414,8 @@ Sega is similar to Nintendo in that most of the games that people are interested
 ## Sega Master System
 Although the Sega Master System was hugely popular in Europe, it can't compete with the NES for number of disassembled projects created so far.
 
+{% include_cached link-to-other-post.html post="/mastersystem" description="The Master System page covers the console and its development hardware." %}
+
 ### Phantasy Star
 {% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="Incomplete Phantasy Star Disassembly for Sega Master System from SonicRetro. It uses the wla-z80 assembler to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
 
@@ -394,6 +425,8 @@ Although the Sega Master System was hugely popular in Europe, it can't compete w
 ---
 ## Sega Mega Drive
 The Sega Mega Drive was Sega's most popular console in terms of games developed, and as such it also seems to be the most popular for reverse engineering projects too.
+
+{% include_cached link-to-other-post.html post="/megadrive" description="The Mega Drive page covers Genesis hardware, the SDK, and related posts." %}
 
 Name | Project Type
 ---- | ----
@@ -412,12 +445,16 @@ Name | Project Type
 
 ---
 ## Sega Game Gear (GG)
+Decompiled Game Gear projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/gamegear" description="The Game Gear page covers the handheld and its development hardware." %}
 
 ### Sonic 1
 {% include link-to-other-site.html url="https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly" description="" image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear" %}
 
 ---
 ## Sega Dreamcast (DC)
+Decompiled Dreamcast projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/dreamcast" description="The Dreamcast page covers Katana hardware, the SDK, and related posts." %}
 
 ### Sonic Adventure
 {% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
@@ -437,6 +474,9 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 ## PlayStation 1
 The table below lists the relevant entries.
+
+{% include_cached link-to-other-post.html post="/ps1" description="The PlayStation 1 page covers PSX hardware, PSY-Q, and related posts." %}
+{% include_cached link-to-other-post.html post="/crash-bandicoot" description="Crash Bandicoot, including how the game was built, is covered on its own page." %}
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -473,6 +513,8 @@ Name | Project Type | Status
 
 ---
 ## PlayStation 2
+Decompiled PlayStation 2 projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/ps2" description="The PlayStation 2 page covers the console, SDK, and development hardware." %}
 
 ### Dark Cloud
 {% include link-to-other-site.html url="https://github.com/adubbz/dcdecomp" description="Decompilation project for Dark Cloud." image="https://static.wikia.nocookie.net/darkcloud/images/b/b1/Dark_Cloud_front_cover.png/revision/latest?cb=20190201005021" title="Decompilation project for Dark Cloud for the PS2"  %}
@@ -524,19 +566,24 @@ Name | Project Type | Status
 There are only a handful of reverse engineered games for Microsoft game consoles.
 
 ## MSX
+Decompiled MSX projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/msx" description="The MSX page covers the computer and its reversing notes." %}
 
 ### Metal Gear (1987)
 {% include link-to-other-site.html url="https://github.com/GuillianSeed/MetalGear" description="This repository contains the fully annotated disassembly of the original Metal Gear game, released by Konami for MSX2 in 1987 with code RC750." image="https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg" title="Fully annotated disassembly of the original Metal Gear game"  %}
 
 ---
 ## Xbox
+Decompiled original Xbox projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/xbox" description="The original Xbox page covers the console, XDK, and related posts." %}
 
 ### Halo: Combat Evolved
 {% include link-to-other-site.html url="https://github.com/halo-re/halo" description="The goal of this project is to study and create a free, open-source re-implementation of the original Xbox launch title Halo: Combat Evolved." image="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg" title="Halo: Combat Evolved Decompilation Research Project"  %}
 
 ---
 ## Xbox 360
-  
+Decompiled Xbox 360 projects are listed under this heading.
+{% include_cached link-to-other-post.html post="/xbox360" description="The Xbox 360 page covers the console and its development kit." %}
 
 ### Sonic Unleashed Static Recompilation 
 **hedge-dev** has released UnleashedRecomp, a project that statically recompiles the Xbox 360 version of *Sonic Unleashed* to run natively on PC. By translating the original PowerPC instructions and Xenos shaders into native C++ and HLSL, this tool bypasses traditional emulation overhead, enabling features like arbitrary resolutions, high frame rates, and deep modding support on Windows and Linux. 
@@ -549,6 +596,8 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 ---
 ## PC (Windows)
 The table below lists the relevant entries.
+
+{% include_cached link-to-other-post.html post="/pc" description="The Windows page covers PC game development and reversing notes." %}
 
 Name | Project Type | Status
 ---- | ---- | ----
@@ -574,6 +623,8 @@ Name | Project Type | Status
 # Atari Systems
 
 ## Atari 2600
+Disassembled Atari 2600 games are listed under this heading.
+{% include_cached link-to-other-post.html post="/atari2600" description="The Atari 2600 page covers VCS reversing." %}
 
 {% include link-to-other-site.html url="http://www.bjars.com/disassemblies.html" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Disassemblies of original Atari 2600 games" %}
 
@@ -605,6 +656,8 @@ Mobile games are a special case that weren't initially going to be included, but
 
 ---
 ## Android
+Decompiled Android games are listed under this heading.
+{% include_cached link-to-other-post.html post="/Android" description="The Android page covers reversing and game-development notes for the platform." %}
 
 ### Sonic 1 & 2 Classic (2013)
 {% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png" title="A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)" %}

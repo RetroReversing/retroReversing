@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
 recommend: 
   - introduction
-updatedAt: '2022-09-23'
+updatedAt: '2026-10-08'
 editlink: /Introduction/Legality.md
 ---
 
@@ -84,7 +84,7 @@ The Super Mario 64 Decompilation project is an example of this as they have mana
 Reverse engineering is nothing new in the games industry and can go all the way back to the first Arcade games, with developers trying to figure out how their competitors managed to pull off the seemingly impossible in their new games.
 
 ## SEGA vs EA
-Former SEGA of America CEO **Tom Kalinske** was in charge when EA reverse-engineered the Sega Mega Drive. He was furious and famously said: 
+Former SEGA of America CEO **Tom Kalinske** was in charge when EA reverse-engineered the [Sega Mega Drive](/megadrive). He was furious and famously said: 
 > "Trip [Hawkins], didn't your mother ever teach you the difference between right and wrong?"
 
 This may have got the meeting off to a rough start but in the end SEGA got **John Madden football** and EA got favoured licensing rights.

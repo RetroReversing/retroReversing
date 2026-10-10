@@ -112,7 +112,7 @@ The following files won't compile to PS1 without modification:
 
 However the root/cr/source folder contails a makefile.mak which is for psyq and build the PS1 version.
 
-There are a 2 linker files `crtest.lnk` and `crdemo.lnk` which are for the PS1 development tool `PSYLINK.EXE` you can find out more about there files here: http://www.retroreversing.com/ps1-psylink
+There are a 2 linker files `crtest.lnk` and `crdemo.lnk` which are for the PS1 development tool `PSYLINK.EXE` you can find out more about these files on the [Psylink](/ps1-psylink) page.
 
 These files are vital for piecing together the PS1 source code as it contains the exact specifications for the object files and libraries that were linked in to get the final and demo executables for the PlayStation.
 

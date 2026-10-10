@@ -165,8 +165,11 @@ Decompilers attempt to convert executable code back into a higher-level programm
 * **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
 * **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
-For more information on Ghidra check out this post:
-{% include_cached link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+For more information on how decompilers work check out this post:
+{% include_cached link-to-other-post.html post="/decompilers" description="Decompilers - A Deep Dive explains the decompilation pipeline from CFG recovery through pseudo-code output." %}
+
+For a hands-on Ghidra walkthrough, see:
+{% include_cached link-to-other-post.html post="/intro-decompiling-with-ghidra" description="Introduction to Decompiling C++ with Ghidra covers setup, structures, and class recovery in practice." %}
 
 ### Delphi Decompilers
 Delphi decompilers are a useful special case because Delphi binaries can preserve class metadata, RTTI, DFM form resources, event-handler names, package information, and other structured hints that a generic native-code decompiler may miss.

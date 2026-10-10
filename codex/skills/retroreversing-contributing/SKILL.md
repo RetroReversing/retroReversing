@@ -81,6 +81,11 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 ### Workflow (_includes edits)
 * Prefer Liquid comments (`{% comment %}...{% endcomment %}`) over HTML comments to avoid shipping docs into generated pages.
 
+### CSS colours
+* Use design tokens from `public/css/variables.css` (`--rr-color-*`) for all colours, borders, and surfaces in new or edited CSS.
+* Do not hardcode hex/rgb values when a token exists or can be added; tokens adapt to dark mode and homepage feed styling.
+* Navbar controls on the dark header should use the search/sidebar token groups (e.g. `--rr-color-search-field-*`), not content-page light tokens.
+
 ### Spelling
 * Use cspell blocks when needed:
   * `<!-- cspell:disable -->` / `<!-- cspell:enable -->`

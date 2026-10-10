@@ -1,0 +1,15 @@
+.rr-file-lab-tab-panel[data-plugin-id="pyre"] {
+  padding: 0;
+  margin: 0;
+}
+
+.rr-file-lab-tab-panel[data-plugin-id="pyre"].is-active {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.rr-file-lab-tab-panel[data-plugin-id="pyre"] pyre-viewer {
+  flex: 1;
+  min-height: 0;
+}

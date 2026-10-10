@@ -149,6 +149,26 @@
   --rr-color-feed-chip-active-bg-hover: #e5e5e5;
   --rr-color-feed-chip-active-text: #0f0f0f;
   --rr-color-feed-chip-ring: rgba(255, 255, 255, 0.45);
+
+  /* File Lab hex highlights (Kaitai parse regions) */
+  --rr-color-hex-highlight-0-bg: rgba(37, 117, 220, 0.16);
+  --rr-color-hex-highlight-1-bg: rgba(0, 133, 182, 0.16);
+  --rr-color-hex-highlight-2-bg: rgba(0, 87, 122, 0.16);
+  --rr-color-hex-highlight-3-bg: rgba(79, 79, 79, 0.12);
+  --rr-color-hex-highlight-4-bg: rgba(97, 97, 97, 0.14);
+  --rr-color-hex-highlight-5-bg: rgba(132, 132, 132, 0.14);
+  --rr-color-hex-highlight-6-bg: rgba(37, 117, 220, 0.1);
+  --rr-color-hex-highlight-7-bg: rgba(0, 133, 182, 0.1);
+  --rr-color-hex-highlight-hover-border: var(--rr-color-accent);
+  --rr-color-hex-highlight-selected-border: var(--rr-color-content-strong);
+
+  /* File Lab R2 disassembly syntax (radare2 palette mapped to theme tokens) */
+  --rr-color-r2-mnemonic: #0550ae;
+  --rr-color-r2-number: #953800;
+  --rr-color-r2-call: #116329;
+  --rr-color-r2-register: #57606a;
+  --rr-color-r2-label: #6639ba;
+  --rr-color-r2-comment: #6e7781;
 }
 
 /* System dark mode for content pages (homepage stays on the feed palette below) */
@@ -250,6 +270,24 @@
     --rr-color-search-results-title: rgba(255, 255, 255, 0.92);
     --rr-color-search-results-text: rgba(255, 255, 255, 0.65);
     --rr-color-search-results-badge-bg: #5a6268;
+
+    --rr-color-hex-highlight-0-bg: rgba(126, 200, 232, 0.22);
+    --rr-color-hex-highlight-1-bg: rgba(143, 212, 239, 0.2);
+    --rr-color-hex-highlight-2-bg: rgba(168, 218, 240, 0.18);
+    --rr-color-hex-highlight-3-bg: rgba(255, 255, 255, 0.1);
+    --rr-color-hex-highlight-4-bg: rgba(255, 255, 255, 0.08);
+    --rr-color-hex-highlight-5-bg: rgba(255, 255, 255, 0.12);
+    --rr-color-hex-highlight-6-bg: rgba(126, 200, 232, 0.14);
+    --rr-color-hex-highlight-7-bg: rgba(143, 212, 239, 0.12);
+    --rr-color-hex-highlight-hover-border: #7ec8e8;
+    --rr-color-hex-highlight-selected-border: #8fd4ef;
+
+    --rr-color-r2-mnemonic: #79c0ff;
+    --rr-color-r2-number: #ffa657;
+    --rr-color-r2-call: #7ee787;
+    --rr-color-r2-register: #c9d1d9;
+    --rr-color-r2-label: #d2a8ff;
+    --rr-color-r2-comment: #8b949e;
   }
 }
 
