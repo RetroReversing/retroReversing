@@ -13,6 +13,16 @@
       }
     },
     {
+      "id": "saturn-ip",
+      "title": "Initial Program",
+      "module": "/public/js/file-lab/plugins/saturn-ip/index.js",
+      "css": "plugin.css",
+      "order": 15,
+      "match": {
+        "minSize": 256
+      }
+    },
+    {
       "id": "strings",
       "title": "Strings",
       "module": "/public/js/file-lab/plugins/strings/index.js",
