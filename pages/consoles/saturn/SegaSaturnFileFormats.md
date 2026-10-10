@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
-updatedAt: '2020-05-31'
+updatedAt: '2026-10-08'
 ---
 
 <section class="postSection">
@@ -47,6 +47,13 @@ ABS files seem to be the output of the LNK command and are specified in `.lnk` m
 Sometimes these are listed as "Execution files" so I am not sure if cof is the default executable format or not anymore.
 
 ABS Files are listed in the documentation as "Absolute load module file "
+
+## Initial Program (IP.BIN)
+The first 16 sectors of a Saturn disc are the boot Initial Program, usually extracted as `IP.BIN`. It holds the system ID (title, product number, region symbols) and the SH-2 code the BIOS jumps into after the logo.
+
+{% include_cached link-to-other-post.html post="/sega-saturn-initial-program-ip" description="For the system ID layout, security code, and area objects check out this post." %}
+
+[File Lab](/file-lab) can open that file directly. The Initial Program tab decodes the header, checks the boot constraints, and lists the SH-2 instructions at `0x06002000`.
 
 ---
 # Video Formats

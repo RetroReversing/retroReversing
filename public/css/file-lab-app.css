@@ -1,0 +1,6 @@
+---
+permalink: /public/css/file-lab-app.css
+---
+/* Lean stylesheet for the /file-lab/ app document (standalone + iframe embed). */
+{% include_relative variables.css %}
+{% include_relative file-lab.css %}

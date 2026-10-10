@@ -1,0 +1,27 @@
+---
+layout: null
+title: File Lab
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>File Lab - Retro Reversing</title>
+  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/public/css/file-lab-app.css' | relative_url }}">
+</head>
+<body class="rr-file-lab-page">
+  {% include file-lab-app.html %}
+  {% comment %}Same root COI worker as the site modal; required for SharedArrayBuffer.{% endcomment %}
+  <script>
+    window.coi = {
+      coepCredentialless: function () { return true; }
+    };
+  </script>
+  <script src="{{ '/coi-serviceworker.min.js' | relative_url }}"></script>
+  <script type="module" src="{{ '/public/js/file-lab/file-lab.js' | relative_url }}"></script>
+</body>
+</html>

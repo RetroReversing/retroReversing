@@ -1,0 +1,131 @@
+.rr-file-lab-saturn-ip {
+  height: 100%;
+  overflow: auto;
+  padding: 12px 14px 20px;
+  color: var(--rr-color-content-text);
+  font-size: 13px;
+}
+
+.rr-file-lab-saturn-ip h3 {
+  margin: 0 0 6px;
+  color: var(--rr-color-heading);
+  font-size: 16px;
+}
+
+.rr-file-lab-saturn-ip p {
+  margin: 0 0 8px;
+}
+
+.rr-file-lab-saturn-ip code {
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-ip-section {
+  margin-top: 16px;
+}
+
+.rr-file-lab-saturn-ip-section h3 {
+  font-size: 14px;
+}
+
+.rr-file-lab-saturn-ip-checks,
+.rr-file-lab-saturn-ip-layout {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rr-file-lab-saturn-ip-checks li,
+.rr-file-lab-saturn-ip-layout li {
+  margin: 0 0 6px;
+  padding: 6px 8px;
+  border: 1px solid var(--rr-color-content-border);
+  border-radius: 6px;
+  background: var(--rr-color-table-stripe);
+}
+
+.rr-file-lab-saturn-ip-checks li.is-ok {
+  border-color: var(--rr-color-content-border);
+}
+
+.rr-file-lab-saturn-ip-checks li.is-warn {
+  background: var(--rr-color-code-bg);
+}
+
+.rr-file-lab-saturn-ip-checks li.is-bad {
+  color: var(--rr-color-content-strong);
+}
+
+.rr-file-lab-saturn-ip-fields {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rr-file-lab-saturn-ip-fields th,
+.rr-file-lab-saturn-ip-fields td {
+  text-align: left;
+  vertical-align: top;
+  padding: 4px 8px 4px 0;
+  border-bottom: 1px solid var(--rr-color-table-border);
+}
+
+.rr-file-lab-saturn-ip-fields th {
+  color: var(--rr-color-table-head-text);
+  font-weight: 600;
+}
+
+.rr-file-lab-saturn-ip-asm-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.rr-file-lab-saturn-ip-asm-toolbar button {
+  border: 1px solid var(--rr-color-content-border);
+  background: var(--rr-color-pre-bg);
+  color: var(--rr-color-content-text);
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.rr-file-lab-saturn-ip-asm-toolbar button.is-active {
+  border-color: var(--rr-color-accent);
+  color: var(--rr-color-content-link);
+}
+
+.rr-file-lab-saturn-ip-asm-hint,
+.rr-file-lab-saturn-ip-sources {
+  color: var(--rr-color-meta);
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-ip-asm-mount {
+  height: 320px;
+  border: 1px solid var(--rr-color-content-border);
+  border-radius: 6px;
+  background: var(--rr-color-pre-bg);
+}
+
+.rr-file-lab-saturn-ip-asm-mount .rr-file-lab-virtual-root,
+.rr-file-lab-saturn-ip-asm-mount .rr-file-lab-virtual-scroll {
+  height: 100%;
+}
+
+.rr-file-lab-saturn-ip-asm-row {
+  display: grid;
+  grid-template-columns: 9.5em 5.5em 3.5em 1fr;
+  gap: 8px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 8px;
+  white-space: nowrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-ip-asm-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
