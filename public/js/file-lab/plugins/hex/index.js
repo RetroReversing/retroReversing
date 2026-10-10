@@ -12,15 +12,22 @@ async function ensureHighlights(ctx, host, registry) {
 
   if (!registry) return null;
 
-  try {
-    var runtime = await registry.loadPlugin("kaitai-viewer");
-    if (!runtime || typeof runtime.plugin.computeHexHighlights !== "function") {
-      return null;
+  // Kaitai covers generic formats. Saturn IP is a small extra parser.
+  // Do not import every plugin here: R2 and Pyre pull large modules.
+  var ids = ["kaitai-viewer", "saturn-ip"];
+  for (var i = 0; i < ids.length; i++) {
+    try {
+      var runtime = await registry.loadPlugin(ids[i]);
+      if (!runtime || typeof runtime.plugin.computeHexHighlights !== "function") continue;
+      if (typeof runtime.plugin.matches === "function" && !runtime.plugin.matches(ctx)) continue;
+      var payload = await runtime.plugin.computeHexHighlights(ctx, host);
+      if (payload && payload.regions && payload.regions.length) return payload;
+    } catch (err) {
+      continue;
     }
-    return await runtime.plugin.computeHexHighlights(ctx, host);
-  } catch (err) {
-    return null;
   }
+
+  return null;
 }
 
 function bindRegionInteractions(layout, main, details, getHighlightState, getInteraction, setInteraction, scroller, data, escapeHtml) {

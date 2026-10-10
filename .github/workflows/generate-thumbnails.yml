@@ -1,6 +1,12 @@
 name: Generate Thumbnails
 
 on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Regenerate all thumbnails even if JPGs look up to date'
+        type: boolean
+        default: false
   pull_request:
     branches: [ main, master ]
     paths:
@@ -18,19 +24,19 @@ permissions:
   contents: write
 
 concurrency:
-  group: generate-thumbnails-${{ github.event.pull_request.head.ref }}
+  group: generate-thumbnails-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: true
 
 jobs:
   generate-thumbnails:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
 
     steps:
-      - name: Checkout PR branch
+      - name: Checkout branch
         uses: actions/checkout@v5
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,11 +47,21 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
 
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Install ImageMagick and Arial
+        run: |
+          echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
+          sudo apt-get update
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y imagemagick ttf-mscorefonts-installer fontconfig
+          sudo fc-cache -f
+          fc-match Arial
 
       - name: Generate placeholder thumbnails
-        run: node scripts/generate-placeholder-social-images.js
+        run: |
+          extra_args=()
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+            extra_args+=(--force)
+          fi
+          node scripts/generate-placeholder-social-images.js "${extra_args[@]}"
 
       - name: Commit generated thumbnails
         uses: stefanzweifel/git-auto-commit-action@v5

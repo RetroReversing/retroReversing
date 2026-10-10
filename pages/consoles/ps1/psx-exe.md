@@ -25,7 +25,7 @@ updatedAt: '2026-04-11'
 The PS-X EXE format is the PlayStation 1's main "load this into RAM and jump to it" executable format.
 It is used for both retail discs and homebrew.
 
-Despite the name, it is not really similar to ELF.
+Despite the name, it is not really similar to a windows .exe executable at all.
 A PS-X EXE is a fixed-size header followed by a flat binary blob.
 The blob is copied to a specific RAM address and executed.
 

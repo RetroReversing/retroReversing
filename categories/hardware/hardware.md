@@ -113,6 +113,11 @@ Dmitry.GR has an excellent write up about reverse engineering the **Fisher-Price
 
 {% include link-to-other-site.html url="https://dmitry.gr/?r=05.Projects&proj=27.+rePalm#pixter" description="Dmitry.GR details the process of porting PalmOS to the **Fisher-Price Pixter Color**, including reverse engineering the cartridge interface, overcoming the limitations of the ARM7 SoC, and developing custom hardware drivers." image="https://dmitry.gr/images/rePalm/pixter_boot.jpg" title="rePalm on **Pixter** Color" %}
 
+### AVerMedia Game Capture HD II Firmware
+The AVerMedia Game Capture HD II (C285) is a discontinued capture device whose original cloud and mobile-app support no longer works. Vladimir Smitka's case study documents gaining access through the UART console and U-Boot, analyzing the device's Linux firmware and control protocol, and replacing the vendor software to restore VGA capture and add network streaming.
+
+{% include link-to-other-site.html title="Reviving Old Unsupported Devices with AI - AVerMedia Game Capture HD II" url="https://chiptron.eu/reviving-old-unsupported-devices-with-ai-avermedia-game-capture-hd-ii/" description="A detailed reverse-engineering write-up covering the C285 capture device's hardware, firmware access, mobile-app protocol, and custom replacement software." %}
+
 ---
 # All Posts
 {% include console.html %}

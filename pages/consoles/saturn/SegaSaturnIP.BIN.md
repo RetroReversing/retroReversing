@@ -19,6 +19,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnIP.BIN.md
+updatedAt: '2026-10-08'
 ---
 
 The first 15 sectors (32KB) of a SEGA Saturn CD contains the Boot System Initial Program code known as IP.BIN [^1]. In this post we will explore what it is, the purpose of it and how it works. 
@@ -104,6 +105,15 @@ The Homebrew version for the Sega Saturn SDK has its own tool for creation calle
 If you are interested in how it works you can check out some of the source code below:
 [IPMaker source Code - SystemID.c](https://github.com/SaturnSDK/Saturn-SDK-Tool-IPMaker/blob/master/Source/Common/Source/SystemID.c)
 
+
+---
+# Inspecting IP.BIN in File Lab
+<div class="emoji">🧪</div>
+[File Lab](/file-lab) decodes a Saturn Initial Program in the browser. Drop an `IP.BIN`, or the MODE1/2352 data track, and open the Initial Program tab.
+
+The tab reads the system ID (title, product number, version, date, area symbols, and peripherals), checks the boot ROM limits on IP size and the 1st read address, and lists the SH-2 boot code at the SDK link address `0x06002000`. The security code is the fixed `SYS_SEC.OBJ` block at file offset `0x100`. Area objects and the application initial program follow it at `0xE00`.
+
+The same fields are highlighted in the Hex tab, using raw sector offsets when the file is a 2352-byte MODE1 track.
 
 ---
 # References
