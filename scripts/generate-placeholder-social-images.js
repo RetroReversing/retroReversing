@@ -611,6 +611,7 @@ function generateImage(svgPath, outputPath) {
 
 function main() {
     const forceRegenerate = process.argv.includes('--force');
+    const discardSvg = process.argv.includes('--discard-svg');
     fs.mkdirSync(OUTPUT_DIRECTORY, { recursive: true });
     const categoryImages = parseCategoryImages(CONFIG_PATH);
     const contentFiles = CONTENT_DIRECTORIES
@@ -637,7 +638,10 @@ function main() {
 
         const jpgGenerationAvailable = canGenerateJpg();
         const jpgUpToDate = !jpgGenerationAvailable || isUpToDate(outputPaths.jpg, inputTimestamp);
-        if (!forceRegenerate && jpgUpToDate && isUpToDate(outputPaths.svg, inputTimestamp)) {
+        // SVGs are gitignored, so only the committed JPG is used to decide whether
+        // a thumbnail is already up to date. Requiring the SVG caused CI checkouts
+        // to regenerate every image on every run.
+        if (!forceRegenerate && jpgUpToDate) {
             skippedCount++;
             continue;
         }
@@ -675,6 +679,9 @@ function main() {
         } else if (!missingConverterWarningShown && !IMAGE_MAGICK_CONVERT_PATH && !IMAGE_MAGICK_PATH && !SIPS_PATH) {
             console.warn('Warning: no PNG-to-JPEG converter was found (tried convert, magick, sips), so JPG placeholder generation is being skipped.');
             missingConverterWarningShown = true;
+        }
+        if (discardSvg && fs.existsSync(outputPaths.svg)) {
+            fs.unlinkSync(outputPaths.svg);
         }
         generatedCount++;
     }
