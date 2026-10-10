@@ -246,7 +246,8 @@ Footnotes are for sources backing up claims (dates, attribution, technical asser
 
 If you include an external link inline as part of a sentence, keep it as a normal Markdown link and only add a footnote if the link is acting as evidence for a specific claim.
 
-If an external link is presented on its own line / paragraph or end of a sentence (not inline in a table, list, or middle of a sentence), ALWAYS use the `link-to-other-site.html` include so it renders consistently and includes a short description:
+For an individually featured external resource, use the `link-to-other-site.html` include so it renders consistently and includes a short description.
+Keep links in prose, lists, and tables as normal Markdown links, especially when grouping several resources:
 
 ```ruby
 {% raw %}
@@ -258,9 +259,23 @@ If an external link is presented on its own line / paragraph or end of a sentenc
 ```
 
 ---
+### Link card spacing
+Never place two `link-to-other-post.html` or `link-to-other-site.html` cards directly after each other.
+This applies to any combination of the two includes, whether called with `include` or `include_cached`.
+
+Separate link cards with meaningful article content, such as a paragraph explaining the next resource, a table, or a code example.
+Blank lines, comments, headings, and horizontal rules alone do not count as separation.
+Do not add filler text just to separate cards.
+
+When several related resources belong together, use inline links in a cohesive paragraph, an introduced list, or a table instead of stacking cards.
+For example, link to the SNES hardware guide in the section introduction and discuss the Yoshi's Island and A Link to the Past source pages together in prose, rather than displaying three consecutive cards.
+
+---
 ### Linking to other RetroReversing pages
 <div class="emoji">🔗</div>
-You don't need to reference posts from RetroReversing.com. Instead, just link to the relevant page using the handy include (the permalink must match the post exactly or it will not display):
+You don't need footnotes to reference posts from RetroReversing.com.
+For an individually featured page, use the handy include (the permalink must match the post exactly or it will not display).
+For grouped resources, use normal inline links in prose, lists, or tables:
 
 ```ruby
 {% raw %}
