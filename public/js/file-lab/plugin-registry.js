@@ -134,12 +134,14 @@ function createPluginHost(entry, runtime, navigation, ctx) {
 }
 
 export class PluginRegistry {
-  constructor(configUrl, navigation) {
+  constructor(configUrl, navigation, onLoadErrorsChange) {
     this.configUrl = configUrl || DEFAULT_CONFIG_URL;
     this.navigation = navigation || null;
     this.builtInEntries = [];
     this.entries = [];
     this.loaded = new Map();
+    this.loadErrors = new Map();
+    this.onLoadErrorsChange = onLoadErrorsChange || function () {};
     this.hostApi = createHostApi();
   }
 
@@ -172,6 +174,8 @@ export class PluginRegistry {
       return a.order - b.order;
     });
     this.loaded.clear();
+    this.loadErrors.clear();
+    this.onLoadErrorsChange([]);
   }
 
   reloadFromStorage() {
@@ -191,6 +195,21 @@ export class PluginRegistry {
   }
 
   async loadPlugin(id) {
+    try {
+      var runtime = await this.loadPluginRuntime(id);
+      if (this.loadErrors.delete(id)) {
+        this.onLoadErrorsChange(Array.from(this.loadErrors.values()));
+      }
+      return runtime;
+    } catch (err) {
+      var entry = this.getEntry(id);
+      this.loadErrors.set(id, { id: id, title: entry ? entry.title : id });
+      this.onLoadErrorsChange(Array.from(this.loadErrors.values()));
+      throw err;
+    }
+  }
+
+  async loadPluginRuntime(id) {
     if (this.loaded.has(id)) return this.loaded.get(id);
 
     var entry = this.getEntry(id);

@@ -3,6 +3,30 @@ A curated list of awesome retro game development and reverse engineering resourc
 https://www.retroreversing.com/
 
 ---
+# Pages deployment
+The `Build and deploy Pages` workflow builds the R2, Pyre and Kaitai File Lab plugins with their npm lockfiles before building Jekyll.
+It verifies the published plugin modules, workers, stylesheets and Wasmer runtime against the built files before uploading the Pages artifact.
+Generated `dist/` directories remain ignored.
+
+In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source.
+After the workflow is on the default branch, pushes to that branch deploy the site; it can also be run from the Actions tab.
+Branch-based Pages builds do not run the plugin build steps.
+
+To build the plugins locally, run from the repository root:
+```bash
+for plugin in r2 pyre kaitai-viewer; do
+  npm ci --prefix "public/js/file-lab/plugins/$plugin" &&
+  npm run build --prefix "public/js/file-lab/plugins/$plugin" || exit 1
+done
+bundle exec jekyll build
+node scripts/validate-file-lab-assets.mjs _site
+```
+
+After deploying, open `/file-lab/`, load an executable and check the R2 and Pyre views.
+R2 also requires the root `coi-serviceworker.min.js` to establish cross-origin isolation, and both engines download external runtime assets.
+Build validation checks the locally published assets; browser analysis verifies those runtime dependencies.
+
+---
 # Collections
 * [Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
 * [Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)

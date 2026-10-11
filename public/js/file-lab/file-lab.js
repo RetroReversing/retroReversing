@@ -70,7 +70,14 @@ var pluginNavigation = {
   }
 };
 
-var registry = new PluginRegistry(undefined, pluginNavigation);
+var registry = new PluginRegistry(undefined, pluginNavigation, function (errors) {
+  if (!els.pluginErrors) return;
+  els.pluginErrors.hidden = errors.length === 0;
+  els.pluginErrors.textContent = errors.length
+    ? "Plugins failed to load: " + errors.map(function (error) { return error.title; }).join(", ") +
+      ". Reload the page to try again. Other available file views can still be used."
+    : "";
+});
 
 function schedulePersist() {
   if (saveTimer) clearTimeout(saveTimer);
@@ -797,6 +804,7 @@ async function init() {
   els.installButton = document.getElementById("rr-file-lab-plugin-install");
   els.installedPlugins = document.getElementById("rr-file-lab-installed-plugins");
   els.installError = document.getElementById("rr-file-lab-install-error");
+  els.pluginErrors = document.getElementById("rr-file-lab-plugin-errors");
 
   bindEvents();
 
@@ -804,6 +812,10 @@ async function init() {
     await registry.init();
   } catch (err) {
     console.error("File Lab failed to initialize plugins", err);
+    if (els.pluginErrors) {
+      els.pluginErrors.hidden = false;
+      els.pluginErrors.textContent = "File Lab plugins failed to initialize. Reload the page to try again.";
+    }
   }
 
   renderInstalledPlugins();

@@ -33,7 +33,7 @@ public/js/file-lab/plugins/kaitai-viewer/   ← this repo
 ├── formats/          # .ksy source definitions
 ├── src/              # Lit plugin source
 ├── src/parsers/      # Kaitai-compiled JS (committed)
-├── dist/             # Vite production bundle (committed for GitHub Pages)
+├── dist/             # Ignored Vite bundle, built by the Pages workflow
 └── package.json
 ```
 
@@ -87,7 +87,7 @@ npm run dev
 
 1. Drop a `.ksy` file into `formats/` (pull dependencies into `formats/` as needed, e.g. `formats/common/riff.ksy`).
 2. Import the compiled parser in `src/format-registry.js` and add a catalog entry with magic bytes / extensions.
-3. Run `npm run build` and commit `src/parsers/` + `dist/`.
+3. Run `npm run build` and include the generated `src/parsers/` changes. The Pages workflow rebuilds `dist/` during deployment.
 
 ## File Lab plugin API
 
