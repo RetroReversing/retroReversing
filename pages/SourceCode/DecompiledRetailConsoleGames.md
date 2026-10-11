@@ -25,7 +25,19 @@ editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
 updatedAt: '2026-10-11'
 ---
 
-This page lists decompiled and disassembled source code projects for retail games, alongside native ports and static recompilations. Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+
+---
+## Glossary of Project Types
+The tables use these project types. Combined labels describe projects that span more than one approach:
+* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code.
+* <a id="glossary-matching-decompilation"></a>**Matching decompilation** - Aims to compile back to the same machine code as the original game. Matching does not mean the project is complete.
+* <a id="glossary-disassembly"></a>**Disassembly** - Converts machine code into assembly source, often with manually added labels and comments.
+* <a id="glossary-static-recompilation"></a>**Static recompilation** - Translates machine code ahead of time into source that can be compiled for another platform, without recovering the original source code.
+* <a id="glossary-source-port"></a>**Native port / Source port** - Adapts available or reconstructed source code to run on another platform. A port can build on a decompilation, disassembly or reimplementation.
+* <a id="glossary-reimplementation"></a>**Reimplementation / Game engine reimplementation** - Builds new code to reproduce the game's or engine's behavior, often using the original game's assets.
+* <a id="glossary-rewrite"></a>**Rewrite** - Rebuilds the implementation with a different architecture or language, potentially using reverse engineering to understand the original behavior.
+* <a id="glossary-fan-remake"></a>**Fan remake** - Recreates the game independently, potentially changing its engine, assets or gameplay.
 
 For entries with a dated activity check, Active means the linked repository received a default-branch commit within the preceding 12 months. Inactive means no commits in that period, or an archived repository. These labels describe repository activity rather than completion or playability. Last-commit dates come from the project catalog. Check dates are stored in the catalog for maintenance. A failed check retains earlier evidence and is labeled as unavailable; Unverified means no successful check is recorded. Undated activity labels have not yet been checked by the script.
 
@@ -34,8 +46,9 @@ If you are interested to see officially released or leaked source code check out
 
 Decompilation and disassembly projects generally need to have reconstructed at least 10% of the source code to be included. Exceptions include platforms with few reversing projects and native-port projects that do not report a matching-code percentage.
 
-Static recompilation translates machine code into compilable source for another platform. It does not imply recovery of the original source code. Project links provide build instructions and current progress.
+Project links provide build instructions and current progress.
 
+---
 # Nintendo Systems
 Nintendo systems are by far the most popular for reverse engineering projects, especially related to 1st party titles such as Mario, Zelda and Pokemon.
 

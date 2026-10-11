@@ -1,5 +1,5 @@
 {%- assign console = site.data.decompilations.consoles[include.console] -%}
-<table>
+<table class="rr-decomp-table">
   <thead>
     <tr>
       {% for column in console.columns %}<th>{{ column | escape }}</th>{% endfor %}
@@ -8,7 +8,7 @@
   <tbody>
     {% for row in console.rows %}
     <tr>
-      <td>{% for image in row.images %}<img src="{{ image.url | escape }}" alt="{{ image.alt | escape }}" width="{{ image.width | escape }}"> {% endfor %}{{ row.name_markdown | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+      <td>{% if row.images.size > 0 %}<div class="rr-decomp-artwork">{% for image in row.images %}<img src="{{ image.url | escape }}" alt="{{ image.alt | escape }}" width="{{ image.width | escape }}">{% endfor %}</div>{% endif %}<div class="rr-decomp-name">{{ row.name_markdown | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div></td>
       <td>{{ row.project_type | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
       {% if console.columns.size == 4 %}<td>{{ row.mapper | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>{% endif %}
       {% capture status %}{% include decomp-activity.html project=row.project %} {% if row.completion_percent != nil %}{{ row.completion_qualifier }}{{ row.completion_percent }}% {% if row.completion_metric == 'functional' %}functional{% elsif row.completion_metric == 'accuracy' %}accuracy{% else %}complete{% endif %}; {% endif %}{{ row.notes_markdown }}{% for port in row.ports %}; [{{ port.name }}]({{ port.url }}){% if port.platforms.size > 0 %} ({{ port.platforms | join: ', ' }}){% endif %}{% if port.description_markdown != empty %} - {{ port.description_markdown }}{% endif %}{% endfor %}{% endcapture %}
