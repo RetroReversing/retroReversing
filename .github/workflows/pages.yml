@@ -1,0 +1,62 @@
+name: Build and deploy Pages
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: public/js/file-lab/plugins/*/package-lock.json
+      - name: Build File Lab plugins
+        run: |
+          for plugin in r2 pyre kaitai-viewer; do
+            npm ci --prefix "public/js/file-lab/plugins/$plugin"
+            npm run build --prefix "public/js/file-lab/plugins/$plugin"
+          done
+      - name: Test plugin load error handling
+        run: node --test scripts/file-lab-plugin-errors.test.mjs
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.12'
+          bundler-cache: true
+      - uses: actions/configure-pages@v5
+      - name: Build Jekyll
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bundle exec jekyll build --trace
+      - name: Validate published File Lab assets
+        run: node scripts/validate-file-lab-assets.mjs _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
