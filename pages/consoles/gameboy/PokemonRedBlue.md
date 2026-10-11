@@ -40,7 +40,7 @@ editlink: /consoles/gameboy/PokemonRedBlue.md
 
 # Introduction
 <section class="postSection">
-<img src="/public/pokemonBlueCart.png" class="wow slideInLeft postImage" />
+<img src="/public/pokemonBlueCart.webp" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 The Pokemon Reverse Engineering Team (PRET) have managed to pull off a marvellous achievement, they have fully reverse engineered Pokemon Red and Blue back into Z80 assembly code [^1].
@@ -77,7 +77,7 @@ It is very likely that Game Freak used the official Software Development kit pro
 
 ## Cartridge and Development Hardware
 <section class="postSection">
-<img src="/public/pokemonBlueCircuit.png" class="wow slideInLeft postImage" />
+<img src="/public/pokemonBlueCircuit.webp" class="wow slideInLeft postImage" />
 <div markdown="1">
 The Game was cut on to 2 megabyte cartridges meaning assets needed to be optimised or cut in order to fit everything on the cartridge. Thus was even more evident in the Western releases due to the english text being larger than the original Japanese [^4]. So Pokemon names, dialog and even maps needed to be optimised to take up less space.
 </div>

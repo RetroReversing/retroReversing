@@ -288,7 +288,7 @@ This development kit was used to create ground-breaking games for the Super Nint
 ### PSY-Q PC Interface Board
 
 <section class="postSection">
-  <img src="/public/images/snes/PSY-Q PC Interface Card.png" class="wow slideInLeft postImage" />
+  <img src="/public/images/snes/PSY-Q PC Interface Card.webp" class="wow slideInLeft postImage" />
 <div markdown="1">
 The PC interface card was standard across all of PSY-Q's development kits, on the left the image is from the 32X kit but it functions the same as the SNES card. 
 

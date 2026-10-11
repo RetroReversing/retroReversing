@@ -166,7 +166,7 @@ The video below covers the **Wide Boy 64**, an official but non-retail device us
 <iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
 
 ## Game Boy Printer
-![Game Boy Printer](../../public/images/GameBoy/Game Boy Printer.png)
+![Game Boy Printer](../../public/images/GameBoy/Game Boy Printer.webp)
 The Game Boy Printer not only supported the Game Boy Camera, several games shipped explicit printing features, games such as `Pokemon Yellow`, `Pokemon Gold`, and `Pokemon Silver` all used it for output such as Pokedex stickers [^5].
 
 Wikipedia currently lists 110 games with Game Boy Printer support, including 35 released outside Japan. See the [full Game Boy Printer compatibility list](https://en.wikipedia.org/wiki/Game_Boy_Printer#Games_with_Game_Boy_Printer_support) if you want to check a specific title [^6].
