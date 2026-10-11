@@ -71,6 +71,9 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 
 ### Images
 * Prefer linking externally hosted box-art (e.g. MobyGames) for "section about a specific game" figures when appropriate.
+* Prefer Libretro-hosted box art over Wikia/Fandom image URLs when suitable covers are available. Wikia/Fandom URLs can return HTTP 403 and leave the site showing placeholders. Match the game, platform, and relevant edition or region.
+* Before finishing, check new or replaced external image URLs with a GET request: confirm a successful response, an image content type, and actual image data rather than an HTML error page or placeholder. Replace blocked or broken URLs with a verified alternative.
+* When a rendered preview is available, check that the images visibly load on the page. A successful URL request alone does not guarantee browser loading. Use descriptive alt text.
 * Never leave pasted Markdown images named only `image.png` in the repository.
 * Always convert generic pasted PNG files to JPG for screenshots/photos unless transparency or lossless pixel-perfect detail is required.
 * Rename generic pasted image files to a descriptive filename. Prefer the manually filled alt text; otherwise infer the name from the nearest useful heading, caption, or surrounding paragraph context.
