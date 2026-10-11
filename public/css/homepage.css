@@ -74,6 +74,7 @@ body.has-site-sidebar .rr-home-sidebar-toggle:active {
 @media (min-width: 1201px) {
   .rr-home-section-left {
     position: sticky;
+    z-index: 999;
     top: 62px;
     align-self: flex-start;
     height: calc(100vh - 62px);
@@ -353,30 +354,30 @@ body.has-site-sidebar .rr-home-sidebar-toggle:active {
 
 /* Desktop collapsed sidebar (icon-only mini rail) */
 @media (min-width: 1201px) {
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-section-left {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-section-left {
     min-width: 72px;
     max-width: 72px;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-nav-label,
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-title,
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-chevron,
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-panel,
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-divider,
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-feed-links {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-nav-label,
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-title,
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-chevron,
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-panel,
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-divider,
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-feed-links {
     display: none;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-header {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-header {
     justify-content: center;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-header .rr-home-sidebar-section-toggle {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-header .rr-home-sidebar-section-toggle {
     width: 100%;
     flex: none;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-toggle {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-toggle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,11 +385,11 @@ body.has-site-sidebar .rr-home-sidebar-toggle:active {
     padding: 0;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-section-icon {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-section-icon {
     display: block;
   }
 
-  body.has-site-sidebar.home-sidebar-collapsed .rr-home-sidebar-nav-item a {
+  body.has-site-sidebar.home-sidebar-collapsed:not(.home-sidebar-hover-expanded) .rr-home-sidebar-nav-item a {
     justify-content: center;
     gap: 0;
     padding: 0;
