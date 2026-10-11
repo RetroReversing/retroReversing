@@ -5,7 +5,7 @@ tags:
 - android
 title: Playstation Mobile (Suite)
 category: vita
-image: /public/consoles/Sony PSVita.png
+image: /public/consoles/Sony PSVita.webp
 permalink: /playstation-mobile
 redirect_from:
   - /playstation-mobile/

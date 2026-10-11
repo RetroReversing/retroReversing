@@ -5,7 +5,7 @@ title: Arcade - How retro arcade games were made
 recommendTitle: All Arcade Posts
 editlink: ../categories/consoles/Arcade.md
 category: arcade
-consoleimage: /public/consoles/Arcade.png
+consoleimage: /public/consoles/Arcade.webp
 excerpt: Awesome list of Arcade Game Development information
 breadcrumbs:
   - name: Home

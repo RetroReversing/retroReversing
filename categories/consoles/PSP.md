@@ -39,7 +39,7 @@ The PSP was made up of:
 ## Retail Hardware
 For an in-depth look at the Playstation Portable's Retail hardware architecture check out the excellent post by **Copetti.org**:
 
-{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.png" title="PlayStation Portable Architecture - A Practical Analysis"  %}
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.webp" title="PlayStation Portable Architecture - A Practical Analysis"  %}
 
 ### ALLEGREX CPU
 The main CPU in the PSP was the **ALLEGREX**.

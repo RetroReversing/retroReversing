@@ -5,6 +5,10 @@ tags:
 - leak
 - sourcecode
 title: Original Super Mario Kart Source Code (Gigaleak)
+# 3D box render: https://forums.launchbox-app.com/topic/65078-super-nintendo-3d-box-art/
+placeholderimages:
+- /public/consoles/Leaks.webp
+- /public/games/Super-Mario-Kart-3D-Box.webp
 category: 
 - leak
 - snes

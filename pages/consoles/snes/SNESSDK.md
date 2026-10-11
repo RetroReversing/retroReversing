@@ -349,7 +349,7 @@ L.BAT | Windows Batch file that calls **ISSND** and **ISLINK** tools on KANKICHI
 
 For more information on how this sound driver works checkout this excellent page on SNESLab:
 
-{% include link-to-other-site.html url="https://sneslab.net/wiki/N-SPC_Engine" description="For more information about the N-SPC driver check out this page on SNESLab" image="/public/consoles/Super Nintendo Entertainment System.png" title="N-SPC Engine"  %}
+{% include link-to-other-site.html url="https://sneslab.net/wiki/N-SPC_Engine" description="For more information about the N-SPC driver check out this page on SNESLab" image="/public/consoles/Super Nintendo Entertainment System.webp" title="N-SPC Engine"  %}
 
 ### Generate Sound Binary Data from Instruments and assembled Music
 Now that we have assembled an ISX file for all the instruments (e.g **WAVE.ISX**) and assembled another ISX file for the Audio Driver (e.g **KANKICHI.ISX**).
@@ -487,7 +487,7 @@ The **N-SPC/Kankichi** Sound driver that came with the official SDK and has been
 
 If you have any interest in SNES Sound development this is not only a must read but also a site you should bookmark as you will keep coming back to it. 
 
-{% include link-to-other-site.html url="http://gdri.smspower.org/wiki/index.php/Super_Famicom/Super_NES_Sound_Driver_List" description="Check out all the 122 unique sound drivers for the Super Famicom" image="/public/consoles/Super Nintendo Entertainment System.png" title="Super NES Sound Driver List"  %}
+{% include link-to-other-site.html url="http://gdri.smspower.org/wiki/index.php/Super_Famicom/Super_NES_Sound_Driver_List" description="Check out all the 122 unique sound drivers for the Super Famicom" image="/public/consoles/Super Nintendo Entertainment System.webp" title="Super NES Sound Driver List"  %}
 
 
 ---
