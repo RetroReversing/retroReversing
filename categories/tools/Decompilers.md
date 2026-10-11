@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-08-02'
+updatedAt: '2026-10-11'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive
@@ -338,6 +338,17 @@ Matching decompilation projects succeed because humans iteratively rename, split
 
 For a catalog of game projects taking that approach, see:
 {% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="Decompiled Retail Console Games lists matching decompilation and disassembly projects across consoles." %}
+
+## Patterns for Matching Decompilation
+Steinar H. Gunderson's series shows how to rewrite C recovered from assembly when trying to match the original machine code. The posts cover these recurring patterns:
+* **[Anti-CSE](https://blog.sesse.net/blog/tech/2026-10-04-10-16_decompilation_patterns_part_1_anti_cse)** - Restore expressions combined by common-subexpression elimination.
+* **[Do-while](https://blog.sesse.net/blog/tech/2026-10-05-16-54_decompilation_patterns_part_2_do_while)** - Turn a backward `goto` into a loop.
+* **[Do-while-while](https://blog.sesse.net/blog/tech/2026-10-06-22-35_decompilation_patterns_part_3_do_while_while)** - Fold an initial condition and a `do-while` into a `while` loop.
+* **[Range comparison](https://blog.sesse.net/blog/tech/2026-10-07-16-21_decompilation_patterns_part_4_range_comparison)** - Recognise a bounded range test hidden in unsigned subtraction.
+* **[Nested if/goto](https://blog.sesse.net/blog/tech/2026-10-08-21-04_decompilation_patterns_part_5_nested_if_goto)** - Combine nested branches into one condition.
+* **[If-add-else](https://blog.sesse.net/blog/tech/2026-10-09-17-06_decompilation_patterns_part_6_if_add_else)** - Move a default assignment into an `else` branch or conditional expression.
+* **[If to condition](https://blog.sesse.net/blog/tech/2026-10-10-20-32_decompilation_patterns_part_7_if_to_condition)** - Replace branches that assign zero or one with a boolean expression.
+* **[Un-repetition of conditions](https://blog.sesse.net/blog/tech/2026-10-11-16-07_decompilation_patterns_part_8_un_repetition_of_conditions)** - Remove a condition calculation repeated across branches.
 
 ---
 # Getting Started
