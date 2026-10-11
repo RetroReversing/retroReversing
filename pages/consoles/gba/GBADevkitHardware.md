@@ -131,7 +131,7 @@ It was also bundled with software for Windows XP that you can see in this tweet 
 
 ## AGB FLASH GANG WRITER
 <section class="postSection">
-    <img src="/public/images/gba/AGB ROM Flash Gang Writer 2.0.png" class="wow slideInLeft postImage" />
+    <img src="/public/images/gba/AGB ROM Flash Gang Writer 2.0.webp" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 Again similar to the Game boy DMG & Color development kits they provide a Gang writer for flashing multiple EPROM cartridges at once, very useful for sending out multiple copies to all the press outlets [^6].

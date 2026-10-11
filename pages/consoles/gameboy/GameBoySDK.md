@@ -60,7 +60,7 @@ To assemble your GameBoy source code into Z80 machine code you could use the off
 ISX is the format that the Assembler (ISAS) compiles the programs into, it is a compressed version of the rom, to convert it into a standard Game Boy rom you need to run it through CVTISX (ConvertISX).
 
 ## Intelligent Systems CAD Tool (IS-CGB-CAD or DMG-CAD)
-![IS-CGB-Character After importing CGX from DMG Zelda](/public/images/GameBoy/IS-CGB-Character-Importing-CGX-from-DMG-Zelda.png)
+![IS-CGB-Character After importing CGX from DMG Zelda](/public/images/GameBoy/IS-CGB-Character-Importing-CGX-from-DMG-Zelda.webp)
 The archive only seems to contains the **IS-CGB-CAD** tool, which is  a CAD (COmputer Aided Design) tool for graphics, sprites and Tiles, which are known as are known as "characters" for the GameBoy. 
 Its known as a Character development system.
 

@@ -40,7 +40,7 @@ editlink: /consoles/saturn/SegaSaturnHardware.md
 ---
 
 Image from EDGE magazine issue 23
-<img src="/public/magazine/SegaSaturnMotherboard.EDGE.23.png" />
+<img src="/public/magazine/SegaSaturnMotherboard.EDGE.23.webp" />
 * 2x Hitachi SH·2s @28.6MHz, 25 MIPS
 * 16Mbit SDRAM for SH2s
 * 12Mbit SDRAM for VRAM and frame buffer

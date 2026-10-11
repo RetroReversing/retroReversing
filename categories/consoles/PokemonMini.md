@@ -22,7 +22,7 @@ tags:
 ---
 
 # Introduction to the Pokemon Mini
-![PokemonMiniConsole](../../public/images/PokemonMini/PokemonMiniConsole.png)
+![PokemonMiniConsole](../../public/images/PokemonMini/PokemonMiniConsole.webp)
 The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
 **Jupiter Corporation**.
 It was first unveiled in September 2001 at a Nintendo event called the Nintendo Show, held at Westminster Hall in London, England [^6] and released in Japan on December 14th 2001.
