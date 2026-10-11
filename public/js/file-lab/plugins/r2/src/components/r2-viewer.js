@@ -665,7 +665,7 @@ export class R2ViewerElement extends LitElement {
       this.errorMessage =
         "The R2 plugin needs cross-origin isolation (SharedArrayBuffer). " +
         "If this page just reloaded, open the R2 tab again. " +
-        "Otherwise hard-refresh once so the File Lab isolation service worker can install.";
+        "Otherwise reload normally so the File Lab isolation service worker can take control.";
       return;
     }
 
