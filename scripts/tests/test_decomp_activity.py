@@ -39,6 +39,15 @@ class ActivityTests(unittest.TestCase):
             for row in table['rows']:
                 self.assertIn(row['project'], catalog['projects'])
                 self.assertTrue(row['name_markdown'])
+                percent = row['completion_percent']
+                self.assertTrue(percent is None or (isinstance(percent, (int, float)) and 0 <= percent <= 100))
+                self.assertIn(row['completion_qualifier'], ('', '>'))
+                self.assertIn(row['completion_metric'], ('completion', 'functional', 'accuracy'))
+                self.assertIsInstance(row['ports'], list)
+                for port in row['ports']:
+                    self.assertTrue(port['name'])
+                    self.assertTrue(port['url'].startswith(('https://', 'http://')))
+                    self.assertIsInstance(port['platforms'], list)
                 for image in row['images']:
                     self.assertTrue(image['url'].startswith(('https://', 'http://', '/')))
         for project in catalog['projects'].values():
@@ -113,7 +122,9 @@ class ActivityTests(unittest.TestCase):
                 'consoles': {'ds': {'columns': ['Name', 'Project Type', 'Status'],
                                     'rows': [{'project': 'game', 'name_markdown': '[Game](https://github.com/o/r)',
                                               'images': [{'url': 'https://example.com/cover.png', 'alt': 'Game box art', 'width': 100}],
-                                              'project_type': 'Decompilation', 'notes_markdown': 'Completed'}]}}}
+                                              'project_type': 'Decompilation', 'notes_markdown': 'Completed',
+                                              'completion_percent': 80, 'completion_qualifier': '', 'completion_metric': 'completion',
+                                              'ports': [{'name': 'Browser port', 'url': 'https://example.com/play', 'platforms': ['Browser'], 'description_markdown': ''}]}]}}}
         original = json.dumps(data['consoles'], sort_keys=True)
         client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
         activity.refresh(data, client, NOW)

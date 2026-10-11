@@ -6,4 +6,6 @@
 Unverified; repository check unavailable;
 {%- elsif project.legacy_status -%}
 {{ project.legacy_status | escape }};
+{%- else -%}
+Not checked;
 {%- endif -%}
