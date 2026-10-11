@@ -34,11 +34,16 @@
   align-items: center;
   gap: 0;
   min-height: 36px;
-  padding: 4px 12px;
+  padding: 4px 12px 4px 20px;
   border-bottom: 1px solid var(--rr-color-content-border);
   background: var(--rr-color-main-bg);
   color: var(--rr-color-content-text);
   overflow: visible;
+}
+
+/* Let the open sidebar and its backdrop cover the section trail. */
+body.home-sidebar-open .rr-current-section-trail {
+  z-index: 996;
 }
 
 .rr-current-section-trail[hidden] {
