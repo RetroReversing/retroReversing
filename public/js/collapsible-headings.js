@@ -15,7 +15,8 @@
     }
 
     document.querySelectorAll('.rr-post-body').forEach(function (body) {
-      body.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function (heading) {
+      // Embedded cards and widgets have their own headings; only article sections collapse.
+      body.querySelectorAll(':scope > h1, :scope > h2, :scope > h3, :scope > h4, :scope > h5, :scope > h6').forEach(function (heading) {
         if (heading.classList.contains('rr-collapsible-heading')) return;
         var button = document.createElement('button');
         button.type = 'button';
