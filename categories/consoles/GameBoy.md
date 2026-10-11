@@ -109,7 +109,7 @@ If you want a more focused example of reversing a single Game Boy Color title, t
 Platform exclusives are often better long-term preservation targets because they are less likely to have cleaner ports or modern rereleases. These two category pages are simple discovery lists rather than technical references, but they are useful when you need candidate ROMs to investigate:
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="A discovery list of original DMG exclusives that can help you find titles which still depend on original Game Boy hardware." image="/public/NintendoGameBoyThumb.png" title="Original Game Boy Exclusive Games" %}
 
-{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="A discovery list of Game Boy Color exclusives, useful when you want GBC specific software targets rather than DMG compatible games." image="/public/consoles/Nintendo Game Boy Color.png" title="Game Boy Color Exclusive Games" %}
+{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="A discovery list of Game Boy Color exclusives, useful when you want GBC specific software targets rather than DMG compatible games." image="/public/consoles/Nintendo Game Boy Color.webp" title="Game Boy Color Exclusive Games" %}
 
 ---
 # Source Code

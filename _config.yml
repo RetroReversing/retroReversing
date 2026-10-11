@@ -75,199 +75,199 @@ disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
 category:
   "360":
     title: Microsoft Xbox 360
-    image: /public/consoles/Microsoft Xbox 360.png
+    image: /public/consoles/Microsoft Xbox 360.webp
   "32x":
     title: Sega 32X
-    image: /public/consoles/Sega 32X.png
+    image: /public/consoles/Sega 32X.webp
   "3d":
     title: 3D
-    image: /public/consoles/3d.png
+    image: /public/consoles/3d.webp
   "3do":
     title: Panasonic 3DO
-    image: /public/consoles/Panasonic 3DO.png
+    image: /public/consoles/Panasonic 3DO.webp
   "3ds":
     title: Nintendo 3DS
-    image: /public/consoles/Nintendo 3DS.png
+    image: /public/consoles/Nintendo 3DS.webp
   "amiga":
     title: Amiga
-    image: /public/consoles/Amiga.png
+    image: /public/consoles/Amiga.webp
   "amstrad_cpc":
     title: Amstrad CPC
-    image: /public/consoles/Amstrad CPC.png
+    image: /public/consoles/Amstrad CPC.webp
   "android":
     title: Android
-    image: /public/consoles/Android.png
+    image: /public/consoles/Android.webp
   "arcade":
     title: Arcade
-    image: /public/consoles/Arcade.png
+    image: /public/consoles/Arcade.webp
   "bookazines":
     title: Bookazines
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "cheatcartridge":
     title: Cheat Cartridge
-    image: /public/consoles/Hardware.png
+    image: /public/consoles/Hardware.webp
   "codemasters":
     title: Codemasters
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "colecovision":
     title: Colecovision
-    image: /public/consoles/Colecovision.png
+    image: /public/consoles/Colecovision.webp
   "cracking":
     title: Cracking
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "crossproducts":
     title: Cross Products
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "datel":
     title: Datel
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "devkit":
     title: Development Hardware
-    image: /public/consoles/Hardware.png
+    image: /public/consoles/Hardware.webp
   "disassemblers":
     title: Disassemblers
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "dos":
     title: DOS
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "dreamcast":
     title: Sega Dreamcast
-    image: /public/consoles/Sega Dreamcast.png
+    image: /public/consoles/Sega Dreamcast.webp
   "ds":
     title: Nintendo DS
-    image: /public/consoles/Nintendo DS.png
+    image: /public/consoles/Nintendo DS.webp
   "fairchild-channel-f":
     title: Fairchild Channel F
     image: /public/consoles/Fairchild Channel F.png
   "famicom_disk_system":
     title: Nintendo Famicom Disk System
-    image: /public/consoles/Nintendo Famicom Disk System.png
+    image: /public/consoles/Nintendo Famicom Disk System.webp
   "famicon":
     title: Nintendo Famicon
-    image: /public/consoles/Nintendo Famicon.png
+    image: /public/consoles/Nintendo Famicon.webp
   "fileformats":
     title: File Formats
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "gameboy":
     title: Nintendo Game Boy
-    image: /public/consoles/Nintendo Game Boy.png
+    image: /public/consoles/Nintendo Game Boy.webp
   "gamecom":
     title: Game.com
-    image: /public/consoles/GameCom.png
+    image: /public/consoles/GameCom.webp
   "gamecube":
     title: Nintendo Gamecube
-    image: /public/consoles/Nintendo Gamecube.png
+    image: /public/consoles/Nintendo Gamecube.webp
   "gameengines":
     title: Game Engines
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "gamegear":
     title: Sega Game Gear
-    image: /public/consoles/Sega Game Gear.png
+    image: /public/consoles/Sega Game Gear.webp
   "games":
     title: Games
-    image: /public/consoles/Games.png
+    image: /public/consoles/Games.webp
   "gba":
     title: Nintendo Game Boy Advance
-    image: /public/consoles/Nintendo Game Boy Advance.png
+    image: /public/consoles/Nintendo Game Boy Advance.webp
   "gbc":
     title: Nintendo Game Boy Color
-    image: /public/consoles/Nintendo Game Boy Color.png
+    image: /public/consoles/Nintendo Game Boy Color.webp
   "genesis":
     title: Sega Genesis
-    image: /public/consoles/Sega Genesis.png
+    image: /public/consoles/Sega Genesis.webp
   "ghidra":
     title: Ghidra
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "handhelds":
     title: Handhelds
     image: /public/consoles/Handhelds.png
   "hardware":
     title: Hardware
-    image: /public/consoles/Hardware.png
+    image: /public/consoles/Hardware.webp
   "incomplete":
     title: Incomplete
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "industry":
     title: Industry
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "intellivision":
     title: Intellivision
     image: /public/consoles/Intellivision.png
   "introduction":
     title: Introduction
-    image: /public/consoles/Introduction.png
+    image: /public/consoles/Introduction.webp
   "jaguar":
     title: Atari Jaguar
-    image: /public/consoles/Atari Jaguar.png
+    image: /public/consoles/Atari Jaguar.webp
   "atari":
     title: Atari
-    image: /public/consoles/Atari 2600.png
+    image: /public/consoles/Atari 2600.webp
   "leak":
     title: Leak
-    image: /public/consoles/Leaks.png
+    image: /public/consoles/Leaks.webp
   "lynx":
     title: Atari Lynx
-    image: /public/consoles/Atari Lynx.png
+    image: /public/consoles/Atari Lynx.webp
   "magazines":
     title: Magazines
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "mastersystem":
     title: Sega Master System
-    image: /public/consoles/Sega - Master System.png
+    image: /public/consoles/Sega - Master System.webp
   "maths":
     title: Maths
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "megadrive":
     title: Sega MegaDrive
-    image: /public/consoles/Sega Megadrive.png
+    image: /public/consoles/Sega Megadrive.webp
   "msx":
     title: MSX
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "n64":
     title: Nintendo 64
-    image: /public/consoles/Nintendo 64.png
+    image: /public/consoles/Nintendo 64.webp
   "pcengine":
     title: NEC PC Engine
-    image: /public/consoles/Nec PC Engine.png
+    image: /public/consoles/Nec PC Engine.webp
   "pcfx":
     title: NEC PC FX
-    image: /public/consoles/Nec PC FX.png
+    image: /public/consoles/Nec PC FX.webp
   "neogeo":
     title: SNK Neo-Geo
-    image: /public/consoles/SNK Neo-Geo.png
+    image: /public/consoles/SNK Neo-Geo.webp
   "nes":
     title: Nintendo Entertainment System
-    image: /public/consoles/Nintendo Entertainment System.png
+    image: /public/consoles/Nintendo Entertainment System.webp
   "news":
     title: News
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "pc-88":
     title: PC-88
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "pc":
     title: PC
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "philips_cdi":
     title: Philips CD-i
-    image: /public/consoles/Philips CD-i.png
+    image: /public/consoles/Philips CD-i.webp
   "pinball":
     title: Pinball
-    image: /public/consoles/Pinball.png
+    image: /public/consoles/Pinball.webp
   "pokemonmini":
     title: Pokemon Mini
-    image: /public/consoles/PokemonMini.png
+    image: /public/consoles/PokemonMini.webp
   "programming":
     title: Programming
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "ps1":
     title: Sony Playstation
-    image: /public/consoles/Sony Playstation.png
+    image: /public/consoles/Sony Playstation.webp
   "ps2":
     title: Sony PlayStation 2
-    image: /public/consoles/Sony PlayStation 2.png
+    image: /public/consoles/Sony PlayStation 2.webp
   "ps3":
     title: Sony Playstation 3
-    image: /public/consoles/Sony Playstation 3.png
+    image: /public/consoles/Sony Playstation 3.webp
   "ps4":
     title: Sony Playstation 4
     image: /public/consoles/Sony Playstation 4.png
@@ -276,70 +276,70 @@ category:
     image: /public/consoles/psp.svg
   "satellaview":
     title: Nintendo Satellaview
-    image: /public/consoles/Nintendo Satellaview.png
+    image: /public/consoles/Nintendo Satellaview.webp
   "saturn":
     title: Sega Saturn
-    image: /public/consoles/Sega Saturn.png
+    image: /public/consoles/Sega Saturn.webp
   "sdk":
     title: SDK
-    image: /public/consoles/SDK.png
+    image: /public/consoles/SDK.webp
   "segacd":
     title: SEGA CD
-    image: /public/consoles/SEGA CD.png
+    image: /public/consoles/SEGA CD.webp
   "sg1000":
     title: Sega SG-1000
-    image: /public/consoles/Sega SG-1000.png
+    image: /public/consoles/Sega SG-1000.webp
   "snes":
     title: Super Nintendo
-    image: /public/consoles/SNES-USA.png
+    image: /public/consoles/SNES-USA.webp
   "snsystems":
     title: SN Systems
-    image: /public/consoles/Magazine.png
+    image: /public/consoles/Magazine.webp
   "sourcecode":
     title: Source Code
-    image: /public/consoles/SourceCode.png
+    image: /public/consoles/SourceCode.webp
   "switch":
     title: Nintendo Switch
-    image: /public/consoles/Nintendo Switch.png
+    image: /public/consoles/Nintendo Switch.webp
   "symbols":
     title: Symbols
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "tools":
     title: Tools
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "turbografx16":
     title: TurboGrafx-16
-    image: /public/consoles/TurboGrafx-16.png
+    image: /public/consoles/TurboGrafx-16.webp
   "tutorial":
     title: Tutorial
-    image: /public/consoles/PC.png
+    image: /public/consoles/PC.webp
   "vectrex":
     title: GCE Vectrex
-    image: /public/consoles/GCE Vectrex.png
+    image: /public/consoles/GCE Vectrex.webp
   "virtualboy":
     title: Nintendo Virtual Boy
-    image: /public/consoles/Nintendo Virtual Boy.png
+    image: /public/consoles/Nintendo Virtual Boy.webp
   "vita":
     title: Vita
-    image: /public/consoles/Vita.png
+    image: /public/consoles/Vita.webp
   "wii":
     title: Nintendo Wii
-    image: /public/consoles/Nintendo Wii.png
+    image: /public/consoles/Nintendo Wii.webp
   "wiiu":
     title: Nintendo WiiU
-    image: /public/consoles/Nintendo WiiU.png
+    image: /public/consoles/Nintendo WiiU.webp
   "wonderswan":
     title: WonderSwan
-    image: /public/consoles/WonderSwan.png
+    image: /public/consoles/WonderSwan.webp
   "xbox":
     title: Microsoft Xbox
-    image: /public/consoles/Microsoft Xbox.png
+    image: /public/consoles/Microsoft Xbox.webp
   "xbox360":
     title: Microsoft Xbox 360
-    image: /public/consoles/Microsoft Xbox 360.png
+    image: /public/consoles/Microsoft Xbox 360.webp
   "zxspectrum":
     title: Sinclair ZX Spectrum
-    image: /public/consoles/Sinclair ZX Spectrum.png
+    image: /public/consoles/Sinclair ZX Spectrum.webp
 
 
 references:

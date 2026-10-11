@@ -6,7 +6,7 @@ recommend: xbox360
 recommendTitle: All Xbox 360 Posts
 editlink: ../categories/consoles/Xbox360.md
 category: xbox360
-consoleimage: /public/consoles/Microsoft Xbox 360.png
+consoleimage: /public/consoles/Microsoft Xbox 360.webp
 excerpt: Awesome list of Xbox 360 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

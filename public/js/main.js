@@ -746,7 +746,27 @@ document.addEventListener("DOMContentLoaded", function() {
           window.__rrLastDataTableTable = table;
           $table.DataTable({
             autoWidth: false,
-            deferRender: true
+            deferRender: true,
+            dom: '<"rr-table-toolbar"lf><"rr-table-scroll"t><"rr-table-footer"ip>',
+            language: {
+              lengthMenu: 'Rows: _MENU_',
+              search: '<span class="sr-only">Search this table:</span>',
+              searchPlaceholder: 'Search this table...',
+              info: '_START_-_END_ of _TOTAL_',
+              infoEmpty: '0 results',
+              infoFiltered: '(filtered from _MAX_)'
+            },
+            columnDefs: Array.from(table.querySelectorAll('thead th')).map(function (heading, index) {
+              var name = heading.textContent.trim();
+              return {
+                targets: index,
+                className: /^(hits|count|total)$/i.test(name) ? 'rr-table-number' : (/^date$/i.test(name) ? 'rr-table-date' : '')
+              };
+            }),
+            initComplete: function () {
+              var scroller = this.closest('.dataTables_wrapper').find('.rr-table-scroll');
+              scroller.attr({ tabindex: '0', role: 'region', 'aria-label': 'Scrollable data table' });
+            }
           });
         } catch (e) {
           // If a single table is malformed, don't break the rest of the page.

@@ -6,7 +6,7 @@ recommend: megadrive
 recommendTitle: All Mega Drive Posts
 editlink: ../categories/consoles/MegaDrive.md
 category: megadrive
-consoleimage: /public/consoles/Sega Megadrive.png
+consoleimage: /public/consoles/Sega Megadrive.webp
 excerpt: Awesome list of SEGA Mega Drive and Genesis Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -37,7 +37,7 @@ The Sega Mega Drive, also known as the Sega Genesis in North America, was a popu
 ## History of the Mega Drive
 **Sega Retro** has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly recommended that you read this before anything else:
 
-{% include link-to-other-site.html url="https://segaretro.org/History_of_the_Sega_Mega_Drive" description="Find out about the history of the SEGA Mega Drive in this excellent post" image="/public/consoles/Sega Megadrive.png" title="History of the Sega Mega Drive - Sega Retro"  %}
+{% include link-to-other-site.html url="https://segaretro.org/History_of_the_Sega_Mega_Drive" description="Find out about the history of the SEGA Mega Drive in this excellent post" image="/public/consoles/Sega Megadrive.webp" title="History of the Sega Mega Drive - Sega Retro"  %}
 
 ## How Sega bet against Reverse Engineering...and lost
 [Modern Vintage Gamer](https://www.youtube.com/watch?v=-aLfKnJAe0Y) has an excellent video about the history of reverse engineering on the Sega Genesis. It covers the technical and legal strategies used by Electronic Arts and Accolade to bypass the console's **TMSS** security chip, detailing how clean-room reverse engineering led to a landmark court ruling for software interoperability.

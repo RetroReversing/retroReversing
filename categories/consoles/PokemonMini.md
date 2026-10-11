@@ -138,7 +138,7 @@ The developer `Scylus` has created a brand new browser-based (javascript) Pokemo
 # Reverse Engineering Pokémon Mini games
 
 ## Pokémon Mini ROM disassembler - mindis2
-{% include link-to-other-site.html url="https://github.com/pokemon-mini/mindis2" description="Pokémon Mini ROM disassembler with support for the official S1C88 assembly language" title="mindis2 - Pokémon Mini ROM disassembler" image="http://www.retroreversing.com/public/consoles/PokemonMini.png"  %}
+{% include link-to-other-site.html url="https://github.com/pokemon-mini/mindis2" description="Pokémon Mini ROM disassembler with support for the official S1C88 assembly language" title="mindis2 - Pokémon Mini ROM disassembler" image="http://www.retroreversing.com/public/consoles/PokemonMini.webp"  %}
 
 --- 
 # ROM Hacking Pokémon Mini games

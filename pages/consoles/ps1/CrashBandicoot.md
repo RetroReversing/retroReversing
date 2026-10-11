@@ -93,7 +93,7 @@ This was in an era where bone animations in games were primitive and characters 
 ## CrashEdit - Level Editor
 CrashEdit is a modding tool developed by `cbhacks` to edit levels for the first 3 PS1 Crash Bandicoot games. It is being replaced by another tool called `DRNSF` but currently it has some features which are not available in the new tool yet.
 
-{% include link-to-other-site.html url="https://github.com/cbhacks/CrashEdit" description="To find out more about the level editor check out the projects Github page" image="/public/consoles/Sony Playstation.png" title="CrashEdit - Level Editor"  %}
+{% include link-to-other-site.html url="https://github.com/cbhacks/CrashEdit" description="To find out more about the level editor check out the projects Github page" image="/public/consoles/Sony Playstation.webp" title="CrashEdit - Level Editor"  %}
 
 
 ---
@@ -108,7 +108,7 @@ This would have to be done seamlessly to keep the framerate stable and the devel
 
 Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end Crash Bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
 
-{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimisations for Crash"  %}
+{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.webp" title="More Memory Optimisations for Crash"  %}
 
 ## Secret Code from Sony?
 Crash Bandicoot was a technical marvel boasting visuals so impressive that Naughty Dog were accused of being given secret libraries of code from Sony to make their game perform better than others [^1]!
