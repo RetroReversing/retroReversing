@@ -22,6 +22,7 @@
   --rr-color-content-link-hover: #006a91;
   --rr-color-content-border: #ececec;
   --rr-color-content-border-subtle: #e2e2e2;
+  --rr-color-section-menu-shadow: rgba(0, 0, 0, 0.16);
 
   /* Inline code */
   --rr-color-code-text: #0a3069;
@@ -190,6 +191,7 @@
     --rr-color-content-link-hover: #a8daf0;
     --rr-color-content-border: rgba(255, 255, 255, 0.12);
     --rr-color-content-border-subtle: rgba(255, 255, 255, 0.1);
+    --rr-color-section-menu-shadow: rgba(0, 0, 0, 0.45);
 
     --rr-color-code-text: #c9d7ff;
     --rr-color-code-bg: rgba(255, 255, 255, 0.08);
