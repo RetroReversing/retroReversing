@@ -10,7 +10,6 @@ recommend:
 recommendTitle: All GBA Posts
 editlink: ../categories/consoles/GameBoyAdvance.md
 category: gba
-consoleimage: /public/consoles/Nintendo%20Game%20Boy%20Advance.webp
 excerpt: Awesome list of GBA Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

@@ -3,7 +3,6 @@ permalink: /wonderswan
 layout: post
 category: wonderswan
 title: Wonderswan Reverse Engineering
-consoleimage: /public/consoles/Wonderswan.png
 image_: /public/images/Wonderswan.jpg
 twitterimage_: https://www.retroreversing.com/public/images/Wonderswan.jpg
 excerpt: Awesome list of Wonderswan Game Development and Reverse Engineering information

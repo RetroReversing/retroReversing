@@ -3,7 +3,6 @@ permalink: /nes
 layout: post
 category: nes
 title: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
-consoleimage: /public/consoles/Nintendo Entertainment System.webp
 image: /public/images/nes/NES Reversing.jpg
 twitterimage: https://www.retroreversing.com/public/images/nes/NES Reversing.jpg
 excerpt: Awesome list of Nintendo Game Development and Reverse Engineering information

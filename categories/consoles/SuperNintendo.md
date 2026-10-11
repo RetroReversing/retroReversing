@@ -3,7 +3,6 @@ permalink: /snes
 layout: post
 category: snes
 title: 'Super Nintendo (Super Famicom) - Reverse engineering & Modding'
-consoleimage: /public/consoles/Super Nintendo Entertainment System.webp
 recommend: snes
 recommendTitle: All SNES Posts
 editlink: ../categories/consoles/SuperNintendo.md

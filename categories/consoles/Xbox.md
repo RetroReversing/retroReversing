@@ -8,7 +8,6 @@ recommend: xbox
 recommendTitle: All Xbox Posts
 editlink: ../categories/consoles/Xbox.md
 category: xbox
-consoleimage: /public/consoles/Microsoft Xbox.webp
 excerpt: Awesome list of Xbox Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

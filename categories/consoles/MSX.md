@@ -8,7 +8,6 @@ recommend:
 recommendTitle: All MSX Posts
 editlink: ../categories/consoles/MSX.md
 category: 'msx'
-consoleimage: /public/consoles/Computer Old Design.webp
 excerpt: Awesome list of MSX Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

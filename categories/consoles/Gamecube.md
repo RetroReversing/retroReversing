@@ -6,7 +6,6 @@ recommend: gamecube
 recommendTitle: All GC Posts
 editlink: ../categories/consoles/Gamecube.md
 category: gamecube
-consoleimage: /public/consoles/Nintendo Gamecube.webp
 excerpt: Awesome list of Nintendo Gamecube Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

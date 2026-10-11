@@ -36,7 +36,6 @@ Useful/optional keys:
 * `recommendTitle:` e.g. `All WiiU Posts` (this titles the sidebar)
 * `recommend:` list of tags that should appear in the recommended sidebar
 * `redirect_from:` list of legacy permalinks you still want to support
-* `consoleimage:` for console hubs (used by search/cards in some views)
 * `image:` and `twitterimage:` only when you have a real hero image; otherwise omit
 
 ## Minimal starter template
