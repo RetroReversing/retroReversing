@@ -3,7 +3,7 @@ permalink: /nes
 layout: post
 category: nes
 title: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
-consoleimage: /public/consoles/Nintendo Entertainment System.png
+consoleimage: /public/consoles/Nintendo Entertainment System.webp
 image: /public/images/nes/NES Reversing.jpg
 twitterimage: https://www.retroreversing.com/public/images/nes/NES Reversing.jpg
 excerpt: Awesome list of Nintendo Game Development and Reverse Engineering information
@@ -69,7 +69,7 @@ We have a specific post covering all the NES development kits that we know about
 ## Retail NES Hardware
 If you're interested in learning more about the hardware architecture of the NES, we highly recommend checking out the post on **Copetti.org**. This website is dedicated to exploring the technical details of the NES hardware, including the CPU, PPU, and APU, as well as other components that make up the console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the NES.
 
-{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.png" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.webp" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
 
 ## Retail NES Cartridges (Custom chips, Mappers)
 Although all NES cartridges look similar from the outside apoart from a different sticker and maybe a different color cartridge casing, the internals can be vastly different from game to game.

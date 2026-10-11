@@ -9,7 +9,7 @@ recommend:
 recommendTitle: All SMS Posts
 editlink: ../categories/consoles/SegaMasterSystem.md
 category: mastersystem
-consoleimage: /public/consoles/Sega - Master System.png
+consoleimage: /public/consoles/Sega - Master System.webp
 excerpt: Awesome list of SEGA Master System Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

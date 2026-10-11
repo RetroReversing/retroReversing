@@ -5,7 +5,7 @@ title: Awesome list of DOS Game Development and Reverse Engineering information
 recommendTitle: All DOS Posts
 editlink: ../categories/consoles/DOS.md
 category: 'dos'
-consoleimage: /public/consoles/Computer Old Design.png
+consoleimage: /public/consoles/Computer Old Design.webp
 excerpt: Awesome list of DOS Game Development and Reverse Engineering information
 redirect_from:
  - /msdos

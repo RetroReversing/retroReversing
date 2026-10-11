@@ -3,7 +3,7 @@ permalink: /snes
 layout: post
 category: snes
 title: 'Super Nintendo (Super Famicom) - Reverse engineering & Modding'
-consoleimage: /public/consoles/Super Nintendo Entertainment System.png
+consoleimage: /public/consoles/Super Nintendo Entertainment System.webp
 recommend: snes
 recommendTitle: All SNES Posts
 editlink: ../categories/consoles/SuperNintendo.md
@@ -180,7 +180,7 @@ We have a post all about the hardware that was used to develop for the Super Nin
 ---
 ## Retail Console Hardware
 For an in-depth look at the SNES Retail hardware architecture check out the excellent post by **Copetti.org**:
-{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Super Nintendo Entertainment System.png" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Super Nintendo Entertainment System.webp" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
 
 ### Was the SNES backwards compatible with the NES?
 No, but it was intended to be during early development of the SNES which we found out thanks to an interview with **Masayuki Uemura** [^8]:

@@ -31,6 +31,7 @@ const RR_LOGO_IMAGE = path.join(ROOT_DIR, 'public', 'images', 'RetroReversingLog
 const RSVG_CONVERT_PATH = findExecutable('rsvg-convert');
 const IMAGE_MAGICK_CONVERT_PATH = findExecutable('convert');
 const IMAGE_MAGICK_PATH = findExecutable('magick');
+const DWEBP_PATH = findExecutable('dwebp');
 const SIPS_PATH = findExecutable('sips') || 'sips';
 const imageDimensionCache = new Map();
 
@@ -168,6 +169,23 @@ function fileToDataUri(filePath) {
     }
 
     const extension = path.extname(filePath).toLowerCase();
+    if (extension === '.webp') {
+        // Resvg does not decode embedded WebP images, so convert them in memory.
+        const converters = [
+            IMAGE_MAGICK_CONVERT_PATH && [IMAGE_MAGICK_CONVERT_PATH, [filePath, 'png:-']],
+            IMAGE_MAGICK_PATH && [IMAGE_MAGICK_PATH, [filePath, 'png:-']],
+            DWEBP_PATH && [DWEBP_PATH, [filePath, '-o', '-']]
+        ].filter(Boolean);
+        for (const [command, args] of converters) {
+            try {
+                const pngBuffer = execFileSync(command, args, { stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 20 * 1024 * 1024 });
+                return `data:image/png;base64,${pngBuffer.toString('base64')}`;
+            } catch (error) {
+                // Try the next available decoder.
+            }
+        }
+        throw new Error(`Cannot decode WebP image for thumbnail: ${filePath}`);
+    }
     const mimeTypeMap = {
         '.jpg': 'image/jpeg',
         '.jpeg': 'image/jpeg',

@@ -7,7 +7,7 @@ title: Sony Playstation Vita Reverse Engineering
 recommendTitle: All Vita Posts
 editlink: ../categories/consoles/Vita.md
 category: vita
-consoleimage: /public/consoles/Sony PSVita.png
+consoleimage: /public/consoles/Sony PSVita.webp
 excerpt: Awesome list of Sony Playstation Vita Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
