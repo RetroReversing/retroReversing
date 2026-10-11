@@ -10,6 +10,70 @@
 
 /* ------------------------------- */
 /* Start of CSS related to posts  */
+.rr-post-body {
+  display: contents;
+}
+
+@media not print {
+  .rr-section-hidden {
+    display: none !important;
+  }
+}
+
+.rr-collapsible-heading {
+  position: relative;
+  padding-left: 1.2em;
+  cursor: pointer;
+}
+
+.rr-heading-toggle {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0;
+  top: calc(50% + 0.05em);
+  transform: translateY(-50%);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--rr-color-heading);
+  font: inherit;
+  cursor: pointer;
+}
+
+.rr-heading-toggle::before {
+  content: '';
+  width: 0.25em;
+  height: 0.25em;
+  border-right: 0.08em solid var(--rr-color-heading);
+  border-bottom: 0.08em solid var(--rr-color-heading);
+  transform: translateY(-0.08em) rotate(45deg);
+}
+
+.rr-heading-toggle[aria-expanded="false"]::before {
+  transform: rotate(-45deg);
+}
+
+.rr-heading-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.rr-heading-toggle:focus-visible::before {
+  border-color: var(--rr-color-content-link);
+  border-width: 0.12em;
+}
+
+@media print {
+  .rr-heading-toggle {
+    display: none;
+  }
+}
+
 .container.post-container {
   max-width: 100vw !important;
   width: 95vw;

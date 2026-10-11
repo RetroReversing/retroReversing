@@ -28,7 +28,9 @@
               <div class="col-lg-9" style="padding-left: 0px;">
                 <div class="post post-single">
                   {% include posts/post-header.html %}
-                  {{ rendered_post_content }}
+                  <div class="rr-post-body">
+                    {{ rendered_post_content }}
+                  </div>
                 </div>
                 {% include_cached posts/post-footer.html tags=page.tags %}
               </div>
@@ -56,6 +58,7 @@
     {% assign has_twitter = true %}
   {% endif %}
   {% include_cached footer.html has_mermaid=has_mermaid has_twitter=has_twitter %}
+  <script defer src="{{ '/public/js/collapsible-headings.js' | relative_url }}"></script>
 
  
 </body>
