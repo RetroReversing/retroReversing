@@ -1,0 +1,19 @@
+{%- assign console = site.data.decompilations.consoles[include.console] -%}
+<table>
+  <thead>
+    <tr>
+      {% for column in console.columns %}<th>{{ column | escape }}</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in console.rows %}
+    <tr>
+      <td>{% for image in row.images %}<img src="{{ image.url | escape }}" alt="{{ image.alt | escape }}" width="{{ image.width | escape }}"> {% endfor %}{{ row.name_markdown | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+      <td>{{ row.project_type | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+      {% if console.columns.size == 4 %}<td>{{ row.mapper | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>{% endif %}
+      {% capture status %}{% include decomp-activity.html project=row.project %} {{ row.notes_markdown }}{% endcapture %}
+      <td>{{ status | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

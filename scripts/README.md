@@ -1,5 +1,23 @@
 # Scripts
-Node.js utilities for analyzing markdown files in the `categories/` and `pages/` directories.
+Utilities for maintaining site content and analyzing Markdown files.
+
+## update-decomp-activity.py
+Refresh repository activity in `_data/decompilations.json` using Python 3.9+ and the standard library. The catalog also supplies complete console tables, including artwork, links, project types, mapper values, and editorial notes. The page renders each table with `{% include decomp-table.html console="nintendo-ds" %}`. The include uses `_includes/decomp-activity.html` internally for activity labels.
+
+```bash
+python3 scripts/update-decomp-activity.py
+python3 scripts/update-decomp-activity.py --limit 20
+python3 scripts/update-decomp-activity.py --project project-ID --dry-run
+python3 -m unittest discover -s scripts/tests -p 'test_decomp_activity.py'
+```
+
+The script supports public GitHub, GitLab, and Codeberg repositories. Set `GITHUB_TOKEN`, `GITLAB_TOKEN`, or `CODEBERG_TOKEN` in the environment for authenticated requests; tokens are never stored in the catalog. GitHub's unauthenticated rate limit is small, so use a token for a full refresh. Each repository normally needs two requests, and shared repositories are checked once per run. `--project` accepts catalog IDs and can be repeated; `--limit` bounds distinct repositories; `--data` selects another catalog file.
+
+Activity uses the latest commit on the repository's default branch, including documentation and maintenance commits. Subdirectory links share repository-wide activity. Active means a commit within the preceding 12 calendar months; archived repositories and older commits are Inactive. `completion_status` is editorial data and is never inferred from activity. Failed requests retain the last successful date, URL, and status, record `check_error`, and display a warning on the page. Projects without successful evidence are Unverified. Rate limits stop the run; failed checks return a nonzero exit code while saving completed checks. Unsupported website links are retained in the catalog and skipped.
+
+To add a project, give it a unique ID under `projects` with `name`, `platforms`, `repository_url`, `project_type`, `completion_status`, `legacy_status`, and an empty `activity` object. Add a row to the relevant `consoles` entry referencing that ID in `project`. Each console has a display `name`, ordered `columns`, and ordered `rows`. Each row supplies `name_markdown` (including its project link), `images` (objects with `url`, `alt`, and `width`), `project_type`, `notes_markdown`, and an optional `mapper` for four-column tables. Markdown fields support existing inline links and formatting. Row display data stays separate from repository identity because several games can share one repository.
+
+`legacy_status` preserves an existing undated label until the first check; new projects can leave it null. Alternate ports and projects linked outside tables are also cataloged, but only console rows display activity. Add or edit images in JSON and verify them according to the contributing guide. The refresh script only updates activity fields and leaves table content intact. Review JSON changes before committing. The script does not commit, push, or schedule runs.
 
 ## check-metadata.js
 Finds markdown files missing specified frontmatter fields.
