@@ -86,6 +86,18 @@
     var trailHeadings = sections.map(function (section) { return section.heading; }).filter(function (heading) {
       return Number(heading.tagName.slice(1)) <= 3;
     });
+    var parentByHeading = new Map();
+    var ancestorByLevel = [];
+    trailHeadings.forEach(function (heading) {
+      var level = Number(heading.tagName.slice(1));
+      var parent = null;
+      for (var i = level - 2; i >= 0; i--) {
+        if (ancestorByLevel[i]) { parent = ancestorByLevel[i]; break; }
+      }
+      parentByHeading.set(heading, parent);
+      ancestorByLevel[level - 1] = heading;
+      ancestorByLevel.length = level;
+    });
     var post = document.querySelector('.post.post-single');
     var header = document.getElementById('header');
     if (!trailHeadings.length || !post || !header) return;
@@ -98,6 +110,32 @@
     var shown = [];
     var scheduled = false;
 
+    function headingAnchor(heading) {
+      if (!heading.id) {
+        var base = 'rr-section-' + (trailHeadings.indexOf(heading) + 1);
+        var id = base;
+        var suffix = 2;
+        while (document.getElementById(id)) id = base + '-' + (suffix++);
+        heading.id = id;
+      }
+      return '#' + encodeURIComponent(heading.id);
+    }
+
+    function closeMenus(except) {
+      trail.querySelectorAll('.rr-current-section-jump[open]').forEach(function (picker) {
+        if (picker !== except) picker.open = false;
+      });
+    }
+
+    function positionOpenMenu() {
+      var picker = trail.querySelector('.rr-current-section-jump[open]');
+      if (!picker) return;
+      var menu = picker.querySelector('.rr-current-section-menu');
+      var rect = picker.getBoundingClientRect();
+      menu.style.top = (rect.bottom + 8) + 'px';
+      menu.style.left = Math.max(12, Math.min(rect.left, window.innerWidth - menu.offsetWidth - 12)) + 'px';
+    }
+
     function updateTrail() {
       scheduled = false;
       var headerBottom = header.getBoundingClientRect().bottom;
@@ -106,11 +144,12 @@
       var trailHeight = trail.offsetHeight || 36;
       var visible = firstTop < headerBottom && postRect.bottom > headerBottom + trailHeight;
       trail.hidden = !visible;
-      if (!visible) return;
+      if (!visible) { closeMenus(); return; }
 
       trail.style.top = headerBottom + 'px';
       trail.style.left = postRect.left + 'px';
       trail.style.width = postRect.width + 'px';
+      positionOpenMenu();
 
       var active = [null, null, null];
       var cutoff = headerBottom + trail.offsetHeight + 8;
@@ -125,19 +164,64 @@
       shown = current;
       trail.replaceChildren();
       current.forEach(function (heading) {
-        if (!heading.id) {
-          var headingId = 'rr-section-' + (trailHeadings.indexOf(heading) + 1);
-          while (document.getElementById(headingId)) headingId += '-section';
-          heading.id = headingId;
-        }
+        var item = document.createElement('div');
+        item.className = 'rr-current-section-item';
         var link = document.createElement('a');
-        link.href = '#' + encodeURIComponent(heading.id);
+        link.href = headingAnchor(heading);
         link.className = 'rr-current-section-link';
         link.textContent = heading.textContent.trim();
         link.title = 'Jump to ' + link.textContent;
-        trail.appendChild(link);
+        item.appendChild(link);
+
+        var picker = document.createElement('details');
+        picker.className = 'rr-current-section-jump';
+        var level = Number(heading.tagName.slice(1));
+        var summary = document.createElement('summary');
+        summary.setAttribute('aria-label', 'Jump to another H' + level + ' section');
+        summary.title = 'Jump to another H' + level + ' section';
+        picker.appendChild(summary);
+        var menu = document.createElement('div');
+        menu.className = 'rr-current-section-menu';
+        var menuHeading = document.createElement('div');
+        menuHeading.className = 'rr-current-section-menu-heading';
+        menuHeading.textContent = 'Jump to an H' + level + ' section';
+        menu.appendChild(menuHeading);
+        var list = document.createElement('ul');
+        list.className = 'rr-current-section-options';
+        trailHeadings.forEach(function (candidate) {
+          if (candidate.tagName !== heading.tagName || parentByHeading.get(candidate) !== parentByHeading.get(heading)) return;
+          var entry = document.createElement('li');
+          var option = document.createElement('a');
+          option.className = 'rr-current-section-option';
+          option.href = headingAnchor(candidate);
+          option.textContent = candidate.textContent.trim();
+          if (candidate === heading) option.setAttribute('aria-current', 'location');
+          option.addEventListener('click', function () { picker.open = false; });
+          entry.appendChild(option);
+          list.appendChild(entry);
+        });
+        menu.appendChild(list);
+        picker.appendChild(menu);
+        picker.addEventListener('toggle', function () {
+          if (!picker.open) return;
+          closeMenus(picker);
+          positionOpenMenu();
+        });
+        item.appendChild(picker);
+        trail.appendChild(item);
       });
     }
+
+    document.addEventListener('click', function (event) {
+      if (!trail.contains(event.target)) closeMenus();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key !== 'Escape') return;
+      var picker = trail.querySelector('.rr-current-section-jump[open]');
+      if (!picker) return;
+      picker.open = false;
+      picker.querySelector('summary').focus();
+    });
 
     function scheduleTrail() {
       if (scheduled) return;
