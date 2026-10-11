@@ -1,0 +1,83 @@
+.rr-file-lab-saturn-prog {
+  height: 100%;
+  overflow: auto;
+  padding: 12px 14px 20px;
+  color: var(--rr-color-content-text);
+  font-size: 13px;
+}
+
+.rr-file-lab-saturn-prog h3 {
+  margin: 0 0 6px;
+  color: var(--rr-color-heading);
+  font-size: 16px;
+}
+
+.rr-file-lab-saturn-prog p {
+  margin: 0 0 8px;
+}
+
+.rr-file-lab-saturn-prog code {
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-prog-section {
+  margin-top: 16px;
+}
+
+.rr-file-lab-saturn-prog-section h3 {
+  font-size: 14px;
+}
+
+.rr-file-lab-saturn-prog-fields {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-prog-fields th,
+.rr-file-lab-saturn-prog-fields td {
+  text-align: left;
+  padding: 4px 8px 4px 0;
+  border-bottom: 1px solid var(--rr-color-content-border);
+  vertical-align: top;
+}
+
+.rr-file-lab-saturn-prog-fields th {
+  color: var(--rr-color-meta);
+  font-weight: 600;
+}
+
+.rr-file-lab-saturn-prog-asm-hint,
+.rr-file-lab-saturn-prog-sources {
+  color: var(--rr-color-meta);
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-prog-asm-mount {
+  height: 320px;
+  border: 1px solid var(--rr-color-content-border);
+  border-radius: 6px;
+  background: var(--rr-color-pre-bg);
+}
+
+.rr-file-lab-saturn-prog-asm-mount .rr-file-lab-virtual-root,
+.rr-file-lab-saturn-prog-asm-mount .rr-file-lab-virtual-scroll {
+  height: 100%;
+}
+
+.rr-file-lab-saturn-prog-asm-row {
+  display: grid;
+  grid-template-columns: 6.5em 3.5em 1fr;
+  gap: 8px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 8px;
+  white-space: nowrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+}
+
+.rr-file-lab-saturn-prog-asm-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
