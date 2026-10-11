@@ -29,7 +29,7 @@
 {% comment %}Wasmer/r2wasm need SharedArrayBuffer; root COI worker is required for the in-page modal.{% endcomment %}
 <script>
   window.coi = {
-    coepCredentialless: function () { return true; }
+    coepCredentialless: function () { return false; }
   };
 </script>
 <script src="{{ '/coi-serviceworker.min.js' | relative_url }}"></script>
