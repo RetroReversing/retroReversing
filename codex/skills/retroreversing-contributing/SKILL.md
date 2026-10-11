@@ -38,6 +38,9 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * Add explicit anchors like `<a id="glossary-foo"></a>` so in-page links are stable.
    * Link the first meaningful mention per section, not every occurrence.
 7) Links and references:
+   * Never place two `link-to-other-post.html` or `link-to-other-site.html` cards directly after each other. This includes mixed card types and both `include` and `include_cached` calls.
+   * Separate cards with meaningful article content. Blank lines, comments, headings, and horizontal rules alone do not count; do not add filler text to satisfy the rule.
+   * For grouped resources, use inline links in cohesive prose, an introduced list, or a table instead of stacking cards. Check card placement before finishing a content edit.
    * Use footnotes for citations under an H1 `# References` at the end.
    * If a footnote is at sentence end: put it before the period (`text [^1].`).
    * If the prose is talking about a specific external site, article, tool page, archive, or other resource, link the name or descriptive phrase directly in the body text.

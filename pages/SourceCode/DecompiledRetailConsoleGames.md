@@ -40,8 +40,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Nintendo Entertainment System (NES)
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/nes" description="The NES page covers Famicom and NES hardware, development kits, and reversing posts." %}
-{% include_cached link-to-other-post.html post="/super-mario-bros" description="A dedicated page walks through reversing Super Mario Bros. on the NES." %}
+The [NES guide](/nes) covers Famicom and NES hardware, development kits, and reversing. A [Super Mario Bros. walkthrough](/super-mario-bros) examines reversing that game.
 
 Name | Project Type | Mapper | Status
 --- | --- | --- | ---
@@ -89,9 +88,7 @@ Name | Project Type | Mapper | Status
 ## Super Nintendo (SNES)
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/snes" description="The Super Nintendo page covers Super Famicom hardware, SDKs, and reversing posts." %}
-{% include_cached link-to-other-post.html post="/yoshis-island-source-code" description="The original Yoshi's Island source from the Gigaleak is covered on its own page." %}
-{% include_cached link-to-other-post.html post="/zelda-a-link-to-the-past-source-code" description="The original A Link to the Past source from the Gigaleak is covered on its own page." %}
+The [SNES guide](/snes) covers Super Famicom hardware, SDKs, and reversing. Original source code from the Gigaleak is covered separately for [Yoshi's Island](/yoshis-island-source-code) and [A Link to the Past](/zelda-a-link-to-the-past-source-code).
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -117,9 +114,7 @@ Name | Project Type | Status / Ports
 ## Nintendo 64
 Recently, mainly in thanks to the huge success of the [Super Mario 64](/super-mario-64) project, there has been revived interest in [Nintendo 64](/n64) decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
 
-{% include_cached link-to-other-post.html post="/n64" description="The Nintendo 64 page covers the console, SDK, and reversing introduction." %}
-{% include_cached link-to-other-post.html post="/super-mario-64" description="Super Mario 64, including the decompilation effort, is covered on its own page." %}
-{% include_cached link-to-other-post.html post="/mario-kart-64" description="Mario Kart 64 is covered on its own page." %}
+The [Nintendo 64 guide](/n64) covers the console, SDK, and reversing introduction. Dedicated game pages cover the [Super Mario 64 decompilation](/super-mario-64) and [Mario Kart 64](/mario-kart-64).
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -197,7 +192,7 @@ Name | Project Type | Status / Ports
 ## Nintendo GameCube
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/gamecube" description="The GameCube page covers Dolphin hardware, the development kit, and related posts." %}
+The [GameCube guide](/gamecube) covers Dolphin hardware, the development kit, and reversing.
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -245,7 +240,7 @@ Name | Project Type | Status / Ports
 ## Nintendo Wii
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/wii" description="The Wii page covers Hollywood hardware, the development kit, and related posts." %}
+The [Wii guide](/wii) covers Revolution SDKs and reversing.
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -271,17 +266,15 @@ Name | Project Type | Status / Ports
 ---
 ## Nintendo Switch
 Switch file formats and eShop engines are documented on their own pages.
-{% include_cached link-to-other-post.html post="/SwitchFileFormats" description="Nintendo Switch file formats are documented here." %}
-{% include_cached link-to-other-post.html post="/SwitchGameEngines" description="Game engines used in Switch eShop titles are documented here." %}
+The [Switch file-format guide](/SwitchFileFormats) documents Nintendo Switch formats. The [Switch game-engine guide](/SwitchGameEngines) covers engines used in eShop titles.
 
-### Super Mario 3D World + Bowser's Fury
-{% include link-to-other-site.html url="https://github.com/3DWCommunity/3dcomp" description="Active, 3% Done" image="https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg" title="A decompilation of Super Mario 3D World + Bowser's Fury"  %}
+The table below lists Nintendo Switch reverse-engineering projects and native ports.
 
-### Super Mario Odyssey
-{% include link-to-other-site.html url="https://github.com/MonsterDruide1/OdysseyDecomp" description="Active, 15% Done" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
-
-### The Legend of Zelda: Breath of the Wild
-{% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Active, 17% Done" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of The Legend of Zelda: Breath of the Wild"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg){:width="100"} [Super Mario 3D World + Bowser's Fury](https://github.com/3DWCommunity/3dcomp) | Decompilation | Active, 3% Done
+![](https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg){:width="100"} [Super Mario Odyssey](https://github.com/MonsterDruide1/OdysseyDecomp) | Decompilation | Active, 15% Done
+![](https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg){:width="100"} [The Legend of Zelda: Breath of the Wild](https://github.com/zeldaret/botw) | Decompilation | Active, 17% Done
 
 ---
 # Nintendo Handhelds
@@ -289,8 +282,7 @@ Switch file formats and eShop engines are documented on their own pages.
 ## Game Boy
 The following table presents the latest updates on ongoing Game Boy reverse engineering projects.
 
-{% include_cached link-to-other-post.html post="/gameboy" description="The Game Boy page covers DMG and GBC hardware, SDKs, and reversing posts." %}
-{% include_cached link-to-other-post.html post="/pokemonredblue" description="A dedicated page covers reversing Pokemon Red and Blue." %}
+The [Game Boy guide](/gameboy) covers DMG and GBC hardware, SDKs, and reversing. A dedicated page covers [Pokemon Red and Blue](/pokemonredblue).
 
 Name | Project Type
 | ---- | ---- |
@@ -309,7 +301,7 @@ Name | Project Type
 ## Game Boy Color
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/gameboy" description="Game Boy Color shares the Game Boy page, which also covers the GBC boot ROM and SDK material." %}
+The [Game Boy guide](/gameboy) covers DMG and GBC hardware, SDKs, and reversing. A dedicated page covers [Pokemon Red and Blue](/pokemonredblue).
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -328,7 +320,7 @@ Name | Project Type | Status / Ports
 ## Game Boy Advance
 The table below lists the relevant entries. The [pret project directory](https://pret.github.io/) links to further Pokemon decompilation and disassembly projects.
 
-{% include_cached link-to-other-post.html post="/gba" description="The Game Boy Advance page covers the console, SDK, and related reversing posts." %}
+The [Game Boy Advance guide](/gba) covers the console, SDK, and reversing.
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -356,53 +348,34 @@ Name | Project Type | Status / Ports
 
 ---
 ## Nintendo DS
-Decompiled Nintendo DS projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/ds" description="The Nintendo DS page covers Nitro hardware, the NITRO SDK, and related posts." %}
+The [Nintendo DS guide](/ds) covers Nitro hardware, the NITRO SDK, and development.
 
-### Castlevania: Order of Ecclesia
-{% include link-to-other-site.html url="https://github.com/lagolunatic/ooe" description="This is a decompilation of Castlevania: Order of Ecclesia." image="https://static.wikia.nocookie.net/nintendo/images/b/ba/Castlevania_Order_of_Ecclesia_%28NA%29.jpg" title="Decompilation of Castlevania: Order of Ecclesia"  %}
+The table below lists Nintendo DS reverse-engineering projects and native ports.
 
-### Dragon Quest IX
-{% include link-to-other-site.html url="https://github.com/dqix/dqix-decomp" description="This is a decompilation of Dragon Quest IX." image="https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png" title="Decompilation of Dragon Quest IX"  %}
-
-### Mario & Luigi - Partners in Time
-{% include link-to-other-site.html url="https://github.com/rainchus/partnersintime-decomp" description="This is a decompilation of Mario & Luigi - Partners in Time." image="https://static.wikia.nocookie.net/nintendo/images/c/c3/Mario_%26_Luigi_-_Partners_in_Time_%28NA%29.png" title="Decompilation of Mario & Luigi - Partners in Time"  %}
-
-### Mario Party DS
-{% include link-to-other-site.html url="https://github.com/mariopartyrd/mariopartyds" description="This is a decompilation of Mario Party DS." image="https://static.wikia.nocookie.net/nintendo/images/3/38/Mario_Party_DS_%28NA%29.png" title="Decompilation of Mario Party DS"  %}
-
-### Pokemon Diamond and Pearl
-{% include link-to-other-site.html url="https://github.com/pret/pokediamond" description="This is a decompilation of Pokémon Diamond/Pearl." image="https://upload.wikimedia.org/wikipedia/en/2/2e/PokemonDiamondPearlBoxArt.jpg" title="Decompilation of Pokémon Diamond/Pearl"  %}
-
-### Pokemon HeartGold and SoulSilver
-{% include link-to-other-site.html url="https://github.com/pret/pokeheartgold" description="This is a decompilation of Pokémon HeartGold/SoulSilver." image="https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg" title="Decompilation of Pokémon HeartGold/SoulSilver"  %}
-
----
-### Pokemon Platinum
-{% include link-to-other-site.html url="https://github.com/cybervisi0n/pokeplatinum" title="Pokemon Platinum native-port project" description="Native-port fork of the Pokemon Platinum decompilation." image="https://opengraph.githubassets.com/1/cybervisi0n/pokeplatinum" %}
-
-### Rhythm Heaven (Gold)
-{% include link-to-other-site.html url="https://github.com/patataofcourse/rhgold" description="This is a decompilation of Rhythm Heaven." image="https://upload.wikimedia.org/wikipedia/en/3/38/RhythmHeaven.PNG" title="Decompilation of Rhythm Heaven"  %}
-
-### The Legend of Zelda: Phantom Hourglass
-{% include link-to-other-site.html url="https://github.com/zeldaret/ph" description="This is a decompilation of The Legend of Zelda: Phantom Hourglass." image="https://static.wikia.nocookie.net/nintendo/images/6/6b/Legend_of_Zelda_Phantom_Hourglass_%28NA%29.jpg" title="Decompilation of The Legend of Zelda: Phantom Hourglass"  %}
-
-### The Legend of Zelda: Spirit Tracks
-{% include link-to-other-site.html url="https://github.com/yanis002/st" description="This is a decompilation of The Legend of Zelda: Spirit Tracks." image="https://static.wikia.nocookie.net/nintendo/images/0/0f/Legend_of_Zelda_Spirit_Tracks_%28NA%29.png" title="Decompilation of The Legend of Zelda: Spirit Tracks"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://static.wikia.nocookie.net/nintendo/images/b/ba/Castlevania_Order_of_Ecclesia_%28NA%29.jpg){:width="100"} [Castlevania: Order of Ecclesia](https://github.com/lagolunatic/ooe) | Decompilation | This is a decompilation of Castlevania: Order of Ecclesia.
+![](https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png){:width="100"} [Dragon Quest IX](https://github.com/dqix/dqix-decomp) | Decompilation | This is a decompilation of Dragon Quest IX.
+![](https://static.wikia.nocookie.net/nintendo/images/c/c3/Mario_%26_Luigi_-_Partners_in_Time_%28NA%29.png){:width="100"} [Mario & Luigi - Partners in Time](https://github.com/rainchus/partnersintime-decomp) | Decompilation | This is a decompilation of Mario & Luigi - Partners in Time.
+![](https://static.wikia.nocookie.net/nintendo/images/3/38/Mario_Party_DS_%28NA%29.png){:width="100"} [Mario Party DS](https://github.com/mariopartyrd/mariopartyds) | Decompilation | This is a decompilation of Mario Party DS.
+![](https://upload.wikimedia.org/wikipedia/en/2/2e/PokemonDiamondPearlBoxArt.jpg){:width="100"} [Pokemon Diamond and Pearl](https://github.com/pret/pokediamond) | Decompilation | This is a decompilation of Pokémon Diamond/Pearl.
+![](https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg){:width="100"} [Pokemon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold) | Decompilation | This is a decompilation of Pokémon HeartGold/SoulSilver.
+![](https://opengraph.githubassets.com/1/cybervisi0n/pokeplatinum){:width="100"} [Pokemon Platinum](https://github.com/cybervisi0n/pokeplatinum) | Native port | Native-port fork of the Pokemon Platinum decompilation.
+![](https://upload.wikimedia.org/wikipedia/en/3/38/RhythmHeaven.PNG){:width="100"} [Rhythm Heaven (Gold)](https://github.com/patataofcourse/rhgold) | Decompilation | This is a decompilation of Rhythm Heaven.
+![](https://static.wikia.nocookie.net/nintendo/images/6/6b/Legend_of_Zelda_Phantom_Hourglass_%28NA%29.jpg){:width="100"} [The Legend of Zelda: Phantom Hourglass](https://github.com/zeldaret/ph) | Decompilation | This is a decompilation of The Legend of Zelda: Phantom Hourglass.
+![](https://static.wikia.nocookie.net/nintendo/images/0/0f/Legend_of_Zelda_Spirit_Tracks_%28NA%29.png){:width="100"} [The Legend of Zelda: Spirit Tracks](https://github.com/yanis002/st) | Decompilation | This is a decompilation of The Legend of Zelda: Spirit Tracks.
 
 ---
 ## Nintendo 3DS
-Decompiled Nintendo 3DS projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/3ds" description="The Nintendo 3DS page covers Citrus hardware and the development kit." %}
+The [Nintendo 3DS guide](/3ds) covers the handheld, development kits, and reversing.
 
-### Paper Mario: Sticker Star
-{% include link-to-other-site.html url="https://github.com/darxoon/leaflitter" description="This is a decompilation of Paper Mario: Sticker Star." image="https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png" title="Paper Mario: Sticker Star Decompilation"  %}
+The table below lists Nintendo 3DS reverse-engineering projects and native ports.
 
-### Super Mario 3D Land (EU)
-{% include link-to-other-site.html url="https://github.com/3dsdecomp/RedPepper" description="This is a decompilation of the EU version of Super Mario 3D Land." image="https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg" title="Super Mario 3D Land EU Decompilation"  %}
-
-### The Legend of Zelda: Ocarina of Time 3D
-{% include link-to-other-site.html url="https://github.com/zeldaret/oot3d" description="This is a decompilation of The Legend of Zelda: Ocarina of Time 3D." image="https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png" title="The Legend of Zelda: Ocarina of Time 3D Decompilation"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png){:width="100"} [Paper Mario: Sticker Star](https://github.com/darxoon/leaflitter) | Decompilation | This is a decompilation of Paper Mario: Sticker Star.
+![](https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg){:width="100"} [Super Mario 3D Land (EU)](https://github.com/3dsdecomp/RedPepper) | Decompilation | This is a decompilation of the EU version of Super Mario 3D Land.
+![](https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png){:width="100"} [The Legend of Zelda: Ocarina of Time 3D](https://github.com/zeldaret/oot3d) | Decompilation | This is a decompilation of The Legend of Zelda: Ocarina of Time 3D.
 
 ---
 # Sega Systems
@@ -417,25 +390,28 @@ Sega is similar to Nintendo in that most of the games that people are interested
 ## Sega CD
 
 ### Shining Force CD
-{% include link-to-other-site.html url="https://github.com/ShiningForceCentral/SFCDDISASM" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Shining_Force_CD.jpg" title="A disassembly of the game Shining Force CD"  %}
+[ShiningForceCentral's disassembly](https://github.com/ShiningForceCentral/SFCDDISASM) reconstructs Shining Force CD.
+
+![](https://upload.wikimedia.org/wikipedia/en/f/f5/Shining_Force_CD.jpg){:width="100"}
 
 ---
 ## Sega Master System
 Although the Sega Master System was hugely popular in Europe, it can't compete with the NES for number of disassembled projects created so far.
 
-{% include_cached link-to-other-post.html post="/mastersystem" description="The Master System page covers the console and its development hardware." %}
+The [Master System guide](/mastersystem) covers the console, development, and reversing.
 
-### Phantasy Star
-{% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="Incomplete Phantasy Star Disassembly for Sega Master System from SonicRetro. It uses the wla-z80 assembler to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
+The table below lists Sega Master System disassembly projects.
 
-### Sonic 2
-{% include link-to-other-site.html url="https://github.com/sonicretro/s2smsdisasm" description="Sonic 2 for the Sega Master System Incomplete Disassembly from SonicRetro. It uses the wla-z80 assembler to build the ROM." image="https://greenhillszone.files.wordpress.com/2011/03/sonic_the_hedgehog_2_8-bit.png" title="Sonic 2 SMS Disassembly"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png){:width="100"} [Phantasy Star](https://github.com/lory90/ps1disasm) | Disassembly | Incomplete Phantasy Star Disassembly for Sega Master System from SonicRetro. It uses the wla-z80 assembler to build the ROM
+![](https://greenhillszone.files.wordpress.com/2011/03/sonic_the_hedgehog_2_8-bit.png){:width="100"} [Sonic 2](https://github.com/sonicretro/s2smsdisasm) | Disassembly | Sonic 2 for the Sega Master System Incomplete Disassembly from SonicRetro. It uses the wla-z80 assembler to build the ROM.
 
 ---
 ## Sega Mega Drive
 The Sega Mega Drive was Sega's most popular console in terms of games developed, and as such it also seems to be the most popular for reverse engineering projects too.
 
-{% include_cached link-to-other-post.html post="/megadrive" description="The Mega Drive page covers Genesis hardware, the SDK, and related posts." %}
+The [Mega Drive guide](/megadrive) covers Genesis development and reversing.
 
 Name | Project Type
 ---- | ----
@@ -455,21 +431,21 @@ Name | Project Type
 ---
 ## Sega Game Gear (GG)
 Decompiled Game Gear projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/gamegear" description="The Game Gear page covers the handheld and its development hardware." %}
+The [Game Gear guide](/gamegear) covers the handheld and its development hardware.
 
 ### Sonic 1
 {% include link-to-other-site.html url="https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly" description="" image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear" %}
 
 ---
 ## Sega Dreamcast (DC)
-Decompiled Dreamcast projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/dreamcast" description="The Dreamcast page covers Katana hardware, the SDK, and related posts." %}
+The [Dreamcast guide](/dreamcast) covers Katana hardware, the SDK, and development.
 
-### Sonic Adventure
-{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+The table below lists Sega Dreamcast (DC) reverse-engineering projects and native ports.
 
-### Tokyo Bus Guide
-{% include link-to-other-site.html url="https://github.com/lhsazevedo/tbg-decomp" description="This is a decompilation of Tokyo Bus Guide for the Dreamcast." image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/dreamcast/dc_tokyobusguide_jp_thumb.jpg" title="Tokyo Bus Guide Decompilation"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG){:width="100"} [Sonic Adventure](https://github.com/sonicretro/sad_disasm) | Disassembly | Very early disassembly of Sonic Adventure for the Dreamcast.
+![](https://coverproject.sfo2.cdn.digitaloceanspaces.com/dreamcast/dc_tokyobusguide_jp_thumb.jpg){:width="100"} [Tokyo Bus Guide](https://github.com/lhsazevedo/tbg-decomp) | Decompilation | This is a decompilation of Tokyo Bus Guide for the Dreamcast.
 
 ---
 ## Sega Model 2 Arcade 
@@ -484,8 +460,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ## PlayStation 1
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/ps1" description="The PlayStation 1 page covers PSX hardware, PSY-Q, and related posts." %}
-{% include_cached link-to-other-post.html post="/crash-bandicoot" description="Crash Bandicoot, including how the game was built, is covered on its own page." %}
+The [PlayStation guide](/ps1) covers PSX hardware and PSY-Q. A dedicated page covers [Crash Bandicoot and its development](/crash-bandicoot).
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -527,66 +502,29 @@ Name | Project Type | Status / Ports
 
 ---
 ## PlayStation 2
-Decompiled PlayStation 2 projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/ps2" description="The PlayStation 2 page covers the console, SDK, and development hardware." %}
+The [PlayStation 2 guide](/ps2) covers the console, SDK, and development hardware.
 
-### Dark Cloud
-{% include link-to-other-site.html url="https://github.com/adubbz/dcdecomp" description="Decompilation project for Dark Cloud." image="https://static.wikia.nocookie.net/darkcloud/images/b/b1/Dark_Cloud_front_cover.png/revision/latest?cb=20190201005021" title="Decompilation project for Dark Cloud for the PS2"  %}
+The table below lists PlayStation 2 reverse-engineering projects and native ports.
 
-### Fatal Frame 1
-{% include link-to-other-site.html url="https://github.com/Mikompilation/Himuro" description="Decompilation project for Fatal Frame 1." image="https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png" title="Decompilation project for Fatal Frame 1 for the PS2"  %}
-
-### Fatal Frame 2
-{% include link-to-other-site.html url="https://github.com/Mikompilation/Minakami" description="Decompilation project for Fatal Frame 2." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for Fatal Frame 2: Crimson Butterfly for the PS2"  %}
-
----
-### Grand Theft Auto III and Vice City
-{% include link-to-other-site.html url="https://github.com/Cai1Hsu/re3" title="Reverse-engineered Grand Theft Auto III and Vice City source" description="Grand Theft Auto III and Grand Theft Auto: Vice City reverse-engineered PC source." image="https://opengraph.githubassets.com/1/Cai1Hsu/re3" %}
-
-### Ico
-{% include link-to-other-site.html url="https://github.com/rossydoubleunderscore/ico-decomp" description="This is a decompilation project for Ico for the PS2." image="https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg" title="Decompilation project for Ico for the PS2"  %}
-
-### Jak and Daxter 1-3
-{% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="OpenGOAL reconstructs the GOAL language and provides native PC ports of Jak and Daxter, Jak II and Jak 3." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
-
-[OpenGOAL](https://opengoal.dev/) provides setup instructions and documentation for the first three Jak games.
-
----
-### Kingdom Hearts
-{% include link-to-other-site.html url="https://github.com/ethteck/kh1" description="We're currently just targeting the main game executable, which is an elf file SLPS_251.05 with sha1 9dabbf867a7ec2a030df99ba1ed969f2deef0488." image="https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg" title="Decompilation of the first japanese version of Kingdom Hearts for PS2"  %}
-
-### Klonoa 2: Lunatea's Veil
-{% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
-
-### Metal Gear Solid 2: Sons of Liberty
-{% include link-to-other-site.html url="https://github.com/GirianSeed/mgs2" description="Decompilation project for Metal Gear Solid 2: Sons of Liberty for the PS2." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg" title="Decompilation project for Metal Gear Solid 2: Sons of Liberty for the PS2"  %}
-
----
-### Monster Hunter
-{% include link-to-other-site.html url="https://github.com/2Tie/mh1j" title="Monster Hunter decompilation for PlayStation 2" description="Reconstruction of the Japanese PlayStation 2 release." image="https://opengraph.githubassets.com/1/2Tie/mh1j" %}
-
-### PaRappa the Rapper 2
-{% include link-to-other-site.html url="https://github.com/parappadev/parappa2" description="Decompilation project for PaRappa the Rapper 2 (NTSC-J). " image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation project for PaRappa the Rapper 2 for the PS2"  %}
-
-### Resident Evil - Code: Veronica X
-{% include link-to-other-site.html url="https://github.com/fmil95/recvx-decomp" description="Decompilation project for Resident Evil - Code: Veronica X for the PS2." image="https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg" title="Decompilation project for Resident Evil - Code: Veronica X for the PS2"  %}
-
-### Sly Cooper and the Thievius Raccoonus
-{% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
-
-### Street Fighter III: 3rd Strike
-{% include link-to-other-site.html url="https://github.com/crowded-street/3s-decomp" description="This is a completed decompilation project for Street Fighter III: 3rd Strike for the PS2." image="https://upload.wikimedia.org/wikipedia/fr/c/c2/Street_Fighter_III_3rd_Strike_Fight_for_the_Future_Logo.png" title="Completed decompilation project for Street Fighter III: 3rd Strike for the PS2"  %}
-
-[3SXW](https://github.com/guimaraf/3sxw) is an enhanced PC-port fork based on the PlayStation 2 decompilation.
-
-### Twisted Metal: Black
-{% include link-to-other-site.html url="https://github.com/abelbriggs1/tmb_decomp" description="This is a decompilation project for Twisted Metal: Black for the PS2." image="https://upload.wikimedia.org/wikipedia/en/9/9e/Twisted_Metal_Black.jpg" title="Decompilation project for Twisted Metal: Black for the PS2"  %}
-
-### Xenosaga Episode 1 - Der Wille zur Macht
-{% include link-to-other-site.html url="https://github.com/squareman/xenosaga" description="This is a decompilation project for Xenosaga Episode 1 - Der Wille zur Macht for the PS2." image="https://static.wikia.nocookie.net/xenosaga/images/4/4e/XS1.png" title="Decompilation project for Xenosaga Episode 1 - Der Wille zur Macht for the PS2."  %}
-
-### Yakuza
-{% include link-to-other-site.html url="https://github.com/hamzaxx370/ogre-decomp" description="This is a decompilation project for Yakuza for the PS2." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Yakuza-sega.jpg" title="Decompilation project for Yakuza for the PS2"  %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://static.wikia.nocookie.net/darkcloud/images/b/b1/Dark_Cloud_front_cover.png/revision/latest?cb=20190201005021){:width="100"} [Dark Cloud](https://github.com/adubbz/dcdecomp) | Decompilation | Decompilation project for Dark Cloud.
+![](https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png){:width="100"} [Fatal Frame 1](https://github.com/Mikompilation/Himuro) | Decompilation | Decompilation project for Fatal Frame 1.
+![](https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg){:width="100"} [Fatal Frame 2](https://github.com/Mikompilation/Minakami) | Decompilation | Decompilation project for Fatal Frame 2.
+![](https://opengraph.githubassets.com/1/Cai1Hsu/re3){:width="100"} [Grand Theft Auto III and Vice City](https://github.com/Cai1Hsu/re3) | Reverse-engineered source port | Grand Theft Auto III and Grand Theft Auto: Vice City reverse-engineered PC source.
+![](https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg){:width="100"} [Ico](https://github.com/rossydoubleunderscore/ico-decomp) | Decompilation | This is a decompilation project for Ico for the PS2.
+![](https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png){:width="100"} [Jak and Daxter 1-3](https://github.com/open-goal/jak-project) | Decompilation / Native port | OpenGOAL reconstructs the GOAL language and provides native PC ports of Jak and Daxter, Jak II and Jak 3. [OpenGOAL](https://opengoal.dev/) provides setup instructions and documentation for the first three Jak games.
+![](https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg){:width="100"} [Kingdom Hearts](https://github.com/ethteck/kh1) | Decompilation | Targets the main game executable, ELF file `SLPS_251.05` (SHA-1 `9dabbf867a7ec2a030df99ba1ed969f2deef0488`).
+![](https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg){:width="100"} [Klonoa 2: Lunatea's Veil](https://github.com/entriphy/kl2_lv_decomp) | Decompilation | Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series.
+![](https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg){:width="100"} [Metal Gear Solid 2: Sons of Liberty](https://github.com/GirianSeed/mgs2) | Decompilation | Decompilation project for Metal Gear Solid 2: Sons of Liberty for the PS2.
+![](https://opengraph.githubassets.com/1/2Tie/mh1j){:width="100"} [Monster Hunter](https://github.com/2Tie/mh1j) | Decompilation | Reconstruction of the Japanese PlayStation 2 release.
+![](https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg){:width="100"} [PaRappa the Rapper 2](https://github.com/parappadev/parappa2) | Decompilation | Decompilation project for PaRappa the Rapper 2 (NTSC-J).
+![](https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg){:width="100"} [Resident Evil - Code: Veronica X](https://github.com/fmil95/recvx-decomp) | Decompilation | Decompilation project for Resident Evil - Code: Veronica X for the PS2.
+![](https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg){:width="100"} [Sly Cooper and the Thievius Raccoonus](https://github.com/TheOnlyZac/sly1) | Decompilation | This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)
+![](https://upload.wikimedia.org/wikipedia/fr/c/c2/Street_Fighter_III_3rd_Strike_Fight_for_the_Future_Logo.png){:width="100"} [Street Fighter III: 3rd Strike](https://github.com/crowded-street/3s-decomp) | Decompilation | This is a completed decompilation project for Street Fighter III: 3rd Strike for the PS2. [3SXW](https://github.com/guimaraf/3sxw) is an enhanced PC-port fork based on the PlayStation 2 decompilation.
+![](https://upload.wikimedia.org/wikipedia/en/9/9e/Twisted_Metal_Black.jpg){:width="100"} [Twisted Metal: Black](https://github.com/abelbriggs1/tmb_decomp) | Decompilation | This is a decompilation project for Twisted Metal: Black for the PS2.
+![](https://static.wikia.nocookie.net/xenosaga/images/4/4e/XS1.png){:width="100"} [Xenosaga Episode 1 - Der Wille zur Macht](https://github.com/squareman/xenosaga) | Decompilation | This is a decompilation project for Xenosaga Episode 1 - Der Wille zur Macht for the PS2.
+![](https://upload.wikimedia.org/wikipedia/en/e/e4/Yakuza-sega.jpg){:width="100"} [Yakuza](https://github.com/hamzaxx370/ogre-decomp) | Decompilation | This is a decompilation project for Yakuza for the PS2.
 
 ---
 # Microsoft Systems
@@ -594,7 +532,7 @@ Microsoft console projects include Xbox reverse engineering and Xbox 360 static 
 
 ## MSX
 Decompiled MSX projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/msx" description="The MSX page covers the computer and its reversing notes." %}
+The [MSX guide](/msx) covers the computer and its reversing notes.
 
 ### Metal Gear (1987)
 {% include link-to-other-site.html url="https://github.com/GuillianSeed/MetalGear" description="This repository contains the fully annotated disassembly of the original Metal Gear game, released by Konami for MSX2 in 1987 with code RC750." image="https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg" title="Fully annotated disassembly of the original Metal Gear game"  %}
@@ -602,7 +540,7 @@ Decompiled MSX projects are listed under this heading.
 ---
 ## Xbox
 Decompiled original Xbox projects are listed under this heading.
-{% include_cached link-to-other-post.html post="/xbox" description="The original Xbox page covers the console, XDK, and related posts." %}
+The [Xbox guide](/xbox) covers the console and XDK.
 
 ### Halo: Combat Evolved
 {% include link-to-other-site.html url="https://github.com/halo-re/halo" description="The goal of this project is to study and create a free, open-source re-implementation of the original Xbox launch title Halo: Combat Evolved." image="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg" title="Halo: Combat Evolved Decompilation Research Project"  %}
@@ -610,69 +548,36 @@ Decompiled original Xbox projects are listed under this heading.
 ---
 ## Xbox 360
 Xbox 360 decompilations and native ports are listed below. The [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk) provides a PowerPC-to-C++ recompilation runtime and toolkit used by projects such as LARecomp and EdgeOfTimeRecomp.
-{% include_cached link-to-other-post.html post="/xbox360" description="The Xbox 360 page covers the console and its development kit." %}
+The [Xbox 360 guide](/xbox360) covers the console and its development kit.
+
+The table below lists Xbox 360 reverse-engineering projects and native ports.
+
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://opengraph.githubassets.com/1/zolaware/reblue){:width="100"} [Blue Dragon](https://github.com/zolaware/reblue) | Native port | Blue Dragon PC-port project.
+![](https://opengraph.githubassets.com/1/psxrestore/Condemned2Recomp){:width="100"} [Condemned 2: Bloodshot](https://github.com/psxrestore/Condemned2Recomp) | Static recompilation | Condemned 2: Bloodshot native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/masterspike52/reDAHM){:width="100"} [Destroy All Humans! Path of the Furon](https://github.com/masterspike52/reDAHM) | Static recompilation | Destroy All Humans! Path of the Furon native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/WistfulHopes/DBZ1){:width="100"} [Dragon Ball Z: Budokai HD](https://github.com/WistfulHopes/DBZ1) | Static recompilation | Dragon Ball Z: Budokai HD native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/birabittoh/EternalSonataReprise){:width="100"} [Eternal Sonata](https://github.com/birabittoh/EternalSonataReprise) | Static recompilation | Eternal Sonata native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/birabittoh/KameoRePowered){:width="100"} [Kameo: Elements of Power](https://github.com/birabittoh/KameoRePowered) | Static recompilation | Kameo: Elements of Power native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/MaxDeadBear/Re-Cherry){:width="100"} [Lollipop Chainsaw](https://github.com/MaxDeadBear/Re-Cherry) | Static recompilation | Lollipop Chainsaw native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/mzzvxm/larecomp){:width="100"} [Midnight Club: Los Angeles](https://github.com/mzzvxm/larecomp) | Static recompilation | Midnight Club: Los Angeles (Complete Edition) native Windows port. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/MaxDeadBear/NaughtyBear_ReStuff){:width="100"} [Naughty Bear](https://github.com/MaxDeadBear/NaughtyBear_ReStuff) | Static recompilation | Naughty Bear native-port project. Uses static recompilation.
+![](https://opengraph.githubassets.com/1/sonicnext-dev/MarathonRecomp){:width="100"} [Sonic the Hedgehog (2006)](https://github.com/sonicnext-dev/MarathonRecomp) | Static recompilation | Xbox 360 version of Sonic the Hedgehog (2006). Uses static recompilation.
+![](https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp){:width="100"} [Sonic Unleashed](https://github.com/hedge-dev/UnleashedRecomp) | Static recompilation | hedge-dev has released UnleashedRecomp, a static recompilation tool that allows Sonic Unleashed to run natively on PC with performance enhancements and modding support.
+![](https://opengraph.githubassets.com/1/goliathret/EdgeOfTimeRecomp){:width="100"} [Spider-Man: Edge of Time](https://github.com/goliathret/EdgeOfTimeRecomp) | Static recompilation | Xbox 360 version of Spider-Man: Edge of Time. Uses static recompilation.
+![](https://cdn0.spong.com/pack/t/e/terraria409425l/_-Terraria-Xbox-360-_.jpg){:width="100"} [Terraria](https://github.com/dptug/TerrariaXDK) | C# decompilation | Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results.
+![](https://opengraph.githubassets.com/1/SolarCookies/TiP-Recomp){:width="100"} [Viva Pinata: Trouble in Paradise](https://github.com/SolarCookies/TiP-Recomp) | Static recompilation | Viva Pinata: Trouble in Paradise native-port project. Uses static recompilation.
 
 ---
-### Blue Dragon
-{% include link-to-other-site.html url="https://github.com/zolaware/reblue" title="ReBlue native PC port of Blue Dragon" description="Blue Dragon PC-port project." image="https://opengraph.githubassets.com/1/zolaware/reblue" %}
-
----
-### Condemned 2: Bloodshot
-{% include link-to-other-site.html url="https://github.com/psxrestore/Condemned2Recomp" title="Condemned 2: Bloodshot static recompilation" description="Condemned 2: Bloodshot native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/psxrestore/Condemned2Recomp" %}
-
----
-### Destroy All Humans! Path of the Furon
-{% include link-to-other-site.html url="https://github.com/masterspike52/reDAHM" title="Destroy All Humans! Path of the Furon static recompilation" description="Destroy All Humans! Path of the Furon native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/masterspike52/reDAHM" %}
-
----
-### Dragon Ball Z: Budokai HD
-{% include link-to-other-site.html url="https://github.com/WistfulHopes/DBZ1" title="Dragon Ball Z: Budokai HD static recompilation" description="Dragon Ball Z: Budokai HD native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/WistfulHopes/DBZ1" %}
-
----
-### Eternal Sonata
-{% include link-to-other-site.html url="https://github.com/birabittoh/EternalSonataReprise" title="Eternal Sonata: Reprise static recompilation" description="Eternal Sonata native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/birabittoh/EternalSonataReprise" %}
-
----
-### Kameo: Elements of Power
-{% include link-to-other-site.html url="https://github.com/birabittoh/KameoRePowered" title="Kameo RePowered static recompilation" description="Kameo: Elements of Power native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/birabittoh/KameoRePowered" %}
-
----
-### Lollipop Chainsaw
-{% include link-to-other-site.html url="https://github.com/MaxDeadBear/Re-Cherry" title="Lollipop Chainsaw static recompilation" description="Lollipop Chainsaw native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/MaxDeadBear/Re-Cherry" %}
-
----
-### Midnight Club: Los Angeles
-{% include link-to-other-site.html url="https://github.com/mzzvxm/larecomp" title="Midnight Club: Los Angeles static recompilation" description="Midnight Club: Los Angeles (Complete Edition) native Windows port. Uses static recompilation." image="https://opengraph.githubassets.com/1/mzzvxm/larecomp" %}
-
----
-### Naughty Bear
-{% include link-to-other-site.html url="https://github.com/MaxDeadBear/NaughtyBear_ReStuff" title="Naughty Bear: Restuffed static recompilation" description="Naughty Bear native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/MaxDeadBear/NaughtyBear_ReStuff" %}
-
----
-### Sonic the Hedgehog (2006)
-{% include link-to-other-site.html url="https://github.com/sonicnext-dev/MarathonRecomp" title="Sonic the Hedgehog (2006) static recompilation" description="Xbox 360 version of Sonic the Hedgehog (2006). Uses static recompilation." image="https://opengraph.githubassets.com/1/sonicnext-dev/MarathonRecomp" %}
-
-### Sonic Unleashed Static Recompilation 
-**hedge-dev** has released UnleashedRecomp, a project that statically recompiles the Xbox 360 version of *Sonic Unleashed* to run natively on PC. By translating the original PowerPC instructions and Xenos shaders into native C++ and HLSL, this tool bypasses traditional emulation overhead, enabling features like arbitrary resolutions, high frame rates, and deep modding support on Windows and Linux. 
-
-{% include link-to-other-site.html url="https://github.com/hedge-dev/UnleashedRecomp" description="hedge-dev has released UnleashedRecomp, a static recompilation tool that allows Sonic Unleashed to run natively on PC with performance enhancements and modding support." image="https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp" title="UnleashedRecomp: Native PC Port of Sonic Unleashed" %}
-
----
-### Spider-Man: Edge of Time
-{% include link-to-other-site.html url="https://github.com/goliathret/EdgeOfTimeRecomp" title="Spider-Man: Edge of Time static recompilation" description="Xbox 360 version of Spider-Man: Edge of Time. Uses static recompilation." image="https://opengraph.githubassets.com/1/goliathret/EdgeOfTimeRecomp" %}
-
-### Terraria
-{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://cdn0.spong.com/pack/t/e/terraria409425l/_-Terraria-Xbox-360-_.jpg" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
-
----
-### Viva Pinata: Trouble in Paradise
-{% include link-to-other-site.html url="https://github.com/SolarCookies/TiP-Recomp" title="Viva Pinata: Trouble in Paradise static recompilation" description="Viva Pinata: Trouble in Paradise native-port project. Uses static recompilation." image="https://opengraph.githubassets.com/1/SolarCookies/TiP-Recomp" %}
+### Sonic Unleashed
+**hedge-dev** has released UnleashedRecomp, a project that statically recompiles the Xbox 360 version of *Sonic Unleashed* to run natively on PC. By translating the original PowerPC instructions and Xenos shaders into native C++ and HLSL, this tool bypasses traditional emulation overhead, enabling features like arbitrary resolutions, high frame rates, and deep modding support on Windows and Linux.
 
 ---
 ## PC (Windows)
 The table below lists the relevant entries.
 
-{% include_cached link-to-other-post.html post="/pc" description="The Windows page covers PC game development and reversing notes." %}
+The [PC guide](/pc) covers game development and reversing.
 
 Name | Project Type | Status / Ports
 --- | --- | ---
@@ -703,14 +608,16 @@ Name | Project Type | Status / Ports
 # Atari Systems
 
 ## Atari 2600
-Disassembled Atari 2600 games are listed under this heading.
-{% include_cached link-to-other-post.html post="/atari2600" description="The Atari 2600 page covers VCS reversing." %}
+The [Atari 2600 guide](/atari2600) covers VCS reversing.
 
-{% include link-to-other-site.html url="http://www.bjars.com/disassemblies.html" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Disassemblies of original Atari 2600 games" %}
+The table below lists Atari 2600 disassembly projects and collections.
 
-### Donkey Kong
-{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)" %}
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg){:width="100"} [Atari 2600 disassembly collection](http://www.bjars.com/disassemblies.html) | Disassembly | Various disassembled Atari 2600 games
+![](https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg){:width="100"} [Donkey Kong](https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/) | Disassembly | Atari 2600 disassembly.
 
+---
 ## ColecoVision
 
 ### Donkey Kong
@@ -723,7 +630,9 @@ Disassembled Atari 2600 games are listed under this heading.
 
 ### Touhou Project 1-5 (1997-1998)
 
-{% include link-to-other-site.html url="https://github.com/nmlgc/ReC98" description="This project aims to perfectly reconstruct the source code of the first five Touhou Project games by ZUN Soft (now Team Shanghai Alice), which were originally released exclusively for the NEC PC-9801 system." image="https://static.wikia.nocookie.net/touhou/images/f/f3/Th01Cover.jpg" title="The Touhou PC-98 Restoration Project" %}
+[ReC98](https://github.com/nmlgc/ReC98) reconstructs the source code of the first five Touhou Project games by ZUN Soft, originally released for the NEC PC-9801.
+
+![](https://static.wikia.nocookie.net/touhou/images/f/f3/Th01Cover.jpg){:width="100"}
 
 ---
 # Mobile games
@@ -736,17 +645,16 @@ Mobile games are a special case that weren't initially going to be included, but
 
 ---
 ## Android
-Decompiled Android games are listed under this heading.
-{% include_cached link-to-other-post.html post="/Android" description="The Android page covers reversing and game-development notes for the platform." %}
+The [Android guide](/Android) covers reversing and game development for the platform.
 
-### Sonic 1 & 2 Classic (2013)
-{% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png" title="A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)" %}
+The table below lists Android reverse-engineering projects and native ports.
 
-The RSDKModding projects separate the [Retro Engine v4 reconstruction](https://github.com/RSDKModding/RSDKv4-Decompilation) from the [Sonic 1, Sonic 2 and Sonic CD game scripts](https://github.com/RSDKModding/RSDKv4-Script-Decompilation). The script project also covers related Sonic Origins versions.
+Name | Project Type | Status / Notes
+--- | --- | ---
+![](https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png){:width="100"} [Sonic 1 & 2 Classic (2013)](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation) | Decompilation | Decompilation project. The RSDKModding projects separate the [Retro Engine v4 reconstruction](https://github.com/RSDKModding/RSDKv4-Decompilation) from the [Sonic 1, Sonic 2 and Sonic CD game scripts](https://github.com/RSDKModding/RSDKv4-Script-Decompilation). The script project also covers related Sonic Origins versions.
+![](https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg){:width="100"} [Sonic Advance](https://github.com/ImmutableOctet/sonicgba-monkey) | Decompilation | Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance.
 
-### Sonic Advance
-{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)" %}
-
+---
 ## Windows Phone
 
 ### Plants vs. Zombies (2011)
