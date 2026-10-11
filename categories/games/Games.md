@@ -14,7 +14,7 @@ redirect_from:
   - /games/all
   - /games/
 editlink: ../categories/games/Games.md
-updatedAt: '2026-04-26'
+updatedAt: '2026-10-11'
 tags:
   - games
 ---
@@ -227,6 +227,10 @@ This section collects game-specific posts that span multiple retail platforms:
 ### The Simpsons Hit & Run
 This post covers the **Simpsons Hit & Run** source code leak, which is relevant across multiple released platforms rather than belonging to a single console family.
 {% include_cached link-to-other-post.html post="/simpsons-hit-and-run-source-code" %}
+
+[Hit and Run Web](https://github.com/Vheissu/hit-and-run-web) is a playable browser reconstruction of the game. Its [browser build](https://vheissu.github.io/hit-and-run-web/) runs without emulating or recompiling the original executable.
+
+The project extracts assets from a [PlayStation 2](/ps2) disc, decodes RCF archives, Pure3D models, and VIF vertex data, then converts textures, animations, and mission scripts for a new Three.js runtime. Its [porting guide](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/PORTING.md) explains the asset pipeline and the browser implementations of rendering, physics, and missions.
 
 ---
 # PC Games
