@@ -108,6 +108,10 @@ debug symbols that are not spelled correctly but we want to keep for accuracy
 * Do not generate your own table of contents as tyhis will be done at runtime based on the H1/H2/H3 etc elements.
 * But DO make sure to use the full range of headings from H1->H5
 
+Post body headings H1-H6 can be clicked to collapse their content up to the next heading of the same or higher level.
+The arrow button also supports Enter and Space, and table of contents links expand the target section automatically.
+Sections start expanded and remain visible when printing.
+
 ---
 ## Markdown Rules
 Our pages tend to be broken up into different sections based on headings, headings are used for the table of contents and can be treated as distinct sections.
