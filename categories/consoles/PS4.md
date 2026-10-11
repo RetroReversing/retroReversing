@@ -8,7 +8,6 @@ recommend: ps4
 recommendTitle: All PS4 Posts
 editlink: ../categories/consoles/PS4.md
 category: ps4
-consoleimage: /public/consoles/Sony PS4.png
 excerpt: Awesome list of Sony Playstation 4 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

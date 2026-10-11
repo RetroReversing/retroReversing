@@ -6,7 +6,6 @@ recommend: vectrex
 recommendTitle: All Vectrex Posts
 editlink: ../categories/consoles/Vectrex.md
 category: vectrex
-consoleimage: /public/consoles/Vectrex.png
 excerpt: Awesome list of Vectrex Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

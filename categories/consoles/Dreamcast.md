@@ -6,7 +6,6 @@ recommend: dreamcast
 recommendTitle: All Dreamcast Posts
 editlink: ../categories/consoles/Dreamcast.md
 category: dreamcast
-consoleimage: /public/consoles/Sega Dreamcast.webp
 excerpt: Awesome list of Sega Dreamcast Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

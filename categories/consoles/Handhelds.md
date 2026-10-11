@@ -3,7 +3,6 @@ permalink: /handhelds
 layout: post
 category: handhelds
 title: Handheld Consoles Reverse Engineering
-consoleimage: /public/consoles/Handhelds.png
 image_: /public/images/Handhelds.jpg
 twitterimage_: https://www.retroreversing.com/public/images/Handhelds.jpg
 excerpt: Awesome list of Obscure Handheld Game Development and Reverse Engineering information

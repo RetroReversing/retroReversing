@@ -6,7 +6,6 @@ recommend: megadrive
 recommendTitle: All Mega Drive Posts
 editlink: ../categories/consoles/MegaDrive.md
 category: megadrive
-consoleimage: /public/consoles/Sega Megadrive.webp
 excerpt: Awesome list of SEGA Mega Drive and Genesis Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

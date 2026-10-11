@@ -8,7 +8,6 @@ recommendTitle: All Wii Posts
 editlink: ../categories/consoles/Wii.md
 category: wii
 title: Nintendo Wii Reverse Engineering
-consoleimage: /public/consoles/Nintendo Wii.webp
 excerpt: Awesome list of Nintendo Wii Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
