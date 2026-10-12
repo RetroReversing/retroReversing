@@ -8157,8 +8157,8 @@
           "name_markdown": "[AeroGauge](https://github.com/LLONSIT/AeroGauge)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/36/AeroGauge_Coverart.png",
+              "alt": "AeroGauge box art (Nintendo 64)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/AeroGauge%20(USA).png",
               "width": 100
             }
           ],
@@ -9472,7 +9472,13 @@
         {
           "project": "pilotwings-64-recompiled",
           "name_markdown": "[Pilotwings 64](https://github.com/danielgomesvieira2000/pilotwings-64-recomp)",
-          "images": [],
+          "images": [
+            {
+              "alt": "Pilotwings 64 box art (Nintendo 64)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pilotwings%2064%20(USA).png",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "Static recompilation using N64Recomp; Windows and Linux builds. Completion has not been independently verified.",
           "completion_percent": null,
@@ -9492,7 +9498,13 @@
         {
           "project": "buck-bumble-project-bumble",
           "name_markdown": "[Buck Bumble](https://github.com/riseio/project-bumble)",
-          "images": [],
+          "images": [
+            {
+              "alt": "Buck Bumble box art (Nintendo 64)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Buck%20Bumble%20(USA).png",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "Project Bumble was withdrawn by its developer. The repository retains a [withdrawal notice](https://github.com/riseio/project-bumble).",
           "completion_percent": null,
@@ -9872,8 +9884,8 @@
           "name_markdown": "[Pikmin](https://github.com/projectPiki/pikmin)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg",
+              "alt": "Pikmin box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pikmin%20(USA).png",
               "width": 100
             }
           ],
@@ -10086,8 +10098,8 @@
           "name_markdown": "[Super Smash Bros. Melee](https://github.com/doldecomp/melee)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+              "alt": "Super Smash Bros. Melee box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(USA)%20(En%2CJa)%20(Rev%202).png",
               "width": 100
             }
           ],
@@ -10132,8 +10144,8 @@
           "name_markdown": "[The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+              "alt": "The Legend of Zelda: The Wind Waker box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20(USA).png",
               "width": 100
             }
           ],
@@ -13225,7 +13237,13 @@
         {
           "project": "infinite-undiscovery-recomp",
           "name_markdown": "[Infinite Undiscovery](https://github.com/doc-haz/infinite-undiscovery-recomp)",
-          "images": [],
+          "images": [
+            {
+              "alt": "Infinite Undiscovery box art (Xbox 360)",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/46/InfiniteUndiscoveryBoxart.jpg",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "Native Windows x64 recompilation using ReXGlue / XenonRecomp. Release candidate; full-game validation is ongoing.",
           "completion_percent": null,
@@ -13245,7 +13263,13 @@
         {
           "project": "the-darkness-estacado",
           "name_markdown": "[The Darkness](https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp)",
-          "images": [],
+          "images": [
+            {
+              "alt": "The Darkness box art",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Darkness_cover.jpg",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "Estacado is a Windows static recompilation using ReXGlue / XenonRecomp. Pre-release with limited hardware testing.",
           "completion_percent": null,
@@ -13265,7 +13289,13 @@
         {
           "project": "fifa-street-2012-restreet",
           "name_markdown": "[FIFA Street (2012)](https://github.com/samuelit0davila/fifa-street-pc-port)",
-          "images": [],
+          "images": [
+            {
+              "alt": "FIFA Street (2012) box art",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Fifa_street_2012.jpg",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "ReStreet is a Windows recompilation using ReXGlue. The project's v1.2 documentation specifies offline-only play.",
           "completion_percent": null,
@@ -13774,7 +13804,13 @@
         {
           "project": "the-legend-of-zelda-the-wind-waker-hd-recomp",
           "name_markdown": "[The Legend of Zelda: The Wind Waker HD](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp)",
-          "images": [],
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker HD box art (Nintendo Wii U)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20(USA%2C%20Asia)%20(En%2CFr%2CEs).png",
+              "width": 100
+            }
+          ],
           "project_type": "Static recompilation",
           "notes_markdown": "Static recompilation of the Wii U edition for Windows, Linux, macOS and Android. Game-specific code is generated locally from the user's dump.",
           "completion_percent": null,
