@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-12'
 ---
 
 This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
@@ -90,6 +90,12 @@ The table below lists the relevant entries.
 The [Wii guide](/wii) covers Revolution SDKs and reversing.
 
 {% include decomp-table.html console="nintendo-wii" %}
+
+---
+## Nintendo Wii U
+The table below lists Wii U static recompilation projects and native ports.
+
+{% include decomp-table.html console="nintendo-wii-u" %}
 
 ---
 ## Nintendo Switch
