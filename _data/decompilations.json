@@ -7005,6 +7005,116 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "pilotwings-64-recompiled": {
+      "name": "Pilotwings 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "buck-bumble-project-bumble": {
+      "name": "Buck Bumble",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/riseio/project-bumble",
+      "project_type": "Static recompilation",
+      "completion_status": "Withdrawn",
+      "legacy_status": null,
+      "activity": {}
+    },
+    "aerogauge-recompiled": {
+      "name": "AeroGauge",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/alondero/aerogauge-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "pikmin-open-nectar": {
+      "name": "Pikmin",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+      "project_type": "Decompilation / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "infinite-undiscovery-recomp": {
+      "name": "Infinite Undiscovery",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/doc-haz/infinite-undiscovery-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "the-darkness-estacado": {
+      "name": "The Darkness",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "fifa-street-2012-restreet": {
+      "name": "FIFA Street (2012)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/samuelit0davila/fifa-street-pc-port",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "the-legend-of-zelda-the-wind-waker-hd-recomp": {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "the-legend-of-zelda-the-wind-waker-bluewake": {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/bluewake",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "super-smash-bros-melee-pc": {
+      "name": "Super Smash Bros. Melee",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/999sian/melee-pc",
+      "project_type": "Decompilation / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -8057,7 +8167,17 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": []
+          "ports": [
+            {
+              "name": "AeroGauge: Recompiled",
+              "url": "https://github.com/alondero/aerogauge-recomp",
+              "platforms": [
+                "PC",
+                "Android"
+              ],
+              "description_markdown": "Windows, Linux and Android targets; some enhancements remain experimental."
+            }
+          ]
         },
         {
           "project": "aidyn-chronicles-the-first-mage",
@@ -9348,6 +9468,37 @@
           "completion_qualifier": "",
           "completion_metric": "completion",
           "ports": []
+        },
+        {
+          "project": "pilotwings-64-recompiled",
+          "name_markdown": "[Pilotwings 64](https://github.com/danielgomesvieira2000/pilotwings-64-recomp)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Static recompilation using N64Recomp; Windows and Linux builds. Completion has not been independently verified.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Pilotwings 64: Recompiled",
+              "url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": ""
+            }
+          ]
+        },
+        {
+          "project": "buck-bumble-project-bumble",
+          "name_markdown": "[Buck Bumble](https://github.com/riseio/project-bumble)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Project Bumble was withdrawn by its developer. The repository retains a [withdrawal notice](https://github.com/riseio/project-bumble).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
         }
       ]
     },
@@ -9731,7 +9882,17 @@
           "completion_percent": 99,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": []
+          "ports": [
+            {
+              "name": "Open Nectar",
+              "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+              "platforms": [
+                "PC",
+                "Android"
+              ],
+              "description_markdown": "Experimental native port based on projectPiki/pikmin for Windows, Linux and Android."
+            }
+          ]
         },
         {
           "project": "pikmin-2",
@@ -9935,7 +10096,19 @@
           "completion_percent": 47,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": []
+          "ports": [
+            {
+              "name": "melee-pc",
+              "url": "https://github.com/999sian/melee-pc",
+              "platforms": [
+                "PC",
+                "Android",
+                "iOS",
+                "Browser"
+              ],
+              "description_markdown": "Beta native port based on doldecomp/melee and aurora. macOS, iOS and browser support have documented limitations."
+            }
+          ]
         },
         {
           "project": "the-incredibles",
@@ -9969,7 +10142,18 @@
           "completion_percent": 56,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": []
+          "ports": [
+            {
+              "name": "BlueWake",
+              "url": "https://github.com/chrissotraidis/bluewake",
+              "platforms": [
+                "PC",
+                "iOS",
+                "tvOS"
+              ],
+              "description_markdown": "GameCube static recompilation for Windows, Linux, macOS, iPhone and iPad; tvOS is experimental. [Wind Waker Recomp](https://github.com/elliotttate/Wind-Waker-Recomp) has merged into this project."
+            }
+          ]
         },
         {
           "project": "the-legend-of-zelda-twilight-princess",
@@ -13037,6 +13221,66 @@
               "description_markdown": ""
             }
           ]
+        },
+        {
+          "project": "infinite-undiscovery-recomp",
+          "name_markdown": "[Infinite Undiscovery](https://github.com/doc-haz/infinite-undiscovery-recomp)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows x64 recompilation using ReXGlue / XenonRecomp. Release candidate; full-game validation is ongoing.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Infinite Undiscovery Recomp",
+              "url": "https://github.com/doc-haz/infinite-undiscovery-recomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": ""
+            }
+          ]
+        },
+        {
+          "project": "the-darkness-estacado",
+          "name_markdown": "[The Darkness](https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Estacado is a Windows static recompilation using ReXGlue / XenonRecomp. Pre-release with limited hardware testing.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Estacado",
+              "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": ""
+            }
+          ]
+        },
+        {
+          "project": "fifa-street-2012-restreet",
+          "name_markdown": "[FIFA Street (2012)](https://github.com/samuelit0davila/fifa-street-pc-port)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "ReStreet is a Windows recompilation using ReXGlue. The project's v1.2 documentation specifies offline-only play.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "ReStreet",
+              "url": "https://github.com/samuelit0davila/fifa-street-pc-port",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": ""
+            }
+          ]
         }
       ]
     },
@@ -13516,6 +13760,37 @@
           "completion_qualifier": "",
           "completion_metric": "completion",
           "ports": []
+        }
+      ]
+    },
+    "nintendo-wii-u": {
+      "name": "Nintendo Wii U",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "the-legend-of-zelda-the-wind-waker-hd-recomp",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker HD](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp)",
+          "images": [],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Static recompilation of the Wii U edition for Windows, Linux, macOS and Android. Game-specific code is generated locally from the user's dump.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Wind Waker HD Recomp",
+              "url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+              "platforms": [
+                "PC",
+                "Android"
+              ],
+              "description_markdown": ""
+            }
+          ]
         }
       ]
     }
