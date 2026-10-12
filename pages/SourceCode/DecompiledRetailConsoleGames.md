@@ -149,10 +149,20 @@ The table below lists Nintendo 3DS reverse-engineering projects and native ports
 {% include decomp-table.html console="nintendo-3ds" %}
 
 ---
+# Bandai Systems
+## WonderSwan
+The table below lists WonderSwan decompilation projects.
+
+{% include decomp-table.html console="wonderswan" %}
+
+---
 # Sega Systems
 Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
 
 ## 32X
+The table below lists Sega 32X disassembly projects.
+
+{% include decomp-table.html console="sega-32x" %}
 
 ### Knuckles Chaotix
 {% include link-to-other-site.html url="https://github.com/sonicretro/chaotix" description="Knuckles Chaotix" image="https://upload.wikimedia.org/wikipedia/en/d/dd/Knuckles%27_Chaotix_Coverart.png" title="Knuckles Chaotix"  %}
@@ -225,6 +235,12 @@ The table below lists PlayStation 2 reverse-engineering projects and native port
 {% include decomp-table.html console="playstation-2" %}
 
 ---
+## PlayStation Portable
+The table below lists PlayStation Portable decompilation projects.
+
+{% include decomp-table.html console="playstation-portable" %}
+
+---
 # Microsoft Systems
 Microsoft console projects include Xbox reverse engineering and Xbox 360 static recompilations.
 
@@ -239,6 +255,10 @@ The [MSX guide](/msx) covers the computer and its reversing notes.
 ## Xbox
 Decompiled original Xbox projects are listed under this heading.
 The [Xbox guide](/xbox) covers the console and XDK.
+
+The table below lists original Xbox decompilation and recompilation projects.
+
+{% include decomp-table.html console="xbox" %}
 
 ### Halo: Combat Evolved
 {% include link-to-other-site.html url="https://github.com/halo-re/halo" description="The goal of this project is to study and create a free, open-source re-implementation of the original Xbox launch title Halo: Combat Evolved." image="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg" title="Halo: Combat Evolved Decompilation Research Project"  %}
@@ -265,6 +285,13 @@ The [PC guide](/pc) covers game development and reversing.
 {% include decomp-table.html console="pc-windows" %}
 
 ---
+# Apple Systems
+## PC (macOS)
+The table below lists decompilation projects targeting macOS game releases.
+
+{% include decomp-table.html console="pc-macos" %}
+
+---
 # Atari Systems
 
 ## Atari 2600
@@ -279,6 +306,13 @@ The table below lists Atari 2600 disassembly projects and collections.
 
 ### Donkey Kong
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVision Disassembly" %}
+
+---
+# Commodore Systems
+## Commodore 64
+The table below lists Commodore 64 disassembly projects.
+
+{% include decomp-table.html console="commodore-64" %}
 
 ---
 # NEC Systems
@@ -310,6 +344,10 @@ The table below lists Android reverse-engineering projects and native ports.
 
 ---
 ## Windows Phone
+The table below lists Windows Phone decompilation projects.
+
+{% include decomp-table.html console="windows-phone" %}
 
 ### Plants vs. Zombies (2011)
 {% include link-to-other-site.html url="https://github.com/Mewnojs/PlantsVsZombies.NET" description="powered by MonoGame." image="https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg" title="A port of Plants vs. Zombies Windows Phone version to various platforms" %}
+
