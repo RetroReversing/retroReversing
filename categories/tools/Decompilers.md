@@ -365,7 +365,7 @@ The first output is a sketch; the useful map is the one you refine.
 
 ## Starting a Dreamcast decompilation
 <div class="emoji">🔧</div>
-[dc-decomp-kickoff](https://github.com/consolesplayingconsoles/dc-decomp-kickoff) is a tool for starting a decompilation of a Dreamcast (Katana) game. It applies names from SDK signatures, splits the executable into one assembly file per function, and sets up a build that reproduces the original byte for byte. A function is done when its C behaves like the original. You supply the disc.
+[dc-decomp-kickoff](https://github.com/consolesplayingconsoles/dc-decomp-kickoff) is a tool for starting a decompilation of a Dreamcast (Katana) game. It applies names from SDK signatures and splits the executable into one assembly file per function. The build starts out reproducing the original executable from that assembly, and functions are then replaced with C one at a time. A function is done when its C behaves like the original; byte-identical C is a bonus tier. The C written covers the game's code and some of its library code. You supply the disc.
 
 ---
 # References

@@ -163,7 +163,7 @@ Hex editors let you view and modify the raw binary data of game files. They are 
 Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
 
 * **Reko**: An open-source decompiler designed for multiple architectures and file formats.
-* **dc-decomp-kickoff**: A tool for starting a decompilation of a Dreamcast game, built byte for byte from the original.
+* **dc-decomp-kickoff**: A tool for starting a decompilation of a Dreamcast game: SDK names applied, one assembly file per function, then replaced with C that behaves like the original.
 * **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
 * **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
