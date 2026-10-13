@@ -9711,6 +9711,83 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "advanced-vg-2-recompiled": {
+      "name": "Advanced V.G. 2",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/elprogramadorloco-arch/agvg2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "earthworm-jim-2-recompiled-ps1": {
+      "name": "Earthworm Jim 2",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/elprogramadorloco-arch/jim2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "korokoro-post-nin-recompiled": {
+      "name": "KoroKoro Post nin",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/elprogramadorloco-arch/korokoro-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "asuka-120-final-recompiled": {
+      "name": "Asuka 120% Final: Burning Fest. Final",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/elprogramadorloco-arch/asuka100-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "lost-odyssey-recomp": {
+      "name": "Lost Odyssey",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "modern-warfare-2-recompiled": {
+      "name": "Call of Duty: Modern Warfare 2",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/PaulCombal/mw2-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ico-pc": {
+      "name": "ICO PC Port",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/nathanialf/ico-pc",
+      "project_type": "Decompilation-based native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -17585,6 +17662,74 @@
           "completion_qualifier": "",
           "completion_metric": "completion",
           "ports": []
+        },
+        {
+          "project": "advanced-vg-2-recompiled",
+          "name_markdown": "[Advanced V.G. 2](https://github.com/elprogramadorloco-arch/agvg2-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Advanced%20V.G.%202%20%28Japan%29.png",
+              "alt": "Advanced V.G. 2 PlayStation box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows x64 static recompilation of the Japanese PlayStation release (SLPM-87226); requires a user-owned disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "earthworm-jim-2-recompiled-ps1",
+          "name_markdown": "[Earthworm Jim 2](https://github.com/elprogramadorloco-arch/jim2-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Earthworm%20Jim%202%20%28Europe%29.png",
+              "alt": "Earthworm Jim 2 PlayStation box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows x64 static recompilation of the European PlayStation release. All 17 levels load; end-to-end transitions and some audio effects remain unverified. An Android version is in development.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "korokoro-post-nin-recompiled",
+          "name_markdown": "[KoroKoro Post nin](https://github.com/elprogramadorloco-arch/korokoro-recomp)",
+          "images": [
+            {
+              "url": "https://cdn.mobygames.com/d2e6b9fe-abf2-11ed-9899-02420a000134.webp",
+              "alt": "KoroKoro Post nin PlayStation box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows static recompilation of the Japanese PlayStation release (SLPS-03479), with a documented Android arm64 alpha. Stages 2-10, memory card support and the ending remain unverified.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "asuka-120-final-recompiled",
+          "name_markdown": "[Asuka 120% Final: Burning Fest. Final](https://github.com/elprogramadorloco-arch/asuka100-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Asuka%20120%25%20Final%20-%20Burning%20Fest.%20Final%20%28Japan%29.png",
+              "alt": "Asuka 120% Final: Burning Fest. Final PlayStation box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows x64 static recompilation of the Japanese PlayStation release (SLPS-02074); requires a user-owned disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
         }
       ]
     },
@@ -18358,6 +18503,23 @@
           "completion_qualifier": "",
           "completion_metric": "completion",
           "ports": []
+        },
+        {
+          "project": "ico-pc",
+          "name_markdown": "[ICO PC Port](https://github.com/nathanialf/ico-pc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ico%20%28USA%29.png",
+              "alt": "ICO PlayStation 2 box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Decompilation-based native port",
+          "notes_markdown": "Native Windows, Linux, Steam Deck, ARM64 Linux and experimental Android port based on the PAL decompilation; requires a user-owned disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
         }
       ]
     },
@@ -19035,6 +19197,40 @@
           ],
           "project_type": "Static recompilation",
           "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "lost-odyssey-recomp",
+          "name_markdown": "[Lost Odyssey](https://github.com/freefrank/LostOdysseyRecomp)",
+          "images": [
+            {
+              "url": "https://www.thevideogamecompany.com/cdn/shop/products/lost-odyssey-microsoft-xbox-360-882224521017-cover-art.jpg?crop=center&height=1200&v=1661537441&width=1200",
+              "alt": "Lost Odyssey Xbox 360 box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native port for Windows, Linux, macOS on Apple Silicon and Android; requires user-owned Xbox 360 game data.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "modern-warfare-2-recompiled",
+          "name_markdown": "[Call of Duty: Modern Warfare 2](https://github.com/PaulCombal/mw2-recompiled)",
+          "images": [
+            {
+              "url": "https://theexchange.com/cdn/shop/products/CallOfDuty-ModernWarfare2.png?v=1622826632",
+              "alt": "Call of Duty: Modern Warfare 2 Xbox 360 box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows and Linux static recompilation. Campaign and private multiplayer are supported; public matchmaking and ranked playlists are unsupported, and Special Ops is untested.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
