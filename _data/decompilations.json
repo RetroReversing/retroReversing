@@ -9799,6 +9799,82 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "toy-story": {
+      "name": "Toy Story",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/toy-story-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T14:07:18Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/d55b4b91d5451ed7b2aaaaef97f9ae87ab758c4e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "dragon-ball-z-buyuu-retsuden": {
+      "name": "Dragon Ball Z: Buyuu Retsuden",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T13:59:52Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/dd871f93f04489a686b6024f410f1f2f7d757c83",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "crazy-taxi": {
+      "name": "Crazy Taxi",
+      "platforms": [
+        "Sega Dreamcast (DC)"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-14T18:09:56Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/0ebc46e3ec5a39e9a5baa99ae24c2f1ca87f0847",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "virtua-tennis": {
+      "name": "Virtua Tennis",
+      "platforms": [
+        "Sega Dreamcast (DC)"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-14T18:09:58Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/3e7867fbe4d8ee8cb1d76e3a6cb46f527d71b435",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
     }
   },
   "consoles": {
@@ -16408,6 +16484,28 @@
           "completion_qualifier": "",
           "completion_metric": "completion",
           "ports": []
+        },
+        {
+          "project": "toy-story",
+          "name_markdown": "[Toy Story](https://github.com/consolesplayingconsoles/toy-story-disasm)",
+          "images": [],
+          "project_type": "Disassembly",
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "dragon-ball-z-buyuu-retsuden",
+          "name_markdown": "[Dragon Ball Z: Buyuu Retsuden](https://github.com/consolesplayingconsoles/dbzbr-disasm)",
+          "images": [],
+          "project_type": "Disassembly",
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
         }
       ]
     },
@@ -16481,6 +16579,28 @@
             }
           ],
           "project_type": "Static recompilation",
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "crazy-taxi",
+          "name_markdown": "[Crazy Taxi](https://github.com/consolesplayingconsoles/crazy-taxi-decomp)",
+          "images": [],
+          "project_type": "Decompilation",
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "virtua-tennis",
+          "name_markdown": "[Virtua Tennis](https://github.com/consolesplayingconsoles/virtua-tennis-decomp)",
+          "images": [],
+          "project_type": "Decompilation",
           "notes_markdown": "",
           "completion_percent": null,
           "completion_qualifier": "",

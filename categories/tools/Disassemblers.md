@@ -430,6 +430,10 @@ The main advantages of Interactive Disassemblers over static and dynamic are:
 * **Binary Ninja** is another interactive disassembler that focuses on providing a modern, user-friendly interface with powerful analysis features. It is designed to be both accessible to beginners and powerful for advanced users.
 * **Features**: Binary Ninja offers a highly interactive and customizable interface, with strong support for Python scripting and plugins.
 
+## Starting a Mega Drive disassembly
+<div class="emoji">🔧</div>
+[genesis-disasm-kickoff](https://github.com/consolesplayingconsoles/genesis-disasm-kickoff) is a tool for starting a disassembly of a Sega Mega Drive (Genesis) or Pico ROM. It traces the code by recursive descent from the vector table, resolves the engine's dispatch idioms (branch tables and word-relative jump tables), locates tables, text and art, and rebuilds the ROM byte for byte from one source file per routine. A routine counts as done when it is named, its operands are symbolic and the rebuild still matches. You supply the ROM; the repo contains no game data.
+
 For the next step up from disassembly, see:
 {% include_cached link-to-other-post.html post="/decompilers" description="Decompilers - A Deep Dive explains how tools recover C-like pseudo-code from machine code." %}
 

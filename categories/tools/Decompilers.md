@@ -363,6 +363,10 @@ If you want to experiment with decompilation on a retro binary:
 Decompilers reward patience and annotation.
 The first output is a sketch; the useful map is the one you refine.
 
+## Starting a Dreamcast decompilation
+<div class="emoji">🔧</div>
+[dc-decomp-kickoff](https://github.com/consolesplayingconsoles/dc-decomp-kickoff) is a tool for starting a decompilation of a Dreamcast (Katana) game. It applies names from SDK signatures, splits the executable into one assembly file per function, and sets up a build that reproduces the original byte for byte. A function is done when its C behaves like the original. You supply the disc.
+
 ---
 # References
 [^1]: National Security Agency, "Ghidra Software Reverse Engineering Framework," [https://ghidra-sre.org/](https://ghidra-sre.org/).
