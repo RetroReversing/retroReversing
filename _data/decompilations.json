@@ -16488,7 +16488,13 @@
         {
           "project": "toy-story",
           "name_markdown": "[Toy Story](https://github.com/consolesplayingconsoles/toy-story-disasm)",
-          "images": [],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Toy%20Story%20%28USA%29.png",
+              "alt": "Toy Story box art",
+              "width": 100
+            }
+          ],
           "project_type": "Disassembly",
           "notes_markdown": "",
           "completion_percent": null,
@@ -16499,7 +16505,13 @@
         {
           "project": "dragon-ball-z-buyuu-retsuden",
           "name_markdown": "[Dragon Ball Z: Buyuu Retsuden](https://github.com/consolesplayingconsoles/dbzbr-disasm)",
-          "images": [],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20L'Appel%20du%20Destin%20%28France%29.png",
+              "alt": "Dragon Ball Z: Buyuu Retsuden box art",
+              "width": 100
+            }
+          ],
           "project_type": "Disassembly",
           "notes_markdown": "",
           "completion_percent": null,
@@ -16588,7 +16600,13 @@
         {
           "project": "crazy-taxi",
           "name_markdown": "[Crazy Taxi](https://github.com/consolesplayingconsoles/crazy-taxi-decomp)",
-          "images": [],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Crazy%20Taxi%20%28Europe%29.png",
+              "alt": "Crazy Taxi box art",
+              "width": 100
+            }
+          ],
           "project_type": "Decompilation",
           "notes_markdown": "",
           "completion_percent": null,
@@ -16599,7 +16617,13 @@
         {
           "project": "virtua-tennis",
           "name_markdown": "[Virtua Tennis](https://github.com/consolesplayingconsoles/virtua-tennis-decomp)",
-          "images": [],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Virtua%20Tennis%20%28USA%29.png",
+              "alt": "Virtua Tennis box art",
+              "width": 100
+            }
+          ],
           "project_type": "Decompilation",
           "notes_markdown": "",
           "completion_percent": null,
