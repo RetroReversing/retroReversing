@@ -9788,6 +9788,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "final-fantasy-tactics-advance-recomp": {
+      "name": "Final Fantasy Tactics Advance",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Jorge262007/FFTARecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -13074,7 +13085,18 @@
           "completion_percent": 25,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": []
+          "ports": [
+            {
+              "name": "sms-port (chasem-dev)",
+              "url": "https://github.com/chasem-dev/sms-pc-port",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native port based on the GMSE01 matching decompilation; requires a user-owned North American Rev 0 disc image. Linux and macOS builds are documented as playing; Windows native runtime checks and stage-by-stage testing of 64-bit builds remain ongoing."
+            }
+          ]
         },
         {
           "project": "super-monkey-ball",
@@ -15536,6 +15558,23 @@
           ],
           "project_type": "Decompilation",
           "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "final-fantasy-tactics-advance-recomp",
+          "name_markdown": "[Final Fantasy Tactics Advance (FFTARecomp)](https://github.com/Jorge262007/FFTARecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Final%20Fantasy%20Tactics%20Advance%20%28USA%29.png",
+              "alt": "Final Fantasy Tactics Advance Game Boy Advance USA box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Native Windows and Linux/Steam Deck recompilation using gba-recomp; requires a user-owned USA ROM. Work in progress: brief sprite silhouettes in the first level and initial gamepad detection issues are documented.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
