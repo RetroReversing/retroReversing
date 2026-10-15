@@ -4389,6 +4389,17 @@
         "status": "Active"
       }
     },
+    "klonoa-empire-of-dreams": {
+      "name": "Klonoa: Empire of Dreams",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/testyourmine/kleod",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
     "kirby-the-amazing-mirror": {
       "name": "Kirby & The Amazing Mirror",
       "platforms": [
@@ -18981,6 +18992,17 @@
               "url": "https://github.com/Pheenoh/khcom"
             }
           ]
+        },
+        {
+          "project": "klonoa-empire-of-dreams",
+          "name_markdown": "[Klonoa: Empire of Dreams](https://github.com/testyourmine/kleod)",
+          "images": [],
+          "project_type": "Decompilation",
+          "notes_markdown": "USA-version decompilation. The README identifies the target ROM SHA-1; completion percentage is not reported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
         },
         {
           "project": "kirby-the-amazing-mirror",
