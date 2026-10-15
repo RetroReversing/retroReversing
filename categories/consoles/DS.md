@@ -1,5 +1,6 @@
 ---
 permalink: /ds
+updatedAt: '2026-10-15'
 layout: post
 title: Nintendo DS (NDS) Reverse Engineering
 recommend: 
@@ -35,6 +36,13 @@ So grab your DS, and get ready to dive into the exciting world of DS reverse eng
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p3wq9NFU99c?si=294eLvLZCVyjUyb1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+## Imagine - Pwning Your Favourite Nintendo DS Game
+[Imagine: pwning your favourite Nintendo DS game!](https://github.com/CyberSaiyanIT/rhc2026-resources/tree/main/imagine-pwning-nintendo-ds) is a talk by daisy from RomHack Camp 2026.
+It introduces Nintendo DS internals and describes the reverse engineering and exploitation process for a DS game.
+The [presentation slides (PDF)](https://github.com/CyberSaiyanIT/rhc2026-resources/blob/main/imagine-pwning-nintendo-ds/slides.pdf) provide supporting material for readers interested in game vulnerability research.
+
+---
 ## Tinke DS File Explorer
 Tinke is an open source application that can be used to open Nintendo DS games and the various file formats that are inside. You can view and edit textures, sound files, compressed archives and even a few game specific formats, it is well worth a look!
 
