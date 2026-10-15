@@ -161,11 +161,11 @@ A useful first experiment is a small function with known calling conventions and
 
 ---
 # Case Study - Snowboard Kids 2 on Nintendo 64
-The [Snowboard Kids 2 matching decompilation](https://github.com/cdlewis/snowboardkids2-decomp), maintained by Chris Lewis, is another particularly instructive example. The project rebuilds a Nintendo 64 ROM from recovered C code and extracted assets. Its README states that it is **not a PC port**, and the build verifies the reconstructed ROM against the original [^10].
+The [Snowboard Kids 2 matching decompilation](https://github.com/cdlewis/snowboardkids2-decomp), maintained by Chris Lewis, is another particularly instructive example. The project rebuilds a Nintendo 64 ROM from recovered C code and extracted assets. Its README states that it is **not a PC port**, and the build verifies the reconstructed ROM against the original [^3].
 
 The project's [Claude instructions](https://github.com/cdlewis/snowboardkids2-decomp/blob/main/CLAUDE.md) expose the practical work behind that result. For an unmatched function, an agent creates a dedicated working directory, develops multiple C candidates, runs compiler-backed assembly comparisons and integrates a successful candidate into the repository. Crucially, the instructions require a full project rebuild after integration rather than accepting a local match in isolation.
 
-This project also demonstrates why the original compiler must be identified rather than guessed. Its agent notes specify GCC 2.7.2 with `-O2 -mips3` for the function-matching environment; not every Nintendo 64 game used the same compiler [^11].
+This project also demonstrates why the original compiler must be identified rather than guessed. Its agent notes specify GCC 2.7.2 with `-O2 -mips3` for the function-matching environment; not every Nintendo 64 game used the same compiler [^4].
 
 Chris Lewis provides first-hand explanations of the approach:
 * [Using Coding Agents to Decompile Nintendo 64 Games](https://blog.chrislewis.au/using-coding-agents-to-decompile-nintendo-64-games/) - How the agent-assisted workflow was structured.
@@ -178,7 +178,7 @@ The repository's remaining contributor tasks include naming functions, replacing
 # Case Study - Brave Fencer Musashi on PlayStation
 One of the more detailed published accounts of AI-assisted game decompilation comes from [BFM-decomp](https://github.com/Druthulu/BFM-decomp), targeting Square's 1998 [PlayStation](/ps1) game *Brave Fencer Musashi*.
 
-The project's maintainers report **218 byte-identical code binaries**, including the main executable, resident engine and location overlays. Their reported verification method recompiles the project against the owner's disc and checks the resulting binaries, rather than counting source files that merely compile [^3].
+The project's maintainers report **218 byte-identical code binaries**, including the main executable, resident engine and location overlays. Their reported verification method recompiles the project against the owner's disc and checks the resulting binaries, rather than counting source files that merely compile [^5].
 
 The project describes a workflow in which:
 * Claude Code drives Ghidra through [MCP](#glossary-mcp) to investigate functions and game memory structures.
@@ -187,7 +187,7 @@ The project describes a workflow in which:
 * A compiler-idiom cookbook records patterns discovered during iterative matching.
 * Human approval gates and recorded project decisions constrain the agent's work.
 
-The [project history](https://github.com/Druthulu/BFM-decomp/blob/main/docs/story.md) is more informative than a bare completion percentage because it explains the infrastructure, failed approaches and later cleanup [^4].
+The [project history](https://github.com/Druthulu/BFM-decomp/blob/main/docs/story.md) is more informative than a bare completion percentage because it explains the infrastructure, failed approaches and later cleanup [^6].
 
 There are important qualifications. The maintainers explicitly distinguish their C reconstruction from Sony SDK library objects and retained hand-written assembly. They also describe ongoing readability work involving generated names, types and register hints. In other words, **a verified matching build does not automatically mean the source is clean or fully understood**.
 
@@ -195,9 +195,9 @@ This is a project-reported result. The repository provides a reproduction proced
 
 ---
 # Claude Opus 5.5 and the Retrobench Results
-Anthropic released **Claude Opus 5.5 on 22 September 2026**, describing improvements in coding and agentic workflows [^5]. For game decompilation, the more relevant evidence is not a general coding benchmark but the model's performance in a compiler-backed matching task.
+Anthropic released **Claude Opus 5.5 on 22 September 2026**, describing improvements in coding and agentic workflows [^7]. For game decompilation, the more relevant evidence is not a general coding benchmark but the model's performance in a compiler-backed matching task.
 
-[Retrobench](https://retrobench.ai/), created by Sinan Onur Altinuc, evaluates models on five Nintendo 64-era MIPS targets. Each agent receives assembly, necessary headers and the historical IDO compiler, then writes C and iterates against a byte comparison. Its reported score is the **mean of the five per-target byte-match percentages**, not the percentage of an entire game recovered [^6].
+[Retrobench](https://retrobench.ai/), created by Sinan Onur Altinuc, evaluates models on five Nintendo 64-era MIPS targets. Each agent receives assembly, necessary headers and the historical IDO compiler, then writes C and iterates against a byte comparison. Its reported score is the **mean of the five per-target byte-match percentages**, not the percentage of an entire game recovered [^8].
 
 The Retrobench v0.4.10 leaderboard, checked on 15 October 2026, reports the following results for Opus 5.5:
 
@@ -210,7 +210,7 @@ TEMPEST | Floating-point and spatial logic | 99.6%
 COLOSSUS | Large graphics-related module | 92.2%
 **Mean** | **Five targets, equally weighted** | **98.4%**
 
-The benchmark's archive reports **81.6% for Opus 5** on the common v0.4 instrument. That is a substantial reported difference, although an agent benchmark also reflects the harness, tool access and run conditions, not just model weights. Retrobench explicitly notes that difficult targets can vary between runs and that small score differences should not be treated as a decisive ranking. At the time of writing, its current-generation leaderboard also reports **97.8% for Fable 5.1** and **94.9% for GPT-6.1 Sol**. These numbers illustrate performance within the benchmark, not a universal ranking of reverse-engineering systems [^6].
+The benchmark's archive reports **81.6% for Opus 5** on the common v0.4 instrument. That is a substantial reported difference, although an agent benchmark also reflects the harness, tool access and run conditions, not just model weights. Retrobench explicitly notes that difficult targets can vary between runs and that small score differences should not be treated as a decisive ranking. At the time of writing, its current-generation leaderboard also reports **97.8% for Fable 5.1** and **94.9% for GPT-6.1 Sol**. These numbers illustrate performance within the benchmark, not a universal ranking of reverse-engineering systems [^8].
 
 {% include link-to-other-site.html title="Retrobench - AI Matching Decompilation Benchmark" url="https://retrobench.ai/" description="The live leaderboard provides the five targets, byte-match scoring rules, compiler-build budget and versioned archives. Check the current version before repeating a model score." %}
 
@@ -227,7 +227,7 @@ The benchmark has important boundaries:
 The observed acceleration is interesting and measurable within this test. Calling it proof that Opus 5.5 can autonomously decompile entire games would go beyond the evidence.
 
 ## ProgramBench - Rebuilding Behaviour Instead of Matching Bytes
-[Vals AI's ProgramBench evaluation](https://www.vals.ai/benchmarks/programbench) offers a useful second perspective on Opus 5.5. An agent receives an executable command-line program and a behavioural specification. It must produce a cleanroom implementation that passes hidden tests. Unlike Retrobench, this is **not a historical-compiler matching challenge**. The model may execute the reference program, but the evaluation forbids disassemblers, decompilers, tracing and reusing the supplied executable [^12].
+[Vals AI's ProgramBench evaluation](https://www.vals.ai/benchmarks/programbench) offers a useful second perspective on Opus 5.5. An agent receives an executable command-line program and a behavioural specification. It must produce a cleanroom implementation that passes hidden tests. Unlike Retrobench, this is **not a historical-compiler matching challenge**. The model may execute the reference program, but the evaluation forbids disassemblers, decompilers, tracing and reusing the supplied executable [^9].
 
 Vals AI reported the following *fully resolved* results out of 200 tasks:
 
@@ -243,7 +243,7 @@ These results show progress on a different reverse-engineering problem: reproduc
 # Are AI-Generated Game Ports Really Decompilations?
 The phrase "AI-decompiled game" has been applied to several distinct techniques. Some projects reconstruct functions as readable source. Others preserve the original code's instruction semantics by translating individual instructions into calls to an emulated CPU or game-specific runtime.
 
-For example, [Little Planet](https://github.com/carlosrmz009/littleplanet), a contemporary Sonic CD desktop project, describes a static recompiler that converts disassembled Mega-CD machine code to C and runs it with a purpose-built hardware runtime. That approach can produce a playable native executable, but it is **not the same as reconstructing the game's original handwritten high-level source** [^13].
+For example, [Little Planet](https://github.com/carlosrmz009/littleplanet), a contemporary Sonic CD desktop project, describes a static recompiler that converts disassembled Mega-CD machine code to C and runs it with a purpose-built hardware runtime. That approach can produce a playable native executable, but it is **not the same as reconstructing the game's original handwritten high-level source** [^10].
 
 The distinction matters when evaluating claims that an agent "decompiled" or "ported" a commercial title:
 * **Matching decompilation** proves the recovered source can reproduce original machine bytes under a specified toolchain.
@@ -258,17 +258,17 @@ A project can combine these techniques. To understand what was actually recovere
 AI decompilation research uses several different notions of quality. Comparing their headline scores without checking the evaluation task can be misleading.
 
 ## LLM4Decompile
-The 2024 [LLM4Decompile paper](https://aclanthology.org/2024.emnlp-main.203/) introduced models for binary-to-source generation and for refining traditional decompiler output. Its evaluation included **re-executability**, asking whether generated programs could be compiled and run successfully on the benchmark's tasks [^7].
+The 2024 [LLM4Decompile paper](https://aclanthology.org/2024.emnlp-main.203/) introduced models for binary-to-source generation and for refining traditional decompiler output. Its evaluation included **re-executability**, asking whether generated programs could be compiled and run successfully on the benchmark's tasks [^11].
 
 This is useful evidence that specialized models can improve over plain pseudocode. It is not a measurement of whether the original N64 or PS1 machine instructions were reproduced.
 
 ## DecompileBench
-The 2025 [DecompileBench study](https://aclanthology.org/2025.findings-acl.1194/) evaluated 23,400 functions from 130 programs, combining runtime-aware validation and an assessment of code understandability. The authors reported that their tested LLM-based approaches could produce more understandable code while showing **52.2% lower functional correctness** than the commercial decompilers in the comparison [^8].
+The 2025 [DecompileBench study](https://aclanthology.org/2025.findings-acl.1194/) evaluated 23,400 functions from 130 programs, combining runtime-aware validation and an assessment of code understandability. The authors reported that their tested LLM-based approaches could produce more understandable code while showing **52.2% lower functional correctness** than the commercial decompilers in the comparison [^12].
 
 The lesson is not that language models are useless. Readability, recompilation, test coverage and matching are separate measurements; a model can score well on one and fail another.
 
 ## BinMetric
-[BinMetric](https://www.ijcai.org/proceedings/2025/858) evaluates language models on binary-analysis tasks rather than limiting the investigation to reconstructing matching C. It is a complementary reference for assessing whether an agent understands the program it is modifying [^9].
+[BinMetric](https://www.ijcai.org/proceedings/2025/858) evaluates language models on binary-analysis tasks rather than limiting the investigation to reconstructing matching C. It is a complementary reference for assessing whether an agent understands the program it is modifying [^13].
 
 ---
 # Limitations and Good Practices
@@ -304,14 +304,14 @@ Useful resources for a first project include:
 # References
 [^1]: [decomp.me - Matching Decompilation FAQ](https://decomp.me/faq).
 [^2]: [bigyoshi51/decomp - README](https://github.com/bigyoshi51/decomp/blob/main/README.md).
-[^3]: [Druthulu/BFM-decomp - README and verification instructions](https://github.com/Druthulu/BFM-decomp/blob/main/README.md).
-[^4]: [BFM-decomp - Project History](https://github.com/Druthulu/BFM-decomp/blob/main/docs/story.md).
-[^5]: [Anthropic - Introducing Claude Opus 5.5, September 22, 2026](https://www.anthropic.com/claude-opus-5-5).
-[^6]: [Retrobench - AI Decompilation Benchmark, v0.4.10 (checked October 15, 2026)](https://retrobench.ai/).
-[^7]: [Tan et al. - LLM4Decompile, EMNLP 2024](https://aclanthology.org/2024.emnlp-main.203/).
-[^8]: [Gao et al. - DecompileBench, ACL 2025](https://aclanthology.org/2025.findings-acl.1194/).
-[^9]: [BinMetric - IJCAI 2025](https://www.ijcai.org/proceedings/2025/858).
-[^10]: [Chris Lewis - Snowboard Kids 2 Decompilation README](https://github.com/cdlewis/snowboardkids2-decomp/blob/main/README.md).
-[^11]: [Snowboard Kids 2 - Claude Decompilation Instructions](https://github.com/cdlewis/snowboardkids2-decomp/blob/main/CLAUDE.md).
-[^12]: [Vals AI - ProgramBench Results and Methodology, updated September 22, 2026](https://www.vals.ai/benchmarks/programbench).
-[^13]: [Little Planet - Sonic CD Recompilation and PC Port README](https://github.com/carlosrmz009/littleplanet/blob/main/README.md).
+[^3]: [Chris Lewis - Snowboard Kids 2 Decompilation README](https://github.com/cdlewis/snowboardkids2-decomp/blob/main/README.md).
+[^4]: [Snowboard Kids 2 - Claude Decompilation Instructions](https://github.com/cdlewis/snowboardkids2-decomp/blob/main/CLAUDE.md).
+[^5]: [Druthulu/BFM-decomp - README and verification instructions](https://github.com/Druthulu/BFM-decomp/blob/main/README.md).
+[^6]: [BFM-decomp - Project History](https://github.com/Druthulu/BFM-decomp/blob/main/docs/story.md).
+[^7]: [Anthropic - Introducing Claude Opus 5.5, September 22, 2026](https://www.anthropic.com/claude-opus-5-5).
+[^8]: [Retrobench - AI Decompilation Benchmark, v0.4.10 (checked October 15, 2026)](https://retrobench.ai/).
+[^9]: [Vals AI - ProgramBench Results and Methodology, updated September 22, 2026](https://www.vals.ai/benchmarks/programbench).
+[^10]: [Little Planet - Sonic CD Recompilation and PC Port README](https://github.com/carlosrmz009/littleplanet/blob/main/README.md).
+[^11]: [Tan et al. - LLM4Decompile, EMNLP 2024](https://aclanthology.org/2024.emnlp-main.203/).
+[^12]: [Gao et al. - DecompileBench, ACL 2025](https://aclanthology.org/2025.findings-acl.1194/).
+[^13]: [BinMetric - IJCAI 2025](https://www.ijcai.org/proceedings/2025/858).
