@@ -12235,6 +12235,63 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "status": "Active"
       }
+    },
+    "battletanx": {
+      "name": "BattleTanx",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/BattleTanx",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:25:23Z",
+        "last_commit_at": "2026-10-15T18:51:31Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx/commit/07bcc5cbd240bea8a9b594376e5cab2c5c73befc",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:25:23Z",
+        "status": "Active"
+      }
+    },
+    "battletanx-global-assault": {
+      "name": "BattleTanx: Global Assault",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:25:23Z",
+        "last_commit_at": "2026-10-15T18:32:00Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault/commit/82babe4beaa761f7806b5b41437eb197292f76d3",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:25:23Z",
+        "status": "Active"
+      }
+    },
+    "battletanx-global-assault-pc-port": {
+      "name": "BattleTanx: Global Assault PC port",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+      "project_type": "Recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:25:23Z",
+        "last_commit_at": "2026-10-15T18:53:20Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/commit/3c074c3bd9e20e81c32a37b588a70ecd2073e128",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:25:23Z",
+        "status": "Active"
+      }
     }
   },
   "consoles": {
@@ -13812,6 +13869,63 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/mr-wiseguy/banjo-tooie"
+            }
+          ]
+        },
+        {
+          "project": "battletanx",
+          "name_markdown": "[BattleTanx](https://github.com/TheGh0stShip/BattleTanx)",
+          "images": [
+            {
+              "alt": "BattleTanx box art (Nintendo 64, USA)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheGh0stShip/BattleTanx"
+            }
+          ]
+        },
+        {
+          "project": "battletanx-global-assault",
+          "name_markdown": "[BattleTanx: Global Assault](https://github.com/TheGh0stShip/BattleTanx-Global-Assault)",
+          "images": [
+            {
+              "alt": "BattleTanx: Global Assault box art (Nintendo 64, USA)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "BattleTanx: Global Assault PC port",
+              "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Playable recompilation; game data is supplied separately.",
+              "project_types": [
+                "Recompilation"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault"
             }
           ]
         },
