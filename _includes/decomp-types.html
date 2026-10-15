@@ -1,0 +1,21 @@
+{%- assign type_separator = '' -%}
+{%- assign seen_types = '' -%}
+{%- assign primary_type_names = include.row.project_types | map: 'name' -%}
+{%- for type in include.row.project_types -%}
+  {%- capture type_key -%}|{{ type.name }}~{{ type.url }}|{%- endcapture -%}
+  {%- unless seen_types contains type_key -%}
+    {{- type_separator -}}<a href="{{ type.url | escape }}">{{ type.name | escape }}</a>
+    {%- assign type_separator = ', ' -%}
+    {%- assign seen_types = seen_types | append: type_key -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- for port in include.row.ports -%}
+  {%- for type in port.project_types -%}
+    {%- capture type_key -%}|{{ type }}~{{ port.url }}|{%- endcapture -%}
+    {%- unless seen_types contains type_key -%}
+      {{- type_separator -}}<a href="{{ port.url | escape }}" title="{{ port.name | escape }}">{{ type | escape }}{% if include.row.ports.size > 1 or primary_type_names contains type %} ({{ port.name | escape }}){% endif %}</a>
+      {%- assign type_separator = ', ' -%}
+      {%- assign seen_types = seen_types | append: type_key -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endfor -%}

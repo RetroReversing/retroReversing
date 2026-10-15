@@ -39,6 +39,12 @@ class ActivityTests(unittest.TestCase):
             for row in table['rows']:
                 self.assertIn(row['project'], catalog['projects'])
                 self.assertTrue(row['name_markdown'])
+                self.assertTrue(row['project_types'])
+                for project_type in row['project_types']:
+                    self.assertTrue(project_type['name'])
+                    self.assertNotIn(' / ', project_type['name'])
+                    self.assertNotIn(',', project_type['name'])
+                    self.assertTrue(project_type['url'].startswith(('https://', 'http://')))
                 percent = row['completion_percent']
                 self.assertTrue(percent is None or (isinstance(percent, (int, float)) and 0 <= percent <= 100))
                 self.assertIn(row['completion_qualifier'], ('', '>'))
@@ -48,6 +54,8 @@ class ActivityTests(unittest.TestCase):
                     self.assertTrue(port['name'])
                     self.assertTrue(port['url'].startswith(('https://', 'http://')))
                     self.assertIsInstance(port['platforms'], list)
+                    self.assertTrue(port['project_types'])
+                    self.assertTrue(all(isinstance(name, str) and name for name in port['project_types']))
                 for image in row['images']:
                     self.assertTrue(image['url'].startswith(('https://', 'http://', '/')))
         for project in catalog['projects'].values():
@@ -122,9 +130,9 @@ class ActivityTests(unittest.TestCase):
                 'consoles': {'ds': {'columns': ['Name', 'Project Type', 'Status'],
                                     'rows': [{'project': 'game', 'name_markdown': '[Game](https://github.com/o/r)',
                                               'images': [{'url': 'https://example.com/cover.png', 'alt': 'Game box art', 'width': 100}],
-                                              'project_type': 'Decompilation', 'notes_markdown': 'Completed',
+                                              'project_types': [{'name': 'Decompilation', 'url': 'https://github.com/o/r'}], 'notes_markdown': 'Completed',
                                               'completion_percent': 80, 'completion_qualifier': '', 'completion_metric': 'completion',
-                                              'ports': [{'name': 'Browser port', 'url': 'https://example.com/play', 'platforms': ['Browser'], 'description_markdown': ''}]}]}}}
+                                              'ports': [{'name': 'Browser port', 'url': 'https://example.com/play', 'platforms': ['Browser'], 'description_markdown': '', 'project_types': ['Native port']}]}]}}}
         original = json.dumps(data['consoles'], sort_keys=True)
         client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
         activity.refresh(data, client, NOW)
