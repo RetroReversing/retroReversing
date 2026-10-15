@@ -9799,6 +9799,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "resident-evil-3-re-visited": {
+      "name": "Resident Evil 3: Nemesis",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -17765,6 +17776,23 @@
           ],
           "project_type": "Static recompilation",
           "notes_markdown": "Native Windows x64 static recompilation of the Japanese PlayStation release (SLPS-02074); requires a user-owned disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": []
+        },
+        {
+          "project": "resident-evil-3-re-visited",
+          "name_markdown": "[Resident Evil 3: Nemesis (Project RE: Visited)](https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
+              "alt": "Resident Evil 3: Nemesis USA PlayStation box art",
+              "width": 100
+            }
+          ],
+          "project_type": "Static recompilation",
+          "notes_markdown": "Windows x64 static recompilation using PSXRecomp; requires a user-owned PlayStation disc image targeting SLUS-00923. The project documents no texture-pack support or free camera for pre-rendered backgrounds. Related Resident Evil 1 and 2 projects are planned, not released.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
