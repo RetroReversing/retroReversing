@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-15'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive
@@ -349,6 +349,14 @@ Steinar H. Gunderson's series shows how to rewrite C recovered from assembly whe
 * **[If-add-else](https://blog.sesse.net/blog/tech/2026-10-09-17-06_decompilation_patterns_part_6_if_add_else)** - Move a default assignment into an `else` branch or conditional expression.
 * **[If to condition](https://blog.sesse.net/blog/tech/2026-10-10-20-32_decompilation_patterns_part_7_if_to_condition)** - Replace branches that assign zero or one with a boolean expression.
 * **[Un-repetition of conditions](https://blog.sesse.net/blog/tech/2026-10-11-16-07_decompilation_patterns_part_8_un_repetition_of_conditions)** - Remove a condition calculation repeated across branches.
+
+---
+# AI-Assisted Matching Decompilation
+Recent AI agents can use a decompiler's output as the beginning of a compiler-backed matching workflow. The agent writes candidate C, runs the game's original toolchain, examines assembly differences and repeats until the bytes match. This approach is relevant to Nintendo 64 and PlayStation preservation projects, but it does not make the original programmer's source or intent recoverable.
+
+For concrete game case studies, tools, code examples and a comparison of Claude Opus 5.5 benchmarks, see:
+
+{% include_cached link-to-other-post.html post="/ai-assisted-decompilation" description="AI-Assisted Decompilation for Retro Games explains matching workflows, Claude agents, N64 and PlayStation projects, and how to interpret benchmarks." %}
 
 ---
 # Getting Started

@@ -14,6 +14,7 @@ redirect_from:
   - /Diaphora
 editlink: ../categories/tools/Tools.md
 title: Retro Game Development and Reversing Tools of the Trade
+updatedAt: '2026-10-11'
 recommend: 
  - tools
  - software
@@ -181,6 +182,15 @@ For the full history of Delphi decompilers, see:
 {% include_cached link-to-other-post.html post="/delphi" description="A guide to Delphi decompilation and reverse engineering, including Revendepro, DeDe, DCU32INT, IDR, Pythia, DelphiHelper, Dhrake, and DelphiReSym." %}
 
 ---
+## Agent-Assisted Reverse Engineering
+[REA (Reverse Engineer Anything)](https://github.com/morluto/rea) exposes investigation workflows through a command-line interface and a Model Context Protocol (MCP) server.
+For native binaries it connects to an existing Hopper, [Ghidra](/ghidra), or IDA installation and returns evidence such as assembly, pseudocode, callers and data references [^3].
+
+For retro-game research, use it to investigate a specific function or data structure, then check the reconstruction against the original binary.
+The [DX-Ball sound-panning case study](https://rea.tools/showcase/dx-ball/) illustrates this workflow.
+Tool output is analysis evidence, not a guarantee of accurate source recovery or a playable port.
+
+---
 ## File Format Analyzers
 Understanding game-specific file formats is crucial for modifying assets and extracting valuable information. These tools help analyze and manipulate proprietary file formats used in games.
 
@@ -251,3 +261,4 @@ Here is a list of posts on the site that have been tagged as related to game dev
 # References
 [^1]: [What did developers in the 90s use to create pixel graphics for their games r/gamedev](https://www.reddit.com/r/gamedev/comments/ygosp6/what_did_developers_in_the_90s_use_to_create/)
 [^2]: [GDC Evolve Page 36](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
+[^3]: [REA repository and native-analysis documentation](https://github.com/morluto/rea)

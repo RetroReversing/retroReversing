@@ -29,7 +29,7 @@ This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossa
 
 ---
 ## Glossary of Project Types
-The tables use these project types. Combined labels describe projects that span more than one approach:
+The tables list project types as comma-separated links to their respective projects. A game can have several projects, and a project can use more than one approach:
 * <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code.
 * <a id="glossary-matching-decompilation"></a>**Matching decompilation** - Aims to compile back to the same machine code as the original game. Matching does not mean the project is complete.
 * <a id="glossary-disassembly"></a>**Disassembly** - Converts machine code into assembly source, often with manually added labels and comments.

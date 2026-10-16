@@ -14,7 +14,7 @@ redirect_from:
   - /games/all
   - /games/
 editlink: ../categories/games/Games.md
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-12'
 tags:
   - games
 ---
@@ -239,6 +239,20 @@ This section collects our PC game-specific posts and source code investigations:
 ### Planet X3
 This post covers **Planet X3**, a modern MS-DOS strategy game whose tooling and technical design make it relevant to retro PC development research.
 {% include_cached link-to-other-post.html post="/planet-x3-dos" %}
+
+### The Elder Scrolls Adventures Redguard
+**The Elder Scrolls Adventures: Redguard** (1998) is a Bethesda action-adventure game for MS-DOS that runs on the DOS/4GW extender.
+Its engine has its own 3D model, terrain, scene, texture, and scripting formats, with separate software and 3dfx Glide renderers.
+The [redguard-preservation](https://github.com/michidk/redguard-preservation) project documents these formats and engine behaviours, and includes a Rust command line tool that parses the original assets and converts them to GLB.
+
+The published documentation is a good starting point for hands-on experimentation with the game files:
+* **File formats** - [Models (3D/3DC)](https://michidk.github.io/redguard-preservation/formats/models/3d.html), [terrain (WLD)](https://michidk.github.io/redguard-preservation/formats/WLD.html), [scenes (RGM)](https://michidk.github.io/redguard-preservation/formats/RGM.html), and [textures (TEXBSI)](https://michidk.github.io/redguard-preservation/formats/TEXBSI.html)
+* **Scripting** - The [SOUP script engine](https://michidk.github.io/redguard-preservation/engine/SOUP.html) that handles actor behavior, dialogue, puzzle logic, and scene control
+* **Cheats** - The game's [hidden cheat system](https://michidk.github.io/redguard-preservation/engine/cheats.html)
+
+Two engine reimplementations load the original game files:
+* **[RGUnity](https://github.com/RGUnity/redguard-unity)** - Reimplements the game in Unity
+* **[cyrus](https://github.com/michidk/cyrus)** - Rebuilds the game in Rust and Bevy, with a native and browser world viewer. It is early in development and not yet playable
 
 ---
 ## External Deep Dives
