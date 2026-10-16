@@ -20,6 +20,25 @@
         "status": "Active"
       }
     },
+    "xeo3-recomp-kit": {
+      "name": "XEO3 Recomp Kit",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/fxceless/xeo3-recomp-kit",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-16T22:01:16Z",
+        "last_commit_at": "2026-10-16T21:35:50Z",
+        "last_commit_url": "https://github.com/fxceless/xeo3-recomp-kit/commit/e5a2108b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-16T22:01:16Z",
+        "status": "Active"
+      }
+    },
     "blue-dragon": {
       "name": "Blue Dragon",
       "platforms": [
@@ -695,6 +714,40 @@
         "Status / Notes"
       ],
       "rows": [
+        {
+          "project": "rexglue-sdk",
+          "name_markdown": "[ReXGlue SDK](https://github.com/rexglue/rexglue-sdk)",
+          "notes_markdown": "PowerPC-to-C++ recompilation runtime and toolkit for Xbox 360 projects.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Related project",
+              "url": "https://github.com/rexglue/rexglue-sdk"
+            }
+          ]
+        },
+        {
+          "project": "xeo3-recomp-kit",
+          "name_markdown": "[XEO3 Recomp Kit](https://github.com/fxceless/xeo3-recomp-kit)",
+          "notes_markdown": "Recompiles Xbox 360 PowerPC game code into the DLL loaded by Microsoft's XEO3 back-compat emulator. README-reported status: Crackdown is playable from a disc folder, Need for Speed: Most Wanted reaches menus and races, and Fable II boots and renders before freezing.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Related project",
+              "url": "https://github.com/fxceless/xeo3-recomp-kit"
+            },
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/fxceless/xeo3-recomp-kit"
+            }
+          ]
+        },
         {
           "project": "blue-dragon",
           "name_markdown": "[Blue Dragon](https://github.com/zolaware/reblue)",

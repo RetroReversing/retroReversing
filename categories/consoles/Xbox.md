@@ -72,6 +72,14 @@ This section of our guide will provide you with detailed information and resourc
 
 {% include link-to-other-site.html url="https://landaire.net/a-file-format-uncracked-for-20-years/" description="Landaire details the reverse engineering of the Splinter Cell LIN format, identifying it as a streaming optimization method rather than a standard compressed archive." image="https://github.com/landaire.png" title="A File Format Uncracked for 20 Years" %}
 
+---
+## Static Recompilation
+Static recompilation translates the original Xbox executable into source code that can be compiled into a native PC program. The approach retains the original game logic while replacing console services such as the kernel, graphics, audio, and input layers with host-platform implementations.
+
+The upstream [xboxrecomp](https://github.com/sp00nznet/xboxrecomp) toolkit provides an XBE parser, x86 disassembler, function identification, ABI analysis, and a static recompiler that lifts Xbox code into C. The [Two Towers Recompiled project](https://github.com/Gumpolas/TooTawersRecomp) uses the toolkit for its game-specific work. The runtime includes compatibility layers for Xbox kernel calls, Direct3D 8, the NV2A graphics processor, DirectSound, the MCPX APU, and XInput. The project requires the user's own copy of the game and does not distribute game data.
+
+{% include link-to-other-site.html url="https://github.com/sp00nznet/xboxrecomp" description="sp00nznet's xboxrecomp is a title-agnostic static recompilation toolkit for original Xbox games. Version 0.12.0 includes the XBE analysis and x86-to-C pipeline plus runtime libraries for Xbox kernel calls, D3D8, NV2A, DirectSound, the MCPX APU and input." title="xboxrecomp - Static Recompilation Toolkit for Original Xbox Games" %}
+
 
 ---
 # All Posts
