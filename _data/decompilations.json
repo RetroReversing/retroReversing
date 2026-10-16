@@ -12293,6 +12293,82 @@
         "status": "Active"
       }
     },
+    "toy-story": {
+      "name": "Toy Story",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/toy-story-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T14:07:18Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/d55b4b91d5451ed7b2aaaaef97f9ae87ab758c4e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "dragon-ball-z-buyuu-retsuden": {
+      "name": "Dragon Ball Z: Buyuu Retsuden",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T13:59:52Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/dd871f93f04489a686b6024f410f1f2f7d757c83",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "crazy-taxi": {
+      "name": "Crazy Taxi",
+      "platforms": [
+        "Sega Dreamcast (DC)"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-14T18:09:56Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/0ebc46e3ec5a39e9a5baa99ae24c2f1ca87f0847",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "virtua-tennis": {
+      "name": "Virtua Tennis",
+      "platforms": [
+        "Sega Dreamcast (DC)"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-14T18:09:58Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/3e7867fbe4d8ee8cb1d76e3a6cb46f527d71b435",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
     "dark-cloud-2": {
       "name": "Dark Cloud 2",
       "platforms": [
@@ -22585,6 +22661,50 @@
               "url": "https://github.com/sonicretro/spindisasm"
             }
           ]
+        },
+        {
+          "project": "toy-story",
+          "name_markdown": "[Toy Story](https://github.com/consolesplayingconsoles/toy-story-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Toy%20Story%20%28USA%29.png",
+              "alt": "Toy Story box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/consolesplayingconsoles/toy-story-disasm"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-buyuu-retsuden",
+          "name_markdown": "[Dragon Ball Z: Buyuu Retsuden](https://github.com/consolesplayingconsoles/dbzbr-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20L'Appel%20du%20Destin%20%28France%29.png",
+              "alt": "Dragon Ball Z: Buyuu Retsuden box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/consolesplayingconsoles/dbzbr-disasm"
+            }
+          ]
         }
       ]
     },
@@ -22681,6 +22801,50 @@
             {
               "name": "Static recompilation",
               "url": "https://github.com/sonicfreak1337/SARecomp"
+            }
+          ]
+        },
+        {
+          "project": "crazy-taxi",
+          "name_markdown": "[Crazy Taxi](https://github.com/consolesplayingconsoles/crazy-taxi-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Crazy%20Taxi%20%28Europe%29.png",
+              "alt": "Crazy Taxi box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp"
+            }
+          ]
+        },
+        {
+          "project": "virtua-tennis",
+          "name_markdown": "[Virtua Tennis](https://github.com/consolesplayingconsoles/virtua-tennis-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Virtua%20Tennis%20%28USA%29.png",
+              "alt": "Virtua Tennis box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp"
             }
           ]
         }

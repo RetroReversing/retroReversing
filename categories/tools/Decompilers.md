@@ -371,6 +371,10 @@ If you want to experiment with decompilation on a retro binary:
 Decompilers reward patience and annotation.
 The first output is a sketch; the useful map is the one you refine.
 
+## Starting a Dreamcast decompilation
+<div class="emoji">🔧</div>
+[dc-decomp-kickoff](https://github.com/consolesplayingconsoles/dc-decomp-kickoff) is a tool for starting a decompilation of a Sega Dreamcast game from your own disc. It gives you a repo that rebuilds the executable byte for byte from one assembly file per function, as the baseline that keeps matching while C replaces the assembly, with functions named by SDK signature where possible. A function is done when its C behaves like the original, proven in an SH-4 simulator (calls, memory writes and result on test cases); byte-identical C is the bonus tier. It can also carry verified C for shared library code (the NAOMI library, the C runtime) from a sibling decomp into a new one, checked again on the new game's own bytes, and it builds a text map for translators. The repo contains no game code or data.
+
 ---
 # References
 [^1]: National Security Agency, "Ghidra Software Reverse Engineering Framework," [https://ghidra-sre.org/](https://ghidra-sre.org/).
