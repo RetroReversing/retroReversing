@@ -11,7 +11,8 @@ redirect_from:
   - /3d
 editlink: ../categories/tools/3DSoftware.md
 title: 3D Software used in Retro-era Game Development
-recommend: 
+updatedAt: '2026-10-16'
+recommend:
  - 3d
  - software
  - tools
@@ -22,74 +23,110 @@ tags:
 ---
 
 # Introduction
-This post will focus on 3D software used to produce commercial video games in the 90s up until the 2010s due to the focus of this site being retro game development.
+A recovered model is only one part of a game's art pipeline.
+The modelling package, exporter and asset converter can each leave different files behind, while a rendered cutscene may survive only as video.
+This page covers 3D tools used from the 1990s into the early 2010s, with examples of what to look for in development archives.
 
-The table below shows some of the most popular 3D software for the games industry along with who made them and the price they sold for:
+---
+# From Modelling Software to Game Assets
+An editable scene and a game-ready model serve different purposes.
+Keep exporters, conversion scripts and build instructions alongside source artwork: they explain which parts of the scene reached the engine.
+For example, Quake II's model compiler reads triangle data and writes an MD2 model; the authoring application's scene is not the runtime format [^2].
 
-Name | Company | Price | Notes
----|---|---|---
-Visual Reality 2.0 | Visual Software | very little information on this after 1996 (website in 1999 doesn't mention it: [Wayback Machine](https://web.archive.org/web/19991128081032/http://www.vissoft.com/))
-LightWave 3D 4.0 | DPS | £816.63 | 1995
+These documented pipelines provide starting points for investigating recovered assets:
+
+Tool or pipeline | Evidence to inspect | What it tells you
+---|---|---
+Quake II qdata | Base mesh, animation frame files and `models.c` | How triangle input becomes an MD2 model [^2]
+SOFTIMAGE 3D Design Toolkit for Saturn | Exported files and target preview tools | How artists checked textures and geometry for the console [^3]
+LightWave 6 object files | `FORM` and `LWO2` header, surface and image chunks | Object structure and dependencies that may be missing from an archive [^4]
+
+## Quake II's Model Compiler
+The released [Quake II tool source](https://github.com/id-Software/Quake-2-Tools/blob/master/qdata/models.c) gives a concrete example of the conversion step.
+In `models.c`, the base mesh and animation frames can be read through either `LoadTriangleList` or `Load3DSTriangleList`.
+Frame lookup supports names such as `run.1` and `run1.tri`; the default model output is `tris.md2` [^2].
+
+The compiler rejects an animation frame when its triangle count differs from the base mesh.
+That check is worth finding before attempting to repair or re-export an animation: a sequence of files that each opens correctly is not necessarily a sequence the game compiler accepts [^2].
+Search the source for `FindFrameFile` and the triangle-count error to follow that path through the code.
 
 ---
 # How Were 3D Game Cut Scenes Developed?
-Before game engines were capable enough to be used for in-game cut scenes, game development studios would need to use software to render video files that would play back inside the game.
+Prerendered cutscenes store finished images for playback; real-time cutscenes ask the game engine to draw the scene as it runs.
+Offline rendering allows a scene to take longer than a frame interval to compute, but the resulting video does not preserve an editable mesh, rig or lighting setup.
+When investigating a cutscene, first establish whether the archive contains the original scene, rendered frames or only the encoded movie.
 
-Studios would either contract the job out to third-party animation studios, which normally did animation for TV and movies, or work on them in-house with specialized artists. These teams would be given the same concept art as the game artists but would have much more polygons and computing power to work with due to not having the limitations of real-time rendering.
+Modelling and animation packages such as 3D Studio Max, Maya and Softimage are separate from compositing tools, which combine rendered layers and effects.
+The existing [community discussion of 1990s cutscene software](https://news.ycombinator.com/item?id=34305515) is useful for research leads, rather than proof of a particular game's production setup [^1].
 
-## What 3D Software Was Used to Create Cut Scenes in Retro Games?
-The most popular 3D software for developing retro game cutscenes included:
-* 3D Studio Max
-* [Maya](/maya)
-* SoftImage
-
-## What Compositing Software Was Used to Create Retro Game Cut Scenes?
-Most of the compositing software used for the VFX and animation industries was also used for game cut scenes. A few of these are listed below:
-* Combustion by Discreet Logic (Autodesk)
-* Henry by **Quantel**
-* After Effects by Adobe
-* Nuke by Foundry
-* Blackmagic Design's Fusion
-
-## What Animation Software was used?
-* morpheme by Natural Motion (PS3, Xbox 360, PC)
+## Compositing and Animation Tools
+Compositing packages worth looking for in production records include Combustion, Quantel Henry, After Effects, Nuke and Fusion.
+Record the version and contemporary vendor when identifying an installation; a product's later branding does not date an old project.
+NaturalMotion's morpheme belongs to the animation-middleware side of the investigation, rather than a list of offline renderers.
+For any of these tools, a game's credits, project files or developer account are stronger evidence of use than a general software list.
 
 ---
-# Popular 3D Art Software
-The software in this section are used by hundreds if not thousands of games and could be considered the industry standard.
+# 3D Art Software
+The sections below connect modelling packages to surviving documentation and development material.
 
 ## 3D Studio (Max)
-3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2025).
-
-We have a separate post on 3D Studio Max which you can find below:
-{% include_cached link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
+The distinction between a native scene and an exchange file matters when examining 3D Studio material.
+Quake II's `Load3DSTriangleList` path is evidence of an importer in the toolchain, not proof that every compatible input was originally authored in 3D Studio [^2].
+The dedicated page covers the DOS-era tools and the later Max line:
+{% include_cached link-to-other-post.html post="/3d-studio-max" description="3D Studio and 3D Studio Max in game development." %}
 
 ## Maya
-Maya was first released in 1998 as the successor to Alias PowerAnimator, and it is still one of the main 3D modeling programs in game development.
-{% include_cached link-to-other-post.html post="/maya" description="For the history of Maya in game development, from PowerAnimator onward, see this page." %}
+Maya and its predecessor tools belong to a longer history of workstation-based modelling and animation.
+For the history of Alias PowerAnimator and Maya in game development, see:
+{% include_cached link-to-other-post.html post="/maya" description="Alias PowerAnimator, Maya and their use in game production." %}
 
-## Lightwave 
+## Softimage and the Saturn Design Toolkit
+[Sega's September 1995 Developer News](https://antime.kapsi.fi/sega/files/DTS-0995.pdf) describes a SOFTIMAGE 3D Design Toolkit tailored to the [Saturn](/saturn).
+It offered Saturn-format export and a viewer based on SGI IRIX and Saturn CartDev, alongside interactive colour reduction, texture painting and UV-coordinate editing.
+The newsletter specifies SGI workstations running IRIX 5.2 or 5.3 [^3].
 
-### Lightwave used by Team17 for WORMS on the Amiga
-[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development [Amiga](/Amiga) 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, **Chris Blythe**.
+This is useful evidence of the work between modelling and runtime rendering: artists could adjust textures and inspect exported results for the target machine.
+It also gives archive researchers concrete software and workstation names to search for, rather than treating every Softimage installation as equivalent.
+
+## LightWave
+The [LightWave SDK object-format specification](https://documentation.help/LightWave/lwo2.html), dated 9 November 2001, documents `LWO2`, introduced with LightWave 6.0.
+A file starts with `FORM`, a four-byte big-endian size equal to the file length minus eight, and then `LWO2`.
+Use that header to select a parser rather than assuming every `.lwo` file uses this version [^4].
+
+Objects contain points, polygons and surfaces, but surfaces can also reference external images, plug-ins and animation envelopes.
+If a recovered model opens without its textures, inspect those references before assuming the artwork was lost.
+The SDK's [annotated object-file examples](https://documentation.help/LightWave/lwo2ex.html) provide small files to compare against a hex dump [^4].
+
+### LightWave Used by Team17 for Worms on the Amiga
+[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) explores an original *Worms* development [Amiga](/Amiga) 4000 with developer Chris Blythe.
+The recovery shows LightWave animation files, full-motion video assets and unreleased artwork on the machine's ageing drives.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rcyHqJ6ZHXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ---
-# Obscure 3D Art Software
-The software in this section are more obscure and may have only been used for a handful of games, but they were viable choices for smaller studios due to their cheaper price.
+# Other 3D Art Software
+Smaller packages can be harder to identify in development archives, especially when their names changed between releases.
 
 ## 3D-Brush (Later 3DCoat)
-At only $70 3D-Brush was a very cheap alternative to ZBrush and Mudbox and was developed by **Dmitriy Yanev**, who was the former lead coder from the Ukraine based game development studio **GSC Gameworld** (Cossacks game series).
+3D-Brush was created by **Andrew Shpagin**, who had previously worked at GSC.
+In a [2018 interview with the Pilgway team](https://www.cgtrader.com/blog/pilgway-talk-about-the-ethics-in-3d-and-hint-at-a-new-major-release-of-3dcoat-in-the-next-12-months-2018-05), the developers describe its origin as a character-texturing tool and date the first $70 sale to 2007 [^5].
 
-It was later rebranded to **3D-Coat** in early 2008 and it is still a viable product in 2025! However it is unclear which commercial games, if any, used this during the development process.
+Shpagin's [3D-Coat 2.07 announcement](https://3dcoat.com/forum/index.php?/topic/878-3d-coat-207-released/), posted on 10 March 2008, explains the rename: the 3D-Brush name was too close to ZBrush for trademark registration.
+Existing users could carry over their serial numbers, and he described installing over the earlier version to retain brushes, materials and settings [^6].
+These details help connect installations bearing the two names; they do not establish which commercial games used the early tool.
 
-Here is a screenshot from the old **3d-brush.com** website showing the 1.82 Beta version interface:
+This screenshot from the old 3d-brush.com website shows the 1.82 Beta interface:
 ![3d-Brush 1.82](https://github.com/user-attachments/assets/6531ba92-5fed-4e49-9df3-4cf2172043ff)
 
-
+## Visual Reality
+Visual Reality 2.0 by Visual Software remains a research lead.
+The [archived Visual Software website from November 1999](https://web.archive.org/web/19991128081032/http://www.vissoft.com/) is retained here as a starting point; a dated manual, catalogue or developer account would be needed to establish a specific game-production workflow.
 
 ---
 # References
-[^1]: [Ask HN What software was used to make 90s cutscenes? ](https://news.ycombinator.com/item?id=34305515)
+[^1]: [Ask HN What software was used to make 90s cutscenes?](https://news.ycombinator.com/item?id=34305515) - community research leads.
+[^2]: [id Software - Quake II Tools, qdata/models.c](https://github.com/id-Software/Quake-2-Tools/blob/master/qdata/models.c).
+[^3]: [Sega DTS Developer News, September 1995](https://antime.kapsi.fi/sega/files/DTS-0995.pdf), page 2, "New Version has a Saturn Ring".
+[^4]: [LightWave SDK - Object Files](https://documentation.help/LightWave/lwo2.html), 9 November 2001, and [Object File Examples](https://documentation.help/LightWave/lwo2ex.html).
+[^5]: [CGTrader interview with Andrew Shpagin and Stanislav Chernyshuk](https://www.cgtrader.com/blog/pilgway-talk-about-the-ethics-in-3d-and-hint-at-a-new-major-release-of-3dcoat-in-the-next-12-months-2018-05), 23 May 2018.
+[^6]: [Andrew Shpagin - 3D-Coat 2.07 released](https://3dcoat.com/forum/index.php?/topic/878-3d-coat-207-released/), 10 March 2008.
