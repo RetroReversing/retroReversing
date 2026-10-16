@@ -963,6 +963,48 @@ h5 + .emoji {
   max-width: 320px;
 }
 
+@media (max-width: 767px) {
+  .post .linkToOtherPost blockquote {
+    margin-left: 0;
+    padding: 8px 12px;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .post .linkToOtherPost .widget-img {
+    flex: 0 0 80px;
+    width: 80px;
+    overflow: hidden;
+  }
+
+  .post .linkToOtherPost .otherPostImg,
+  .post .linkToOtherPost .widget-img > .geopattern {
+    display: block !important;
+    width: 80px !important;
+    height: 80px !important;
+    min-width: 0;
+    min-height: 0;
+    max-width: 80px !important;
+    max-height: 80px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .post .linkToOtherPostRight {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .post .linkToOtherPostRight h3 {
+    margin: 0 0 8px;
+  }
+
+  .post .linkToOtherPostRight p {
+    padding: 0;
+  }
+}
+
 /* #endregion Link to other post */
 /* #endregion Includes  */
 
