@@ -1,0 +1,9 @@
+SuperH SLEIGH processor specification (sh-2.sla, superh.cspec, superh.pspec)
+Copyright National Security Agency
+
+Licensed under the Apache License, Version 2.0.
+Taken from the Ghidra 11.4.2 public release:
+https://github.com/NationalSecurityAgency/ghidra
+
+superh.ldefs in this directory is the SH-2 language entry from that release,
+with the SH-1 and SH-2A entries omitted.

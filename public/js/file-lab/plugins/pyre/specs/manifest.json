@@ -1,0 +1,8 @@
+{
+  "files": [
+    {"path": "SuperH/data/languages/sh-2.sla", "size": 12964},
+    {"path": "SuperH/data/languages/superh.cspec", "size": 2653},
+    {"path": "SuperH/data/languages/superh.ldefs", "size": 475},
+    {"path": "SuperH/data/languages/superh.pspec", "size": 109}
+  ]
+}

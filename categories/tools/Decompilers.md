@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-15'
+updatedAt: '2026-10-16'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive
@@ -351,6 +351,88 @@ Steinar H. Gunderson's series shows how to rewrite C recovered from assembly whe
 * **[Un-repetition of conditions](https://blog.sesse.net/blog/tech/2026-10-11-16-07_decompilation_patterns_part_8_un_repetition_of_conditions)** - Remove a condition calculation repeated across branches.
 
 ---
+# Troubleshooting Matching Decompilation
+Matching decompilation reconstructs C or C++ that reproduces the target machine code with a particular build configuration.
+The [N64 reversing guide](/N64Reversing#rebuild-and-decompile-the-game) covers establishing a baseline build and replacing assembly one function at a time.
+
+The archived [decomp.wtf project](https://github.com/i12bp8/decomp.wtf) includes short guides written for automated decompilation agents.
+Their useful manual counterpart is a disciplined experiment: identify the remaining difference, change one relevant detail, compile, and record the result.
+The following sections collect troubleshooting ideas from those guides rather than requiring their automation tools.
+
+## Classify the Difference Before Editing
+The [matching workflow guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/workflow.md) recommends resolving instruction structure before operands, then register allocation [^10].
+Use the actual disassembly alongside the score; a percentage alone does not explain the cause.
+
+These symptoms suggest experiments, not unique diagnoses:
+
+Difference | What to investigate
+---|---
+Missing or extra instructions | Branch structure, loop shape, casts, repeated expressions and calls
+Wrong constant or memory offset | Literal value, field offset, element size and signedness
+Wrong relocated symbol | Callee, global declaration or referenced data
+Same operations but different registers | Declaration order, temporaries and how long values remain live
+Same operations in a different order | Expression structure, statement order and instruction scheduling
+Different stack offsets or frame size | Local types, arrays, temporary structures and inlined helpers
+
+Preserve the best candidate and note unsuccessful experiments.
+Before changing compiler settings, check the project's known configuration and neighbouring matched functions.
+The [objdiff guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/objdiff.md) also explains how symbol and relocation differences appear in comparisons [^11].
+
+---
+## Inspect the Surrounding Source
+A function is compiled in the context of its source file and included headers.
+The [CodeWarrior guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/mwcc.md) highlights inline helpers, local declarations and per-file pragmas as matching variables [^12].
+
+If the target contains a call but your build contains arithmetic in its place, inspect whether a helper became inline.
+If the operations match but registers differ, try changing declaration order or introducing a meaningful temporary before rewriting the algorithm.
+Reuse the project's existing vector, matrix and SDK helpers when they describe the observed operation.
+
+These are compiler- and version-dependent experiments.
+Record the compiler, flags and resulting diff rather than treating a register-allocation heuristic as a universal rule.
+
+---
+## Match the File's Data as Well as Its Functions
+Matching each function does not establish that the rebuilt file supplies the correct data or links into the final image correctly.
+The [project integration guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/fork.md) describes checking literal pools, section placement and data ownership after functions match [^13].
+
+Inspect these remaining differences:
+* **Constant and string pools** - Function order and literal use can affect their layout.
+* **Storage placement** - Check read-only versus writable data and file-scope versus function-local statics.
+* **Missing definitions** - An `extern` declaration does not supply a table that the source file must define.
+
+Compare the rebuilt object's data and relocations, then run the project's full binary comparison.
+Do not infer a complete rebuild from a function similarity score.
+
+---
+## Recover Candidate Source-File Boundaries
+Groups of functions sharing constants or strings, related class methods, and module entry points can suggest original source-file boundaries [^13].
+Treat a proposed split as a hypothesis: assign the associated data, rebuild, and check that existing matches and the final image remain intact.
+These clues do not recover an original filename by themselves.
+
+The [Ghidra tools guide](/ghidra) also introduces CodeCut and DeepCut for investigating object-file boundaries.
+
+---
+## Learn from Already-Matched Functions
+The [similarity guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/similarity.md) suggests comparing instruction sequences to find repeated handlers, expanded inline helpers and template instances [^14].
+An already-matched neighbour can reveal a useful source structure or compiler idiom.
+
+Start from its structure, then verify every changed call, constant, offset and branch against the target.
+Similar instruction sequences do not establish identical behaviour.
+Record the relationship so that matching one member of a group helps with the others.
+
+---
+## Repair a Machine-Generated Draft
+The [m2c draft guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/m2c.md) explains placeholders that need manual interpretation [^15].
+Treat generated C as a hypothesis and resolve the evidence behind each placeholder:
+* **Unknown types and guessed prototypes** - Compare memory accesses and other callers before supplying declarations.
+* **Pointer-plus-offset expressions** - Collect repeated offsets and test a structure layout against them.
+* **Saved-register artifacts** - Distinguish calling-convention preservation from source-level variables.
+* **Unstructured branches** - Trace the assembly paths before replacing them with loops or conditions.
+* **Large nested expressions** - Try meaningful temporaries when their value lifetimes better explain the target registers.
+
+After changing shared types or prototypes, rebuild affected code and verify previously matched functions too [^10].
+
+---
 # AI-Assisted Matching Decompilation
 Recent AI agents can use a decompiler's output as the beginning of a compiler-backed matching workflow. The agent writes candidate C, runs the game's original toolchain, examines assembly differences and repeats until the bytes match. This approach is relevant to Nintendo 64 and PlayStation preservation projects, but it does not make the original programmer's source or intent recoverable.
 
@@ -386,3 +468,9 @@ The first output is a sketch; the useful map is the one you refine.
 [^7]: Vector 35, "Binary Ninja Documentation," [https://docs.binary.ninja/](https://docs.binary.ninja/).
 [^8]: Reko Decompiler Project, [https://github.com/uxmal/reko](https://github.com/uxmal/reko).
 [^9]: decomp.me community wiki, "Matching Decompilation," [https://decomp.me/](https://decomp.me/).
+[^10]: [decomp.wtf - The matching loop](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/workflow.md).
+[^11]: [decomp.wtf - Reading objdiff](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/objdiff.md).
+[^12]: [decomp.wtf - Matching Metrowerks CodeWarrior](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/mwcc.md).
+[^13]: [decomp.wtf - Working in a fork of a public decomp](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/fork.md).
+[^14]: [decomp.wtf - Look-alike functions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/similarity.md).
+[^15]: [decomp.wtf - Reading the m2c draft](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/m2c.md).
