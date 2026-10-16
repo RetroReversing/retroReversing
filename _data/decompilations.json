@@ -4394,11 +4394,19 @@
       "platforms": [
         "Game Boy Advance"
       ],
-      "repository_url": "https://github.com/testyourmine/kleod",
+      "repository_url": "https://github.com/Dream-Atelier/kl-eod-decomp",
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T00:47:25Z",
+        "last_commit_url": "https://github.com/Dream-Atelier/kl-eod-decomp/commit/45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
     },
     "kirby-the-amazing-mirror": {
       "name": "Kirby & The Amazing Mirror",
@@ -7723,25 +7731,6 @@
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
         "status": "Inactive"
-      }
-    },
-    "klonoa-empire-of-dreams": {
-      "name": "Klonoa: Empire of Dreams",
-      "platforms": [
-        "Game Boy Advance"
-      ],
-      "repository_url": "https://github.com/Dream-Atelier/kl-eod-decomp",
-      "project_type": "Decompilation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-05T00:47:25Z",
-        "last_commit_url": "https://github.com/Dream-Atelier/kl-eod-decomp/commit/45e66dd20f55b637656bc86129b9ba3bd49a01d6",
-        "default_branch": "main",
-        "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
       }
     },
     "mario-luigi-superstar-saga-jellees": {
@@ -12379,6 +12368,611 @@
         "last_success_at": "2026-10-14T20:12:08Z",
         "status": "Active"
       }
+    },
+    "dark-cloud-2": {
+      "name": "Dark Cloud 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/TheMoonPeople/ChronicleTwo",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "bubsy-3d": {
+      "name": "Bubsy 3D",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/EiscremeWaffle/bubsy3d-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "armored-core": {
+      "name": "Armored Core",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Wyrelade/Armored-Core-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ar-tonelico-ii": {
+      "name": "Ar tonelico II",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/USED255/artonelico2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "advance-wars-dual-strike": {
+      "name": "Advance Wars: Dual Strike",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/sturmds/advance-wars-dual-strike-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "animal-crossing-new-leaf-welcome-amiibo": {
+      "name": "Animal Crossing: New Leaf - Welcome amiibo",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/RedShyGuy/acnl-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "final-fantasy-viii": {
+      "name": "Final Fantasy VIII",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/roengstrom/ff8-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "harvest-moon-back-to-nature": {
+      "name": "Harvest Moon: Back to Nature",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/coalslav/hmbtn-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kingdom-hearts-358-2-days": {
+      "name": "Kingdom Hearts 358/2 Days",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yokimitsuro/khdays-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kirby-nightmare-in-dream-land": {
+      "name": "Kirby: Nightmare in Dream Land",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/overjt/knidl",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "gt-advance-3-pro-concept-racing": {
+      "name": "GT Advance 3: Pro Concept Racing",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/722rsr/gtadv3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kaze-no-notam": {
+      "name": "Kaze no Notam",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/aaaaaaaaaaway/kaze-no-notam-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "mario-luigi-bowser-s-inside-story": {
+      "name": "Mario & Luigi: Bowser's Inside Story",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/istornz/bowsers-inside-story-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "shiren-the-wanderer-2": {
+      "name": "Shiren the Wanderer 2",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/mschienbein/shiren2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "dino-crisis-2": {
+      "name": "Dino Crisis 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/anzaldoivan/dino-crisis-2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "digimon-rumble-arena": {
+      "name": "Digimon Rumble Arena",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ReGame-Labs/dtbe_decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "digimon-world-ds": {
+      "name": "Digimon World DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/ReGame-Labs/dwds_decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "medal-of-honor-frontline": {
+      "name": "Medal of Honor: Frontline",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/kyleckroeger/moh-frontline-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "king-s-field-iv-the-ancient-city": {
+      "name": "King's Field IV: The Ancient City",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Voicedrew11/kfiv-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "hybrid-heaven": {
+      "name": "Hybrid Heaven",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/southcitycapture/hybridheaven-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "okamiden": {
+      "name": "Okamiden",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/dothacktranslate/okamiden-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ratchet-deadlocked": {
+      "name": "Ratchet: Deadlocked",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/OpenRAC/rac-deadlocked-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "paperboy": {
+      "name": "Paperboy",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/marijnvdwerf/paperboy-n64",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ratchet-clank-up-your-arsenal": {
+      "name": "Ratchet & Clank: Up Your Arsenal",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/OpenRAC/rac3-uya-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "resident-evil-dead-aim": {
+      "name": "Resident Evil: Dead Aim",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/cakehonolulu/Bullseye",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "parasite-eve-ii": {
+      "name": "Parasite Eve II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/GabeRealB/parasite-eve-2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "boktai-3-sabata-s-counterattack": {
+      "name": "Boktai 3: Sabata's Counterattack",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/moozilla/boktai3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ratchet-clank-going-commando": {
+      "name": "Ratchet & Clank: Going Commando",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/OpenRAC/rac2-gc-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "parasite-eve": {
+      "name": "Parasite Eve",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/khasinski/parasite-eve-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "persona-4": {
+      "name": "Persona 4",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Raikaru/Persona4-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "star-ocean-till-the-end-of-time": {
+      "name": "Star Ocean: Till the End of Time",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/celophi/so3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "syphon-filter-the-omega-strain": {
+      "name": "Syphon Filter: The Omega Strain",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/zm2283145/syphon-filter-omega-strain-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "summoner-2": {
+      "name": "Summoner 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/mikegoforth/summoner-2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "yu-gi-oh-the-eternal-duelist-soul": {
+      "name": "Yu-Gi-Oh! The Eternal Duelist Soul",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/CosmicScribe64/eds-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "wii-play": {
+      "name": "Wii Play",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/akiramusic000/Rhae",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "castlevania-chronicles": {
+      "name": "Castlevania Chronicles",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Spicywonda/castlevania-chronicles-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ace-combat-5-the-unsung-war": {
+      "name": "Ace Combat 5: The Unsung War",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "disney-s-hercules": {
+      "name": "Disney's Hercules",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/obaidr1/hercules-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "god-of-war": {
+      "name": "God of War",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/KIexster/god-of-war-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "dragon-quest-viii": {
+      "name": "Dragon Quest VIII",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "ridge-racer-v": {
+      "name": "Ridge Racer V",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/danisandoval/fukami",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "shadow-tower": {
+      "name": "Shadow Tower",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/JFryy/reshadowtower",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "the-simpsons-wrestling": {
+      "name": "The Simpsons Wrestling",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TekRantGaming/simpsons-wrestling-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "strider-2": {
+      "name": "Strider 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/strider973/STRIDER-2-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "yu-gi-oh-forbidden-memories": {
+      "name": "Yu-Gi-Oh! Forbidden Memories",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "urban-reign": {
+      "name": "Urban Reign",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/thiagordsfx/urban-reign-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "black": {
+      "name": "BLACK",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/portingpete/Black-2006-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "def-jam-fight-for-ny": {
+      "name": "Def Jam: Fight for NY",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "halo-2": {
+      "name": "Halo 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/kirklandsig/halo2-decompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "tom-clancy-s-splinter-cell-double-agent": {
+      "name": "Tom Clancy's Splinter Cell: Double Agent",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/TGP482/SCDA-XBERecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "spider-man-2": {
+      "name": "Spider-Man 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/SirSymo/SM2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "knuckles-chaotix-yuutatsubasa": {
+      "name": "Knuckles' Chaotix",
+      "platforms": [
+        "Sega 32X"
+      ],
+      "repository_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kingdom-hearts-re-coded": {
+      "name": "Kingdom Hearts Re:coded",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "medal-of-honor-rising-sun": {
+      "name": "Medal of Honor: Rising Sun",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/lifewillbeokay/moh-rising-sun",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kirby-s-return-to-dream-land": {
+      "name": "Kirby's Return to Dream Land",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Etrainquandt17/Whippy",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -13474,7 +14068,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "DKC3 Recompiled",
+              "url": "https://github.com/elliotttate/DKC3Recomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Hybrid runtime retains a 65816 interpreter fallback; this is an experimental port.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Disassembly",
@@ -13682,6 +14289,18 @@
                 "Reimplementation",
                 "Native port"
               ]
+            },
+            {
+              "name": "Super Mario World Recompiled",
+              "url": "https://github.com/mstan/SuperMarioWorldRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "In-development preview; SNES video and audio hardware remain emulated.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
             }
           ],
           "project_types": [
@@ -13727,7 +14346,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Super Metroid Recompiled",
+              "url": "https://github.com/mstan/SuperMetroidRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Hybrid runtime interprets untranslated 65816 variants and emulates SNES hardware; experimental.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Disassembly",
@@ -13778,6 +14410,18 @@
               "platforms": [],
               "description_markdown": "",
               "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "A Link to the Past SNES Recompiled",
+              "url": "https://github.com/mstan/ZeldaAlttPSNESRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Experimental preview; documented testing reaches the early dungeon.",
+              "project_types": [
+                "Static recompilation",
                 "Native port"
               ]
             }
@@ -13951,7 +14595,20 @@
           "completion_percent": 12,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Banjo-Tooie Scurvy Dog Port",
+              "url": "https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Experimental alpha; migration to the N64Recomp patch system is incomplete.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -14239,7 +14896,35 @@
           "completion_percent": 4,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "CBFD Recompiled",
+              "url": "https://github.com/sciaschi/CBFD-Recompiled",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "macOS targets Apple Silicon; a complete macOS playthrough has not been confirmed.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Conker BFD Reloaded",
+              "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Linux testing is limited to WSL with software graphics.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -14491,7 +15176,22 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Duke Nukem Zero Hour Recompiled",
+              "url": "https://github.com/sonicdcer/DNZHRecomp",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Requires a supported Nintendo 64 ROM and a compatible modern GPU.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -14689,7 +15389,33 @@
           "completion_percent": 71,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "GoldenEye PC Port",
+              "url": "https://github.com/jkdansereau/goldeneye-pc-port",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "AI-assisted port; PAL and Japanese ROMs and macOS are unsupported.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "GoldenEye64 Recomp",
+              "url": "https://github.com/cblock85/GoldenEye64Recomp",
+              "platforms": [
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native Linux and macOS port using RT64; requires compatible original game assets.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -14832,7 +15558,90 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Mario Kart 64 Recompiled",
+              "url": "https://github.com/sonicdcer/MarioKart64Recomp",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Known issues remain with some Intel GPUs on Linux.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart 64 Dreamcast",
+              "url": "https://github.com/jnmartin84/mk64-dc",
+              "platforms": [
+                "Dreamcast"
+              ],
+              "description_markdown": "Decompilation-based port tested on physical Dreamcast hardware.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart 64 PSP",
+              "url": "https://github.com/beckerd/psp_mk64_portable",
+              "platforms": [
+                "PSP"
+              ],
+              "description_markdown": "Requires a compatible USA ROM.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart 64 3DS",
+              "url": "https://github.com/EstebanPdN/mario-kart-64-3ds",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Experimental port; sustained gameplay compatibility is not established.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart 64 3DS Complete",
+              "url": "https://github.com/Epic0522/MarioKart64-3DSPort-Complete",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "SpaghettiKart-derived 3DS port with its own enhancements.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "MKart360",
+              "url": "https://github.com/sirdankz/MKart360",
+              "platforms": [
+                "Xbox 360"
+              ],
+              "description_markdown": "Native Xbox 360 port of the Mario Kart 64 decompilation.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SpaghettiKart",
+              "url": "https://github.com/HarbourMasters/SpaghettiKart",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Decompilation-based Mario Kart 64 port.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15041,7 +15850,33 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Paper Mario ReCut",
+              "url": "https://github.com/SMCGames/Paper-Mario-ReCut",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Requires the original Nintendo 64 game.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "PaperBoat",
+              "url": "https://github.com/HarbourMasters/PaperBoat",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Harbour Masters native port of Paper Mario.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15141,7 +15976,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Pokemon Stadium Recompiled",
+              "url": "https://github.com/mstan/PokemonStadiumRecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "The README explicitly states that this project is no longer maintained.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15218,7 +16066,22 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Rocket-R",
+              "url": "https://github.com/ThatGuyMcd/Rocket-R",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "Android"
+              ],
+              "description_markdown": "Experimental recompilation; hardware compatibility testing is incomplete.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15262,7 +16125,22 @@
           "completion_percent": 69,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Snowboard Kids 2 Recompiled",
+              "url": "https://github.com/cdlewis/snowboardkids2-recomp",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Requires a compatible original Nintendo 64 ROM.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15317,7 +16195,47 @@
           "completion_percent": 99,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Starship",
+              "url": "https://github.com/HarbourMasters/Starship",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Nintendo Switch"
+              ],
+              "description_markdown": "Requires USA 1.0 or 1.1; European and Japanese ROMs supply optional voice replacements only.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Star Fox 64 Recompiled",
+              "url": "https://github.com/sonicdcer/Starfox64Recomp",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "A sibling project of Starship using a different runtime; current releases are linked on GitLab.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Star Fox 64 Dreamcast",
+              "url": "https://github.com/jnmartin84/sf64-dc",
+              "platforms": [
+                "Dreamcast"
+              ],
+              "description_markdown": "Designed for physical Dreamcast hardware; Dreamcast emulators are not supported.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15391,6 +16309,20 @@
                 "PC"
               ],
               "description_markdown": "PC port with quality-of-life improvements and customization.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Ghostship",
+              "url": "https://github.com/HarbourMasters/Ghostship",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android"
+              ],
+              "description_markdown": "Decompilation-based native port of Super Mario 64.",
               "project_types": [
                 "Native port"
               ]
@@ -15491,6 +16423,18 @@
               "description_markdown": "Static recompilation and native port.",
               "project_types": [
                 "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "MaskPad",
+              "url": "https://github.com/chrissotraidis/maskpad",
+              "platforms": [
+                "iOS",
+                "iPadOS"
+              ],
+              "description_markdown": "Experimental native app based on the 2Ship source port; original game assets are required.",
+              "project_types": [
                 "Native port"
               ]
             }
@@ -15604,7 +16548,20 @@
           "completion_percent": 49,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "RaceWave46",
+              "url": "https://github.com/DomazinUS/RaceWave46",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Requires the USA revision 1 Nintendo 64 ROM.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -15656,6 +16613,18 @@
                 "PC"
               ],
               "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Birdman64",
+              "url": "https://github.com/NoahVl/Birdman64",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Native Pilotwings 64 port; macOS is not supported.",
               "project_types": [
                 "Native port"
               ]
@@ -15975,6 +16944,72 @@
               "url": "https://github.com/elliotttate/wave-race-64-recomp"
             }
           ]
+        },
+        {
+          "project": "shiren-the-wanderer-2",
+          "name_markdown": "[Shiren the Wanderer 2](https://github.com/mschienbein/shiren2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Fushigi%20no%20Dungeon%20-%20Fuurai%20no%20Shiren%202%20-%20Oni%20Shuurai%21%20Shiren%20Jou%21%20%28Japan%29.png",
+              "alt": "Shiren the Wanderer 2 box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Japanese Nintendo 64 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mschienbein/shiren2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "hybrid-heaven",
+          "name_markdown": "[Hybrid Heaven](https://github.com/southcitycapture/hybridheaven-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hybrid%20Heaven%20%28USA%29.png",
+              "alt": "Hybrid Heaven box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo 64 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/southcitycapture/hybridheaven-decomp"
+            }
+          ]
+        },
+        {
+          "project": "paperboy",
+          "name_markdown": "[Paperboy](https://github.com/marijnvdwerf/paperboy-n64)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paperboy%20%28USA%29.png",
+              "alt": "Paperboy box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress Nintendo 64 decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/marijnvdwerf/paperboy-n64"
+            }
+          ]
         }
       ]
     },
@@ -16000,7 +17035,41 @@
           "completion_percent": 99,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Animal Crossing PC Port",
+              "url": "https://github.com/flyngmt/ACGC-PC-Port",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Requires the USA revision 0 GameCube release.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "OpenCrossing-Xbox",
+              "url": "https://github.com/TechProGabe/OpenCrossing-Xbox",
+              "platforms": [
+                "Xbox"
+              ],
+              "description_markdown": "GameCube decompilation port; the Clu Clu Land D NES game is unsupported.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Animal Crossing Android Port",
+              "url": "https://github.com/zwaetschge/ACGC-Android-Port",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Requires Android 8 or newer and compatible GameCube assets.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -16220,7 +17289,23 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Partyboard",
+              "url": "https://github.com/mariopartyrd/partyboard",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android",
+                "iOS"
+              ],
+              "description_markdown": "Native Mario Party 4 port based on the decompilation.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -16330,7 +17415,35 @@
           "completion_percent": 24,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Metaforce",
+              "url": "https://github.com/AxioDL/metaforce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Requires compatible GameCube Metroid Prime data.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Metroid Prime Port",
+              "url": "https://github.com/Odrannnn/MetroidPrimePort",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "Android"
+              ],
+              "description_markdown": "Native port built from the Prime decompilation.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -16673,7 +17786,21 @@
           "completion_percent": 21,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Strikers",
+              "url": "https://github.com/new-coke/strikers",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native multi-platform port of the GameCube game.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -16706,6 +17833,19 @@
               ],
               "description_markdown": "Native port based on the GMSE01 matching decompilation; requires a user-owned North American Rev 0 disc image. Linux and macOS builds are documented as playing; Windows native runtime checks and stage-by-stage testing of 64-bit builds remain ongoing.",
               "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SunPad",
+              "url": "https://github.com/chrissotraidis/sunpad",
+              "platforms": [
+                "iOS",
+                "iPadOS"
+              ],
+              "description_markdown": "Experimental preview; tvOS is experimental and macOS is configured rather than confirmed playable.",
+              "project_types": [
+                "Static recompilation",
                 "Native port"
               ]
             }
@@ -16764,6 +17904,17 @@
                 "Browser"
               ],
               "description_markdown": "Beta native port based on doldecomp/melee and aurora. macOS, iOS and browser support have documented limitations.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Melee-X",
+              "url": "https://github.com/TechProGabe/Melee-X",
+              "platforms": [
+                "Xbox"
+              ],
+              "description_markdown": "Decompilation-based original Xbox port; frame rate varies by stage and development continues.",
               "project_types": [
                 "Native port"
               ]
@@ -16858,6 +18009,18 @@
               ],
               "description_markdown": "Native PC port.",
               "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Dusklight",
+              "url": "https://github.com/TwilitRealm/dusklight",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Reverse-engineered reimplementation requiring original game data; hardware compatibility varies.",
+              "project_types": [
+                "Reimplementation",
                 "Native port"
               ]
             }
@@ -16993,7 +18156,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Foxhollow",
+              "url": "https://github.com/JackPriceBurns/foxhollow",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Built from the SFA decompilation; no mobile releases are planned despite underlying framework support.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -17418,6 +18595,50 @@
               "url": "https://github.com/mitsevox/tw2004"
             }
           ]
+        },
+        {
+          "project": "medal-of-honor-frontline",
+          "name_markdown": "[Medal of Honor: Frontline](https://github.com/kyleckroeger/moh-frontline-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Medal%20of%20Honor%20-%20Frontline%20%28USA%29.png",
+              "alt": "Medal of Honor: Frontline box art for Nintendo GameCube",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA GameCube release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kyleckroeger/moh-frontline-decomp"
+            }
+          ]
+        },
+        {
+          "project": "medal-of-honor-rising-sun",
+          "name_markdown": "[Medal of Honor: Rising Sun](https://github.com/lifewillbeokay/moh-rising-sun)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Medal%20of%20Honor_%20Rising%20Sun%20%28USA%29.png",
+              "alt": "Medal of Honor: Rising Sun box art for Nintendo GameCube",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA GameCube release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lifewillbeokay/moh-rising-sun"
+            }
+          ]
         }
       ]
     },
@@ -17487,7 +18708,43 @@
           "completion_percent": 11,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "DriftDroid",
+              "url": "https://github.com/dorPXP/driftdroid",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Android fork of the Wii recompilation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart Wii PS5",
+              "url": "https://github.com/Phi1ow/mkwii-ps5",
+              "platforms": [
+                "PlayStation 5"
+              ],
+              "description_markdown": "Targets the PAL Wii release and homebrew-enabled PS5 systems.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart Wii 3DS",
+              "url": "https://github.com/MiniBandit/MKW-3DS",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Experimental port using decompiled game physics; functionality is incomplete.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -17895,7 +19152,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "NSMB Wii Multiplayer Recompilation",
+              "url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation",
+              "platforms": [
+                "Windows",
+                "Android"
+              ],
+              "description_markdown": "Requires original Wii game data.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -18247,7 +19518,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Mario Strikers Charged Port",
+              "url": "https://github.com/yannicksuter/mscharged-port",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native port of the Wii game.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -18274,6 +19559,50 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp"
+            }
+          ]
+        },
+        {
+          "project": "wii-play",
+          "name_markdown": "[Wii Play](https://github.com/akiramusic000/Rhae)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wii%20Play%20%28USA%29.png",
+              "alt": "Wii Play box art for Nintendo Wii",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation targeting USA revision 1.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/akiramusic000/Rhae"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-return-to-dream-land",
+          "name_markdown": "[Kirby's Return to Dream Land](https://github.com/Etrainquandt17/Whippy)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Kirby%27s%20Return%20to%20Dream%20Land%20%28USA%29.png",
+              "alt": "Kirby's Return to Dream Land box art for Nintendo Wii",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching Wii decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Etrainquandt17/Whippy"
             }
           ]
         }
@@ -19220,7 +20549,42 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Pokemon Emerald 3DS Dual Screen",
+              "url": "https://github.com/ZallaxDev/pokeemerald-3Ds-dualscreen",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Decompilation-based dual-screen port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Pokemon Emerald RP2350",
+              "url": "https://github.com/mattdeeds/pokeemerald-rp2350",
+              "platforms": [
+                "RP2350"
+              ],
+              "description_markdown": "Targets the WeAct Core2350B microcontroller board.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Emerald Recompiled",
+              "url": "https://github.com/mstan/EmeraldRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "In-development framework preview; not a finished port. Uses interpreter and JIT fallbacks for code outside the static translation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -19242,7 +20606,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "FireRed LeafGreen Recompiled",
+              "url": "https://github.com/mstan/FireRedLeafGreenRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "In-development framework preview covering FireRed and LeafGreen. Uses interpreter and JIT fallbacks for code outside the static translation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -19393,6 +20770,17 @@
                 "PC"
               ],
               "description_markdown": "Native PC-port project.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "The Minish Cap 3DS",
+              "url": "https://github.com/EstebanPdN/zelda-tmc-3ds",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Decompilation-based dual-screen port requiring compatible original GBA assets.",
               "project_types": [
                 "Native port"
               ]
@@ -19944,6 +21332,94 @@
               "url": "https://github.com/Jorge262007/FFTARecomp"
             }
           ]
+        },
+        {
+          "project": "kirby-nightmare-in-dream-land",
+          "name_markdown": "[Kirby: Nightmare in Dream Land](https://github.com/overjt/knidl)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Kirby%20-%20Nightmare%20in%20Dream%20Land%20%28USA%29.png",
+              "alt": "Kirby: Nightmare in Dream Land box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation; no completion estimate is imported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/overjt/knidl"
+            }
+          ]
+        },
+        {
+          "project": "gt-advance-3-pro-concept-racing",
+          "name_markdown": "[GT Advance 3: Pro Concept Racing](https://github.com/722rsr/gtadv3-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/GT%20Advance%203%20-%20Pro%20Concept%20Racing%20%28USA%29.png",
+              "alt": "GT Advance 3: Pro Concept Racing box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching Game Boy Advance decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/722rsr/gtadv3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "boktai-3-sabata-s-counterattack",
+          "name_markdown": "[Boktai 3: Sabata's Counterattack](https://github.com/moozilla/boktai3-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Shin%20Bokura%20no%20Taiyou%20-%20Gyakushuu%20no%20Sabata%20%28Japan%29.png",
+              "alt": "Boktai 3: Sabata's Counterattack box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Japanese release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/moozilla/boktai3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-the-eternal-duelist-soul",
+          "name_markdown": "[Yu-Gi-Oh! The Eternal Duelist Soul](https://github.com/CosmicScribe64/eds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Yu-Gi-Oh%21%20-%20The%20Eternal%20Duelist%20Soul%20%28USA%29.png",
+              "alt": "Yu-Gi-Oh! The Eternal Duelist Soul box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA release. The repository documents the remaining hand-written assembly routines.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/CosmicScribe64/eds-decomp"
+            }
+          ]
         }
       ]
     },
@@ -20079,7 +21555,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "SoulSilver Recompiled",
+              "url": "https://github.com/ClickingMaster/ssrecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Targets SoulSilver; hardware emulation and ARM7 interpreter fallbacks remain.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -20536,6 +22025,150 @@
               "url": "https://github.com/squiddonaut/pokeblack"
             }
           ]
+        },
+        {
+          "project": "advance-wars-dual-strike",
+          "name_markdown": "[Advance Wars: Dual Strike](https://github.com/sturmds/advance-wars-dual-strike-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Advance%20Wars%20-%20Dual%20Strike%20%28USA%29.png",
+              "alt": "Advance Wars: Dual Strike box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the USA/Australian release; other regions are unsupported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sturmds/advance-wars-dual-strike-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-358-2-days",
+          "name_markdown": "[Kingdom Hearts 358/2 Days](https://github.com/Yokimitsuro/khdays-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20%28USA%29.png",
+              "alt": "Kingdom Hearts 358/2 Days box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Kingdom Hearts 358/2 Days Port",
+              "url": "https://github.com/Yokimitsuro/khdays-port",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Early native front-end and experimental gameplay harness; mission logic, enemies and combat remain incomplete.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Yokimitsuro/khdays-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-bowser-s-inside-story",
+          "name_markdown": "[Mario & Luigi: Bowser's Inside Story](https://github.com/istornz/bowsers-inside-story-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20_%20Luigi%20-%20Bowser%27s%20Inside%20Story%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Mario & Luigi: Bowser's Inside Story box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching Nintendo DS decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/istornz/bowsers-inside-story-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-ds",
+          "name_markdown": "[Digimon World DS](https://github.com/ReGame-Labs/dwds_decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Digimon%20World%20DS%20%28USA%29.png",
+              "alt": "Digimon World DS box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo DS release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ReGame-Labs/dwds_decomp"
+            }
+          ]
+        },
+        {
+          "project": "okamiden",
+          "name_markdown": "[Okamiden](https://github.com/dothacktranslate/okamiden-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Okamiden%20%28USA%29.png",
+              "alt": "Okamiden box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dothacktranslate/okamiden-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-re-coded",
+          "name_markdown": "[Kingdom Hearts Re:coded](https://github.com/kh-recoded-decomp/kh-recoded-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20Re-coded%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Kingdom Hearts Re:coded box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Merged continuation of the earlier ricky074game and Yokimitsuro Re:coded decompilations.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp"
+            }
+          ]
         }
       ]
     },
@@ -20676,6 +22309,28 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/gradenGnostic/pokemoon"
+            }
+          ]
+        },
+        {
+          "project": "animal-crossing-new-leaf-welcome-amiibo",
+          "name_markdown": "[Animal Crossing: New Leaf - Welcome amiibo](https://github.com/RedShyGuy/acnl-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Animal%20Crossing%20-%20New%20Leaf%20-%20Welcome%20Amiibo%20%28USA%29.png",
+              "alt": "Animal Crossing: New Leaf - Welcome amiibo box art for Nintendo 3DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Non-matching decompilation targeting the USA Welcome amiibo v1.5 release; many methods remain empty.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RedShyGuy/acnl-decomp"
             }
           ]
         }
@@ -21302,6 +22957,19 @@
                 "PC"
               ],
               "description_markdown": "Native PC port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Crash Team Racing: High Octane",
+              "url": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane",
+              "platforms": [
+                "Windows",
+                "PS Vita",
+                "Browser"
+              ],
+              "description_markdown": "Based on ctr-native; ad-hoc multiplayer is not supported on PC.",
               "project_types": [
                 "Native port"
               ]
@@ -21939,7 +23607,20 @@
           "completion_percent": 35,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Tomba Recompiled",
+              "url": "https://github.com/mstan/TombaRecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "In-development framework preview; not a finished port.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -21983,7 +23664,19 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Vandal Hearts PC Port",
+              "url": "https://github.com/HalmyLyseas/VandalHearts-PcPort",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Supports the USA, Asian and Japanese PlayStation releases.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -22529,7 +24222,22 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Gran Turismo 2 PC",
+              "url": "https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Browser"
+              ],
+              "description_markdown": "Native C++ port with additional VR targets documented separately.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -22639,7 +24347,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Rage Racer PC",
+              "url": "https://github.com/khasinski/rage-racer-pc",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Targets the PAL PlayStation release.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -22888,6 +24610,360 @@
               "url": "https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3"
             }
           ]
+        },
+        {
+          "project": "bubsy-3d",
+          "name_markdown": "[Bubsy 3D](https://github.com/EiscremeWaffle/bubsy3d-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bubsy%203D%20-%20Furbitten%20Planet%20%28USA%29.png",
+              "alt": "Bubsy 3D box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress research targeting SLUS-00110; not a complete native port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/EiscremeWaffle/bubsy3d-decomp"
+            }
+          ]
+        },
+        {
+          "project": "armored-core",
+          "name_markdown": "[Armored Core](https://github.com/Wyrelade/Armored-Core-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Armored%20Core%20%28USA%29.png",
+              "alt": "Armored Core box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation targeting SCUS-94182.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Wyrelade/Armored-Core-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-viii",
+          "name_markdown": "[Final Fantasy VIII](https://github.com/roengstrom/ff8-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VIII%20%28USA%29.png",
+              "alt": "Final Fantasy VIII box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA PlayStation release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/roengstrom/ff8-decomp"
+            }
+          ]
+        },
+        {
+          "project": "harvest-moon-back-to-nature",
+          "name_markdown": "[Harvest Moon: Back to Nature](https://github.com/coalslav/hmbtn-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Harvest%20Moon%20-%20Back%20to%20Nature%20%28USA%29.png",
+              "alt": "Harvest Moon: Back to Nature box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA PlayStation release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/coalslav/hmbtn-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kaze-no-notam",
+          "name_markdown": "[Kaze no Notam](https://github.com/aaaaaaaaaaway/kaze-no-notam-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Kaze%20no%20Notam%20-%20Notam%20of%20Wind%20%28Japan%2C%20Asia%29.png",
+              "alt": "Kaze no Notam box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Japanese release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/aaaaaaaaaaway/kaze-no-notam-decomp"
+            }
+          ]
+        },
+        {
+          "project": "dino-crisis-2",
+          "name_markdown": "[Dino Crisis 2](https://github.com/anzaldoivan/dino-crisis-2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dino%20Crisis%202%20%28USA%29.png",
+              "alt": "Dino Crisis 2 box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA PlayStation release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/anzaldoivan/dino-crisis-2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-rumble-arena",
+          "name_markdown": "[Digimon Rumble Arena](https://github.com/ReGame-Labs/dtbe_decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/DigimonTamers%20-%20Battle%20Evolution%20%28Japan%29.png",
+              "alt": "Digimon Rumble Arena box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Japanese release, Digimon Tamers: Battle Evolution.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ReGame-Labs/dtbe_decomp"
+            }
+          ]
+        },
+        {
+          "project": "parasite-eve-ii",
+          "name_markdown": "[Parasite Eve II](https://github.com/GabeRealB/parasite-eve-2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20II%20%28USA%29.png",
+              "alt": "Parasite Eve II box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA PlayStation release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GabeRealB/parasite-eve-2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "parasite-eve",
+          "name_markdown": "[Parasite Eve](https://github.com/khasinski/parasite-eve-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20%28USA%29.png",
+              "alt": "Parasite Eve box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/khasinski/parasite-eve-decomp"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-chronicles",
+          "name_markdown": "[Castlevania Chronicles](https://github.com/Spicywonda/castlevania-chronicles-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20Chronicles%20%28USA%29.png",
+              "alt": "Castlevania Chronicles box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows, Linux and macOS recompilation; compatibility testing remains incomplete.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Spicywonda/castlevania-chronicles-recomp"
+            }
+          ]
+        },
+        {
+          "project": "disney-s-hercules",
+          "name_markdown": "[Disney's Hercules](https://github.com/obaidr1/hercules-recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Disney%27s%20Action%20Game%20featuring%20Hercules%20%28Europe%29.png",
+              "alt": "Disney's Hercules box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Linux recompilation of the PAL release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/obaidr1/hercules-recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/obaidr1/hercules-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "shadow-tower",
+          "name_markdown": "[Shadow Tower](https://github.com/JFryy/reshadowtower)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Shadow%20Tower%20%28USA%29.png",
+              "alt": "Shadow Tower box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Linux recompilation of the USA release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/JFryy/reshadowtower"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/JFryy/reshadowtower"
+            }
+          ]
+        },
+        {
+          "project": "the-simpsons-wrestling",
+          "name_markdown": "[The Simpsons Wrestling](https://github.com/TekRantGaming/simpsons-wrestling-recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Simpsons%20Wrestling%2C%20The%20%28USA%29.png",
+              "alt": "The Simpsons Wrestling box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Linux recompilation targeting SLUS-01227; original game files are required.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TekRantGaming/simpsons-wrestling-recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/TekRantGaming/simpsons-wrestling-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "strider-2",
+          "name_markdown": "[Strider 2](https://github.com/strider973/STRIDER-2-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Strider%202%20%28USA%29.png",
+              "alt": "Strider 2 box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Windows, Linux and macOS setup hosts generate a native build locally from the USA disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/strider973/STRIDER-2-Recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/strider973/STRIDER-2-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-forbidden-memories",
+          "name_markdown": "[Yu-Gi-Oh! Forbidden Memories](https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20%28USA%29.png",
+              "alt": "Yu-Gi-Oh! Forbidden Memories box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Despite its name this is a matching decompilation-based native port, not static recompilation. Targets Windows and Linux, with a macOS ARM64 source build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"
+            }
+          ]
         }
       ]
     },
@@ -22913,7 +24989,22 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Chronicle",
+              "url": "https://github.com/TheMoonPeople/Chronicle",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Independent Dark Cloud decompilation and native port; macOS targets Apple Silicon.",
+              "project_types": [
+                "Decompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -23915,6 +26006,378 @@
               "url": "https://github.com/nathanialf/ico-pc"
             }
           ]
+        },
+        {
+          "project": "dark-cloud-2",
+          "name_markdown": "[Dark Cloud 2](https://github.com/TheMoonPeople/ChronicleTwo)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dark%20Chronicle%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Dark Cloud 2 box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation targeting the PAL retail executable.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TheMoonPeople/ChronicleTwo"
+            }
+          ]
+        },
+        {
+          "project": "ar-tonelico-ii",
+          "name_markdown": "[Ar tonelico II](https://github.com/USED255/artonelico2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ar%20tonelico%20II%20-%20Sekai%20ni%20Hibiku%20Shoujo-tachi%20no%20Metafalica%20%28Japan%29.png",
+              "alt": "Ar tonelico II box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the Japanese SLPS-25819 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/USED255/artonelico2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "king-s-field-iv-the-ancient-city",
+          "name_markdown": "[King's Field IV: The Ancient City](https://github.com/Voicedrew11/kfiv-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/King%27s%20Field%20-%20The%20Ancient%20City%20%28USA%29.png",
+              "alt": "King's Field IV: The Ancient City box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA PlayStation 2 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Voicedrew11/kfiv-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-deadlocked",
+          "name_markdown": "[Ratchet: Deadlocked](https://github.com/OpenRAC/rac-deadlocked-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20-%20Deadlocked%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Ratchet: Deadlocked box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching PlayStation 2 decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/OpenRAC/rac-deadlocked-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-clank-up-your-arsenal",
+          "name_markdown": "[Ratchet & Clank: Up Your Arsenal](https://github.com/OpenRAC/rac3-uya-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20_%20Clank%20-%20Up%20Your%20Arsenal%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Ratchet & Clank: Up Your Arsenal box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Current work covers the front-end boot executable; this is not a complete game decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/OpenRAC/rac3-uya-decomp"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-dead-aim",
+          "name_markdown": "[Resident Evil: Dead Aim](https://github.com/cakehonolulu/Bullseye)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Dead%20Aim%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Resident Evil: Dead Aim box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the European release; matching reconstruction remains partial.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cakehonolulu/Bullseye"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-clank-going-commando",
+          "name_markdown": "[Ratchet & Clank: Going Commando](https://github.com/OpenRAC/rac2-gc-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20_%20Clank%20-%20Going%20Commando%20%28USA%29%20%28v1.01%29.png",
+              "alt": "Ratchet & Clank: Going Commando box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation targeting USA version 1.01.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/OpenRAC/rac2-gc-decomp"
+            }
+          ]
+        },
+        {
+          "project": "persona-4",
+          "name_markdown": "[Persona 4](https://github.com/Raikaru/Persona4-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%204%20%28USA%29.png",
+              "alt": "Persona 4 box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Raikaru/Persona4-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "star-ocean-till-the-end-of-time",
+          "name_markdown": "[Star Ocean: Till the End of Time](https://github.com/celophi/so3-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Star%20Ocean%20-%20Till%20the%20End%20of%20Time%20%28USA%29%20%28Disc%201%29.png",
+              "alt": "Star Ocean: Till the End of Time box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets USA revision 1.00 Disc 1. Much of the rebuilt executable and overlays remains assembly.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/celophi/so3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "syphon-filter-the-omega-strain",
+          "name_markdown": "[Syphon Filter: The Omega Strain](https://github.com/zm2283145/syphon-filter-omega-strain-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Syphon%20Filter%20-%20The%20Omega%20Strain%20%28USA%29.png",
+              "alt": "Syphon Filter: The Omega Strain box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation targeting SCUS-97264.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zm2283145/syphon-filter-omega-strain-decomp"
+            }
+          ]
+        },
+        {
+          "project": "summoner-2",
+          "name_markdown": "[Summoner 2](https://github.com/mikegoforth/summoner-2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Summoner%202%20%28USA%29.png",
+              "alt": "Summoner 2 box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation targeting SLUS-20448.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mikegoforth/summoner-2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ace-combat-5-the-unsung-war",
+          "name_markdown": "[Ace Combat 5: The Unsung War](https://github.com/sal063/Ace-Combat-5-Static-recompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ace%20Combat%205%20-%20The%20Unsung%20War%20%28USA%29%20%28En%2CJa%29.png",
+              "alt": "Ace Combat 5: The Unsung War box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows recompilation of the USA release; graphics hardware remains emulated.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation"
+            }
+          ]
+        },
+        {
+          "project": "god-of-war",
+          "name_markdown": "[God of War](https://github.com/KIexster/god-of-war-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+              "alt": "God of War box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental Windows recompilation with performance and audio issues.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/KIexster/god-of-war-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/KIexster/god-of-war-recomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-quest-viii",
+          "name_markdown": "[Dragon Quest VIII](https://github.com/Sinan-Karakaya/DQ8-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Quest%20VIII%20-%20Journey%20of%20the%20Cursed%20King%20%28USA%29.png",
+              "alt": "Dragon Quest VIII box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental PS2Recomp-based native port; not a finished release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "ridge-racer-v",
+          "name_markdown": "[Ridge Racer V](https://github.com/danisandoval/fukami)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ridge%20Racer%20V%20%28USA%29.png",
+              "alt": "Ridge Racer V box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows, Linux and Apple Silicon macOS recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/danisandoval/fukami"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/danisandoval/fukami"
+            }
+          ]
+        },
+        {
+          "project": "urban-reign",
+          "name_markdown": "[Urban Reign](https://github.com/thiagordsfx/urban-reign-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Urban%20Reign%20%28USA%29.png",
+              "alt": "Urban Reign box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Windows native recompilation targeting SLUS-21209; beta software.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+            }
+          ]
         }
       ]
     },
@@ -24177,6 +26640,19 @@
               "project_types": [
                 "Native port"
               ]
+            },
+            {
+              "name": "Midnight Club Los Angeles Recompiled",
+              "url": "https://github.com/holdmysocks/mcla-recomp",
+              "platforms": [
+                "PC",
+                "PlayStation 5"
+              ],
+              "description_markdown": "Xbox 360 recompilation with a separate PS5 target.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
             }
           ],
           "project_types": [
@@ -24288,7 +26764,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Project 2099",
+              "url": "https://github.com/GenryTheFox0/Project-2099",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Known white-texture problems affect Intel GPUs.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Static recompilation",
@@ -24407,6 +26896,18 @@
               ],
               "description_markdown": "",
               "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "The Darkness Recomp",
+              "url": "https://github.com/portingpete/The-Darkness-Recomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Separate Xbox 360 recompilation requiring original game files.",
+              "project_types": [
+                "Static recompilation",
                 "Native port"
               ]
             }
@@ -24730,7 +27231,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "MTR PGR4",
+              "url": "https://github.com/MissingThePixel/MTR-PGR4",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Separate Xbox 360 recompilation project.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Static recompilation",
@@ -24992,7 +27506,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "DevilutionX",
+              "url": "https://github.com/diasurgical/DevilutionX",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Decompilation-based Diablo and Hellfire engine; original game data is required.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -25058,7 +27586,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "RigelEngine",
+              "url": "https://github.com/lethal-guitar/RigelEngine",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Reimplementation of Duke Nukem II for modern computers.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Reimplementation",
@@ -25436,7 +27977,52 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Space Cadet Pinball Android",
+              "url": "https://github.com/iscle/SpaceCadetPinball",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Port of the reverse-engineered PC game.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball DS",
+              "url": "https://github.com/headshot2017/3dpinball-nds",
+              "platforms": [
+                "Nintendo DS"
+              ],
+              "description_markdown": "Experimental Nintendo DS port with known bugs.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball Dreamcast",
+              "url": "https://github.com/headshot2017/3dpinball-dc",
+              "platforms": [
+                "Dreamcast"
+              ],
+              "description_markdown": "Some text is cut off in the Dreamcast port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball PS2",
+              "url": "https://github.com/headshot2017/3dpinball-ps2",
+              "platforms": [
+                "PlayStation 2"
+              ],
+              "description_markdown": "Also supports Full Tilt data; physical PS2 hardware testing is not confirmed.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -25616,7 +28202,23 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Fallout 2 Community Edition",
+              "url": "https://github.com/alexbatalov/fallout2-ce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android",
+                "iOS"
+              ],
+              "description_markdown": "Requires original Fallout 2 game data.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -26330,6 +28932,30 @@
               "project_types": [
                 "Native port"
               ]
+            },
+            {
+              "name": "SwitchWakerHD",
+              "url": "https://github.com/centollOS/SwitchWakerHD",
+              "platforms": [
+                "Nintendo Switch"
+              ],
+              "description_markdown": "Targets Wii U version 0 USA or Europe; homebrew Switch port.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Wind Waker HD Android Plus",
+              "url": "https://github.com/Nycolazs/WindWakerHD-Android-Plus",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Android fork adding Portuguese translation, HUD editing and device fixes.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
             }
           ],
           "project_types": [
@@ -26477,7 +29103,68 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Halo CE Universal",
+              "url": "https://github.com/bnunu/halo-ce-universal",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "Android"
+              ],
+              "description_markdown": "Requires the original Xbox build 2342 debug data; includes expanded multiplayer.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "ChupathingyCE",
+              "url": "https://github.com/ChupathingyCE/chupathingyce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android"
+              ],
+              "description_markdown": "Native port of the original Xbox game.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo CE Vita",
+              "url": "https://github.com/BirchWoodGod/halo-ce-vita",
+              "platforms": [
+                "PS Vita"
+              ],
+              "description_markdown": "Multiplayer support is limited to Vita-to-Vita sessions.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo 64",
+              "url": "https://github.com/JackTulli/halo-64",
+              "platforms": [
+                "Nintendo 64"
+              ],
+              "description_markdown": "Multiplayer-only port requiring the Expansion Pak; the campaign is not supported.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo CE RG35XX",
+              "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx",
+              "platforms": [
+                "Linux"
+              ],
+              "description_markdown": "Targets H700-based Anbernic handhelds running Knulli.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -26504,6 +29191,132 @@
             {
               "name": "Static recompilation",
               "url": "https://github.com/andeecollard/jsrf-recomp"
+            }
+          ]
+        },
+        {
+          "project": "black",
+          "name_markdown": "[BLACK](https://github.com/portingpete/Black-2006-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+              "alt": "BLACK box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows recompilation of the original Xbox game. Linux uses Wine or Proton; late missions are unverified and sound and graphics issues remain.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/portingpete/Black-2006-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/portingpete/Black-2006-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "def-jam-fight-for-ny",
+          "name_markdown": "[Def Jam: Fight for NY](https://github.com/vyanhursky/DefJamFFNY-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+              "alt": "Def Jam: Fight for NY box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows, Linux and Apple Silicon macOS recompilation of the original Xbox release; network multiplayer is unsupported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+            }
+          ]
+        },
+        {
+          "project": "halo-2",
+          "name_markdown": "[Halo 2](https://github.com/kirklandsig/halo2-decompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Halo%202%20%28USA%29.png",
+              "alt": "Halo 2 box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the original Xbox game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kirklandsig/halo2-decompiled"
+            }
+          ]
+        },
+        {
+          "project": "tom-clancy-s-splinter-cell-double-agent",
+          "name_markdown": "[Tom Clancy's Splinter Cell: Double Agent](https://github.com/TGP482/SCDA-XBERecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Tom%20Clancy%27s%20-%20Splinter%20Cell%20-%20Double%20Agent%20%28USA%29.png",
+              "alt": "Tom Clancy's Splinter Cell: Double Agent box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows x64 recompilation of the original Xbox version; not the Xbox 360 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TGP482/SCDA-XBERecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/TGP482/SCDA-XBERecomp"
+            }
+          ]
+        },
+        {
+          "project": "spider-man-2",
+          "name_markdown": "[Spider-Man 2](https://github.com/SirSymo/SM2-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Spider-Man%202%20%28USA%29.png",
+              "alt": "Spider-Man 2 box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental Windows recompilation of the original Xbox game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SirSymo/SM2-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/SirSymo/SM2-Recomp"
             }
           ]
         }
@@ -26740,6 +29553,32 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/matiaszanolli/sega-vr-disasm"
+            }
+          ]
+        },
+        {
+          "project": "knuckles-chaotix-yuutatsubasa",
+          "name_markdown": "[Knuckles' Chaotix](https://github.com/YuutaTsubasa/ChaotixRecompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_32X/master/Named_Boxarts/Knuckles%27%20Chaotix%20%28Japan%2C%20USA%29%20%28En%29.png",
+              "alt": "Knuckles' Chaotix box art for Sega 32X",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Android recompilation. Linux and macOS builds have not been run; iOS has not been built.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled"
             }
           ]
         }
