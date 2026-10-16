@@ -221,3 +221,13 @@ export function archForWasm(): { hint: ArchHint; languageId: string; arch: strin
   const hint: ArchHint = { processor: "Wasm", endian: "LE", size: 32 };
   return { hint, languageId: joinId(hint), arch: "Wasm" };
 }
+
+export function archForSuperH2(): { hint: ArchHint; languageId: string; arch: string } {
+  const hint: ArchHint = {
+    processor: "SuperH",
+    endian: "BE",
+    size: 32,
+    variant: "SH-2",
+  };
+  return { hint, languageId: joinId(hint, "default"), arch: "SuperH" };
+}

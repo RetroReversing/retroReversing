@@ -10,7 +10,9 @@ import { extractCallees, createCallersIndex } from "../xrefs.js";
 import { pyreFunctionsFromR2State } from "../r2-functions.js";
 import {
   PYRE_SPECS_BASE,
-  PYRE_MANIFEST_URL
+  PYRE_MANIFEST_URL,
+  PYRE_SUPERH_SPECS_BASE,
+  PYRE_SUPERH_MANIFEST_URL
 } from "../constants.js";
 
 var ROW_HEIGHT = 28;
@@ -567,9 +569,10 @@ export class PyreViewerElement extends LitElement {
       this.progressDetail = "Loading Ghidra decompiler (Pyre)...";
 
       var client = new DecompilerClient(this.workerUrl);
+      var superH = binary.arch === "SuperH";
       await client.init({
-        specBaseUrl: PYRE_SPECS_BASE,
-        manifestUrl: PYRE_MANIFEST_URL,
+        specBaseUrl: superH ? PYRE_SUPERH_SPECS_BASE : PYRE_SPECS_BASE,
+        manifestUrl: superH ? PYRE_SUPERH_MANIFEST_URL : PYRE_MANIFEST_URL,
         arch: binary.arch
       });
       if (token !== this._loadToken) {

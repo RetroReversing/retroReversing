@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
-updatedAt: '2026-10-08'
+updatedAt: '2026-10-11'
 ---
 
 <section class="postSection">
@@ -53,7 +53,7 @@ The first 16 sectors of a Saturn disc are the boot Initial Program, usually extr
 
 {% include_cached link-to-other-post.html post="/sega-saturn-initial-program-ip" description="For the system ID layout, security code, and area objects check out this post." %}
 
-[File Lab](/file-lab) can open that file directly. The Initial Program tab decodes the header, checks the boot constraints, and lists the SH-2 instructions at `0x06002000`.
+[File Lab](/file-lab) can open that file directly. The Initial Program tab decodes the header, checks the boot constraints, and lists the SH-2 instructions at `0x06002000`. The R2 and Pyre tabs disassemble the same boot code as big-endian SH-2, and they do the same for a raw disc program such as `00MENU.BIN`.
 
 ---
 # Video Formats

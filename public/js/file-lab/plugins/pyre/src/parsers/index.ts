@@ -3,15 +3,18 @@
 // can rely on every advertised arch/region/symbol existing.
 
 import type { ParsedBinary } from "../decompiler/types";
+import { locateSaturnSh2 } from "../../../../saturn-sh2.js";
 import { parseElf } from "./elf";
 import { parseMacho } from "./macho";
 import { parsePe } from "./pe";
+import { parseSh2 } from "./sh2";
 import { parseWasm } from "./wasm";
 
 export function detectFormat(
   bytes: Uint8Array,
-): "elf" | "macho" | "pe" | "wasm" | null {
+): "elf" | "macho" | "pe" | "wasm" | "sh2" | null {
   if (bytes.length < 4) return null;
+  if (locateSaturnSh2(bytes)) return "sh2";
   // ELF: 7F 45 4C 46
   if (
     bytes[0] === 0x7f &&
@@ -76,8 +79,10 @@ export async function parseBinary(bytes: Uint8Array): Promise<ParsedBinary> {
       return parsePe(bytes);
     case "wasm":
       return parseWasm(bytes);
+    case "sh2":
+      return parseSh2(bytes);
     default:
-      throw new Error("unrecognized binary format (not ELF/Mach-O/PE/WASM)");
+      throw new Error("unrecognized binary format (not ELF/Mach-O/PE/WASM/SH-2)");
   }
 }
 

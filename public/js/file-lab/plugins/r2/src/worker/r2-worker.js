@@ -1,5 +1,6 @@
 import { Wasmer, init } from "@wasmer/sdk";
 import { extractJsonPayload } from "../json-extract.js";
+import { locateSaturnSh2, saturnR2AnalyzeCommand, saturnR2ArchArgs } from "../../../../saturn-sh2.js";
 
 var LOG_PREFIX = "[file-lab:r2:worker]";
 var R2_WASM_URL = "https://radareorg.github.io/r2wasm/radare2.wasm";
@@ -340,7 +341,14 @@ function assertR2Output(stdout, stderr, exitCode, emptyMessage, preserveAnsi) {
   throw new Error(emptyMessage || "radare2 returned no output");
 }
 
+function withSaturnArch(args, bytes) {
+  var image = locateSaturnSh2(bytes);
+  if (!image || !args.length) return args;
+  return [args[0]].concat(saturnR2ArchArgs(image), args.slice(1));
+}
+
 async function runR2WithArgs(id, bytes, args, options) {
+  args = withSaturnArch(args, bytes);
   options = options || {};
   var progressPhase = options.progressPhase || "analyzing";
   var progressDetail = options.progressDetail || "Running radare2";
@@ -416,7 +424,7 @@ async function runR2Command(id, bytes, r2Command, options) {
 
 async function analyzeBinary(id, filename, bytes) {
   postProgress(id, "analyzing", 0, "Running radare2 analysis");
-  var r2Command = "aaa; aflj";
+  var r2Command = saturnR2AnalyzeCommand(locateSaturnSh2(bytes));
   console.log(LOG_PREFIX, "analyzeBinary", {
     displayName: String(filename || "binary").split(/[/\\]/).pop() || "binary",
     command: r2Command

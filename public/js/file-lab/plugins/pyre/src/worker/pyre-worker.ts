@@ -60,7 +60,7 @@ let mod: EmModule | null = null;
 let api: DecompilerApi | null = null;
 const sessions = new Map<number, number>();
 let nextSession = 1;
-let cachedManifest: { files: { path: string; size: number }[] } | null = null;
+const manifestCache = new Map<string, { files: { path: string; size: number }[] }>();
 const mountedArchs = new Set<string>();
 
 async function loadPyreDecompiler() {
@@ -174,17 +174,22 @@ async function doInit(req: InitRequest) {
   }
   if (mountedArchs.has(req.arch)) return;
 
-  if (!cachedManifest) {
+  let manifest = manifestCache.get(req.manifestUrl);
+  if (!manifest) {
     const r = await fetch(req.manifestUrl);
     if (!r.ok) throw new Error(`fetch manifest ${req.manifestUrl}: ${r.status}`);
-    cachedManifest = await r.json();
+    manifest = await r.json();
+    manifestCache.set(req.manifestUrl, manifest!);
   }
 
   const archPrefix = req.arch + "/";
   const langDirs = new Set<string>();
-  const entries = cachedManifest!.files.filter((entry) =>
+  const entries = manifest!.files.filter((entry) =>
     entry.path.startsWith(archPrefix),
   );
+  if (!entries.length) {
+    throw new Error(`no SLEIGH specs for ${req.arch} in ${req.manifestUrl}`);
+  }
 
   for (const entry of entries) {
     await prefetchSpecFile(
