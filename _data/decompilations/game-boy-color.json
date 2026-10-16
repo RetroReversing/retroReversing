@@ -1,6 +1,25 @@
 {
   "schema_version": 1,
   "projects": {
+    "battletanx-gbc": {
+      "name": "BattleTanx",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/BattleTanx-GBC",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-16T23:32:09Z",
+        "last_commit_at": "2026-10-16T23:30:52Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-GBC/commit/df30a179055872ab010b9235c481ffe93378866c",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-16T23:32:09Z",
+        "status": "Active"
+      }
+    },
     "dragon-warrior-monsters-german": {
       "name": "Dragon Warrior Monsters (German)",
       "platforms": [
@@ -277,6 +296,22 @@
         "Status / Ports"
       ],
       "rows": [
+        {
+          "project": "battletanx-gbc",
+          "name_markdown": "[BattleTanx](https://github.com/TheGh0stShip/BattleTanx-GBC)",
+          "images": [],
+          "notes_markdown": "Byte-exact RGBDS reconstruction with semantic recovery in progress.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/TheGh0stShip/BattleTanx-GBC"
+            }
+          ]
+        },
         {
           "project": "dragon-warrior-monsters-german",
           "name_markdown": "[Dragon Warrior Monsters (German)](https://github.com/Ebernacher90/DragonQuestMonstersGerman)",
