@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "fully-annotated-disassembly-of-the-original-metal-gear-game": {
+      "name": "Fully annotated disassembly of the original Metal Gear game",
+      "platforms": [
+        "Metal Gear (1987)"
+      ],
+      "repository_url": "https://github.com/GuillianSeed/MetalGear",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-01-15T17:46:56Z",
+        "last_commit_url": "https://github.com/GuillianSeed/MetalGear/commit/30d1b940bede10fdabbaf9767ad4f0ad8dd33291",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {}
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "rec98": {
+      "name": "ReC98",
+      "platforms": [
+        "Touhou Project 1-5 (1997-1998)"
+      ],
+      "repository_url": "https://github.com/nmlgc/ReC98",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-03-16T17:06:41Z",
+        "last_commit_url": "https://github.com/nmlgc/ReC98/commit/b6ba5b0a529edbb31efdf8c0e939263804f8ee47",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    }
+  },
+  "consoles": {}
+}

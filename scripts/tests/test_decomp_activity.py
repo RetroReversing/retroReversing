@@ -3,6 +3,7 @@ import importlib.util
 import json
 from pathlib import Path
 import re
+import tempfile
 import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -28,7 +29,12 @@ class FixtureClient:
 
 class ActivityTests(unittest.TestCase):
     def test_catalog_references_and_evidence(self):
-        catalog = json.loads(activity.DEFAULT_DATA.read_text())
+        catalog, sources = activity.load_catalog(activity.DEFAULT_DATA)
+        for path, (data, _) in sources.items():
+            self.assertTrue(set(data['consoles']) <= {path.stem})
+            for console in data['consoles'].values():
+                for row in console['rows']:
+                    self.assertIn(row['project'], data['projects'])
         page = (activity.ROOT / 'pages/SourceCode/DecompiledRetailConsoleGames.md').read_text()
         consoles = re.findall(r'include decomp-table.html console="([^"]+)"', page)
         self.assertTrue(consoles)
@@ -70,6 +76,47 @@ class ActivityTests(unittest.TestCase):
             with self.assertRaises(activity.FetchError) as raised:
                 activity.Client().get('https://api.github.com/repos/o/r', 'github.com')
         self.assertTrue(raised.exception.rate_limited)
+
+    def test_platform_refresh_only_writes_affected_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name in ('nes', 'snes'):
+                data = {'schema_version': 1, 'projects': {name: {'name': name,
+                        'repository_url': 'https://github.com/o/r', 'activity': {}}}, 'consoles': {}}
+                (root / (name + '.json')).write_text(json.dumps(data))
+            untouched = root / 'snes.json'
+            original = untouched.read_bytes(), untouched.stat().st_mtime_ns
+            catalog, sources = activity.load_catalog(root)
+            client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {
+                'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
+            activity.refresh(catalog, client, NOW, selected=['nes'])
+            activity.save_catalog(sources)
+            self.assertEqual((untouched.read_bytes(), untouched.stat().st_mtime_ns), original)
+            self.assertEqual(json.loads((root / 'nes.json').read_text())['projects']['nes']['activity']['status'], 'Active')
+            single, _ = activity.load_catalog(root / 'nes.json')
+            self.assertEqual(set(single['projects']), {'nes'})
+
+    def test_duplicate_ids_and_empty_directory_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with self.assertRaisesRegex(ValueError, 'no JSON files'):
+                activity.load_catalog(root)
+            for name in ('nes', 'snes'):
+                (root / (name + '.json')).write_text(json.dumps({'schema_version': 1, 'projects': {'game': {}}}))
+            with self.assertRaisesRegex(ValueError, 'Duplicate projects IDs'):
+                activity.load_catalog(root)
+
+    def test_dry_run_does_not_write_platform_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'nes.json'
+            original = json.dumps({'schema_version': 1, 'projects': {'game': {
+                'name': 'Game', 'repository_url': 'https://github.com/o/r'}}})
+            path.write_text(original)
+            client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {
+                'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
+            with patch.object(activity.sys, 'argv', ['update', '--data', directory, '--dry-run']), patch.object(activity, 'Client', return_value=client):
+                self.assertEqual(activity.main(), 0)
+            self.assertEqual(path.read_text(), original)
 
     def test_calendar_cutoff_and_archived(self):
         self.assertEqual(activity.activity_status('2025-10-11T00:00:00Z', False, NOW), 'Active')

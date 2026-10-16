@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "atari-2600-disassembly-collection": {
+      "name": "Atari 2600 disassembly collection",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "repository_url": "http://www.bjars.com/disassemblies.html",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-11T15:58:28Z",
+        "status": "Unverified",
+        "check_error": "Static disassembly collection; no repository commit history"
+      }
+    },
+    "donkey-kong-atari-2600": {
+      "name": "Donkey Kong",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "repository_url": "https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-11T15:58:28Z",
+        "status": "Unverified",
+        "check_error": "Forum-hosted disassembly; no repository commit history"
+      }
+    }
+  },
+  "consoles": {
+    "atari-2600": {
+      "name": "Atari 2600",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "atari-2600-disassembly-collection",
+          "name_markdown": "[Atari 2600 disassembly collection](http://www.bjars.com/disassemblies.html)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Various disassembled Atari 2600 games",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "http://www.bjars.com/disassemblies.html"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-atari-2600",
+          "name_markdown": "[Donkey Kong](https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Atari 2600 disassembly.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

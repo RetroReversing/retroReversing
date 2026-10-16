@@ -12,7 +12,40 @@ from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DATA = ROOT / '_data/decompilations.json'
+DEFAULT_DATA = ROOT / '_data/decompilations'
+
+
+def load_catalog(path):
+    """Combine platform files in memory, retaining their ownership for writes."""
+    paths = sorted(path.glob('*.json')) if path.is_dir() else [path]
+    if not paths:
+        raise ValueError('Catalog directory contains no JSON files')
+    catalog = {'schema_version': 1, 'projects': {}, 'consoles': {}}
+    sources = {}
+    for source in paths:
+        data = json.loads(source.read_text(encoding='utf-8'))
+        if data.get('schema_version') != 1 or not isinstance(data.get('projects'), dict):
+            raise ValueError('Unsupported catalog schema: {}'.format(source))
+        for section in ('projects', 'consoles'):
+            entries = data.get(section, {})
+            if not isinstance(entries, dict):
+                raise ValueError('Invalid {} in {}'.format(section, source))
+            duplicates = catalog[section].keys() & entries.keys()
+            if duplicates:
+                raise ValueError('Duplicate {} IDs: {}'.format(section, ', '.join(sorted(duplicates))))
+            catalog[section].update(entries)
+        sources[source] = (data, json.dumps(data, sort_keys=True))
+    return catalog, sources
+
+
+def save_catalog(sources):
+    """Write only changed files; project objects are shared with the catalog."""
+    for path, (data, original) in sources.items():
+        if json.dumps(data, sort_keys=True) == original:
+            continue
+        temporary = path.with_suffix('.json.tmp')
+        temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+        temporary.replace(path)
 
 
 def timestamp(value):
@@ -139,23 +172,22 @@ def refresh(data, client, now, limit=None, selected=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--data', type=Path, default=DEFAULT_DATA)
+    parser.add_argument('--data', type=Path, default=DEFAULT_DATA, help='Platform catalog directory or a single JSON file')
     parser.add_argument('--limit', type=int, help='Maximum distinct repositories to check')
     parser.add_argument('--project', action='append', help='Catalog project ID (repeatable)')
     parser.add_argument('--dry-run', action='store_true', help='Fetch and report without writing')
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:
         parser.error('--limit must be positive')
-    data = json.loads(args.data.read_text())
-    if data.get('schema_version') != 1 or not isinstance(data.get('projects'), dict):
-        parser.error('Unsupported catalog schema')
+    try:
+        data, sources = load_catalog(args.data)
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
     if args.project and set(args.project) - data['projects'].keys():
         parser.error('Unknown project ID')
     attempts, failures = refresh(data, Client(), dt.datetime.now(dt.timezone.utc), args.limit, args.project)
     if not args.dry_run:
-        temporary = args.data.with_suffix('.json.tmp')
-        temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
-        temporary.replace(args.data)
+        save_catalog(sources)
     print('Checked {} repositories; {} failed checks{}'.format(attempts, failures, ' (dry run)' if args.dry_run else ''))
     return 1 if failures else 0
 

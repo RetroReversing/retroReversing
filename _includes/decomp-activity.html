@@ -1,4 +1,4 @@
-{%- assign project = site.data.decompilations.projects[include.project] -%}
+{%- assign project = site.data.decompilations[include.platform].projects[include.project] -%}
 {%- assign activity = project.activity -%}
 {%- if activity.last_commit_at -%}
 {{ activity.status | escape }}; last commit [{{ activity.last_commit_at | date: "%Y-%m-%d" }}]({{ activity.last_commit_url }}); {% if activity.check_error %}latest check unavailable; {% endif %}

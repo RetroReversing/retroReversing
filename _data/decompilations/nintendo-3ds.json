@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "paper-mario-sticker-star": {
+      "name": "Paper Mario: Sticker Star",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://codeberg.org/Ivylag/leaflitter",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:15:18Z",
+        "last_commit_at": "2026-08-30T23:43:40Z",
+        "last_commit_url": "https://codeberg.org/Ivylag/leaflitter/commit/406ceb24edd2898d42d43d8c99865ed511e811c8",
+        "last_success_at": "2026-10-15T20:15:18Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "master"
+      }
+    },
+    "super-mario-3d-land-eu": {
+      "name": "Super Mario 3D Land (EU)",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/3dsdecomp/RedPepper",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-22T20:11:49Z",
+        "last_commit_url": "https://github.com/3dsdecomp/RedPepper/commit/6bd828b729f2442d18e7a586b6858a5fc6aeb6cd",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Inactive",
+        "default_branch": "main"
+      }
+    },
+    "the-legend-of-zelda-ocarina-of-time-3d": {
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/zeldaret/oot3d",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-04T19:43:43Z",
+        "last_commit_url": "https://github.com/zeldaret/oot3d/commit/a87ddae43252cb3add71bf1003e7391bbe006033",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "paper-mario-sticker-star-darxoon": {
+      "name": "Paper Mario: Sticker Star",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/Darxoon/leaflitter",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-09T22:00:21Z",
+        "last_commit_url": "https://github.com/Darxoon/leaflitter/commit/daab2d1ad7d31e9080f727391ebd4f86cb8a7198",
+        "default_branch": "master",
+        "archived": true,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "ocarina-of-time-3d-triaevum-recomp": {
+      "name": "Ocarina of Time 3D (TriAevum Recomp)",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/coccofresco/TriAevum",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T12:54:52Z",
+        "last_commit_url": "https://github.com/coccofresco/TriAevum/commit/23eac6b02a3afb82d7e5c9b2efc7b9d6aa37f94c",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-moon": {
+      "name": "Pokemon Moon",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/gradenGnostic/pokemoon",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-16T13:32:13Z",
+        "last_commit_url": "https://github.com/gradenGnostic/pokemoon/commit/7a5936eee5d08889d6cc534e6916a86b39fde694",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "animal-crossing-new-leaf-welcome-amiibo": {
+      "name": "Animal Crossing: New Leaf - Welcome amiibo",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/RedShyGuy/acnl-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "nintendo-3ds": {
+      "name": "Nintendo 3DS",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "paper-mario-sticker-star",
+          "name_markdown": "[Paper Mario: Sticker Star](https://codeberg.org/Ivylag/leaflitter)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "European-version decompilation. Development moved from GitHub to Codeberg.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://codeberg.org/Ivylag/leaflitter"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-3d-land-eu",
+          "name_markdown": "[Super Mario 3D Land (EU)](https://github.com/3dsdecomp/RedPepper)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of the EU version of Super Mario 3D Land.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/3dsdecomp/RedPepper"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-3d",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time 3D](https://github.com/zeldaret/oot3d)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of The Legend of Zelda: Ocarina of Time 3D.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/oot3d"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-sticker-star-darxoon",
+          "name_markdown": "[Paper Mario: Sticker Star](https://github.com/Darxoon/leaflitter)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Paper%20Mario%20-%20Sticker%20Star%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Paper Mario: Sticker Star box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Repository documents migration to Codeberg.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Darxoon/leaflitter"
+            }
+          ]
+        },
+        {
+          "project": "ocarina-of-time-3d-triaevum-recomp",
+          "name_markdown": "[Ocarina of Time 3D (TriAevum Recomp)](https://github.com/coccofresco/TriAevum)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%203D%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Ocarina of Time 3D (TriAevum Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental recompilation; the repository warns that specific alpha builds were withdrawn.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/coccofresco/TriAevum"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-moon",
+          "name_markdown": "[Pokemon Moon](https://github.com/gradenGnostic/pokemoon)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Pokemon%20Moon%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%2CZh%2CKo%29.png",
+              "alt": "Pokemon Moon box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/gradenGnostic/pokemoon"
+            }
+          ]
+        },
+        {
+          "project": "animal-crossing-new-leaf-welcome-amiibo",
+          "name_markdown": "[Animal Crossing: New Leaf - Welcome amiibo](https://github.com/RedShyGuy/acnl-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Animal%20Crossing%20-%20New%20Leaf%20-%20Welcome%20Amiibo%20%28USA%29.png",
+              "alt": "Animal Crossing: New Leaf - Welcome amiibo box art for Nintendo 3DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Non-matching decompilation targeting the USA Welcome amiibo v1.5 release; many methods remain empty.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RedShyGuy/acnl-decomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

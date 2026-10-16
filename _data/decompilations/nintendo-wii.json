@@ -1,0 +1,1717 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "inazuma-eleven-strikers": {
+      "name": "Inazuma Eleven Strikers",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/SwareJonge/IEStrikers",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-06-13T16:18:14Z",
+        "last_commit_url": "https://github.com/SwareJonge/IEStrikers/commit/c73dae7e030459bc82716d5d74732e5e9b7d29f3",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "kirby-s-epic-yarn": {
+      "name": "Kirby's Epic Yarn",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/swiftshine/key",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T15:51:47Z",
+        "last_commit_url": "https://github.com/Swiftshine/key/commit/7f2a9ab9ad66d8e2f6eac52acc2c01dff0bd03a2",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-kart-wii": {
+      "name": "Mario Kart Wii",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/riidefi/mkw",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-09-16T19:12:37Z",
+        "last_commit_url": "https://github.com/snailspeed3/mkw/commit/78572c95c41dbf6cbb7dd251a567e538560ce1d8",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "mario-party-8": {
+      "name": "Mario Party 8",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty8",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-01T01:15:07Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty8/commit/72dd8dc42c66313c9cb82344e5b728b65ec9d6cb",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-party-9": {
+      "name": "Mario Party 9",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty9",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-04-01T22:37:56Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty9/commit/0aefa6939a8e79bc417f50d86c52c243a7e899c3",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "pokemon-battle-revolution": {
+      "name": "Pokemon Battle Revolution",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/bgsamm/pbr-dtk",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T18:42:11Z",
+        "last_commit_url": "https://github.com/pbr-ret/pbr-decomp/commit/2f00145d6b48689c2d182c409828b13cdf1e55f8",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokepark-wii-pikachu-s-adventure": {
+      "name": "Pokepark Wii: Pikachu's Adventure",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/sephdb/pokepark-wii-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-03T19:49:27Z",
+        "last_commit_url": "https://github.com/SephDB/pokepark-wii-decomp/commit/735b49153c27f0f52de2af87911eaa3398ef6a72",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "rock-band-3": {
+      "name": "Rock_Band_3",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/DarkRTA/rb3",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T12:00:08Z",
+        "last_commit_url": "https://github.com/DarkRTA/rb3/commit/b9dfa78b64e9120b622024687b3f27b4faed700d",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-riders-zero-gravity": {
+      "name": "Sonic Riders: Zero Gravity",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/m0ester/SRZGDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-06-22T15:15:03Z",
+        "last_commit_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp/commit/8038c5f74cece91b37b75761a4f999d6569cf3cc",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "super-mario-galaxy-korean": {
+      "name": "Super Mario Galaxy (Korean)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/SMGCommunity/Petari",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T22:02:11Z",
+        "last_commit_url": "https://github.com/SMGCommunity/Petari/commit/e0ab141914921726a595573dc48d3f13d0922efe",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-galaxy-2": {
+      "name": "Super Mario Galaxy 2",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/SMGCommunity/Garigari",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:43:50Z",
+        "last_commit_url": "https://github.com/SMGCommunity/Garigari/commit/118f081ff800b668744415c6f87aa11b63b8d1da",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-paper-mario": {
+      "name": "Super Paper Mario",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/SeekyCt/spm-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-04T15:57:03Z",
+        "last_commit_url": "https://github.com/SeekyCt/spm-decomp/commit/bb6e5f6ef84e4b13808e317d687e8990f6fd7be6",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-smash-bros-brawl": {
+      "name": "Super Smash Bros. Brawl",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/doldecomp/brawl",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T07:01:38Z",
+        "last_commit_url": "https://github.com/doldecomp/brawl/commit/b96b501ff127b29e8946ee9a352a7bdc2ef5f38a",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda-ocarina-of-time-virtual-console": {
+      "name": "The Legend of Zelda: Ocarina of Time (Virtual Console)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/nim-ka/vc64-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-05-14T08:46:46Z",
+        "last_commit_url": "https://github.com/nim-ka/vc64-decomp/commit/e28658f6e520c01c6fca8c0aebe24902d9f82505",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "the-legend-of-zelda-skyward-sword": {
+      "name": "The Legend of Zelda: Skyward Sword",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/zeldaret/ss",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T16:52:20Z",
+        "last_commit_url": "https://github.com/zeldaret/ss/commit/7c9b59ffedcad3655f98b55898d5f980c86792d9",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-sims-2-castaway": {
+      "name": "The Sims 2: Castaway",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/simdecomp/ts2c",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-05-29T12:28:05Z",
+        "last_commit_url": "https://github.com/simdecomp/ts2c/commit/5d084a9875d0d243290c85776771fc9d4350d0c5",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "wii-sports": {
+      "name": "Wii Sports",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/doldecomp/ogws",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T07:44:15Z",
+        "last_commit_url": "https://github.com/doldecomp/ogws/commit/f5a1bb5ed7692a9e09e737bc1236f592274dcf73",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "xenoblade-chronicles": {
+      "name": "Xenoblade Chronicles",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/xbret/xenoblade",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-28T10:22:22Z",
+        "last_commit_url": "https://github.com/xbret/xenoblade/commit/ea25691b2029394ab777bda7060139e517a13cba",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "new-play-control-pikmin": {
+      "name": "New Play Control! Pikmin",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/projectPiki/pik1wii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-04T14:05:00Z",
+        "last_commit_url": "https://github.com/projectPiki/pik1wii/commit/7170ba8a1eafd6dd3e30923c827b20f4a0df735e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "new-play-control-pikmin-2": {
+      "name": "New Play Control! Pikmin 2",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/projectPiki/pik2wii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T05:56:09Z",
+        "last_commit_url": "https://github.com/projectPiki/pik2wii/commit/c337efc6223170da79977a05f8f3d1bf8774fe73",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "new-super-mario-bros-wii": {
+      "name": "New Super Mario Bros. Wii",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/NSMBW-Community/NSMBW-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-24T09:29:35Z",
+        "last_commit_url": "https://github.com/NSMBW-Community/NSMBW-Decomp/commit/58fe6985e3ca55261beb543fe7558f66c3ddd7c4",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-rumble": {
+      "name": "Pokemon Rumble",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/KooShnoo/pokemon-rumble",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-04-24T19:53:20Z",
+        "last_commit_url": "https://github.com/KooShnoo/pokemon-rumble/commit/11c112f7548b26ab2cecfcf52e201b8d3b76120f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "wario-land-shake-it": {
+      "name": "Wario Land: Shake It!",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Swiftshine/wlsi",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-01T16:27:51Z",
+        "last_commit_url": "https://github.com/Swiftshine/wlsi/commit/f9b988e6ec8f6c7c6e8c4ed380c5512a3c14937c",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "world-of-goo": {
+      "name": "World of Goo",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Fancy2209/wog-wiiware",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-01-21T15:18:30Z",
+        "last_commit_url": "https://github.com/Fancy2209/wog-wiiware/commit/aad03e6f64f57a39595cde6589d0871e6c170ef3",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "mario-sports-mix": {
+      "name": "Mario Sports Mix",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/EltyDev/MSM-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-09-07T16:32:43Z",
+        "last_commit_url": "https://github.com/EltyDev/MSM-decomp/commit/ec7a2472495f1e201eaf29f9d974c5310401b122",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "alice-in-wonderland": {
+      "name": "Alice in Wonderland",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Alice-2010/Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-10T17:21:00Z",
+        "last_commit_url": "https://github.com/Alice-2010/Decomp/commit/ee1bf06e7a6361de0709faf2ed76fc13d6dcdfca",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "big-brain-academy-wii-degree": {
+      "name": "Big Brain Academy: Wii Degree",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/vabold/bba-wd",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-01T22:48:31Z",
+        "last_commit_url": "https://github.com/vabold/bba-wd/commit/6dc6fd2e04684c5ac2bef5cf4b39655f8032d153",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "fortune-street": {
+      "name": "Fortune Street",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/FortuneStreetModding/boom-street-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-09-17T06:58:16Z",
+        "last_commit_url": "https://github.com/FortuneStreetModding/boom-street-decomp/commit/64f821da5dd87da914aaa488be4de03cdff3d70a",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "go-vacation": {
+      "name": "Go Vacation",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Moddimation/GoVacation-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-07-24T10:26:17Z",
+        "last_commit_url": "https://github.com/Moddimation/GoVacation-Decompilation/commit/f1b9ca5ce74013eebf34709372fd5df57187d32e",
+        "default_branch": "master",
+        "archived": true,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "i-spy-spooky-mansion": {
+      "name": "I Spy Spooky Mansion",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/AM7999/ISpy-SM-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-07-31T06:40:49Z",
+        "last_commit_url": "https://github.com/AM7999/ISpy-SM-Decomp/commit/774f08e1209d4cd347a4ca0411e2af677c2d2f0e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "kirby-s-dream-collection-special-edition": {
+      "name": "Kirby's Dream Collection - Special Edition",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Swiftshine/kdc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T22:07:14Z",
+        "last_commit_url": "https://github.com/Swiftshine/kdc/commit/81b52d6a31b6dd671bea0268f36a874477ee2bf6",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lego-star-wars-iii-the-clone-wars": {
+      "name": "Lego Star Wars III: The Clone Wars",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/ThePlayerRolo/LegoCloneWarsWii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-07T21:38:38Z",
+        "last_commit_url": "https://github.com/ThePlayerRolo/LegoCloneWarsWii/commit/b0ed795a586d1d921c536c991bf250bec39ae811",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "radio-helicopter": {
+      "name": "Radio Helicopter",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Bsquo/pcopter_wii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-12T11:08:44Z",
+        "last_commit_url": "https://github.com/Bsquo/pcopter_wii/commit/40d539347a063927df9d2ea4df8b1b7dd81afd03",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "rhythm-heaven-fever": {
+      "name": "Rhythm Heaven Fever",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/conhlee/rhf",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-09T17:42:49Z",
+        "last_commit_url": "https://github.com/conhlee/rhf/commit/4429cbcb000abff644683d98701f6ab8c1671e10",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-sims-2-castaway-haydntrigg": {
+      "name": "The Sims 2: Castaway",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/HaydnTrigg/Castaway",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-01-21T01:46:51Z",
+        "last_commit_url": "https://github.com/HaydnTrigg/Castaway/commit/f5c5dbcf2b4a20eb797b1aa6eb03f6cf09a4dbbe",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "excite-truck": {
+      "name": "Excite Truck",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/orangedude27/excite-truck",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-10T14:29:01Z",
+        "last_commit_url": "https://github.com/orangedude27/excite-truck/commit/eea8f4c890d1c50a77601b177c604c91052a0c1b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "mario-strikers-charged": {
+      "name": "Mario Strikers Charged",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/yannicksuter/mscharged-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T18:48:02Z",
+        "last_commit_url": "https://github.com/yannicksuter/mscharged-decomp/commit/4ad03a091ccd8e85a96dd1506c1142e0f326f84f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-riders-zero-gravity-prototype": {
+      "name": "Sonic Riders: Zero Gravity Prototype",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-06-22T15:15:03Z",
+        "last_commit_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp/commit/8038c5f74cece91b37b75761a4f999d6569cf3cc",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "wii-play": {
+      "name": "Wii Play",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/akiramusic000/Rhae",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kirby-s-return-to-dream-land": {
+      "name": "Kirby's Return to Dream Land",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Etrainquandt17/Whippy",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "nintendo-wii": {
+      "name": "Nintendo Wii",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "inazuma-eleven-strikers",
+          "name_markdown": "[Inazuma Eleven Strikers](https://github.com/SwareJonge/IEStrikers)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/InazumaElevenStrikers.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SwareJonge/IEStrikers"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-epic-yarn",
+          "name_markdown": "[Kirby's Epic Yarn](https://github.com/swiftshine/key)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/swiftshine/key"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii",
+          "name_markdown": "[Mario Kart Wii](https://github.com/riidefi/mkw)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 11,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "DriftDroid",
+              "url": "https://github.com/dorPXP/driftdroid",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Android fork of the Wii recompilation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart Wii PS5",
+              "url": "https://github.com/Phi1ow/mkwii-ps5",
+              "platforms": [
+                "PlayStation 5"
+              ],
+              "description_markdown": "Targets the PAL Wii release and homebrew-enabled PS5 systems.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Mario Kart Wii 3DS",
+              "url": "https://github.com/MiniBandit/MKW-3DS",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Experimental port using decompiled game physics; functionality is incomplete.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/riidefi/mkw"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-8",
+          "name_markdown": "[Mario Party 8](https://github.com/mariopartyrd/marioparty8)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty8"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-9",
+          "name_markdown": "[Mario Party 9](https://github.com/mariopartyrd/marioparty9)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty9"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-battle-revolution",
+          "name_markdown": "[Pokemon Battle Revolution](https://github.com/bgsamm/pbr-dtk)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bgsamm/pbr-dtk"
+            }
+          ]
+        },
+        {
+          "project": "pokepark-wii-pikachu-s-adventure",
+          "name_markdown": "[Pokepark Wii: Pikachu's Adventure](https://github.com/sephdb/pokepark-wii-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/d/d2/PokePark_Wii_Pikachu%27s_Adventure_%28EU%29.jpg/revision/latest?cb=20100602174809&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sephdb/pokepark-wii-decomp"
+            }
+          ]
+        },
+        {
+          "project": "rock-band-3",
+          "name_markdown": "[Rock_Band_3](https://github.com/DarkRTA/rb3)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 50,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/DarkRTA/rb3"
+            }
+          ]
+        },
+        {
+          "project": "sonic-riders-zero-gravity",
+          "name_markdown": "[Sonic Riders: Zero Gravity](https://github.com/m0ester/SRZGDecomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/SonicRiders2.PNG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/m0ester/SRZGDecomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-korean",
+          "name_markdown": "[Super Mario Galaxy (Korean)](https://github.com/SMGCommunity/Petari)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 23,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "AstroCore",
+              "url": "https://www.lumasworkshop.com/astrocore",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "LumaWorkshop native PC port.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SMGCommunity/Petari"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-2",
+          "name_markdown": "[Super Mario Galaxy 2](https://github.com/SMGCommunity/Garigari)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SMGCommunity/Garigari"
+            }
+          ]
+        },
+        {
+          "project": "super-paper-mario",
+          "name_markdown": "[Super Paper Mario](https://github.com/SeekyCt/spm-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 2,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SeekyCt/spm-decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-brawl",
+          "name_markdown": "[Super Smash Bros. Brawl](https://github.com/doldecomp/brawl)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/brawl"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-virtual-console",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time (Virtual Console)](https://github.com/nim-ka/vc64-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 31,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/nim-ka/vc64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-skyward-sword",
+          "name_markdown": "[The Legend of Zelda: Skyward Sword](https://github.com/zeldaret/ss)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 11,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/ss"
+            }
+          ]
+        },
+        {
+          "project": "the-sims-2-castaway",
+          "name_markdown": "[The Sims 2: Castaway](https://github.com/simdecomp/ts2c)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/sims/images/b/b1/Thesims2castaway-wii.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/simdecomp/ts2c"
+            }
+          ]
+        },
+        {
+          "project": "wii-sports",
+          "name_markdown": "[Wii Sports](https://github.com/doldecomp/ogws)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 22,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/ogws"
+            }
+          ]
+        },
+        {
+          "project": "xenoblade-chronicles",
+          "name_markdown": "[Xenoblade Chronicles](https://github.com/xbret/xenoblade)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Xenoblade_box_artwork.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 7,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/xbret/xenoblade"
+            }
+          ]
+        },
+        {
+          "project": "new-play-control-pikmin",
+          "name_markdown": "[New Play Control! Pikmin](https://github.com/projectPiki/pik1wii)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Pikmin%20%28USA%29.png",
+              "alt": "New Play Control! Pikmin box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/projectPiki/pik1wii"
+            }
+          ]
+        },
+        {
+          "project": "new-play-control-pikmin-2",
+          "name_markdown": "[New Play Control! Pikmin 2](https://github.com/projectPiki/pik2wii)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Pikmin%202%20%28USA%29.png",
+              "alt": "New Play Control! Pikmin 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA Wii edition.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/projectPiki/pik2wii"
+            }
+          ]
+        },
+        {
+          "project": "new-super-mario-bros-wii",
+          "name_markdown": "[New Super Mario Bros. Wii](https://github.com/NSMBW-Community/NSMBW-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20Wii%20%28USA%29.png",
+              "alt": "New Super Mario Bros. Wii box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "NSMB Wii Multiplayer Recompilation",
+              "url": "https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation",
+              "platforms": [
+                "Windows",
+                "Android"
+              ],
+              "description_markdown": "Requires original Wii game data.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/NSMBW-Community/NSMBW-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-rumble",
+          "name_markdown": "[Pokemon Rumble](https://github.com/KooShnoo/pokemon-rumble)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Pokemon%20Rumble%20%28USA%29.png",
+              "alt": "Pokemon Rumble box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/KooShnoo/pokemon-rumble"
+            }
+          ]
+        },
+        {
+          "project": "wario-land-shake-it",
+          "name_markdown": "[Wario Land: Shake It!](https://github.com/Swiftshine/wlsi)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wario%20Land_%20Shake%20It%21%20%28USA%29.png",
+              "alt": "Wario Land: Shake It! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Swiftshine/wlsi"
+            }
+          ]
+        },
+        {
+          "project": "world-of-goo",
+          "name_markdown": "[World of Goo](https://github.com/Fancy2209/wog-wiiware)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/World%20of%20Goo%20%28USA%29%20%28WiiWare%29.png",
+              "alt": "World of Goo box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Fancy2209/wog-wiiware"
+            }
+          ]
+        },
+        {
+          "project": "mario-sports-mix",
+          "name_markdown": "[Mario Sports Mix](https://github.com/EltyDev/MSM-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Sports%20Mix%20%28USA%29.png",
+              "alt": "Mario Sports Mix box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/EltyDev/MSM-decomp"
+            }
+          ]
+        },
+        {
+          "project": "alice-in-wonderland",
+          "name_markdown": "[Alice in Wonderland](https://github.com/Alice-2010/Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Alice%20in%20Wonderland%20%28USA%29.png",
+              "alt": "Alice in Wonderland box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Alice-2010/Decomp"
+            }
+          ]
+        },
+        {
+          "project": "big-brain-academy-wii-degree",
+          "name_markdown": "[Big Brain Academy: Wii Degree](https://github.com/vabold/bba-wd)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Big%20Brain%20Academy_%20Wii%20Degree%20%28USA%29.png",
+              "alt": "Big Brain Academy: Wii Degree box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/vabold/bba-wd"
+            }
+          ]
+        },
+        {
+          "project": "fortune-street",
+          "name_markdown": "[Fortune Street](https://github.com/FortuneStreetModding/boom-street-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Fortune%20Street%20%28USA%29.png",
+              "alt": "Fortune Street box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/FortuneStreetModding/boom-street-decomp"
+            }
+          ]
+        },
+        {
+          "project": "go-vacation",
+          "name_markdown": "[Go Vacation](https://github.com/Moddimation/GoVacation-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Go%20Vacation%20%28USA%29.png",
+              "alt": "Go Vacation box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Moddimation/GoVacation-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "i-spy-spooky-mansion",
+          "name_markdown": "[I Spy Spooky Mansion](https://github.com/AM7999/ISpy-SM-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/I%20SPY%20Spooky%20Mansion%20%28USA%29.png",
+              "alt": "I Spy Spooky Mansion box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/AM7999/ISpy-SM-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-dream-collection-special-edition",
+          "name_markdown": "[Kirby's Dream Collection - Special Edition](https://github.com/Swiftshine/kdc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Kirby%27s%20Dream%20Collection_%20Special%20Edition%20%28USA%29.png",
+              "alt": "Kirby's Dream Collection - Special Edition box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Swiftshine/kdc"
+            }
+          ]
+        },
+        {
+          "project": "lego-star-wars-iii-the-clone-wars",
+          "name_markdown": "[Lego Star Wars III: The Clone Wars](https://github.com/ThePlayerRolo/LegoCloneWarsWii)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/LEGO%20Star%20Wars%20III_%20The%20Clone%20Wars%20%28USA%29.png",
+              "alt": "Lego Star Wars III: The Clone Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ThePlayerRolo/LegoCloneWarsWii"
+            }
+          ]
+        },
+        {
+          "project": "radio-helicopter",
+          "name_markdown": "[Radio Helicopter](https://github.com/Bsquo/pcopter_wii)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Radio%20Helicopter%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Radio Helicopter box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Bsquo/pcopter_wii"
+            }
+          ]
+        },
+        {
+          "project": "rhythm-heaven-fever",
+          "name_markdown": "[Rhythm Heaven Fever](https://github.com/conhlee/rhf)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Rhythm%20Heaven%20Fever%20%28USA%29.png",
+              "alt": "Rhythm Heaven Fever box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/conhlee/rhf"
+            }
+          ]
+        },
+        {
+          "project": "the-sims-2-castaway-haydntrigg",
+          "name_markdown": "[The Sims 2: Castaway](https://github.com/HaydnTrigg/Castaway)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sims%202%2C%20The%20-%20Castaway%20%28USA%29.png",
+              "alt": "The Sims 2: Castaway box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/HaydnTrigg/Castaway"
+            }
+          ]
+        },
+        {
+          "project": "excite-truck",
+          "name_markdown": "[Excite Truck](https://github.com/orangedude27/excite-truck)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Excite%20Truck%20%28USA%29.png",
+              "alt": "Excite Truck box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/orangedude27/excite-truck"
+            }
+          ]
+        },
+        {
+          "project": "mario-strikers-charged",
+          "name_markdown": "[Mario Strikers Charged](https://github.com/yannicksuter/mscharged-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20%28USA%29.png",
+              "alt": "Mario Strikers Charged box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching source reconstruction; it is not a native port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Mario Strikers Charged Port",
+              "url": "https://github.com/yannicksuter/mscharged-port",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native port of the Wii game.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/yannicksuter/mscharged-decomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-riders-zero-gravity-prototype",
+          "name_markdown": "[Sonic Riders: Zero Gravity Prototype](https://github.com/KidWizardOfTheWeb/SRZGDecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sonic%20Riders_%20Zero%20Gravity%20%28USA%29.png",
+              "alt": "Sonic Riders: Zero Gravity Prototype box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp"
+            }
+          ]
+        },
+        {
+          "project": "wii-play",
+          "name_markdown": "[Wii Play](https://github.com/akiramusic000/Rhae)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wii%20Play%20%28USA%29.png",
+              "alt": "Wii Play box art for Nintendo Wii",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation targeting USA revision 1.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/akiramusic000/Rhae"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-return-to-dream-land",
+          "name_markdown": "[Kirby's Return to Dream Land](https://github.com/Etrainquandt17/Whippy)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Kirby%27s%20Return%20to%20Dream%20Land%20%28USA%29.png",
+              "alt": "Kirby's Return to Dream Land box art for Nintendo Wii",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching Wii decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Etrainquandt17/Whippy"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

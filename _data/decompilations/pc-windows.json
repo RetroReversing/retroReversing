@@ -1,0 +1,2559 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "cave-story": {
+      "name": "Cave Story",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/gameblabla/CSE2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-03-12T18:10:29Z",
+        "last_commit_url": "https://github.com/gameblabla/CSE2/commit/f957b05ad29dd19e30c53c99fb312f444d769149",
+        "archived": false,
+        "default_branch": "portable",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "chrono-cross-radical-dreamers-edition": {
+      "name": "Chrono Cross: Radical Dreamers Edition",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/jdperos/chrono-cross-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-04-14T03:51:12Z",
+        "last_commit_url": "https://github.com/jdperos/chrono-cross-decomp/commit/7dcadfc36421c9b26466f7fdbdbaa1a1102219c6",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "cosmo-s-cosmic-adventure": {
+      "name": "Cosmo's Cosmic Adventure",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/smitelli/cosmore",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-10-23T18:45:12Z",
+        "last_commit_url": "https://github.com/smitelli/cosmore/commit/80418d1ee9026594e4dcc8445ec801d374074d84",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "cut-the-rope-dx": {
+      "name": "Cut the Rope DX",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/yell0wsuit/cuttherope-dx",
+      "project_type": "Decompilation port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-09T01:07:03Z",
+        "last_commit_url": "https://github.com/yell0wsuit/cuttherope-dx/commit/3fb70e70a92dc13da263cee0db5f4ef19c686bc6",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "deus-ex-human-revolution": {
+      "name": "Deus Ex: Human Revolution",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/rrika/cdcEngineDXHR",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-24T02:07:34Z",
+        "last_commit_url": "https://github.com/rrika/cdcEngineDXHR/commit/647132cd12cbef1beb9e731e9dfeb11c159acb91",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "diablo": {
+      "name": "Diablo",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/diasurgical/devilution",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-09-15T02:01:35Z",
+        "last_commit_url": "https://github.com/diasurgical/devilution/commit/9f01757243412bb154d02d9af65c804159e6e0ea",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "diablo-ii": {
+      "name": "Diablo II",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/ThePhrozenKeep/D2MOO/",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T05:41:05Z",
+        "last_commit_url": "https://github.com/ThePhrozenKeep/D2MOO/commit/0c0bbd1e6bef9181a3da1c046523af622a925416",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "duck-game": {
+      "name": "Duck Game",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/TheFlyingFoool/DuckGameRebuilt",
+      "project_type": "Decompilation",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-26T06:29:58Z",
+        "last_commit_url": "https://github.com/TheFlyingFoool/DuckGameRebuilt/commit/90a281b02ad4183db5a88069ee26f93f76bd2fd4",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "duke-nukem-ii-dos": {
+      "name": "Duke Nukem II (DOS)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/lethal-guitar/Duke2Reconstructed",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-04-13T09:18:09Z",
+        "last_commit_url": "https://github.com/lethal-guitar/Duke2Reconstructed/commit/980cee990879fa5f9e53706ef63ad25df8e32d2d",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "lego-island": {
+      "name": "Lego Island",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/isledecomp/isle",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-18T23:16:23Z",
+        "last_commit_url": "https://github.com/isledecomp/isle/commit/8119bd013645972c72480e4de21529f1e91ce5c7",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "oddworld-1-2": {
+      "name": "Oddworld 1-2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/AliveTeam/alive_reversing",
+      "project_type": "Game Engine Reimplementation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-01T09:19:18Z",
+        "last_commit_url": "https://github.com/AliveTeam/alive_reversing/commit/3be8967b71b29e6e61009d291bd64dce39abf7ac",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "oregon-trail-ii": {
+      "name": "Oregon Trail II",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/katstasaph/otii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-08-01T03:38:35Z",
+        "last_commit_url": "https://github.com/katstasaph/otii/commit/6c3fdeb07b80d4cf54acfff02afeee61675a2673",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "plants-vs-zombies-goty-edition": {
+      "name": "Plants vs. Zombies GOTY Edition",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Patoke/re-plants-vs-zombies",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-11T12:45:01Z",
+        "last_commit_url": "https://github.com/Patoke/re-plants-vs-zombies/commit/c4692036c5e11d227c8fb7c593b734dac96da028",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "retro-sonic-3d": {
+      "name": "Retro Sonic 3D",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSonic3D-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-30T19:06:39Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSonic3D-Decompilation/commit/da1bec475d829f94a7da9b53335bfa978f3e760c",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "skifree": {
+      "name": "SkiFree",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/yuv422/skifree_decomp",
+      "project_type": "Decompilation",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-12-08T11:49:00Z",
+        "last_commit_url": "https://github.com/yuv422/skifree_decomp/commit/7b473c51f79671c7fc54c7b14eb4e118687b2048",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-cd-2011": {
+      "name": "Sonic CD (2011)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T15:23:12Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Decompilation/commit/c01fc0c360e8e35e791630407ea5c7a426718e54",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "retro-engine-v3": {
+      "name": "Retro Engine v3",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv3-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T15:23:12Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Decompilation/commit/c01fc0c360e8e35e791630407ea5c7a426718e54",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-cd-scripts-rsdkv3": {
+      "name": "Sonic CD scripts (RSDKv3)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv3-Script-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-13T00:29:51Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Script-Decompilation/commit/dad641a31637d0545ac9c4f3e95707bb5e671961",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-mania": {
+      "name": "Sonic Mania",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-12T00:57:03Z",
+        "last_commit_url": "https://github.com/RSDKModding/Sonic-Mania-Decompilation/commit/9dc699428420d752af9767bdb13f585ee0881bc0",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "retro-engine-v5-and-v5-ultimate": {
+      "name": "Retro Engine v5 and v5 Ultimate",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv5-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-03T23:52:18Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv5-Decompilation/commit/191d7aea6c262d891244172a8609ac69fbfd7571",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-mania-rsdkmodding": {
+      "name": "Sonic Mania (RSDKModding)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/Sonic-Mania-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-12T00:57:03Z",
+        "last_commit_url": "https://github.com/RSDKModding/Sonic-Mania-Decompilation/commit/9dc699428420d752af9767bdb13f585ee0881bc0",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "shortline-railroad-dos": {
+      "name": "ShortLine railroad (DOS)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/konovalov-aleks/reSL",
+      "project_type": "Decompilation",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-08T09:18:55Z",
+        "last_commit_url": "https://github.com/konovalov-aleks/reSL/commit/470cca330ee9abcf6173c843f4c89686c0c7e525",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-nexus-retro-engine-v2": {
+      "name": "Sonic Nexus (Retro Engine v2)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv2-Decompilation",
+      "project_type": "Engine decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-01T21:50:26Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv2-Decompilation/commit/cc411106137dca8d3936c709d6a1875aa788fd9c",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "timesplitters-rewind": {
+      "name": "TimeSplitters Rewind",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://www.timesplittersrewind.com",
+      "project_type": "Fan remake",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-11T15:58:28Z",
+        "status": "Unverified",
+        "check_error": "Project website; no public source repository linked"
+      }
+    },
+    "touhou-koumakyou-the-embodiment-of-scarlet-devil": {
+      "name": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/happyhavoc/th06",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T00:48:19Z",
+        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "touhou-6-gensokyoclub": {
+      "name": "Touhou 6 (GensokyoClub)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/GensokyoClub/th06",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T00:48:19Z",
+        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "twisted-metal-2": {
+      "name": "Twisted Metal 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/abelbriggs1/tm2pc-reveng",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "status": "Unverified",
+        "check_error": "HTTP 404"
+      }
+    },
+    "grand-theft-auto-san-andreas": {
+      "name": "Grand Theft Auto: San Andreas",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/gta-reversed/gta-reversed",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T16:49:18Z",
+        "last_commit_url": "https://github.com/gta-reversed/gta-reversed/commit/0d540030f7c45e310042a437569bece420dcfd0f",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "plants-vs-zombies-goty": {
+      "name": "Plants vs Zombies GOTY",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Bamcane/re-plants-vs-zombies",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-11-21T12:59:01Z",
+        "last_commit_url": "https://github.com/Bamcane/re-plants-vs-zombies/commit/0f6bbd39302acf69484ba8b3e071724e35cfba17",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-generations": {
+      "name": "Sonic Generations",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Luigi587/GenerationsDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-11-17T00:09:47Z",
+        "last_commit_url": "https://github.com/Luigi587/GenerationsDecomp/commit/52f424ceacad50809463a75daf984a7f5a340332",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "space-cadet-pinball": {
+      "name": "Space Cadet Pinball",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/k4zmu2a/SpaceCadetPinball",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-08-21T06:56:55Z",
+        "last_commit_url": "https://github.com/k4zmu2a/SpaceCadetPinball/commit/cb9b7b886244a27773f66b0b19fdc2998392565e",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "zuma-deluxe": {
+      "name": "Zuma Deluxe",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/alula/CircleShootApp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-06T01:13:55Z",
+        "last_commit_url": "https://github.com/alula/CircleShootApp/commit/165d0fd30d977da7ad5ee6efe128d8af2178713b",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "barnyard": {
+      "name": "Barnyard",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/InfiniteC0re/OpenBarnyard",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T15:55:23Z",
+        "last_commit_url": "https://github.com/InfiniteC0re/OpenBarnyard/commit/15b444352eb53a21f2c50e5d9a4c533ee9c35699",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "battlefield-2": {
+      "name": "Battlefield 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/kiwidoggie/breadflowerdos",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-01T17:28:35Z",
+        "last_commit_url": "https://github.com/kiwidoggie/breadflowerdos/commit/6b4d4e1f10dee9b1c8932db95f91b92e3eceb7db",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "bio-menace": {
+      "name": "Bio Menace",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/lethal-guitar/BioMenaceDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-12-27T13:57:58Z",
+        "last_commit_url": "https://github.com/lethal-guitar/BioMenaceDecomp/commit/4471bcfc03ff2ebe10620011fa45e9a1d086c841",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "black-and-white": {
+      "name": "Black and White",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/openblack/bw1-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T20:14:34Z",
+        "last_commit_url": "https://github.com/openblack/bw1-decomp/commit/64557ea264ed0b0efefa58fdbff06ed6fe3db6c8",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "carmageddon": {
+      "name": "Carmageddon",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/dethrace-labs/dethrace",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T04:40:14Z",
+        "last_commit_url": "https://github.com/dethrace-labs/dethrace/commit/136cf4aca27480e47056456efff80e1a6d0c366a",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "costume-quest": {
+      "name": "Costume Quest",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-18T21:38:23Z",
+        "last_commit_url": "https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp/commit/c3f83b9fe79da055aaa1de72b98fa182a170f826",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "fallout-2": {
+      "name": "Fallout 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/alexbatalov/fallout2-re",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-01-20T16:44:03Z",
+        "last_commit_url": "https://github.com/alexbatalov/fallout2-re/commit/b135fc46ef40c4aecd156f3cebcf88ec531bb8ac",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "flatout-2": {
+      "name": "FlatOut 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/ZackWilde27/FlatOut-2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-10-16T10:07:58Z",
+        "last_commit_url": "https://github.com/ZackWilde27/FlatOut-2-decomp/commit/e22b2417f8c17c064fa08552cc7ec622d388f7cb",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "fuel": {
+      "name": "FUEL",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/widberg/FUELDecompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-03-14T21:26:58Z",
+        "last_commit_url": "https://github.com/widberg/FUELDecompilation/commit/bd6b69976602b2758ab8559a1557fde24861f193",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "grand-theft-auto-2": {
+      "name": "Grand Theft Auto 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/CriminalRETeam/gta2_re",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:38:48Z",
+        "last_commit_url": "https://github.com/CriminalRETeam/gta2_re/commit/ced2901279809077717e7f7e233dbfff477f07e8",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "hitman-codename-47": {
+      "name": "Hitman: Codename 47",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/0danny/re47",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-29T08:15:46Z",
+        "last_commit_url": "https://github.com/0danny/re47/commit/e5a15bb85a38417e84466d50584131d137910fe0",
+        "default_branch": "main",
+        "archived": true,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "jazz-jackrabbit-2": {
+      "name": "Jazz Jackrabbit 2",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Mustafa1177/jazzjackrabbit2-decompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-09T10:45:46Z",
+        "last_commit_url": "https://github.com/Mustafa1177/jazzjackrabbit2-decompiled/commit/89afd58b80f54be3850e6576add024039c77231f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "jurassic-park-operation-genesis": {
+      "name": "Jurassic Park: Operation Genesis",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/AdventureT/OpenJPOG",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-01-20T16:03:16Z",
+        "last_commit_url": "https://github.com/AdventureT/OpenJPOG/commit/84b503e76d7a6250f4bbd7df807a50ec591660bb",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lego-batman-the-videogame": {
+      "name": "LEGO Batman: The Videogame",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/wasdhjklxyz/lbtvg",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T01:23:12Z",
+        "last_commit_url": "https://github.com/wasdhjklxyz/lbtvg/commit/fa6e38ffc40c73bee6b10af015fed2ac10e21ab4",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lego-creator-knights-kingdom": {
+      "name": "Lego Creator Knights Kingdom",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/DavidGrice/knightskingdom",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-05T15:29:28Z",
+        "last_commit_url": "https://github.com/DavidGrice/knightskingdom/commit/e6cf39544866299e6a39f886b9d523dd76cb8e7f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lemmings-paintball": {
+      "name": "Lemmings Paintball",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/vonhoff/lemball-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T18:08:37Z",
+        "last_commit_url": "https://github.com/vonhoff/lemball-decomp/commit/938122455844c62783b7d7822d5ff4e8fdc663ee",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mafia-the-city-of-lost-heaven": {
+      "name": "Mafia: The City of Lost Heaven",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Marvisak/mafia-re",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:22:05Z",
+        "last_commit_url": "https://github.com/Marvisak/mafia-re/commit/3ad539b4f1a6ae4b47e8614cc52c3569b4f4be9a",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "nocturne": {
+      "name": "Nocturne",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/NearlyTRex/NocturneDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T05:52:45Z",
+        "last_commit_url": "https://github.com/NearlyTRex/NocturneDecomp/commit/b2bd09ac21d6e12f2fb21f52ef8cf62a61063470",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "real-war": {
+      "name": "Real War",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Francessco121/real-war-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-05-27T03:45:36Z",
+        "last_commit_url": "https://github.com/Francessco121/real-war-decomp/commit/9f212e0b38c1e15bbfb0236d3bebd0043f3c4e52",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "star-wars-episode-1-racer": {
+      "name": "Star Wars Episode 1: Racer",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/tim-tim707/SW_RACER_RE",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T16:00:51Z",
+        "last_commit_url": "https://github.com/tim-tim707/SW_RACER_RE/commit/a9863edd4caaa573f89ff634fa7d1cd6d41738ab",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "test-drive-unlimited": {
+      "name": "Test Drive Unlimited",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T06:18:43Z",
+        "last_commit_url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/commit/c07907e41a2dd73cf88a70df0818f98469e37cc9",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-italian-job": {
+      "name": "The Italian Job",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/dashr9230/Caper",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-28T20:59:16Z",
+        "last_commit_url": "https://github.com/dashr9230/Caper/commit/17eda11193113243828b4c8a21e64cbe92902a24",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "tomb-raider-legend": {
+      "name": "Tomb Raider: Legend",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/TheIndra55/cdcEngine",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-12-24T18:52:27Z",
+        "last_commit_url": "https://github.com/TheIndra55/cdcEngine/commit/405efd9ddaa9cc4ff86787d4fb5b0c744cbf1c97",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "touhou-08-imperishable-night": {
+      "name": "Touhou 08: Imperishable Night",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/GensokyoClub/th08",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T22:06:50Z",
+        "last_commit_url": "https://github.com/GensokyoClub/th08/commit/f345c7dee07b849f2ff93a0029ab5ede126bf12c",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "bumpy-s-arcade-fantasy": {
+      "name": "Bumpy's Arcade Fantasy",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/GeReV/bumpy-reverse",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T13:24:07Z",
+        "last_commit_url": "https://github.com/GeReV/bumpy-reverse/commit/346d05c8e2d2d10c5d97b65afaec690db9391932",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "kknd-krush-kill-n-destroy": {
+      "name": "KKND: Krush Kill 'n Destroy",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/Wyrelade/KKND-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-24T19:24:04Z",
+        "last_commit_url": "https://github.com/Wyrelade/KKND-Decomp/commit/4dfd5b100755421bac28ab9dab452b1db7a9c81f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "plants-vs-zombies-0-9-9": {
+      "name": "Plants vs. Zombies (0.9.9)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/bluisblu/pvz",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-29T16:41:22Z",
+        "last_commit_url": "https://github.com/bluisblu/pvz/commit/35ae4660f3527505917cb00289d962de75aafb49",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "snail-mail": {
+      "name": "Snail Mail",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/banteg/snail",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T20:07:11Z",
+        "last_commit_url": "https://github.com/banteg/snail/commit/9cde1f771ab04f6545db82d3f7277c4373b88623",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "starflight": {
+      "name": "Starflight",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/s-macke/starflight-reverse",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-03-09T20:28:31Z",
+        "last_commit_url": "https://github.com/s-macke/starflight-reverse/commit/07a3392933214419d935961675c65ffa36fe57f4",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "stronghold-1993": {
+      "name": "Stronghold (1993)",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/NancySadkov/dest",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-08-15T17:58:09Z",
+        "last_commit_url": "https://github.com/NancySadkov/dest/commit/b858458fe4d97384ef7cd0b00e42ae4219809b97",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {
+    "pc-windows": {
+      "name": "PC (Windows)",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "cave-story",
+          "name_markdown": "[Cave Story](https://github.com/gameblabla/CSE2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Taken down by DMCA",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/gameblabla/CSE2"
+            }
+          ]
+        },
+        {
+          "project": "chrono-cross-radical-dreamers-edition",
+          "name_markdown": "[Chrono Cross: Radical Dreamers Edition](https://github.com/jdperos/chrono-cross-decomp)",
+          "images": [
+            {
+              "alt": "Chrono Cross: Radical Dreamers Edition artwork",
+              "url": "https://cdn11.bigcommerce.com/s-uak4l72xa0/images/stencil/1280x1280/products/884/1889/f58fb71fef47d7b8f3d709ed62a7fee0_KR_350__56122.1687800627.png?c=1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reconstruction of the PC remaster.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/jdperos/chrono-cross-decomp"
+            }
+          ]
+        },
+        {
+          "project": "cosmo-s-cosmic-adventure",
+          "name_markdown": "[Cosmo's Cosmic Adventure](https://github.com/smitelli/cosmore)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/smitelli/cosmore"
+            }
+          ]
+        },
+        {
+          "project": "cut-the-rope-dx",
+          "name_markdown": "[Cut the Rope DX](https://github.com/yell0wsuit/cuttherope-dx)",
+          "images": [
+            {
+              "alt": "Cut the Rope DX artwork",
+              "url": "https://raw.githubusercontent.com/yell0wsuit/cuttherope-dx/main/distribution/icons/CutTheRopeDXIcon_512.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Cut the Rope decompilation with enhancements.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Cut the Rope DX",
+              "url": "https://github.com/yell0wsuit/cuttherope-dx",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation port",
+              "url": "https://github.com/yell0wsuit/cuttherope-dx"
+            }
+          ]
+        },
+        {
+          "project": "deus-ex-human-revolution",
+          "name_markdown": "[Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rrika/cdcEngineDXHR"
+            }
+          ]
+        },
+        {
+          "project": "diablo",
+          "name_markdown": "[Diablo](https://github.com/diasurgical/devilution)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "DevilutionX",
+              "url": "https://github.com/diasurgical/DevilutionX",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Decompilation-based Diablo and Hellfire engine; original game data is required.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/diasurgical/devilution"
+            }
+          ]
+        },
+        {
+          "project": "diablo-ii",
+          "name_markdown": "[Diablo II](https://github.com/ThePhrozenKeep/D2MOO/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/fr/3/3c/Diablo_II_Logo.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 50,
+          "completion_qualifier": ">",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ThePhrozenKeep/D2MOO/"
+            }
+          ]
+        },
+        {
+          "project": "duck-game",
+          "name_markdown": "[Duck Game](https://github.com/TheFlyingFoool/DuckGameRebuilt)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TheFlyingFoool/DuckGameRebuilt"
+            }
+          ]
+        },
+        {
+          "project": "duke-nukem-ii-dos",
+          "name_markdown": "[Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "RigelEngine",
+              "url": "https://github.com/lethal-guitar/RigelEngine",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Reimplementation of Duke Nukem II for modern computers.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/lethal-guitar/Duke2Reconstructed"
+            }
+          ]
+        },
+        {
+          "project": "lego-island",
+          "name_markdown": "[Lego Island](https://github.com/isledecomp/isle)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 98,
+          "completion_qualifier": "",
+          "completion_metric": "accuracy",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/isledecomp/isle"
+            }
+          ]
+        },
+        {
+          "project": "oddworld-1-2",
+          "name_markdown": "[Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Playable",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Game Engine Reimplementation",
+              "url": "https://github.com/AliveTeam/alive_reversing"
+            }
+          ]
+        },
+        {
+          "project": "oregon-trail-ii",
+          "name_markdown": "[Oregon Trail II](https://github.com/katstasaph/otii)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/katstasaph/otii"
+            }
+          ]
+        },
+        {
+          "project": "plants-vs-zombies-goty-edition",
+          "name_markdown": "[Plants vs. Zombies GOTY Edition](https://github.com/Patoke/re-plants-vs-zombies)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Patoke/re-plants-vs-zombies"
+            }
+          ]
+        },
+        {
+          "project": "retro-sonic-3d",
+          "name_markdown": "[Retro Sonic 3D](https://github.com/RSDKModding/RSonic3D-Decompilation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://opengraph.githubassets.com/1/RSDKModding/RSonic3D-Decompilation",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Retro-Sonic 3D: Sky Worlds (2005).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RSDKModding/RSonic3D-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "skifree",
+          "name_markdown": "[SkiFree](https://github.com/yuv422/skifree_decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/yuv422/skifree_decomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-cd-2011",
+          "name_markdown": "[Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "[Retro Engine v3](https://github.com/RSDKModding/RSDKv3-Decompilation) - Engine used by Sonic CD (2011); [Sonic CD scripts (RSDKv3)](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) - Game scripts for Sonic CD (2011) and Sonic Origins.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "sonic-mania",
+          "name_markdown": "[Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "[Retro Engine v5 and v5 Ultimate](https://github.com/RSDKModding/RSDKv5-Decompilation) - Engine versions used by Sonic Mania and Sonic Origins; [Sonic Mania (RSDKModding)](https://github.com/RSDKModding/Sonic-Mania-Decompilation) - Game-code reconstruction used with the Retro Engine v5 decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "shortline-railroad-dos",
+          "name_markdown": "[ShortLine railroad (DOS)](https://github.com/konovalov-aleks/reSL)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://github.com/user-attachments/assets/3619edef-95e1-466a-9596-bc74c7252e18",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/konovalov-aleks/reSL"
+            }
+          ]
+        },
+        {
+          "project": "sonic-nexus-retro-engine-v2",
+          "name_markdown": "[Sonic Nexus (Retro Engine v2)](https://github.com/RSDKModding/RSDKv2-Decompilation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://opengraph.githubassets.com/1/RSDKModding/RSDKv2-Decompilation",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reconstruction of the 2008 game's engine.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Engine decompilation",
+              "url": "https://github.com/RSDKModding/RSDKv2-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "timesplitters-rewind",
+          "name_markdown": "[TimeSplitters Rewind](https://www.timesplittersrewind.com)",
+          "images": [
+            {
+              "alt": "TimeSplitters Rewind artwork",
+              "url": "https://media.moddb.com/images/downloads/1/301/300077/TSRSplashTest2.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Recreation combining material from the three TimeSplitters games.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Fan remake",
+              "url": "https://www.timesplittersrewind.com"
+            }
+          ]
+        },
+        {
+          "project": "touhou-koumakyou-the-embodiment-of-scarlet-devil",
+          "name_markdown": "[Touhou Koumakyou: The Embodiment of Scarlet Devil](https://github.com/happyhavoc/th06)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "[Touhou 6 (GensokyoClub)](https://github.com/GensokyoClub/th06) - Alternative decompilation project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/happyhavoc/th06"
+            }
+          ]
+        },
+        {
+          "project": "twisted-metal-2",
+          "name_markdown": "Twisted Metal 2",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Original reverse-engineering repository unavailable; no verified replacement found.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/abelbriggs1/tm2pc-reveng"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-san-andreas",
+          "name_markdown": "[Grand Theft Auto: San Andreas](https://github.com/gta-reversed/gta-reversed)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c4/GTASABOX.jpg/250px-GTASABOX.jpg",
+              "alt": "Grand Theft Auto: San Andreas cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse-engineered GTA: San Andreas 1.0 US code injected into the original PC game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/gta-reversed/gta-reversed"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/gta-reversed/gta-reversed"
+            }
+          ]
+        },
+        {
+          "project": "plants-vs-zombies-goty",
+          "name_markdown": "[Plants vs Zombies GOTY](https://github.com/Bamcane/re-plants-vs-zombies)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9c/PlantsvsZombiesCoverArt.jpg/250px-PlantsvsZombiesCoverArt.jpg",
+              "alt": "Plants vs Zombies GOTY cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Original-game cover art shown; the repository targets the GOTY edition.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Bamcane/re-plants-vs-zombies"
+            }
+          ]
+        },
+        {
+          "project": "sonic-generations",
+          "name_markdown": "[Sonic Generations](https://github.com/Luigi587/GenerationsDecomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7d/SonicGenerations.jpg/250px-SonicGenerations.jpg",
+              "alt": "Sonic Generations cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Luigi587/GenerationsDecomp"
+            }
+          ]
+        },
+        {
+          "project": "space-cadet-pinball",
+          "name_markdown": "[Space Cadet Pinball](https://github.com/k4zmu2a/SpaceCadetPinball)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e0/Full_Tilt%21_Pinball_coverart.png/250px-Full_Tilt%21_Pinball_coverart.png",
+              "alt": "Space Cadet Pinball cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Full Tilt! Pinball package cover shown; Space Cadet was included in that release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Space Cadet Pinball Android",
+              "url": "https://github.com/iscle/SpaceCadetPinball",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Port of the reverse-engineered PC game.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball DS",
+              "url": "https://github.com/headshot2017/3dpinball-nds",
+              "platforms": [
+                "Nintendo DS"
+              ],
+              "description_markdown": "Experimental Nintendo DS port with known bugs.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball Dreamcast",
+              "url": "https://github.com/headshot2017/3dpinball-dc",
+              "platforms": [
+                "Dreamcast"
+              ],
+              "description_markdown": "Some text is cut off in the Dreamcast port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Space Cadet Pinball PS2",
+              "url": "https://github.com/headshot2017/3dpinball-ps2",
+              "platforms": [
+                "PlayStation 2"
+              ],
+              "description_markdown": "Also supports Full Tilt data; physical PS2 hardware testing is not confirmed.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/k4zmu2a/SpaceCadetPinball"
+            }
+          ]
+        },
+        {
+          "project": "zuma-deluxe",
+          "name_markdown": "[Zuma Deluxe](https://github.com/alula/CircleShootApp)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/ab/Zumacover.jpg",
+              "alt": "Zuma Deluxe cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/alula/CircleShootApp"
+            }
+          ]
+        },
+        {
+          "project": "barnyard",
+          "name_markdown": "[Barnyard](https://github.com/InfiniteC0re/OpenBarnyard)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/39/Barnyard-PC.jpg",
+              "alt": "Barnyard cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/InfiniteC0re/OpenBarnyard"
+            }
+          ]
+        },
+        {
+          "project": "battlefield-2",
+          "name_markdown": "[Battlefield 2](https://github.com/kiwidoggie/breadflowerdos)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/62/Battlefield2Cover.jpg/250px-Battlefield2Cover.jpg",
+              "alt": "Battlefield 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/kiwidoggie/breadflowerdos"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/kiwidoggie/breadflowerdos"
+            }
+          ]
+        },
+        {
+          "project": "bio-menace",
+          "name_markdown": "[Bio Menace](https://github.com/lethal-guitar/BioMenaceDecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Bio%20Menace.png",
+              "alt": "Bio Menace box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lethal-guitar/BioMenaceDecomp"
+            }
+          ]
+        },
+        {
+          "project": "black-and-white",
+          "name_markdown": "[Black and White](https://github.com/openblack/bw1-decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7b/Black_%26_White_Coverart.png/250px-Black_%26_White_Coverart.png",
+              "alt": "Black and White cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/openblack/bw1-decomp"
+            }
+          ]
+        },
+        {
+          "project": "carmageddon",
+          "name_markdown": "[Carmageddon](https://github.com/dethrace-labs/dethrace)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/16/Carmageddon_box.jpg/250px-Carmageddon_box.jpg",
+              "alt": "Carmageddon cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dethrace-labs/dethrace"
+            }
+          ]
+        },
+        {
+          "project": "costume-quest",
+          "name_markdown": "[Costume Quest](https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/de/Costume-quest-cover.jpg/250px-Costume-quest-cover.jpg",
+              "alt": "Costume Quest cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "fallout-2",
+          "name_markdown": "[Fallout 2](https://github.com/alexbatalov/fallout2-re)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/PC_Game_Fallout_2.jpg/250px-PC_Game_Fallout_2.jpg",
+              "alt": "Fallout 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Fallout 2 Community Edition",
+              "url": "https://github.com/alexbatalov/fallout2-ce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android",
+                "iOS"
+              ],
+              "description_markdown": "Requires original Fallout 2 game data.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/alexbatalov/fallout2-re"
+            }
+          ]
+        },
+        {
+          "project": "flatout-2",
+          "name_markdown": "[FlatOut 2](https://github.com/ZackWilde27/FlatOut-2-decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/40/Flatout2pc.jpg/250px-Flatout2pc.jpg",
+              "alt": "FlatOut 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ZackWilde27/FlatOut-2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "fuel",
+          "name_markdown": "[FUEL](https://github.com/widberg/FUELDecompilation)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9a/Fuel_%282009_video_game_-_box_art%29.jpg/250px-Fuel_%282009_video_game_-_box_art%29.jpg",
+              "alt": "FUEL cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/widberg/FUELDecompilation"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-2",
+          "name_markdown": "[Grand Theft Auto 2](https://github.com/CriminalRETeam/gta2_re)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/GTA2_Box_art.jpg/250px-GTA2_Box_art.jpg",
+              "alt": "Grand Theft Auto 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/CriminalRETeam/gta2_re"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/CriminalRETeam/gta2_re"
+            }
+          ]
+        },
+        {
+          "project": "hitman-codename-47",
+          "name_markdown": "[Hitman: Codename 47](https://github.com/0danny/re47)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7a/Hitman_artwork.jpg/250px-Hitman_artwork.jpg",
+              "alt": "Hitman: Codename 47 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/0danny/re47"
+            }
+          ]
+        },
+        {
+          "project": "jazz-jackrabbit-2",
+          "name_markdown": "[Jazz Jackrabbit 2](https://github.com/Mustafa1177/jazzjackrabbit2-decompiled)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/Jazz_Jackrabbit_2.PNG/250px-Jazz_Jackrabbit_2.PNG",
+              "alt": "Jazz Jackrabbit 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Ghidra decompilation research for the TSF edition.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Mustafa1177/jazzjackrabbit2-decompiled"
+            }
+          ]
+        },
+        {
+          "project": "jurassic-park-operation-genesis",
+          "name_markdown": "[Jurassic Park: Operation Genesis](https://github.com/AdventureT/OpenJPOG)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0b/Jurassic_Park_Operation_Genesis_Cover.jpg/250px-Jurassic_Park_Operation_Genesis_Cover.jpg",
+              "alt": "Jurassic Park: Operation Genesis cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/AdventureT/OpenJPOG"
+            }
+          ]
+        },
+        {
+          "project": "lego-batman-the-videogame",
+          "name_markdown": "[LEGO Batman: The Videogame](https://github.com/wasdhjklxyz/lbtvg)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e3/Lego_batman_cover.jpg/250px-Lego_batman_cover.jpg",
+              "alt": "LEGO Batman: The Videogame cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/wasdhjklxyz/lbtvg"
+            }
+          ]
+        },
+        {
+          "project": "lego-creator-knights-kingdom",
+          "name_markdown": "[Lego Creator Knights Kingdom](https://github.com/DavidGrice/knightskingdom)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/ef/Lego_Creator_Knights_Kingdom_Cover.jpg/250px-Lego_Creator_Knights_Kingdom_Cover.jpg",
+              "alt": "Lego Creator Knights Kingdom cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/DavidGrice/knightskingdom"
+            }
+          ]
+        },
+        {
+          "project": "lemmings-paintball",
+          "name_markdown": "[Lemmings Paintball](https://github.com/vonhoff/lemball-decomp)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/24/Lemmings_Paintball_Coverart.png",
+              "alt": "Lemmings Paintball cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/vonhoff/lemball-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mafia-the-city-of-lost-heaven",
+          "name_markdown": "[Mafia: The City of Lost Heaven](https://github.com/Marvisak/mafia-re)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/MafiaUSCov.jpg/250px-MafiaUSCov.jpg",
+              "alt": "Mafia: The City of Lost Heaven cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Marvisak/mafia-re"
+            }
+          ]
+        },
+        {
+          "project": "nocturne",
+          "name_markdown": "[Nocturne](https://github.com/NearlyTRex/NocturneDecomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/78/Nocturnegamecover.jpg/250px-Nocturnegamecover.jpg",
+              "alt": "Nocturne cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/NearlyTRex/NocturneDecomp"
+            }
+          ]
+        },
+        {
+          "project": "real-war",
+          "name_markdown": "[Real War](https://github.com/Francessco121/real-war-decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c0/Real_War_video_game_cover.jpg/250px-Real_War_video_game_cover.jpg",
+              "alt": "Real War cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Francessco121/real-war-decomp"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-episode-1-racer",
+          "name_markdown": "[Star Wars Episode 1: Racer](https://github.com/tim-tim707/SW_RACER_RE)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/ae/SWracer.jpg/250px-SWracer.jpg",
+              "alt": "Star Wars Episode 1: Racer cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Partial PC reverse-engineering and mod project; does not aim to decompile the entire game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/tim-tim707/SW_RACER_RE"
+            }
+          ]
+        },
+        {
+          "project": "test-drive-unlimited",
+          "name_markdown": "[Test Drive Unlimited](https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/63/Test_Drive_Unlimited_boxart.jpg/250px-Test_Drive_Unlimited_boxart.jpg",
+              "alt": "Test Drive Unlimited cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited"
+            }
+          ]
+        },
+        {
+          "project": "the-italian-job",
+          "name_markdown": "[The Italian Job](https://github.com/dashr9230/Caper)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7c/The_Italian_Job_%282001%29_coverart.jpg/250px-The_Italian_Job_%282001%29_coverart.jpg",
+              "alt": "The Italian Job cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dashr9230/Caper"
+            }
+          ]
+        },
+        {
+          "project": "tomb-raider-legend",
+          "name_markdown": "[Tomb Raider: Legend](https://github.com/TheIndra55/cdcEngine)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7b/Tomb_Raider_-_Legend.png/250px-Tomb_Raider_-_Legend.png",
+              "alt": "Tomb Raider: Legend cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TheIndra55/cdcEngine"
+            }
+          ]
+        },
+        {
+          "project": "touhou-08-imperishable-night",
+          "name_markdown": "[Touhou 08: Imperishable Night](https://github.com/GensokyoClub/th08)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/59/Th08cover.jpg",
+              "alt": "Touhou 08: Imperishable Night cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Development status should be checked against the repository notice; no completion percentage inferred.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GensokyoClub/th08"
+            }
+          ]
+        },
+        {
+          "project": "bumpy-s-arcade-fantasy",
+          "name_markdown": "[Bumpy's Arcade Fantasy](https://github.com/GeReV/bumpy-reverse)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Bumpy%27s%20Arcade%20Fantasy%20%281992%29.png",
+              "alt": "Bumpy's Arcade Fantasy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GeReV/bumpy-reverse"
+            }
+          ]
+        },
+        {
+          "project": "kknd-krush-kill-n-destroy",
+          "name_markdown": "[KKND: Krush Kill 'n Destroy](https://github.com/Wyrelade/KKND-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/KKND%20-%20Krush%2C%20Kill%20%27N%27%20Destroy%20%281997%29.png",
+              "alt": "KKND: Krush Kill 'n Destroy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Wyrelade/KKND-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "plants-vs-zombies-0-9-9",
+          "name_markdown": "[Plants vs. Zombies (0.9.9)](https://github.com/bluisblu/pvz)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/9c/PlantsvsZombiesCoverArt.jpg/250px-PlantsvsZombiesCoverArt.jpg",
+              "alt": "Plants vs. Zombies (0.9.9) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets beta version 0.9.9; retail cover shown for identification.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bluisblu/pvz"
+            }
+          ]
+        },
+        {
+          "project": "snail-mail",
+          "name_markdown": "[Snail Mail](https://github.com/banteg/snail)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/5a/Snail_Mail_Cover_Art.jpg",
+              "alt": "Snail Mail cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/banteg/snail"
+            }
+          ]
+        },
+        {
+          "project": "starflight",
+          "name_markdown": "[Starflight](https://github.com/s-macke/starflight-reverse)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Starflight.png",
+              "alt": "Starflight box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/s-macke/starflight-reverse"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/s-macke/starflight-reverse"
+            }
+          ]
+        },
+        {
+          "project": "stronghold-1993",
+          "name_markdown": "[Stronghold (1993)](https://github.com/NancySadkov/dest)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Stronghold%20%281993%29.png",
+              "alt": "Stronghold (1993) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/NancySadkov/dest"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
