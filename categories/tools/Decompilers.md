@@ -433,6 +433,47 @@ Treat generated C as a hypothesis and resolve the evidence behind each placehold
 After changing shared types or prototypes, rebuild affected code and verify previously matched functions too [^10].
 
 ---
+## Test the Matching Checker with Deliberately Wrong Candidates
+A useful checker must reject incorrect reconstructions as well as recognise correct ones.
+The [decomp.wtf data tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_rom_data.py) vary strings, floating-point constants and pointer-table entries to check that referenced data is included in the judgement [^16].
+
+Start with a known matching candidate and make one temporary change at a time:
+
+Experiment | Expected result
+---|---
+Change one character in a referenced string | Rejected because the data differs
+Change a referenced floating-point constant | Rejected even if the instruction sequence still looks the same
+Swap two different pointer-table entries | Rejected because the indexed results differ
+Restore the original candidate | Accepted again, confirming the test did not leave a stale result
+
+For example, change a used string from `"ready"` to `"reedy"` while keeping its length unchanged.
+Rebuild and run the same checker used to report progress.
+If it still reports a complete match, inspect whether the check covers only instructions, masks relocations, omits referenced data or used an old build.
+
+The [project-level judge tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py) separately exercise wrong constants, generated literal names and stale match records [^17].
+Different symbol names are not themselves evidence of different bytes, while an identical-looking load can refer to different data.
+State whether a result verifies an isolated function, its referenced data, a linked object or the complete image.
+After restoring the candidate, run the full rebuild comparison; a function-level data check does not establish final file layout.
+
+---
+## Use Permutation Searches as Candidate Generators
+A permutation search compiles source variations and ranks their similarity to a target.
+[decomp-permuter](https://github.com/simonlindholm/decomp-permuter) supports random changes and explicit alternatives, using a function source, target object and compiler command [^18].
+Use it after checking the toolchain, signature and main control flow.
+
+Keep a known baseline, limit the search to the unresolved region, and retain the exact compiler settings with each candidate.
+Review improvements in the disassembly before integrating them into the real source file.
+
+The [decomp.wtf permuter](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/permuter.py) includes statement swapping, type changes and casts [^19].
+Those operations are not automatically semantics-preserving.
+For example, swapping `x = 1;` and `y = x;` changes the value assigned to `y` when the previous value of `x` differs from one.
+Signedness and narrowing casts can likewise change comparisons or arithmetic.
+
+Treat a lower diff score as a search hint.
+A final candidate still needs source review, the project's complete matching checks and relevant behavioural checks.
+The [AI-assisted workflow](/ai-assisted-decompilation#validate-search-results-before-counting-progress) applies the same distinction to automated submissions.
+
+---
 # AI-Assisted Matching Decompilation
 Recent AI agents can use a decompiler's output as the beginning of a compiler-backed matching workflow. The agent writes candidate C, runs the game's original toolchain, examines assembly differences and repeats until the bytes match. This approach is relevant to Nintendo 64 and PlayStation preservation projects, but it does not make the original programmer's source or intent recoverable.
 
@@ -474,3 +515,7 @@ The first output is a sketch; the useful map is the one you refine.
 [^13]: [decomp.wtf - Working in a fork of a public decomp](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/fork.md).
 [^14]: [decomp.wtf - Look-alike functions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/similarity.md).
 [^15]: [decomp.wtf - Reading the m2c draft](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/m2c.md).
+[^16]: [decomp.wtf - Referenced-data matching tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_rom_data.py).
+[^17]: [decomp.wtf - Project-level matching judge tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py).
+[^18]: [decomp-permuter - Search modes and required inputs](https://github.com/simonlindholm/decomp-permuter).
+[^19]: [decomp.wtf - Source mutation and permutation search](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/permuter.py).
