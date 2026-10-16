@@ -18,7 +18,7 @@ recommend:
 - tools
 - sdk
 editlink: /tools/Compiler Toolchains.md
-updatedAt: '2026-10-08'
+updatedAt: '2026-10-16'
 ---
 
 When reverse engineering commercial console binaries built from **C/C++**, the first question is often *which* toolchain produced the code as it can make your job reverse engineering a game so much easier.
@@ -139,6 +139,59 @@ We don't know the precise date since the page was first archived on 23rd May 199
 {% include_cached link-to-other-post.html post="/sega-saturn-sdk" description="The official Sega Saturn SDK, including the GNU SH toolchain, is documented here." %}
 
 ---
+# Recognising Toolchain-Generated Code
+The archived [decomp.wtf guides](https://github.com/i12bp8/decomp.wtf/tree/main/src/decompnet/app/guide) suggest useful patterns to investigate when reconstructing game code.
+Check each pattern against the target toolchain: an instruction sequence may come from an assembler expansion or runtime library rather than a function the game's programmer wrote explicitly.
+
+## PS1 Assembler Expansions
+On [PlayStation](/ps1), identifying the GCC version is only part of reproducing a PSY-Q build.
+[maspsx](https://github.com/mkst/maspsx) adapts compiler-generated assembly for GNU `as` to reproduce ASPSX behaviour, including version-dependent pseudo-instruction expansion [^3].
+
+A source-level division can produce checks as well as the divide itself.
+Do not immediately reconstruct those checks as explicit game error handling.
+Compare ASPSX versions and division-expansion settings first: maspsx documents differences involving `break` versus `tge`, instruction gaps, immediate loads and global-pointer addressing [^3].
+
+For a controlled comparison, compile a small function containing `/` with the project's compiler and inspect both its assembly output and the assembled instructions.
+Keep the source fixed while testing the assembler configuration.
+The [PSY-Q setup guide](/psyq-sdk-setup#matching-an-existing-games-toolchain) explains what to record alongside the build.
+
+---
+## Runtime Helpers Reveal Source Operations
+A compiler can implement an operation by calling a support routine.
+Recognising that routine helps recover the caller's expression before spending time decompiling the library implementation.
+
+GCC documents these default runtime names and operations [^4][^5]:
+
+Helper | Operation to investigate in the caller
+---|---
+`__divsi3`, `__udivsi3` | Signed or unsigned word-sized integer division
+`__modsi3`, `__umodsi3` | Signed or unsigned integer remainder
+`__addsf3`, `__adddf3` | Single- or double-precision addition
+`__mulsf3`, `__muldf3` | Single- or double-precision multiplication
+`__extendsfdf2` | Conversion from float to double
+`__fixsfsi`, `__fixdfsi` | Floating-point to signed integer conversion, rounding toward zero
+
+The [GCC integer-runtime documentation](https://gcc.gnu.org/onlinedocs/gccint/Integer-library-routines.html) and [floating-point-runtime documentation](https://gcc.gnu.org/onlinedocs/gccint/Soft-float-library-routines.html) define the operations; targets can override helper names.
+Confirm the target ABI (application binary interface), arguments and return value before applying a signature [^4][^5].
+
+For example, a call to `__adddf3` suggests double-precision addition, but does not prove the original variable was declared `double`.
+Inspect conversions feeding the call and the surrounding expression.
+An unexpected helper is a reason to check operand types and floating-point build settings.
+
+Older MSVC code can use `__ftol` for floating-point conversion; the [decomp.wtf x86 guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/x86.md) highlights it as a recognition clue [^6].
+Do not assign it GCC's helper signature: inspect the x87 stack and the return registers for the compiler version in use.
+
+---
+## C++ Symbols and Calling Conventions
+Compiler families also differ in symbol encoding, hidden arguments and object layout.
+The [Ghidra C++ guide](/intro-decompiling-with-ghidra#recognising-the-c-abi) compares these clues before reconstructing a class.
+For 32-bit Microsoft code, the [Windows guide](/pc#recovering-32-bit-x86-calling-conventions) explains how call sites help distinguish argument passing and stack cleanup.
+
+---
 # References
 [^1]: [SN Systems site from 23rd May 1998](https://web.archive.org/web/19980523231120/http://www.snsys.com/snsys/default.asp)
 [^2]: [GCC Releases - GNU Project - Free Software Foundation (FSF)](https://gcc.gnu.org/releases.html)
+[^3]: [maspsx - Modern ASPSX, options and known version differences](https://github.com/mkst/maspsx).
+[^4]: [GCC Internals - Integer library routines](https://gcc.gnu.org/onlinedocs/gccint/Integer-library-routines.html).
+[^5]: [GCC Internals - Soft float library routines](https://gcc.gnu.org/onlinedocs/gccint/Soft-float-library-routines.html).
+[^6]: [decomp.wtf - x86 and MSVC](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/x86.md).

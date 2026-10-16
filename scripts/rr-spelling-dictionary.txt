@@ -89,3 +89,11 @@ YouTuber
 Yuji
 ZRAM
 ZROM
+ASPSX
+clrlwi
+cntlzw
+Demangle
+demangling
+fctiwz
+frsp
+subobject

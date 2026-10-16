@@ -19,7 +19,7 @@ recommend:
 - ghidra
 editlink: /tools/Ghidra/GhidraDecompilingIntroduction.md
 youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
-updatedAt: '2019-09-01'
+updatedAt: '2026-10-16'
 ---
 
 # Introduction
@@ -189,6 +189,41 @@ To create an array in Ghidra, we can follow these steps:
 ![GhidraCreateArray](https://user-images.githubusercontent.com/40120498/234082791-55044731-0dc2-4dd6-a403-9d20fa23035a.jpeg)
 * Choose the number of elements and the data type.
 * Click "OK" to create the array.
+
+---
+# Recognising the C++ ABI
+An application binary interface (ABI) defines how compiled code passes values and represents objects.
+Before applying the class-recovery steps below to a different game, identify its compiler family and ABI.
+Do not transfer x86 `__thiscall` assumptions to a console simply because both programs use C++.
+
+## Demangle Symbols Before Guessing Signatures
+Surviving symbols can expose class names and parameter types.
+These are useful clues from the [decomp.wtf C++ guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/cpp.md), the [Itanium C++ ABI](https://itanium-cxx-abi.github.io/cxx-abi/abi.html#mangling) and [Microsoft's decorated-name documentation](https://learn.microsoft.com/en-us/cpp/build/reference/decorated-names?view=msvc-170) [^5][^6][^7]:
+
+Family | Recognition clue | Next check
+---|---|---
+CodeWarrior | `update__7CPlayerFf`, `__ct__`, `__dt__`, `__vt__` | Decode the class and parameters with a compatible demangler
+Itanium-style | `_ZN7CPlayer6updateEf`; constructor/destructor variants such as `C1`, `C2`, `D0`, `D1`, `D2` | Distinguish base-object, complete-object and deleting variants
+MSVC | Names beginning with `?`, with encoded class, type and calling-convention information | Use the appropriate demangler or Microsoft's `undname` utility
+
+The two complete example names above describe `CPlayer::update(float)` under their respective encodings.
+They do not establish one common return type across both ABIs.
+[m2c](https://github.com/matt-kempster/m2c) supports CodeWarrior C++ name demangling as part of its C++ workflow [^8].
+
+---
+## Hidden Arguments and Object Layout
+For 32-bit MSVC non-variadic member calls, `__thiscall` normally passes `this` in `ECX`; variadic member calls use different rules [^9].
+For other targets, confirm the argument register and any hidden parameters against the compiler's convention and actual call sites.
+An apparent extra destructor argument may be compiler-generated control information rather than a field in the class [^5].
+
+Reconstruct fields from repeated accesses across several methods.
+A virtual-table pointer is not guaranteed to occupy offset zero in every complete object or subobject.
+Multiple inheritance can introduce secondary virtual tables and adjustment thunks, small wrappers that adjust a pointer before transferring control [^6].
+
+If constructor-like code stores more than one virtual-table address, inspect the order and offsets before deciding there are multiple objects.
+The stores may belong to base and derived construction [^5].
+Keep the recovered layout provisional until constructors, callers and virtual calls agree.
+The [compiler-toolchain guide](/compilers#c-symbols-and-calling-conventions) provides related matching context.
 
 ---
 # Analyzing and Identifying C++ Classes in Ghidra
@@ -397,4 +432,8 @@ We also use this script with the `analyzeHeadless` tool to automate our analysis
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
 [^3]: [Software Reverse Engineering with Ghidra -- Creating Structures - YouTube](https://www.youtube.com/watch?v=Y-BhEfbg7C4)
 [^4]: [Software Reverse Engineering with Ghidra -- Creating Arrays and Changing Function Signatures - YouTube](https://www.youtube.com/watch?v=xP6ddyVeUWg&list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te&index=5)
-
+[^5]: [decomp.wtf - Decompiling C++](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/cpp.md).
+[^6]: [Itanium C++ ABI - Data layout, virtual tables and name mangling](https://itanium-cxx-abi.github.io/cxx-abi/abi.html).
+[^7]: [Microsoft - Decorated names](https://learn.microsoft.com/en-us/cpp/build/reference/decorated-names?view=msvc-170).
+[^8]: [m2c - C++ support and CodeWarrior demangling](https://github.com/matt-kempster/m2c).
+[^9]: [Microsoft - __thiscall](https://learn.microsoft.com/en-us/cpp/cpp/thiscall?view=msvc-170).

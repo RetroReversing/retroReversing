@@ -21,6 +21,7 @@ recommend:
   - pc
   - dos
   - msx
+updatedAt: '2026-10-16'
 ---
 
 # Introduction
@@ -1691,7 +1692,42 @@ The project focuses on modifying the original screensaver binary by patching out
 
 ---
 # Reverse Engineering
+The following techniques help reconstruct function interfaces and inspect running Windows games.
 
+## Recovering 32-bit x86 Calling Conventions
+A wrong calling convention can make decompiled parameters and stack variables misleading.
+For 32-bit Microsoft code, examine several call sites together with the callee's return sequence [^6].
+
+These are common conventions, not rules for all x86 compilers or 64-bit Windows:
+
+Convention | Argument clues | Stack cleanup
+---|---|---
+`__cdecl` | Stack arguments, conventionally right to left | Caller
+`__stdcall` | Stack arguments, conventionally right to left | Callee
+`__thiscall` | `this` in `ECX`, other arguments on the stack for ordinary non-variadic member calls | Callee
+`__fastcall` | First two eligible DWORD-sized or smaller arguments in `ECX` and `EDX`; remaining arguments on the stack | Callee
+
+This illustrative call site passes two stack arguments and then removes eight bytes:
+
+```nasm
+push 20
+push 10
+call candidate
+add  esp,8
+```
+
+That is consistent with a caller-cleanup convention such as `__cdecl`.
+A callee ending in `ret 8` instead removes eight argument bytes itself.
+Neither observation alone proves a function's signature: check all paths and distinguish arguments from alignment or other stack storage.
+
+Microsoft documents exceptions such as variadic member functions, which use `__cdecl` and pass `this` on the stack [^7].
+Optimised code may also prepare arguments without a simple run of `push` instructions.
+Correct the signature in the analysis tool, then check whether the caller's stack accounting and parameter uses become consistent.
+
+The [C++ reconstruction guide](/intro-decompiling-with-ghidra#recognising-the-c-abi) explains hidden arguments and object-layout clues.
+For arithmetic calls such as those highlighted in [decomp.wtf's x86 guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/x86.md), consult the [runtime-helper reference](/compilers#runtime-helpers-reveal-source-operations) before treating them as game functions.
+
+---
 ## DLL Injection and Hijacking
 To execute custom code in a Windows game there are two primary methods for achieving this: DLL injection and DLL hijacking.
 
@@ -1724,3 +1760,5 @@ This allows your code to initialize silently alongside the game, providing a sta
 [^3]: [Download NVIDIA Tech Demos - NVIDIA Cool Stuff](https://www.nvidia.com/en-gb/geforce/community/demos/)
 [^4]: GameMaker UK Magazine Issue 1 October 2003 by Future Publishing
 [^5]: [Juan Linietsky](https://x.com/reduzio/status/1832339488611107221)
+[^6]: [Microsoft - Argument passing and naming conventions](https://learn.microsoft.com/en-us/cpp/cpp/argument-passing-and-naming-conventions?view=msvc-170).
+[^7]: [Microsoft - __thiscall and variadic member functions](https://learn.microsoft.com/en-us/cpp/cpp/thiscall?view=msvc-170).

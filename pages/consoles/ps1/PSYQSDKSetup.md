@@ -21,8 +21,19 @@ breadcrumbs:
     url: #
 recommend: ps1
 editlink: /consoles/ps1/PSYQSDKSetup.md
+updatedAt: '2026-10-16'
 ---
 
+# Matching an Existing Game's Toolchain
+A working PSY-Q installation does not establish that it reproduces a retail game's machine code.
+Record the compiler and ASPSX versions, flags and library versions separately.
+The [compiler guide](/compilers#ps1-assembler-expansions) explains why assembler-generated instructions can affect a match.
+
+[maspsx](https://github.com/mkst/maspsx) provides an alternative assembly path through GNU `as`, with options for selecting ASPSX behaviour and expanding division operations [^1].
+Use the target project's established settings rather than assuming one configuration fits every PSY-Q release.
+Compare a small function before changing a whole project's build.
+
+---
 # Hello World example
 We are going to use the PSX Hello world example from PSXDEV (<a href="http://www.psxdev.net/help/psyq_hello_world.html">http://www.psxdev.net/help/psyq_hello_world.html</a>)
 Create a new file called Hello.C
@@ -263,3 +274,7 @@ with:
 ```
 CC         = wineconsole ./bin/cc1psx.bat
 ```
+
+---
+# References
+[^1]: [maspsx - Modern ASPSX](https://github.com/mkst/maspsx).

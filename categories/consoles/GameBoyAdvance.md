@@ -18,6 +18,7 @@ breadcrumbs:
     url: /gba
 tags:
  - gba
+updatedAt: '2026-10-16'
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering
@@ -83,6 +84,35 @@ Matt Greer's Blog has an excellent write up about reverse engineering the Ninten
 
 
 ---
+## Distinguishing ARM, Thumb and Literal Pools
+The GBA's ARM7TDMI executes ARM and Thumb code.
+Selecting the wrong instruction state can turn valid code into a misleading listing.
+At a `bx` instruction, inspect the destination register: bit zero selects Thumb when set and ARM when clear [^3].
+Arm's [branch and call guide](https://developer.arm.com/community/arm-community-blogs/b/architectures-and-processors-blog/posts/branch-and-call-sequences-explained) distinguishes these ARMv4T transitions from mechanisms introduced in later architectures [^4].
+Do not apply an ARMv5 `blx` recipe to the GBA.
+
+A literal pool is data embedded near code for PC-relative loads.
+For example, a Thumb instruction `ldr r0, [pc, #16]` at `0x08000102` loads the word at `0x08000114`: add four to the instruction address, align that PC value down to four bytes, then add the displayed byte offset [^3].
+Mark the target as data and inspect its users before extending a function through it.
+The word may be an address or constant, not another instruction.
+
+---
+### Narrowing and Sign-Extension Clues
+The [decomp.wtf ARM guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/arm.md) highlights shifts and extending loads as useful type evidence [^5].
+In this illustrative Thumb sequence, the low byte is retained and sign-extended:
+
+```nasm
+lsl r0,r0,#24
+asr r0,r0,#24
+```
+
+Replacing the arithmetic right shift with a logical right shift would zero-extend the byte instead.
+A signed-byte cast is one candidate explanation, but masks, packed values and intermediate conversions can produce similar effects.
+Check the value's producers and consumers before changing every related field to a byte type.
+
+Calls to arithmetic support routines are another clue; see [runtime helpers](/compilers#runtime-helpers-reveal-source-operations) before assuming an unfamiliar call is game-specific logic.
+
+---
 # All Posts Tagged with GBA
 <div>
 
@@ -93,3 +123,6 @@ Matt Greer's Blog has an excellent write up about reverse engineering the Ninten
 # References
 [^1]: Retro Gamer Issue 01 page 62
 [^2]: [emulator](https://www.zophar.net/gba/gbaemu.html)
+[^3]: [Arm - ARM7TDMI Technical Reference Manual, DDI 0029G](https://documentation-service.arm.com/static/5e8e1323fd977155116a3129), programmer's model and instruction summaries.
+[^4]: [Arm - Branch and call sequences explained](https://developer.arm.com/community/arm-community-blogs/b/architectures-and-processors-blog/posts/branch-and-call-sequences-explained).
+[^5]: [decomp.wtf - ARM and Thumb guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/arm.md).

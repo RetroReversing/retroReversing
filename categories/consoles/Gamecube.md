@@ -20,6 +20,7 @@ redirect_from:
   - /gamecube/
 tags:
   - gamecube
+updatedAt: '2026-10-16'
 ---
 
 Welcome to our page dedicated to Gamecube reverse engineering! The Gamecube was a popular gaming console released by Nintendo in 2001, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
@@ -110,8 +111,52 @@ We have a specific post that covers all the file formats that can be found in ga
 
 
 ---
+## Recognising PowerPC Compiler Patterns
+Ordinary C arithmetic can look elaborate in a PowerPC disassembly.
+The [decomp.wtf PowerPC guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/ppc.md) provides recognition clues; use instruction semantics to test each interpretation rather than assigning an original C type from one opcode [^1].
+
+These patterns are useful starting points for the GameCube's integer and scalar floating-point code [^2]:
+
+Pattern | Interpretation to test
+---|---
+`clrlwi r3,r3,24` | Keep the low eight bits, as in a mask or an unsigned-byte conversion
+`cmpw` versus `cmplw` | Signed versus unsigned comparison at this operation
+`cntlzw` followed by a right shift of five | Produce one for a zero input and zero otherwise
+`fctiwz`, followed by a store and integer load | Convert floating point to a signed integer with truncation toward zero, then transfer the result
+`frsp` | Round a floating-point register value to single precision
+
+For example, this illustrative sequence computes a zero test into `r3`:
+
+```nasm
+cntlzw r3,r4
+srwi   r3,r3,5
+```
+
+A zero 32-bit input has 32 leading zero bits; any nonzero input has at most 31.
+Shifting that count right by five gives a value equivalent to `r4 == 0`.
+This identifies the operation, not whether the programmer wrote `!x`, a comparison or a conditional expression.
+
+---
+### Floating-Point Expressions Need Extra Care
+An integer-to-floating-point conversion may construct a double-precision bit pattern in memory and subtract a bias.
+The constants can look like unrelated game data until the surrounding stores and floating-point load are traced [^1].
+
+The `fmadds` instruction combines multiplication and addition with a single rounding to single precision.
+It can implement an expression shaped like `a * b + c`, but separate multiply and add instructions can round differently [^3].
+Preserve operand order and check the compiler's floating-point settings when matching.
+Likewise, `frsp` establishes a rounding operation; it does not alone prove there was a source-level `double` variable.
+
+Compare these candidates with the [matching-decompilation workflow](/decompilers#troubleshooting-matching-decompilation), keeping the project's compiler and flags fixed while testing expression changes.
+
+---
 # All Posts
 <div>
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [decomp.wtf - PowerPC guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/ppc.md).
+[^2]: [IBM AIX 7.1 Assembler Language Reference](https://www.ibm.com/docs/ssw_aix_71/assembler/assembler_pdf.pdf), instruction entries for clrlwi, cmp, cmpl, cntlzw, fctiwz and frsp.
+[^3]: [IBM - Floating Multiply-Add instruction](https://www.ibm.com/docs/en/aix/7.1.0?topic=set-fmadd-fma-floating-multiply-add-instruction).
