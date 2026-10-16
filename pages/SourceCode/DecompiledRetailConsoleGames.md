@@ -265,7 +265,7 @@ The table below lists original Xbox decompilation and recompilation projects.
 
 ---
 ## Xbox 360
-Xbox 360 decompilations and native ports are listed below. The [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk) provides a PowerPC-to-C++ recompilation runtime and toolkit used by projects such as LARecomp and EdgeOfTimeRecomp.
+Xbox 360 decompilations and native ports are listed below. The [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk) provides a PowerPC-to-C++ recompilation runtime and toolkit used by projects such as LARecomp and EdgeOfTimeRecomp. The [XEO3 Recomp Kit](https://github.com/fxceless/xeo3-recomp-kit) instead targets Microsoft's XEO3 back-compat emulator and builds the recompiled game code into the DLL that emulator loads.
 The [Xbox 360 guide](/xbox360) covers the console and its development kit.
 
 The table below lists Xbox 360 reverse-engineering projects and native ports.

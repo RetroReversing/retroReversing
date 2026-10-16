@@ -37,6 +37,14 @@ So grab your Xbox 360 controller, and get ready to dive into the exciting world 
 The Link to the Github for the Arc tool is here: [grimdoomer/DeadRisingArcTool: Modding tools for Dead Rising .arc files](https://github.com/grimdoomer/DeadRisingArcTool)
 
 ---
+# Static Recompilation
+Static recompilation translates the Xbox 360's PowerPC game code into native source code and builds it into a DLL that can be loaded by a compatible runtime. This differs from emulation because the game's code is translated ahead of time rather than interpreted at runtime.
+
+The [XEO3 Recomp Kit](https://github.com/fxceless/xeo3-recomp-kit) targets Microsoft's XEO3 back-compat emulator. It recompiles a game's `default.xex`, while the emulator continues to read the original game data from an unpacked disc folder. The repository includes scripts for setup, creating a game project, recompiling, building, installing and running it, and requires the user's own game and XEO3 back-compat files.
+
+{% include link-to-other-site.html url="https://github.com/fxceless/xeo3-recomp-kit" description="fxceless' XEO3 Recomp Kit recompiles Xbox 360 games into the DLL loaded by Microsoft's XEO3 back-compat emulator. Its README reports Crackdown as playable from a disc folder, Need for Speed: Most Wanted reaching menus and races, and Fable II booting and rendering before freezing." title="XEO3 Recomp Kit" %}
+
+---
 # Hardware
 If you're interested in reverse engineering software for the Xbox 360 gaming console, it's essential to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Xbox 360 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
 
