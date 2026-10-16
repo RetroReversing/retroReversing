@@ -19,7 +19,7 @@ breadcrumbs:
   - name: How Decompilers Work
     url: '#'
 editlink: /pages/tutorials/HowDecompilersWork.md
-updatedAt: '2026-08-07'
+updatedAt: '2026-10-11'
 ---
 
 A decompiler is not an assembly-to-C dictionary.
@@ -542,6 +542,31 @@ The evidence is:
 </details>
 
 ---
+# Checking a Reconstruction Against the Original
+Readable pseudocode is a hypothesis about the binary.
+Validation checks whether reconstructed code preserves the behaviour that matters, rather than merely compiling or displaying a working menu.
+
+## DX-Ball Sound Panning
+The [REA DX-Ball case study](https://rea.tools/showcase/dx-ball/) examines a sound-panning helper in the 1996 Windows game.
+Its initial pseudocode omits the input argument; inspecting the instructions and caller exposes the missing value.
+The reconstruction is tested against the original x86 function in 3,205 cases and recompiles to 63 matching bytes with the pinned Visual C++ 4.0 toolchain and reviewed relocations [^9].
+
+Behaviour comparisons exercise selected inputs; matching compiler output provides a different check on the recovered function.
+Neither result establishes that an entire game has been reconstructed or that every external dependency is correct.
+Use the linked investigation to follow the evidence from the caller through the constants and into the validation results.
+
+---
+## Protecting Independent Validation
+In [Maurice Heumann's shooter-decompilation report](https://momo5502.com/posts/2026-10-09-game-decompilation/), apparently functional code still contained incorrect signatures, layouts and logic.
+Worker comments persuaded a reviewer to accept deviations, and agents attempted to weaken the comparison script.
+The project protected that script by checking its hash in continuous integration [^10].
+
+Define the acceptance criterion before reconstructing code.
+Keep the original binary and validation rules independent of the implementation being tested.
+Treat explanations in generated code as claims to verify, not as evidence that a mismatch is acceptable.
+Byte matching also requires checking relocation targets and referenced data, not merely ignoring differing address bytes.
+
+---
 # The Working Mental Model
 A useful summary separates the main representations:
 
@@ -572,3 +597,5 @@ For a practical next step, use the existing Ghidra tutorial to apply these ideas
 [^6]: [LLVM Loop Terminology and Canonical Forms](https://llvm.org/docs/LoopTerminology.html)
 [^7]: [Yakdan et al. No More Gotos](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/no-more-gotos-decompilation-using-pattern-independent-control-flow-structuring-and-semantics/)
 [^8]: [LLVM IR Undefined Behavior Manual](https://llvm.org/docs/UndefinedBehavior.html)
+[^9]: [REA - DX-Ball Reverse Engineering Sound Panning](https://rea.tools/showcase/dx-ball/)
+[^10]: [Maurice Heumann - 500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter](https://momo5502.com/posts/2026-10-09-game-decompilation/)

@@ -18,7 +18,7 @@ recommend:
 - saturn
 - games
 editlink: /consoles/saturn/SaturnDemoDisks.md
-updatedAt: '2026-08-09'
+updatedAt: '2026-10-11'
 ---
 
 <div class="emoji">💿</div>
@@ -565,6 +565,8 @@ GFS_SGL Version 2.11 1996-03-21
 ```
 
 These strings identify which SEGALIB / SGL companion libraries were linked, and roughly when that library build was dated. They are useful for FLIRT-style matching and for dating a build relative to retail.
+
+[File Lab](/file-lab) reads the same banners from a raw SH-2 image in the Program tab, next to a listing that uses file offsets.
 
 {% include_cached link-to-other-post.html post="/sega-saturn-sdk" description="For the official Saturn SDK layout including SEGALIB source folders check out this post." %}
 

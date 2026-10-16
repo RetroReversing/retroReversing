@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "the-legend-of-zelda-the-wind-waker-hd-recomp": {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T08:05:01Z",
+        "last_commit_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/commit/f10b56621ed13e0053e7cf8190e740834377e45a",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "new-super-mario-bros-u": {
+      "name": "New Super Mario Bros. U",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/aboood40091/red-pro2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T19:42:25Z",
+        "last_commit_url": "https://github.com/aboood40091/red-pro2/commit/1cf3b5d1a9d66fb257f318348d8f0fa2e641fde0",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-lost-world": {
+      "name": "Sonic Lost World",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/Radfordhound/OpenLW",
+      "project_type": "Reverse engineering / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-04-15T05:55:41Z",
+        "last_commit_url": "https://github.com/Radfordhound/OpenLW/commit/73ea9a66d3e76057259821b4019b4811ffd1e770",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "splatoon": {
+      "name": "Splatoon",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/Dexx-io/Splatoon-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-12-18T18:50:37Z",
+        "last_commit_url": "https://github.com/Dexx-io/Splatoon-Decomp/commit/9ef403d96f1a370bdd70434ce158a0c29879bfcf",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "yoshi-s-woolly-world": {
+      "name": "Yoshi's Woolly World",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/Swiftshine/yww",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-01-04T19:04:53Z",
+        "last_commit_url": "https://github.com/Swiftshine/yww/commit/23d1c1c47fa314e3d1ae7bf9cd3a213dd925e512",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {
+    "nintendo-wii-u": {
+      "name": "Nintendo Wii U",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "the-legend-of-zelda-the-wind-waker-hd-recomp",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker HD](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker HD box art (Nintendo Wii U)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20(USA%2C%20Asia)%20(En%2CFr%2CEs).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of the Wii U edition for Windows, Linux, macOS and Android. Game-specific code is generated locally from the user's dump.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Wind Waker HD Recomp",
+              "url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+              "platforms": [
+                "PC",
+                "Android"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SwitchWakerHD",
+              "url": "https://github.com/centollOS/SwitchWakerHD",
+              "platforms": [
+                "Nintendo Switch"
+              ],
+              "description_markdown": "Targets Wii U version 0 USA or Europe; homebrew Switch port.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Wind Waker HD Android Plus",
+              "url": "https://github.com/Nycolazs/WindWakerHD-Android-Plus",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Android fork adding Portuguese translation, HUD editing and device fixes.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp"
+            }
+          ]
+        },
+        {
+          "project": "new-super-mario-bros-u",
+          "name_markdown": "[New Super Mario Bros. U](https://github.com/aboood40091/red-pro2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20U%20%28USA%29%20%28En%2CFr%2CEs%29%20%28Rev%202%29.png",
+              "alt": "New Super Mario Bros. U box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/aboood40091/red-pro2"
+            }
+          ]
+        },
+        {
+          "project": "sonic-lost-world",
+          "name_markdown": "[Sonic Lost World](https://github.com/Radfordhound/OpenLW)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Sonic%20Lost%20World%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic Lost World box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Open-source recreation based on Wii U and PC decompilation research; PC version is the current accuracy target.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reverse engineering",
+              "url": "https://github.com/Radfordhound/OpenLW"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Radfordhound/OpenLW"
+            }
+          ]
+        },
+        {
+          "project": "splatoon",
+          "name_markdown": "[Splatoon](https://github.com/Dexx-io/Splatoon-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Splatoon%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Splatoon box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Dexx-io/Splatoon-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "yoshi-s-woolly-world",
+          "name_markdown": "[Yoshi's Woolly World](https://github.com/Swiftshine/yww)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Yoshi%27s%20Woolly%20World%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Yoshi's Woolly World box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Swiftshine/yww"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

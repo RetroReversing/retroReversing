@@ -14,6 +14,7 @@ redirect_from:
   - /Diaphora
 editlink: ../categories/tools/Tools.md
 title: Retro Game Development and Reversing Tools of the Trade
+updatedAt: '2026-10-11'
 recommend: 
  - tools
  - software
@@ -137,6 +138,7 @@ Disassemblers are crucial for breaking down compiled game code back into human-r
 * **IDA Pro**: One of the most powerful disassemblers, supporting a wide range of processors and file formats.
 * **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
 * **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
+* **genesis-disasm-kickoff**: A tool for starting a disassembly of a Sega Mega Drive (Genesis) or Pico ROM, rebuilt byte for byte from source.
 
 For more information on Disassemblers check out this post:
 {% include_cached link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
@@ -162,6 +164,7 @@ Hex editors let you view and modify the raw binary data of game files. They are 
 Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
 
 * **Reko**: An open-source decompiler designed for multiple architectures and file formats.
+* **dc-decomp-kickoff**: A tool for starting a decompilation of a Dreamcast game from your own disc; a function is done when its C behaves like the original, proven in an SH-4 simulator.
 * **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
 * **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
@@ -179,6 +182,15 @@ For the full history of Delphi decompilers, see:
 {% include_cached link-to-other-post.html post="/delphi" description="A guide to Delphi decompilation and reverse engineering, including Revendepro, DeDe, DCU32INT, IDR, Pythia, DelphiHelper, Dhrake, and DelphiReSym." %}
 
 ---
+## Agent-Assisted Reverse Engineering
+[REA (Reverse Engineer Anything)](https://github.com/morluto/rea) exposes investigation workflows through a command-line interface and a Model Context Protocol (MCP) server.
+For native binaries it connects to an existing Hopper, [Ghidra](/ghidra), or IDA installation and returns evidence such as assembly, pseudocode, callers and data references [^3].
+
+For retro-game research, use it to investigate a specific function or data structure, then check the reconstruction against the original binary.
+The [DX-Ball sound-panning case study](https://rea.tools/showcase/dx-ball/) illustrates this workflow.
+Tool output is analysis evidence, not a guarantee of accurate source recovery or a playable port.
+
+---
 ## File Format Analyzers
 Understanding game-specific file formats is crucial for modifying assets and extracting valuable information. These tools help analyze and manipulate proprietary file formats used in games.
 
@@ -186,6 +198,7 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 * **QuickBMS**: A universal script-based extractor that supports hundreds of game archive formats.
 * **TrID**: A utility for identifying file types and formats based on their binary signatures.
 * **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
+* **dc-shuriken-explorer**: [consolesplayingconsoles/dc-shuriken-explorer](https://github.com/consolesplayingconsoles/dc-shuriken-explorer) browses a Sega Dreamcast game's models, skeletons, animations, textures, sounds and code in your browser, straight from your own disc, which never leaves your computer. With a decomp from dc-decomp-kickoff it adds assembled, textured and animated models, and the C beside the disassembly.
 
 ### Diaphora - The Deeply Interactive Program Diffing Tool
 **Diaphora** is an advanced program diffing framework written by **joxeankoret** that integrates directly into the IDA Pro disassembler (and supports Ghidra via a script). 
@@ -249,3 +262,4 @@ Here is a list of posts on the site that have been tagged as related to game dev
 # References
 [^1]: [What did developers in the 90s use to create pixel graphics for their games r/gamedev](https://www.reddit.com/r/gamedev/comments/ygosp6/what_did_developers_in_the_90s_use_to_create/)
 [^2]: [GDC Evolve Page 36](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
+[^3]: [REA repository and native-analysis documentation](https://github.com/morluto/rea)

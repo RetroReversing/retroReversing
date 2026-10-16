@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "halo-combat-evolved-decompilation-research-project": {
+      "name": "Halo: Combat Evolved Decompilation Research Project",
+      "platforms": [
+        "Halo: Combat Evolved"
+      ],
+      "repository_url": "https://github.com/halo-re/halo",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-07-07T09:16:33Z",
+        "last_commit_url": "https://github.com/halo-re/halo/commit/21bc641df6b8bdd730c23885ff643545423dcc82",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "lord-of-the-rings-the-third-age": {
+      "name": "Lord of the Rings; The Third Age",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Revan67/ThirdAge-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T00:12:56Z",
+        "last_commit_url": "https://github.com/Revan67/ThirdAge-Recomp/commit/39757977fda4d4707286a2bb4219c7264c628702",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "halo-combat-evolved": {
+      "name": "Halo: Combat Evolved",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/punpckhdq/halo",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T01:11:11Z",
+        "last_commit_url": "https://github.com/punpckhdq/halo/commit/745c66b82ad2ec15f787f4145caa5a618f0394ae",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "jet-set-radio-future-recomp": {
+      "name": "Jet Set Radio Future (Recomp)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/andeecollard/jsrf-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-26T11:37:26Z",
+        "last_commit_url": "https://github.com/andeecollard/jsrf-recomp/commit/4242eb69694c8752ca42550ca3765e56288d4535",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "black": {
+      "name": "BLACK",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/portingpete/Black-2006-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "def-jam-fight-for-ny": {
+      "name": "Def Jam: Fight for NY",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "halo-2": {
+      "name": "Halo 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/kirklandsig/halo2-decompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "tom-clancy-s-splinter-cell-double-agent": {
+      "name": "Tom Clancy's Splinter Cell: Double Agent",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/TGP482/SCDA-XBERecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "spider-man-2": {
+      "name": "Spider-Man 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/SirSymo/SM2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "xbox": {
+      "name": "Xbox",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "lord-of-the-rings-the-third-age",
+          "name_markdown": "[Lord of the Rings; The Third Age](https://github.com/Revan67/ThirdAge-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Third%20Age%20%28USA%29.png",
+              "alt": "Lord of the Rings; The Third Age box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Revan67/ThirdAge-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "halo-combat-evolved",
+          "name_markdown": "[Halo: Combat Evolved](https://github.com/punpckhdq/halo)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Halo%20-%20Combat%20Evolved%20%28USA%29.png",
+              "alt": "Halo: Combat Evolved box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets a Halo: Combat Evolved PAL debug build. Retail cover shown for identification.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Halo CE Universal",
+              "url": "https://github.com/bnunu/halo-ce-universal",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "Android"
+              ],
+              "description_markdown": "Requires the original Xbox build 2342 debug data; includes expanded multiplayer.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "ChupathingyCE",
+              "url": "https://github.com/ChupathingyCE/chupathingyce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android"
+              ],
+              "description_markdown": "Native port of the original Xbox game.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo CE Vita",
+              "url": "https://github.com/BirchWoodGod/halo-ce-vita",
+              "platforms": [
+                "PS Vita"
+              ],
+              "description_markdown": "Multiplayer support is limited to Vita-to-Vita sessions.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo 64",
+              "url": "https://github.com/JackTulli/halo-64",
+              "platforms": [
+                "Nintendo 64"
+              ],
+              "description_markdown": "Multiplayer-only port requiring the Expansion Pak; the campaign is not supported.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Halo CE RG35XX",
+              "url": "https://github.com/kirklandsig/halo-ce-anbernic-rg35xx",
+              "platforms": [
+                "Linux"
+              ],
+              "description_markdown": "Targets H700-based Anbernic handhelds running Knulli.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/punpckhdq/halo"
+            }
+          ]
+        },
+        {
+          "project": "jet-set-radio-future-recomp",
+          "name_markdown": "[Jet Set Radio Future (Recomp)](https://github.com/andeecollard/jsrf-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Jet%20Set%20Radio%20Future%20%28USA%29.png",
+              "alt": "Jet Set Radio Future (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/andeecollard/jsrf-recomp"
+            }
+          ]
+        },
+        {
+          "project": "black",
+          "name_markdown": "[BLACK](https://github.com/portingpete/Black-2006-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+              "alt": "BLACK box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows recompilation of the original Xbox game. Linux uses Wine or Proton; late missions are unverified and sound and graphics issues remain.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/portingpete/Black-2006-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/portingpete/Black-2006-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "def-jam-fight-for-ny",
+          "name_markdown": "[Def Jam: Fight for NY](https://github.com/vyanhursky/DefJamFFNY-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+              "alt": "Def Jam: Fight for NY box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows, Linux and Apple Silicon macOS recompilation of the original Xbox release; network multiplayer is unsupported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/vyanhursky/DefJamFFNY-recomp"
+            }
+          ]
+        },
+        {
+          "project": "halo-2",
+          "name_markdown": "[Halo 2](https://github.com/kirklandsig/halo2-decompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Halo%202%20%28USA%29.png",
+              "alt": "Halo 2 box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the original Xbox game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kirklandsig/halo2-decompiled"
+            }
+          ]
+        },
+        {
+          "project": "tom-clancy-s-splinter-cell-double-agent",
+          "name_markdown": "[Tom Clancy's Splinter Cell: Double Agent](https://github.com/TGP482/SCDA-XBERecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Tom%20Clancy%27s%20-%20Splinter%20Cell%20-%20Double%20Agent%20%28USA%29.png",
+              "alt": "Tom Clancy's Splinter Cell: Double Agent box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows x64 recompilation of the original Xbox version; not the Xbox 360 release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TGP482/SCDA-XBERecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/TGP482/SCDA-XBERecomp"
+            }
+          ]
+        },
+        {
+          "project": "spider-man-2",
+          "name_markdown": "[Spider-Man 2](https://github.com/SirSymo/SM2-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Spider-Man%202%20%28USA%29.png",
+              "alt": "Spider-Man 2 box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental Windows recompilation of the original Xbox game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SirSymo/SM2-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/SirSymo/SM2-Recomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1316 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "castlevania-order-of-ecclesia": {
+      "name": "Castlevania: Order of Ecclesia",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/lagolunatic/ooe",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-04T18:43:22Z",
+        "last_commit_url": "https://github.com/LagoLunatic/ooe/commit/3dc4a82881b4cb8f9d584571fcf2053ddc584f6a",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Inactive",
+        "default_branch": "main"
+      }
+    },
+    "dragon-quest-ix": {
+      "name": "Dragon Quest IX",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/dqix/dqix-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T02:36:51Z",
+        "last_commit_url": "https://github.com/DQIX/dqix-decomp/commit/fbec765ef4cc0dee9c21f9e6156ccdec641873f7",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "mario-luigi-partners-in-time": {
+      "name": "Mario & Luigi - Partners in Time",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/rainchus/partnersintime-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-29T21:50:39Z",
+        "last_commit_url": "https://github.com/Rainchus/PartnersInTime-Decomp/commit/a26b1e8da14f0cdaf2ff17d62ae4c9c6d27e6c3e",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "mario-party-ds": {
+      "name": "Mario Party DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/mariopartyds",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-04-17T22:56:25Z",
+        "last_commit_url": "https://github.com/mariopartyrd/mariopartyDS/commit/881aa6969faa4849f8f6b8fa9b45bcd44a1872be",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Inactive",
+        "default_branch": "main"
+      }
+    },
+    "pokemon-diamond-and-pearl": {
+      "name": "Pokemon Diamond and Pearl",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/pret/pokediamond",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T22:56:20Z",
+        "last_commit_url": "https://github.com/pret/pokediamond/commit/b623abef1b4dfe204ca50aab42447ac00c134290",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "master"
+      }
+    },
+    "pokemon-heartgold-and-soulsilver": {
+      "name": "Pokemon HeartGold and SoulSilver",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/pret/pokeheartgold",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T07:01:28Z",
+        "last_commit_url": "https://github.com/pret/pokeheartgold/commit/d2355244ac42b3c6e40d8c36aa3564ee8706dea4",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "master"
+      }
+    },
+    "pokemon-platinum": {
+      "name": "Pokemon Platinum",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/cybervisi0n/pokeplatinum",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T20:15:32Z",
+        "last_commit_url": "https://github.com/cybervisi0n/pokeplatinum/commit/35067868f64f23d25d17ac3e536cfdd9a7f40523",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "pc_port"
+      }
+    },
+    "rhythm-heaven-gold": {
+      "name": "Rhythm Heaven (Gold)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/patataofcourse/rhgold",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-21T13:44:20Z",
+        "last_commit_url": "https://github.com/patataofcourse/rhgold/commit/bb9d0fe86926fdce3752262155b6efe51d903f72",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "the-legend-of-zelda-phantom-hourglass": {
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/zeldaret/ph",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-09T16:59:14Z",
+        "last_commit_url": "https://github.com/zeldaret/ph/commit/f0799bd6038be6858499ec68f0d03cdbbfa53d0b",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "the-legend-of-zelda-spirit-tracks": {
+      "name": "The Legend of Zelda: Spirit Tracks",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/yanis002/st",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T01:39:02Z",
+        "last_commit_url": "https://github.com/Yanis002/st/commit/048ffeaaaae4137aa258e2ecb3e9bf996c98d435",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "new-super-mario-bros": {
+      "name": "New Super Mario Bros.",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/NSMB-Decomp/nsmb",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-03T19:10:14Z",
+        "last_commit_url": "https://github.com/NSMB-Decomp/nsmb/commit/9c7c0b341ae87f860df090e1e35d720f06c70bfa",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-platinum-pret": {
+      "name": "Pokemon Platinum",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/pret/pokeplatinum",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T17:57:17Z",
+        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/1dc13dcea40c04ab53f1f607de46023dc409ef20",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-mystery-dungeon-explorers-of-sky": {
+      "name": "Pokemon Mystery Dungeon: Explorers of Sky",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/pret/pmd-sky",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T22:03:57Z",
+        "last_commit_url": "https://github.com/pret/pmd-sky/commit/e3f02199ebe9e263ee67b07f36b3f240f83ef5d9",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-rush-adventure": {
+      "name": "Sonic Rush Adventure",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/RushRE/SonicRushAdventure-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-23T08:46:42Z",
+        "last_commit_url": "https://github.com/RushRE/SonicRushAdventure-Decomp/commit/b449036259b8eff92ceb2b226474149bcf8a0a30",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-64-ds": {
+      "name": "Super Mario 64 DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/matty45/sm64ds-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-03-15T20:36:11Z",
+        "last_commit_url": "https://github.com/matty45/sm64ds-decomp/commit/d1647eb374445b41a3da2d41769b9ee8784c0500",
+        "default_branch": "main",
+        "archived": true,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "air-traffic-chaos": {
+      "name": "Air Traffic Chaos",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/sasja-san/atc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-12T13:01:20Z",
+        "last_commit_url": "https://github.com/sasja-san/atc/commit/d7d6781b0018b9b43d01f3ac44cd164d649e973e",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "ecrew-development-program-mcdonald-s-training-game": {
+      "name": "eCrew Development Program (McDonald's Training Game)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/imavie/ecdpdecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-08-02T23:27:02Z",
+        "last_commit_url": "https://github.com/imavie/ecdpdecomp/commit/5f259dc290b49452eecd127a44e7709767cc6c7d",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "fire-emblem-shadow-dragon": {
+      "name": "Fire Emblem: Shadow Dragon",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Eebit/fe11-us",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-08T02:01:03Z",
+        "last_commit_url": "https://github.com/Eebit/fe11-us/commit/83f8abc778288d316d6b97990beed95b69313865",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "inazuma-eleven-3-sekai-e-no-chousen-the-ogre": {
+      "name": "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/CacaBueno64/ie3ogres",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T10:29:44Z",
+        "last_commit_url": "https://github.com/CacaBueno64/ie3ogres/commit/ab2647d7ca4a21d17699c99e43ad4a35280dd644",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lego-battles": {
+      "name": "Lego Battles",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/LiruJ/Lego-Battles-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-10-20T15:59:58Z",
+        "last_commit_url": "https://github.com/LiruJ/Lego-Battles-Decomp/commit/d9f2b809b08c85077847f046827fc508e6962453",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lock-s-quest": {
+      "name": "Lock's Quest",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/redraincatching/locksmith",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-08-07T21:12:25Z",
+        "last_commit_url": "https://github.com/redraincatching/locksmith/commit/da8913160371d72f15dfbabf43becfa999d91e42",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "princess-maker-4": {
+      "name": "Princess Maker 4",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yanis002/pm4",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-01-30T15:35:54Z",
+        "last_commit_url": "https://github.com/Yanis002/pm4/commit/7cc8b8ec21904c6657108b2c5b81055b79ac9443",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-world-ends-with-you": {
+      "name": "The World Ends With You",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yotona/twewy",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T18:04:34Z",
+        "last_commit_url": "https://github.com/Yotona/twewy/commit/d6041bf476b12eaa83035d7cfc3063e366f486f8",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "bomberman-land-touch-2": {
+      "name": "Bomberman Land Touch 2",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/gamemasterplc/bltouch2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T01:24:01Z",
+        "last_commit_url": "https://github.com/gamemasterplc/bltouch2/commit/4cf2e6cedaae7948b7e69c32ea923fe802aa5984",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "dragon-quest-iv": {
+      "name": "Dragon Quest IV",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/GoldieLeGenie/DQIV-DECOMP",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-08T21:11:42Z",
+        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-DECOMP/commit/eea86a309c8ed3d940b6119b1010a8a82cfc7034",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-black": {
+      "name": "Pokemon Black",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/squiddonaut/pokeblack",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T20:40:01Z",
+        "last_commit_url": "https://github.com/squiddonaut/pokeblack/commit/29031cdccc6e2ddfe22fdf15844a761606dd734a",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "advance-wars-dual-strike": {
+      "name": "Advance Wars: Dual Strike",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/sturmds/advance-wars-dual-strike-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kingdom-hearts-358-2-days": {
+      "name": "Kingdom Hearts 358/2 Days",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yokimitsuro/khdays-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "mario-luigi-bowser-s-inside-story": {
+      "name": "Mario & Luigi: Bowser's Inside Story",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/istornz/bowsers-inside-story-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "digimon-world-ds": {
+      "name": "Digimon World DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/ReGame-Labs/dwds_decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "okamiden": {
+      "name": "Okamiden",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/dothacktranslate/okamiden-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "kingdom-hearts-re-coded": {
+      "name": "Kingdom Hearts Re:coded",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "nintendo-ds": {
+      "name": "Nintendo DS",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "castlevania-order-of-ecclesia",
+          "name_markdown": "[Castlevania: Order of Ecclesia](https://github.com/lagolunatic/ooe)",
+          "images": [
+            {
+              "alt": "Castlevania: Order of Ecclesia box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Castlevania%20-%20Order%20of%20Ecclesia%20%28USA%29%20%28En%2CFr%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Castlevania: Order of Ecclesia.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lagolunatic/ooe"
+            }
+          ]
+        },
+        {
+          "project": "dragon-quest-ix",
+          "name_markdown": "[Dragon Quest IX](https://github.com/dqix/dqix-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Dragon Quest IX.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dqix/dqix-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-partners-in-time",
+          "name_markdown": "[Mario & Luigi - Partners in Time](https://github.com/rainchus/partnersintime-decomp)",
+          "images": [
+            {
+              "alt": "Mario & Luigi - Partners in Time box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Mario%20_%20Luigi%20-%20Partners%20in%20Time%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Mario & Luigi - Partners in Time.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rainchus/partnersintime-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-ds",
+          "name_markdown": "[Mario Party DS](https://github.com/mariopartyrd/mariopartyds)",
+          "images": [
+            {
+              "alt": "Mario Party DS box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Mario%20Party%20DS%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Mario Party DS.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/mariopartyds"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-diamond-and-pearl",
+          "name_markdown": "[Pokemon Diamond and Pearl](https://github.com/pret/pokediamond)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/2e/PokemonDiamondPearlBoxArt.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Pokémon Diamond/Pearl.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokediamond"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-heartgold-and-soulsilver",
+          "name_markdown": "[Pokemon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Pokémon HeartGold/SoulSilver.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "SoulSilver Recompiled",
+              "url": "https://github.com/ClickingMaster/ssrecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Targets SoulSilver; hardware emulation and ARM7 interpreter fallbacks remain.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokeheartgold"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-platinum",
+          "name_markdown": "[Pokemon Platinum](https://github.com/cybervisi0n/pokeplatinum)",
+          "images": [
+            {
+              "alt": "Pokemon Platinum box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native-port fork of the Pokemon Platinum decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Pokemon Platinum",
+              "url": "https://github.com/cybervisi0n/pokeplatinum",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/cybervisi0n/pokeplatinum"
+            }
+          ]
+        },
+        {
+          "project": "rhythm-heaven-gold",
+          "name_markdown": "[Rhythm Heaven (Gold)](https://github.com/patataofcourse/rhgold)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/38/RhythmHeaven.PNG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of Rhythm Heaven.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/patataofcourse/rhgold"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-phantom-hourglass",
+          "name_markdown": "[The Legend of Zelda: Phantom Hourglass](https://github.com/zeldaret/ph)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Phantom Hourglass box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Phantom%20Hourglass%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of The Legend of Zelda: Phantom Hourglass.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/ph"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-spirit-tracks",
+          "name_markdown": "[The Legend of Zelda: Spirit Tracks](https://github.com/yanis002/st)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Spirit Tracks box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Spirit%20Tracks%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a decompilation of The Legend of Zelda: Spirit Tracks.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/yanis002/st"
+            }
+          ]
+        },
+        {
+          "project": "new-super-mario-bros",
+          "name_markdown": "[New Super Mario Bros.](https://github.com/NSMB-Decomp/nsmb)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20%28USA%2C%20Australia%29.png",
+              "alt": "New Super Mario Bros. box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/NSMB-Decomp/nsmb"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-platinum-pret",
+          "name_markdown": "[Pokemon Platinum](https://github.com/pret/pokeplatinum)",
+          "images": [
+            {
+              "alt": "Pokemon Platinum box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokeplatinum"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-mystery-dungeon-explorers-of-sky",
+          "name_markdown": "[Pokemon Mystery Dungeon: Explorers of Sky](https://github.com/pret/pmd-sky)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Explorers%20of%20Sky%20%28USA%29.png",
+              "alt": "Pokemon Mystery Dungeon: Explorers of Sky box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "The repository currently describes this as a disassembly.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pmd-sky"
+            }
+          ]
+        },
+        {
+          "project": "sonic-rush-adventure",
+          "name_markdown": "[Sonic Rush Adventure](https://github.com/RushRE/SonicRushAdventure-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Sonic%20Rush%20Adventure%20%28Europe%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic Rush Adventure box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RushRE/SonicRushAdventure-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-ds",
+          "name_markdown": "[Super Mario 64 DS](https://github.com/matty45/sm64ds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Super%20Mario%2064%20DS%20%28USA%2C%20Australia%29%20%28Rev%201%29.png",
+              "alt": "Super Mario 64 DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/matty45/sm64ds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "air-traffic-chaos",
+          "name_markdown": "[Air Traffic Chaos](https://github.com/sasja-san/atc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Air%20Traffic%20Chaos%20%28USA%29.png",
+              "alt": "Air Traffic Chaos box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sasja-san/atc"
+            }
+          ]
+        },
+        {
+          "project": "ecrew-development-program-mcdonald-s-training-game",
+          "name_markdown": "[eCrew Development Program (McDonald's Training Game)](https://github.com/imavie/ecdpdecomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/McDonald%27s_DS_Training_Game_packaging_cover.png/250px-McDonald%27s_DS_Training_Game_packaging_cover.png",
+              "alt": "eCrew Development Program (McDonald's Training Game) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/imavie/ecdpdecomp"
+            }
+          ]
+        },
+        {
+          "project": "fire-emblem-shadow-dragon",
+          "name_markdown": "[Fire Emblem: Shadow Dragon](https://github.com/Eebit/fe11-us)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Fire%20Emblem%20-%20Shadow%20Dragon%20%28USA%29.png",
+              "alt": "Fire Emblem: Shadow Dragon box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Eebit/fe11-us"
+            }
+          ]
+        },
+        {
+          "project": "inazuma-eleven-3-sekai-e-no-chousen-the-ogre",
+          "name_markdown": "[Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!](https://github.com/CacaBueno64/ie3ogres)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Inazuma%20Eleven%203%20-%20Sekai%20e%20no%20Chousen%21%21%20-%20The%20Ogre%20%28Japan%29.png",
+              "alt": "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/CacaBueno64/ie3ogres"
+            }
+          ]
+        },
+        {
+          "project": "lego-battles",
+          "name_markdown": "[Lego Battles](https://github.com/LiruJ/Lego-Battles-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/LEGO%20Battles%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Lego Battles box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/LiruJ/Lego-Battles-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "lock-s-quest",
+          "name_markdown": "[Lock's Quest](https://github.com/redraincatching/locksmith)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Lock%27s%20Quest%20%28USA%29%20%28En%2CFr%29.png",
+              "alt": "Lock's Quest box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/redraincatching/locksmith"
+            }
+          ]
+        },
+        {
+          "project": "princess-maker-4",
+          "name_markdown": "[Princess Maker 4](https://github.com/Yanis002/pm4)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Princess%20Maker%204%20-%20Special%20Edition%20%28Japan%29.png",
+              "alt": "Princess Maker 4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Yanis002/pm4"
+            }
+          ]
+        },
+        {
+          "project": "the-world-ends-with-you",
+          "name_markdown": "[The World Ends With You](https://github.com/Yotona/twewy)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/World%20Ends%20with%20You%2C%20The%20%28USA%29.png",
+              "alt": "The World Ends With You box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Yotona/twewy"
+            }
+          ]
+        },
+        {
+          "project": "bomberman-land-touch-2",
+          "name_markdown": "[Bomberman Land Touch 2](https://github.com/gamemasterplc/bltouch2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Bomberman%20Land%20Touch%21%202%20%28USA%29.png",
+              "alt": "Bomberman Land Touch 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/gamemasterplc/bltouch2"
+            }
+          ]
+        },
+        {
+          "project": "dragon-quest-iv",
+          "name_markdown": "[Dragon Quest IV](https://github.com/GoldieLeGenie/DQIV-DECOMP)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Dragon%20Quest%20IV%20-%20Chapters%20of%20the%20Chosen%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Dragon Quest IV box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GoldieLeGenie/DQIV-DECOMP"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-black",
+          "name_markdown": "[Pokemon Black](https://github.com/squiddonaut/pokeblack)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20Black%20Version%20%28USA%2C%20Europe%29%20%28NDSi%20Enhanced%29.png",
+              "alt": "Pokemon Black box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/squiddonaut/pokeblack"
+            }
+          ]
+        },
+        {
+          "project": "advance-wars-dual-strike",
+          "name_markdown": "[Advance Wars: Dual Strike](https://github.com/sturmds/advance-wars-dual-strike-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Advance%20Wars%20-%20Dual%20Strike%20%28USA%29.png",
+              "alt": "Advance Wars: Dual Strike box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets the USA/Australian release; other regions are unsupported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sturmds/advance-wars-dual-strike-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-358-2-days",
+          "name_markdown": "[Kingdom Hearts 358/2 Days](https://github.com/Yokimitsuro/khdays-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20%28USA%29.png",
+              "alt": "Kingdom Hearts 358/2 Days box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Kingdom Hearts 358/2 Days Port",
+              "url": "https://github.com/Yokimitsuro/khdays-port",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Early native front-end and experimental gameplay harness; mission logic, enemies and combat remain incomplete.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Yokimitsuro/khdays-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-bowser-s-inside-story",
+          "name_markdown": "[Mario & Luigi: Bowser's Inside Story](https://github.com/istornz/bowsers-inside-story-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20_%20Luigi%20-%20Bowser%27s%20Inside%20Story%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Mario & Luigi: Bowser's Inside Story box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching Nintendo DS decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/istornz/bowsers-inside-story-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-ds",
+          "name_markdown": "[Digimon World DS](https://github.com/ReGame-Labs/dwds_decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Digimon%20World%20DS%20%28USA%29.png",
+              "alt": "Digimon World DS box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo DS release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ReGame-Labs/dwds_decomp"
+            }
+          ]
+        },
+        {
+          "project": "okamiden",
+          "name_markdown": "[Okamiden](https://github.com/dothacktranslate/okamiden-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Okamiden%20%28USA%29.png",
+              "alt": "Okamiden box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dothacktranslate/okamiden-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-re-coded",
+          "name_markdown": "[Kingdom Hearts Re:coded](https://github.com/kh-recoded-decomp/kh-recoded-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20Re-coded%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Kingdom Hearts Re:coded box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Merged continuation of the earlier ricky074game and Yokimitsuro Re:coded decompilations.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

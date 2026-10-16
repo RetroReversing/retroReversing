@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "donkey-kong-for-colecovision-disassembly": {
+      "name": "Donkey Kong for ColecoVision Disassembly",
+      "platforms": [
+        "Donkey Kong"
+      ],
+      "repository_url": "https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {}
+}

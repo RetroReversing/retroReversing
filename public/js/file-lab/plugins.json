@@ -23,6 +23,16 @@
       }
     },
     {
+      "id": "saturn-prog",
+      "title": "Program",
+      "module": "/public/js/file-lab/plugins/saturn-prog/index.js",
+      "css": "plugin.css",
+      "order": 16,
+      "match": {
+        "minSize": 16
+      }
+    },
+    {
       "id": "strings",
       "title": "Strings",
       "module": "/public/js/file-lab/plugins/strings/index.js",

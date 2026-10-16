@@ -48,6 +48,17 @@ Sometimes these are listed as "Execution files" so I am not sure if cof is the d
 
 ABS Files are listed in the documentation as "Absolute load module file "
 
+## Disc programs (BIN and PRG)
+The file a Saturn loader copies into work RAM is a raw SH-2 image. On disc the names look like `0.BIN`, `1ST_READ.PRG`, or a sampler program such as `00MENU.BIN`.
+
+Two layouts show up in those images:
+* The bytes start with SH-2 code, and the first instruction is a PC-relative long load of an address in work RAM. Startup code uses that to set `r15`, the stack pointer.
+* The first eight bytes are two big-endian work-RAM longwords, read as an initial stack pointer and an entry point. Code begins at offset `0x8`.
+
+The address the image is copied to is chosen by the Initial Program, or by whatever program loads the next file. It is not stored in the image, so a disassembly of the file alone uses file offsets. PC-relative branches still resolve. Absolute pointers remain the work-RAM values in the literal pools.
+
+[File Lab](/file-lab) opens these images in the Program tab. The tab records the work-RAM pointer or the eight-byte header, lists SEGALIB and SGL version banners, and shows the SH-2 listing.
+
 ## Initial Program (IP.BIN)
 The first 16 sectors of a Saturn disc are the boot Initial Program, usually extracted as `IP.BIN`. It holds the system ID (title, product number, region symbols) and the SH-2 code the BIOS jumps into after the logo.
 

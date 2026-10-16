@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "phantasy-star": {
+      "name": "Phantasy Star",
+      "platforms": [
+        "Sega Master System"
+      ],
+      "repository_url": "https://github.com/sung3r/ps1disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2019-01-09T17:30:17Z",
+        "last_commit_url": "https://github.com/sung3r/ps1disasm/commit/8efc4110adcf1a81c70d40522016393ba6f6b5ae",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive"
+      },
+      "previous_repository_urls": [
+        "https://github.com/lory90/ps1disasm"
+      ]
+    },
+    "sonic-2": {
+      "name": "Sonic 2",
+      "platforms": [
+        "Sega Master System"
+      ],
+      "repository_url": "https://github.com/sonicretro/s2smsdisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2013-12-02T05:11:13Z",
+        "last_commit_url": "https://github.com/sonicretro/s2smsdisasm/commit/d8c8ac818a134b9ff3483b0fc57ae09531e4f2fa",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {
+    "sega-master-system": {
+      "name": "Sega Master System",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "phantasy-star",
+          "name_markdown": "[Phantasy Star](https://github.com/sung3r/ps1disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Preserved disassembly mirror.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sung3r/ps1disasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-2",
+          "name_markdown": "[Sonic 2](https://github.com/sonicretro/s2smsdisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://greenhillszone.files.wordpress.com/2011/03/sonic_the_hedgehog_2_8-bit.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic 2 for the Sega Master System Incomplete Disassembly from SonicRetro. It uses the wla-z80 assembler to build the ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/s2smsdisasm"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -12,9 +12,9 @@ async function ensureHighlights(ctx, host, registry) {
 
   if (!registry) return null;
 
-  // Kaitai covers generic formats. Saturn IP is a small extra parser.
+  // Kaitai covers generic formats. Saturn IP and raw SH-2 programs are small extra parsers.
   // Do not import every plugin here: R2 and Pyre pull large modules.
-  var ids = ["kaitai-viewer", "saturn-ip"];
+  var ids = ["kaitai-viewer", "saturn-ip", "saturn-prog"];
   for (var i = 0; i < ids.length; i++) {
     try {
       var runtime = await registry.loadPlugin(ids[i]);

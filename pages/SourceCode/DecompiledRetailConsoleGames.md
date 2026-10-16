@@ -22,10 +22,22 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-12'
 ---
 
-This page lists decompiled and disassembled source code projects for retail games, alongside native ports and static recompilations. Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+
+---
+## Glossary of Project Types
+The tables list project types as comma-separated links to their respective projects. A game can have several projects, and a project can use more than one approach:
+* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code.
+* <a id="glossary-matching-decompilation"></a>**Matching decompilation** - Aims to compile back to the same machine code as the original game. Matching does not mean the project is complete.
+* <a id="glossary-disassembly"></a>**Disassembly** - Converts machine code into assembly source, often with manually added labels and comments.
+* <a id="glossary-static-recompilation"></a>**Static recompilation** - Translates machine code ahead of time into source that can be compiled for another platform, without recovering the original source code.
+* <a id="glossary-source-port"></a>**Native port / Source port** - Adapts available or reconstructed source code to run on another platform. A port can build on a decompilation, disassembly or reimplementation.
+* <a id="glossary-reimplementation"></a>**Reimplementation / Game engine reimplementation** - Builds new code to reproduce the game's or engine's behavior, often using the original game's assets.
+* <a id="glossary-rewrite"></a>**Rewrite** - Rebuilds the implementation with a different architecture or language, potentially using reverse engineering to understand the original behavior.
+* <a id="glossary-fan-remake"></a>**Fan remake** - Recreates the game independently, potentially changing its engine, assets or gameplay.
 
 For entries with a dated activity check, Active means the linked repository received a default-branch commit within the preceding 12 months. Inactive means no commits in that period, or an archived repository. These labels describe repository activity rather than completion or playability. Last-commit dates come from the project catalog. Check dates are stored in the catalog for maintenance. A failed check retains earlier evidence and is labeled as unavailable; Unverified means no successful check is recorded. Undated activity labels have not yet been checked by the script.
 
@@ -34,8 +46,9 @@ If you are interested to see officially released or leaked source code check out
 
 Decompilation and disassembly projects generally need to have reconstructed at least 10% of the source code to be included. Exceptions include platforms with few reversing projects and native-port projects that do not report a matching-code percentage.
 
-Static recompilation translates machine code into compilable source for another platform. It does not imply recovery of the original source code. Project links provide build instructions and current progress.
+Project links provide build instructions and current progress.
 
+---
 # Nintendo Systems
 Nintendo systems are by far the most popular for reverse engineering projects, especially related to 1st party titles such as Mario, Zelda and Pokemon.
 
@@ -77,6 +90,12 @@ The table below lists the relevant entries.
 The [Wii guide](/wii) covers Revolution SDKs and reversing.
 
 {% include decomp-table.html console="nintendo-wii" %}
+
+---
+## Nintendo Wii U
+The table below lists Wii U static recompilation projects and native ports.
+
+{% include decomp-table.html console="nintendo-wii-u" %}
 
 ---
 ## Nintendo Switch
@@ -130,10 +149,20 @@ The table below lists Nintendo 3DS reverse-engineering projects and native ports
 {% include decomp-table.html console="nintendo-3ds" %}
 
 ---
+# Bandai Systems
+## WonderSwan
+The table below lists WonderSwan decompilation projects.
+
+{% include decomp-table.html console="wonderswan" %}
+
+---
 # Sega Systems
 Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
 
 ## 32X
+The table below lists Sega 32X disassembly projects.
+
+{% include decomp-table.html console="sega-32x" %}
 
 ### Knuckles Chaotix
 {% include link-to-other-site.html url="https://github.com/sonicretro/chaotix" description="Knuckles Chaotix" image="https://upload.wikimedia.org/wikipedia/en/d/dd/Knuckles%27_Chaotix_Coverart.png" title="Knuckles Chaotix"  %}
@@ -206,6 +235,12 @@ The table below lists PlayStation 2 reverse-engineering projects and native port
 {% include decomp-table.html console="playstation-2" %}
 
 ---
+## PlayStation Portable
+The table below lists PlayStation Portable decompilation projects.
+
+{% include decomp-table.html console="playstation-portable" %}
+
+---
 # Microsoft Systems
 Microsoft console projects include Xbox reverse engineering and Xbox 360 static recompilations.
 
@@ -220,6 +255,10 @@ The [MSX guide](/msx) covers the computer and its reversing notes.
 ## Xbox
 Decompiled original Xbox projects are listed under this heading.
 The [Xbox guide](/xbox) covers the console and XDK.
+
+The table below lists original Xbox decompilation and recompilation projects.
+
+{% include decomp-table.html console="xbox" %}
 
 ### Halo: Combat Evolved
 {% include link-to-other-site.html url="https://github.com/halo-re/halo" description="The goal of this project is to study and create a free, open-source re-implementation of the original Xbox launch title Halo: Combat Evolved." image="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg" title="Halo: Combat Evolved Decompilation Research Project"  %}
@@ -246,6 +285,13 @@ The [PC guide](/pc) covers game development and reversing.
 {% include decomp-table.html console="pc-windows" %}
 
 ---
+# Apple Systems
+## PC (macOS)
+The table below lists decompilation projects targeting macOS game releases.
+
+{% include decomp-table.html console="pc-macos" %}
+
+---
 # Atari Systems
 
 ## Atari 2600
@@ -260,6 +306,13 @@ The table below lists Atari 2600 disassembly projects and collections.
 
 ### Donkey Kong
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVision Disassembly" %}
+
+---
+# Commodore Systems
+## Commodore 64
+The table below lists Commodore 64 disassembly projects.
+
+{% include decomp-table.html console="commodore-64" %}
 
 ---
 # NEC Systems
@@ -291,6 +344,10 @@ The table below lists Android reverse-engineering projects and native ports.
 
 ---
 ## Windows Phone
+The table below lists Windows Phone decompilation projects.
+
+{% include decomp-table.html console="windows-phone" %}
 
 ### Plants vs. Zombies (2011)
 {% include link-to-other-site.html url="https://github.com/Mewnojs/PlantsVsZombies.NET" description="powered by MonoGame." image="https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg" title="A port of Plants vs. Zombies Windows Phone version to various platforms" %}
+

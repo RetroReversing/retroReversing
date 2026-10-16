@@ -1,0 +1,2098 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "banjo-kazooie-grunty-s-revenge": {
+      "name": "Banjo-Kazooie: Grunty's Revenge",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/jellees/bkgr",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T13:03:11Z",
+        "last_commit_url": "https://github.com/jellees/bkgr/commit/3945523dcd65558e6cb96fc4480a9a1df9341018",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "breath-of-fire": {
+      "name": "Breath of Fire",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Normmatt/bof",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2021-04-05T02:31:51Z",
+        "last_commit_url": "https://github.com/Normmatt/bof/commit/6e322d6aa970300ae4734c50d2e437ad052aecdb",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "fire-emblem-the-binding-blade": {
+      "name": "Fire Emblem: The Binding Blade",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/StanHash/fe6",
+      "project_type": "Decompilations",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-11T18:00:10Z",
+        "last_commit_url": "https://github.com/StanHash/fe6/commit/f9ea5f67f3f1048ca9836d7350077231ba54b589",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "fire-emblem-the-sacred-stones": {
+      "name": "Fire Emblem: The Sacred Stones",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/FireEmblemUniverse/fireemblem8u",
+      "project_type": "Decompilations",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T11:40:15Z",
+        "last_commit_url": "https://github.com/FireEmblemUniverse/fireemblem8u/commit/f2e1f060dbe5b0cc35285df5a0f6659860644a04",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "harvest-moon-friends-of-mineral-town": {
+      "name": "Harvest Moon: Friends of Mineral Town",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/StanHash/fomt",
+      "project_type": "Decompilations",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-08T14:32:10Z",
+        "last_commit_url": "https://github.com/StanHash/fomt/commit/b8471ae065744869f64283473ed68372f82321c9",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "kingdom-hearts-chain-of-memories": {
+      "name": "Kingdom Hearts: Chain of Memories",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Pheenoh/khcom",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T13:37:06Z",
+        "last_commit_url": "https://github.com/Pheenoh/khcom/commit/5dc49b75068bfe24e07bdaf365570d64682680c3",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "klonoa-empire-of-dreams": {
+      "name": "Klonoa: Empire of Dreams",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Dream-Atelier/kl-eod-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T00:47:25Z",
+        "last_commit_url": "https://github.com/Dream-Atelier/kl-eod-decomp/commit/45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "kirby-the-amazing-mirror": {
+      "name": "Kirby & The Amazing Mirror",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/jiangzhengwenjz/katam",
+      "project_type": "Decompilations",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-17T15:40:09Z",
+        "last_commit_url": "https://github.com/jiangzhengwenjz/katam/commit/7d969fbce14fdc838d2c1ea01389717fb96c3189",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-luigi-superstar-saga": {
+      "name": "Mario & Luigi: Superstar Saga",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/nstearns96/MLSuperstarSaga",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2018-03-25T19:52:02Z",
+        "last_commit_url": "https://github.com/nstearns96/MLSuperstarSaga/commit/baae10311925d1f498ff0ad3c43a748b453be239",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "mario-vs-donkey-kong": {
+      "name": "Mario VS Donkey Kong",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/camthesaxman/mariovsdk",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2017-08-04T02:02:47Z",
+        "last_commit_url": "https://github.com/camthesaxman/mariovsdk/commit/ee1720bea222ee4b8762817cd4ef2de64081a74d",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "metroid-zero-mission": {
+      "name": "Metroid: Zero Mission",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/YohannDR/mzm",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T17:15:13Z",
+        "last_commit_url": "https://github.com/metroidret/mzm/commit/9caaefc0ee570f3399d86acf140fdeada9692836",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mother-1-2-japan": {
+      "name": "Mother 1+2 (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Normmatt/m12",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-24T06:51:09Z",
+        "last_commit_url": "https://github.com/Normmatt/m12/commit/f37053c3bd29f337ddafa1023a394216a2abd15f",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-ruby-sapphire": {
+      "name": "Pokemon Ruby & Sapphire",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pokeruby",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-29T01:40:51Z",
+        "last_commit_url": "https://github.com/pret/pokeruby/commit/5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-emerald": {
+      "name": "Pokemon Emerald",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pokeemerald",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-01T19:02:13Z",
+        "last_commit_url": "https://github.com/pret/pokeemerald/commit/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-firered-leafgreen": {
+      "name": "Pokemon FireRed & LeafGreen",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pokefirered",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-26T20:54:25Z",
+        "last_commit_url": "https://github.com/pret/pokefirered/commit/037335f4c725d7c9aecdac87066f2002b4bd7e14",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-mystery-dungeon-red-rescue-team": {
+      "name": "Pokémon Mystery Dungeon: Red Rescue Team",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pmd-red",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-09T19:40:50Z",
+        "last_commit_url": "https://github.com/pret/pmd-red/commit/013475aa04f5be3191e5527c186d9bfceae7cae0",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-pinball-ruby-sapphire": {
+      "name": "Pokémon Pinball: Ruby & Sapphire",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pokepinballrs",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T04:42:12Z",
+        "last_commit_url": "https://github.com/pret/pokepinballrs/commit/33ad42e8f2afca891831f03179820b96a3fdef6a",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-advance-2": {
+      "name": "Sonic Advance 2",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/freshollie/sa2",
+      "project_type": "Decompilation / Native port",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-21T09:23:11Z",
+        "last_commit_url": "https://github.com/SAT-R/sa2/commit/393357f7c9d46b5c10b6c41a57b80fe3b58f3c8d",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-advance-sat-r": {
+      "name": "Sonic Advance (SAT-R)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/SAT-R/sa2",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-21T09:23:11Z",
+        "last_commit_url": "https://github.com/SAT-R/sa2/commit/393357f7c9d46b5c10b6c41a57b80fe3b58f3c8d",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "summon-night-swordcraft-story-3": {
+      "name": "Summon Night Swordcraft Story 3",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/jiangzhengwenjz/csm3",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-04-13T09:36:56Z",
+        "last_commit_url": "https://github.com/jiangzhengwenjz/csm3/commit/7e388ac861bbac289b1f86dc5b8fa46d47b1a1a2",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "super-mario-advance-2-super-mario-world": {
+      "name": "Super Mario Advance 2: Super Mario World",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/atasro2/sma2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2019-01-04T16:43:53Z",
+        "last_commit_url": "https://github.com/atasro2/sma2/commit/d261c24a292d6cb708e0d548c2b1f53015321bb4",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "the-legend-of-zelda-the-minish-cap": {
+      "name": "The Legend of Zelda: The Minish Cap",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/zeldaret/tmc",
+      "project_type": "Decompilation / Native port",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-27T17:57:44Z",
+        "last_commit_url": "https://github.com/zeldaret/tmc/commit/6fb6dfb4a7efbe24d0fd1dda5097af6131faacde",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "project-picori": {
+      "name": "Project Picori",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/999sian/tmc",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-28T15:01:24Z",
+        "last_commit_url": "https://github.com/999sian/tmc/commit/bd06a63919951ed75fca3e8cbb6c6cb728823321",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "yu-gi-oh-reshef-of-destruction": {
+      "name": "Yu-Gi-Oh! Reshef of Destruction",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/papielguapo/ygodm8",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-06-07T08:02:28Z",
+        "last_commit_url": "https://github.com/papielguapo/ygodm8/commit/62b6d706ea04e225e308fc098be78269633249a0",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive"
+      },
+      "previous_repository_urls": [
+        "https://github.com/shinny456/ygodm8"
+      ]
+    },
+    "mario-luigi-superstar-saga-jellees": {
+      "name": "Mario & Luigi: Superstar Saga",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/jellees/mlss",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-19T21:43:34Z",
+        "last_commit_url": "https://github.com/jellees/mlss/commit/b03634c2c700a3ae78f39e576cc88a45c3a724fd",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-kart-super-circuit": {
+      "name": "Mario Kart: Super Circuit",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/jellees/mksc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-10-30T11:03:12Z",
+        "last_commit_url": "https://github.com/jellees/mksc/commit/3df8932105c91f8e9e1ad72801ea13ff74339fe1",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "gyakuten-saiban-japan": {
+      "name": "Gyakuten Saiban (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/atasro2/pwaa1",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-12T21:37:31Z",
+        "last_commit_url": "https://github.com/atasro2/pwaa1/commit/744219a74f9d92d1dcd3ea10f502ca270ab9fda2",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "gyakuten-saiban-2-japan": {
+      "name": "Gyakuten Saiban 2 (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/atasro2/pwaa2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-12T21:54:39Z",
+        "last_commit_url": "https://github.com/atasro2/pwaa2/commit/91cd5f6256e4733895766af167e365445755845e",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-emerald-japan": {
+      "name": "Pokemon Emerald (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pret/pokeemerald-jp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2021-10-08T10:54:20Z",
+        "last_commit_url": "https://github.com/pret/pokeemerald-jp/commit/6806c3e507da87a883b437f048969a45b38250c8",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-advance-3": {
+      "name": "Sonic Advance 3",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/SAT-R/sa3",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:14:14Z",
+        "last_commit_url": "https://github.com/SAT-R/sa3/commit/9c7c1a7d43a443bf662a9b2ea1f695741a1a77fc",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-sims-2-gba": {
+      "name": "The Sims 2 (GBA)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/SimsAdvanceRet/S2GBADecomp",
+      "project_type": "Decompilation / Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-12T17:29:28Z",
+        "last_commit_url": "https://github.com/SimsAdvanceRet/S2GBADecomp/commit/d2047b6980e5ae14e7ca63be1a1ce26ef6c253d1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "wario-land-4": {
+      "name": "Wario Land 4",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/lilDavid/warioland4",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-17T12:14:04Z",
+        "last_commit_url": "https://github.com/lilDavid/warioland4/commit/abb7800a8d8fa6d7f7f003627893e06bc2879329",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "advance-wars-2-black-hole-rising": {
+      "name": "Advance Wars 2: Black Hole Rising",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Eebit/aw2bhr",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-11T00:05:51Z",
+        "last_commit_url": "https://github.com/Eebit/aw2bhr/commit/63a26942a9a1249fe4e02c4c2ec0b3d2ee6b16cb",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "castlevania-aria-of-sorrow": {
+      "name": "Castlevania: Aria of Sorrow",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/testyourmine/cvaos",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-02T03:01:51Z",
+        "last_commit_url": "https://github.com/testyourmine/cvaos/commit/bc23d849d578c35ae12a5cec4e66549c3021a5be",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "custom-robo-gx": {
+      "name": "Custom Robo GX",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/pizdex/robogx",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-01T01:12:40Z",
+        "last_commit_url": "https://github.com/pizdex/robogx/commit/1840296b2278ad86cbcac2d599ae1b786a87693a",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "fire-emblem-rekka-no-ken-japan": {
+      "name": "Fire Emblem - Rekka no Ken (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/MokhaLeee/FireEmblem7J",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-29T01:52:10Z",
+        "last_commit_url": "https://github.com/MokhaLeee/FireEmblem7J/commit/f27a0295d855229f3fad01412d855f4ae7a1c8f0",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mega-man-zero-3-japan": {
+      "name": "Mega Man Zero 3 (Japan)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/mmzret/rmz3",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-07T03:31:11Z",
+        "last_commit_url": "https://github.com/mmzret/rmz3/commit/2a28700e0a74edd9578737c3b3435ced9d074045",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "metroid-fusion": {
+      "name": "Metroid Fusion",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/metroidret/mf",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T13:41:26Z",
+        "last_commit_url": "https://github.com/metroidret/mf/commit/55b1a54bd20c0daf5a64859850b6ebc1322bf514",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-sims-bustin-out": {
+      "name": "The Sims: Bustin' Out",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/SimsAdvanceRet/BustinOutGBADecomp",
+      "project_type": "Decompilation / Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-12T17:25:07Z",
+        "last_commit_url": "https://github.com/SimsAdvanceRet/BustinOutGBADecomp/commit/b7cb537ff3638be6e8efc7d707e49d0e5b38dda2",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "the-urbz-sims-in-the-city": {
+      "name": "The Urbz: Sims in the City",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/SimsAdvanceRet/UrbzGBADecomp",
+      "project_type": "Decompilation / Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-12T17:27:45Z",
+        "last_commit_url": "https://github.com/SimsAdvanceRet/UrbzGBADecomp/commit/8d142a38de94007fdc531a5493040c17ecd09b4e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "beyblade-vforce-ultimate-blader-jam": {
+      "name": "Beyblade VForce: Ultimate Blader Jam",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/marijnvdwerf/gba-beyblade-vforce",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-24T13:23:34Z",
+        "last_commit_url": "https://github.com/marijnvdwerf/gba-beyblade-vforce/commit/e1f747d1dbc07ee6a0d63415ee45d1b67e1d23aa",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "crash-bandicoot-xs-the-huge-adventure": {
+      "name": "Crash Bandicoot: XS (The Huge Adventure)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Almamu/CrashBandicootXS-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T20:15:37Z",
+        "last_commit_url": "https://github.com/Almamu/CrashBandicootXS-decomp/commit/9f654ff45ae5742d0f46f5ae076f6f63fd3d4d35",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "frogger-s-adventures-temple-of-the-frog": {
+      "name": "Frogger's Adventures: Temple of the Frog",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/JRickey/frog-adv-temple-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-08T22:12:42Z",
+        "last_commit_url": "https://github.com/JRickey/frog-adv-temple-decomp/commit/fed8033013cb0e8c546008c83e04d2b80fc6f19b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "golden-sun": {
+      "name": "Golden Sun",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/gsret/goldensun",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-06-05T05:10:41Z",
+        "last_commit_url": "https://github.com/gsret/goldensun/commit/0fa7b312199c10b96544e825be86cfc476493eb7",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-battle": {
+      "name": "Sonic Battle",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/cypressru/SonicBattleDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-16T21:37:32Z",
+        "last_commit_url": "https://github.com/cypressru/SonicBattleDecomp/commit/23091f6190afc1a39f08f14a3e70d2a1b47fd762",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "final-fantasy-tactics-advance-recomp": {
+      "name": "Final Fantasy Tactics Advance",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/Jorge262007/FFTARecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T04:46:17Z",
+        "last_commit_url": "https://github.com/Jorge262007/FFTARecomp/commit/7af625665d40ef3d39b3730a3c591ff66f7b2929",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "kirby-nightmare-in-dream-land": {
+      "name": "Kirby: Nightmare in Dream Land",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/overjt/knidl",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "gt-advance-3-pro-concept-racing": {
+      "name": "GT Advance 3: Pro Concept Racing",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/722rsr/gtadv3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "boktai-3-sabata-s-counterattack": {
+      "name": "Boktai 3: Sabata's Counterattack",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/moozilla/boktai3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "yu-gi-oh-the-eternal-duelist-soul": {
+      "name": "Yu-Gi-Oh! The Eternal Duelist Soul",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/CosmicScribe64/eds-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "game-boy-advance": {
+      "name": "Game Boy Advance",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "banjo-kazooie-grunty-s-revenge",
+          "name_markdown": "[Banjo-Kazooie: Grunty's Revenge](https://github.com/jellees/bkgr)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 32,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jellees/bkgr"
+            }
+          ]
+        },
+        {
+          "project": "breath-of-fire",
+          "name_markdown": "[Breath of Fire](https://github.com/Normmatt/bof)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://www.mobygames.com/images/covers/l/14074-breath-of-fire-game-boy-advance-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Normmatt/bof"
+            }
+          ]
+        },
+        {
+          "project": "fire-emblem-the-binding-blade",
+          "name_markdown": "[Fire Emblem: The Binding Blade](https://github.com/StanHash/fe6)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://vgboxart.com/boxes/GBA/74706-fire-emblem-the-binding-blade.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/StanHash/fe6"
+            }
+          ]
+        },
+        {
+          "project": "fire-emblem-the-sacred-stones",
+          "name_markdown": "[Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/FireEmblemUniverse/fireemblem8u"
+            }
+          ]
+        },
+        {
+          "project": "harvest-moon-friends-of-mineral-town",
+          "name_markdown": "[Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/StanHash/fomt"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-chain-of-memories",
+          "name_markdown": "[Kingdom Hearts: Chain of Memories](https://github.com/Pheenoh/khcom)",
+          "images": [
+            {
+              "alt": "Kingdom Hearts: Chain of Memories box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Game Boy Advance decompilation project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Pheenoh/khcom"
+            }
+          ]
+        },
+        {
+          "project": "klonoa-empire-of-dreams",
+          "name_markdown": "[Klonoa: Empire of Dreams](https://github.com/testyourmine/kleod)",
+          "images": [],
+          "notes_markdown": "USA-version decompilation. The README identifies the target ROM SHA-1; completion percentage is not reported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Dream-Atelier/kl-eod-decomp"
+            }
+          ]
+        },
+        {
+          "project": "kirby-the-amazing-mirror",
+          "name_markdown": "[Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jiangzhengwenjz/katam"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-superstar-saga",
+          "name_markdown": "[Mario & Luigi: Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/nstearns96/MLSuperstarSaga"
+            }
+          ]
+        },
+        {
+          "project": "mario-vs-donkey-kong",
+          "name_markdown": "[Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://mario.wiki.gallery/images/9/9b/Mvd.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/camthesaxman/mariovsdk"
+            }
+          ]
+        },
+        {
+          "project": "metroid-zero-mission",
+          "name_markdown": "[Metroid: Zero Mission](https://github.com/YohannDR/mzm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 98,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/YohannDR/mzm"
+            }
+          ]
+        },
+        {
+          "project": "mother-1-2-japan",
+          "name_markdown": "[Mother 1+2 (Japan)](https://github.com/Normmatt/m12)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/earthbound/images/e/eb/Mother1%2B2_boxart.PNG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Normmatt/m12"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-ruby-sapphire",
+          "name_markdown": "![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width=\"200\"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokeruby"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-emerald",
+          "name_markdown": "[Pokemon Emerald](https://github.com/pret/pokeemerald)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Pokemon Emerald 3DS Dual Screen",
+              "url": "https://github.com/ZallaxDev/pokeemerald-3Ds-dualscreen",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Decompilation-based dual-screen port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Pokemon Emerald RP2350",
+              "url": "https://github.com/mattdeeds/pokeemerald-rp2350",
+              "platforms": [
+                "RP2350"
+              ],
+              "description_markdown": "Targets the WeAct Core2350B microcontroller board.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Emerald Recompiled",
+              "url": "https://github.com/mstan/EmeraldRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "In-development framework preview; not a finished port. Uses interpreter and JIT fallbacks for code outside the static translation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokeemerald"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-firered-leafgreen",
+          "name_markdown": "[Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "FireRed LeafGreen Recompiled",
+              "url": "https://github.com/mstan/FireRedLeafGreenRecomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "In-development framework preview covering FireRed and LeafGreen. Uses interpreter and JIT fallbacks for code outside the static translation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokefirered"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-mystery-dungeon-red-rescue-team",
+          "name_markdown": "[Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pmd-red"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-pinball-ruby-sapphire",
+          "name_markdown": "[Pokémon Pinball: Ruby & Sapphire](https://github.com/pret/pokepinballrs)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Pokemonpinballrubyandsapphire.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pret/pokepinballrs"
+            }
+          ]
+        },
+        {
+          "project": "sonic-advance-2",
+          "name_markdown": "[Sonic Advance 2](https://github.com/freshollie/sa2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 67,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Sonic Advance (SAT-R)",
+              "url": "https://github.com/SAT-R/sa2",
+              "platforms": [],
+              "description_markdown": "Sonic Advance series decompilation and native-port project.",
+              "project_types": [
+                "Decompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/freshollie/sa2"
+            }
+          ]
+        },
+        {
+          "project": "summon-night-swordcraft-story-3",
+          "name_markdown": "[Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jiangzhengwenjz/csm3"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-advance-2-super-mario-world",
+          "name_markdown": "[Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/atasro2/sma2"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-the-minish-cap",
+          "name_markdown": "[The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed; an [unofficial 3DS port has been reported](https://gonintendo.com/contents/63754-the-legend-of-zelda-the-minish-cap-gets-an-unofficial-3ds-port)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Project Picori",
+              "url": "https://github.com/999sian/tmc",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Native PC-port project.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "The Minish Cap 3DS",
+              "url": "https://github.com/EstebanPdN/zelda-tmc-3ds",
+              "platforms": [
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Decompilation-based dual-screen port requiring compatible original GBA assets.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/tmc"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-reshef-of-destruction",
+          "name_markdown": "[Yu-Gi-Oh! Reshef of Destruction](https://github.com/papielguapo/ygodm8)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/yugioh/images/6/6f/Yu-Gi-Oh%21_Reshef_of_Destruction.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Preserved mirror of shinny456's disassembly/decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/papielguapo/ygodm8"
+            }
+          ]
+        },
+        {
+          "project": "klonoa-empire-of-dreams",
+          "name_markdown": "[Klonoa: Empire of Dreams](https://github.com/Dream-Atelier/kl-eod-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Klonoa%20-%20Empire%20of%20Dreams%20%28USA%29.png",
+              "alt": "Klonoa: Empire of Dreams box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Dream-Atelier/kl-eod-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-superstar-saga-jellees",
+          "name_markdown": "[Mario & Luigi: Superstar Saga](https://github.com/jellees/mlss)",
+          "images": [
+            {
+              "alt": "Mario & Luigi: Superstar Saga box art",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jellees/mlss"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-super-circuit",
+          "name_markdown": "[Mario Kart: Super Circuit](https://github.com/jellees/mksc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mario%20Kart%20-%20Super%20Circuit%20%28USA%29.png",
+              "alt": "Mario Kart: Super Circuit box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jellees/mksc"
+            }
+          ]
+        },
+        {
+          "project": "gyakuten-saiban-japan",
+          "name_markdown": "[Gyakuten Saiban (Japan)](https://github.com/atasro2/pwaa1)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Gyakuten%20Saiban%20%28Japan%29.png",
+              "alt": "Gyakuten Saiban (Japan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/atasro2/pwaa1"
+            }
+          ]
+        },
+        {
+          "project": "gyakuten-saiban-2-japan",
+          "name_markdown": "[Gyakuten Saiban 2 (Japan)](https://github.com/atasro2/pwaa2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Gyakuten%20Saiban%202%20%28Japan%29.png",
+              "alt": "Gyakuten Saiban 2 (Japan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/atasro2/pwaa2"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-emerald-japan",
+          "name_markdown": "[Pokemon Emerald (Japan)](https://github.com/pret/pokeemerald-jp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pocket%20Monsters%20-%20Emerald%20%28Japan%29.png",
+              "alt": "Pokemon Emerald (Japan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokeemerald-jp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-advance-3",
+          "name_markdown": "[Sonic Advance 3](https://github.com/SAT-R/sa3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Sonic%20Advance%203%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic Advance 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SAT-R/sa3"
+            }
+          ]
+        },
+        {
+          "project": "the-sims-2-gba",
+          "name_markdown": "[The Sims 2 (GBA)](https://github.com/SimsAdvanceRet/S2GBADecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Sims%202%2C%20The%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%29.png",
+              "alt": "The Sims 2 (GBA) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SimsAdvanceRet/S2GBADecomp"
+            },
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/SimsAdvanceRet/S2GBADecomp"
+            }
+          ]
+        },
+        {
+          "project": "wario-land-4",
+          "name_markdown": "[Wario Land 4](https://github.com/lilDavid/warioland4)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Wario%20Land%204%20%28USA%2C%20Europe%29.png",
+              "alt": "Wario Land 4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lilDavid/warioland4"
+            }
+          ]
+        },
+        {
+          "project": "advance-wars-2-black-hole-rising",
+          "name_markdown": "[Advance Wars 2: Black Hole Rising](https://github.com/Eebit/aw2bhr)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Advance%20Wars%202%20-%20Black%20Hole%20Rising%20%28USA%29.png",
+              "alt": "Advance Wars 2: Black Hole Rising box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Eebit/aw2bhr"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-aria-of-sorrow",
+          "name_markdown": "[Castlevania: Aria of Sorrow](https://github.com/testyourmine/cvaos)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Castlevania%20-%20Aria%20of%20Sorrow%20%28USA%29.png",
+              "alt": "Castlevania: Aria of Sorrow box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/testyourmine/cvaos"
+            }
+          ]
+        },
+        {
+          "project": "custom-robo-gx",
+          "name_markdown": "[Custom Robo GX](https://github.com/pizdex/robogx)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Custom%20Robo%20GX%20%28Japan%29.png",
+              "alt": "Custom Robo GX box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/pizdex/robogx"
+            }
+          ]
+        },
+        {
+          "project": "fire-emblem-rekka-no-ken-japan",
+          "name_markdown": "[Fire Emblem - Rekka no Ken (Japan)](https://github.com/MokhaLeee/FireEmblem7J)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Fire%20Emblem%20-%20Rekka%20no%20Ken%20%28Japan%29.png",
+              "alt": "Fire Emblem - Rekka no Ken (Japan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/MokhaLeee/FireEmblem7J"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-zero-3-japan",
+          "name_markdown": "[Mega Man Zero 3 (Japan)](https://github.com/mmzret/rmz3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Rockman%20Zero%203%20%28Japan%29.png",
+              "alt": "Mega Man Zero 3 (Japan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mmzret/rmz3"
+            }
+          ]
+        },
+        {
+          "project": "metroid-fusion",
+          "name_markdown": "[Metroid Fusion](https://github.com/metroidret/mf)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Metroid%20Fusion%20%28USA%29.png",
+              "alt": "Metroid Fusion box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/metroidret/mf"
+            }
+          ]
+        },
+        {
+          "project": "the-sims-bustin-out",
+          "name_markdown": "[The Sims: Bustin' Out](https://github.com/SimsAdvanceRet/BustinOutGBADecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Sims%2C%20The%20-%20Bustin%27%20Out%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%29.png",
+              "alt": "The Sims: Bustin' Out box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SimsAdvanceRet/BustinOutGBADecomp"
+            },
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/SimsAdvanceRet/BustinOutGBADecomp"
+            }
+          ]
+        },
+        {
+          "project": "the-urbz-sims-in-the-city",
+          "name_markdown": "[The Urbz: Sims in the City](https://github.com/SimsAdvanceRet/UrbzGBADecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Urbz%2C%20The%20-%20Sims%20in%20the%20City%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%29.png",
+              "alt": "The Urbz: Sims in the City box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SimsAdvanceRet/UrbzGBADecomp"
+            },
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/SimsAdvanceRet/UrbzGBADecomp"
+            }
+          ]
+        },
+        {
+          "project": "beyblade-vforce-ultimate-blader-jam",
+          "name_markdown": "[Beyblade VForce: Ultimate Blader Jam](https://github.com/marijnvdwerf/gba-beyblade-vforce)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Beyblade%20V-Force%20-%20Ultimate%20Blader%20Jam%20%28USA%29.png",
+              "alt": "Beyblade VForce: Ultimate Blader Jam box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/marijnvdwerf/gba-beyblade-vforce"
+            }
+          ]
+        },
+        {
+          "project": "crash-bandicoot-xs-the-huge-adventure",
+          "name_markdown": "[Crash Bandicoot: XS (The Huge Adventure)](https://github.com/Almamu/CrashBandicootXS-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Crash%20Bandicoot%20-%20The%20Huge%20Adventure%20%28USA%29.png",
+              "alt": "Crash Bandicoot: XS (The Huge Adventure) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Almamu/CrashBandicootXS-decomp"
+            }
+          ]
+        },
+        {
+          "project": "frogger-s-adventures-temple-of-the-frog",
+          "name_markdown": "[Frogger's Adventures: Temple of the Frog](https://github.com/JRickey/frog-adv-temple-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Frogger%27s%20Adventures%20-%20Temple%20of%20the%20Frog%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Frogger's Adventures: Temple of the Frog box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/JRickey/frog-adv-temple-decomp"
+            }
+          ]
+        },
+        {
+          "project": "golden-sun",
+          "name_markdown": "[Golden Sun](https://github.com/gsret/goldensun)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Golden%20Sun%20%28USA%2C%20Europe%29.png",
+              "alt": "Golden Sun box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/gsret/goldensun"
+            }
+          ]
+        },
+        {
+          "project": "sonic-battle",
+          "name_markdown": "[Sonic Battle](https://github.com/cypressru/SonicBattleDecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Sonic%20Battle%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic Battle box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cypressru/SonicBattleDecomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-tactics-advance-recomp",
+          "name_markdown": "[Final Fantasy Tactics Advance (FFTARecomp)](https://github.com/Jorge262007/FFTARecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Final%20Fantasy%20Tactics%20Advance%20%28USA%29.png",
+              "alt": "Final Fantasy Tactics Advance Game Boy Advance USA box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Linux/Steam Deck recompilation using gba-recomp; requires a user-owned USA ROM. Work in progress: brief sprite silhouettes in the first level and initial gamepad detection issues are documented.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Jorge262007/FFTARecomp"
+            }
+          ]
+        },
+        {
+          "project": "kirby-nightmare-in-dream-land",
+          "name_markdown": "[Kirby: Nightmare in Dream Land](https://github.com/overjt/knidl)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Kirby%20-%20Nightmare%20in%20Dream%20Land%20%28USA%29.png",
+              "alt": "Kirby: Nightmare in Dream Land box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation; no completion estimate is imported.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/overjt/knidl"
+            }
+          ]
+        },
+        {
+          "project": "gt-advance-3-pro-concept-racing",
+          "name_markdown": "[GT Advance 3: Pro Concept Racing](https://github.com/722rsr/gtadv3-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/GT%20Advance%203%20-%20Pro%20Concept%20Racing%20%28USA%29.png",
+              "alt": "GT Advance 3: Pro Concept Racing box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching Game Boy Advance decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/722rsr/gtadv3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "boktai-3-sabata-s-counterattack",
+          "name_markdown": "[Boktai 3: Sabata's Counterattack](https://github.com/moozilla/boktai3-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Shin%20Bokura%20no%20Taiyou%20-%20Gyakushuu%20no%20Sabata%20%28Japan%29.png",
+              "alt": "Boktai 3: Sabata's Counterattack box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Japanese release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/moozilla/boktai3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-the-eternal-duelist-soul",
+          "name_markdown": "[Yu-Gi-Oh! The Eternal Duelist Soul](https://github.com/CosmicScribe64/eds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Yu-Gi-Oh%21%20-%20The%20Eternal%20Duelist%20Soul%20%28USA%29.png",
+              "alt": "Yu-Gi-Oh! The Eternal Duelist Soul box art for Game Boy Advance",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA release. The repository documents the remaining hand-written assembly routines.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/CosmicScribe64/eds-decomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -433,6 +433,14 @@ Treat generated C as a hypothesis and resolve the evidence behind each placehold
 After changing shared types or prototypes, rebuild affected code and verify previously matched functions too [^10].
 
 ---
+# AI-Assisted Matching Decompilation
+Recent AI agents can use a decompiler's output as the beginning of a compiler-backed matching workflow. The agent writes candidate C, runs the game's original toolchain, examines assembly differences and repeats until the bytes match. This approach is relevant to Nintendo 64 and PlayStation preservation projects, but it does not make the original programmer's source or intent recoverable.
+
+For concrete game case studies, tools, code examples and a comparison of Claude Opus 5.5 benchmarks, see:
+
+{% include_cached link-to-other-post.html post="/ai-assisted-decompilation" description="AI-Assisted Decompilation for Retro Games explains matching workflows, Claude agents, N64 and PlayStation projects, and how to interpret benchmarks." %}
+
+---
 # Getting Started
 If you want to experiment with decompilation on a retro binary:
 
@@ -444,6 +452,10 @@ If you want to experiment with decompilation on a retro binary:
 
 Decompilers reward patience and annotation.
 The first output is a sketch; the useful map is the one you refine.
+
+## Starting a Dreamcast decompilation
+<div class="emoji">🔧</div>
+[dc-decomp-kickoff](https://github.com/consolesplayingconsoles/dc-decomp-kickoff) is a tool for starting a decompilation of a Sega Dreamcast game from your own disc. It gives you a repo that rebuilds the executable byte for byte from one assembly file per function, as the baseline that keeps matching while C replaces the assembly, with functions named by SDK signature where possible. A function is done when its C behaves like the original, proven in an SH-4 simulator (calls, memory writes and result on test cases); byte-identical C is the bonus tier. It can also carry verified C for shared library code (the NAOMI library, the C runtime) from a sibling decomp into a new one, checked again on the new game's own bytes, and it builds a text map for translators. The repo contains no game code or data.
 
 ---
 # References
