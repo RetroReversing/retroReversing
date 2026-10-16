@@ -198,6 +198,7 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 * **QuickBMS**: A universal script-based extractor that supports hundreds of game archive formats.
 * **TrID**: A utility for identifying file types and formats based on their binary signatures.
 * **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
+* **dc-shuriken-explorer**: [consolesplayingconsoles/dc-shuriken-explorer](https://github.com/consolesplayingconsoles/dc-shuriken-explorer) browses a Sega Dreamcast game's models, skeletons, animations, textures, sounds and code in your browser, straight from your own disc, which never leaves your computer. With a decomp from dc-decomp-kickoff it adds assembled, textured and animated models, and the C beside the disassembly.
 
 ### Diaphora - The Deeply Interactive Program Diffing Tool
 **Diaphora** is an advanced program diffing framework written by **joxeankoret** that integrates directly into the IDA Pro disassembler (and supports Ghidra via a script). 
