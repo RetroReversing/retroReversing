@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "sonic-the-fighters-disassembly": {
+      "name": "Sonic the Fighters Disassembly",
+      "platforms": [
+        "Sonic the Fighters  "
+      ],
+      "repository_url": "https://github.com/cglmrfreeman/stfdisasm",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-05-02T17:36:25Z",
+        "last_commit_url": "https://github.com/biggestsonicfan/stfdisasm/commit/27756f80994674d6d449ab66108f59e19cfed6b1",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {}
+}

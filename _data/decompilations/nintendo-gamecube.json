@@ -1,0 +1,2895 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "animal-crossing": {
+      "name": "Animal Crossing",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/acreteam/ac-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-18T01:55:27Z",
+        "last_commit_url": "https://github.com/ACreTeam/ac-decomp/commit/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "bomberman-generation": {
+      "name": "Bomberman Generation",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/nikeymikey/bomberman-generation-moderngekko",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-28T15:22:02Z",
+        "last_commit_url": "https://github.com/nikeymikey/bomberman-generation-moderngekko/commit/6c073a5cf1df0eda3724a6adc437cdde720cf6a3",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "chibi-robo-plug-into-adventure": {
+      "name": "Chibi-Robo! Plug Into Adventure!",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/eavpsp/cbr_decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-12T05:15:05Z",
+        "last_commit_url": "https://github.com/eavpsp/cbr_decomp/commit/b2b6bcb5b407f10432345683d341578bda55ed5b",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "doshin-the-giant": {
+      "name": "Doshin the Giant",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/break-core/doshin-gc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-02T05:48:49Z",
+        "last_commit_url": "https://github.com/break-core/doshin-gc/commit/b01be768ab68782c6890b832cd61e35d3b4d9103",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "dobutsu-no-mori-e": {
+      "name": "Dōbutsu no Mori e+",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/acreteam/afe-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-16T17:27:23Z",
+        "last_commit_url": "https://github.com/ACreTeam/afe-decomp/commit/2048fc2396d53cc57d80c1ce1adc07e16df07eb6",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "harvest-moon-a-wonderful-life": {
+      "name": "Harvest Moon: A Wonderful Life",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/ChrisNonyminus/hmawl",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-11-22T11:52:40Z",
+        "last_commit_url": "https://github.com/ChrisNonyminus/hmawl/commit/a6a08786729e8cc87794003acf2dc6756158719e",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "homeland": {
+      "name": "Homeland",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/bttrdrgn/homeland",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-03-14T07:51:08Z",
+        "last_commit_url": "https://github.com/BttrDrgn/homeland/commit/176fd6d9be74c0256d793e8b2fc89cd8cc4fe2ba",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "kirby-air-ride": {
+      "name": "Kirby Air Ride",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/kar",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-02-26T16:38:36Z",
+        "last_commit_url": "https://github.com/doldecomp/kar/commit/3ed51a1a008a05c33225cc286c046b8f90fb3d0e",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "luigi-s-mansion": {
+      "name": "Luigi's Mansion",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/sage-of-mirrors/zmansion",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-11-09T05:14:55Z",
+        "last_commit_url": "https://github.com/Sage-of-Mirrors/zmansion/commit/b8692880841e63620fc06eb92ff1b334ecf6576b",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "mario-kart-double-dash": {
+      "name": "Mario Kart: Double Dash!!",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/mkdd",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T11:46:59Z",
+        "last_commit_url": "https://github.com/doldecomp/mkdd/commit/1d2918ca577817ba431baddb78dda24831e0e0bb",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-party-4": {
+      "name": "Mario Party 4",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty4",
+      "project_type": "Decompilation",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-04T03:18:46Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty4/commit/147b165a83187ac9e6cfdc3bf52f2e73437b1ffd",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-party-5": {
+      "name": "Mario Party 5",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty5",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-30T00:36:04Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty5/commit/e246f9d9850ff53ac684b971068fbf87fdcf6acb",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-party-6": {
+      "name": "Mario Party 6",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty6",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T22:56:45Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty6/commit/a56adea71eb0d6f5b16ee7cef80a9111adec9636",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-party-7": {
+      "name": "Mario Party 7",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/mariopartyrd/marioparty7",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-03T00:36:07Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty7/commit/f5ea780d07dab8188d3c02f7e9052360c591dc1b",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mario-superstar-baseball": {
+      "name": "Mario Superstar Baseball",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/roeming/mssb-dtk",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-12T19:53:29Z",
+        "last_commit_url": "https://github.com/roeming/mssb-dtk/commit/72de19a39880398a69339010350652ad97e2a79c",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "metroid-prime": {
+      "name": "Metroid Prime",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/PrimeDecomp/prime",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:26:49Z",
+        "last_commit_url": "https://github.com/PrimeDecomp/prime/commit/22f7d00510715cf8810941d1c7c0ffb4c1655e8d",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "metroid-prime-2-echoes": {
+      "name": "Metroid Prime 2: Echoes",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/PrimeDecomp/echoes",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T12:06:52Z",
+        "last_commit_url": "https://github.com/PrimeDecomp/echoes/commit/6f0c842a94588a3f8c5a7b9747fa696ad1f945d0",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-11T15:56:00Z",
+        "status": "Active",
+        "check_error": "HTTP 404"
+      }
+    },
+    "need-for-speed-most-wanted": {
+      "name": "Need for Speed: Most Wanted",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/dbalatoni13/nfsmw",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T14:23:20Z",
+        "last_commit_url": "https://github.com/dbalatoni13/nfsmw/commit/80993f35224c61d2f1b135beba76c6f8234c7940",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "need-for-speed-underground": {
+      "name": "Need for Speed: Underground",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/dbalatoni13/nfsug",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-04T20:16:49Z",
+        "last_commit_url": "https://github.com/dbalatoni13/nfsug/commit/7e718a6997a738a4ce2004e4186f16160cb69f3e",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "naruto-gekito-ninja-taisen-4": {
+      "name": "Naruto: Gekitō Ninja Taisen! 4",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/gnt4",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-08-10T18:52:05Z",
+        "last_commit_url": "https://github.com/doldecomp/gnt4/commit/b6c32473fca8d39facf1cad70f49a3c305e18cf0",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "paper-mario-the-thousand-year-door": {
+      "name": "Paper Mario: The Thousand-Year Door",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/ttyd",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-27T22:35:16Z",
+        "last_commit_url": "https://github.com/doldecomp/ttyd/commit/62131fc31866f85a12e4817a8dc37f0c25eb5f8c",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pikmin": {
+      "name": "Pikmin",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/projectPiki/pikmin",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T19:49:06Z",
+        "last_commit_url": "https://github.com/projectPiki/pikmin/commit/9a2163626a269ae7c699fc195cf91a5ca791044d",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pikmin-2": {
+      "name": "Pikmin 2",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/projectPiki/pikmin2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T16:23:22Z",
+        "last_commit_url": "https://github.com/projectPiki/pikmin2/commit/f8e0ee39aec178f6d87bf7edb60c213b58144c5f",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "ratatouille": {
+      "name": "Ratatouille",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zounadecomp/ratdecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-10T16:49:17Z",
+        "last_commit_url": "https://github.com/ZounaModding/RatDecomp/commit/9fbb782be9c83685bb56310e35939b651cd16345",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-11T15:56:00Z",
+        "status": "Active",
+        "check_error": "HTTP 404"
+      }
+    },
+    "skies-of-arcadia-legends": {
+      "name": "Skies of Arcadia Legends",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/rainchus/skiesofarcadialegends",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-07T13:11:08Z",
+        "last_commit_url": "https://github.com/Rainchus/SkiesOfArcadiaLegends/commit/7a7d22aa65ab6c50977c8a12927dbb2ff76963e0",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-adventure-dx": {
+      "name": "Sonic Adventure DX",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/sadx",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2024-08-01T04:03:08Z",
+        "last_commit_url": "https://github.com/doldecomp/sadx/commit/4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-riders": {
+      "name": "Sonic Riders",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/sonicriders",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-02-06T17:57:39Z",
+        "last_commit_url": "https://github.com/doldecomp/sonicriders/commit/4f42e59cb5b6089a2aba413d344f804e5362f06f",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "spongebob-squarepants-battle-for-bikini-bottom": {
+      "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/bfbbdecomp/bfbb",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-29T14:10:37Z",
+        "last_commit_url": "https://github.com/bfbbdecomp/bfbb/commit/8fb1c232addcacf44932c10c4cede41b43f98f40",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "star-fox-adventures": {
+      "name": "Star Fox Adventures",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/renakunisaki/sfadebug",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-04-13T23:46:33Z",
+        "last_commit_url": "https://github.com/RenaKunisaki/sfadebug/commit/2bba767415a607ced9ad53294d8f4515770ed998",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "summoner-a-goddess-reborn": {
+      "name": "Summoner: A Goddess Reborn",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/Charlese2/sgr",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-12-09T01:43:54Z",
+        "last_commit_url": "https://github.com/Charlese2/sgr/commit/e260a0ef5b9f45a8880f39168a81c8dfdbee8b77",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-strikers": {
+      "name": "Super Mario Strikers",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/yannicksuter/smstrikers-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-17T11:30:28Z",
+        "last_commit_url": "https://github.com/yannicksuter/smstrikers-decomp/commit/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-sunshine": {
+      "name": "Super Mario Sunshine",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/sms",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:58:27Z",
+        "last_commit_url": "https://github.com/doldecomp/sms/commit/648d5974ed69d57ac117a173b717061cb055f4eb",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-monkey-ball": {
+      "name": "Super Monkey Ball",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/camthesaxman/smb-decomp/",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-01-06T04:45:00Z",
+        "last_commit_url": "https://github.com/camthesaxman/smb-decomp/commit/5cd6ffccf3f8508231c7cd9cce5b722be4465a2b",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "super-smash-bros-melee": {
+      "name": "Super Smash Bros. Melee",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/doldecomp/melee",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T22:36:23Z",
+        "last_commit_url": "https://github.com/doldecomp/melee/commit/2eb62f605597d61ce2f65d1c406de7b672539e3d",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-incredibles": {
+      "name": "The Incredibles",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/seilweiss/incredibles",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-01-09T23:24:40Z",
+        "last_commit_url": "https://github.com/seilc/incredibles/commit/25f60a22a5452bcb2cd1b9ce0cd47f7f8f8e45ac",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "the-legend-of-zelda-the-wind-waker": {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zeldaret/tww",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T18:54:55Z",
+        "last_commit_url": "https://github.com/zeldaret/tww/commit/8b93b372dc8e841f12ddfb7e0215626f62b05417",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda-twilight-princess": {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zeldaret/tp",
+      "project_type": "Decompilation",
+      "completion_status": "Completed",
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-23T19:52:55Z",
+        "last_commit_url": "https://github.com/zeldaret/tp/commit/c8fa8c9e2aab72cf4e5db0e5d1c84a9ea6ee6eb0",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-spongebob-squarepants-movie": {
+      "name": "The SpongeBob SquarePants Movie",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/bfbbdecomp/tssm",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-15T22:51:35Z",
+        "last_commit_url": "https://github.com/bfbbdecomp/tssm/commit/50ea01767e4c894f09db8ff2f4e52136a6e89ca4",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "ty-the-tasmanian-tiger": {
+      "name": "Ty the Tasmanian Tiger",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/1superchip/ty-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-08T03:15:47Z",
+        "last_commit_url": "https://github.com/1superchip/ty-decomp/commit/22d5483e9b59ad40fcab924f6c7d913f3b3e09da",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pikmin-open-nectar": {
+      "name": "Pikmin",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+      "project_type": "Decompilation / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T16:25:58Z",
+        "last_commit_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/commit/db0b1a621b06edee63e70179e0637a40ef5ea1fc",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda-the-wind-waker-bluewake": {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/bluewake",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T04:20:06Z",
+        "last_commit_url": "https://github.com/chrissotraidis/bluewake/commit/908d405bc3882a19b002a7b91d90547f058ce303",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "super-smash-bros-melee-pc": {
+      "name": "Super Smash Bros. Melee",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/999sian/melee-pc",
+      "project_type": "Decompilation / Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T00:09:40Z",
+        "last_commit_url": "https://github.com/999sian/melee-pc/commit/bc53d8c37d1aa4490bbe9468dc025f7ac74d62c0",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "crash-tag-team-racing": {
+      "name": "Crash Tag Team Racing",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/bluisblu/cttr",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T17:19:49Z",
+        "last_commit_url": "https://github.com/bluisblu/cttr/commit/716d1e1838ed3b826166d4c3b3685385dc617d48",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "piglet-s-big-game": {
+      "name": "Piglet's Big Game",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/tgsm/pbg",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T18:04:36Z",
+        "last_commit_url": "https://github.com/tgsm/pbg/commit/c20cab7d2d40c33c632bdfbead19ce01beecb1e5",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-xd-gale-of-darkness": {
+      "name": "Pokemon XD: Gale of Darkness",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/TeamOrre/xd-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-11T15:11:05Z",
+        "last_commit_url": "https://github.com/TeamOrre/xd-decomp/commit/4989794e6c6430684e033bc56f4bb97c9a921e73",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "star-fox-adventures-retail": {
+      "name": "Star Fox Adventures (Retail)",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zcanann/SFA-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T00:00:05Z",
+        "last_commit_url": "https://github.com/zcanann/SFA-Decomp/commit/9b4063e5c363fca5173a8ef565532287dc1396d0",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-sims-2": {
+      "name": "The Sims 2",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/natebag/Sims2DECOMP",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-10T04:02:09Z",
+        "last_commit_url": "https://github.com/natebag/Sims2DECOMP/commit/72278b244e431de11a88e658fb81df8e5057a3aa",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "wario-world": {
+      "name": "Wario World",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/sabishii-bit/wwdcmp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-08-28T05:27:02Z",
+        "last_commit_url": "https://github.com/sabishii-bit/wwdcmp/commit/d44b82c8a9e5ef1d36ecbca32ce8dc38c264cb2d",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "nintendo-puzzle-collection-dr-mario-64": {
+      "name": "Nintendo Puzzle Collection - Dr. Mario 64",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/NewGBAXL/drmario64-gc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-10T22:21:47Z",
+        "last_commit_url": "https://github.com/NewGBAXL/drmario64-gc/commit/82289b50d1aef179e8eaf94cf3b798e9732f9add",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "amazing-island": {
+      "name": "Amazing Island",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/EltaleLibrarian/Amazing",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-07-15T21:25:21Z",
+        "last_commit_url": "https://github.com/EltaleLibrarian/Amazing/commit/c9d84c6941f99c210e7cba73f1590422bdc4e7be",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "dragon-ball-z-budokai-2": {
+      "name": "Dragon Ball Z: Budokai 2",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/TotallyNotMichael-GH/dbz2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-01-08T00:30:49Z",
+        "last_commit_url": "https://github.com/TotallyNotMichael-GH/dbz2/commit/f61deb8401861186deb0ad967d120370e2578dd9",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "final-fantasy-crystal-chronicles": {
+      "name": "Final Fantasy Crystal Chronicles",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zcanann/FFCC-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-10T00:14:28Z",
+        "last_commit_url": "https://github.com/zcanann/FFCC-Decomp/commit/8ffc4be0e778999efa54a533409abfeb6fbb694f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "freedom-fighters": {
+      "name": "Freedom Fighters",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/andresj-sanchez/frfi-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-11-12T05:03:43Z",
+        "last_commit_url": "https://github.com/andresj-sanchez/frfi-decomp/commit/4becacf5aa16da622cbd756c70a36f2717982ff4",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "gauntlet-dark-legacy": {
+      "name": "Gauntlet Dark Legacy",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/sabishii-bit/Gauntlet-Dark-Legacy-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-25T14:24:41Z",
+        "last_commit_url": "https://github.com/sabishii-bit/Gauntlet-Dark-Legacy-Decompilation/commit/4fdf0492d5d828b16ee1a961c17bf855a8d2668f",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-lord-of-the-rings-return-of-the-king": {
+      "name": "The Lord of the Rings: Return of the King",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/crimsonmagick/lotr-rotk",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-01-11T22:27:01Z",
+        "last_commit_url": "https://github.com/crimsonmagick/lotr-rotk/commit/abcb020d06b70fb104978ec74a6dd0ec7e145e81",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "digimon-world-4": {
+      "name": "Digimon World 4",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/ivanno4317/dw4-gc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-16T15:24:42Z",
+        "last_commit_url": "https://github.com/ivanno4317/dw4-gc/commit/41c27d8756e298558ca9be61c1c89afeee336c01",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "eternal-darkness-sanity-s-requiem": {
+      "name": "Eternal Darkness: Sanity's Requiem",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/PattyTrish/unending-occlusion",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T21:38:32Z",
+        "last_commit_url": "https://github.com/PattyTrish/unending-occlusion/commit/ab8b3f53969ecb1c9ce08479d6fb599211253ccb",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "f-zero-gx-karamzov123": {
+      "name": "F-Zero GX (karamzov123)",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/karamzov123/fzero-gx-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-09T16:01:03Z",
+        "last_commit_url": "https://github.com/karamzov123/fzero-gx-decomp/commit/118208b0dfef271f422646c9ea8fa7b63a322108",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "f-zero-gx-rayanht": {
+      "name": "F-Zero GX (rayanht)",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/rayanht/fzgx",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-16T20:22:28Z",
+        "last_commit_url": "https://github.com/rayanht/fzgx/commit/3a0542c9d1b58f7a907f932bc00e3657b382e9aa",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "metal-gear-solid-the-twin-snakes": {
+      "name": "Metal Gear Solid: The Twin Snakes",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/GirianSeed/mgstts",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-29T00:00:51Z",
+        "last_commit_url": "https://github.com/GirianSeed/mgstts/commit/3d9ed020b198ec2049b7bd2e118aa8d7d890c2a0",
+        "default_branch": "trunk",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "mortal-kombat-deception": {
+      "name": "Mortal Kombat: Deception",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/ShulkMaster/mk-deception",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T01:06:21Z",
+        "last_commit_url": "https://github.com/ShulkMaster/mk-deception/commit/1fcf1a796008ec6fe5e928f5adb83bc83ed7b0ca",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "resident-evil-4-gamecube-debug-build": {
+      "name": "Resident Evil 4 (GameCube debug build)",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/adonis-singh/re4",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-02T12:31:01Z",
+        "last_commit_url": "https://github.com/adonis-singh/re4/commit/9b76ff003081d6ece8b838453fb8310743a972c7",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-adventure-2-battle": {
+      "name": "Sonic Adventure 2: Battle",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/roeming/SA2B",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T21:32:00Z",
+        "last_commit_url": "https://github.com/roeming/SA2B/commit/874a480379260dce01e8988d6ab13c0deddcee4c",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-heroes": {
+      "name": "Sonic Heroes",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/Jovinull/sonicheroes",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T02:36:02Z",
+        "last_commit_url": "https://github.com/Jovinull/sonicheroes/commit/26755bbf1237e4e399b91697ffa2a6aeab8183e5",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "tiger-woods-pga-tour-2004": {
+      "name": "Tiger Woods PGA Tour 2004",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/mitsevox/tw2004",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T16:17:01Z",
+        "last_commit_url": "https://github.com/mitsevox/tw2004/commit/194e42231f594d79cdb1f53832834e7a0bf6c890",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "medal-of-honor-frontline": {
+      "name": "Medal of Honor: Frontline",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/kyleckroeger/moh-frontline-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    },
+    "medal-of-honor-rising-sun": {
+      "name": "Medal of Honor: Rising Sun",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/lifewillbeokay/moh-rising-sun",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "nintendo-gamecube": {
+      "name": "Nintendo GameCube",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "animal-crossing",
+          "name_markdown": "[Animal Crossing](https://github.com/acreteam/ac-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 99,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Animal Crossing PC Port",
+              "url": "https://github.com/flyngmt/ACGC-PC-Port",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Requires the USA revision 0 GameCube release.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "OpenCrossing-Xbox",
+              "url": "https://github.com/TechProGabe/OpenCrossing-Xbox",
+              "platforms": [
+                "Xbox"
+              ],
+              "description_markdown": "GameCube decompilation port; the Clu Clu Land D NES game is unsupported.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Animal Crossing Android Port",
+              "url": "https://github.com/zwaetschge/ACGC-Android-Port",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "Requires Android 8 or newer and compatible GameCube assets.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/acreteam/ac-decomp"
+            }
+          ]
+        },
+        {
+          "project": "bomberman-generation",
+          "name_markdown": "[Bomberman Generation](https://github.com/nikeymikey/bomberman-generation-moderngekko)",
+          "images": [
+            {
+              "alt": "Bomberman Generation box art",
+              "url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Bomberman%20Generation%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "GameCube native build using DolRecomp and ModernGekko.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/nikeymikey/bomberman-generation-moderngekko"
+            }
+          ]
+        },
+        {
+          "project": "chibi-robo-plug-into-adventure",
+          "name_markdown": "[Chibi-Robo! Plug Into Adventure!](https://github.com/eavpsp/cbr_decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Chibi_Robo.jpg/220px-Chibi_Robo.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/eavpsp/cbr_decomp"
+            }
+          ]
+        },
+        {
+          "project": "doshin-the-giant",
+          "name_markdown": "[Doshin the Giant](https://github.com/break-core/doshin-gc)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Doshin_the_Giant.gamecover.amazon.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/break-core/doshin-gc"
+            }
+          ]
+        },
+        {
+          "project": "dobutsu-no-mori-e",
+          "name_markdown": "[Dōbutsu no Mori e+](https://github.com/acreteam/afe-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/8/83/D%C5%8Dbutsu_no_Mori_e_%28GC%29_%28JP%29.jpg/revision/latest?cb=20230228004425&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/acreteam/afe-decomp"
+            }
+          ]
+        },
+        {
+          "project": "harvest-moon-a-wonderful-life",
+          "name_markdown": "[Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/59/Harvest_Moon_-_A_Wonderful_Life_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ChrisNonyminus/hmawl"
+            }
+          ]
+        },
+        {
+          "project": "homeland",
+          "name_markdown": "[Homeland](https://github.com/bttrdrgn/homeland)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/49/Homeland_GC.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bttrdrgn/homeland"
+            }
+          ]
+        },
+        {
+          "project": "kirby-air-ride",
+          "name_markdown": "[Kirby Air Ride](https://github.com/doldecomp/kar)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/kar"
+            }
+          ]
+        },
+        {
+          "project": "luigi-s-mansion",
+          "name_markdown": "[Luigi's Mansion](https://github.com/sage-of-mirrors/zmansion)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/7/77/Luigis_Mansion_%28NA%29.jpg/revision/latest?cb=20110824160012&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sage-of-mirrors/zmansion"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-double-dash",
+          "name_markdown": "[Mario Kart: Double Dash!!](https://github.com/doldecomp/mkdd)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 42,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/mkdd"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-4",
+          "name_markdown": "[Mario Party 4](https://github.com/mariopartyrd/marioparty4)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Partyboard",
+              "url": "https://github.com/mariopartyrd/partyboard",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android",
+                "iOS"
+              ],
+              "description_markdown": "Native Mario Party 4 port based on the decompilation.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty4"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-5",
+          "name_markdown": "[Mario Party 5](https://github.com/mariopartyrd/marioparty5)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 16,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty5"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-6",
+          "name_markdown": "[Mario Party 6](https://github.com/mariopartyrd/marioparty6)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty6"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-7",
+          "name_markdown": "[Mario Party 7](https://github.com/mariopartyrd/marioparty7)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/60/Mario_Party_7_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mariopartyrd/marioparty7"
+            }
+          ]
+        },
+        {
+          "project": "mario-superstar-baseball",
+          "name_markdown": "[Mario Superstar Baseball](https://github.com/roeming/mssb-dtk)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 9,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/roeming/mssb-dtk"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime",
+          "name_markdown": "[Metroid Prime](https://github.com/PrimeDecomp/prime)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 24,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Metaforce",
+              "url": "https://github.com/AxioDL/metaforce",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Requires compatible GameCube Metroid Prime data.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            },
+            {
+              "name": "Metroid Prime Port",
+              "url": "https://github.com/Odrannnn/MetroidPrimePort",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "Android"
+              ],
+              "description_markdown": "Native port built from the Prime decompilation.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/PrimeDecomp/prime"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime-2-echoes",
+          "name_markdown": "[Metroid Prime 2: Echoes](https://github.com/PrimeDecomp/echoes)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/Echoesboxart_%28Large%29.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/PrimeDecomp/echoes"
+            }
+          ]
+        },
+        {
+          "project": "need-for-speed-most-wanted",
+          "name_markdown": "[Need for Speed: Most Wanted](https://github.com/dbalatoni13/nfsmw)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/7/73/Need_for_Speed_Most_Wanted_%28GC%29_%28NA%29.jpg/revision/latest?cb=20200820062015&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 1,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dbalatoni13/nfsmw"
+            }
+          ]
+        },
+        {
+          "project": "need-for-speed-underground",
+          "name_markdown": "[Need for Speed: Underground](https://github.com/dbalatoni13/nfsug)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/c/c1/Need_For_Speed_Underground_%28GC%29_%28NA%29.jpg/revision/latest?cb=20150213050318&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dbalatoni13/nfsug"
+            }
+          ]
+        },
+        {
+          "project": "naruto-gekito-ninja-taisen-4",
+          "name_markdown": "[Naruto: Gekitō Ninja Taisen! 4](https://github.com/doldecomp/gnt4)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/naruto/images/d/de/Clash_4.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/gnt4"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-the-thousand-year-door",
+          "name_markdown": "[Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/b/b6/Paper_Mario_The_Thousand_Year_Door_%28NA%29.png/revision/latest?cb=20120523040020&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 14,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/ttyd"
+            }
+          ]
+        },
+        {
+          "project": "pikmin",
+          "name_markdown": "[Pikmin](https://github.com/projectPiki/pikmin)",
+          "images": [
+            {
+              "alt": "Pikmin box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pikmin%20(USA).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 99,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Open Nectar",
+              "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port",
+              "platforms": [
+                "PC",
+                "Android"
+              ],
+              "description_markdown": "Experimental native port based on projectPiki/pikmin for Windows, Linux and Android.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/projectPiki/pikmin"
+            }
+          ]
+        },
+        {
+          "project": "pikmin-2",
+          "name_markdown": "[Pikmin 2](https://github.com/projectPiki/pikmin2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 86,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/projectPiki/pikmin2"
+            }
+          ]
+        },
+        {
+          "project": "ratatouille",
+          "name_markdown": "[Ratatouille](https://github.com/zounadecomp/ratdecomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/b/b7/Ratatouille_GC.jpg/revision/latest?cb=20190824004133&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 2,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zounadecomp/ratdecomp"
+            }
+          ]
+        },
+        {
+          "project": "skies-of-arcadia-legends",
+          "name_markdown": "[Skies of Arcadia Legends](https://github.com/rainchus/skiesofarcadialegends)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/2/20/Skies_of_Arcadia_Legends_box.jpg/revision/latest?cb=20140709200349&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rainchus/skiesofarcadialegends"
+            }
+          ]
+        },
+        {
+          "project": "sonic-adventure-dx",
+          "name_markdown": "[Sonic Adventure DX](https://github.com/doldecomp/sadx)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/it/7/7a/Sonic_Adventure_DX_Director%27s_Cut_logo.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/sadx"
+            }
+          ]
+        },
+        {
+          "project": "sonic-riders",
+          "name_markdown": "[Sonic Riders](https://github.com/doldecomp/sonicriders)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Sonic_Riders_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/sonicriders"
+            }
+          ]
+        },
+        {
+          "project": "spongebob-squarepants-battle-for-bikini-bottom",
+          "name_markdown": "[SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 35,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bfbbdecomp/bfbb"
+            }
+          ]
+        },
+        {
+          "project": "star-fox-adventures",
+          "name_markdown": "[Star Fox Adventures](https://github.com/renakunisaki/sfadebug)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/9/9c/Star_Fox_Adventures_%28NA%29.jpg/revision/latest?cb=20120404131112&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/renakunisaki/sfadebug"
+            }
+          ]
+        },
+        {
+          "project": "summoner-a-goddess-reborn",
+          "name_markdown": "[Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/d/d7/Summoner_A_Goddess_Reborn_%28GC%29_%28NA%29.jpg/revision/latest?cb=20251008223123&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 10,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Charlese2/sgr"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-strikers",
+          "name_markdown": "[Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 21,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Strikers",
+              "url": "https://github.com/new-coke/strikers",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native multi-platform port of the GameCube game.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/yannicksuter/smstrikers-decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-sunshine",
+          "name_markdown": "[Super Mario Sunshine](https://github.com/doldecomp/sms)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 25,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "sms-port (chasem-dev)",
+              "url": "https://github.com/chasem-dev/sms-pc-port",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Native port based on the GMSE01 matching decompilation; requires a user-owned North American Rev 0 disc image. Linux and macOS builds are documented as playing; Windows native runtime checks and stage-by-stage testing of 64-bit builds remain ongoing.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SunPad",
+              "url": "https://github.com/chrissotraidis/sunpad",
+              "platforms": [
+                "iOS",
+                "iPadOS"
+              ],
+              "description_markdown": "Experimental preview; tvOS is experimental and macOS is configured rather than confirmed playable.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/sms"
+            }
+          ]
+        },
+        {
+          "project": "super-monkey-ball",
+          "name_markdown": "[Super Monkey Ball](https://github.com/camthesaxman/smb-decomp/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Super_Monkey_Ball_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 59,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/camthesaxman/smb-decomp/"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-melee",
+          "name_markdown": "[Super Smash Bros. Melee](https://github.com/doldecomp/melee)",
+          "images": [
+            {
+              "alt": "Super Smash Bros. Melee box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20(USA)%20(En%2CJa)%20(Rev%202).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 47,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "melee-pc",
+              "url": "https://github.com/999sian/melee-pc",
+              "platforms": [
+                "PC",
+                "Android",
+                "iOS",
+                "Browser"
+              ],
+              "description_markdown": "Beta native port based on doldecomp/melee and aurora. macOS, iOS and browser support have documented limitations.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Melee-X",
+              "url": "https://github.com/TechProGabe/Melee-X",
+              "platforms": [
+                "Xbox"
+              ],
+              "description_markdown": "Decompilation-based original Xbox port; frame rate varies by stage and development continues.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/melee"
+            }
+          ]
+        },
+        {
+          "project": "the-incredibles",
+          "name_markdown": "[The Incredibles](https://github.com/seilweiss/incredibles)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Incredibles_%282004_video_game%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/seilweiss/incredibles"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-the-wind-waker",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker box art (Nintendo GameCube)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20(USA).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 56,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "BlueWake",
+              "url": "https://github.com/chrissotraidis/bluewake",
+              "platforms": [
+                "PC",
+                "iOS",
+                "tvOS"
+              ],
+              "description_markdown": "GameCube static recompilation for Windows, Linux, macOS, iPhone and iPad; tvOS is experimental. [Wind Waker Recomp](https://github.com/elliotttate/Wind-Waker-Recomp) has merged into this project.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/tww"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-twilight-princess",
+          "name_markdown": "[The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Completed",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "DuskLight",
+              "url": "https://github.com/TwilitRealm/dusk",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Native PC port.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Dusklight",
+              "url": "https://github.com/TwilitRealm/dusklight",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "Reverse-engineered reimplementation requiring original game data; hardware compatibility varies.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/tp"
+            }
+          ]
+        },
+        {
+          "project": "the-spongebob-squarepants-movie",
+          "name_markdown": "[The SpongeBob SquarePants Movie](https://github.com/bfbbdecomp/tssm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/a/a1/The_SpongeBob_SquarePants_Movie_GameCube.jpg/revision/latest?cb=20210822125016&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 5,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bfbbdecomp/tssm"
+            }
+          ]
+        },
+        {
+          "project": "ty-the-tasmanian-tiger",
+          "name_markdown": "[Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nintendo/images/c/c9/Ty_the_Tasmanian_Tiger_Box_Art_NA.jpg/revision/latest?cb=20200406031238&path-prefix=en",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": 24,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/1superchip/ty-decomp"
+            }
+          ]
+        },
+        {
+          "project": "crash-tag-team-racing",
+          "name_markdown": "[Crash Tag Team Racing](https://github.com/bluisblu/cttr)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Crash%20Tag%20Team%20Racing%20%28USA%29.png",
+              "alt": "Crash Tag Team Racing box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bluisblu/cttr"
+            }
+          ]
+        },
+        {
+          "project": "piglet-s-big-game",
+          "name_markdown": "[Piglet's Big Game](https://github.com/tgsm/pbg)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Disney%27s%20Piglet%27s%20Big%20Game%20%28USA%29.png",
+              "alt": "Piglet's Big Game box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/tgsm/pbg"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-xd-gale-of-darkness",
+          "name_markdown": "[Pokemon XD: Gale of Darkness](https://github.com/TeamOrre/xd-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pokemon%20XD%20-%20Gale%20of%20Darkness%20%28USA%29.png",
+              "alt": "Pokemon XD: Gale of Darkness box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TeamOrre/xd-decomp"
+            }
+          ]
+        },
+        {
+          "project": "star-fox-adventures-retail",
+          "name_markdown": "[Star Fox Adventures (Retail)](https://github.com/zcanann/SFA-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Star%20Fox%20Adventures%20%28USA%29.png",
+              "alt": "Star Fox Adventures (Retail) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Foxhollow",
+              "url": "https://github.com/JackPriceBurns/foxhollow",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS"
+              ],
+              "description_markdown": "Built from the SFA decompilation; no mobile releases are planned despite underlying framework support.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zcanann/SFA-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-sims-2",
+          "name_markdown": "[The Sims 2](https://github.com/natebag/Sims2DECOMP)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Sims%202%2C%20The%20%28USA%29.png",
+              "alt": "The Sims 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/natebag/Sims2DECOMP"
+            }
+          ]
+        },
+        {
+          "project": "wario-world",
+          "name_markdown": "[Wario World](https://github.com/sabishii-bit/wwdcmp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Wario%20World%20%28USA%29.png",
+              "alt": "Wario World box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sabishii-bit/wwdcmp"
+            }
+          ]
+        },
+        {
+          "project": "nintendo-puzzle-collection-dr-mario-64",
+          "name_markdown": "[Nintendo Puzzle Collection - Dr. Mario 64](https://github.com/NewGBAXL/drmario64-gc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Nintendo%20Puzzle%20Collection%20%28Japan%29.png",
+              "alt": "Nintendo Puzzle Collection - Dr. Mario 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/NewGBAXL/drmario64-gc"
+            }
+          ]
+        },
+        {
+          "project": "amazing-island",
+          "name_markdown": "[Amazing Island](https://github.com/EltaleLibrarian/Amazing)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Amazing%20Island%20%28USA%29.png",
+              "alt": "Amazing Island box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/EltaleLibrarian/Amazing"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-2",
+          "name_markdown": "[Dragon Ball Z: Budokai 2](https://github.com/TotallyNotMichael-GH/dbz2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%202%20%28USA%29.png",
+              "alt": "Dragon Ball Z: Budokai 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TotallyNotMichael-GH/dbz2"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-crystal-chronicles",
+          "name_markdown": "[Final Fantasy Crystal Chronicles](https://github.com/zcanann/FFCC-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Final%20Fantasy%20Crystal%20Chronicles%20%28USA%29.png",
+              "alt": "Final Fantasy Crystal Chronicles box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zcanann/FFCC-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "freedom-fighters",
+          "name_markdown": "[Freedom Fighters](https://github.com/andresj-sanchez/frfi-decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5f/Freedom_Fighters_%28video_game_cover_art%29.jpg/250px-Freedom_Fighters_%28video_game_cover_art%29.jpg",
+              "alt": "Freedom Fighters cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/andresj-sanchez/frfi-decomp"
+            }
+          ]
+        },
+        {
+          "project": "gauntlet-dark-legacy",
+          "name_markdown": "[Gauntlet Dark Legacy](https://github.com/sabishii-bit/Gauntlet-Dark-Legacy-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Gauntlet%20-%20Dark%20Legacy%20%28USA%29.png",
+              "alt": "Gauntlet Dark Legacy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sabishii-bit/Gauntlet-Dark-Legacy-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "the-lord-of-the-rings-return-of-the-king",
+          "name_markdown": "[The Lord of the Rings: Return of the King](https://github.com/crimsonmagick/lotr-rotk)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Return%20of%20the%20King%20%28USA%29.png",
+              "alt": "The Lord of the Rings: Return of the King box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/crimsonmagick/lotr-rotk"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-4",
+          "name_markdown": "[Digimon World 4](https://github.com/ivanno4317/dw4-gc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Digimon%20World%204%20%28USA%29.png",
+              "alt": "Digimon World 4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ivanno4317/dw4-gc"
+            }
+          ]
+        },
+        {
+          "project": "eternal-darkness-sanity-s-requiem",
+          "name_markdown": "[Eternal Darkness: Sanity's Requiem](https://github.com/PattyTrish/unending-occlusion)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Eternal%20Darkness%20-%20Sanity%27s%20Requiem%20%28USA%29.png",
+              "alt": "Eternal Darkness: Sanity's Requiem box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/PattyTrish/unending-occlusion"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-gx-karamzov123",
+          "name_markdown": "[F-Zero GX (karamzov123)](https://github.com/karamzov123/fzero-gx-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/F-Zero%20GX%20%28USA%29.png",
+              "alt": "F-Zero GX (karamzov123) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/karamzov123/fzero-gx-decomp"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-gx-rayanht",
+          "name_markdown": "[F-Zero GX (rayanht)](https://github.com/rayanht/fzgx)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/F-Zero%20GX%20%28USA%29.png",
+              "alt": "F-Zero GX (rayanht) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rayanht/fzgx"
+            }
+          ]
+        },
+        {
+          "project": "metal-gear-solid-the-twin-snakes",
+          "name_markdown": "[Metal Gear Solid: The Twin Snakes](https://github.com/GirianSeed/mgstts)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Metal%20Gear%20Solid_%20The%20Twin%20Snakes%20%28USA%29.png",
+              "alt": "Metal Gear Solid: The Twin Snakes box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GirianSeed/mgstts"
+            }
+          ]
+        },
+        {
+          "project": "mortal-kombat-deception",
+          "name_markdown": "[Mortal Kombat: Deception](https://github.com/ShulkMaster/mk-deception)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Mortal%20Kombat%20-%20Deception%20%28USA%29.png",
+              "alt": "Mortal Kombat: Deception box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ShulkMaster/mk-deception"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-4-gamecube-debug-build",
+          "name_markdown": "[Resident Evil 4 (GameCube debug build)](https://github.com/adonis-singh/re4)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Resident%20Evil%204%20%28USA%29.png",
+              "alt": "Resident Evil 4 (GameCube debug build) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Targets GameCube G4BE08 debug code, rather than the retail executable. Retail cover shown for identification.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/adonis-singh/re4"
+            }
+          ]
+        },
+        {
+          "project": "sonic-adventure-2-battle",
+          "name_markdown": "[Sonic Adventure 2: Battle](https://github.com/roeming/SA2B)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Sonic%20Adventure%202_%20Battle%20%28USA%29.png",
+              "alt": "Sonic Adventure 2: Battle box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/roeming/SA2B"
+            }
+          ]
+        },
+        {
+          "project": "sonic-heroes",
+          "name_markdown": "[Sonic Heroes](https://github.com/Jovinull/sonicheroes)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Sonic%20Heroes%20%28USA%29.png",
+              "alt": "Sonic Heroes box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Jovinull/sonicheroes"
+            }
+          ]
+        },
+        {
+          "project": "tiger-woods-pga-tour-2004",
+          "name_markdown": "[Tiger Woods PGA Tour 2004](https://github.com/mitsevox/tw2004)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Tiger%20Woods%20PGA%20Tour%202004%20%28USA%29.png",
+              "alt": "Tiger Woods PGA Tour 2004 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mitsevox/tw2004"
+            }
+          ]
+        },
+        {
+          "project": "medal-of-honor-frontline",
+          "name_markdown": "[Medal of Honor: Frontline](https://github.com/kyleckroeger/moh-frontline-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Medal%20of%20Honor%20-%20Frontline%20%28USA%29.png",
+              "alt": "Medal of Honor: Frontline box art for Nintendo GameCube",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA GameCube release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kyleckroeger/moh-frontline-decomp"
+            }
+          ]
+        },
+        {
+          "project": "medal-of-honor-rising-sun",
+          "name_markdown": "[Medal of Honor: Rising Sun](https://github.com/lifewillbeokay/moh-rising-sun)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Medal%20of%20Honor_%20Rising%20Sun%20%28USA%29.png",
+              "alt": "Medal of Honor: Rising Sun box art for Nintendo GameCube",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early matching decompilation of the USA GameCube release.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lifewillbeokay/moh-rising-sun"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

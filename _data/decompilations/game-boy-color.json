@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "dragon-warrior-monsters-german": {
+      "name": "Dragon Warrior Monsters (German)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Ebernacher90/DragonQuestMonstersGerman",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2020-05-31T22:34:38Z",
+        "last_commit_url": "https://github.com/Ebernacher90/DragonQuestMonstersGerman/commit/d164096f7136ea2c17f4d9e8eddfc27aae5e9b21",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "looney-tunes-carrot-crazy": {
+      "name": "Looney Tunes: Carrot Crazy",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/huderlem/carrotcrazy",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-29T14:01:48Z",
+        "last_commit_url": "https://github.com/huderlem/carrotcrazy/commit/d4b18699b135214971be1985b22169a1845c9f22",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-gold-silver": {
+      "name": "Pokemon Gold & Silver",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/pokegold",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T17:47:13Z",
+        "last_commit_url": "https://github.com/pret/pokegold/commit/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-crystal": {
+      "name": "Pokemon Crystal",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/pokecrystal",
+      "project_type": "Disassembly / C port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T17:48:07Z",
+        "last_commit_url": "https://github.com/pret/pokecrystal/commit/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "suicune": {
+      "name": "suiCune",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/DanZC/suiCune",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-13T22:09:33Z",
+        "last_commit_url": "https://github.com/DanZC/suiCune/commit/5340086aea81bbbce725200f9cfa076df39ce82e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-pinball": {
+      "name": "Pokemon Pinball",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/pokepinball",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T00:35:18Z",
+        "last_commit_url": "https://github.com/pret/pokepinball/commit/0a6f6dca71548a726e6808250b303d9e97a8e2f8",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-trading-card-game": {
+      "name": "Pokemon Trading Card Game",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/poketcg",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T17:50:40Z",
+        "last_commit_url": "https://github.com/pret/poketcg/commit/2d81ec3cbff4ebb2fd3f1f770ba245227a702ead",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-puzzle-challenge": {
+      "name": "Pokémon Puzzle Challenge",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/pokepuzzle",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-22T18:19:56Z",
+        "last_commit_url": "https://github.com/pret/pokepuzzle/commit/529e4c96255cdda93c8fa6eb40e5ee15cf56f674",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "wario-land-3": {
+      "name": "Wario Land 3",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/froggestspirit/wland3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2020-08-20T15:09:07Z",
+        "last_commit_url": "https://github.com/froggestspirit/wland3/commit/29f1df63322efc635074c532e335896edf630515",
+        "archived": true,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "the-legend-of-zelda-links-awakening-dx": {
+      "name": "The Legend of Zelda Links Awakening DX",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/zladx/LADX-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-25T18:50:29Z",
+        "last_commit_url": "https://github.com/zladx/LADX-Disassembly/commit/2a5c2c0d6df93a54df81ae9e1fe28b5c2fd60d03",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda-oracle-of-ages-seasons": {
+      "name": "The Legend of Zelda Oracle of Ages & Seasons",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Drenn1/oracles-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-02T01:43:28Z",
+        "last_commit_url": "https://github.com/Stewmath/oracles-disasm/commit/21c924afdc8a13225e849214479d5113da2ec226",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "pokemon-tcg-2": {
+      "name": "Pokemon TCG 2",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/pret/poketcg2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-06T17:54:21Z",
+        "last_commit_url": "https://github.com/pret/poketcg2/commit/228394aadcd03230382cde89af6764f0601d937a",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "dragon-warrior-monsters": {
+      "name": "Dragon Warrior Monsters",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/NiyaDev/DWM",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-02T08:09:19Z",
+        "last_commit_url": "https://github.com/NiyaDev/DWM/commit/e5d0c57fce9288e2625b585aafa6ea390206e308",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "star-ocean-blue-sphere": {
+      "name": "Star Ocean: Blue Sphere",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/animaone/star-ocean-blue-sphere-source-code",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-10-08T13:21:19Z",
+        "last_commit_url": "https://github.com/animaone/star-ocean-blue-sphere-source-code/commit/6683fa8ed2448ca8dedc30d21198d6f7e593e1b0",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {
+    "game-boy-color": {
+      "name": "Game Boy Color",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "dragon-warrior-monsters-german",
+          "name_markdown": "[Dragon Warrior Monsters (German)](https://github.com/Ebernacher90/DragonQuestMonstersGerman)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d7/Dragonwarrior1.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Ebernacher90/DragonQuestMonstersGerman"
+            }
+          ]
+        },
+        {
+          "project": "looney-tunes-carrot-crazy",
+          "name_markdown": "[Looney Tunes: Carrot Crazy](https://github.com/huderlem/carrotcrazy)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Looney_Tunes_Carrot_Crazy.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/huderlem/carrotcrazy"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-gold-silver",
+          "name_markdown": "[Pokemon Gold & Silver](https://github.com/pret/pokegold)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokegold"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-crystal",
+          "name_markdown": "[Pokemon Crystal](https://github.com/pret/pokecrystal)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "suiCune",
+              "url": "https://github.com/DanZC/suiCune",
+              "platforms": [],
+              "description_markdown": "Native port written in C.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokecrystal"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-pinball",
+          "name_markdown": "[Pokemon Pinball](https://github.com/pret/pokepinball)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokepinball"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-trading-card-game",
+          "name_markdown": "[Pokemon Trading Card Game](https://github.com/pret/poketcg)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/poketcg"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-puzzle-challenge",
+          "name_markdown": "[Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokepuzzle"
+            }
+          ]
+        },
+        {
+          "project": "wario-land-3",
+          "name_markdown": "[Wario Land 3](https://github.com/froggestspirit/wland3)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/froggestspirit/wland3"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-links-awakening-dx",
+          "name_markdown": "[The Legend of Zelda Links Awakening DX](https://github.com/zladx/LADX-Disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/zladx/LADX-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-oracle-of-ages-seasons",
+          "name_markdown": "[The Legend of Zelda Oracle of Ages & Seasons](https://github.com/Drenn1/oracles-disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Drenn1/oracles-disasm"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-tcg-2",
+          "name_markdown": "[Pokemon TCG 2](https://github.com/pret/poketcg2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Card%20GB%202%20-%20GR%20Dan%20Sanjou%21%20%28Japan%29.png",
+              "alt": "Pokemon TCG 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/poketcg2"
+            }
+          ]
+        },
+        {
+          "project": "dragon-warrior-monsters",
+          "name_markdown": "[Dragon Warrior Monsters](https://github.com/NiyaDev/DWM)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Dragon%20Warrior%20Monsters%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
+              "alt": "Dragon Warrior Monsters box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/NiyaDev/DWM"
+            }
+          ]
+        },
+        {
+          "project": "star-ocean-blue-sphere",
+          "name_markdown": "[Star Ocean: Blue Sphere](https://github.com/animaone/star-ocean-blue-sphere-source-code)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Star%20Ocean%20-%20Blue%20Sphere%20%28Japan%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
+              "alt": "Star Ocean: Blue Sphere box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/animaone/star-ocean-blue-sphere-source-code"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "a-work-in-progress-split-disassembly-of-sonic-the-hedgehog-on-the-sega-game-gear": {
+      "name": "A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear",
+      "platforms": [
+        "Sonic 1"
+      ],
+      "repository_url": "https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2019-07-12T21:22:19Z",
+        "last_commit_url": "https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly/commit/01c2e9111cf1222892bee2a7d6cb8fa73d01bf04",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {}
+}

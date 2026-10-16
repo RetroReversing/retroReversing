@@ -1,0 +1,1674 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "rexglue-sdk": {
+      "name": "ReXGlue SDK",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/rexglue/rexglue-sdk",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-21T22:11:28Z",
+        "last_commit_url": "https://github.com/rexglue/rexglue-sdk/commit/c94f5ebdcb3c9d1a460ca48e04f9758448f8d518",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "blue-dragon": {
+      "name": "Blue Dragon",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/zolaware/reblue",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T13:58:02Z",
+        "last_commit_url": "https://github.com/zolaware/reblue/commit/85aae686489dff775890fb8100ab525d7b7427b0",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "condemned-2-bloodshot": {
+      "name": "Condemned 2: Bloodshot",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/psxrestore/Condemned2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T12:42:13Z",
+        "last_commit_url": "https://github.com/psxrestore/Condemned2Recomp/commit/6746f72429409241327d98fa4466248d8cb64918",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "destroy-all-humans-path-of-the-furon": {
+      "name": "Destroy All Humans! Path of the Furon",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/masterspike52/reDAHM",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-21T09:26:41Z",
+        "last_commit_url": "https://github.com/masterspike52/reDAHM/commit/b1a326869113fb17045f1bf11f396adfcd59f727",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "dragon-ball-z-budokai-hd": {
+      "name": "Dragon Ball Z: Budokai HD",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/WistfulHopes/DBZ1",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-20T10:43:09Z",
+        "last_commit_url": "https://github.com/WistfulHopes/DBZ1/commit/1c88aaf9f1360400ec93384dc0b1f5ec5951dc88",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "eternal-sonata": {
+      "name": "Eternal Sonata",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/birabittoh/EternalSonataReprise",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-01T20:19:25Z",
+        "last_commit_url": "https://github.com/birabittoh/EternalSonataReprise/commit/bf3895384604de5010b5cfc639ed58308f09592c",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "kameo-elements-of-power": {
+      "name": "Kameo: Elements of Power",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/birabittoh/KameoRePowered",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-28T22:26:32Z",
+        "last_commit_url": "https://github.com/birabittoh/KameoRePowered/commit/424887fa04a6c08e3d0ccf00aafa2734c9ec3a33",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "lollipop-chainsaw": {
+      "name": "Lollipop Chainsaw",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/MaxDeadBear/Re-Cherry",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-04-01T06:54:16Z",
+        "last_commit_url": "https://github.com/MaxDeadBear/Re-Cherry/commit/4f8f82028c02e25a32402b4de96f9c23e2f3b7c5",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "midnight-club-los-angeles": {
+      "name": "Midnight Club: Los Angeles",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/mzzvxm/larecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-05T20:41:07Z",
+        "last_commit_url": "https://github.com/mzzvxm/LARecomp/commit/23b91be1c52830dfbf67bafb94766a1805258c8b",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "naughty-bear": {
+      "name": "Naughty Bear",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/MaxDeadBear/NaughtyBear_ReStuff",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-10T21:55:46Z",
+        "last_commit_url": "https://github.com/MaxDeadBear/NaughtyBear_ReStuff/commit/6b269c1728f77a843201c6cff505998b5b79ef87",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "sonic-the-hedgehog-2006": {
+      "name": "Sonic the Hedgehog (2006)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/sonicnext-dev/MarathonRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T14:26:21Z",
+        "last_commit_url": "https://github.com/sonicnext-dev/MarathonRecomp/commit/063c7e79389d704e24302053fceda8ca5d2ef745",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "sonic-unleashed": {
+      "name": "Sonic Unleashed",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/hedge-dev/UnleashedRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-29T11:05:43Z",
+        "last_commit_url": "https://github.com/hedge-dev/UnleashedRecomp/commit/cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "spider-man-edge-of-time": {
+      "name": "Spider-Man: Edge of Time",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-08T17:50:30Z",
+        "last_commit_url": "https://github.com/goliathret/EdgeOfTimeRecomp/commit/340144e4c7979a9f46699bef368fe7d7c62fddc9",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "terraria": {
+      "name": "Terraria",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/dptug/TerrariaXDK",
+      "project_type": "C# decompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-15T12:11:57Z",
+        "last_commit_url": "https://github.com/dptug/TerrariaXDK/commit/c212d3c630fa2517e1e3c601cc328de88409ce0b",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "master"
+      }
+    },
+    "viva-pinata-trouble-in-paradise": {
+      "name": "Viva Pinata: Trouble in Paradise",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/SolarCookies/TiP-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-03T01:10:20Z",
+        "last_commit_url": "https://github.com/SolarCookies/TiP-Recomp/commit/be5e91c8a83da21d976902962c61688c849cf29d",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "archived": false,
+        "status": "Active",
+        "default_branch": "main"
+      }
+    },
+    "infinite-undiscovery-recomp": {
+      "name": "Infinite Undiscovery",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/doc-haz/infinite-undiscovery-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-07T02:48:59Z",
+        "last_commit_url": "https://github.com/doc-haz/infinite-undiscovery-recomp/commit/614a0a0ebd72103fce8aaa52c715d847b703a53e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-darkness-estacado": {
+      "name": "The Darkness",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T13:14:41Z",
+        "last_commit_url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp/commit/b5603ac4202b4a8083c4f1476cd5fa258e93f133",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "fifa-street-2012-restreet": {
+      "name": "FIFA Street (2012)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/samuelit0davila/fifa-street-pc-port",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-14T01:09:07Z",
+        "last_commit_url": "https://github.com/samuelit0davila/fifa-street-pc-port/commit/df5f8efa4152dd0c94fe05c5121dbd1ac37b464b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "ace-combat-6-fires-of-liberation": {
+      "name": "Ace Combat 6: Fires of Liberation",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/sal063/AC6_recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-22T15:46:30Z",
+        "last_commit_url": "https://github.com/sal063/AC6_recomp/commit/09144bb092ad871584808aeead69c395edbd5200",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "banjo-kazooie-nuts-and-bolts": {
+      "name": "Banjo-Kazooie Nuts and Bolts",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/masterspike52/reNut",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-14T13:26:01Z",
+        "last_commit_url": "https://github.com/masterspike52/reNut/commit/fcdc8ba470879e704250cdb56b1fc90f8e3e1944",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "crackdown": {
+      "name": "Crackdown",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/SkiddyToast/Crackdown",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-03-04T03:50:25Z",
+        "last_commit_url": "https://github.com/SkiddyToast/Crackdown/commit/1b89e0f0ece75178a97bbf9fef210764bfe1d4f2",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "crackdown-2": {
+      "name": "Crackdown 2",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/matty45/Crackdown2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-07T23:14:51Z",
+        "last_commit_url": "https://github.com/matty45/Crackdown2-Recomp/commit/589d8ce85b8a06ea87157d8ec07a7642bbeb4997",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "dance-central-3": {
+      "name": "Dance Central 3",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/rjkiv/dc3-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T17:28:18Z",
+        "last_commit_url": "https://github.com/rjkiv/dc3-decomp/commit/766545a800f62a84388223ebfd6f1ff5f7331ec9",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "dead-or-alive-xtreme-2": {
+      "name": "Dead or Alive Xtreme 2",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/Revan67/DOAX2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-09T08:38:18Z",
+        "last_commit_url": "https://github.com/Revan67/DOAX2-Recomp/commit/7664e2d7bdda7b7f202f16caf5806efceb761e17",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "halo-reach": {
+      "name": "Halo Reach",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/ChimpsAtSea/Reach",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-31T02:37:18Z",
+        "last_commit_url": "https://github.com/ChimpsAtSea/Reach/commit/8723dc3d051a29675e00ffe3f8eebf355a30a702",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "rock-band-3-xbox-360": {
+      "name": "Rock Band 3 (Xbox 360)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/ihatecompvir/band3_recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-02T16:50:03Z",
+        "last_commit_url": "https://github.com/ihatecompvir/band3_recomp/commit/0a04c13567470c53083b3271269099f30dd0e6dc",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "rumble-roses-xx": {
+      "name": "Rumble Roses XX",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/Revan67/RumbleRosesXX-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-27T06:07:02Z",
+        "last_commit_url": "https://github.com/Revan67/RumbleRosesXX-Recomp/commit/c5037d52ac75f42958ea8588c41e0ff2a49dfdc2",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-06-demo": {
+      "name": "Sonic 06 Demo",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/PranchaD/re-Sonic06Demo",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-26T20:07:18Z",
+        "last_commit_url": "https://github.com/PranchaD/re-Sonic06Demo/commit/4b78cc0246a75ff463aa7ac08531acec1a5b8092",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "deadly-premonition-recomp": {
+      "name": "Deadly Premonition (Recomp)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/LittleBitUA/DPRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-03T19:31:56Z",
+        "last_commit_url": "https://github.com/LittleBitUA/DPRecomp/commit/e0624129c06b9437aa0278b58f2f3eb954192aec",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "kinect-sports": {
+      "name": "Kinect Sports",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/SebaaMG/Kinect-Sports-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-30T09:10:54Z",
+        "last_commit_url": "https://github.com/SebaaMG/Kinect-Sports-Decomp/commit/540b8e38e28bd0144f590d566151ebb96526f687",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "project-gotham-racing-4-recomp": {
+      "name": "Project Gotham Racing 4 (Recomp)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/beatrixzy/PGR4-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-12T16:51:22Z",
+        "last_commit_url": "https://github.com/beatrixzy/PGR4-Recomp/commit/cea62247cc510984419ca14ad33c4b98cd9d6c5b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "saw-ii-flesh-blood": {
+      "name": "Saw II: Flesh & Blood",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/ant0-blase/Saw2-X360-ReXGlue",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-25T00:22:00Z",
+        "last_commit_url": "https://github.com/ant0-blase/Saw2-X360-ReXGlue/commit/ca28b92622f945892fc4203f42f97e81c9ace975",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-the-hedgehog-2006-rjkiv": {
+      "name": "Sonic the Hedgehog (2006)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/rjkiv/sonic06",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-08-30T17:31:53Z",
+        "last_commit_url": "https://github.com/rjkiv/sonic06/commit/eb11705eabe94830001eb897877a1655a1144b1c",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-simpsons-game-recomp": {
+      "name": "The Simpsons Game (Recomp)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T21:15:48Z",
+        "last_commit_url": "https://github.com/YesterMester/TheSimpsonsGameRecomp/commit/4ff637bc47900c86f003a48ec3f5ab6cbefc55c6",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "lost-odyssey-recomp": {
+      "name": "Lost Odyssey",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T18:40:34Z",
+        "last_commit_url": "https://github.com/freefrank/LostOdysseyRecomp/commit/17dfc9685a2dfea19d448051994f7c44d01ecebe",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "modern-warfare-2-recompiled": {
+      "name": "Call of Duty: Modern Warfare 2",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/PaulCombal/mw2-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T13:18:55Z",
+        "last_commit_url": "https://github.com/PaulCombal/mw2-recompiled/commit/1d7171213c87b532039b234e61af29d94010262a",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    }
+  },
+  "consoles": {
+    "xbox-360": {
+      "name": "Xbox 360",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "blue-dragon",
+          "name_markdown": "[Blue Dragon](https://github.com/zolaware/reblue)",
+          "images": [
+            {
+              "alt": "Blue Dragon box art",
+              "url": "https://cdn.thegamesdb.net/images/original/boxart/front/105392-1.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Blue Dragon PC-port project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Blue Dragon",
+              "url": "https://github.com/zolaware/reblue",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/zolaware/reblue"
+            }
+          ]
+        },
+        {
+          "project": "condemned-2-bloodshot",
+          "name_markdown": "[Condemned 2: Bloodshot](https://github.com/psxrestore/Condemned2Recomp)",
+          "images": [
+            {
+              "alt": "Condemned 2: Bloodshot box art",
+              "url": "https://images.launchbox-app.com/3c1ff837-8c46-4a3e-a4e0-789a93b12477.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Condemned 2: Bloodshot native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Condemned 2: Bloodshot",
+              "url": "https://github.com/psxrestore/Condemned2Recomp",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/psxrestore/Condemned2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "destroy-all-humans-path-of-the-furon",
+          "name_markdown": "[Destroy All Humans! Path of the Furon](https://github.com/masterspike52/reDAHM)",
+          "images": [
+            {
+              "alt": "Destroy All Humans! Path of the Furon box art",
+              "url": "https://s.pacn.ws/1/p/7e/pa.133096.1.png?v=k3gwbt",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Destroy All Humans! Path of the Furon native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Destroy All Humans! Path of the Furon",
+              "url": "https://github.com/masterspike52/reDAHM",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/masterspike52/reDAHM"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-hd",
+          "name_markdown": "[Dragon Ball Z: Budokai HD](https://github.com/WistfulHopes/DBZ1)",
+          "images": [
+            {
+              "alt": "Dragon Ball Z: Budokai HD box art",
+              "url": "https://images.launchbox-app.com/8aad2f1b-afcd-4070-99ab-13a491e6de7b.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dragon Ball Z: Budokai HD native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Dragon Ball Z: Budokai HD",
+              "url": "https://github.com/WistfulHopes/DBZ1",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/WistfulHopes/DBZ1"
+            }
+          ]
+        },
+        {
+          "project": "eternal-sonata",
+          "name_markdown": "[Eternal Sonata](https://github.com/birabittoh/EternalSonataReprise)",
+          "images": [
+            {
+              "alt": "Eternal Sonata box art",
+              "url": "https://i.3djuegos.com/juegos/1853/eternal_sonata__trusty_bell_/fotos/ficha/eternal_sonata__trusty_bell_-1684586.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Eternal Sonata native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Eternal Sonata",
+              "url": "https://github.com/birabittoh/EternalSonataReprise",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/birabittoh/EternalSonataReprise"
+            }
+          ]
+        },
+        {
+          "project": "kameo-elements-of-power",
+          "name_markdown": "[Kameo: Elements of Power](https://github.com/birabittoh/KameoRePowered)",
+          "images": [
+            {
+              "alt": "Kameo: Elements of Power box art",
+              "url": "https://pnpdistribution.com/i/KAMEO-X3.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Kameo: Elements of Power native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Kameo: Elements of Power",
+              "url": "https://github.com/birabittoh/KameoRePowered",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/birabittoh/KameoRePowered"
+            }
+          ]
+        },
+        {
+          "project": "lollipop-chainsaw",
+          "name_markdown": "[Lollipop Chainsaw](https://github.com/MaxDeadBear/Re-Cherry)",
+          "images": [
+            {
+              "alt": "Lollipop Chainsaw box art",
+              "url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox%20360/Named_Boxarts/Lollipop%20Chainsaw%20%28Japan%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Lollipop Chainsaw native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Lollipop Chainsaw",
+              "url": "https://github.com/MaxDeadBear/Re-Cherry",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MaxDeadBear/Re-Cherry"
+            }
+          ]
+        },
+        {
+          "project": "midnight-club-los-angeles",
+          "name_markdown": "[Midnight Club: Los Angeles](https://github.com/mzzvxm/larecomp)",
+          "images": [
+            {
+              "alt": "Midnight Club: Los Angeles box art",
+              "url": "https://www.lukiegames.com/assets/images/Xbox-360/X360_MIDNIGHT_CLUB_LOS_ANGELES_COMPLET.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Midnight Club: Los Angeles (Complete Edition) native Windows port. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Midnight Club: Los Angeles",
+              "url": "https://github.com/mzzvxm/larecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Midnight Club Los Angeles Recompiled",
+              "url": "https://github.com/holdmysocks/mcla-recomp",
+              "platforms": [
+                "PC",
+                "PlayStation 5"
+              ],
+              "description_markdown": "Xbox 360 recompilation with a separate PS5 target.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mzzvxm/larecomp"
+            }
+          ]
+        },
+        {
+          "project": "naughty-bear",
+          "name_markdown": "[Naughty Bear](https://github.com/MaxDeadBear/NaughtyBear_ReStuff)",
+          "images": [
+            {
+              "alt": "Naughty Bear box art",
+              "url": "https://cdn.mobygames.com/covers/3483175-naughty-bear-xbox-360-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Naughty Bear native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Naughty Bear",
+              "url": "https://github.com/MaxDeadBear/NaughtyBear_ReStuff",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MaxDeadBear/NaughtyBear_ReStuff"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-2006",
+          "name_markdown": "[Sonic the Hedgehog (2006)](https://github.com/sonicnext-dev/MarathonRecomp)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog (2006) box art",
+              "url": "https://vglist.sfo2.digitaloceanspaces.com/iqdic0g3w3h2c5nx8wamyw8fcdjo",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Xbox 360 version of Sonic the Hedgehog (2006). Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sonicnext-dev/MarathonRecomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-unleashed",
+          "name_markdown": "[Sonic Unleashed](https://github.com/hedge-dev/UnleashedRecomp)",
+          "images": [
+            {
+              "alt": "Sonic Unleashed box art",
+              "url": "https://www.thevideogamecompany.com/cdn/shop/products/sonic-unleashed-microsoft-xbox-360-010086680294-cover-art.jpg?v=1661463165",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "hedge-dev has released UnleashedRecomp, a static recompilation tool that allows Sonic Unleashed to run natively on PC with performance enhancements and modding support.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Sonic Unleashed",
+              "url": "https://github.com/hedge-dev/UnleashedRecomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/hedge-dev/UnleashedRecomp"
+            }
+          ]
+        },
+        {
+          "project": "spider-man-edge-of-time",
+          "name_markdown": "[Spider-Man: Edge of Time](https://github.com/goliathret/EdgeOfTimeRecomp)",
+          "images": [
+            {
+              "alt": "Spider-Man: Edge of Time box art",
+              "url": "https://s.pacn.ws/1/p/b9/pa.202512.1.jpg?v=lpldl4",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Xbox 360 version of Spider-Man: Edge of Time. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Project 2099",
+              "url": "https://github.com/GenryTheFox0/Project-2099",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Known white-texture problems affect Intel GPUs.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/goliathret/EdgeOfTimeRecomp"
+            }
+          ]
+        },
+        {
+          "project": "terraria",
+          "name_markdown": "[Terraria](https://github.com/dptug/TerrariaXDK)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://cdn0.spong.com/pack/t/e/terraria409425l/_-Terraria-Xbox-360-_.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "C# decompilation",
+              "url": "https://github.com/dptug/TerrariaXDK"
+            }
+          ]
+        },
+        {
+          "project": "viva-pinata-trouble-in-paradise",
+          "name_markdown": "[Viva Pinata: Trouble in Paradise](https://github.com/SolarCookies/TiP-Recomp)",
+          "images": [
+            {
+              "alt": "Viva Pinata: Trouble in Paradise box art",
+              "url": "https://www.thevideogamecompany.com/cdn/shop/products/viva-pinata-trouble-in-paradise-microsoft-xbox-360-882224718561-cover-art.jpg?v=1661463747",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Viva Pinata: Trouble in Paradise native-port project. Uses static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Viva Pinata: Trouble in Paradise",
+              "url": "https://github.com/SolarCookies/TiP-Recomp",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SolarCookies/TiP-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "infinite-undiscovery-recomp",
+          "name_markdown": "[Infinite Undiscovery](https://github.com/doc-haz/infinite-undiscovery-recomp)",
+          "images": [
+            {
+              "alt": "Infinite Undiscovery box art (Xbox 360)",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/46/InfiniteUndiscoveryBoxart.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows x64 recompilation using ReXGlue / XenonRecomp. Release candidate; full-game validation is ongoing.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Infinite Undiscovery Recomp",
+              "url": "https://github.com/doc-haz/infinite-undiscovery-recomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/doc-haz/infinite-undiscovery-recomp"
+            }
+          ]
+        },
+        {
+          "project": "the-darkness-estacado",
+          "name_markdown": "[The Darkness](https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp)",
+          "images": [
+            {
+              "alt": "The Darkness box art",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Darkness_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Estacado is a Windows static recompilation using ReXGlue / XenonRecomp. Pre-release with limited hardware testing.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Estacado",
+              "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "The Darkness Recomp",
+              "url": "https://github.com/portingpete/The-Darkness-Recomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Separate Xbox 360 recompilation requiring original game files.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "fifa-street-2012-restreet",
+          "name_markdown": "[FIFA Street (2012)](https://github.com/samuelit0davila/fifa-street-pc-port)",
+          "images": [
+            {
+              "alt": "FIFA Street (2012) box art",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Fifa_street_2012.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "ReStreet is a Windows recompilation using ReXGlue. The project's v1.2 documentation specifies offline-only play.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "ReStreet",
+              "url": "https://github.com/samuelit0davila/fifa-street-pc-port",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/samuelit0davila/fifa-street-pc-port"
+            }
+          ]
+        },
+        {
+          "project": "ace-combat-6-fires-of-liberation",
+          "name_markdown": "[Ace Combat 6: Fires of Liberation](https://github.com/sal063/AC6_recomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/16/Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg/250px-Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg",
+              "alt": "Ace Combat 6: Fires of Liberation cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sal063/AC6_recomp"
+            }
+          ]
+        },
+        {
+          "project": "banjo-kazooie-nuts-and-bolts",
+          "name_markdown": "[Banjo-Kazooie Nuts and Bolts](https://github.com/masterspike52/reNut)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg/250px-Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg",
+              "alt": "Banjo-Kazooie Nuts and Bolts cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/masterspike52/reNut"
+            }
+          ]
+        },
+        {
+          "project": "crackdown",
+          "name_markdown": "[Crackdown](https://github.com/SkiddyToast/Crackdown)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/35/Crackdownfinalbox.jpg/250px-Crackdownfinalbox.jpg",
+              "alt": "Crackdown cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SkiddyToast/Crackdown"
+            }
+          ]
+        },
+        {
+          "project": "crackdown-2",
+          "name_markdown": "[Crackdown 2](https://github.com/matty45/Crackdown2-Recomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/31/Crackdown2Cover.jpg/250px-Crackdown2Cover.jpg",
+              "alt": "Crackdown 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/matty45/Crackdown2-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "dance-central-3",
+          "name_markdown": "[Dance Central 3](https://github.com/rjkiv/dc3-decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fe/Dance_Central_3_cover.png/250px-Dance_Central_3_cover.png",
+              "alt": "Dance Central 3 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rjkiv/dc3-decomp"
+            }
+          ]
+        },
+        {
+          "project": "dead-or-alive-xtreme-2",
+          "name_markdown": "[Dead or Alive Xtreme 2](https://github.com/Revan67/DOAX2-Recomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f2/Dead_or_Alive_Xtreme_2_Xbox_Game_Cover.jpg/250px-Dead_or_Alive_Xtreme_2_Xbox_Game_Cover.jpg",
+              "alt": "Dead or Alive Xtreme 2 cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early native recompilation research; no playable release documented. AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Revan67/DOAX2-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "halo-reach",
+          "name_markdown": "[Halo Reach](https://github.com/ChimpsAtSea/Reach)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5c/Halo-_Reach_box_art.png/250px-Halo-_Reach_box_art.png",
+              "alt": "Halo Reach cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress Halo: Reach decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ChimpsAtSea/Reach"
+            }
+          ]
+        },
+        {
+          "project": "rock-band-3-xbox-360",
+          "name_markdown": "[Rock Band 3 (Xbox 360)](https://github.com/ihatecompvir/band3_recomp)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
+              "alt": "Rock Band 3 (Xbox 360) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early Rock Band 3 recompilation; the repository warns of limited playability.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ihatecompvir/band3_recomp"
+            }
+          ]
+        },
+        {
+          "project": "rumble-roses-xx",
+          "name_markdown": "[Rumble Roses XX](https://github.com/Revan67/RumbleRosesXX-Recomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1a/Rumble_Roses_XX.jpg/250px-Rumble_Roses_XX.jpg",
+              "alt": "Rumble Roses XX cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Early native recompilation research; no playable release documented. AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Revan67/RumbleRosesXX-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-06-demo",
+          "name_markdown": "[Sonic 06 Demo](https://github.com/PranchaD/re-Sonic06Demo)",
+          "images": [
+            {
+              "alt": "Sonic 06 Demo box art",
+              "url": "https://vglist.sfo2.digitaloceanspaces.com/iqdic0g3w3h2c5nx8wamyw8fcdjo",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Xbox 360 demo build. Retail cover shown for identification.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/PranchaD/re-Sonic06Demo"
+            }
+          ]
+        },
+        {
+          "project": "deadly-premonition-recomp",
+          "name_markdown": "[Deadly Premonition (Recomp)](https://github.com/LittleBitUA/DPRecomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c5/Deadly_Premonition_cover_art.jpg/250px-Deadly_Premonition_cover_art.jpg",
+              "alt": "Deadly Premonition (Recomp) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/LittleBitUA/DPRecomp"
+            }
+          ]
+        },
+        {
+          "project": "kinect-sports",
+          "name_markdown": "[Kinect Sports](https://github.com/SebaaMG/Kinect-Sports-Decomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/ae/Kinect_Sports.jpg/250px-Kinect_Sports.jpg",
+              "alt": "Kinect Sports cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SebaaMG/Kinect-Sports-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "project-gotham-racing-4-recomp",
+          "name_markdown": "[Project Gotham Racing 4 (Recomp)](https://github.com/beatrixzy/PGR4-Recomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/88/PGR4boxart.jpg/250px-PGR4boxart.jpg",
+              "alt": "Project Gotham Racing 4 (Recomp) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "MTR PGR4",
+              "url": "https://github.com/MissingThePixel/MTR-PGR4",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Separate Xbox 360 recompilation project.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/beatrixzy/PGR4-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "saw-ii-flesh-blood",
+          "name_markdown": "[Saw II: Flesh & Blood](https://github.com/ant0-blase/Saw2-X360-ReXGlue)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a9/Saw_II_Flesh_%26_Blood.JPG/250px-Saw_II_Flesh_%26_Blood.JPG",
+              "alt": "Saw II: Flesh & Blood cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ant0-blase/Saw2-X360-ReXGlue"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-2006-rjkiv",
+          "name_markdown": "[Sonic the Hedgehog (2006)](https://github.com/rjkiv/sonic06)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog (2006) box art",
+              "url": "https://vglist.sfo2.digitaloceanspaces.com/iqdic0g3w3h2c5nx8wamyw8fcdjo",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rjkiv/sonic06"
+            }
+          ]
+        },
+        {
+          "project": "the-simpsons-game-recomp",
+          "name_markdown": "[The Simpsons Game (Recomp)](https://github.com/YesterMester/TheSimpsonsGameRecomp)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a2/The_Simpsons_Game_XBOX_360_Cover.jpg/250px-The_Simpsons_Game_XBOX_360_Cover.jpg",
+              "alt": "The Simpsons Game (Recomp) cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
+            }
+          ]
+        },
+        {
+          "project": "lost-odyssey-recomp",
+          "name_markdown": "[Lost Odyssey](https://github.com/freefrank/LostOdysseyRecomp)",
+          "images": [
+            {
+              "url": "https://www.thevideogamecompany.com/cdn/shop/products/lost-odyssey-microsoft-xbox-360-882224521017-cover-art.jpg?crop=center&height=1200&v=1661537441&width=1200",
+              "alt": "Lost Odyssey Xbox 360 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native port for Windows, Linux, macOS on Apple Silicon and Android; requires user-owned Xbox 360 game data.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/freefrank/LostOdysseyRecomp"
+            }
+          ]
+        },
+        {
+          "project": "modern-warfare-2-recompiled",
+          "name_markdown": "[Call of Duty: Modern Warfare 2](https://github.com/PaulCombal/mw2-recompiled)",
+          "images": [
+            {
+              "url": "https://theexchange.com/cdn/shop/products/CallOfDuty-ModernWarfare2.png?v=1622826632",
+              "alt": "Call of Duty: Modern Warfare 2 Xbox 360 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Linux static recompilation. Campaign and private multiplayer are supported; public matchmaking and ranked playlists are unsupported, and Special Ops is untested.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/PaulCombal/mw2-recompiled"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

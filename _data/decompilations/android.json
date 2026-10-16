@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "sonic-1-2-classic-2013": {
+      "name": "Sonic 1 & 2 Classic (2013)",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-06T16:32:08Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Decompilation/commit/a7f5195e21fdad7b75e4587e249013feeea9e6f3",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "retro-engine-v4-reconstruction": {
+      "name": "Retro Engine v4 reconstruction",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv4-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-06T16:32:08Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Decompilation/commit/a7f5195e21fdad7b75e4587e249013feeea9e6f3",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-1-sonic-2-and-sonic-cd-game-scripts": {
+      "name": "Sonic 1, Sonic 2 and Sonic CD game scripts",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/RSDKModding/RSDKv4-Script-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-06T23:18:43Z",
+        "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Script-Decompilation/commit/67156e451d22e2f148ef9f2c91517dfa5103333a",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-advance": {
+      "name": "Sonic Advance",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/ImmutableOctet/sonicgba-monkey",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-04-01T09:32:18Z",
+        "last_commit_url": "https://github.com/ImmutableOctet/sonicgba/commit/0b579e0f418e649a966ec1d4cc5496ede9dab47c",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "brave-frontier": {
+      "name": "Brave Frontier",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/decompfrontier/client",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-05-30T07:56:49Z",
+        "last_commit_url": "https://github.com/decompfrontier/client/commit/1964d51a53adcf330fc9549c75ada565da72ab76",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "spongebob-moves-in": {
+      "name": "SpongeBob Moves In!",
+      "platforms": [
+        "Android"
+      ],
+      "repository_url": "https://github.com/Juanen100/SBMI-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-09-01T00:11:39Z",
+        "last_commit_url": "https://github.com/Juanen100/SBMI-Decomp/commit/10517e684a91d9a163d4eabc380f0a00b59e9964",
+        "default_branch": "4.37.00-Release",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    }
+  },
+  "consoles": {
+    "android": {
+      "name": "Android",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Notes"
+      ],
+      "rows": [
+        {
+          "project": "sonic-1-2-classic-2013",
+          "name_markdown": "[Sonic 1 & 2 Classic (2013)](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation project. The RSDKModding projects separate the [Retro Engine v4 reconstruction](https://github.com/RSDKModding/RSDKv4-Decompilation) from the [Sonic 1, Sonic 2 and Sonic CD game scripts](https://github.com/RSDKModding/RSDKv4-Script-Decompilation). The script project also covers related Sonic Origins versions.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "sonic-advance",
+          "name_markdown": "[Sonic Advance](https://github.com/ImmutableOctet/sonicgba-monkey)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ImmutableOctet/sonicgba-monkey"
+            }
+          ]
+        },
+        {
+          "project": "brave-frontier",
+          "name_markdown": "[Brave Frontier](https://github.com/decompfrontier/client)",
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/Brave_Frontier.png/250px-Brave_Frontier.png",
+              "alt": "Brave Frontier cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/decompfrontier/client"
+            }
+          ]
+        },
+        {
+          "project": "spongebob-moves-in",
+          "name_markdown": "[SpongeBob Moves In!](https://github.com/Juanen100/SBMI-Decomp)",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7c/SpongeBob_Moves_In_icon.png",
+              "alt": "SpongeBob Moves In! cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Juanen100/SBMI-Decomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

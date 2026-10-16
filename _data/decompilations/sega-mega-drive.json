@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "kid-chameleon": {
+      "name": "Kid Chameleon",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/kid-chameleon-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-02T07:10:39Z",
+        "last_commit_url": "https://github.com/sonicretro/kid-chameleon-disasm/commit/5856daef633cd7162acdf9ddf1a56fa81aedc65b",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "knuckles-the-echidna-in-sonic-the-hedgehog-2": {
+      "name": "Knuckles the Echidna in Sonic the Hedgehog 2",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/ktes2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2013-12-02T04:53:07Z",
+        "last_commit_url": "https://github.com/sonicretro/ktes2/commit/f7c0e72554c5ac0f9c592c71f95166dbd9b72873",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "phantasy-star-ii": {
+      "name": "Phantasy Star II",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sung3r/ps2disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2020-08-09T13:16:44Z",
+        "last_commit_url": "https://github.com/sung3r/ps2disasm/commit/50e63573bb3b832e6b5222b3b3943e64aa9f19b9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive"
+      },
+      "previous_repository_urls": [
+        "https://github.com/lory90/ps2disasm"
+      ]
+    },
+    "phantasy-star-iii": {
+      "name": "Phantasy Star III",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/brecert/ps3disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2022-05-24T18:54:51Z",
+        "last_commit_url": "https://github.com/brecert/ps3disasm/commit/b9b7d609ea6bafdee832bb0d574175fb3fe0a7f5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive"
+      },
+      "previous_repository_urls": [
+        "https://github.com/lory90/ps3disasm"
+      ]
+    },
+    "phantasy-star-iv": {
+      "name": "Phantasy Star IV",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/squidfeatures/ps4disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-08-19T21:26:09Z",
+        "last_commit_url": "https://github.com/squidfeatures/ps4disasm/commit/8a658314850904c6888969f90177779845133a7e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive"
+      },
+      "previous_repository_urls": [
+        "https://github.com/lory90/ps4disasm"
+      ]
+    },
+    "ristar": {
+      "name": "Ristar",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/ristar",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2013-12-07T05:47:59Z",
+        "last_commit_url": "https://github.com/sonicretro/ristar/commit/85b82f10c04e3402769bdad05ea469a472c2f100",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-the-hedgehog": {
+      "name": "Sonic the Hedgehog",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/s1disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-15T19:30:42Z",
+        "last_commit_url": "https://github.com/sonicretro/s1disasm/commit/cfbbf9ebaa9d62753c568d3913fd2b349513aa66",
+        "archived": false,
+        "default_branch": "AS",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-the-hedgehog-2": {
+      "name": "Sonic the Hedgehog 2",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/s2disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T01:50:03Z",
+        "last_commit_url": "https://github.com/sonicretro/s2disasm/commit/15e9fd52a65318bec3d5e746ce48dba6db6910db",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-the-hedgehog-3": {
+      "name": "Sonic the Hedgehog 3",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/skdisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-11T02:05:30Z",
+        "last_commit_url": "https://github.com/sonicretro/skdisasm/commit/73de97c6b55055bcb8089c1d55d006b02136f163",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "sonic-3d-blast": {
+      "name": "Sonic 3D Blast",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/s3ddisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2013-12-02T05:13:35Z",
+        "last_commit_url": "https://github.com/sonicretro/s3ddisasm/commit/6d7815119e662b162875d64be58d991fac582f2d",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "sonic-spinball": {
+      "name": "Sonic Spinball",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/sonicretro/spindisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2019-11-28T04:18:15Z",
+        "last_commit_url": "https://github.com/sonicretro/spindisasm/commit/d835779e55a36fa204edfa34c1a332d9e3836f6c",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "toy-story": {
+      "name": "Toy Story",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/toy-story-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T14:07:18Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/d55b4b91d5451ed7b2aaaaef97f9ae87ab758c4e",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    },
+    "dragon-ball-z-buyuu-retsuden": {
+      "name": "Dragon Ball Z: Buyuu Retsuden",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-14T20:12:08Z",
+        "last_commit_at": "2026-10-13T13:59:52Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/dd871f93f04489a686b6024f410f1f2f7d757c83",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-14T20:12:08Z",
+        "status": "Active"
+      }
+    }
+  },
+  "consoles": {
+    "sega-mega-drive": {
+      "name": "Sega Mega Drive",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status"
+      ],
+      "rows": [
+        {
+          "project": "kid-chameleon",
+          "name_markdown": "[Kid Chameleon](https://github.com/sonicretro/kid-chameleon-disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Kid_Chameleon_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/kid-chameleon-disasm"
+            }
+          ]
+        },
+        {
+          "project": "knuckles-the-echidna-in-sonic-the-hedgehog-2",
+          "name_markdown": "[Knuckles the Echidna in Sonic the Hedgehog 2](https://github.com/sonicretro/ktes2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/ktes2"
+            }
+          ]
+        },
+        {
+          "project": "phantasy-star-ii",
+          "name_markdown": "[Phantasy Star II](https://github.com/sung3r/ps2disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Preserved disassembly fork.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sung3r/ps2disasm"
+            }
+          ]
+        },
+        {
+          "project": "phantasy-star-iii",
+          "name_markdown": "[Phantasy Star III](https://github.com/brecert/ps3disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Phantasy_Star_III_box_US.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Preserved disassembly mirror.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/brecert/ps3disasm"
+            }
+          ]
+        },
+        {
+          "project": "phantasy-star-iv",
+          "name_markdown": "[Phantasy Star IV](https://github.com/squidfeatures/ps4disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Preserved disassembly mirror.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/squidfeatures/ps4disasm"
+            }
+          ]
+        },
+        {
+          "project": "ristar",
+          "name_markdown": "[Ristar](https://github.com/sonicretro/ristar)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Ristar_cover_EU.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/ristar"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog",
+          "name_markdown": "[Sonic the Hedgehog](https://github.com/sonicretro/s1disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/s1disasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-2",
+          "name_markdown": "[Sonic the Hedgehog 2](https://github.com/sonicretro/s2disasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/s2disasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-3",
+          "name_markdown": "[Sonic the Hedgehog 3](https://github.com/sonicretro/skdisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/skdisasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-3",
+          "name_markdown": "[Sonic & Knuckles](https://github.com/sonicretro/skdisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/skdisasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-3d-blast",
+          "name_markdown": "[Sonic 3D Blast](https://github.com/sonicretro/s3ddisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/36/Sonic3D.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/s3ddisasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-spinball",
+          "name_markdown": "[Sonic Spinball](https://github.com/sonicretro/spindisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/sonicretro/spindisasm"
+            }
+          ]
+        },
+        {
+          "project": "toy-story",
+          "name_markdown": "[Toy Story](https://github.com/consolesplayingconsoles/toy-story-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Toy%20Story%20%28USA%29.png",
+              "alt": "Toy Story box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/consolesplayingconsoles/toy-story-disasm"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-buyuu-retsuden",
+          "name_markdown": "[Dragon Ball Z: Buyuu Retsuden](https://github.com/consolesplayingconsoles/dbzbr-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20L'Appel%20du%20Destin%20%28France%29.png",
+              "alt": "Dragon Ball Z: Buyuu Retsuden box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/consolesplayingconsoles/dbzbr-disasm"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

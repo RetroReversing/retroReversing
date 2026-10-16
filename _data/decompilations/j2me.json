@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "decompile-of-the-2005-mobile-port-of-sonic-1": {
+      "name": "Decompile of the 2005 mobile port of Sonic 1",
+      "platforms": [
+        "Sonic 1 J2ME"
+      ],
+      "repository_url": "https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2021-02-19T17:08:02Z",
+        "last_commit_url": "https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation/commit/faf958e0be65898422d3a714ff0b2d4a81c1acb9",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {}
+}

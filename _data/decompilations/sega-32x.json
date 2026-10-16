@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "knuckles-chaotix": {
+      "name": "Knuckles Chaotix",
+      "platforms": [
+        "Knuckles Chaotix"
+      ],
+      "repository_url": "https://github.com/sonicretro/chaotix",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-02-27T20:44:43Z",
+        "last_commit_url": "https://github.com/sonicretro/chaotix/commit/46300f42849ba83f440d4d7e06e70e5c88bb0674",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "virtua-racing-deluxe": {
+      "name": "Virtua Racing Deluxe",
+      "platforms": [
+        "Sega 32X"
+      ],
+      "repository_url": "https://github.com/matiaszanolli/sega-vr-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-06-15T14:58:47Z",
+        "last_commit_url": "https://github.com/matiaszanolli/sega-vr-disasm/commit/60819eff3cdf2abe0037081c9e6a484bf06bb9dc",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "knuckles-chaotix-yuutatsubasa": {
+      "name": "Knuckles' Chaotix",
+      "platforms": [
+        "Sega 32X"
+      ],
+      "repository_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
+    }
+  },
+  "consoles": {
+    "sega-32x": {
+      "name": "Sega 32X",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "virtua-racing-deluxe",
+          "name_markdown": "[Virtua Racing Deluxe](https://github.com/matiaszanolli/sega-vr-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_32X/master/Named_Boxarts/Virtua%20Racing%20Deluxe%20%28USA%29.png",
+              "alt": "Virtua Racing Deluxe box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/matiaszanolli/sega-vr-disasm"
+            }
+          ]
+        },
+        {
+          "project": "knuckles-chaotix-yuutatsubasa",
+          "name_markdown": "[Knuckles' Chaotix](https://github.com/YuutaTsubasa/ChaotixRecompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_32X/master/Named_Boxarts/Knuckles%27%20Chaotix%20%28Japan%2C%20USA%29%20%28En%29.png",
+              "alt": "Knuckles' Chaotix box art for Sega 32X",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows and Android recompilation. Linux and macOS builds have not been run; iOS has not been built.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/YuutaTsubasa/ChaotixRecompiled"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

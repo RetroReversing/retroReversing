@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "balloon-fight": {
+      "name": "Balloon Fight",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/LuigiBlood/balloonfight_dis",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2018-10-21T20:40:17Z",
+        "last_commit_url": "https://github.com/LuigiBlood/balloonfight_dis/commit/3290ad3abe639071be1d019112dbfcd541981461",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "battle-city": {
+      "name": "Battle City",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "contra": {
+      "name": "Contra",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/vermiceli/nes-contra-us/",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-06-07T19:15:52Z",
+        "last_commit_url": "https://github.com/vermiceli/nes-contra-us/commit/687d651c021fd7020f10d05b970ccb62663c94bd",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "crystalis": {
+      "name": "Crystalis",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/crystalisdisassembly/crystalisdisassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2019-06-22T02:19:13Z",
+        "last_commit_url": "https://github.com/crystalisdisassembly/crystalisdisassembly/commit/b049e8be6238b6b790dd0ffdae41dd1d6048b9b2",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "danny-sullivan-s-indy-heat": {
+      "name": "Danny Sullivan's Indy Heat",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "donald-land": {
+      "name": "Donald Land",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/brunovalads/donald-land",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2018-12-19T00:47:24Z",
+        "last_commit_url": "https://github.com/brunovalads/donald-land/commit/dec3d7fd90d8388918d90419d738146ccadc5888",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "donkey-kong-nes": {
+      "name": "Donkey Kong",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2024-04-19T17:56:27Z",
+        "last_commit_url": "https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly/commit/343f4c81880a253c0e8ede81fe7c21f205815280",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "double-dragon-ii-the-revenge-japanese": {
+      "name": "Double Dragon II: The Revenge (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "dr-mario": {
+      "name": "Dr. Mario",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Nostaljipi/dr-mario-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2021-11-27T16:56:14Z",
+        "last_commit_url": "https://github.com/Nostaljipi/dr-mario-disassembly/commit/ecb9899554d6d4c0c866be5dd6c0f40b7b117806",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "dragon-warrior": {
+      "name": "Dragon Warrior",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/nmikstas/dragon-warrior-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2023-08-05T13:56:07Z",
+        "last_commit_url": "https://github.com/nmikstas/dragon-warrior-disassembly/commit/ebe6a13da77a3593c67300f54d95ed49c23effc2",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "excitebike": {
+      "name": "Excitebike",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "final-fantasy-i": {
+      "name": "Final Fantasy I",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Entroper/FF1Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-06-06T00:52:59Z",
+        "last_commit_url": "https://github.com/Entroper/FF1Disassembly/commit/ea16eae0dc214eca85ad629cd8b778e3371797f7",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "final-fantasy-ii": {
+      "name": "Final Fantasy II",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/everything8215/ff2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2022-12-06T02:09:38Z",
+        "last_commit_url": "https://github.com/everything8215/ff2/commit/8d26190877e02151c57fd9124a7831377ab0d57b",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "final-fantasy-iii": {
+      "name": "Final Fantasy III",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/everything8215/ff3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2022-05-28T10:43:28Z",
+        "last_commit_url": "https://github.com/everything8215/ff3/commit/1acef8117120ff891003de249b1a74bc8d94d674",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "game-genie-cheat-cartridge": {
+      "name": "Game Genie (Cheat Cartridge)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/qalle2/nes-gg-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2025-06-22T19:20:49Z",
+        "last_commit_url": "https://github.com/qalle2/nes-gg-disassembly/commit/3ba2554e733c985a82750b091617b5d359e2c7a5",
+        "default_branch": "main",
+        "archived": true,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "ice-climber-japanese": {
+      "name": "Ice Climber (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Ice%20Climber",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "kunio-kun-no-nekketsu-soccer-league": {
+      "name": "Kunio-kun no Nekketsu Soccer League",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Kunio-kun%20no%20Nekketsu%20Soccer%20League",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "mappy-japanese": {
+      "name": "Mappy (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Mappy",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "mario-bros": {
+      "name": "Mario Bros.",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/RussianManSMWC/Mario-Bros.-Dis",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-06-17T12:25:58Z",
+        "last_commit_url": "https://github.com/RussianManSMWC/Mario-Bros.-Dis/commit/0b7ca4de3cac44fb30b579e50691a809f1129816",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "mega-man-3": {
+      "name": "Mega Man 3",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Raidenthequick/megaman3-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2020-12-23T20:27:18Z",
+        "last_commit_url": "https://github.com/refreshing-lemonade/megaman3-disassembly/commit/1d4420011dfa3d2be82ce670b6bc8f6bae9a683f",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "mega-man-4": {
+      "name": "Mega Man 4",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Raidenthequick/megaman4-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2020-12-23T20:28:11Z",
+        "last_commit_url": "https://github.com/refreshing-lemonade/megaman4-disassembly/commit/e852bd58dabb80a2916aae4e1d41a03386a4cf27",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "mega-man-5": {
+      "name": "Mega Man 5",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Raidenthequick/megaman5-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2024-02-03T02:13:02Z",
+        "last_commit_url": "https://github.com/refreshing-lemonade/megaman5-disassembly/commit/03e59a6855c1aca85d063bd2973005dc3ffd02ef",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "metroid": {
+      "name": "Metroid",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://metroiddatabase.com/source-code/",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-11T15:58:28Z",
+        "status": "Unverified",
+        "check_error": "Source-code archive; no public repository commit history linked"
+      }
+    },
+    "mike-tyson-s-punch-out": {
+      "name": "Mike Tyson's Punch-Out!!",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/nmikstas/mike-tysons-punch-out-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2020-09-13T10:54:13Z",
+        "last_commit_url": "https://github.com/nmikstas/mike-tysons-punch-out-disassembly/commit/60b2fa0e61d57b10b5fadc04be96241d25755d25",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "nuts-milk-japanese": {
+      "name": "Nuts & Milk (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "pac-man-japanese": {
+      "name": "Pac-Man (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "solstice-the-quest-for-the-staff-of-demnos": {
+      "name": "Solstice: The Quest for the Staff of Demnos",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "sonson": {
+      "name": "SonSon",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Son%20Son",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "super-c": {
+      "name": "Super C",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/vermiceli/nes-super-c/",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-07-04T03:50:12Z",
+        "last_commit_url": "https://github.com/vermiceli/nes-super-c/commit/be6ccce97a73ce1ea0d3ebace85e22fca01e4ed9",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-bros": {
+      "name": "Super Mario Bros.",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://gist.github.com/1wErt3r/4048722",
+      "project_type": "Disassembly / Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2012-11-09T22:27:15Z",
+        "last_commit_url": "https://gist.github.com/1wErt3r/4048722/59e88c0028a58c6d7b9156749230ccac647bc7d4",
+        "archived": false,
+        "checked_at": "2026-10-11T15:58:28Z",
+        "last_success_at": "2026-10-11T15:58:28Z",
+        "status": "Inactive"
+      }
+    },
+    "smb-vanilla": {
+      "name": "SMB-Vanilla",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/nukep/SMB-Vanilla",
+      "project_type": "Related project",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-10-07T04:32:36Z",
+        "last_commit_url": "https://github.com/nukep/SMB-Vanilla/commit/20f4e02614412f9dbd407dd4e4fab4ade5eb79da",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "super-mario-bros-2-the-lost-levels-japanese": {
+      "name": "Super Mario Bros. 2 The Lost Levels (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/threecreepio/smb2j-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2025-01-09T20:26:40Z",
+        "last_commit_url": "https://github.com/threecreepio/smb2j-disassembly/commit/9c40114626ecd07f13e16d5e67e217b98482d7af",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "super-mario-bros-3": {
+      "name": "Super Mario Bros. 3",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/captainsouthbird/smb3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2025-05-01T18:08:48Z",
+        "last_commit_url": "https://github.com/captainsouthbird/smb3/commit/09b1bd81a788de8ceec664a34094e84ddb463117",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "tecmo-world-cup-soccer-japanese": {
+      "name": "Tecmo World Cup Soccer (Japanese)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tecmo%20World%20Cup%20Soccer",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "tennis": {
+      "name": "Tennis",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "tetris-nes": {
+      "name": "Tetris",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/CelestialAmber/TetrisNESDisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2024-03-28T00:55:33Z",
+        "last_commit_url": "https://github.com/CelestialAmber/TetrisNESDisasm/commit/94581c0306fa0009fe11fde48222875549d15b8b",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "the-bugs-bunny-crazy-castle": {
+      "name": "The Bugs Bunny Crazy Castle",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda": {
+      "name": "The Legend of Zelda",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/aldonunez/zelda1-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2021-02-20T07:43:47Z",
+        "last_commit_url": "https://github.com/aldonunez/zelda1-disassembly/commit/50a1c869a8d8e2eb8b5b60acea325f44b4341762",
+        "archived": false,
+        "default_branch": "master",
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Inactive"
+      }
+    },
+    "transformers-mystery-of-convoy": {
+      "name": "Transformers: Mystery of Convoy",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/Fixatron/TFRom-Recreation",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2025-11-02T13:53:21Z",
+        "last_commit_url": "https://github.com/Fixatron/TFRom-Recreation/commit/b4b951c191a5ef45f20db89cbbf6c5e709bb899e",
+        "archived": false,
+        "default_branch": "main",
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "yie-ar-kung-fu": {
+      "name": "Yie Ar Kung Fu",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:14:09Z",
+        "last_commit_at": "2026-08-12T02:22:30Z",
+        "last_commit_url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/commit/df2c8e55e7f13e5792482527db9e7c9e4a84c6e1",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:14:09Z",
+        "status": "Active"
+      }
+    },
+    "battle-city-browser-reimplementation": {
+      "name": "Battle City (Browser reimplementation)",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/vgrichina/battlecity",
+      "project_type": "Disassembly / Browser reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-05-07T11:17:29Z",
+        "last_commit_url": "https://github.com/vgrichina/battlecity/commit/1f31d0d332413a11455ebf0835f5ef0f6c23d714",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "earthbound-beginnings": {
+      "name": "Earthbound Beginnings",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/GrasonHumphrey/Earthbound-Zero-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2025-09-24T19:51:19Z",
+        "last_commit_url": "https://github.com/GrasonHumphrey/Earthbound-Zero-Decomp/commit/7567fa933e08293ebecc27e9c9e98f7df8195e22",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    },
+    "super-mario-bros-oliveryasuna": {
+      "name": "Super Mario Bros.",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/oliveryasuna/smb-recomp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-04-12T14:56:41Z",
+        "last_commit_url": "https://github.com/oliveryasuna/smb-recomp/commit/278cbcd830c8839f7d2d1de7f2d02de1bc77a6f5",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    },
+    "the-legend-of-zelda-ii-the-adventure-of-link": {
+      "name": "The Legend Of Zelda II: The Adventure Of Link",
+      "platforms": [
+        "Nintendo Entertainment System (NES)"
+      ],
+      "repository_url": "https://github.com/FiendsOfTheElements/z2disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2023-01-18T06:04:11Z",
+        "last_commit_url": "https://github.com/FiendsOfTheElements/z2disassembly/commit/c4c3a4c7d4156b41f54f726dc40644d45812ad29",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Inactive"
+      }
+    }
+  },
+  "consoles": {
+    "nintendo-entertainment-system-nes": {
+      "name": "Nintendo Entertainment System (NES)",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Mapper",
+        "Status"
+      ],
+      "rows": [
+        {
+          "project": "balloon-fight",
+          "name_markdown": "[Balloon Fight](https://github.com/LuigiBlood/balloonfight_dis)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/LuigiBlood/balloonfight_dis"
+            }
+          ]
+        },
+        {
+          "project": "battle-city",
+          "name_markdown": "[Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City"
+            }
+          ]
+        },
+        {
+          "project": "contra",
+          "name_markdown": "[Contra](https://github.com/vermiceli/nes-contra-us/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Documented",
+          "mapper": "UNROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/vermiceli/nes-contra-us/"
+            }
+          ]
+        },
+        {
+          "project": "crystalis",
+          "name_markdown": "[Crystalis](https://github.com/crystalisdisassembly/crystalisdisassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Crystalisboxart.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/crystalisdisassembly/crystalisdisassembly"
+            }
+          ]
+        },
+        {
+          "project": "danny-sullivan-s-indy-heat",
+          "name_markdown": "[Danny Sullivan's Indy Heat](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/be/Danny_Sullivan%27s_Indy_Heat_Coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat"
+            }
+          ]
+        },
+        {
+          "project": "donald-land",
+          "name_markdown": "[Donald Land](https://github.com/brunovalads/donald-land)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Donald_land.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/brunovalads/donald-land"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-nes",
+          "name_markdown": "[Donkey Kong](https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "double-dragon-ii-the-revenge-japanese",
+          "name_markdown": "[Double Dragon II: The Revenge (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/02/NES_Double_Dragon_II_packaging_front.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II"
+            }
+          ]
+        },
+        {
+          "project": "dr-mario",
+          "name_markdown": "[Dr. Mario](https://github.com/Nostaljipi/dr-mario-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Dr._Mario_box_art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Nostaljipi/dr-mario-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "dragon-warrior",
+          "name_markdown": "[Dragon Warrior](https://github.com/nmikstas/dragon-warrior-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A and Documented",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/nmikstas/dragon-warrior-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "excitebike",
+          "name_markdown": "[Excitebike](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Excitebike_cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-i",
+          "name_markdown": "[Final Fantasy I](https://github.com/Entroper/FF1Disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A and Documented",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Entroper/FF1Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-ii",
+          "name_markdown": "[Final Fantasy II](https://github.com/everything8215/ff2)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://www.mobygames.com/images/covers/l/110876-final-fantasy-ii-nes-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/everything8215/ff2"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-iii",
+          "name_markdown": "[Final Fantasy III](https://github.com/everything8215/ff3)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://www.mobygames.com/images/covers/l/159409-final-fantasy-iii-nes-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/everything8215/ff3"
+            }
+          ]
+        },
+        {
+          "project": "game-genie-cheat-cartridge",
+          "name_markdown": "[Game Genie (Cheat Cartridge)](https://github.com/qalle2/nes-gg-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Game-Genie-NES.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/qalle2/nes-gg-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "ice-climber-japanese",
+          "name_markdown": "[Ice Climber (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Ice%20Climber)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/df/IceClimberboxartnes.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Ice%20Climber"
+            }
+          ]
+        },
+        {
+          "project": "kunio-kun-no-nekketsu-soccer-league",
+          "name_markdown": "[*Kunio-kun no Nekketsu Soccer League*](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Kunio-kun%20no%20Nekketsu%20Soccer%20League)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/kuniokun/images/1/15/KKnNSL_JP.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Kunio-kun%20no%20Nekketsu%20Soccer%20League"
+            }
+          ]
+        },
+        {
+          "project": "mappy-japanese",
+          "name_markdown": "[Mappy (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Mappy)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://www.mobygames.com/images/covers/l/251123-mappy-nes-front-cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Mappy"
+            }
+          ]
+        },
+        {
+          "project": "mario-bros",
+          "name_markdown": "[Mario Bros.](https://github.com/RussianManSMWC/Mario-Bros.-Dis)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/MarioBros.boxart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/RussianManSMWC/Mario-Bros.-Dis"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-3",
+          "name_markdown": "[Mega Man 3](https://github.com/Raidenthequick/megaman3-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Raidenthequick/megaman3-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-4",
+          "name_markdown": "[Mega Man 4](https://github.com/Raidenthequick/megaman4-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Raidenthequick/megaman4-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-5",
+          "name_markdown": "[Mega Man 5](https://github.com/Raidenthequick/megaman5-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Raidenthequick/megaman5-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "metroid",
+          "name_markdown": "[Metroid](https://metroiddatabase.com/source-code/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://metroiddatabase.com/source-code/"
+            }
+          ]
+        },
+        {
+          "project": "mike-tyson-s-punch-out",
+          "name_markdown": "[Mike Tyson's Punch-Out!!](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/nmikstas/mike-tysons-punch-out-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "nuts-milk-japanese",
+          "name_markdown": "[Nuts & Milk (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://pbs.twimg.com/media/ELrst70WkAE4Eo-?format=jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk"
+            }
+          ]
+        },
+        {
+          "project": "pac-man-japanese",
+          "name_markdown": "[Pac-Man (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.nintendolife.com/0122e34331721/pac-man-cover.cover_large.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man"
+            }
+          ]
+        },
+        {
+          "project": "solstice-the-quest-for-the-staff-of-demnos",
+          "name_markdown": "[Solstice: The Quest for the Staff of Demnos](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/96/Solstice_The_Quest_for_the_Staff_of_Demnos_Cover.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice"
+            }
+          ]
+        },
+        {
+          "project": "sonson",
+          "name_markdown": "[SonSon](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Son%20Son)",
+          "images": [
+            {
+              "alt": "",
+              "url": "http://www.hardcoregaming101.net/wp-content/uploads/2018/09/nintendo-nes-sonson.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Son%20Son"
+            }
+          ]
+        },
+        {
+          "project": "super-c",
+          "name_markdown": "[Super C](https://github.com/vermiceli/nes-super-c/)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://static.wikia.nocookie.net/contra/images/8/87/Super_Contra_-_%28NA%29_-_01.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Documented",
+          "mapper": "MMC3",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/vermiceli/nes-super-c/"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-bros",
+          "name_markdown": "[Super Mario Bros.](https://gist.github.com/1wErt3r/4048722)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM; [SMB-Vanilla](https://github.com/nukep/SMB-Vanilla) - C reconstruction of this game and The Lost Levels.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://gist.github.com/1wErt3r/4048722"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-bros-2-the-lost-levels-japanese",
+          "name_markdown": "[Super Mario Bros. 2 The Lost Levels (Japanese)](https://github.com/threecreepio/smb2j-disassembly )",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/b5/Mariobros2japanbox.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/threecreepio/smb2j-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-bros-3",
+          "name_markdown": "[Super Mario Bros. 3](https://github.com/captainsouthbird/smb3)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/captainsouthbird/smb3"
+            }
+          ]
+        },
+        {
+          "project": "tecmo-world-cup-soccer-japanese",
+          "name_markdown": "[Tecmo World Cup Soccer (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tecmo%20World%20Cup%20Soccer)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/js2ldjaxvwvvblwuvyep.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tecmo%20World%20Cup%20Soccer"
+            }
+          ]
+        },
+        {
+          "project": "tennis",
+          "name_markdown": "[Tennis](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Tennis_%28video_game%29.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis"
+            }
+          ]
+        },
+        {
+          "project": "tetris-nes",
+          "name_markdown": "[Tetris](https://github.com/CelestialAmber/TetrisNESDisasm)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/CelestialAmber/TetrisNESDisasm"
+            }
+          ]
+        },
+        {
+          "project": "the-bugs-bunny-crazy-castle",
+          "name_markdown": "[The Bugs Bunny Crazy Castle](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/3/31/Crazy_Castle_Cover.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda",
+          "name_markdown": "[The Legend of Zelda](https://github.com/aldonunez/zelda1-disassembly)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A and Documented",
+          "mapper": "MMC1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/aldonunez/zelda1-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "transformers-mystery-of-convoy",
+          "name_markdown": "[Transformers: Mystery of Convoy](https://github.com/Fixatron/TFRom-Recreation)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Transformers_Mystery_of_Comvoy_Famicom_box.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N/A and Documented",
+          "mapper": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Fixatron/TFRom-Recreation"
+            }
+          ]
+        },
+        {
+          "project": "yie-ar-kung-fu",
+          "name_markdown": "[Yie Ar Kung Fu](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Yie_Ar_Kung-Fu_flyer.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "mapper": "NROM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu"
+            }
+          ]
+        },
+        {
+          "project": "battle-city-browser-reimplementation",
+          "name_markdown": "[Battle City (Browser reimplementation)](https://github.com/vgrichina/battlecity)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/BattleCity%20%28Japan%29.png",
+              "alt": "Battle City (Browser reimplementation) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "mapper": "",
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/vgrichina/battlecity"
+            },
+            {
+              "name": "Browser reimplementation",
+              "url": "https://github.com/vgrichina/battlecity"
+            }
+          ]
+        },
+        {
+          "project": "earthbound-beginnings",
+          "name_markdown": "[Earthbound Beginnings](https://github.com/GrasonHumphrey/Earthbound-Zero-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Mother%20%28Japan%29.png",
+              "alt": "Earthbound Beginnings box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Ghidra decompilation research of the NES release. Japanese Mother retail cover shown for identification.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "mapper": "",
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GrasonHumphrey/Earthbound-Zero-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-bros-oliveryasuna",
+          "name_markdown": "[Super Mario Bros.](https://github.com/oliveryasuna/smb-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20Bros.%20%28Europe%29.png",
+              "alt": "Super Mario Bros. box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Modding and rebuild project based on the Super Mario Bros. disassembly; produces an NES ROM, not a native PC recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "mapper": "",
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/oliveryasuna/smb-recomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ii-the-adventure-of-link",
+          "name_markdown": "[The Legend Of Zelda II: The Adventure Of Link](https://github.com/FiendsOfTheElements/z2disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/master/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29.png",
+              "alt": "The Legend Of Zelda II: The Adventure Of Link box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "mapper": "",
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/FiendsOfTheElements/z2disassembly"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

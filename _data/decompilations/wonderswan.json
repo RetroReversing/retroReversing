@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "armored-unit": {
+      "name": "Armored Unit",
+      "platforms": [
+        "WonderSwan"
+      ],
+      "repository_url": "https://github.com/Normmatt/unarmoredunit",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "checked_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-07-06T09:08:56Z",
+        "last_commit_url": "https://github.com/Normmatt/unarmoredunit/commit/5dfc68760e6afc4a50da7c64f2b8475128cc2727",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-15T20:19:25Z",
+        "status": "Active"
+      }
+    }
+  },
+  "consoles": {
+    "wonderswan": {
+      "name": "WonderSwan",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "armored-unit",
+          "name_markdown": "[Armored Unit](https://github.com/Normmatt/unarmoredunit)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Bandai_-_WonderSwan/master/Named_Boxarts/Armored%20Unit%20%28Japan%29.png",
+              "alt": "Armored Unit box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Normmatt/unarmoredunit"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
