@@ -2359,7 +2359,21 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Tobiichi Port",
+              "url": "https://github.com/YYOzcan/Tobiichi-Port",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Separate static recompilation targeting the USA SCUS-97399 release. Builds game code locally from the user's disc; requires OpenGL 4.3 and AVX2 on Windows.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Static recompilation",
