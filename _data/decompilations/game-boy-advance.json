@@ -921,6 +921,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "mother-3-josiahg2502-recomp": {
+      "name": "MOTHER 3",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/josiahg2502-glitch/Mother3Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -2089,6 +2100,32 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/CosmicScribe64/eds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "mother-3-josiahg2502-recomp",
+          "name_markdown": "[MOTHER 3](https://github.com/josiahg2502-glitch/Mother3Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mother%203%20%28Japan%29.png",
+              "alt": "MOTHER 3 Japanese Game Boy Advance box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "gbarecomp-based native port for Windows, Linux and Android. Requires the user's ROM; desktop builds also request a GBA BIOS. Unknown translation-patch outputs use a compatibility interpreter and can run more slowly. Android performance and desktop F11 crash reports remain under investigation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/josiahg2502-glitch/Mother3Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/josiahg2502-glitch/Mother3Recomp"
             }
           ]
         }
