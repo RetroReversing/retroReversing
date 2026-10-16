@@ -97,3 +97,6 @@ demangling
 fctiwz
 frsp
 subobject
+headerless
+permuter
+unrelocated
