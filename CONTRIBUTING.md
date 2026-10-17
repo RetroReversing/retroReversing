@@ -354,6 +354,37 @@ The archive is split very neatly into the game itself and the DOS-side tools use
 <div class="emoji">💡</div>
 The last thing we want is for our pages to be boring or a chore to read. We are writing about games so it should be fun and visual! This section lists components you can use to ensure posts are not giant walls of text.
 
+## Make substantial articles visual
+For substantial history, development-tool, and archive articles, plan the illustrations alongside the prose rather than waiting for a separate request for images.
+Aim for the rhythm of a well-illustrated technical magazine: readable sections punctuated by evidence the reader can actually see.
+The [SEGA DTS article](/sega-dts) is an example of this approach.
+
+Choose visuals that help explain the adjacent text:
+* **Primary-source material** - Prefer original newsletter covers, manual diagrams, catalogue photographs, advertisements, tool interfaces, and staff photographs when available.
+* **A purpose for each image** - Show the equipment being discussed, the interface a developer used, or the publication that carried an announcement. Avoid unrelated decoration or repeating the same image.
+* **Varied layouts** - Pair related covers or screenshots, group hardware photographs for comparison, and give a detailed document or important photograph more space. Spread visuals through the article instead of collecting them all at the end.
+* **Readable captions** - Explain what the reader is seeing and why it matters. Link the source, identify the issue/page or archive filename, and label crops or reconstructions accurately.
+
+Inspect local source collections and existing site assets before searching elsewhere.
+Render useful pages or regions from archival PDFs; do not use generated imagery to stand in for historical evidence.
+Keep original low-resolution artwork recognisable rather than inventing missing detail.
+Select enough images to support the subject without a fixed quota, and keep brief reference pages or small edits proportionate.
+
+### Image layout and verification
+Use descriptive filenames and alt text, and provide intrinsic width and height so loading images does not shift the article around.
+Use JPG for document renders and photographs where appropriate; preserve GIF/PNG when transparency or original pixel artwork matters.
+Offer a working full-size image link for scans and screenshots whose details are too small in the article.
+Do not promise a lightbox unless it actually opens in the rendered page.
+
+Use existing components where suitable, and scope any additional layout CSS to the article or a reusable component.
+Use the site colour tokens for borders, surfaces, and caption text.
+Paired or grouped images should stack on narrow screens, retain their aspect ratios, and have horizontal, readable captions.
+
+Check the rendered page on desktop and a narrow viewport: confirm images load, captions remain legible, enlargement links work, and figures do not overflow or distort.
+Existing figure and image styles can impose floats, vertical captions, or maximum heights; inspect the computed result and override those styles within the new layout when needed.
+For an implementation example, see `pages/consoles/saturn/SegaDTS.md` and `public/css/sega-dts.css`; adapt the approach to the subject rather than copying its article-specific class names.
+
+---
 ## For sections about a specific game
 <figure>
   <img src="https://www.mobygames.com/images/covers/l/84474-k-c-munchkin-odyssey-2-front-cover.jpg" alt="K.C. Munchkin! Odyssey 2 Cover">
