@@ -8,19 +8,18 @@
       ],
       "repository_url": "https://github.com/TheGh0stShip/BattleTanx-GBC",
       "project_type": "Disassembly",
-      "completion_status": null,
+      "completion_status": "Byte-exact rebuild",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
-        "last_commit_at": "2026-10-17T05:21:17Z",
-        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-GBC/commit/68a3056718e6afdc68b5ee6029ee8ab3e94816f3",
-        "archived": false,
+        "checked_at": "2026-10-17T03:51:37Z",
+        "last_commit_at": "2026-10-17T03:48:00Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-GBC/commit/0f24c06cdddfcff7c5f4f0d25e266c77c130fdc1",
         "default_branch": "main",
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "archived": false,
+        "last_success_at": "2026-10-17T03:51:37Z",
         "status": "Active",
         "github_stars": 0
-      },
-      "ai_used": null
+      }
     },
     "dragon-warrior-monsters-german": {
       "name": "Dragon Warrior Monsters (German)",
@@ -329,8 +328,14 @@
         {
           "project": "battletanx-gbc",
           "name_markdown": "[BattleTanx](https://github.com/TheGh0stShip/BattleTanx-GBC)",
-          "images": [],
-          "notes_markdown": "Byte-exact RGBDS reconstruction with semantic recovery in progress.",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/BattleTanx%20%28USA%29.png",
+              "alt": "BattleTanx Game Boy Color box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Byte-exact RGBDS source for the USA release. All cartridge bytes are represented; semantic recovery remains ongoing.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
