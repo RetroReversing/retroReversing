@@ -163,8 +163,8 @@
           "name_markdown": "[Paper Mario: Sticker Star](https://codeberg.org/Ivylag/leaflitter)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png",
+              "alt": "Paper Mario: Sticker Star artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Paper%20Mario%20-%20Sticker%20Star%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],
@@ -185,8 +185,8 @@
           "name_markdown": "[Super Mario 3D Land (EU)](https://github.com/3dsdecomp/RedPepper)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg",
+              "alt": "Super Mario 3D Land (EU) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Super%20Mario%203D%20Land%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],
@@ -207,8 +207,8 @@
           "name_markdown": "[The Legend of Zelda: Ocarina of Time 3D](https://github.com/zeldaret/oot3d)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+              "alt": "The Legend of Zelda: Ocarina of Time 3D box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%203D%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],

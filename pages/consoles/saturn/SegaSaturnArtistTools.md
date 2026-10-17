@@ -19,7 +19,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnArtistTools.md
+updatedAt: '2026-10-17'
 ---
+<!-- cspell:words Softimage Animetix descrip -->
 
 This post will cover the most commonly used tools by artists when developing assets for Sega Saturn games, including 2D, 3D and Video.
 
@@ -45,6 +47,8 @@ Export File Formats supported:
  * 2D (Sega2D)
 
 The MapEditor allows importing PICT/DGT2 image files and placing them on a 'map'. Areas of pixels are imported from the files and called 'characters'. The result would be scroll data for the game. So you can think of this tool similar to a tile editor, where screens are made up of individual tiles.
+
+Sega's [MapEditor and ScreenEditor manual](https://antime.kapsi.fi/sega/files/MapEdit.pdf) describes the distinction more precisely: MapEditor works in **2-cell by 2-cell character** units, while ScreenEditor works in **1-cell by 1-cell** units. Both read PICT or DGT2 images and save SEGA2D data [^7].
 ￼
 </div>
 </section>
@@ -63,7 +67,7 @@ Similar to MapEditor but with a character/tile and cell size of 1. So it is more
 ## QuickViewer 
 Latest Version: **3.17US**
 
-The QuickViewer does exactly what it says on the tin, quickly allows you to view various image formats on the Sega Saturn development kit (both cart dev and P-Box).
+QuickViewer sends a selected region of the Macintosh screen to a Saturn target display, regardless of which Mac application created the image. The manual for version 3.17E lists the Target Model-S Graphics Box and CartDev as compatible targets; its High Resolution option is enabled with CartDev. That makes it a quick check of how artwork looks on the actual video output, rather than a file-format converter [^8].
 
 ## Sega2DViewer (SGL_RUN.exe)
 <section class="postSection">
@@ -123,6 +127,7 @@ File Formats Supported:
  * DGT2
 
 The SpriteEditor works in conjunction with the SegaPainter, in that it imports the output and merges multiple images/sprites into what it called `patterns`.
+The preserved SpriteEditor ReadMe explains that it registers sprites and assembles them into patterns, with a list used to select sprites and patterns for editing [^9].
 </div>
 </section>
 
@@ -169,6 +174,9 @@ Most games that use 3D models used an SGI workstation such as the SGI Indigo and
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SkgatzeLrlk?start=769" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Softimage was enhanced to allow exporting to the Sega Saturn 3d model formats.
+The September 1995 DTS newsletter describes the Saturn-specific toolkit in more detail: a Saturn format exporter, an IRIX viewer linked to CartDev, interactive colour reduction, texture painting with 3D projection, and UV coordinate editing. Those steps show a practical loop from the modelling workstation to a target console [^10].
+
+The same issue follows Sega's Creative Support Art Group replacing textures in a game approaching its deadline. Artists inspected a current build, made new textures, previewed them on Saturn, attached them to polygons, and checked the result in the game. That account grounds the tool list in an actual production workflow [^10].
 
 This console generation was interesting in terms of games companies choosing their preferred 3D modelling packages, Sega and Nintendo went for competing 3D modelling packages, so while Sega went with SoftImage, Nintendo went for Alias 3D modelling software [^4].
 
@@ -211,3 +219,7 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 [^4]: Game Developer Magazine June/July 1995
 [^5]: Sega Developmental Newsletter from April 1996
 [^6]: [Animetix GAMUT-SG](https://web.archive.org/web/19980428083125/http://www.animetix.com/products/gamutsg1.htm)
+[^7]: Sega, [MapEditor 1.81E / ScreenEditor 1.07E ReadMe](https://antime.kapsi.fi/sega/files/MapEdit.pdf), preserved under `docs/core/descrip/graphics/MapEdit.pdf` in the DTS mirror.
+[^8]: Sega, [QuickViewer 3.17E ReadMe](https://antime.kapsi.fi/sega/files/QkViewer.pdf), `Introduction`, `Restrictions`, and `Basic Operations`.
+[^9]: Sega, [SpriteEditor ReadMe](https://antime.kapsi.fi/sega/files/SprEdit.pdf), `Introduction` and interface description.
+[^10]: Sega, [DTS Developer News, September 1995](https://antime.kapsi.fi/sega/files/DTS-0995.pdf), pp. 1-2.

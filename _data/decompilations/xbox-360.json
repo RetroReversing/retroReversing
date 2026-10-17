@@ -828,7 +828,7 @@
           "images": [
             {
               "alt": "Blue Dragon box art",
-              "url": "https://cdn.thegamesdb.net/images/original/boxart/front/105392-1.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Blue_Dragon_Box_Art.jpeg",
               "width": 100
             }
           ],
@@ -862,7 +862,7 @@
           "images": [
             {
               "alt": "Condemned 2: Bloodshot box art",
-              "url": "https://images.launchbox-app.com/3c1ff837-8c46-4a3e-a4e0-789a93b12477.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/42/Condemned_2_Bloodshot.jpg",
               "width": 100
             }
           ],
@@ -925,8 +925,8 @@
           "name_markdown": "[Dragon Ball Z: Budokai HD](https://github.com/WistfulHopes/DBZ1)",
           "images": [
             {
-              "alt": "Dragon Ball Z: Budokai HD box art",
-              "url": "https://images.launchbox-app.com/8aad2f1b-afcd-4070-99ab-13a491e6de7b.png",
+              "alt": "Dragon Ball Z: Budokai HD project preview",
+              "url": "https://opengraph.githubassets.com/decompilation/WistfulHopes/DBZ1",
               "width": 100
             }
           ],
@@ -958,7 +958,7 @@
           "images": [
             {
               "alt": "Eternal Sonata box art",
-              "url": "https://i.3djuegos.com/juegos/1853/eternal_sonata__trusty_bell_/fotos/ficha/eternal_sonata__trusty_bell_-1684586.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/aa/Eternal_Sonata.jpg",
               "width": 100
             }
           ],
@@ -1022,7 +1022,7 @@
           "images": [
             {
               "alt": "Lollipop Chainsaw box art",
-              "url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox%20360/Named_Boxarts/Lollipop%20Chainsaw%20%28Japan%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox_360/master/Named_Boxarts/Lollipop%20Chainsaw%20%28Japan%29.png",
               "width": 100
             }
           ],
@@ -1054,7 +1054,7 @@
           "images": [
             {
               "alt": "Midnight Club: Los Angeles box art",
-              "url": "https://www.lukiegames.com/assets/images/Xbox-360/X360_MIDNIGHT_CLUB_LOS_ANGELES_COMPLET.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
               "width": 100
             }
           ],
@@ -1101,7 +1101,7 @@
           "images": [
             {
               "alt": "Naughty Bear box art",
-              "url": "https://cdn.mobygames.com/covers/3483175-naughty-bear-xbox-360-front-cover.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg",
               "width": 100
             }
           ],
@@ -1223,8 +1223,8 @@
           "name_markdown": "[Terraria](https://github.com/dptug/TerrariaXDK)",
           "images": [
             {
-              "alt": "",
-              "url": "https://cdn0.spong.com/pack/t/e/terraria409425l/_-Terraria-Xbox-360-_.jpg",
+              "alt": "Terraria artwork",
+              "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg",
               "width": 100
             }
           ],

@@ -29,10 +29,11 @@ recommend:
   - devkit
   - crossproducts
 editlink: /consoles/saturn/SegaSaturnProgrammingBox.md
-updatedAt: '2019-11-09'
+updatedAt: '2026-10-17'
 ---
+<!-- cspell:words Covell endcapture devsys -->
 
-During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
+During the Sega Saturn's lifecycle there were multiple development kits available to developers starting from the original Sophia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
 # Sega Saturn Programming Box (Sophia Systems)
 <img src="/public/SaturnProgrammingBox.jpg" />
@@ -203,6 +204,29 @@ As this is similar to the Sound Box it is likely that this also got replaced by 
 
 ---
 # Overall Cost of Development Kits
+Sega of America's June 1996 [Saturn Development System order form](https://antime.kapsi.fi/sega/files/devsys.pdf) gives a dated snapshot of what a licensed studio could order. These are separate configurations and accessories, not items every developer had to buy together [^9].
+
+The form lists these selected US prices and dependencies:
+
+Item | June 1996 price | What the order form includes or requires
+---|---|---
+CartDev kit (`SN310`) | $4,800 | Modified Saturn, CartDev, SNASM2 software and manuals; requires separate CD emulation
+Programming Target Box (`ST-4001`) | $7,475 | Target Box/S with CD drive; requires an additional SH-2 CPU board or emulator
+Saturn Dev System I (`ST-1000-01`) | $30,575 | Target Box, Hitachi E7000PC ICE, software and manuals, and VCD board
+Modified Saturn (`ST-MSAT-00`) | $700 | Production US Saturn with NMI and VCD interfaces for CartDev
+Mirage CD emulation system (`SN350`) | $3,000 | Host-PC attachment with a 1 GB hard drive and VCD-tool compatibility
+Virtual-CD emulator kit (`ST-RT-V3VCD`) | $8,100 | PC board, cable, and notes; a different offering from Mirage
+Hitachi E7000PC kit (`ST-E7000PC`) | $15,000 | E7000PC, SH-2 pod, PC interface, cables, documentation, and software
+
+The order form makes an important distinction: the $4,800 CartDev bundle supplied the modified Saturn but still called for separate CD emulation. The $30,575 system already bundled the Target Box, ICE, and VCD board, so adding their individual prices would double-count equipment. These are historical list prices; the form says they were subject to change [^9].
+
+{% capture saturn_devkit_catalogue_figures %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-catalogue-cartdev.gif" alt="Original DTS catalogue photograph of the CartDev development system" width="235" height="207" title="CartDev kit" caption="Sega's original catalogue image. The June 1996 order form lists the kit at $4,800." %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-catalogue-pbox.gif" alt="Original DTS catalogue photograph of the Saturn Programming Target Box" width="414" height="288" title="Programming Target Box" caption="The same order form lists the box alone at $7,475 and notes its additional CPU requirement." %}
+{% endcapture %}
+{% include article-gallery.html figures=saturn_devkit_catalogue_figures compact=true %}
+
+---
 In this side by side example of the Sega Saturn and Nintendo 64 you can see which one developers preferred in terms of cost:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> 
 
@@ -222,3 +246,4 @@ Although the Cross Products development kit was initially a 3rd party developmen
 [^6]: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html)
 [^7]: EDGE issue 21 (June 1995)
 [^8]: [All Dev Saturn consoles the same?](https://www.obscuregamers.com/threads/arent-all-dev-saturn-consoles-the-same.324/)
+[^9]: Sega of America, [Saturn Development System Order Form](https://antime.kapsi.fi/sega/files/devsys.pdf), June 1996, preserved in the DTS website mirror as `hardware/devsys.pdf`.

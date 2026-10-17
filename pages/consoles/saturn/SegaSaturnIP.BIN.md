@@ -19,10 +19,11 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnIP.BIN.md
-updatedAt: '2026-10-08'
+updatedAt: '2026-10-17'
 ---
+<!-- cspell:words smpsys SMPSYS AREJ AREU -->
 
-The first 15 sectors (32KB) of a SEGA Saturn CD contains the Boot System Initial Program code known as IP.BIN [^1]. In this post we will explore what it is, the purpose of it and how it works. 
+The disc's system area begins with the Boot System Initial Program, commonly extracted as `IP.BIN`. Its size is recorded in the system ID and can vary up to **16 sectors**, or 32 KiB of user data, under Sega's disc format specification [^2]. In this post we will explore what it is, the purpose of it and how it works.
 
 # What is it for?
 After the Sega Saturn's internal BIOS code has been executed the CPU will jump to a location in the IP.BIN which will start the setup for game specific settings and meta data such as the game name and version information.

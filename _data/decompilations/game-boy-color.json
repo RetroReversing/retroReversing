@@ -19,7 +19,8 @@
         "last_success_at": "2026-10-17T03:51:37Z",
         "status": "Active",
         "github_stars": 0
-      }
+      },
+      "ai_used": null
     },
     "dragon-warrior-monsters-german": {
       "name": "Dragon Warrior Monsters (German)",
@@ -352,8 +353,8 @@
           "name_markdown": "[Dragon Warrior Monsters (German)](https://github.com/Ebernacher90/DragonQuestMonstersGerman)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/d/d7/Dragonwarrior1.jpg",
+              "alt": "Dragon Warrior Monsters (German) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Dragon%20Warrior%20Monsters%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
               "width": 100
             }
           ],
@@ -374,8 +375,8 @@
           "name_markdown": "[Looney Tunes: Carrot Crazy](https://github.com/huderlem/carrotcrazy)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Looney_Tunes_Carrot_Crazy.jpg",
+              "alt": "Looney Tunes: Carrot Crazy box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Looney%20Tunes%20-%20Carrot%20Crazy%20%28USA%29%20%28En%2CFr%2CEs%29%20%28GB%20Compatible%29.png",
               "width": 100
             }
           ],
@@ -418,8 +419,8 @@
           "name_markdown": "[Pokemon Crystal](https://github.com/pret/pokecrystal)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png",
+              "alt": "Pokemon Crystal box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20-%20Crystal%20Version%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -450,8 +451,8 @@
           "name_markdown": "[Pokemon Pinball](https://github.com/pret/pokepinball)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png",
+              "alt": "Pokemon Pinball box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Pinball%20%28USA%2C%20Australia%29%20%28Rumble%20Version%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
               "width": 100
             }
           ],
@@ -472,8 +473,8 @@
           "name_markdown": "[Pokemon Trading Card Game](https://github.com/pret/poketcg)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png",
+              "alt": "Pokemon Trading Card Game box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Trading%20Card%20Game%20%28USA%2C%20Australia%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
               "width": 100
             }
           ],
@@ -494,8 +495,8 @@
           "name_markdown": "[Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png",
+              "alt": "Pokémon Puzzle Challenge box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20Puzzle%20Challenge%20%28USA%2C%20Australia%29.png",
               "width": 100
             }
           ],
@@ -516,8 +517,8 @@
           "name_markdown": "[Wario Land 3](https://github.com/froggestspirit/wland3)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg",
+              "alt": "Wario Land 3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Wario%20Land%203%20%28World%29%20%28En%2CJa%29.png",
               "width": 100
             }
           ],
@@ -538,8 +539,8 @@
           "name_markdown": "[The Legend of Zelda Links Awakening DX](https://github.com/zladx/LADX-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+              "alt": "The Legend of Zelda Links Awakening DX box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20-%20Redux%20%28USA%29.png",
               "width": 100
             }
           ],
