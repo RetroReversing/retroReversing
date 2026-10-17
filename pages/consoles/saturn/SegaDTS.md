@@ -3,6 +3,8 @@ layout: post
 title: SEGA DTS and the World Behind Saturn Development
 permalink: /sega-dts
 category: saturn
+placeholderimages:
+  - /public/images/saturn/dts/sega-dts-website-masthead.png
 tags:
 - saturn
 - sdk
