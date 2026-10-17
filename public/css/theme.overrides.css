@@ -425,19 +425,13 @@ rr-sandpack {
 }
 
 .post .mermaid.rr-mermaid-zoom .rr-mermaid-controls button {
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  background: rgba(255, 255, 255, 0.9);
-  color: #111;
+  border: 1px solid var(--rr-color-mermaid-control-border);
+  background: var(--rr-color-mermaid-control-bg);
+  color: var(--rr-color-mermaid-control-text);
   border-radius: 6px;
   padding: 0.2rem 0.4rem;
   font-size: 0.85rem;
   line-height: 1;
-}
-
-.dark .post .mermaid.rr-mermaid-zoom .rr-mermaid-controls button {
-  border-color: rgba(255, 255, 255, 0.25);
-  background: rgba(17, 17, 17, 0.9);
-  color: #fff;
 }
 
 .post .mermaid svg {
@@ -448,20 +442,34 @@ rr-sandpack {
 .post .mermaid .label,
 .post .mermaid .nodeLabel,
 .post .mermaid .edgeLabel,
-.post .mermaid foreignObject div {
-  color: #222 !important;
+.post .mermaid foreignObject *,
+.post .mermaid .node text,
+.post .mermaid .cluster text {
+  color: var(--rr-color-mermaid-node-text) !important;
+  fill: var(--rr-color-mermaid-node-text) !important;
 }
 
 .post .mermaid .node rect,
 .post .mermaid .node circle,
 .post .mermaid .node ellipse,
 .post .mermaid .node polygon {
-  fill: #eef4ff !important;
-  stroke: #5c86c5 !important;
+  fill: var(--rr-color-mermaid-node-bg) !important;
+  stroke: var(--rr-color-mermaid-node-border) !important;
 }
 
 .post .mermaid .edgePath .path,
 .post .mermaid .flowchart-link {
-  stroke: #4d4d4d !important;
+  stroke: var(--rr-color-mermaid-edge) !important;
+}
+
+.post .mermaid marker path {
+  fill: var(--rr-color-mermaid-edge) !important;
+  stroke: var(--rr-color-mermaid-edge) !important;
+}
+
+.post .mermaid .edgeLabel,
+.post .mermaid .edgeLabel rect {
+  background: var(--rr-color-mermaid-edge-label-bg) !important;
+  fill: var(--rr-color-mermaid-edge-label-bg) !important;
 }
 /* #endregion Mermaid diagrams */

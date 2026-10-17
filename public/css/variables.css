@@ -33,6 +33,16 @@
   --rr-color-pre-bg: #ffffff;
   --rr-color-pre-border: #eaeaea;
 
+  /* Mermaid diagrams */
+  --rr-color-mermaid-node-bg: #eef4ff;
+  --rr-color-mermaid-node-border: #5c86c5;
+  --rr-color-mermaid-node-text: #222222;
+  --rr-color-mermaid-edge: #4d4d4d;
+  --rr-color-mermaid-edge-label-bg: #fafafa;
+  --rr-color-mermaid-control-bg: #ffffff;
+  --rr-color-mermaid-control-border: #b8c0c9;
+  --rr-color-mermaid-control-text: #222222;
+
   /* Sidebar widgets on content pages */
   --rr-color-widget-title: #424242;
   --rr-color-widget-border: #e8e8e8;
@@ -199,6 +209,15 @@
 
     --rr-color-pre-bg: #1a1a1a;
     --rr-color-pre-border: rgba(255, 255, 255, 0.12);
+
+    --rr-color-mermaid-node-bg: #193447;
+    --rr-color-mermaid-node-border: #74b9de;
+    --rr-color-mermaid-node-text: #f2f7fb;
+    --rr-color-mermaid-edge: #aec4d1;
+    --rr-color-mermaid-edge-label-bg: #0f0f0f;
+    --rr-color-mermaid-control-bg: #243440;
+    --rr-color-mermaid-control-border: #698296;
+    --rr-color-mermaid-control-text: #f2f7fb;
 
     --rr-color-widget-title: rgba(255, 255, 255, 0.92);
     --rr-color-widget-border: rgba(255, 255, 255, 0.12);
