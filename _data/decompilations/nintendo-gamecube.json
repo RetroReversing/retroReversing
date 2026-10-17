@@ -2042,7 +2042,8 @@
               "platforms": [
                 "Windows",
                 "Linux",
-                "macOS"
+                "macOS",
+                "Nintendo Switch"
               ],
               "description_markdown": "Native multi-platform port of the GameCube game.",
               "project_types": [
