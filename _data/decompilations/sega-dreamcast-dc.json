@@ -11,14 +11,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2013-12-02T05:22:15Z",
         "last_commit_url": "https://github.com/sonicretro/sad_disasm/commit/78386b53816129ff8d37ef1bce756613fdb5de0d",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Inactive",
-        "github_stars": null
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -32,14 +32,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-02T04:17:49Z",
         "last_commit_url": "https://github.com/lhsazevedo/tbg-decomp/commit/a81e38746c4fa7f37d841c166ebc818c54864bae",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -53,14 +53,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-01-20T20:45:26Z",
         "last_commit_url": "https://github.com/fmil95/recv-dc-decomp/commit/7ee766b4f3a8eacb2f09577a88a565ae73f4adb9",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 38
       },
       "ai_used": null
     },
@@ -74,14 +74,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-23T23:45:02Z",
         "last_commit_url": "https://github.com/sonicfreak1337/SARecomp/commit/d5288fe64e68711dd9f0e6718c1d0fb2eeca92f2",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 87
       },
       "ai_used": null
     },
@@ -95,14 +95,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-14T20:12:08Z",
-        "last_commit_at": "2026-10-14T18:09:56Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/0ebc46e3ec5a39e9a5baa99ae24c2f1ca87f0847",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T10:41:46Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/b152b0d1a0b1982aa1603118e8ed31aea57d1104",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-14T20:12:08Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 2
       },
       "ai_used": null
     },
@@ -116,14 +116,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-14T20:12:08Z",
-        "last_commit_at": "2026-10-14T18:09:58Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/3e7867fbe4d8ee8cb1d76e3a6cb46f527d71b435",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T09:29:55Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/34a5f2491203a4978b63082ae0c9559c58d91518",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-14T20:12:08Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 0
       },
       "ai_used": null
     },
@@ -137,14 +137,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-17T07:53:24Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-15T11:26:33Z",
         "last_commit_url": "https://github.com/celsowm/vf3-decomp/commit/8314754a14d28e6432c97ea058d41d9d289f4c8d",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-17T07:53:24Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 2
       },
       "ai_used": null
     }

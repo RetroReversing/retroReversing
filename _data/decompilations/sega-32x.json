@@ -11,14 +11,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-02-27T20:44:43Z",
         "last_commit_url": "https://github.com/sonicretro/chaotix/commit/46300f42849ba83f440d4d7e06e70e5c88bb0674",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -32,14 +32,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-15T14:58:47Z",
         "last_commit_url": "https://github.com/matiaszanolli/sega-vr-disasm/commit/60819eff3cdf2abe0037081c9e6a484bf06bb9dc",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 183
       },
       "ai_used": null
     },
@@ -53,7 +53,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": null
+        "github_stars": 37,
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T02:12:22Z",
+        "last_commit_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled/commit/4a0844b6a50ce3321f51fcde304b262d8ca0f6f5",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active"
       },
       "ai_used": null
     }
