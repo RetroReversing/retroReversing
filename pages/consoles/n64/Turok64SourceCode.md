@@ -82,11 +82,11 @@ An opened Nintendo 64 cartridge helps locate the ROM chip and edge connector phy
 
 The retail game was distributed on a **64 Mbit (8 MiB) cartridge** [^17]. The surviving files include `PR/tengine/rom.rnc`, a ROM image just shy of that size. Despite the `.rnc` name, the file begins with a Nintendo 64 ROM header: it is a cartridge image, not one compressed archive.
 
-Think of `rom.rnc` as a surviving result and `PR/tengine/spec` as the build plan. The plain-text `spec` lists the pieces to put into a ROM, from boot and game code to sound and other data, and gives key memory locations. Some pieces were compressed to make the most of the cartridge's limited space. These files show how Iguana planned the ROM, though they do not establish whether this particular image matches a retail release byte for byte.
+The `rom.rnc` image is a surviving result; `PR/tengine/spec` is the build plan. The plain-text `spec` lists the pieces to put into a ROM, from boot and game code to sound and other data, and gives key memory locations. Some pieces were compressed to make the most of the cartridge's limited space. These files show how Iguana planned the ROM, though they do not establish whether this particular image matches a retail release byte for byte.
 
 ---
 # Development environment
-The archive mixes production game files with Nintendo's `PR` SDK tree. Keeping those layers separate makes it easier to see which technology Iguana used and which files are sample programs or library support.
+The archive mixes Iguana's game files with Nintendo's `PR` SDK tree. The game files show how Turok worked; the neighboring SDK samples and libraries show the tools available to its programmers.
 
 ## Nintendo 64 SDK and ROM layout
 `PR/tengine/Makefile` includes `$(ROOT)/usr/include/make/PRdefs`. The adjacent `spec` file defines boot code, audio and display-list memory, frame buffers, a cartridge cache, a Z-buffer, raw data segments, and the main code segment. It also names Nintendo microcode objects such as `gspF3DEX.NoN.fifo.o`.
@@ -100,7 +100,7 @@ flowchart LR
   D --> F["<b>ROM image</b><br>boot, code, raw data"]
 ```
 
-The diagram is a reading map for the files, not proof that the supplied archive builds without changes. The `Makefile` contains commented final-build commands, and this article does not claim a reproducible retail build.
+The diagram traces the roles of these files. The `Makefile` contains commented final-build commands, so the archive does not establish that the retail game can be rebuilt without changes.
 
 ## Workstations and authoring tools
 Iguana combined **SGI test hardware**, an **in-house world editor**, 3D modeling and motion capture, and a separate music workflow. The hardware photo and software screens below are representative; only the documentary frame shows Acclaim's own workspace.
@@ -172,7 +172,7 @@ The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - So
   <div class="rr-game-media-row__copy" markdown="1">
 A documentary about **Turok 3** shows a **Bung Doctor V64** and Windows development tools [^7] [^8]. A 1997 report priced the V64 at **US$450** [^24]. The footage establishes later Acclaim use, but not whether Iguana had one for the first Turok.
 
-The same documentary shows an Acclaim **ArtSend debugging cartridge** around the seven-minute mark [^25]. Its appearance should not be mistaken for evidence that the V64 is visible at that timestamp. `PR/tengine/cart.c` also has a `WIN32` branch for host-side code, but that does not identify the IDE used for the original N64 game. A Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in GameFAQs and MobyGames [^18] [^20].
+The same documentary shows an Acclaim **ArtSend debugging cartridge** around the seven-minute mark [^25]. That shot features the ArtSend, a different device from the V64. `PR/tengine/cart.c` also has a `WIN32` branch for host-side code, but that does not identify the IDE used for the original N64 game. A Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in GameFAQs and MobyGames [^18] [^20].
   </div>
 </section>
 
@@ -220,12 +220,12 @@ Block | Content named in cartdir.h | Stored bytes
 
 Graphic objects, texture sets, and levels account for most stored bytes in this copy. The names tell us how the root directory is organized; they do not imply that every original authoring file or editable 3D Studio scene is present.
 
-**Packed game assets are present; editable art projects are not evident.** `cartdir.h` names geometry and animations under graphic objects, bitmaps and palettes under texture sets, and collision, instances, and grid sections under levels. A search of this supplied `src` tree found no `.3ds` or `.max` scene files. The binary data can drive the game, but these runtime formats are not the original 3D Studio authoring projects. The archive also contains other media files, including audio, so "no assets" would be misleading.
+**Packed game assets are present; editable art projects are not evident.** `cartdir.h` names geometry and animations under graphic objects, bitmaps and palettes under texture sets, and collision, instances, and grid sections under levels. The surviving `src` tree contains no `.3ds` or `.max` scene files. Its binary data can drive the game, but these runtime formats are not the original 3D Studio authoring projects. Audio and other media files also survive.
 
-An early **Windows 95 demo** was reportedly supplied with issue 28 of the Italian *PC Gamer* (1998). Its asset file, `demodata.dat`, was reported to contain RNC-compressed sections in a layout resembling the N64 `cartdata.dat` [^13]. That demo file is not in this supplied source tree, so the comparison cannot be reproduced here.
+An early **Windows 95 demo** was reportedly supplied with issue 28 of the Italian *PC Gamer* (1998). Its asset file, `demodata.dat`, was reported to contain RNC-compressed sections in a layout resembling the N64 `cartdata.dat` [^13]. The reported similarity remains unverified because that demo file is absent from the surviving source tree.
 
 ## Explore the index yourself
-The viewer starts with the real root offsets from `PR/cartdata.dat`. Select a local copy of a root `cartdata.dat` to inspect its eleven block sizes. It reads only the header in your browser; it does not upload the file or decompress assets.
+The viewer starts with the real root offsets from `PR/cartdata.dat` and shows the sizes of its eleven blocks. Readers with their own copy of that file can select it below. The viewer reads only its header in the browser; it does not upload the file or decompress assets.
 
 <div class="rr-turok-index" data-rr-turok-index>
   <div class="rr-turok-index__controls">
@@ -238,7 +238,7 @@ The viewer starts with the real root offsets from `PR/cartdata.dat`. Select a lo
 </div>
 <script defer src="/public/js/turok-cart-index.js"></script>
 
-A quick manual check is to read the first four bytes of `PR/cartdata.dat`: `00 00 00 0B` is eleven in big-endian order. The next word, `00 00 00 38`, places the first block at offset 56. `cartdir.h` maps block zero to graphic objects. This is a useful starting point before trying to parse the nested sets.
+The first four bytes of `PR/cartdata.dat`, `00 00 00 0B`, give the block count of eleven in big-endian order. The next word, `00 00 00 38`, places the first block at offset 56. `cartdir.h` identifies that block as graphic objects. Those few bytes show how the game finds an asset group without storing file names in the index.
 
 ## From ROM to running code
 `PR/tengine/spec` names the nearby `tengine/cartdata.dat` in a raw `static` segment. That 7,576-byte file is distinct from the much larger `PR/cartdata.dat` explored above; the spec alone does not show how the larger file would enter this build. `boot.c` separately loads the main code segment from ROM. It first reads twelve bytes and checks for the ASCII `RNC` signature. If present, it reads the compressed length, transfers the compressed block, then calls the method 1 or method 2 unpacker. Otherwise it copies the code segment directly. It then clears caches and BSS before calling `boot()`.
@@ -305,7 +305,7 @@ for (i = 0; i < CHEAT_END_SELECTION; i++) {
 
 These are whitespace-normalized excerpts from `cheats.c`; the calculations and calls match the source.
 
-For a focused reading exercise, find `CCheat__Update` and follow one flag into `CCheat__Draw` and the game system that consumes it. The source distinguishes flags that are enabled for display from flags that are active in play.
+The path of a cheat flag runs from `CCheat__Update` into `CCheat__Draw` and the game system that consumes it. The source distinguishes flags that are enabled for display from flags that are active in play.
 
 ## Controller Pak saves
 `PR/tengine/control.c` holds `OSPfs ControllerPak`, directory state, and the game's Controller Pak identifiers. Its `GameCode` is `NTUE` and its `CompanyCode` is `51`. The `GameName` array in this copy uses encoded byte values, rather than the plain ASCII `turok` array left in a comment. The save payload is modeled by `CPersistantData` in `tengine.h`, including inventory, level keys, settings, health, and cheat flags.
@@ -341,7 +341,7 @@ typedef struct {
 } OSPfsState;
 ```
 
-The actual identifier declarations in `control.c` are worth checking against a Pak dump. The readable ASCII name appears only as a commented-out alternative:
+The identifier declarations in `control.c` show a difference between the readable name left in a comment and the encoded bytes used by the game:
 
 ```c
 u16 CompanyCode = '51';
@@ -445,12 +445,12 @@ typedef struct CPersistantData_t
   <figcaption>Nintendo 64 Controller Pak, used for Turok save files.</figcaption>
 </figure>
 
-A saved `.mpk` file from an emulator can be inspected with a hex editor or a [Controller Pak editor](https://rawgit.com/bryc/mempak/master/index.html). Compare the directory entry and game code before interpreting the payload. The C structure alone is not a complete on-disk format specification.
+A saved `.mpk` file from an emulator can be opened in a hex editor or a [Controller Pak editor](https://rawgit.com/bryc/mempak/master/index.html). Its directory entry and game code identify the note before the save payload is interpreted. The C structure alone is not a complete on-disk format specification.
 
 ## Models, worlds, and related games
 The 3D Studio conversion matrix in `tengine.h` connects the game runtime to its art pipeline. `scene.c`, `romstruc.c`, and `cartdir.h` provide better starting points for tracing geometry, collision, and level data than the generic SDK demo folders.
 
-Iguana also built a world editor, according to a contemporary interview. David Dienstbier described the tools this way: "All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here" [^4]. No obvious world-editor project or executable was found in this supplied `src` tree. Nightdive's Stephen Kick said the remaster team could not find the original game's source code when it began its work [^27]. The later remaster has an editor [^28], but neither that fact nor this archive establishes a lineage back to Iguana's tool. A claim that the original editor has *never* been released would require a broader survey than this archive permits.
+Iguana also built a world editor, according to a contemporary interview. David Dienstbier described the tools this way: "All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here" [^4]. No obvious world-editor project or executable was found in the surviving `src` tree. Nightdive's Stephen Kick said the remaster team could not find the original game's source code when it began its work [^27]. The later remaster has an editor [^28], but its connection to Iguana's original tool is unknown. The available evidence also does not establish whether that original editor was ever released.
 
 The first *South Park* Nintendo 64 game is reported to have been based on Turok technology [^9]. Shared engine code is therefore plausible, although this archive does not establish which exact source files were compiled for *South Park*.
 
@@ -460,10 +460,10 @@ The first *South Park* Nintendo 64 game is reported to have been based on Turok 
 </figure>
 
 ---
-# Reproducing the investigation
-The paths in this page are enough to repeat the main checks without running an old SDK. Begin with `PR/tengine/spec` to identify segments, then `boot.c` for code loading. Read `cart.h` and `cartdir.h` before inspecting `PR/cartdata.dat`; the root index is big-endian and contains offsets rather than file names. Use `cheats.c` and `control.c` for two small, self-contained game systems.
+# Can this source rebuild Turok?
+The archive includes game source, generated objects, and a ROM image. Its `spec` file describes the ROM segments, while `boot.c` shows how the game code loads. `cart.h` and `cartdir.h` explain the asset index: it stores big-endian offsets rather than file names.
 
-The archive includes generated objects and a ROM image, but a clean rebuild depends on an appropriate historical toolchain and inputs. The build notes below record obstacles encountered with one setup. They are observations, not verified fixes for every environment.
+A clean rebuild still depends on an appropriate historical toolchain and inputs. The build notes below record obstacles encountered with one setup; they do not establish a reproducible retail build.
 
 <details markdown="1">
 <summary>Historical build attempt and compiler diagnostics</summary>

@@ -84,6 +84,7 @@ Some general rules are below:
 * **Non-linear order** - Never assume the reader will follow a linear order. Each section should be standalone so they can read only the parts they are interested in.
 * **Present then explain** - Present terminology as factual first, then justify or contextualize ("What is it?" then "Why is it useful?").
 * **Encourage hands-on experimentation** - Suggest trying tools, running commands, or inspecting files.
+* **Write for readers, not archive investigators** - Explain what a file, measurement, or source excerpt reveals about the game. Assume readers do not have the source archive. Avoid directions to report findings, verify claims, or follow file paths in ordinary article prose. Reserve step-by-step instructions for clearly marked tutorials and interactive exercises; keep important evidence and uncertainty in the narrative.
 * **Use stable site wording** - Avoid wording that implies a recent site change, such as "we now have", "now has its own page", or "this now lives". Prefer stable phrases such as "For the full history, see:" or "A dedicated page covers this in more detail:".
 
 ### Character Rules

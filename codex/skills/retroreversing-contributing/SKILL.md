@@ -20,6 +20,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * Short paragraphs, short sentences, encourage hands-on experimentation.
    * Present terminology first, then explain/justify.
    * Sections should be readable non-linearly (don't rely on strict reading order).
+   * Address the article's reader, who may never have the source files. Turn research notes and instructions to inspect, compare, or report findings into explanations of what the evidence reveals about the game. Keep procedural directions inside explicit tutorials or interactive exercises.
    * Use stable site wording. Avoid phrases that imply a recent site change, such as "we now have", "now has its own page", or "this now lives"; prefer "For the full history, see:" or "A dedicated page covers this in more detail:".
    * For new pages about an individual game, follow the Turok page's visual-to-technical progression: short introduction and box art; cartridge or other release medium; inside view such as a PCB when available; development hardware and software; then source code, assets, build process, and deeper analysis.
    * Match physical images to the game, platform, and relevant edition. Caption and credit them. Identify what is confirmed versus inferred, especially when development tools are evidenced only by a related game. If an image or evidence is unavailable, continue without inventing it; use an appropriate release image or screenshot for digital-only games.
