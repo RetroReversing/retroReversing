@@ -17,8 +17,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kirby-s-dream-land": {
       "name": "Kirby's Dream Land",
@@ -36,8 +38,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid-ii-return-of-samus": {
       "name": "Metroid II: Return of Samus",
@@ -55,8 +59,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mole-mania": {
       "name": "Mole Mania",
@@ -74,8 +80,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-red-blue": {
       "name": "Pokemon Red & Blue",
@@ -93,8 +101,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-yellow": {
       "name": "Pokemon Yellow",
@@ -112,8 +122,10 @@
         "last_commit_url": "https://github.com/pret/pokeyellow/commit/e89ead154b9968aa50eed9328ff2b38b6c194382",
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-land": {
       "name": "Super Mario Land",
@@ -131,8 +143,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-land-2-six-golden-coins": {
       "name": "Super Mario Land 2: Six Golden Coins",
@@ -150,8 +164,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": true,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-land-3-wario-land": {
       "name": "Super Mario Land 3: Wario Land",
@@ -169,8 +185,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tetris-game-boy": {
       "name": "Tetris",
@@ -188,8 +206,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

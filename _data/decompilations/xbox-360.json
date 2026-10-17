@@ -17,8 +17,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "xeo3-recomp-kit": {
       "name": "XEO3 Recomp Kit",
@@ -36,8 +38,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-16T22:01:16Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "blue-dragon": {
       "name": "Blue Dragon",
@@ -55,8 +59,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "condemned-2-bloodshot": {
       "name": "Condemned 2: Bloodshot",
@@ -74,8 +80,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "destroy-all-humans-path-of-the-furon": {
       "name": "Destroy All Humans! Path of the Furon",
@@ -93,8 +101,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-ball-z-budokai-hd": {
       "name": "Dragon Ball Z: Budokai HD",
@@ -112,8 +122,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "eternal-sonata": {
       "name": "Eternal Sonata",
@@ -131,8 +143,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kameo-elements-of-power": {
       "name": "Kameo: Elements of Power",
@@ -150,8 +164,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lollipop-chainsaw": {
       "name": "Lollipop Chainsaw",
@@ -169,8 +185,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "midnight-club-los-angeles": {
       "name": "Midnight Club: Los Angeles",
@@ -188,8 +206,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "naughty-bear": {
       "name": "Naughty Bear",
@@ -207,8 +227,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-2006": {
       "name": "Sonic the Hedgehog (2006)",
@@ -226,8 +248,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-unleashed": {
       "name": "Sonic Unleashed",
@@ -245,8 +269,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "spider-man-edge-of-time": {
       "name": "Spider-Man: Edge of Time",
@@ -264,8 +290,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "terraria": {
       "name": "Terraria",
@@ -283,8 +311,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "viva-pinata-trouble-in-paradise": {
       "name": "Viva Pinata: Trouble in Paradise",
@@ -302,8 +332,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "infinite-undiscovery-recomp": {
       "name": "Infinite Undiscovery",
@@ -321,8 +353,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-darkness-estacado": {
       "name": "The Darkness",
@@ -340,8 +374,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "fifa-street-2012-restreet": {
       "name": "FIFA Street (2012)",
@@ -359,8 +395,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ace-combat-6-fires-of-liberation": {
       "name": "Ace Combat 6: Fires of Liberation",
@@ -378,8 +416,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "banjo-kazooie-nuts-and-bolts": {
       "name": "Banjo-Kazooie Nuts and Bolts",
@@ -397,8 +437,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crackdown": {
       "name": "Crackdown",
@@ -416,8 +458,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crackdown-2": {
       "name": "Crackdown 2",
@@ -435,8 +479,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dance-central-3": {
       "name": "Dance Central 3",
@@ -454,8 +500,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dead-or-alive-xtreme-2": {
       "name": "Dead or Alive Xtreme 2",
@@ -473,8 +521,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "halo-reach": {
       "name": "Halo Reach",
@@ -492,8 +542,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "rock-band-3-xbox-360": {
       "name": "Rock Band 3 (Xbox 360)",
@@ -511,8 +563,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "rumble-roses-xx": {
       "name": "Rumble Roses XX",
@@ -530,8 +584,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-06-demo": {
       "name": "Sonic 06 Demo",
@@ -549,8 +605,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "deadly-premonition-recomp": {
       "name": "Deadly Premonition (Recomp)",
@@ -568,8 +626,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kinect-sports": {
       "name": "Kinect Sports",
@@ -587,8 +647,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "project-gotham-racing-4-recomp": {
       "name": "Project Gotham Racing 4 (Recomp)",
@@ -606,8 +668,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "saw-ii-flesh-blood": {
       "name": "Saw II: Flesh & Blood",
@@ -625,8 +689,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-2006-rjkiv": {
       "name": "Sonic the Hedgehog (2006)",
@@ -644,8 +710,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-simpsons-game-recomp": {
       "name": "The Simpsons Game (Recomp)",
@@ -663,8 +731,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lost-odyssey-recomp": {
       "name": "Lost Odyssey",
@@ -682,8 +752,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "modern-warfare-2-recompiled": {
       "name": "Call of Duty: Modern Warfare 2",
@@ -701,8 +773,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

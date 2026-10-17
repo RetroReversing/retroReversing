@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-16T23:32:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-warrior-monsters-german": {
       "name": "Dragon Warrior Monsters (German)",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "looney-tunes-carrot-crazy": {
       "name": "Looney Tunes: Carrot Crazy",
@@ -55,8 +59,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-gold-silver": {
       "name": "Pokemon Gold & Silver",
@@ -74,8 +80,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-crystal": {
       "name": "Pokemon Crystal",
@@ -93,8 +101,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "suicune": {
       "name": "suiCune",
@@ -112,8 +122,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-pinball": {
       "name": "Pokemon Pinball",
@@ -131,8 +143,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-trading-card-game": {
       "name": "Pokemon Trading Card Game",
@@ -150,8 +164,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-puzzle-challenge": {
       "name": "Pokémon Puzzle Challenge",
@@ -169,8 +185,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wario-land-3": {
       "name": "Wario Land 3",
@@ -188,8 +206,10 @@
         "archived": true,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-links-awakening-dx": {
       "name": "The Legend of Zelda Links Awakening DX",
@@ -207,8 +227,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-oracle-of-ages-seasons": {
       "name": "The Legend of Zelda Oracle of Ages & Seasons",
@@ -226,8 +248,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-tcg-2": {
       "name": "Pokemon TCG 2",
@@ -245,8 +269,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-warrior-monsters": {
       "name": "Dragon Warrior Monsters",
@@ -264,8 +290,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-ocean-blue-sphere": {
       "name": "Star Ocean: Blue Sphere",
@@ -283,8 +311,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

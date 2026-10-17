@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "knuckles-the-echidna-in-sonic-the-hedgehog-2": {
       "name": "Knuckles the Echidna in Sonic the Hedgehog 2",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "phantasy-star-ii": {
       "name": "Phantasy Star II",
@@ -55,11 +59,13 @@
         "last_commit_url": "https://github.com/sung3r/ps2disasm/commit/50e63573bb3b832e6b5222b3b3943e64aa9f19b9",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps2disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "phantasy-star-iii": {
       "name": "Phantasy Star III",
@@ -77,11 +83,13 @@
         "last_commit_url": "https://github.com/brecert/ps3disasm/commit/b9b7d609ea6bafdee832bb0d574175fb3fe0a7f5",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps3disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "phantasy-star-iv": {
       "name": "Phantasy Star IV",
@@ -99,11 +107,13 @@
         "last_commit_url": "https://github.com/squidfeatures/ps4disasm/commit/8a658314850904c6888969f90177779845133a7e",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps4disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "ristar": {
       "name": "Ristar",
@@ -121,8 +131,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog": {
       "name": "Sonic the Hedgehog",
@@ -140,8 +152,10 @@
         "archived": false,
         "default_branch": "AS",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-2": {
       "name": "Sonic the Hedgehog 2",
@@ -159,8 +173,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-3": {
       "name": "Sonic the Hedgehog 3",
@@ -178,8 +194,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-3d-blast": {
       "name": "Sonic 3D Blast",
@@ -197,8 +215,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-spinball": {
       "name": "Sonic Spinball",
@@ -216,8 +236,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "toy-story": {
       "name": "Toy Story",
@@ -235,8 +257,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-ball-z-buyuu-retsuden": {
       "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -254,8 +278,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

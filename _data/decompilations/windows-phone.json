@@ -17,8 +17,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "five-nights-at-freddy-s": {
       "name": "Five Nights At Freddy's",
@@ -36,8 +38,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "five-nights-at-freddy-s-2": {
       "name": "Five Nights At Freddy's 2",
@@ -55,8 +59,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-4-episode-1-windows-phone": {
       "name": "Sonic the Hedgehog 4 - Episode 1 (Windows Phone)",
@@ -74,8 +80,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

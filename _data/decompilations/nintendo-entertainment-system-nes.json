@@ -17,8 +17,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "battle-city": {
       "name": "Battle City",
@@ -36,8 +38,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "contra": {
       "name": "Contra",
@@ -55,8 +59,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crystalis": {
       "name": "Crystalis",
@@ -74,8 +80,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "danny-sullivan-s-indy-heat": {
       "name": "Danny Sullivan's Indy Heat",
@@ -93,8 +101,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donald-land": {
       "name": "Donald Land",
@@ -112,8 +122,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-nes": {
       "name": "Donkey Kong",
@@ -131,8 +143,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "double-dragon-ii-the-revenge-japanese": {
       "name": "Double Dragon II: The Revenge (Japanese)",
@@ -150,8 +164,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dr-mario": {
       "name": "Dr. Mario",
@@ -169,8 +185,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-warrior": {
       "name": "Dragon Warrior",
@@ -188,8 +206,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "excitebike": {
       "name": "Excitebike",
@@ -207,8 +227,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-i": {
       "name": "Final Fantasy I",
@@ -226,8 +248,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-ii": {
       "name": "Final Fantasy II",
@@ -245,8 +269,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-iii": {
       "name": "Final Fantasy III",
@@ -264,8 +290,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "game-genie-cheat-cartridge": {
       "name": "Game Genie (Cheat Cartridge)",
@@ -283,8 +311,10 @@
         "default_branch": "main",
         "archived": true,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ice-climber-japanese": {
       "name": "Ice Climber (Japanese)",
@@ -302,8 +332,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kunio-kun-no-nekketsu-soccer-league": {
       "name": "Kunio-kun no Nekketsu Soccer League",
@@ -321,8 +353,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mappy-japanese": {
       "name": "Mappy (Japanese)",
@@ -340,8 +374,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-bros": {
       "name": "Mario Bros.",
@@ -359,8 +395,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mega-man-3": {
       "name": "Mega Man 3",
@@ -378,8 +416,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mega-man-4": {
       "name": "Mega Man 4",
@@ -397,8 +437,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mega-man-5": {
       "name": "Mega Man 5",
@@ -416,8 +458,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid": {
       "name": "Metroid",
@@ -431,8 +475,10 @@
       "activity": {
         "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
-        "check_error": "Source-code archive; no public repository commit history linked"
-      }
+        "check_error": "Source-code archive; no public repository commit history linked",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mike-tyson-s-punch-out": {
       "name": "Mike Tyson's Punch-Out!!",
@@ -450,8 +496,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "nuts-milk-japanese": {
       "name": "Nuts & Milk (Japanese)",
@@ -469,8 +517,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pac-man-japanese": {
       "name": "Pac-Man (Japanese)",
@@ -488,8 +538,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "solstice-the-quest-for-the-staff-of-demnos": {
       "name": "Solstice: The Quest for the Staff of Demnos",
@@ -507,8 +559,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonson": {
       "name": "SonSon",
@@ -526,8 +580,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-c": {
       "name": "Super C",
@@ -545,8 +601,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-bros": {
       "name": "Super Mario Bros.",
@@ -563,8 +621,10 @@
         "archived": false,
         "checked_at": "2026-10-11T15:58:28Z",
         "last_success_at": "2026-10-11T15:58:28Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "smb-vanilla": {
       "name": "SMB-Vanilla",
@@ -582,8 +642,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-bros-2-the-lost-levels-japanese": {
       "name": "Super Mario Bros. 2 The Lost Levels (Japanese)",
@@ -601,8 +663,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-bros-3": {
       "name": "Super Mario Bros. 3",
@@ -620,8 +684,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tecmo-world-cup-soccer-japanese": {
       "name": "Tecmo World Cup Soccer (Japanese)",
@@ -639,8 +705,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tennis": {
       "name": "Tennis",
@@ -658,8 +726,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tetris-nes": {
       "name": "Tetris",
@@ -677,8 +747,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-bugs-bunny-crazy-castle": {
       "name": "The Bugs Bunny Crazy Castle",
@@ -696,8 +768,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda": {
       "name": "The Legend of Zelda",
@@ -715,8 +789,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "transformers-mystery-of-convoy": {
       "name": "Transformers: Mystery of Convoy",
@@ -734,8 +810,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "yie-ar-kung-fu": {
       "name": "Yie Ar Kung Fu",
@@ -753,8 +831,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "battle-city-browser-reimplementation": {
       "name": "Battle City (Browser reimplementation)",
@@ -772,8 +852,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "earthbound-beginnings": {
       "name": "Earthbound Beginnings",
@@ -791,8 +873,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-bros-oliveryasuna": {
       "name": "Super Mario Bros.",
@@ -810,8 +894,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-ii-the-adventure-of-link": {
       "name": "The Legend Of Zelda II: The Adventure Of Link",
@@ -829,8 +915,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

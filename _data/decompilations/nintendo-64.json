@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "aidyn-chronicles-the-first-mage": {
       "name": "Aidyn Chronicles: The First Mage",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "banjo-kazooie": {
       "name": "Banjo-Kazooie",
@@ -55,8 +59,10 @@
         "last_commit_url": "https://gitlab.com/banjo.decomp/banjo-kazooie/-/commit/e8d31fa53645616fcac6e051543222b973a2edb0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:15:18Z"
-      }
+        "last_success_at": "2026-10-15T20:15:18Z",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "banjorecomp": {
       "name": "BanjoRecomp",
@@ -74,8 +80,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "banjo-tooie": {
       "name": "Banjo-Tooie",
@@ -93,8 +101,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "blast-corps": {
       "name": "Blast Corps",
@@ -112,8 +122,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "body-harvest": {
       "name": "Body Harvest",
@@ -131,8 +143,10 @@
         "archived": true,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bomberman-64": {
       "name": "Bomberman 64",
@@ -150,8 +164,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bm64recomp": {
       "name": "BM64Recomp",
@@ -169,8 +185,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bomberman-64-the-second-attack": {
       "name": "Bomberman 64: The Second Attack!",
@@ -188,8 +206,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bomberman-hero": {
       "name": "Bomberman Hero",
@@ -207,8 +227,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bmherorecomp": {
       "name": "BMHeroRecomp",
@@ -226,8 +248,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "castlevania-64": {
       "name": "Castlevania 64",
@@ -245,8 +269,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "chameleon-twist": {
       "name": "Chameleon Twist",
@@ -264,8 +290,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "chameleon-twist-recompiled": {
       "name": "Chameleon Twist Recompiled",
@@ -283,8 +311,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "chameleon-twist-2": {
       "name": "Chameleon Twist 2",
@@ -302,8 +332,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "conker-s-bad-fur-day": {
       "name": "Conker's Bad Fur Day",
@@ -321,8 +353,10 @@
         "archived": true,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dark-rift": {
       "name": "Dark Rift",
@@ -340,8 +374,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "diddy-kong-racing": {
       "name": "Diddy Kong Racing",
@@ -359,8 +395,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dinosaur-planet": {
       "name": "Dinosaur Planet",
@@ -378,8 +416,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dinosaur-planet-recompiled": {
       "name": "Dinosaur Planet: Recompiled",
@@ -397,8 +437,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-64": {
       "name": "Donkey Kong 64",
@@ -416,8 +458,10 @@
         "last_commit_url": "https://gitlab.com/dk64_decomp/dk64/-/commit/d3959ba4c95dc936ebeb5c9ccfcd12ba2ac58830",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:15:18Z"
-      }
+        "last_success_at": "2026-10-15T20:15:18Z",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-64-recompiled": {
       "name": "source and releases",
@@ -435,8 +479,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "doom-64": {
       "name": "Doom 64",
@@ -454,8 +500,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "doraemon-nobita-to-mittsu-no-seireiseki": {
       "name": "Doraemon: Nobita to Mittsu no Seireiseki",
@@ -473,8 +521,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dobutsu-no-mori": {
       "name": "Dōbutsu no Mori",
@@ -492,8 +542,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dr-mario-64": {
       "name": "Dr. Mario 64",
@@ -511,8 +563,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dr-mario-64-recomp-plus": {
       "name": "Dr. Mario 64 Recomp Plus",
@@ -530,8 +584,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "duke-nukem-64": {
       "name": "Duke Nukem 64",
@@ -549,8 +605,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "duke-nukem-zero-hour": {
       "name": "Duke Nukem: Zero Hour",
@@ -568,8 +626,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "extreme-g": {
       "name": "Extreme-G",
@@ -587,8 +647,10 @@
         "last_commit_url": "https://gitlab.com/sonicdcer/ExtremeGRecomp/-/commit/30f36ea96144f679d6f8bd375ce498b54cadff03",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:15:18Z"
-      }
+        "last_success_at": "2026-10-15T20:15:18Z",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "f-zero-x": {
       "name": "F-Zero X",
@@ -606,8 +668,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "g-diffuser": {
       "name": "G-Diffuser",
@@ -625,8 +689,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "f-zero-x-expansion-kit": {
       "name": "F-Zero X Expansion Kit",
@@ -644,8 +710,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gauntlet-legends": {
       "name": "Gauntlet Legends",
@@ -663,8 +731,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gex-64-enter-the-gecko": {
       "name": "Gex 64: Enter the Gecko",
@@ -682,8 +752,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "glover": {
       "name": "Glover",
@@ -701,8 +773,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "goemon-s-great-adventure": {
       "name": "Goemon's Great Adventure",
@@ -720,11 +794,13 @@
         "last_commit_url": "https://github.com/StopSine/gga/commit/a51a0e69d26b0d06373a209d560a280d01c2b4a1",
         "default_branch": "main",
         "archived": false,
-        "status": "Active"
+        "status": "Active",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/Fluvian/gga"
-      ]
+      ],
+      "ai_used": null
     },
     "goldeneye-007": {
       "name": "GoldenEye 007",
@@ -742,8 +818,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "harvest-moon-64": {
       "name": "Harvest Moon 64",
@@ -761,8 +839,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "harvestmoon64recomp": {
       "name": "HarvestMoon64Recomp",
@@ -780,8 +860,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "jet-force-gemini": {
       "name": "Jet Force Gemini",
@@ -799,8 +881,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kirby-64-the-crystal-shards": {
       "name": "Kirby 64: The Crystal Shards",
@@ -818,8 +902,10 @@
         "archived": false,
         "default_branch": "splat",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lego-racers": {
       "name": "Lego Racers",
@@ -837,8 +923,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-golf": {
       "name": "Mario Golf",
@@ -856,8 +944,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-kart-64": {
       "name": "Mario Kart 64",
@@ -875,8 +965,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party": {
       "name": "Mario Party",
@@ -894,8 +986,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-2": {
       "name": "Mario Party 2",
@@ -913,8 +1007,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-3": {
       "name": "Mario Party 3",
@@ -932,8 +1028,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-tennis": {
       "name": "Mario Tennis",
@@ -951,8 +1049,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mischief-makers": {
       "name": "Mischief Makers",
@@ -970,8 +1070,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mystical-ninja-starring-goemon": {
       "name": "Mystical Ninja Starring Goemon",
@@ -989,8 +1091,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "goemon64recomp": {
       "name": "Goemon64Recomp",
@@ -1008,8 +1112,10 @@
         "default_branch": "dev",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "neon-genesis-evangelion": {
       "name": "Neon Genesis Evangelion",
@@ -1027,8 +1133,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "onegai-monsters": {
       "name": "Onegai Monsters",
@@ -1046,8 +1154,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "paper-mario": {
       "name": "Paper Mario",
@@ -1065,8 +1175,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "perfect-dark": {
       "name": "Perfect Dark",
@@ -1084,8 +1196,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "perfect-dark-pc-port": {
       "name": "Perfect Dark PC port",
@@ -1103,8 +1217,10 @@
         "default_branch": "port",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-puzzle-league": {
       "name": "Pokemon Puzzle League",
@@ -1122,8 +1238,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-snap": {
       "name": "Pokemon Snap",
@@ -1141,8 +1259,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-stadium": {
       "name": "Pokemon Stadium",
@@ -1160,8 +1280,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-stadium-2": {
       "name": "Pokemon Stadium 2",
@@ -1179,8 +1301,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "quest-64": {
       "name": "Quest 64",
@@ -1198,8 +1322,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "quest64-recomp": {
       "name": "Quest64-Recomp",
@@ -1217,8 +1343,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "rocket-robot-on-wheels": {
       "name": "Rocket: Robot on Wheels",
@@ -1236,8 +1364,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "shadowgate-64": {
       "name": "Shadowgate 64",
@@ -1255,8 +1385,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "snowboard-kids-2": {
       "name": "Snowboard Kids 2",
@@ -1274,8 +1406,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "space-station-silicon-valley": {
       "name": "Space Station Silicon Valley",
@@ -1293,8 +1427,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sssv-recomp": {
       "name": "SSSV_Recomp",
@@ -1312,8 +1448,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-fox-64": {
       "name": "Star Fox 64",
@@ -1331,8 +1469,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-wars-shadows-of-the-empire": {
       "name": "Star Wars: Shadows of the Empire",
@@ -1350,8 +1490,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-64": {
       "name": "Super Mario 64",
@@ -1369,8 +1511,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sm64-port": {
       "name": "SM64 Port",
@@ -1388,8 +1532,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sm64coopdx": {
       "name": "sm64coopdx",
@@ -1407,8 +1553,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sm64plus": {
       "name": "SM64Plus",
@@ -1426,8 +1574,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-smash-bros": {
       "name": "Super Smash Bros.",
@@ -1445,8 +1595,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "superman-64": {
       "name": "Superman 64",
@@ -1464,8 +1616,10 @@
         "archived": false,
         "default_branch": "beta",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-ocarina-of-time": {
       "name": "The Legend of Zelda: Ocarina of Time",
@@ -1483,8 +1637,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-majora-s-mask": {
       "name": "The Legend of Zelda: Majora's Mask",
@@ -1502,8 +1658,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "zelda64recomp": {
       "name": "Zelda64Recomp",
@@ -1521,8 +1679,10 @@
         "default_branch": "dev",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-new-tetris": {
       "name": "The New Tetris",
@@ -1540,8 +1700,10 @@
         "archived": true,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "turok-3-shadow-of-oblivion": {
       "name": "Turok 3: Shadow of Oblivion",
@@ -1559,8 +1721,10 @@
         "archived": true,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "virtual-pool-64": {
       "name": "Virtual Pool 64",
@@ -1578,8 +1742,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "virtual-pro-wrestling-2-odo-keisho": {
       "name": "Virtual Pro Wrestling 2: Ōdō Keishō",
@@ -1597,8 +1763,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wave-race-64": {
       "name": "Wave Race 64",
@@ -1616,8 +1784,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "yoshi-s-story": {
       "name": "Yoshi's Story",
@@ -1635,8 +1805,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pilotwings-64-recompiled": {
       "name": "Pilotwings 64",
@@ -1654,8 +1826,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "buck-bumble-project-bumble": {
       "name": "Buck Bumble",
@@ -1673,8 +1847,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "aerogauge-recompiled": {
       "name": "AeroGauge",
@@ -1692,8 +1868,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "blast-corps-slaveofido": {
       "name": "Blast Corps",
@@ -1711,8 +1889,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "body-harvest-jaytheham": {
       "name": "Body Harvest",
@@ -1730,8 +1910,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ridge-racer-64": {
       "name": "Ridge Racer 64",
@@ -1749,8 +1931,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-wars-rogue-squadron": {
       "name": "Star Wars: Rogue Squadron",
@@ -1768,8 +1952,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wonder-project-j2-josette-of-the-corlo-forest": {
       "name": "Wonder Project J2: Josette of the Corlo Forest",
@@ -1787,8 +1973,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "beetle-adventure-racing": {
       "name": "Beetle Adventure Racing!",
@@ -1806,8 +1994,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "conker-s-bad-fur-day-devoldschool": {
       "name": "Conker's Bad Fur Day (DevOldSchool)",
@@ -1825,8 +2015,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "diddy-kong-racing-recomp": {
       "name": "Diddy Kong Racing (Recomp)",
@@ -1844,8 +2036,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ogre-battle-64-person-of-lordly-caliber": {
       "name": "Ogre Battle 64: Person of Lordly Caliber",
@@ -1863,8 +2057,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "perfect-dark-dab-s-mod": {
       "name": "Perfect Dark (Dab's Mod)",
@@ -1882,8 +2078,10 @@
         "default_branch": "dabs-mod",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-snap-recomp": {
       "name": "Pokemon Snap (Recomp)",
@@ -1901,8 +2099,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "snowboard-kids": {
       "name": "Snowboard Kids",
@@ -1920,8 +2120,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wave-race-64-recomp": {
       "name": "Wave Race 64 (Recomp)",
@@ -1939,8 +2141,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "battletanx": {
       "name": "BattleTanx",
@@ -1952,14 +2156,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:25:23Z",
-        "last_commit_at": "2026-10-15T18:51:31Z",
-        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx/commit/07bcc5cbd240bea8a9b594376e5cab2c5c73befc",
+        "checked_at": "2026-10-17T10:39:45Z",
+        "last_commit_at": "2026-10-16T05:42:45Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx/commit/d1d80baaef4bbcf4c6380c1251af605164ce7634",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:25:23Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:39:45Z",
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "battletanx-global-assault": {
       "name": "BattleTanx: Global Assault",
@@ -1971,14 +2177,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:25:23Z",
+        "checked_at": "2026-10-17T10:39:45Z",
         "last_commit_at": "2026-10-15T18:32:00Z",
         "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault/commit/82babe4beaa761f7806b5b41437eb197292f76d3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:25:23Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:39:45Z",
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "battletanx-global-assault-pc-port": {
       "name": "BattleTanx: Global Assault PC port",
@@ -1990,14 +2198,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:25:23Z",
+        "checked_at": "2026-10-17T10:39:45Z",
         "last_commit_at": "2026-10-15T18:53:20Z",
         "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/commit/3c074c3bd9e20e81c32a37b588a70ecd2073e128",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:25:23Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:39:45Z",
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
     },
     "shiren-the-wanderer-2": {
       "name": "Shiren the Wanderer 2",
@@ -2008,7 +2218,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "hybrid-heaven": {
       "name": "Hybrid Heaven",
@@ -2019,7 +2232,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "paperboy": {
       "name": "Paperboy",
@@ -2030,7 +2246,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "starcraft-64-n0madic-recomp": {
       "name": "StarCraft 64",
@@ -2041,7 +2260,10 @@
       "project_type": "Static recompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

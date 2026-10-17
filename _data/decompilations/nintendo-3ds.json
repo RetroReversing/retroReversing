@@ -17,8 +17,10 @@
         "last_success_at": "2026-10-15T20:15:18Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-3d-land-eu": {
       "name": "Super Mario 3D Land (EU)",
@@ -36,8 +38,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-ocarina-of-time-3d": {
       "name": "The Legend of Zelda: Ocarina of Time 3D",
@@ -55,8 +59,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "paper-mario-sticker-star-darxoon": {
       "name": "Paper Mario: Sticker Star",
@@ -74,8 +80,10 @@
         "default_branch": "master",
         "archived": true,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ocarina-of-time-3d-triaevum-recomp": {
       "name": "Ocarina of Time 3D (TriAevum Recomp)",
@@ -93,8 +101,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-moon": {
       "name": "Pokemon Moon",
@@ -112,8 +122,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "animal-crossing-new-leaf-welcome-amiibo": {
       "name": "Animal Crossing: New Leaf - Welcome amiibo",
@@ -124,7 +136,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "breath-of-fire": {
       "name": "Breath of Fire",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "fire-emblem-the-binding-blade": {
       "name": "Fire Emblem: The Binding Blade",
@@ -55,8 +59,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "fire-emblem-the-sacred-stones": {
       "name": "Fire Emblem: The Sacred Stones",
@@ -74,8 +80,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "harvest-moon-friends-of-mineral-town": {
       "name": "Harvest Moon: Friends of Mineral Town",
@@ -93,8 +101,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kingdom-hearts-chain-of-memories": {
       "name": "Kingdom Hearts: Chain of Memories",
@@ -112,8 +122,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "klonoa-empire-of-dreams": {
       "name": "Klonoa: Empire of Dreams",
@@ -131,8 +143,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kirby-the-amazing-mirror": {
       "name": "Kirby & The Amazing Mirror",
@@ -150,8 +164,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-luigi-superstar-saga": {
       "name": "Mario & Luigi: Superstar Saga",
@@ -169,8 +185,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-vs-donkey-kong": {
       "name": "Mario VS Donkey Kong",
@@ -188,8 +206,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid-zero-mission": {
       "name": "Metroid: Zero Mission",
@@ -207,8 +227,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mother-1-2-japan": {
       "name": "Mother 1+2 (Japan)",
@@ -226,8 +248,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-ruby-sapphire": {
       "name": "Pokemon Ruby & Sapphire",
@@ -245,8 +269,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-emerald": {
       "name": "Pokemon Emerald",
@@ -264,8 +290,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-firered-leafgreen": {
       "name": "Pokemon FireRed & LeafGreen",
@@ -283,8 +311,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-mystery-dungeon-red-rescue-team": {
       "name": "Pokémon Mystery Dungeon: Red Rescue Team",
@@ -302,8 +332,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-pinball-ruby-sapphire": {
       "name": "Pokémon Pinball: Ruby & Sapphire",
@@ -321,8 +353,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-advance-2": {
       "name": "Sonic Advance 2",
@@ -340,8 +374,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-advance-sat-r": {
       "name": "Sonic Advance (SAT-R)",
@@ -359,8 +395,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "summon-night-swordcraft-story-3": {
       "name": "Summon Night Swordcraft Story 3",
@@ -378,8 +416,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-advance-2-super-mario-world": {
       "name": "Super Mario Advance 2: Super Mario World",
@@ -397,8 +437,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-the-minish-cap": {
       "name": "The Legend of Zelda: The Minish Cap",
@@ -416,8 +458,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "project-picori": {
       "name": "Project Picori",
@@ -435,8 +479,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "yu-gi-oh-reshef-of-destruction": {
       "name": "Yu-Gi-Oh! Reshef of Destruction",
@@ -454,11 +500,13 @@
         "last_commit_url": "https://github.com/papielguapo/ygodm8/commit/62b6d706ea04e225e308fc098be78269633249a0",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/shinny456/ygodm8"
-      ]
+      ],
+      "ai_used": null
     },
     "mario-luigi-superstar-saga-jellees": {
       "name": "Mario & Luigi: Superstar Saga",
@@ -476,8 +524,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-kart-super-circuit": {
       "name": "Mario Kart: Super Circuit",
@@ -495,8 +545,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gyakuten-saiban-japan": {
       "name": "Gyakuten Saiban (Japan)",
@@ -514,8 +566,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gyakuten-saiban-2-japan": {
       "name": "Gyakuten Saiban 2 (Japan)",
@@ -533,8 +587,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-emerald-japan": {
       "name": "Pokemon Emerald (Japan)",
@@ -552,8 +608,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-advance-3": {
       "name": "Sonic Advance 3",
@@ -571,8 +629,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-sims-2-gba": {
       "name": "The Sims 2 (GBA)",
@@ -590,8 +650,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wario-land-4": {
       "name": "Wario Land 4",
@@ -609,8 +671,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "advance-wars-2-black-hole-rising": {
       "name": "Advance Wars 2: Black Hole Rising",
@@ -628,8 +692,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "castlevania-aria-of-sorrow": {
       "name": "Castlevania: Aria of Sorrow",
@@ -647,8 +713,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "custom-robo-gx": {
       "name": "Custom Robo GX",
@@ -666,8 +734,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "fire-emblem-rekka-no-ken-japan": {
       "name": "Fire Emblem - Rekka no Ken (Japan)",
@@ -685,8 +755,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mega-man-zero-3-japan": {
       "name": "Mega Man Zero 3 (Japan)",
@@ -704,8 +776,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid-fusion": {
       "name": "Metroid Fusion",
@@ -723,8 +797,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-sims-bustin-out": {
       "name": "The Sims: Bustin' Out",
@@ -742,8 +818,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-urbz-sims-in-the-city": {
       "name": "The Urbz: Sims in the City",
@@ -761,8 +839,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "beyblade-vforce-ultimate-blader-jam": {
       "name": "Beyblade VForce: Ultimate Blader Jam",
@@ -780,8 +860,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crash-bandicoot-xs-the-huge-adventure": {
       "name": "Crash Bandicoot: XS (The Huge Adventure)",
@@ -799,8 +881,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "frogger-s-adventures-temple-of-the-frog": {
       "name": "Frogger's Adventures: Temple of the Frog",
@@ -818,8 +902,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "golden-sun": {
       "name": "Golden Sun",
@@ -837,8 +923,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-battle": {
       "name": "Sonic Battle",
@@ -856,8 +944,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-tactics-advance-recomp": {
       "name": "Final Fantasy Tactics Advance",
@@ -875,8 +965,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kirby-nightmare-in-dream-land": {
       "name": "Kirby: Nightmare in Dream Land",
@@ -887,7 +979,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gt-advance-3-pro-concept-racing": {
       "name": "GT Advance 3: Pro Concept Racing",
@@ -898,7 +993,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "boktai-3-sabata-s-counterattack": {
       "name": "Boktai 3: Sabata's Counterattack",
@@ -909,7 +1007,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "yu-gi-oh-the-eternal-duelist-soul": {
       "name": "Yu-Gi-Oh! The Eternal Duelist Soul",
@@ -920,7 +1021,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mother-3-josiahg2502-recomp": {
       "name": "MOTHER 3",
@@ -931,7 +1035,10 @@
       "project_type": "Static recompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

@@ -17,8 +17,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-quest-ix": {
       "name": "Dragon Quest IX",
@@ -36,8 +38,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-luigi-partners-in-time": {
       "name": "Mario & Luigi - Partners in Time",
@@ -55,8 +59,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-ds": {
       "name": "Mario Party DS",
@@ -74,8 +80,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-diamond-and-pearl": {
       "name": "Pokemon Diamond and Pearl",
@@ -93,8 +101,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-heartgold-and-soulsilver": {
       "name": "Pokemon HeartGold and SoulSilver",
@@ -112,8 +122,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-platinum": {
       "name": "Pokemon Platinum",
@@ -131,8 +143,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "pc_port"
-      }
+        "default_branch": "pc_port",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "rhythm-heaven-gold": {
       "name": "Rhythm Heaven (Gold)",
@@ -150,8 +164,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-phantom-hourglass": {
       "name": "The Legend of Zelda: Phantom Hourglass",
@@ -169,8 +185,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-spirit-tracks": {
       "name": "The Legend of Zelda: Spirit Tracks",
@@ -188,8 +206,10 @@
         "last_success_at": "2026-10-15T20:19:25Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "new-super-mario-bros": {
       "name": "New Super Mario Bros.",
@@ -207,8 +227,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-platinum-pret": {
       "name": "Pokemon Platinum",
@@ -226,8 +248,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-mystery-dungeon-explorers-of-sky": {
       "name": "Pokemon Mystery Dungeon: Explorers of Sky",
@@ -245,8 +269,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-rush-adventure": {
       "name": "Sonic Rush Adventure",
@@ -264,8 +290,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-64-ds": {
       "name": "Super Mario 64 DS",
@@ -283,8 +311,10 @@
         "default_branch": "main",
         "archived": true,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "air-traffic-chaos": {
       "name": "Air Traffic Chaos",
@@ -302,8 +332,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ecrew-development-program-mcdonald-s-training-game": {
       "name": "eCrew Development Program (McDonald's Training Game)",
@@ -321,8 +353,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "fire-emblem-shadow-dragon": {
       "name": "Fire Emblem: Shadow Dragon",
@@ -340,8 +374,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "inazuma-eleven-3-sekai-e-no-chousen-the-ogre": {
       "name": "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!",
@@ -359,8 +395,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lego-battles": {
       "name": "Lego Battles",
@@ -378,8 +416,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lock-s-quest": {
       "name": "Lock's Quest",
@@ -397,8 +437,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "princess-maker-4": {
       "name": "Princess Maker 4",
@@ -416,8 +458,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-world-ends-with-you": {
       "name": "The World Ends With You",
@@ -435,8 +479,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bomberman-land-touch-2": {
       "name": "Bomberman Land Touch 2",
@@ -454,8 +500,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-quest-iv": {
       "name": "Dragon Quest IV",
@@ -473,8 +521,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-black": {
       "name": "Pokemon Black",
@@ -492,8 +542,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "advance-wars-dual-strike": {
       "name": "Advance Wars: Dual Strike",
@@ -504,7 +556,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kingdom-hearts-358-2-days": {
       "name": "Kingdom Hearts 358/2 Days",
@@ -515,7 +570,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-luigi-bowser-s-inside-story": {
       "name": "Mario & Luigi: Bowser's Inside Story",
@@ -526,7 +584,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "digimon-world-ds": {
       "name": "Digimon World DS",
@@ -537,7 +598,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "okamiden": {
       "name": "Okamiden",
@@ -548,7 +612,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kingdom-hearts-re-coded": {
       "name": "Kingdom Hearts Re:coded",
@@ -559,7 +626,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

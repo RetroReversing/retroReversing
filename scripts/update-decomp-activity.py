@@ -129,8 +129,12 @@ def fetch_repository(url, client):
         date, link = commits[0]['commit']['committer']['date'], commits[0]['html_url']
     if urlsplit(link).scheme != 'https':
         raise ValueError('Invalid commit URL')
+    stars = meta['stargazers_count'] if host == 'github.com' else None
+    if host == 'github.com' and (type(stars) is not int or stars < 0):
+        raise ValueError('Invalid GitHub star count')
     return {'last_commit_at': iso(timestamp(date)), 'last_commit_url': link,
-            'default_branch': branch, 'archived': bool(meta.get('archived', False))}
+            'default_branch': branch, 'archived': bool(meta.get('archived', False)),
+            'github_stars': stars}
 
 
 def refresh(data, client, now, limit=None, selected=None):
