@@ -20,8 +20,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-17'
 ---
+<!-- cspell:words longwords SEGALIB SIFF -->
 
 <section class="postSection">
     <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:250px" class="wow slideInLeft postImage" />
@@ -60,7 +61,7 @@ The address the image is copied to is chosen by the Initial Program, or by whate
 [File Lab](/file-lab) opens these images in the Program tab. The tab records the work-RAM pointer or the eight-byte header, lists SEGALIB and SGL version banners, and shows the SH-2 listing.
 
 ## Initial Program (IP.BIN)
-The first 16 sectors of a Saturn disc are the boot Initial Program, usually extracted as `IP.BIN`. It holds the system ID (title, product number, region symbols) and the SH-2 code the BIOS jumps into after the logo.
+The Saturn disc's system area starts with the boot Initial Program, usually extracted as `IP.BIN`. Sega's disc format specification allows its size to vary up to 16 sectors; the `IP SIZE` field records the byte count [^3]. It holds the system ID (title, product number, region symbols) and the SH-2 code the BIOS jumps into after the logo.
 
 {% include_cached link-to-other-post.html post="/sega-saturn-initial-program-ip" description="For the system ID layout, security code, and area objects check out this post." %}
 
@@ -84,6 +85,12 @@ The Sega Saturn had support for Audio Video Interleave (AVI) video files and was
 ---
 # Image formats
 
+## SIFF scene interchange files
+Sega and several vendors developed **SIFF 1.0** (Scene Interchange File Format) to exchange 3D scene, model, and animation data between graphics tools. This is an interchange specification, not a claim that retail Saturn games store assets in SIFF. Its October 1996 specification describes an Electronic Arts IFF `FORM` whose type is `SF1Q`; fields are big-endian, and chunks are padded to 32-bit boundaries [^4].
+
+The format gives objects named parent relationships, transformation matrices, geometry, and visual data. Its coordinates put positive X to the right, positive Y downward, and positive Z into the screen; UV coordinates run from the top-left of a texture. These conventions matter when interpreting a converter or writing a parser. The [original SIFF specification](https://antime.kapsi.fi/sega/files/siff.pdf) provides the complete chunk definitions.
+
+---
 ## RGB Files
 [doyousketch2/SatRGB: Extract RGB images from Sega Saturn files](https://github.com/doyousketch2/SatRGB)
 
@@ -119,3 +126,5 @@ Virtual Disc image used by developers when using the Mirage CD Emulator.
 # References
 [^1]: [Audio Video Interleave - Wikipedia](https://en.wikipedia.org/wiki/Audio_Video_Interleave)
 [^2]: [Sega FILM - MultimediaWiki](https://wiki.multimedia.cx/index.php/Sega_FILM#Sega_Saturn_CPK_File_Format)
+[^3]: Sega, [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf), section 4, especially `IP SIZE` and `IP Placement`.
+[^4]: Sega and vendors, [SIFF 1.0 Scene Interchange File Format](https://antime.kapsi.fi/sega/files/siff.pdf), October 1996, `FORM for SIFF` and `SIFF General Notes`.
