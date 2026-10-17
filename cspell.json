@@ -31,5 +31,5 @@
   ],
   "flagWords": ["hte", "tghe", "Pallete", "Gameboy", "dissassembly", "seperate", "indefinetly", "Mutliplayer", "Polynomical", "introducted", "cartirdge", "completly", "facinating", "deocmpiled", "essentail", "veteren", "relased", "relativly", "unfortunetly", "langauge", "containes", "Dreamcase"],
   "dictionaries": ["rr-words", "rr-surnames", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],
-  "ignorePaths": ["node_modules", "public", ".github", "_site"]
+  "ignorePaths": ["node_modules", "public", ".github", "_site", "**/*.json"]
 }
