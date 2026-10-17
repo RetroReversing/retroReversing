@@ -58,7 +58,7 @@ updatedAt: '2026-10-17'
   <div class="rr-source-path__segment"><code>spec</code><span>ROM layout file</span></div>
 </div>
 
-`PR` carries the **Project Reality** codename [^13]. Nintendo's SDK used `/usr/src/PR` for sample programs and `/usr/include/PR` for headers [^14]. Turok's `tengine` directory sits beside those samples. Paths in this article start at the supplied archive's `src` directory, outside this website's repository.
+`PR` carries the **Project Reality** codename [^13]. Nintendo's SDK used `/usr/src/PR` for sample programs and `/usr/include/PR` for headers [^14]. Turok's `tengine` directory sits beside those samples. File paths on this page begin at the archived `src` folder.
 </aside>
 
 ---
@@ -69,7 +69,7 @@ updatedAt: '2026-10-17'
     <figcaption>North American Turok cartridge.</figcaption>
   </figure>
   <div class="rr-game-media-row__copy" markdown="1">
-The North American cartridge presents the same game art seen on the box. This is the retail medium that the ROM layout in `PR/tengine/spec` targets.
+The North American cartridge presents the same game art seen on the box. Inside is the game's ROM: the read-only program and data the console loads. A surviving development file called `spec` shows how its pieces were meant to be arranged.
 
 An opened Nintendo 64 cartridge helps locate the ROM chip and edge connector physically. The board below is a **representative NUS-01A-01 board**, not an identified Turok board; it should not be used to infer the components or capacity of this particular copy.
   </div>
@@ -80,7 +80,9 @@ An opened Nintendo 64 cartridge helps locate the ROM chip and edge connector phy
   <figcaption>Inside a representative Nintendo 64 cartridge. Board identity is visible; its association with Turok has not been established.</figcaption>
 </figure>
 
-The retail game was distributed on a **64 Mbit (8 MiB) cartridge** [^17]. The source tree also contains `PR/tengine/rom.rnc`, an 8 MiB file. Its size alone does not prove that it matches every retail cartridge revision. The more useful evidence for this analysis is `spec`, which states which segments a build places in a ROM. Compression helped fit code and assets within that space.
+The retail game was distributed on a **64 Mbit (8 MiB) cartridge** [^17]. The surviving files include `PR/tengine/rom.rnc`, a ROM image just shy of that size. Despite the `.rnc` name, the file begins with a Nintendo 64 ROM header: it is a cartridge image, not one compressed archive.
+
+Think of `rom.rnc` as a surviving result and `PR/tengine/spec` as the build plan. The plain-text `spec` lists the pieces to put into a ROM, from boot and game code to sound and other data, and gives key memory locations. Some pieces were compressed to make the most of the cartridge's limited space. These files show how Iguana planned the ROM, though they do not establish whether this particular image matches a retail release byte for byte.
 
 ---
 # Development environment
