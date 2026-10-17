@@ -11,14 +11,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-04-03T15:09:52Z",
         "last_commit_url": "https://github.com/Moddimation/3dcomp/commit/5f555b67dded6cef6e50f159d0d3f0094ac8c729",
         "default_branch": "main",
         "archived": false,
         "status": "Inactive",
-        "github_stars": null
+        "github_stars": 2
       },
       "previous_repository_urls": [
         "https://github.com/3DWCommunity/3dcomp"
@@ -35,14 +35,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-29T21:17:14Z",
         "last_commit_url": "https://github.com/MonsterDruide1/OdysseyDecomp/commit/696db2ff5ed558b053c753de420504b8682f24b0",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 466
       },
       "ai_used": null
     },
@@ -56,14 +56,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-15T18:12:41Z",
         "last_commit_url": "https://github.com/zeldaret/botw/commit/e78c02499d0f108ae9c00158198289764c5980fe",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 2250
       },
       "ai_used": null
     },
@@ -77,14 +77,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-13T09:48:56Z",
         "last_commit_url": "https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation/commit/7e75adfedcfeb2a3907adb3813c47ce903236dd9",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 28
       },
       "ai_used": null
     },
@@ -98,14 +98,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-03-21T23:50:04Z",
         "last_commit_url": "https://github.com/Owen-Splat/las-decomp/commit/72cbe70e1319a369a5a5cb06fc864913e44fe069",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": null
+        "github_stars": 9
       },
       "ai_used": null
     }
