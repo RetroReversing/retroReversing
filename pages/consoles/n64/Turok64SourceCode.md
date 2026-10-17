@@ -31,11 +31,11 @@ updatedAt: '2026-10-17'
 
 **The game.** *Turok: Dinosaur Hunter* is a first-person shooter developed by Iguana and published by Acclaim [^11] [^3]. The comic-book hero crosses the Lost Land, fighting dinosaurs and other enemies while recovering pieces of the Chronoscepter [^12].
 
-**The makers.** A retrospective with Iguana staff describes a core development team of 18 [^10]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist [^3].
+**The makers.** A retrospective with Iguana staff describes a core development team of 18 [^10]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist. GameFAQs lists **62 numbered credit entries** across specialties, including Acclaim roles and repeated names; that total is not a headcount of Iguana's core team [^3].
 
-**The leak.** Source code was reported found on former Acclaim hardware in 2017 [^2]. A Turok forum discussed a leaked copy in 2018 [^1]. The files do not establish their full route into circulation.
+**The leak.** In 2017, a preservationist found Turok source code on former Acclaim **SGI Indy workstations** [^15]. He said their previous owner had acquired them at Acclaim's 2004 bankruptcy auction [^15]. A leaked copy surfaced in public discussion in 2018 [^1]. The files do not establish their exact route from those machines into circulation.
 
-**Inside the archive.** The ROM layout, bootstrap loader, asset index, cheats, and Controller Pak code show how cartridge data becomes a running world.
+**Why it matters.** The original RetroReversing article identified Turok as the **first commercial Nintendo 64 game whose original source code became public** [^13]. The ROM layout, bootstrap loader, asset index, cheats, and Controller Pak code show how cartridge data becomes a running world.
   </div>
 </section>
 
@@ -235,5 +235,6 @@ The article also featured [The Making of Turok Dinosaur Hunter for Nintendo 64](
 [^10]: [Nintendo Life interview on making Turok](http://www.nintendolife.com/news/2016/05/feature_the_making_of_turok_dinosaur_hunter)
 [^11]: [Turok: Dinosaur Hunter release and credits at MobyGames](https://www.mobygames.com/game/2203/turok-dinosaur-hunter/)
 [^12]: [Turok game description on Steam](https://store.steampowered.com/app/405820/Turok/)
-[^13]: [Original RetroReversing explanation of the PR folder](https://frds.github.io/turok64sourcecode)
+[^13]: [Original RetroReversing Turok source code article](https://frds.github.io/turok64sourcecode)
 [^14]: [Nintendo 64 SDK OS 2.0J release notes](https://ultra64.ca/files/documentation/online-manuals/man/n64man/relnote_j/index.htm)
+[^15]: [2017 report on Turok source code found on former Acclaim workstations](https://www.gamedeveloper.com/game-platforms/source-code-for-i-turok-i-and-i-nba-jam-extreme-i-surfaces)
