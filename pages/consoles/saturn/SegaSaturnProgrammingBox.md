@@ -31,7 +31,7 @@ recommend:
 editlink: /consoles/saturn/SegaSaturnProgrammingBox.md
 updatedAt: '2026-10-17'
 ---
-<!-- cspell:words Covell endcapture devsys -->
+<!-- cspell:words Covell endcapture devsys CARTDEV BTSMPFS -->
 
 During the Sega Saturn's lifecycle there were multiple development kits available to developers starting from the original Sophia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
@@ -163,6 +163,18 @@ The Mirage wasn't the only way to mount discs for the development system, there 
 
 {% include link-to-other-site.html url="http://dj898.egloos.com/932484" description="For more images of the Mirage CD Emulator check out this site on egloos." image="http://pds6.egloos.com/pds/200710/30/68/e0037268_47269a29124f0.jpg" title="Images of Mirage"  %}
 
+## Virtual CD emulation workflow
+Sega's Virtual CD (VCD) system was a separate route to testing a disc build on target hardware. Its manual starts with a disc script, then offers two preparation modes before `VCDEMU.EXE` runs the result [^10]. The [preserved VCDTOOLS package](https://antime.kapsi.fi/sega/files/VCDTOOLS.zip) includes the programs and actual `.SCR`, `.PVD`, and `.RTI` examples for Sega and CartDev setups [^11].
+
+Mode | Preparation | What the emulator reads
+---|---|---
+Direct DOS file access | `VCDPRE.EXE` maps script entries to host-file locations | Host files and generated lookup data
+Real-time emulation | `VCDBUILD.EXE` builds an image and table of contents | Prepared CD image and TOC data
+
+The distinction affected iteration. Sega's manual says that changing a file's size requires rebuilding the configuration, even in direct-access mode. In real-time mode the CD image must be updated after a content change. The manual also describes `VCDUTL.EXE` for partial image updates [^10]. Its later supplement adds `VCDEMU` buffer options to make unusually large numbers of tracks or indexes fit within a PC's conventional memory [^12].
+
+This is a period developer workflow, not an instruction to run the DOS executables on a modern machine. For an example of how the script maps compiled files onto a Saturn disc, see [compiling an official sample](/sega-saturn-compiling-samples#from-a-compiled-sample-to-a-disc-image).
+
 
 ---
 # Hitachi E7000 PC Debug Unit (ICE)
@@ -247,3 +259,6 @@ Although the Cross Products development kit was initially a 3rd party developmen
 [^7]: EDGE issue 21 (June 1995)
 [^8]: [All Dev Saturn consoles the same?](https://www.obscuregamers.com/threads/arent-all-dev-saturn-consoles-the-same.324/)
 [^9]: Sega of America, [Saturn Development System Order Form](https://antime.kapsi.fi/sega/files/devsys.pdf), June 1996, preserved in the DTS website mirror as `hardware/devsys.pdf`.
+[^10]: Sega, [Saturn Virtual CD System User's Manual](https://antime.kapsi.fi/sega/files/ST-129-R2-093094.pdf), sections 2-3, direct DOS and real-time emulation workflows.
+[^11]: Sega, [VCDTOOLS archive](https://antime.kapsi.fi/sega/files/VCDTOOLS.zip), especially `CARTDEV/BTSMPFS.SCR` and the `VCDTOOLS` program directory.
+[^12]: Sega, [Saturn Virtual CD System User's Manual, supplement 1](https://antime.kapsi.fi/sega/files/ST-129-R2-SP1-061995.pdf), June 1995, track/index and buffer options.

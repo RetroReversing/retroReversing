@@ -18,8 +18,10 @@ recommend:
 - saturn
 - games
 editlink: /consoles/saturn/SaturnDemoDisks.md
-updatedAt: '2026-10-11'
+updatedAt: '2026-10-17'
 ---
+
+<!-- cspell:ignore covermounts Virtua Cinepak Mogitate Tantei Monogatari Crimewave DPSYS Farland Habou Ochikazuki Jantei Sono Shiroki Majo Develo -->
 
 <div class="emoji">💿</div>
 [Sega Saturn](/saturn) demo discs are useful for reverse engineering because they often ship earlier or alternate builds of retail games, and they can expose different SDK library versions than the final release. Official samplers and magazine covermounts also pack multiple playable demos onto one disc, which makes them a good starting point when hunting for symbols, leftover debug strings, or unreleased content.
@@ -30,9 +32,15 @@ Product codes, versions, and dates come from each disc's `IP.BIN` header when a 
 
 For multi-game samplers and magazine discs, the **Games** column lists titles recovered from per-game `*_IP.BIN` files on the ISO when present. If those headers are missing or reused, the column falls back to distinctive ISO directory names from the disc.
 
-{% include_cached link-to-other-post.html post="/sega-saturn-initial-program-ip" description="For details on the Saturn IP.BIN header fields including product number and version check out this post." %}
+The [Initial Program guide](/sega-saturn-initial-program-ip) explains the header fields used in this catalogue. The [Saturn reversing guide](/saturn-reversing) shows how demo executables can reveal SDK library versions.
 
-{% include_cached link-to-other-post.html post="/saturn-reversing" description="For examples of Saturn demos used to identify SDK library versions check out this post." %}
+---
+# Inside a developer demo disc
+Sega's *Demo-Demo File Loader* specification describes one way to put several playable games on a single Saturn disc. Its menu did not simply jump to an arbitrary game file. A file-loader interface passed the chosen title to a loader kernel, which loaded that game's first-read file and ran its Initial Program. Each game lived in its own subdirectory, so two demos could retain the same filenames without colliding [^10].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-demo-loader-manual.webp" alt="Sega's Demo-Demo system diagram showing a menu, file-loader kernel, two game initial programs, and exit paths" width="1082" height="1400" title="How Sega's demo loader connected the menu to each game" caption="The original system diagram, [Demo-Demo File Loader Specifications, p. 6](https://antime.kapsi.fi/sega/files/ST-250-R1-031296.pdf). Select the scan to enlarge." %}
+
+The specification calls the per-game filesystem arrangement *Multi-GFS*. It was designed so that a game's normal file references could work inside its demo subdirectory without rewriting the product-version program. A game could call `SYS_Exit` to return to the menu [^10]. This is evidence for Sega's documented loader design, not proof that every retail sampler or magazine covermount in the catalogue used this exact library. When inspecting a disc, look for per-game directories and IP files, then compare the menu executable with the loader described in the manual.
 
 ---
 ## Europe and USA samplers / covermounts
@@ -668,3 +676,4 @@ python3 scripts/saturn-demo-sdk-versions.py /path/to/SaturnDemoExes
 [^7]: [Saturn Super Vol. 1 - Redump](http://redump.org/disc/41098/)
 [^8]: [Sega Flash - Sega Retro](https://segaretro.org/Sega_Flash)
 [^9]: [Panzer Dragoon Saga Demo Disc - Sega Retro](https://segaretro.org/Panzer_Dragoon_Saga_Demo_Disc)
+[^10]: Sega, [Saturn Demo-Demo File Loader Specifications, library version 1.20](https://antime.kapsi.fi/sega/files/ST-250-R1-031296.pdf), February 1996, sections 1-5.

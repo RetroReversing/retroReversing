@@ -76,6 +76,18 @@ The DTS technical bulletins make the architecture more concrete: they record rul
 ## Reading peripherals through the SMPC
 The System Manager and Peripheral Control chip (SMPC) handles controller data as well as system commands. Sega's July 1996 bulletin instructs developers to use the peripheral library to fetch controller data rather than the SH-2 direct mode, with an exception for Virtua Gun. It also warns against relying on reserved peripheral-data bits, because later peripherals could use them [^2]. That matters when reading old input routines: masking unused bits was part of compatibility, not just tidying the code.
 
+### Mouse and keyboard reports
+Sega's peripheral bulletins show why a single "controller" structure is too vague for every device. A shuttle mouse reports peripheral ID `E3h` and three data bytes. The first holds X/Y sign and overflow flags plus Start, Middle, Right, and Left buttons; the next two hold relative X and Y movement. The keyboard reports ID `34h` and four data bytes, including controller-style buttons, keyboard-type bits, lock state, make/break flags, and a key code [^7] [^8]. A parser needs the ID and reported size before interpreting the payload.
+
+The input contract also appeared in Sega's testing notes. The November 1996 DTS newsletter lists frequent "A-bugs" including games that failed to recover after a peripheral was unplugged, assigned six-player tap ports in the wrong order, ignored controller port 2 when a tap occupied port 1, or let an unsupported device start a game [^9]. These are concrete failure cases behind the general SMPC rule.
+
+The original reports are useful when tracing an input routine:
+
+Device | Peripheral ID | Report payload | Detail to check
+---|---|---|---
+Shuttle mouse | `E3h` | 3 bytes | Sign and overflow flags qualify relative X/Y movement
+Saturn keyboard | `34h` | 4 bytes | Key code is meaningful only when Make or Break is set
+
 ## Data and RAM cartridges
 Sega described two different expansion-cartridge uses in its 1996 bulletins:
 
@@ -97,3 +109,6 @@ The Saturn's MC68EC000 sound CPU and SCSP had their own restrictions. A January 
 [^4]: Sega DTS, [Technical Bulletin 47 - Extended RAM Cartridge Manual](https://antime.kapsi.fi/sega/files/ST-TECH-47.pdf), 1 October 1996.
 [^5]: Sega DTS, [Technical Bulletin 51 - Restrictions for the MC68EC000 Sound CPU and SCSP](https://antime.kapsi.fi/sega/files/ST-TECH-51.pdf), 22 January 1997.
 [^6]: Sega, [Saturn Overview](https://antime.kapsi.fi/sega/files/ST-103-R1-040194.pdf), sound subsystem and CPU specifications. This distinguishes the 11.3 MHz sound CPU from the 22.6 MHz sound-effects DSP.
+[^7]: Sega DTS, [Technical Bulletin 44 - Shuttle Mouse Data Format](https://antime.kapsi.fi/sega/files/ST-TECH-44.pdf), 1 July 1996.
+[^8]: Sega DTS, [Technical Bulletin 45 - Saturn Keyboard Data Format](https://antime.kapsi.fi/sega/files/ST-TECH-45.pdf), 10 July 1996.
+[^9]: Sega DTS, [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), p. 4, "1996's Best Known A-Bugs".

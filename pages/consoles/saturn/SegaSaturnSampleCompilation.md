@@ -21,7 +21,10 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSampleCompilation.md
+updatedAt: '2026-10-17'
 ---
+
+<!-- cspell:words CARTDEV BTSMPFS -->
 
 This guide will walk you through compiling the official Sega Saturn samples which are part of the Sega Basic Library.
 
@@ -97,3 +100,26 @@ sega_cdc.a |
 sega_csh.a | 
 sega_dma.a | Direct Memory Access
 sega_int.a | Interrupt handling
+
+---
+# From a compiled sample to a disc image
+The VCD tools archive preserves more than executables: `CARTDEV/BTSMPFS.SCR` is a readable disc-building script for a file-system sample [^1]. It declares a CD-ROM session, places `IP.BIN` in the system area, defines an ISO 9660 volume, and maps host files such as `SMP_KRNL.BIN` to disc names such as `0KRNL.BIN;1`. The accompanying `.PVD` and `.RTI` files record information used by the Virtual CD workflow [^1] [^2].
+
+The sample script's structure is easier to read as a pipeline:
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-disc-build-flow.svg" mobile_src="/public/images/saturn/dts/dts-disc-build-flow-mobile.svg" alt="Build program and assets, describe the disc, prepare a Virtual CD image, test on target hardware, then check the master CD-R" width="1200" height="170" title="From compiler output to a checked disc" caption="Workflow reconstructed from the [Virtual CD manual](https://antime.kapsi.fi/sega/files/ST-129-R2-093094.pdf) and Sega's master-release form." %}
+
+The Virtual CD manual distinguishes two preparation paths. `VCDPRE.EXE` creates lookup data for direct access to host files; `VCDBUILD.EXE` creates a CD image and table of contents for real-time emulation. `VCDEMU.EXE` then runs the prepared disc against the target hardware [^2]. This is a historical workflow, not a claim that the sample above has been rebuilt with modern tools.
+
+## What Sega checked at submission
+The [Master CD-ROM Release Form](https://antime.kapsi.fi/sega/files/ST-242-R2-010496.pdf) shows the next stage after local testing. In addition to matching the disc's identification data and accompanying paperwork, its checklist asks whether the CD media's linear speed is 1.25 m/s, whether drive use stays within a 33% duty ratio over ten minutes, and whether the game retries a failed read [^3]. These questions make clear why a successful emulator launch was not the end of disc development: seek patterns and recovery behavior also mattered on a physical drive.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-master-disc-checklist.webp" alt="Sega Saturn master-disc checklist asking about disc speed, drive duty, read retry, and VDP2 color RAM" width="1082" height="1400" title="A master disc faced hardware checks" caption="The original [Master CD-ROM Release Form, p. 7](https://antime.kapsi.fi/sega/files/ST-242-R2-010496.pdf) puts CD-drive behavior beside graphics checks. Select the scan to enlarge." %}
+
+For more on the emulation hardware and the two VCD modes, see the [Saturn development-kit guide](/sega-saturn-programming-box#virtual-cd-emulation-workflow).
+
+---
+# References
+[^1]: Sega, [VCDTOOLS archive](https://antime.kapsi.fi/sega/files/VCDTOOLS.zip), especially `CARTDEV/BTSMPFS.SCR`, `CARTDEV/BTSMPFS.PVD`, and `CARTDEV/BTSMPFS.RTI`.
+[^2]: Sega, [Saturn Virtual CD System User's Manual](https://antime.kapsi.fi/sega/files/ST-129-R2-093094.pdf), sections 2-3 on preparation and emulation modes.
+[^3]: Sega, [Sega Saturn Master CD-ROM Release Form](https://antime.kapsi.fi/sega/files/ST-242-R2-010496.pdf), January 1996, CD-ROM checklist and attached-document checklist.
