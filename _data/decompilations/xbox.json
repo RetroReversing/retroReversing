@@ -150,6 +150,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {}
+    },
+    "ninja-gaiden-black-gamboozino-recomp": {
+      "name": "Ninja Gaiden Black",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/gamboozino/ngbrecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {}
     }
   },
   "consoles": {
@@ -183,32 +194,32 @@
             }
           ]
         },
-    {
-      "project": "lord-of-the-rings-the-two-towers-recompiled",
-      "name_markdown": "[The Lord of the Rings: The Two Towers Recompiled](https://github.com/Gumpolas/TooTawersRecomp)",
-      "images": [
         {
-          "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Two%20Towers%20%28USA%29.png",
-          "alt": "The Lord of the Rings: The Two Towers box art for Xbox",
-          "width": 100
-        }
-      ],
-      "notes_markdown": "Native Windows, Linux and macOS port of the 2002 Xbox release using static recompilation. Requires the original game disc image or extracted files; game data is not included.",
-      "completion_percent": null,
-      "completion_qualifier": "",
-      "completion_metric": "completion",
-      "ports": [],
-      "project_types": [
-        {
-          "name": "Static recompilation",
-          "url": "https://github.com/Gumpolas/TooTawersRecomp"
+          "project": "lord-of-the-rings-the-two-towers-recompiled",
+          "name_markdown": "[The Lord of the Rings: The Two Towers Recompiled](https://github.com/Gumpolas/TooTawersRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Two%20Towers%20%28USA%29.png",
+              "alt": "The Lord of the Rings: The Two Towers box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Windows, Linux and macOS port of the 2002 Xbox release using static recompilation. Requires the original game disc image or extracted files; game data is not included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Gumpolas/TooTawersRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Gumpolas/TooTawersRecomp"
+            }
+          ]
         },
-        {
-          "name": "Native port",
-          "url": "https://github.com/Gumpolas/TooTawersRecomp"
-        }
-      ]
-    },
         {
           "project": "halo-combat-evolved",
           "name_markdown": "[Halo: Combat Evolved](https://github.com/punpckhdq/halo)",
@@ -437,6 +448,32 @@
             {
               "name": "Native port",
               "url": "https://github.com/SirSymo/SM2-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "ninja-gaiden-black-gamboozino-recomp",
+          "name_markdown": "[Ninja Gaiden Black](https://github.com/gamboozino/ngbrecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Ninja%20Gaiden%20Black%20%28USA%29.png",
+              "alt": "Ninja Gaiden Black USA box art for the original Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "xboxrecomp-based native Windows and Linux port with a Vulkan renderer. Requires the retail USA release (title ID 5443000D) and Vulkan 1.3. Known issues include water rendering on Nvidia/Windows, Windows ISO installation failures and 21:9 edge pop-in. Windows has been tested under Proton and a Windows 11 VM; broader physical-PC reports are requested. Steam Deck first-run installation requires Desktop Mode.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/gamboozino/ngbrecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/gamboozino/ngbrecomp"
             }
           ]
         }
