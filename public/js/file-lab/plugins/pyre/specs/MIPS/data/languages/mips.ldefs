@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language_definitions>
+  <language processor="MIPS" endian="little" size="32" variant="default"
+            version="1.9" slafile="mips32le.sla"
+            processorspec="mips32.pspec" id="MIPS:LE:32:default">
+    <description>MIPS32 little endian (PS2 IOP)</description>
+    <compiler name="default" spec="mips32le.cspec" id="default"/>
+  </language>
+</language_definitions>

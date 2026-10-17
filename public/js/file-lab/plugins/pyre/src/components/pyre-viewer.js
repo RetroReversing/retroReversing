@@ -8,12 +8,7 @@ import { buildNameToAddrFromBinary, resolveOptsFromBinary } from "../decompiler/
 import { renderDecompileHtml } from "../render-decompile.js";
 import { extractCallees, createCallersIndex } from "../xrefs.js";
 import { pyreFunctionsFromR2State } from "../r2-functions.js";
-import {
-  PYRE_SPECS_BASE,
-  PYRE_MANIFEST_URL,
-  PYRE_SUPERH_SPECS_BASE,
-  PYRE_SUPERH_MANIFEST_URL
-} from "../constants.js";
+import { specUrlsForArch } from "../constants.js";
 
 var ROW_HEIGHT = 28;
 var VIRTUAL_OVERSCAN = 48;
@@ -569,10 +564,8 @@ export class PyreViewerElement extends LitElement {
       this.progressDetail = "Loading Ghidra decompiler (Pyre)...";
 
       var client = new DecompilerClient(this.workerUrl);
-      var superH = binary.arch === "SuperH";
       await client.init({
-        specBaseUrl: superH ? PYRE_SUPERH_SPECS_BASE : PYRE_SPECS_BASE,
-        manifestUrl: superH ? PYRE_SUPERH_MANIFEST_URL : PYRE_MANIFEST_URL,
+        ...specUrlsForArch(binary.arch),
         arch: binary.arch
       });
       if (token !== this._loadToken) {

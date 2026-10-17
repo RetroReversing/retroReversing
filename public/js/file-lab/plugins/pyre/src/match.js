@@ -1,4 +1,5 @@
 import { detectFormat } from "./parsers/index.ts";
+import { isUnsupportedMipsElf } from "./mips-elf.js";
 
 function isJavaClass(bytes) {
   if (!bytes || bytes.length < 8) return false;
@@ -14,5 +15,5 @@ export function isPyreBinary(ctx) {
   var bytes = ctx && ctx.bytes;
   if (!bytes || bytes.length < 4) return false;
   if (isJavaClass(bytes)) return false;
-  return detectFormat(bytes) !== null;
+  return !isUnsupportedMipsElf(bytes) && detectFormat(bytes) !== null;
 }

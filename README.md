@@ -5,7 +5,7 @@ https://www.retroreversing.com/
 ---
 # Pages deployment
 The `Build and deploy Pages` workflow builds the R2, Pyre and Kaitai File Lab plugins with their npm lockfiles before building Jekyll.
-It verifies the published plugin modules, workers, stylesheets and Wasmer runtime against the built files before uploading the Pages artifact.
+It verifies the published plugin modules, workers, stylesheets, bundled MIPS/R5900 Pyre specs and Wasmer runtime against the built files before uploading the Pages artifact.
 Generated `dist/` directories remain ignored.
 
 In the repository's **Settings > Pages > Build and deployment**, select **GitHub Actions** as the source.
@@ -22,7 +22,7 @@ bundle exec jekyll build
 node scripts/validate-file-lab-assets.mjs _site
 ```
 
-After deploying, open `/file-lab/`, load an executable and check the R2 and Pyre views.
+After deploying, open `/file-lab/`, load an executable and check the R2 and Pyre views. PS2 EE ELF files use the bundled R5900 spec; IOP IRX modules use bundled MIPS32 specs.
 R2 also requires the root `coi-serviceworker.min.js` to establish cross-origin isolation, and both engines download external runtime assets.
 Build validation checks the locally published assets; browser analysis verifies those runtime dependencies.
 

@@ -8,6 +8,8 @@
 // Compiler suffix is appended only when we can guess it from the
 // binary's loader/format.
 
+import { isEmotionEngineElf } from "../ps2-mips.js";
+
 export type Endian = "LE" | "BE";
 
 export interface ArchHint {
@@ -58,6 +60,8 @@ export function archFromElf(
   ei_class: 1 | 2,
   ei_data: 1 | 2,
   osabi: number,
+  e_type = 0,
+  e_flags = 0,
 ): { hint: ArchHint; languageId: string; arch: string } {
   const endian: Endian = ei_data === 2 ? "BE" : "LE";
   const bits = ei_class === 2 ? 64 : 32;
@@ -95,8 +99,13 @@ export function archFromElf(
       return { hint, languageId: joinId(hint, compiler), arch: "ARM" };
     }
     case EM_MIPS: {
+      // IOP IRX modules use the ordinary MIPS32 instruction set.
+      if (endian === "LE" && bits === 32 && isEmotionEngineElf(e_type, e_flags)) {
+        const hint: ArchHint = { processor: "r5900", endian, size: 32 };
+        return { hint, languageId: joinId(hint, "default"), arch: "r5900" };
+      }
       const hint: ArchHint = { processor: "MIPS", endian, size: bits };
-      return { hint, languageId: joinId(hint, compiler), arch: "MIPS" };
+      return { hint, languageId: joinId(hint, "default"), arch: "MIPS" };
     }
     case EM_PPC:
     case EM_PPC64: {

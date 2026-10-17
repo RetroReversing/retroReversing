@@ -44,6 +44,7 @@ function addTree(directory) {
 for (const plugin of ["r2", "pyre", "kaitai-viewer"]) {
   addTree(resolve(source, "public/js/file-lab/plugins", plugin, "dist"));
 }
+addTree(resolve(source, "public/js/file-lab/plugins/pyre/specs"));
 
 const errors = [];
 for (const asset of required) {

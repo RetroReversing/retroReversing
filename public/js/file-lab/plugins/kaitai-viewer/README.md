@@ -7,7 +7,7 @@ Bundled formats (from the [Kaitai format gallery](https://formats.kaitai.io/)):
 **Executables**
 
 * PE (Windows `.exe`, `.dll`, `.sys`)
-* ELF (Linux/Unix `.elf`, `.so`, `.o`)
+* ELF (including PS2 `.elf` and `.irx`, Linux/Unix `.so` and `.o`)
 * Mach-O and Mach-O Fat (macOS `.dylib`, universal binaries)
 * DOS MZ (legacy `.exe`, `.com`)
 * DEX (Android `.dex`)

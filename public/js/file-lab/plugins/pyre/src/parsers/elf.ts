@@ -36,6 +36,8 @@ export async function parseElf(bytes: Uint8Array): Promise<ParsedBinary> {
   // Header field offsets that differ between ELF32 and ELF64. Only
   // including the ones we actually read.
   const e_machine = dv.getUint16(0x12, le);
+  const e_type = dv.getUint16(0x10, le);
+  const e_flags = dv.getUint32(is64 ? 0x30 : 0x24, le);
   const e_entry = is64 ? dv.getBigUint64(0x18, le) : BigInt(dv.getUint32(0x18, le));
   const e_phoff = is64 ? Number(dv.getBigUint64(0x20, le)) : dv.getUint32(0x1c, le);
   const e_shoff = is64 ? Number(dv.getBigUint64(0x28, le)) : dv.getUint32(0x20, le);
@@ -49,6 +51,8 @@ export async function parseElf(bytes: Uint8Array): Promise<ParsedBinary> {
     ei_class as 1 | 2,
     ei_data as 1 | 2,
     osabi,
+    e_type,
+    e_flags,
   );
 
   // --- Program headers → regions

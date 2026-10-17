@@ -60,7 +60,7 @@ let mod: EmModule | null = null;
 let api: DecompilerApi | null = null;
 const sessions = new Map<number, number>();
 let nextSession = 1;
-const manifestCache = new Map<string, { files: { path: string; size: number }[] }>();
+const cachedManifests = new Map<string, { files: { path: string; size: number }[] }>();
 const mountedArchs = new Set<string>();
 
 async function loadPyreDecompiler() {
@@ -174,17 +174,20 @@ async function doInit(req: InitRequest) {
   }
   if (mountedArchs.has(req.arch)) return;
 
-  let manifest = manifestCache.get(req.manifestUrl);
-  if (!manifest) {
+  let manifest: { files: { path: string; size: number }[] };
+  const cached = cachedManifests.get(req.manifestUrl);
+  if (cached) {
+    manifest = cached;
+  } else {
     const r = await fetch(req.manifestUrl);
     if (!r.ok) throw new Error(`fetch manifest ${req.manifestUrl}: ${r.status}`);
-    manifest = await r.json();
-    manifestCache.set(req.manifestUrl, manifest!);
+    manifest = await r.json() as { files: { path: string; size: number }[] };
+    cachedManifests.set(req.manifestUrl, manifest);
   }
 
   const archPrefix = req.arch + "/";
   const langDirs = new Set<string>();
-  const entries = manifest!.files.filter((entry) =>
+  const entries = manifest.files.filter((entry) =>
     entry.path.startsWith(archPrefix),
   );
   if (!entries.length) {

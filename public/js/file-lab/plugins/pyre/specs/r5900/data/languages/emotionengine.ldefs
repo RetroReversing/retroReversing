@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language_definitions>
+   <language processor="MIPS-R5900"
+            endian="little"
+            size="32"
+            variant="PS2"
+            version="1.4.0"
+            slafile="r5900.sla"
+            processorspec="r5900.pspec"
+            manualindexfile="../manuals/eecore.idx"
+            id="r5900:LE:32:default">
+    <description>Emotion Engine (Play Station 2) R5900 MIPS Core</description>
+    <compiler name="default" spec="r5900.cspec" id="default"/>
+    <external_name tool="IDA-PRO" name="r5900l"/>
+    <external_name tool="DWARF.register.mapping.file" name="r5900.dwarf"/>
+  </language>
+</language_definitions>

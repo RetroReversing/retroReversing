@@ -40,7 +40,7 @@ export var FORMATS = [
     id: "elf",
     title: "ELF",
     group: "executable",
-    extensions: [".elf", ".so", ".o", ".out"],
+    extensions: [".elf", ".irx", ".so", ".o", ".out"],
     detect: isElf,
     Parser: Elf
   },
