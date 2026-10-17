@@ -39,7 +39,7 @@ updatedAt: '2026-10-17'
 
 **The game.** *Turok: Dinosaur Hunter* is a first-person shooter developed by Iguana and published by Acclaim. It released for Nintendo 64 in North America on **4 March 1997** [^11] [^16]. The comic-book hero crosses the Lost Land, fighting dinosaurs and other enemies while recovering pieces of the Chronoscepter [^12].
 
-**The makers.** A retrospective with Iguana staff describes a core development team of 18 [^10]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist. GameFAQs lists **62 numbered credit entries** across specialties, including Acclaim roles and repeated names; that total is not a headcount of Iguana's core team [^3].
+**The makers.** Producer David Dienstbier recalled a final game team of **about 17 or 18 people** [^19]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist. GameFAQs lists **62 numbered credit entries** across specialties, including Acclaim roles and repeated names [^3]. The earlier article's counts of **nine programmers, 22 artists, and more than 61 people overall** cannot be reconciled with the documented core-team figure or verified as Iguana-only headcounts [^13].
 
 **The leak.** In 2017, a preservationist found Turok source code on former Acclaim **SGI Indy workstations** [^15]. He said their previous owner had acquired them at Acclaim's 2004 bankruptcy auction [^15]. A leaked copy surfaced in public discussion in 2018 [^1]. The files do not establish their exact route from those machines into circulation.
 
@@ -103,14 +103,14 @@ The diagram is a reading map for the files, not proof that the supplied archive 
 ## Workstations and authoring tools
 The discovery account identifies **SGI Indy workstations** among the surviving Acclaim hardware [^15]. The earlier article, citing a David Dienstbier interview, described **two SGI workstations at Iguana**: one in a common room where artists could test assets in the engine, and one in the lead programmer's office [^9] [^13]. It also described an Ultra 64 development board plugged into an SGI expansion slot, enabling tests without writing a cartridge. These details are historical accounts; the supplied source tree cannot establish the studio's full hardware inventory.
 
-The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**, evidence of the SGI operating environment. An `src/X11` folder is present, but it does not establish which desktop the team used. `PR/tengine/cart.c` has a `WIN32` branch for host-side code. That shows Windows support in part of the toolchain, not that the N64 game was programmed entirely on Windows. A Windows edition of Turok was also released in 1997 [^18]. Later footage of **Turok 3** shows Visual Studio on Windows, without establishing its use for the first game [^8].
+The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**, evidence of the SGI operating environment. An `src/X11` folder is present, but it does not establish which desktop the team used. `PR/tengine/cart.c` has a `WIN32` branch for host-side code. That shows Windows support in part of the toolchain, not that the N64 game was programmed entirely on Windows. The Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in both GameFAQs and MobyGames [^18] [^20]; the earlier article's 28 February date is not supported by those records. Later footage of **Turok 3** shows Visual Studio on Windows, without establishing its use for the first game [^8].
 
 The `PR/man/F3DEX/README` is dated **15 October 1996**. That date belongs to the bundled **F3DEX microcode release 1.00**, rather than proving a release date for the whole Nintendo 64 SDK. The examined game files use official Nintendo headers, libraries, and microcode; no separate third-party SDK has been identified in those files.
 
 For 3D authoring, `PR/tengine/tengine.h` declares `mf_3dstudio_to_u64`, a matrix named for converting 3D Studio coordinates to Ultra 64 coordinates. That is concrete evidence of a 3D Studio import path. It does not, by itself, identify the exact software version used by every artist. Interviews with the team provide further context [^10].
 
 <figure class="rr-game-figure">
-  <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio 4 running on Windows">
+  <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio Release 4 interface">
   <figcaption>3D Studio 4, shown as an illustration of the period's modeling tools; this is not a screenshot of Iguana's project. Image from the RetroReversing archive.</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ For 3D authoring, `PR/tengine/tengine.h` declares `mf_3dstudio_to_u64`, a matrix
 CMtxF mf_3dstudio_to_u64;
 ```
 
-The earlier article noted that **NinGen/MultiGen and Alias** appeared in Nintendo 64 development discussions alongside Softimage, Nichimen, and 3D Studio [^13]. It also discussed animator Greg Omelchuck's recollection of “3D Studio Max v4” [^10]. That version label is difficult to reconcile with the original game's 1997 release; it may refer to later work or conflate **3D Studio 4** with an early **3D Studio MAX** release. The matrix is firmer evidence than the version recollection. Whether Iguana kept the same package for later games cannot be established from this archive.
+The earlier article noted that **NinGen/MultiGen and Alias** appeared in Nintendo 64 development discussions alongside Softimage, Nichimen, and 3D Studio [^13]. This is period context, not evidence that Turok used every package. Animator Greg Omelchuck later recalled using "3D Studio Max v4" for Turok's dinosaurs [^10]. Autodesk's records place **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. The last version postdates Turok's launch, so the exact version behind Omelchuck's recollection remains uncertain. The source's 3D Studio coordinate-conversion code confirms a workflow, not a software version. Whether Iguana kept the same package for later games cannot be established from this archive.
 
 The game also used **Rob Northen's ProPack** compression [^6]. `PR/tengine/cart.c` calls `PackRNC`, while the bootstrap in `boot.c` checks for an RNC header and dispatches to method 1 or 2 decompression. The archive includes unpacking code in `unpack.c` and `rnc2.s`. [Sega Retro's RNC overview](https://segaretro.org/Rob_Northen_compression) provides more format background.
 
@@ -130,7 +130,7 @@ The game also used **Rob Northen's ProPack** compression [^6]. `PR/tengine/cart.
 
 The header of `PR/tengine/rnc.s` calls itself **“PROPACK Unpack Source Code - Sony PSX, Method 2”** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
 
-A documentary about **Turok 3** shows later Acclaim development equipment, including a Doctor V64 and Windows tools [^7] [^8]. That footage illustrates the studio's later workflow; it does not establish that those exact devices were used for the first Turok.
+A documentary about **Turok 3** shows later Acclaim development equipment, including a **Bung Doctor V64** and Windows tools [^7] [^8]. A contemporary 1997 report priced the V64 at **US$450**, explaining its appeal as a lower-cost test device [^24]. The footage establishes its use during the later production, but does not establish whether Iguana had one while making the first Turok. A separate account identifies an Acclaim **ArtSend debugging cartridge** in the same documentary around the seven-minute mark [^25], so that timestamp alone should not be used to identify the V64.
 
 <figure class="rr-game-figure">
   <img src="/public/games/turok/Turok3_DoctorV64.png" class="postImage" width="650" alt="Doctor V64 shown during Turok 3 development">
@@ -157,6 +157,8 @@ Start in `tengine` when tracing the game. Follow `spec` for the ROM layout and `
 
 The tree highlights entry points for investigation, not an exhaustive inventory. For example, `PR/tengine/cartdata.dat` is only 7,576 bytes in this copy, whereas `PR/cartdata.dat` is 6,489,336 bytes and `PR/tengine/oldcartdata.dat` is 6,451,432 bytes. These are distinct files. Use the path and byte size when reporting findings, rather than referring to an unspecified `cartdata.dat`.
 
+The earlier article suggested that `tengine` began as a copied Nintendo SDK demo under `C:\ultra\usr\src\pr` [^13]. The game Makefile does include Nintendo's `PRdefs`, and the archive contains SDK demos beside `tengine`. No matching demo or copied-file history has been identified, so these clues show SDK integration rather than which template, if any, Iguana started from.
+
 ---
 # How the game data is packed
 `PR/tengine/cartdir.h` names eleven root blocks in the asset container. `cart.h` defines a `CIndexedSet`: a big-endian block count followed by offsets. `cart.c` uses adjacent offsets to calculate each stored block's byte length. The first block begins after the aligned index header.
@@ -178,6 +180,8 @@ Block | Content named in cartdir.h | Stored bytes
 10 | Binary types | 64
 
 Graphic objects, texture sets, and levels account for most stored bytes in this copy. The names tell us how the root directory is organized; they do not imply that every original authoring file or editable 3D Studio scene is present.
+
+**Packed game assets are present; editable art projects are not evident.** `cartdir.h` names geometry and animations under graphic objects, bitmaps and palettes under texture sets, and collision, instances, and grid sections under levels. A search of this supplied `src` tree found no `.3ds` or `.max` scene files. The binary data can drive the game, but these runtime formats are not the original 3D Studio authoring projects. The archive also contains other media files, including audio, so "no assets" would be misleading.
 
 The original article also compared an early **Windows 95 demo** reportedly supplied with issue 28 of the Italian *PC Gamer* (1998). Its asset file was called `demodata.dat`; the author reported RNC-compressed sections and a layout resembling the N64 `cartdata.dat` [^13]. That demo file is not in this supplied source tree, so the comparison remains an account from the earlier investigation rather than a result reproduced here.
 
@@ -268,6 +272,8 @@ For a focused reading exercise, find `CCheat__Update` and follow one flag into `
 `PR/tengine/control.c` holds `OSPfs ControllerPak`, directory state, and the game's Controller Pak identifiers. Its `GameCode` is `NTUE` and its `CompanyCode` is `51`. The `GameName` array in this copy uses encoded byte values, rather than the plain ASCII `turok` array left in a comment. The save payload is modeled by `CPersistantData` in `tengine.h`, including inventory, level keys, settings, health, and cheat flags.
 
 `control.h` declares the SDK's `OSPfs` handle and `OSPfsState`, plus file counts, free pages, and a directory of `t_File` records. Each record carries an index, a 20-character string, and a page count:
+
+Nintendo's manual calls each Controller Pak save a **game note**. Its **PFS** file system uses `OSPfs` as the file handle and manages data in 32-byte units [^26]. This explains the `Pfs` names in the code without needing to infer a longer expansion of the acronym.
 
 ```c
 // PR/tengine/control.h: Controller Pak directory state
@@ -405,7 +411,7 @@ A saved `.mpk` file from an emulator can be inspected with a hex editor or a [Co
 ## Models, worlds, and related games
 The 3D Studio conversion matrix in `tengine.h` connects the game runtime to its art pipeline. `scene.c`, `romstruc.c`, and `cartdir.h` provide better starting points for tracing geometry, collision, and level data than the generic SDK demo folders.
 
-Iguana also built a world editor, according to a contemporary interview. David Dienstbier described the tools this way: “All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.” [^4] The editor's original project files are not demonstrated by the source paths examined here. The later Turok remaster has an editor, but the relationship between that editor and Iguana's original tool is not established by this archive [^5].
+Iguana also built a world editor, according to a contemporary interview. David Dienstbier described the tools this way: "All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here" [^4]. No obvious world-editor project or executable was found in this supplied `src` tree. Nightdive's Stephen Kick said the remaster team could not find the original game's source code when it began its work [^27]. The later remaster has an editor [^28], but neither that fact nor this archive establishes a lineage back to Iguana's tool. A claim that the original editor has *never* been released would require a broader survey than this archive permits.
 
 The first *South Park* Nintendo 64 game is reported to have been based on Turok technology [^9]. Shared engine code is therefore plausible, although this archive does not establish which exact source files were compiled for *South Park*.
 
@@ -420,10 +426,17 @@ The paths in this page are enough to repeat the main checks without running an o
 
 The archive includes generated objects and a ROM image, but a clean rebuild depends on an appropriate historical toolchain and inputs. The earlier build notes below record obstacles encountered with one setup. They are observations, not verified fixes for every environment.
 
-<details>
+<details markdown="1">
 <summary>Historical build notes from the earlier version of this article</summary>
 
-The earlier attempt copied `stddef.h` from Dragon SDK into `c:/ultra/GCC/MIPSE/INCLUDE` and changed a `NULL` definition from `((void *)0)` to `0` after seeing `trex.c:229: invalid operands to binary |`. That records the historical environment and workaround; it does not establish a correct fix for another toolchain.
+The earlier attempt copied `stddef.h` from Dragon SDK into `c:/ultra/GCC/MIPSE/INCLUDE` and changed a `NULL` definition at approximately line 400 of that header after seeing `trex.c:229: invalid operands to binary |` [^13]:
+
+```c
+// #define NULL ((void *)0)
+#define NULL 0
+```
+
+That records the historical environment and workaround; the line number depends on the exact header version, and the edit does not establish a correct fix for another toolchain.
 
 ```text
 as -o adpcm.o adpcm.s
@@ -468,3 +481,13 @@ The original article featured **Turok 64 Official Source Code Found** and [The M
 [^16]: [Turok: Dinosaur Hunter Nintendo 64 release details at GameFAQs](https://gamefaqs.gamespot.com/n64/199130-turok-dinosaur-hunter/data)
 [^17]: [Nintendo64Ever Turok cartridge data sheet](https://www.nintendo64ever.com/Nintendo-64-Game%2C924%2CTurok-Dinosaur-Hunter.html)
 [^18]: [Turok: Dinosaur Hunter PC release details at GameFAQs](https://gamefaqs.gamespot.com/pc/199129-turok-dinosaur-hunter/data)
+[^19]: [David Dienstbier's recollection of Turok's team size in an oral history](https://melmagazine.com/en-us/story/turok-dinosaur-hunter-oral-history)
+[^20]: [Turok: Dinosaur Hunter Windows release details at MobyGames](https://www.mobygames.com/game/2203/turok-dinosaur-hunter/releases/windows/)
+[^21]: [Autodesk's report on 3D Studio Release 4](https://investors.autodesk.com/index.php/index.php/static-files/c0513bc9-648d-4eb2-8b7c-ac4248979b68)
+[^22]: [Autodesk fiscal 1997 report on 3D Studio MAX sales](https://investors.autodesk.com/static-files/a9698cb5-9fdc-4557-b46a-162dfaf5a27d)
+[^23]: [Autodesk account of 3ds max 4 in use by January 2001](https://investors.autodesk.com/news-releases/news-release-details/discreet-software-corrects-and-replaces-previous-announcement)
+[^24]: [1997 Wired report on the Doctor V64's US price](https://www.wired.com/1997/06/nintendo-pirating-device-still-for-sale/)
+[^25]: [Behind the Code's identification of Acclaim's ArtSend cartridge in the Turok 3 footage](https://www.behindthecode.ca/in-the-works-acclaim-artsend-dev-cart/)
+[^26]: [Nintendo 64 SDK Controller Pak file-system manual](https://ultra64.ca/files/documentation/online-manuals/man/n64man/os/osPfsInit.html)
+[^27]: [Nightdive's Stephen Kick on the Turok remaster and missing original source](https://www.rpgsite.net/interview/17342-system-shock-2-25th-anniversary-remaster-interview-nightdive-studios-stephen-kick-switch-2-upgrade-doom-rpg-blood-2-nolf-deftones)
+[^28]: [Nightdive Turok remaster level editor announcement](https://www.gamespot.com/articles/see-turok-pc-remasters-level-editor-in-action-out-/1100-6446653/)
