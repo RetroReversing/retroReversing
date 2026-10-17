@@ -1,0 +1,64 @@
+.rr-file-lab-ps2 {
+  height: 100%;
+  overflow: auto;
+  padding: 12px 14px 20px;
+  color: var(--rr-color-content-text);
+  font-size: 13px;
+}
+
+.rr-file-lab-ps2 h2 {
+  margin: 0 0 6px;
+  color: var(--rr-color-heading);
+  font-size: 16px;
+}
+
+.rr-file-lab-ps2 h3 {
+  margin: 0 0 8px;
+  color: var(--rr-color-heading);
+  font-size: 14px;
+}
+
+.rr-file-lab-ps2-intro,
+.rr-file-lab-ps2-note {
+  margin: 0 0 12px;
+  color: var(--rr-color-meta);
+}
+
+.rr-file-lab-ps2-section {
+  margin-top: 16px;
+}
+
+.rr-file-lab-ps2-table-wrap {
+  overflow-x: auto;
+}
+
+.rr-file-lab-ps2-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rr-file-lab-ps2-table th,
+.rr-file-lab-ps2-table td {
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--rr-color-table-border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.rr-file-lab-ps2-table th {
+  color: var(--rr-color-table-head-text);
+  font-weight: 600;
+}
+
+.rr-file-lab-ps2-table tbody tr:nth-child(even) {
+  background: var(--rr-color-table-stripe);
+}
+
+.rr-file-lab-ps2-note {
+  margin-top: 16px;
+}
+
+.rr-file-lab-ps2-error {
+  padding: 12px;
+  color: var(--rr-color-content-text);
+}

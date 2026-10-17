@@ -28,8 +28,8 @@ jobs:
             npm ci --prefix "public/js/file-lab/plugins/$plugin"
             npm run build --prefix "public/js/file-lab/plugins/$plugin"
           done
-      - name: Test plugin load error handling
-        run: node --test scripts/file-lab-plugin-errors.test.mjs
+      - name: Test File Lab plugins
+        run: node --test scripts/file-lab-plugin-errors.test.mjs public/js/file-lab/plugins/ps2-elf/parse.test.mjs
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3.12'

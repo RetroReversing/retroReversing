@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<processor_spec>
+    <properties>
+        <property key="addressesDoNotAppearDirectlyInCode" value="true"/>
+    </properties>
+    <programcounter register="pc"/>
+    <context_data>
+        <context_set space="ram">
+            <set name="PAIR_INSTRUCTION_FLAG" val="0" description="1 if LDL/LDR or SDL/SDR are a pair"/>
+        </context_set>
+    </context_data>
+    <register_data>
+        <register name="contextreg" hidden="true"/>
+        <register name="fsa" rename="sa"/>
+        <register name="vf0" vector_lane_sizes="4"/>
+        <register name="vf1" vector_lane_sizes="4"/>
+        <register name="vf2" vector_lane_sizes="4"/>
+        <register name="vf3" vector_lane_sizes="4"/>
+        <register name="vf4" vector_lane_sizes="4"/>
+        <register name="vf5" vector_lane_sizes="4"/>
+        <register name="vf6" vector_lane_sizes="4"/>
+        <register name="vf7" vector_lane_sizes="4"/>
+        <register name="vf8" vector_lane_sizes="4"/>
+        <register name="vf9" vector_lane_sizes="4"/>
+        <register name="vf10" vector_lane_sizes="4"/>
+        <register name="vf11" vector_lane_sizes="4"/>
+        <register name="vf12" vector_lane_sizes="4"/>
+        <register name="vf13" vector_lane_sizes="4"/>
+        <register name="vf14" vector_lane_sizes="4"/>
+        <register name="vf15" vector_lane_sizes="4"/>
+        <register name="vf16" vector_lane_sizes="4"/>
+        <register name="vf17" vector_lane_sizes="4"/>
+        <register name="vf18" vector_lane_sizes="4"/>
+        <register name="vf19" vector_lane_sizes="4"/>
+        <register name="vf20" vector_lane_sizes="4"/>
+        <register name="vf21" vector_lane_sizes="4"/>
+        <register name="vf22" vector_lane_sizes="4"/>
+        <register name="vf23" vector_lane_sizes="4"/>
+        <register name="vf24" vector_lane_sizes="4"/>
+        <register name="vf25" vector_lane_sizes="4"/>
+        <register name="vf26" vector_lane_sizes="4"/>
+        <register name="vf27" vector_lane_sizes="4"/>
+        <register name="vf28" vector_lane_sizes="4"/>
+        <register name="vf29" vector_lane_sizes="4"/>
+        <register name="vf30" vector_lane_sizes="4"/>
+        <register name="vf31" vector_lane_sizes="4"/>
+        <register name="vuACC" vector_lane_sizes="4"/>
+
+        <register name="zero_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="at_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="v0_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="v1_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="a0_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="a1_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="a2_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="a3_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t0_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t1_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t2_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t3_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t4_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t5_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t6_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t7_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s0_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s1_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s2_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s3_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s4_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s5_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s6_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="s7_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t8_qw" vector_lane_sizes="1,2,4,8"/>
+        <register name="t9_qw" vector_lane_sizes="1,2,4,8"/>
+    </register_data>
+
+    <default_memory_blocks>
+	<!--
+		//    start        end       bytes   description
+		// 0x00000000 - 0x01E84800 32000000 (main ram cached)
+		// 0x20000000 - 0x21E84800 32000000 (main ram uncached)
+		// 0x30100000 - 0x31E905C0 31000000 (main ram uncached & accelerated)
+		// 0x1C000000 - 0x1E000000 02000000 (iop ram)
+		// 0x1FC00000 - 0x1FFD0900 04000000 (BIOS/rom0 uncached)
+		// 0x9FC00000 - 0x9FFD0900 04000000 (BIOS/rom09 cached)
+		// 0xBFC00000 - 0xBFFD0900 04000000 (BIOS/rom0b uncached)
+
+		//	KUSEG: 00000000h-7FFFFFFFh User segment
+		//	KSEG0: 80000000h-9FFFFFFFh Kernel segment 0
+		//	KSEG1: A0000000h-BFFFFFFFh Kernel segment 1
+	-->
+		<memory_block name="registers.io"   start_address="0x10000000" length="0x00010000"    initialized="false" mode="rwv"/>
+		<memory_block name="vu0.code"       start_address="0x11000000" length="0x00001000"    initialized="false" mode="rwx"/>
+		<memory_block name="vu0.data"       start_address="0x11004000" length="0x00001000"    initialized="false" mode="rw"/>
+		<memory_block name="vu1.code"       start_address="0x11008000" length="0x00004000"    initialized="false" mode="rwx"/>
+		<memory_block name="vu1.data"       start_address="0x1100C000" length="0x00004000"    initialized="false" mode="rw"/>
+		<memory_block name="registers.gs"   start_address="0x12000000" length="0x00002000"    initialized="false" mode="rwv"/>
+		<memory_block name="scratchpad"     start_address="0x70000000" length="0x00004000"    initialized="false" mode="rw"/>
+		<memory_block name="iop_ram"        start_address="0x1C000000" length="0x02000000"    initialized="false" mode="rwx"/>
+		<memory_block name="rom0"           start_address="0x1FC00000" length="0x04000000"    initialized="false" mode="r"/>
+    </default_memory_blocks>
+</processor_spec>

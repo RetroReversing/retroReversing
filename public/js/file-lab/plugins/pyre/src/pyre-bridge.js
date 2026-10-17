@@ -1,6 +1,7 @@
 import { DecompilerClient } from "./decompiler/client.ts";
 import { detectFormat, parseBinary } from "./parsers/index.ts";
-import { PYRE_SPECS_BASE, PYRE_MANIFEST_URL, PYRE_SUPERH_SPECS_BASE, PYRE_SUPERH_MANIFEST_URL } from "./constants.js";
+import { isUnsupportedMipsElf } from "./mips-elf.js";
+import { specUrlsForArch } from "./constants.js";
 import { buildNameToAddr, buildNameToAddrFromBinary, resolveOptsFromBinary } from "./decompiler/resolve-call.js";
 import { renderDecompileHtml } from "./render-decompile.js";
 import { extractCallees, createCallersIndex } from "./xrefs.js";
@@ -19,7 +20,7 @@ export {
  * @returns {boolean}
  */
 export function canParseBinary(bytes) {
-  return detectFormat(bytes) !== null;
+  return !isUnsupportedMipsElf(bytes) && detectFormat(bytes) !== null;
 }
 
 /**
@@ -35,10 +36,8 @@ export function canParseBinary(bytes) {
 export async function createPyreSession(bytes, workerUrl) {
   var binary = await parseBinary(bytes);
   var client = new DecompilerClient(workerUrl);
-  var superH = binary.arch === "SuperH";
   await client.init({
-    specBaseUrl: superH ? PYRE_SUPERH_SPECS_BASE : PYRE_SPECS_BASE,
-    manifestUrl: superH ? PYRE_SUPERH_MANIFEST_URL : PYRE_MANIFEST_URL,
+    ...specUrlsForArch(binary.arch),
     arch: binary.arch
   });
   var session = await client.open({

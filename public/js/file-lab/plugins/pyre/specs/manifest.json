@@ -1,8 +1,52 @@
 {
   "files": [
-    {"path": "SuperH/data/languages/sh-2.sla", "size": 12964},
-    {"path": "SuperH/data/languages/superh.cspec", "size": 2653},
-    {"path": "SuperH/data/languages/superh.ldefs", "size": 475},
-    {"path": "SuperH/data/languages/superh.pspec", "size": 109}
+    {
+      "path": "MIPS/data/languages/mips.ldefs",
+      "size": 416
+    },
+    {
+      "path": "MIPS/data/languages/mips32.pspec",
+      "size": 3711
+    },
+    {
+      "path": "MIPS/data/languages/mips32le.cspec",
+      "size": 6466
+    },
+    {
+      "path": "MIPS/data/languages/mips32le.sla",
+      "size": 166213
+    },
+    {
+      "path": "SuperH/data/languages/sh-2.sla",
+      "size": 12964
+    },
+    {
+      "path": "SuperH/data/languages/superh.cspec",
+      "size": 2653
+    },
+    {
+      "path": "SuperH/data/languages/superh.ldefs",
+      "size": 475
+    },
+    {
+      "path": "SuperH/data/languages/superh.pspec",
+      "size": 109
+    },
+    {
+      "path": "r5900/data/languages/emotionengine.ldefs",
+      "size": 670
+    },
+    {
+      "path": "r5900/data/languages/r5900.cspec",
+      "size": 6347
+    },
+    {
+      "path": "r5900/data/languages/r5900.pspec",
+      "size": 5678
+    },
+    {
+      "path": "r5900/data/languages/r5900.sla",
+      "size": 43149
+    }
   ]
 }

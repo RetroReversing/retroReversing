@@ -44,6 +44,17 @@
       }
     },
     {
+      "id": "ps2-elf",
+      "title": "PS2 ELF",
+      "module": "/public/js/file-lab/plugins/ps2-elf/index.js",
+      "css": "plugin.css",
+      "order": 32,
+      "match": {
+        "minSize": 52,
+        "magic": [{ "offset": 0, "bytes": ["7F", "45", "4C", "46"] }]
+      }
+    },
+    {
       "id": "r2",
       "title": "R2",
       "module": "/public/js/file-lab/plugins/r2/dist/index.js",
