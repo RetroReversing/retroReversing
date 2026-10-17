@@ -124,6 +124,38 @@
   margin-bottom: 0.9rem;
 }
 
+.post .rr-tool-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.post .rr-tool-steps > div {
+  min-width: 0;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--rr-color-content-border);
+  border-top: 2px solid var(--rr-color-content-strong);
+  border-radius: 0.3rem;
+  background: var(--rr-color-code-bg);
+}
+
+.post .rr-tool-steps strong,
+.post .rr-tool-steps span {
+  display: block;
+}
+
+.post .rr-tool-steps strong {
+  color: var(--rr-color-content-strong);
+  font-size: 0.85rem;
+}
+
+.post .rr-tool-steps span {
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
 .post .rr-source-path {
   margin: 0 0 2rem 2.5rem;
   padding: 1rem 0 0.85rem;

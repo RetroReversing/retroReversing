@@ -101,41 +101,78 @@ flowchart LR
 The diagram is a reading map for the files, not proof that the supplied archive builds without changes. The `Makefile` contains commented final-build commands, and this article does not claim a reproducible retail build.
 
 ## Workstations and authoring tools
-The discovery account identifies **SGI Indy workstations** among the surviving Acclaim hardware [^15]. David Dienstbier described **two SGI workstations at Iguana**: one in a common room where artists could test assets in the engine, and one in the lead programmer's office [^9] [^13]. An Ultra 64 development board plugged into an SGI expansion slot enabled tests without writing a cartridge [^13]. These accounts do not establish the studio's full hardware inventory.
+Iguana combined **SGI test hardware**, an **in-house world editor**, 3D modeling and motion capture, and a separate music workflow. The hardware photo and software screens below are representative; only the documentary frame shows Acclaim's own workspace.
 
-The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**, evidence of the SGI operating environment. An `src/X11` folder is present, but it does not establish which desktop the team used. `PR/tengine/cart.c` has a `WIN32` branch for host-side code. That shows Windows support in part of the toolchain, not that the N64 game was programmed entirely on Windows. The Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in both GameFAQs and MobyGames [^18] [^20]. Later footage of **Turok 3** shows Visual Studio on Windows, without establishing its use for the first game [^8].
+### SGI stations and the changing development kit
+<section class="rr-game-media-row">
+  <figure class="rr-game-figure">
+    <img src="/public/N64/n64AddOnInternals.jpg" class="postImage" width="800" alt="Ultra 64 development board installed inside an SGI Indy workstation">
+    <figcaption>A representative Ultra 64 development board inside an SGI Indy. This photographed unit is not identified as Iguana hardware.</figcaption>
+  </figure>
+  <div class="rr-game-media-row__copy" markdown="1">
+**Two shared stations.** David Dienstbier described one SGI workstation in a common room where artists could test assets in the engine, and another in the lead programmer's office [^9] [^13]. The source discovery also involved former Acclaim **SGI Indy** machines [^15].
 
-The `PR/man/F3DEX/README` is dated **15 October 1996**. That date belongs to the bundled **F3DEX microcode release 1.00**, rather than proving a release date for the whole Nintendo 64 SDK. The examined game files use official Nintendo headers, libraries, and microcode; no separate third-party SDK has been identified in those files.
+**A console on a board.** Nintendo's development-board documentation describes a GIO expansion card inside the Indy [^29]. It allowed testing on N64 hardware without writing a cartridge for every change. Creative director Nigel Cook recalled receiving final development kits about halfway through production, with little rework despite earlier hardware uncertainty [^10].
+  </div>
+</section>
 
-For 3D authoring, `PR/tengine/tengine.h` declares `mf_3dstudio_to_u64`, a matrix named for converting 3D Studio coordinates to Ultra 64 coordinates. That is concrete evidence of a 3D Studio import path. It does not, by itself, identify the exact software version used by every artist. Interviews with the team provide further context [^10].
+The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**. An `src/X11` folder exists, but does not identify the desktop the team used. The `PR/man/F3DEX/README` date of **15 October 1996** belongs to F3DEX microcode release 1.00, not the entire SDK. The game files use Nintendo headers, libraries, and microcode; no separate third-party SDK has been identified in those files.
 
-<figure class="rr-game-figure">
-  <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio Release 4 interface">
-  <figcaption>3D Studio 4, shown as an illustration of the period's modeling tools; this is not a screenshot of Iguana's project.</figcaption>
-</figure>
+---
+### World building and character animation
+<section class="rr-game-media-row">
+  <figure class="rr-game-figure">
+    <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio Release 4 interface">
+    <figcaption>3D Studio Release 4 illustrates the period's modeling software. This is not a screenshot of Iguana's project.</figcaption>
+  </figure>
+  <div class="rr-game-media-row__copy" markdown="1">
+**Iguana's own editor.** Dienstbier said the team built its world editor and animation handling internally [^4]. Cook recalled building the editor while Nintendo 64 hardware was still being finalized [^10]. The editor's project and executable have not been identified in this supplied archive.
 
-```c
-// PR/tengine/tengine.h: a coordinate-conversion matrix
-CMtxF mf_3dstudio_to_u64;
-```
+**Two kinds of movement.** Animator Greg Omelchuck said the human animation was motion captured, while the dinosaurs were animated by hand in 3D Studio, with their legs adjusted frame by frame [^10]. Acclaim's motion-capture team described filming stunt performer Brad Martin as he was pulled and thrown to simulate attacks [^19].
 
-Animator Greg Omelchuck later recalled using "3D Studio Max v4" for Turok's dinosaurs [^10]. Autodesk's records place **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. The last version postdates Turok's launch, so the exact version behind Omelchuck's recollection remains uncertain. The source's 3D Studio coordinate-conversion code confirms a workflow, not a software version. Whether Iguana kept the same package for later games cannot be established from this archive.
+**A source-code clue.** `PR/tengine/tengine.h` declares `CMtxF mf_3dstudio_to_u64`, a coordinate-conversion matrix. `cartdir.h` indexes geometry and animation data. Together they show the path into game-ready assets, though the editable 3D scene projects are not present here.
+  </div>
+</section>
 
-The game also used **Rob Northen's ProPack** compression [^6]. `PR/tengine/cart.c` calls `PackRNC`, while the bootstrap in `boot.c` checks for an RNC header and dispatches to method 1 or 2 decompression. The archive includes unpacking code in `unpack.c` and `rnc2.s`. [Sega Retro's RNC overview](https://segaretro.org/Rob_Northen_compression) provides more format background.
+Omelchuck recalled the software as "3D Studio Max v4" [^10]. Autodesk's records put **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. That last version postdates Turok's launch, so the exact version behind the recollection remains uncertain.
 
-<figure class="rr-game-figure">
-  <img src="/public/software/RNC_ProPack.PNG" class="postImage" width="640" alt="Rob Northen Computing ProPack software screen">
-  <figcaption>RNC ProPack software.</figcaption>
-</figure>
+---
+### Music, samples, and compression
+<section class="rr-game-media-row">
+  <figure class="rr-game-figure">
+    <img src="/public/software/RNC_ProPack.PNG" class="postImage" width="800" alt="Rob Northen Computing ProPack software screen">
+    <figcaption>RNC ProPack packing software; Turok's source contains a matching `PackRNC` call and unpackers.</figcaption>
+  </figure>
+  <div class="rr-game-media-row__copy" markdown="1">
+**Composer's tools.** Darren Mitchell said he used sounds from **Ensoniq ASR-10 and TS-12** instruments for the first two Turok games. He sequenced in **Performer**, then used proprietary tools to get the music running on Nintendo 64 [^30].
 
-The header of `PR/tengine/rnc.s` calls itself **“PROPACK Unpack Source Code - Sony PSX, Method 2”** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
+<div class="rr-tool-steps" role="list" aria-label="Music workflow described by Darren Mitchell">
+  <div role="listitem"><strong>Ensoniq</strong><span>ASR-10 and TS-12 sounds</span></div>
+  <div role="listitem"><strong>Performer</strong><span>Music sequencing</span></div>
+  <div role="listitem"><strong>Proprietary tools</strong><span>Nintendo 64 implementation</span></div>
+</div>
 
-A documentary about **Turok 3** shows later Acclaim development equipment, including a **Bung Doctor V64** and Windows tools [^7] [^8]. A contemporary 1997 report priced the V64 at **US$450**, explaining its appeal as a lower-cost test device [^24]. The footage establishes its use during the later production, but does not establish whether Iguana had one while making the first Turok. A separate account identifies an Acclaim **ArtSend debugging cartridge** in the same documentary around the seven-minute mark [^25], so that timestamp alone should not be used to identify the V64.
+Mitchell said the producer described each level's creatures and atmosphere before he composed, followed by revisions together [^30].
 
-<figure class="rr-game-figure">
-  <img src="/public/games/turok/Turok3_DoctorV64.png" class="postImage" width="650" alt="Doctor V64 shown during Turok 3 development">
-  <figcaption>A Doctor V64 in later Turok 3 development footage. It is evidence for that production period, not proof of its use on the original game [^8].</figcaption>
-</figure>
+**Cartridge packing.** `PR/tengine/cart.c` calls `PackRNC`; `boot.c` checks for an RNC code-segment header and dispatches to method 1 or 2 decompression. The archive includes `unpack.c` and `rnc2.s`. [Sega Retro's RNC overview](https://segaretro.org/Rob_Northen_compression) explains the format.
+  </div>
+</section>
+
+The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - Sony PSX, Method 2"** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
+
+---
+### What later Acclaim footage shows
+<section class="rr-game-media-row">
+  <figure class="rr-game-figure">
+    <img src="/public/games/turok/Turok3_DoctorV64.png" class="postImage" width="650" alt="Doctor V64 shown during Turok 3 development">
+    <figcaption>A Doctor V64 in Turok 3 development footage. This frame does not establish its use on the first game [^8].</figcaption>
+  </figure>
+  <div class="rr-game-media-row__copy" markdown="1">
+A documentary about **Turok 3** shows a **Bung Doctor V64** and Windows development tools [^7] [^8]. A 1997 report priced the V64 at **US$450** [^24]. The footage establishes later Acclaim use, but not whether Iguana had one for the first Turok.
+
+The same documentary shows an Acclaim **ArtSend debugging cartridge** around the seven-minute mark [^25]. Its appearance should not be mistaken for evidence that the V64 is visible at that timestamp. `PR/tengine/cart.c` also has a `WIN32` branch for host-side code, but that does not identify the IDE used for the original N64 game. A Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in GameFAQs and MobyGames [^18] [^20].
+  </div>
+</section>
 
 ---
 # Find the game in the archive
@@ -491,3 +528,5 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 [^26]: [Nintendo 64 SDK Controller Pak file-system manual](https://ultra64.ca/files/documentation/online-manuals/man/n64man/os/osPfsInit.html)
 [^27]: [Nightdive's Stephen Kick on the Turok remaster and missing original source](https://www.rpgsite.net/interview/17342-system-shock-2-25th-anniversary-remaster-interview-nightdive-studios-stephen-kick-switch-2-upgrade-doom-rpg-blood-2-nolf-deftones)
 [^28]: [Nightdive Turok remaster level editor announcement](https://www.gamespot.com/articles/see-turok-pc-remasters-level-editor-in-action-out-/1100-6446653/)
+[^29]: [Nintendo 64 development-board manual for the SGI Indy](https://tech-pubs.net/sgi_developer/books/ultra64-guide/index.html)
+[^30]: [Interview with Turok composer Darren Mitchell about his equipment and workflow](https://duke64nukem.com/2018/02/10/darren-mitchell-interview-turok/)
