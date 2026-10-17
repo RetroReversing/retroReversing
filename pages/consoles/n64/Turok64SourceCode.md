@@ -31,6 +31,8 @@ updatedAt: '2026-10-17'
 
 **The game.** *Turok: Dinosaur Hunter* is a first-person shooter developed by Iguana and published by Acclaim [^11] [^3]. The comic-book hero crosses the Lost Land, fighting dinosaurs and other enemies while recovering pieces of the Chronoscepter [^12].
 
+**The makers.** A retrospective with Iguana staff describes a core development team of 18 [^10]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist [^3].
+
 **The leak.** Source code was reported found on former Acclaim hardware in 2017 [^2]. A Turok forum discussed a leaked copy in 2018 [^1]. The files do not establish their full route into circulation.
 
 **Inside the archive.** The ROM layout, bootstrap loader, asset index, cheats, and Controller Pak code show how cartridge data becomes a running world.
