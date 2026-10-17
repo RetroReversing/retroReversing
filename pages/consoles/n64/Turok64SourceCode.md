@@ -181,7 +181,7 @@ The same documentary shows an Acclaim **ArtSend debugging cartridge** around the
 The `src/PR` directory contains many SDK examples, including `simple`, `gtdemo`, and `spgame`. The game-specific material is under `src/PR/tengine`. Its `dosvers` directory contains a separate host-side source variant; compiled objects and generated files also appear beside the C and assembly sources.
 
 {% capture turok_tree_body %}
-Start in `tengine` when tracing the game. Follow `spec` for the ROM layout and `cartdir.h` for the asset index. Treat neighboring SDK demo directories as context, not as Turok engine modules.
+The game-specific trail begins in `tengine`. Its `spec` file maps the ROM layout, while `cartdir.h` names the asset blocks. The neighboring SDK demo directories are separate from the Turok engine.
 {% endcapture %}
 {% capture turok_tree_items %}
 - boot.c - loads the main code segment and handles an RNC header
@@ -194,7 +194,7 @@ Start in `tengine` when tracing the game. Follow `spec` for the ROM layout and `
 {% endcapture %}
 {% include connected-folder-tree.html folder="tengine" path="src/PR/tengine" body=turok_tree_body version="Source map" content=turok_tree_items %}
 
-The tree highlights entry points for investigation, not an exhaustive inventory. For example, `PR/tengine/cartdata.dat` is only 7,576 bytes in this copy, whereas `PR/cartdata.dat` is 6,489,336 bytes and `PR/tengine/oldcartdata.dat` is 6,451,432 bytes. These are distinct files. Use the path and byte size when reporting findings, rather than referring to an unspecified `cartdata.dat`.
+One detail complicates the ROM story. The `spec` build plan names `PR/tengine/cartdata.dat`, a file of just 7,576 bytes. Elsewhere, `PR/cartdata.dat` is 6,489,336 bytes and holds the indexed game assets explored below; `PR/tengine/oldcartdata.dat` is another 6,451,432-byte file. Their similar names hide different files, and `spec` alone does not show how the larger asset collection entered this build.
 
 The game Makefile includes Nintendo's `PRdefs`, and the archive contains SDK demos beside `tengine`. No matching demo or copied-file history has been identified, so these clues show SDK integration rather than which template, if any, Iguana started from.
 
