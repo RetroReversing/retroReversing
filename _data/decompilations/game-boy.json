@@ -311,8 +311,19 @@
         },
         {
           "project": "pokemon-red-blue",
-          "name_markdown": "![](https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp){:width=\"200\"} [Pokemon Red & Blue](https://github.com/pret/pokered)",
-          "images": [],
+          "name_markdown": "[Pokemon Red & Blue](https://github.com/pret/pokered)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
           "notes_markdown": "",
           "completion_percent": null,
           "completion_qualifier": "",

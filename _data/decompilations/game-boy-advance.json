@@ -1345,8 +1345,19 @@
         },
         {
           "project": "pokemon-ruby-sapphire",
-          "name_markdown": "![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width=\"200\"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)",
-          "images": [],
+          "name_markdown": "[Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pokemon%20-%20Ruby%20Version%20%28USA%29.png",
+              "alt": "Pokemon Ruby box art (Game Boy Advance)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pokemon%20-%20Sapphire%20Version%20%28USA%29.png",
+              "alt": "Pokemon Sapphire box art (Game Boy Advance)",
+              "width": 100
+            }
+          ],
           "notes_markdown": "",
           "completion_percent": null,
           "completion_qualifier": "",
