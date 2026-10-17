@@ -32,7 +32,7 @@ updatedAt: '2026-10-17'
 <section class="rr-game-media-row">
   <figure class="rr-game-figure">
     <img src="/public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 3D.png" class="postImage" width="480" alt="North American Turok Dinosaur Hunter Nintendo 64 box art">
-    <figcaption>Turok: Dinosaur Hunter box art for the North American Nintendo 64 release. Image from the RetroReversing archive.</figcaption>
+    <figcaption>Turok: Dinosaur Hunter box art for the North American Nintendo 64 release.</figcaption>
   </figure>
   <div class="rr-game-media-row__copy" markdown="1">
 <p class="rr-game-intro__kicker">Nintendo 64 / 1997 / Iguana Entertainment</p>
@@ -66,7 +66,7 @@ updatedAt: '2026-10-17'
 <section class="rr-game-media-row">
   <figure class="rr-game-figure">
     <img src="/public/games/turokCartridge.png" class="postImage" width="480" alt="North American Turok Dinosaur Hunter Nintendo 64 cartridge label">
-    <figcaption>North American Turok cartridge. Image from the RetroReversing archive.</figcaption>
+    <figcaption>North American Turok cartridge.</figcaption>
   </figure>
   <div class="rr-game-media-row__copy" markdown="1">
 The North American cartridge presents the same game art seen on the box. This is the retail medium that the ROM layout in `PR/tengine/spec` targets.
@@ -77,7 +77,7 @@ An opened Nintendo 64 cartridge helps locate the ROM chip and edge connector phy
 
 <figure class="rr-game-figure">
   <img src="/public/N64/N64Cart_NUS_01A_01.png" class="postImage" width="650" alt="Inside a representative NUS-01A-01 Nintendo 64 cartridge showing circuit board and chips">
-  <figcaption>Inside a representative Nintendo 64 cartridge. Board identity is visible; its association with Turok has not been established. Image from the RetroReversing archive.</figcaption>
+  <figcaption>Inside a representative Nintendo 64 cartridge. Board identity is visible; its association with Turok has not been established.</figcaption>
 </figure>
 
 The retail game was distributed on a **64 Mbit (8 MiB) cartridge** [^17]. The source tree also contains `PR/tengine/rom.rnc`, an 8 MiB file. Its size alone does not prove that it matches every retail cartridge revision. The more useful evidence for this analysis is `spec`, which states which segments a build places in a ROM. Compression helped fit code and assets within that space.
@@ -111,7 +111,7 @@ For 3D authoring, `PR/tengine/tengine.h` declares `mf_3dstudio_to_u64`, a matrix
 
 <figure class="rr-game-figure">
   <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio Release 4 interface">
-  <figcaption>3D Studio 4, shown as an illustration of the period's modeling tools; this is not a screenshot of Iguana's project. Image from the RetroReversing archive.</figcaption>
+  <figcaption>3D Studio 4, shown as an illustration of the period's modeling tools; this is not a screenshot of Iguana's project.</figcaption>
 </figure>
 
 ```c
@@ -125,7 +125,7 @@ The game also used **Rob Northen's ProPack** compression [^6]. `PR/tengine/cart.
 
 <figure class="rr-game-figure">
   <img src="/public/software/RNC_ProPack.PNG" class="postImage" width="640" alt="Rob Northen Computing ProPack software screen">
-  <figcaption>RNC ProPack software. Image from the RetroReversing archive.</figcaption>
+  <figcaption>RNC ProPack software.</figcaption>
 </figure>
 
 The header of `PR/tengine/rnc.s` calls itself **“PROPACK Unpack Source Code - Sony PSX, Method 2”** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
@@ -403,7 +403,7 @@ typedef struct CPersistantData_t
 
 <figure class="rr-game-figure">
   <img src="/public/N64/n64controllerpak.png" class="postImage" width="400" alt="Nintendo 64 Controller Pak accessory">
-  <figcaption>Nintendo 64 Controller Pak, used for Turok save files. Image from the RetroReversing archive.</figcaption>
+  <figcaption>Nintendo 64 Controller Pak, used for Turok save files.</figcaption>
 </figure>
 
 A saved `.mpk` file from an emulator can be inspected with a hex editor or a [Controller Pak editor](https://rawgit.com/bryc/mempak/master/index.html). Compare the directory entry and game code before interpreting the payload. The C structure alone is not a complete on-disk format specification.
@@ -417,7 +417,7 @@ The first *South Park* Nintendo 64 game is reported to have been based on Turok 
 
 <figure class="rr-game-figure">
   <img src="/public/games/South Park (USA).png" class="postImage" width="480" alt="South Park Nintendo 64 gameplay screenshot">
-  <figcaption>The later South Park game on Nintendo 64. Its reported engine relationship is historical context, not evidence that every Turok module was reused. Image from the RetroReversing archive.</figcaption>
+  <figcaption>The later South Park game on Nintendo 64. Its reported engine relationship is historical context, not evidence that every Turok module was reused.</figcaption>
 </figure>
 
 ---
