@@ -354,6 +354,13 @@ The archive is split very neatly into the game itself and the DOS-side tools use
 <div class="emoji">💡</div>
 The last thing we want is for our pages to be boring or a chore to read. We are writing about games so it should be fun and visual! This section lists components you can use to ensure posts are not giant walls of text.
 
+## Structure for new game-specific pages
+Start a new page about an individual game with a short introduction and its box art so readers can identify the title, platform, and edition. Then show the physical cartridge or other release medium, followed by a view inside it (such as the PCB) when a relevant image is available. Caption each image with what it shows and credit its source. Match images to the game and platform being discussed; do not present a different revision or a later game's hardware as evidence for this one.
+
+After the physical overview, introduce the development hardware and software used to make the game. Include confirmed tools first and label deductions or tools known only from related games clearly. Then move into the source code, file layout, assets, build process, and technical analysis. This visual-to-technical progression is modeled on the [Turok 64 source code analysis](/turok64sourcecode). Keep sections useful on their own for readers who jump directly to the technical material.
+
+If box art, physical media, internal photos, or tool evidence cannot be found, say so briefly where relevant and continue with the available material. Do not add speculative images or claims merely to fill the sequence. For digital-only games, use an appropriate release image or screenshot in place of physical media.
+
 ## For sections about a specific game
 <figure>
   <img src="https://www.mobygames.com/images/covers/l/84474-k-c-munchkin-odyssey-2-front-cover.jpg" alt="K.C. Munchkin! Odyssey 2 Cover">

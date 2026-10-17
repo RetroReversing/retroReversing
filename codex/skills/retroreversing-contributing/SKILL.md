@@ -21,6 +21,8 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * Present terminology first, then explain/justify.
    * Sections should be readable non-linearly (don't rely on strict reading order).
    * Use stable site wording. Avoid phrases that imply a recent site change, such as "we now have", "now has its own page", or "this now lives"; prefer "For the full history, see:" or "A dedicated page covers this in more detail:".
+   * For new pages about an individual game, follow the Turok page's visual-to-technical progression: short introduction and box art; cartridge or other release medium; inside view such as a PCB when available; development hardware and software; then source code, assets, build process, and deeper analysis.
+   * Match physical images to the game, platform, and relevant edition. Caption and credit them. Identify what is confirmed versus inferred, especially when development tools are evidenced only by a related game. If an image or evidence is unavailable, continue without inventing it; use an appropriate release image or screenshot for digital-only games.
 4) Apply Markdown/structure rules:
    * Don't bold headings; don't put emojis or backticks in headings.
    * Use `---` before major section jumps, and when jumping back up the heading hierarchy.
