@@ -1,5 +1,6 @@
 import datetime as dt
 import importlib.util
+import io
 import json
 from pathlib import Path
 import re
@@ -28,6 +29,73 @@ class FixtureClient:
 
 
 class ActivityTests(unittest.TestCase):
+    @staticmethod
+    def graphql_node(stars=12):
+        return {'stargazerCount': stars, 'isArchived': False,
+                'defaultBranchRef': {'name': 'main', 'target': {
+                    'committedDate': '2026-10-10T00:00:00Z',
+                    'url': 'https://github.com/o/r/commit/abc'}}}
+
+    def test_graphql_batches_and_deduplicates_repositories(self):
+        class BatchClient:
+            queries = []
+
+            def graphql(client, query):
+                client.queries.append(query)
+                aliases = re.findall(r'(r\d+): repository', query)
+                return {'data': {alias: self.graphql_node(0) for alias in aliases}}
+
+        data = {'projects': {str(i): {'name': 'Game', 'repository_url': 'https://github.com/o/r' + str(i),
+                                      'ai_used': True} for i in range(52)}}
+        data['projects']['shared'] = {'name': 'Shared', 'repository_url': 'https://github.com/o/r0/tree/main/game'}
+        client = BatchClient()
+        self.assertEqual(activity.refresh(data, client, NOW, github_graphql=True), (52, 0))
+        self.assertEqual([len(re.findall(r'r\d+: repository', q)) for q in client.queries], [50, 2])
+        self.assertEqual(data['projects']['0']['activity']['github_stars'], 0)
+        self.assertIs(data['projects']['0']['ai_used'], True)
+        self.assertEqual(data['projects']['0']['activity'], data['projects']['shared']['activity'])
+
+    def test_graphql_partial_errors_preserve_previous_evidence(self):
+        old = {'github_stars': 23, 'last_commit_at': '2026-09-01T00:00:00Z', 'status': 'Active'}
+        data = {'projects': {str(i): {'name': 'Game', 'repository_url': 'https://github.com/o/r' + str(i),
+                                      'activity': dict(old)} for i in range(2)}}
+        client = FixtureClient([])
+        client.graphql = lambda query: {'data': {'r0': self.graphql_node(), 'r1': None},
+                                       'errors': [{'type': 'NOT_FOUND', 'path': ['r1']}]}
+        self.assertEqual(activity.refresh(data, client, NOW, github_graphql=True), (2, 1))
+        self.assertEqual(data['projects']['0']['activity']['github_stars'], 12)
+        for key, value in old.items():
+            self.assertEqual(data['projects']['1']['activity'][key], value)
+
+    def test_graphql_limit_selection_and_rate_limit_stop(self):
+        data = {'projects': {str(i): {'name': 'Game', 'repository_url': 'https://github.com/o/r' + str(i)}
+                             for i in range(51)}}
+        client = FixtureClient([])
+        with patch.object(client, 'graphql', create=True, return_value={'data': {'r0': self.graphql_node()}}) as query:
+            self.assertEqual(activity.refresh(data, client, NOW, selected=['1'], limit=1, github_graphql=True), (1, 0))
+            self.assertEqual(query.call_count, 1)
+            self.assertIn('name: "r1"', query.call_args[0][0])
+            self.assertNotIn('activity', data['projects']['0'])
+        with patch.object(client, 'graphql', create=True, return_value={'errors': [{'type': 'RATE_LIMITED'}]}) as query:
+            self.assertEqual(activity.refresh(data, client, NOW, github_graphql=True), (50, 1))
+            self.assertEqual(query.call_count, 1)
+            self.assertNotIn('activity', data['projects']['50'])
+
+    def test_graphql_requires_authentication_before_requests(self):
+        with patch.dict(activity.os.environ, {}, clear=True), patch.object(activity.sys, 'argv', ['update', '--github-graphql']), patch.object(activity, 'Client') as client:
+            with self.assertRaises(SystemExit) as error:
+                activity.main()
+            self.assertEqual(error.exception.code, 2)
+            client.assert_not_called()
+
+    def test_graphql_posts_json_with_gh_token(self):
+        with patch.dict(activity.os.environ, {'GH_TOKEN': 'test-token'}, clear=True), patch.object(activity, 'urlopen', return_value=io.BytesIO(b'{"data": {}}')) as request:
+            self.assertEqual(activity.Client().graphql('query { viewer { login } }'), {'data': {}})
+            sent = request.call_args[0][0]
+            self.assertEqual(sent.get_method(), 'POST')
+            self.assertEqual(sent.get_header('Authorization'), 'Bearer test-token')
+            self.assertEqual(json.loads(sent.data), {'query': 'query { viewer { login } }'})
+
     def test_catalog_references_and_evidence(self):
         catalog, sources = activity.load_catalog(activity.DEFAULT_DATA)
         for path, (data, _) in sources.items():
