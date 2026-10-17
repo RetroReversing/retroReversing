@@ -689,7 +689,7 @@
           "images": [
             {
               "alt": "Castlevania: Order of Ecclesia box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Castlevania%20-%20Order%20of%20Ecclesia%20%28USA%29%20%28En%2CFr%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Castlevania%20-%20Order%20of%20Ecclesia%20%28USA%29%20%28En%2CFr%29.png",
               "width": 100
             }
           ],
@@ -710,8 +710,8 @@
           "name_markdown": "[Dragon Quest IX](https://github.com/dqix/dqix-decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/DragonQuestIXBoxArtJP.png",
+              "alt": "Dragon Quest IX box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Dragon%20Quest%20IX%20-%20Sentinels%20of%20the%20Starry%20Skies%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],
@@ -733,7 +733,7 @@
           "images": [
             {
               "alt": "Mario & Luigi - Partners in Time box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Mario%20_%20Luigi%20-%20Partners%20in%20Time%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20_%20Luigi%20-%20Partners%20in%20Time%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -755,7 +755,7 @@
           "images": [
             {
               "alt": "Mario Party DS box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Mario%20Party%20DS%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20Party%20DS%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -798,8 +798,8 @@
           "name_markdown": "[Pokemon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+              "alt": "Pokemon HeartGold and SoulSilver box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20HeartGold%20SoulSilver%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -834,7 +834,7 @@
           "images": [
             {
               "alt": "Pokemon Platinum box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -865,8 +865,8 @@
           "name_markdown": "[Rhythm Heaven (Gold)](https://github.com/patataofcourse/rhgold)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/38/RhythmHeaven.PNG",
+              "alt": "Rhythm Heaven (Gold) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Rhythm%20Heaven%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -888,7 +888,7 @@
           "images": [
             {
               "alt": "The Legend of Zelda: Phantom Hourglass box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Phantom%20Hourglass%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Phantom%20Hourglass%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],
@@ -910,7 +910,7 @@
           "images": [
             {
               "alt": "The Legend of Zelda: Spirit Tracks box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Spirit%20Tracks%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Spirit%20Tracks%20%28USA%29%20%28En%2CFr%2CEs%29.png",
               "width": 100
             }
           ],
@@ -954,7 +954,7 @@
           "images": [
             {
               "alt": "Pokemon Platinum box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
               "width": 100
             }
           ],

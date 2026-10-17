@@ -432,8 +432,8 @@
           "name_markdown": "[Demon's Crest](https://github.com/fredyeye/various-game-disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Demonscrest_us.jpg",
+              "alt": "Demon's Crest box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Demon%27s%20Crest%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -454,8 +454,8 @@
           "name_markdown": "[Donkey Kong Country](https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png",
+              "alt": "Donkey Kong Country box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -476,8 +476,8 @@
           "name_markdown": "[Donkey Kong Country 2](https://github.com/p4plus2/DKC2-disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg",
+              "alt": "Donkey Kong Country 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy%27s%20Kong%20Quest%20%28USA%29%20%28En%2CFr%29.png",
               "width": 100
             }
           ],
@@ -498,8 +498,8 @@
           "name_markdown": "[Donkey Kong Country 3](https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/c/cc/Dkc3_snes_boxart.jpg",
+              "alt": "Donkey Kong Country 3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%203%20-%20Dixie%20Kong%27s%20Double%20Trouble%21%20%28USA%29%20%28En%2CFr%29.png",
               "width": 100
             }
           ],
@@ -533,8 +533,8 @@
           "name_markdown": "[Earthbound / Mother 2](https://github.com/Herringway/ebsrc)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
+              "alt": "Earthbound / Mother 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/EarthBound%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -555,8 +555,8 @@
           "name_markdown": "[Final Fantasy IV](https://github.com/everything8215/ff4)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/9/90/Final_Fantasy_IV.jpg",
+              "alt": "Final Fantasy IV box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Final%20Fantasy%20IV%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -577,8 +577,8 @@
           "name_markdown": "[Final Fantasy V](https://www.ff6hacking.com/ff5wiki/images/0/00/Ff5j_asm_Squall.txt)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Final_Fantasy_V_Box_JAP.jpg",
+              "alt": "Final Fantasy V box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Final%20Fantasy%20V%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -599,8 +599,8 @@
           "name_markdown": "[Final Fantasy VI](https://github.com/everything8215/ff6)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg",
+              "alt": "Final Fantasy VI box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Final%20Fantasy%20VI%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -621,8 +621,8 @@
           "name_markdown": "[Goof Troop](https://github.com/Yoshifanatic1/Goof-Troop-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/60/SNES_Goof_Troop_cover_art.jpg",
+              "alt": "Goof Troop box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Goof%20Troop%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -643,8 +643,8 @@
           "name_markdown": "[Super Bomberman](https://github.com/LIJI32/superbomberman)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png",
+              "alt": "Super Bomberman box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Bomberman%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -665,8 +665,8 @@
           "name_markdown": "[Super Ghouls 'n Ghosts](https://github.com/fredyeye/super-ghouls-n-ghosts-disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/35/GhoulsSNES_boxart.JPG",
+              "alt": "Super Ghouls 'n Ghosts box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Ghouls%20%27N%20Ghosts%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -687,8 +687,8 @@
           "name_markdown": "[Super Mario RPG](https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg",
+              "alt": "Super Mario RPG box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20RPG%20%28Japan%29.png",
               "width": 100
             }
           ],
@@ -709,8 +709,8 @@
           "name_markdown": "[Super Mario World](https://github.com/IsoFrieze/SMWDisX)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -754,8 +754,8 @@
           "name_markdown": "[Super Mario World 2: Yoshi's Island](https://github.com/brunovalads/yoshisisland-disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg",
+              "alt": "Super Mario World 2: Yoshi's Island box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%202%20-%20Yoshi%27s%20Island%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -776,8 +776,8 @@
           "name_markdown": "[Super Metroid](https://github.com/strager/supermetroid)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+              "alt": "Super Metroid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png",
               "width": 100
             }
           ],
@@ -811,8 +811,8 @@
           "name_markdown": "[Super Punch-Out!!](https://github.com/Yoshifanatic1/Super-Punch-Out-Disassembly)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/4/40/Superpunchoutbox.jpg",
+              "alt": "Super Punch-Out!! box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Punch-Out%21%21%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -833,8 +833,8 @@
           "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/snesrev/zelda3)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
               "width": 100
             }
           ],

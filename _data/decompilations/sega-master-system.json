@@ -61,8 +61,8 @@
           "name_markdown": "[Phantasy Star](https://github.com/sung3r/ps1disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png",
+              "alt": "Phantasy Star box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Master_System_-_Mark_III/master/Named_Boxarts/Phantasy%20Star%20%28USA%2C%20Europe%29.png",
               "width": 100
             }
           ],
@@ -83,8 +83,8 @@
           "name_markdown": "[Sonic 2](https://github.com/sonicretro/s2smsdisasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://greenhillszone.files.wordpress.com/2011/03/sonic_the_hedgehog_2_8-bit.png",
+              "alt": "Sonic 2 artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Master_System_-_Mark_III/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20%28Europe%2C%20Brazil%29%20%28En%29.png",
               "width": 100
             }
           ],

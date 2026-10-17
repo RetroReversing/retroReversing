@@ -298,8 +298,8 @@
           "name_markdown": "[Kid Chameleon](https://github.com/sonicretro/kid-chameleon-disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/75/Kid_Chameleon_Coverart.png",
+              "alt": "Kid Chameleon box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Kid%20Chameleon%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -342,8 +342,8 @@
           "name_markdown": "[Phantasy Star II](https://github.com/sung3r/ps2disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg",
+              "alt": "Phantasy Star II box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Phantasy%20Star%20II%20%28USA%2C%20Europe%29.png",
               "width": 100
             }
           ],
@@ -386,8 +386,8 @@
           "name_markdown": "[Phantasy Star IV](https://github.com/squidfeatures/ps4disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg",
+              "alt": "Phantasy Star IV box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Phantasy%20Star%20IV%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -408,8 +408,8 @@
           "name_markdown": "[Ristar](https://github.com/sonicretro/ristar)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/2/2a/Ristar_cover_EU.jpg",
+              "alt": "Ristar box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Ristar%20%28USA%2C%20Europe%29.png",
               "width": 100
             }
           ],
@@ -430,8 +430,8 @@
           "name_markdown": "[Sonic the Hedgehog](https://github.com/sonicretro/s1disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+              "alt": "Sonic the Hedgehog box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -452,8 +452,8 @@
           "name_markdown": "[Sonic the Hedgehog 2](https://github.com/sonicretro/s2disasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+              "alt": "Sonic the Hedgehog 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -474,8 +474,8 @@
           "name_markdown": "[Sonic the Hedgehog 3](https://github.com/sonicretro/skdisasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
+              "alt": "Sonic the Hedgehog 3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%203%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -518,8 +518,8 @@
           "name_markdown": "[Sonic 3D Blast](https://github.com/sonicretro/s3ddisasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/3/36/Sonic3D.jpg",
+              "alt": "Sonic 3D Blast box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%203D%20Blast%20%28USA%2C%20Europe%2C%20Korea%29%20%28En%29.png",
               "width": 100
             }
           ],
@@ -540,8 +540,8 @@
           "name_markdown": "[Sonic Spinball](https://github.com/sonicretro/spindisasm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg",
+              "alt": "Sonic Spinball box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20Spinball%20%28USA%29.png",
               "width": 100
             }
           ],

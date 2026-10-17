@@ -1090,8 +1090,8 @@
           "name_markdown": "[Banjo-Kazooie: Grunty's Revenge](https://github.com/jellees/bkgr)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg",
+              "alt": "Banjo-Kazooie: Grunty's Revenge box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Banjo-Kazooie%20-%20Grunty%27s%20Revenge%20%28USA%2C%20Europe%29.png",
               "width": 100
             }
           ],
@@ -1112,8 +1112,8 @@
           "name_markdown": "[Breath of Fire](https://github.com/Normmatt/bof)",
           "images": [
             {
-              "alt": "",
-              "url": "https://www.mobygames.com/images/covers/l/14074-breath-of-fire-game-boy-advance-front-cover.jpg",
+              "alt": "Breath of Fire artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Breath%20of%20Fire%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1134,8 +1134,8 @@
           "name_markdown": "[Fire Emblem: The Binding Blade](https://github.com/StanHash/fe6)",
           "images": [
             {
-              "alt": "",
-              "url": "https://vgboxart.com/boxes/GBA/74706-fire-emblem-the-binding-blade.jpg",
+              "alt": "Fire Emblem: The Binding Blade artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Fire%20Emblem%20-%20The%20Binding%20Blade%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1156,8 +1156,8 @@
           "name_markdown": "[Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG",
+              "alt": "Fire Emblem: The Sacred Stones box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Fire%20Emblem%20-%20The%20Sacred%20Stones%20%28USA%2C%20Australia%29.png",
               "width": 100
             }
           ],
@@ -1178,8 +1178,8 @@
           "name_markdown": "[Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg",
+              "alt": "Harvest Moon: Friends of Mineral Town box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Harvest%20Moon%20-%20Friends%20of%20Mineral%20Town%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1201,7 +1201,7 @@
           "images": [
             {
               "alt": "Kingdom Hearts: Chain of Memories box art",
-              "url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1238,8 +1238,8 @@
           "name_markdown": "[Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
+              "alt": "Kirby & The Amazing Mirror box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Kirby%20_%20The%20Amazing%20Mirror%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1260,8 +1260,8 @@
           "name_markdown": "[Mario & Luigi: Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg",
+              "alt": "Mario & Luigi: Superstar Saga box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mario%20_%20Luigi%20-%20Superstar%20Saga%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1304,8 +1304,8 @@
           "name_markdown": "[Metroid: Zero Mission](https://github.com/YohannDR/mzm)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg",
+              "alt": "Metroid: Zero Mission box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Metroid%20-%20Zero%20Mission%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1326,8 +1326,8 @@
           "name_markdown": "[Mother 1+2 (Japan)](https://github.com/Normmatt/m12)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/earthbound/images/e/eb/Mother1%2B2_boxart.PNG",
+              "alt": "Mother 1+2 (Japan) artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mother%201%2B2%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1364,8 +1364,8 @@
           "name_markdown": "[Pokemon Emerald](https://github.com/pret/pokeemerald)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+              "alt": "Pokemon Emerald box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pokemon%20-%20Emerald%20Version%20%28USA%2C%20Europe%29.png",
               "width": 100
             }
           ],
@@ -1456,8 +1456,8 @@
           "name_markdown": "[Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)",
           "images": [
             {
-              "alt": "",
-              "url": "https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg",
+              "alt": "Pokémon Mystery Dungeon: Red Rescue Team artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Red%20Rescue%20Team%20%28USA%29%20%28Demo%29%20%28Kiosk%29.png",
               "width": 100
             }
           ],
@@ -1478,8 +1478,8 @@
           "name_markdown": "[Pokémon Pinball: Ruby & Sapphire](https://github.com/pret/pokepinballrs)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Pokemonpinballrubyandsapphire.png",
+              "alt": "Pokémon Pinball: Ruby & Sapphire box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Pokemon%20Pinball%20-%20Ruby%20_%20Sapphire%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1500,8 +1500,8 @@
           "name_markdown": "[Sonic Advance 2](https://github.com/freshollie/sa2)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png",
+              "alt": "Sonic Advance 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Sonic%20Advance%202%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
               "width": 100
             }
           ],
@@ -1533,8 +1533,8 @@
           "name_markdown": "[Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg",
+              "alt": "Summon Night Swordcraft Story 3 artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Summon%20Night%20-%20Craft%20Sword%20Monogatari%20-%20Hajimari%20no%20Ishi%20%28Japan%29.png",
               "width": 100
             }
           ],
@@ -1555,8 +1555,8 @@
           "name_markdown": "[Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)",
           "images": [
             {
-              "alt": "",
-              "url": "https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png",
+              "alt": "Super Mario Advance 2: Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20%28USA%2C%20Australia%29.png",
               "width": 100
             }
           ],
@@ -1577,8 +1577,8 @@
           "name_markdown": "[The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG",
+              "alt": "The Legend of Zelda: The Minish Cap box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1622,8 +1622,8 @@
           "name_markdown": "[Yu-Gi-Oh! Reshef of Destruction](https://github.com/papielguapo/ygodm8)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/yugioh/images/6/6f/Yu-Gi-Oh%21_Reshef_of_Destruction.jpg",
+              "alt": "Yu-Gi-Oh! Reshef of Destruction artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Yu-Gi-Oh%21%20-%20Reshef%20of%20Destruction%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1667,7 +1667,7 @@
           "images": [
             {
               "alt": "Mario & Luigi: Superstar Saga box art",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Mario%20_%20Luigi%20-%20Superstar%20Saga%20%28USA%29.png",
               "width": 100
             }
           ],

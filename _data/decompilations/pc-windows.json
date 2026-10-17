@@ -1511,8 +1511,8 @@
           "name_markdown": "[Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg",
+              "alt": "Duke Nukem II (DOS) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Duke%20Nukem%20II.png",
               "width": 100
             }
           ],
@@ -1568,8 +1568,8 @@
           "name_markdown": "[Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)",
           "images": [
             {
-              "alt": "",
-              "url": "https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg",
+              "alt": "Oddworld 1-2 artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/DOS/master/Named_Boxarts/Oddworld%20-%20Abe%27s%20Oddysee%20%281997%29.png",
               "width": 100
             }
           ],
@@ -1678,8 +1678,8 @@
           "name_markdown": "[Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg",
+              "alt": "Sonic CD (2011) artwork",
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg",
               "width": 100
             }
           ],
@@ -1722,8 +1722,8 @@
           "name_markdown": "[ShortLine railroad (DOS)](https://github.com/konovalov-aleks/reSL)",
           "images": [
             {
-              "alt": "",
-              "url": "https://github.com/user-attachments/assets/3619edef-95e1-466a-9596-bc74c7252e18",
+              "alt": "ShortLine railroad (DOS) project preview",
+              "url": "https://opengraph.githubassets.com/decompilation/konovalov-aleks/reSL",
               "width": 100
             }
           ],
@@ -1766,8 +1766,8 @@
           "name_markdown": "[TimeSplitters Rewind](https://www.timesplittersrewind.com)",
           "images": [
             {
-              "alt": "TimeSplitters Rewind artwork",
-              "url": "https://media.moddb.com/images/downloads/1/301/300077/TSRSplashTest2.jpg",
+              "alt": "TimeSplitters Rewind official video thumbnail",
+              "url": "https://i.ytimg.com/vi/ZzWSrgQ3eMI/hqdefault.jpg",
               "width": 100
             }
           ],
@@ -1810,8 +1810,8 @@
           "name_markdown": "Twisted Metal 2",
           "images": [
             {
-              "alt": "",
-              "url": "https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg",
+              "alt": "Twisted Metal 2 artwork",
+              "url": "https://upload.wikimedia.org/wikipedia/en/d/dd/Twisted_Metal_2.jpg",
               "width": 100
             }
           ],
