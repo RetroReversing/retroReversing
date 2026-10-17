@@ -1,0 +1,9 @@
+{% comment %}
+Responsive article gallery. Required: figures (captured article-figure includes).
+Optional: columns="3" (default 2), compact=true (contain small images in 220px slots).
+All galleries stack on narrow screens. Styles are loaded by the shared head.
+{% endcomment %}
+{% assign article_gallery_columns = include.columns | append: '' %}
+<div class="rr-article-gallery{% if article_gallery_columns == '3' %} rr-article-gallery--three{% endif %}{% if include.compact %} rr-article-gallery--compact{% endif %}">
+{{ include.figures }}
+</div>

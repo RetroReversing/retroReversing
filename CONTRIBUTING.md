@@ -382,7 +382,37 @@ Paired or grouped images should stack on narrow screens, retain their aspect rat
 
 Check the rendered page on desktop and a narrow viewport: confirm images load, captions remain legible, enlargement links work, and figures do not overflow or distort.
 Existing figure and image styles can impose floats, vertical captions, or maximum heights; inspect the computed result and override those styles within the new layout when needed.
-For an implementation example, see `pages/consoles/saturn/SegaDTS.md` and `public/css/sega-dts.css`; adapt the approach to the subject rather than copying its article-specific class names.
+Use `article-figure.html` for individual illustrations and `article-gallery.html` for groups. Their shared styles load automatically; no article-specific HTML or stylesheet is needed.
+
+### Reusable figures and galleries
+Supply `src`, descriptive `alt`, and the original image `width` and `height`. Optional `title` is plain text and `caption` accepts Markdown, including source links. The image links to `src` by default; set `full` to a larger version if needed. Images load lazily unless `loading="eager"` is supplied.
+
+For a single figure, use the include directly:
+```liquid
+{% raw %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/developmental-may-1996-cover.jpg"
+  alt="DevelopMental cover announcing the DTS website"
+  width="765" height="1000"
+  size="document"
+  title="Going online in May 1996"
+  caption="The launch announcement. [Source newsletter](https://antime.kapsi.fi/sega/files/DTS-0596.pdf), p. 1. Select the image to enlarge." %}
+{% endraw %}
+```
+
+Capture multiple figure includes and pass them to a gallery:
+```liquid
+{% raw %}
+{% capture equipment_figures %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-catalogue-cartdev.gif" alt="CartDev development system" width="235" height="207" title="CartDev" %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-catalogue-pbox.gif" alt="Saturn Programming Target Box" width="414" height="288" title="Target Box" %}
+{% endcapture %}
+{% include article-gallery.html figures=equipment_figures compact=true %}
+{% endraw %}
+```
+
+Galleries default to two columns; set `columns="3"` for three. All galleries stack on narrow screens. Optional `compact=true` keeps small catalogue images within 220px-high areas without stretching them. For standalone figures, `size="document"` limits width to 620px and `size="photo"` to 700px; omit `size` inside galleries to fill the column.
+See `pages/consoles/saturn/SegaDTS.md` for examples and `public/css/article-figures.css` for shared styling.
 
 ---
 ## For sections about a specific game

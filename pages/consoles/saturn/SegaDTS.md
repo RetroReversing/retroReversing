@@ -19,7 +19,6 @@ editlink: /pages/consoles/saturn/SegaDTS.md
 updatedAt: '2026-10-17'
 excerpt: Inside Sega Developer Technical Support, from Saturn SDK patches and expensive development hardware to DevelopMental newsletters, developer conferences, and a password-protected 1990s website.
 ---
-<link rel="stylesheet" href="/public/css/sega-dts.css">
 
 **DTS stood for Developer Technical Support**, Sega's support operation for the people building games on its hardware.
 Its surviving [Saturn](/saturn) website opens with that name and describes a service supplied by Sega Technical Institute to registered developers.
@@ -57,20 +56,25 @@ By April 1996, the DevCon report described a website under construction and plan
 The May issue announced that the web environment would be unveiled at E3 in Los Angeles, with access in Sega's Developer's Room.
 It advertised more than 5,000 pages of documentation and accounts for registered developers [^5] [^6].
 
-<div class="rr-dts-gallery">
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/dts/developmental-may-1996-cover.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/developmental-may-1996-cover.jpg" alt="Purple DevelopMental cover announcing the DTS WWW Environment in May 1996" width="765" height="1000" loading="eager">
-</a>
-<figcaption><strong>May 1996 / Going online</strong>The launch announcement gave developer support a cover story of its own.  <a href="https://antime.kapsi.fi/sega/files/DTS-0596.pdf">DevelopMental, May 1996, p. 1</a>. Select the image to enlarge.</figcaption>
-</figure>
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/dts/developmental-june-july-1996-cover.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/developmental-june-july-1996-cover.jpg" alt="Green DevelopMental cover with a Netscape browser illustration for the DTS WWW Companion" width="765" height="1000" loading="eager">
-</a>
-<figcaption><strong>June/July 1996 / A guide to the guide</strong>The next preserved issue taught developers how to navigate the new service.  <a href="https://antime.kapsi.fi/sega/files/DTS-0696.pdf">DevelopMental, June/July 1996, p. 1</a>. Select the image to enlarge.</figcaption>
-</figure>
-</div>
+{% capture dts_gallery_1 %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/developmental-may-1996-cover.jpg"
+  alt="Purple DevelopMental cover announcing the DTS WWW Environment in May 1996"
+  width="765"
+  height="1000"
+  title="May 1996 / Going online"
+  caption="The launch announcement gave developer support a cover story of its own.  [DevelopMental, May 1996, p. 1](https://antime.kapsi.fi/sega/files/DTS-0596.pdf). Select the image to enlarge."
+  loading="eager" %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/developmental-june-july-1996-cover.jpg"
+  alt="Green DevelopMental cover with a Netscape browser illustration for the DTS WWW Companion"
+  width="765"
+  height="1000"
+  title="June/July 1996 / A guide to the guide"
+  caption="The next preserved issue taught developers how to navigate the new service.  [DevelopMental, June/July 1996, p. 1](https://antime.kapsi.fi/sega/files/DTS-0696.pdf). Select the image to enlarge."
+  loading="eager" %}
+{% endcapture %}
+{% include article-gallery.html figures=dts_gallery_1 %}
 
 The following milestones are supported by the surviving material; they are not a complete history of the department:
 
@@ -121,12 +125,14 @@ That small file is useful archaeological evidence.
 Even when a destination is missing, its menu entry can reveal the intended site structure.
 It does not prove that the corresponding content survives.
 
-<figure class="rr-dts-figure rr-dts-figure--document">
-<a href="/public/images/saturn/dts/dts-website-tour-june-july-1996.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/dts-website-tour-june-july-1996.jpg" alt="Original newsletter layout showing DTS website screenshots, frame navigation, PDF downloads, and the webmaster button" width="1391" height="1800" loading="lazy">
-</a>
-<figcaption><strong>The web, explained on paper</strong>Browser windows, a giant scrollbar, and a pointing-hand cursor turn the website tour into a very 1996 magazine layout.  <a href="https://antime.kapsi.fi/sega/files/DTS-0696.pdf">DevelopMental, June/July 1996, p. 4</a>. Select the image to enlarge.</figcaption>
-</figure>
+{% include article-figure.html
+  src="/public/images/saturn/dts/dts-website-tour-june-july-1996.jpg"
+  alt="Original newsletter layout showing DTS website screenshots, frame navigation, PDF downloads, and the webmaster button"
+  width="1391"
+  height="1800"
+  title="The web, explained on paper"
+  caption="Browser windows, a giant scrollbar, and a pointing-hand cursor turn the website tour into a very 1996 magazine layout.  [DevelopMental, June/July 1996, p. 4](https://antime.kapsi.fi/sega/files/DTS-0696.pdf). Select the image to enlarge."
+  size="document" %}
 
 ---
 # A tour of the developer's desk
@@ -211,26 +217,30 @@ For a practical route into compiling the surviving samples, see:
 The hardware page makes the cost of a [Saturn](/saturn) workstation unusually tangible.
 It lists both complete development systems and individual pieces of equipment, with a downloadable order form [^9].
 
-<div class="rr-dts-gallery rr-dts-gallery--hardware">
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/dts/dts-catalogue-cartdev.gif" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/dts-catalogue-cartdev.gif" alt="DTS catalogue photograph of the CartDev system with Saturn console, controller, software, and interface hardware" width="235" height="207" loading="lazy">
-</a>
-<figcaption><strong>CartDev / $4,800</strong>The compact development system from the catalogue.  <a href="/sega-dts#fn:9">Source notes</a>. Select the image to enlarge.</figcaption>
-</figure>
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/dts/dts-catalogue-pbox.gif" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/dts-catalogue-pbox.gif" alt="DTS catalogue photograph of the large beige Saturn Programming Target Box" width="414" height="288" loading="lazy">
-</a>
-<figcaption><strong>Target Box / $7,475</strong>A substantial piece of desktop hardware.  <a href="/sega-dts#fn:9">Source notes</a>. Select the image to enlarge.</figcaption>
-</figure>
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/dts/dts-catalogue-e7kdev.gif" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/dts-catalogue-e7kdev.gif" alt="DTS catalogue photograph of the Saturn target box and Hitachi E7000 development equipment" width="428" height="286" loading="lazy">
-</a>
-<figcaption><strong>Hitachi ICE system / $30,575</strong>The catalogue's expensive end of the debugging spectrum.  <a href="/sega-dts#fn:9">Source notes</a>. Select the image to enlarge.</figcaption>
-</figure>
-</div>
+{% capture dts_gallery_2 %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/dts-catalogue-cartdev.gif"
+  alt="DTS catalogue photograph of the CartDev system with Saturn console, controller, software, and interface hardware"
+  width="235"
+  height="207"
+  title="CartDev / $4,800"
+  caption="The compact development system from the catalogue.  [Source notes](/sega-dts#fn:9). Select the image to enlarge." %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/dts-catalogue-pbox.gif"
+  alt="DTS catalogue photograph of the large beige Saturn Programming Target Box"
+  width="414"
+  height="288"
+  title="Target Box / $7,475"
+  caption="A substantial piece of desktop hardware.  [Source notes](/sega-dts#fn:9). Select the image to enlarge." %}
+{% include article-figure.html
+  src="/public/images/saturn/dts/dts-catalogue-e7kdev.gif"
+  alt="DTS catalogue photograph of the Saturn target box and Hitachi E7000 development equipment"
+  width="428"
+  height="286"
+  title="Hitachi ICE system / $30,575"
+  caption="The catalogue's expensive end of the debugging spectrum.  [Source notes](/sega-dts#fn:9). Select the image to enlarge." %}
+{% endcapture %}
+{% include article-gallery.html figures=dts_gallery_2 columns="3" compact=true %}
 
 These are selected historical dollar prices as displayed in the preserved page, without inflation adjustment.
 The page does not establish one precise effective date for the entire list:
@@ -278,20 +288,23 @@ Sega's Macintosh list includes a 3D Editor, MapEditor, ScreenEditor, QuickViewer
 The description of QuickViewer is especially immediate: take an image on the Mac screen and send it to the target.
 That short feedback loop let artists inspect results on the hardware their audience would use [^10].
 
-<div class="rr-dts-gallery">
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/Sega3DEditor.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/Sega3DEditor.jpg" alt="Sega Saturn 3D Editor interface with model editing windows" width="785" height="521" loading="lazy">
-</a>
-<figcaption><strong>The artist's workbench / 3D Editor</strong>A 287-face T-Rex takes shape in one of the tools listed by DTS.  <a href="/sega-saturn-artist-tools">Saturn artist tools guide</a>. Select the image to enlarge.</figcaption>
-</figure>
-<figure class="rr-dts-figure ">
-<a href="/public/images/saturn/SpriteEditor.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/SpriteEditor.jpg" alt="Sega Saturn SpriteEditor interface and editing controls" width="739" height="460" loading="lazy">
-</a>
-<figcaption><strong>Pixels and palettes / SpriteEditor</strong>Sonic sprites and pattern controls show the other side of Sega's graphics tool suite.  <a href="/sega-saturn-artist-tools">Saturn artist tools guide</a>. Select the image to enlarge.</figcaption>
-</figure>
-</div>
+{% capture dts_gallery_3 %}
+{% include article-figure.html
+  src="/public/images/saturn/Sega3DEditor.jpg"
+  alt="Sega Saturn 3D Editor interface with model editing windows"
+  width="785"
+  height="521"
+  title="The artist's workbench / 3D Editor"
+  caption="A 287-face T-Rex takes shape in one of the tools listed by DTS.  [Saturn artist tools guide](/sega-saturn-artist-tools). Select the image to enlarge." %}
+{% include article-figure.html
+  src="/public/images/saturn/SpriteEditor.jpg"
+  alt="Sega Saturn SpriteEditor interface and editing controls"
+  width="739"
+  height="460"
+  title="Pixels and palettes / SpriteEditor"
+  caption="Sonic sprites and pattern controls show the other side of Sega's graphics tool suite.  [Saturn artist tools guide](/sega-saturn-artist-tools). Select the image to enlarge." %}
+{% endcapture %}
+{% include article-gallery.html figures=dts_gallery_3 %}
 
 For the individual applications and their interfaces, see:
 
@@ -341,12 +354,14 @@ January/February 1997 continues with discrepancies between the master-release fo
 A game might run and still have the wrong region information, missing descriptive files, or an incorrectly configured disc layout.
 These pages show the less glamorous engineering required to deliver a finished product.
 
-<figure class="rr-dts-figure rr-dts-figure--document">
-<a href="/public/images/saturn/dts/dts-development-standards-bugs-1996.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/dts-development-standards-bugs-1996.jpg" alt="DevelopMental page listing common Saturn development-standards failures and their solutions" width="1237" height="1600" loading="lazy">
-</a>
-<figcaption><strong>The page you wanted to read before submission</strong>Controller handling, reset behaviour, and CD-door checks share a densely packed troubleshooting spread.  <a href="https://antime.kapsi.fi/sega/files/DTS-1196.pdf">DevelopMental, November 1996, p. 4</a>. Select the image to enlarge.</figcaption>
-</figure>
+{% include article-figure.html
+  src="/public/images/saturn/dts/dts-development-standards-bugs-1996.jpg"
+  alt="DevelopMental page listing common Saturn development-standards failures and their solutions"
+  width="1237"
+  height="1600"
+  title="The page you wanted to read before submission"
+  caption="Controller handling, reset behaviour, and CD-door checks share a densely packed troubleshooting spread.  [DevelopMental, November 1996, p. 4](https://antime.kapsi.fi/sega/files/DTS-1196.pdf). Select the image to enlarge."
+  size="document" %}
 
 For preservation work, this gives seemingly minor files a reason to exist.
 `CPY.TXT`, `ABS.TXT`, and `BIB.TXT` were discussed in submission guidance; they were not necessarily stray documentation left on a disc by accident [^13].
@@ -376,12 +391,14 @@ It introduces Colin Carter, Ed Hollingshead, Tamer Tahsin, Thomas Szirtes, and J
 The descriptions mix professional specialities with music, cooking, sport, and jokes about desks full of equipment.
 Even a publication full of register names made room for the people answering the questions.
 
-<figure class="rr-dts-figure rr-dts-figure--photo">
-<a href="/public/images/saturn/dts/european-dts-team-1997.jpg" data-lightbox='{"gallery":"sega-dts-archive"}'>
-<img src="/public/images/saturn/dts/european-dts-team-1997.jpg" alt="Black-and-white group portrait of six people pictured in the European DTS newsletter profile" width="647" height="487" loading="lazy">
-</a>
-<figcaption><strong>The people at the other end of the support request</strong>Clockwise from the bottom, the original caption identifies Colin Carter, Ed Hollingshead, Tamer Tahsin, Thomas Szirtes, Richard Jacques, and James Burns. Photo region from  <a href="https://antime.kapsi.fi/sega/files/DTS-0197.pdf">DevelopMental, January/February 1997, p. 5</a>. Select the image to enlarge.</figcaption>
-</figure>
+{% include article-figure.html
+  src="/public/images/saturn/dts/european-dts-team-1997.jpg"
+  alt="Black-and-white group portrait of six people pictured in the European DTS newsletter profile"
+  width="647"
+  height="487"
+  title="The people at the other end of the support request"
+  caption="Clockwise from the bottom, the original caption identifies Colin Carter, Ed Hollingshead, Tamer Tahsin, Thomas Szirtes, Richard Jacques, and James Burns. Photo region from  [DevelopMental, January/February 1997, p. 5](https://antime.kapsi.fi/sega/files/DTS-0197.pdf). Select the image to enlarge."
+  size="photo" %}
 
 ## Conferences turned answers into examples
 The April 1996 DevCon report describes a shift from large lectures toward smaller rooms and repeated sessions.
