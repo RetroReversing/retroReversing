@@ -1300,8 +1300,8 @@
           "name_markdown": "[Dark Cloud](https://github.com/adubbz/dcdecomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/darkcloud/images/b/b1/Dark_Cloud_front_cover.png/revision/latest?cb=20190201005021",
+              "alt": "Dark Cloud artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dark%20Cloud%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1337,8 +1337,8 @@
           "name_markdown": "[Fatal Frame 1](https://github.com/Mikompilation/Himuro)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png",
+              "alt": "Fatal Frame 1 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Fatal%20Frame%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1359,8 +1359,8 @@
           "name_markdown": "[Fatal Frame 2](https://github.com/Mikompilation/Mikompilation)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg",
+              "alt": "Fatal Frame 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Fatal%20Frame%20II%20-%20Crimson%20Butterfly%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1382,12 +1382,12 @@
           "images": [
             {
               "alt": "Grand Theft Auto III and Vice City box art",
-              "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Grand%20Theft%20Auto%20III%20%28USA%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Grand%20Theft%20Auto%20III%20%28USA%29.png",
               "width": 100
             },
             {
               "alt": "Grand Theft Auto Vice City box art",
-              "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20%28USA%29%20%28v1.40%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20%28USA%29%20%28v1.40%29.png",
               "width": 100
             }
           ],
@@ -1420,8 +1420,8 @@
           "name_markdown": "[Ico](https://github.com/rossydoubleunderscore/ico-decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg",
+              "alt": "Ico box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ico%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1442,8 +1442,8 @@
           "name_markdown": "[Jak and Daxter 1-3](https://github.com/open-goal/jak-project)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+              "alt": "Jak and Daxter 1-3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Jak%20and%20Daxter%20-%20The%20Precursor%20Legacy%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
               "width": 100
             }
           ],
@@ -1480,8 +1480,8 @@
           "name_markdown": "[Kingdom Hearts](https://github.com/ethteck/kh1)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg",
+              "alt": "Kingdom Hearts box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Kingdom%20Hearts%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1502,8 +1502,8 @@
           "name_markdown": "[Klonoa 2: Lunatea's Veil](https://github.com/entriphy/kl2_lv_decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg",
+              "alt": "Klonoa 2: Lunatea's Veil box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Klonoa%202%20-%20Lunatea%27s%20Veil%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1524,8 +1524,8 @@
           "name_markdown": "[Metal Gear Solid 2: Sons of Liberty](https://github.com/GirianSeed/mgs2old)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg",
+              "alt": "Metal Gear Solid 2: Sons of Liberty box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Metal%20Gear%20Solid%202%20-%20Sons%20of%20Liberty%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1547,7 +1547,7 @@
           "images": [
             {
               "alt": "Monster Hunter box art",
-              "url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Monster%20Hunter%20%28Japan%29.png",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Monster%20Hunter%20%28Japan%29.png",
               "width": 100
             }
           ],
@@ -1568,8 +1568,8 @@
           "name_markdown": "[PaRappa the Rapper 2](https://github.com/parappadev/parappa2)",
           "images": [
             {
-              "alt": "",
-              "url": "https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg",
+              "alt": "PaRappa the Rapper 2 artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/PaRappa%20the%20Rapper%202%20%28USA%29%20%28En%2CJa%29.png",
               "width": 100
             }
           ],
@@ -1590,8 +1590,8 @@
           "name_markdown": "[Resident Evil - Code: Veronica X](https://github.com/fmil95/recvx-decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg",
+              "alt": "Resident Evil - Code: Veronica X box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1612,8 +1612,8 @@
           "name_markdown": "[Sly Cooper and the Thievius Raccoonus](https://github.com/TheOnlyZac/sly1)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg",
+              "alt": "Sly Cooper and the Thievius Raccoonus box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Sly%20Cooper%20and%20the%20Thievius%20Raccoonus%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1634,8 +1634,8 @@
           "name_markdown": "[Street Fighter III: 3rd Strike](https://github.com/crowded-street/3s-decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/fr/c/c2/Street_Fighter_III_3rd_Strike_Fight_for_the_Future_Logo.png",
+              "alt": "Street Fighter III: 3rd Strike box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Street%20Fighter%20III%20-%203rd%20Strike%20-%20Fight%20for%20the%20Future%20%28Japan%29.png",
               "width": 100
             }
           ],
@@ -1668,8 +1668,8 @@
           "name_markdown": "[Twisted Metal: Black](https://github.com/abelbriggs1/tmb_decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Twisted_Metal_Black.jpg",
+              "alt": "Twisted Metal: Black box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Twisted%20Metal%20-%20Black%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1690,8 +1690,8 @@
           "name_markdown": "[Xenosaga Episode 1 - Der Wille zur Macht](https://github.com/squareman/xenosaga)",
           "images": [
             {
-              "alt": "",
-              "url": "https://static.wikia.nocookie.net/xenosaga/images/4/4e/XS1.png",
+              "alt": "Xenosaga Episode 1 - Der Wille zur Macht artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Xenosaga%20Episode%20I%20-%20Der%20Wille%20zur%20Macht%20%28USA%29.png",
               "width": 100
             }
           ],
@@ -1712,8 +1712,8 @@
           "name_markdown": "[Yakuza](https://github.com/hamzaxx370/ogre-decomp)",
           "images": [
             {
-              "alt": "",
-              "url": "https://upload.wikimedia.org/wikipedia/en/e/e4/Yakuza-sega.jpg",
+              "alt": "Yakuza box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Yakuza%20%28USA%29.png",
               "width": 100
             }
           ],
