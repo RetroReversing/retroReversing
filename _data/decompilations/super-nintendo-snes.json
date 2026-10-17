@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-country": {
       "name": "Donkey Kong Country",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-country-2": {
       "name": "Donkey Kong Country 2",
@@ -55,8 +59,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:14:09Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-country-3": {
       "name": "Donkey Kong Country 3",
@@ -74,8 +80,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "earthbound-mother-2": {
       "name": "Earthbound / Mother 2",
@@ -93,8 +101,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-iv": {
       "name": "Final Fantasy IV",
@@ -112,8 +122,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-v": {
       "name": "Final Fantasy V",
@@ -127,8 +139,10 @@
       "activity": {
         "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
-        "check_error": "Static disassembly download; no repository commit history"
-      }
+        "check_error": "Static disassembly download; no repository commit history",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-vi": {
       "name": "Final Fantasy VI",
@@ -146,8 +160,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "goof-troop": {
       "name": "Goof Troop",
@@ -165,8 +181,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-bomberman": {
       "name": "Super Bomberman",
@@ -184,8 +202,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-ghouls-n-ghosts": {
       "name": "Super Ghouls 'n Ghosts",
@@ -203,8 +223,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-rpg": {
       "name": "Super Mario RPG",
@@ -222,8 +244,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-world": {
       "name": "Super Mario World",
@@ -241,8 +265,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-world-snesrev": {
       "name": "Super Mario World (snesrev)",
@@ -260,8 +286,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-world-2-yoshi-s-island": {
       "name": "Super Mario World 2: Yoshi's Island",
@@ -279,8 +307,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-metroid": {
       "name": "Super Metroid",
@@ -298,8 +328,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-punch-out": {
       "name": "Super Punch-Out!!",
@@ -317,8 +349,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-a-link-to-the-past": {
       "name": "The Legend of Zelda: A Link to the Past",
@@ -336,8 +370,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "soul-blazer": {
       "name": "Soul Blazer",
@@ -355,8 +391,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-v-everything8215": {
       "name": "Final Fantasy V",
@@ -374,8 +412,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

@@ -17,11 +17,13 @@
         "last_commit_url": "https://github.com/Moddimation/3dcomp/commit/5f555b67dded6cef6e50f159d0d3f0094ac8c729",
         "default_branch": "main",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/3DWCommunity/3dcomp"
-      ]
+      ],
+      "ai_used": null
     },
     "super-mario-odyssey": {
       "name": "Super Mario Odyssey",
@@ -39,8 +41,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-breath-of-the-wild": {
       "name": "The Legend of Zelda: Breath of the Wild",
@@ -58,8 +62,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "lego-city-undercover": {
       "name": "Lego City Undercover",
@@ -77,8 +83,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-link-s-awakening": {
       "name": "The Legend of Zelda: Link's Awakening",
@@ -96,8 +104,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

@@ -17,11 +17,13 @@
         "last_commit_url": "https://github.com/sung3r/ps1disasm/commit/8efc4110adcf1a81c70d40522016393ba6f6b5ae",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": null
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps1disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "sonic-2": {
       "name": "Sonic 2",
@@ -39,8 +41,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

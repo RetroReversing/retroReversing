@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tokyo-bus-guide": {
       "name": "Tokyo Bus Guide",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "resident-evil-code-veronica": {
       "name": "Resident Evil - Code: Veronica",
@@ -55,8 +59,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-adventure-recompiled": {
       "name": "Sonic Adventure (Recompiled)",
@@ -74,8 +80,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crazy-taxi": {
       "name": "Crazy Taxi",
@@ -93,8 +101,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "virtua-tennis": {
       "name": "Virtua Tennis",
@@ -112,8 +122,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "virtua-fighter-3tb": {
       "name": "Virtua Fighter 3tb",
@@ -131,8 +143,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-17T07:53:24Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

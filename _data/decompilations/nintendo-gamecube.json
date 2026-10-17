@@ -17,8 +17,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "bomberman-generation": {
       "name": "Bomberman Generation",
@@ -36,8 +38,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "chibi-robo-plug-into-adventure": {
       "name": "Chibi-Robo! Plug Into Adventure!",
@@ -55,8 +59,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "doshin-the-giant": {
       "name": "Doshin the Giant",
@@ -74,8 +80,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dobutsu-no-mori-e": {
       "name": "Dōbutsu no Mori e+",
@@ -93,8 +101,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "harvest-moon-a-wonderful-life": {
       "name": "Harvest Moon: A Wonderful Life",
@@ -112,8 +122,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "homeland": {
       "name": "Homeland",
@@ -131,8 +143,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "kirby-air-ride": {
       "name": "Kirby Air Ride",
@@ -150,8 +164,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "luigi-s-mansion": {
       "name": "Luigi's Mansion",
@@ -169,8 +185,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-kart-double-dash": {
       "name": "Mario Kart: Double Dash!!",
@@ -188,8 +206,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-4": {
       "name": "Mario Party 4",
@@ -207,8 +227,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-5": {
       "name": "Mario Party 5",
@@ -226,8 +248,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-6": {
       "name": "Mario Party 6",
@@ -245,8 +269,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-party-7": {
       "name": "Mario Party 7",
@@ -264,8 +290,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mario-superstar-baseball": {
       "name": "Mario Superstar Baseball",
@@ -283,8 +311,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid-prime": {
       "name": "Metroid Prime",
@@ -302,8 +332,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metroid-prime-2-echoes": {
       "name": "Metroid Prime 2: Echoes",
@@ -322,8 +354,10 @@
         "default_branch": "main",
         "last_success_at": "2026-10-11T15:56:00Z",
         "status": "Active",
-        "check_error": "HTTP 404"
-      }
+        "check_error": "HTTP 404",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "need-for-speed-most-wanted": {
       "name": "Need for Speed: Most Wanted",
@@ -341,8 +375,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "need-for-speed-underground": {
       "name": "Need for Speed: Underground",
@@ -360,8 +396,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "naruto-gekito-ninja-taisen-4": {
       "name": "Naruto: Gekitō Ninja Taisen! 4",
@@ -379,8 +417,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "paper-mario-the-thousand-year-door": {
       "name": "Paper Mario: The Thousand-Year Door",
@@ -398,8 +438,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pikmin": {
       "name": "Pikmin",
@@ -417,8 +459,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pikmin-2": {
       "name": "Pikmin 2",
@@ -436,8 +480,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ratatouille": {
       "name": "Ratatouille",
@@ -456,8 +502,10 @@
         "default_branch": "main",
         "last_success_at": "2026-10-11T15:56:00Z",
         "status": "Active",
-        "check_error": "HTTP 404"
-      }
+        "check_error": "HTTP 404",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "skies-of-arcadia-legends": {
       "name": "Skies of Arcadia Legends",
@@ -475,8 +523,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-adventure-dx": {
       "name": "Sonic Adventure DX",
@@ -494,8 +544,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-riders": {
       "name": "Sonic Riders",
@@ -513,8 +565,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "spongebob-squarepants-battle-for-bikini-bottom": {
       "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
@@ -532,8 +586,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-fox-adventures": {
       "name": "Star Fox Adventures",
@@ -551,8 +607,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "summoner-a-goddess-reborn": {
       "name": "Summoner: A Goddess Reborn",
@@ -570,8 +628,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-strikers": {
       "name": "Super Mario Strikers",
@@ -589,8 +649,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-sunshine": {
       "name": "Super Mario Sunshine",
@@ -608,8 +670,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-monkey-ball": {
       "name": "Super Monkey Ball",
@@ -627,8 +691,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-smash-bros-melee": {
       "name": "Super Smash Bros. Melee",
@@ -646,8 +712,10 @@
         "archived": false,
         "default_branch": "master",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-incredibles": {
       "name": "The Incredibles",
@@ -665,8 +733,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-the-wind-waker": {
       "name": "The Legend of Zelda: The Wind Waker",
@@ -684,8 +754,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-twilight-princess": {
       "name": "The Legend of Zelda: Twilight Princess",
@@ -703,8 +775,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-spongebob-squarepants-movie": {
       "name": "The SpongeBob SquarePants Movie",
@@ -722,8 +796,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "ty-the-tasmanian-tiger": {
       "name": "Ty the Tasmanian Tiger",
@@ -741,8 +817,10 @@
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pikmin-open-nectar": {
       "name": "Pikmin",
@@ -760,8 +838,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-the-wind-waker-bluewake": {
       "name": "The Legend of Zelda: The Wind Waker",
@@ -779,8 +859,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-smash-bros-melee-pc": {
       "name": "Super Smash Bros. Melee",
@@ -798,8 +880,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "crash-tag-team-racing": {
       "name": "Crash Tag Team Racing",
@@ -817,8 +901,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "piglet-s-big-game": {
       "name": "Piglet's Big Game",
@@ -836,8 +922,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "pokemon-xd-gale-of-darkness": {
       "name": "Pokemon XD: Gale of Darkness",
@@ -855,8 +943,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "star-fox-adventures-retail": {
       "name": "Star Fox Adventures (Retail)",
@@ -874,8 +964,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-sims-2": {
       "name": "The Sims 2",
@@ -893,8 +985,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "wario-world": {
       "name": "Wario World",
@@ -912,8 +1006,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "nintendo-puzzle-collection-dr-mario-64": {
       "name": "Nintendo Puzzle Collection - Dr. Mario 64",
@@ -931,8 +1027,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "amazing-island": {
       "name": "Amazing Island",
@@ -950,8 +1048,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "dragon-ball-z-budokai-2": {
       "name": "Dragon Ball Z: Budokai 2",
@@ -969,8 +1069,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "final-fantasy-crystal-chronicles": {
       "name": "Final Fantasy Crystal Chronicles",
@@ -988,8 +1090,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "freedom-fighters": {
       "name": "Freedom Fighters",
@@ -1007,8 +1111,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "gauntlet-dark-legacy": {
       "name": "Gauntlet Dark Legacy",
@@ -1026,8 +1132,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "the-lord-of-the-rings-return-of-the-king": {
       "name": "The Lord of the Rings: Return of the King",
@@ -1045,8 +1153,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "digimon-world-4": {
       "name": "Digimon World 4",
@@ -1064,8 +1174,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "eternal-darkness-sanity-s-requiem": {
       "name": "Eternal Darkness: Sanity's Requiem",
@@ -1083,8 +1195,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "f-zero-gx-karamzov123": {
       "name": "F-Zero GX (karamzov123)",
@@ -1102,8 +1216,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "f-zero-gx-rayanht": {
       "name": "F-Zero GX (rayanht)",
@@ -1121,8 +1237,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "metal-gear-solid-the-twin-snakes": {
       "name": "Metal Gear Solid: The Twin Snakes",
@@ -1140,8 +1258,10 @@
         "default_branch": "trunk",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "mortal-kombat-deception": {
       "name": "Mortal Kombat: Deception",
@@ -1159,8 +1279,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "resident-evil-4-gamecube-debug-build": {
       "name": "Resident Evil 4 (GameCube debug build)",
@@ -1178,8 +1300,10 @@
         "default_branch": "master",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-adventure-2-battle": {
       "name": "Sonic Adventure 2: Battle",
@@ -1197,8 +1321,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "sonic-heroes": {
       "name": "Sonic Heroes",
@@ -1216,8 +1342,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "tiger-woods-pga-tour-2004": {
       "name": "Tiger Woods PGA Tour 2004",
@@ -1235,8 +1363,10 @@
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "status": "Active",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "medal-of-honor-frontline": {
       "name": "Medal of Honor: Frontline",
@@ -1247,7 +1377,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "medal-of-honor-rising-sun": {
       "name": "Medal of Honor: Rising Sun",
@@ -1258,7 +1391,10 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

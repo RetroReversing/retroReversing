@@ -62,10 +62,15 @@ class ActivityTests(unittest.TestCase):
                     self.assertIsInstance(port['platforms'], list)
                     self.assertTrue(port['project_types'])
                     self.assertTrue(all(isinstance(name, str) and name for name in port['project_types']))
-                for image in row['images']:
+                for image in row.get('images', []):
                     self.assertTrue(image['url'].startswith(('https://', 'http://', '/')))
         for project in catalog['projects'].values():
+            self.assertIn('ai_used', project)
+            self.assertTrue(project['ai_used'] is None or type(project['ai_used']) is bool)
             evidence = project['activity']
+            self.assertIn('github_stars', evidence)
+            stars = evidence['github_stars']
+            self.assertTrue(stars is None or (type(stars) is int and stars >= 0))
             if evidence.get('last_commit_at'):
                 activity.timestamp(evidence['last_commit_at'])
                 self.assertTrue(evidence['last_commit_url'].startswith('https://'))
@@ -87,12 +92,13 @@ class ActivityTests(unittest.TestCase):
             untouched = root / 'snes.json'
             original = untouched.read_bytes(), untouched.stat().st_mtime_ns
             catalog, sources = activity.load_catalog(root)
-            client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {
+            client = FixtureClient([{'default_branch': 'main', 'stargazers_count': 12}, [{'commit': {'committer': {
                 'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
             activity.refresh(catalog, client, NOW, selected=['nes'])
             activity.save_catalog(sources)
             self.assertEqual((untouched.read_bytes(), untouched.stat().st_mtime_ns), original)
             self.assertEqual(json.loads((root / 'nes.json').read_text())['projects']['nes']['activity']['status'], 'Active')
+            self.assertEqual(json.loads((root / 'nes.json').read_text())['projects']['nes']['activity']['github_stars'], 12)
             single, _ = activity.load_catalog(root / 'nes.json')
             self.assertEqual(set(single['projects']), {'nes'})
 
@@ -112,7 +118,7 @@ class ActivityTests(unittest.TestCase):
             original = json.dumps({'schema_version': 1, 'projects': {'game': {
                 'name': 'Game', 'repository_url': 'https://github.com/o/r'}}})
             path.write_text(original)
-            client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {
+            client = FixtureClient([{'default_branch': 'main', 'stargazers_count': 12}, [{'commit': {'committer': {
                 'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
             with patch.object(activity.sys, 'argv', ['update', '--data', directory, '--dry-run']), patch.object(activity, 'Client', return_value=client):
                 self.assertEqual(activity.main(), 0)
@@ -128,11 +134,11 @@ class ActivityTests(unittest.TestCase):
     def test_provider_endpoints_and_timezone_normalization(self):
         cases = [
             ('https://github.com/owner/repo/tree/main/game',
-             {'default_branch': 'dev/next', 'archived': True},
+             {'default_branch': 'dev/next', 'archived': True, 'stargazers_count': 42},
              [{'commit': {'committer': {'date': '2026-10-10T22:00:00-02:00'}}, 'html_url': 'https://github.com/owner/repo/commit/abc'}],
              'https://api.github.com/repos/owner/repo/commits?per_page=1&sha=dev%2Fnext'),
             ('https://gitlab.com/group/subgroup/repo/-/tree/main',
-             {'default_branch': 'main'},
+             {'default_branch': 'main', 'stargazers_count': 12},
              [{'committed_date': '2026-10-11T00:00:00Z', 'web_url': 'https://gitlab.com/group/subgroup/repo/-/commit/abc'}],
              'https://gitlab.com/api/v4/projects/group%2Fsubgroup%2Frepo/repository/commits?per_page=1&ref_name=main'),
             ('https://codeberg.org/owner/repo',
@@ -146,12 +152,38 @@ class ActivityTests(unittest.TestCase):
                 result = activity.fetch_repository(url, client)
                 self.assertEqual(client.urls[-1], endpoint)
                 self.assertEqual(result['last_commit_at'], '2026-10-11T00:00:00Z')
+                self.assertEqual(result['github_stars'], 42 if 'github.com' in url else None)
+
+    def test_zero_stars_and_manual_ai_values_survive_refresh(self):
+        projects = {str(i): {'name': 'Game', 'repository_url': 'https://github.com/o/r',
+                            'ai_used': value, 'activity': {'github_stars': 10}}
+                    for i, value in enumerate((True, False, None))}
+        client = FixtureClient([{'default_branch': 'main', 'stargazers_count': 0},
+                                [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}},
+                                  'html_url': 'https://github.com/o/r/commit/abc'}]])
+        self.assertEqual(activity.refresh({'projects': projects}, client, NOW), (1, 0))
+        for i, value in enumerate((True, False, None)):
+            self.assertIs(projects[str(i)]['ai_used'], value)
+            self.assertEqual(projects[str(i)]['activity']['github_stars'], 0)
+
+    def test_invalid_star_count_preserves_previous_snapshot(self):
+        for stars in (-1, True, '12', None):
+            with self.subTest(stars=stars):
+                old = {'github_stars': 23, 'last_commit_at': '2026-09-01T00:00:00Z', 'status': 'Active'}
+                project = {'name': 'Game', 'repository_url': 'https://github.com/o/r', 'activity': dict(old)}
+                client = FixtureClient([{'default_branch': 'main', 'stargazers_count': stars},
+                                        [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}},
+                                          'html_url': 'https://github.com/o/r/commit/abc'}]])
+                self.assertEqual(activity.refresh({'projects': {'game': project}}, client, NOW), (1, 1))
+                for key, value in old.items():
+                    self.assertEqual(project['activity'][key], value)
 
     def test_transient_failure_preserves_evidence_and_completion(self):
-        old = {'status': 'Active', 'last_commit_at': '2026-09-01T00:00:00Z', 'last_commit_url': 'https://github.com/o/r/commit/abc', 'last_success_at': '2026-09-02T00:00:00Z'}
+        old = {'github_stars': 23, 'status': 'Active', 'last_commit_at': '2026-09-01T00:00:00Z', 'last_commit_url': 'https://github.com/o/r/commit/abc', 'last_success_at': '2026-09-02T00:00:00Z'}
         project = {'name': 'Game', 'repository_url': 'https://github.com/o/r', 'completion_status': 'Completed', 'activity': dict(old)}
         data = {'projects': {'game': project}}
-        activity.refresh(data, FixtureClient([activity.FetchError('HTTP 503')]), NOW)
+        activity.refresh(data, FixtureClient([{'default_branch': 'main', 'stargazers_count': 99},
+                                             activity.FetchError('HTTP 503')]), NOW)
         for key, value in old.items():
             self.assertEqual(project['activity'][key], value)
         self.assertEqual(project['completion_status'], 'Completed')
@@ -167,7 +199,7 @@ class ActivityTests(unittest.TestCase):
 
     def test_shared_repository_is_checked_once(self):
         data = {'projects': {str(i): {'name': 'Game', 'repository_url': 'https://github.com/o/r/tree/main/game' + str(i)} for i in range(2)}}
-        client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
+        client = FixtureClient([{'default_branch': 'main', 'stargazers_count': 12}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
         self.assertEqual(activity.refresh(data, client, NOW, limit=1), (1, 0))
         self.assertEqual(len(client.urls), 2)
         self.assertEqual(data['projects']['0']['activity'], data['projects']['1']['activity'])
@@ -181,7 +213,7 @@ class ActivityTests(unittest.TestCase):
                                               'completion_percent': 80, 'completion_qualifier': '', 'completion_metric': 'completion',
                                               'ports': [{'name': 'Browser port', 'url': 'https://example.com/play', 'platforms': ['Browser'], 'description_markdown': '', 'project_types': ['Native port']}]}]}}}
         original = json.dumps(data['consoles'], sort_keys=True)
-        client = FixtureClient([{'default_branch': 'main'}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
+        client = FixtureClient([{'default_branch': 'main', 'stargazers_count': 12}, [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}}, 'html_url': 'https://github.com/o/r/commit/abc'}]])
         activity.refresh(data, client, NOW)
         self.assertEqual(json.dumps(data['consoles'], sort_keys=True), original)
 
