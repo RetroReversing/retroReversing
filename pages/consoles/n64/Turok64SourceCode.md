@@ -160,6 +160,17 @@ Mitchell said the producer described each level's creatures and atmosphere befor
   </div>
 </section>
 
+**Two audio banks.** The ROM build plan places music and sound effects in separate control-and-sample pairs. A `.ctl` file describes instruments and sounds; its matching `.tbl` holds the sample bytes that the audio engine plays. In `audio.c`, `alBnkfNew` connects each control bank to its sample table.
+
+The loose audio files contain these banks:
+
+Use | Control file | Sample table
+---|---|---
+Music | `testbank.ctl` - 5,504 bytes, 24 instrument entries | `testbank.tbl` - 257,752 bytes
+Sound effects | `sfx.ctl` - 127,688 bytes, one instrument with 624 sound entries | `sfx.tbl` - 7,298,152 bytes
+
+The 624 entries are mappings inside the sound-effects bank, not a verified count of distinct recorded samples. The surviving ROM image contains the `testbank` pair byte for byte, but its sound-effects control bank has **228 sound entries** and differs from the loose `sfx.ctl`. The loose `sfx.tbl` does not appear byte for byte in that ROM image either.
+
 The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - Sony PSX, Method 2"** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
 
 ---
@@ -194,7 +205,19 @@ The game-specific trail begins in `tengine`. Its `spec` file maps the ROM layout
 {% endcapture %}
 {% include connected-folder-tree.html folder="tengine" path="src/PR/tengine" body=turok_tree_body version="Source map" content=turok_tree_items %}
 
-One detail complicates the ROM story. The `spec` build plan names `PR/tengine/cartdata.dat`, a file of just 7,576 bytes. Elsewhere, `PR/cartdata.dat` is 6,489,336 bytes and holds the indexed game assets explored below; `PR/tengine/oldcartdata.dat` is another 6,451,432-byte file. Their similar names hide different files, and `spec` alone does not show how the larger asset collection entered this build.
+## Four versions of the asset directory
+The three loose `cartdata` files and the ROM image each contain an eleven-block directory. `cartdir.h` names those blocks: graphic objects, textures, levels, sound-effect definitions, and other game data. Their matching structure hides different contents. These are counts of indexed entries, not counts of playable maps or original art projects:
+
+Asset directory | Stored bytes | Graphic entries | Texture-set entries | Level entries | Binary entries
+---|---:|---:|---:|---:|---:
+`PR/tengine/cartdata.dat` | 7,576 | 1 | 0 | 1 | 5
+`PR/cartdata.dat` | 6,489,336 | 674 | 1,035 | 50 | 14
+`PR/tengine/oldcartdata.dat` | 6,451,432 | 674 | 1,033 | 51 | 30
+Inside `PR/tengine/rom.rnc` | 6,502,520 | 674 | 1,033 | 50 | 30
+
+The tiny file named by `spec` has only one graphic entry, no texture sets, and one level entry. The large `PR/cartdata.dat` has hundreds of graphic and texture entries; it is the file explored in the next section. `oldcartdata.dat` is another substantial version, but its name alone does not date it. The ROM image contains a fourth version, beginning at byte **7,936 (`0x1F00`)**, which matches none of the loose files byte for byte.
+
+The large `PR/cartdata.dat` and loose `sfx.tbl` together occupy about **13.1 MiB**, before code or music. Both could not simply be copied in full into an **8 MiB** cartridge. The surviving files represent different asset and audio versions rather than one complete, matching set for a retail build.
 
 The game Makefile includes Nintendo's `PRdefs`, and the archive contains SDK demos beside `tengine`. No matching demo or copied-file history has been identified, so these clues show SDK integration rather than which template, if any, Iguana started from.
 
@@ -220,6 +243,8 @@ Block | Content named in cartdir.h | Stored bytes
 
 Graphic objects, texture sets, and levels account for most stored bytes in this copy. The names tell us how the root directory is organized; they do not imply that every original authoring file or editable 3D Studio scene is present.
 
+The **sound effects** block in this file is a compact set of game-side sound definitions, not the complete waveform library. `scene.c` looks up a sound type there and reads its sound elements before asking the audio system to play them. The much larger `.tbl` files hold sample data separately.
+
 **Packed game assets are present; editable art projects are not evident.** `cartdir.h` names geometry and animations under graphic objects, bitmaps and palettes under texture sets, and collision, instances, and grid sections under levels. The surviving `src` tree contains no `.3ds` or `.max` scene files. Its binary data can drive the game, but these runtime formats are not the original 3D Studio authoring projects. Audio and other media files also survive.
 
 An early **Windows 95 demo** was reportedly supplied with issue 28 of the Italian *PC Gamer* (1998). Its asset file, `demodata.dat`, was reported to contain RNC-compressed sections in a layout resembling the N64 `cartdata.dat` [^13]. The reported similarity remains unverified because that demo file is absent from the surviving source tree.
@@ -241,7 +266,7 @@ The viewer starts with the real root offsets from `PR/cartdata.dat` and shows th
 The first four bytes of `PR/cartdata.dat`, `00 00 00 0B`, give the block count of eleven in big-endian order. The next word, `00 00 00 38`, places the first block at offset 56. `cartdir.h` identifies that block as graphic objects. Those few bytes show how the game finds an asset group without storing file names in the index.
 
 ## From ROM to running code
-`PR/tengine/spec` names the nearby `tengine/cartdata.dat` in a raw `static` segment. That 7,576-byte file is distinct from the much larger `PR/cartdata.dat` explored above; the spec alone does not show how the larger file would enter this build. `boot.c` separately loads the main code segment from ROM. It first reads twelve bytes and checks for the ASCII `RNC` signature. If present, it reads the compressed length, transfers the compressed block, then calls the method 1 or method 2 unpacker. Otherwise it copies the code segment directly. It then clears caches and BSS before calling `boot()`.
+`PR/tengine/spec` names the nearby 7,576-byte `cartdata.dat` in a raw `static` segment, yet the surviving `rom.rnc` contains a different, 6,502,520-byte indexed asset bundle. The loose build plan and ROM image therefore do not explain one reproducible build on their own. `boot.c` separately loads the main code segment from ROM. It first reads twelve bytes and checks for the ASCII `RNC` signature. If present, it reads the compressed length, transfers the compressed block, then calls the method 1 or method 2 unpacker. Otherwise it copies the code segment directly. It then clears caches and BSS before calling `boot()`.
 
 ```c
 // PR/tengine/boot.c: the decision at the start of BootEntry
