@@ -224,7 +224,7 @@ html {
     box-shadow: none;
     border-radius: 0;
     overflow: visible;
-    color: #1e3a4f;
+    color: var(--rr-color-code-text);
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 0.9rem;
     font-weight: 600;
@@ -243,7 +243,7 @@ html {
     margin-top: 0;
     min-width: 0;
     line-height: 1.45;
-    color: #555e6b;
+    color: var(--rr-color-content-text);
     font-size: 0.95rem;
 }
 
