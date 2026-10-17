@@ -530,6 +530,14 @@ function initializeMermaidDiagrams() {
           baseHeight = 400;
         }
 
+        // Treat the fitted diagram as 100%, so its outer nodes are visible on load.
+        var availableWidth = canvas.clientWidth;
+        if (availableWidth && baseWidth > availableWidth) {
+          var fit = availableWidth / baseWidth;
+          baseWidth = availableWidth;
+          baseHeight *= fit;
+        }
+
         svg.dataset.rrMermaidBaseWidth = String(baseWidth);
         svg.dataset.rrMermaidBaseHeight = String(baseHeight);
 

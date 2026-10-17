@@ -84,6 +84,7 @@ Some general rules are below:
 * **Non-linear order** - Never assume the reader will follow a linear order. Each section should be standalone so they can read only the parts they are interested in.
 * **Present then explain** - Present terminology as factual first, then justify or contextualize ("What is it?" then "Why is it useful?").
 * **Encourage hands-on experimentation** - Suggest trying tools, running commands, or inspecting files.
+* **Write for readers, not archive investigators** - Explain what a file, measurement, or source excerpt reveals about the game. Assume readers do not have the source archive. Avoid directions to report findings, verify claims, or follow file paths in ordinary article prose. Reserve step-by-step instructions for clearly marked tutorials and interactive exercises; keep important evidence and uncertainty in the narrative.
 * **Use stable site wording** - Avoid wording that implies a recent site change, such as "we now have", "now has its own page", or "this now lives". Prefer stable phrases such as "For the full history, see:" or "A dedicated page covers this in more detail:".
 
 ### Character Rules
@@ -353,6 +354,13 @@ The archive is split very neatly into the game itself and the DOS-side tools use
 # Tips for making the pages more visually engaging and readable
 <div class="emoji">💡</div>
 The last thing we want is for our pages to be boring or a chore to read. We are writing about games so it should be fun and visual! This section lists components you can use to ensure posts are not giant walls of text.
+
+## Structure for new game-specific pages
+Start a new page about an individual game with a short introduction and its box art so readers can identify the title, platform, and edition. Then show the physical cartridge or other release medium, followed by a view inside it (such as the PCB) when a relevant image is available. Caption each image with what it shows and credit its source. Match images to the game and platform being discussed; do not present a different revision or a later game's hardware as evidence for this one.
+
+After the physical overview, introduce the development hardware and software used to make the game. Include confirmed tools first and label deductions or tools known only from related games clearly. Then move into the source code, file layout, assets, build process, and technical analysis. This visual-to-technical progression is modeled on the [Turok 64 source code analysis](/turok64sourcecode). Keep sections useful on their own for readers who jump directly to the technical material.
+
+If box art, physical media, internal photos, or tool evidence cannot be found, say so briefly where relevant and continue with the available material. Do not add speculative images or claims merely to fill the sequence. For digital-only games, use an appropriate release image or screenshot in place of physical media.
 
 ## Make substantial articles visual
 For substantial history, development-tool, and archive articles, plan the illustrations alongside the prose rather than waiting for a separate request for images.
