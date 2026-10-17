@@ -1,0 +1,73 @@
+/* Shared article figures and responsive galleries. */
+.post .rr-article-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.75rem 0;
+  clear: both;
+}
+.post .rr-article-gallery--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.post .rr-article-figure {
+  display: block;
+  float: none;
+  min-width: 0;
+  width: auto;
+  margin: 1.75rem 0;
+  padding: 0;
+  border: 1px solid var(--rr-color-content-border);
+  background: var(--rr-color-main-bg);
+  clear: both;
+}
+.post .rr-article-gallery .rr-article-figure { margin: 0; }
+.post .rr-article-figure > a { display: block; }
+.post .rr-article-figure img {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+}
+.post .rr-article-figure figcaption {
+  display: block;
+  writing-mode: horizontal-tb;
+  transform: none;
+  text-align: left;
+  padding: 1rem 1.15rem;
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1.55;
+  color: var(--rr-color-content-text);
+  border-top: 1px solid var(--rr-color-content-border);
+}
+.post .rr-article-figure figcaption strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: .3rem;
+  color: var(--rr-color-content-strong);
+}
+.post .rr-article-figure figcaption a {
+  color: var(--rr-color-content-link);
+  text-decoration: underline;
+}
+.post .rr-article-figure--document { max-width: 620px; margin-inline: auto; }
+.post .rr-article-figure--photo { max-width: 700px; margin-inline: auto; }
+.post .rr-article-gallery--compact .rr-article-figure > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: .75rem;
+}
+.post .rr-article-gallery--compact img { width: auto; max-height: 220px; object-fit: contain; }
+@media (max-width: 700px) {
+  .post .rr-article-gallery,
+  .post .rr-article-gallery--three { grid-template-columns: 1fr; }
+  .post .rr-article-gallery--compact .rr-article-figure > a { min-height: 0; }
+  .post .rr-article-figure figcaption { padding: .85rem; }
+}
+
+.post .rr-article-figure figcaption p { margin: 0; }

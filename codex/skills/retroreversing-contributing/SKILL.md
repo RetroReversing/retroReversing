@@ -1,3 +1,8 @@
+---
+name: retroreversing-contributing
+description: Create or edit RetroReversing articles and site content using the repository's technical writing, sourcing, visual storytelling, and formatting conventions.
+---
+
 ## RetroReversing Contributing (Repo Skill)
 Use this skill whenever you create or edit content in the `retroReversing` repo (Markdown pages/posts, `_includes`, or related site content). The goal is to keep changes consistent with `CONTRIBUTING.md`.
 
@@ -61,6 +66,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 ### Preferred Site Components (use instead of ad-hoc HTML)
 * External "standalone" link blocks: `link-to-other-site.html`.
 * Internal links to RetroReversing pages: `link-to-other-post.html` via `{% raw %}{% include_cached ... %}{% endraw %}`.
+* Article illustrations: use `article-figure.html` for single images and capture figure includes into `article-gallery.html` for responsive groups. Shared CSS loads automatically. See the contributing guide for parameters and examples.
 * Folder listings / nested trees: `connected-folder-tree.html` rather than raw HTML or bullet dumps.
 * Source-file callouts: `source-code-card.html` / `source-code-card-grid.html` when actually showing real file contents/symbols.
   * The `functions`, `variables`, and `lines` fields must be exact numeric counts from the file.
@@ -68,6 +74,13 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Tabs: prefer the `rr-tabs.html` and `rr-tab.html` includes shown in `CONTRIBUTING.md` when comparing variants (e.g., C vs ASM).
   * `rr-tabs.html` defaults to a scrollable content area with `max-height: 50vh`.
   * Use the optional `maxHeight` argument on `rr-tabs.html` when you need to override that default for a specific page.
+
+### Visual storytelling for substantial articles
+* Plan relevant illustrations while researching substantial history, tool, and archive articles, without waiting for the user to ask for images. Keep small edits and brief reference pages proportionate; there is no image quota.
+* Inspect local source collections and existing site assets first. Prefer original covers, diagrams, catalogue photographs, tool screenshots, and people over decorative imagery; never substitute generated images for historical evidence.
+* Place visuals near the material they explain. Use pairs or small galleries for comparisons and larger figures for important documents or photographs. Add useful source-linked captions and identify crops or reconstructions.
+* Follow [the contributing guide's visual article guidance](../../../CONTRIBUTING.md#make-substantial-articles-visual) for layout and verification. Use the reusable figure/gallery includes; the DTS article demonstrates their use.
+* Verify desktop and narrow layouts, aspect ratios, loading, caption readability, and full-size links. Existing image/figure styles can distort scans or turn captions vertically; override within the new layout as needed. Do not assume a `data-lightbox` attribute alone enables enlargement.
 
 ### Images
 * Prefer linking externally hosted box-art (e.g. MobyGames) for "section about a specific game" figures when appropriate.
@@ -79,7 +92,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Rename generic pasted image files to a descriptive filename. Prefer the manually filled alt text; otherwise infer the name from the nearest useful heading, caption, or surrounding paragraph context.
 * Update Markdown references after renaming/converting pasted images so no content points at `image.png`.
 * Lazy loading: use `<img class="lazy-load" data-image-full="/images/highres.jpg" ...>` (optionally with a placeholder `src`).
-* Lightbox: images with `postImage` are auto-wrapped; for custom galleries, wrap in `<a ... data-lightbox='{"gallery":"name"}'>`.
+* Full-size images: use working image links. Existing markup uses `postImage` and `data-lightbox`, but verify that the runtime actually initializes a lightbox before relying on it.
 
 ### Visual readability helpers
 * Emoji callout under heading (not in the heading): add `<div class="emoji">...</div>` on the line after the heading.

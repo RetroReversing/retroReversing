@@ -9,6 +9,7 @@ recommend:
 recommendTitle: All Sega Saturn Posts
 editlink: ../categories/consoles/Saturn.md
 excerpt: Awesome list of SEGA Saturn Game Development and Reverse Engineering information
+updatedAt: '2026-10-17'
 breadcrumbs:
   - name: Home
     url: /
@@ -105,6 +106,14 @@ There were a few third party developers who created their own custom development
 
 ---
 # Sega Saturn Software Development Kits
+
+## SEGA Developer Technical Support
+SEGA DTS connected Saturn developers with SDK updates, documentation, development hardware, training, and other studios.
+Its surviving website and DevelopMental newsletters document the practical work of making and shipping games, including library fixes that arrived between CD releases.
+
+{% include_cached link-to-other-post.html post="/sega-dts" description="Explore Sega Developer Technical Support, its Saturn website, newsletters, tools, and surviving archives." %}
+
+---
 
 ## Official Software development kit
 The Official Software development kit was developed in-house by SEGA and was made up of multiple libraries and compiler toolchains. One was a fork of GCC built by `Cygnus Solutions` and the other was a custom compiler built by `Hitachi`.
