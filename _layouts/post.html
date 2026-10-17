@@ -18,7 +18,9 @@
       
       {% include_cached video-header.html youtube=page.youtube image=page.image %}
       
-      {% include_cached video-carousel.html videocarousel=page.videocarousel %}
+      {% unless page.videocarouselPlacement == 'body' %}
+        {% include_cached video-carousel.html videocarousel=page.videocarousel %}
+      {% endunless %}
       {% capture rendered_post_content %}{{ content | markdownify }}{% endcapture %}
 
       <main id="main-content">

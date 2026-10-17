@@ -6,6 +6,14 @@ tags:
 - sourcecode
 title: Turok 64 Official Source Code Analysis
 image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
+videocarousel:
+  - title: Turok 64 Official Source Code Found
+    image: https://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
+    youtube: 'ONEy_ybKWsg'
+  - title: The Making of Turok Dinosaur Hunter for Nintendo 64
+    image: /public/games/turok/Turok3_DoctorV64.png
+    twitch: '125480737'
+videocarouselPlacement: body
 category: n64
 permalink: /turok64sourcecode
 breadcrumbs:
@@ -29,13 +37,15 @@ updatedAt: '2026-10-17'
   <div class="rr-game-media-row__copy" markdown="1">
 <p class="rr-game-intro__kicker">Nintendo 64 / 1997 / Iguana Entertainment</p>
 
-**The game.** *Turok: Dinosaur Hunter* is a first-person shooter developed by Iguana and published by Acclaim [^11] [^3]. The comic-book hero crosses the Lost Land, fighting dinosaurs and other enemies while recovering pieces of the Chronoscepter [^12].
+**The game.** *Turok: Dinosaur Hunter* is a first-person shooter developed by Iguana and published by Acclaim. It released for Nintendo 64 in North America on **4 March 1997** [^11] [^16]. The comic-book hero crosses the Lost Land, fighting dinosaurs and other enemies while recovering pieces of the Chronoscepter [^12].
 
 **The makers.** A retrospective with Iguana staff describes a core development team of 18 [^10]. The N64 credits name **Rob Cohen** as lead programmer, **Nigel Cook** as Iguana's creative director, and **Alan D. Johnson** as lead artist. GameFAQs lists **62 numbered credit entries** across specialties, including Acclaim roles and repeated names; that total is not a headcount of Iguana's core team [^3].
 
 **The leak.** In 2017, a preservationist found Turok source code on former Acclaim **SGI Indy workstations** [^15]. He said their previous owner had acquired them at Acclaim's 2004 bankruptcy auction [^15]. A leaked copy surfaced in public discussion in 2018 [^1]. The files do not establish their exact route from those machines into circulation.
 
 **Why it matters.** The original RetroReversing article identified Turok as the **first commercial Nintendo 64 game whose original source code became public** [^13]. The ROM layout, bootstrap loader, asset index, cheats, and Controller Pak code show how cartridge data becomes a running world.
+
+**What survives.** The top level of `PR/tengine` in this copy contains **78 `.c` files, four `.s` files, and one `.cpp` file**. The earlier article described only two or three assembly files; the measured count is four at this level. The source is predominantly C, with assembly for selected low-level routines.
   </div>
 </section>
 
@@ -70,7 +80,7 @@ An opened Nintendo 64 cartridge helps locate the ROM chip and edge connector phy
   <figcaption>Inside a representative Nintendo 64 cartridge. Board identity is visible; its association with Turok has not been established. Image from the RetroReversing archive.</figcaption>
 </figure>
 
-The source tree also contains `PR/tengine/rom.rnc`, an 8 MiB file. Its size alone does not prove that it matches every retail cartridge revision. The more useful evidence for this analysis is `spec`, which states which segments a build places in a ROM.
+The retail game was distributed on a **64 Mbit (8 MiB) cartridge** [^17]. The source tree also contains `PR/tengine/rom.rnc`, an 8 MiB file. Its size alone does not prove that it matches every retail cartridge revision. The more useful evidence for this analysis is `spec`, which states which segments a build places in a ROM. Compression helped fit code and assets within that space.
 
 ---
 # Development environment
@@ -91,13 +101,41 @@ flowchart LR
 The diagram is a reading map for the files, not proof that the supplied archive builds without changes. The `Makefile` contains commented final-build commands, and this article does not claim a reproducible retail build.
 
 ## Workstations and authoring tools
-The source confirms a mixed environment. `PR/tengine/cart.c` has a `WIN32` branch for host-side code, while the N64 build uses Nintendo SDK headers and tools. References to Windows paths or preprocessor flags demonstrate code paths, not which computer every developer used. Accounts of SGI workstations at Iguana provide additional historical context [^2] [^9].
+The discovery account identifies **SGI Indy workstations** among the surviving Acclaim hardware [^15]. The earlier article, citing a David Dienstbier interview, described **two SGI workstations at Iguana**: one in a common room where artists could test assets in the engine, and one in the lead programmer's office [^9] [^13]. It also described an Ultra 64 development board plugged into an SGI expansion slot, enabling tests without writing a cartridge. These details are historical accounts; the supplied source tree cannot establish the studio's full hardware inventory.
+
+The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**, evidence of the SGI operating environment. An `src/X11` folder is present, but it does not establish which desktop the team used. `PR/tengine/cart.c` has a `WIN32` branch for host-side code. That shows Windows support in part of the toolchain, not that the N64 game was programmed entirely on Windows. A Windows edition of Turok was also released in 1997 [^18]. Later footage of **Turok 3** shows Visual Studio on Windows, without establishing its use for the first game [^8].
+
+The `PR/man/F3DEX/README` is dated **15 October 1996**. That date belongs to the bundled **F3DEX microcode release 1.00**, rather than proving a release date for the whole Nintendo 64 SDK. The examined game files use official Nintendo headers, libraries, and microcode; no separate third-party SDK has been identified in those files.
 
 For 3D authoring, `PR/tengine/tengine.h` declares `mf_3dstudio_to_u64`, a matrix named for converting 3D Studio coordinates to Ultra 64 coordinates. That is concrete evidence of a 3D Studio import path. It does not, by itself, identify the exact software version used by every artist. Interviews with the team provide further context [^10].
 
-The game also used Rob Northen's ProPack compression. `PR/tengine/cart.c` calls `PackRNC`, while the bootstrap in `boot.c` checks for an RNC header and dispatches to method 1 or 2 decompression. The archive includes unpacking code in `unpack.c` and `rnc2.s` [^6].
+<figure class="rr-game-figure">
+  <img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="postImage" width="640" alt="3D Studio 4 running on Windows">
+  <figcaption>3D Studio 4, shown as an illustration of the period's modeling tools; this is not a screenshot of Iguana's project. Image from the RetroReversing archive.</figcaption>
+</figure>
+
+```c
+// PR/tengine/tengine.h: a coordinate-conversion matrix
+CMtxF mf_3dstudio_to_u64;
+```
+
+The earlier article noted that **NinGen/MultiGen and Alias** appeared in Nintendo 64 development discussions alongside Softimage, Nichimen, and 3D Studio [^13]. It also discussed animator Greg Omelchuck's recollection of “3D Studio Max v4” [^10]. That version label is difficult to reconcile with the original game's 1997 release; it may refer to later work or conflate **3D Studio 4** with an early **3D Studio MAX** release. The matrix is firmer evidence than the version recollection. Whether Iguana kept the same package for later games cannot be established from this archive.
+
+The game also used **Rob Northen's ProPack** compression [^6]. `PR/tengine/cart.c` calls `PackRNC`, while the bootstrap in `boot.c` checks for an RNC header and dispatches to method 1 or 2 decompression. The archive includes unpacking code in `unpack.c` and `rnc2.s`. [Sega Retro's RNC overview](https://segaretro.org/Rob_Northen_compression) provides more format background.
+
+<figure class="rr-game-figure">
+  <img src="/public/software/RNC_ProPack.PNG" class="postImage" width="640" alt="Rob Northen Computing ProPack software screen">
+  <figcaption>RNC ProPack software. Image from the RetroReversing archive.</figcaption>
+</figure>
+
+The header of `PR/tengine/rnc.s` calls itself **“PROPACK Unpack Source Code - Sony PSX, Method 2”** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
 
 A documentary about **Turok 3** shows later Acclaim development equipment, including a Doctor V64 and Windows tools [^7] [^8]. That footage illustrates the studio's later workflow; it does not establish that those exact devices were used for the first Turok.
+
+<figure class="rr-game-figure">
+  <img src="/public/games/turok/Turok3_DoctorV64.png" class="postImage" width="650" alt="Doctor V64 shown during Turok 3 development">
+  <figcaption>A Doctor V64 in later Turok 3 development footage. It is evidence for that production period, not proof of its use on the original game [^8].</figcaption>
+</figure>
 
 ---
 # Find the game in the archive
@@ -141,6 +179,8 @@ Block | Content named in cartdir.h | Stored bytes
 
 Graphic objects, texture sets, and levels account for most stored bytes in this copy. The names tell us how the root directory is organized; they do not imply that every original authoring file or editable 3D Studio scene is present.
 
+The original article also compared an early **Windows 95 demo** reportedly supplied with issue 28 of the Italian *PC Gamer* (1998). Its asset file was called `demodata.dat`; the author reported RNC-compressed sections and a layout resembling the N64 `cartdata.dat` [^13]. That demo file is not in this supplied source tree, so the comparison remains an account from the earlier investigation rather than a result reproduced here.
+
 ## Explore the index yourself
 The viewer starts with the real root offsets from `PR/cartdata.dat`. Select a local copy of a root `cartdata.dat` to inspect its eleven block sizes. It reads only the header in your browser; it does not upload the file or decompress assets.
 
@@ -181,10 +221,179 @@ The archive is more than a ROM packaging exercise. Its game modules expose syste
   <figcaption>The cheat menu as shown by <a href="https://tcrf.net/Turok:_Dinosaur_Hunter_(Nintendo_64)">The Cutting Room Floor</a>; the menu implementation is in <code>cheats.c</code>.</figcaption>
 </figure>
 
+The three draw steps from `CCheat__Draw` show how this screenshot is assembled. First, the menu background is a black box with alpha scaled by `m_Alpha`:
+
+```c
+// PR/tengine/cheats.c: menu background
+COnScreen__InitBoxDraw(ppDLP);
+COnScreen__DrawHilightBox(ppDLP,
+    CHEAT_X, CHEAT_Y,
+    CHEAT_X + CHEAT_WIDTH, CHEAT_Y + CHEAT_HEIGHT,
+    1, FALSE, 0, 0, 0, 200 * pThis->m_Alpha);
+```
+
+Next, the selected row gets a bar inset by eight pixels horizontally. Its vertical position depends on `m_RealSelection` and the current menu spacing:
+
+```c
+// PR/tengine/cheats.c: selected row
+CPause__InitPolygon(ppDLP);
+CPause__DrawBar(ppDLP,
+    CHEAT_X + 8,
+    CHEAT_Y + CHEATMENU_Y + (pThis->m_RealSelection * CHEATMENU_SPACING),
+    CHEAT_WIDTH - 16, CHEATMENU_SPACING, pThis->m_Alpha);
+```
+
+Finally, the draw loop skips unavailable items and advances the text baseline for each visible cheat:
+
+```c
+// PR/tengine/cheats.c: option labels
+COnScreen__InitFontDraw(ppDLP);
+COnScreen__SetFontScale(0.7, CHEAT_SCALE);
+COnScreen__SetFontColor(ppDLP, 200, 200, 200, 200, 200, 200);
+yStart = CHEAT_Y + CHEATMENU_Y;
+for (i = 0; i < CHEAT_END_SELECTION; i++) {
+    if (cheat_menu_items[i]) {
+        COnScreen__DrawText(ppDLP, cheat_text[i], 320/2, yStart,
+            (int)(255 * pThis->m_Alpha), TRUE, FALSE);
+        yStart += CHEATMENU_SPACING;
+    }
+}
+```
+
+These are whitespace-normalized excerpts from `cheats.c`; the calculations and calls match the source.
+
 For a focused reading exercise, find `CCheat__Update` and follow one flag into `CCheat__Draw` and the game system that consumes it. The source distinguishes flags that are enabled for display from flags that are active in play.
 
 ## Controller Pak saves
 `PR/tengine/control.c` holds `OSPfs ControllerPak`, directory state, and the game's Controller Pak identifiers. Its `GameCode` is `NTUE` and its `CompanyCode` is `51`. The `GameName` array in this copy uses encoded byte values, rather than the plain ASCII `turok` array left in a comment. The save payload is modeled by `CPersistantData` in `tengine.h`, including inventory, level keys, settings, health, and cheat flags.
+
+`control.h` declares the SDK's `OSPfs` handle and `OSPfsState`, plus file counts, free pages, and a directory of `t_File` records. Each record carries an index, a 20-character string, and a page count:
+
+```c
+// PR/tengine/control.h: Controller Pak directory state
+extern OSPfs ControllerPak;
+extern OSPfsState FileState;
+extern s32 FilesUsed, MaxFiles;
+extern s32 TurokFiles;
+extern s32 FreePages;
+typedef struct s_File {
+    int index;
+    char string[20];
+    int pages;
+} t_File;
+extern t_File FileDirectory[];
+```
+
+The bundled SDK header `PR/tengine/u64inc/os.h` defines the file state returned by its Pak APIs. The record includes a byte size, game and company identifiers, and the names stored with the note:
+
+```c
+typedef struct {
+    u32 file_size;
+    u32 game_code;
+    u16 company_code;
+    char ext_name[4];
+    char game_name[16];
+} OSPfsState;
+```
+
+The actual identifier declarations in `control.c` are worth checking against a Pak dump. The readable ASCII name appears only as a commented-out alternative:
+
+```c
+u16 CompanyCode = '51';
+u32 GameCode = 'NTUE';
+// char GameName[16] = {'t', 'u', 'r', 'o', 'k', 0,0,0,0,0,0,0,0,0,0,0};
+char GameName[16] = {0x2d, 0x2e, 0x2b, 0x28, 0x24, 0,0,0,0,0,0,0,0,0,0,0};
+char ExtName[4] = {0,0,0,0};
+```
+
+The complete `CPersistantData` declaration is preserved below. Its fields include weapon ownership and ammunition, level keys, player options, cheat flags, health, checkpoints, and boss state. The field names are as written in the source, including `Persistant`.
+
+<details markdown="1">
+<summary>Show the full save-data structure from tengine.h</summary>
+
+```c
+typedef struct CPersistantData_t
+{
+    BOOL    SemiAutomaticPistolFlag,    // weapons owned flags
+            RiotShotgunFlag,
+            AutomaticShotgunFlag,
+            AssaultRifleFlag,
+            MachineGunFlag,
+            MiniGunFlag,
+            GrenadeLauncherFlag,
+            TechWeapon1Flag,
+            RocketFlag,
+            ShockwaveFlag,
+            TechWeapon2Flag,
+            ChronoSceptorFlag ;
+
+    BOOL    ArmorFlag,                      // miscellaneous inventory flags
+            BackPackFlag ;
+
+    int BulletPool,                     // weapons ammo
+            ShotgunPool,
+            EnergyPool,
+            ExpTekBowAmmo,
+            ExpShotgunPool,
+            TekBowAmmo,
+            MiniGunAmmo,
+            GrenadeLauncherAmmo,
+            RocketAmmo,
+            TechWeapon2Ammo,
+            ChronoSceptorAmmo;
+
+    int ArmorAmount ;
+
+    int WeaponUsing ;
+
+    int Level2Keys,
+            Level3Keys,
+            Level4Keys,
+            Level5Keys,
+            Level6Keys,
+            Level7Keys,
+            Level8Keys ;
+    int Level2Access,
+            Level3Access,
+            Level4Access,
+            Level5Access,
+            Level6Access,
+            Level7Access,
+            Level8Access ;
+    int ChronoSceptorPieces ;
+
+    int Difficulty ;
+
+
+    BOOL    RunWalk ;                       // TRUE for RUN
+    BOOL    ControlSide ;                   // TRUE for right handed
+    BOOL    Blood ;                         // TRUE for blood is on
+    BOOL    Stereo ;                            // TRUE for stereo
+    u32 MusicVolume ;
+    u32 SFXVolume ;
+    u32 Opacity ;
+    u32 HAnalog ;
+    u32 VAnalog ;
+    u32 CheatFlags ;
+    u32 EnabledCheatFlags ;
+
+    int Health,
+            MaxHealth,
+            Tokens,
+            Lives ;
+
+    u16 Checkpoint ;
+
+    float   BestTrainTime ;
+
+    INT32   BossFlags ;
+
+    u32 Crash ;
+
+} CPersistantData;
+```
+
+</details>
 
 <figure class="rr-game-figure">
   <img src="/public/N64/n64controllerpak.png" class="postImage" width="400" alt="Nintendo 64 Controller Pak accessory">
@@ -196,9 +405,14 @@ A saved `.mpk` file from an emulator can be inspected with a hex editor or a [Co
 ## Models, worlds, and related games
 The 3D Studio conversion matrix in `tengine.h` connects the game runtime to its art pipeline. `scene.c`, `romstruc.c`, and `cartdir.h` provide better starting points for tracing geometry, collision, and level data than the generic SDK demo folders.
 
-Iguana also built a world editor, according to a contemporary interview [^4]. The editor's original project files are not demonstrated by the source paths examined here. The later Turok remaster has an editor, but the relationship between that editor and Iguana's original tool is not established by this archive [^5].
+Iguana also built a world editor, according to a contemporary interview. David Dienstbier described the tools this way: “All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.” [^4] The editor's original project files are not demonstrated by the source paths examined here. The later Turok remaster has an editor, but the relationship between that editor and Iguana's original tool is not established by this archive [^5].
 
-The first South Park Nintendo 64 game is reported to have used technology from Turok [^9]. That is useful context for the engine's later life, not a reason to assume every file in this Turok archive shipped in South Park.
+The first *South Park* Nintendo 64 game is reported to have been based on Turok technology [^9]. Shared engine code is therefore plausible, although this archive does not establish which exact source files were compiled for *South Park*.
+
+<figure class="rr-game-figure">
+  <img src="/public/games/South Park (USA).png" class="postImage" width="480" alt="South Park Nintendo 64 gameplay screenshot">
+  <figcaption>The later South Park game on Nintendo 64. Its reported engine relationship is historical context, not evidence that every Turok module was reused. Image from the RetroReversing archive.</figcaption>
+</figure>
 
 ---
 # Reproducing the investigation
@@ -209,17 +423,30 @@ The archive includes generated objects and a ROM image, but a clean rebuild depe
 <details>
 <summary>Historical build notes from the earlier version of this article</summary>
 
-One attempt used a replacement `stddef.h` and changed its `NULL` definition after a `trex.c` compile error. Another encountered an assembler operand error in `adpcm.s` and continued with the existing `adpcm.o`. A linker or assembler warning reported that `osWritebackDCacheAll` and `osInvalICache` changed symbol type in `codesegment.o`. These workarounds can affect the resulting binary and should be checked against the exact SDK and compiler in use.
+The earlier attempt copied `stddef.h` from Dragon SDK into `c:/ultra/GCC/MIPSE/INCLUDE` and changed a `NULL` definition from `((void *)0)` to `0` after seeing `trex.c:229: invalid operands to binary |`. That records the historical environment and workaround; it does not establish a correct fix for another toolchain.
+
+```text
+as -o adpcm.o adpcm.s
+adpcm.s: Assembler messages:
+adpcm.s:96: Error: ERROR: Illegal operands `sub'
+```
+
+The earlier attempt continued with the archive's existing `adpcm.o`. It also recorded these diagnostics:
+
+```text
+Warning: type of symbol `osWritebackDCacheAll' changed from 2 to 1 in codesegment.o
+Warning: type of symbol `osInvalICache' changed from 2 to 1 in codesegment.o
+```
+
+Reusing an object from the archive can change the resulting binary and does not demonstrate a clean source rebuild.
 
 </details>
 
 ---
 # Video companions
-The original article also featured a source discovery video titled "Turok 64 Official Source Code Found". Its creator and current availability could not be verified from the supplied archive, but the original YouTube embed is preserved here for readers who can access it.
+The original article featured **Turok 64 Official Source Code Found** and [The Making of Turok Dinosaur Hunter for Nintendo 64](https://www.twitch.tv/videos/125480737). Their two-item video carousel is restored here, after the article so the opening still begins with the game's box art. The source video's creator and current availability could not be verified from the supplied archive.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ONEy_ybKWsg" title="Turok 64 Official Source Code Found" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-The article also featured [The Making of Turok Dinosaur Hunter for Nintendo 64](https://www.twitch.tv/videos/125480737) as a Twitch recording. The link retains that reference even where Twitch embedding is unavailable.
+{% include video-carousel.html videocarousel=page.videocarousel %}
 
 ---
 # References
@@ -238,3 +465,6 @@ The article also featured [The Making of Turok Dinosaur Hunter for Nintendo 64](
 [^13]: [Original RetroReversing Turok source code article](https://frds.github.io/turok64sourcecode)
 [^14]: [Nintendo 64 SDK OS 2.0J release notes](https://ultra64.ca/files/documentation/online-manuals/man/n64man/relnote_j/index.htm)
 [^15]: [2017 report on Turok source code found on former Acclaim workstations](https://www.gamedeveloper.com/game-platforms/source-code-for-i-turok-i-and-i-nba-jam-extreme-i-surfaces)
+[^16]: [Turok: Dinosaur Hunter Nintendo 64 release details at GameFAQs](https://gamefaqs.gamespot.com/n64/199130-turok-dinosaur-hunter/data)
+[^17]: [Nintendo64Ever Turok cartridge data sheet](https://www.nintendo64ever.com/Nintendo-64-Game%2C924%2CTurok-Dinosaur-Hunter.html)
+[^18]: [Turok: Dinosaur Hunter PC release details at GameFAQs](https://gamefaqs.gamespot.com/pc/199129-turok-dinosaur-hunter/data)
