@@ -19,8 +19,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSDK.md
-updatedAt: '2019-11-05'
+updatedAt: '2026-10-17'
 ---
+<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime -->
 
 The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
@@ -43,6 +44,24 @@ Although the Cygnus Solutions compiler toolchain supports C++ it was recommended
 ---
 # Tools
 The SDK didn't only provide compilers, there was a set of useful tools provided for a wide variety of tasks such as image conversion and debugging.
+
+Sega's October 1996 [development-tool bulletin](https://antime.kapsi.fi/sega/files/ST-TECH-48.pdf) used more precise categories than a simple official-versus-third-party split [^1]:
+* **Free rental tools** - Sega-owned packages supplied on loan under a developer agreement, including SGL, SBL, graphics and sound tools, and the Hitachi SH toolchain.
+* **Sega license tools** - Outside technology distributed under Sega licensing terms, including TrueMotion, Cinepak, QSound, and YSound. The bulletin associates these with royalties and a required licensing acknowledgement.
+* **Official tools** - Tools Sega recognised and supported in cooperation with their vendors, including SNASM, CartDev, Mirage, and Softimage.
+* **Equivalent tools** - Vendor-supported alternatives such as N-World Saturn Express, PowerAnimator Saturn Export, and GAMUT-SG. Sega's own support covered the Sega library and data-format side.
+
+These were Sega's classifications **at the time of that bulletin**, not a claim that each product had the same licence or remained available throughout the Saturn's life.
+
+The inspected DTS mirror also preserves three useful distributions:
+
+Archive | What inspection establishes
+---|---
+`software/zipdocs/SBL601.zip` | SBL 6.01 archive with 1,332 ZIP members, including libraries, source, peripheral samples, and build files
+`software/zipdocs/SGL302J.ZIP` | SGL 3.02 archive with 1,015 ZIP members, including AWK assembler helpers, libraries, demos, samples, and conversion tools
+`software/zipdocs/WGT_10J.zip` | Windows 95 Graphics Tools 1.0J archive with 44 ZIP members, including `.SG3` and `.SGT` model examples
+
+These are counts of archive members in the inspected copy, including directory entries where present. They establish what survives in this reconstruction, rather than a complete inventory of every DTS CD or web release [^2].
 
 ## Background Converter (BGCON)
 Latest Known Version: 1.6
@@ -252,6 +271,16 @@ Assembly source code for the Sega Saturn Sound driver interface.
 * S3DTEX.EXE
 
 ---
+# Sound production tools
+The DTS CD's [sound-tools overview](https://antime.kapsi.fi/sega/files/SOUND.pdf) describes a Macintosh-based workflow connected to the Saturn Sound Box by SCSI [^3]:
+* **Wave Editor** prepares samples before import into Tone Editor; Sega advises setting loop start and end to even positions, including for samples that do not loop.
+* **Tone Editor** arranges sampled and FM sounds into voices or patches for sequences and effects.
+* **Sound Simulator** maps sound memory and simulates how game code will use the sound data.
+* **Linker** assembles DSP effect routines; the separate eLinker was required for spatial effects such as QSound or YSound.
+
+The release notes document a useful version trap: **Sound Driver 2.10 requires tone banks made with Tone Editor 2.0 or later**. Sega says older tone banks will produce no sound with that driver. When comparing preserved projects, record the driver and tone-bank tool versions together [^3].
+
+---
 # Software for Designers
 The software for 2D/3D Artists, Designers and sound editors are covered in the following post:
 {% include_cached link-to-other-post.html post="/sega-saturn-artist-tools" description="For the artist tools used for Sega Saturn Development check out this post." %}
@@ -264,3 +293,9 @@ The table below lists the relevant entries.
 Term | Meaning
 ---|---
 VCD | Either VirtualCD or Video CD depending the context
+
+---
+# References
+[^1]: Sega, [Technical Bulletin 48 - SEGASaturn Development Tool Segments](https://antime.kapsi.fi/sega/files/ST-TECH-48.pdf), 2 October 1996.
+[^2]: ZIP member lists inspected in `software/zipdocs/SBL601.zip`, `SGL302J.ZIP`, and `WGT_10J.zip` of the partial DTS website reconstruction. The [SBL 6.01](https://antime.kapsi.fi/sega/files/SBL601.zip) and [Windows 95 Graphics Tools](https://antime.kapsi.fi/sega/files/WGT_10J.zip) archives are also available from Antime.
+[^3]: Sega DTS, [Overview and Release Notes of the Sega Saturn Sound Development Tools](https://antime.kapsi.fi/sega/files/SOUND.pdf), sections 1-2.
