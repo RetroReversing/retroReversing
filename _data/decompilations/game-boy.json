@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-03-16T02:12:00Z",
         "last_commit_url": "https://github.com/CelestialAmber/DKGBDisasm/commit/c6e29723edf53b00fb0f7587381bae972afa4b8f",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 26
+      },
+      "ai_used": null
     },
     "kirby-s-dream-land": {
       "name": "Kirby's Dream Land",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2020-06-16T21:57:17Z",
         "last_commit_url": "https://github.com/huderlem/kirbydreamland/commit/4b35e31d908c387a6ebac938b5e0bfa5e921b906",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 54
+      },
+      "ai_used": null
     },
     "metroid-ii-return-of-samus": {
       "name": "Metroid II: Return of Samus",
@@ -49,14 +53,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2021-11-08T22:32:15Z",
         "last_commit_url": "https://github.com/Vashy777/metroid2/commit/a892576930f3d931c636665d7bd643c766b50a2a",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 20
+      },
+      "ai_used": null
     },
     "mole-mania": {
       "name": "Mole Mania",
@@ -68,14 +74,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-04-10T18:19:44Z",
         "last_commit_url": "https://github.com/froggestspirit/mmania/commit/9629c91caca2e9a45ea5f41e0dac13cf5dc6cb7d",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "pokemon-red-blue": {
       "name": "Pokemon Red & Blue",
@@ -87,14 +95,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-06T17:44:05Z",
         "last_commit_url": "https://github.com/pret/pokered/commit/af519899719f0754965776faac0e836a3b906e6d",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 4997
+      },
+      "ai_used": null
     },
     "pokemon-yellow": {
       "name": "Pokemon Yellow",
@@ -106,14 +116,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "last_commit_at": "2026-09-02T15:23:57Z",
-        "last_commit_url": "https://github.com/pret/pokeyellow/commit/e89ead154b9968aa50eed9328ff2b38b6c194382",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_commit_at": "2026-10-16T18:30:08Z",
+        "last_commit_url": "https://github.com/pret/pokeyellow/commit/bfe2fd65b1a8ac4821f4235970ccd7204faf77fb",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": 892
+      },
+      "ai_used": null
     },
     "super-mario-land": {
       "name": "Super Mario Land",
@@ -127,12 +139,14 @@
       "activity": {
         "last_commit_at": "2022-09-29T23:17:10Z",
         "last_commit_url": "https://github.com/kaspermeerts/supermarioland/commit/618d00ed6c330928e106719533c6e294ae5d5726",
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": 69
+      },
+      "ai_used": null
     },
     "super-mario-land-2-six-golden-coins": {
       "name": "Super Mario Land 2: Six Golden Coins",
@@ -146,12 +160,14 @@
       "activity": {
         "last_commit_at": "2014-03-07T17:09:32Z",
         "last_commit_url": "https://github.com/froggestspirit/marioland2/commit/c596a9577379fddaf3a9a37309286662116d33c9",
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": true,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": 16
+      },
+      "ai_used": null
     },
     "super-mario-land-3-wario-land": {
       "name": "Super Mario Land 3: Wario Land",
@@ -165,12 +181,14 @@
       "activity": {
         "last_commit_at": "2026-07-19T11:44:46Z",
         "last_commit_url": "https://github.com/Kak2X/wl/commit/2e2f3095c07d36bef85951e6ed981275bf4fcb88",
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": 46
+      },
+      "ai_used": null
     },
     "tetris-game-boy": {
       "name": "Tetris",
@@ -184,12 +202,14 @@
       "activity": {
         "last_commit_at": "2021-06-03T07:14:23Z",
         "last_commit_url": "https://github.com/alexsteb/tetris_disassembly/commit/b4bbceb3cc086121ab4fe9bf4dad6752fe956ec0",
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": 52
+      },
+      "ai_used": null
     }
   },
   "consoles": {

@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-18T01:55:27Z",
         "last_commit_url": "https://github.com/ACreTeam/ac-decomp/commit/09ca8e8b5b24e6ab44047ee980cf0088ad7ecb4c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 1415
+      },
+      "ai_used": null
     },
     "bomberman-generation": {
       "name": "Bomberman Generation",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-28T15:22:02Z",
         "last_commit_url": "https://github.com/nikeymikey/bomberman-generation-moderngekko/commit/6c073a5cf1df0eda3724a6adc437cdde720cf6a3",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
     },
     "chibi-robo-plug-into-adventure": {
       "name": "Chibi-Robo! Plug Into Adventure!",
@@ -49,14 +53,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-12T05:15:05Z",
         "last_commit_url": "https://github.com/eavpsp/cbr_decomp/commit/b2b6bcb5b407f10432345683d341578bda55ed5b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 39
+      },
+      "ai_used": null
     },
     "doshin-the-giant": {
       "name": "Doshin the Giant",
@@ -68,14 +74,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-12-02T05:48:49Z",
         "last_commit_url": "https://github.com/break-core/doshin-gc/commit/b01be768ab68782c6890b832cd61e35d3b4d9103",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
     },
     "dobutsu-no-mori-e": {
       "name": "Dōbutsu no Mori e+",
@@ -87,14 +95,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-16T17:27:23Z",
         "last_commit_url": "https://github.com/ACreTeam/afe-decomp/commit/2048fc2396d53cc57d80c1ce1adc07e16df07eb6",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 50
+      },
+      "ai_used": null
     },
     "harvest-moon-a-wonderful-life": {
       "name": "Harvest Moon: A Wonderful Life",
@@ -106,14 +116,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-11-22T11:52:40Z",
         "last_commit_url": "https://github.com/ChrisNonyminus/hmawl/commit/a6a08786729e8cc87794003acf2dc6756158719e",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 24
+      },
+      "ai_used": null
     },
     "homeland": {
       "name": "Homeland",
@@ -125,14 +137,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-03-14T07:51:08Z",
         "last_commit_url": "https://github.com/BttrDrgn/homeland/commit/176fd6d9be74c0256d793e8b2fc89cd8cc4fe2ba",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 6
+      },
+      "ai_used": null
     },
     "kirby-air-ride": {
       "name": "Kirby Air Ride",
@@ -144,14 +158,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-02-26T16:38:36Z",
         "last_commit_url": "https://github.com/doldecomp/kar/commit/3ed51a1a008a05c33225cc286c046b8f90fb3d0e",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 88
+      },
+      "ai_used": null
     },
     "luigi-s-mansion": {
       "name": "Luigi's Mansion",
@@ -163,14 +179,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2023-11-09T05:14:55Z",
         "last_commit_url": "https://github.com/Sage-of-Mirrors/zmansion/commit/b8692880841e63620fc06eb92ff1b334ecf6576b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 36
+      },
+      "ai_used": null
     },
     "mario-kart-double-dash": {
       "name": "Mario Kart: Double Dash!!",
@@ -182,14 +200,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-05T11:46:59Z",
         "last_commit_url": "https://github.com/doldecomp/mkdd/commit/1d2918ca577817ba431baddb78dda24831e0e0bb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 198
+      },
+      "ai_used": null
     },
     "mario-party-4": {
       "name": "Mario Party 4",
@@ -201,14 +221,16 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-06-04T03:18:46Z",
-        "last_commit_url": "https://github.com/mariopartyrd/marioparty4/commit/147b165a83187ac9e6cfdc3bf52f2e73437b1ffd",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-15T20:59:34Z",
+        "last_commit_url": "https://github.com/mariopartyrd/marioparty4/commit/5b01c79b4910525e3fc5aa312eddd6d014e7f337",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 871
+      },
+      "ai_used": null
     },
     "mario-party-5": {
       "name": "Mario Party 5",
@@ -220,14 +242,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-05-30T00:36:04Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty5/commit/e246f9d9850ff53ac684b971068fbf87fdcf6acb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 38
+      },
+      "ai_used": null
     },
     "mario-party-6": {
       "name": "Mario Party 6",
@@ -239,14 +263,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-14T22:56:45Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty6/commit/a56adea71eb0d6f5b16ee7cef80a9111adec9636",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
     },
     "mario-party-7": {
       "name": "Mario Party 7",
@@ -258,14 +284,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-03T00:36:07Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty7/commit/f5ea780d07dab8188d3c02f7e9052360c591dc1b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 28
+      },
+      "ai_used": null
     },
     "mario-superstar-baseball": {
       "name": "Mario Superstar Baseball",
@@ -277,14 +305,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-12T19:53:29Z",
         "last_commit_url": "https://github.com/roeming/mssb-dtk/commit/72de19a39880398a69339010350652ad97e2a79c",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
     },
     "metroid-prime": {
       "name": "Metroid Prime",
@@ -296,14 +326,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T19:26:49Z",
-        "last_commit_url": "https://github.com/PrimeDecomp/prime/commit/22f7d00510715cf8810941d1c7c0ffb4c1655e8d",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T02:50:07Z",
+        "last_commit_url": "https://github.com/PrimeDecomp/prime/commit/504e05156f681b6fed71c8982251318a3389b436",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 370
+      },
+      "ai_used": null
     },
     "metroid-prime-2-echoes": {
       "name": "Metroid Prime 2: Echoes",
@@ -315,15 +347,17 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-11T12:06:52Z",
         "last_commit_url": "https://github.com/PrimeDecomp/echoes/commit/6f0c842a94588a3f8c5a7b9747fa696ad1f945d0",
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-11T15:56:00Z",
         "status": "Active",
-        "check_error": "HTTP 404"
-      }
+        "check_error": "HTTP 404",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "need-for-speed-most-wanted": {
       "name": "Need for Speed: Most Wanted",
@@ -335,14 +369,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-10T14:23:20Z",
         "last_commit_url": "https://github.com/dbalatoni13/nfsmw/commit/80993f35224c61d2f1b135beba76c6f8234c7940",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 226
+      },
+      "ai_used": null
     },
     "need-for-speed-underground": {
       "name": "Need for Speed: Underground",
@@ -354,14 +390,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-02-04T20:16:49Z",
         "last_commit_url": "https://github.com/dbalatoni13/nfsug/commit/7e718a6997a738a4ce2004e4186f16160cb69f3e",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 36
+      },
+      "ai_used": null
     },
     "naruto-gekito-ninja-taisen-4": {
       "name": "Naruto: Gekitō Ninja Taisen! 4",
@@ -373,14 +411,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-08-10T18:52:05Z",
         "last_commit_url": "https://github.com/doldecomp/gnt4/commit/b6c32473fca8d39facf1cad70f49a3c305e18cf0",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 23
+      },
+      "ai_used": null
     },
     "paper-mario-the-thousand-year-door": {
       "name": "Paper Mario: The Thousand-Year Door",
@@ -392,14 +432,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-27T22:35:16Z",
         "last_commit_url": "https://github.com/doldecomp/ttyd/commit/62131fc31866f85a12e4817a8dc37f0c25eb5f8c",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 143
+      },
+      "ai_used": null
     },
     "pikmin": {
       "name": "Pikmin",
@@ -411,14 +453,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-06T19:49:06Z",
         "last_commit_url": "https://github.com/projectPiki/pikmin/commit/9a2163626a269ae7c699fc195cf91a5ca791044d",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 321
+      },
+      "ai_used": null
     },
     "pikmin-2": {
       "name": "Pikmin 2",
@@ -430,14 +474,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-13T16:23:22Z",
         "last_commit_url": "https://github.com/projectPiki/pikmin2/commit/f8e0ee39aec178f6d87bf7edb60c213b58144c5f",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 380
+      },
+      "ai_used": null
     },
     "ratatouille": {
       "name": "Ratatouille",
@@ -449,15 +495,17 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-10T16:49:17Z",
         "last_commit_url": "https://github.com/ZounaModding/RatDecomp/commit/9fbb782be9c83685bb56310e35939b651cd16345",
         "archived": false,
         "default_branch": "main",
         "last_success_at": "2026-10-11T15:56:00Z",
         "status": "Active",
-        "check_error": "HTTP 404"
-      }
+        "check_error": "HTTP 404",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "skies-of-arcadia-legends": {
       "name": "Skies of Arcadia Legends",
@@ -469,14 +517,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-05-07T13:11:08Z",
         "last_commit_url": "https://github.com/Rainchus/SkiesOfArcadiaLegends/commit/7a7d22aa65ab6c50977c8a12927dbb2ff76963e0",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
     },
     "sonic-adventure-dx": {
       "name": "Sonic Adventure DX",
@@ -488,14 +538,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-08-01T04:03:08Z",
         "last_commit_url": "https://github.com/doldecomp/sadx/commit/4c2b833be9b4b63d57d761beb647cb8d9acbedb6",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 48
+      },
+      "ai_used": null
     },
     "sonic-riders": {
       "name": "Sonic Riders",
@@ -507,14 +559,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-02-06T17:57:39Z",
         "last_commit_url": "https://github.com/doldecomp/sonicriders/commit/4f42e59cb5b6089a2aba413d344f804e5362f06f",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 37
+      },
+      "ai_used": null
     },
     "spongebob-squarepants-battle-for-bikini-bottom": {
       "name": "SpongeBob SquarePants: Battle for Bikini Bottom",
@@ -526,14 +580,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-29T14:10:37Z",
         "last_commit_url": "https://github.com/bfbbdecomp/bfbb/commit/8fb1c232addcacf44932c10c4cede41b43f98f40",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 191
+      },
+      "ai_used": null
     },
     "star-fox-adventures": {
       "name": "Star Fox Adventures",
@@ -545,14 +601,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-04-13T23:46:33Z",
         "last_commit_url": "https://github.com/RenaKunisaki/sfadebug/commit/2bba767415a607ced9ad53294d8f4515770ed998",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
     },
     "summoner-a-goddess-reborn": {
       "name": "Summoner: A Goddess Reborn",
@@ -564,14 +622,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-12-09T01:43:54Z",
         "last_commit_url": "https://github.com/Charlese2/sgr/commit/e260a0ef5b9f45a8880f39168a81c8dfdbee8b77",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
     },
     "super-mario-strikers": {
       "name": "Super Mario Strikers",
@@ -583,14 +643,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-17T11:30:28Z",
         "last_commit_url": "https://github.com/yannicksuter/smstrikers-decomp/commit/d1f357ffeb1d8e89311edebf9a4b304b05ece7bb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 103
+      },
+      "ai_used": null
     },
     "super-mario-sunshine": {
       "name": "Super Mario Sunshine",
@@ -602,14 +664,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T19:58:27Z",
-        "last_commit_url": "https://github.com/doldecomp/sms/commit/648d5974ed69d57ac117a173b717061cb055f4eb",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T01:50:30Z",
+        "last_commit_url": "https://github.com/doldecomp/sms/commit/cd7ed32f10b946b37d864142ad379ff4ef6a703a",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 355
+      },
+      "ai_used": null
     },
     "super-monkey-ball": {
       "name": "Super Monkey Ball",
@@ -621,14 +685,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2023-01-06T04:45:00Z",
         "last_commit_url": "https://github.com/camthesaxman/smb-decomp/commit/5cd6ffccf3f8508231c7cd9cce5b722be4465a2b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 64
+      },
+      "ai_used": null
     },
     "super-smash-bros-melee": {
       "name": "Super Smash Bros. Melee",
@@ -640,14 +706,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-14T22:36:23Z",
-        "last_commit_url": "https://github.com/doldecomp/melee/commit/2eb62f605597d61ce2f65d1c406de7b672539e3d",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T20:09:18Z",
+        "last_commit_url": "https://github.com/doldecomp/melee/commit/f0cdbb0a7046aea44c7177fd72abf33c3d2af4d4",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 2416
+      },
+      "ai_used": null
     },
     "the-incredibles": {
       "name": "The Incredibles",
@@ -659,14 +727,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-01-09T23:24:40Z",
         "last_commit_url": "https://github.com/seilc/incredibles/commit/25f60a22a5452bcb2cd1b9ce0cd47f7f8f8e45ac",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 24
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-the-wind-waker": {
       "name": "The Legend of Zelda: The Wind Waker",
@@ -678,14 +748,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-14T18:54:55Z",
         "last_commit_url": "https://github.com/zeldaret/tww/commit/8b93b372dc8e841f12ddfb7e0215626f62b05417",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 1099
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-twilight-princess": {
       "name": "The Legend of Zelda: Twilight Princess",
@@ -697,14 +769,16 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-23T19:52:55Z",
         "last_commit_url": "https://github.com/zeldaret/tp/commit/c8fa8c9e2aab72cf4e5db0e5d1c84a9ea6ee6eb0",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 2090
+      },
+      "ai_used": null
     },
     "the-spongebob-squarepants-movie": {
       "name": "The SpongeBob SquarePants Movie",
@@ -716,14 +790,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-15T22:51:35Z",
         "last_commit_url": "https://github.com/bfbbdecomp/tssm/commit/50ea01767e4c894f09db8ff2f4e52136a6e89ca4",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
     },
     "ty-the-tasmanian-tiger": {
       "name": "Ty the Tasmanian Tiger",
@@ -735,14 +811,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-08T03:15:47Z",
         "last_commit_url": "https://github.com/1superchip/ty-decomp/commit/22d5483e9b59ad40fcab924f6c7d913f3b3e09da",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 36
+      },
+      "ai_used": null
     },
     "pikmin-open-nectar": {
       "name": "Pikmin",
@@ -754,14 +832,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T16:25:58Z",
-        "last_commit_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/commit/db0b1a621b06edee63e70179e0637a40ef5ea1fc",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T08:20:43Z",
+        "last_commit_url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/commit/41812310ac99c7150a46aa917f0f157647cc3451",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 237
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-the-wind-waker-bluewake": {
       "name": "The Legend of Zelda: The Wind Waker",
@@ -773,14 +853,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T04:20:06Z",
-        "last_commit_url": "https://github.com/chrissotraidis/bluewake/commit/908d405bc3882a19b002a7b91d90547f058ce303",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T07:02:36Z",
+        "last_commit_url": "https://github.com/chrissotraidis/bluewake/commit/655e937da420b4849fcf80b2e9dc907114fb2448",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 386
+      },
+      "ai_used": null
     },
     "super-smash-bros-melee-pc": {
       "name": "Super Smash Bros. Melee",
@@ -792,14 +874,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-14T00:09:40Z",
-        "last_commit_url": "https://github.com/999sian/melee-pc/commit/bc53d8c37d1aa4490bbe9468dc025f7ac74d62c0",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-15T21:21:33Z",
+        "last_commit_url": "https://github.com/999sian/melee-pc/commit/88cda55cf976f8e69bdffd8645fd5afeefa77631",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 475
+      },
+      "ai_used": null
     },
     "crash-tag-team-racing": {
       "name": "Crash Tag Team Racing",
@@ -811,14 +895,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-15T17:19:49Z",
         "last_commit_url": "https://github.com/bluisblu/cttr/commit/716d1e1838ed3b826166d4c3b3685385dc617d48",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
     },
     "piglet-s-big-game": {
       "name": "Piglet's Big Game",
@@ -830,14 +916,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-07T18:04:36Z",
         "last_commit_url": "https://github.com/tgsm/pbg/commit/c20cab7d2d40c33c632bdfbead19ce01beecb1e5",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
     },
     "pokemon-xd-gale-of-darkness": {
       "name": "Pokemon XD: Gale of Darkness",
@@ -849,14 +937,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-11T15:11:05Z",
         "last_commit_url": "https://github.com/TeamOrre/xd-decomp/commit/4989794e6c6430684e033bc56f4bb97c9a921e73",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 37
+      },
+      "ai_used": null
     },
     "star-fox-adventures-retail": {
       "name": "Star Fox Adventures (Retail)",
@@ -868,14 +958,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-07T00:00:05Z",
         "last_commit_url": "https://github.com/zcanann/SFA-Decomp/commit/9b4063e5c363fca5173a8ef565532287dc1396d0",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 78
+      },
+      "ai_used": null
     },
     "the-sims-2": {
       "name": "The Sims 2",
@@ -887,14 +979,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-10T04:02:09Z",
         "last_commit_url": "https://github.com/natebag/Sims2DECOMP/commit/72278b244e431de11a88e658fb81df8e5057a3aa",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
     },
     "wario-world": {
       "name": "Wario World",
@@ -906,14 +1000,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-08-28T05:27:02Z",
         "last_commit_url": "https://github.com/sabishii-bit/wwdcmp/commit/d44b82c8a9e5ef1d36ecbca32ce8dc38c264cb2d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 5
+      },
+      "ai_used": null
     },
     "nintendo-puzzle-collection-dr-mario-64": {
       "name": "Nintendo Puzzle Collection - Dr. Mario 64",
@@ -925,14 +1021,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-10T22:21:47Z",
         "last_commit_url": "https://github.com/NewGBAXL/drmario64-gc/commit/82289b50d1aef179e8eaf94cf3b798e9732f9add",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
     },
     "amazing-island": {
       "name": "Amazing Island",
@@ -944,14 +1042,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-07-15T21:25:21Z",
         "last_commit_url": "https://github.com/EltaleLibrarian/Amazing/commit/c9d84c6941f99c210e7cba73f1590422bdc4e7be",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 0
+      },
+      "ai_used": null
     },
     "dragon-ball-z-budokai-2": {
       "name": "Dragon Ball Z: Budokai 2",
@@ -963,14 +1063,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-01-08T00:30:49Z",
         "last_commit_url": "https://github.com/TotallyNotMichael-GH/dbz2/commit/f61deb8401861186deb0ad967d120370e2578dd9",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "final-fantasy-crystal-chronicles": {
       "name": "Final Fantasy Crystal Chronicles",
@@ -982,14 +1084,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-10T00:14:28Z",
-        "last_commit_url": "https://github.com/zcanann/FFCC-Decomp/commit/8ffc4be0e778999efa54a533409abfeb6fbb694f",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T07:18:07Z",
+        "last_commit_url": "https://github.com/zcanann/FFCC-Decomp/commit/3a8145ff8844ed6be6b78db66730b1b6a971323c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 42
+      },
+      "ai_used": null
     },
     "freedom-fighters": {
       "name": "Freedom Fighters",
@@ -1001,14 +1105,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-11-12T05:03:43Z",
         "last_commit_url": "https://github.com/andresj-sanchez/frfi-decomp/commit/4becacf5aa16da622cbd756c70a36f2717982ff4",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
     },
     "gauntlet-dark-legacy": {
       "name": "Gauntlet Dark Legacy",
@@ -1020,14 +1126,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-25T14:24:41Z",
         "last_commit_url": "https://github.com/sabishii-bit/Gauntlet-Dark-Legacy-Decompilation/commit/4fdf0492d5d828b16ee1a961c17bf855a8d2668f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
     },
     "the-lord-of-the-rings-return-of-the-king": {
       "name": "The Lord of the Rings: Return of the King",
@@ -1039,14 +1147,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-01-11T22:27:01Z",
         "last_commit_url": "https://github.com/crimsonmagick/lotr-rotk/commit/abcb020d06b70fb104978ec74a6dd0ec7e145e81",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 6
+      },
+      "ai_used": null
     },
     "digimon-world-4": {
       "name": "Digimon World 4",
@@ -1058,14 +1168,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-16T15:24:42Z",
         "last_commit_url": "https://github.com/ivanno4317/dw4-gc/commit/41c27d8756e298558ca9be61c1c89afeee336c01",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
     },
     "eternal-darkness-sanity-s-requiem": {
       "name": "Eternal Darkness: Sanity's Requiem",
@@ -1077,14 +1189,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-06T21:38:32Z",
-        "last_commit_url": "https://github.com/PattyTrish/unending-occlusion/commit/ab8b3f53969ecb1c9ce08479d6fb599211253ccb",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T20:54:21Z",
+        "last_commit_url": "https://github.com/PattyTrish/unending-occlusion/commit/5f96a059f13021c62542bee6cf42280d16d5f014",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
     },
     "f-zero-gx-karamzov123": {
       "name": "F-Zero GX (karamzov123)",
@@ -1096,14 +1210,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-09T16:01:03Z",
         "last_commit_url": "https://github.com/karamzov123/fzero-gx-decomp/commit/118208b0dfef271f422646c9ea8fa7b63a322108",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
     },
     "f-zero-gx-rayanht": {
       "name": "F-Zero GX (rayanht)",
@@ -1115,14 +1231,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-16T20:22:28Z",
         "last_commit_url": "https://github.com/rayanht/fzgx/commit/3a0542c9d1b58f7a907f932bc00e3657b382e9aa",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
     },
     "metal-gear-solid-the-twin-snakes": {
       "name": "Metal Gear Solid: The Twin Snakes",
@@ -1134,14 +1252,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-29T00:00:51Z",
         "last_commit_url": "https://github.com/GirianSeed/mgstts/commit/3d9ed020b198ec2049b7bd2e118aa8d7d890c2a0",
         "default_branch": "trunk",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
     },
     "mortal-kombat-deception": {
       "name": "Mortal Kombat: Deception",
@@ -1153,14 +1273,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-14T01:06:21Z",
-        "last_commit_url": "https://github.com/ShulkMaster/mk-deception/commit/1fcf1a796008ec6fe5e928f5adb83bc83ed7b0ca",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T04:18:24Z",
+        "last_commit_url": "https://github.com/ShulkMaster/mk-deception/commit/17fb0c06ecf273834aeb956efdc98e2a84798a85",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
     },
     "resident-evil-4-gamecube-debug-build": {
       "name": "Resident Evil 4 (GameCube debug build)",
@@ -1172,14 +1294,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-02T12:31:01Z",
         "last_commit_url": "https://github.com/adonis-singh/re4/commit/9b76ff003081d6ece8b838453fb8310743a972c7",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 347
+      },
+      "ai_used": null
     },
     "sonic-adventure-2-battle": {
       "name": "Sonic Adventure 2: Battle",
@@ -1191,14 +1315,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-07T21:32:00Z",
         "last_commit_url": "https://github.com/roeming/SA2B/commit/874a480379260dce01e8988d6ab13c0deddcee4c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
     },
     "sonic-heroes": {
       "name": "Sonic Heroes",
@@ -1210,14 +1336,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-14T02:36:02Z",
         "last_commit_url": "https://github.com/Jovinull/sonicheroes/commit/26755bbf1237e4e399b91697ffa2a6aeab8183e5",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
     },
     "tiger-woods-pga-tour-2004": {
       "name": "Tiger Woods PGA Tour 2004",
@@ -1229,14 +1357,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T16:17:01Z",
-        "last_commit_url": "https://github.com/mitsevox/tw2004/commit/194e42231f594d79cdb1f53832834e7a0bf6c890",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T06:41:14Z",
+        "last_commit_url": "https://github.com/mitsevox/tw2004/commit/e24cabec24de9831079982325ba832a676a7a46e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
     },
     "medal-of-honor-frontline": {
       "name": "Medal of Honor: Frontline",
@@ -1247,7 +1377,17 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": 5,
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T16:16:26Z",
+        "last_commit_url": "https://github.com/kyleckroeger/moh-frontline-decomp/commit/061b161d61054e90544500a8bb8ade5fbd693040",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active"
+      },
+      "ai_used": null
     },
     "medal-of-honor-rising-sun": {
       "name": "Medal of Honor: Rising Sun",
@@ -1258,7 +1398,17 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": 4,
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-11T17:56:19Z",
+        "last_commit_url": "https://github.com/lifewillbeokay/moh-rising-sun/commit/fa914ade4e5e4e8ff626b54d8ba97971a73e1767",
+        "default_branch": "main",
+        "archived": false,
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active"
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -2042,7 +2192,8 @@
               "platforms": [
                 "Windows",
                 "Linux",
-                "macOS"
+                "macOS",
+                "Nintendo Switch"
               ],
               "description_markdown": "Native multi-platform port of the GameCube game.",
               "project_types": [

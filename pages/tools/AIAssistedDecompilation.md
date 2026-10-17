@@ -18,7 +18,7 @@ breadcrumbs:
   - name: AI-Assisted Decompilation
     url: '#'
 editlink: /pages/tools/AIAssistedDecompilation.md
-updatedAt: '2026-10-15'
+updatedAt: '2026-10-16'
 ---
 
 AI can help a reverse engineer turn a game executable into readable C, identify unknown functions, and search for source code that recreates the original machine instructions. The last task is particularly interesting for retro games: an AI agent can write C, run the original compiler, inspect the differences and try again.
@@ -287,6 +287,16 @@ Keep a short record with each candidate: target binary and address, architecture
 For projects intended to be shared publicly, follow the target repository's rules on distributing original ROMs, executables, SDK material and extracted assets.
 
 ---
+## Validate Search Results Before Counting Progress
+An agent or permuter proposes source; the build and comparison determine what has actually been verified.
+Keep the target binary fixed and use the same toolchain and comparison scope for each attempt.
+The [manual permutation guide](/decompilers#use-permutation-searches-as-candidate-generators) explains why a better similarity score does not establish a semantics-preserving rewrite.
+
+Include [deliberately wrong candidates](/decompilers#test-the-matching-checker-with-deliberately-wrong-candidates) when checking the verifier itself.
+Recompute results after shared-header or source changes rather than trusting stored progress flags.
+The [decomp.wtf judge tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py) exercise stale match records and rejection of wrong constants as separate failure cases [^14].
+
+---
 # Where to Go Next
 The most productive approach is to start with traditional tools, use AI to accelerate the parts that require interpretation, and let compilation and runtime checks decide what is correct.
 
@@ -315,3 +325,4 @@ Useful resources for a first project include:
 [^11]: [Tan et al. - LLM4Decompile, EMNLP 2024](https://aclanthology.org/2024.emnlp-main.203/).
 [^12]: [Gao et al. - DecompileBench, ACL 2025](https://aclanthology.org/2025.findings-acl.1194/).
 [^13]: [BinMetric - IJCAI 2025](https://www.ijcai.org/proceedings/2025/858).
+[^14]: [decomp.wtf - Judge tests for constants and stale match records](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py).

@@ -149,6 +149,17 @@ Likewise, `frsp` establishes a rounding operation; it does not alone prove there
 Compare these candidates with the [matching-decompilation workflow](/decompilers#troubleshooting-matching-decompilation), keeping the project's compiler and flags fixed while testing expression changes.
 
 ---
+## Runtime Thunks and Register Inputs
+Some runtime helpers use inputs outside the ordinary C argument registers.
+The [decomp.wtf tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_handwritten.py) include a CodeWarrior member-function-pointer dispatch helper, `__ptmf_scall`, that reads a descriptor through `r12` before assigning that register [^4].
+
+Trace the caller's setup of `r12` and the helper's loads before declaring an ordinary C function prototype.
+A wrapper that adjusts an object pointer and branches indirectly may implement language runtime machinery rather than game logic.
+Compare against the project's runtime library before attempting an independent reconstruction.
+
+For general checks, see [function boundaries and unusual calling conventions](/disassemblers#check-function-boundaries-and-unusual-calling-conventions).
+
+---
 # All Posts
 <div>
 
@@ -160,3 +171,4 @@ Compare these candidates with the [matching-decompilation workflow](/decompilers
 [^1]: [decomp.wtf - PowerPC guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/ppc.md).
 [^2]: [IBM AIX 7.1 Assembler Language Reference](https://www.ibm.com/docs/ssw_aix_71/assembler/assembler_pdf.pdf), instruction entries for clrlwi, cmp, cmpl, cntlzw, fctiwz and frsp.
 [^3]: [IBM - Floating Multiply-Add instruction](https://www.ibm.com/docs/en/aix/7.1.0?topic=set-fmadd-fma-floating-multiply-add-instruction).
+[^4]: [decomp.wtf - CodeWarrior runtime-helper fixtures](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_handwritten.py).

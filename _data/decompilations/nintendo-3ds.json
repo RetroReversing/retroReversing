@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:15:18Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-30T23:43:40Z",
         "last_commit_url": "https://codeberg.org/Ivylag/leaflitter/commit/406ceb24edd2898d42d43d8c99865ed511e811c8",
-        "last_success_at": "2026-10-15T20:15:18Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "master"
-      }
+        "default_branch": "master",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "super-mario-3d-land-eu": {
       "name": "Super Mario 3D Land (EU)",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-05-22T20:11:49Z",
         "last_commit_url": "https://github.com/3dsdecomp/RedPepper/commit/6bd828b729f2442d18e7a586b6858a5fc6aeb6cd",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Inactive",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": 110
+      },
+      "ai_used": null
     },
     "the-legend-of-zelda-ocarina-of-time-3d": {
       "name": "The Legend of Zelda: Ocarina of Time 3D",
@@ -49,14 +53,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-04T19:43:43Z",
         "last_commit_url": "https://github.com/zeldaret/oot3d/commit/a87ddae43252cb3add71bf1003e7391bbe006033",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "archived": false,
         "status": "Active",
-        "default_branch": "main"
-      }
+        "default_branch": "main",
+        "github_stars": 88
+      },
+      "ai_used": null
     },
     "paper-mario-sticker-star-darxoon": {
       "name": "Paper Mario: Sticker Star",
@@ -68,14 +74,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-12-09T22:00:21Z",
         "last_commit_url": "https://github.com/Darxoon/leaflitter/commit/daab2d1ad7d31e9080f727391ebd4f86cb8a7198",
         "default_branch": "master",
         "archived": true,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
     },
     "ocarina-of-time-3d-triaevum-recomp": {
       "name": "Ocarina of Time 3D (TriAevum Recomp)",
@@ -87,14 +95,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-15T12:54:52Z",
         "last_commit_url": "https://github.com/coccofresco/TriAevum/commit/23eac6b02a3afb82d7e5c9b2efc7b9d6aa37f94c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 495
+      },
+      "ai_used": null
     },
     "pokemon-moon": {
       "name": "Pokemon Moon",
@@ -106,14 +116,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-16T13:32:13Z",
         "last_commit_url": "https://github.com/gradenGnostic/pokemoon/commit/7a5936eee5d08889d6cc534e6916a86b39fde694",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
     },
     "animal-crossing-new-leaf-welcome-amiibo": {
       "name": "Animal Crossing: New Leaf - Welcome amiibo",
@@ -124,7 +136,17 @@
       "project_type": "Decompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {}
+      "activity": {
+        "github_stars": 6,
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-14T12:23:34Z",
+        "last_commit_url": "https://github.com/RedShyGuy/acnl-decomp/commit/224295892706bdf10739681289c4c7033f9efe9d",
+        "default_branch": "master",
+        "archived": false,
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active"
+      },
+      "ai_used": null
     }
   },
   "consoles": {

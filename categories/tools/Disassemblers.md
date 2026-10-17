@@ -16,6 +16,7 @@ tags:
  - disassemblers
  - tools
  - software
+updatedAt: '2026-10-16'
 ---
 
 # Understanding How Disassemblers Work: A Deep Dive
@@ -328,6 +329,27 @@ The disassembler converts the decoded instructions, mapped symbols, and reconstr
 This code can then be reviewed, analyzed, or modified by the user.
 
 ---
+# Check Function Boundaries and Unusual Calling Conventions
+A routine that resists reconstruction as ordinary C may have an incorrect boundary, a specialised calling convention or hand-written assembly.
+Before trying more source variations, examine its incoming registers and all paths into and out of it.
+
+The [decomp.wtf handwritten-code tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_handwritten.py) illustrate useful clues and counterexamples [^1]:
+
+Observation | Next investigation
+---|---
+Reads a register before assigning it | Check whether the target ABI (application binary interface) passes an argument there, or whether the caller uses a private convention
+Ends without an ordinary return | Check for a tail call, shared epilogue, fallthrough or a wrongly split function
+Contains coprocessor or privileged operations | Look for SDK macros, intrinsics, runtime routines or inline assembly
+Looks like a known runtime thunk | Compare the complete sequence and callers with the matching library version
+
+These are triage clues, not proofs that no compiler could generate the code.
+The tests distinguish a MIPS register used as an argument on [PS2](/ps2) from the same register's role on [PS1](/ps1).
+They also avoid classifying a PowerPC `sync` instruction alone as handwritten: an SDK helper can introduce it into compiled code [^1].
+
+Record the suspected convention and preserve the routine in the project's supported assembly form until its role is understood.
+See the [GameCube runtime example](/gamecube#runtime-thunks-and-register-inputs) and [matching troubleshooting guide](/decompilers#troubleshooting-matching-decompilation) for the next steps.
+
+---
 # Dynamic Disassemblers
 A dynamic disassembler is a type of disassembler that analyzes the machine code of a program during its execution. Unlike static disassemblers, which analyze code without executing it, dynamic disassemblers observe the actual runtime behavior of the program, providing a real-time view of how instructions are executed, which code paths are taken, and how data is manipulated.
 
@@ -437,5 +459,6 @@ The main advantages of Interactive Disassemblers over static and dynamic are:
 For the next step up from disassembly, see:
 {% include_cached link-to-other-post.html post="/decompilers" description="Decompilers - A Deep Dive explains how tools recover C-like pseudo-code from machine code." %}
 
-
-
+---
+# References
+[^1]: [decomp.wtf - Handwritten-code classification tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_handwritten.py).

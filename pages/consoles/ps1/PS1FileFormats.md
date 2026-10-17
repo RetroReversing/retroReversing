@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: ps1
 editlink: /consoles/ps1/PS1FileFormats.md
-updatedAt: '2019-05-04'
+updatedAt: '2026-10-16'
 ---
 
 # File Formats used to distribute PS1 Discs
@@ -83,3 +83,42 @@ MOT | Animation information
 OGP | Vertex grouping information
 TMD | Format used by the game itself, MD is Modelling Data (What does the T stand for?)
 
+---
+# Recovering Raw Overlay Load Addresses
+An overlay is code loaded when needed, often into memory also used by other overlays at different times.
+A raw overlay need not carry the load-address header found in a main executable.
+The [decomp.wtf overlay importer](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py) investigates files using code patterns and whether calls land on candidate function starts [^1].
+
+## A Candidate Base from an Internal Call
+For an uncompressed, unrelocated image copied contiguously into memory, a function at file offset `F` has address `B + F`, where `B` is the candidate load base.
+Suppose a call targets `0x80123400` and a plausible callee begins at file offset `0x3400`.
+That pairing suggests `B = 0x80120000`.
+A second target at `0x80125600` paired with offset `0x5600` supports the same base.
+
+This Python example checks those two hypothetical pairings:
+
+```python
+pairs = [(0x80123400, 0x3400), (0x80125600, 0x5600)]
+bases = {target - offset for target, offset in pairs}
+assert bases == {0x80120000}
+```
+
+This is a hypothesis about which calls are internal, not a way to subtract any call target from any prologue.
+Calls into resident code should not be forced into the overlay.
+For MIPS `jal`, the destination combines the instruction's 26-bit index shifted left by two with the upper four bits of `PC + 4`; a disassembly at the wrong base can therefore mislead you.
+The project's [segment-placement implementation](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/n64code.py) searches candidate placements using multiple call targets and function-start patterns [^2].
+
+---
+## Verify the Mapping Against the Loader
+Find the disc read, copy or decompression operation and verify its destination and length in an emulator.
+Compression or relocation invalidates a direct file-offset-to-RAM mapping until those transformations are accounted for.
+Keep separate analysis segments for overlays sharing an address; record which one is loaded during each trace.
+
+The importer's prologue and return-pattern filters can miss small or unusual code regions.
+A file it does not recognise is not proven to be data [^1].
+For executable overlays with headers, see the [PS2 overlay notes](/ps2#executable-overlays-and-loadable-segments).
+
+---
+# References
+[^1]: [decomp.wtf - PS1 and PS2 overlay discovery](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py).
+[^2]: [decomp.wtf - MIPS segment-placement heuristics](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/n64code.py).

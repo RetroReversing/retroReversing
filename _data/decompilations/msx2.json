@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-01-15T17:46:56Z",
         "last_commit_url": "https://github.com/GuillianSeed/MetalGear/commit/30d1b940bede10fdabbaf9767ad4f0ad8dd33291",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 328
+      },
+      "ai_used": null
     }
   },
   "consoles": {}

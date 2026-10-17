@@ -21,6 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
+updatedAt: '2026-10-16'
 ---
 
 # Introduction
@@ -218,6 +219,15 @@ If you are interested in learning more we have a specific post about the Merkury
 
 
 ---
+# Executable Overlays and Loadable Segments
+A disc file containing code may be a separate executable or a raw overlay rather than part of the boot program.
+The [decomp.wtf PS2 importer](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py) reads executable ELF program headers to obtain the file offsets and virtual addresses of executable loadable segments [^6].
+
+Prefer those declared mappings over a guessed base, then verify how the game loads them.
+The importer excludes relocatable I/O processor modules from this path; these need the [IRX module workflow](/irx-ps2) rather than being treated as an Emotion Engine executable.
+For headerless code, the [raw-overlay example](/ps1-file-formats#recovering-raw-overlay-load-addresses) explains how call targets can suggest a base and why loader verification is still needed.
+
+---
 # All Posts
 <div>
 
@@ -231,3 +241,4 @@ If you are interested in learning more we have a specific post about the Merkury
 [^3]: Psi2 issue 20
 [^4]: [GDC 2004 Evolve](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
 [^5]: Postmortems from Game Developer (Austin Grossman, 2003) Page 299
+[^6]: [decomp.wtf - ELF overlay handling and IOP exclusions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py).

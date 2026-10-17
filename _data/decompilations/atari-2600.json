@@ -13,8 +13,10 @@
       "activity": {
         "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
-        "check_error": "Static disassembly collection; no repository commit history"
-      }
+        "check_error": "Static disassembly collection; no repository commit history",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "donkey-kong-atari-2600": {
       "name": "Donkey Kong",
@@ -28,8 +30,10 @@
       "activity": {
         "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
-        "check_error": "Forum-hosted disassembly; no repository commit history"
-      }
+        "check_error": "Forum-hosted disassembly; no repository commit history",
+        "github_stars": null
+      },
+      "ai_used": null
     }
   },
   "consoles": {

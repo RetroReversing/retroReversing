@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-15T08:05:01Z",
         "last_commit_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/commit/f10b56621ed13e0053e7cf8190e740834377e45a",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 718
+      },
+      "ai_used": null
     },
     "new-super-mario-bros-u": {
       "name": "New Super Mario Bros. U",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-06T19:42:25Z",
         "last_commit_url": "https://github.com/aboood40091/red-pro2/commit/1cf3b5d1a9d66fb257f318348d8f0fa2e641fde0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 44
+      },
+      "ai_used": null
     },
     "sonic-lost-world": {
       "name": "Sonic Lost World",
@@ -49,14 +53,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-04-15T05:55:41Z",
         "last_commit_url": "https://github.com/Radfordhound/OpenLW/commit/73ea9a66d3e76057259821b4019b4811ffd1e770",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 20
+      },
+      "ai_used": null
     },
     "splatoon": {
       "name": "Splatoon",
@@ -68,14 +74,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-12-18T18:50:37Z",
         "last_commit_url": "https://github.com/Dexx-io/Splatoon-Decomp/commit/9ef403d96f1a370bdd70434ce158a0c29879bfcf",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 14
+      },
+      "ai_used": null
     },
     "yoshi-s-woolly-world": {
       "name": "Yoshi's Woolly World",
@@ -87,14 +95,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-01-04T19:04:53Z",
         "last_commit_url": "https://github.com/Swiftshine/yww/commit/23d1c1c47fa314e3d1ae7bf9cd3a213dd925e512",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 7
+      },
+      "ai_used": null
     }
   },
   "consoles": {

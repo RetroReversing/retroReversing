@@ -87,19 +87,29 @@ class FetchError(Exception):
 
 class Client:
     def get(self, url, host):
+        return self.request(url, host)
+
+    def graphql(self, query):
+        return self.request('https://api.github.com/graphql', 'github.com', {'query': query})
+
+    def request(self, url, host, payload=None):
         headers = {'Accept': 'application/json', 'User-Agent': 'RetroReversing-decomp-activity'}
         token_name = {'github.com': 'GITHUB_TOKEN', 'gitlab.com': 'GITLAB_TOKEN', 'codeberg.org': 'CODEBERG_TOKEN'}[host]
-        token = os.environ.get(token_name)
+        token = os.environ.get(token_name) or (os.environ.get('GH_TOKEN') if host == 'github.com' else None)
         if token:
             if host == 'gitlab.com':
                 headers['PRIVATE-TOKEN'] = token
             else:
                 headers['Authorization'] = ('token ' if host == 'codeberg.org' else 'Bearer ') + token
         try:
-            with urlopen(Request(url, headers=headers), timeout=20) as response:
+            body = None if payload is None else json.dumps(payload).encode('utf-8')
+            if body is not None:
+                headers['Content-Type'] = 'application/json'
+            with urlopen(Request(url, headers=headers, data=body), timeout=20) as response:
                 return json.load(response)
         except HTTPError as error:
-            rate_limited = error.code == 429 or (error.code == 403 and error.headers.get('X-RateLimit-Remaining') == '0')
+            rate_limited = error.code == 429 or (error.code == 403 and
+                           (error.headers.get('X-RateLimit-Remaining') == '0' or error.headers.get('Retry-After')))
             raise FetchError('API rate limit reached' if rate_limited else 'HTTP {}'.format(error.code), rate_limited) from error
         except (URLError, TimeoutError, ValueError) as error:
             raise FetchError('Repository request failed ({})'.format(type(error).__name__)) from error
@@ -129,12 +139,52 @@ def fetch_repository(url, client):
         date, link = commits[0]['commit']['committer']['date'], commits[0]['html_url']
     if urlsplit(link).scheme != 'https':
         raise ValueError('Invalid commit URL')
+    stars = meta['stargazers_count'] if host == 'github.com' else None
+    if host == 'github.com' and (type(stars) is not int or stars < 0):
+        raise ValueError('Invalid GitHub star count')
     return {'last_commit_at': iso(timestamp(date)), 'last_commit_url': link,
-            'default_branch': branch, 'archived': bool(meta.get('archived', False))}
+            'default_branch': branch, 'archived': bool(meta.get('archived', False)),
+            'github_stars': stars}
 
 
-def refresh(data, client, now, limit=None, selected=None):
+def fetch_github_batch(identities, client):
+    """Read default-branch commits and repository metadata in one query."""
+    fields = []
+    for index, (_, path) in enumerate(identities):
+        owner, name = path.split('/')
+        fields.append('r%d: repository(owner: %s, name: %s) { stargazerCount isArchived '
+                      'defaultBranchRef { name target { ... on Commit { committedDate url } } } }'
+                      % (index, json.dumps(owner), json.dumps(name)))
+    response = client.graphql('query { ' + ' '.join(fields) + ' }')
+    errors = response.get('errors', [])
+    rate_limited = any(error.get('type') == 'RATE_LIMITED' for error in errors)
+    nodes = response.get('data') or {}
+    results = {}
+    for index, identity in enumerate(identities):
+        alias = 'r%d' % index
+        try:
+            if any((error.get('path') or [None])[0] == alias for error in errors):
+                raise FetchError('GitHub GraphQL repository check failed', rate_limited)
+            node = nodes.get(alias)
+            if not node:
+                raise FetchError('API rate limit reached' if rate_limited else
+                                 'GitHub repository unavailable', rate_limited)
+            branch = node['defaultBranchRef']
+            commit = branch['target']
+            stars = node['stargazerCount']
+            if type(stars) is not int or stars < 0 or urlsplit(commit['url']).scheme != 'https':
+                raise ValueError('Invalid GitHub repository metadata')
+            results[identity] = {'last_commit_at': iso(timestamp(commit['committedDate'])),
+                                 'last_commit_url': commit['url'], 'default_branch': branch['name'],
+                                 'archived': bool(node['isArchived']), 'github_stars': stars}
+        except (FetchError, KeyError, IndexError, TypeError, ValueError) as error:
+            results[identity] = error
+    return results
+
+
+def refresh(data, client, now, limit=None, selected=None, github_graphql=False):
     cache, attempts, failures = {}, 0, 0
+    planned = []
     for key, project in data['projects'].items():
         if selected and key not in selected:
             continue
@@ -142,14 +192,33 @@ def refresh(data, client, now, limit=None, selected=None):
             identity = repository_identity(project['repository_url'])
         except ValueError:
             continue
+        if identity not in planned:
+            planned.append(identity)
+    if limit is not None:
+        planned = planned[:limit]
+    for key, project in data['projects'].items():
+        if selected and key not in selected:
+            continue
+        try:
+            identity = repository_identity(project['repository_url'])
+        except ValueError:
+            continue
+        if identity not in planned:
+            continue
         if identity not in cache:
-            if limit is not None and attempts >= limit:
-                continue
-            attempts += 1
-            try:
-                cache[identity] = fetch_repository(project['repository_url'], client)
-            except (FetchError, KeyError, IndexError, TypeError, ValueError) as error:
-                cache[identity] = error
+            if github_graphql and identity[0] == 'github.com':
+                batch = [item for item in planned if item[0] == 'github.com' and item not in cache][:50]
+                attempts += len(batch)
+                try:
+                    cache.update(fetch_github_batch(batch, client))
+                except (FetchError, KeyError, IndexError, TypeError, ValueError) as error:
+                    cache.update({item: error for item in batch})
+            else:
+                attempts += 1
+                try:
+                    cache[identity] = fetch_repository(project['repository_url'], client)
+                except (FetchError, KeyError, IndexError, TypeError, ValueError) as error:
+                    cache[identity] = error
         result = cache[identity]
         activity = project.setdefault('activity', {})
         activity['checked_at'] = iso(now)
@@ -176,16 +245,21 @@ def main():
     parser.add_argument('--limit', type=int, help='Maximum distinct repositories to check')
     parser.add_argument('--project', action='append', help='Catalog project ID (repeatable)')
     parser.add_argument('--dry-run', action='store_true', help='Fetch and report without writing')
+    parser.add_argument('--github-graphql', action='store_true', help='Batch GitHub checks (requires GITHUB_TOKEN or GH_TOKEN)')
     args = parser.parse_args()
     if args.limit is not None and args.limit < 1:
         parser.error('--limit must be positive')
+    if args.github_graphql and not (os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')):
+        parser.error('--github-graphql requires GITHUB_TOKEN or GH_TOKEN; no requests were made')
     try:
         data, sources = load_catalog(args.data)
     except (OSError, ValueError) as error:
         parser.error(str(error))
     if args.project and set(args.project) - data['projects'].keys():
         parser.error('Unknown project ID')
-    attempts, failures = refresh(data, Client(), dt.datetime.now(dt.timezone.utc), args.limit, args.project)
+    if not args.github_graphql and not (os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')):
+        print('GitHub requests are unauthenticated. For daily runs use --github-graphql with a token.', file=sys.stderr)
+    attempts, failures = refresh(data, Client(), dt.datetime.now(dt.timezone.utc), args.limit, args.project, args.github_graphql)
     if not args.dry_run:
         save_catalog(sources)
     print('Checked {} repositories; {} failed checks{}'.format(attempts, failures, ' (dry run)' if args.dry_run else ''))

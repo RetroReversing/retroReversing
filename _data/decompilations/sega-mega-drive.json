@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-02T07:10:39Z",
         "last_commit_url": "https://github.com/sonicretro/kid-chameleon-disasm/commit/5856daef633cd7162acdf9ddf1a56fa81aedc65b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 41
+      },
+      "ai_used": null
     },
     "knuckles-the-echidna-in-sonic-the-hedgehog-2": {
       "name": "Knuckles the Echidna in Sonic the Hedgehog 2",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2013-12-02T04:53:07Z",
         "last_commit_url": "https://github.com/sonicretro/ktes2/commit/f7c0e72554c5ac0f9c592c71f95166dbd9b72873",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 15
+      },
+      "ai_used": null
     },
     "phantasy-star-ii": {
       "name": "Phantasy Star II",
@@ -49,17 +53,19 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2020-08-09T13:16:44Z",
         "last_commit_url": "https://github.com/sung3r/ps2disasm/commit/50e63573bb3b832e6b5222b3b3943e64aa9f19b9",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": 0
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps2disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "phantasy-star-iii": {
       "name": "Phantasy Star III",
@@ -71,17 +77,19 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-05-24T18:54:51Z",
         "last_commit_url": "https://github.com/brecert/ps3disasm/commit/b9b7d609ea6bafdee832bb0d574175fb3fe0a7f5",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": 2
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps3disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "phantasy-star-iv": {
       "name": "Phantasy Star IV",
@@ -93,17 +101,19 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_success_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2023-08-19T21:26:09Z",
         "last_commit_url": "https://github.com/squidfeatures/ps4disasm/commit/8a658314850904c6888969f90177779845133a7e",
         "default_branch": "master",
         "archived": false,
-        "status": "Inactive"
+        "status": "Inactive",
+        "github_stars": 6
       },
       "previous_repository_urls": [
         "https://github.com/lory90/ps4disasm"
-      ]
+      ],
+      "ai_used": null
     },
     "ristar": {
       "name": "Ristar",
@@ -115,14 +125,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2013-12-07T05:47:59Z",
         "last_commit_url": "https://github.com/sonicretro/ristar/commit/85b82f10c04e3402769bdad05ea469a472c2f100",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 34
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog": {
       "name": "Sonic the Hedgehog",
@@ -134,14 +146,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T19:30:42Z",
-        "last_commit_url": "https://github.com/sonicretro/s1disasm/commit/cfbbf9ebaa9d62753c568d3913fd2b349513aa66",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-15T23:45:27Z",
+        "last_commit_url": "https://github.com/sonicretro/s1disasm/commit/c81dc64e5c14d45504321c9fa516b74ab9501296",
         "archived": false,
         "default_branch": "AS",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 452
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-2": {
       "name": "Sonic the Hedgehog 2",
@@ -153,14 +167,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-11T01:50:03Z",
-        "last_commit_url": "https://github.com/sonicretro/s2disasm/commit/15e9fd52a65318bec3d5e746ce48dba6db6910db",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T06:20:32Z",
+        "last_commit_url": "https://github.com/sonicretro/s2disasm/commit/4ef457c18fc4902396c43ab06fabc119ac6ecb64",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 317
+      },
+      "ai_used": null
     },
     "sonic-the-hedgehog-3": {
       "name": "Sonic the Hedgehog 3",
@@ -172,14 +188,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-11T02:05:30Z",
         "last_commit_url": "https://github.com/sonicretro/skdisasm/commit/73de97c6b55055bcb8089c1d55d006b02136f163",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 264
+      },
+      "ai_used": null
     },
     "sonic-3d-blast": {
       "name": "Sonic 3D Blast",
@@ -191,14 +209,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2013-12-02T05:13:35Z",
         "last_commit_url": "https://github.com/sonicretro/s3ddisasm/commit/6d7815119e662b162875d64be58d991fac582f2d",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 30
+      },
+      "ai_used": null
     },
     "sonic-spinball": {
       "name": "Sonic Spinball",
@@ -210,14 +230,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2019-11-28T04:18:15Z",
         "last_commit_url": "https://github.com/sonicretro/spindisasm/commit/d835779e55a36fa204edfa34c1a332d9e3836f6c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 40
+      },
+      "ai_used": null
     },
     "toy-story": {
       "name": "Toy Story",
@@ -229,14 +251,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-14T20:12:08Z",
-        "last_commit_at": "2026-10-13T14:07:18Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/d55b4b91d5451ed7b2aaaaef97f9ae87ab758c4e",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T09:30:00Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/2650a9b599b4e6878810d71219bfb0a3f11d44f4",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 0
+      },
+      "ai_used": null
     },
     "dragon-ball-z-buyuu-retsuden": {
       "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -248,14 +272,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-14T20:12:08Z",
-        "last_commit_at": "2026-10-13T13:59:52Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/dd871f93f04489a686b6024f410f1f2f7d757c83",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T09:30:04Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/84fbba085ad0b0a176950a85812fae128173e22d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-14T20:12:08Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 0
+      },
+      "ai_used": null
     }
   },
   "consoles": {

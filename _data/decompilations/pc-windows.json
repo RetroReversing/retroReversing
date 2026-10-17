@@ -11,14 +11,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-03-12T18:10:29Z",
         "last_commit_url": "https://github.com/gameblabla/CSE2/commit/f957b05ad29dd19e30c53c99fb312f444d769149",
         "archived": false,
         "default_branch": "portable",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 199
+      },
+      "ai_used": null
     },
     "chrono-cross-radical-dreamers-edition": {
       "name": "Chrono Cross: Radical Dreamers Edition",
@@ -30,14 +32,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-04-14T03:51:12Z",
         "last_commit_url": "https://github.com/jdperos/chrono-cross-decomp/commit/7dcadfc36421c9b26466f7fdbdbaa1a1102219c6",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 73
+      },
+      "ai_used": null
     },
     "cosmo-s-cosmic-adventure": {
       "name": "Cosmo's Cosmic Adventure",
@@ -49,14 +53,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-10-23T18:45:12Z",
         "last_commit_url": "https://github.com/smitelli/cosmore/commit/80418d1ee9026594e4dcc8445ec801d374074d84",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 145
+      },
+      "ai_used": null
     },
     "cut-the-rope-dx": {
       "name": "Cut the Rope DX",
@@ -68,14 +74,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-09T01:07:03Z",
         "last_commit_url": "https://github.com/yell0wsuit/cuttherope-dx/commit/3fb70e70a92dc13da263cee0db5f4ef19c686bc6",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 125
+      },
+      "ai_used": null
     },
     "deus-ex-human-revolution": {
       "name": "Deus Ex: Human Revolution",
@@ -87,14 +95,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-24T02:07:34Z",
         "last_commit_url": "https://github.com/rrika/cdcEngineDXHR/commit/647132cd12cbef1beb9e731e9dfeb11c159acb91",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 323
+      },
+      "ai_used": null
     },
     "diablo": {
       "name": "Diablo",
@@ -106,14 +116,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-09-15T02:01:35Z",
         "last_commit_url": "https://github.com/diasurgical/devilution/commit/9f01757243412bb154d02d9af65c804159e6e0ea",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 9004
+      },
+      "ai_used": null
     },
     "diablo-ii": {
       "name": "Diablo II",
@@ -125,14 +137,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-13T05:41:05Z",
         "last_commit_url": "https://github.com/ThePhrozenKeep/D2MOO/commit/0c0bbd1e6bef9181a3da1c046523af622a925416",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 184
+      },
+      "ai_used": null
     },
     "duck-game": {
       "name": "Duck Game",
@@ -144,14 +158,16 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-06-26T06:29:58Z",
         "last_commit_url": "https://github.com/TheFlyingFoool/DuckGameRebuilt/commit/90a281b02ad4183db5a88069ee26f93f76bd2fd4",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 195
+      },
+      "ai_used": null
     },
     "duke-nukem-ii-dos": {
       "name": "Duke Nukem II (DOS)",
@@ -163,14 +179,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-04-13T09:18:09Z",
         "last_commit_url": "https://github.com/lethal-guitar/Duke2Reconstructed/commit/980cee990879fa5f9e53706ef63ad25df8e32d2d",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 371
+      },
+      "ai_used": null
     },
     "lego-island": {
       "name": "Lego Island",
@@ -182,14 +200,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-18T23:16:23Z",
         "last_commit_url": "https://github.com/isledecomp/isle/commit/8119bd013645972c72480e4de21529f1e91ce5c7",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 3491
+      },
+      "ai_used": null
     },
     "oddworld-1-2": {
       "name": "Oddworld 1-2",
@@ -201,14 +221,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-01T09:19:18Z",
         "last_commit_url": "https://github.com/AliveTeam/alive_reversing/commit/3be8967b71b29e6e61009d291bd64dce39abf7ac",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 442
+      },
+      "ai_used": null
     },
     "oregon-trail-ii": {
       "name": "Oregon Trail II",
@@ -220,14 +242,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-08-01T03:38:35Z",
         "last_commit_url": "https://github.com/katstasaph/otii/commit/6c3fdeb07b80d4cf54acfff02afeee61675a2673",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 21
+      },
+      "ai_used": null
     },
     "plants-vs-zombies-goty-edition": {
       "name": "Plants vs. Zombies GOTY Edition",
@@ -239,14 +263,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-11T12:45:01Z",
         "last_commit_url": "https://github.com/Patoke/re-plants-vs-zombies/commit/c4692036c5e11d227c8fb7c593b734dac96da028",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 235
+      },
+      "ai_used": null
     },
     "retro-sonic-3d": {
       "name": "Retro Sonic 3D",
@@ -258,14 +284,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-30T19:06:39Z",
         "last_commit_url": "https://github.com/RSDKModding/RSonic3D-Decompilation/commit/da1bec475d829f94a7da9b53335bfa978f3e760c",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
     },
     "skifree": {
       "name": "SkiFree",
@@ -277,14 +305,16 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2022-12-08T11:49:00Z",
         "last_commit_url": "https://github.com/yuv422/skifree_decomp/commit/7b473c51f79671c7fc54c7b14eb4e118687b2048",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 70
+      },
+      "ai_used": null
     },
     "sonic-cd-2011": {
       "name": "Sonic CD (2011)",
@@ -296,14 +326,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-10T15:23:12Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Decompilation/commit/c01fc0c360e8e35e791630407ea5c7a426718e54",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 711
+      },
+      "ai_used": null
     },
     "retro-engine-v3": {
       "name": "Retro Engine v3",
@@ -315,14 +347,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-10T15:23:12Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Decompilation/commit/c01fc0c360e8e35e791630407ea5c7a426718e54",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 711
+      },
+      "ai_used": null
     },
     "sonic-cd-scripts-rsdkv3": {
       "name": "Sonic CD scripts (RSDKv3)",
@@ -334,14 +368,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-13T00:29:51Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv3-Script-Decompilation/commit/dad641a31637d0545ac9c4f3e95707bb5e671961",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 138
+      },
+      "ai_used": null
     },
     "sonic-mania": {
       "name": "Sonic Mania",
@@ -353,14 +389,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-05-12T00:57:03Z",
         "last_commit_url": "https://github.com/RSDKModding/Sonic-Mania-Decompilation/commit/9dc699428420d752af9767bdb13f585ee0881bc0",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 817
+      },
+      "ai_used": null
     },
     "retro-engine-v5-and-v5-ultimate": {
       "name": "Retro Engine v5 and v5 Ultimate",
@@ -372,14 +410,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-03T23:52:18Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv5-Decompilation/commit/191d7aea6c262d891244172a8609ac69fbfd7571",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 566
+      },
+      "ai_used": null
     },
     "sonic-mania-rsdkmodding": {
       "name": "Sonic Mania (RSDKModding)",
@@ -391,14 +431,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-05-12T00:57:03Z",
         "last_commit_url": "https://github.com/RSDKModding/Sonic-Mania-Decompilation/commit/9dc699428420d752af9767bdb13f585ee0881bc0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 817
+      },
+      "ai_used": null
     },
     "shortline-railroad-dos": {
       "name": "ShortLine railroad (DOS)",
@@ -410,14 +452,16 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-08T09:18:55Z",
         "last_commit_url": "https://github.com/konovalov-aleks/reSL/commit/470cca330ee9abcf6173c843f4c89686c0c7e525",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
     },
     "sonic-nexus-retro-engine-v2": {
       "name": "Sonic Nexus (Retro Engine v2)",
@@ -429,14 +473,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-01T21:50:26Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv2-Decompilation/commit/cc411106137dca8d3936c709d6a1875aa788fd9c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 55
+      },
+      "ai_used": null
     },
     "timesplitters-rewind": {
       "name": "TimeSplitters Rewind",
@@ -450,8 +496,10 @@
       "activity": {
         "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
-        "check_error": "Project website; no public source repository linked"
-      }
+        "check_error": "Project website; no public source repository linked",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "touhou-koumakyou-the-embodiment-of-scarlet-devil": {
       "name": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
@@ -463,14 +511,16 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-14T00:48:19Z",
-        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T03:14:35Z",
+        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/fc68bed17d742968621110ce92e1e17922ff7404",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 616
+      },
+      "ai_used": null
     },
     "touhou-6-gensokyoclub": {
       "name": "Touhou 6 (GensokyoClub)",
@@ -482,14 +532,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-14T00:48:19Z",
-        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/4b35ad00b59fa77f31a66e8a1db5b32bdf1d59b5",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T03:14:35Z",
+        "last_commit_url": "https://github.com/GensokyoClub/th06/commit/fc68bed17d742968621110ce92e1e17922ff7404",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 616
+      },
+      "ai_used": null
     },
     "twisted-metal-2": {
       "name": "Twisted Metal 2",
@@ -501,10 +553,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "status": "Unverified",
-        "check_error": "HTTP 404"
-      }
+        "check_error": "HTTP 404",
+        "github_stars": null
+      },
+      "ai_used": null
     },
     "grand-theft-auto-san-andreas": {
       "name": "Grand Theft Auto: San Andreas",
@@ -516,14 +570,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T16:49:18Z",
-        "last_commit_url": "https://github.com/gta-reversed/gta-reversed/commit/0d540030f7c45e310042a437569bece420dcfd0f",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T19:19:39Z",
+        "last_commit_url": "https://github.com/gta-reversed/gta-reversed/commit/c65cfe85f90bfe80cdb3b82701891f376a3482ea",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 1073
+      },
+      "ai_used": null
     },
     "plants-vs-zombies-goty": {
       "name": "Plants vs Zombies GOTY",
@@ -535,14 +591,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-11-21T12:59:01Z",
         "last_commit_url": "https://github.com/Bamcane/re-plants-vs-zombies/commit/0f6bbd39302acf69484ba8b3e071724e35cfba17",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
     },
     "sonic-generations": {
       "name": "Sonic Generations",
@@ -554,14 +612,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-11-17T00:09:47Z",
         "last_commit_url": "https://github.com/Luigi587/GenerationsDecomp/commit/52f424ceacad50809463a75daf984a7f5a340332",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
     },
     "space-cadet-pinball": {
       "name": "Space Cadet Pinball",
@@ -573,14 +633,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-08-21T06:56:55Z",
         "last_commit_url": "https://github.com/k4zmu2a/SpaceCadetPinball/commit/cb9b7b886244a27773f66b0b19fdc2998392565e",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 4707
+      },
+      "ai_used": null
     },
     "zuma-deluxe": {
       "name": "Zuma Deluxe",
@@ -592,14 +654,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-12-06T01:13:55Z",
         "last_commit_url": "https://github.com/alula/CircleShootApp/commit/165d0fd30d977da7ad5ee6efe128d8af2178713b",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 100
+      },
+      "ai_used": null
     },
     "barnyard": {
       "name": "Barnyard",
@@ -611,14 +675,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-13T15:55:23Z",
-        "last_commit_url": "https://github.com/InfiniteC0re/OpenBarnyard/commit/15b444352eb53a21f2c50e5d9a4c533ee9c35699",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T20:14:36Z",
+        "last_commit_url": "https://github.com/InfiniteC0re/OpenBarnyard/commit/b241cc625aa5a010491d1b90a5189b6fd60d2613",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 90
+      },
+      "ai_used": null
     },
     "battlefield-2": {
       "name": "Battlefield 2",
@@ -630,14 +696,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-01T17:28:35Z",
         "last_commit_url": "https://github.com/kiwidoggie/breadflowerdos/commit/6b4d4e1f10dee9b1c8932db95f91b92e3eceb7db",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 44
+      },
+      "ai_used": null
     },
     "bio-menace": {
       "name": "Bio Menace",
@@ -649,14 +717,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-12-27T13:57:58Z",
         "last_commit_url": "https://github.com/lethal-guitar/BioMenaceDecomp/commit/4471bcfc03ff2ebe10620011fa45e9a1d086c841",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 15
+      },
+      "ai_used": null
     },
     "black-and-white": {
       "name": "Black and White",
@@ -668,14 +738,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T20:14:34Z",
-        "last_commit_url": "https://github.com/openblack/bw1-decomp/commit/64557ea264ed0b0efefa58fdbff06ed6fe3db6c8",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T05:20:16Z",
+        "last_commit_url": "https://github.com/openblack/bw1-decomp/commit/d11b0e705b34ac2b33078e9bf25c33a38edd93c3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 100
+      },
+      "ai_used": null
     },
     "carmageddon": {
       "name": "Carmageddon",
@@ -687,14 +759,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T04:40:14Z",
-        "last_commit_url": "https://github.com/dethrace-labs/dethrace/commit/136cf4aca27480e47056456efff80e1a6d0c366a",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T03:23:56Z",
+        "last_commit_url": "https://github.com/dethrace-labs/dethrace/commit/e0e1ec54927f04ff6ef9a33ef92744b996237647",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 1219
+      },
+      "ai_used": null
     },
     "costume-quest": {
       "name": "Costume Quest",
@@ -706,14 +780,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-06-18T21:38:23Z",
         "last_commit_url": "https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp/commit/c3f83b9fe79da055aaa1de72b98fa182a170f826",
         "default_branch": "main",
         "archived": false,
         "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "status": "Inactive",
+        "github_stars": null,
+        "check_error": "HTTP 404"
+      },
+      "ai_used": null
     },
     "fallout-2": {
       "name": "Fallout 2",
@@ -725,14 +802,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2023-01-20T16:44:03Z",
         "last_commit_url": "https://github.com/alexbatalov/fallout2-re/commit/b135fc46ef40c4aecd156f3cebcf88ec531bb8ac",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 411
+      },
+      "ai_used": null
     },
     "flatout-2": {
       "name": "FlatOut 2",
@@ -744,14 +823,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-10-16T10:07:58Z",
         "last_commit_url": "https://github.com/ZackWilde27/FlatOut-2-decomp/commit/e22b2417f8c17c064fa08552cc7ec622d388f7cb",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 43
+      },
+      "ai_used": null
     },
     "fuel": {
       "name": "FUEL",
@@ -763,14 +844,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-03-14T21:26:58Z",
         "last_commit_url": "https://github.com/widberg/FUELDecompilation/commit/bd6b69976602b2758ab8559a1557fde24861f193",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 27
+      },
+      "ai_used": null
     },
     "grand-theft-auto-2": {
       "name": "Grand Theft Auto 2",
@@ -782,14 +865,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T19:38:48Z",
-        "last_commit_url": "https://github.com/CriminalRETeam/gta2_re/commit/ced2901279809077717e7f7e233dbfff477f07e8",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T23:26:29Z",
+        "last_commit_url": "https://github.com/CriminalRETeam/gta2_re/commit/1dfc8f0daa34cec29a4032eda1f446c213850883",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 118
+      },
+      "ai_used": null
     },
     "hitman-codename-47": {
       "name": "Hitman: Codename 47",
@@ -801,14 +886,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-29T08:15:46Z",
         "last_commit_url": "https://github.com/0danny/re47/commit/e5a15bb85a38417e84466d50584131d137910fe0",
         "default_branch": "main",
         "archived": true,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 74
+      },
+      "ai_used": null
     },
     "jazz-jackrabbit-2": {
       "name": "Jazz Jackrabbit 2",
@@ -820,14 +907,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2025-05-09T10:45:46Z",
         "last_commit_url": "https://github.com/Mustafa1177/jazzjackrabbit2-decompiled/commit/89afd58b80f54be3850e6576add024039c77231f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 2
+      },
+      "ai_used": null
     },
     "jurassic-park-operation-genesis": {
       "name": "Jurassic Park: Operation Genesis",
@@ -839,14 +928,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-01-20T16:03:16Z",
         "last_commit_url": "https://github.com/AdventureT/OpenJPOG/commit/84b503e76d7a6250f4bbd7df807a50ec591660bb",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
     },
     "lego-batman-the-videogame": {
       "name": "LEGO Batman: The Videogame",
@@ -858,14 +949,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-11T01:23:12Z",
         "last_commit_url": "https://github.com/wasdhjklxyz/lbtvg/commit/fa6e38ffc40c73bee6b10af015fed2ac10e21ab4",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "lego-creator-knights-kingdom": {
       "name": "Lego Creator Knights Kingdom",
@@ -877,14 +970,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-05T15:29:28Z",
         "last_commit_url": "https://github.com/DavidGrice/knightskingdom/commit/e6cf39544866299e6a39f886b9d523dd76cb8e7f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
     },
     "lemmings-paintball": {
       "name": "Lemmings Paintball",
@@ -896,14 +991,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T18:08:37Z",
-        "last_commit_url": "https://github.com/vonhoff/lemball-decomp/commit/938122455844c62783b7d7822d5ff4e8fdc663ee",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T09:56:55Z",
+        "last_commit_url": "https://github.com/vonhoff/lemball-decomp/commit/c0d64a0d64bc64a1932b497b68ec51e1becfd78c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
     },
     "mafia-the-city-of-lost-heaven": {
       "name": "Mafia: The City of Lost Heaven",
@@ -915,14 +1012,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T19:22:05Z",
-        "last_commit_url": "https://github.com/Marvisak/mafia-re/commit/3ad539b4f1a6ae4b47e8614cc52c3569b4f4be9a",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-17T08:14:18Z",
+        "last_commit_url": "https://github.com/Marvisak/mafia-re/commit/bdd3cb211b170d22b3f6f05111b7e0ba20e68432",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
     },
     "nocturne": {
       "name": "Nocturne",
@@ -934,14 +1033,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-14T05:52:45Z",
         "last_commit_url": "https://github.com/NearlyTRex/NocturneDecomp/commit/b2bd09ac21d6e12f2fb21f52ef8cf62a61063470",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
     },
     "real-war": {
       "name": "Real War",
@@ -953,14 +1054,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-05-27T03:45:36Z",
         "last_commit_url": "https://github.com/Francessco121/real-war-decomp/commit/9f212e0b38c1e15bbfb0236d3bebd0043f3c4e52",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 15
+      },
+      "ai_used": null
     },
     "star-wars-episode-1-racer": {
       "name": "Star Wars Episode 1: Racer",
@@ -972,14 +1075,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-05T16:00:51Z",
         "last_commit_url": "https://github.com/tim-tim707/SW_RACER_RE/commit/a9863edd4caaa573f89ff634fa7d1cd6d41738ab",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 74
+      },
+      "ai_used": null
     },
     "test-drive-unlimited": {
       "name": "Test Drive Unlimited",
@@ -991,14 +1096,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T06:18:43Z",
-        "last_commit_url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/commit/c07907e41a2dd73cf88a70df0818f98469e37cc9",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T23:01:31Z",
+        "last_commit_url": "https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/commit/0778c7eb460250d224dde0a221fce2d63e1b9d6c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 135
+      },
+      "ai_used": null
     },
     "the-italian-job": {
       "name": "The Italian Job",
@@ -1010,14 +1117,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-08-28T20:59:16Z",
         "last_commit_url": "https://github.com/dashr9230/Caper/commit/17eda11193113243828b4c8a21e64cbe92902a24",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
     },
     "tomb-raider-legend": {
       "name": "Tomb Raider: Legend",
@@ -1029,14 +1138,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-12-24T18:52:27Z",
         "last_commit_url": "https://github.com/TheIndra55/cdcEngine/commit/405efd9ddaa9cc4ff86787d4fb5b0c744cbf1c97",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 23
+      },
+      "ai_used": null
     },
     "touhou-08-imperishable-night": {
       "name": "Touhou 08: Imperishable Night",
@@ -1048,14 +1159,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-06T22:06:50Z",
         "last_commit_url": "https://github.com/GensokyoClub/th08/commit/f345c7dee07b849f2ff93a0029ab5ede126bf12c",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 24
+      },
+      "ai_used": null
     },
     "bumpy-s-arcade-fantasy": {
       "name": "Bumpy's Arcade Fantasy",
@@ -1067,14 +1180,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-10-07T13:24:07Z",
         "last_commit_url": "https://github.com/GeReV/bumpy-reverse/commit/346d05c8e2d2d10c5d97b65afaec690db9391932",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 0
+      },
+      "ai_used": null
     },
     "kknd-krush-kill-n-destroy": {
       "name": "KKND: Krush Kill 'n Destroy",
@@ -1086,14 +1201,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-09-24T19:24:04Z",
         "last_commit_url": "https://github.com/Wyrelade/KKND-Decomp/commit/4dfd5b100755421bac28ab9dab452b1db7a9c81f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
     },
     "plants-vs-zombies-0-9-9": {
       "name": "Plants vs. Zombies (0.9.9)",
@@ -1105,14 +1222,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-07-29T16:41:22Z",
         "last_commit_url": "https://github.com/bluisblu/pvz/commit/35ae4660f3527505917cb00289d962de75aafb49",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
     },
     "snail-mail": {
       "name": "Snail Mail",
@@ -1124,14 +1243,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
-        "last_commit_at": "2026-10-15T20:07:11Z",
-        "last_commit_url": "https://github.com/banteg/snail/commit/9cde1f771ab04f6545db82d3f7277c4373b88623",
+        "checked_at": "2026-10-17T10:42:54Z",
+        "last_commit_at": "2026-10-16T20:15:46Z",
+        "last_commit_url": "https://github.com/banteg/snail/commit/c75dd3735227ff6a500ab58c86e753ffee68b476",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
     },
     "starflight": {
       "name": "Starflight",
@@ -1143,14 +1264,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2026-03-09T20:28:31Z",
         "last_commit_url": "https://github.com/s-macke/starflight-reverse/commit/07a3392933214419d935961675c65ffa36fe57f4",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Active"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Active",
+        "github_stars": 236
+      },
+      "ai_used": null
     },
     "stronghold-1993": {
       "name": "Stronghold (1993)",
@@ -1162,14 +1285,16 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-15T20:19:25Z",
+        "checked_at": "2026-10-17T10:42:54Z",
         "last_commit_at": "2024-08-15T17:58:09Z",
         "last_commit_url": "https://github.com/NancySadkov/dest/commit/b858458fe4d97384ef7cd0b00e42ae4219809b97",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-15T20:19:25Z",
-        "status": "Inactive"
-      }
+        "last_success_at": "2026-10-17T10:42:54Z",
+        "status": "Inactive",
+        "github_stars": 4
+      },
+      "ai_used": null
     }
   },
   "consoles": {
