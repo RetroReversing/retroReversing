@@ -23,25 +23,42 @@
     align-items: flex-start;
   } */
   
+  h1 + figure + p::before,
   h2 + figure + p::before {
     content: '';
     display: block;
     width: 0; /* placeholder to ensure the layout works */
   }
   
+  h1 + figure,
   h2 + figure {
     float: left;
 /*     margin-right: -4rem; */
     margin-bottom: 2rem;
     display: flex;
+    align-items: flex-start;
   }
   
+  h1 + figure img,
   h2 + figure img {
     width:100%;
     max-width: 250px;
     height: auto;
     display: block;
     float:left;
+  }
+
+  @media (max-width: 768px) {
+    h1 + figure,
+    h2 + figure {
+      float: none;
+    }
+
+    h1 + figure img,
+    h2 + figure img {
+      float: none;
+      max-width: min(250px, 70%);
+    }
   }
 
   h1,h2,h3,h4,h5,hr {

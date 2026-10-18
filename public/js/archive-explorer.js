@@ -15,6 +15,9 @@
     const folders = new Set(['', ...visibleFolders]);
     const children = new Map([...folders].map((path) => [path, { folders: [], files: [] }]));
     const fileMap = new Map(visibleFiles.map((entry) => [entry.path, entry]));
+    const folderDescriptionMap = new Map((manifest.folderDescriptions || [])
+      .filter((entry) => entry && folders.has(entry.path))
+      .map((entry) => [entry.path, entry]));
     visibleFolders.forEach((path) => children.get(parent(path)).folders.push(path));
     visibleFiles.forEach((entry) => children.get(parent(entry.path)).files.push(entry));
     children.forEach((group) => {
@@ -60,11 +63,37 @@
 
     function renderDetail() {
       detail.replaceChildren();
+      const entry = selected ? fileMap.get(selected) : null;
+      const folderEntry = !entry ? folderDescriptionMap.get(current) : null;
       const eyebrow = document.createElement('span');
       eyebrow.className = 'rr-archive__detail-eyebrow';
-      eyebrow.textContent = selected ? 'FILE CARD' : 'ARCHIVE GUIDE';
+      eyebrow.textContent = entry ? 'FILE CARD' : folderEntry ? 'FOLDER GUIDE' : 'ARCHIVE GUIDE';
       detail.append(eyebrow);
-      if (!selected) {
+      if (folderEntry) {
+        const heading = document.createElement('h4');
+        heading.textContent = current ? basename(current) : rootName;
+        const path = document.createElement('p');
+        path.className = 'rr-archive__detail-path';
+        path.textContent = current ? `${rootName}/${current}` : rootName;
+        const copy = document.createElement('p');
+        copy.textContent = folderEntry.description;
+        const group = children.get(current);
+        const metadata = document.createElement('dl');
+        const facts = [
+          ['Contains', `${group.folders.length.toLocaleString()} ${group.folders.length === 1 ? 'folder' : 'folders'} and ${group.files.length.toLocaleString()} ${group.files.length === 1 ? 'file' : 'files'}`]
+        ];
+        if (folderEntry.basis) facts.push(['Description basis', folderEntry.basis]);
+        facts.forEach(([term, value]) => {
+          const dt = document.createElement('dt');
+          dt.textContent = term;
+          const dd = document.createElement('dd');
+          dd.textContent = value;
+          metadata.append(dt, dd);
+        });
+        detail.append(heading, path, copy, metadata);
+        return;
+      }
+      if (!entry) {
         const heading = document.createElement('h4');
         heading.textContent = 'Choose a file';
         const copy = document.createElement('p');
@@ -72,7 +101,6 @@
         detail.append(heading, copy);
         return;
       }
-      const entry = fileMap.get(selected);
       const heading = document.createElement('h4');
       heading.textContent = basename(selected);
       const path = document.createElement('p');
@@ -133,6 +161,11 @@
 
     function folderRow(path) {
       const row = button('', 'rr-archive__row', () => navigate(path));
+      const folderEntry = folderDescriptionMap.get(path);
+      if (folderEntry) {
+        row.title = folderEntry.description;
+        row.setAttribute('aria-label', `${basename(path)} folder. ${folderEntry.description}`);
+      }
       const icon = document.createElement('span');
       icon.className = 'rr-archive__icon rr-archive__icon--folder';
       icon.setAttribute('aria-hidden', 'true');
