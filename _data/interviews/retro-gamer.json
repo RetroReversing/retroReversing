@@ -12109,6 +12109,1443 @@
         "Amiga"
       ],
       "description_markdown": "Dinc recalls **Ant Attack** conversions, **First Samurai**, and his games career."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        8,
+        9
+      ],
+      "developer": "Team17 staff",
+      "platforms": [
+        "PC",
+        "Home consoles"
+      ],
+      "description_markdown": "Team17 discusses its return to independent game publishing."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        20
+      ],
+      "developer": "Colin Jones",
+      "platforms": [
+        "ZX Spectrum",
+        "PC"
+      ],
+      "description_markdown": "Jones explains why he revived **Slightly Magic**."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        32,
+        35
+      ],
+      "developer": "Dominic Robinson",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "Robinson recalls programming Hewson's shooter **Zynaps**."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        48
+      ],
+      "developer": "Simon Pick",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Pick discusses converting **Shinobi** to the Commodore 64."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        56,
+        63
+      ],
+      "developer": "Scott Miller and first-person shooter developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Developers including Miller and Marc Laidlaw discuss the evolution of first-person shooters."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "John and Ste Pickford",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "The brothers recall designing the wizard duel game **Feud**."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        70,
+        75
+      ],
+      "developer": "Oddworld Inhabitants staff",
+      "platforms": [
+        "PlayStation",
+        "PC"
+      ],
+      "description_markdown": "Lorne Lanning and colleagues recount creating the early **Oddworld** games."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        78,
+        85
+      ],
+      "developer": "Chris Sutherland and Rare developers",
+      "platforms": [
+        "Nintendo 64",
+        "Xbox 360"
+      ],
+      "description_markdown": "Rare contributors discuss **Banjo-Kazooie** and its sequels."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        86,
+        87
+      ],
+      "developer": "Teddy Lee",
+      "platforms": [
+        "PC",
+        "PlayStation Vita"
+      ],
+      "description_markdown": "Lee discusses the design and influences of **Rogue Legacy**."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        88,
+        91
+      ],
+      "developer": "Realms of the Haunting developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Former developers explain the making of the horror adventure **Realms of the Haunting**."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Graeme Devine",
+      "platforms": [
+        "Atari 8-bit",
+        "PC"
+      ],
+      "description_markdown": "Devine recalls **The 7th Guest**, **Quake III Arena**, and his career."
+    },
+    {
+      "type": "interview",
+      "issue": 132,
+      "pages": [
+        105
+      ],
+      "developer": "Francois Lecornec",
+      "platforms": [
+        "Mega Drive"
+      ],
+      "description_markdown": "Lecornec explains his homebrew conversion of **Barbarian** to the Mega Drive."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        10,
+        11
+      ],
+      "developer": "Yoshiaki Hirabayashi",
+      "platforms": [
+        "GameCube",
+        "PC",
+        "PlayStation 4"
+      ],
+      "description_markdown": "The producer discusses remastering the GameCube **Resident Evil**."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        18
+      ],
+      "developer": "Nick Burcombe",
+      "platforms": [
+        "PlayStation",
+        "PlayStation Vita"
+      ],
+      "description_markdown": "The former **WipEout** developer discusses **Table Top Racing**."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        24,
+        31
+      ],
+      "developer": "Punch-Out developers",
+      "platforms": [
+        "Arcade",
+        "NES",
+        "Super Nintendo"
+      ],
+      "description_markdown": "Nintendo developers discuss the series' arcade origins and console sequels."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "David Jones",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "Jones recalls creating the **Magic Knight** games, beginning with **Finders Keepers**."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        46,
+        51
+      ],
+      "developer": "David Martin",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "The Martech founder recalls the publisher's personality-licensed games."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        56,
+        61
+      ],
+      "developer": "Rick Moncrief and Hard Drivin' developers",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "The Atari team explains the technology and design of **Hard Drivin'**."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        68,
+        71
+      ],
+      "developer": "Atsushi Seimiya",
+      "platforms": [
+        "Mega Drive"
+      ],
+      "description_markdown": "Seimiya recalls developing the original **Streets of Rage**."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        74,
+        81
+      ],
+      "developer": "Turn-based strategy developers",
+      "platforms": [
+        "PC",
+        "Home computers"
+      ],
+      "description_markdown": "Developers including Don Daglow and Julian Gollop discuss the strategy genre."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "John Brandstetter and Sega 32X developers",
+      "platforms": [
+        "Sega 32X"
+      ],
+      "description_markdown": "The team recalls the 32X hardware and its **Star Wars Arcade** launch game."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Simon Nicol",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Nicol discusses his programming career and projects that never shipped."
+    },
+    {
+      "type": "interview",
+      "issue": 133,
+      "pages": [
+        105
+      ],
+      "developer": "Csaba Panlankaczy",
+      "platforms": [
+        "Commodore 16",
+        "Commodore Plus/4"
+      ],
+      "description_markdown": "The homebrew author explains developing **Floodit**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        16
+      ],
+      "developer": "Pete Daniels",
+      "platforms": [
+        "Amiga",
+        "iOS"
+      ],
+      "description_markdown": "The former **Zool** artist discusses creating **Bounce Vortex**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        20,
+        29
+      ],
+      "developer": "Sega Saturn developers",
+      "platforms": [
+        "Saturn"
+      ],
+      "description_markdown": "Developers discuss the Saturn's launch, hardware, and games on its twentieth anniversary."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        30,
+        31
+      ],
+      "developer": "Tom Kalinske",
+      "platforms": [
+        "Saturn"
+      ],
+      "description_markdown": "The former Sega of America chief answers questions about the Saturn's development and launch."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        32,
+        35
+      ],
+      "developer": "Brian Fargo",
+      "platforms": [
+        "Apple II",
+        "Commodore 64"
+      ],
+      "description_markdown": "Fargo recalls developing Interplay's original **Wasteland**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        48,
+        51
+      ],
+      "developer": "Rod Cousens and David Rowe",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "The publisher and cover artist describe producing the charity compilation **Soft Aid**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        56,
+        61
+      ],
+      "developer": "Richard Garriott and Origin Systems staff",
+      "platforms": [
+        "Apple II",
+        "PC"
+      ],
+      "description_markdown": "Garriott and colleagues recount Origin Systems and its **Ultima** games."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        84,
+        85
+      ],
+      "developer": "Brian Provinciano",
+      "platforms": [
+        "NES",
+        "PC"
+      ],
+      "description_markdown": "Provinciano explains the NES roots of **Retro City Rampage**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Medal of Honor developers",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Developers discuss creating the original **Medal of Honor**."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Andrew Hutchings",
+      "platforms": [
+        "Acorn Archimedes",
+        "PlayStation"
+      ],
+      "description_markdown": "Hutchings recounts his game development career in Desert Island Disks."
+    },
+    {
+      "type": "interview",
+      "issue": 134,
+      "pages": [
+        105
+      ],
+      "developer": "Miguel Garcia",
+      "platforms": [
+        "Amstrad PCW"
+      ],
+      "description_markdown": "Garcia explains his Amstrad PCW homebrew game **UMMO**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        8,
+        9
+      ],
+      "developer": "Cinemaware producers",
+      "platforms": [
+        "Amiga",
+        "PC"
+      ],
+      "description_markdown": "The producers discuss **Wings: Remastered Edition** and a new Cinemaware collection."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        16
+      ],
+      "developer": "Ned Langman",
+      "platforms": [
+        "iOS"
+      ],
+      "description_markdown": "The former game artist discusses developing **Spaceman Dave**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        22,
+        31
+      ],
+      "developer": "Pokémon developers",
+      "platforms": [
+        "Game Boy",
+        "Nintendo DS",
+        "Nintendo 3DS"
+      ],
+      "description_markdown": "Game Freak developers discuss the evolution of **Pokémon**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        36,
+        41
+      ],
+      "developer": "Alex Davis and TurboGrafx-16 developers",
+      "platforms": [
+        "TurboGrafx-16"
+      ],
+      "description_markdown": "Developers recall Western games for the TurboGrafx-16."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Adventure International and AdventureSoft staff",
+      "platforms": [
+        "ZX Spectrum",
+        "Amiga",
+        "PC"
+      ],
+      "description_markdown": "Scott Adams, Mike Woodroffe, and colleagues recount their adventure games."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        48,
+        51
+      ],
+      "developer": "Jonathan Hurd",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Hurd recalls designing Atari's **Food Fight**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        54,
+        61
+      ],
+      "developer": "Eugene Jarvis and Defender-influenced developers",
+      "platforms": [
+        "Arcade",
+        "Atari 8-bit"
+      ],
+      "description_markdown": "Jarvis and fellow developers discuss **Defender** and its lasting influence."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        82
+      ],
+      "developer": "Jerry Momoda",
+      "platforms": [
+        "Arcade",
+        "NES"
+      ],
+      "description_markdown": "The former Nintendo of America staffer discusses the arcade and NES versions of **Duck Hunt**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Halo developers",
+      "platforms": [
+        "Xbox"
+      ],
+      "description_markdown": "Former Bungie developers explain the design of **Halo: Combat Evolved**."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Tommy Tallarico",
+      "platforms": [
+        "Mega Drive",
+        "PC"
+      ],
+      "description_markdown": "The composer discusses his game music and later **Video Games Live** work."
+    },
+    {
+      "type": "interview",
+      "issue": 135,
+      "pages": [
+        105
+      ],
+      "developer": "Paul Jenkinson",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Jenkinson describes making **Kyd Cadet** with Arcade Game Designer."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        16
+      ],
+      "developer": "Mike Diskett",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The former Bullfrog developer discusses **Satellite Reign**."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        22,
+        33
+      ],
+      "developer": "David Braben",
+      "platforms": [
+        "BBC Micro",
+        "PC"
+      ],
+      "description_markdown": "Braben reflects on 30 years of **Elite** and the development of **Elite Dangerous**."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Steve Turner",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "Turner recalls designing Graftgold's **Ranarama**."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        43
+      ],
+      "developer": "Terry Ford",
+      "platforms": [
+        "Game Boy"
+      ],
+      "description_markdown": "Ford answers questions about his graphics for the Game Boy **Puzzle Bobble** conversions."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        70,
+        73
+      ],
+      "developer": "Blood developers and Ken Silverman",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The developers discuss **Blood** and the Build engine it used."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        74,
+        75
+      ],
+      "developer": "Archer Maclean",
+      "platforms": [
+        "Arcade",
+        "Commodore 64"
+      ],
+      "description_markdown": "Maclean discusses arcade games that influenced his programming."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        76,
+        81
+      ],
+      "developer": "Jay Smith and Microvision developers",
+      "platforms": [
+        "Microvision"
+      ],
+      "description_markdown": "The designers recall the handheld Microvision hardware and games."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Jeff Lee and Kan Yabumoto",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "The Gottlieb developers recount creating **Mad Planets**."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        90,
+        91
+      ],
+      "developer": "Taron Millet and Kristofor Durrschmidt",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The indie developers explain the retro design of **Volgarr the Viking**."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "David Nutting",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Nutting recounts his companies' early arcade games and technology."
+    },
+    {
+      "type": "interview",
+      "issue": 136,
+      "pages": [
+        105
+      ],
+      "developer": "José Maria Enguita",
+      "platforms": [
+        "Oric"
+      ],
+      "description_markdown": "Enguita discusses the technical challenges of making **Oricium**."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        10
+      ],
+      "developer": "Ron Gilbert and Gary Winnick",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The developers discuss their new adventure **Thimbleweed Park**."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        16
+      ],
+      "developer": "Matt Gray",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "The composer discusses the **Reformation** remix project."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        22,
+        35
+      ],
+      "developer": "PlayStation developers and producers",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Developers and Sony staff look back at the original PlayStation and its games."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        44,
+        47
+      ],
+      "developer": "Costa Panayi",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "Panayi recalls designing **Highway Encounter**."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        54,
+        59
+      ],
+      "developer": "Mel Croucher",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "Croucher recounts Automata UK and its experimental games."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        62,
+        71
+      ],
+      "developer": "Dungeons & Dragons game developers",
+      "platforms": [
+        "PC",
+        "Home computers"
+      ],
+      "description_markdown": "Developers discuss adapting **Dungeons & Dragons** into computer games."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        72,
+        75
+      ],
+      "developer": "Gary Stark and Al Baker",
+      "platforms": [
+        "Arcade",
+        "Atari Lynx"
+      ],
+      "description_markdown": "Stark explains digitised graphics in **Pit-Fighter**; Baker discusses its Lynx conversion."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Michael Latham",
+      "platforms": [
+        "Mega Drive",
+        "Mega-CD"
+      ],
+      "description_markdown": "The producer recalls Sega's **Eternal Champions** games."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Jez San",
+      "platforms": [
+        "BBC Micro",
+        "Super Nintendo"
+      ],
+      "description_markdown": "The Argonaut founder looks back at his games and development career."
+    },
+    {
+      "type": "interview",
+      "issue": 137,
+      "pages": [
+        105
+      ],
+      "developer": "Marek Pavlík and Zdeněk Varga",
+      "platforms": [
+        "Atari 8-bit"
+      ],
+      "description_markdown": "The homebrew developers discuss collaborating on puzzle game **RGB**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        8,
+        9
+      ],
+      "developer": "Super System Softworks developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The developers discuss their arcade-inspired racer **Drift Stage**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        22,
+        31
+      ],
+      "developer": "Point-and-click adventure developers",
+      "platforms": [
+        "PC",
+        "Home computers"
+      ],
+      "description_markdown": "Developers including Ron Gilbert, Brian Moriarty, and Louis Castle discuss graphic adventures."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Steve Hammond and David Osborne",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "The DMA Design developers explain the making of **Hired Guns**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        40
+      ],
+      "developer": "Nigel Alderton",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Alderton answers questions about converting **Commando** to the Spectrum."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        46,
+        51
+      ],
+      "developer": "Dominic Wood and Game Gear developers",
+      "platforms": [
+        "Game Gear"
+      ],
+      "description_markdown": "Developers recall adapting games for Sega's handheld."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        54,
+        59
+      ],
+      "developer": "Sirius Software developers",
+      "platforms": [
+        "Apple II",
+        "Atari 8-bit"
+      ],
+      "description_markdown": "Former staff recount the early games of Sirius Software."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        60,
+        61
+      ],
+      "developer": "Howard Delman",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Delman discusses his early Atari driving game **Super Bug**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        70,
+        73
+      ],
+      "developer": "John Tatlock",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Tatlock recalls developing Mastertronic's **Agent X**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        80,
+        89
+      ],
+      "developer": "Dark Forces and Jedi Knight developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "LucasArts developers recall the **Dark Forces** and **Jedi Knight** series."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        90,
+        91
+      ],
+      "developer": "Edmund McMillen and Tommy Refenes",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The Team Meat developers explain the retro influences behind **Super Meat Boy**."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Chris Sawyer",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Sawyer discusses **Transport Tycoon** and his simulation game career."
+    },
+    {
+      "type": "interview",
+      "issue": 138,
+      "pages": [
+        105
+      ],
+      "developer": "Merso X",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "The homebrew creator discusses **Power Rangers: Beats of Power**."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        8,
+        9
+      ],
+      "developer": "Spectrum Vega development team",
+      "platforms": [
+        "ZX Spectrum Vega"
+      ],
+      "description_markdown": "The team discusses designing the new Spectrum Vega computer."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        35,
+        37
+      ],
+      "developer": "Jon Ritman and Bernie Drummond",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "The developers recall their isometric **Batman** game."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        56,
+        61
+      ],
+      "developer": "Titus Software developers",
+      "platforms": [
+        "Amiga",
+        "PC",
+        "Home consoles"
+      ],
+      "description_markdown": "Former staff recount Titus and its licensed and original games."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        62,
+        67
+      ],
+      "developer": "Jon Burton and Sonic R developers",
+      "platforms": [
+        "Saturn",
+        "PC"
+      ],
+      "description_markdown": "Traveller's Tales developers recall making **Sonic R**."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        79
+      ],
+      "developer": "Ian Fisch",
+      "platforms": [
+        "Mega Drive",
+        "PC"
+      ],
+      "description_markdown": "The **Road Redemption** developer discusses **Road Rash** and its influence."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Hiroyuki Kobayashi",
+      "platforms": [
+        "GameCube"
+      ],
+      "description_markdown": "The Capcom producer discusses remaking **Resident Evil** for GameCube."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Mark Healey",
+      "platforms": [
+        "Amiga",
+        "PlayStation 3"
+      ],
+      "description_markdown": "Healey discusses his work at Bullfrog and Media Molecule."
+    },
+    {
+      "type": "interview",
+      "issue": 139,
+      "pages": [
+        105
+      ],
+      "developer": "Michael Thomasson",
+      "platforms": [
+        "Odyssey2"
+      ],
+      "description_markdown": "Thomasson explains finishing **Ralph Baer's Pinball** with Ralph Baer and Martijn Wenting."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        8,
+        9
+      ],
+      "developer": "Thomas Kern",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Kern discusses the new **Wonder Boy**-inspired game **Monster Boy**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        16
+      ],
+      "developer": "Jim Bagley",
+      "platforms": [
+        "ZX81"
+      ],
+      "description_markdown": "Bagley explains his ZX81 port of **Dragon's Lair**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        24
+      ],
+      "developer": "Mike Dailly",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Dailly answers questions about the original **Lemmings**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        26
+      ],
+      "developer": "Russell Kay",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Kay discusses programming the PC conversion of **Lemmings**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        32,
+        35
+      ],
+      "developer": "Aaron and Adam Fothergill",
+      "platforms": [
+        "Amiga",
+        "Amiga CD32"
+      ],
+      "description_markdown": "The brothers recall developing **Jetstrike**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        38,
+        43
+      ],
+      "developer": "Atari ST developers",
+      "platforms": [
+        "Atari ST"
+      ],
+      "description_markdown": "Developers recall programming for the ST on its thirtieth anniversary."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        44,
+        49
+      ],
+      "developer": "Malcolm Evans",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Evans recounts creating **Trashman** and its sequels."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        50,
+        55
+      ],
+      "developer": "Joel Billings and SSI staff",
+      "platforms": [
+        "Apple II",
+        "PC"
+      ],
+      "description_markdown": "The Strategic Simulations founder and colleagues recall the company's wargames and RPGs."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        62,
+        67
+      ],
+      "developer": "Mike Montgomery and Robert Trevellyan",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "The Bitmap Brothers developers discuss **Speedball 2: Brutal Deluxe**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        75
+      ],
+      "developer": "Dan Kitchen",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Kitchen discusses his Atari 2600 conversion of **Kung-Fu Master**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        82,
+        89
+      ],
+      "developer": "Deus Ex developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Developers discuss the design of the **Deus Ex** series."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        90,
+        91
+      ],
+      "developer": "Sean Velasco and Yacht Club Games staff",
+      "platforms": [
+        "PC",
+        "Wii U"
+      ],
+      "description_markdown": "The team discusses classic game influences on **Shovel Knight**."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        94,
+        99
+      ],
+      "developer": "Carleton Handley",
+      "platforms": [
+        "Commodore 64",
+        "Game Gear"
+      ],
+      "description_markdown": "Handley recalls his game programming career and conversions."
+    },
+    {
+      "type": "interview",
+      "issue": 140,
+      "pages": [
+        105
+      ],
+      "developer": "David Mekersa",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Mekersa discusses creating **Scramble Slug** for a game jam."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        16
+      ],
+      "developer": "Simon Thomley",
+      "platforms": [
+        "Mega Drive",
+        "Android",
+        "iOS"
+      ],
+      "description_markdown": "The Headcannon programmer discusses mobile remasters of **Sonic the Hedgehog**."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        22,
+        37
+      ],
+      "developer": "Game and hardware developers",
+      "platforms": [
+        "PC",
+        "Atari Jaguar",
+        "Nintendo 64"
+      ],
+      "description_markdown": "Developers including John Romero and Jeff Minter discuss ambitious projects that failed commercially."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        40,
+        43
+      ],
+      "developer": "Ian Andrew and Chris Andrew",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "The Incentive developers explain **Driller** and its Freescape technology."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        52,
+        59
+      ],
+      "developer": "David Bishop and licensed-game developers",
+      "platforms": [
+        "Home computers",
+        "Home consoles"
+      ],
+      "description_markdown": "Developers discuss the design and business of licensed videogames."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        62,
+        65
+      ],
+      "developer": "Paul Kwinn",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Kwinn recalls coding Atari's skateboarding game **720°**."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        78,
+        83
+      ],
+      "developer": "Mark Cale",
+      "platforms": [
+        "Commodore 64",
+        "Amiga"
+      ],
+      "description_markdown": "The System 3 founder recounts the company's early games."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Dona Bailey",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Bailey explains how she created Atari's **Centipede**."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        92,
+        97
+      ],
+      "developer": "Brian Fargo",
+      "platforms": [
+        "Apple II",
+        "PC"
+      ],
+      "description_markdown": "Fargo looks back at Interplay, **Wasteland**, and his RPG career."
+    },
+    {
+      "type": "interview",
+      "issue": 141,
+      "pages": [
+        105
+      ],
+      "developer": "Harris Kladis and Paul Kooistra",
+      "platforms": [
+        "Amstrad CPC"
+      ],
+      "description_markdown": "The pair discuss developing **Megablasters: Escape from Castle in the Clouds**."
     }
   ]
 }
