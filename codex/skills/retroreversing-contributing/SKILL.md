@@ -28,6 +28,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 3) Write like a technical handbook (not a blog post):
    * Short paragraphs, short sentences, encourage hands-on experimentation.
    * Present terminology first, then explain/justify.
+   * Open a game or source article with a direct identifying sentence: developer (and former name if the files still use it), year, genre, and what the game is based on or which platforms it shipped for. Do not open with a scene, joke, or isolated source detail. Those belong in later sections, once the reader is oriented. Fun and visual material should follow the introduction, not replace it.
    * Sections should be readable non-linearly (don't rely on strict reading order).
    * Address the article's reader, who may never have the source files. Turn research notes and instructions to inspect, compare, or report findings into explanations of what the evidence reveals about the game. Keep procedural directions inside explicit tutorials or interactive exercises.
    * Use stable site wording. Avoid phrases that imply a recent site change, such as "we now have", "now has its own page", or "this now lives"; prefer "For the full history, see:" or "A dedicated page covers this in more detail:".
@@ -96,7 +97,8 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Before finishing, check new or replaced external image URLs with a GET request: confirm a successful response, an image content type, and actual image data rather than an HTML error page or placeholder. Replace blocked or broken URLs with a verified alternative.
 * When a rendered preview is available, check that the images visibly load on the page. A successful URL request alone does not guarantee browser loading. Use descriptive alt text.
 * Never leave pasted Markdown images named only `image.png` in the repository.
-* Always convert generic pasted PNG files to JPG for screenshots/photos unless transparency or lossless pixel-perfect detail is required.
+* Use WebP for new images added to the repository. Prefer lossless WebP for original pixel artwork, icons, and images that need transparency. Do not add new PNG or JPG files when WebP can represent the same image.
+* Convert generic pasted PNG files to WebP. Use lossless WebP when transparency or pixel-perfect detail is required.
 * Rename generic pasted image files to a descriptive filename. Prefer the manually filled alt text; otherwise infer the name from the nearest useful heading, caption, or surrounding paragraph context.
 * Update Markdown references after renaming/converting pasted images so no content points at `image.png`.
 * Lazy loading: use `<img class="lazy-load" data-image-full="/images/highres.jpg" ...>` (optionally with a placeholder `src`).

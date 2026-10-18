@@ -8,7 +8,7 @@ tags:
 - sourcecode
 title: Chicken Run Source Code
 category: dreamcast
-image: /public/games/chicken-run/Chicken-Run-Dreamcast-USA.jpg
+image: /public/games/chicken-run/Chicken-Run-Dreamcast-USA.webp
 permalink: /Chicken-Run-Source-Code
 breadcrumbs:
   - name: Home
@@ -36,14 +36,12 @@ updatedAt: '2026-10-18'
 
 # Inside Chicken Run
 <figure>
-  <img src="/public/games/chicken-run/Chicken-Run-Dreamcast-USA.jpg" alt="Chicken Run Dreamcast box art">
+  <img src="/public/games/chicken-run/Chicken-Run-Dreamcast-USA.webp" alt="Chicken Run Dreamcast box art">
   <figcaption>
     <a href="https://www.mobygames.com/game/3108/chicken-run/">Chicken Run (2000)</a>
   </figcaption>
 </figure>
-Mrs Tweedy hangs from an aeroplane. Guard dogs need an extra 310-unit margin to know when to stop and bark. On the [Dreamcast](/dreamcast) memory card, a tiny screen announces that "CHICKEN RUN IS LOVELY".
-
-Released in 2000, Blitz Games' Chicken Run turns the film's escape plan into stealth routes, item hunts, and a workshop full of mechanical jobs. Eidos published it for Dreamcast, [PlayStation](/ps1), and [Windows](/pc) [^1]. The source files still sign the engine as Interactive Studios Limited, the studio's earlier name. The `isl` prefix on libraries such as `islfile.c` and `islfont.c` is that company name.
+Developed by Blitz Games (formerly known as Interactive Studios Limited) in 2000 as a cross-platform action adventure based on the movie of the same name. Eidos published it for [Dreamcast](/dreamcast), [PlayStation](/ps1), and [Windows](/pc) [^1]. The `isl` prefix on libraries such as `islfile.c` and `islfont.c` is that earlier company name.
 
 The stranger details survive in the game's source code. This was not a package prepared for an audience. It circulated in a wider bundle of Dreamcast projects, although its original provenance remains unclear.
 
@@ -413,7 +411,7 @@ The audio port is therefore hybrid too: Sega's bank format carries the sound dat
 ---
 ## The smallest piece of artwork
 <figure>
-  <img src="/public/games/chicken-run/gingicon-pixel.png" alt="Pixel portrait of a chicken, enlarged from 32 by 32">
+  <img src="/public/games/chicken-run/gingicon-pixel.webp" alt="Pixel portrait of a chicken, enlarged from 32 by 32">
   <figcaption>32 by 32</figcaption>
 </figure>
 At 32 by 32 pixels and 16 colours, the [Dreamcast](/dreamcast) save icon is one of the smallest finished assets in the archive. `saveicon.h` says `dc_iconchop` converted the original BMP into palette and pixel arrays for the game.
@@ -422,11 +420,11 @@ At 32 by 32 pixels and 16 colours, the [Dreamcast](/dreamcast) save icon is one 
 
 The two LCD images use the [VMU](#glossary-vmu) screen's native 48 by 32 resolution. One does not attempt a logo or a status display. It simply offers an opinion:
 
-![Chicken Run is lovely, the text drawn in lcdcr.bmp for the VMU LCD](/public/games/chicken-run/lcdcr-pixel.png)
+![Chicken Run is lovely, the text drawn in lcdcr.bmp for the VMU LCD](/public/games/chicken-run/lcdcr-pixel.webp)
 
 The companion image reduces the film to its essential cast: one chicken and one egg.
 
-![Line drawing of a chicken and an egg from vmudisplay.bmp](/public/games/chicken-run/vmudisplay-pixel.png)
+![Line drawing of a chicken and an egg from vmudisplay.bmp](/public/games/chicken-run/vmudisplay-pixel.webp)
 
 ---
 # The games beneath Chicken Run
