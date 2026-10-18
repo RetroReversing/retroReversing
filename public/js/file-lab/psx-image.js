@@ -473,6 +473,16 @@ export function psxR2ArchArgs(image) {
   ];
 }
 
+// radare2.wasm maps a raw PS-X EXE without execute permission, then `af`
+// skips it. Mark the map executable before any analysis command.
+export function psxR2EnsureExecutableArgs(args) {
+  var next = args.slice();
+  var commandIndex = next.indexOf("-c");
+  var at = commandIndex === -1 ? Math.max(next.length - 1, 0) : commandIndex;
+  next.splice(at, 0, "-c", "ompg +x");
+  return next;
+}
+
 export function psxR2AnalyzeCommand(image) {
   if (!image) return "aaa; aflj";
   return "s 0x" + image.entry.toString(16) + "; af; aaa; aflj";

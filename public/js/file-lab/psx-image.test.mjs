@@ -7,7 +7,8 @@ import {
   parseDiscBytes,
   parseDiscSource,
   psxR2AnalyzeCommand,
-  psxR2ArchArgs
+  psxR2ArchArgs,
+  psxR2EnsureExecutableArgs
 } from "./psx-image.js";
 
 function ascii(text) {
@@ -130,6 +131,8 @@ assert(highlights.regions.length >= 6 && highlights.regions[0].id === 0, "exe hi
 var args = psxR2ArchArgs(disc.bootFile.exe);
 assert(args.indexOf("mips") >= 0 && args.indexOf("asm.cpu=mips1") >= 0 && args.indexOf("0x8000f800") >= 0, "r2 args");
 assert(psxR2AnalyzeCommand(disc.bootFile.exe).indexOf("0x80010000") >= 0, "r2 command");
+var prepared = psxR2EnsureExecutableArgs(["-q", "-c", "aaa; aflj", "input.bin"]);
+assert(prepared.indexOf("ompg +x") !== -1 && prepared.indexOf("ompg +x") < prepared.indexOf("aaa; aflj"), "r2 exec map");
 
 var mode1 = buildImage(1);
 assert(detectLayout(mode1).mode === "MODE1/2352" && detectLayout(mode1).userOffset === 16, "mode1");

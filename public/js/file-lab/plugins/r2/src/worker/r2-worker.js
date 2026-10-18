@@ -1,7 +1,7 @@
 import { Wasmer, init } from "@wasmer/sdk";
 import { extractJsonPayload } from "../json-extract.js";
 import { locateSaturnSh2, saturnR2AnalyzeCommand, saturnR2ArchArgs } from "../../../../saturn-sh2.js";
-import { locatePsxExe, psxR2AnalyzeCommand, psxR2ArchArgs } from "../../../../psx-image.js";
+import { locatePsxExe, psxR2AnalyzeCommand, psxR2ArchArgs, psxR2EnsureExecutableArgs } from "../../../../psx-image.js";
 
 var LOG_PREFIX = "[file-lab:r2:worker]";
 var R2_WASM_URL = "https://radareorg.github.io/r2wasm/radare2.wasm";
@@ -345,7 +345,7 @@ function assertR2Output(stdout, stderr, exitCode, emptyMessage, preserveAnsi) {
 function withImageArch(args, bytes) {
   if (!args.length) return args;
   var psx = locatePsxExe(bytes);
-  if (psx) return [args[0]].concat(psxR2ArchArgs(psx), args.slice(1));
+  if (psx) return psxR2EnsureExecutableArgs([args[0]].concat(psxR2ArchArgs(psx), args.slice(1)));
   var saturn = locateSaturnSh2(bytes);
   if (!saturn) return args;
   return [args[0]].concat(saturnR2ArchArgs(saturn), args.slice(1));
