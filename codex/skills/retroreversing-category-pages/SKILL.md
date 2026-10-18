@@ -10,6 +10,8 @@ They have two jobs:
 * act as the hub/index for a topic (usually a console/tool/company), linking to relevant RetroReversing posts
 * curate high-quality external sources so the page stands alone as a reference
 
+Many are intentionally "awesome lists" with a magazine-article flow. Keep the best links and explain what each contributes, with technical details and readable connective prose spread through the page. Preserve useful enthusiasm and authorial voice without adding filler or unsupported claims.
+
 If you are not editing `categories/**`, use the broader `retroreversing-contributing` skill instead.
 
 ## Editing Rules
@@ -31,7 +33,7 @@ Required/typical keys:
 
 Useful/optional keys:
 
-* `excerpt:` short, technical summary
+* `excerpt:` short description of the hub; "Awesome list of ..." is appropriate when it fits the page
 * `updatedAt:` `'YYYY-MM-DD'` (update only for meaningful content changes)
 * `recommendTitle:` e.g. `All WiiU Posts` (this titles the sidebar)
 * `recommend:` list of tags that should appear in the recommended sidebar
