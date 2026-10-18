@@ -45,6 +45,8 @@ This keeps related research discoverable while avoiding lots of thin pages.
 
 Many category pages are curated "awesome lists": hubs of high-quality links with useful technical context woven through them. Make the page enjoyable to read like a magazine article, with clear explanations and interesting details between resources, while keeping its value as a reference. Explain why a link is useful rather than leaving a bare directory of links. An "Awesome list of ..." excerpt is welcome when it accurately describes the page; do not remove that wording merely to make the page sound more neutral.
 
+Question headings can make console hubs easier to browse and give each section a clear purpose. Look at questions asked on related console pages for useful gaps, then answer the ones that have console-specific sources. Keep existing material under an appropriate question instead of repeating it in a new section. Where a developer interview describes one project, present it as an example rather than a platform-wide norm; technical questions should lead readers to original manuals, surviving code or similarly strong sources.
+
 Once a section grows large enough to stand alone, split it into a dedicated page and leave a short summary plus an internal link from the original category page.
 The category page should remain useful as a high-level guide, while the dedicated page can hold the deeper history, technical details, references, and examples.
 

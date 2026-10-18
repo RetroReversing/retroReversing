@@ -18,6 +18,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * For useful topics that are not yet large enough for a standalone page, add them to the most relevant category or hub page first.
    * When a category section grows large enough to stand alone, split it into a dedicated page and leave a short summary plus an internal link from the category page.
    * Treat category pages as curated "awesome lists" and readable articles: keep high-quality links, explain their value, and weave concrete technical context through the sections. Preserve an apt "Awesome list of ..." excerpt and the page's natural voice; do not flatten either into generic reference copy.
+   * Compare question headings on related console hubs when expanding a category. Use a question only when reliable, console-specific sources can answer it; fold the answer into an existing section when the topic is already covered. Describe interview examples as particular projects, not typical team sizes, schedules or workflows.
    * Follow the "standard shape" from `CONTRIBUTING.md` (use modern minimal frontmatter; don't clone old pages blindly).
    * `title` must not contain colons.
    * `permalink` must not end with a trailing `/`.
@@ -58,8 +59,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
      * `link-to-other-site.html` with `title`, `url`, `description`.
    * When mentioning a company or console with a dedicated category page, link the first meaningful mention in that section to the internal page, such as `[Datel](/companies/datel)`, `[Sony PlayStation](/ps1)`, or `[PlayStation 2](/ps2)`.
    * Do not add links to headings just to satisfy the company/console rule; keep headings plain and link the first suitable body-text mention.
-   * For links to other RetroReversing pages, prefer:
-     * `{% raw %}{% include_cached link-to-other-post.html post="/permalink" %}{% endraw %}`
+   * Feature an important related RetroReversing article with a `link-to-other-post.html` card so readers get a visual preview, as the Game Gear hub does for its development hardware guide. Introduce the page in prose and give the card a useful description: `{% raw %}{% include_cached link-to-other-post.html post="/permalink" description="Why this page is useful." %}{% endraw %}`. Use ordinary inline links when grouping several pages or referring again to a page already featured by a card.
 8) Code examples:
    * Use TypeScript when it's runnable interactively in-browser; otherwise use Python for local scripts.
    * Use fenced code blocks with a language tag; use `nasm` for assembly highlighting.
