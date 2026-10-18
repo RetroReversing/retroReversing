@@ -87,6 +87,7 @@ Some general rules are below:
 * **Tone**: Technically detailed, slightly conversational, but not casual. Avoid corporate, sales, or overly enthusiastic tones. You may include mild enthusiasm or analogies when they aid understanding but always return to clear, factual language.
 * **Non-linear order** - Never assume the reader will follow a linear order. Each section should be standalone so they can read only the parts they are interested in.
 * **Present then explain** - Present terminology as factual first, then justify or contextualize ("What is it?" then "Why is it useful?").
+* **Identify first** - Open a game or source article with a direct identifying sentence: developer (and former name if the files still use it), year, genre, and what the game is based on or which platforms it shipped for. Do not open with a scene, joke, or isolated source detail. Those belong in later sections, once the reader is oriented. Fun and visual material should follow the introduction, not replace it.
 * **Encourage hands-on experimentation** - Suggest trying tools, running commands, or inspecting files.
 * **Write for readers, not archive investigators** - Explain what a file, measurement, or source excerpt reveals about the game. Assume readers do not have the source archive. Avoid directions to report findings, verify claims, or follow file paths in ordinary article prose. Reserve step-by-step instructions for clearly marked tutorials and interactive exercises; keep important evidence and uncertainty in the narrative.
 * **Use stable site wording** - Avoid wording that implies a recent site change, such as "we now have", "now has its own page", or "this now lives". Prefer stable phrases such as "For the full history, see:" or "A dedicated page covers this in more detail:".
@@ -407,7 +408,10 @@ Write the factual explanation beside the visual so the article still makes sense
 The last thing we want is for our pages to be boring or a chore to read. We are writing about games so it should be fun and visual! This section lists components you can use to ensure posts are not giant walls of text.
 
 ## Structure for new game-specific pages
-Start a new page about an individual game with a short introduction and its box art so readers can identify the title, platform, and edition. Then show the physical cartridge or other release medium, followed by a view inside it (such as the PCB) when a relevant image is available. Caption each image with what it shows and credit its source. Match images to the game and platform being discussed; do not present a different revision or a later game's hardware as evidence for this one.
+Start a new page about an individual game with a short introduction and its box art so readers can identify the title, platform, and edition.
+Open with a direct identifying sentence: developer (and former name if the files still use it), year, genre, and what the game is based on or which platforms it shipped for.
+Do not open with a scene, joke, or isolated source detail. Those belong in later sections, once the reader is oriented. Fun and visual material should follow the introduction, not replace it.
+Then show the physical cartridge or other release medium, followed by a view inside it (such as the PCB) when a relevant image is available. Caption each image with what it shows and credit its source. Match images to the game and platform being discussed; do not present a different revision or a later game's hardware as evidence for this one.
 
 After the physical overview, introduce the development hardware and software used to make the game. Include confirmed tools first and label deductions or tools known only from related games clearly. Then move into the source code, file layout, assets, build process, and technical analysis. This visual-to-technical progression is modeled on the [Turok 64 source code analysis](/turok64sourcecode). Keep sections useful on their own for readers who jump directly to the technical material.
 
@@ -431,7 +435,7 @@ Select enough images to support the subject without a fixed quota, and keep brie
 
 ### Image layout and verification
 Use descriptive filenames and alt text, and provide intrinsic width and height so loading images does not shift the article around.
-Use JPG for document renders and photographs where appropriate; preserve GIF/PNG when transparency or original pixel artwork matters.
+Use WebP for new images added to the repository. Prefer lossless WebP for original pixel artwork, icons, and images that need transparency. Do not add new PNG or JPG files when WebP can represent the same image. Existing PNG, JPG, and GIF files can stay until they are replaced.
 Offer a working full-size image link for scans and screenshots whose details are too small in the article.
 Do not promise a lightbox unless it actually opens in the rendered page.
 
@@ -501,14 +505,14 @@ VS Code can create generic files such as `image.png` when an image is pasted int
 Always replace pasted images named only `image.png` with a descriptive filename.
 Do not leave generic `image.png` files in the repository.
 
-For screenshots and photos, always convert generic pasted PNG files to JPG unless the image needs transparency or lossless pixel-perfect detail.
+For screenshots, photos, and other new images, convert generic pasted PNG files to WebP. Use lossless WebP when the image needs transparency or original pixel-perfect detail.
 Use the Markdown alt text as the preferred filename source when it has been filled in.
 If the alt text is blank or generic, name the file from the nearest useful heading, caption, or surrounding paragraph context.
 
-For example, `![Trainer Option in Game Studio](image/image.png)` should become a JPG with a meaningful path such as:
+For example, `![Trainer Option in Game Studio](image/image.png)` should become a WebP with a meaningful path such as:
 
 ```markdown
-![Trainer Option in Game Studio](/public/images/GameBoy/Trainer Option in Game Studio.jpg)
+![Trainer Option in Game Studio](/public/images/GameBoy/Trainer Option in Game Studio.webp)
 ```
 
 ---
