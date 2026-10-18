@@ -31561,6 +31561,19 @@
       "type": "interview",
       "issue": 252,
       "pages": [
+        21
+      ],
+      "developer": "Craig Stitt",
+      "platforms": [
+        "Mega Drive",
+        "PlayStation"
+      ],
+      "description_markdown": "The **Sonic 2** and **Spyro** artist discusses Mario's character design and influence on platform games."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
         22,
         23
       ],
