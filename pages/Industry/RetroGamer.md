@@ -16,8 +16,9 @@ recommend:
  - magazines
  - industry
  - introduction
-_image: /public/images/magazines/Retro Gamer Magazine.jpg
-_twitterimage: https://www.retroreversing.com/public/images/magazines/Retro Gamer Magazine.jpg
+placeholderimages:
+ - /public/images/magazines/retro-gamer-issue-001-cover.webp
+ - /public/images/magazines/retro-gamer-issue-019-cover.webp
 tags:
  - industry
  - magazines
