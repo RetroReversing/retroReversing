@@ -29,8 +29,9 @@ magazine, platform, developer, or issue. Platforms use exact JSON labels.
           <tr>
             {%- unless include.show_magazine == false -%}<td><a href="{{ magazine.url | relative_url }}">{{ magazine.magazine | escape }}</a></td>{%- endunless -%}
             <td data-order="{{ interview.issue }}">{{ interview.issue }}</td>
-            <td{% if interview.pages %} data-order="{{ interview.pages[0] }}"{% endif %}>
+            <td{% if interview.pages %} data-order="{% if interview.section %}{{ interview.pages[0] | plus: 1000 }}{% else %}{{ interview.pages[0] }}{% endif %}"{% endif %}>
               {%- if interview.pages -%}
+                {%- if interview.section -%}{{ interview.section | escape }}: {% endif -%}
                 {%- if interview.pages.size == 1 -%}p. {{ interview.pages[0] }}
                 {%- else -%}pp. {{ interview.pages[0] }}-{{ interview.pages[1] }}{%- endif -%}
               {%- endif -%}
