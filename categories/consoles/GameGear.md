@@ -36,9 +36,9 @@ If you are examining a ROM, those sources can help connect the artwork and music
 Paul Hutchinson's [interview about his Sega work](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson) describes what sat on one Game Gear developer's desk: a PC and Amiga, home-written converters, an in-circuit emulator and a test cartridge. His setup is a useful production example, not a universal SDK [^2].
 
 ## How large were Game Gear development teams?
-The credits alone do not tell the whole story. Hutchinson programmed several Game Gear titles as an independent contractor and also worked on sound and graphics. Sega supplied artwork, sound and some early programming help, while project managers worked inside Sega of America [^11]. In [his longer account](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson), he describes working from a designer's initial plan and coordinating with artists and musicians [^2].
+There was no fixed team size, but two projects give useful numbers. Matt Harmon recalls making the Game Gear version of *Barbie Super Model* with an artist: at least two direct contributors [^12]. The [*X-Men* Game Gear manual](https://www.gamesdatabase.org/Media/SYSTEM/Sega_Game_Gear//Manual/formated/X-men_-_Sega.pdf#page=22) names eight distinct people across production, programming, art, music and design. It credits one programmer, five people for art and four for design; several names appear in more than one role [^17].
 
-For *Barbie Super Model*, programmer Matt Harmon recalls an artist working on the Game Gear version [^12]. These are glimpses of two projects, not a standard team size: a single programmer could still depend on several other contributors.
+Hutchinson was that *X-Men* programmer. As an independent contractor, he also worked on graphics and sound; Sega supplied artwork, sound and some early programming help. Across his Sega projects, he names three project managers based inside Sega of America [^11]. In [his longer account](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson), he describes working from a designer's initial plan and coordinating with artists and, on some projects, a musician [^2]. The *X-Men* manual lists testers, marketing and manual staff separately. Eight counts the named production roles, not everybody who helped ship the game.
 
 ---
 ## How long did a Game Gear game take to make?
@@ -299,3 +299,4 @@ The [*Sonic the Hedgehog* Game Gear split disassembly](https://github.com/TheRav
 [^14]: [SMS Power - Master Gear Converter](https://www.smspower.org/Hardware/MasterGearConverter), compatibility pin and unsupported accessories.
 [^15]: [SMS Power - Start Button](https://www.smspower.org/Development/StartButton), Pause behaviour in Master System mode.
 [^16]: [SMS Power - Gear to Gear Cable](https://www.smspower.org/Hardware/GearToGearCable), multiplayer connection and separate game copies.
+[^17]: [*X-Men* Game Gear instruction manual](https://www.gamesdatabase.org/Media/SYSTEM/Sega_Game_Gear//Manual/formated/X-men_-_Sega.pdf#page=22), p. 20, production credits.
