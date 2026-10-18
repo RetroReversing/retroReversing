@@ -126,6 +126,9 @@
   <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">
 
   <link rel="stylesheet" href="{{ '/public/css/article-figures.css' | relative_url }}?v=2">
+  {% if page.permalink == '/retro-gamer' %}
+  <link rel="stylesheet" href="{{ '/public/css/retro-gamer-coverdiscs.css' | relative_url }}">
+  {% endif %}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | relative_url }}">

@@ -1,0 +1,112 @@
+/* Issue profiles on the Retro Gamer magazine page. */
+.post .rr-disc-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  align-items: start;
+  margin: 1rem 0 3rem;
+  padding: clamp(1rem, 2.5vw, 2rem);
+  border: 1px solid var(--rr-color-card-border);
+  border-top: 3px solid var(--rr-color-accent);
+  background: var(--rr-color-card-bg);
+  box-shadow: 0 .35rem 1.25rem var(--rr-color-card-shadow);
+}
+
+.post .rr-disc-profile--reverse {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 16rem);
+}
+
+.post .rr-disc-profile--reverse .rr-disc-profile__art { order: 2; }
+.post .rr-disc-profile--reverse .rr-disc-profile__copy { order: 1; }
+
+.post .rr-disc-profile .rr-article-figure {
+  max-width: 16rem;
+  margin: 0 auto;
+  border-color: var(--rr-color-content-border);
+  box-shadow: 0 .5rem 1rem var(--rr-color-card-shadow);
+}
+
+.post .rr-disc-profile .rr-article-figure figcaption {
+  padding: .6rem .75rem;
+  font-size: .78rem;
+  line-height: 1.4;
+}
+
+.post .rr-disc-profile__copy { min-width: 0; }
+
+.post .rr-disc-profile__eyebrow,
+.post .rr-disc-profile__label {
+  margin: 0;
+  color: var(--rr-color-content-strong);
+  font-size: .73rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.post .rr-disc-profile__lead {
+  margin: .5rem 0 1.5rem;
+  color: var(--rr-color-content-text);
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.post .rr-disc-profile__contents {
+  border-top: 1px solid var(--rr-color-content-border);
+  padding-top: 1rem;
+}
+
+.post .rr-disc-profile__contents ul {
+  margin: .5rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.post .rr-disc-profile__contents li {
+  position: relative;
+  margin: 0;
+  padding: .35rem 0 .35rem 1.05rem;
+  color: var(--rr-color-content-text);
+  line-height: 1.55;
+}
+
+.post .rr-disc-profile__contents li::before {
+  position: absolute;
+  top: 1em;
+  left: 0;
+  width: .35rem;
+  height: .35rem;
+  border-radius: 50%;
+  background: var(--rr-color-accent);
+  content: "";
+}
+
+.post .rr-disc-profile__note {
+  padding: .85rem 1rem;
+  border-left: 3px solid var(--rr-color-content-strong);
+  background: var(--rr-color-main-bg);
+}
+
+.post .rr-disc-profile__note p:last-child {
+  margin: .4rem 0 0;
+  color: var(--rr-color-content-text);
+  line-height: 1.55;
+}
+
+.post .rr-disc-profile__guide {
+  margin: 1rem 0 0;
+  color: var(--rr-color-meta);
+  font-size: .82rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 700px) {
+  .post .rr-disc-profile,
+  .post .rr-disc-profile--reverse { grid-template-columns: minmax(0, 1fr); }
+  .post .rr-disc-profile--reverse .rr-disc-profile__art,
+  .post .rr-disc-profile--reverse .rr-disc-profile__copy { order: initial; }
+  .post .rr-disc-profile__art { grid-row: 1; }
+  .post .rr-disc-profile .rr-article-figure { max-width: 13rem; }
+}

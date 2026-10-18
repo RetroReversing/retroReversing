@@ -1,0 +1,263 @@
+[
+  {
+    "issue": 1,
+    "title": "Special Collector's Disc",
+    "museum_id": 69517,
+    "guide_pages": null,
+    "lead": "A broad starter library for the magazine's first issue.",
+    "highlights": [
+      "More than 200 PC retro games advertised on the sleeve.",
+      "75 emulators covering a range of older systems."
+    ],
+    "context": "The available issue 1 PDF lists a coverdisc guide on p. 92, but the scan ends before that page. These contents are taken from the photographed sleeve, not a checked CD image.",
+    "image_width": 1000,
+    "image_height": 1418
+  },
+  {
+    "issue": 2,
+    "title": "Retro Gamer System",
+    "museum_id": 69513,
+    "guide_pages": "79",
+    "lead": "A game collection that also gives readers a way to make their own.",
+    "highlights": [
+      "More than 100 retro PC games advertised on the sleeve.",
+      "A 30-day demo of Clickteam's Multimedia Fusion 1.5."
+    ],
+    "context": "The magazine's *Sub-Attack* tutorial uses that demo to build a submarine game. It lets readers save project files but cannot export a standalone executable.",
+    "image_width": 503,
+    "image_height": 714
+  },
+  {
+    "issue": 3,
+    "title": "Gremlin's Greatest Hits",
+    "museum_id": 69529,
+    "guide_pages": "100-103",
+    "lead": "Gremlin's back catalogue, organised by original computer format.",
+    "highlights": [
+      "Games from seven formats, with matching emulators.",
+      "Scans of Gremlin adverts and game inlays."
+    ],
+    "context": "The printed guide claims more than 250 games; the sleeve says more than 200. The difference is worth preserving because both counts appeared in the original packaging.",
+    "image_width": 505,
+    "image_height": 715
+  },
+  {
+    "issue": 4,
+    "title": "Retro Collection",
+    "museum_id": 69525,
+    "guide_pages": "104-107",
+    "lead": "A mixed-media disc that works in both a CD player and a computer.",
+    "highlights": [
+      "18 retro-themed audio tracks for a standard CD player.",
+      "PC remakes, emulators, utilities and video files in the computer session."
+    ],
+    "context": "The guide explains how to use the Windows browser to find programs and how the audio tracks play separately from the data files.",
+    "image_width": 1000,
+    "image_height": 1409
+  },
+  {
+    "issue": 5,
+    "title": "Retro Gaming Extravaganza",
+    "museum_id": 69519,
+    "guide_pages": "106-109",
+    "lead": "Original C64 material sits alongside contemporary PC remakes.",
+    "highlights": [
+      "More than 50 PC retro games and 20 emulators.",
+      "18 Commodore 64 games and demos, plus four C64 music videos.",
+      "GameBase 64 for browsing and launching C64 software."
+    ],
+    "context": "The mix of original files, remakes and tools shows how the magazine expected readers to move between historical software and the active emulation scene.",
+    "image_width": 1000,
+    "image_height": 1418
+  },
+  {
+    "issue": 6,
+    "title": "Beneath a Steel Sky",
+    "museum_id": 69531,
+    "guide_pages": "106-107",
+    "lead": "The complete Revolution Software adventure is the headline game.",
+    "highlights": [
+      "Full *Beneath a Steel Sky* game data for PC and Mac.",
+      "20 further full games and playable demos.",
+      "ScummVM supplied as the compatibility layer."
+    ],
+    "context": "The guide walks readers through locating the adventure's files and adding them in ScummVM, recording the setup the editors recommended at the time.",
+    "image_width": 506,
+    "image_height": 714
+  },
+  {
+    "issue": 7,
+    "title": "Retro 50",
+    "museum_id": 69528,
+    "guide_pages": "106-107",
+    "lead": "Fifty recent PC games sample the retro-inspired development scene.",
+    "highlights": [
+      "Arcade, adventure and puzzle games.",
+      "More than an hour of video completing 160 ZX Spectrum games.",
+      "Demos from Superior Software and Trymedia."
+    ],
+    "context": "The Spectrum footage ties into the issue's *Over the Rainbow* feature, giving readers a visual companion to the printed article.",
+    "image_width": 507,
+    "image_height": 718
+  },
+  {
+    "issue": 8,
+    "title": "Graftgold Collection",
+    "museum_id": 69527,
+    "guide_pages": "100-103",
+    "lead": "A publisher archive paired with rare footage of a cancelled system.",
+    "highlights": [
+      "50 Graftgold games across six formats, including *Paradroid*, *Uridium* and *Quazatron*.",
+      "Bundled emulators and platform-specific launch instructions.",
+      "More than 40 minutes of Konix Multi System footage."
+    ],
+    "context": "The guide lists the original platforms, while the video gives this CD value beyond the games themselves.",
+    "image_width": 1000,
+    "image_height": 1421
+  },
+  {
+    "issue": 9,
+    "title": "Retro Remakes Collection",
+    "museum_id": 69526,
+    "guide_pages": "100-103",
+    "lead": "Two 2004 competitions capture the breadth of hobbyist game making.",
+    "highlights": [
+      "All 76 Retro Remakes Competition entries.",
+      "Every entry in the 2004 Interactive Fiction Competition."
+    ],
+    "context": "Graphical remakes and text adventures share the disc. The guide explains how to search for a title and extract entries supplied as archives.",
+    "image_width": 1000,
+    "image_height": 1402
+  },
+  {
+    "issue": 10,
+    "title": "The Games Factory",
+    "museum_id": 69516,
+    "guide_pages": "96-98",
+    "lead": "Play the remakes, then use the included tools to build a game.",
+    "highlights": [
+      "50 PC retro games and remakes.",
+      "The complete Home Version of Clickteam's The Games Factory.",
+      "A PDF manual and a printed bat-and-ball tutorial."
+    ],
+    "context": "The tutorial introduces the Storyboard, Level and Event editors. The magazine says this Home Version is neither time-limited nor feature-restricted.",
+    "image_width": 1000,
+    "image_height": 1449
+  },
+  {
+    "issue": 11,
+    "title": "Durell Big 40 Hits",
+    "museum_id": 69522,
+    "guide_pages": "100-105",
+    "lead": "Durell's games are presented with both emulators and recorded play.",
+    "highlights": [
+      "More than 40 games across seven formats, including *Saboteur*, *Turbo Esprit* and *Thanatos*.",
+      "Emulators for running the original versions on PC or Mac.",
+      "Spectrum playthrough videos for *Critical Mass*, *Saboteur*, *Thanatos* and *Turbo Esprit*."
+    ],
+    "context": "The recordings make the disc useful even when a reader does not set up every original platform.",
+    "image_width": 1000,
+    "image_height": 1411
+  },
+  {
+    "issue": 12,
+    "title": "Llamarama",
+    "museum_id": 69515,
+    "guide_pages": "100-103",
+    "lead": "Jeff Minter's 8-bit catalogue accompanies the issue's feature on its creator.",
+    "highlights": [
+      "65 Llamasoft games across seven formats.",
+      "Titles include *Hover Bovver*, *Gridrunner* and *Revenge of the Mutant Camels*.",
+      "Bundled emulators including Spectaculator and blueMSX."
+    ],
+    "context": "The printed walkthrough helps readers run the original files, turning the CD into a cross-platform view of Minter's early work.",
+    "image_width": 1000,
+    "image_height": 1426
+  },
+  {
+    "issue": 13,
+    "title": "Amiga Forever 6.0",
+    "museum_id": 69524,
+    "guide_pages": "106-108",
+    "lead": "A complete Amiga emulation package anchors this issue's disc.",
+    "highlights": [
+      "WinUAE and WinFellow emulators with Amiga ROM files.",
+      "Amiga games, demos and utilities.",
+      "More than 50 PC retro remakes alongside the main package."
+    ],
+    "context": "The guide covers installation, making the disc an entry point into Amiga software as well as a larger remake collection.",
+    "image_width": 1000,
+    "image_height": 1403
+  },
+  {
+    "issue": 14,
+    "title": "The Ur-Quan Masters",
+    "museum_id": 69518,
+    "guide_pages": "106-108",
+    "lead": "The complete *Star Control II* port leads a space-themed disc.",
+    "highlights": [
+      "The full PC and Mac version of *The Ur-Quan Masters* with speech and music.",
+      "Additional PC retro games in the usual disc browser."
+    ],
+    "context": "The printed guide offers installation steps and an introduction to exploration and combat, so readers can begin with the featured game rather than browsing the CD unguided.",
+    "image_width": 1000,
+    "image_height": 1418
+  },
+  {
+    "issue": 15,
+    "title": "105 Essential Emulators",
+    "museum_id": 69521,
+    "guide_pages": "106",
+    "lead": "A tool-focused issue covering a wide range of old hardware.",
+    "highlights": [
+      "105 emulators advertised on the sleeve.",
+      "PC programs spanning machines from the ZX80 and Oric Atmos to later consoles."
+    ],
+    "context": "The guide distinguishes installers from compressed archives and explains how to search, extract and run programs. This disc documents the emulation ecosystem rather than one game catalogue.",
+    "image_width": 1000,
+    "image_height": 1401
+  },
+  {
+    "issue": 16,
+    "title": "The Elder Scrolls Arena",
+    "museum_id": 69523,
+    "guide_pages": "106-108",
+    "lead": "Bethesda's complete first *Elder Scrolls* game comes with a practical DOS setup guide.",
+    "highlights": [
+      "The full version of *The Elder Scrolls: Arena*.",
+      "DOSBox and the ordinary Retro Gamer disc browser."
+    ],
+    "context": "The magazine walks through installing the game, mounting a drive in DOSBox and launching it from the emulator.",
+    "image_width": 519,
+    "image_height": 720
+  },
+  {
+    "issue": 17,
+    "title": "Ultimate 2D Shoot-'Em-Up Collection",
+    "museum_id": 69514,
+    "guide_pages": "92-93",
+    "lead": "Fifty homebrew shooters show how developers reworked arcade conventions.",
+    "highlights": [
+      "Vertical and horizontal PC shooters.",
+      "Featured games include *Thunder Slash*, *Cloudphobia*, *G-Type* and *Noiz2sa*."
+    ],
+    "context": "The magazine gives individual games space in its guide, making this a snapshot of contemporary independent development rather than a collection of original commercial ROMs.",
+    "image_width": 1000,
+    "image_height": 1394
+  },
+  {
+    "issue": 18,
+    "title": "The Last Ninja Trilogy",
+    "museum_id": 69530,
+    "guide_pages": "90-93",
+    "lead": "The final monthly CD focuses on the original *Last Ninja* games.",
+    "highlights": [
+      "Original 8-bit ROMs for all three games, supplied through Play It.",
+      "Emulators including WinVICE for C64 and ZX32 for ZX Spectrum.",
+      "A printed walkthrough of the first two stages of the original game."
+    ],
+    "context": "The next issue announced that the monthly coverdisc had ended, making this collection the close of the magazine's CD run.",
+    "image_width": 500,
+    "image_height": 712
+  }
+]
