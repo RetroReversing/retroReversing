@@ -59,8 +59,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
      * `link-to-other-site.html` with `title`, `url`, `description`.
    * When mentioning a company or console with a dedicated category page, link the first meaningful mention in that section to the internal page, such as `[Datel](/companies/datel)`, `[Sony PlayStation](/ps1)`, or `[PlayStation 2](/ps2)`.
    * Do not add links to headings just to satisfy the company/console rule; keep headings plain and link the first suitable body-text mention.
-   * For links to other RetroReversing pages, prefer:
-     * `{% raw %}{% include_cached link-to-other-post.html post="/permalink" %}{% endraw %}`
+   * Feature an important related RetroReversing article with a `link-to-other-post.html` card so readers get a visual preview, as the Game Gear hub does for its development hardware guide. Introduce the page in prose and give the card a useful description: `{% raw %}{% include_cached link-to-other-post.html post="/permalink" description="Why this page is useful." %}{% endraw %}`. Use ordinary inline links when grouping several pages or referring again to a page already featured by a card.
 8) Code examples:
    * Use TypeScript when it's runnable interactively in-browser; otherwise use Python for local scripts.
    * Use fenced code blocks with a language tag; use `nasm` for assembly highlighting.
