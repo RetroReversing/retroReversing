@@ -421,7 +421,7 @@ Capture multiple figure includes and pass them to a gallery:
 {% endraw %}
 ```
 
-Galleries default to two columns; set `columns="3"` for three. All galleries stack on narrow screens. Optional `compact=true` keeps small catalogue images within 220px-high areas without stretching them. For standalone figures, `size="document"` limits width to 620px and `size="photo"` to 700px; omit `size` inside galleries to fill the column.
+Galleries default to two columns; set `columns="3"` for three. All galleries stack on narrow screens. Optional `compact=true` keeps small catalogue images within 220px-high areas without stretching them. For standalone figures, `size="document"` limits width to 620px, `size="photo"` to 700px, and `size="small"` to 320px for low-resolution archive pictures; omit `size` inside galleries to fill the column.
 See `pages/consoles/saturn/SegaDTS.md` for examples and `public/css/article-figures.css` for shared styling.
 
 ---

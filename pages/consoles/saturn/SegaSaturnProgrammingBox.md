@@ -144,6 +144,8 @@ SegaRetro has photographs of an LED-equipped Address Checker, a useful visual co
 ## What the portable SS Checker could tell you
 The reconstructed DTS hardware catalogue describes a lower-cost **Saturn SS Checker V1.00** intended for quick illegal-address tests [^14]. Its LEDs corresponded to memory regions: LED 1, for example, meant an illegal ROM-area access. It ran without a host PC, like a production Saturn, but did not report the exact address, program counter, or whether the operation was a read or write. A lit LED could narrow the search; the fuller Address Checker was still needed to locate the instruction. The catalogue says the SS Checker was not a replacement for that larger system.
 
+{% include article-figure.html src="/public/images/saturn/dts/dts-catalogue-ss-checker.jpg" alt="DTS catalogue photograph of the Saturn SS Checker, a modified white Saturn with front-panel error LEDs" width="308" height="252" size="small" title="A quick check on the workbench" caption="Original photograph from `hardware/core/checker.jpg`, accompanying the Saturn SS Checker V1.00 entry in the preserved [DTS catalogue](/sega-dts). The LEDs identified a memory region, not the exact failing instruction." %}
+
 ---
 # Sega Saturn Boot Disc
 Similar to the Dreamcast's System Disc 2, this is a disc that allows any retail Sega Saturn to play developer written CD-Rs without any Saturn modding required.

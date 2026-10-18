@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
 <!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN -->
 
@@ -96,6 +96,10 @@ The Sega Saturn had support for Audio Video Interleave (AVI) video files and was
 Sega and several vendors developed **SIFF 1.0** (Scene Interchange File Format) to exchange 3D scene, model, and animation data between graphics tools. This is an interchange specification, not a claim that retail Saturn games store assets in SIFF. Its October 1996 specification describes an Electronic Arts IFF `FORM` whose type is `SF1Q`; fields are big-endian, and chunks are padded to 32-bit boundaries [^4].
 
 The format gives objects named parent relationships, transformation matrices, geometry, and visual data. Its coordinates put positive X to the right, positive Y downward, and positive Z into the screen; UV coordinates run from the top-left of a texture. These conventions matter when interpreting a converter or writing a parser. The [original SIFF specification](https://antime.kapsi.fi/sega/files/siff.pdf) provides the complete chunk definitions.
+
+The specification sketches the outer wrapper before defining any individual scene chunk. A parser first sees `FORM`, the group size, and `SF1Q`; only then can it walk the chunk definitions [^4].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-siff-form-layout.webp" alt="SIFF 1.0 specification diagram showing FORM, group size, SF1Q type, and repeated chunk definitions" width="1090" height="420" title="The first bytes of a SIFF scene" caption="Diagram cropped from the [SIFF 1.0 specification](https://antime.kapsi.fi/sega/files/siff.pdf), PDF p. 2. It describes an interchange file, not a retail game's asset format." %}
 
 ---
 ## RGB Files

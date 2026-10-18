@@ -55,6 +55,7 @@
 }
 .post .rr-article-figure--document { max-width: 620px; margin-inline: auto; }
 .post .rr-article-figure--photo { max-width: 700px; margin-inline: auto; }
+.post .rr-article-figure--small { max-width: 320px; margin-inline: auto; }
 .post .rr-article-gallery--compact .rr-article-figure > a {
   display: flex;
   align-items: center;

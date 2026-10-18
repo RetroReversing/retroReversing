@@ -20,12 +20,19 @@ breadcrumbs:
     url: #
 recommend: devkit
 editlink: /consoles/saturn/SaturnLibraryFormats.md
+updatedAt: '2026-10-18'
 ---
+<!-- cspell:words SEGALIB -->
 
 The Sega Saturn SDK comes with pre-build static libraries such as `SEGA_GFS` which are required to interact with the Saturn hardware and provides a nice extraction layer .
 
 There are two standard GNU (.a) and Hitachi (.lib). The Sega Saturn libraries contain compiled versions for both standards.
 
+The preserved [SBL 6.01 package](https://antime.kapsi.fi/sega/files/SBL601.zip) makes that pairing tangible: `SEGA_GFS`, `SEGA_DMA`, and `SEGA_SGL` each appear as both `.A` and `.LIB` files in `SBL6/SEGALIB/LIB` [^1]. The shared base names identify corresponding library roles, but the containers need different tools. That distinction matters before trying to extract object files or build IDA signatures.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-library-format-pairs.svg" mobile_src="/public/images/saturn/dts/dts-library-format-pairs-mobile.svg" alt="SBL 6.01 archive examples of SEGA_GFS, SEGA_DMA, and SEGA_SGL libraries in GNU .A and Hitachi .LIB formats" width="1200" height="330" title="Same library names, different containers" caption="Examples from `SBL6/SEGALIB/LIB` in Sega's [SBL 6.01 archive](https://antime.kapsi.fi/sega/files/SBL601.zip). This comparison shows filenames, not a byte-level equivalence between the two formats." %}
+
+---
 # GNU Libraries
 
 ## Creating IDA Signatures for GNU Saturn Libraries
@@ -95,7 +102,7 @@ The Sega SDK comes with pre-build Hitachi library files (*.lib) for use with the
 ## Librarian (lbr)
 You can obtain the Hitachi Librarian online from an old Dreamcast SDK. The Hitachi Librarian is for building and extracting static libraries, which are just a bunch of compressed object code (.obj files are assembled but not linked machine language).
 
-You use the librarien tool (`lbr.exe`) from the command line like so:
+You use the librarian tool (`lbr.exe`) from the command line like so:
 ```
 lbr libraryName.lib
 ```
@@ -142,3 +149,7 @@ The only problem is that when you run it it will complain about the saturn proce
 ```
 Fatal [CD.OBJ] (CD.OBJ): Unknown processor type 8
 ```
+
+---
+# References
+[^1]: Sega DTS, [SBL 6.01 archive](https://antime.kapsi.fi/sega/files/SBL601.zip), `SBL6/SEGALIB/LIB` member list.

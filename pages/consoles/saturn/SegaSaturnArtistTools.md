@@ -168,9 +168,26 @@ File Formats Supported:
 </div>
 </section>
 
+The archived [3D Editor 1.72US ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf) shows the small, practical decisions behind that description: pick the connected Saturn target, then set colour on a polygon in a separate dialog [^12]. These are cropped interface illustrations from the original manual.
+
+{% capture dts_editor_controls %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-3d-editor-target-dialog.webp" alt="Sega 3D Editor target selection dialog listing a Saturn CartDev connection and 320 by 224 screen size" width="895" height="585" title="Choose the target" caption="The [3D Editor 1.72US ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf), PDF p. 3, shows a Saturn CartDev among the targets." %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-3d-editor-colour-dialog.webp" alt="Sega 3D Editor colour selector with red green and blue controls" width="1060" height="320" title="Set a polygon colour" caption="Colour-selector detail from the [same ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf), PDF p. 19." %}
+{% endcapture %}
+{% include article-gallery.html figures=dts_editor_controls compact=true %}
+
 ---
 ## Windows 95 Graphics Tools and their sample models
 The later Windows 95 package joined **3D Editor**, **Map Editor**, and **SS Monitor**. The monitor sent a model or scroll screen through CartDev to the Saturn, making a television preview part of the editing loop [^11]. The [preserved package](https://antime.kapsi.fi/sega/files/WGT_10J.zip) includes the tools and real sample assets: `.SG3` models, `.SGT` texture sets, bitmaps, and JPEG textures. Its manual lists `sonic3.sg3` as a 214-polygon sample with 12 textures, alongside a 464-polygon `mt_sonic.sg3` [^11]. Those are SDK examples, not evidence that either file shipped in a retail game.
+
+The package's bitmap samples give a more immediate feel for the workbench than a file listing. `BEACH.BMP` is a horizon and layout guide, `DINO.BMP` is a small pixel-art character, and `SUNSET.BMP` is a painted landscape. They are original tool samples from `Sample/MAP_SAM`, not screenshots of a released game [^11].
+
+{% capture dts_wgt_samples %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-wgt-sample-beach.webp" alt="Original BEACH.BMP Saturn SDK map sample with blue sky and sea over a marked sand layout" width="512" height="512" title="Beach layout" caption="`Sample/MAP_SAM/BEACH.BMP` in the [Windows 95 Graphics Tools archive](https://antime.kapsi.fi/sega/files/WGT_10J.zip)." %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-wgt-sample-dino.webp" alt="Original DINO.BMP pixel-art dinosaur sample from the Saturn graphics tools" width="112" height="80" title="Dinosaur sprite" caption="`Sample/MAP_SAM/DINO.BMP` in the [same archive](https://antime.kapsi.fi/sega/files/WGT_10J.zip)." %}
+{% include article-figure.html src="/public/images/saturn/dts/dts-wgt-sample-sunset.webp" alt="Original SUNSET.BMP painted purple sunset landscape from the Saturn graphics tools" width="576" height="451" title="Sunset artwork" caption="`Sample/MAP_SAM/SUNSET.BMP` in the [same archive](https://antime.kapsi.fi/sega/files/WGT_10J.zip)." %}
+{% endcapture %}
+{% include article-gallery.html figures=dts_wgt_samples columns="3" compact=true %}
 
 The manual records a useful preview trap. Some sample models use collapsed vertices to make concave quads. The Windows editor renders triangles, so these quads can look wrong on the PC even though the Saturn or SS Monitor displays them correctly. The `.SG3` model also stores texture reference numbers, allowing a different `.SGT` texture set to change a character's appearance without changing its geometry [^11]. That is a concrete reason to inspect the model, texture set, and target-hardware preview together.
 
@@ -241,3 +258,4 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 [^9]: Sega, [SpriteEditor ReadMe](https://antime.kapsi.fi/sega/files/SprEdit.pdf), `Introduction` and interface description.
 [^10]: Sega, [DTS Developer News, September 1995](https://antime.kapsi.fi/sega/files/DTS-0995.pdf), pp. 1-2.
 [^11]: Sega DTS, [SS-SDK Windows 95 Graphic Tools Manual and Reference](https://antime.kapsi.fi/sega/files/WGT_MAN.pdf), pp. 4-6 and 12-14; accompanying [WGT_10J.zip](https://antime.kapsi.fi/sega/files/WGT_10J.zip), `Sample/SG3_SAM` and `Sample/MAP_SAM`.
+[^12]: Sega DTS, [Sega 3D Editor 1.72US ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf), PDF pp. 3 and 19.
