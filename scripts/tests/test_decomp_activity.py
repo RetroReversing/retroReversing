@@ -122,7 +122,7 @@ class ActivityTests(unittest.TestCase):
                 percent = row['completion_percent']
                 self.assertTrue(percent is None or (isinstance(percent, (int, float)) and 0 <= percent <= 100))
                 self.assertIn(row['completion_qualifier'], ('', '>'))
-                self.assertIn(row['completion_metric'], ('completion', 'functional', 'accuracy'))
+                self.assertIn(row['completion_metric'], ('completion', 'functional', 'accuracy', 'executable-byte-matching'))
                 self.assertIsInstance(row['ports'], list)
                 for port in row['ports']:
                     self.assertTrue(port['name'])

@@ -1917,10 +1917,10 @@
               "width": 100
             }
           ],
-          "notes_markdown": "US (`SLUS-01044`). Executable text: 35,104 / 747,520 bytes matched across 613 functions ([progress snapshot, 2026-10-18](https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1/blob/b16deca808dd4ddefe72334d9a42ad5d8bc1b6b0/README.md#progress)). Early matching C reconstruction with exact-byte verification and asset-format documentation; compiler identification and a reproducible full target build remain pending. Requires user-supplied game data.",
-          "completion_percent": 4.7,
+          "notes_markdown": "US (`SLUS-01044`). All 747,520 executable payload bytes are covered by 1,869 exact source units. One linked PS-X EXE matches both supported hashes ([README progress](https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1#progress)). Semantic naming and reconstruction continue; byte-matching coverage does not mean semantic C decompilation is complete. Requires user-supplied game data.",
+          "completion_percent": 100,
           "completion_qualifier": "",
-          "completion_metric": "completion",
+          "completion_metric": "executable-byte-matching",
           "ports": [],
           "project_types": [
             {
