@@ -1,8 +1,10 @@
 {%- comment -%}
 Render interview entries from all magazine JSON files, optionally filtered by
 magazine, platform, developer, or issue. Platforms use exact JSON labels.
+Use platforms with pipe-separated labels when a hub covers several names.
 {%- endcomment -%}
 {%- assign requested_type = include.type | default: 'interview' -%}
+{%- assign requested_platforms = include.platforms | split: '|' -%}
 {%- assign interview_count = 0 -%}
 {%- capture interview_rows -%}
   {%- for magazine_file in site.data.interviews -%}
@@ -14,10 +16,21 @@ magazine, platform, developer, or issue. Platforms use exact JSON labels.
         {%- if interview.type != requested_type -%}
           {%- assign include_interview = false -%}
         {%- endif -%}
-        {%- if include.platform and interview.platforms contains include.platform -%}
-        {%- elsif include.platform -%}
-          {%- assign include_interview = false -%}
+        {%- assign platform_match = true -%}
+        {%- if include.platform or include.platforms -%}
+          {%- assign platform_match = false -%}
+          {%- if include.platform and interview.platforms contains include.platform -%}
+            {%- assign platform_match = true -%}
+          {%- endif -%}
+          {%- for requested_platform in requested_platforms -%}
+            {%- if interview.platforms contains requested_platform -%}
+              {%- assign platform_match = true -%}
+            {%- endif -%}
+          {%- endfor -%}
         {%- endif -%}
+        {%- unless platform_match -%}
+          {%- assign include_interview = false -%}
+        {%- endunless -%}
         {%- if include.developer and interview.developer != include.developer -%}
           {%- assign include_interview = false -%}
         {%- endif -%}

@@ -267,6 +267,12 @@ aaaa
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="PlayStation|Sony PlayStation" %}
+
+---
 # References
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
 [^2]: 3D Graphics Tools manual from August 1998

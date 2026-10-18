@@ -19,7 +19,6 @@ breadcrumbs:
     url: #
 redirect_from:
   - /segamastersystem
-  - /mastersystem
   - /sms/
 tags:
   - mastersystem
@@ -129,6 +128,12 @@ It would be up to the game developers to find their own Z80 Assembler and Linker
 {% include console.html %}
   
 </div>
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Master System|Sega Master System" %}
 
 ---
 # References

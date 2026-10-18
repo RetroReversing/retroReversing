@@ -73,6 +73,12 @@ Before diving in its best to check if there are any existing reversing projects 
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Atari 2600" %}
+
+---
 # References
 [^1]: [Jolt – Retro Computing](http://retro.hansotten.nl/6502-sbc/jolt-and-super-jolt/jolt/)
 [^2]: [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)

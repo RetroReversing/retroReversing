@@ -171,6 +171,12 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 {% include link-to-other-site.html url="https://www.romhacking.net/translations/2929/" description="Togepi's Great Adventure in english!" title="Romhacking.net - Translations - Togepi no Daibouken" image="https://www.romhacking.net/translations/pokemin/images/2929titlescreen.png"  %}
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Pokemon Mini" %}
+
+---
 # References
 [^1]: [Pocket Pikachu Color! Gold & Silver Together!](http://www.jupiter.co.jp/e/product/game/other/pokepika.php)
 [^2]: [Pocket Sakura](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)

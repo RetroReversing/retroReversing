@@ -120,6 +120,12 @@ Calls to arithmetic support routines are another clue; see [runtime helpers](/co
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Game Boy Advance" %}
+
+---
 # References
 [^1]: Retro Gamer Issue 01 page 62
 [^2]: [emulator](https://www.zophar.net/gba/gbaemu.html)

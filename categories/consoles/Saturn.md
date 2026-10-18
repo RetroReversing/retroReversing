@@ -158,3 +158,9 @@ As a piece of the track approaches the camera, it smoothly fades into existence 
 <div>
 {% include console.html %}
 </div>
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Saturn|Sega Saturn" %}

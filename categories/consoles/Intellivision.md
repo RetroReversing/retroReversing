@@ -40,4 +40,8 @@ It also provides a great look into the system's pioneering controller design and
 Ever wondered what it was like to develop **Intellivision** games back on the day? The user **decle** on the **AtariAge** forum has put together an excellent pdf covering almost everything you would ever want to know about it:
 [Intellivision development, back in the day - Intellivision Programming - AtariAge Forums](https://forums.atariage.com/topic/259003-intellivision-development-back-in-the-day/)
 
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
 
+{% include interview-table.html platform="Intellivision" %}

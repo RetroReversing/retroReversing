@@ -55,3 +55,9 @@ It says:
 The buyer was Brandon Cobb who has an excellent website on the Game com: [The end of the game.com](https://www.diskman.com/presents/gamecom/index.html).
 
 But sadly no images of this development kit seem to be available on the site and the eBay link will be long gone by now.
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Game.com" %}

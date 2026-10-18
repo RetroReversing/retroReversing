@@ -184,6 +184,12 @@ Now double click on **BOOT.BIN** in the Ghidra tree view and Ghidra will then as
 Give it some time to analyze, depending on the size of the executable it could take up to 10 or 20 minutes.
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="PSP" %}
+
+---
 # All Posts
 
 {% include console.html %}

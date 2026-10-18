@@ -89,5 +89,11 @@ The upstream [xboxrecomp](https://github.com/sp00nznet/xboxrecomp) toolkit provi
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Xbox" %}
+
+---
 # References
 [^1]: Postmortems from Game Developer (Austin Grossman, 2003) Page 66

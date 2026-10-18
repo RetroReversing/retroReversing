@@ -16,8 +16,6 @@ _twitterimage: https://www.retroreversing.com/public/images/Android.jpg
 tags:
   - android
 _updatedAt: 2025-12-07
-redirect_from:
-  - /Android
 ---
 
 # Reverse Engineering Android Games 
@@ -43,3 +41,9 @@ The APK parser **apk-info** is designed for efficient forensic and security anal
 Crucially, it fully supports parsing various **APK Signature Block 42** schemes (v1, v2, v3, v3.1), making it a powerful read-only utility for large-scale Android reverse engineering and malware analysis.
 
 {% include link-to-other-site.html url="https://github.com/delvinru/apk-info" description="delvinru's apk-info is a full-featured, malware-friendly APK parser in Rust with Python bindings, capable of high-speed extraction of metadata and analysis of complex signature schemes." image="https://opengraph.githubassets.com/1/delvinru/apk-info" title="delvinru/apk-info: APK full-featured parser" %}
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Android" %}

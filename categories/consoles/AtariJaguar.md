@@ -122,5 +122,11 @@ Extension | Description
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Atari Jaguar" %}
+
+---
 # References
 [^1]: Wireframe issue 2 Page 26

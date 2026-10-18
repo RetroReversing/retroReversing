@@ -262,6 +262,12 @@ When dealing with homebrew or unlabeled ROM sets, `gbtoolsid` is a practical fir
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Game Boy|Game Boy Color" %}
+
+---
 # References
 [^1]: [Jas Austin on Alien 3 for Game Boy taking about five weeks - Twitter/X](https://twitter.com/IamXERO/status/297359737287225345)
 [^2]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)

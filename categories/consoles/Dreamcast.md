@@ -120,6 +120,12 @@ There is an excellent article by **Rings of Saturn** on reverse engineering Ecco
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Dreamcast|Sega Dreamcast" %}
+
+---
 # All Posts tagged with Dreamcast
 <div>
 

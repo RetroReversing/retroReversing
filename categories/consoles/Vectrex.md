@@ -46,5 +46,11 @@ If you have any information about a Vectrex Development Kit then please let us k
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Vectrex" %}
+
+---
 # References
 [^1]: https://www.youtube.com/watch?v=Kg6RwOVS334

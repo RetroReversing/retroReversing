@@ -167,6 +167,12 @@ For general checks, see [function boundaries and unusual calling conventions](/d
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="GameCube|Nintendo GameCube" %}
+
+---
 # References
 [^1]: [decomp.wtf - PowerPC guide](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/app/guide/ppc.md).
 [^2]: [IBM AIX 7.1 Assembler Language Reference](https://www.ibm.com/docs/ssw_aix_71/assembler/assembler_pdf.pdf), instruction entries for clrlwi, cmp, cmpl, cntlzw, fctiwz and frsp.

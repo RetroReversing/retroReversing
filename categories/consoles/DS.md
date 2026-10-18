@@ -77,6 +77,12 @@ We have a separate post on Homebrew developed for the Nintendo DS which you can 
 [^1]: [Serially Loopy: ROM Hacking from the Ground Up - YouTube](https://www.youtube.com/watch?v=p3wq9NFU99c)
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Nintendo DS" %}
+
+---
 # All Posts Tagged with DS
 
 <div>

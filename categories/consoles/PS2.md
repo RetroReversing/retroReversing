@@ -235,6 +235,12 @@ For headerless code, the [raw-overlay example](/ps1-file-formats#recovering-raw-
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="PlayStation 2" %}
+
+---
 # References
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
 [^2]: Psi2 issue 18

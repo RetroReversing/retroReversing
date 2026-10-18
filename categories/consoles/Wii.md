@@ -60,6 +60,12 @@ Wikipedia maintains a list of Wii exclusives - [Wii-only games - Wikipedia](http
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Wii|Nintendo Wii" %}
+
+---
 # All Posts tagged with Wii
 <div>
 

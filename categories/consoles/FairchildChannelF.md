@@ -45,4 +45,10 @@ In this section of our guide, we will provide you with comprehensive information
  <div markdown="1" class="rr-post-markdown">
 Fairchild released a development kit which came with a book titled **F8 Guide to Programming**, if you were a developer at the time who wanted to write games for the Channel F then this would be the go-to book!
  </div>
-</section> 
+</section>
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Fairchild Channel F" %}

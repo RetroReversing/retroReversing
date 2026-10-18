@@ -14,10 +14,13 @@ Use the shared Liquid include on a magazine page or a platform page:
 ```liquid
 {% include interview-table.html magazine="retro-gamer" show_magazine=false %}
 {% include interview-table.html platform="Commodore 64" %}
+{% include interview-table.html platforms="NES|Nintendo Entertainment System" %}
 ```
 
 The include selects `interview` entries by default and searches every magazine
 JSON file unless `magazine` is set. It also supports exact `developer` and
-integer `issue` filters. Use the same platform name in each JSON file so
+integer `issue` filters. Use `platforms` with pipe-separated exact labels when
+a hub covers multiple names or related models; an entry matching more than one
+label still appears once. Prefer the same platform name in each JSON file so
 cross-magazine filters remain reliable. Other feature types can be stored in
 the same `entries` array without appearing in interview tables.

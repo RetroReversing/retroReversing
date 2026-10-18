@@ -186,6 +186,12 @@ If You are using a browser-based DOSBox emulator to run your games you can add t
 [^5]: [Juan Linietsky](https://x.com/reduzio/status/1832339488611107221)
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="DOS" %}
+
+---
 # All Posts
 <div>
 

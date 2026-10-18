@@ -54,6 +54,12 @@ If you're interested in learning more about the hardware architecture of the Nin
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Nintendo 3DS" %}
+
+---
 # All Posts
 <div>
 
