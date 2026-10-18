@@ -39,7 +39,7 @@ recommend:
 editlink: /consoles/saturn/SegaSaturnHardware.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD -->
+<!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD Gouraud -->
 
 Image from EDGE magazine issue 23
 <img src="/public/magazine/SegaSaturnMotherboard.EDGE.23.webp" />
@@ -88,6 +88,14 @@ The original bit maps show the difference at a glance. The mouse packs button st
 {% include article-figure.html src="/public/images/saturn/dts/dts-keyboard-packet-layout.webp" mobile_src="/public/images/saturn/dts/dts-keyboard-packet-mobile.svg" alt="Saturn keyboard report with controller-style buttons, keyboard type, lock and make-break flags, and key code" width="1185" height="340" title="Four bytes behind the Saturn keyboard" caption="Bit table cropped from [Sega Technical Bulletin 45](https://antime.kapsi.fi/sega/files/ST-TECH-45.pdf), PDF p. 1. The narrow-screen version summarizes the bytes; select the figure for the original bit positions." %}
 
 ---
+### A screen for watching the ports
+Sega's [SMPC sample-program manual](https://antime.kapsi.fi/sega/files/ST-214-111594.pdf) shows what a developer-facing input diagnostic could display. Its port-monitor modes show connected device names, IDs, and returned data, while other modes show the `INTBACK` status, issue SMPC commands, or use a mouse to draw simple shapes [^13]. That is a much more revealing view of the input system than a game character moving on screen.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-smpc-port-monitor.webp" alt="Sega manual mockup of the SMPC port monitor showing a Saturn pad on port 1 and a multitap with two Mega Drive pads and a Sega mouse on port 2" width="795" height="535" title="What the SMPC reported" caption="Port-monitor screen illustration cropped from the [SMPC Sample Program manual](https://antime.kapsi.fi/sega/files/ST-214-111594.pdf), PDF p. 10. It is a manual mockup, not a captured retail-game screen." %}
+
+The manual says this version could handle up to 30 peripherals with two clocked-serial 15-port adapters, although the monitor displayed only the first seven attached to each main port [^13]. The illustrated screen is smaller: a pad on port 1 and a tap on port 2. It also shows why software must track both the physical port and the device beneath a tap.
+
+---
 ## DMA crosses buses, but not every route is legal
 Sega's developer FAQ gives a revealing failed call: `DMA_ScuMemCopy()` does not copy from one area of high work RAM to another. The SCU DMA engine is for transfers between buses; a copy within the same memory space needs CPU DMA or a software copy [^10]. The FAQ lists high work RAM to VDP1, VDP2, or SCSP and CD buffer to those destinations as useful routes.
 
@@ -105,6 +113,14 @@ MSB | Can darken another sprite, but cannot mix with RGB sprites; transparent MS
 MSB shadows require VDP2's sprite-control bits to leave the high bit available and work only with sprite types 2-7, which rules out VDP1 high-resolution modes. Normal shadows are available in those modes, but their reserved palette entries cannot be used as ordinary sprite colours [^12]. These are useful clues when a game uses apparently strange colour values or a shadow disappears after a rendering-mode change.
 
 {% include article-figure.html src="/public/images/saturn/dts/dts-shadow-modes.svg" mobile_src="/public/images/saturn/dts/dts-shadow-modes-mobile.svg" alt="Normal shadow uses a reserved palette value to darken the background; MSB shadow uses a high bit and can darken existing sprites too" width="1200" height="250" title="Two routes through the Saturn's shadow hardware" caption="Diagram reconstructed from [Sega Technical Bulletin SOA-2](https://antime.kapsi.fi/sega/files/Sattechs.pdf), pp. 135-137 of the PDF." %}
+
+---
+## What one shading test cost
+An April 1996 DTS Q&A reports a specific VDP1 test: drawing several hundred **untextured** polygons with Gouraud shading made VDP1 about one-third slower than drawing them without it [^14]. The writer explicitly did not know whether textured polygons paid the same penalty. This is a period measurement for one workload, not a general Saturn frame-rate rule.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-newsletter-gouraud-qa.webp" alt="April 1996 DevelopMental Q and A reporting an approximately one-third VDP1 slowdown for Gouraud shading on a test of several hundred untextured polygons" width="440" height="1045" size="document" title="A useful number, with an important limit" caption="Q&A cropped from [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3. The author did not establish the cost for textured polygons." %}
+
+For a cheaper flat-lighting effect, the same answer suggests colour calculation between paletted sprites and the line screen, with a selectable ratio per sprite [^14]. It is a different visual technique with different constraints, rather than a drop-in replacement for Gouraud interpolation.
 
 ---
 ## Data and RAM cartridges
@@ -134,3 +150,5 @@ The Saturn's MC68EC000 sound CPU and SCSP had their own restrictions. A January 
 [^10]: Sega DTS, [DevelopMental, January/February 1997](https://antime.kapsi.fi/sega/files/DTS-0197.pdf), p. 3, "DMA Programming" FAQ.
 [^11]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletin 12, "SCU DMA, Boot ROM, and Vblank Precautions," PDF p. 54.
 [^12]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletin SOA-2, "Casting VDP1 Shadows on VDP2 Backgrounds," PDF pp. 135-137.
+[^13]: Sega, [Saturn SMPC Sample Program User's Manual](https://antime.kapsi.fi/sega/files/ST-214-111594.pdf), pp. 3-6 on sample modes and the port monitor.
+[^14]: Sega DTS, [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3, VDP1 Gouraud-shading Q&A.

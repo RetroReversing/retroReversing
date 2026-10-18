@@ -22,7 +22,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN -->
+<!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN SEGA2D SEGA3D -->
 
 <section class="postSection">
     <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:250px" class="wow slideInLeft postImage" />
@@ -82,6 +82,14 @@ The **Branching Playback Library** (BPL) is not another video codec. Sega design
 For someone investigating an interactive FMV title, that distinction matters: stream layout and branch timing may be as important as the video file's codec. The [BPL manual](https://antime.kapsi.fi/sega/files/ST-136-D-R2-082495.pdf) documents the library calls and scenario data [^5]. It describes a developer facility, not proof that a particular retail game used BPL.
 
 
+### How the stream library selected sectors
+Sega's earlier [Stream System specification](https://antime.kapsi.fi/sega/files/ST-098-031194.pdf) describes the layer beneath a video decoder. Audio, video, and other data could be interleaved on the disc rather than stored as uninterrupted files. A *stream group* kept related streams together for synchronized access. The library selected CD-ROM XA Mode 2 sectors by file number, channel number, submode, and coding information in their subheaders [^8].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-stream-system-overview.webp" alt="Sega's Stream System diagram showing interleaved video, audio, and data streams selected from CD into buffers or a transfer function" width="1045" height="830" size="document" title="One disc read, several kinds of data" caption="Diagram cropped from Sega's [Stream System specification](https://antime.kapsi.fi/sega/files/ST-098-031194.pdf), PDF p. 7. It describes an SDK facility; an individual game's disc layout still needs to be inspected." %}
+
+The application could direct a selected stream to a CPU buffer or a processing function. Closing the *transfer gate* let data accumulate in the CD buffer; a *resident stream* could remain there for later reuse without another disc read [^8]. These are useful clues when a recovered executable appears to filter sectors or manage buffers instead of simply opening and reading a file.
+
+---
 ## AVI - Audio Video Interleave
 The Sega Saturn had support for Audio Video Interleave (AVI) video files and was widley used in games such as Devil Summoner. You will notice that these files start with the magic header `RIFF`, this is due to AVI being a subformat based on the Resource Interchange File Format (RIFF) [^1].
 
@@ -92,6 +100,32 @@ The Sega Saturn had support for Audio Video Interleave (AVI) video files and was
 ---
 # Image formats
 
+## SEGA2D scroll data
+The [Saturn/32X graphics reference](https://antime.kapsi.fi/sega/files/ST-124-R1-091394.pdf) calls SEGA2D Sega's standard Saturn scroll-data format. It starts with a `0x100`-byte header. The first 16 bytes contain `SEGA 32BIT2DSCR` followed by `0x1A`; the remaining fields point to map, page, character-generator, palette, and attribute data [^9]. Unlike a fixed sequence of pixel blocks, the sections can move: each has its own offset and size pair.
+
+The first useful pairs are:
+
+Section | Offset field | Size field
+---|---|---
+Map | `0x10` | `0x14`
+Page | `0x20` | `0x24`
+Character generator | `0x30` | `0x34`
+Palette | `0x40` | `0x44`
+Attributes | `0x50` | `0x54`
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-sega2d-header-table.webp" alt="Original SEGA2D header table showing the identifier and offset-size pairs for map, page, character-generator, palette, and attribute data" width="875" height="435" title="A map to the rest of the map" caption="Header table cropped from [Saturn/32X Graphic References](https://antime.kapsi.fi/sega/files/ST-124-R1-091394.pdf), PDF p. 6. Use the offsets to find the sections before interpreting their tile and palette contents." %}
+
+The manual goes on to define page pattern names, palette choices, flip flags, and character sizes. It is a specification for Sega's tool format, not a promise that every retail game kept its backgrounds as SEGA2D files [^9].
+
+---
+## SEGA3D model text
+The same reference describes **SEGA3D** as a text format beginning with `SEGA 3D`, followed by model, material, slip, and object sections. A model lists vertices and normals, then polygons as vertex indices. The polygon entry has four indices: a triangle repeats its third vertex in the fourth position. The manual also says surface vertices are numbered clockwise [^9]. Those details offer quick checks when a recovered model looks inside-out or a parser treats a triangle as a malformed quad.
+
+Material entries can name a texture and combine flags for flat colour, texture mapping, Gouraud shading, mesh, transparency, shadow, and wireframe. The file is an interchange or authoring format; a game's runtime geometry may have been converted into a different layout [^9].
+
+{% include_cached link-to-other-post.html post="/sega-saturn-artist-tools" description="See the editors and converters that worked with Sega's 2D and 3D authoring formats." %}
+
+---
 ## SIFF scene interchange files
 Sega and several vendors developed **SIFF 1.0** (Scene Interchange File Format) to exchange 3D scene, model, and animation data between graphics tools. This is an interchange specification, not a claim that retail Saturn games store assets in SIFF. Its October 1996 specification describes an Electronic Arts IFF `FORM` whose type is `SF1Q`; fields are big-endian, and chunks are padded to 32-bit boundaries [^4].
 
@@ -159,3 +193,5 @@ Virtual Disc image used by developers when using the Mirage CD Emulator.
 [^5]: Sega, [Branching Playback Library User's Manual](https://antime.kapsi.fi/sega/files/ST-136-D-R2-082495.pdf), August 1995, overview and branching functions.
 [^6]: Sega, [Standard MIDI File: Saturn Converter Specification](https://antime.kapsi.fi/sega/files/ST-066-121593.pdf), "Structure of Output Files" and event descriptions.
 [^7]: Sega, [Tone Editor User's Manual Addendum: File Formats](https://antime.kapsi.fi/sega/files/ST-235-030795.pdf), `SCSP` and `SCSPBIN` format sections.
+[^8]: Sega, [External Specification Document: Saturn Stream System](https://antime.kapsi.fi/sega/files/ST-098-031194.pdf), sections 1 and 4 on sector selection, stream groups, transfer gates, and resident streams.
+[^9]: Sega, [Saturn/32X Graphic References](https://antime.kapsi.fi/sega/files/ST-124-R1-091394.pdf), sections 1 and 4 on SEGA2D and SEGA3D layouts.
