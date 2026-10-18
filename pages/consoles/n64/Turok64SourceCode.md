@@ -354,7 +354,7 @@ An enemy does more than wait for Turok to step into a fixed circle. In `ai.c`, *
 {% include article-figure.html src="https://www.nintendo64ever.com/photos/jeux/N64EVER,359,3381.jpg" alt="Original Nintendo 64 Turok gameplay with a nearby enemy and another figure ahead in a foggy passage" width="768" height="576" title="An encounter in the fog" caption="An enemy emerges through the mist in this original Nintendo 64 [screenshot from Nintendo64Ever](https://www.nintendo64ever.com/Nintendo-64-Game-Screenshots,359,Turok-Dinosaur-Hunter,1.html)." %}
 <div class="rr-game-media-row__copy" markdown="1">
 
-**Sound follows another route.** Quiet and loud noise events each compare Turok's distance with a hearing distance configured for that enemy. A heard event adds agitation; `AI_Increase_Agitation` can wake an enemy that was waiting between update cycles. The three controls below separate those routes. They show the logic, not measured detection ranges for the enemy in the screenshot.
+**Sound follows another route.** Quiet and loud noise events each compare Turok's distance with a hearing distance configured for that enemy. A heard event adds agitation; `AI_Increase_Agitation` can wake an enemy that was waiting between update cycles. Choose a route below to follow its checks from left to right. The cards show decisions in the code, not measured detection ranges for the enemy in the screenshot.
 
 </div>
 </section>

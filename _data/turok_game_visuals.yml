@@ -167,28 +167,48 @@ training:
       copy: "2C 3D 27 36 64\nE9 13 22 28 41 33 0F 27"
 
 perception:
-  variant: story
+  variant: pipeline
   eyebrow: Enemy senses / ai.c
-  title: The Lost Land can hear you
-  scene: ALERT
+  title: Three routes to an alert enemy
   controls_label: Enemy detection routes
-  caption: These are separate checks in ai.c. The scene is illustrative; each enemy's configured sight and hearing distances can differ.
+  caption: Follow the checks from left to right. Each enemy has its own sight and hearing settings; the cards do not represent distances to scale.
   options:
     - key: sight
       label: In sight
-      heading: Distance, angle, then a clear ray
-      copy: An enemy first checks whether its target is close enough, then inside its viewing angle. A ray test must also reach the target before the sight event raises agitation.
-      code: AI_Can_See_Target
+      nodes:
+        - step: '1 / Distance'
+          heading: Target within sight radius?
+          code: m_SightRadius
+        - step: '2 / Direction'
+          heading: Target inside view angle?
+          code: m_SightAngle
+        - step: '3 / Obstruction'
+          heading: Clear ray raises sight event and agitation
+          code: CAnimInstanceHdr__CastYeThyRay
     - key: quiet
       label: Quiet noise
-      heading: A small sound can wake suspicion
-      copy: A quiet-noise event tests the enemy's configured quiet-hearing distance and adds agitation if Turok is within it.
-      code: AI_MEvent_QuietNoise
+      nodes:
+        - step: '1 / Event'
+          heading: Quiet noise reaches the AI
+          code: AI_MEvent_QuietNoise
+        - step: '2 / Distance'
+          heading: Sound within quiet-hearing radius?
+          code: m_QuietRadius
+        - step: '3 / Reaction'
+          heading: Quiet-noise flag and agitation
+          code: AI_EV_QUIETNOISE
     - key: loud
       label: Loud noise
-      heading: Loud noise has its own reach
-      copy: Loud noise has its own configured distance and agitation increment. Hearing changes the enemy's state even before it has a clear view.
-      code: AI_MEvent_LoudNoise
+      nodes:
+        - step: '1 / Event'
+          heading: Loud noise reaches the AI
+          code: AI_MEvent_LoudNoise
+        - step: '2 / Distance'
+          heading: Sound within loud-hearing radius?
+          code: m_LoudRadius
+        - step: '3 / Reaction'
+          heading: Loud-noise flag and agitation
+          code: AI_EV_LOUDNOISE
 
 oxygen:
   variant: meter
