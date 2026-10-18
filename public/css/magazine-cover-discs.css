@@ -1,4 +1,4 @@
-/* Issue profiles on the Retro Gamer magazine page. */
+/* Cover disc profiles for magazine pages. */
 .post .rr-disc-profile {
   display: grid;
   grid-template-columns: minmax(0, 16rem) minmax(0, 1fr);
@@ -14,6 +14,8 @@
 .post .rr-disc-profile--reverse {
   grid-template-columns: minmax(0, 1fr) minmax(0, 16rem);
 }
+
+.post .rr-disc-profile--text-only { grid-template-columns: minmax(0, 1fr); }
 
 .post .rr-disc-profile--reverse .rr-disc-profile__art { order: 2; }
 .post .rr-disc-profile--reverse .rr-disc-profile__copy { order: 1; }

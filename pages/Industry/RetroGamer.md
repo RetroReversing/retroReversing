@@ -22,6 +22,7 @@ tags:
  - industry
  - magazines
 updatedAt: '2026-10-18'
+cover_discs: true
 ---
 
 Retro Gamer is a British magazine devoted entirely to classic video games, first launched in January 2004 [^1]. Over the past 20+ years it has grown from a niche quarterly into a monthly archive of gaming history, publishing high-quality retrospectives, developer interviews, and reader-favorite features on titles from the 1970s through early 2000s . 
@@ -47,75 +48,75 @@ The first 18 issues came with cover CDs. When the magazine returned with issue 1
 The images show the disc sleeves, not the magazine front covers. They come from the Centre for Computing History's collection; select a sleeve to see it at full size. The page numbers below are printed magazine pages, not PDF page numbers.
 
 ## Issue 1 - Special Collector's Disc
-{% include retro-gamer-coverdisc.html issue=1 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=1 %}
 
 ---
 ## Issue 2 - Retro Gamer System
-{% include retro-gamer-coverdisc.html issue=2 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=2 %}
 
 ---
 ## Issue 3 - Gremlin's Greatest Hits
-{% include retro-gamer-coverdisc.html issue=3 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=3 %}
 
 ---
 ## Issue 4 - Retro Collection
-{% include retro-gamer-coverdisc.html issue=4 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=4 %}
 
 ---
 ## Issue 5 - Retro Gaming Extravaganza
-{% include retro-gamer-coverdisc.html issue=5 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=5 %}
 
 ---
 ## Issue 6 - Beneath a Steel Sky
-{% include retro-gamer-coverdisc.html issue=6 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=6 %}
 
 ---
 ## Issue 7 - Retro 50
-{% include retro-gamer-coverdisc.html issue=7 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=7 %}
 
 ---
 ## Issue 8 - Graftgold Collection
-{% include retro-gamer-coverdisc.html issue=8 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=8 %}
 
 ---
 ## Issue 9 - Retro Remakes Collection
-{% include retro-gamer-coverdisc.html issue=9 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=9 %}
 
 ---
 ## Issue 10 - The Games Factory
-{% include retro-gamer-coverdisc.html issue=10 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=10 %}
 
 ---
 ## Issue 11 - Durell Big 40 Hits
-{% include retro-gamer-coverdisc.html issue=11 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=11 %}
 
 ---
 ## Issue 12 - Llamarama
-{% include retro-gamer-coverdisc.html issue=12 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=12 %}
 
 ---
 ## Issue 13 - Amiga Forever 6.0
-{% include retro-gamer-coverdisc.html issue=13 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=13 %}
 
 ---
 ## Issue 14 - The Ur-Quan Masters
-{% include retro-gamer-coverdisc.html issue=14 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=14 %}
 
 ---
 ## Issue 15 - 105 Essential Emulators
-{% include retro-gamer-coverdisc.html issue=15 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=15 %}
 
 ---
 ## Issue 16 - The Elder Scrolls Arena
-{% include retro-gamer-coverdisc.html issue=16 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=16 %}
 
 ---
 ## Issue 17 - Ultimate 2D Shoot-'Em-Up Collection
-{% include retro-gamer-coverdisc.html issue=17 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=17 %}
 
 ---
 ## Issue 18 - The Last Ninja Trilogy
-{% include retro-gamer-coverdisc.html issue=18 %}
+{% include magazine-cover-disc.html discs=site.data.retro_gamer_cover_discs magazine="Retro Gamer" issue=18 %}
 
 ---
 # References

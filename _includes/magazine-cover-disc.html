@@ -1,0 +1,40 @@
+{% comment %}
+  Render one cover disc from a magazine's data file. Pass discs, issue and magazine.
+  Each disc may provide image, image_width, image_height, image_source,
+  image_source_url, media_label, lead, highlights, context and guide_pages.
+{% endcomment %}
+{% assign disc = include.discs | where: "issue", include.issue | first %}
+{% if disc %}
+<div class="rr-disc-profile{% if disc.image %}{% if disc.issue | modulo: 2 == 0 %} rr-disc-profile--reverse{% endif %}{% else %} rr-disc-profile--text-only{% endif %}">
+  {% if disc.image %}
+  <div class="rr-disc-profile__art">
+    {% capture sleeve_alt %}{{ disc.media_label | default: 'Cover disc' }} sleeve for {{ include.magazine }} issue {{ disc.issue }}{% if disc.title %}, {{ disc.title }}{% endif %}{% endcapture %}
+    {% if disc.image_source_url %}
+      {% capture sleeve_caption %}Sleeve scan: [{{ disc.image_source | default: 'Source' }}]({{ disc.image_source_url }}).{% endcapture %}
+    {% else %}
+      {% assign sleeve_caption = disc.image_source %}
+    {% endif %}
+    {% include article-figure.html src=disc.image alt=sleeve_alt width=disc.image_width height=disc.image_height size="small" caption=sleeve_caption %}
+  </div>
+  {% endif %}
+  <div class="rr-disc-profile__copy">
+    <p class="rr-disc-profile__eyebrow">The {{ disc.media_label | default: 'cover disc' }} / Issue {{ disc.issue }}</p>
+    {% if disc.lead %}<p class="rr-disc-profile__lead">{{ disc.lead | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+    {% if disc.highlights and disc.highlights.size > 0 %}
+    <div class="rr-disc-profile__contents">
+      <p class="rr-disc-profile__label">On the disc</p>
+      <ul>
+        {% for item in disc.highlights %}<li>{{ item | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if disc.context %}
+    <div class="rr-disc-profile__note">
+      <p class="rr-disc-profile__label">Archive note</p>
+      {{ disc.context | markdownify }}
+    </div>
+    {% endif %}
+    {% if disc.guide_pages %}<p class="rr-disc-profile__guide">Printed guide: p{% if disc.guide_pages contains '-' %}p{% endif %}. {{ disc.guide_pages }}</p>{% elsif disc.guide_note %}<p class="rr-disc-profile__guide">{{ disc.guide_note }}</p>{% endif %}
+  </div>
+</div>
+{% endif %}
