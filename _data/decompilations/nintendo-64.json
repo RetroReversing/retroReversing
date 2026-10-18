@@ -3226,6 +3226,18 @@
                 "Static recompilation",
                 "Native port"
               ]
+            },
+            {
+              "name": "Project Midas",
+              "url": "https://github.com/murkantor/Project-Midas",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "AI-assisted native port built from the GoldenEye 007 decompilation; requires the USA cartridge image. Linux needs 32-bit SDL2/OpenGL and some systems require a level-rendering workaround documented in the README. This build accepts the stock cartridge only; co-op, netplay and mod loading remain in development.",
+              "project_types": [
+                "Native port"
+              ]
             }
           ],
           "project_types": [
