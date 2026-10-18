@@ -17,6 +17,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 2) Choose location + frontmatter:
    * For useful topics that are not yet large enough for a standalone page, add them to the most relevant category or hub page first.
    * When a category section grows large enough to stand alone, split it into a dedicated page and leave a short summary plus an internal link from the category page.
+   * Treat category pages as curated "awesome lists" and readable articles: keep high-quality links, explain their value, and weave concrete technical context through the sections. Preserve an apt "Awesome list of ..." excerpt and the page's natural voice; do not flatten either into generic reference copy.
    * Follow the "standard shape" from `CONTRIBUTING.md` (use modern minimal frontmatter; don't clone old pages blindly).
    * `title` must not contain colons.
    * `permalink` must not end with a trailing `/`.

@@ -8,6 +8,7 @@ recommendTitle: All GG Posts
 editlink: ../categories/consoles/GameGear.md
 category: gamegear
 excerpt: Awesome list of Sega Game Gear Game Development and Reverse Engineering information
+updatedAt: '2026-10-18'
 breadcrumbs:
   - name: Home
     url: /
@@ -26,9 +27,9 @@ recommend:
 ---
 
 # Introduction
-Welcome to our page dedicated to Game Gear reverse engineering! The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
-
-On this page, we've compiled a list of links to other pages that cover various topics related to Game Gear reverse engineering.
+Sega released the Game Gear in 1990 with a colour, backlit screen.
+This page brings together accounts of how developers made its games, the tools and hardware they used, and technical references for the console itself.
+If you are examining a ROM, those sources can help connect the artwork and music created during development with the data and hardware writes left in the finished game.
 
 ## How were sound and music created for the GameGear?
 In an interview with **Paul Hutchinson** he states that he used an Amiga 2000HD with the software **Pro-Tracker**. He wrote a DOS program in Turbo-C++ to convert the Pro-Tracker MIDI export format  directly to a format that the Game Gear sound routines could easily use [^1]. 
@@ -53,15 +54,37 @@ Normally it was up to the main programmer to put everything together, all the im
 
 Developers such as **Paul Hutchinson** wrote programs with Turbo C++ to convert the asset data into assembler files (Define Byte (`.DB`), Define Word (`.DW`) etc statements) [^2]. Then an assembler is used to put everything together into a single file that can then be burned onto an EPROM using hardware such as **Needham's Electronics EPROM programmer**.
 
-The EPROM was then inserted on to a development cartridge and tested on the retail system before finally sending to Sega via their Bullitin Board System (BBS) [^2].
+The EPROM was then inserted on to a development cartridge and tested on the retail system before finally sending to Sega via their Bulletin Board System (BBS) [^2].
 
 
 ---
 # Hardware
-If you're interested in reverse engineering software for the Sega Game Gear handheld console, it's crucial to have a solid understanding of the hardware that powers it. By comprehending the inner workings of the Game Gear hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+The hardware notes here help separate cartridge code from writes to the video and sound chips.
+The development-kit links document how programmers and artists tested those writes on real machines.
 
-This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Game Gear, including retail, prototype, and development hardware.
+## Tracing Palette Writes
+The [Sega Game Gear technical manuals](https://www.smspower.org/Development/GGOfficialDocs), transcribed by SMS Power, describe colour RAM as 32 entries of 12-bit colour.
+A colour occupies two successive byte addresses: the even byte carries four red and four green bits; the odd byte carries four blue bits.
+For bright red, the manual's example writes `$0F` followed by `$00` [^3].
 
+The Z80 selects colour RAM through two writes to VDP control port `$BF`, then sends colour bytes to data port `$BE`.
+The VDP advances its address after each data byte.
+When tracing a palette loader, look for the `$C0` control byte and pairs of data writes, not a single 12-bit write.
+The manual warns that changing colour RAM while the screen is scanned can produce flicker and recommends doing so during vertical blanking [^3].
+
+The [SMS Power VRAM map](https://www.smspower.org/Development/VRAMMemoryMap) shows a common layout with tile patterns from `$0000`, a tilemap at `$3800` and a sprite attribute table at `$3F00` [^4].
+Those addresses are video RAM, reached through the VDP ports, rather than CPU memory addresses to search for in a cartridge disassembly.
+It is a common layout, so check the game's VDP register values before assigning a region a fixed purpose [^4].
+
+## Tracing Stereo Sound
+Sega's manual assigns I/O port `$06` to left and right routing for the three tone channels and noise channel [^3].
+The [Game Gear stereo reference](https://www.smspower.org/Development/GameGearStereo) maps bits 0-3 to the right and bits 4-7 to the left.
+For example, `$FF` enables all four channels on both sides, while `$F0` routes them to the left headphone channel [^5].
+
+If a music routine writes to `$06`, annotate it as routing, not as a new note or volume value.
+The routing affects the headphone output; the built-in speaker is unaffected, so muting both headphone sides is not equivalent to silencing the machine [^5].
+
+---
 ## Official Development Hardware
 We have a specific post all about the known Game Gear development hardware such as the development board and the ZAX-ICE **ERX308** that was used:
 
@@ -84,11 +107,10 @@ There is one known third party development kit called **Krisalis** which we have
 
 ---
 # Software Development Kit
-Up until recently it was not known if SEGA ever released a software development kit for the Game Gear, as previous consoles such as the SEGA Master System only had a documentation manual of the hardware but no actual official SDK. 
+The examples below show both Sega-supplied tools and utilities written by individual developers.
+They document one working environment rather than a universal Game Gear SDK.
 
-So it was up to developers to "roll their own" software development kits for the Game Gear.
-
-However thanks to the source code leak of the unreleased Game Gear game **Barbie Super Model** on both Romhacking.net: [Romhacking.net - Documents - Barbie Super Model Source Code](https://www.romhacking.net/documents/604/) and SMS Power: [Barbie Super Model - Development - SMS Power!](https://www.smspower.org/Development/BarbieSuperModel-GG). We now have at least some of the files that were sent out to Game Gear developers as an official SDK from SEGA. It is not clear who leaked the source code for the game, potentially an old **Hi-Tech Expressions** employee.
+However thanks to the source code leak of the unreleased Game Gear game **Barbie Super Model** on both Romhacking.net: [Romhacking.net - Documents - Barbie Super Model Source Code](https://www.romhacking.net/documents/604/) and SMS Power: [Barbie Super Model - Development - SMS Power!](https://www.smspower.org/Development/BarbieSuperModel-GG). The surviving files include Sega tools that were supplied to Game Gear developers. It is not clear who leaked the source code for the game, potentially an old **Hi-Tech Expressions** employee.
 
 ## ASM80
 In the Barbie source code there is a folder called **ASM80** this is the assembler toolchain which is made by **Microtech Research** from 1991-1994, it is likely this is the recommended official SEGA Game Gear SDK, the main executables are listed in the table below:
@@ -135,7 +157,7 @@ In order to help developers manage sprites and tiles for Game Gear games SEGA de
 Name | Description
 ---|---
 GG.EXE | The main program, you need to pass the parallel port number of the connected Game Gear as an argument.
-GGO.EXE | Basically the same as GGO.EXE but seems to have been modified slightly not sure if this is an official change or not.
+GGO.EXE | Similar to GG.EXE but seems to have been modified slightly not sure if this is an official change or not.
 INSERT.CMD | CUSTOM command whose purpose is to EASE the process of downloading sprites overtop of the background.
 Custom.inc | X86 Assembly file that can be assembled with MASM or TASM for communicating with GG.EXE in custom tools. - Copyright Sega Of America 1991
 
@@ -193,3 +215,6 @@ CTG | Possible someones name? Or a company Has written files for the GG Characte
 # References
 [^1]: [GST♥: Part 2: A Discovery with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416756992688128/part-2-a-discovery-with-paul-hutchinson)
 [^2]: [GST♥: Part 1: A Chat with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson#:~:text=cover%20was%20removed%20in%20order,and%20we%20would%20meet%20and)
+[^3]: [Sega Game Gear technical manuals, transcribed by SMS Power](https://www.smspower.org/Development/GGOfficialDocs), VDP manual "Writing to the color RAM" and main manual "I/O port 06H".
+[^4]: [SMS Power - VRAM Memory Map](https://www.smspower.org/Development/VRAMMemoryMap), common Master System and Game Gear layout.
+[^5]: [SMS Power - Game Gear Stereo](https://www.smspower.org/Development/GameGearStereo), port `$06` bit assignments and speaker behaviour.
