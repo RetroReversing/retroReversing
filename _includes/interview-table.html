@@ -1,0 +1,59 @@
+{%- comment -%}
+Render interview entries from all magazine JSON files, optionally filtered by
+magazine, platform, developer, or issue. Platforms use exact JSON labels.
+{%- endcomment -%}
+{%- assign requested_type = include.type | default: 'interview' -%}
+{%- assign interview_count = 0 -%}
+{%- capture interview_rows -%}
+  {%- for magazine_file in site.data.interviews -%}
+    {%- assign magazine_key = magazine_file[0] -%}
+    {%- assign magazine = magazine_file[1] -%}
+    {%- if include.magazine == nil or include.magazine == magazine_key -%}
+      {%- for interview in magazine.entries -%}
+        {%- assign include_interview = true -%}
+        {%- if interview.type != requested_type -%}
+          {%- assign include_interview = false -%}
+        {%- endif -%}
+        {%- if include.platform and interview.platforms contains include.platform -%}
+        {%- elsif include.platform -%}
+          {%- assign include_interview = false -%}
+        {%- endif -%}
+        {%- if include.developer and interview.developer != include.developer -%}
+          {%- assign include_interview = false -%}
+        {%- endif -%}
+        {%- if include.issue and interview.issue != include.issue -%}
+          {%- assign include_interview = false -%}
+        {%- endif -%}
+        {%- if include_interview -%}
+          {%- assign interview_count = interview_count | plus: 1 -%}
+          <tr>
+            {%- unless include.show_magazine == false -%}<td><a href="{{ magazine.url | relative_url }}">{{ magazine.magazine | escape }}</a></td>{%- endunless -%}
+            <td data-order="{{ interview.issue }}">{{ interview.issue }}</td>
+            <td{% if interview.pages %} data-order="{{ interview.pages[0] }}"{% endif %}>
+              {%- if interview.pages -%}
+                {%- if interview.pages.size == 1 -%}p. {{ interview.pages[0] }}
+                {%- else -%}pp. {{ interview.pages[0] }}-{{ interview.pages[1] }}{%- endif -%}
+              {%- endif -%}
+            </td>
+            <td>{{ interview.developer | escape }}</td>
+            <td>{{ interview.platforms | join: ', ' | escape }}</td>
+            <td>{{ interview.description_markdown | markdownify | remove: '<p>' | remove: '</p>' | strip }}</td>
+          </tr>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if interview_count > 0 -%}
+<table class="rr-interview-table">
+  <thead>
+    <tr>
+      {%- unless include.show_magazine == false -%}<th>Magazine</th>{%- endunless -%}
+      <th>Issue</th><th>Pages</th><th>Developer</th><th>Platforms</th><th>Description</th>
+    </tr>
+  </thead>
+  <tbody>{{ interview_rows }}</tbody>
+</table>
+{%- else -%}
+<p>No magazine interviews have been indexed for this selection yet.</p>
+{%- endif -%}
