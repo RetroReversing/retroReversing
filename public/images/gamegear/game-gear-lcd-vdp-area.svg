@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620" role="img" aria-labelledby="title description">
-  <title id="title">Game Gear LCD window within the VDP picture</title>
-  <desc id="description">A 160 by 144 pixel LCD window is centred in a 256 by 192 pixel video display area, leaving 48 pixels at each side and 24 pixels above and below.</desc>
-  <rect width="800" height="620" fill="white"/>
-  <text x="400" y="45" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="black">Game Gear display area</text>
-  <rect x="144" y="100" width="512" height="384" fill="gainsboro" stroke="black" stroke-width="3"/>
-  <rect x="240" y="148" width="320" height="288" fill="white" stroke="black" stroke-width="4"/>
-  <text x="400" y="276" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="black">LCD window</text>
-  <text x="400" y="309" text-anchor="middle" font-family="sans-serif" font-size="19" fill="black">160 × 144 pixels</text>
-  <text x="192" y="281" text-anchor="middle" font-family="sans-serif" font-size="16" fill="black">48 px</text>
-  <text x="608" y="281" text-anchor="middle" font-family="sans-serif" font-size="16" fill="black">48 px</text>
-  <text x="400" y="133" text-anchor="middle" font-family="sans-serif" font-size="16" fill="black">24 px</text>
-  <text x="400" y="465" text-anchor="middle" font-family="sans-serif" font-size="16" fill="black">24 px</text>
-  <text x="400" y="535" text-anchor="middle" font-family="sans-serif" font-size="21" fill="black">VDP picture: 256 × 192 pixels</text>
-  <text x="400" y="567" text-anchor="middle" font-family="sans-serif" font-size="16" fill="black">The shaded area is outside the handheld's LCD.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" aria-labelledby="title description" role="img" viewBox="0 0 800 620"><title id="title">Game Gear LCD window within the VDP picture</title><desc id="description">A 160 by 144 pixel LCD window is centred in a 256 by 192 pixel video display area, leaving 48 pixels at each side and 24 pixels above and below.</desc><rect width="800" height="620" fill="#fff"/><text x="400" y="45" fill="#000" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Game Gear display area</text><rect width="512" height="384" x="144" y="100" fill="#dcdcdc" stroke="#000" stroke-width="3"/><rect width="320" height="288" x="240" y="148" fill="#fff" stroke="#000" stroke-width="4"/><text x="400" y="276" fill="#000" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">LCD window</text><text x="400" y="309" fill="#000" font-family="sans-serif" font-size="19" text-anchor="middle">160 × 144 pixels</text><text x="192" y="281" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">48 px</text><text x="608" y="281" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">48 px</text><text x="400" y="133" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">24 px</text><text x="400" y="465" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">24 px</text><text x="400" y="535" fill="#000" font-family="sans-serif" font-size="21" text-anchor="middle">VDP picture: 256 × 192 pixels</text><text x="400" y="567" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">The shaded area is outside the handheld&apos;s LCD.</text></svg>
