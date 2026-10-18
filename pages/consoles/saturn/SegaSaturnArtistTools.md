@@ -21,7 +21,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnArtistTools.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words Softimage Animetix descrip SSMonitor HrcToSg3 SGT -->
+<!-- cspell:words Softimage Animetix descrip SSMonitor HrcToSg3 SGT Cinepak -->
 
 This post will cover the most commonly used tools by artists when developing assets for Sega Saturn games, including 2D, 3D and Video.
 
@@ -138,6 +138,11 @@ There were 6 plugins provided for Photoshop on the Sega Saturn Art Tools for Mac
 
 ---
 # Video Software
+The [1994 Authoring Environment Guide](https://antime.kapsi.fi/sega/files/ST-091-R1-062794.pdf) places movies alongside graphics, sound, and a content library in Sega's production flow. Material passed through authoring tools, a program, and a CD emulator before it reached the Saturn [^13]. That makes the video tools below part of a larger edit-and-test loop, not just standalone compressors.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-authoring-workflow-1994.webp" alt="Sega's 1994 Saturn authoring workflow linking planning, graphics, sound, a content library and movies to authoring tools, program, CD emulator and Saturn" width="1165" height="740" title="From edit suite to target hardware" caption="Production-flow diagram cropped from Sega's [Authoring Environment Guide](https://antime.kapsi.fi/sega/files/ST-091-R1-062794.pdf), PDF p. 7." %}
+
+The guide sketches several budgets. Its low-cost example names a Macintosh AV with at least 32 MB of RAM, a 500 MB host disk, and an external disk of at least 1 GB; a larger setup uses a Quadra, capture and VTR-control boards, and faster SCSI storage. For a Cinepak route it shows video capture, Macintosh editing with Premiere or another editor, *Movie to Saturn* conversion, then CD-emulator testing [^13]. These are recommended 1994 setups, not minimum requirements for every Saturn project.
 
 ## TrueMotion 3.5 (Video)
 TrueMotion is a Video compression format developed by `The Duck Corp.` similar to `Cinepak` or `Mpeg`, but higher quality than the former and less efficient than the latter. This was fairly widely used in Sega Saturn games to show full motion video due to the extra space on the Sega Saturn CDs.
@@ -259,3 +264,4 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 [^10]: Sega, [DTS Developer News, September 1995](https://antime.kapsi.fi/sega/files/DTS-0995.pdf), pp. 1-2.
 [^11]: Sega DTS, [SS-SDK Windows 95 Graphic Tools Manual and Reference](https://antime.kapsi.fi/sega/files/WGT_MAN.pdf), pp. 4-6 and 12-14; accompanying [WGT_10J.zip](https://antime.kapsi.fi/sega/files/WGT_10J.zip), `Sample/SG3_SAM` and `Sample/MAP_SAM`.
 [^12]: Sega DTS, [Sega 3D Editor 1.72US ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf), PDF pp. 3 and 19.
+[^13]: Sega, [Authoring Environment Guide](https://antime.kapsi.fi/sega/files/ST-091-R1-062794.pdf), 1994, pp. 3-6 on the production flow, hardware examples, and Cinepak route.

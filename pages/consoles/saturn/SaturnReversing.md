@@ -18,7 +18,9 @@ references:
   - segaxtreme.net
 recommend: segasaturn
 editlink: /consoles/saturn/SaturnReversing.md
+updatedAt: '2026-10-18'
 ---
+<!-- cspell:words ACTWK ACTWKMAX SMTA pcbuff segaxtreme -->
 
 # Disassembling the executable
 According to a post on segaxtreme.net the Sega Saturn executes the first file it find on the disc, most of the time its in the root directory in alphabetical order.
@@ -149,5 +151,16 @@ Many Games have strings such as `GFS_SBL 2.10 1996-02-01` in them, these denote 
 Although not all games have these references such as Bubble Bobble but it is known that it was compiled with PSYQ so that could be the culprit.
 
 ---
+# Recognizing a sample-game action loop
+Sega's [Sample Game Program manual](https://antime.kapsi.fi/sega/files/ST-159-R1-092994.pdf) gives a rare source-level view of a Saturn game skeleton. Its menu moves through logo, title, and sample-selection modes. The included 2D shooter then uses an *action* function for each active player, enemy, shot, or background task. `SMTA_ActionLoop` walks registered actions every cycle and calls each action's function address [^2]. It is cooperative per-frame dispatch, not separate CPU threads.
+
+The manual's `ACTWK` record includes an active flag, level, mode, status, a function pointer called `pcbuff`, and free space for task-specific data. Its illustrated sample uses an array of 128 records, each 128 bytes. A shooter-specific `GAMEACT` extends the common record with sprite and collision state [^2].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-sample-game-action-structure.webp" alt="Sega sample-game manual diagram of a 128-entry ACTWK action array and an extended GAMEACT structure with sprite state" width="1105" height="1135" size="document" title="A game loop made of small jobs" caption="Figure 7 cropped from Sega's [Sample Game Program manual](https://antime.kapsi.fi/sega/files/ST-159-R1-092994.pdf), PDF p. 16. The diagram documents Sega's sample, not a universal layout for retail games." %}
+
+For reverse engineering, a loop that scans fixed-size records, skips inactive entries, and calls a pointer from each active one is a useful pattern to test against this sample. `SMTA_MakeActionX` also allocates inside a specified array range, which the manual uses for repeated shot actions so collision checks know where to look [^2]. These names are valuable search terms in a preserved SDK or symbol table; matching behavior matters more than assuming that every Saturn shooter reused the code.
+
+---
 # References
 [^1]: https://segaxtreme.net/threads/starting-a-sega-saturn-translation-hack.6059/
+[^2]: Sega, [Sample Game Program User's Manual](https://antime.kapsi.fi/sega/files/ST-159-R1-092994.pdf), sections 2-5, especially the action-control structure and functions.

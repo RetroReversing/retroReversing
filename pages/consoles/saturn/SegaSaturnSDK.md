@@ -21,7 +21,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSDK.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime BGCON DHUFF DeHuff Watcom -->
+<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime BGCON DHUFF DeHuff Watcom SCSP -->
 
 The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
@@ -284,6 +284,12 @@ The DTS CD's [sound-tools overview](https://antime.kapsi.fi/sega/files/SOUND.pdf
 
 The release notes document a useful version trap: **Sound Driver 2.10 requires tone banks made with Tone Editor 2.0 or later**. Sega says older tone banks will produce no sound with that driver. When comparing preserved projects, record the driver and tone-bank tool versions together [^3].
 
+An April 1996 DTS sound bulletin adds the less tidy side of the workbench. Tone Editor downloaded patch edits to the SCSP as they happened, so sending MIDI commands during an edit could crash the setup. Re-editing an imported wave under the same filename could leave Tone Editor using the old sample; Sega advised importing it under a new name. Opening Tone Editor before Sound Simulator loaded the driver and reserved sound memory was another crash path [^5]. The bulletin also flags a loop-function bug in Tone Editor 2.06.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-newsletter-sound-tips.webp" alt="April 1996 DevelopMental sound bulletin describing Tone Editor crashes, sample re-import behavior, and the Sound Simulator startup order" width="935" height="1115" size="document" title="The sound tools had a temper" caption="Sound-development advice cropped from [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3. These are contemporary tool-version issues, not general SCSP hardware restrictions." %}
+
+For a recovered sound project, those notes explain why filenames, tool versions, and initialization order can matter even when the tone data itself looks valid.
+
 ---
 # Software for Designers
 The software for 2D/3D Artists, Designers and sound editors are covered in the following post:
@@ -303,4 +309,5 @@ VCD | Either VirtualCD or Video CD depending the context
 [^1]: Sega, [Technical Bulletin 48 - SEGASaturn Development Tool Segments](https://antime.kapsi.fi/sega/files/ST-TECH-48.pdf), 2 October 1996.
 [^2]: ZIP member lists inspected in `software/zipdocs/SBL601.zip`, `SGL302J.ZIP`, and `WGT_10J.zip` of the partial DTS website reconstruction. The [SBL 6.01](https://antime.kapsi.fi/sega/files/SBL601.zip) and [Windows 95 Graphics Tools](https://antime.kapsi.fi/sega/files/WGT_10J.zip) archives are also available from Antime.
 [^3]: Sega DTS, [Overview and Release Notes of the Sega Saturn Sound Development Tools](https://antime.kapsi.fi/sega/files/SOUND.pdf), sections 1-2.
+[^5]: Sega DTS, [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3, "Wiley's Sound Bulletin."
 [^4]: Sega DTS, [BGCon 1.6 package](https://antime.kapsi.fi/sega/files/BGCON.zip), `BGCON.DOC` sections "Output Formats and Compression" and "Command Syntax", `README.TXT`, and `DEHUFF.S`.

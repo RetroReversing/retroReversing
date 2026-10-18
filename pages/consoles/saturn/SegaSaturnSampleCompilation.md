@@ -111,6 +111,12 @@ The sample script's structure is easier to read as a pipeline:
 
 The Virtual CD manual distinguishes two preparation paths. `VCDPRE.EXE` creates lookup data for direct access to host files; `VCDBUILD.EXE` creates a CD image and table of contents for real-time emulation. `VCDEMU.EXE` then runs the prepared disc against the target hardware [^2]. This is a historical workflow, not a claim that the sample above has been rebuilt with modern tools.
 
+## Writing a test CD-R
+Sega's [Write-Once CD-R System manual](https://antime.kapsi.fi/sega/files/ST-201-B-092994.pdf) takes the next physical step. Its `segacdw` utility sent a Virtual CD `.dsk` image and matching `.toc` file to a Yamaha CDR100 recorder over SCSI. Both files had to share a directory and filename prefix [^5]. In the manual's example, `test.dsk` and `test.toc` become a disc with `segacdw test`.
+
+The `-t` switch ran the recorder's test mode without writing a CD-R. A team could check the transfer path before consuming a blank disc, then burn and test the result on hardware [^5]. This describes one period production route; the utility and drive are historical equipment, not requirements for using a modern disc image.
+
+---
 ## What Sega checked at submission
 The [Master CD-ROM Release Form](https://antime.kapsi.fi/sega/files/ST-242-R2-010496.pdf) shows the next stage after local testing. In addition to matching the disc's identification data and accompanying paperwork, its checklist asks whether the CD media's linear speed is 1.25 m/s, whether drive use stays within a 33% duty ratio over ten minutes, and whether the game retries a failed read [^3]. These questions make clear why a successful emulator launch was not the end of disc development: seek patterns and recovery behavior also mattered on a physical drive.
 
@@ -132,3 +138,4 @@ Another bulletin defines the **33% drive duty ratio** as seek time divided by se
 [^2]: Sega, [Saturn Virtual CD System User's Manual](https://antime.kapsi.fi/sega/files/ST-129-R2-093094.pdf), sections 2-3 on preparation and emulation modes.
 [^3]: Sega, [Sega Saturn Master CD-ROM Release Form](https://antime.kapsi.fi/sega/files/ST-242-R2-010496.pdf), January 1996, CD-ROM checklist and attached-document checklist.
 [^4]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletins 1 (drive duty), 5 (read retries), and 7 (data/audio track limits), PDF pp. 2, 7, and 9-10.
+[^5]: Sega, [Write-Once CD-R System User's Manual](https://antime.kapsi.fi/sega/files/ST-201-B-092994.pdf), pp. 4-5 on the Yamaha CDR100, `.dsk`/`.toc` image pair, and `segacdw` test mode.
