@@ -351,6 +351,37 @@
   margin: 0 0 0.8rem;
 }
 
+.post .rr-archive__article {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+}
+
+.post .rr-archive__article-label {
+  color: var(--rr-color-meta);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.post .rr-archive__article a {
+  color: var(--rr-color-content-link);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.post .rr-archive__article a:hover,
+.post .rr-archive__article a:focus-visible {
+  color: var(--rr-color-content-link-hover);
+  text-decoration: underline;
+}
+
+.post .rr-archive__row.has-article .rr-archive__icon {
+  border-color: var(--rr-color-accent);
+  box-shadow: inset 0 0 0 1px var(--rr-color-accent);
+}
+
 .post .rr-archive__status,
 .post .rr-archive__note {
   margin: 0;
