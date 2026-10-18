@@ -14,7 +14,7 @@ async function ensureHighlights(ctx, host, registry) {
 
   // Kaitai covers generic formats. Saturn IP and raw SH-2 programs are small extra parsers.
   // Do not import every plugin here: R2 and Pyre pull large modules.
-  var ids = ["kaitai-viewer", "saturn-ip", "saturn-prog"];
+  var ids = ["kaitai-viewer", "saturn-ip", "saturn-prog", "psx-disc", "psx-exe"];
   for (var i = 0; i < ids.length; i++) {
     try {
       var runtime = await registry.loadPlugin(ids[i]);

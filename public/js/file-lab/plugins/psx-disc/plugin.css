@@ -1,0 +1,80 @@
+.rr-file-lab-psx-disc,
+.rr-file-lab-psx-exe {
+  height: 100%;
+  overflow: auto;
+  padding: 12px 14px 20px;
+  color: var(--rr-color-content-text);
+  font-size: 13px;
+}
+
+.rr-file-lab-psx-disc h3,
+.rr-file-lab-psx-exe h3 {
+  margin: 0 0 6px;
+  color: var(--rr-color-heading);
+  font-size: 16px;
+}
+
+.rr-file-lab-psx-disc p,
+.rr-file-lab-psx-exe p {
+  margin: 0 0 8px;
+}
+
+.rr-file-lab-psx-disc code,
+.rr-file-lab-psx-exe code,
+.rr-file-lab-psx-cnf {
+  font-size: 12px;
+}
+
+.rr-file-lab-psx-section {
+  margin-top: 16px;
+}
+
+.rr-file-lab-psx-section h3 {
+  font-size: 14px;
+}
+
+.rr-file-lab-psx-fields {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.rr-file-lab-psx-fields th,
+.rr-file-lab-psx-fields td {
+  text-align: left;
+  padding: 4px 8px 4px 0;
+  border-bottom: 1px solid var(--rr-color-content-border);
+  vertical-align: top;
+}
+
+.rr-file-lab-psx-fields th {
+  color: var(--rr-color-meta);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.rr-file-lab-psx-cnf {
+  margin: 0;
+  padding: 8px 10px;
+  overflow: auto;
+  white-space: pre-wrap;
+  background: var(--rr-color-pre-bg);
+  border: 1px solid var(--rr-color-content-border);
+  border-radius: 6px;
+}
+
+.rr-file-lab-psx-open {
+  font: inherit;
+  font-size: 12px;
+  padding: 2px 8px;
+  border: 1px solid var(--rr-color-content-border);
+  border-radius: 4px;
+  background: var(--rr-color-pre-bg);
+  color: var(--rr-color-heading);
+  cursor: pointer;
+}
+
+.rr-file-lab-psx-note {
+  color: var(--rr-color-meta);
+  font-size: 12px;
+}

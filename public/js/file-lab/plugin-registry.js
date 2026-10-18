@@ -105,6 +105,18 @@ function createHostApi(navigation, pluginId, fileKey) {
     };
   }
 
+  if (navigation && typeof navigation.listFiles === "function") {
+    api.listFiles = function () {
+      return navigation.listFiles();
+    };
+    api.readFile = function (path) {
+      return navigation.readFile(path);
+    };
+    api.addExtractedFile = function (path, data) {
+      return navigation.addExtractedFile(path, data);
+    };
+  }
+
   if (navigation && pluginId) {
     api.pushDetailView = function (options) {
       return navigation.pushDetailView(pluginId, options || {});

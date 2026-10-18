@@ -115,6 +115,9 @@ Although he also revealed that there was a tight development cycle for Alien Sol
 To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:
 {% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
 
+Developers of the 32X add-on received a full Developer Tool Kit CD with the SNASM2 toolchain, source code, and lockout implementation, which is covered separately:
+{% include_cached link-to-other-post.html post="/sega-32x-sdk" description="Browse the Sega 32X Developer Tool Kit CD with the interactive archive explorer, including the cartridge tools, demos, and dated DTS drops." %}
+
 ---
 ## In-House Development Software
 It was common in the industry to develop custom software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.

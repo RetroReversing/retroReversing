@@ -16,7 +16,7 @@ export interface FunctionEntry {
 }
 
 export interface ParsedBinary {
-  format: "elf" | "macho" | "pe" | "wasm" | "sh2";
+  format: "elf" | "macho" | "pe" | "wasm" | "sh2" | "psx";
   arch: string;
   languageId: string;
   regions: Region[];

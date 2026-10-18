@@ -1,4 +1,5 @@
 import { locateSaturnSh2 } from "../../../saturn-sh2.js";
+import { locatePsxExe } from "../../../psx-image.js";
 
 function bytesMatch(bytes, offset, pattern) {
   if (!bytes || !pattern || !pattern.length) return false;
@@ -107,6 +108,7 @@ export function isRadare2Binary(ctx) {
   if (!bytes || bytes.length < 4) return false;
 
   return (
+    !!locatePsxExe(bytes) ||
     !!locateSaturnSh2(bytes) ||
     isElf(bytes) ||
     isPe(bytes) ||

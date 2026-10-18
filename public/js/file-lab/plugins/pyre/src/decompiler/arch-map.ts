@@ -240,3 +240,8 @@ export function archForSuperH2(): { hint: ArchHint; languageId: string; arch: st
   };
   return { hint, languageId: joinId(hint, "default"), arch: "SuperH" };
 }
+
+export function archForPsx(): { hint: ArchHint; languageId: string; arch: string } {
+  const hint: ArchHint = { processor: "MIPS", endian: "LE", size: 32 };
+  return { hint, languageId: joinId(hint, "default"), arch: "MIPS" };
+}

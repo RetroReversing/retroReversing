@@ -19,7 +19,7 @@ recommend:
 - ps1
 - fileformats
 editlink: /consoles/ps1/psx-exe.md
-updatedAt: '2026-04-11'
+updatedAt: '2026-10-18'
 ---
 
 The PS-X EXE format is the PlayStation 1's main "load this into RAM and jump to it" executable format.
@@ -190,6 +190,14 @@ dd if=GAME.EXE of=payload.bin bs=2048 skip=1
 Then import `payload.bin` as a raw MIPS little-endian binary at the destination address you read from the header.
 
 ---
+# Opening a Disc Image in File Lab
+[File Lab](/file-lab) reads a BIN/CUE pair, or a raw MODE1/2352, MODE2/2352, or 2048-byte track, as an ISO9660 disc. The Disc tab shows the volume label, the `SYSTEM.CNF` boot line, and the files on the data track. Open the boot executable from that list.
+
+The Executable tab shows the PS-X EXE header fields, including the initial PC and the destination address. The R2 tab disassembles the file as little-endian MIPS I, with the payload placed at that destination address. The Pyre tab decompiles the same payload. PlayStation user code is R3000. The decompiler uses Ghidra's MIPS32 little-endian SLEIGH spec, which includes those instructions. Coprocessor 2 GTE operations sit outside that spec.
+
+A MODE2/2352 sector is 2352 bytes. The 2048 bytes of file data begin at offset 24, after the 12-byte sync, the 4-byte header, and the 8-byte subheader [^8]. File Lab uses that slice when it walks the directory and when it extracts an executable.
+
+---
 # Related Formats
 If you are dealing with PS1 discs or dev builds, you may also run into formats that are not plain PS-X EXE:
 * **PsyQ .CPE** - A chunked "debug executable" format used by PsyQ toolchains. It can contain many small load chunks and explicit register settings for the entrypoint. [^6]
@@ -204,3 +212,4 @@ If you are dealing with PS1 discs or dev builds, you may also run into formats t
 [^5]: [Net Yaroze Official Startup Guide (PDF)](https://www.psxdev.net/downloads/Net%20Yaroze%20Official%20-%20Startup%20Guide.pdf)
 [^6]: [psx-spx CDROM File Formats (PS-X EXE and SYSTEM.CNF)](https://psx-spx.consoledev.net/cdromfileformats/)
 [^7]: [PsyQ Run-Time Library Reference (EXEC structure)](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Libref.pdf)
+[^8]: [psx-spx CDROM sector encoding](https://psx-spx.consoledev.net/cdromdrive/#cdrom-sector-encoding)

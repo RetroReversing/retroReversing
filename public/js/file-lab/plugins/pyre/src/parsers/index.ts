@@ -4,16 +4,19 @@
 
 import type { ParsedBinary } from "../decompiler/types";
 import { locateSaturnSh2 } from "../../../../saturn-sh2.js";
+import { locatePsxExe } from "../../../../psx-image.js";
 import { parseElf } from "./elf";
 import { parseMacho } from "./macho";
 import { parsePe } from "./pe";
+import { parsePsx } from "./psx";
 import { parseSh2 } from "./sh2";
 import { parseWasm } from "./wasm";
 
 export function detectFormat(
   bytes: Uint8Array,
-): "elf" | "macho" | "pe" | "wasm" | "sh2" | null {
+): "elf" | "macho" | "pe" | "wasm" | "sh2" | "psx" | null {
   if (bytes.length < 4) return null;
+  if (locatePsxExe(bytes)) return "psx";
   if (locateSaturnSh2(bytes)) return "sh2";
   // ELF: 7F 45 4C 46
   if (
@@ -81,8 +84,10 @@ export async function parseBinary(bytes: Uint8Array): Promise<ParsedBinary> {
       return parseWasm(bytes);
     case "sh2":
       return parseSh2(bytes);
+    case "psx":
+      return parsePsx(bytes);
     default:
-      throw new Error("unrecognized binary format (not ELF/Mach-O/PE/WASM/SH-2)");
+      throw new Error("unrecognized binary format (not ELF/Mach-O/PE/WASM/SH-2/PS-X EXE)");
   }
 }
 

@@ -67,6 +67,38 @@ var pluginNavigation = {
       return frame.pluginId !== pluginId;
     });
     updateDetailHeaderDisplay();
+  },
+
+  listFiles: function () {
+    var files = [];
+    state.files.forEach(function (file) {
+      files.push({
+        name: file.name,
+        path: file.path,
+        size: file.size
+      });
+    });
+    return files;
+  },
+
+  readFile: function (path) {
+    var file = state.files.get(path);
+    return file ? file.data : null;
+  },
+
+  addExtractedFile: function (path, data) {
+    var bytes = data instanceof Uint8Array ? data : new Uint8Array(data);
+    var name = path.split("/").pop();
+    state.files.set(path, {
+      name: name,
+      path: path,
+      size: bytes.byteLength,
+      data: bytes
+    });
+    rebuildTree();
+    renderTree();
+    schedulePersist();
+    return openFileDetail(path);
   }
 };
 
@@ -109,7 +141,12 @@ function persistSession() {
     files: []
   };
 
+  var skippedLarge = false;
   state.files.forEach(function (file, path) {
+    if (file.size > 8 * 1024 * 1024) {
+      skippedLarge = true;
+      return;
+    }
     payload.files.push({
       path: path,
       name: file.name,
@@ -120,7 +157,11 @@ function persistSession() {
 
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    clearStorageNotice();
+    if (skippedLarge) {
+      showStorageNotice("Disc images larger than 8 MB stay available for this visit. Extracted executables and other smaller files are saved in this browser.");
+    } else {
+      clearStorageNotice();
+    }
   } catch (err) {
     if (err && err.name === "QuotaExceededError") {
       showStorageNotice(
@@ -432,7 +473,7 @@ function renderTree() {
   }
 
   if (!state.files.size) {
-    els.treeWrap.innerHTML = '<div class="rr-file-lab-tree-empty">No files loaded yet. Drop binaries, ROMs, archives, or folders above.</div>';
+    els.treeWrap.innerHTML = '<div class="rr-file-lab-tree-empty">No files loaded yet. Drop binaries, disc images, ROMs, archives, or folders above.</div>';
     return;
   }
 

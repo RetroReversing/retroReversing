@@ -43,6 +43,16 @@
   --rr-color-archive-sgi-file-icon: #f8fbfd;
   --rr-color-archive-sgi-file-border: #627b8d;
 
+  /* DOS skin for the reusable archive explorer */
+  --rr-color-archive-dos-chrome: #1f5f2f;
+  --rr-color-archive-dos-chrome-text: #e8ffd8;
+  --rr-color-archive-dos-surface: #fffceb;
+  --rr-color-archive-dos-panel: #e8e4cf;
+  --rr-color-archive-dos-selected: #d2e6c8;
+  --rr-color-archive-dos-folder: #9db06a;
+  --rr-color-archive-dos-file-icon: #fdfdf4;
+  --rr-color-archive-dos-file-border: #6d7a4f;
+
   /* Mermaid diagrams */
   --rr-color-mermaid-node-bg: #eef4ff;
   --rr-color-mermaid-node-border: #5c86c5;
@@ -235,6 +245,15 @@
     --rr-color-archive-sgi-folder: #5b9bb8;
     --rr-color-archive-sgi-file-icon: #c7d7e2;
     --rr-color-archive-sgi-file-border: #8da8b9;
+
+    --rr-color-archive-dos-chrome: #1a3d24;
+    --rr-color-archive-dos-chrome-text: #d8f0c8;
+    --rr-color-archive-dos-surface: #1b1f16;
+    --rr-color-archive-dos-panel: #232a1c;
+    --rr-color-archive-dos-selected: #2c4429;
+    --rr-color-archive-dos-folder: #7a9a54;
+    --rr-color-archive-dos-file-icon: #c8d4b0;
+    --rr-color-archive-dos-file-border: #7d8f62;
 
     --rr-color-mermaid-node-bg: #193447;
     --rr-color-mermaid-node-border: #74b9de;
