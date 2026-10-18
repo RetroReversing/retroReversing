@@ -4,7 +4,7 @@ tags:
 - n64
 - sdk
 - leak
-title: Oman Archive - Nintendo 64 Development Files
+title: Oman Archive - N64 Leak by SGI employee
 category: n64
 placeholderimages:
 - /public/images/n64/oman/texture-filter-patterns.webp
