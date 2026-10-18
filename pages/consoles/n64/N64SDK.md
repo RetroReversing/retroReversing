@@ -161,10 +161,11 @@ The `src/PR` demo projects range from a first triangle to texture filtering, aud
 
 ## Known Versions
 Latest Version: **2.0L**
-The dates below come from the versions' release notes. They may differ from the dates the discs were distributed [^sdk-os-dates]:
+The dates below come from the versions' release notes. They may differ from the dates the discs were distributed [^sdk-os-20g] [^sdk-os-dates]:
 
 Version | Release notes dated
 ---|---
+2.0G | 30 September 1996
 2.0H | 24 February 1997
 2.0I | 15 December 1997
 2.0J | 1 February 1999
@@ -176,5 +177,6 @@ The inspected OS-PC 2.0H installer's `readme.20h` also prints `1997.3.19 2.0H(PC
 ---
 # References
 [^sdk-toolkit-date]: The supplied `Nintendo_64_Developers_Toolkit_v5.2.jpg` shows the original CD label reading `August, 2000`. This establishes a month on the disc, not a precise distribution day.
+[^sdk-os-20g]: Oman `MAN/RELNOTES` and Turok `src/PR/relnotes` are byte-identical. They identify Ultra 64 version `2.0G for RCP 2.0` and are headed `September 30 release` without a year; [n64os-info's release-note chronology](https://github.com/akopetsch/n64os-info#versions) identifies the date as 1996.
 [^sdk-os-dates]: Supplied OS v2.0L release-note collection, `usr/src/PR/doc/relnotes_old/relnotes20H.txt`, `relnotes20I.txt`, `relnotes20J.txt`, and `relnotes20K.txt`, plus `usr/src/PR/doc/relnotes20L.txt`. The 2.0H and 2.0I notes print month and day without a year; [n64os-info's release-note chronology](https://github.com/akopetsch/n64os-info#versions) identifies them as 1997.
 [^sdk-os-pc-20h]: Supplied Nintendo 64 OS-PC v2.0H, `N64os20h.z`, extracted `readme.20h`.
