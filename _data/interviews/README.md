@@ -3,11 +3,19 @@
 Store one JSON file per magazine in this directory. Each file has a `magazine`
 display name, a `url` for its site page, and an `entries` array. Every entry has
 a `type`; use `interview` for developer interviews. An interview entry records
-its integer `issue`, `developer`, `platforms` array, and
-`description_markdown`. Set `pages` to a one-element array for a single printed
-page, a two-element array for an inclusive printed page range, or `null` when
-the pages have not been verified. An empty `platforms` array means the platform
-has not been verified; do not infer platform tags from a developer's other work.
+its integer `issue`, `developer`, `people`, `platforms`, `tags`, and
+`description_markdown`. `people` contains the individual people named in the
+`developer` display string; omit collective labels such as "former studio staff"
+and handles without an identified person. Leave `people` empty for entries that
+name only a group or handle. `tags` uses the same valid topic labels as post
+frontmatter (for example, `homebrew`); it can be empty until labels are
+curated. Set `pages` to a one-element array
+for a single printed page, a two-element array for an inclusive printed page
+range, or `null` when the pages have not been verified. An empty `platforms`
+array means no platform
+was substantiated or the interview is not platform-specific (for example, an
+interview about a magazine or event). Do not infer platform tags from a
+developer's other work.
 
 Use the shared Liquid include on a magazine page or a platform page:
 
