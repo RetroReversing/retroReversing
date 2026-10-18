@@ -29,6 +29,18 @@
   --archive-file-border: var(--rr-color-archive-sgi-file-border);
 }
 
+.post .rr-archive[data-layout="dos"] {
+  --archive-chrome: var(--rr-color-archive-dos-chrome);
+  --archive-chrome-text: var(--rr-color-archive-dos-chrome-text);
+  --archive-surface: var(--rr-color-archive-dos-surface);
+  --archive-panel: var(--rr-color-archive-dos-panel);
+  --archive-selected: var(--rr-color-archive-dos-selected);
+  --archive-folder: var(--rr-color-archive-dos-folder);
+  --archive-file-icon: var(--rr-color-archive-dos-file-icon);
+  --archive-file-border: var(--rr-color-archive-dos-file-border);
+  border-radius: 0;
+}
+
 .post .rr-archive__visually-hidden {
   position: absolute;
   width: 1px;

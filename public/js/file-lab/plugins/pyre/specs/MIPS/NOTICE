@@ -1,0 +1,9 @@
+MIPS SLEIGH processor specification (mips32le.sla, mips32le.cspec, mips32.pspec)
+Copyright National Security Agency
+
+Licensed under the Apache License, Version 2.0.
+Taken from the Ghidra 11.4.2 public release:
+https://github.com/NationalSecurityAgency/ghidra
+
+mips.ldefs in this directory is the MIPS:LE:32:default language entry from that release.
+The other MIPS language entries and the manual index attribute were omitted.

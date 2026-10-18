@@ -189,6 +189,9 @@ interface PluginHost {
     formatSize(bytes: number): string;
     renderNotice(message: string): string;
     loadWasm(url: string, imports?: object): Promise<WebAssembly.Instance>;
+    listFiles?(): { name: string; path: string; size: number }[];
+    readFile?(path: string): Uint8Array | null;
+    addExtractedFile?(path: string, data: Uint8Array): Promise<void>;
     pushDetailView?(options: { title: string; subtitle?: string; onPop?: () => void }): boolean;
     popDetailView?(): boolean;
     clearDetailViews?(): void;
@@ -197,6 +200,8 @@ interface PluginHost {
 ```
 
 Use `host.resolveAsset("./icon.svg")` for sibling assets. Use `host.api.escapeHtml()` when inserting user-controlled text into `innerHTML`.
+
+`listFiles()` returns the other files in the current session without their bytes. `readFile(path)` returns one file's bytes, which a disc plugin uses to open the BIN named by a cue sheet. `addExtractedFile(path, data)` copies those bytes into the file tree and opens the new file.
 
 ### Shared plugin state (IndexedDB)
 

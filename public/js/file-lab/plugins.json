@@ -33,6 +33,26 @@
       }
     },
     {
+      "id": "psx-disc",
+      "title": "Disc",
+      "module": "/public/js/file-lab/plugins/psx-disc/index.js",
+      "css": "plugin.css",
+      "order": 17,
+      "match": {
+        "minSize": 8
+      }
+    },
+    {
+      "id": "psx-exe",
+      "title": "Executable",
+      "module": "/public/js/file-lab/plugins/psx-exe/index.js",
+      "css": "plugin.css",
+      "order": 18,
+      "match": {
+        "minSize": 2048
+      }
+    },
+    {
       "id": "strings",
       "title": "Strings",
       "module": "/public/js/file-lab/plugins/strings/index.js",

@@ -36,6 +36,8 @@ The following files have been released to the internet over time:
 * **Sega Mega Family.7z** - Documentation PDFs for 32x, Mega CD and Sound development and the 32X SDK
 * **Sega SDK.zip** - Similar to the first archive but the documentation are individual gifs for each documentation page, also contains mainly Saturn SDK files, no point in downloading this if you are only interested in Mega Drive
 
+A dedicated page covers the Sega 32X Developer Tool Kit CD in more detail, including the actual tool binaries, source code, and an interactive archive explorer: [Sega 32X Software Development Kit (DDK)](/sega-32x-sdk).
+
 ---
 # Official Sega Mega Drive Software Development Kit
 The files in this section are from the **Sega Mega Family.7z** archive as they are much easier to use when in pdf format. The **Sega SDK.zip** archive contains the same contend but each page is a separate .gif file.
