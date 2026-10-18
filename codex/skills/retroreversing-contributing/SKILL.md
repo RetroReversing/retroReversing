@@ -1,9 +1,11 @@
 ---
 name: retroreversing-contributing
-description: Create or edit RetroReversing articles and site content using the repository's technical writing, sourcing, visual storytelling, and formatting conventions.
+description: Create or edit RetroReversing articles and site content using the repository's technical writing, sourcing, visual storytelling, and formatting conventions. Always read this skill file in full; never load only a prefix or the first N lines.
 ---
 
 ## RetroReversing Contributing (Repo Skill)
+Read this skill in full before making content changes. Never load only the first N lines, pass a line-limit to the reader, or stop after the opening sections.
+
 Use this skill whenever you create or edit content in the `retroReversing` repo (Markdown pages/posts, `_includes`, or related site content). The goal is to keep changes consistent with `CONTRIBUTING.md`.
 
 ### Non-negotiables

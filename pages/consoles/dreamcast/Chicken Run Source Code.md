@@ -43,7 +43,7 @@ updatedAt: '2026-10-18'
 </figure>
 Mrs Tweedy hangs from an aeroplane. Guard dogs need an extra 310-unit margin to know when to stop and bark. On the [Dreamcast](/dreamcast) memory card, a tiny screen announces that "CHICKEN RUN IS LOVELY".
 
-Released in 2000, Blitz Games' Chicken Run turns the film's escape plan into stealth routes, item hunts, and a workshop full of mechanical jobs. Eidos published it for Dreamcast, [PlayStation](/ps1), and [Windows](/pc) [^1].
+Released in 2000, Blitz Games' Chicken Run turns the film's escape plan into stealth routes, item hunts, and a workshop full of mechanical jobs. Eidos published it for Dreamcast, [PlayStation](/ps1), and [Windows](/pc) [^1]. The source files still sign the engine as Interactive Studios Limited, the studio's earlier name. The `isl` prefix on libraries such as `islfile.c` and `islfont.c` is that company name.
 
 The stranger details survive in the game's source code. This was not a package prepared for an audience. It circulated in a wider bundle of Dreamcast projects, although its original provenance remains unclear.
 
@@ -79,8 +79,10 @@ The index omits file contents and filesystem dates. Those dates record when this
 ## Reading the source
 Before following the code into the build environment, these are the internal names used throughout the project:
 * <a id="glossary-bff"></a>**BFF** - A container of typed segments. Each one has a type code, a length, and a name CRC.
+* <a id="glossary-dck"></a>**DCK** - Dreamcast Katana. Prefix on the Katana-specific maths, texture, and system files.
 * <a id="glossary-fla"></a>**FlatPacker** - The compressor in `islfile.c`. Packed data starts with the little-endian magic `FLA2`.
 * <a id="glossary-fma"></a>**FMA** - Frog-map data. `map_draw.h` calls the blocks frog-map segments. The letters are never expanded.
+* <a id="glossary-isl"></a>**ISL** - Interactive Studios Limited, the studio name in the library copyrights. It prefixes files such as `islfile.c` and `islfont.c`.
 * <a id="glossary-psi"></a>**PSI** - The studio's [PlayStation](/ps1) model format. `psi.c` calls itself the PlayStation model handler.
 * <a id="glossary-psyq"></a>**PSYQ** - The PlayStation SDK named by `makefile.mak`: `ccpsx`, `dmpsx`, `asmpsx`, and PSYLINK.
 * <a id="glossary-spt"></a>**SPT** - A texture stream. `sptstream.h` loads one straight into VRAM.
@@ -119,7 +121,9 @@ The demo follows the same path with `crdemo.cpe`, `CRDEMO.EXE`, and `CRDEMO.DAT`
 ## Dreamcast-only details
 The [Dreamcast](/dreamcast) conversion occupies the root of `cr`. Its makefile includes `$(KATANA_ROOT)\Sample\dc.inc`, selects Kamui 2, and links Sega and CRI libraries for video, audio, and system services.
 
-`main.h` defines `DREAMCAST_VERSION` and maps familiar engine calls onto Kamui scene and pass operations. `main.c` requests two framebuffers and sets `0x150000 * 2` bytes aside for texture memory. Andy Eder dated the `DCK_` maths and system layer 19 January 2000, providing a firm date for Dreamcast-specific porting work.
+The platform-specific files use a [`DCK_`](#glossary-dck) prefix, short for Dreamcast Katana. Katana was Sega's code name for the console. `DCK_System` and `DCK_Texture` are typical examples.
+
+`main.h` defines `DREAMCAST_VERSION` and maps familiar engine calls onto Kamui scene and pass operations. `main.c` requests two framebuffers and sets `0x150000 * 2` bytes aside for texture memory. Andy Eder dated the [DCK](#glossary-dck) maths and system layer 19 January 2000, providing a firm date for Dreamcast-specific porting work.
 
 The conversion favours compatibility layers over wholesale replacement. Dreamcast-specific files sit around the shared engine and translate its assumptions into Katana graphics, audio, and storage services. Those bridges become the focus later in the article.
 
@@ -289,7 +293,12 @@ At the beginning of each level, `inventoryRemoveDuplicateMapPieces()` compares t
 ---
 # How a level is built
 {% include sticker-text.html text="BFF" color1="#ef548f" color2="#ef8b6d" %}
-The stealth systems, puzzles, and mini-games all depend on data produced outside the runtime. The surviving headers expose the boundary between Chicken Run and a set of level compilers that are mostly absent from the archive.
+The stealth systems, puzzles, and mini-games all depend on data produced outside the runtime. The published act data is stored differently on each platform:
+* [Dreamcast](/dreamcast) - each room has its own [BFF](#glossary-bff) and [SPT](#glossary-spt). Many rooms also have matching `.SBB` and `.SBH` sound banks. The GD Workshop script lists them by room name, such as `A1_DOGCHASE.BFF`.
+* [Windows](/pc) - the same act folders, with `.WAB` files kept beside the `.BFF` and `.SPT` data.
+* [PlayStation](/ps1) - the loose files are packed into `CRTEST.DAT`. That archive also includes a `DUMMY` file filled with `00` padding.
+
+The surviving headers expose the boundary between Chicken Run and a set of level compilers that are mostly absent from the archive.
 
 ## A frog map under the farm
 {% include sticker-text.html text="FMA" color1="#0085b6" %}
