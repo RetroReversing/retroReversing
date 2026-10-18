@@ -149,7 +149,7 @@ We have a specific post all about the known Game Gear development hardware such 
 ### Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
 
-![SEGA Digitizer I with Pitfall II](https://github.com/user-attachments/assets/ff5816cc-66ef-4d4d-8299-5edfe3dd1eb9)
+{% include article-figure.html src="/public/images/gamegear/sega-digitizer-system-pitfall-ii.jpg" alt="Artist using a pen on the Sega Digitizer System, with Pitfall II on a nearby monitor" width="1013" height="777" size="photo" title="Drawing on the Sega Digitizer System" caption="An early Sega Digitizer System in use. Photograph preserved by [Video Games Densetsu](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic). Select the image to enlarge." %}
 
 You can see Pitfall II from 1985 in the photo above. It had a rudimentary touch screen with a pen allowing artists to "draw" pixels directly on the screen.
 
