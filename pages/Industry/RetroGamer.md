@@ -34,7 +34,7 @@ For a complete history of the magazine check out issue 257 which celebrates 20 y
 # Interviews with Game Developers
 One of Retro Gamer's hallmarks is its extensive interviews with the creators of classic video games. Nearly every issue features conversations with veteran developers, offering first-hand insights into the making of beloved games and the industry's early days. 
 
-These interviews often explore how iconic titles were designed under technical constraints and the creative tricks used to overcome hardware limitations. The page numbers below refer to the printed magazine pages in issues 1-60. Some features combine interviews with editorial history or first-person accounts.
+These interviews often explore how iconic titles were designed under technical constraints and the creative tricks used to overcome hardware limitations. The page numbers below refer to the printed magazine pages in issues 1-70. Some features combine interviews with editorial history or first-person accounts.
 
 The index below records the featured developers and their interviews or first-person accounts:
 
