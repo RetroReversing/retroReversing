@@ -23,7 +23,7 @@ twitterimage: https://www.retroreversing.com/public/images/categories/Games Indu
 excerpt: Awesome list of Historic Retro Games Development Magazines and articles
 tags:
  - industry
-updatedAt: '2022-05-22'
+updatedAt: '2026-10-18'
 ---
 
 One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information that is not currently available on the internet. This post provides details on some of the best magazine sources to help with retro game development research.
@@ -38,10 +38,39 @@ Title | Publisher | Notes
 ---|---|---
 Develop | Intent Media / New Bay Media | UK Magazine which was published from August 1996 Until November 2017
 MCV | Intent Media / New Bay Media / Future | UK Magazine which was published weekly and is still going today
-Game Developer | UBM Tech | US Magazine which was published from March 1994 until July 2013 - Note that the free pdfs online do not have the full content such as adverts inside
+Game Developer | Miller Freeman / CMP / UBM Tech | April 1994 to June-July 2013; compare digital editions with print scans for advertisements [^11] [^12]
 GameMaker | Future Publishing | UK magazine dedicated to Game Modding and Development. Only 1 issue was published in October 2003 before it became a supplement for the **PC Format** magazine (which also didn't last long)
 Journal of Computer Game Design | Self Published | From June 1987 until 1993 when it rebranded to Interactive Entertainment Design
 Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 2023 (70 issues)
+
+---
+# Game Developer
+The [GDC Vault magazine archive](https://gdcvault.com/gdmag) provides digital issues and a separate **Source Code & Utilities Archive**.
+The publisher's [archive announcement](https://www.gamedeveloper.com/marketing/-i-game-developer-i-back-issues-now-free-on-the-gdc-vault) dates the main magazine run from April 1994 to June-July 2013 and confirms that companion code and utilities were included [^11].
+
+## Choosing the Right Copy
+The [Video Game History Foundation's collection record](https://library.gamehistory.org/repositories/2/resources/20) identifies a specific gap: GDC Vault editions before May 2004 omit print advertisements.
+VGHF rescanned issues through April 2004, along with other missing issues, to preserve that advertising content.
+Its collection also includes supplements such as Game Career Guides, filed with their parent issues where applicable [^12].
+
+Choose the source according to the question:
+
+Research question | Starting point | What to check
+---|---|---
+How did a programmer implement a technique? | Article plus GDC Vault's companion downloads | Match the issue, author and filenames before treating code as the article's example
+What tools or development kits were advertised? | VGHF print scans for early issues | Record the printed page, advertiser, product version and date
+Was an article in a supplement? | VGHF collection and issue records | Keep the supplement title in the citation; its pagination may be separate
+
+A missing advertisement in a digital edition does not establish that the product was absent from the printed issue.
+For technical articles, inspect any accompanying README, project file and build instructions before attempting to reproduce the example.
+The archive's presence does not guarantee that each download is complete or builds with a modern compiler.
+
+---
+## Recording an Article for Further Research
+Keep the magazine title, regional edition, issue or volume number, cover date, article title, author and printed page range together.
+Record the PDF page number separately when it differs from the printed page, and retain the archive URL.
+For a cover disc, add the disc label and exact path to the example or source archive.
+These details let another researcher find the same evidence even if a web reprint loses its original issue context.
 
 ---
 # Develop
@@ -58,7 +87,7 @@ The post contains everything we know about the interviews and articles published
 
 **GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public!
 
-Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
+The topic was likely deemed too niche: only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
 We have a separate page with an index of all the articles and other information about the magazine here:
 {% include_cached link-to-other-post.html post="/gamemaker-magazine" %}
@@ -67,16 +96,13 @@ We have a separate page with an index of all the articles and other information 
 ## Journal of Computer Game Design
 ![Journal of Computer Game Design](https://github.com/RetroReversing/retroReversing/assets/40120498/83baa498-4507-4ff5-a4b7-ab4d59facbf3)
 
-The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design.
+Chris Crawford began publishing the **Journal of Computer Game Design** in 1987 [^2].
+The first issue, dated June/July 1987, lists six issues per year and a $30 annual subscription.
+Its submission policy invited artistic and technical discussions for professional designers, excluded game reviews, and requested electronic submissions on Macintosh disk or by modem [^4].
 
-It cost $30 a year to subscribe and the journeals were released every other month, it was the first attempt to foster a community around game design [^4];
-
-The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends. No programming or asset development articles were posted it was purley for game design.
-
-The "Journal of Computer Game Design" ceased publication in the early 1990s. While it had a significant impact during its existence, it was succeeded by other publications and academic efforts dedicated to game design and development.
-
-## Relevant Articles
-All the articles are now freely available on Chris Crawford's website in a well categorized manner so there is little benefit to repeating that work here, if you are interested in early articles about game design then [head over there now](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)!
+Crawford's [archive](https://www.erasmatazz.com/library/the-journal-of-computer/index.html) continues into **Interactive Entertainment Design** from volume 7 (1993-1994).
+It is not a complete reproduction of the journal: Crawford explicitly says he omitted other contributors' writing because he had not obtained permission to reprint it [^2].
+Use the contents lists to identify an article, but check whether its full text is actually present before citing the archive as its source.
 
 ---
 ## Wireframe Magazine
@@ -851,3 +877,6 @@ Another online service that advertises its ability to translate Manga is Transmo
 [^8]: [Computer underground Digest Sun May 17, 1998 Volume 10 : Issue 30](https://gopherproxy.meulie.net/srcr.nl/0/CuD/cud1030.txt#)
 [^9]: [My Life as an Email Entrepreneur: My Final Article. - Only Influencers](https://www.onlyinfluencers.com/email-marketing-blog-posts/best-practice-email-strategy/entry/my-life-as-an-email-entrepreneur-my-final-article#)
 [^10]: [Haymarket Closes The Net – The Media Leader](https://uk.themedialeader.com/haymarket-closes-the-net/)
+
+[^11]: [Game Developer back issues now free on the GDC Vault](https://www.gamedeveloper.com/marketing/-i-game-developer-i-back-issues-now-free-on-the-gdc-vault), publisher announcement; [GDC Vault magazine and source-code archive](https://gdcvault.com/gdmag).
+[^12]: [Video Game History Foundation - Game Developer collection](https://library.gamehistory.org/repositories/2/resources/20), particularly "Note on Digital Copies" and supplement holdings.
