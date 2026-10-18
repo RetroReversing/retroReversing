@@ -34,7 +34,7 @@ For a complete history of the magazine check out issue 257 which celebrates 20 y
 # Interviews with Game Developers
 One of Retro Gamer's hallmarks is its extensive interviews with the creators of classic video games. Nearly every issue features conversations with veteran developers, offering first-hand insights into the making of beloved games and the industry's early days. 
 
-These interviews often explore how iconic titles were designed under technical constraints and the creative tricks used to overcome hardware limitations. The page numbers below refer to the printed magazine pages. Entries for issues 1-10 were checked against the issues; some features combine interviews with editorial history or first-person accounts.
+These interviews often explore how iconic titles were designed under technical constraints and the creative tricks used to overcome hardware limitations. The page numbers below refer to the printed magazine pages in issues 1-20. Some features combine interviews with editorial history or first-person accounts.
 
 The index below records the featured developers and their interviews or first-person accounts:
 
@@ -63,35 +63,39 @@ Issue Number | Pages | Interview Name | Platform | Description
 8 | p. 75 | AEG (Smash Designs) | Commodore 64 | AEG discusses the development of **Turrican 3** for the Commodore 64.
 8 | pp. 88-99 | Steve Turner | ZX Spectrum, Commodore 64, Amiga, PlayStation, PC | Turner gives a first-person history of Graftgold, including its development methods and later games.
 10 | pp. 39-41 | Steve Meretzky | Home computers | Meretzky discusses his work at Infocom in an interview accompanying a history of the company, including **Planetfall**, **Sorcerer**, and **The Hitchhiker's Guide to the Galaxy**.
-11 |  | Malcolm Evans |  | Evans is known for his work on games such as **_3D Monster Maze_** (for the **ZX81**), **_Trashman_**, and **_The Ishar_** trilogy.
-11 |  | Color Dreams/Wisdom Tree | NES | This interview features developers from Color Dreams/Wisdom Tree, discussing their unlicensed, religious-themed **NES** games.
-11 |  | Francois Lionet | Amiga | Lionet discusses his work on the game development tools **_AMOS_** (for the **Amiga**) and **_Klik & Play_** (for the **PC**).
-12 |  | Vicky Carne |  | Vicky Carne was the founder of 8-bit software house Mosaic Publishing. Mosaic Publishing was responsible for bringing the "amazingly original titles" [*Hover Bovver* and *Revenge of the Mutant Camels*] to the Commodore 64. One of the company's more notable releases was *Battle Command*, a tank game for the Commodore 64 that was lauded for its "fast-filled 3D graphics".
-12 |  | Jeff Minter |  | Jeff Minter is a game developer known for his work with Llamasoft. Some of his more popular games, such as *Gridrunner++* for PC and Mac, are known for their "diversity and humour", containing enemies that range from "footballs to giant Mutley heads".
-12 |  | Albert Yarusso |  | Albert Yarusso was the chief maintainer of the AtariAge website in 2005.
-13 |  | Jamie Fenton |  | Jamie Fenton was one half of the duo, with partner Dennis Koble, who created the game *Sea Wolf*, released in 1976.
-13 |  | Julian Golop |  | Julian Golop was a game developer who worked on games such as *Lords of Chaos* and *X-Com*. *Lords of Chaos* was released on an unspecified platform, but was designed to be a combination of "the best bits of *Chaos* and *Laser Squad*", with additional RPG elements. The first *X-Com* game was programmed for the PC because it was "the most popular platform for strategy games" at the time.
-13 |  | Jeff Kunkel |  | Jeff Kunkel was a game developer who worked on arcade games, including *Dragon's Lair*. One of his personal projects was adding a "freeplay mode" to his copy of the arcade game *Frogger*.
-13 |  | Ben Heckendorn | Homebrew | Ben Heckendorn was a console modder who, by 2004, had created portable versions of the Virtual Boy, PlayStation, Super Nintendo Entertainment System, Atari 2600, and PlayStation 2. His "dream project" was to create a laptop that could play Atari 800 games.
-13 |  | Steve Wilcox |  | Steve Wilcox was a game developer who worked with Elite. One of the company's notable releases was *Battle Command* for the Commodore 64, a game that impressed with its use of 3D graphics despite the technical limitations of the Commodore 64.
-14 |  | Jon Ritman |  | This issue contains an interview with **Jon Ritman**, the developer behind **Match Day** and **Head Over Heels** for the **ZX Spectrum**. The article also touches on his work on **Batman**.
-14 |  | Dino Dini | Atari ST, Amiga | This issue features an interview with **Dino Dini**, creator of **Kick Off** and **Goal!**. **Kick Off** was originally developed for the **Atari ST** and later ported to the **Amiga**. **Goal!** was released on the **Sega Megadrive** as **Dino Dini's Soccer**.
-15 |  | Walter Ginner |  | Walter Ginner was a competitive gamer in the 1980s.
-15 |  | Fergus McNeil |  | Fergus McNeil was the founder of the software company Delta 4. One of the company's games, *Quest for the Holy Joystick*, was a text-based adventure game that parodied the software industry and contained references to contemporary gaming magazines.
-15 |  | Keith Hughes |  | Keith Hughes was a game developer who, as of 2005, worked at Kuju.
-16 |  | Mr Biffo and Mr Hairs |  | Mr Biffo and Mr Hairs were the pseudonyms of the creators of *Digitiser*, a Teletext gaming section that ran on Channel 4.
-16 |  | The guys behind Gilsoft |  | Gilsoft was a company best known for their game creation software *The Quill*, which allowed users to create text-based adventure games.
-17 |  | Paul Carruthers |  | Paul Carruthers is a programmer best known for his work on the game *Xor*, which was originally released in 1987 for the BBC Micro. *Xor* was later ported to the Electron, Spectrum, Commodore 64, Amstrad, Amiga, and Atari ST.
-17 |  | Dave Reidy and Keith Warrington |  | Dave Reidy and Keith Warrington were the creators of the game **Skool Daze**. **Skool Daze** was programmed for the ZX Spectrum.
-18 |  | Tim Skelly |  | Tim Skelly was a programmer best known for his work on the arcade game *Reactor*. *Reactor* was the first arcade game to include the programmer's name on-screen.
-18 |  | Dave Needle and R.J. Mical | Atari Lynx | Dave Needle and R.J. Mical were the engineers behind the Atari Lynx, released in 1989. The Lynx was notable for being the world's first colour handheld games console.
-18 |  | David Crane |  | David Crane was the programmer behind *Little Computer People*. *Little Computer People* allowed the player to interact with a virtual person who lived in their computer.
-18 |  | Mark Cale |  | Mark Cale was the co-founder of System 3, the company that developed the *Last Ninja* series. The first *Last Ninja* was released for the Commodore 64 and a few other platforms. The second game in the series was released for almost every gaming platform available at the time.
-18 |  | John Twiddy |  | John Twiddy was a programmer who worked on all three of the *Last Ninja* games. The first *Last Ninja* game was programmed for the Commodore 64. The second game in the series introduced a new setting (New York) because it allowed for more varied environments compared to the first game, which took place in a garden. The Atari ST and Amiga versions of *Last Ninja 2* were outsourced to external programmers.
-19 |  | John and Ste Pickford |  | John and Ste Pickford were brothers who worked together in the games industry for many years. Their first game together was the Spectrum game *Zub*. They later worked on the NES at Rare. One of the games they worked on at Rare was a Game Boy wrestling game that won a "Best Game Boy Game" award at CES, despite only featuring four frames of animation per wrestler.
-20 |  | Chris Roper |  | Chris Roper won the Oliver Twins' remake competition at Retro Ball 2005. The game he created for the competition was a remake of the ZX Spectrum game *Horace and the Spiders*.
-20 |  | Stephen Robertson |  | Stephen Robertson was a graphic artist best known for creating loading screens for the Commodore 64. One of the games he worked on was *Cybernoid*, a game known for its side-scrolling shoot 'em up gameplay.
-20 |  | Staff at Technos Japan and American Technos |  | Technos Japan was a company best known for their work on the *Kunio-Kun* series of games. *Double Dragon* was one of their most commercially successful games. *WWF Superstars* (1989) and *WWF Wrestlefest* (1991) were two of their licensed games.
+11 | pp. 54-61 | Malcolm Evans | ZX Spectrum | Evans discusses developing **Trashman** and its sequels, including the technical limits of the Spectrum.
+11 | pp. 69-71 | Jon Valesh and Roger DeForest | NES | Former Color Dreams staff discuss the company's unlicensed NES games and its later Wisdom Tree releases.
+11 | pp. 89-93 | Robert White, Mike Richardson, and Clive Townsend | ZX Spectrum, Commodore 64 | The founder and programmers of Durell discuss the publisher's early games and development work.
+12 | pp. 30-31 | David Crane | Atari 2600 | Crane discusses programming for the Atari 2600, leaving Atari to form Activision, and **Pitfall!**.
+12 | pp. 41-44 | Vicky Carne | Home computers | The Desert Island Disks profile covers Mosaic Publishing and its licensed game adaptations.
+12 | pp. 60-67 | Jeff Minter | Commodore 64, PC | Minter discusses Llamasoft's games, including **Attack of the Mutant Camels** and **Gridrunner++**.
+12 | pp. 85-87 | Albert Yarusso | Atari consoles | Yarusso discusses AtariAge, its game archive, and the Atari homebrew community.
+13 | pp. 26-30 | Jamie Fenton | Arcade, Bally Arcade | The Desert Island Disks profile discusses Fenton's work on **GORF** and the Bally Arcade.
+13 | pp. 48-53 | Julian Gollop | ZX Spectrum, PC | Gollop discusses **Chaos**, **Lords of Chaos**, **Laser Squad**, and **X-Com**.
+13 | p. 74 | Jeff Kulczycki | Arcade | Kulczycki discusses disassembling and modifying arcade game ROMs.
+13 | p. 76 | Benjamin J. Heckendorn | Console hardware | Heckendorn discusses building portable versions of game consoles.
+13 | pp. 80-86 | Steve Wilcox | Home computers | Elite Systems co-founder Wilcox discusses the company's games, licences, and business history.
+14 | pp. 48-53 | Jon Ritman | ZX Spectrum | Ritman discusses **Match Day**, **Batman**, and **Head Over Heels**.
+15 | pp. 36-41 | Eric Ginner | Atari Lynx, Atari Jaguar | The Desert Island Disks profile covers Ginner's work on Lynx and Jaguar games.
+15 | pp. 48-53 | Fergus McNeill | ZX Spectrum | McNeill discusses Delta 4's parody adventure games and how they were made.
+16 | pp. 22-27 | Mr Biffo and Mr Hairs | Teletext | The Desert Island Disks feature covers their work creating **Digitiser**.
+16 | pp. 56-59 | Tim Gilberts and Graeme Yeandle | ZX Spectrum, Commodore 64 | Gilsoft founder Gilberts and programmer Yeandle discuss **The Quill**, **PAW**, and adventure game authoring tools.
+17 | pp. 20-24 | Paul Carruthers | ZX Spectrum, Amiga | The Desert Island Disks profile covers Carruthers's programming career, including **Xor** and **Archipelagos**.
+17 | pp. 44-51 | Dave Reidy and Keith Warrington | ZX Spectrum | The creators of **Skool Daze** discuss its programming, art, and school setting.
+18 | pp. 16-21 | Tim Skelly | Arcade | The Desert Island Disks profile discusses Skelly's arcade programming, including **Reactor**.
+18 | pp. 32-35 | David Crane | Commodore 64 | Crane discusses the design and development of **Little Computer People**.
+18 | pp. 56-57 | Mark Cale | Commodore 64 | Cale discusses designing **The Last Ninja** and the series' later games.
+18 | p. 58 | John Twiddy | Commodore 64 | Twiddy discusses programming **The Last Ninja** series.
+19 | p. 6 | Chris White | Mobile phones | Glu Mobile's head of game development discusses adapting **The Chaos Engine** for mobile phones.
+19 | p. 35 | Roland Perry | Amstrad CPC | Amsoft's former technical manager discusses its software publishing strategy.
+19 | pp. 55-59 | Al Lowe | PC | Lowe discusses creating and developing the **Leisure Suit Larry** games.
+19 | pp. 68-72 | Shaun Southern and Andrew Morris | Home computers | The Magnetic Fields co-founders discuss their games, including **Lotus Turbo Challenge** and **Super Cars**.
+19 | p. 79 | Martin Hollis | Nintendo 64 | Hollis discusses directing **Perfect Dark** at Rare.
+19 | pp. 80-84 | John and Ste Pickford | Home computers, consoles | The Desert Island Disks profile covers the brothers' early programming and artwork.
+20 | pp. 64-67 | Stephen Robertson | Commodore 64 | Robertson discusses the process of creating loading-screen artwork.
+20 | pp. 69-73 | Greg Rice | Arcade, NES | Former American Technos executive Rice discusses the company's arcade and home-game releases.
+20 | pp. 80-83 | John and Ste Pickford | Home computers, consoles | The second part of their Desert Island Disks profile covers their later work and game choices.
+20 | p. 94 | Chris Roper | PC | Roper discusses making a **Horace and the Spiders** remake for the Retro Ball competition.
 21 |  | Nolan Bushnell |  | The interview is about Bushnell bringing gaming to the masses. He is the creator of electronic gaming, designer of Pong, and founder of Atari.
 22 |  | Tim Schafer |  | In this interview, Schafer discusses how he got his start in the gaming industry. He worked on games such as *The Secret of Monkey Island*, *Grim Fandango*, *Indiana Jones and the Fate of Atlantis*, and the *Sam & Max* series, across platforms like PC, Amiga, Mac, and Sega CD.
 22 |  | Gary Liddon |  | In this interview, Liddon discusses his career and games such as *Delta*, the sequel to *Sanxion*.
