@@ -99,6 +99,11 @@
   margin: 0;
 }
 
+.post .rr-game-media-row figure.rr-article-figure {
+  width: 100%;
+  margin: 0;
+}
+
 .post .rr-game-media-row figure.rr-game-figure figcaption {
   text-align: left;
 }

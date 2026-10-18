@@ -165,3 +165,123 @@ training:
       branch: '#ifdef KANJI'
       heading: 2C 3D 27 35 27 29
       copy: "2C 3D 27 36 64\nE9 13 22 28 41 33 0F 27"
+
+perception:
+  variant: story
+  eyebrow: Enemy senses / ai.c
+  title: The Lost Land can hear you
+  scene: ALERT
+  controls_label: Enemy detection routes
+  caption: These are separate checks in ai.c. The scene is illustrative; each enemy's configured sight and hearing distances can differ.
+  options:
+    - key: sight
+      label: In sight
+      heading: Distance, angle, then a clear ray
+      copy: An enemy first checks whether its target is close enough, then inside its viewing angle. A ray test must also reach the target before the sight event raises agitation.
+      code: AI_Can_See_Target
+    - key: quiet
+      label: Quiet noise
+      heading: A small sound can wake suspicion
+      copy: A quiet-noise event tests the enemy's configured quiet-hearing distance and adds agitation if Turok is within it.
+      code: AI_MEvent_QuietNoise
+    - key: loud
+      label: Loud noise
+      heading: Loud noise has its own reach
+      copy: Loud noise has its own configured distance and agitation increment. Hearing changes the enemy's state even before it has a clear view.
+      code: AI_MEvent_LoudNoise
+
+oxygen:
+  variant: meter
+  eyebrow: Underwater clock / tmove.c
+  title: The warning arrives late
+  input_label: Seconds spent underwater without a tank
+  meter_label: Air remaining
+  unit: s
+  max_value: 70
+  warning_start: 55
+  early_label: Before the warning
+  warning_label: Air bar appears
+  danger_label: Out of air
+  early_copy: Turok is using his breath, but the air bar has not appeared yet.
+  warning_copy: In the final 15 seconds, the on-screen bar fades in and drains.
+  danger_copy: Once the timer runs out, drowning reduces health until Turok reaches air.
+  caption: Drag through the 70-second source timer. This simplifies the display fade and frame timing; an oxygen tank pauses the breath countdown while its own supply lasts.
+
+collectibles:
+  variant: collection
+  eyebrow: Relic hunt / pickup.c
+  title: Eight pieces make a weapon
+  controls_label: Chronoscepter pieces
+  collect_label: Collect piece
+  reset_label: Scatter pieces
+  initial_note: Each piece sets one bit in the collection mask.
+  complete_note: All eight bits are set (0xff). The game grants the completed Chronoscepter and ammunition.
+  caption: Click the eight pieces to assemble the source-code bitmask. This is a schematic collection board, not a map of pickup locations.
+  slots:
+    - {label: '01', bit: 1}
+    - {label: '02', bit: 2}
+    - {label: '03', bit: 4}
+    - {label: '04', bit: 8}
+    - {label: '05', bit: 16}
+    - {label: '06', bit: 32}
+    - {label: '07', bit: 64}
+    - {label: '08', bit: 128}
+
+camera:
+  variant: timeline
+  eyebrow: Opening cinema / introcam.c
+  title: A camera move with a script
+  controls_label: Opening camera beats
+  caption: The stages follow introcam.c; the labels summarize source behavior rather than exact on-screen frame boundaries.
+  options:
+    - key: acclaim
+      label: Logos
+      badge: '01'
+      heading: Establish the opening
+      copy: Separate camera modes handle Acclaim's logo and the Iguana intro before the character shot.
+      code: INTRO_ACCLAIM_LOGO_WARP_ID / INTRO_IGGY_WARP_ID
+    - key: bow
+      label: Bow shot
+      badge: '02'
+      heading: Circle toward Turok
+      copy: A camera track changes rotation, radius, eye height, and focus height across a 12.8-second bow-drawing shot.
+      code: CCameraView__TweenTrackAroundTurok
+    - key: focus
+      label: Field of view
+      badge: '03'
+      heading: Change the frame during the move
+      copy: The bow shot also advances its field of view and eye position as its stage timer runs.
+      code: CCamera__SetFieldOfView
+    - key: logo
+      label: Title
+      badge: '04'
+      heading: Move to the Turok logo
+      copy: The next intro mode zooms toward the title, and the transition can be accelerated after the first run.
+      code: CAMERA_INTRO_ZOOM_TO_LOGO_MODE
+
+sun:
+  variant: occlusion
+  eyebrow: Light through the canopy / sun.c
+  title: Eight depth samples decide the glare
+  controls_label: Sun obstruction examples
+  result_label: Weighted visibility
+  samples_count: 8
+  focus_index: 3
+  focus_weight: 3
+  caption: The eight-sample display is schematic. The source weights the sun's own depth sample three times and each neighboring sample once, producing a value from zero to one.
+  options:
+    - key: clear
+      label: Clear sky
+      heading: All eight samples see sky
+      copy: Seven neighboring samples plus the three-weight sun sample yield full visibility.
+      samples: '11111111'
+    - key: edge
+      label: Near an edge
+      heading: Four samples are blocked
+      copy: The sun sample and three neighbors remain clear, so the weighted result is six tenths.
+      samples: '01011010'
+    - key: hidden
+      label: Behind stone
+      heading: Every sample is blocked
+      copy: With no clear depth samples, the visibility value falls to zero.
+      samples: '00000000'
