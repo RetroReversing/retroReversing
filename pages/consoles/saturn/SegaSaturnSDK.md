@@ -21,7 +21,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSDK.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime BGCON DHUFF DeHuff Watcom SCSP -->
+<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime BGCON DHUFF DeHuff Watcom SCSP QSound eLinker -->
 
 The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
@@ -228,6 +228,15 @@ The Sega 3D Game Library (SGL) is a high level API designed for creating 3D game
 
 Note that this can also sometimes be called the Sega Graphics Library, both are used throughout the official Sega documentation.
 
+### Scheduling the second SH-2
+The Saturn's master and slave SH-2 processors share external memory and devices. Sega's [Dual CPU User's Guide](https://antime.kapsi.fi/sega/files/ST-202-R1-120994.pdf) describes a 16-bit write to `0x21000000` as a signal from master to slave, and a write to `0x21800000` for the return direction. Either CPU can receive the signal through an FRT input-capture interrupt or poll its flag [^6]. This is a notification path, not an automatic transfer of a job's data.
+
+The boot ROM gives the CPUs separate stacks, so re-entrant functions can run concurrently. Static and global variables still need coordination. A program using the SH-2 cache as internal RAM cannot assume code placed there is shared with the other CPU [^6]. These details help explain why a recovered program might signal the slave, wait on a flag, and invalidate cached data before using the result.
+
+SGL adds scheduling of its own. In a May 1996 DTS Q&A, `slSlaveFunc()` queues a user function on the slave, but Sega warns that its execution time is not guaranteed and that some SGL calls already need that processor. The related `slPutPolygonS()` always assigns polygon work to the slave at the start of the *next* frame, building commands for polygons generated in the previous frame [^7]. That one-frame pipeline is a more useful reading of the call than assuming it draws immediately.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-dual-cpu-sgl-qa.webp" alt="DTS Q and A explaining slSlaveFunc scheduling and the next-frame behavior of slPutPolygonS" width="715" height="810" size="document" title="The slave CPU was busy too" caption="SGL scheduling answer cropped from [DevelopMental, May 1996](https://antime.kapsi.fi/sega/files/DTS-0596.pdf), PDF p. 3. These are SGL behaviors; games could manage the second SH-2 in other ways." %}
+
 ### GNU AWK/GAWK
 Contains builds of the GNU Free Software AWK for windows.
 
@@ -290,6 +299,13 @@ An April 1996 DTS sound bulletin adds the less tidy side of the workbench. Tone 
 
 For a recovered sound project, those notes explain why filenames, tool versions, and initialization order can matter even when the tone data itself looks valid.
 
+## Positioning a sound with QSound
+The DTS newsletters show the handoff behind a spatial effect. In eLinker, a sound designer connected four or eight inputs to a QSound DSP module and routed its outputs left and right. Tone Editor then assigned each sound layer to one of those inputs, set its effect send, and set its direct level to zero so the sound passed through the effect [^8]. A sound layer had one QSound input assignment; playing the same sample at two positions required differently routed versions of it [^9].
+
+The game could still move that assigned input. Sega described two `slSoundRequest()` paths: command data `0x09` sends a MIDI Control Change message, while `0x12` sends the QSound input index (`0`-`7`) and position (`0`-`30`) directly to the sound driver [^9]. A MIDI sequence could instead contain a prewritten trajectory. This separates the sound designer's fixed routing from the programmer's changing position, and explains why a recovered score and tone bank need to be read together.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-qsound-programmer.webp" alt="November 1996 DTS QSound article showing Tone Editor routing and two sound-driver requests for changing position" width="755" height="1535" size="document" title="A moving sound crossed two disciplines" caption="Programmer's QSound notes cropped from [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), PDF p. 3. The earlier designer-side setup appears in the [June/July 1996 issue](https://antime.kapsi.fi/sega/files/DTS-0696.pdf)." %}
+
 ---
 # Software for Designers
 The software for 2D/3D Artists, Designers and sound editors are covered in the following post:
@@ -311,3 +327,7 @@ VCD | Either VirtualCD or Video CD depending the context
 [^3]: Sega DTS, [Overview and Release Notes of the Sega Saturn Sound Development Tools](https://antime.kapsi.fi/sega/files/SOUND.pdf), sections 1-2.
 [^5]: Sega DTS, [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3, "Wiley's Sound Bulletin."
 [^4]: Sega DTS, [BGCon 1.6 package](https://antime.kapsi.fi/sega/files/BGCON.zip), `BGCON.DOC` sections "Output Formats and Compression" and "Command Syntax", `README.TXT`, and `DEHUFF.S`.
+[^6]: Sega, [SEGA Saturn Dual CPU User's Guide](https://antime.kapsi.fi/sega/files/ST-202-R1-120994.pdf), pp. 1 and 3-5 (PDF pp. 6 and 8-10).
+[^7]: Sega DTS, [DevelopMental, May 1996](https://antime.kapsi.fi/sega/files/DTS-0596.pdf), PDF p. 3, SGL slave-processor Q&A.
+[^8]: Sega DTS, [DevelopMental, June/July 1996](https://antime.kapsi.fi/sega/files/DTS-0696.pdf), PDF pp. 3 and 6, QSound designer workflow.
+[^9]: Sega DTS, [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), PDF p. 3, QSound programmer workflow.

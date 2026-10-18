@@ -30,6 +30,13 @@ After the Sega Saturn's internal BIOS code has been executed the CPU will jump t
 
 So you can think of it as both Meta Data for the inserted game and also as the starting point for the CPU.
 
+## What the boot ROM chose first
+Before it hands control to `IP.BIN`, the boot ROM decides what kind of startup is possible. Sega's [Boot ROM User's Manual](https://antime.kapsi.fi/sega/files/ST-079B-R3-011895.pdf) shows the disc check happening while the Saturn logo appears. A recognized game CD starts the game; otherwise the boot ROM runs the Audio CD control panel, called the *Multiplayer* in this manual [^5]. The flowchart also gives a game cartridge priority over a game CD, which explains why a cartridge left in the slot can change the observed boot path.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-boot-rom-flow.webp" alt="Sega boot ROM flowchart from power-on or reset through system settings, game cartridge and game CD checks, to game or Audio CD control panel" width="1005" height="1450" size="document" title="The game was one possible destination" caption="Boot path cropped from the [Boot ROM User's Manual](https://antime.kapsi.fi/sega/files/ST-079B-R3-011895.pdf), PDF p. 8. This manual documents a non-Japanese Saturn boot ROM; its paths should not be assumed identical for every region or target box." %}
+
+The manual distinguishes a production Saturn from a target box, whose boot ROM also checked SCSI devices and SIMM memory for debugging [^5]. Those development checks belong to the machine's boot ROM, not to fields inside a retail disc's `IP.BIN`.
+
 ---
 # What does it contain?
 Most of the IP.BIN is the same between games with just a few settings changed such as the:
@@ -139,3 +146,4 @@ The same fields are highlighted in the Hex tab, using raw sector offsets when th
 [^2]: [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf)
 [^3]: Sega DTS, [`IPGNUSRC.zip`](https://antime.kapsi.fi/sega/files/IPGNUSRC.zip), especially `IPGNUSRC/IPBUILD.TXT`, `SYS/SYS_ID.SRC`, and `SYS/MAKEFILE`.
 [^4]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), boot-system explanation in the IP creation bulletin, pp. 43-44 of the PDF.
+[^5]: Sega, [Boot ROM User's Manual](https://antime.kapsi.fi/sega/files/ST-079B-R3-011895.pdf), PDF pp. 7-10, process flow, cartridge priority, and target-box differences. The manual specifies its non-Japanese ROM scope.

@@ -39,7 +39,7 @@ recommend:
 editlink: /consoles/saturn/SegaSaturnHardware.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD Gouraud -->
+<!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD Gouraud preclipping -->
 
 Image from EDGE magazine issue 23
 <img src="/public/magazine/SegaSaturnMotherboard.EDGE.23.webp" />
@@ -122,6 +122,13 @@ An April 1996 DTS Q&A reports a specific VDP1 test: drawing several hundred **un
 
 For a cheaper flat-lighting effect, the same answer suggests colour calculation between paletted sprites and the line screen, with a selectable ratio per sprite [^14]. It is a different visual technique with different constraints, rather than a drop-in replacement for Gouraud interpolation.
 
+## Why clipping still took time
+The same era's DTS Q&A explains a small cost hidden in VDP1's sprite command table. Before drawing, default *preclipping* tests whether each line of a sprite is entirely outside the clipping window. Sega estimated about five cycles of overhead per line for that check in its answer. A line that is only partly outside still needs per-pixel clipping [^15]. Preclipping could therefore save work for a largely off-screen sprite while adding overhead to one known to be visible.
+
+The `Pclp` bit in the third word of a VDP1 command disables preclipping for that sprite when set to `1`. Sega suggests it for sprites that will not be clipped or are too small to justify the line test [^15]. This is another workload-specific trade-off, not a blanket instruction to disable clipping throughout a game.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-vdp1-preclipping-qa.webp" alt="DTS Q and A describing VDP1 line preclipping, its approximate cycle cost, and the Pclp command-table bit" width="725" height="470" size="document" title="Checking the edge had a price" caption="VDP1 clipping answer cropped from [DevelopMental, May 1996](https://antime.kapsi.fi/sega/files/DTS-0596.pdf), PDF p. 3. The five-cycle figure is Sega's estimate for the preclipping check per line." %}
+
 ---
 ## Data and RAM cartridges
 Sega described two different expansion-cartridge uses in its 1996 bulletins:
@@ -152,3 +159,4 @@ The Saturn's MC68EC000 sound CPU and SCSP had their own restrictions. A January 
 [^12]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletin SOA-2, "Casting VDP1 Shadows on VDP2 Backgrounds," PDF pp. 135-137.
 [^13]: Sega, [Saturn SMPC Sample Program User's Manual](https://antime.kapsi.fi/sega/files/ST-214-111594.pdf), pp. 3-6 on sample modes and the port monitor.
 [^14]: Sega DTS, [DevelopMental, April 1996](https://antime.kapsi.fi/sega/files/DTS-0496.pdf), PDF p. 3, VDP1 Gouraud-shading Q&A.
+[^15]: Sega DTS, [DevelopMental, May 1996](https://antime.kapsi.fi/sega/files/DTS-0596.pdf), PDF p. 3, VDP1 preclipping Q&A.

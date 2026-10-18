@@ -158,6 +158,13 @@ SegaRetro has an excellent article about Cinepak for Saturn including the list o
 # 3D Software
 In order to create 3D assets for the Sega Saturn there were multiple packages that developers could buy, the one Sega promoted was Softimage but N-World, 3DStudio and Alias/Wavefront PowerAnimator all supported exporting to the Sega Saturn 3D Model formats.
 
+## Designing for one texture per face
+Sega's [SGL Programmer's Tutorial](https://antime.kapsi.fi/sega/files/ST-237-R1-051795.pdf) shows why an artist could not simply drape one texture across a whole model. SGL's visible face is a four-vertex polygon, and each face receives one texture. Artwork meant to continue across adjacent faces had to be divided into a matching set of textures [^14]. That adds seams and asset bookkeeping to what looks like one painted surface.
+
+The same tutorial shows a second surprise: a texture is reshaped to fit its polygon rather than clipped to the polygon's outline. A square texture on a rectangular face stretches, and a four-vertex face made triangular by repeating a vertex squeezes the image into that triangle [^14]. Keeping the source artwork's aspect ratio close to the intended face was one way to limit distortion. These are SGL's documented authoring rules, not evidence that every game's renderer kept Sega's source texture files.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-sgl-texture-shaping.webp" alt="SGL tutorial diagrams showing a texture divided across multiple polygons and a square texture stretched to fit a nonrectangular polygon" width="1040" height="1425" size="document" title="The art had to fit the face" caption="Texture-application and shaping diagrams cropped from the [SGL Programmer's Tutorial](https://antime.kapsi.fi/sega/files/ST-237-R1-051795.pdf), PDF p. 117. The following page discusses matching texture and polygon aspect ratios." %}
+
 ## Sega 3DEditor 
 <section class="postSection">
 <img src="/public/images/saturn/Sega3DEditor.jpg" class="wow slideInLeft postImage" />
@@ -265,3 +272,4 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 [^11]: Sega DTS, [SS-SDK Windows 95 Graphic Tools Manual and Reference](https://antime.kapsi.fi/sega/files/WGT_MAN.pdf), pp. 4-6 and 12-14; accompanying [WGT_10J.zip](https://antime.kapsi.fi/sega/files/WGT_10J.zip), `Sample/SG3_SAM` and `Sample/MAP_SAM`.
 [^12]: Sega DTS, [Sega 3D Editor 1.72US ReadMe](https://antime.kapsi.fi/sega/files/3DEdit.pdf), PDF pp. 3 and 19.
 [^13]: Sega, [Authoring Environment Guide](https://antime.kapsi.fi/sega/files/ST-091-R1-062794.pdf), 1994, pp. 3-6 on the production flow, hardware examples, and Cinepak route.
+[^14]: Sega, [SGL Developer's Manual: Programmer's Tutorial](https://antime.kapsi.fi/sega/files/ST-237-R1-051795.pdf), "Texture application" and "Texture Shaping," PDF pp. 117-118.
