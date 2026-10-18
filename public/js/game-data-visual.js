@@ -80,10 +80,9 @@
       const choice = event.target.closest('[data-visual-choice]');
       if (choice && visual.contains(choice)) {
         const key = choice.dataset.visualChoice;
-        visual.querySelectorAll('[data-visual-choice]').forEach((button, index) => {
+        visual.querySelectorAll('[data-visual-choice]').forEach((button) => {
           const active = button.dataset.visualChoice === key;
           button.setAttribute('aria-pressed', String(active));
-          if (active) visual.dataset.activeIndex = String(index);
         });
         visual.querySelectorAll('[data-visual-panel]').forEach((panel) => {
           panel.hidden = panel.dataset.visualPanel !== key;

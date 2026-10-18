@@ -361,7 +361,7 @@ For a browsable archive with many files, use the reusable `archive-explorer.html
 The JSON uses `version`, `root`, `initialPath`, `locations`, `folders`, and `files`. Each file has a relative `path`, byte `size`, short `description`, and optional `basis` explaining whether the description was verified or inferred. An optional `note` appears below the browser. Publish names and metadata only when file contents cannot be hosted. Exclude `.DS_Store` and other incidental operating-system metadata. Inspect file headers, source declarations, or formats before assigning a purpose; when those do not establish one, say so. Omit copied or extraction timestamps when they do not preserve the original file dates.
 
 ### Interactive game data visuals
-Use `game-data-visual.html` for a small interactive chart or source-system explanation. Pass a game-specific data object through `config` and a unique `id` for each instance. The include supports `bars`, `story`, `reveal`, `timeline`, `stages`, `pipeline`, `card`, `meter`, `collection`, and `occlusion` variants. Its shared CSS and JavaScript contain no game-specific text or values. Load `/public/css/game-data-visual.css` and `/public/js/game-data-visual.js` once on the article.
+Use `game-data-visual.html` for a small interactive chart or source-system explanation. Pass a game-specific data object through `config` and a unique `id` for each instance. The include supports `bars`, `reveal`, `timeline`, `stages`, `pipeline`, `mode-table`, `card`, `meter`, `collection`, and `occlusion` variants. Its shared CSS and JavaScript contain no game-specific text or values. Load `/public/css/game-data-visual.css` and `/public/js/game-data-visual.js` once on the article.
 
 For example, `_data/example_game_visuals.yml` can define a chart:
 
@@ -387,11 +387,11 @@ Choose the variant for the relationship the reader needs to understand:
 Variant | Best use | Configuration
 --- | --- | ---
 `bars` | Compare measured counts, sizes, or durations from an archive. | `options` with labeled `bars` containing numeric `value` fields.
-`story` | Let readers switch among named modes or behaviors, such as a boss's states. | `scene` and `options` with `heading`, `copy`, and optional `code`.
 `reveal` | Show how a gate, discovery flag, or other condition changes what is visible. | `cells` with `label`, optional `initially_visible`, `revealed_label`, or `gate`.
 `timeline` | Step through a sequence of inputs or events. | Ordered `options` with `badge`, `heading`, `copy`, and optional `code`.
 `stages` | Compare short state transitions for several mechanisms. | `options` with a `steps` list and explanatory `note`.
-`pipeline` | Trace data or an effect through several files or subsystems. | `options` with ordered `nodes` containing `step`, `heading`, and optional `code`.
+`pipeline` | Trace checks, data, or effects in order. | `options` with ordered `nodes` containing `step`, `heading`, and optional `code`. For sight or sound routes, an option may add `signal` (`sight` or `sound`), `signal_label`, and `signal_detail` to show a meaningful cue above the steps.
+`mode-table` | Let readers inspect real rows from a game mode or state table. | `options` with `group`, `heading`, `copy`, `animation`, optional `setup`, `update`, `speed`, and `flags`. `field_labels` can rename the five displayed fields.
 `card` | Compare short text, UI, or localization variants in one place. | `options` with `heading`, `copy`, and optional `branch`.
 `meter` | Let readers move through a source-defined countdown or threshold. | `max_value`, `warning_start`, `unit`, and explanatory phase labels and copy.
 `collection` | Show how individually collected pieces build a bitmask or set. | `slots` with distinct numeric `bit` values, plus collection and completion labels.

@@ -363,7 +363,7 @@ An enemy does more than wait for Turok to step into a fixed circle. In `ai.c`, *
 
 ---
 ## A boss fight written as states
-The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. The storyboard below samples actual modes from that table; it is a guide to the code, not a recording of one playthrough.
+The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. Select a mode below to see one actual row of the table, from the animation it plays to the flags that shape its behavior.
 
 {% include game-data-visual.html id="turok-boss" config=site.data.turok_game_visuals.boss %}
 

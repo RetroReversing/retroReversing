@@ -20,33 +20,55 @@ audio:
         - {label: 5 s or longer, value: 49}
 
 boss:
-  variant: story
+  variant: mode-table
   eyebrow: Boss mode board / trex.c
-  title: One creature, many states
-  scene: T. REX
+  title: Inside the T. Rex mode table
   controls_label: Tyrannosaurus modes
-  caption: Selected entries from the BOSS_MODE_INFO table; the illustration is schematic.
+  caption: Each selection is one row from TRexModeTable in trex.c. These examples are not a sequence of phases in a single fight.
+  field_labels:
+    animation: Animation
+    setup: Setup callback
+    update: Update callback
+    speed: Animation speed
+    flags: Flags
   options:
     - key: entrance
       label: Entrance
-      heading: Protected entrance
-      copy: The elevator idle and rage modes carry an invincibility flag while the encounter opens.
-      code: BF_INVINCIBLE | BF_ENTER_MODE
+      group: Elevator mode
+      heading: Protected arrival
+      copy: The idle pose on the elevator stays invincible while the boss enters the arena.
+      animation: AI_ANIM_BOSS_TREX_IDLE
+      update: TRex_Code_OnElevator
+      speed: '1'
+      flags: BF_INVINCIBLE | BF_ENTER_MODE
     - key: hunt
-      label: Hunt
-      heading: Turn, run, bite
-      copy: Running and turning modes track Turok. A separate run-bite animation calls its own attack routine.
-      code: BF_RUNNING_MODE | BF_HEAD_TRACK_TUROK
+      label: Run
+      group: Movement mode
+      heading: Pursuit with head tracking
+      copy: This run row combines movement code, faster playback, head tracking, and the laser flag.
+      animation: AI_ANIM_BOSS_TREX_RUN
+      update: TRex_Code_Movement
+      speed: '1.5'
+      flags: BF_RUNNING_MODE | BF_HEAD_TRACK_TUROK | BF_LASER_ON
     - key: fire
-      label: Fire
-      heading: Flame sequence
-      copy: Breath-fire setup leads into fire-in, looping, and fire-out modes. The table marks these with a flame flag.
-      code: BF_FLAME_MODE
+      label: Breath fire
+      group: Looping attack
+      heading: Flame breath loop
+      copy: The setup callback prepares the breath attack; the update callback keeps its firing loop running.
+      animation: AI_ANIM_BOSS_TREX_BREATH_FIRE
+      setup: TRex_Setup_BREATH_FIRE
+      update: TRex_Code_FireLoop
+      speed: '1'
+      flags: BF_FLAME_MODE
     - key: cave
-      label: Cave
-      heading: The cave changes the moves
-      copy: Cave modes include a stoop, look, bite, nose hit, rage, and tail slam.
-      code: TRex_Code_CaveAttack
+      label: Cave look
+      group: Cave special
+      heading: Looking from the cave
+      copy: The cave attack routine runs this look animation. This row sets no special mode flags.
+      animation: AI_ANIM_BOSS_TREX_CAVE_LOOK
+      update: TRex_Code_CaveAttack
+      speed: '1'
+      flags: '0'
 
 map:
   variant: reveal
@@ -175,6 +197,9 @@ perception:
   options:
     - key: sight
       label: In sight
+      signal: sight
+      signal_label: Vision check
+      signal_detail: Range, angle, and a clear ray must all pass.
       nodes:
         - step: '1 / Distance'
           heading: Target within sight radius?
@@ -187,6 +212,9 @@ perception:
           code: CAnimInstanceHdr__CastYeThyRay
     - key: quiet
       label: Quiet noise
+      signal: sound
+      signal_label: Quiet sound event
+      signal_detail: Hearing tests its configured quiet radius; no clear view is needed.
       nodes:
         - step: '1 / Event'
           heading: Quiet noise reaches the AI
@@ -199,6 +227,9 @@ perception:
           code: AI_EV_QUIETNOISE
     - key: loud
       label: Loud noise
+      signal: sound
+      signal_label: Loud sound event
+      signal_detail: Hearing tests a separate loud radius; no clear view is needed.
       nodes:
         - step: '1 / Event'
           heading: Loud noise reaches the AI
