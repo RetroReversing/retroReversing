@@ -8,7 +8,9 @@ tags:
 - sourcecode
 title: Chicken Run Source Code
 category: dreamcast
-image: /public/games/chicken-run/Chicken-Run-Dreamcast-USA.webp
+placeholderimages:
+- /public/games/chicken-run/Chicken-Run-Dreamcast-USA.webp
+- /public/games/chicken-run/Chicken-Run-PlayStation-USA.webp
 permalink: /Chicken-Run-Source-Code
 breadcrumbs:
   - name: Home
