@@ -31,10 +31,14 @@ Sega released the Game Gear in 1990 with a colour, backlit screen.
 This page brings together accounts of how developers made its games, the tools and hardware they used, and technical references for the console itself.
 If you are examining a ROM, those sources can help connect the artwork and music created during development with the data and hardware writes left in the finished game.
 
-## How were sound and music created for the GameGear?
-In an interview with **Paul Hutchinson** he states that he used an Amiga 2000HD with the software **Pro-Tracker**. He wrote a DOS program in Turbo-C++ to convert the Pro-Tracker MIDI export format  directly to a format that the Game Gear sound routines could easily use [^1]. 
+---
+# Game Development
+Paul Hutchinson's [interview about his Sega work](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson) describes what sat on one Game Gear developer's desk: a PC and Amiga, home-written converters, an in-circuit emulator and a test cartridge. His setup is a useful production example, not a universal SDK [^2].
 
-This method was used for **Chakan** then later for **X-Men** he wrote a program to convert MOD to MIDI which then would be passed through the previously created MIDI to GG converter [^1].
+## How were sound and music created for the GameGear?
+Hutchinson used ProTracker on an Amiga 2000HD to compose music for the Game Gear *X-Men* games. For *Chakan*, a composer supplied MIDI files and Hutchinson wrote a DOS converter to put them into the format expected by the game's sound routines. He initially recalled routing *X-Men* MOD files through MIDI too, but later found his tools and clarified that the final converter took ProTracker data directly to Game Gear format [^1].
+
+The recovered *X-Men* MODs offer a rare chance to compare working music files with the released tunes. Hutchinson says the modules were adjusted for conversion, so they are not untouched originals; samples and pitch effects also changed or disappeared on the Game Gear [^1].
 
 ## What Software was used to create Game gear games?
 We know that **Paul Hutchinson** used the following software when developing Game Gear games such as X-Men 1 & 2 (and likely also Chakan and Spiderman vs the kingpin):
@@ -52,15 +56,20 @@ We know of two confirmed assemblers that were used for Game Gear programming:
 ## How was the final ROM built?
 Normally it was up to the main programmer to put everything together, all the images, sounds, music and other assets into the final game ROM that would be sent to Sega. 
 
-Developers such as **Paul Hutchinson** wrote programs with Turbo C++ to convert the asset data into assembler files (Define Byte (`.DB`), Define Word (`.DW`) etc statements) [^2]. Then an assembler is used to put everything together into a single file that can then be burned onto an EPROM using hardware such as **Needham's Electronics EPROM programmer**.
+Hutchinson's example makes the handoffs concrete. Deluxe Paint artwork, TUME maps and music files began in their own formats. He wrote Turbo C++ utilities to turn asset data into assembler `db` and `dw` statements, then built the ROM with the Avocet Z80 assembler [^2]. The [*Barbie Super Model* development archive](https://www.smspower.org/Development/BarbieSuperModel-GG) preserves a different project directory with source, graphics, a Game Gear character editor and supporting tools [^6].
 
-The EPROM was then inserted on to a development cartridge and tested on the retail system before finally sending to Sega via their Bulletin Board System (BBS) [^2].
+For his own games, Hutchinson programmed the ROM onto EPROMs with a Needham's Electronics programmer, placed them in a test cartridge and ran them on a retail system. He also uploaded code to Sega of America's Bulletin Board System (BBS) [^2].
 
 
 ---
 # Hardware
 The hardware notes here help separate cartridge code from writes to the video and sound chips.
 The development-kit links document how programmers and artists tested those writes on real machines.
+
+## Reading the Cartridge
+A Game Gear ROM file is more than a continuous run of Z80 instructions. The [Sega ROM header reference](https://www.smspower.org/Development/ROMHeader) describes a 16-byte header usually found at file offset `$7FF0`. It starts with `TMR SEGA` and records a product code, version, region and nominal ROM size. Those fields can contain mistakes, so the size nibble alone is not proof of how much data the cartridge holds [^7].
+
+Bank switching matters once a game exceeds what the CPU can see at one time. The Z80 has a 64 KB address space, with 48 KB available to the cartridge. In the common Sega mapper, writes to CPU addresses `$FFFD`-`$FFFF` select ROM banks for three 16 KB slots; `$FFFC` controls cartridge RAM mapping [^8]. A routine reached at `$8000` can therefore belong to a different part of the ROM after a bank change. The [SMS Power mapper guide](https://www.smspower.org/Development/Mappers) also documents other cartridge schemes, so do not assume every game uses Sega's registers.
 
 ## Tracing Palette Writes
 The [Sega Game Gear technical manuals](https://www.smspower.org/Development/GGOfficialDocs), transcribed by SMS Power, describe colour RAM as 32 entries of 12-bit colour.
@@ -205,6 +214,16 @@ CTG | Possible someones name? Or a company Has written files for the GG Characte
 
 
 ---
+# Reverse Engineering Game Gear Games
+The hardware references become more useful when paired with a trace from a running game. [Gearsystem](https://github.com/drhelius/Gearsystem) supports Game Gear ROMs and includes a disassembler, CPU breakpoints, trace logger, I/O inspector and VRAM viewer [^9].
+
+## Follow a Video Write
+For a first exercise, pause at a Z80 `out` instruction that writes to VDP control port `$BF`, then follow the data writes to `$BE`. Sega's manual gives a concrete palette example: send `$04` and `$C0` to `$BF`, then `$0F` and `$00` to `$BE`. That writes bright red into one colour RAM entry [^3]. In the debugger, the trace shows which routine issued those writes and the palette viewer shows their result. This connects a port sequence to visible output without treating a VDP address as an offset in the cartridge file.
+
+## A Game-Sized Disassembly
+The [*Sonic the Hedgehog* Game Gear split disassembly](https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly) shows what lies beyond a single trace. Its author has separated music, palettes, art, level layouts, block mappings and some object logic into named parts [^10]. It is a work in progress by the community, not Sega's original source, but it makes the relationship between ROM data and a game's visible and audible pieces much easier to inspect.
+
+---
 # All Posts
 <div>
 
@@ -218,3 +237,8 @@ CTG | Possible someones name? Or a company Has written files for the GG Characte
 [^3]: [Sega Game Gear technical manuals, transcribed by SMS Power](https://www.smspower.org/Development/GGOfficialDocs), VDP manual "Writing to the color RAM" and main manual "I/O port 06H".
 [^4]: [SMS Power - VRAM Memory Map](https://www.smspower.org/Development/VRAMMemoryMap), common Master System and Game Gear layout.
 [^5]: [SMS Power - Game Gear Stereo](https://www.smspower.org/Development/GameGearStereo), port `$06` bit assignments and speaker behaviour.
+[^6]: [SMS Power - Barbie Super Model development archive](https://www.smspower.org/Development/BarbieSuperModel-GG), contents of the archived project directories.
+[^7]: [SMS Power - ROM Header](https://www.smspower.org/Development/ROMHeader), header location, fields and known inconsistencies.
+[^8]: [SMS Power - Mappers](https://www.smspower.org/Development/Mappers), cartridge address space and Sega mapper registers.
+[^9]: [Gearsystem README](https://github.com/drhelius/Gearsystem), supported machines and debugger features.
+[^10]: [Sonic 1 Game Gear Disassembly README](https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly), project scope and split assets.
