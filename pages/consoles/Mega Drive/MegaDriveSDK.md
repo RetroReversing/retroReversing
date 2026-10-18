@@ -22,8 +22,9 @@ recommend:
 - sdk
 - megadrive
 editlink: /consoles/Mega Drive/MegaDriveSDK.md
-updatedAt: '2026-04-11'
+updatedAt: '2026-10-18'
 ---
+<!-- cspell:words Neuromantic GEMS Hedges -->
 
 # Sega Mega Drive (Genesis) SDK
 Unlike the original Master System or SG-1000 systems, **SEGA** provided third party developers with some tools to make **Mega Drive** development easier.
@@ -69,6 +70,16 @@ Name | Description
 68000 Sound Driver Ver 3.00.pdf | Documentation for the 32x sound driver (PCM)
 Genesis Sound Software Manual.pdf | Contains Z80 memory Map, how to communicate with the Main 68K CPU, envelope specification and Programmable Sound generator information
 MIDI Converter Ver 1.30.pdf | Documentation for a few Macintosh tools that convert standard MIDI files into multiple formats
+
+---
+## Neuromantic's GEMS FM patch library
+A June 1995 *DTS Developer News* article describes a sound-design resource intended for Genesis, Sega CD, and 32X projects: more than 500 four-operator FM instrument and effect patches by Jim Hedges and Mark Miller [^1]. The patches were distributed in GEMS-exportable `.PAT` form, organised into banks of instruments, drums, and effects. The article says they could also be converted for another four-operator FM driver; GEMS was their distribution format, not the only possible playback engine.
+
+The library paired a general-purpose collection with a General MIDI-oriented module modelled on the Roland Sound Canvas. That gave a composer moving from a PC or Mac MIDI arrangement a starting set of familiar instruments, while still leaving room to retune patches for the Genesis sound chip. The article describes the collection as a starting point for sounds in *Earthworm Jim*, *X-Men 2*, *Taz-Mania*, and *ToeJam & Earl*, among others [^1]. It does not establish that a particular retail ROM contains an unchanged library patch.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-gems-patches-1995.webp" alt="June 1995 Sega DTS newsletter page describing Neuromantic's GEMS FM patch library and its General MIDI module" width="1082" height="1400" size="document" title="A sound library that crossed three Sega platforms" caption="The [DTS Developer News, June 1995, p. 3](https://antime.kapsi.fi/sega/files/DTS-0695.pdf) lists the patch banks and supported platforms. The inspected DTS mirror preserves this article, not the library itself." %}
+
+For sound-file research, the `.PAT` extension and GEMS bank organisation are concrete clues to a development asset's origin. The newsletter is evidence of what Sega offered developers, while the sound data in any one game still has to be identified from that game's files.
 
 ---
 ## Development Cartridge Documentation
@@ -117,3 +128,7 @@ The source code to the Japan-only sound driver that was called **SOUND-SORCE** (
 This leak suggests that development in Sega of Japan was done on **NEC PC-9801** DOS based workstations and since these PCs were only popular in Japan it wouldn't make sense to send the sound driver source code over to the Sega of America development team.
 
 As for building the Z80 assembly code it required the **X68K assembler** and the **ERX68K** simulator environment which would be connected to a ZAX ICD-series in-circuit emulator which could be controlled with a program called **ZICE** on the **NEC PC-9801**.
+
+---
+# References
+[^1]: Sega DTS, [DTS Developer News, June 1995](https://antime.kapsi.fi/sega/files/DTS-0695.pdf), p. 3, "Neuromantic Sound Library".

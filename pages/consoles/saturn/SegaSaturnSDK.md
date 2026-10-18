@@ -19,9 +19,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSDK.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
-<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime -->
+<!-- cspell:words gasm SEGASMP SBLSGL zipdocs Antime BGCON DHUFF DeHuff Watcom -->
 
 The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
@@ -64,16 +64,16 @@ Archive | What inspection establishes
 These are counts of archive members in the inspected copy, including directory entries where present. They establish what survives in this reconstruction, rather than a complete inventory of every DTS CD or web release [^2].
 
 ## Background Converter (BGCON)
-Latest Known Version: 1.6
+The preserved [BGCon 1.6 archive](https://antime.kapsi.fi/sega/files/BGCON.zip) contains the DOS converter, its Word manual, a Saturn background viewer, and SH-2 assembly source for a decompressor [^4]. BGCon reads PCX, IFF, and Targa images. It can make VDP2 bitmaps or character-pattern and pattern-name data, remove duplicate or reflected characters, and emit C, GNU assembly, or binary data. Its script mode allowed an artist to repeat the same conversion settings across assets.
 
-BGCon is a command line tool for graphics designers to convert their images into a Sega Saturn ready image format.
+The output choice matters when identifying a recovered graphics file:
 
-It supports the following formats as input:
-* IFF (Interchange File Format)
-* PCX (PiCture eXchange)
-* TGA (Targa)
+Output | What to expect
+---|---
+Raw | Pixel or character data without a format header. Image and pattern data can use RLE or delta/Huffman compression; palettes stay uncompressed.
+SGA3 | An uncompressed IFF-style `FORM SGAM` with chunks describing the image, palette, and their relationships.
 
-The only output format it supports is SGA3 with or without header information.
+The manual says raw RLE data can be unpacked with SBL's `CMP_DecRunlen()`. For its delta/Huffman mode, BGCon first tries storing differences between neighbouring values and uses that step only if it improves the ratio. The supplied `DEHUFF.S` and `DEHUFF.H` show how the target program could decode the result [^4]. A headerless dump may therefore be a deliberate BGCon output, not a damaged SGA3 file.
 
 ---
 ## Host Serial Interface (HSI) Tools
@@ -299,3 +299,4 @@ VCD | Either VirtualCD or Video CD depending the context
 [^1]: Sega, [Technical Bulletin 48 - SEGASaturn Development Tool Segments](https://antime.kapsi.fi/sega/files/ST-TECH-48.pdf), 2 October 1996.
 [^2]: ZIP member lists inspected in `software/zipdocs/SBL601.zip`, `SGL302J.ZIP`, and `WGT_10J.zip` of the partial DTS website reconstruction. The [SBL 6.01](https://antime.kapsi.fi/sega/files/SBL601.zip) and [Windows 95 Graphics Tools](https://antime.kapsi.fi/sega/files/WGT_10J.zip) archives are also available from Antime.
 [^3]: Sega DTS, [Overview and Release Notes of the Sega Saturn Sound Development Tools](https://antime.kapsi.fi/sega/files/SOUND.pdf), sections 1-2.
+[^4]: Sega DTS, [BGCon 1.6 package](https://antime.kapsi.fi/sega/files/BGCON.zip), `BGCON.DOC` sections "Output Formats and Compression" and "Command Syntax", `README.TXT`, and `DEHUFF.S`.

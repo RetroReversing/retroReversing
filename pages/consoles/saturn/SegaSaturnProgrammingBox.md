@@ -29,9 +29,9 @@ recommend:
   - devkit
   - crossproducts
 editlink: /consoles/saturn/SegaSaturnProgrammingBox.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
-<!-- cspell:words Covell endcapture devsys CARTDEV BTSMPFS -->
+<!-- cspell:words Covell endcapture devsys CARTDEV BTSMPFS SSCHECK -->
 
 During the Sega Saturn's lifecycle there were multiple development kits available to developers starting from the original Sophia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
@@ -70,6 +70,13 @@ You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow fro
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> 
 
 According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had just been bought by SEGA and were put in charge of supplying the next development kit known as `CartDev`. There were also responsible for the `Mirage CD Emulator` and Modified Saturn sold to game development studios [^3].
+
+## CodeScape put the debugger around the CartDev
+A January/February 1997 *DevelopMental* announcement offered Cross Products' **CodeScape** as a $400 upgrade for existing Saturn development systems. It could load existing SNASM COFF files, set breakpoints on accesses within memory ranges or to external peripherals, and operate multiple CartDevs for multiplayer development. Its editor, build, download, and debugger controls lived in one interface [^13]. This describes the advertised tool, not a claim that every CartDev installation used it.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-codescape-1997.webp" alt="1997 DevelopMental page advertising the CodeScape Saturn debugger, with its interface screenshot and feature list" width="906" height="1400" size="document" title="A debugger advertised to Saturn developers" caption="The [CodeScape announcement, DevelopMental January/February 1997, p. 2](https://antime.kapsi.fi/sega/files/DTS-0197.pdf) shows the interface and the features Sega highlighted. Select the scan to enlarge." %}
+
+For a reverse engineer, COFF support is the interesting bridge: the debugger expected symbol-bearing development builds, while a retail binary often leaves only the resulting machine code. The announcement also records a CartDev RAM buffer board as an aid to porting a large PC project before shrinking its code and data [^13].
 
 ---
 # Sega CartDev
@@ -130,9 +137,12 @@ This machine would likely be used by Sega themselves to check if games can be gi
 
 {% include link-to-other-site.html url="https://nfggames.com/games/satadd/" description="NFGGames has a good page on the original SI Electronics Address checker." title="IS Electronics / Sega Saturn Address Checker - NFG Games" image="https://nfggames.com/games/satadd/satadd2.jpg" %}
 
-For the second version of the Sega Saturn Address checker hardware it was basically a retail Saturn with LED lights down the side, one for each unmapped memory area, for more information SEGARetro has an excellent wiki page on it.
+SegaRetro has photographs of an LED-equipped Address Checker, a useful visual companion to the catalogue's description.
 
 {% include link-to-other-site.html url="https://segaretro.org/Sega_Saturn_Address_Checker" description="SegaRetro page on the 2nd version of the Sega Saturn Address Checker." title="Address Checker v2" image="https://segaretro.org/images/a/a6/Ssaddresschk_01.jpg" %}
+
+## What the portable SS Checker could tell you
+The reconstructed DTS hardware catalogue describes a lower-cost **Saturn SS Checker V1.00** intended for quick illegal-address tests [^14]. Its LEDs corresponded to memory regions: LED 1, for example, meant an illegal ROM-area access. It ran without a host PC, like a production Saturn, but did not report the exact address, program counter, or whether the operation was a read or write. A lit LED could narrow the search; the fuller Address Checker was still needed to locate the instruction. The catalogue says the SS Checker was not a replacement for that larger system.
 
 ---
 # Sega Saturn Boot Disc
@@ -262,3 +272,5 @@ Although the Cross Products development kit was initially a 3rd party developmen
 [^10]: Sega, [Saturn Virtual CD System User's Manual](https://antime.kapsi.fi/sega/files/ST-129-R2-093094.pdf), sections 2-3, direct DOS and real-time emulation workflows.
 [^11]: Sega, [VCDTOOLS archive](https://antime.kapsi.fi/sega/files/VCDTOOLS.zip), especially `CARTDEV/BTSMPFS.SCR` and the `VCDTOOLS` program directory.
 [^12]: Sega, [Saturn Virtual CD System User's Manual, supplement 1](https://antime.kapsi.fi/sega/files/ST-129-R2-SP1-061995.pdf), June 1995, track/index and buffer options.
+[^13]: Sega DTS, [DevelopMental, January/February 1997](https://antime.kapsi.fi/sega/files/DTS-0197.pdf), p. 2, CodeScape announcement and CartDev RAM-buffer note.
+[^14]: Sega DTS website reconstruction, `hardware/core/SSCHECK.HTM`, "Saturn SS Checker V1.00", preserved in the local DTS mirror described on the [DTS page](/sega-dts).

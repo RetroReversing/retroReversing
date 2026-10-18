@@ -37,9 +37,9 @@ recommend:
   - saturn
   - consolearchitecture
 editlink: /consoles/saturn/SegaSaturnHardware.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
-<!-- cspell:words SCSP SMPC -->
+<!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD -->
 
 Image from EDGE magazine issue 23
 <img src="/public/magazine/SegaSaturnMotherboard.EDGE.23.webp" />
@@ -88,6 +88,26 @@ Device | Peripheral ID | Report payload | Detail to check
 Shuttle mouse | `E3h` | 3 bytes | Sign and overflow flags qualify relative X/Y movement
 Saturn keyboard | `34h` | 4 bytes | Key code is meaningful only when Make or Break is set
 
+---
+## DMA crosses buses, but not every route is legal
+Sega's developer FAQ gives a revealing failed call: `DMA_ScuMemCopy()` does not copy from one area of high work RAM to another. The SCU DMA engine is for transfers between buses; a copy within the same memory space needs CPU DMA or a software copy [^10]. The FAQ lists high work RAM to VDP1, VDP2, or SCSP and CD buffer to those destinations as useful routes.
+
+That does **not** make every transfer direction valid. Technical Bulletin 12 prohibits using SCU DMA to **read** VRAM, even though a transfer *to* VDP memory can be valid. It also says the VDP2 VBlank status bit reads as set whenever the display-enable bit is off; a polling loop that treats that bit as an ordinary clock can therefore misread a blanked screen [^11]. These distinctions matter when a recovered routine appears to stall or move nothing despite having plausible source and destination addresses.
+
+---
+## A sprite could cast a shadow without drawing its own image
+Sega's shadow bulletin describes two ways VDP1 can write special pixels that VDP2 interprets while combining sprites and backgrounds [^12]. A normal shadow uses a reserved palette value to darken a background pixel. An MSB shadow sets the high bit of the VDP1 frame-buffer pixel, allowing the effect to darken a sprite already drawn there as well. The choice changed what else the scene could display:
+
+Shadow mode | Useful trade-off
+---|---
+Normal | Can mix with RGB sprites and use different priorities, but overwrites a lower sprite rather than darkening it
+MSB | Can darken another sprite, but cannot mix with RGB sprites; transparent MSB shadow pixels share priority register zero
+
+MSB shadows require VDP2's sprite-control bits to leave the high bit available and work only with sprite types 2-7, which rules out VDP1 high-resolution modes. Normal shadows are available in those modes, but their reserved palette entries cannot be used as ordinary sprite colours [^12]. These are useful clues when a game uses apparently strange colour values or a shadow disappears after a rendering-mode change.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-shadow-modes.svg" mobile_src="/public/images/saturn/dts/dts-shadow-modes-mobile.svg" alt="Normal shadow uses a reserved palette value to darken the background; MSB shadow uses a high bit and can darken existing sprites too" width="1200" height="250" title="Two routes through the Saturn's shadow hardware" caption="Diagram reconstructed from [Sega Technical Bulletin SOA-2](https://antime.kapsi.fi/sega/files/Sattechs.pdf), pp. 135-137 of the PDF." %}
+
+---
 ## Data and RAM cartridges
 Sega described two different expansion-cartridge uses in its 1996 bulletins:
 
@@ -112,3 +132,6 @@ The Saturn's MC68EC000 sound CPU and SCSP had their own restrictions. A January 
 [^7]: Sega DTS, [Technical Bulletin 44 - Shuttle Mouse Data Format](https://antime.kapsi.fi/sega/files/ST-TECH-44.pdf), 1 July 1996.
 [^8]: Sega DTS, [Technical Bulletin 45 - Saturn Keyboard Data Format](https://antime.kapsi.fi/sega/files/ST-TECH-45.pdf), 10 July 1996.
 [^9]: Sega DTS, [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), p. 4, "1996's Best Known A-Bugs".
+[^10]: Sega DTS, [DevelopMental, January/February 1997](https://antime.kapsi.fi/sega/files/DTS-0197.pdf), p. 3, "DMA Programming" FAQ.
+[^11]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletin 12, "SCU DMA, Boot ROM, and Vblank Precautions," PDF p. 54.
+[^12]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), Bulletin SOA-2, "Casting VDP1 Shadows on VDP2 Backgrounds," PDF pp. 135-137.

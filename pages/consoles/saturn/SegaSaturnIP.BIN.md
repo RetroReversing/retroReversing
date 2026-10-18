@@ -19,9 +19,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnIP.BIN.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
-<!-- cspell:words smpsys SMPSYS AREJ AREU -->
+<!-- cspell:words smpsys SMPSYS AREJ AREU IPGNUSRC IPBUILD -->
 
 The disc's system area begins with the Boot System Initial Program, commonly extracted as `IP.BIN`. Its size is recorded in the system ID and can vary up to **16 sectors**, or 32 KiB of user data, under Sega's disc format specification [^2]. In this post we will explore what it is, the purpose of it and how it works.
 
@@ -100,6 +100,14 @@ EXIT
 
 When this linking script is executed it creates a file called **sys_ip.abs** which can be renamed to IP.BIN.
 
+---
+## What the preserved GNU build adds
+Sega's [IPGNUSRC package](https://antime.kapsi.fi/sega/files/IPGNUSRC.zip) includes `SYS_ID.SRC`, `SMPSYS.C`, a makefile, object files, and `IPBUILD.TXT`, a November 1996 guide to building an IP with GNU tools [^3]. The guide says to compile an IP for each product rather than patch or reuse one from another disc. Normally the developer could customise the system ID by editing `SYS_ID.SRC`; the makefile then assembled and linked the parts into `IP.BIN`.
+
+The package also clarifies what the red and black developer key discs tested. A red disc was for Sega-brand IPs and a black disc for third-party IPs. Within either class, a particular key disc was not paired one-to-one with a particular game. The IP still needed area symbols matching the target Saturn's region. A third-party code was recorded in the IP for submission review, but the guide says that code itself was not essential to booting [^3]. This makes the disc's system ID and area-code objects more useful clues than a supposed unique key-disc match.
+
+Finally, the program's load and run addresses had to agree with the entry address expected by the IP. The archive's guide recommends keeping them the same and gives Sega's default as `0x06010000` [^3]. Sega's boot-system bulletin explains the timing: the boot ROM loads the first-read file while the licensed Sega logo is displayed, but does not execute that file; the application initial program runs after the area code [^4]. A bad first-read address could therefore look like a boot failure before the game's own code visibly starts.
+
 ## Creating it for Homebrew development
 The Homebrew version for the Sega Saturn SDK has its own tool for creation called the IPMaker.
 
@@ -120,3 +128,5 @@ The same fields are highlighted in the Hex tab, using raw sector offsets when th
 # References
 [^1]: [About IP.BIN SegaXtreme](https://segaxtreme.net/threads/about-ip-bin.6229/)
 [^2]: [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf)
+[^3]: Sega DTS, [`IPGNUSRC.zip`](https://antime.kapsi.fi/sega/files/IPGNUSRC.zip), especially `IPGNUSRC/IPBUILD.TXT`, `SYS/SYS_ID.SRC`, and `SYS/MAKEFILE`.
+[^4]: Sega DTS, [Saturn Technical Bulletins](https://antime.kapsi.fi/sega/files/Sattechs.pdf), boot-system explanation in the IP creation bulletin, pp. 43-44 of the PDF.

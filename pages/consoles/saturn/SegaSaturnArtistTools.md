@@ -19,9 +19,9 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnArtistTools.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
-<!-- cspell:words Softimage Animetix descrip -->
+<!-- cspell:words Softimage Animetix descrip SSMonitor HrcToSg3 SGT -->
 
 This post will cover the most commonly used tools by artists when developing assets for Sega Saturn games, including 2D, 3D and Video.
 
@@ -168,6 +168,21 @@ File Formats Supported:
 </div>
 </section>
 
+---
+## Windows 95 Graphics Tools and their sample models
+The later Windows 95 package joined **3D Editor**, **Map Editor**, and **SS Monitor**. The monitor sent a model or scroll screen through CartDev to the Saturn, making a television preview part of the editing loop [^11]. The [preserved package](https://antime.kapsi.fi/sega/files/WGT_10J.zip) includes the tools and real sample assets: `.SG3` models, `.SGT` texture sets, bitmaps, and JPEG textures. Its manual lists `sonic3.sg3` as a 214-polygon sample with 12 textures, alongside a 464-polygon `mt_sonic.sg3` [^11]. Those are SDK examples, not evidence that either file shipped in a retail game.
+
+The manual records a useful preview trap. Some sample models use collapsed vertices to make concave quads. The Windows editor renders triangles, so these quads can look wrong on the PC even though the Saturn or SS Monitor displays them correctly. The `.SG3` model also stores texture reference numbers, allowing a different `.SGT` texture set to change a character's appearance without changing its geometry [^11]. That is a concrete reason to inspect the model, texture set, and target-hardware preview together.
+
+The manual's file-format notes are helpful when sorting recovered assets:
+
+Tool | File operations
+---|---
+3D Editor model window | Opens `.SG3`; saves `.SG3` or `.MDL`
+3D Editor texture list | Opens `.SGT`, imports BMP or JPEG; saves `.SGT` or `.TXR`, exports BMP, SGL, or TIFF
+Map Editor | Opens `.S2D`, imports BMP or JPEG; saves `.S2D` or SGL `.MAP`, `.CEL`, and `.PAL` data
+
+---
 ## Softimage
 Most games that use 3D models used an SGI workstation such as the SGI Indigo and used the Softimage software [^1]. In fact Sega announced in January 1995 that it was partnering with Softimage to make it the official 3D modelling package for the Sega Saturn [^2].
 
@@ -176,7 +191,9 @@ Most games that use 3D models used an SGI workstation such as the SGI Indigo and
 Softimage was enhanced to allow exporting to the Sega Saturn 3d model formats.
 The September 1995 DTS newsletter describes the Saturn-specific toolkit in more detail: a Saturn format exporter, an IRIX viewer linked to CartDev, interactive colour reduction, texture painting with 3D projection, and UV coordinate editing. Those steps show a practical loop from the modelling workstation to a target console [^10].
 
-The same issue follows Sega's Creative Support Art Group replacing textures in a game approaching its deadline. Artists inspected a current build, made new textures, previewed them on Saturn, attached them to polygons, and checked the result in the game. That account grounds the tool list in an actual production workflow [^10].
+The same issue follows Sega's Creative Support Art Group replacing textures in an unnamed game approaching its deadline. Its rooms looked flat, while some existing textures "chattered" or showed bright hot spots on Saturn. Artists played a current build to find the problem surfaces, rendered new control-screen and wall-panel textures, checked them on the console, attached them to polygons, and then checked the results in the game [^10]. This was a loop between the running build and the art tools, not a one-way export step.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-creative-support-art-1995.webp" alt="September 1995 DTS Developer News page showing Sega's Creative Support Art Group and its texture replacement workflow" width="1082" height="1400" size="document" title="A production deadline, seen from the art desk" caption="[DTS Developer News, September 1995, p. 1](https://antime.kapsi.fi/sega/files/DTS-0995.pdf) describes texture problems in an unnamed Saturn game. Select the original page to enlarge." %}
 
 This console generation was interesting in terms of games companies choosing their preferred 3D modelling packages, Sega and Nintendo went for competing 3D modelling packages, so while Sega went with SoftImage, Nintendo went for Alias 3D modelling software [^4].
 
@@ -223,3 +240,4 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 [^8]: Sega, [QuickViewer 3.17E ReadMe](https://antime.kapsi.fi/sega/files/QkViewer.pdf), `Introduction`, `Restrictions`, and `Basic Operations`.
 [^9]: Sega, [SpriteEditor ReadMe](https://antime.kapsi.fi/sega/files/SprEdit.pdf), `Introduction` and interface description.
 [^10]: Sega, [DTS Developer News, September 1995](https://antime.kapsi.fi/sega/files/DTS-0995.pdf), pp. 1-2.
+[^11]: Sega DTS, [SS-SDK Windows 95 Graphic Tools Manual and Reference](https://antime.kapsi.fi/sega/files/WGT_MAN.pdf), pp. 4-6 and 12-14; accompanying [WGT_10J.zip](https://antime.kapsi.fi/sega/files/WGT_10J.zip), `Sample/SG3_SAM` and `Sample/MAP_SAM`.
