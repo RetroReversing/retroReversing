@@ -31542,6 +31542,157 @@
         "ZX Spectrum"
       ],
       "description_markdown": "Lumb discusses making Spectrum games with several programming collaborators."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        20,
+        21
+      ],
+      "developer": "Daley Johnson",
+      "platforms": [
+        "NES",
+        "Switch"
+      ],
+      "description_markdown": "The Playtonic designer discusses Mario's enduring character design and appeal."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        22,
+        23
+      ],
+      "developer": "Philip Oliver",
+      "platforms": [
+        "NES"
+      ],
+      "description_markdown": "Oliver discusses Mario's level design and its influence on his own NES game projects."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        24,
+        25
+      ],
+      "developer": "Chris Sutherland",
+      "platforms": [
+        "NES",
+        "Nintendo 64"
+      ],
+      "description_markdown": "The former Rare programmer examines how Mario's movement and abilities shaped platform games."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Mike Lorenzen",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Lorenzen explains how he programmed Atari's **Golf** for the 2600."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        40,
+        47
+      ],
+      "developer": "Richard Spitalny",
+      "platforms": [
+        "Atari 8-bit",
+        "Commodore 64",
+        "NES"
+      ],
+      "description_markdown": "First Star Software's cofounder shares firsthand memories of its games, including **Boulder Dash** and **Spy Vs Spy**."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        48,
+        49
+      ],
+      "developer": "Samuel Sebastian Nova",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Nova recounts the cancelled MS-DOS adaptation of **Super Star Wars**."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        50,
+        55
+      ],
+      "developer": "Ian Harling",
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "PC"
+      ],
+      "description_markdown": "Harling discusses designing and illustrating **The Lost Patrol**."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "Clive Townsend",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "Townsend discusses programming the **Saboteur** games and other projects."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        98,
+        99
+      ],
+      "developer": "John Henderson",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "The artist and designer discusses creating the C64 game **Wild Wood**."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        100
+      ],
+      "developer": "Under 4MHz",
+      "platforms": [
+        "Master System",
+        "Game Boy",
+        "MSX",
+        "ColecoVision"
+      ],
+      "description_markdown": "The homebrew coder discusses multiformat development methods and upcoming ports."
+    },
+    {
+      "type": "interview",
+      "issue": 252,
+      "pages": [
+        101
+      ],
+      "developer": "Andy Vaisey",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Vaisey discusses coding **Chill3r** for the Commodore 64."
     }
   ]
 }
