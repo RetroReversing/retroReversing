@@ -22,7 +22,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN SEGA2D SEGA3D -->
+<!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN SEGA2D SEGA3D KANA KANJI Cinepak -->
 
 <section class="postSection">
     <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:250px" class="wow slideInLeft postImage" />
@@ -74,6 +74,11 @@ Due to the large amount of cheap storage available thank to the CD format, game 
 ## CPK - Cinepak-compressed video
 One fairly common format for storing video in Sega Saturn games is to the the Cinepak-compressed video format known as CPK [^2]. This format uses uncompressed PCM audio and it can even be used without the video component, normally with the `.SND` file extension.
 
+### When CD transfer competed with the game
+Getting a CPK stream off disc was a runtime problem as well as a codec problem. In a November 1996 DTS Q&A, Sega says that using SCU DMA to transfer CD data into a Cinepak ring buffer could occasionally leave peripheral data incorrect. Its suggested experiment was to lower the maximum sectors per transfer from the default 20 - the example uses `CPK_SetLoadNum(cpk, 10)` - and call the Cinepak task function often enough to keep the smaller transfers moving [^10]. The same answer warns that SCU DMA occupies a bus that the SH-2 may need.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-cinepak-dma-qa.webp" alt="DTS Cinepak Q and A recommending smaller SCU DMA transfers to a CD ring buffer and showing CPK_SetLoadNum" width="650" height="625" size="document" title="A movie could disrupt input" caption="Cinepak troubleshooting answer cropped from [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), PDF p. 5. It describes an observed SDK transfer issue, not a rule for every game's CPK files." %}
+
 ## Branching video streams
 The **Branching Playback Library** (BPL) is not another video codec. Sega designed it to read from a chosen CD data stream without an obvious pause when a player choice changes the next scene. The application supplies possible destinations; BPL opens and pre-reads candidate streams into the CD buffer, selects the destination, and tells the application which stream comes next. A decoder such as MPEG or Cinepak then turns that stream into picture and sound [^5].
 
@@ -88,6 +93,13 @@ Sega's earlier [Stream System specification](https://antime.kapsi.fi/sega/files/
 {% include article-figure.html src="/public/images/saturn/dts/dts-stream-system-overview.webp" alt="Sega's Stream System diagram showing interleaved video, audio, and data streams selected from CD into buffers or a transfer function" width="1045" height="830" size="document" title="One disc read, several kinds of data" caption="Diagram cropped from Sega's [Stream System specification](https://antime.kapsi.fi/sega/files/ST-098-031194.pdf), PDF p. 7. It describes an SDK facility; an individual game's disc layout still needs to be inspected." %}
 
 The application could direct a selected stream to a CPU buffer or a processing function. Closing the *transfer gate* let data accumulate in the CD buffer; a *resident stream* could remain there for later reuse without another disc read [^8]. These are useful clues when a recovered executable appears to filter sectors or manage buffers instead of simply opening and reading a file.
+
+## MPEG stream sector budget
+Sega's [Virtual CD supplement](https://antime.kapsi.fi/sega/files/ST-129-R2-SP1-061995.pdf) treats an MPEG stream as a disc-layout calculation. A CD-ROM XA sector does not have the same usable payload for every kind of stream: MPEG video gets 2,296 bytes, MPEG audio 2,279, Form 1 data 2,048, and Form 2 data 2,324 [^11]. The disc builder needs enough sectors each second for the *sum* of the component bitrates after accounting for those different payload sizes.
+
+For example, 800 kbit/s of MPEG video plus 224 kbit/s of MPEG audio requires about 56 sectors per second by Sega's formula. Reserving 75 would leave roughly 19 sectors per second as padding in this simplified example. Sega's follow-up warns that excess empty sectors make the file larger and undermine pre-reading into the CD buffer; it recommends the smallest sector rate that still holds the stream [^11] [^12]. This is an authoring constraint, not a way to identify MPEG solely from a filename.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-mpeg-sector-budget.webp" alt="Sega MPEG stream-build precaution explaining empty padding sectors and the sector-rate formula" width="990" height="870" size="document" title="Too much room on the disc could hurt" caption="Sector-rate guidance cropped from Sega's [MPEG Stream Build Precautions](https://antime.kapsi.fi/sega/files/ST-129-R2-SP2-082495.pdf), PDF p. 4. The worked bitrate example in the article applies this published formula." %}
 
 ---
 ## AVI - Audio Video Interleave
@@ -138,6 +150,13 @@ The specification sketches the outer wrapper before defining any individual scen
 ---
 ## RGB Files
 [doyousketch2/SatRGB: Extract RGB images from Sega Saturn files](https://github.com/doyousketch2/SatRGB)
+
+## SDK bitmap fonts (.FON)
+Sega's [Sample Data User's Manual](https://antime.kapsi.fi/sega/files/ST-160-R1-092994.pdf) describes `ASCII.FON` and `KANA.FON` as 8-by-16, one-byte-code fonts and `KANJI.FON` as a 16-by-16, two-byte-code font [^13]. In the first pair, one byte represents each horizontal row of an eight-pixel glyph. The kanji layout uses two bytes per row, left byte first, giving 32 bytes for a 16-row glyph.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-sample-font-layout.webp" alt="Sega sample font layout showing sixteen one-byte rows for an 8-by-16 glyph and sixteen two-byte rows for a 16-by-16 kanji glyph" width="1030" height="1295" size="document" title="A glyph, row by row" caption="Font-byte diagrams cropped from the [Sample Data User's Manual](https://antime.kapsi.fi/sega/files/ST-160-R1-092994.pdf), PDF p. 9. They document Sega's supplied sample fonts, not a universal font format in retail games." %}
+
+The row widths provide a useful first check when a candidate `.FON` asset looks like noise: 16 bytes per 8-by-16 glyph or 32 bytes per 16-by-16 glyph, before any game's own indexing or packaging is considered [^13].
 
 ---
 # Audio Formats
@@ -195,3 +214,7 @@ Virtual Disc image used by developers when using the Mirage CD Emulator.
 [^7]: Sega, [Tone Editor User's Manual Addendum: File Formats](https://antime.kapsi.fi/sega/files/ST-235-030795.pdf), `SCSP` and `SCSPBIN` format sections.
 [^8]: Sega, [External Specification Document: Saturn Stream System](https://antime.kapsi.fi/sega/files/ST-098-031194.pdf), sections 1 and 4 on sector selection, stream groups, transfer gates, and resident streams.
 [^9]: Sega, [Saturn/32X Graphic References](https://antime.kapsi.fi/sega/files/ST-124-R1-091394.pdf), sections 1 and 4 on SEGA2D and SEGA3D layouts.
+[^10]: Sega DTS, [DevelopMental, November 1996](https://antime.kapsi.fi/sega/files/DTS-1196.pdf), PDF p. 5, Cinepak and SCU DMA Q&A.
+[^11]: Sega, [Virtual CD System Supplementary Manual](https://antime.kapsi.fi/sega/files/ST-129-R2-SP1-061995.pdf), section 2.6, PDF p. 19, sector payload sizes and bit-rate relationship.
+[^12]: Sega, [MPEG Stream Build Precautions](https://antime.kapsi.fi/sega/files/ST-129-R2-SP2-082495.pdf), PDF p. 4, padding and sector-rate recommendation.
+[^13]: Sega, [Sample Data User's Manual](https://antime.kapsi.fi/sega/files/ST-160-R1-092994.pdf), PDF pp. 7-9, font names, dimensions, and row layouts.

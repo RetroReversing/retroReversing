@@ -31,7 +31,7 @@ recommend:
 editlink: /consoles/saturn/SegaSaturnProgrammingBox.md
 updatedAt: '2026-10-18'
 ---
-<!-- cspell:words Covell endcapture devsys CARTDEV BTSMPFS SSCHECK -->
+<!-- cspell:words Covell endcapture devsys CARTDEV BTSMPFS SSCHECK TDMP -->
 
 During the Sega Saturn's lifecycle there were multiple development kits available to developers starting from the original Sophia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
@@ -140,6 +140,13 @@ This machine would likely be used by Sega themselves to check if games can be gi
 SegaRetro has photographs of an LED-equipped Address Checker, a useful visual companion to the catalogue's description.
 
 {% include link-to-other-site.html url="https://segaretro.org/Sega_Saturn_Address_Checker" description="SegaRetro page on the 2nd version of the Sega Saturn Address Checker." title="Address Checker v2" image="https://segaretro.org/images/a/a6/Ssaddresschk_01.jpg" %}
+
+## What an address error left behind
+The [Address Checker reference manual](https://antime.kapsi.fi/sega/files/ST-254-B-110395.pdf) divides memory into more than simply "allowed" and "forbidden." Unallocated space rejects reads and writes. For parts of VDP1, SCSP, and SMPC with mixed used and unused register bits, a read can be allowed while writing a `1` to a free bit triggers detection. Other unused register areas reject writes outright [^15]. This is why a bit mask can matter as much as the address in a hardware test.
+
+On the attached PC, the `BM.EXE` monitor could stop at a trigger and dump recent bus cycles with `TDMP`. Each record labels the address and data, access space, and bus master - master SH-2, slave SH-2, or SCU - along with a marker for the triggering cycle [^16]. That makes an error a trail of *who touched what*, rather than just a red light. The operation manual even demonstrates redirecting a trace range to a DOS file for closer inspection [^17].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-address-checker-trace.webp" alt="Address Checker TDMP trace layout labeling trigger, address, data, access space, and bus master" width="1000" height="640" title="A bus-cycle breadcrumb trail" caption="Trace layout cropped from Sega's [Address Checker Reference Manual](https://antime.kapsi.fi/sega/files/ST-254-B-110395.pdf), PDF p. 48. The annotated example identifies which processor or SCU initiated a bus access." %}
 
 ## What the portable SS Checker could tell you
 The reconstructed DTS hardware catalogue describes a lower-cost **Saturn SS Checker V1.00** intended for quick illegal-address tests [^14]. Its LEDs corresponded to memory regions: LED 1, for example, meant an illegal ROM-area access. It ran without a host PC, like a production Saturn, but did not report the exact address, program counter, or whether the operation was a read or write. A lit LED could narrow the search; the fuller Address Checker was still needed to locate the instruction. The catalogue says the SS Checker was not a replacement for that larger system.
@@ -276,3 +283,6 @@ Although the Cross Products development kit was initially a 3rd party developmen
 [^12]: Sega, [Saturn Virtual CD System User's Manual, supplement 1](https://antime.kapsi.fi/sega/files/ST-129-R2-SP1-061995.pdf), June 1995, track/index and buffer options.
 [^13]: Sega DTS, [DevelopMental, January/February 1997](https://antime.kapsi.fi/sega/files/DTS-0197.pdf), p. 2, CodeScape announcement and CartDev RAM-buffer note.
 [^14]: Sega DTS website reconstruction, `hardware/core/SSCHECK.HTM`, "Saturn SS Checker V1.00", preserved in the local DTS mirror described on the [DTS page](/sega-dts).
+[^15]: Sega, [SEGA SATURN Address Checker Reference Manual](https://antime.kapsi.fi/sega/files/ST-254-B-110395.pdf), p. 10, trigger-detection rules.
+[^16]: Sega, [SEGA SATURN Address Checker Reference Manual](https://antime.kapsi.fi/sega/files/ST-254-B-110395.pdf), p. 48, `TDMP` trace fields.
+[^17]: Sega, [SEGA SATURN Address Checker Operation Manual](https://antime.kapsi.fi/sega/files/ST-254-A-110395.pdf), pp. 21-23, game-disc testing and trace export.
