@@ -6007,55 +6007,1115 @@
     },
     {
       "type": "interview",
-      "issue": 82,
-      "pages": null,
-      "developer": "Jamie",
+      "issue": 81,
+      "pages": [
+        16
+      ],
+      "developer": "Lorne Lanning",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "A Moment With Q&A about the *Oddworld* series and game design."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        26,
+        33
+      ],
+      "developer": "Julian Gollop",
+      "platforms": [
+        "ZX Spectrum",
+        "PC"
+      ],
+      "description_markdown": "Career interview about *Chaos*, *Laser Squad* and *X-COM*."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Doug Macrae, Steve Golson and Mike Horowitz",
       "platforms": [
         "Arcade"
       ],
-      "description_markdown": "Jamie developed the arcade game *Gorf*."
+      "description_markdown": "Interviews about the making of *Ms. Pac-Man*."
     },
     {
       "type": "interview",
-      "issue": 86,
-      "pages": null,
-      "developer": "Andrew",
-      "platforms": [],
-      "description_markdown": "Andrew developed the game *Druid*."
-    },
-    {
-      "type": "interview",
-      "issue": 86,
-      "pages": null,
-      "developer": "Jez San",
-      "platforms": [],
-      "description_markdown": "Jez San founded Argonaut Software and worked on the game *Starglider*."
-    },
-    {
-      "type": "interview",
-      "issue": 86,
-      "pages": null,
-      "developer": "Ste Pickford",
-      "platforms": [],
-      "description_markdown": "Ste Pickford co-developed the game *Zub* with his brother, Jon. He has also worked on titles in the *Plok!* series."
-    },
-    {
-      "type": "interview",
-      "issue": 89,
-      "pages": null,
-      "developer": "John Szczepaniak",
-      "platforms": [
-        "Game Boy Advance"
+      "issue": 81,
+      "pages": [
+        54,
+        59
       ],
-      "description_markdown": "Interview with John Szczepaniak about the creation of *Resident Evil* for the Game Boy Advance."
+      "developer": "Ste Pickford",
+      "platforms": [
+        "NES"
+      ],
+      "description_markdown": "Interview in the history of the *Wizards & Warriors* series."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        66,
+        67
+      ],
+      "developer": "Robert Troughton",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Q&A about the making of *Destruction Derby*."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        76,
+        81
+      ],
+      "developer": "Robin Cooke-Hurle",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview in the history of Micromega and Quantec Systems."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Dave Grossman",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Day of the Tentacle*."
+    },
+    {
+      "type": "interview",
+      "issue": 81,
+      "pages": [
+        99
+      ],
+      "developer": "Sean Gee",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about *Trooper: Point 5* and game programming."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        16
+      ],
+      "developer": "Hal Barwood",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "A Moment With Q&A about LucasArts and adventure games."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        28,
+        37
+      ],
+      "developer": "John Carmack, David Braben, Trip Hawkins and Ralph Baer",
+      "platforms": [
+        "NES"
+      ],
+      "description_markdown": "Developer memories of Mario in the 25th anniversary feature."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        50,
+        53
+      ],
+      "developer": "Steve Meretzky",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Leather Goddesses of Phobos*."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "Jamie Fenton",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Gorf*."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        70,
+        75
+      ],
+      "developer": "Rex Bradford",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Interview in the history of Parker Brothers’ videogames."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Dave Gatchel and the Pilotwings 64 team",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Interviews about the making of *Pilotwings 64*."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Sid Meier",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "In the Chair interview about his game development career."
+    },
+    {
+      "type": "interview",
+      "issue": 82,
+      "pages": [
+        101
+      ],
+      "developer": "Sandro Mestre",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about his Commodore 64 conversion of *Uwol: Quest for Money*."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        16
+      ],
+      "developer": "Jim Bagley",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "A Moment With Q&A about his conversion work and career."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        28,
+        35
+      ],
+      "developer": "Brendan Gunn",
+      "platforms": [
+        "SNES"
+      ],
+      "description_markdown": "Interview in the history of *Donkey Kong Country*."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        38,
+        43
+      ],
+      "developer": "Dennis Harper",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Primal Rage*."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        65
+      ],
+      "developer": "Garry Kitchen",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Developer Q&A about the Atari 2600 conversion of *Donkey Kong*."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        68,
+        73
+      ],
+      "developer": "Rob Buckley",
+      "platforms": [
+        "Amstrad CPC"
+      ],
+      "description_markdown": "Interview in the history of Radical Software."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        76,
+        79
+      ],
+      "developer": "Yasuhiro Wada",
+      "platforms": [
+        "SNES"
+      ],
+      "description_markdown": "Interview about the making of *Harvest Moon*."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        82,
+        89
+      ],
+      "developer": "Allan Alcorn",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "In the Chair interview about *Pong*, Atari and his career."
+    },
+    {
+      "type": "interview",
+      "issue": 83,
+      "pages": [
+        101
+      ],
+      "developer": "Locomalito",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about his independent games."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        18
+      ],
+      "developer": "Richard Leinfellner",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "A Moment With Q&A about Palace Software and the games industry."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        28,
+        43
+      ],
+      "developer": "Brendan Gunn",
+      "platforms": [
+        "SNES"
+      ],
+      "description_markdown": "Interview in the 25th anniversary history of Rare."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        50,
+        55
+      ],
+      "developer": "Nick Alexander",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview in the first part of the history of Virgin Games."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        58,
+        61
+      ],
+      "developer": "Søren Hannibal and Jacob Andersen",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Interviews about the making of *Banshee*."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "Oliver Frey",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about creating *The Terminal Man* comic strip."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        80,
+        83
+      ],
+      "developer": "John Cutter, Neal Hallford and Nels Bruckner",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interviews about the making of *Betrayal at Krondor*."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "Steve Woita",
+      "platforms": [
+        "Atari 2600",
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Desert Island Disks interview about his games and career."
+    },
+    {
+      "type": "interview",
+      "issue": 84,
+      "pages": [
+        103
+      ],
+      "developer": "Jonathan Bristow",
+      "platforms": [
+        "Oric"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about Oric development and *Stormlord*."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        14
+      ],
+      "developer": "John Wilson",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "A Moment With Q&A about Zenobi Software."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "Peter Morawiec",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interview about the making of *Sonic Spinball*."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        44,
+        51
+      ],
+      "developer": "Tim Chaney",
+      "platforms": [
+        "PC",
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interview in the second part of the history of Virgin Games."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        52,
+        54
+      ],
+      "developer": "Andy Walker",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Q&A about the making of *The Pit*."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        66,
+        69
+      ],
+      "developer": "Tim Hoskins and Doug Macrae",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interviews about the making of *Jr. Pac-Man*."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        80,
+        83
+      ],
+      "developer": "Ally Noble and John Heap",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interviews about the making of *Where Time Stood Still*."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "Tim Wright",
+      "platforms": [
+        "Amiga",
+        "PlayStation"
+      ],
+      "description_markdown": "In the Chair interview about his game music career."
+    },
+    {
+      "type": "interview",
+      "issue": 85,
+      "pages": [
+        103
+      ],
+      "developer": "Jon Mines",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about Arkanix Labs and *Crimson Twilight*."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        6,
+        7
+      ],
+      "developer": "Max Scharl and Johannes Graf",
+      "platforms": [
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Q&A about the development and release of *Sturmwind*."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        14
+      ],
+      "developer": "Tim Skelly",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "A Moment With Q&A about early vector arcade games."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        24,
+        29
+      ],
+      "developer": "Sandy White and Jon Ritman",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interviews in a history of isometric games."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "Ste Pickford",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Q&A about the making of *Zub*."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        40,
+        45
+      ],
+      "developer": "David Perry, Raffaele Cecco and Chris Hinsley",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interviews in the history of Mikro-Gen."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "Andrew Bailey and Dene Carter",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interviews about the making of *Druid*."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Jez San and Gary Sheinwald",
+      "platforms": [
+        "Amiga",
+        "Atari ST"
+      ],
+      "description_markdown": "Interviews about the making of *Starglider*."
+    },
+    {
+      "type": "interview",
+      "issue": 86,
+      "pages": [
+        101
+      ],
+      "developer": "Francisco Javier Peña",
+      "platforms": [
+        "ZX Spectrum",
+        "MSX"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about his 8-bit games."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        11
+      ],
+      "developer": "Jon Hare",
+      "platforms": [
+        "iPhone"
+      ],
+      "description_markdown": "Q&A about his iOS version of *Speedball 2*."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        14
+      ],
+      "developer": "Simon Butler",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "A Moment With Q&A about his 8-bit game career."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        38,
+        41
+      ],
+      "developer": "Jeff Minter",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *Revenge of the Mutant Camels*."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        52,
+        57
+      ],
+      "developer": "Ian Andrew",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview in the history of Incentive Software and Freescape."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        60,
+        65
+      ],
+      "developer": "Shaun Southern and Andrew Morris",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Interviews about the making of the *Lotus* racing series."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        68,
+        73
+      ],
+      "developer": "Martin Edmondson",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Interview in the history of the *Shadow of the Beast* trilogy."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        76,
+        81
+      ],
+      "developer": "Derrick Rowson",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about the making of *Jet Set Willy II*."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Al Lowe",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "In the Chair interview about *Leisure Suit Larry* and his career."
+    },
+    {
+      "type": "interview",
+      "issue": 87,
+      "pages": [
+        103
+      ],
+      "developer": "Paras Sidapara",
+      "platforms": [
+        "BBC Micro"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about *Repton: The Lost Realms*."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        16
+      ],
+      "developer": "Andreas Axelsson",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "A Moment With Q&A about Digital Illusions and its pinball games."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        26,
+        33
+      ],
+      "developer": "Rob Fulop and Tony Temple",
+      "platforms": [
+        "Arcade",
+        "Atari 2600"
+      ],
+      "description_markdown": "Interviews in the *Missile Command* coin-op feature."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "Dennis Koble and Lee Actor",
+      "platforms": [
+        "PC",
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interviews about the making of *PGA Tour Golf*."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        44,
+        51
+      ],
+      "developer": "Randy Breen",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interview with the series producer in the history of *Road Rash*."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        62,
+        65
+      ],
+      "developer": "Dave Theurer, Rich Adam and Lyle Rains",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interviews about the making of *Missile Command*."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        68,
+        73
+      ],
+      "developer": "Tsuneki Ikeda and Makoto Asada",
+      "platforms": [
+        "Arcade",
+        "Xbox 360"
+      ],
+      "description_markdown": "Exclusive interview with Cave developers about their shoot-’em-ups."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        75
+      ],
+      "developer": "Raffaele Cecco",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "First-person account of the development of *Exolon*."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        76,
+        83
+      ],
+      "developer": "Tony Rainbird and James Leavey",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "Interviews in the history of Firebird Software."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "John Newcomer",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Desert Island Disks interview about his game development career."
+    },
+    {
+      "type": "interview",
+      "issue": 88,
+      "pages": [
+        103
+      ],
+      "developer": "Dave Hughes",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about making *Stamp Quest*."
     },
     {
       "type": "interview",
       "issue": 89,
-      "pages": null,
+      "pages": [
+        6,
+        7
+      ],
+      "developer": "Steve Wilcox",
+      "platforms": [
+        "ZX Spectrum",
+        "iPhone"
+      ],
+      "description_markdown": "Q&A about the ZX Spectrum: Elite Collection iOS app."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        14
+      ],
+      "developer": "Chris Sorrell",
+      "platforms": [
+        "Amiga",
+        "PlayStation"
+      ],
+      "description_markdown": "A Moment With Q&A about *James Pond*, *MediEvil* and his career."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        38,
+        41
+      ],
       "developer": "Lyle Rains and Dennis Koble",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Q&A about the making of *Sprint 2*."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        42,
+        44
+      ],
+      "developer": "Andreas Axelsson, Jim Bagley, William Harbison, Simon Butler and Alex Trowers",
+      "platforms": [
+        "Arcade",
+        "SNES",
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Developer memories in the 20th anniversary feature on *Street Fighter II*."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        48,
+        49
+      ],
+      "developer": "Scott Adams",
+      "platforms": [
+        "TRS-80"
+      ],
+      "description_markdown": "Q&A about the making of *Pirate Adventure*."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        58,
+        63
+      ],
+      "developer": "Stephen Crow",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about the making of *Starquake* and its unfinished sequel."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        68,
+        73
+      ],
+      "developer": "Doug and Gary Carlston",
+      "platforms": [
+        "Apple II",
+        "TRS-80"
+      ],
+      "description_markdown": "Interviews in the history of Brøderbund."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Tim Hull, Kieron Wheeler and the M4 team",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "description_markdown": "Interviews about the making of *Resident Evil Gaiden*."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Raffaele Cecco",
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64"
+      ],
+      "description_markdown": "In the Chair interview about his games and career."
+    },
+    {
+      "type": "interview",
+      "issue": 89,
+      "pages": [
+        103
+      ],
+      "developer": "Abraham Morales",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about Red Wolf and *Vorpal*."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        9
+      ],
+      "developer": "Mark Ogilvie",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about ten years of *RuneScape* and its development."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        11
+      ],
+      "developer": "Brandon Cobb",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Q&A about Super Fighter Team and *Star Odyssey*."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        14
+      ],
+      "developer": "Shaun Southern",
+      "platforms": [
+        "Commodore 64",
+        "Amiga"
+      ],
+      "description_markdown": "A Moment With Q&A about his game development career."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        32,
+        33
+      ],
+      "developer": "Michael Romero, Eugene Jarvis, John Romero, Martyn Brown, Trip Hawkins, Peter Molyneux, Jon Ritman, Dave Perry, Jon Hare, Julian Gollop, Ste Pickford and David Braben",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Developer memories of *The Legend of Zelda: Ocarina of Time*."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        36,
+        41
+      ],
+      "developer": "Tim Child, David Rowe and Hugo Myatt",
       "platforms": [],
-      "description_markdown": "Issue 89 of *Retro Gamer* features an interview with the developers of *Sprint 2*, Lyle Rains and Dennis Koble."
+      "description_markdown": "Interviews about the creation of *Knightmare* and its videogame spin-offs."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        46,
+        51
+      ],
+      "developer": "Brett Sperry and Louis Castle",
+      "platforms": [
+        "Amiga",
+        "PC"
+      ],
+      "description_markdown": "Interviews in the history of Westwood Studios."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        54,
+        57
+      ],
+      "developer": "Andrew Gavin",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Interview about the making of *Crash Bandicoot*."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "Ian Grieve",
+      "platforms": [
+        "Amiga",
+        "PlayStation"
+      ],
+      "description_markdown": "Desert Island Disks interview about his work at Psygnosis."
+    },
+    {
+      "type": "interview",
+      "issue": 90,
+      "pages": [
+        103
+      ],
+      "developer": "Christopher Emirzian",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Homebrew Heroes Q&A about developing *XOP* and *XOP Black*."
     },
     {
       "type": "interview",
