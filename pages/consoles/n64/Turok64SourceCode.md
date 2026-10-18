@@ -541,7 +541,7 @@ Among the Turok files is a small detour into the workstation's software: `src/gn
 
 The folder's `README` identifies it as **GNU `cpp` with a few compatibility changes**. Its `version.c` reports version `1.35.95x`. [Silicon Graphics' `acpp` manual](https://techpubs.jurassic.nl/manpages_0530/cat5/acpp.html) explains why it might be found beside game code from an SGI workstation: IRIX supplied this GNU-derived preprocessor as an option to the C compiler, selected with `cc -acpp` [^31].
 
-There is a revealing distinction here. Iguana described its **world-building and animation tools** as creations of its own [^4], but the surrounding archive also preserves ordinary workstation components. `acpp` is one of those components. Neither Turok's `Makefile` nor its ROM `spec` names `acpp`, so the folder's presence alone cannot tell us whether this option was used for a Turok build. It does show the wider software environment caught up in the source-code find.
+Neither Turok's `Makefile` nor its ROM `spec` names `acpp`, so the folder's presence alone cannot tell us whether this preprocessor was used for a Turok build. It shows the wider workstation software caught up in the source-code find.
 
 ---
 ## SLATEC: a library of mathematics
