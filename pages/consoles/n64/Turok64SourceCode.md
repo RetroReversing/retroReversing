@@ -347,16 +347,69 @@ These are whitespace-normalized excerpts from `cheats.c`; the calculations and c
 The path of a cheat flag runs from `CCheat__Update` into `CCheat__Draw` and the game system that consumes it. The source distinguishes flags that are enabled for display from flags that are active in play.
 
 ---
+## How enemies notice Turok
+An enemy does more than wait for Turok to step into a fixed circle. In `ai.c`, **seeing a target** requires three checks: the target must be close enough, inside the enemy's viewing angle, and reachable by an unobstructed ray. When all three pass, the code raises a sight event and increases the enemy's agitation.
+
+<section class="rr-game-media-row">
+{% include article-figure.html src="https://www.nintendo64ever.com/photos/jeux/N64EVER,359,3381.jpg" alt="Original Nintendo 64 Turok gameplay with a nearby enemy and another figure ahead in a foggy passage" width="768" height="576" title="An encounter in the fog" caption="An enemy emerges through the mist in this original Nintendo 64 [screenshot from Nintendo64Ever](https://www.nintendo64ever.com/Nintendo-64-Game-Screenshots,359,Turok-Dinosaur-Hunter,1.html)." %}
+<div class="rr-game-media-row__copy" markdown="1">
+
+**Sound follows another route.** Quiet and loud noise events each compare Turok's distance with a hearing distance configured for that enemy. A heard event adds agitation; `AI_Increase_Agitation` can wake an enemy that was waiting between update cycles. Choose a route below to follow its checks from left to right. The cards show decisions in the code, not measured detection ranges for the enemy in the screenshot.
+
+</div>
+</section>
+
+{% include game-data-visual.html id="turok-perception" config=site.data.turok_game_visuals.perception %}
+
+---
 ## A boss fight written as states
-The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. The storyboard below samples actual modes from that table; it is a guide to the code, not a recording of one playthrough.
+The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. Select a mode below to see one actual row of the table, from the animation it plays to the flags that shape its behavior.
 
 {% include game-data-visual.html id="turok-boss" config=site.data.turok_game_visuals.boss %}
+
+---
+## The camera has its own script
+The opening's bow shot is a small piece of camera choreography. In `introcam.c`, `IntroTrack` specifies a starting and final rotation, radius, eye height, and focus height. The camera interpolates along that track for **12.8 seconds** as it circles toward Turok. During the shot, the code also changes the field of view before the game moves to its logo shot.
+
+<section class="rr-game-media-row">
+{% include article-figure.html src="https://cdn.mobygames.com/screenshots/16618329-turok-dinosaur-hunter-nintendo-64-from-the-intro-turok-draws-his.png" alt="Turok drawing his bow against a purple sky in the original Nintendo 64 introduction" width="640" height="480" title="A frame from the opening" caption="Nintendo 64 intro screenshot contributed to [MobyGames](https://www.mobygames.com/game/2203/turok-dinosaur-hunter/screenshots/n64/177447/). The camera track controls how this shot moves." %}
+<div class="rr-game-media-row__copy" markdown="1">
+
+The same idea extends beyond the introduction. `cinecam.c` has distinct modes for deaths, resurrection, a Longhunter arrival, Humvee shots, boss conclusions, and key pickups. Letterboxing and camera focus are controlled by the game, rather than being pre-rendered video. Step through the opening's source-defined beats below.
+
+</div>
+</section>
+
+{% include game-data-visual.html id="turok-camera" config=site.data.turok_game_visuals.camera %}
 
 ---
 ## The map remembers where Turok has been
 The map in `map.c` is a discovery system, not a static poster. `RevealMap` runs every fifth update. It marks the player's current region and recursively visits nearby neighbors when their corners fall within a reveal distance. A closed door blocks that traversal until its region carries the open-door flag. The small model below shows that relationship; its rooms and distances are illustrative.
 
 {% include game-data-visual.html id="turok-map" config=site.data.turok_game_visuals.map %}
+
+---
+## Keys open the route; pieces complete the weapon
+Turok's pickups serve two different long journeys. **Level keys** unlock later destinations: `pickup.c` keeps separate bit fields for keys belonging to levels 2 through 8, and its remaining-key display counts what can still be found in the current level. The source also triggers a short cinema when a key is collected.
+
+<section class="rr-game-media-row">
+{% include article-figure.html src="https://www.nintendo64ever.com/photos/jeux/N64EVER,359,3372.jpg" alt="Original Nintendo 64 key pickup cinema showing Turok and the words Level 2 Key" width="768" height="576" title="A key gets its own close-up" caption="Original Nintendo 64 key-pickup screenshot from [Nintendo64Ever](https://www.nintendo64ever.com/Nintendo-64-Game-Screenshots,359,Turok-Dinosaur-Hunter,1.html)." %}
+<div class="rr-game-media-row__copy" markdown="1">
+
+The **Chronoscepter** is a separate collection. Its eight pieces set eight different bits in `ChronoSceptorPieces`. When the mask reaches `0xff`, the pickup code grants the completed weapon and ammunition. Try collecting the eight pieces below; the board represents the bitmask, not their locations in the levels.
+
+</div>
+</section>
+
+{% include game-data-visual.html id="turok-collectibles" config=site.data.turok_game_visuals.collectibles %}
+
+---
+## Why the air meter appears near the end
+Swimming has a hidden clock. `tmove.c` allows **70 seconds** underwater without an oxygen tank, but the on-screen air bar begins to fade in only when fewer than **15 seconds** remain. Its fill then falls across that final interval. Once Turok runs out of air, the drowning routine damages health and temporarily bypasses armor.
+
+An oxygen tank has its own reserve: while that reserve lasts, the breath counter is held at zero. The slider isolates the no-tank case so the late warning is easy to see.
+
+{% include game-data-visual.html id="turok-oxygen" config=site.data.turok_game_visuals.oxygen %}
 
 ---
 ## How an unattended game plays itself
@@ -375,6 +428,14 @@ The map in `map.c` is a discovery system, not a static poster. `RevealMap` runs 
 The weapon code in `aiweap.c` dispatches updates for the Tek Bow, rocket launcher, and Chronoscepter. `particle.c` handles projectile behavior and collision effects; it starts named **swoosh** trails for explosive arrows and Chronoscepter shots. `fx.c` maintains and draws those trails. Pick a shot to see how the work crosses modules. The paths show code responsibilities rather than a frame-accurate simulation.
 
 {% include game-data-visual.html id="turok-weapons" config=site.data.turok_game_visuals.weapons %}
+
+---
+## A sunbeam meets the depth buffer
+Sun glare looks atmospheric, but `sun.c` gives it a precise visibility test. The renderer copies **eight depth samples** from a short strip around the sun's screen position. Each clear neighboring sample contributes one part; the sample at the sun itself contributes three. The result ranges from zero to one. When scenery covers the sun, fewer samples count as clear.
+
+`tengine.c` uses that visibility when drawing a screen tint, strongest when the sun is near the center of view. The model below lets a canopy edge cross the samples. It shows the weighting in the code, not a captured frame or an exact reconstruction of the game's artwork.
+
+{% include game-data-visual.html id="turok-sun" config=site.data.turok_game_visuals.sun %}
 
 ---
 ## Three versions of the training room

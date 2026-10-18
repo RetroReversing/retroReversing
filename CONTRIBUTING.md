@@ -361,7 +361,7 @@ For a browsable archive with many files, use the reusable `archive-explorer.html
 The JSON uses `version`, `root`, `initialPath`, `locations`, `folders`, and `files`. Each file has a relative `path`, byte `size`, short `description`, and optional `basis` explaining whether the description was verified or inferred. An optional `note` appears below the browser. Publish names and metadata only when file contents cannot be hosted. Exclude `.DS_Store` and other incidental operating-system metadata. Inspect file headers, source declarations, or formats before assigning a purpose; when those do not establish one, say so. Omit copied or extraction timestamps when they do not preserve the original file dates.
 
 ### Interactive game data visuals
-Use `game-data-visual.html` for a small interactive chart or source-system explanation. Pass a game-specific data object through `config` and a unique `id` for each instance. The include supports `bars`, `story`, `reveal`, `timeline`, `stages`, `pipeline`, and `card` variants. Its shared CSS and JavaScript contain no game-specific text or values. Load `/public/css/game-data-visual.css` and `/public/js/game-data-visual.js` once on the article.
+Use `game-data-visual.html` for a small interactive chart or source-system explanation. Pass a game-specific data object through `config` and a unique `id` for each instance. The include supports `bars`, `reveal`, `timeline`, `stages`, `pipeline`, `mode-table`, `card`, `meter`, `collection`, and `occlusion` variants. Its shared CSS and JavaScript contain no game-specific text or values. Load `/public/css/game-data-visual.css` and `/public/js/game-data-visual.js` once on the article.
 
 For example, `_data/example_game_visuals.yml` can define a chart:
 
@@ -381,6 +381,23 @@ sound_files:
 ```
 
 Then place it in the article with `{% raw %}{% include game-data-visual.html id="example-sound-files" config=site.data.example_game_visuals.sound_files %}{% endraw %}`. The `variant`, `eyebrow`, `title`, and `caption` include parameters may override the same fields in `config`. See `_data/turok_game_visuals.yml` for complete examples of every variant. Keep source evidence and uncertainty in the surrounding article text and captions; diagrams are explanatory models unless they reproduce measured data.
+
+Choose the variant for the relationship the reader needs to understand:
+
+Variant | Best use | Configuration
+--- | --- | ---
+`bars` | Compare measured counts, sizes, or durations from an archive. | `options` with labeled `bars` containing numeric `value` fields.
+`reveal` | Show how a gate, discovery flag, or other condition changes what is visible. | `cells` with `label`, optional `initially_visible`, `revealed_label`, or `gate`.
+`timeline` | Step through a sequence of inputs or events. | Ordered `options` with `badge`, `heading`, `copy`, and optional `code`.
+`stages` | Compare short state transitions for several mechanisms. | `options` with a `steps` list and explanatory `note`.
+`pipeline` | Trace checks, data, or effects in order. | `options` with ordered `nodes` containing `step`, `heading`, and optional `code`. For sight or sound routes, an option may add `signal` (`sight` or `sound`), `signal_label`, and `signal_detail` to show a meaningful cue above the steps.
+`mode-table` | Let readers inspect real rows from a game mode or state table. | `options` with `group`, `heading`, `copy`, `animation`, optional `setup`, `update`, `speed`, and `flags`. `field_labels` can rename the five displayed fields.
+`card` | Compare short text, UI, or localization variants in one place. | `options` with `heading`, `copy`, and optional `branch`.
+`meter` | Let readers move through a source-defined countdown or threshold. | `max_value`, `warning_start`, `unit`, and explanatory phase labels and copy.
+`collection` | Show how individually collected pieces build a bitmask or set. | `slots` with distinct numeric `bit` values, plus collection and completion labels.
+`occlusion` | Explain a weighted visibility test using clear or blocked samples. | `samples_count`, `focus_index`, `focus_weight`, and `options` with binary `samples` masks of that length.
+
+Write the factual explanation beside the visual so the article still makes sense without interaction. State whether numbers were measured, text is excerpted, or a scene is schematic; never present fabricated steps or maps as recovered game data. Keep each option short enough to scan, and provide descriptive control labels and a caption. Use `article-figure.html` for a single historical image, `article-gallery.html` for image comparisons, or `archive-explorer.html` for a large file tree; the game data visual is for a focused relationship that benefits from switching or revealing states.
 
 ---
 # Tips for making the pages more visually engaging and readable

@@ -57,6 +57,8 @@
   --rr-color-game-visual-panel: #edf1f3;
   --rr-color-game-visual-selected: #dcebf5;
   --rr-color-game-visual-graphic: #345a83;
+  --rr-color-game-visual-sun: #db9c2e;
+  --rr-color-game-visual-sun-sky: #d5e7ec;
 
   /* Sidebar widgets on content pages */
   --rr-color-widget-title: #424242;
@@ -246,6 +248,8 @@
     --rr-color-game-visual-panel: #212b31;
     --rr-color-game-visual-selected: #29465a;
     --rr-color-game-visual-graphic: #9ad7f3;
+    --rr-color-game-visual-sun: #f4c55a;
+    --rr-color-game-visual-sun-sky: #233b4d;
 
     --rr-color-widget-title: rgba(255, 255, 255, 0.92);
     --rr-color-widget-border: rgba(255, 255, 255, 0.12);

@@ -7,8 +7,25 @@
 {% if visual and visual_variant %}
 <figure class="rr-game-visual rr-game-visual--{{ visual_variant | escape }}" id="{{ visual_id | escape }}" data-game-data-visual data-variant="{{ visual_variant | escape }}">
   <div class="rr-game-visual__head"><span class="rr-game-visual__eyebrow">{{ visual_eyebrow | escape }}</span><strong>{{ visual_title | escape }}</strong></div>
-  {% if visual_variant == "story" %}
-    <div class="rr-game-visual__scene" aria-hidden="true"><span class="rr-game-visual__orb"></span><span class="rr-game-visual__scene-label">{{ visual.scene | escape }}</span><span class="rr-game-visual__horizon"></span></div>
+  {% if visual_variant == "meter" %}
+    <div class="rr-game-visual__meter">
+      <div class="rr-game-visual__meter-top"><label for="{{ visual_id | escape }}-range">{{ visual.input_label | escape }}</label><output for="{{ visual_id | escape }}-range" data-meter-value>0 {{ visual.unit | escape }}</output></div>
+      <input id="{{ visual_id | escape }}-range" type="range" min="0" max="{{ visual.max_value | escape }}" value="0" data-meter-range data-warning-start="{{ visual.warning_start | escape }}" data-unit="{{ visual.unit | escape }}">
+      <div class="rr-game-visual__meter-marks"><span>0 {{ visual.unit | escape }}</span><span>{{ visual.warning_start | escape }} {{ visual.unit | escape }}</span><span>{{ visual.max_value | escape }} {{ visual.unit | escape }}</span></div>
+      <div class="rr-game-visual__meter-display"><span data-meter-label>{{ visual.early_label | escape }}</span><div class="rr-game-visual__meter-track" role="progressbar" aria-label="{{ visual.meter_label | escape }}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" data-meter-track><i data-meter-fill></i></div><strong data-meter-percent>100%</strong></div>
+      <p class="rr-game-visual__note" data-meter-note data-early-label="{{ visual.early_label | escape }}" data-warning-label="{{ visual.warning_label | escape }}" data-danger-label="{{ visual.danger_label | escape }}" data-early-copy="{{ visual.early_copy | escape }}" data-warning-copy="{{ visual.warning_copy | escape }}" data-danger-copy="{{ visual.danger_copy | escape }}" aria-live="polite">{{ visual.early_copy | escape }}</p>
+    </div>
+  {% endif %}
+  {% if visual_variant == "collection" %}
+    <div class="rr-game-visual__collection" role="group" aria-label="{{ visual.controls_label | escape }}">
+      {% for slot in visual.slots %}<button type="button" data-collection-bit="{{ slot.bit | escape }}" aria-pressed="false" aria-label="{{ visual.collect_label | escape }} {{ slot.label | escape }}"><span>{{ slot.label | escape }}</span></button>{% endfor %}
+    </div>
+    <div class="rr-game-visual__collection-foot"><strong data-collection-count>0 / {{ visual.slots.size }}</strong><code data-collection-mask>0x00</code><button type="button" data-collection-reset>{{ visual.reset_label | escape }}</button></div>
+    <p class="rr-game-visual__note" data-collection-note data-initial-note="{{ visual.initial_note | escape }}" data-complete-note="{{ visual.complete_note | escape }}" aria-live="polite">{{ visual.initial_note | escape }}</p>
+  {% endif %}
+  {% if visual_variant == "occlusion" %}
+    <div class="rr-game-visual__occlusion" aria-hidden="true" data-focus-index="{{ visual.focus_index | escape }}" data-focus-weight="{{ visual.focus_weight | escape }}"><span class="rr-game-visual__sun-disc"></span><span class="rr-game-visual__sun-horizon"></span><span class="rr-game-visual__sun-samples" data-sun-samples>{% for sample in (1..visual.samples_count) %}<i{% if forloop.index0 == visual.focus_index %} class="is-focus"{% endif %}></i>{% endfor %}</span></div>
+    <p class="rr-game-visual__sun-result">{{ visual.result_label | escape }} <strong data-sun-result>1.0 / 1.0</strong></p>
   {% endif %}
   {% if visual_variant == "reveal" %}
     <div class="rr-game-visual__map" role="img" aria-label="{{ visual.map_label | escape }}">
@@ -16,10 +33,10 @@
     </div>
     <div class="rr-game-visual__switch" role="group" aria-label="{{ visual.map_label | escape }} controls"><button type="button" data-reveal-action="reveal">{{ visual.reveal_label | escape }}</button><button type="button" data-reveal-action="reset">{{ visual.reset_label | escape }}</button></div>
     <p class="rr-game-visual__note" data-reveal-note data-initial-note="{{ visual.initial_note | escape }}" data-revealed-note="{{ visual.revealed_note | escape }}" aria-live="polite">{{ visual.initial_note | escape }}</p>
-  {% else %}
+  {% elsif visual_variant != "meter" and visual_variant != "collection" %}
     {% if visual.options %}
       <div class="rr-game-visual__switch{% if visual_variant == "timeline" %} rr-game-visual__timeline{% endif %}" role="group" aria-label="{{ visual.controls_label | escape }}">
-        {% for option in visual.options %}<button type="button" data-visual-choice="{{ option.key | escape }}" aria-controls="{{ visual_id | escape }}-{{ option.key | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{% if visual_variant == "timeline" and option.badge %}<b>{{ option.badge | escape }}</b>{% endif %}<span>{{ option.label | escape }}</span></button>{% endfor %}
+        {% for option in visual.options %}<button type="button" data-visual-choice="{{ option.key | escape }}"{% if visual_variant == "occlusion" %} data-sun-mask="{{ option.samples | escape }}"{% endif %} aria-controls="{{ visual_id | escape }}-{{ option.key | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{% if visual_variant == "timeline" and option.badge %}<b>{{ option.badge | escape }}</b>{% endif %}<span>{{ option.label | escape }}</span></button>{% endfor %}
       </div>
       {% for option in visual.options %}
         {% if visual_variant == "bars" %}
@@ -32,8 +49,27 @@
             <p class="rr-game-visual__note">{{ option.note | escape }}</p>
           </div>
         {% elsif visual_variant == "pipeline" %}
-          <div class="rr-game-visual__pipeline" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}"{% unless forloop.first %} hidden{% endunless %}>
-            {% for node in option.nodes %}<div><small>{{ node.step | escape }}</small><strong>{{ node.heading | escape }}</strong><code>{{ node.code | escape }}</code></div>{% endfor %}
+          <div id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+            {% if option.signal %}
+              <div class="rr-game-visual__signal" data-signal="{{ option.signal | escape }}">
+                <span class="rr-game-visual__signal-icon" aria-hidden="true">
+                  {% if option.signal == "sight" %}<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 24c5-8 12-12 20-12s15 4 20 12c-5 8-12 12-20 12S9 32 4 24Z"/><circle cx="24" cy="24" r="6"/></svg>{% elsif option.signal == "sound" %}<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h8l8-7v22l-8-7H7Z"/><path d="M29 18c4 3 4 9 0 12M34 13c8 6 8 16 0 22"/></svg>{% endif %}
+                </span>
+                <span><small>{{ option.signal_label | escape }}</small><strong>{{ option.signal_detail | escape }}</strong></span>
+              </div>
+            {% endif %}
+            <div class="rr-game-visual__pipeline">{% for node in option.nodes %}<div><small>{{ node.step | escape }}</small><strong>{{ node.heading | escape }}</strong>{% if node.code %}<code>{{ node.code | escape }}</code>{% endif %}</div>{% endfor %}</div>
+          </div>
+        {% elsif visual_variant == "mode-table" %}
+          <div class="rr-game-visual__mode-table" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+            <div class="rr-game-visual__mode-lead"><small>{{ option.group | escape }}</small><strong>{{ option.heading | escape }}</strong><p>{{ option.copy | escape }}</p></div>
+            <dl class="rr-game-visual__mode-fields{% if option.setup %} has-setup{% endif %}">
+              <div><dt>{{ visual.field_labels.animation | default: "Animation" | escape }}</dt><dd><code>{{ option.animation | escape }}</code></dd></div>
+              {% if option.setup %}<div><dt>{{ visual.field_labels.setup | default: "Setup callback" | escape }}</dt><dd><code>{{ option.setup | escape }}</code></dd></div>{% endif %}
+              <div><dt>{{ visual.field_labels.update | default: "Update callback" | escape }}</dt><dd><code>{{ option.update | escape }}</code></dd></div>
+              <div><dt>{{ visual.field_labels.speed | default: "Animation speed" | escape }}</dt><dd>{{ option.speed | escape }}</dd></div>
+              <div><dt>{{ visual.field_labels.flags | default: "Flags" | escape }}</dt><dd><code>{{ option.flags | escape }}</code></dd></div>
+            </dl>
           </div>
         {% elsif visual_variant == "card" %}
           <div class="rr-game-visual__card" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}" aria-live="polite"{% unless forloop.first %} hidden{% endunless %}>
