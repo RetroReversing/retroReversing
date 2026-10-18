@@ -66,8 +66,11 @@ According the to advert it was a pretty advanced game development kit back in 19
 > The preferred development system of SEGA Worldwide, SNASM2 Saturn provides full C Source level debugging, C-Structure browse > facility, and local variable windows, along with support for user breakpoint controller in SH2s.
 
 
-You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow from `ausretrogamer`:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> 
+These photos of the Japanese SNASM2 Saturn kit were [posted by ausretrogamer](https://twitter.com/ausretrogamer/status/813513655589273600) on December 26, 2016:
+
+![Japanese Sega Saturn Cross SNASM2 development kit, photo 1](/public/images/saturn/Sega-Saturn-SNASM2-Japanese-Dev-Kit-1.webp)
+![Japanese Sega Saturn Cross SNASM2 development kit, photo 2](/public/images/saturn/Sega-Saturn-SNASM2-Japanese-Dev-Kit-2.webp)
+![Japanese Sega Saturn Cross SNASM2 development kit, photo 3](/public/images/saturn/Sega-Saturn-SNASM2-Japanese-Dev-Kit-3.webp)
 
 According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had just been bought by SEGA and were put in charge of supplying the next development kit known as `CartDev`. There were also responsible for the `Mirage CD Emulator` and Modified Saturn sold to game development studios [^3].
 
@@ -127,7 +130,9 @@ The official price list from Cross Products put the Modified Saturn by itself at
 
 ---
 # Address Checker Hardware by SI Electronics
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Good luck fitting this SEGA Saturn in your TV cabinet. Egg for scale.<br><br>(this machine was used to ensure that games in development didn&#39;t violate the Sega Memory usage guide) <a href="https://t.co/pZaZCEHigN">pic.twitter.com/pZaZCEHigN</a></p>&mdash; Codemasters (@Codemasters) <a href="https://twitter.com/Codemasters/status/1192794937613524992?ref_src=twsrc%5Etfw">November 8, 2019</a></blockquote> 
+[Codemasters showed this Sega Saturn Address Checker](https://web.archive.org/web/20200506211005/https://twitter.com/Codemasters/status/1192794937613524992) on November 8, 2019. The image is the archived preview frame from their video.
+
+![Front of the Sega Saturn Address Checker shown by Codemasters](/public/images/saturn/Sega-Saturn-Address-Checker-Codemasters.webp)
 
 In order to make sure your game doesn't violate the Sega Memory usage guide this piece of hardware would allow running your game with real-time checking of the memory addresses used. 
 

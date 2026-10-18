@@ -97,6 +97,12 @@ The HKT-0700 Sega Katana C1/C2 Checker is a peripheral device for the Sega Dream
 
 The Hard-C1 Checker looks very similar to a retail Dreamcast unit. The only differences are that it has a switch and light on the top of the unit, as well as a serial port on the front.
 
+In a [reply to Codemasters](https://web.archive.org/web/20200506211005/https://twitter.com/techinicabor/status/1192939791555452934), Technicabor shared photos of a Dreamcast Address Checker. The first photo shows the exterior and its attached circuit board. The second shows the open case, including a board marked "KATANA SIMPLE CHECKER".
+
+![Dreamcast Address Checker exterior with attached circuit board](/public/images/dreamcast/Dreamcast-Address-Checker-Exterior-Techinicabor.webp)
+
+![Inside the Dreamcast Address Checker, showing the Katana Simple Checker board](/public/images/dreamcast/Dreamcast-Address-Checker-Board-Techinicabor.webp)
+
 ---
 ## System Disk 2 (HKT-0900)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TL0VCLGev7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
