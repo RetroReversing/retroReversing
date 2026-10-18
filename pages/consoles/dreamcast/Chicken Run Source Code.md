@@ -446,13 +446,13 @@ The programming lines appear in this order:
 
 Role | People
 ---|---
-Lead programmer | Fred Williams
-Programming | Tom Drummond, David Harries, Barry Paterson, Chris Wilson
-Tools programming | James Steele, Chris Wilson
-Additional programming | Ian Bird, Steve Bond, Scott Lamb, Andy Sidwell, John Whigham
-Compression technology | Richard Hackett
+Lead programmer | [Fred Williams](https://twitter.com/RFredW)
+Programming | Tom Drummond, [David Harries](https://www.linkedin.com/in/david-harries-92a56213/), Barry Paterson, Chris Wilson
+Tools programming | [James Steele](https://www.linkedin.com/in/james-steele-0a62791/), Chris Wilson
+Additional programming | [Ian Bird](https://www.linkedin.com/in/ian-bird-19358780/), [Steve Bond](https://www.linkedin.com/in/steve-bond-b21ba9/), [Scott Lamb](https://www.linkedin.com/in/scottjameslamb/), Andy Sidwell, [John Whigham](https://www.linkedin.com/in/john-whigham-b8524834/)
+Compression technology | [Richard Hackett](https://www.linkedin.com/in/richard-hackett-4324531/)
 
-Darren Wood is listed as project manager, with Dave Flynn and David Manuel as team leaders. Philip Oliver is managing director and Andrew Oliver technical director. Rob Lord receives the music and sound-effects credit.
+Darren Wood is listed as project manager, with Dave Flynn and David Manuel as team leaders. [Philip Oliver](http://www.olivertwins.com) is managing director and [Andrew Oliver](http://www.olivertwins.com) technical director. Rob Lord receives the music and sound-effects credit.
 
 The source adds personality that the formal list cannot. Chris Wilson signs the curtain transition with a punchline:
 
