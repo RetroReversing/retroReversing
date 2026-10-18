@@ -22,7 +22,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnFileFormats.md
 updatedAt: '2026-10-17'
 ---
-<!-- cspell:words longwords SEGALIB SIFF -->
+<!-- cspell:words longwords SEGALIB SIFF SCSP SCSPBIN -->
 
 <section class="postSection">
     <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:250px" class="wow slideInLeft postImage" />
@@ -74,6 +74,13 @@ Due to the large amount of cheap storage available thank to the CD format, game 
 ## CPK - Cinepak-compressed video
 One fairly common format for storing video in Sega Saturn games is to the the Cinepak-compressed video format known as CPK [^2]. This format uses uncompressed PCM audio and it can even be used without the video component, normally with the `.SND` file extension.
 
+## Branching video streams
+The **Branching Playback Library** (BPL) is not another video codec. Sega designed it to read from a chosen CD data stream without an obvious pause when a player choice changes the next scene. The application supplies possible destinations; BPL opens and pre-reads candidate streams into the CD buffer, selects the destination, and tells the application which stream comes next. A decoder such as MPEG or Cinepak then turns that stream into picture and sound [^5].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-branching-video-flow.svg" mobile_src="/public/images/saturn/dts/dts-branching-video-flow-mobile.svg" alt="Player choice leads BPL to pre-read candidate streams, select a destination, and pass it to an MPEG or Cinepak decoder" width="1200" height="170" title="BPL handled the branch; a codec handled the picture" caption="Flow reconstructed from the [Branching Playback Library manual](https://antime.kapsi.fi/sega/files/ST-136-D-R2-082495.pdf)." %}
+
+For someone investigating an interactive FMV title, that distinction matters: stream layout and branch timing may be as important as the video file's codec. The [BPL manual](https://antime.kapsi.fi/sega/files/ST-136-D-R2-082495.pdf) documents the library calls and scenario data [^5]. It describes a developer facility, not proof that a particular retail game used BPL.
+
 
 ## AVI - Audio Video Interleave
 The Sega Saturn had support for Audio Video Interleave (AVI) video files and was widley used in games such as Devil Summoner. You will notice that these files start with the magic header `RIFF`, this is due to AVI being a subformat based on the Resource Interchange File Format (RIFF) [^1].
@@ -99,6 +106,23 @@ The format gives objects named parent relationships, transformation matrices, ge
 
 ## SEQ files
 [mistydemeo/seq2mid: Tool and documentation for the Sega Saturn SEQ format](https://github.com/mistydemeo/seq2mid)
+
+Sega's *Standard MIDI File: Saturn Converter Specification* describes the converter's output rather than a generic MIDI file renamed to `.SEQ`. Its header begins with a two-byte resolution, a one-byte track count, a one-byte flag field, a two-byte tune length, then offsets to the tempo track and each regular track. The event stream includes notes, rests, loops, program changes, pressure, and pitch bend [^6]. That makes the first bytes a useful sanity check before feeding an unknown file to a converter or parser.
+
+The first fields in Sega's output layout are:
+
+Offset | Size | Meaning
+---|---|---
+`0x00` | 2 bytes | Resolution
+`0x02` | 1 byte | Number of tracks
+`0x03` | 1 byte | Header flags
+`0x04` | 2 bytes | Tune length
+`0x06` | 2 bytes | Reserved
+`0x08` | 2 bytes | Tempo-track offset
+`0x0A` onward | 2 bytes each | Regular-track offsets
+
+## SCSP and SCSPBIN tone data
+The Tone Editor addendum distinguishes its Macintosh `SCSP` document from `SCSPBIN`, the form containing data transferred to the Saturn's 68000 sound memory and Macintosh resource information. An `SCSP` file starts with the four ASCII bytes `SCSP`, a four-byte size, and a `VOCE` chunk marker before its mixer and voice data. The addendum then documents the offset-based `SCSPBIN` layout for mixer, velocity, and envelope data [^7]. These are sound-tool interchange and transfer formats; the exact bytes in a retail game's proprietary sound archive still need to be checked independently.
 
 ## AIF files
 [Audio Formats in Saturn Games - Mini-Revver](https://minirevver.weebly.com/audio-formats-in-saturn-games.html)
@@ -128,3 +152,6 @@ Virtual Disc image used by developers when using the Mirage CD Emulator.
 [^2]: [Sega FILM - MultimediaWiki](https://wiki.multimedia.cx/index.php/Sega_FILM#Sega_Saturn_CPK_File_Format)
 [^3]: Sega, [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf), section 4, especially `IP SIZE` and `IP Placement`.
 [^4]: Sega and vendors, [SIFF 1.0 Scene Interchange File Format](https://antime.kapsi.fi/sega/files/siff.pdf), October 1996, `FORM for SIFF` and `SIFF General Notes`.
+[^5]: Sega, [Branching Playback Library User's Manual](https://antime.kapsi.fi/sega/files/ST-136-D-R2-082495.pdf), August 1995, overview and branching functions.
+[^6]: Sega, [Standard MIDI File: Saturn Converter Specification](https://antime.kapsi.fi/sega/files/ST-066-121593.pdf), "Structure of Output Files" and event descriptions.
+[^7]: Sega, [Tone Editor User's Manual Addendum: File Formats](https://antime.kapsi.fi/sega/files/ST-235-030795.pdf), `SCSP` and `SCSPBIN` format sections.

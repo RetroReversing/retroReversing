@@ -18,9 +18,11 @@ breadcrumbs:
   - name: Sega Saturn Save Data
     url: #
 recommend: saturn
-updatedAt: '2021-11-16'
+updatedAt: '2026-10-17'
 editlink: /consoles/saturn/SegaSaturnSaveData.md
 ---
+
+<!-- cspell:words throughs Satiator -->
 
 The Sega Saturn has multiple ways to persist game data across play throughs. This includes built in memory on the Saturn console itself and official and 3rd party cartridges that acted as memory cards.
 
@@ -58,6 +60,23 @@ A number of Sega Saturn ODEs allow for the backing up of save game data to SD ca
 
 ## Netlink
 The Sega Saturn Netlink is a 28.8k modem that plugs into the cartridge port of the Saturn. It allowed for the ability to e-mail game saves. 
+
+---
+# The save system a Saturn game had to build
+The console supplied backup RAM and a Save Data Control screen, but the game still had to handle the player's first save, a full device, and a cartridge being inserted or removed. Sega's *Backup System Production Standard* describes these as application responsibilities rather than features to leave entirely to the boot ROM [^4].
+
+Before entering the main game, the application was to check whether its available base RAM and cartridge RAM were initialized. If a device needed formatting, it had to explain the situation and either initialize it through the backup-RAM BIOS or direct the player to the console's Save Data Control screen. The standard also called for a free-space check before attempting to create a record. A missing save should disable or skip "Continue" instead of leading to a failed load [^4].
+
+The distinction between internal and cartridge RAM mattered in the interface. The standard supplied consistent names for the devices, save records, free space, and operations such as copy and erase. It expected games to support both backup destinations when the cartridge was available. Sega specified that one record **must not exceed 256 KiB** because the boot ROM's Save Data Control screen could not copy a larger record. The document also says that if a game nevertheless creates a larger record, the application itself must provide the copy function [^4].
+
+The same standard describes an 11-character record name: uppercase letters, numbers, and underscores, with no number in the first position. Short names were padded with underscores. Those rules give a reverse engineer something concrete to look for when identifying save-name construction in an executable [^4].
+
+## Changing discs without losing progress
+For a multi-disc game, backup RAM also acted as the hand-off between discs. Sega's 1997 software standards required the game to save state immediately before the disc change, whether it normally used autosave or let players save manually. If there was not enough room to hold the transition state, disc 2 might be unreachable; the standards therefore specified a warning before the player began disc 1 [^5].
+
+The same document recommended placing a transition marker in the save record. Disc 2 could recognize that marker and resume the story without making the player navigate the title and save-selection screens first. That recommendation turns an apparently simple "insert disc 2" prompt into a small protocol between two executables [^5].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-multi-disc-save-flow.svg" mobile_src="/public/images/saturn/dts/dts-multi-disc-save-flow-mobile.svg" alt="Disc 1 saves transition state, the player swaps discs, disc 2 reads backup RAM, and the game resumes" width="1200" height="170" title="A save record carries the hand-off between discs" caption="Flow reconstructed from [Sega's multi-disc development standards](https://antime.kapsi.fi/sega/files/ST-151-R4-020197.pdf), chapter 10." %}
 
 ---
 # Backing up and Recovering Saves
@@ -131,3 +150,5 @@ A number of Sega Saturn homebrew applications have standardized on the [.BUP fil
 [^1]: [GitHub - slinga-homebrew/Save-Game-Extractor: Transmit Sega Saturn save game files as audio. Based on minimodem](https://github.com/slinga-homebrew/Save-Game-Extractor)
 [^2]: [GitHub - hitomi2500/ss-save-parser: Parser for Sega Saturn images of various save media.](https://github.com/hitomi2500/ss-save-parser)
 [^3]: [The Rockin'-B : Save Game Manager](http://www.rockin-b.de/saturn-savegamemanager.html)
+[^4]: Sega, [Backup System Production Standard](https://antime.kapsi.fi/sega/files/ST-203-100494.pdf), October 1994, sections on initialization, free space, terminology, and records larger than 256 KiB.
+[^5]: Sega of America, [Sega Saturn Software Development Standards, version 2.0](https://antime.kapsi.fi/sega/files/ST-151-R4-020197.pdf), February 1997, chapter 10, especially pp. 63-64 on multi-disc saving and transition data.
