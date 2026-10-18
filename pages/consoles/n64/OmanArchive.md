@@ -4,9 +4,11 @@ tags:
 - n64
 - sdk
 - leak
-title: Oman Archive - N64 Leak by SGI employee
+title: Oman Archive - Nintendo 64 Development Files
 category: n64
-image: /public/N64/N64 Oman Archive.jpg
+placeholderimages:
+- /public/images/n64/oman/texture-filter-patterns.webp
+- /public/images/n64/oman/tennis-test-image.webp
 permalink: /oman-archive
 breadcrumbs:
   - name: Home
@@ -19,27 +21,44 @@ recommend:
 - leak
 - n64
 editlink: /consoles/n64/OmanArchive.md
-updatedAt: '2020-05-08'
-twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
+updatedAt: '2026-10-18'
 ---
 
-The **Oman Archive** was a leak of Nintendo Technical documents from a source inside SGI in **late 1999**. It was uploaded to the internet under the name `oman.rar` but has since been repackaged into multiple other archive formats, such as the now more common **oman.7z** (148.3 MB).
+The **Oman archive** is a collection of development material for [Nintendo 64](/n64) hardware and software. It preserves Silicon Graphics (SGI) Project Reality documentation, chip design and simulation files, operating-system source, tools, and demonstration programs. Nintendo and SGI announced their Project Reality partnership in August 1993 [^1].
 
-An updated version of the Oman Archive was released in 2020 at the same time as the Gigaleak, another Nintendo Leak which includes N64 content.
-{% include_cached link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+The archive records several stages of that work rather than one SDK release. It includes early HeadStart documents, later Ultra 64 installation files, and a separate SN Systems Windows development package. The exact date and original route by which this collection became public are not established by the files in this copy.
 
+---
 # History of the Oman Archive
-Even the origin of the name itself is clouded in mystery with some saying it was leaked by a person called "Oman" and others disagreeing, but very little information is known about the leak.
+SGI's 1993 announcement described the Indy workstation as a Project Reality authoring system [^1]. Within the archive, `DOC/README` identifies the HeadStart environment as a way to begin software and artwork development while the hardware and software interfaces were still being finalized [^2]. Source headers in the collection document active work during 1994 and 1995. The `INSTD.TAR` installation records identify an Ultra 64 development environment labeled 2.0G. These dates describe the material inside the collection, not when it was copied or circulated.
 
-It is believed that the archive kickstarted the N64 Emulation development scene and that without it we wouldn't have made much of the early progress in figuring out how the hardware worked [^1].
+The name "Oman" identifies the circulating archive. This copy contains no verified statement naming the person who first distributed it, and its copied filesystem dates cannot establish that event. Claims that the archive appeared in a particular month or caused a particular advance in N64 emulation therefore need independent contemporary evidence.
 
-However the problem with the Oman archive is that the contents were obtained illegally and thus any development based on the stolen content would be liable for copyright infringement.
+Many source modules carry SGI proprietary notices. The viewer below publishes names, sizes, descriptions, and checksums to document the collection without reproducing its source code. The later [Gigaleak](/gigaleak) is a separate collection; its appearance does not date or authenticate this archive.
 
-Thus many talented N64 emulator authors refuse to use the material and instead reverse engineer the inner working of the system themselves. This prevents the code (and the resulting binary) from any patent/copyright/trademark violations, but requires a lot of time and patience. So we are thankful for all these dedicated developers, helping maintain the codebase in a way that prevents distribution of N64 emulators from becoming illegal [^2].
+---
+# What is in this copy?
+The archive combines hardware design, simulation, developer-facing material, and SDK support code. This breakdown counts files in the extracted copy indexed below:
 
-If you plan to do any N64 development then stay as far away from the Oman Archive as you can, including leaving this page...
+Area | Files | What it shows
+---|---|---
+`HW` and `HW2` | 3,214 | Verilog modules, synthesis scripts, and physical design work for the Reality Coprocessor.
+`APPS` | 2,123 | Demos, application-level verification programs, performance tests, and their assets.
+`RDPSIM` and `RDPSIM2` | 2,077 | Reality Display Processor simulator code, inputs, and expected or captured test output.
+`usr` | 1,670 | An IRIX-style SDK tree with headers, source, examples, and installed files.
+`RSPSIM` | 1,200 | Reality Signal Processor simulator source and instruction regression tests.
+`DOC` | 238 | HeadStart notes, FrameMaker documents, PostScript output, and sample images.
+Other areas | 1,967 | Microcode, libraries, manual pages, host tools, assemblers, and root-level packages.
 
-However historically these documents are very interesting and preservation of the material is vital. So even if the originally material disappears from the internet forever (unlikely but not impossible) lets at least clear up a few misconceptions by asking: What exactly *IS* in the Oman archive?
+The file count describes this extraction, including duplicate or compiled build products. A file's presence shows what survived in the collection, not whether every Nintendo 64 developer received it.
+
+---
+# Browse the Oman archive
+The archive viewer indexes 12,489 files in 1,048 folders from an extracted copy of `oman`. Select a folder for a summary of its contents, or select a file for its format, purpose where established, byte size, and MD5 checksum. The descriptions draw on file headers, source declarations, document text, and the surrounding directory structure. Entries based partly on a filename say so in their description basis.
+
+{% include archive-explorer.html manifest="/public/data/oman-archive.json" layout="sgi" title="Oman Archive" layout_label="SGI desktop simulation" %}
+
+The viewer contains metadata only. The checksums identify the files in this particular extracted copy; they do not authenticate the original leaked archive or establish the files' creation dates.
 
 ---
 # Top Level files
@@ -133,7 +152,27 @@ The folder contains:
  </div>
 </section> 
 
+---
+# APPS Folder (Demos and Verification)
+`APPS` is the largest single directory in this copy. It combines demonstrations of graphics and operating-system features with programs written to test particular parts of the hardware. The distinction matters: a test application may deliberately produce unusual pixels or command streams rather than a playable scene.
 
+## RDPATT as an application-level test
+The `APPS/RDPATT/README` calls this an RDP application-level verification suite. Its `MAIN.C` describes a sequence of single-frame tests. The common frame loop lives beside test-specific display lists in `STATIC.C` and procedures in `RDPVERIF.C`. This arrangement lets a developer change one rendering case while keeping the harness stable.
+
+The project also carries tiny SGI-format textures. These two 32 x 32 source images are the archived `APPS/RDPATT/TEXTURE/COLORBAR.RGB` and `GRID.RGBA`, enlarged with nearest-neighbor display so their pixels remain visible:
+
+<link rel="stylesheet" href="/public/css/oman-archive.css">
+{% capture oman_rdpatt_textures %}
+{% include article-figure.html src="/public/images/n64/oman/rdpatt-colorbar-texture.webp" alt="Thirty-two-pixel color-bar texture from the RDPATT test suite" width="32" height="32" title="Color-bar input" caption="Converted from `APPS/RDPATT/TEXTURE/COLORBAR.RGB` in the archive. The narrow color bands make changes in texture sampling visible." %}
+{% include article-figure.html src="/public/images/n64/oman/rdpatt-grid-texture.webp" alt="Thirty-two-pixel colored grid texture from the RDPATT test suite" width="32" height="32" title="Grid input" caption="Converted from `APPS/RDPATT/TEXTURE/GRID.RGBA`. Its straight lines and alpha channel give the tests another distinct input." %}
+{% endcapture %}
+<div class="oman-archive__pixel-art">
+{% include article-gallery.html figures=oman_rdpatt_textures %}
+</div>
+
+Other `APPS` projects exercise audio, controller input, microcode, rendering modes, and performance. The viewer supplies their individual file records; `RDPATT` shows how application code, display lists, and small assets fit together in one test project.
+
+Many of the application folders also survive in the Project Reality development tree beside Turok's game source. The [N64 SDK demo guide](/n64-sdk-demos) compares complete-file checksums and explains the lessons in the shared samples.
 
 ---
 # COSIM Folder (Co-Simulation)
@@ -143,348 +182,51 @@ Co-Simulation is using software to verify and test simulated hardware, in this c
 
 ---
 # DOC Folder (Documentation)
-This is the main folder of goodies, whenever someone talks about the value of the Oman Archive this is the documentation they are talking about.
+The `DOC` tree records SGI's HeadStart development environment. Its `README` says the aim was to introduce the system and let developers begin software, animation, and artwork work while interfaces were still changing [^2]. It also warns that emulator performance would not exactly match hardware and that the environment did not yet include audio and video software components. Those limits are part of the document's historical value: they show what SGI expected early developers to build and what was still provisional.
 
-The folder contains many different file formats, some are plain text (*.TXT), others are Postscript (*.PS) and more are `File Maker` files (*.FM & *.DOC). So there was clearly no standard when it came to documentation.
+## Follow the design from overview to implementation
+The most useful documents form a route through the graphics system. Their names and roles come from the archive's own `DOC/README` and the surviving readable files:
 
-Note that all the documentation located under this folder is part of what SGI called their `HeadStart development environment`, which was documentation for starting development before the actual hardware was finalised for the console.
-
-## Top Level Documentation
-The files located at the root of the DOCS folder tend to be in 3 different formats, .DOC, .FM and .TXT.
-
-Note that the .DOC files start with the ASCII string `<MakerFile 4.0K>` and are *not* MS Word documents. Also the .FM files start with the ASCII string `<MakerFile 3.0F>`.
-
-They were both created with an early version of Adobe FrameMaker but don't seem to be usable in the latest versions of the tool. They also can't be converted with Adobe createPDF service either so the only current way to get partial content is to run `strings` on it but it is hardly readable.
-
-There was a `FM2HTML` tool developed according to W3.org but all download links seem to have been Brough offline [^7].
-
-For anyone trying to reverse engineer the old FrameMaker format, they is a Postscript version of `AUDUCODE.FM` which could help understand what the bytes in the format represent.
-
-Hopefully someone will be able to convert them to a PS, PDF or HTML file someday for us all to enjoy.
-
-
-Name | Description
+File | What it explains
 ---|---
-ABI.DOC | Audio Binary Interface MakerFile Documentation
-ANIMATION_ENGINE.FM | Brief overview of 3D Animation of Models
-AS.FM | Graphics Algorithm Simulator
-AUDBI.FM | Audio Binary Interface 1.0 command reference (e.g for `A_CLEARBUFF`)
-AUDUCODE.FM | RSP Audio Microcode Architecture
-AUDUCODE.PS | Same as `AUDUCODE.FM` but in Postscript format
-BLEND_MODES.TXT | Very detailed description of the Blend Modes by `Phil Gossett`
-CHAR_PLAN.DOC | Device Characterization checklist
-CHIP_DESIGN_DIRS.FM | Description of the Verilog folders
-DEBUGGER.TXT | Notes on how to use the `CaseVision Debugger`
-DIAGNOSTIC_PROPOSAL.FM | Proposal to create a `Diagnostic System` for the Nintendo 64 Hardware and Software 
-DIAGS.DOC | Diagnostic program documentation for the Ultra 64 development board
-DMA_PERFORMANCE | DMA Performance Analysis
-EMULATOR.TXT | Status of the Graphics Binary Interface Emulator for SGI workstations
-ENDIAN.TXT | Brief notes on Big Endian bit ordering
-FILTER_BUILDLOG | Bash script to filter the log files in the directory
-FIXEDPT.FM | Notes on Fixed Point Numbers
-FRAMEREC.TXT | Notes on a way to record gameplay frame by frame on an SGI ONYX
-GFX_TEST.TXT | Notes on the tests located in the `PR/apps/rsp*` folder for testing the RSP
-GFXBI.FM | RCP Graphics Binary Interface Documentation
-GONOGO.FM | Ultra 64 Go/No Go Test Plan
-GRUCODE.FM | RSP Graphics Microcode Architecture
-GRUCODE.OLD.FM | Old version of RSP Graphics Microcode Architecture
-HUFFMAN.FM | Huffman Decoding for MPEG
-IO.FM | Interaction between I/O components
-IOSIM.FM | `iosim` I/O simulator command documentation
-LIGHT-MATERIAL.FM | Lighting and Materials
-LIGHTFOG.TXT | Documentation for Lighting, fog, and reflection mapping
-LOGICAL_RDP.FM | Rendering Pipeline
-MAKEFILE | Top level makefile that just calls the "RSP" folders makefile
-MEM_MGMT.FM | Memory Management such as Virtual Addresses and Segments
-MEMORY_MAP | Simple Text memory map of each of the components of the N64 (RCP, RDRAM etc)
-MMAKE | Fork of the SGI `mmake` bash script
-MNIGHTLY | Bash script for nightly builds using mmake
-MPEG_API.FM | MPEG Video API
-MPEG_STATUS.FM | Status of MPEG integration into the SDK
-MPEG_TALK.FM | How MPEG Works presentation
-MPEG_TALK.PS | How MPEG Works presentation (Postscript)
-MVT.FM | Multi-View Textures (Level of Detail optimisation)
-NIGHTLY.SH | Bash script to run nightly regression testing
-PERFORMANCE.DOC | RSP Geometry Transformation Performance
-PERFORMANCE.DOC.RECOVER | Older version of `PERFORMANCE.DOC`
-PERSPNORM.FM | Perspective Normalization
-PROBLEMS | Ultra64 Problems and Tips (with workarounds)
-RCP_ELEC_SPEC.FM | Electrical specification for RCP
-RDB.DOC | RDB Port connecting Indy & the development board
-RDP_COMMANDS.FM | Documentation for each of the Reality Display Processor commands
-RDP_COMMANDSIX.DOC | Index of RDP Commands
-RDP_FUNC_IO_TABLES.PS | I/O tables for the Reality Display Processor
-RDPPROG.FM | RDP Programmers Guide
-RDRAM_INITIALIZATION | Brief notes on the initialization sequence of the RDRAM (Rambus)
-README | Description of the HeadStart development environment
-README.6.2 | Notes on one developers attempts to get it running on a 6.2 Indy
-README.NIGHTLY | Instructions for setting up a nightly build of regression tests
-RELEASE2.FM | Readme for Ultra 64 Developers Release 2.0
-RI_PROGRAMMING_GUIDE | RI/RDRAM register read/write operations
-RSP_GFX_SW.FM | RSP Fast3D Graphics Software Architecture
-RSP_VERIF_ENV | Notes about the RSP verification environment
-RSPVERIF.DOC | RSP Design Verification Strategy
-SPRITELIB.FM | Sprite Library Documentation
-SPRITES.VGS | Introduction to Video Game Sprites
-SRCTREE.FM | Introduction to the Src folder
-SWARCH.FM | Software Architecture
-SWARCH.PS | Postscript version of `SWARCH.FM`
-SWBRINGUP.DOC | Operational Software Bringup Sequence - nothing much in this document
-SYSDATAFLOW.FM | System Data Flow for both hardware and software
-TESTVECTOR.TXT | Test vector development environment for the RCP
-TEX_FIGS.FM | Texture Image Coordinate Space
-TEXTURE_OUTLINE.DOC | Good overview of texturing on N64
-TREEBUILD.DOC | Document that outlines how to use the SGI `pbuild` development environment to build the source tree
-TREESETUP.SH | Small bash script for running the `inst` command to setup the dev environment
-TUTORIAL.FM | Tutorial for making a N64 game
-ULTRADBG.FM | FrameMaker version of `ULTRADBG.TXT`
-ULTRADBG.TXT | Very interesting document on how to debug N64 code
-VIDEO_MODES.TXT | Described the different video modes for both NTSC and PAL
-YIELD.TXT | Notes on What Yield is (e.g `osSpTaskYield`)
+`DOC/README` | HeadStart's goals, documentation map, and explicit limits of the early environment.
+`DOC/SWARCH.PS` | A PostScript copy of the software-architecture notes identified by the README as an overview of design decisions and tradeoffs.
+`DOC/LOGICAL_RDP.FM` | The logical state machine for the RDP rendering pipeline, as described in the README.
+`DOC/RDP_COMMANDS.FM` | RDP commands and the relationship between programmable operations and emulator support.
+`DOC/GFXBI.FM` | Graphics Binary Interface commands sent toward the RSP geometry stage.
+`DOC/BLEND_MODES.TXT` | Readable detail on blender input selection, antialiasing, and rendering modes.
+`DOC/VIDEO_MODES.TXT` | Readable detail on video-interface filtering, sync generation, and display modes.
 
+This sequence links the software interface to the hardware it controls. The README also points out that not every feature had a matching emulator implementation or manual page, so an absent page is not proof that the eventual console lacked the feature.
 
-One of the most interesting documents in this list that can be easily read is `SWARCH.PS` as it contains plenty of interesting information about how the software architecture works.
+---
+## What the blender and video-interface notes reveal
+`BLEND_MODES.TXT`, attributed in its header to Phil Gossett and dated 14 May 1995, describes the blender's selectable inputs for pixel, memory, blend, and fog color. Its central equation is `color = (a*p + b*m) / (a + b)`. The note goes on to explain how a sync command keeps earlier primitives from using register values that have already been changed. The document is useful because it relates a visible rendering result to register choices and pipeline ordering rather than merely listing bit fields.
 
-## HW - Hardware Documentation
-The table below lists the relevant entries.
+`VIDEO_MODES.TXT`, dated 27 June 1995, describes the video interface as the second pass of an antialiased z-buffer approach. It distinguishes texture filtering, coverage of polygon fragments, and silhouette blending, then discusses NTSC and PAL timing and video modes. Read together, the two notes show why an RDP test needs both pixel inputs and the state that determines how those pixels are combined.
 
-Name | Description
+---
+## Document formats and image material
+The `DOC` tree mixes text, PostScript, and binary Adobe FrameMaker files. The `.FM` files inspected here begin with `<MakerFile 3.0F>` and many `.DOC` files begin with `<MakerFile 4.0K>`; those `.DOC` files are not Microsoft Word documents. `AUDUCODE.PS`, `MPEG_TALK.PS`, and `SWARCH.PS` are separate PostScript output. The archive viewer identifies each format and marks topics inferred from filenames.
+
+The `PICS` directory contains source images as well as documents. The following are faithful WebP conversions of two archived files, not reconstructed screenshots of a running Nintendo 64 game:
+
+{% capture oman_document_images %}
+{% include article-figure.html src="/public/images/n64/oman/texture-filter-patterns.webp" alt="Grid of grayscale gradients and frequency patterns from the Oman documentation" width="768" height="768" title="Pattern sheet" caption="Source: `DOC/PICS/PIC8.SGI`, an SGI image in the archive. Its repeated gradients and grids are useful for seeing sampling and filtering differences; the archive does not state the exact test that used it." %}
+{% include article-figure.html src="/public/images/n64/oman/tennis-test-image.webp" alt="Grayscale image of a table-tennis player from the Oman documentation" width="352" height="240" title="Photographic input" caption="Source: `DOC/PICS/TENNIS1.CIF`, an SGI image in the archive. A photographic scene offers different edges and tones from the geometric pattern sheet; its exact use is not documented here." %}
+{% endcapture %}
+{% include article-gallery.html figures=oman_document_images %}
+
+The subdirectories divide the documentation by subject, while the viewer retains the full file inventory:
+
+Directory | Subject
 ---|---
-HW/4300_PIN_LIST | Comparison between the VR4300i and Nintendo R4300i Pins, most are the same but some are off by one such as EValidB
-HW/ASICSYN_QUICK_REFERENCE | ASIC Synthesizer Quick Reference
-HW/ATTRIBUTEBUFFER.FM | Attribute Buffering
-HW/AUDIO_DOC | AI CONTROLLER PROGRAMMING INTERFACE
-HW/BL.FM | Hardware Blender description
-HW/CC.FM | Color Combiner hardware
-HW/CELL_NEEDS.FM | 
-HW/CELL_TRACK.FM | 
-HW/CS.FM | 
-HW/CSIM_INTRO.DOC | 
-HW/CYCLES | 
-HW/EWCTR.FM | 
-HW/HWSYMBOLS.FM | 
-HW/OS_DEV.SC | 
-HW/OS_VIDEO.SC | 
-HW/PI_BLOCK.TXT | PI Datapath Block Diagram
-HW/PI.FM | 
-HW/PIN_LIST | List of all the pins on the RCP
-HW/PROTOBOARD.SH | 
-HW/RAMSPEC.SC | 
-HW/RCP_BLOCK.FM | 
-HW/RCP_IO.FM | 
-HW/REGFILESPEC.SC | 
-HW/SHUFFLETABLE.FM | 
-HW/SI_SPEC.TXT | Serial Interface specification
-HW/TAB_FORMAT.DOC | 
-HW/TESTER_CRC.DOC | 
-HW/TF.FM | 
-HW/TOOLTIPS | Tips for using the tools Verilog and Compass
-HW/TRI_FORMAT.FM | 
-HW/VERILOG_HEADER_TEST | Source code header - not interesting
-HW/WIREDELAYS | Email rising wire resistance and capacitance
-
-## VERIF
-Hardware verification documentation files are located in this folder.
-
-Name | Description
----|---
-VERIF/BL | hardware Blender test cases
-VERIF/CC | Color combiner test cases
-VERIF/CS | Command Shuffle Unit Test Plan
-VERIF/CV | Check Vectors
-VERIF/EW | Edge Walker Unit Test Plan
-VERIF/HIGHLEVELTEST | 
-VERIF/IO | I/O Subsystem Verification Plan
-VERIF/MS | Misc Info (it is blank)
-VERIF/RDPOVERALL | High level RDP Test cases
-VERIF/RDPVERIF.FM | 
-VERIF/ST | 
-VERIF/TC | Texture Compression Tests
-VERIF/TF | 
-VERIF/TM | Texture Memory test cases
-
-## PICS
-These are pictures in SGI RGB format but it is currently unclear where they are used. If you want to view them just add the `.SGI` extension to the end of them and you can open them in most image editors.
-
-Name | Description
----|---
-PICS/BALL.1 | Unknown image format starts with Magic number: 59 A6 6A 95
-PICS/BALL.2 | Not an SGI image
-PICS/BALL.3 | Not an SGI image
-PICS/INTL.RGB | Has the TDK logo in it, very blurry greyscale
-PICS/LOGO_SGI.SMALL | Small SGI logo (205x196)
-PICS/TEN1.MB | Square with white pixels in bottom left and dark grey everywhere else
-PICS/TEN1.BLK | Small white Square with grey pixels in the top right corner
-PICS/TENNIS1.CIF | Greyscale image of man holding ping pong racket and bouncing ball on it
-PICS/PIC8.SGI | lots of squares with different patterns in them
-
- ## AUDIO
-Not sure why a new directory was created for one file but this folder does exactly what it says on the tin, has Audio documentation in it. Which is only one file which contains the Audio API functions.
-
-The file is:
-* AUDIO/AUDIOLIBREF.DOC - Audio Library Reference
-
-## DEV
-The documents this folder are intended to be released to developers when they obtain the SDK.
-
-Pretty much all of this is already available on the web such as on square7.ch: [N64 Programming Manual](http://n64devkit.square7.ch/pro-man/index.htm).
-
-As such we have just listed the chapter that each document corresponds to int he table below.
-
-Name | Description
----|---
-DEV/ADVMEMORYMGMT.DOC | Chapter 10
-DEV/AUDIOFORMATS.DOC | Chapter 19
-DEV/AUDIOLIB.DOC | Chapter 17
-DEV/AUDIOMEMORYUSAGE.DOC | Chapter 21
-DEV/AUDIOTOOLS.DOC | Chapter 18
-DEV/BARKLEY.PS | Seems to be incomplete guide to setting up Development hardware
-DEV/BLENDER.DOC | Chapter 15
-DEV/DK32.PS | Image of Donkey Kong as a RGBA32 texture
-DEV/DK32SF.PS | Upside down image of Diddy kong
-DEV/GAMESHOP.DOC | Chapter 23
-DEV/GFXUCODE.DOC | Chapter 25
-DEV/INSTALLATION.DOC | Chapter 1
-DEV/IO.DOC  | Chapter 8
-DEV/MAKEFILE | makefile to create Postscript versions of the FrameMaker files
-DEV/MEMORYMGMT.DOC  | Chapter 9
-DEV/MUSICIANMAN.DOC | Chapter 20
-DEV/OSCORE.DOC  | Chapter 7
-DEV/OSINTRO.DOC  | Chapter 6
-DEV/OVERVIEWCOMPILETIME.DOC | Chapter 5
-DEV/OVERVIEWHARDWARE.DOC  | Chapter 3
-DEV/OVERVIEWRUNTIME.DOC  | Chapter 4
-DEV/PARTAUDIOTAB.DOC | PART files are just collections of chapters
-DEV/PARTDEVTOOLSTAB.DOC | PART files are just collections of chapters
-DEV/PARTGETSTARTEDTAB.DOC | PART files are just collections of chapters
-DEV/PARTGRAPHICSTAB.DOC | PART files are just collections of chapters
-DEV/PARTINDEXTAB.DOC | PART files are just collections of chapters
-DEV/PARTOSTAB.DOC | PART files are just collections of chapters
-DEV/PARTOVERVIEWTAB.DOC | PART files are just collections of chapters
-DEV/PARTPERFORMANCETAB.DOC | PART files are just collections of chapters
-DEV/PERFORMANCETUNE.DOC  | Chapter 24
-DEV/PERFORMANCETUNE.PS  | Chapter 24
-DEV/PRDEV.BOOK | Entire Book file references all the other docs
-DEV/PRDEVIX.DOC  | Index
-DEV/PRDEVLOF.DOC | List of Figures
-DEV/PRDEVLOT.DOC | List of Tables
-DEV/PRDEVTOC.DOC | Table of Contents
-DEV/RDPSTATEMACHINE.DOC  | Chapter 12
-DEV/RSPSTATEMACHINE.DOC  | Chapter 11
-DEV/SCHEDULER.DOC  | Chapter 22
-DEV/SOFTWAREBRINGUP.DOC | Programming Manual Chapter 2
-DEV/SPRITES.DOC  | Chapter 16
-DEV/SPRITEUCODE.DOC | Programming Manual Chapter 18
-DEV/STYLE_STRUCTURE.TXT | Style guide for the documentation 
-DEV/TEMPLATE.DOC | Template used for creating new documentation pages
-DEV/TEXRECT.DOC  | Chapter 14
-DEV/TEXTURE.DOC  | Chapter 13
-DEV/WALKAPP.DOC | Unreleased documentation about a Haunted house demo
-
-
-The file `DEV/WALKAPP.DOC` seems to have never been released to developers as part of the SDK as it describes a N64 demo where a user walks around a haunted house.
-
-### DEV/SCRIPTS
-This folder just contains the scripts to convert the FrameMaker files into PostScript files.
-
-Name | Description
----|---
-DEV/SCRIPTS/UPDATE.SCRIPT | fmbatch script to update the documentation
-DEV/SCRIPTS/PRINT_TO_PS.FM | 
-DEV/SCRIPTS/PS.SCRIPT | fmbatch script to convert to Postscript
-
-## RSP
-This folder contains all the documentation about programming the Reality Signal Processor. 
-
-Name | Description
----|---
-RSP/ADVANCED.DOC | Advanced topics, such as DMEM usage, RSP performance, code overlays, and the CPU-RSP relationship.
-RSP/APPENDIXA.DOC |  Formally describes the behavior of each instruction
-RSP/COP0.DOC | Chapter 4 RSP Coprocessor 0
-RSP/MAKEFILE | Used to make the postscript versions using `fmbatch`
-RSP/OVERVIEW.DOC | Overview of the documentation chapters
-RSP/RSPARCH.DOC | RSP MIPS Instruction Set Architecture
-RSP/RSPASM.DOC | RSP MIPS Assembly Directives
-RSP/RSPPROGGUIDE.BOOK | Book file that references each doc file
-RSP/RSPPROGGUIDEIX.DOC | Index of the Documentation
-RSP/RSPPROGGUIDELABELS.FM | List of Labels
-RSP/RSPPROGGUIDELOF.DOC | List of Figures
-RSP/RSPPROGGUIDELOT.DOC | List of Tables
-RSP/RSPPROGGUIDETOC.DOC | Table of Contents
-RSP/RSPREFCARD.FM | Reality Signal Processor Programmer's Reference Card
-RSP/TITLEPAGE.DOC | Title Page of Documentation
-RSP/VUINST.DOC | Vector Unit Instructions
-
-### RSP/PS
-This folder contains the printable postscript versions of the RSP Programming Guide and the Reference card documentation. 
-
-The reference card is a sort of "Cheat Sheet" for programming on the RSP.
-
-Name | Description
----|---
-RSP/PS/AA.ZIP | Zip archive of the two postscript files in this folder
-RSP/PS/RSPPROGGUIDE.PS | Postscript version of the RSP Programmers Guide
-RSP/PS/RSPREFCARD.PS | Postscript version of the reference card
-
-
-
-### RSP/SCRIPTS
-This folder contains scripts to convert the Adobe FrameMaker documentation into printable PostScript files.
-
-Name | Description
----|---
-RSP/SCRIPTS/UPDATE.SCRIPT | fmbatch script to update the doc files
-RSP/SCRIPTS/PRINT_TO_PS.FM | 
-RSP/SCRIPTS/REFCARD.SCRIPT | fmbatchto print the Reference card to Postscript
-RSP/SCRIPTS/PS.SCRIPT | fmbatch to print to Postscript
-
-
-## MSP_EXAMPLE
-This folder contains  pseudo-assembly examples for the Media Signal Processor (MSP) which is basically the RSP.
-
-Name | Description
----|---
-MSP_EXAMPLE/MSP_TRANSFORM.TXT | Transform example code
-MSP_EXAMPLE/README | Describes the purpose of the folder
-MSP_EXAMPLE/MSP_LIGHT.TXT | Example of lighting calculations
-MSP_EXAMPLE/MSP_SETUP.TXT | Example of triangle setup
-
-
-## 4300 - The N64 CPU
-This folder contains all the RISC Processor Specification for the N64 CPU (NEC VR4300).
-
-Name | Description
----|---
-4300/ADDENDUM.DOC | Additional details about the CPU
-4300/BLOCKWRITE.MIF | Converted version of `BLOCKWRITE.SUP` using `supTomif`
-4300/BLOCKWRITE.SUP | 
-4300/BOOK | FrameMaker Book file that references all the Docs
-4300/BOOKLOF.DOC | List of Figures
-4300/BOOKLOT.DOC  | List of Tables
-4300/BOOKTOC.DOC | Table of contents
-4300/CACHE.DOC | Chapter 5 Data and Instruction Cache
-4300/CLOCKS.DOC | CPU Clocks documentation (on-chip Phase Locked Loop circuit)
-4300/CP0.DOC |  System Control Coprocessor (CP0)
-4300/CP0.DOC.RECOVER | Old version of `CP0.DOC`
-4300/DELAYEDREAD.MIF | Converted version of `DELAYEDREAD.SUP` using 
-4300/DELAYEDREAD.SUP | Delayed processor read request figure
-4300/DIFF.DOC | Differences from the R4000
-4300/DIFFICE.DOC | 
-4300/ELECTRICAL.DOC | Electrical information such as Voltages
-4300/EXCP_HAND.DOC | Exception Handling
-4300/EXECUTION.DOC | The instruction execution unit
-4300/FMDICTIONARY | Adobe FileMaker Dictionary
-4300/FUNDAMENTAL.DOC | Operation Fundamentals
-4300/GLOSSARY.DOC | Glossary of Terms
-4300/HISTORY.DOC | Revision History of the documentation
-4300/INTRO.DOC | Very short Introduction to the documentation
-4300/JTAG.DOC | JTAG Interface for the CPU
-4300/OVERVIEW.DOC | Overview of the five-stage execution pipeline
-4300/SYSINTF.DOC | Chapter 8 System Interface
-4300/TEMP.DOC | Template based on the Exception Handling chapter
-4300/TESTMODE.DOC | Test Mode (JTAG)
-4300/TITLE.DOC | Title Page of documentation
-
+`DOC/HW` and `DOC/VERIF` | Hardware specifications and verification plans.
+`DOC/DEV` | Developer-facing programming-manual chapters, templates, and scripts.
+`DOC/RSP` | RSP architecture, instruction, and assembler documentation.
+`DOC/4300` | NEC VR4300 CPU material, including cache, execution, and interface chapters.
+`DOC/MSP_EXAMPLE` | Pseudocode examples for geometry functions and performance estimates.
+`DOC/PICS` | SGI-format image inputs and examples.
 
 ---
 # HW & HW2 Folders (Hardware Verilog Models)
@@ -493,6 +235,11 @@ Verilog is a Hardware Description Language used to Design and verify hardware. T
 HW.old contains version 1.0 of the RCP Verilog source code presumably for archival reasons.
 
 {% include_cached link-to-other-post.html post="/verilog" description="For more information about Verilog source code click here" %}
+
+## Texture filtering from design to test
+`HW/CHIP/RCP/TF/SRC/TF_LERP.V` defines the `tf_lerp` Verilog module. Its header identifies it as a triangular bilinear interpolation stage for the texture filter and names Phil Gossett as designer. Two Booth-encoded multiplier paths feed a carry-save adder in the module body. This gives a concrete hardware counterpart to the filtering behavior discussed in `DOC/VIDEO_MODES.TXT`.
+
+The neighboring `RDPSIM/TEST/TF` tree shows how the texture-filter block was exercised. `INDATA/INP000.C` labels its first case a quick check and emits named signals such as `bilerp0m`, `sfrac_rg`, and texel color inputs. `DRIVER.C` reads tabular inputs and drives wire values each clock. Compressed files under `OUTDATA/TF_ALL` preserve test output. Together, these files document an input-to-RTL-to-output verification path; they do not by themselves prove which hardware revision shipped in a retail console.
 
 ---
 # INCLUDE Folder
@@ -713,10 +460,8 @@ Used in some of the hardware documentation to discuss the Chips created to excel
 
 ---
 # References
-[^1]: [Why did N64 emulation hit a reef? : emulation](https://www.reddit.com/r/emulation/comments/6leedm/why_did_n64_emulation_hit_a_reef/) 
-[^2]: [/vg/ - Emulation General /emugen/ - 4chan](https://yuki.la/vg/67102961)
+[^1]: [Silicon Graphics and Nintendo announce Project Reality](https://archive.irixnet.org/siliconsurf/news/sept_04.html), SGI announcement reproduced by IRIX Network; [contemporaneous report dated 23 August 1993](https://www.upi.com/Archives/1993/08/23/Nintendo-and-Silicon-Graphics-team-up/3614746078400/).
+[^2]: Oman archive, `DOC/README`, "Project Reality HeadStart Development Documentation".
 [^3]: [inst - IRIX](https://nixdoc.net/man-pages/IRIX/man1/inst.1.html)
 [^4]: [master - IRIX](http://nixdoc.net/man-pages/IRIX/man2/man4/master.4.html)
 [^5]: [HW/SW CoSim](http://www.frobnotz.com/cosim/cosim.html)
-[^6]: [cord(1) [osf1 man page]](https://www.unix.com/man-page/osf1/1/cord/)
-[^7]: [fm2html](https://www.w3.org/Tools/fm2html.html)

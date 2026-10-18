@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64SDK.md
-updatedAt: '2020-08-09'
+updatedAt: '2026-10-19'
 twitterimage: https://www.retroreversing.com/public/N64/N64 SDK.jpg
 ---
 
@@ -49,6 +49,8 @@ On Windows a **Setup.exe** file was included that is installed into `C:\nintendo
 Latest Version: **5.2**
 
 Released Versions: **3.0**, **4.0**, **4.1**, **5.0**, **5.1**, **5.2**
+
+The supplied Toolkit 5.2 CD label is dated August 2000 [^sdk-toolkit-date].
 
 {% include link-to-other-site.html url="" description="N64kit was distributed to developers in the form of CDs, Ultra64.ca has full CD ISOs of versions 3.0->5.2." image="https://ultra64.ca/wordpress/wp-content/uploads/2020/02/Nintendo_64_Developers_Toolkit_v4.0.jpg" title="Download N64Kit from ultra64.ca"  %}
 
@@ -155,6 +157,24 @@ On Windows it was installed into `C:\Ultra\usr` and used a UNIX-like directory s
 * sbin - a few custom command line tools
 * src - Source code for Demo applications and the libultra and libnaudio libraries
 
+The `src/PR` demo projects range from a first triangle to texture filtering, audio scheduling, terrain editing, and hardware performance tests. A [dedicated guide to the N64 SDK demos](/n64-sdk-demos) maps the PC 2.0H, IRIX 2.0I, and PC 2.0J/2.0L packages and compares them with the Turok and Oman copies.
+
 ## Known Versions
 Latest Version: **2.0L**
-Released Versions: **2.0J**, **2.0K**, **2.0H**, **2.0L**
+The dates below come from the versions' release notes. They may differ from the dates the discs were distributed [^sdk-os-dates]:
+
+Version | Release notes dated
+---|---
+2.0H | 24 February 1997
+2.0I | 15 December 1997
+2.0J | 1 February 1999
+2.0K | 4 August 1999
+2.0L | 3 July 2000
+
+The inspected OS-PC 2.0H installer's `readme.20h` also prints `1997.3.19 2.0H(PC)`. That PC-specific date is later than the 24 February date on the general 2.0H release notes [^sdk-os-pc-20h].
+
+---
+# References
+[^sdk-toolkit-date]: The supplied `Nintendo_64_Developers_Toolkit_v5.2.jpg` shows the original CD label reading `August, 2000`. This establishes a month on the disc, not a precise distribution day.
+[^sdk-os-dates]: Supplied OS v2.0L release-note collection, `usr/src/PR/doc/relnotes_old/relnotes20H.txt`, `relnotes20I.txt`, `relnotes20J.txt`, and `relnotes20K.txt`, plus `usr/src/PR/doc/relnotes20L.txt`. The 2.0H and 2.0I notes print month and day without a year; [n64os-info's release-note chronology](https://github.com/akopetsch/n64os-info#versions) identifies them as 1997.
+[^sdk-os-pc-20h]: Supplied Nintendo 64 OS-PC v2.0H, `N64os20h.z`, extracted `readme.20h`.

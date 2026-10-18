@@ -91,6 +91,8 @@ The `rom.rnc` image is a surviving result; `PR/tengine/spec` is the build plan. 
 # Development environment
 The archive mixes Iguana's game files with Nintendo's `PR` SDK tree. The game files show how Turok worked; the neighboring SDK samples and libraries show the tools available to its programmers.
 
+The `PR/README_DEMOS` names 35 sample projects. A [separate guide to the N64 SDK demos](/n64-sdk-demos) explains their techniques and compares their files with the Oman `APPS` tree.
+
 ## Nintendo 64 SDK and ROM layout
 `PR/tengine/Makefile` includes `$(ROOT)/usr/include/make/PRdefs` from [Nintendo's official N64 SDK](/n64-sdk). The adjacent `spec` file defines boot code, audio and display-list memory, frame buffers, a cartridge cache, a Z-buffer, raw data segments, and the main code segment. It also names Nintendo microcode objects such as `gspF3DEX.NoN.fifo.o`.
 

@@ -1,0 +1,8 @@
+.post .rr-sdk-samples__pixel-art {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.post .rr-sdk-samples__pixel-art img {
+  image-rendering: pixelated;
+}

@@ -110,6 +110,7 @@
       copy.textContent = entry.description || 'Purpose not documented in this archive index.';
       const metadata = document.createElement('dl');
       const facts = [['Size', `${entry.size.toLocaleString()} bytes`]];
+      if (entry.md5) facts.push(['MD5', entry.md5]);
       if (entry.basis) facts.push(['Description basis', entry.basis]);
       facts.forEach(([term, value]) => {
         const dt = document.createElement('dt');
