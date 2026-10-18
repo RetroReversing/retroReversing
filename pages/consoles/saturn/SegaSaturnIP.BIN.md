@@ -42,6 +42,10 @@ Content that stays the same between games include:
 * Security code (has to be the exact contents of `SYS_SEC.OBJ`)
 * Area code (has to be one of the `SYS_ARE*.OBJ` files )
 
+Sega's own layout places the system ID first. The title and product fields are near the top, while the IP size and first-read address sit at the end of the 256-byte ID. This makes the diagram useful as a map when looking at a hex dump [^2].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-ip-structure-1995.webp" mobile_src="/public/images/saturn/dts/dts-ip-structure-mobile.svg" alt="Structure of the Saturn Initial Program, from system ID through security code and area code to application code" width="1230" height="1170" size="document" title="The disc identifies itself before it runs code" caption="Cropped from Sega's [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf), PDF p. 29. The narrow-screen version is a reading guide; select the figure for the original field layout." %}
+
 ## Official Specification 
 The specification for the Sega Saturn CD Format including the IP.BIN is defined in the Official SDK documentation as "Disc Format Standards Specification Sheet" [^2].
 
@@ -108,6 +112,11 @@ The package also clarifies what the red and black developer key discs tested. A 
 
 Finally, the program's load and run addresses had to agree with the entry address expected by the IP. The archive's guide recommends keeping them the same and gives Sega's default as `0x06010000` [^3]. Sega's boot-system bulletin explains the timing: the boot ROM loads the first-read file while the licensed Sega logo is displayed, but does not execute that file; the application initial program runs after the area code [^4]. A bad first-read address could therefore look like a boot failure before the game's own code visibly starts.
 
+The specification draws those steps as two overlapping tracks: what appears on the TV and what the boot ROM is checking or loading. The licensed-logo interval doubles as useful disc-read time [^2].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-ip-boot-sequence-1995.webp" alt="Sega's boot flow diagram showing the Saturn logos, system ID and area checks, first-read transfer, and application initial program" width="915" height="690" title="A loading step hidden behind the Sega logo" caption="Diagram cropped from the [Disc Format Standards Specification Sheet](https://antime.kapsi.fi/sega/files/ST-040-R4-051795.pdf), PDF p. 35. The first-read file is transferred during the licensed-logo screen; the diagram does not show it being executed." %}
+
+---
 ## Creating it for Homebrew development
 The Homebrew version for the Sega Saturn SDK has its own tool for creation called the IPMaker.
 

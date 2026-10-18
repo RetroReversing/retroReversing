@@ -81,12 +81,11 @@ Sega's peripheral bulletins show why a single "controller" structure is too vagu
 
 The input contract also appeared in Sega's testing notes. The November 1996 DTS newsletter lists frequent "A-bugs" including games that failed to recover after a peripheral was unplugged, assigned six-player tap ports in the wrong order, ignored controller port 2 when a tap occupied port 1, or let an unsupported device start a game [^9]. These are concrete failure cases behind the general SMPC rule.
 
-The original reports are useful when tracing an input routine:
+The original bit maps show the difference at a glance. The mouse packs button state and X/Y sign flags ahead of two movement bytes; the keyboard adds lock and make/break flags before its key-code byte [^7] [^8]. Each extract can be opened at full size for the bit positions.
 
-Device | Peripheral ID | Report payload | Detail to check
----|---|---|---
-Shuttle mouse | `E3h` | 3 bytes | Sign and overflow flags qualify relative X/Y movement
-Saturn keyboard | `34h` | 4 bytes | Key code is meaningful only when Make or Break is set
+{% include article-figure.html src="/public/images/saturn/dts/dts-mouse-packet-layout.webp" mobile_src="/public/images/saturn/dts/dts-mouse-packet-mobile.svg" alt="Saturn shuttle mouse report with buttons and sign flags followed by X and Y movement bytes" width="1140" height="210" title="Three bytes behind the Saturn mouse" caption="Bit table cropped from [Sega Technical Bulletin 44](https://antime.kapsi.fi/sega/files/ST-TECH-44.pdf), PDF p. 1. The narrow-screen version summarizes the bytes; select the figure for the original bit positions." %}
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-keyboard-packet-layout.webp" mobile_src="/public/images/saturn/dts/dts-keyboard-packet-mobile.svg" alt="Saturn keyboard report with controller-style buttons, keyboard type, lock and make-break flags, and key code" width="1185" height="340" title="Four bytes behind the Saturn keyboard" caption="Bit table cropped from [Sega Technical Bulletin 45](https://antime.kapsi.fi/sega/files/ST-TECH-45.pdf), PDF p. 1. The narrow-screen version summarizes the bytes; select the figure for the original bit positions." %}
 
 ---
 ## DMA crosses buses, but not every route is legal

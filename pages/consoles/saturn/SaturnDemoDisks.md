@@ -18,7 +18,7 @@ recommend:
 - saturn
 - games
 editlink: /consoles/saturn/SaturnDemoDisks.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
 
 <!-- cspell:ignore covermounts Virtua Cinepak Mogitate Tantei Monogatari Crimewave DPSYS Farland Habou Ochikazuki Jantei Sono Shiroki Majo Develo -->
@@ -351,6 +351,8 @@ Each Saturn disc stores identity fields in the first sectors of the data track a
 * **Title** - game/disc title at offset `0x60`
 
 Multi-game samplers and magazine discs often also ship per-game headers such as `G1_IP.BIN` or `BB_IP.BIN` in the ISO root. The script below reads the disc `IP.BIN`, then scans the ISO9660 root for those files and prints each game title.
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-demo-disc-layout.webp" mobile_src="/public/images/saturn/dts/dts-demo-disc-layout-mobile.svg" alt="Demo-Demo manual's example CD directory layout, with the menu, Game1_IP.BIN, FLD_KNL.BIN, and separate game directories" width="1145" height="650" title="A disc with more than one front door" caption="Sega's documented Demo-Demo layout puts each game's IP file beside the menu and loader kernel at the disc root, while game programs and data live in their own directories. This is one loader design, not a template for every sampler. The narrow-screen diagram redraws the scan for readability. [Demo-Demo File Loader Specifications, p. 11](https://antime.kapsi.fi/sega/files/ST-250-R1-031296.pdf). Select the figure to enlarge the original." %}
 
 If you have a `.cue` / `.bin` dump, run it against **Track 1** (the MODE1 data track). Paste the printed values into the tables on this page.
 

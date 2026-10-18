@@ -53,6 +53,10 @@ Sega's October 1996 [development-tool bulletin](https://antime.kapsi.fi/sega/fil
 
 These were Sega's classifications **at the time of that bulletin**, not a claim that each product had the same licence or remained available throughout the Saturn's life.
 
+The October 1996 bulletin itself is a useful snapshot of how Sega presented those choices to developers. Its first page places the GNU and Hitachi tools in the free-rental group, then starts the separate licensed-tool list [^1].
+
+{% include article-figure.html src="/public/images/saturn/dts/dts-tool-segments-bulletin-1996.webp" alt="First page of Sega Technical Bulletin 48 classifying Saturn development tools into free-rental and licensed categories" width="1530" height="1980" size="document" title="How Sega sorted its tool ecosystem" caption="[Sega Technical Bulletin 48](https://antime.kapsi.fi/sega/files/ST-TECH-48.pdf), PDF p. 1, dated 2 October 1996. Select the scan to read the original categories and examples." %}
+
 The inspected DTS mirror also preserves three useful distributions:
 
 Archive | What inspection establishes

@@ -1,11 +1,11 @@
 {% comment %}
 Reusable article illustration. Required: src, alt, width, height.
-Optional: title (plain text), caption (Markdown), size (document or photo),
+Optional: title (plain text), caption (Markdown), size (document, photo, or small),
 mobile_src (alternative illustration for narrow layouts),
 full (full-size URL, defaults to src), loading (defaults to lazy).
 Use inside article-gallery.html via capture, or directly for a single figure.
 {% endcomment %}
-<figure class="rr-article-figure{% if include.size == 'document' %} rr-article-figure--document{% elsif include.size == 'photo' %} rr-article-figure--photo{% endif %}">
+<figure class="rr-article-figure{% if include.size == 'document' %} rr-article-figure--document{% elsif include.size == 'photo' %} rr-article-figure--photo{% elsif include.size == 'small' %} rr-article-figure--small{% endif %}">
 <a href="{{ include.full | default: include.src | relative_url | escape }}">
 {% if include.mobile_src %}<picture><source media="(max-width: 700px)" srcset="{{ include.mobile_src | relative_url | escape }}">{% endif %}
 <img src="{{ include.src | relative_url | escape }}" alt="{{ include.alt | escape }}" width="{{ include.width | escape }}" height="{{ include.height | escape }}" loading="{% if include.loading == 'eager' %}eager{% else %}lazy{% endif %}">
