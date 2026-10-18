@@ -3287,92 +3287,747 @@
     {
       "type": "interview",
       "issue": 51,
-      "pages": null,
-      "developer": "Developers of R-Type Delta",
+      "pages": [
+        38,
+        41
+      ],
+      "developer": "Matt Bozon, Robert Koshak and Sean Velasco",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "description_markdown": "Interview about the making of *Contra 4*."
+    },
+    {
+      "type": "interview",
+      "issue": 51,
+      "pages": [
+        44,
+        49
+      ],
+      "developer": "Hal Barwood",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Indiana Jones and the Fate of Atlantis*."
+    },
+    {
+      "type": "interview",
+      "issue": 51,
+      "pages": [
+        58,
+        61
+      ],
+      "developer": "Damon Slye",
+      "platforms": [
+        "Apple II"
+      ],
+      "description_markdown": "Interview about the making of *Stellar 7*."
+    },
+    {
+      "type": "interview",
+      "issue": 51,
+      "pages": [
+        72,
+        75
+      ],
+      "developer": "Kazuma Kujo",
       "platforms": [
         "PlayStation"
       ],
-      "description_markdown": "Discuss the making of **R-Type Delta** for the original **PlayStation**"
+      "description_markdown": "Interview about the making of *R-Type Delta*."
+    },
+    {
+      "type": "interview",
+      "issue": 51,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Franz Xaver Lanzinger",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Crystal Castles*."
+    },
+    {
+      "type": "interview",
+      "issue": 51,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Dan Gorlin",
+      "platforms": [
+        "Apple II"
+      ],
+      "description_markdown": "Interview about the making of *Choplifter!*."
     },
     {
       "type": "interview",
       "issue": 52,
-      "pages": null,
+      "pages": [
+        6
+      ],
       "developer": "Chris Wilkins",
       "platforms": [],
-      "description_markdown": "Discusses the upcoming **Retro Fusion** event and the guests who will be in attendance, including **Archer MacLean, Andy Nuttal, Jon Hare, Martin Hollis, Alex Trowers, Simon Goodwin**, and **Ste Pickford**."
+      "description_markdown": "Interview about the Retro Fusion event in a short question-and-answer interview."
+    },
+    {
+      "type": "interview",
+      "issue": 52,
+      "pages": [
+        40,
+        45
+      ],
+      "developer": "Billy Mitchell and Walter Day",
+      "platforms": [],
+      "description_markdown": "Interview about the events depicted in *The King of Kong*."
+    },
+    {
+      "type": "interview",
+      "issue": 52,
+      "pages": [
+        56,
+        63
+      ],
+      "developer": "Mike Hally",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of Atari’s *Star Wars* arcade game."
+    },
+    {
+      "type": "interview",
+      "issue": 52,
+      "pages": [
+        74,
+        77
+      ],
+      "developer": "Mark Stephen Pierce",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Klax*."
+    },
+    {
+      "type": "interview",
+      "issue": 52,
+      "pages": [
+        82,
+        87
+      ],
+      "developer": "Fumihiro Tanaka and Yozo Sakagami",
+      "platforms": [
+        "Arcade",
+        "PlayStation"
+      ],
+      "description_markdown": "Interview about the arcade and PlayStation versions of *Ridge Racer*."
+    },
+    {
+      "type": "interview",
+      "issue": 53,
+      "pages": [
+        70,
+        73
+      ],
+      "developer": "Hiroyuki Maruyama",
+      "platforms": [
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about the making of *Border Down*."
+    },
+    {
+      "type": "interview",
+      "issue": 53,
+      "pages": [
+        76,
+        80
+      ],
+      "developer": "Ally Noble",
+      "platforms": [],
+      "description_markdown": "Interview about her career at Denton Designs and other studios."
+    },
+    {
+      "type": "interview",
+      "issue": 53,
+      "pages": [
+        82,
+        87
+      ],
+      "developer": "Mark Cerny",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Marble Madness*."
+    },
+    {
+      "type": "interview",
+      "issue": 54,
+      "pages": [
+        26,
+        31
+      ],
+      "developer": "Yu Suzuki",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *OutRun*."
+    },
+    {
+      "type": "interview",
+      "issue": 54,
+      "pages": [
+        54,
+        57
+      ],
+      "developer": "Jon Hare",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Interview about the making of *Cannon Fodder*."
+    },
+    {
+      "type": "interview",
+      "issue": 54,
+      "pages": [
+        70,
+        73
+      ],
+      "developer": "Warren Davis and Jeff Lee",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Q*bert*."
+    },
+    {
+      "type": "interview",
+      "issue": 54,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Pat Phelan",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "description_markdown": "Interview about the making of *New International Track & Field*."
     },
     {
       "type": "interview",
       "issue": 55,
-      "pages": null,
-      "developer": "Chris Gibbs",
-      "platforms": [],
-      "description_markdown": "Chris Gibbs was one of the founding members of Attention To Detail, a game development company. He worked with Jon Steele and Martin on a conversion of *Super Sprint* for the Atari ST. After this project, they were commisioned by LucasArts to make PC, Atari ST, Amiga, Commodore 64, Spectrum, and Amstrad versions of *Night Shift*."
+      "pages": [
+        26,
+        31
+      ],
+      "developer": "Sandy White",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about *Ant Attack* and its remake prospects."
     },
     {
       "type": "interview",
       "issue": 55,
-      "pages": null,
-      "developer": "Fred Gill",
-      "platforms": [],
-      "description_markdown": "Fred Gill was one of the founding members of Attention To Detail. Before forming the company with Chris Gibbs, Jon Steele, and Jon Dean, his Spectrum shooter *Octan* was published by Firebird."
+      "pages": [
+        34,
+        39
+      ],
+      "developer": "Eugene Jarvis",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Defender*."
     },
     {
       "type": "interview",
       "issue": 55,
-      "pages": null,
-      "developer": "Jon Dean",
-      "platforms": [],
-      "description_markdown": "Jon Dean was a producer for Activision. While there, he met Chris Gibbs, Fred Gill, and Jon Steele. They created a conversion of *Super Sprint* for the Atari ST. Dean proposed the group start a company called Attention To Detail that would work exclusively with PMC."
+      "pages": [
+        52,
+        55
+      ],
+      "developer": "Hiroaki Yotoriyama",
+      "platforms": [
+        "Arcade",
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about the making of *Soulcalibur*."
     },
     {
       "type": "interview",
       "issue": 55,
-      "pages": null,
-      "developer": "Jon Steele",
+      "pages": [
+        60,
+        63
+      ],
+      "developer": "Chris Gibbs, John Mullins and Jon Dean",
       "platforms": [],
-      "description_markdown": "Jon Steele was one of the founding members of Attention To Detail. He worked with Chris Gibbs and Martin on a conversion of *Super Sprint* for the Atari ST."
+      "description_markdown": "Interview about the making of *Night Shift* and Attention to Detail."
+    },
+    {
+      "type": "interview",
+      "issue": 55,
+      "pages": [
+        64,
+        65
+      ],
+      "developer": "Bob Flanagan",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the unreleased *Marble Madness II: Marble Man*."
+    },
+    {
+      "type": "interview",
+      "issue": 55,
+      "pages": [
+        66,
+        71
+      ],
+      "developer": "Bill Harbison",
+      "platforms": [
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
+      "description_markdown": "Interview about home conversions of *Chase H.Q.*."
+    },
+    {
+      "type": "interview",
+      "issue": 55,
+      "pages": [
+        74,
+        79
+      ],
+      "developer": "David Perry",
+      "platforms": [],
+      "description_markdown": "Interview about the early history of Shiny Entertainment."
+    },
+    {
+      "type": "interview",
+      "issue": 55,
+      "pages": [
+        82,
+        85
+      ],
+      "developer": "Kevin Pickell",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Stunts* (*4D Sports Driving*)."
+    },
+    {
+      "type": "interview",
+      "issue": 55,
+      "pages": [
+        97
+      ],
+      "developer": "Jonathan Cauldwell",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about his Spectrum homebrew games in a question-and-answer interview."
     },
     {
       "type": "interview",
       "issue": 56,
-      "pages": null,
+      "pages": [
+        34,
+        39
+      ],
+      "developer": "Charles Cecil",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Beneath a Steel Sky*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        40,
+        45
+      ],
       "developer": "Hideo Kojima",
       "platforms": [],
-      "description_markdown": "Hideo Kojima is a game designer known for his work on the *Metal Gear* series. He has stated a desire to direct a film."
+      "description_markdown": "Interview about his game design career, including *Metal Gear*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        48,
+        53
+      ],
+      "developer": "Dave Thomas",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the Sir Arthur Pendragon games at Ultimate Play the Game."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        62,
+        63
+      ],
+      "developer": "Trevor Lever and Peter Jones",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about the making of *Terrormolinos*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "Andy Walker and Paul Hodgson",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *Super Pipeline*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        70,
+        75
+      ],
+      "developer": "Brian Colin",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Rampage*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Shun Nakamura",
+      "platforms": [
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about the making of *Samba de Amigo*."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        88,
+        93
+      ],
+      "developer": "David Perry",
+      "platforms": [],
+      "description_markdown": "Interview about the later history of Shiny Entertainment."
+    },
+    {
+      "type": "interview",
+      "issue": 56,
+      "pages": [
+        103
+      ],
+      "developer": "Simon Ullyatt",
+      "platforms": [],
+      "description_markdown": "Interview about Cronosoft and homebrew publishing in a question-and-answer interview."
     },
     {
       "type": "interview",
       "issue": 57,
-      "pages": null,
+      "pages": [
+        28,
+        31
+      ],
+      "developer": "Jason and Chris Kingsley and James “Purple” Hampton",
+      "platforms": [
+        "Atari Jaguar"
+      ],
+      "description_markdown": "Interview about the making of *Alien vs Predator*."
+    },
+    {
+      "type": "interview",
+      "issue": 57,
+      "pages": [
+        58,
+        63
+      ],
+      "developer": "Andrew Spencer",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *International Soccer* and *International Basketball*."
+    },
+    {
+      "type": "interview",
+      "issue": 57,
+      "pages": [
+        66,
+        71
+      ],
+      "developer": "Sid Meier and Bill Stealey",
+      "platforms": [],
+      "description_markdown": "Interview about the founding and early years of MicroProse."
+    },
+    {
+      "type": "interview",
+      "issue": 57,
+      "pages": [
+        76,
+        80
+      ],
       "developer": "Eugene Lacey",
       "platforms": [],
-      "description_markdown": "Eugene Lacey was involved with *Computer & Video Games* magazine during the 1980s."
+      "description_markdown": "Interview about his career in UK games magazines."
+    },
+    {
+      "type": "interview",
+      "issue": 57,
+      "pages": [
+        84,
+        89
+      ],
+      "developer": "Kentaro Yoshida",
+      "platforms": [
+        "Sega Saturn"
+      ],
+      "description_markdown": "Interview about the making of *Panzer Dragoon* and *Panzer Dragoon II Zwei*."
     },
     {
       "type": "interview",
       "issue": 58,
-      "pages": null,
-      "developer": "Jim Levy",
+      "pages": [
+        24,
+        29
+      ],
+      "developer": "Sid Meier and Bill Stealey",
       "platforms": [],
-      "description_markdown": "Jim Levy was involved with the founding of Activision. He understood the desire among developers to receive credit for their work."
+      "description_markdown": "Interview about MicroProse’s later history."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        40,
+        43
+      ],
+      "developer": "Dan Marchant and John Croudy",
+      "platforms": [],
+      "description_markdown": "Interview about the making of *SWIV*."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        44,
+        45
+      ],
+      "developer": "Oliver Frey",
+      "platforms": [],
+      "description_markdown": "Interview about his cover art process for *Retro Gamer*."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        76,
+        79
+      ],
+      "developer": "Yukio Futatsugi",
+      "platforms": [
+        "Sega Saturn"
+      ],
+      "description_markdown": "Interview about the making of *Panzer Dragoon Saga*."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        80,
+        81
+      ],
+      "developer": "Steinar Lund",
+      "platforms": [],
+      "description_markdown": "Interview about his game cover art, including Llamasoft releases."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        82,
+        87
+      ],
+      "developer": "Jim Levy, David Crane and Alan Miller",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Interview about the founding and early years of Activision."
+    },
+    {
+      "type": "interview",
+      "issue": 58,
+      "pages": [
+        90,
+        93
+      ],
+      "developer": "Chris Shrigley",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *Bounder*."
     },
     {
       "type": "interview",
       "issue": 59,
-      "pages": null,
-      "developer": "Jon Hare",
+      "pages": [
+        24,
+        31
+      ],
+      "developer": "Jon Ritman",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about his game development career."
+    },
+    {
+      "type": "interview",
+      "issue": 59,
+      "pages": [
+        44,
+        51
+      ],
+      "developer": "Chris Roberts",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the history of *Wing Commander*."
+    },
+    {
+      "type": "interview",
+      "issue": 59,
+      "pages": [
+        52,
+        55
+      ],
+      "developer": "Ed Rotberg",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Battlezone*."
+    },
+    {
+      "type": "interview",
+      "issue": 59,
+      "pages": [
+        78,
+        79
+      ],
+      "developer": "Jon Stoodley",
       "platforms": [],
-      "description_markdown": "Jon Hare co-founded Sensible Software, the company behind *Sensible Soccer*. He has also worked at Argonaut Games."
+      "description_markdown": "Interview about his *Pac-Man* high-score strategies."
+    },
+    {
+      "type": "interview",
+      "issue": 59,
+      "pages": [
+        80,
+        87
+      ],
+      "developer": "Alan Miller and Bob Whitehead",
+      "platforms": [],
+      "description_markdown": "Interview about the history of Accolade."
+    },
+    {
+      "type": "interview",
+      "issue": 59,
+      "pages": [
+        90,
+        95
+      ],
+      "developer": "Robyn Miller",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Myst*."
     },
     {
       "type": "interview",
       "issue": 60,
-      "pages": null,
+      "pages": [
+        44,
+        47
+      ],
+      "developer": "Eugene Jarvis",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Robotron: 2084*."
+    },
+    {
+      "type": "interview",
+      "issue": 60,
+      "pages": [
+        50,
+        53
+      ],
+      "developer": "David Fox and Matthew Kane",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Zak McKracken and the Alien Mindbenders*."
+    },
+    {
+      "type": "interview",
+      "issue": 60,
+      "pages": [
+        72,
+        75
+      ],
+      "developer": "Csaba Soltész",
+      "platforms": [
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about the making of *Ecco the Dolphin: Defender of the Future*."
+    },
+    {
+      "type": "interview",
+      "issue": 60,
+      "pages": [
+        86,
+        90
+      ],
+      "developer": "Kazuma Kujo",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *R-Type*."
+    },
+    {
+      "type": "interview",
+      "issue": 60,
+      "pages": [
+        92,
+        95
+      ],
+      "developer": "Nick Pelling",
+      "platforms": [
+        "BBC Micro"
+      ],
+      "description_markdown": "Interview about the making of *Frak!*."
+    },
+    {
+      "type": "interview",
+      "issue": 60,
+      "pages": [
+        105
+      ],
       "developer": "Trevor Storey",
       "platforms": [],
-      "description_markdown": "Issue 60 of *Retro Gamer* featured an interview with Trevor Storey."
+      "description_markdown": "Interview about Ovine Design and his homebrew remakes in a question-and-answer interview."
     },
     {
       "type": "interview",
