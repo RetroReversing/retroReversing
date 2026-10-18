@@ -358,6 +358,28 @@ For a browsable archive with many files, use the reusable `archive-explorer.html
 
 The JSON uses `version`, `root`, `initialPath`, `locations`, `folders`, and `files`. Each file has a relative `path`, byte `size`, short `description`, and optional `basis` explaining whether the description was verified or inferred. An optional `note` appears below the browser. Publish names and metadata only when file contents cannot be hosted. Exclude `.DS_Store` and other incidental operating-system metadata. Inspect file headers, source declarations, or formats before assigning a purpose; when those do not establish one, say so. Omit copied or extraction timestamps when they do not preserve the original file dates.
 
+### Interactive game data visuals
+Use `game-data-visual.html` for a small interactive chart or source-system explanation. Pass a game-specific data object through `config` and a unique `id` for each instance. The include supports `bars`, `story`, `reveal`, `timeline`, `stages`, `pipeline`, and `card` variants. Its shared CSS and JavaScript contain no game-specific text or values. Load `/public/css/game-data-visual.css` and `/public/js/game-data-visual.js` once on the article.
+
+For example, `_data/example_game_visuals.yml` can define a chart:
+
+```yaml
+sound_files:
+  variant: bars
+  eyebrow: Sound archive
+  title: Sample formats
+  controls_label: Chart view
+  caption: Counts were measured from the surviving files.
+  options:
+    - key: format
+      label: By format
+      bars:
+        - {label: AIFF, value: 120}
+        - {label: VADPCM, value: 45}
+```
+
+Then place it in the article with `{% raw %}{% include game-data-visual.html id="example-sound-files" config=site.data.example_game_visuals.sound_files %}{% endraw %}`. The `variant`, `eyebrow`, `title`, and `caption` include parameters may override the same fields in `config`. See `_data/turok_game_visuals.yml` for complete examples of every variant. Keep source evidence and uncertainty in the surrounding article text and captions; diagrams are explanatory models unless they reproduce measured data.
+
 ---
 # Tips for making the pages more visually engaging and readable
 <div class="emoji">💡</div>

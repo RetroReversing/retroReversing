@@ -1,0 +1,167 @@
+audio:
+  variant: bars
+  eyebrow: The sound shelf / PR/tengine/sounds
+  title: 5,034 files
+  controls_label: Audio chart view
+  caption: Counts and approximate durations come from the audio headers in this copy. No sound files are served by this page.
+  options:
+    - key: format
+      label: By format
+      bars:
+        - {label: AIFF source, value: 4406}
+        - {label: N64 VADPCM, value: 628}
+    - key: duration
+      label: By duration
+      bars:
+        - {label: Under 0.5 s, value: 168}
+        - {label: 0.5-1 s, value: 991}
+        - {label: 1-2 s, value: 2942}
+        - {label: 2-5 s, value: 884}
+        - {label: 5 s or longer, value: 49}
+
+boss:
+  variant: story
+  eyebrow: Boss mode board / trex.c
+  title: One creature, many states
+  scene: T. REX
+  controls_label: Tyrannosaurus modes
+  caption: Selected entries from the BOSS_MODE_INFO table; the illustration is schematic.
+  options:
+    - key: entrance
+      label: Entrance
+      heading: Protected entrance
+      copy: The elevator idle and rage modes carry an invincibility flag while the encounter opens.
+      code: BF_INVINCIBLE | BF_ENTER_MODE
+    - key: hunt
+      label: Hunt
+      heading: Turn, run, bite
+      copy: Running and turning modes track Turok. A separate run-bite animation calls its own attack routine.
+      code: BF_RUNNING_MODE | BF_HEAD_TRACK_TUROK
+    - key: fire
+      label: Fire
+      heading: Flame sequence
+      copy: Breath-fire setup leads into fire-in, looping, and fire-out modes. The table marks these with a flame flag.
+      code: BF_FLAME_MODE
+    - key: cave
+      label: Cave
+      heading: The cave changes the moves
+      copy: Cave modes include a stoop, look, bite, nose hit, rage, and tail slam.
+      code: TRex_Code_CaveAttack
+
+map:
+  variant: reveal
+  eyebrow: Cartography / map.c
+  title: Discovery crosses connected regions
+  map_label: Illustrative connected-room map with a closed gate
+  reveal_label: Open gate
+  reset_label: Reset map
+  initial_note: The closed door keeps the next connected region hidden.
+  revealed_note: With the open-door flag set, the reveal can pass into neighboring regions.
+  caption: This simplified map illustrates REGFLAG_DOOR, REGFLAG_OPENDOOR, and recursive region reveal; it is not a game level.
+  cells:
+    - {label: '01 / START', initially_visible: true}
+    - {label: '02 / PASSAGE', initially_visible: true}
+    - {label: 'GATE / CLOSED', revealed_label: 'GATE / OPEN', gate: true}
+    - {label: '04 / CHAMBER'}
+    - {label: '05 / EXIT'}
+
+attract:
+  variant: timeline
+  eyebrow: Demo tape / attract.c
+  title: Input changes over time
+  controls_label: Illustrative demo beats
+  caption: A fabricated four-beat sequence explains the packed format; it is not a surviving demo recording.
+  options:
+    - key: ready
+      label: Ready
+      badge: '00'
+      heading: Starting point
+      copy: The header selects a warp and records how many frames the demo spans.
+      code: warp ID + total frames
+    - key: move
+      label: Move
+      badge: '01'
+      heading: Stick changes
+      copy: The X and Y axes have their own bit streams. A change is followed by a frame duration.
+      code: stick X / stick Y + time
+    - key: jump
+      label: Jump
+      badge: '02'
+      heading: Jump held
+      copy: Button bits reproduce a controller state; the duration says how long it persists.
+      code: R button + frame count
+    - key: fire
+      label: Fire
+      badge: '03'
+      heading: Fire held
+      copy: Playback reads the next packed button state, then advances by its stored duration.
+      code: Z trigger + frame count
+
+mechanisms:
+  variant: stages
+  eyebrow: Moving architecture / aidoor.c
+  title: Each machine has a clock
+  controls_label: Level mechanisms
+  caption: State sequences distilled from the advance routines; timing depends on object settings.
+  options:
+    - key: platform
+      label: Platform
+      steps: [Triggered, Waits for delay, Moves away, Resets]
+      note: A collapsing platform changes its region, waits, moves to its destination, then returns after another timer.
+    - key: pressure
+      label: Pressure action
+      steps: [Starts, Waits for message, Plays action, Restarts]
+      note: The pressure-action routine tests its interactive message timer before it enters the active animation.
+    - key: portal
+      label: Portal
+      steps: [Triggered, Makes warp, Raises effect, Stops]
+      note: The portal routine makes its region a warp and ramps an effect value upward while active.
+
+weapons:
+  variant: pipeline
+  eyebrow: Effects pipeline / aiweap.c + particle.c + fx.c
+  title: Three modules, one shot
+  controls_label: Weapon examples
+  caption: The selected labels identify source-code responsibilities, not a frame-accurate simulation.
+  options:
+    - key: arrow
+      label: Explosive arrow
+      nodes:
+        - {step: '01 / weapon', heading: Tek Bow update, code: aiweap.c}
+        - {step: '02 / projectile', heading: Explosive arrow, code: particle.c}
+        - {step: '03 / visual', heading: Two arrow swooshes, code: fx.c}
+    - key: chrono
+      label: Chronoscepter
+      nodes:
+        - {step: '01 / weapon', heading: Chronoscepter update, code: aiweap.c}
+        - {step: '02 / projectile', heading: Chronoscepter particle, code: particle.c}
+        - {step: '03 / visual', heading: Two chrono swooshes, code: fx.c}
+    - key: rocket
+      label: Rocket
+      nodes:
+        - {step: '01 / weapon', heading: Rocket update, code: aiweap.c}
+        - {step: '02 / projectile', heading: Rocket particle, code: particle.c}
+        - {step: '03 / visual', heading: Rocket swoosh, code: fx.c}
+
+training:
+  variant: card
+  eyebrow: Training card / train.c
+  title: The same lesson in three builds
+  controls_label: Training text language
+  caption: Text and bytes are short excerpts from train.c. The Japanese branch needs the game's font mapping to display as characters.
+  options:
+    - key: english
+      label: English
+      branch: '#ifdef ENGLISH'
+      heading: jumping
+      copy: "press the r\nbutton to jump."
+    - key: german
+      label: German
+      branch: '#ifdef GERMAN'
+      heading: springen
+      copy: "zum springen\nknopf r dr/cken."
+    - key: kanji
+      label: KANJI bytes
+      branch: '#ifdef KANJI'
+      heading: 2C 3D 27 35 27 29
+      copy: "2C 3D 27 36 64\nE9 13 22 28 41 33 0F 27"

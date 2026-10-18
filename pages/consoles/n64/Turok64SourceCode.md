@@ -28,8 +28,8 @@ editlink: /consoles/n64/Turok64SourceCode.md
 updatedAt: '2026-10-18'
 ---
 
-<link rel="stylesheet" href="/public/css/turok-game-visuals.css">
-<script defer src="/public/js/turok-game-visuals.js"></script>
+<link rel="stylesheet" href="/public/css/game-data-visual.css">
+<script defer src="/public/js/game-data-visual.js"></script>
 
 # Turok Dinosaur Hunter from cartridge to code
 <section class="rr-game-media-row">
@@ -176,7 +176,7 @@ The 624 entries are mappings inside the sound-effects bank, not a verified count
 
 The working directory also holds **5,034 individual sound files** under `PR/tengine/sounds`: 4,406 `.aif` sources and 628 `.n64` files whose headers identify Nintendo 64 VADPCM audio. The chart counts files, not unique sounds or the contents of a retail bank. Most run for one to two seconds - a glimpse of the many short effects behind the Lost Land.
 
-{% include turok-game-visual.html kind="audio" %}
+{% include game-data-visual.html id="turok-audio" config=site.data.turok_game_visuals.audio %}
 
 The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - Sony PSX, Method 2"** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
 
@@ -350,37 +350,37 @@ The path of a cheat flag runs from `CCheat__Update` into `CCheat__Draw` and the 
 ## A boss fight written as states
 The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. The storyboard below samples actual modes from that table; it is a guide to the code, not a recording of one playthrough.
 
-{% include turok-game-visual.html kind="boss" %}
+{% include game-data-visual.html id="turok-boss" config=site.data.turok_game_visuals.boss %}
 
 ---
 ## The map remembers where Turok has been
 The map in `map.c` is a discovery system, not a static poster. `RevealMap` runs every fifth update. It marks the player's current region and recursively visits nearby neighbors when their corners fall within a reveal distance. A closed door blocks that traversal until its region carries the open-door flag. The small model below shows that relationship; its rooms and distances are illustrative.
 
-{% include turok-game-visual.html kind="map" %}
+{% include game-data-visual.html id="turok-map" config=site.data.turok_game_visuals.map %}
 
 ---
 ## How an unattended game plays itself
 `attract.c` stores a demonstration as a **starting warp and a stream of controller changes**. Its header records frame count and separate bit offsets for buttons and stick axes. The button reader rebuilds A, B, R, Z, C-button and right D-pad states; a compact time packet says how many frames to hold them. Recording code is present behind a disabled compile-time switch, while playback remains in the source. Select a beat below to see the idea. The sequence is illustrative, not extracted from a recorded demo.
 
-{% include turok-game-visual.html kind="attract" %}
+{% include game-data-visual.html id="turok-attract" config=site.data.turok_game_visuals.attract %}
 
 ---
 ## The level is full of little machines
 `aidoor.c` gives doors, pressure actions, collapsing platforms, portals, locks, and drains their own advance routines. They use state flags and timers alongside animations. A collapsing platform, for example, waits, moves away, pauses, and moves back; a pressure action checks whether it has received a message before entering its active animation. The cutaway translates those routines into stages.
 
-{% include turok-game-visual.html kind="mechanisms" %}
+{% include game-data-visual.html id="turok-mechanisms" config=site.data.turok_game_visuals.mechanisms %}
 
 ---
 ## From trigger pull to screen effect
 The weapon code in `aiweap.c` dispatches updates for the Tek Bow, rocket launcher, and Chronoscepter. `particle.c` handles projectile behavior and collision effects; it starts named **swoosh** trails for explosive arrows and Chronoscepter shots. `fx.c` maintains and draws those trails. Pick a shot to see how the work crosses modules. The paths show code responsibilities rather than a frame-accurate simulation.
 
-{% include turok-game-visual.html kind="weapons" %}
+{% include game-data-visual.html id="turok-weapons" config=site.data.turok_game_visuals.weapons %}
 
 ---
 ## Three versions of the training room
 The instructions in `train.c` are part of the game code. Conditional sections supply English, German, and `KANJI` text for lessons such as jumping, swimming, and climbing. English and German are readable strings in the archive, although the German text uses characters such as `/` in place of accented letters for the game's font. The Japanese branch stores **font-encoded byte values**, so those bytes cannot be presented as ordinary Japanese text without the game's character mapping. Compare how one jumping prompt is represented below.
 
-{% include turok-game-visual.html kind="training" %}
+{% include game-data-visual.html id="turok-training" config=site.data.turok_game_visuals.training %}
 
 ---
 ## Controller Pak saves
