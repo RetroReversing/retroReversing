@@ -11,10 +11,10 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-08-30T23:43:40Z",
         "last_commit_url": "https://codeberg.org/Ivylag/leaflitter/commit/406ceb24edd2898d42d43d8c99865ed511e811c8",
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
@@ -32,14 +32,14 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-05-22T20:11:49Z",
         "last_commit_url": "https://github.com/3dsdecomp/RedPepper/commit/6bd828b729f2442d18e7a586b6858a5fc6aeb6cd",
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 110
+        "github_stars": 111
       },
       "ai_used": null
     },
@@ -53,14 +53,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-04T19:43:43Z",
         "last_commit_url": "https://github.com/zeldaret/oot3d/commit/a87ddae43252cb3add71bf1003e7391bbe006033",
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 88
+        "github_stars": 89
       },
       "ai_used": null
     },
@@ -74,12 +74,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-12-09T22:00:21Z",
         "last_commit_url": "https://github.com/Darxoon/leaflitter/commit/daab2d1ad7d31e9080f727391ebd4f86cb8a7198",
         "default_branch": "master",
         "archived": true,
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 12
       },
@@ -95,14 +95,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-15T12:54:52Z",
         "last_commit_url": "https://github.com/coccofresco/TriAevum/commit/23eac6b02a3afb82d7e5c9b2efc7b9d6aa37f94c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 495
+        "github_stars": 503
       },
       "ai_used": null
     },
@@ -116,14 +116,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-17T10:42:54Z",
+        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-16T13:32:13Z",
         "last_commit_url": "https://github.com/gradenGnostic/pokemoon/commit/7a5936eee5d08889d6cc534e6916a86b39fde694",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -138,12 +138,12 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 6,
-        "checked_at": "2026-10-17T10:42:54Z",
-        "last_commit_at": "2026-10-14T12:23:34Z",
-        "last_commit_url": "https://github.com/RedShyGuy/acnl-decomp/commit/224295892706bdf10739681289c4c7033f9efe9d",
+        "checked_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-18T07:51:51Z",
+        "last_commit_url": "https://github.com/RedShyGuy/acnl-decomp/commit/5371f9857c0338da594e4780006ca3357fe5a8c8",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-17T10:42:54Z",
+        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
