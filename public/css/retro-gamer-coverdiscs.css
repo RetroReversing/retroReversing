@@ -7,7 +7,6 @@
   margin: 1rem 0 3rem;
   padding: clamp(1rem, 2.5vw, 2rem);
   border: 1px solid var(--rr-color-card-border);
-  border-top: 3px solid var(--rr-color-accent);
   background: var(--rr-color-card-bg);
   box-shadow: 0 .35rem 1.25rem var(--rr-color-card-shadow);
 }
