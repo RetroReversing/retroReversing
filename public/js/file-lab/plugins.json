@@ -57,6 +57,7 @@
     {
       "id": "r2",
       "title": "R2",
+      "requiresIsolation": true,
       "module": "/public/js/file-lab/plugins/r2/dist/index.js",
       "css": "plugin.css",
       "order": 35,
@@ -67,6 +68,7 @@
     {
       "id": "pyre",
       "title": "Pyre",
+      "requiresIsolation": true,
       "module": "/public/js/file-lab/plugins/pyre/dist/index.js",
       "css": "plugin.css",
       "order": 36,

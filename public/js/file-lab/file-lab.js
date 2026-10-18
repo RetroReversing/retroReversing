@@ -577,6 +577,16 @@ async function activateCurrentPlugin(file) {
   });
 
   activePanel = panel;
+  var entry = state.matchingPlugins.find(function (item) {
+    return item.id === state.activePluginId;
+  });
+  if (entry && entry.requiresIsolation && !window.crossOriginIsolated) {
+    panel.innerHTML = '<div class="rr-file-lab-strings-empty">' +
+      escapeHtml(entry.title) + ' needs browser isolation for its analysis engine. ' +
+      '<a href="/file-lab/" class="rr-file-lab-full-view-link">Continue in File Lab</a> to use it.</div>';
+    panel.querySelector(".rr-file-lab-full-view-link").addEventListener("click", persistSession);
+    return;
+  }
   await ensureFileKey(file);
   var ctx = createFileContext(file);
   await registry.activatePlugin(state.activePluginId, ctx, panel);
@@ -698,8 +708,7 @@ function handleFileInput(event) {
 function bindEvents() {
   if (els.trigger) {
     els.trigger.addEventListener("click", function (event) {
-      if (event.defaultPrevented) return;
-      if (event.button !== 0) return;
+      if (event.defaultPrevented || event.button !== 0) return;
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       openModal();

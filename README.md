@@ -23,7 +23,7 @@ node scripts/validate-file-lab-assets.mjs _site
 ```
 
 After deploying, open `/file-lab/`, load an executable and check the R2 and Pyre views. PS2 EE ELF files use the bundled R5900 spec; IOP IRX modules use bundled MIPS32 specs.
-R2 also requires the root `coi-serviceworker.min.js` to establish cross-origin isolation, and both engines download external runtime assets.
+R2 also requires the root `coi-serviceworker.js` to establish cross-origin isolation on `/file-lab/`, and both engines download external runtime assets.
 Build validation checks the locally published assets; browser analysis verifies those runtime dependencies.
 
 ---

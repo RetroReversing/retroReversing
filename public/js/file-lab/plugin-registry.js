@@ -38,6 +38,7 @@ function normalizeEntry(entry) {
     css: resolveAssetUrl(base, entry.css || null),
     match: entry.match || null,
     preload: entry.preload === true,
+    requiresIsolation: entry.requiresIsolation === true,
     enabled: entry.enabled !== false,
     order: typeof entry.order === "number" ? entry.order : 100,
     source: entry.source || null,

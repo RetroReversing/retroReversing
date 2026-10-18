@@ -4,7 +4,7 @@ This guide covers everything needed to build a File Lab plugin, publish it to a 
 
 File Lab plugins are ES modules. Each plugin renders a tab when a user opens a matching file. Built-in plugins ship with the site in `plugins.json`; third-party plugins ship a standalone `file-lab-plugin.json` manifest that users paste into File Lab's install field.
 
-The File Lab UI opens as an in-page modal from the site navbar (and also as a full page at `/file-lab/`). Cross-origin isolation for SharedArrayBuffer / WASM tools is provided by a root-scoped COI service worker, which is required because the modal runs in the top-level site document. Plugin authors do not need to handle isolation.
+The File Lab UI opens as a popup from the site navbar. Tools that require SharedArrayBuffer continue on the isolated `/file-lab/` page; ordinary articles are not isolated so their video and comment embeds work. Plugin authors can set `requiresIsolation: true` in a plugin manifest when their tool needs that environment.
 
 ---
 

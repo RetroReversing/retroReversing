@@ -1,0 +1,30 @@
+{% assign archive_layout = include.layout | default: 'sgi' %}
+<link rel="stylesheet" href="/public/css/archive-explorer.css">
+<section class="rr-archive" data-rr-archive-explorer data-manifest="{{ include.manifest | escape }}" data-layout="{{ archive_layout | escape }}" aria-label="{{ include.title | default: 'Interactive archive explorer' | escape }}">
+  <div class="rr-archive__titlebar"><span>{{ include.title | default: 'Archive Explorer' | escape }}</span><span>{{ include.layout_label | default: archive_layout | escape }}</span></div>
+  <div class="rr-archive__toolbar">
+    <button class="rr-archive__tool" type="button" data-archive-back aria-label="Go back">Back</button>
+    <button class="rr-archive__tool" type="button" data-archive-up aria-label="Go to parent folder">Up</button>
+    <nav class="rr-archive__breadcrumbs" data-archive-breadcrumbs aria-label="Archive path"></nav>
+    <label class="rr-archive__search"><span class="rr-archive__visually-hidden">Search all archive paths</span><input type="search" data-archive-search placeholder="Find a file in the archive" autocomplete="off"></label>
+  </div>
+  <div class="rr-archive__workspace">
+    <aside class="rr-archive__locations" aria-label="Archive locations">
+      <span class="rr-archive__locations-title">Places</span>
+      <div data-archive-locations></div>
+    </aside>
+    <div class="rr-archive__filepane">
+      <div class="rr-archive__listhead" aria-hidden="true"><span></span><span>Name</span><span>Size</span></div>
+      <div class="rr-archive__list" data-archive-list aria-label="Files and folders in the selected location"></div>
+      <div class="rr-archive__pager" data-archive-pager hidden>
+        <button type="button" data-archive-prev>Previous</button>
+        <span data-archive-page></span>
+        <button type="button" data-archive-next>Next</button>
+      </div>
+    </div>
+    <aside class="rr-archive__detail" data-archive-detail aria-live="polite"></aside>
+  </div>
+  <p class="rr-archive__status" data-archive-status role="status">Loading archive index...</p>
+  <p class="rr-archive__note" data-archive-note hidden></p>
+</section>
+<script defer src="/public/js/archive-explorer.js"></script>

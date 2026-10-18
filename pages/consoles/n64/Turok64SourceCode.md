@@ -8,7 +8,7 @@ title: Turok 64 Official Source Code Analysis
 image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
 videocarousel:
   - title: Turok 64 Official Source Code Found
-    image: https://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
+    image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
     youtube: 'ONEy_ybKWsg'
   - title: The Making of Turok Dinosaur Hunter for Nintendo 64
     image: /public/games/turok/Turok3_DoctorV64.png
@@ -25,8 +25,11 @@ breadcrumbs:
     url: '#'
 recommend: n64
 editlink: /consoles/n64/Turok64SourceCode.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
+
+<link rel="stylesheet" href="/public/css/game-data-visual.css">
+<script defer src="/public/js/game-data-visual.js"></script>
 
 # Turok Dinosaur Hunter from cartridge to code
 <section class="rr-game-media-row">
@@ -171,6 +174,10 @@ Sound effects | `sfx.ctl` - 127,688 bytes, one instrument with 624 sound entries
 
 The 624 entries are mappings inside the sound-effects bank, not a verified count of distinct recorded samples. The surviving ROM image contains the `testbank` pair byte for byte, but its sound-effects control bank has **228 sound entries** and differs from the loose `sfx.ctl`. The loose `sfx.tbl` does not appear byte for byte in that ROM image either.
 
+The working directory also holds **5,034 individual sound files** under `PR/tengine/sounds`: 4,406 `.aif` sources and 628 `.n64` files whose headers identify Nintendo 64 VADPCM audio. The chart counts files, not unique sounds or the contents of a retail bank. Most run for one to two seconds - a glimpse of the many short effects behind the Lost Land.
+
+{% include game-data-visual.html id="turok-audio" config=site.data.turok_game_visuals.audio %}
+
 The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - Sony PSX, Method 2"** and records a conversion to SGI assembler on **13 September 1996**. It documents the unpacker's code lineage, not a PlayStation build of Turok. In `boot.c`, the `RNC` signature check applies to the loaded code segment; `cart.c` handles individual asset blocks separately.
 
 ---
@@ -204,6 +211,13 @@ The game-specific trail begins in `tengine`. Its `spec` file maps the ROM layout
 - dosvers/ - host-side source and tools
 {% endcapture %}
 {% include connected-folder-tree.html folder="tengine" path="src/PR/tengine" body=turok_tree_body version="Source map" content=turok_tree_items %}
+
+## Browse the archive as a desktop
+This **SGI desktop-inspired simulation** lets you explore the names and folders in this copy of the Turok archive. Start in `PR/tengine`, where the game code sits, or jump to the Nintendo SDK samples and the neighboring workstation software. Select a file to see its size and a short account of its purpose. The index covers **10,478 files in 160 folders**, but contains no file contents.
+
+{% include archive-explorer.html manifest="/public/data/turok-source-archive.json" layout="sgi" title="Turok Source Archive / src" layout_label="SGI desktop simulation" %}
+
+The source copy gives every file an **October 2026** filesystem date, matching when this copy was made. Those dates do not identify when Iguana wrote the files, so the explorer omits them.
 
 ## Four versions of the asset directory
 The three loose `cartdata` files and the ROM image each contain an eleven-block directory. `cartdir.h` names those blocks: graphic objects, textures, levels, sound-effect definitions, and other game data. Their matching structure hides different contents. These are counts of indexed entries, not counts of playable maps or original art projects:
@@ -332,6 +346,43 @@ These are whitespace-normalized excerpts from `cheats.c`; the calculations and c
 
 The path of a cheat flag runs from `CCheat__Update` into `CCheat__Draw` and the game system that consumes it. The source distinguishes flags that are enabled for display from flags that are active in play.
 
+---
+## A boss fight written as states
+The Tyrannosaurus is not one long animation. `trex.c` has a table that pairs **each boss mode** with an animation, update callback, speed, and flags. A mode can track Turok's head position, protect the boss during an entrance, enable a laser, or mark a flame attack. `boss.c` supplies the shared boss-mode machinery. The storyboard below samples actual modes from that table; it is a guide to the code, not a recording of one playthrough.
+
+{% include game-data-visual.html id="turok-boss" config=site.data.turok_game_visuals.boss %}
+
+---
+## The map remembers where Turok has been
+The map in `map.c` is a discovery system, not a static poster. `RevealMap` runs every fifth update. It marks the player's current region and recursively visits nearby neighbors when their corners fall within a reveal distance. A closed door blocks that traversal until its region carries the open-door flag. The small model below shows that relationship; its rooms and distances are illustrative.
+
+{% include game-data-visual.html id="turok-map" config=site.data.turok_game_visuals.map %}
+
+---
+## How an unattended game plays itself
+`attract.c` stores a demonstration as a **starting warp and a stream of controller changes**. Its header records frame count and separate bit offsets for buttons and stick axes. The button reader rebuilds A, B, R, Z, C-button and right D-pad states; a compact time packet says how many frames to hold them. Recording code is present behind a disabled compile-time switch, while playback remains in the source. Select a beat below to see the idea. The sequence is illustrative, not extracted from a recorded demo.
+
+{% include game-data-visual.html id="turok-attract" config=site.data.turok_game_visuals.attract %}
+
+---
+## The level is full of little machines
+`aidoor.c` gives doors, pressure actions, collapsing platforms, portals, locks, and drains their own advance routines. They use state flags and timers alongside animations. A collapsing platform, for example, waits, moves away, pauses, and moves back; a pressure action checks whether it has received a message before entering its active animation. The cutaway translates those routines into stages.
+
+{% include game-data-visual.html id="turok-mechanisms" config=site.data.turok_game_visuals.mechanisms %}
+
+---
+## From trigger pull to screen effect
+The weapon code in `aiweap.c` dispatches updates for the Tek Bow, rocket launcher, and Chronoscepter. `particle.c` handles projectile behavior and collision effects; it starts named **swoosh** trails for explosive arrows and Chronoscepter shots. `fx.c` maintains and draws those trails. Pick a shot to see how the work crosses modules. The paths show code responsibilities rather than a frame-accurate simulation.
+
+{% include game-data-visual.html id="turok-weapons" config=site.data.turok_game_visuals.weapons %}
+
+---
+## Three versions of the training room
+The instructions in `train.c` are part of the game code. Conditional sections supply English, German, and `KANJI` text for lessons such as jumping, swimming, and climbing. English and German are readable strings in the archive, although the German text uses characters such as `/` in place of accented letters for the game's font. The Japanese branch stores **font-encoded byte values**, so those bytes cannot be presented as ordinary Japanese text without the game's character mapping. Compare how one jumping prompt is represented below.
+
+{% include game-data-visual.html id="turok-training" config=site.data.turok_game_visuals.training %}
+
+---
 ## Controller Pak saves
 `PR/tengine/control.c` holds `OSPfs ControllerPak`, directory state, and the game's Controller Pak identifiers. Its `GameCode` is `NTUE` and its `CompanyCode` is `51`. The `GameName` array in this copy uses encoded byte values, rather than the plain ASCII `turok` array left in a comment. The save payload is modeled by `CPersistantData` in `tengine.h`, including inventory, level keys, settings, health, and cheat flags.
 
@@ -526,6 +577,31 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 {% include video-carousel.html videocarousel=page.videocarousel %}
 
 ---
+# Other software in the archive
+The source-code find preserves more than the game itself. Three folders near Turok's code open windows onto the larger collection of software around it.
+
+## An SGI preprocessor from GNU
+Among the Turok files is a small detour into the workstation's software: `src/gnu/acpp`. It is the source code for an **ANSI C preprocessor**, the program that expands `#include` files and macros before the compiler tackles the C code. It is not a hidden Turok engine or an Iguana-made tool.
+
+The folder's `README` identifies it as **GNU `cpp` with a few compatibility changes**. Its `version.c` reports version `1.35.95x`. [Silicon Graphics' `acpp` manual](https://techpubs.jurassic.nl/manpages_0530/cat5/acpp.html) explains why it might be found beside game code from an SGI workstation: IRIX supplied this GNU-derived preprocessor as an option to the C compiler, selected with `cc -acpp` [^31].
+
+Neither Turok's `Makefile` nor its ROM `spec` names `acpp`, so the folder's presence alone cannot tell us whether this preprocessor was used for a Turok build. It shows the wider workstation software caught up in the source-code find.
+
+---
+## SLATEC: a library of mathematics
+Another unexpected neighbor is `src/slatec`. It contains **SLATEC**, a public library of more than 1,400 mathematical and statistical routines written in Fortran 77. Developed across US national laboratories, it offered ready-made calculations for problems such as numerical integration and special functions [^32].
+
+The copy here has an unusual shape. Its large `sladaf` file holds the Fortran routines in fixed-length records, while `slatbl`, `slakwd`, and `slacat` act as indexes to their names, keywords, and categories. The first routine introduces itself as the **SLATEC Common Mathematical Library**. The files resemble a searchable shelf of mathematical recipes, complete with a card catalog.
+
+No reference to SLATEC appears in Turok's game source or build files, so its presence does not establish that the game used these routines. Alongside `acpp`, it shows how a recovered source collection can preserve useful software that happened to sit near the game, as well as the code that made it.
+
+---
+## A one-line clue to the SGI desktop
+The entire `src/X11/motif` folder contains just one tiny file: `mmkmf`. Its 18 bytes spell out `/usr/bin/X11/mmkmf`, a path on an IRIX workstation. This looks like a saved link target, not a copy of the Motif toolkit.
+
+**Motif** supplied the buttons, menus, and windows of many X11 desktop programs. On SGI's IRIX, [`mmkmf` generated Makefiles for Motif applications](https://techpubs.jurassic.nl/library/manuals/3000/007-3951-001/sgi_html/ch01.html). This stray path offers a glimpse of the graphical workstation environment around the archive. Turok's engine and build files do not refer to Motif or `mmkmf`, so it does not establish that the game or Iguana's authoring tools used the toolkit.
+
+---
 # References
 [^1]: [Turok Forums discussion of the source archive](https://www.turokforums.com/index.php?topic=645.0)
 [^2]: [Community discussion of the discovered source code](https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/)
@@ -557,3 +633,5 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 [^28]: [Nightdive Turok remaster level editor announcement](https://www.gamespot.com/articles/see-turok-pc-remasters-level-editor-in-action-out-/1100-6446653/)
 [^29]: [Nintendo 64 development-board manual for the SGI Indy](https://tech-pubs.net/sgi_developer/books/ultra64-guide/index.html)
 [^30]: [Interview with Turok composer Darren Mitchell about his equipment and workflow](https://duke64nukem.com/2018/02/10/darren-mitchell-interview-turok/)
+[^31]: [SGI IRIX 5.3 `acpp` manual page](https://techpubs.jurassic.nl/manpages_0530/cat5/acpp.html)
+[^32]: [Netlib SLATEC Common Mathematical Library catalog](https://www.netlib.org/slatec/)

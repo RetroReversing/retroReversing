@@ -1,0 +1,52 @@
+{% assign visual = include.config %}
+{% assign visual_variant = include.variant | default: visual.variant %}
+{% assign visual_id = include.id | default: "game-data-visual" %}
+{% assign visual_eyebrow = include.eyebrow | default: visual.eyebrow %}
+{% assign visual_title = include.title | default: visual.title %}
+{% assign visual_caption = include.caption | default: visual.caption %}
+{% if visual and visual_variant %}
+<figure class="rr-game-visual rr-game-visual--{{ visual_variant | escape }}" id="{{ visual_id | escape }}" data-game-data-visual data-variant="{{ visual_variant | escape }}">
+  <div class="rr-game-visual__head"><span class="rr-game-visual__eyebrow">{{ visual_eyebrow | escape }}</span><strong>{{ visual_title | escape }}</strong></div>
+  {% if visual_variant == "story" %}
+    <div class="rr-game-visual__scene" aria-hidden="true"><span class="rr-game-visual__orb"></span><span class="rr-game-visual__scene-label">{{ visual.scene | escape }}</span><span class="rr-game-visual__horizon"></span></div>
+  {% endif %}
+  {% if visual_variant == "reveal" %}
+    <div class="rr-game-visual__map" role="img" aria-label="{{ visual.map_label | escape }}">
+      {% for cell in visual.cells %}<span data-map-cell{% if cell.initially_visible %} class="is-revealed"{% elsif cell.gate %} class="is-gate"{% endif %}{% if cell.revealed_label %} data-revealed-label="{{ cell.revealed_label | escape }}"{% endif %} data-initial-label="{{ cell.label | escape }}" data-initially-visible="{% if cell.initially_visible %}true{% else %}false{% endif %}">{{ cell.label | escape }}</span>{% endfor %}
+    </div>
+    <div class="rr-game-visual__switch" role="group" aria-label="{{ visual.map_label | escape }} controls"><button type="button" data-reveal-action="reveal">{{ visual.reveal_label | escape }}</button><button type="button" data-reveal-action="reset">{{ visual.reset_label | escape }}</button></div>
+    <p class="rr-game-visual__note" data-reveal-note data-initial-note="{{ visual.initial_note | escape }}" data-revealed-note="{{ visual.revealed_note | escape }}" aria-live="polite">{{ visual.initial_note | escape }}</p>
+  {% else %}
+    {% if visual.options %}
+      <div class="rr-game-visual__switch{% if visual_variant == "timeline" %} rr-game-visual__timeline{% endif %}" role="group" aria-label="{{ visual.controls_label | escape }}">
+        {% for option in visual.options %}<button type="button" data-visual-choice="{{ option.key | escape }}" aria-controls="{{ visual_id | escape }}-{{ option.key | escape }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{% if visual_variant == "timeline" and option.badge %}<b>{{ option.badge | escape }}</b>{% endif %}<span>{{ option.label | escape }}</span></button>{% endfor %}
+      </div>
+      {% for option in visual.options %}
+        {% if visual_variant == "bars" %}
+          <div class="rr-game-visual__bars" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}" aria-live="polite"{% unless forloop.first %} hidden{% endunless %}>
+            {% for bar in option.bars %}<div class="rr-game-visual__bar-row"><span>{{ bar.label | escape }}</span><span class="rr-game-visual__bar-track"><i data-bar-value="{{ bar.value }}"></i></span><strong>{{ bar.value }}</strong></div>{% endfor %}
+          </div>
+        {% elsif visual_variant == "stages" %}
+          <div id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+            <div class="rr-game-visual__steps" aria-label="{{ option.label | escape }} stages">{% for step in option.steps %}<span>{{ step | escape }}</span>{% endfor %}</div>
+            <p class="rr-game-visual__note">{{ option.note | escape }}</p>
+          </div>
+        {% elsif visual_variant == "pipeline" %}
+          <div class="rr-game-visual__pipeline" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+            {% for node in option.nodes %}<div><small>{{ node.step | escape }}</small><strong>{{ node.heading | escape }}</strong><code>{{ node.code | escape }}</code></div>{% endfor %}
+          </div>
+        {% elsif visual_variant == "card" %}
+          <div class="rr-game-visual__card" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}" aria-live="polite"{% unless forloop.first %} hidden{% endunless %}>
+            <small>{{ option.branch | escape }}</small><strong>{{ option.heading | escape }}</strong><p>{{ option.copy | escape | newline_to_br }}</p>
+          </div>
+        {% else %}
+          <div class="rr-game-visual__readout" id="{{ visual_id | escape }}-{{ option.key | escape }}" data-visual-panel="{{ option.key | escape }}" aria-live="polite"{% unless forloop.first %} hidden{% endunless %}>
+            <strong>{{ option.heading | escape }}</strong><p>{{ option.copy | escape }}</p>{% if option.code %}<code>{{ option.code | escape }}</code>{% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+  {% if visual_caption %}<figcaption>{{ visual_caption | escape }}</figcaption>{% endif %}
+</figure>
+{% endif %}

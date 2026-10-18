@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const source = fileURLToPath(new URL("../", import.meta.url));
 const site = resolve(process.argv[2] || "_site");
 const required = new Set([
-  "coi-serviceworker.min.js",
+  "coi-serviceworker.js",
   "public/js/file-lab/file-lab.js",
   "public/js/file-lab/virtual-scroll.js",
   "public/js/file-lab/plugins/r2/dist/r2-worker.js",

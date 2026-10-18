@@ -33,6 +33,16 @@
   --rr-color-pre-bg: #ffffff;
   --rr-color-pre-border: #eaeaea;
 
+  /* SGI skin for the reusable archive explorer */
+  --rr-color-archive-sgi-chrome: #345a83;
+  --rr-color-archive-sgi-chrome-text: #ffffff;
+  --rr-color-archive-sgi-surface: #ffffff;
+  --rr-color-archive-sgi-panel: #edf1f3;
+  --rr-color-archive-sgi-selected: #dcebf5;
+  --rr-color-archive-sgi-folder: #80b9d0;
+  --rr-color-archive-sgi-file-icon: #f8fbfd;
+  --rr-color-archive-sgi-file-border: #627b8d;
+
   /* Mermaid diagrams */
   --rr-color-mermaid-node-bg: #eef4ff;
   --rr-color-mermaid-node-border: #5c86c5;
@@ -42,6 +52,11 @@
   --rr-color-mermaid-control-bg: #ffffff;
   --rr-color-mermaid-control-border: #b8c0c9;
   --rr-color-mermaid-control-text: #222222;
+
+  /* Interactive game data visuals */
+  --rr-color-game-visual-panel: #edf1f3;
+  --rr-color-game-visual-selected: #dcebf5;
+  --rr-color-game-visual-graphic: #345a83;
 
   /* Sidebar widgets on content pages */
   --rr-color-widget-title: #424242;
@@ -210,6 +225,15 @@
     --rr-color-pre-bg: #1a1a1a;
     --rr-color-pre-border: rgba(255, 255, 255, 0.12);
 
+    --rr-color-archive-sgi-chrome: #31516a;
+    --rr-color-archive-sgi-chrome-text: #ffffff;
+    --rr-color-archive-sgi-surface: #171d21;
+    --rr-color-archive-sgi-panel: #212b31;
+    --rr-color-archive-sgi-selected: #29465a;
+    --rr-color-archive-sgi-folder: #5b9bb8;
+    --rr-color-archive-sgi-file-icon: #c7d7e2;
+    --rr-color-archive-sgi-file-border: #8da8b9;
+
     --rr-color-mermaid-node-bg: #193447;
     --rr-color-mermaid-node-border: #74b9de;
     --rr-color-mermaid-node-text: #f2f7fb;
@@ -218,6 +242,10 @@
     --rr-color-mermaid-control-bg: #243440;
     --rr-color-mermaid-control-border: #698296;
     --rr-color-mermaid-control-text: #f2f7fb;
+
+    --rr-color-game-visual-panel: #212b31;
+    --rr-color-game-visual-selected: #29465a;
+    --rr-color-game-visual-graphic: #9ad7f3;
 
     --rr-color-widget-title: rgba(255, 255, 255, 0.92);
     --rr-color-widget-border: rgba(255, 255, 255, 0.12);

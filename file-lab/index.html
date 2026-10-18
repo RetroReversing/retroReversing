@@ -15,13 +15,8 @@ title: File Lab
 </head>
 <body class="rr-file-lab-page">
   {% include file-lab-app.html %}
-  {% comment %}Same root COI worker as the site modal; required for SharedArrayBuffer.{% endcomment %}
-  <script>
-    window.coi = {
-      coepCredentialless: function () { return false; }
-    };
-  </script>
-  <script src="{{ '/coi-serviceworker.min.js' | relative_url }}"></script>
+  {% comment %}Only this page is cross-origin isolated for SharedArrayBuffer tools.{% endcomment %}
+  <script src="{{ '/coi-serviceworker.js' | relative_url }}"></script>
   <script type="module" src="{{ '/public/js/file-lab/file-lab.js' | relative_url }}"></script>
 </body>
 </html>
