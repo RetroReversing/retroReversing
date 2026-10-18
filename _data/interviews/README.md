@@ -6,8 +6,10 @@ a `type`; use `interview` for developer interviews. An interview entry records
 its integer `issue`, `developer`, `platforms` array, and
 `description_markdown`. Set `pages` to a one-element array for a single printed
 page, a two-element array for an inclusive printed page range, or `null` when
-the pages have not been verified. An empty `platforms` array means the platform
-has not been verified; do not infer platform tags from a developer's other work.
+the pages have not been verified. An empty `platforms` array means no platform
+was substantiated or the interview is not platform-specific (for example, an
+interview about a magazine or event). Do not infer platform tags from a
+developer's other work.
 
 Use the shared Liquid include on a magazine page or a platform page:
 

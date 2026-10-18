@@ -877,7 +877,10 @@
         71
       ],
       "developer": "Geoff Brown",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "ZX Spectrum"
+      ],
       "description_markdown": "The US Gold founder recounts the company's origins, imports, publishing, and relationships with developers."
     },
     {
@@ -939,7 +942,13 @@
         41
       ],
       "developer": "Gary Bracey and former Ocean staff",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC",
+        "Amiga",
+        "Atari ST"
+      ],
       "description_markdown": "Former Ocean staff discuss the studio's games, licensing, production, and working conditions."
     },
     {
@@ -980,7 +989,11 @@
         69
       ],
       "developer": "Peter Stone and Richard Leinfellner",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
       "description_markdown": "The Palace Software founders recount the company's origins, development, publishing, and Barbarian."
     },
     {
@@ -1019,7 +1032,13 @@
         29
       ],
       "developer": "Former Gremlin Graphics staff",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC",
+        "Amiga",
+        "Atari ST"
+      ],
       "description_markdown": "A developer lookback uses staff recollections to trace Gremlin Graphics and its games."
     },
     {
@@ -1055,7 +1074,9 @@
         57
       ],
       "developer": "Jeff Kinder",
-      "platforms": [],
+      "platforms": [
+        "Arcade"
+      ],
       "description_markdown": "A short Q&A with the Dragon's Lair Project creator covers his archive and preservation of laserdisc arcade games."
     },
     {
@@ -1066,7 +1087,9 @@
         65
       ],
       "developer": "Trip Hawkins",
-      "platforms": [],
+      "platforms": [
+        "3DO"
+      ],
       "description_markdown": "Hawkins discusses founding Electronic Arts and his approach to the games business."
     },
     {
@@ -1165,7 +1188,11 @@
         67
       ],
       "developer": "Dave Palmer and Richard Morton",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amiga"
+      ],
       "description_markdown": "Former Hi-Tec Software staff discuss licensed cartoon games, production, and the small studio's work."
     },
     {
@@ -1200,7 +1227,11 @@
         29
       ],
       "developer": "Yuji Naka",
-      "platforms": [],
+      "platforms": [
+        "Mega Drive",
+        "Saturn",
+        "Dreamcast"
+      ],
       "description_markdown": "Naka contributes to a Sonic Team lookback covering its games and studio history."
     },
     {
@@ -1264,7 +1295,11 @@
         39
       ],
       "developer": "David Fox, Noah Falstein, and LucasArts staff",
-      "platforms": [],
+      "platforms": [
+        "Apple II",
+        "Commodore 64",
+        "PC"
+      ],
       "description_markdown": "The first LucasArts lookback uses developer recollections to cover its early games and technology."
     },
     {
@@ -1301,7 +1336,12 @@
         79
       ],
       "developer": "Mike Day",
-      "platforms": [],
+      "platforms": [
+        "Arcade",
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Day discusses converting the Hard Drivin' arcade game for home computers."
     },
     {
@@ -1401,7 +1441,12 @@
         75
       ],
       "developer": "Former Core Design staff",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "PC",
+        "PlayStation"
+      ],
       "description_markdown": "A company profile uses former staff recollections to cover Core Design and the creation of Tomb Raider."
     },
     {
@@ -1412,7 +1457,9 @@
         81
       ],
       "developer": "Ralph Baer",
-      "platforms": [],
+      "platforms": [
+        "Magnavox Odyssey"
+      ],
       "description_markdown": "Baer discusses developing the Brown Box and the beginnings of home video games."
     },
     {
@@ -1487,7 +1534,11 @@
         69
       ],
       "developer": "David Darling",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Darling discusses Codemasters' origins, games, publishing, and later direction."
     },
     {
@@ -1577,7 +1628,9 @@
         103
       ],
       "developer": "Derrick Sobodash",
-      "platforms": [],
+      "platforms": [
+        "Mega Drive"
+      ],
       "description_markdown": "Sobodash discusses fan translation tools and work on Beggar Prince and Heroine Anthem."
     },
     {
@@ -1645,7 +1698,9 @@
         57
       ],
       "developer": "Will Crowther and Don Woods",
-      "platforms": [],
+      "platforms": [
+        "DEC-10"
+      ],
       "description_markdown": "Will Crowther and Don Woods discusses *Adventure* and the origins of text adventures."
     },
     {
@@ -1681,7 +1736,11 @@
         6
       ],
       "developer": "Mark Cale",
-      "platforms": [],
+      "platforms": [
+        "Nintendo DS",
+        "PSP",
+        "Wii"
+      ],
       "description_markdown": "Mark Cale discusses the *Impossible Mission* remake."
     },
     {
@@ -1705,7 +1764,13 @@
         29
       ],
       "developer": "Martyn Brown and other developers",
-      "platforms": [],
+      "platforms": [
+        "VIC-20",
+        "ZX81",
+        "ZX Spectrum",
+        "Atari 8-bit",
+        "Commodore 64"
+      ],
       "description_markdown": "Martyn Brown and other developers discusses their first games in the Before They Were Famous feature."
     },
     {
@@ -1730,7 +1795,9 @@
         45
       ],
       "developer": "Steve Warner and Dale DeSharone",
-      "platforms": [],
+      "platforms": [
+        "CD-i"
+      ],
       "description_markdown": "Steve Warner and Dale DeSharone discuss their work on the Philips CD-i."
     },
     {
@@ -2004,7 +2071,9 @@
         37
       ],
       "developer": "Eduard Luna Bolaño",
-      "platforms": [],
+      "platforms": [
+        "PC"
+      ],
       "description_markdown": "Eduard Luna Bolaño discusses *Streets of Rage Remake*."
     },
     {
@@ -2015,7 +2084,11 @@
         47
       ],
       "developer": "Alfred Milgrom",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "NES"
+      ],
       "description_markdown": "Alfred Milgrom discusses Melbourne House and Beam Software, part one."
     },
     {
@@ -2115,7 +2188,9 @@
         47
       ],
       "developer": "Beam Software developers",
-      "platforms": [],
+      "platforms": [
+        "NES"
+      ],
       "description_markdown": "Beam Software developers discuss Melbourne House and Beam Software in the second part of the company profile."
     },
     {
@@ -2165,7 +2240,12 @@
         87
       ],
       "developer": "Ste Ruddy",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "NES",
+        "SNES",
+        "Game Boy Advance"
+      ],
       "description_markdown": "Ste Ruddy discusses his game programming career."
     },
     {
@@ -2229,7 +2309,9 @@
         79
       ],
       "developer": "Jon Waldern and Matt Wilkinson",
-      "platforms": [],
+      "platforms": [
+        "Arcade"
+      ],
       "description_markdown": "Jon Waldern and Matt Wilkinson discusses the rise and fall of Virtuality."
     },
     {
@@ -2253,7 +2335,13 @@
         93
       ],
       "developer": "David Foster and other conversion developers",
-      "platforms": [],
+      "platforms": [
+        "Arcade",
+        "Amiga",
+        "ZX Spectrum",
+        "NES",
+        "SNES"
+      ],
       "description_markdown": "David Foster and other conversion developers discusses home conversions of *Dragon’s Lair*."
     },
     {
@@ -2394,7 +2482,11 @@
         39
       ],
       "developer": "Jon Freeman",
-      "platforms": [],
+      "platforms": [
+        "Atari 8-bit",
+        "Apple II",
+        "Commodore 64"
+      ],
       "description_markdown": "Jon Freeman discusses *Archon*."
     },
     {
@@ -2405,7 +2497,9 @@
         58
       ],
       "developer": "Don McIntyre",
-      "platforms": [],
+      "platforms": [
+        "Arcade"
+      ],
       "description_markdown": "Don McIntyre discusses Virtuality’s unreleased *Pac-Man VR*."
     },
     {
@@ -2482,7 +2576,9 @@
         95
       ],
       "developer": "Mel Croucher",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum"
+      ],
       "description_markdown": "Mel Croucher discusses his experimental game development career."
     },
     {
@@ -2506,7 +2602,11 @@
         47
       ],
       "developer": "Mike Montgomery",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "PC"
+      ],
       "description_markdown": "Interview about the history of the Bitmap Brothers."
     },
     {
@@ -2517,7 +2617,11 @@
         51
       ],
       "developer": "Will Harvey",
-      "platforms": [],
+      "platforms": [
+        "Apple II",
+        "NES",
+        "Mega Drive"
+      ],
       "description_markdown": "Interview about the making of *The Immortal*."
     },
     {
@@ -2554,7 +2658,10 @@
         67
       ],
       "developer": "Bill Harbison and Gary Bracey",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST"
+      ],
       "description_markdown": "Interview about the making of Ocean’s *Batman: The Movie*."
     },
     {
@@ -2565,7 +2672,10 @@
         75
       ],
       "developer": "Martyn Brown and Kelvin Aston",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "PC"
+      ],
       "description_markdown": "Interview about the history of *Worms*."
     },
     {
@@ -2602,7 +2712,11 @@
         47
       ],
       "developer": "Alexey Pajitnov",
-      "platforms": [],
+      "platforms": [
+        "Electronika 60",
+        "Game Boy",
+        "PC"
+      ],
       "description_markdown": "Interview about the making of *Tetris*."
     },
     {
@@ -2640,7 +2754,11 @@
         81
       ],
       "developer": "Paul Ranson and Fred Williams",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Interview about Big Red Software and its games."
     },
     {
@@ -2664,7 +2782,12 @@
         48
       ],
       "developer": "Sean Naden",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "PC",
+        "SNES",
+        "Mega Drive"
+      ],
       "description_markdown": "Interview about the making of *Rise of the Robots*."
     },
     {
@@ -2675,7 +2798,11 @@
         57
       ],
       "developer": "Les Edgar and Glenn Corpes",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "PC"
+      ],
       "description_markdown": "Interview about Bullfrog Productions and its games."
     },
     {
@@ -2686,7 +2813,9 @@
         59
       ],
       "developer": "Michael Ware",
-      "platforms": [],
+      "platforms": [
+        "Psion Series 3"
+      ],
       "description_markdown": "Interview about *Horace in the Mystic Woods* for the Psion Series 3."
     },
     {
@@ -2802,7 +2931,11 @@
         75
       ],
       "developer": "Chris Sorrell",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Mega Drive",
+        "SNES"
+      ],
       "description_markdown": "Interview about the *James Pond* trilogy."
     },
     {
@@ -2904,7 +3037,9 @@
         91
       ],
       "developer": "Richard Leadbetter and other Sega Saturn Magazine staff",
-      "platforms": [],
+      "platforms": [
+        "Saturn"
+      ],
       "description_markdown": "Interview about the making of *Sega Saturn Magazine*."
     },
     {
@@ -2915,7 +3050,13 @@
         49
       ],
       "developer": "Terry Lloyd and other Core Design developers",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Interview about the making of *Rick Dangerous* and its sequel."
     },
     {
@@ -2926,7 +3067,10 @@
         57
       ],
       "developer": "Trip Hawkins",
-      "platforms": [],
+      "platforms": [
+        "Apple II",
+        "Commodore 64"
+      ],
       "description_markdown": "Interview about the early history of Electronic Arts, part one."
     },
     {
@@ -2937,7 +3081,12 @@
         65
       ],
       "developer": "Gary Bracey",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amstrad CPC",
+        "Amiga"
+      ],
       "description_markdown": "Interview about the making of Ocean’s *RoboCop*."
     },
     {
@@ -3026,7 +3175,11 @@
         47
       ],
       "developer": "Trip Hawkins",
-      "platforms": [],
+      "platforms": [
+        "3DO",
+        "Mega Drive",
+        "PC"
+      ],
       "description_markdown": "Interview about Electronic Arts in the 1990s, part two."
     },
     {
@@ -3089,7 +3242,12 @@
         43
       ],
       "developer": "Keith Ramsdale and other EA staff",
-      "platforms": [],
+      "platforms": [
+        "PC",
+        "PlayStation 2",
+        "Xbox",
+        "Wii"
+      ],
       "description_markdown": "Interview about Electronic Arts in the 2000s, part three."
     },
     {
@@ -3192,7 +3350,13 @@
         69
       ],
       "developer": "Jon Freeman and other Epyx developers",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "Apple II",
+        "Amiga",
+        "Atari 8-bit",
+        "ZX Spectrum"
+      ],
       "description_markdown": "Interview about the history of Epyx and its games."
     },
     {
@@ -3380,7 +3544,9 @@
         45
       ],
       "developer": "Billy Mitchell and Walter Day",
-      "platforms": [],
+      "platforms": [
+        "Arcade"
+      ],
       "description_markdown": "Interview about the events depicted in *The King of Kong*."
     },
     {
@@ -3444,7 +3610,11 @@
         80
       ],
       "developer": "Ally Noble",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "Amiga"
+      ],
       "description_markdown": "Interview about her career at Denton Designs and other studios."
     },
     {
@@ -3560,7 +3730,13 @@
         63
       ],
       "developer": "Chris Gibbs, John Mullins and Jon Dean",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "PC",
+        "Commodore 64",
+        "ZX Spectrum"
+      ],
       "description_markdown": "Interview about the making of *Night Shift* and Attention to Detail."
     },
     {
@@ -3598,7 +3774,10 @@
         79
       ],
       "developer": "David Perry",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Mega Drive"
+      ],
       "description_markdown": "Interview about the early history of Shiny Entertainment."
     },
     {
@@ -3647,7 +3826,9 @@
         45
       ],
       "developer": "Hideo Kojima",
-      "platforms": [],
+      "platforms": [
+        "MSX"
+      ],
       "description_markdown": "Interview about his game design career, including *Metal Gear*."
     },
     {
@@ -3723,7 +3904,10 @@
         93
       ],
       "developer": "David Perry",
-      "platforms": [],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
       "description_markdown": "Interview about the later history of Shiny Entertainment."
     },
     {
@@ -3733,7 +3917,12 @@
         103
       ],
       "developer": "Simon Ullyatt",
-      "platforms": [],
+      "platforms": [
+        "ZX Spectrum",
+        "Commodore 64",
+        "VIC-20",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Interview about Cronosoft and homebrew publishing in a question-and-answer interview."
     },
     {
@@ -3770,7 +3959,11 @@
         71
       ],
       "developer": "Sid Meier and Bill Stealey",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "Apple II",
+        "PC"
+      ],
       "description_markdown": "Interview about the founding and early years of MicroProse."
     },
     {
@@ -3805,7 +3998,9 @@
         29
       ],
       "developer": "Sid Meier and Bill Stealey",
-      "platforms": [],
+      "platforms": [
+        "PC"
+      ],
       "description_markdown": "Interview about MicroProse’s later history."
     },
     {
@@ -3816,7 +4011,13 @@
         43
       ],
       "developer": "Dan Marchant and John Croudy",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "Atari ST",
+        "Commodore 64",
+        "ZX Spectrum",
+        "Amstrad CPC"
+      ],
       "description_markdown": "Interview about the making of *SWIV*."
     },
     {
@@ -3927,7 +4128,9 @@
         79
       ],
       "developer": "Jon Stoodley",
-      "platforms": [],
+      "platforms": [
+        "Arcade"
+      ],
       "description_markdown": "Interview about his *Pac-Man* high-score strategies."
     },
     {
@@ -3938,7 +4141,11 @@
         87
       ],
       "developer": "Alan Miller and Bob Whitehead",
-      "platforms": [],
+      "platforms": [
+        "Commodore 64",
+        "Mega Drive",
+        "PC"
+      ],
       "description_markdown": "Interview about the history of Accolade."
     },
     {
@@ -4550,7 +4757,10 @@
         16
       ],
       "developer": "Trip Hawkins",
-      "platforms": [],
+      "platforms": [
+        "iOS",
+        "Mobile"
+      ],
       "description_markdown": "A Moment With Q&A about Electronic Arts and *Crazy Penguin Catapult*."
     },
     {
@@ -5304,7 +5514,9 @@
         51
       ],
       "developer": "Ralph Baer",
-      "platforms": [],
+      "platforms": [
+        "Handheld electronic games"
+      ],
       "description_markdown": "Interview about the making of *Simon*."
     },
     {
@@ -5706,7 +5918,12 @@
         89
       ],
       "developer": "Neil Thompson",
-      "platforms": [],
+      "platforms": [
+        "Amiga",
+        "PlayStation 3",
+        "Xbox",
+        "FM Towns"
+      ],
       "description_markdown": "Desert Island Disks interview about his game development career."
     },
     {
@@ -5716,7 +5933,11 @@
         101
       ],
       "developer": "Pete Dabbs",
-      "platforms": [],
+      "platforms": [
+        "Atari 8-bit",
+        "BBC Micro",
+        "Commodore 64"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about returning to 8-bit game development."
     },
     {
@@ -8269,7 +8490,9 @@
         57
       ],
       "developer": "Ralph Baer",
-      "platforms": [],
+      "platforms": [
+        "Magnavox Odyssey"
+      ],
       "description_markdown": "Interview about the development of the Magnavox Odyssey."
     },
     {
