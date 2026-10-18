@@ -2488,149 +2488,801 @@
     {
       "type": "interview",
       "issue": 41,
-      "pages": null,
-      "developer": "Andy Walker",
-      "platforms": [],
-      "description_markdown": "Discusses his work on **Cad Cam Warrior** and **Super Pipeline 2**"
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "Bill Hogue",
+      "platforms": [
+        "Atari 8-bit"
+      ],
+      "description_markdown": "Interview about the making of *Miner 2049er*."
     },
     {
       "type": "interview",
       "issue": 41,
-      "pages": null,
-      "developer": "Kelvin Aston",
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Mike Montgomery",
       "platforms": [],
-      "description_markdown": "Discusses his entry into the gaming industry as a QA tester for **Team17** on **Worms**, and his eventual role as lead producer on **Worms: Open Warfare 2**"
+      "description_markdown": "Interview about the history of the Bitmap Brothers."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        48,
+        51
+      ],
+      "developer": "Will Harvey",
+      "platforms": [],
+      "description_markdown": "Interview about the making of *The Immortal*."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        52,
+        53
+      ],
+      "developer": "Mark Indictor",
+      "platforms": [
+        "Vectrex"
+      ],
+      "description_markdown": "Interview about the unreleased Vectrex game *Mail Plane*."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        54,
+        58
+      ],
+      "developer": "Andy Walker",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about Taskset and his programming career."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        64,
+        67
+      ],
+      "developer": "Bill Harbison and Gary Bracey",
+      "platforms": [],
+      "description_markdown": "Interview about the making of Ocean’s *Batman: The Movie*."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        70,
+        75
+      ],
+      "developer": "Martyn Brown and Kelvin Aston",
+      "platforms": [],
+      "description_markdown": "Interview about the history of *Worms*."
+    },
+    {
+      "type": "interview",
+      "issue": 41,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Martin Wakeley",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Interview about the making of *Blast Corps*."
     },
     {
       "type": "interview",
       "issue": 42,
-      "pages": null,
+      "pages": [
+        34,
+        39
+      ],
+      "developer": "Joel Billings",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about Strategic Simulations, part one."
+    },
+    {
+      "type": "interview",
+      "issue": 42,
+      "pages": [
+        42,
+        47
+      ],
       "developer": "Alexey Pajitnov",
       "platforms": [],
-      "description_markdown": "Discusses the creation of **Tetris**"
+      "description_markdown": "Interview about the making of *Tetris*."
     },
     {
       "type": "interview",
       "issue": 42,
-      "pages": null,
-      "developer": "Developers at NG:DEV.TEAM",
-      "platforms": [
-        "PlayStation 3"
+      "pages": [
+        55
       ],
-      "description_markdown": "Discuss what inspired them to create a shoot 'em up game like **Söldner-X** for the **PlayStation 3**"
+      "developer": "Rene Hellwig",
+      "platforms": [
+        "Neo Geo",
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about NG:DEV.TEAM’s *Last Hope* in a short question-and-answer interview."
     },
     {
       "type": "interview",
       "issue": 42,
-      "pages": null,
+      "pages": [
+        70,
+        73
+      ],
+      "developer": "Kenji Kanno",
+      "platforms": [
+        "Arcade",
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Interview about the making of *Crazy Taxi*."
+    },
+    {
+      "type": "interview",
+      "issue": 42,
+      "pages": [
+        76,
+        81
+      ],
+      "developer": "Paul Ranson and Fred Williams",
+      "platforms": [],
+      "description_markdown": "Interview about Big Red Software and its games."
+    },
+    {
+      "type": "interview",
+      "issue": 42,
+      "pages": [
+        88,
+        91
+      ],
       "developer": "Jeff Minter and Giles Williams",
       "platforms": [
-        "Xbox 360"
+        "Commodore 64"
       ],
-      "description_markdown": "Discuss their work at **Llamasoft**, including the development of **Space Giraffe** for **Xbox Live Arcade** and their plans for future titles like **Sheep in Space** and **Ancipital**"
+      "description_markdown": "Interview about the making of *Sheep in Space*."
     },
     {
       "type": "interview",
       "issue": 43,
-      "pages": null,
+      "pages": [
+        44,
+        48
+      ],
+      "developer": "Sean Naden",
+      "platforms": [],
+      "description_markdown": "Interview about the making of *Rise of the Robots*."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        52,
+        57
+      ],
+      "developer": "Les Edgar and Glenn Corpes",
+      "platforms": [],
+      "description_markdown": "Interview about Bullfrog Productions and its games."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        58,
+        59
+      ],
+      "developer": "Michael Ware",
+      "platforms": [],
+      "description_markdown": "Interview about *Horace in the Mystic Woods* for the Psion Series 3."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        62,
+        65
+      ],
+      "developer": "Gavin Raeburn, Brian Coller and Jamie Adamson",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Interview about the making of *Colin McRae Rally*."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        68,
+        71
+      ],
+      "developer": "Gregg Mayles",
+      "platforms": [
+        "SNES"
+      ],
+      "description_markdown": "Interview about the making of *Donkey Kong Country*."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        74,
+        77
+      ],
+      "developer": "Dave Brevik",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Diablo*."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        82,
+        87
+      ],
+      "developer": "Joel Billings and other SSI developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about Strategic Simulations, part two."
+    },
+    {
+      "type": "interview",
+      "issue": 43,
+      "pages": [
+        88,
+        91
+      ],
       "developer": "Jon Hare",
       "platforms": [
         "Amiga"
       ],
-      "description_markdown": "Discusses the creation of **Sensible Soccer** for the **Amiga**"
+      "description_markdown": "Interview about the making of *Sensible Soccer*."
     },
     {
       "type": "interview",
       "issue": 44,
-      "pages": null,
-      "developer": "Developers of Fort Apocalypse",
-      "platforms": [],
-      "description_markdown": "Discuss the development of **Fort Apocalypse**"
-    },
-    {
-      "type": "interview",
-      "issue": 45,
-      "pages": null,
-      "developer": "Philip Oliver",
-      "platforms": [],
-      "description_markdown": "Discusses the creation of **Treasure Island Dizzy**"
-    },
-    {
-      "type": "interview",
-      "issue": 45,
-      "pages": null,
-      "developer": "Yuji Naka and Takashi Izuka",
-      "platforms": [
-        "Sega Saturn",
-        "Wii"
+      "pages": [
+        26,
+        33
       ],
-      "description_markdown": "Discuss the making of **NiGHTS into Dreams** and its sequel, **Journey of Dreams** for the **Wii**"
+      "developer": "John Carmack and other id Software developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the history of *Doom*."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "David Fox, Charlie Kellner, Peter Langston and Gary Winnick",
+      "platforms": [
+        "Atari 8-bit"
+      ],
+      "description_markdown": "Interview about the making of *Rescue on Fractalus!*."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "David Collier and Jonathan “Joffa” Smith",
+      "platforms": [
+        "Commodore 64",
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about home conversions of *Green Beret*."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        70,
+        75
+      ],
+      "developer": "Chris Sorrell",
+      "platforms": [],
+      "description_markdown": "Interview about the *James Pond* trilogy."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        78,
+        82
+      ],
+      "developer": "Rob Fulop",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Interview about his programming career and games at Atari and Imagic."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Les Edgar and Glenn Corpes",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Interview about the making of *Populous*."
+    },
+    {
+      "type": "interview",
+      "issue": 44,
+      "pages": [
+        90,
+        93
+      ],
+      "developer": "Steve Hales",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *Fort Apocalypse*."
+    },
+    {
+      "type": "interview",
+      "issue": 45,
+      "pages": [
+        26,
+        31
+      ],
+      "developer": "Yuji Naka and Takashi Iizuka",
+      "platforms": [
+        "Sega Saturn"
+      ],
+      "description_markdown": "Interview about the making of *NiGHTS into Dreams*."
+    },
+    {
+      "type": "interview",
+      "issue": 45,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Howard Scott Warshaw",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Interview about the making of *Raiders of the Lost Ark*."
+    },
+    {
+      "type": "interview",
+      "issue": 45,
+      "pages": [
+        54,
+        57
+      ],
+      "developer": "Andrew and Philip Oliver",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about the making of *Treasure Island Dizzy*."
+    },
+    {
+      "type": "interview",
+      "issue": 45,
+      "pages": [
+        80,
+        84
+      ],
+      "developer": "Mike Posehn and other Strike developers",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interview about the making of the *Strike* series."
+    },
+    {
+      "type": "interview",
+      "issue": 45,
+      "pages": [
+        86,
+        91
+      ],
+      "developer": "Richard Leadbetter and other Sega Saturn Magazine staff",
+      "platforms": [],
+      "description_markdown": "Interview about the making of *Sega Saturn Magazine*."
     },
     {
       "type": "interview",
       "issue": 46,
-      "pages": null,
+      "pages": [
+        44,
+        49
+      ],
+      "developer": "Terry Lloyd and other Core Design developers",
+      "platforms": [],
+      "description_markdown": "Interview about the making of *Rick Dangerous* and its sequel."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        52,
+        57
+      ],
+      "developer": "Trip Hawkins",
+      "platforms": [],
+      "description_markdown": "Interview about the early history of Electronic Arts, part one."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        62,
+        65
+      ],
+      "developer": "Gary Bracey",
+      "platforms": [],
+      "description_markdown": "Interview about the making of Ocean’s *RoboCop*."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        68,
+        71
+      ],
+      "developer": "Chuck Sommerville and Kevin Furry",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *California Games*."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        72,
+        79
+      ],
+      "developer": "Steve Wright, Warren Robinett, Owen Rubin and other Atari developers",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Interview about their careers at Atari."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        80,
+        84
+      ],
+      "developer": "Martin Hollis",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Interview about his development career at Rare and Zoonami."
+    },
+    {
+      "type": "interview",
+      "issue": 46,
+      "pages": [
+        86,
+        89
+      ],
       "developer": "Brian Moriarty",
-      "platforms": [],
-      "description_markdown": "Discusses his adventure game **Loom**"
-    },
-    {
-      "type": "interview",
-      "issue": 46,
-      "pages": null,
-      "developer": "Developers of California Games",
-      "platforms": [],
-      "description_markdown": "Discuss the creation of **California Games**"
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Loom*."
     },
     {
       "type": "interview",
       "issue": 47,
-      "pages": null,
+      "pages": [
+        24,
+        31
+      ],
+      "developer": "David Braben and Ian Bell",
+      "platforms": [
+        "BBC Micro"
+      ],
+      "description_markdown": "Interview about the making of *Elite*."
+    },
+    {
+      "type": "interview",
+      "issue": 47,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Chuck Sommerville",
+      "platforms": [
+        "Atari Lynx"
+      ],
+      "description_markdown": "Interview about the making of *Chip’s Challenge*."
+    },
+    {
+      "type": "interview",
+      "issue": 47,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Trip Hawkins",
+      "platforms": [],
+      "description_markdown": "Interview about Electronic Arts in the 1990s, part two."
+    },
+    {
+      "type": "interview",
+      "issue": 47,
+      "pages": [
+        48,
+        53
+      ],
+      "developer": "Alan McNeil",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Interview about the making of *Berzerk*."
+    },
+    {
+      "type": "interview",
+      "issue": 47,
+      "pages": [
+        56,
+        59
+      ],
       "developer": "Will Wright",
       "platforms": [
         "PC"
       ],
-      "description_markdown": "Discusses his contributions to the gaming industry, including his work on simulation games like **SimCity** and **The Sims**"
+      "description_markdown": "Interview about his career and simulation games."
+    },
+    {
+      "type": "interview",
+      "issue": 47,
+      "pages": [
+        68,
+        71
+      ],
+      "developer": "Glenn Corpes and Mark Healey",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *Magic Carpet*."
     },
     {
       "type": "interview",
       "issue": 48,
-      "pages": null,
+      "pages": [
+        22,
+        27
+      ],
       "developer": "Matthew Smith",
-      "platforms": [],
-      "description_markdown": "Discusses the making of his seminal platformer **Manic Miner**"
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about the levels and design of *Manic Miner*."
     },
     {
       "type": "interview",
       "issue": 48,
-      "pages": null,
-      "developer": "Matthew Smith",
+      "pages": [
+        38,
+        43
+      ],
+      "developer": "Keith Ramsdale and other EA staff",
       "platforms": [],
-      "description_markdown": "Discusses his type-in game, **Andre's Night Off**, which he coded in BASIC for **Computer & Video Games** magazine, and mentions his work on **Manic Miner**, **Jet Set Willy**, and **Styx**"
+      "description_markdown": "Interview about Electronic Arts in the 2000s, part three."
+    },
+    {
+      "type": "interview",
+      "issue": 48,
+      "pages": [
+        46,
+        51
+      ],
+      "developer": "David Perry",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the making of *MDK*."
+    },
+    {
+      "type": "interview",
+      "issue": 48,
+      "pages": [
+        52,
+        56
+      ],
+      "developer": "Matthew Smith",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Interview about his life and games, including readers’ questions about *Andre’s Night Off*."
+    },
+    {
+      "type": "interview",
+      "issue": 48,
+      "pages": [
+        68,
+        75
+      ],
+      "developer": "Mike Legg, Joe Bostic and Louis Castle",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the history of *Command & Conquer*."
+    },
+    {
+      "type": "interview",
+      "issue": 48,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Roger Carpenter and other Geometry Wars developers",
+      "platforms": [
+        "Wii",
+        "Nintendo DS"
+      ],
+      "description_markdown": "Interview about the making of *Geometry Wars: Galaxies*."
     },
     {
       "type": "interview",
       "issue": 49,
-      "pages": null,
-      "developer": "Developers at Vectordean",
+      "pages": [
+        40,
+        43
+      ],
+      "developer": "Laurent Arditi and Stéphane Ducasse",
+      "platforms": [
+        "Atari ST"
+      ],
+      "description_markdown": "Interview about the making of *Skweek* and *Super Skweek*."
+    },
+    {
+      "type": "interview",
+      "issue": 49,
+      "pages": [
+        44,
+        51
+      ],
+      "developer": "Joe Ferreira",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Interview about the history of *Might and Magic*."
+    },
+    {
+      "type": "interview",
+      "issue": 49,
+      "pages": [
+        60,
+        63
+      ],
+      "developer": "Chris Sorrell and Jason Wilson",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Interview about the making of *MediEvil*."
+    },
+    {
+      "type": "interview",
+      "issue": 49,
+      "pages": [
+        64,
+        69
+      ],
+      "developer": "Jon Freeman and other Epyx developers",
       "platforms": [],
-      "description_markdown": "Discuss their game **Tavern RPG**"
+      "description_markdown": "Interview about the history of Epyx and its games."
+    },
+    {
+      "type": "interview",
+      "issue": 49,
+      "pages": [
+        80,
+        83
+      ],
+      "developer": "David Lubar",
+      "platforms": [
+        "Atari 8-bit"
+      ],
+      "description_markdown": "Interview about the making of *Pastfinder*."
+    },
+    {
+      "type": "interview",
+      "issue": 49,
+      "pages": [
+        96,
+        97
+      ],
+      "developer": "Tulio and Daniel",
+      "platforms": [
+        "Sega Mega Drive",
+        "Sega Mega CD"
+      ],
+      "description_markdown": "Question-and-answer interview about the homebrew RPG *Pier Solar*, previously called *Tavern RPG*."
     },
     {
       "type": "interview",
       "issue": 50,
-      "pages": null,
+      "pages": [
+        40,
+        45
+      ],
       "developer": "Martyn Carroll",
       "platforms": [],
-      "description_markdown": "Discusses the creation of **Retro Gamer** magazine"
+      "description_markdown": "Interview about the launch and early issues of *Retro Gamer*."
     },
     {
       "type": "interview",
       "issue": 50,
-      "pages": null,
-      "developer": "Various Developers",
+      "pages": [
+        46,
+        53
+      ],
+      "developer": "Mike Dailly, Peter Farley and other DMA Design developers",
+      "platforms": [
+        "PC",
+        "PlayStation"
+      ],
+      "description_markdown": "Interview about the history of *Grand Theft Auto*."
+    },
+    {
+      "type": "interview",
+      "issue": 50,
+      "pages": [
+        56,
+        61
+      ],
+      "developer": "Masato Maegawa",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Interview about the making of *Gunstar Heroes*."
+    },
+    {
+      "type": "interview",
+      "issue": 50,
+      "pages": [
+        80,
+        85
+      ],
+      "developer": "Roger Dean",
       "platforms": [],
-      "description_markdown": "Discuss the games that changed their lives, including **Tir Na Nog** and **Jet Set Willy**"
+      "description_markdown": "Interview about his game cover art and visual design."
+    },
+    {
+      "type": "interview",
+      "issue": 50,
+      "pages": [
+        86,
+        89
+      ],
+      "developer": "Manfred Trenz",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Interview about the making of *The Great Giana Sisters*."
     },
     {
       "type": "interview",
