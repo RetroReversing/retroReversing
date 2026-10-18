@@ -130,7 +130,7 @@ The official price list from Cross Products put the Modified Saturn by itself at
 
 ---
 # Address Checker Hardware by SI Electronics
-[Codemasters showed this Sega Saturn Address Checker](https://web.archive.org/web/20200506211005/https://twitter.com/Codemasters/status/1192794937613524992) on November 8, 2019. The image is the archived preview frame from their video.
+[Codemasters showed this Sega Saturn Address Checker](https://web.archive.org/web/20200506211005/https://twitter.com/Codemasters/status/1192794937613524992) on November 8, 2019.
 
 ![Front of the Sega Saturn Address Checker shown by Codemasters](/public/images/saturn/Sega-Saturn-Address-Checker-Codemasters.webp)
 
