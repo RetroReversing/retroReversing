@@ -36,6 +36,9 @@ editlink: /consoles/dreamcast/Chicken Run Source Code.md
 updatedAt: '2026-10-18'
 ---
 
+<link rel="stylesheet" href="/public/css/game-data-visual.css">
+<script defer src="/public/js/game-data-visual.js"></script>
+
 # Inside Chicken Run
 <figure>
   <img src="/public/games/chicken-run/Chicken-Run-Dreamcast-USA.webp" alt="Chicken Run Dreamcast box art">
@@ -78,10 +81,10 @@ The index omits file contents and filesystem dates. Those dates record when this
 
 ## Reading the source
 Before following the code into the build environment, these are the internal names used throughout the project:
-* <a id="glossary-bff"></a>**BFF** - A container of typed segments. Each one has a type code, a length, and a name CRC.
+* <a id="glossary-bff"></a>**BFF** - A `.BFF` file that packs a room into one container of typed segments. Each segment has a type code, a length, and a name CRC. The letters are never expanded.
 * <a id="glossary-dck"></a>**DCK** - Dreamcast Katana. Prefix on the Katana-specific maths, texture, and system files.
 * <a id="glossary-fla"></a>**FlatPacker** - The compressor in `islfile.c`. Packed data starts with the little-endian magic `FLA2`.
-* <a id="glossary-fma"></a>**FMA** - Frog-map data. `map_draw.h` calls the blocks frog-map segments. The letters are never expanded.
+* <a id="glossary-fma"></a>**FMA** - The frog-map format. The F stands for Frogger. `map_draw.h` calls the blocks frog-map segments. The remaining letters are never expanded.
 * <a id="glossary-isl"></a>**ISL** - Interactive Studios Limited, the studio name in the library copyrights. It prefixes files such as `islfile.c` and `islfont.c`.
 * <a id="glossary-psi"></a>**PSI** - The studio's [PlayStation](/ps1) model format. `psi.c` calls itself the PlayStation model handler.
 * <a id="glossary-psyq"></a>**PSYQ** - The PlayStation SDK named by `makefile.mak`: `ccpsx`, `dmpsx`, `asmpsx`, and PSYLINK.
@@ -112,6 +115,10 @@ Build | Video mode | Product code | Languages
 US | NTSC | `SLUS-01304` | US English
 Europe | PAL | `SLES-03285` | Multiple languages
 UK | PAL | `SLES-03188` | UK English
+
+Select a region below to see the `TERRIT` block that produces that master.
+
+{% include game-data-visual.html id="chicken-regions" config=site.data.chicken_run_game_visuals.regions %}
 
 `master.bat` turns those choices into a repeatable production line. It regenerates C dependencies, invokes the correct makefile, converts the PSYQ CPE executable with `cpe2x`, sets the stack pointer to `0x801fff00`, and renames the result to match the regional product code. `datstak` then packs the loose CD files into `CRTEST.DAT`.
 
@@ -146,6 +153,10 @@ Act | Rooms named in the GD project
 
 Act 3 appears through video files rather than the room names in this table. The project includes `ACT3INTRO.SFD`, `ACT3OUTRO.SFD`, a boss clip, and a bonus clip.
 
+`chicken.scr` names 654 files on `CHICKENRUN1`. Choose a view below to compare types, acts, and [BFF](#glossary-bff) counts measured from those `File` entries.
+
+{% include game-data-visual.html id="chicken-gd-rom" config=site.data.chicken_run_game_visuals.gd_rom %}
+
 A ten-step note in `in.txt` records the daily ritual for replacing a room on the development disc: run `makelevdc`, unload the executable in CodeScape, remove the previous files in GD Workshop, and copy the replacement from `W:\ChickenRun\cd_\Game\cd\`. It is the kind of mundane instruction that makes the archive feel like a desk someone has just left.
 
 ---
@@ -179,9 +190,17 @@ Input | Action
 R3 and Up or Down | Select Mannequin, a mini-game, All Videos, All Levels, or 6 Eggs
 R3 and L1 | End the current room and run the selected shortcut
 
+Hold R3 and step through the live `testnames` labels below. The function names keep the source spelling, including `levflowCheatToManniquin`.
+
+{% include game-data-visual.html id="chicken-debug" config=site.data.chicken_run_game_visuals.debug %}
+
 This proves that publisher-facing shortcuts were enabled in the working build. It does not prove that every retail disc retained the same define.
 
 There is a second entrance with no menu label. `SwimCheatCycle()` watches both analogue sticks for a four-stage sequence of directions. Completing it on the language screen prints `"Going to the Development stuff"` and opens the internal viewer. The same recogniser is called by the dog chase and most mini-games, where it acts as a quick completion shortcut.
+
+Step through the four analogue poses below. Neutral sticks reset `language_cheatmode`.
+
+{% include game-data-visual.html id="chicken-swim-cheat" config=site.data.chicken_run_game_visuals.swim_cheat %}
 
 The internal viewer can start individual levels, mini-games, inventory screens, credits, and videos. Context flags tell the game whether it was entered normally, as a replay, or from debug, so the test harness can share the retail code without duplicating its level flow.
 
@@ -207,6 +226,10 @@ enemies.c | `HOURGLASS_MAKING_LOUD_NOISE` | A movement or action was noisy enoug
 nme_dogs.c | `HOURGLASS_DOG_IN_GROWL_MODE` | A dog has progressed from suspicion to confrontation
 nme_mrst.c | `HOURGLASS_IN_MRT_FOV` | Mrs Tweedy has Ginger in her field of view
 
+Choose a source below to follow its path into `hourglass2Inform()`. The amounts are source constants, not seconds.
+
+{% include game-data-visual.html id="chicken-hourglass" config=site.data.chicken_run_game_visuals.hourglass %}
+
 This makes the hourglass more than a countdown graphic. It is a readable summary of several AI systems that do not otherwise know about one another. Light can fill it for a fixed duration, quiet movement can add a smaller warning, and pursuit can latch the game into an alert state.
 
 ---
@@ -223,6 +246,10 @@ Duck into `STATE_HIDING` | Remove 32 units while the enemy remains uncertain
 Leave the enemy's view | Remove 200 units per check
 Cross 4096 units | The enemy knows Ginger is inside
 Put the welly on while already observed | Reveal the trick immediately
+
+Drag through the source timer below. The bar is remaining disguise, not a HUD graphic.
+
+{% include game-data-visual.html id="chicken-welly" config=site.data.chicken_run_game_visuals.welly %}
 
 The programmer's comment describes the intended rhythm better than a design document:
 
@@ -242,6 +269,10 @@ Animation | Hearing range
 `GINGER_WALK` | 1200 world units
 `GINGER_RUN` | 2000 world units
 Anything else | No hearing response from this check
+
+Choose a detection route below. Hearing follows the current animation segment. Sight and the lounge dog are separate checks.
+
+{% include game-data-visual.html id="chicken-dogs" config=site.data.chicken_run_game_visuals.dogs %}
 
 The distinction is deliberate, although the comment calls it "running rather than tiptoeing/walking". It also means the animation state is part of the stealth simulation. If movement and animation ever disagree, the dog's ears follow the animation.
 
@@ -278,6 +309,10 @@ Seesaw | The seesaw game
 Stilts | Specialist control research. The comment says it should have been an overlay
 Wings | Pole, material, and stitch workers
 
+Egg laying keeps three small state machines in `egglaying.h`. Choose one below to see the chicken, grain, or session sequence.
+
+{% include game-data-visual.html id="chicken-egg-laying" config=site.data.chicken_run_game_visuals.egg_laying %}
+
 `station.c` provides the rotating camera for the level 4 hub where several of these activities meet. On [PlayStation](/ps1), the mini-games become overlay banks in the linker script. The magazine demo goes further: `demostub.c` replaces features absent from the `OPSM` build with empty functions, allowing the rest of the game to compile without being covered in conditional blocks.
 
 The [Dreamcast](/dreamcast) has another snapshot of the game's public life. `ectsmenu.c` implements the menu used for its ECTS demonstration.
@@ -290,19 +325,25 @@ Map pieces are deliberately duplicated across acts. Barry Paterson's comment exp
 
 At the beginning of each level, `inventoryRemoveDuplicateMapPieces()` compares the scenery against the 14 saved collection flags. Any copy the player already owns is removed from the scenic list. The level designers could place another chance to collect a piece without creating duplicates in the player's inventory.
 
+Try collecting the fourteen flags below. The board is schematic; the save stores `map_pieces_got[14]`, not a bitmask.
+
+{% include game-data-visual.html id="chicken-map-pieces" config=site.data.chicken_run_game_visuals.map_pieces %}
+
 ---
 # How a level is built
 {% include sticker-text.html text="BFF" color1="#ef548f" color2="#ef8b6d" %}
+A [BFF](#glossary-bff) is a file. Each published room is one `.BFF`, a container of typed segments such as `A1_DOGCHASE.BFF`. The letters are never expanded in the source.
+
 The stealth systems, puzzles, and mini-games all depend on data produced outside the runtime. The published act data is stored differently on each platform:
-* [Dreamcast](/dreamcast) - each room has its own [BFF](#glossary-bff) and [SPT](#glossary-spt). Many rooms also have matching `.SBB` and `.SBH` sound banks. The GD Workshop script lists them by room name, such as `A1_DOGCHASE.BFF`.
+* [Dreamcast](/dreamcast) - each room has its own BFF and [SPT](#glossary-spt). Many rooms also have matching `.SBB` and `.SBH` sound banks. The GD Workshop script lists them by room name, such as `A1_DOGCHASE.BFF`.
 * [Windows](/pc) - the same act folders, with `.WAB` files kept beside the `.BFF` and `.SPT` data.
 * [PlayStation](/ps1) - the loose files are packed into `CRTEST.DAT`. That archive also includes a `DUMMY` file filled with `00` padding.
 
 The surviving headers expose the boundary between Chicken Run and a set of level compilers that are mostly absent from the archive.
 
 ## A frog map under the farm
-{% include sticker-text.html text="FMA" color1="#0085b6" %}
-Under the chicken farm is a frog map. `map_draw.h` still uses that name for the [FMA](#glossary-fma) world data, one of the clearest traces of Frogger 2 in the project.
+<div class="emoji">🐸</div>
+[FMA](#glossary-fma) is the map format. The F stands for Frogger. `map_draw.h` still calls the world data frog-map segments, one of the clearest traces of **Frogger 2** in the project.
 
 The runtime structures must match a separate PC map compiler. With `SHORT_MAP_VERTNOS` enabled, Chicken Run expects mesh formats 5 and 6. `map_play.c` draws the playable view, `map_view.c` supplies the fly-through, and `lev_flow.c` decides where the player goes next. Puzzles and scenic objects sit in their own systems instead of becoming full enemies.
 
@@ -317,9 +358,20 @@ The platform system has an even longer memory. `platform.h` says it was adapted 
 
 ---
 ## Inside a BFF
-Chicken Run does not load a level as a loose directory of objects. It opens a [BFF](#glossary-bff), walks through a sequence of typed segments, and gives each segment family a link routine to rebuild its pointers in memory.
+A [BFF](#glossary-bff) is a file on disc, not a folder. `BFF_LoadFile` opens one `.BFF` and treats it as a packed list of objects. The source never expands the three letters.
 
-Every segment begins with three unsigned longs: a type code, its total length, and the CRC of its name. `BFF_FindObject` searches by type and CRC. A zero CRC means "the only object of this type", a useful shortcut for data that appears once per level.
+`bff_load.c` calls that list a collection of data segments shoved together into one file. Each segment begins with a `BFF_Header`: a type code, the segment's total length, and the CRC of its name.
+
+```c
+typedef struct BFF_HeaderTag
+{
+    unsigned long id;
+    unsigned long len;
+    unsigned long crc;
+} BFF_Header;
+```
+
+Chicken Run does not load a level as a loose directory of objects. After the file is in memory, a link routine for each type rebuilds pointers. `BFF_FindObject` then searches by type and CRC. A zero CRC means "the only object of this type", a useful shortcut for data that appears once per level.
 
 The type is a four-character code stored little-endian, with a version in the final byte. These are the versions defined by this source:
 
@@ -340,6 +392,10 @@ ROU0 | route.h | Route boxes. ROU1 is the bevelled variant, and it is not the ac
 TAN0 | overlays.h | Texture animation
 SBH0 | sound.h | Sound-bank header. The old VH type is commented out
 STG0 | platform.h | Sound triggers
+
+Choose a load path below. The loader marks the last segment, then calls a link routine for each type.
+
+{% include game-data-visual.html id="chicken-bff" config=site.data.chicken_run_game_visuals.bff %}
 
 `platform.h` warns that the external level tool `cr_lev` includes the same structures. That compiler is not present, so the BFF definitions are both documentation and one half of a missing toolchain.
 
@@ -396,6 +452,10 @@ The payload retains a PlayStation memory-card header. `cardBuildBlock()` writes 
 On Dreamcast, `islcard.c` takes that payload and builds a Sega backup-file image around it. The outer file has VMU comments, palette data, an icon, and the raw game save. Before and after the write, the code sends status graphics to the VMU LCD.
 
 It is port archaeology in a single file: Sega's backup API on the outside, with the layout of a PlayStation save still visible within.
+
+Choose a route below to follow the Sony header, the three save layers, or the [VMU](#glossary-vmu) wrapper.
+
+{% include game-data-visual.html id="chicken-save" config=site.data.chicken_run_game_visuals.save %}
 
 ---
 ## Sound names beside the samples

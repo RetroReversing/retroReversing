@@ -336,3 +336,118 @@ export function description(path, sample) {
   }
   return result('Binary file; its specific purpose is not established from the header.', 'Inspected; purpose not established');
 }
+
+const page = (href, title) => ({ href, title });
+const articlesByName = {
+  'actor2.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'bff_load.c': [page('#inside-a-bff', 'Inside a BFF')],
+  'card.c': [
+    page('#two-kinds-of-progress-in-one-save', 'Two kinds of progress in one save'),
+    page('#a-sony-header-inside-a-sega-save', 'A Sony header inside a Sega save')
+  ],
+  'card.h': [page('#two-kinds-of-progress-in-one-save', 'Two kinds of progress in one save')],
+  'catapult.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'charactr.c': [page('#the-farm-behind-the-film', 'The farm behind the film')],
+  'chase.h': [page('#explore-the-source', 'Explore the source')],
+  'chicken.scr': [page('#building-the-gd-rom', 'Building the GD-ROM')],
+  'chickenrun.cpj': [page('#building-the-gd-rom', 'Building the GD-ROM')],
+  'construct.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'crate.c': [page('#the-farm-behind-the-film', 'The farm behind the film')],
+  'credits.c': [page('#the-people-in-the-comments', 'The people in the comments')],
+  'cricon16.bmp': [page('#the-smallest-piece-of-artwork', 'The smallest piece of artwork')],
+  'curtains.c': [page('#the-people-in-the-comments', 'The people in the comments')],
+  'custom.c': [page('#pc-conversion-and-shared-code', 'PC conversion and shared code')],
+  'custom2.c': [page('#pc-conversion-and-shared-code', 'PC conversion and shared code')],
+  'dc_tim.c': [page('#the-same-menu-art-on-a-new-gpu', 'The same menu art on a new GPU')],
+  'demostub.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'dogchase.c': [page('#the-farm-behind-the-film', 'The farm behind the film')],
+  'ectsmenu.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'egglaying.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'egglaying.h': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'enemies.c': [
+    page('#what-the-hourglass-measures', 'What the hourglass measures'),
+    page('#hiding-under-the-welly', 'Hiding under the welly')
+  ],
+  'enemies.h': [page('#how-the-dogs-listen', 'How the dogs listen')],
+  'engine.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'fadeout.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'fireworks.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'fma.h': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'frogedit.dat': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'gametext.txt': [page('#the-people-in-the-comments', 'The people in the comments')],
+  'gingicon.bmp': [page('#the-smallest-piece-of-artwork', 'The smallest piece of artwork')],
+  'global.h': [
+    page('#development-environment', 'Development environment'),
+    page('#secret-doors-for-testers', 'Secret doors for testers'),
+    page('#pc-conversion-and-shared-code', 'PC conversion and shared code')
+  ],
+  'gte.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'in.txt': [page('#building-the-gd-rom', 'Building the GD-ROM')],
+  'include.h': [page('#dreamcast-only-details', 'Dreamcast-only details')],
+  'inventory.c': [page('#map-pieces-that-follow-the-player', 'Map pieces that follow the player')],
+  'inventory.h': [page('#map-pieces-that-follow-the-player', 'Map pieces that follow the player')],
+  'islcard.c': [page('#a-sony-header-inside-a-sega-save', 'A Sony header inside a Sega save')],
+  'islfile.c': [page('#flatpacker', 'FlatPacker')],
+  'islfont.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'islsfx2.c': [page('#sound-names-beside-the-samples', 'Sound names beside the samples')],
+  'language.c': [
+    page('#secret-doors-for-testers', 'Secret doors for testers'),
+    page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')
+  ],
+  'layout.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'lcdcr.bmp': [page('#the-smallest-piece-of-artwork', 'The smallest piece of artwork')],
+  'lev_flow.c': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'lights.c': [
+    page('#what-the-hourglass-measures', 'What the hourglass measures'),
+    page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')
+  ],
+  'main.c': [page('#dreamcast-only-details', 'Dreamcast-only details')],
+  'main.h': [page('#dreamcast-only-details', 'Dreamcast-only details')],
+  'makefile.mak': [page('#playstation-only-details', 'PlayStation-only details')],
+  'map_draw.c': [page('#pc-conversion-and-shared-code', 'PC conversion and shared code')],
+  'map_draw.h': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'map_play.c': [
+    page('#secret-doors-for-testers', 'Secret doors for testers'),
+    page('#a-frog-map-under-the-farm', 'A frog map under the farm')
+  ],
+  'map_view.c': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'master.bat': [page('#three-regional-masters', 'Three regional masters')],
+  'menu.c': [page('#the-same-menu-art-on-a-new-gpu', 'The same menu art on a new GPU')],
+  'nme_dogs.c': [page('#how-the-dogs-listen', 'How the dogs listen')],
+  'nme_mrst.c': [page('#what-the-hourglass-measures', 'What the hourglass measures')],
+  'overlays.h': [page('#secret-doors-for-testers', 'Secret doors for testers')],
+  'platcoll.c': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'platform.h': [page('#a-frog-map-under-the-farm', 'A frog map under the farm')],
+  'psi.c': [page('#reading-the-source', 'Reading the source')],
+  'psx_pc.h': [page('#pc-conversion-and-shared-code', 'PC conversion and shared code')],
+  'saveicon.h': [page('#the-smallest-piece-of-artwork', 'The smallest piece of artwork')],
+  'seesaw.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'shell.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'sprite.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'sprouts.c': [page('#the-farm-behind-the-film', 'The farm behind the film')],
+  'sptstream.c': [page('#streaming-the-plan-screen', 'Streaming the plan screen')],
+  'sptstream.h': [page('#streaming-the-plan-screen', 'Streaming the plan screen')],
+  'station.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'subgame.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'subgame.h': [page('#mini-games-with-a-medal', 'Mini-games with a medal')],
+  'test.c': [page('#flatpacker', 'FlatPacker')],
+  'timer.c': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'ultra64.h': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')],
+  'vmudisplay.bmp': [page('#the-smallest-piece-of-artwork', 'The smallest piece of artwork')],
+  'wings.c': [page('#mini-games-with-a-medal', 'Mini-games with a medal')]
+};
+
+const articlesByFolder = {
+  'cr': [page('#dreamcast-only-details', 'Dreamcast-only details')],
+  'cr/source': [page('#playstation-only-details', 'PlayStation-only details')],
+  'simple model shell': [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')]
+};
+
+export function articleFor(path, kind = 'file') {
+  if (kind === 'folder') return articlesByFolder[path] || null;
+  const name = path.split('/').pop().toLowerCase();
+  if (path.startsWith('simple model shell/') && name === 'main.c') {
+    return [page('#the-games-beneath-chicken-run', 'The games beneath Chicken Run')];
+  }
+  return articlesByName[name] || null;
+}

@@ -1,0 +1,355 @@
+hourglass:
+  variant: pipeline
+  eyebrow: Shared danger display / enemies.c
+  title: Separate systems fill one glass
+  controls_label: Hourglass event sources
+  caption: Amounts are the source constants added this frame, not seconds. Growl and Mrs Tweedy pursuit latch an alert instead of adding sand. The cards show hourglass2Inform routes, not a frame-accurate HUD.
+  options:
+    - key: light
+      label: Light
+      signal: sight
+      signal_label: Alert-enabled light
+      signal_detail: Ginger is standing in a light that can raise the alarm.
+      nodes:
+        - {step: '01 / source', heading: lights.c reports a hit, code: HOURGLASS_IN_LIGHT}
+        - {step: '02 / amount', heading: Add a short fill, code: HOURGLASS_LIGHT_TIME}
+        - {step: '03 / glass', heading: Keep the largest amount this frame, code: hourglass2Inform}
+    - key: search
+      label: Searchlight
+      signal: sight
+      signal_label: Cone searchlight
+      signal_detail: A searchlight cone has found Ginger.
+      nodes:
+        - {step: '01 / source', heading: lights.c reports the cone, code: HOURGLASS_IN_SEARCHLIGHT}
+        - {step: '02 / amount', heading: Add twice the ordinary light fill, code: HOURGLASS_SEARCH_TIME}
+        - {step: '03 / glass', heading: Keep the largest amount this frame, code: hourglass2Inform}
+    - key: loud
+      label: Loud noise
+      signal: sound
+      signal_label: Carrying noise
+      signal_detail: A movement or action was noisy enough to carry.
+      nodes:
+        - {step: '01 / source', heading: enemies.c reports the noise, code: HOURGLASS_MAKING_LOUD_NOISE}
+        - {step: '02 / amount', heading: Add a large fill and remember it, code: HOURGLASS_LOUD_TIME}
+        - {step: '03 / glass', heading: Repeat the amount while the noise lingers, code: hourglass2_repeat_this_amount}
+    - key: quiet
+      label: Quiet noise
+      signal: sound
+      signal_label: Quiet or thinking
+      signal_detail: Quiet noise, or a dog still deciding, adds a smaller warning.
+      nodes:
+        - {step: '01 / source', heading: Quiet noise or dog thinking, code: HOURGLASS_MAKING_QUIET_NOISE}
+        - {step: '02 / amount', heading: Add a small fill unless pursuit is instant, code: HOURGLASS_QUIET_TIME}
+        - {step: '03 / glass', heading: Keep the largest amount this frame, code: hourglass2Inform}
+    - key: mrs
+      label: Mrs Tweedy
+      signal: sight
+      signal_label: Field of view
+      signal_detail: Mrs Tweedy has Ginger in her viewing cone.
+      nodes:
+        - {step: '01 / source', heading: nme_mrst.c reports the view, code: HOURGLASS_IN_MRT_FOV}
+        - {step: '02 / amount', heading: Add the large vision fill, code: HOURGLASS_MRT_FOV_TIME}
+        - {step: '03 / glass', heading: Keep the largest amount this frame, code: hourglass2Inform}
+    - key: growl
+      label: Growl
+      signal: sound
+      signal_label: Alert latch
+      signal_detail: A dog growl or Mrs Tweedy pursuit switches the glass into alert instead of adding sand.
+      nodes:
+        - {step: '01 / source', heading: Growl or Tweedy pursuit, code: HOURGLASS_DOG_IN_GROWL_MODE}
+        - {step: '02 / latch', heading: Enter the alert state, code: hourglass2_in_alert_state}
+        - {step: '03 / glass', heading: Hold the display while the farm is alert, code: HOURGLASS_ALERT_TIME}
+
+welly:
+  variant: meter
+  eyebrow: Disguise test / enemies.c
+  title: Suspicion has a threshold
+  input_label: welly_suspicious_timer
+  meter_label: Disguise remaining
+  unit: units
+  max_value: 4096
+  warning_start: 128
+  early_label: Undecided
+  warning_label: Suspicion rising
+  danger_label: Disguise blown
+  early_copy: The timer is still at rest. One movement tick in view adds 128 and starts the bar draining.
+  warning_copy: The timer is climbing toward WELLY_NOTICE_TIME. Hiding removes 32, leaving view removes 200, and crossing 4096 sets knows_youre_in_welly.
+  danger_copy: The enemy knows Ginger is inside. Putting the welly on while already observed skips the timer and reveals the trick immediately.
+  caption: Drag through the source timer. The bar is disguise remaining, not an on-screen HUD. The live cap is 8182, but 4096 is the notice threshold.
+
+dogs:
+  variant: pipeline
+  eyebrow: Patrol hearing and sight / nme_dogs.c
+  title: Ears follow the animation
+  controls_label: Dog detection routes
+  caption: Distances are source world units from enemies.h. The lounge checks are special cases for the act 4 waiting dog, not a scale drawing of the room.
+  options:
+    - key: walk
+      label: Walk
+      signal: sound
+      signal_label: Walk animation
+      signal_detail: DogCanHearCheck reads GINGER_WALK, not measured speed.
+      nodes:
+        - {step: '1 / Animation', heading: 'Current segment is GINGER_WALK', code: 'animation.animData[0].segment'}
+        - {step: '2 / Range', heading: 'Within 1200 world units', code: PATROL_DOG_HEARS_WALK_RANGE}
+        - {step: '3 / Result', heading: Hearing check can succeed, code: DogCanHearCheck}
+    - key: run
+      label: Run
+      signal: sound
+      signal_label: Run animation
+      signal_detail: Running uses the larger hearing range. The comment still calls it running rather than tiptoeing.
+      nodes:
+        - {step: '1 / Animation', heading: 'Current segment is GINGER_RUN', code: 'animation.animData[0].segment'}
+        - {step: '2 / Range', heading: 'Within 2000 world units', code: PATROL_DOG_HEARS_RUN_RANGE}
+        - {step: '3 / Result', heading: Hearing check can succeed, code: DogCanHearCheck}
+    - key: idle
+      label: Other anim
+      signal: sound
+      signal_label: No walk or run
+      signal_detail: Any other animation returns immediately. An older speed test is still present as comments.
+      nodes:
+        - {step: '1 / Animation', heading: Segment is neither walk nor run, code: default in DogCanHearCheck}
+        - {step: '2 / Range', heading: No hearing range is chosen, code: return 0}
+        - {step: '3 / Result', heading: This check does not hear Ginger, code: DogCanHearCheck}
+    - key: sight
+      label: Sight
+      signal: sight
+      signal_label: Patrol view
+      signal_detail: Ordinary patrol dogs use a 3200-unit range and a 1024-unit field of view.
+      nodes:
+        - {step: '1 / Distance', heading: 'Target within sight range', code: PATROL_DOG_SIGHT_RANGE}
+        - {step: '2 / Angle', heading: 'Target inside view cone', code: PATROL_DOG_SIGHT_FOV}
+        - {step: '3 / Attack', heading: Kill range cut to 650 after tester notes, code: PATROL_DOG_KILLER_RANGE}
+    - key: lounge
+      label: Lounge
+      signal: sight
+      signal_label: Act 4 waiting dog
+      signal_detail: The lounge dog ignores a gnome and anyone high on the windowsill.
+      nodes:
+        - {step: '1 / Height', heading: Skip the check if the rat is too high, code: pos.vy - 1000}
+        - {step: '2 / Disguise', heading: Gnome makes the rat unseeable, code: 'selected_item == GNOME'}
+        - {step: '3 / View', heading: Otherwise test a 4000-unit watching cone, code: WATCHING_DOG_SIGHT_FOV}
+
+map_pieces:
+  variant: collection
+  eyebrow: Inventory flags / inventory.h
+  title: Fourteen chances to collect a map
+  controls_label: Map piece flags
+  collect_label: Collect piece
+  reset_label: Clear pieces
+  initial_note: Each slot is one of the 14 map_pieces_got flags. The hex value is only this board's overlay, not a field in the save.
+  complete_note: All 14 flags are set. inventoryRemoveDuplicateMapPieces() will remove matching scenery when the next level loads.
+  caption: Click the fourteen pieces to fill the saved flags. This is a schematic collection board, not a map of pickup locations. The game stores char map_pieces_got[14], not a bitmask.
+  slots:
+    - {label: '01', bit: 1}
+    - {label: '02', bit: 2}
+    - {label: '03', bit: 4}
+    - {label: '04', bit: 8}
+    - {label: '05', bit: 16}
+    - {label: '06', bit: 32}
+    - {label: '07', bit: 64}
+    - {label: '08', bit: 128}
+    - {label: '09', bit: 256}
+    - {label: '10', bit: 512}
+    - {label: '11', bit: 1024}
+    - {label: '12', bit: 2048}
+    - {label: '13', bit: 4096}
+    - {label: '14', bit: 8192}
+
+swim_cheat:
+  variant: timeline
+  eyebrow: Hidden stick sequence / language.c
+  title: Four angles open the viewer
+  controls_label: SwimCheatCycle stages
+  caption: The stages are language_cheatmode values. Angles use a 4096-unit circle with LANG_CHEAT_TOLERANCE of 400. Neutral sticks reset the sequence. This is the recogniser, not an on-screen prompt.
+  options:
+    - key: opposite
+      label: Opposite
+      badge: '00'
+      heading: Sticks point opposite ways
+      copy: Left stick near 1024 and right stick near 3076 advances the first stage. Either stick in the dead zone calls SwimCheatReset().
+      code: ang1 1024 / ang2 3076
+    - key: together
+      label: Together
+      badge: '01'
+      heading: Both sticks share 2048
+      copy: Both analogue sticks must sit near 2048 at once. Completing the pose increments language_cheatmode.
+      code: ang1 2048 / ang2 2048
+    - key: swap
+      label: Swap
+      badge: '02'
+      heading: The opposite pose reversed
+      copy: The sticks swap their first-stage angles, 3076 on the left and 1024 on the right.
+      code: ang1 3076 / ang2 1024
+    - key: home
+      label: Home
+      badge: '03'
+      heading: Both sticks return to 0
+      copy: Both angles must sit near 0 or 4096. The next poll returns 1, prints Going to the Development stuff, and opens the internal viewer.
+      code: ang1 0 / ang2 0
+
+debug:
+  variant: card
+  eyebrow: QA selector / map_play.c
+  title: R3 turns the D-pad into a menu
+  controls_label: EIDOS_DEBUG_STUFF shortcuts
+  caption: Labels are the testnames strings. R3 plus Up or Down chooses an entry. R3 plus L1 ends the room and runs the matching levflowCheat routine.
+  options:
+    - key: mannequin
+      label: Mannequin
+      branch: testnames[0]
+      heading: Mannequin
+      copy: "R3 and L1 ends the current room and calls levflowCheatToManniquin."
+    - key: minigames
+      label: Mini-games
+      branch: 'testnames[1-8]'
+      heading: Catapult through Crate
+      copy: "The list walks Catapult, Fireworks, Seesaw, CogChase, Construct, Engine, Wings, then Crate."
+    - key: videos
+      label: All Vid
+      branch: testnames[9]
+      heading: All Vid
+      copy: "Unlocks the video shortcut through levflowCheatAllVids."
+    - key: levels
+      label: All Levs
+      branch: testnames[10]
+      heading: All Levs
+      copy: "Unlocks the level shortcut through levflowCheatAllLevs."
+    - key: eggs
+      label: 6 Eggs
+      branch: testnames[11]
+      heading: 6 Eggs
+      copy: "Gives the egg shortcut through levflowCheatEggs."
+
+regions:
+  variant: card
+  eyebrow: PlayStation masters / source/global.h
+  title: One makefile, three product codes
+  controls_label: Regional TERRIT values
+  caption: Text is distilled from the TERRIT blocks in the PlayStation global.h. Dreamcast in this copy still defines the UK product code.
+  options:
+    - key: us
+      label: US
+      branch: TERRIT==0
+      heading: SLUS-01304
+      copy: "NTSC. Prefix BA. LOTS_OF_LANGUAGES is 0. Memory-card name BASLUS-01304CHRUN."
+    - key: europe
+      label: Europe
+      branch: TERRIT==1
+      heading: SLES-03285
+      copy: "PAL. Prefix BE. LOTS_OF_LANGUAGES is 1. Memory-card name BESLES-03285CHRUN."
+    - key: uk
+      label: UK
+      branch: TERRIT==2
+      heading: SLES-03188
+      copy: "PAL. Prefix BE. LOTS_OF_LANGUAGES is 0. Memory-card name BESLES-03188CHRUN."
+
+gd_rom:
+  variant: bars
+  eyebrow: Disc map / chicken.scr
+  title: 654 named files on CHICKENRUN1
+  controls_label: GD Workshop file counts
+  caption: Counts are File entries in chicken.scr. Act 3 appears as video files rather than A3_ room prefixes. Shared covers frontend, models, audio, and system files.
+  options:
+    - key: type
+      label: By type
+      bars:
+        - {label: SPT textures, value: 177}
+        - {label: PSI models, value: 79}
+        - {label: BFF rooms, value: 72}
+        - {label: RAW audio, value: 66}
+        - {label: KAT banks, value: 62}
+        - {label: SBB sound, value: 37}
+        - {label: SBH headers, value: 37}
+        - {label: SFD video, value: 13}
+    - key: act
+      label: By act
+      bars:
+        - {label: Act 1 prefix, value: 62}
+        - {label: Act 2 prefix, value: 171}
+        - {label: Act 4 prefix, value: 181}
+        - {label: Shared files, value: 240}
+    - key: bff
+      label: BFF by act
+      bars:
+        - {label: Act 1 BFF, value: 9}
+        - {label: Act 2 BFF, value: 29}
+        - {label: Act 4 BFF, value: 34}
+
+egg_laying:
+  variant: stages
+  eyebrow: Mini-game states / egglaying.h
+  title: Feed, swallow, lay
+  controls_label: Egg-laying machines
+  caption: State names come from the enums in egglaying.h. Timing depends on the live station, so this is a state list rather than a scored playthrough.
+  options:
+    - key: chicken
+      label: Chicken
+      steps: [Feed me, Eating, Swallow, Lay, Relief]
+      note: EGGLAYER_FEEDME through EGGLAYER_RELIEF. Idle and breath sit beside that working loop.
+    - key: grain
+      label: Grain
+      steps: [Stopped, Stopping, Active, Starting]
+      note: EL_GRAIN_STOPPED through EL_GRAIN_STARTING control whether grain is moving at a station.
+    - key: session
+      label: Session
+      steps: [Fade in, Intro, Running, Finish]
+      note: The session enum also has separate succeed, fail, and medal states after EL_RUNNING.
+
+bff:
+  variant: pipeline
+  eyebrow: Level container / bff_load.c
+  title: Load, mark, then link
+  controls_label: BFF load paths
+  caption: The selected labels identify source-code responsibilities. A zero CRC means the only object of that type. Version-0 PSI asserts instead of linking.
+  options:
+    - key: load
+      label: Load file
+      nodes:
+        - {step: '01 / open', heading: Load the whole container, code: BFF_LoadFile / fileLoad}
+        - {step: '02 / mark', heading: Flag the last segment by length, code: 'work->len |= 0x80000000'}
+        - {step: '03 / link', heading: Switch on type and rebuild pointers, code: BFF_Link_PSI1 / BFF_Link_FMA_Mesh}
+    - key: find
+      label: Find object
+      nodes:
+        - {step: '01 / type', heading: Four-character type with a version byte, code: work->id}
+        - {step: '02 / name', heading: CRC of the object name, or zero for the only one, code: BFF_FindObject}
+        - {step: '03 / use', heading: Return the matching segment, code: BFF_FindNamedObject}
+    - key: psi
+      label: PSI model
+      nodes:
+        - {step: '01 / type', heading: PSI1 is the live model type, code: BFF_PSI1_ID}
+        - {step: '02 / link', heading: Rebuild the model pointers, code: BFF_Link_PSI1}
+        - {step: '03 / reject', heading: Version 0 still asserts, code: BFF_PSI_ID}
+    - key: fma
+      label: Frog map
+      nodes:
+        - {step: '01 / mesh', heading: Link mesh format 5 or 6, code: BFF_Link_FMA_Mesh}
+        - {step: '02 / world', heading: Link the frog-map world, code: BFF_Link_FMA_World}
+        - {step: '03 / lookup', heading: Later code finds meshes by CRC, code: BFF_FMA_MESH_ID}
+
+save:
+  variant: pipeline
+  eyebrow: Memory card / card.c + islcard.c
+  title: Sony layout inside a VMU file
+  controls_label: Save-pack routes
+  caption: The write path still builds a PlayStation header, then Dreamcast wraps that payload. Replay uses a second gameplay pointer that is never written back.
+  options:
+    - key: header
+      label: Sony header
+      nodes:
+        - {step: '01 / magic', heading: Write the SC bytes, code: header.magic}
+        - {step: '02 / icon', heading: Copy one icon into all three slots, code: SHELL/SAVEICON.SPT}
+        - {step: '03 / title', heading: Convert Chicken Run to Shift-JIS, code: asciiStringToSJIS}
+    - key: layers
+      label: Three layers
+      nodes:
+        - {step: '01 / options', heading: Permanent control settings, code: OPTIONDATASTR options}
+        - {step: '02 / state', heading: Unlocks, medals, and best results, code: GameSaveDataType state}
+        - {step: '03 / play', heading: Inventories, tasks, and map flags, code: GamePlayDataType play}
+    - key: vmu
+      label: VMU wrap
+      nodes:
+        - {step: '01 / lcd', heading: Show the saving graphic, code: 'cardDisplay(LCD_saving)'}
+        - {step: '02 / wrap', heading: Build the Sega backup image, code: buMakeBackupFileImage}
+        - {step: '03 / result', heading: Show OK or error on the LCD, code: 'cardDisplay(LCD_ok)'}

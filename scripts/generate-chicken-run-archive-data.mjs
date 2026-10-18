@@ -7,7 +7,7 @@
 import { closeSync, openSync, readSync, readdirSync, lstatSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { description } from './chicken-run-archive-descriptions.mjs';
+import { articleFor, description } from './chicken-run-archive-descriptions.mjs';
 
 const source = process.argv[2] && resolve(process.argv[2]);
 if (!source) throw new Error('Usage: node scripts/generate-chicken-run-archive-data.mjs /path/to/source');
@@ -23,7 +23,8 @@ const folderDescriptions = [
   {
     path: 'cr',
     description: 'Primary Dreamcast working tree. Its root contains the Katana port, while its subfolders preserve the PlayStation build, a source snapshot, copied headers, lookup tables, and Visual Studio metadata.',
-    basis: 'Identified from the contained makefiles, projects, and source trees'
+    basis: 'Identified from the contained makefiles, projects, and source trees',
+    article: articleFor('cr', 'folder')
   },
   {
     path: 'cr/Copy of source',
@@ -48,12 +49,14 @@ const folderDescriptions = [
   {
     path: 'cr/source',
     description: 'PlayStation PSYQ build tree. It contains the PlayStation-oriented copy of the game code, regional and demo makefiles, linker scripts, mastering batches, and platform-specific support files.',
-    basis: 'Identified from the PSYQ makefiles, linker scripts, and mastering commands'
+    basis: 'Identified from the PSYQ makefiles, linker scripts, and mastering commands',
+    article: articleFor('cr/source', 'folder')
   },
   {
     path: 'simple model shell',
     description: 'Small Katana and Kamui 2 model viewer built around the PSI model plotter. Its startup code still identifies it as the Frogger 2 shell, showing the tool was adapted for Chicken Run artists.',
-    basis: 'Identified from the makefile, entry point, and model-rendering sources'
+    basis: 'Identified from the makefile, entry point, and model-rendering sources',
+    article: articleFor('simple model shell', 'folder')
   }
 ];
 
@@ -71,7 +74,10 @@ function visit(folder) {
       const fd = openSync(absolute, 'r');
       try { readSync(fd, sample, 0, sample.length, 0); } finally { closeSync(fd); }
       const info = description(path, sample);
-      files.push({ path, size, description: info.text, basis: info.basis });
+      const article = articleFor(path);
+      files.push(article
+        ? { path, size, description: info.text, basis: info.basis, article }
+        : { path, size, description: info.text, basis: info.basis });
     }
   }
 }
