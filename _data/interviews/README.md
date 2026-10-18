@@ -7,8 +7,9 @@ its integer `issue`, `developer`, `people`, `platforms`, `tags`, and
 `description_markdown`. `people` contains the individual people named in the
 `developer` display string; omit collective labels such as "former studio staff"
 and handles without an identified person. Leave `people` empty for entries that
-name only a group or handle. `tags` is an array for verified topical labels and
-can be empty until those labels are curated. Set `pages` to a one-element array
+name only a group or handle. `tags` uses the same valid topic labels as post
+frontmatter (for example, `homebrew`); it can be empty until labels are
+curated. Set `pages` to a one-element array
 for a single printed page, a two-element array for an inclusive printed page
 range, or `null` when the pages have not been verified. An empty `platforms`
 array means no platform

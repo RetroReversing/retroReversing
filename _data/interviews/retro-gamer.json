@@ -5680,7 +5680,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about the *Farmer Jack* games."
     },
     {
@@ -5834,7 +5836,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Jet Set Willy Online* and other remakes."
     },
     {
@@ -5985,7 +5989,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about Park Productions and game remakes."
     },
     {
@@ -6137,7 +6143,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his *Saboteur!* and *Feud* remakes."
     },
     {
@@ -6254,7 +6262,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about the *ZX Shed* fanzine."
     },
     {
@@ -6377,7 +6387,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about RGCD and homebrew games."
     },
     {
@@ -6482,7 +6494,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his arcade game remakes."
     },
     {
@@ -6620,7 +6634,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes interview about his games and remakes."
     },
     {
@@ -6848,7 +6864,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about converting Jeff Minter’s VIC-20 games."
     },
     {
@@ -6986,7 +7004,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about AGameAWeek and rapid game development."
     },
     {
@@ -7172,7 +7192,9 @@
         "Commodore 64",
         "Nintendo DS"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his remakes and homebrew games."
     },
     {
@@ -7342,7 +7364,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his shoot-’em-ups."
     },
     {
@@ -7463,7 +7487,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about the *Spectrum Games Bible* books."
     },
     {
@@ -7567,7 +7593,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about Xona Games and *Decimation X*."
     },
     {
@@ -7686,7 +7714,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his 8-bit games and conversions."
     },
     {
@@ -7827,7 +7857,9 @@
         "BBC Micro",
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about returning to 8-bit game development."
     },
     {
@@ -7967,7 +7999,9 @@
         "Commodore 16",
         "Commodore Plus/4"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Adventures in Time*."
     },
     {
@@ -8106,7 +8140,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Shoot 1UP* and Mommy’s Best Games."
     },
     {
@@ -8209,7 +8245,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Trooper: Point 5* and 8-bit development."
     },
     {
@@ -8346,7 +8384,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Trooper: Point 5* and game programming."
     },
     {
@@ -8483,7 +8523,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his Commodore 64 conversion of *Uwol: Quest for Money*."
     },
     {
@@ -8614,7 +8656,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his independent games."
     },
     {
@@ -8753,7 +8797,9 @@
       "platforms": [
         "Oric"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about Oric development and *Stormlord*."
     },
     {
@@ -8891,7 +8937,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about Arkanix Labs and *Crimson Twilight*."
     },
     {
@@ -9033,7 +9081,9 @@
         "ZX Spectrum",
         "MSX"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his 8-bit games."
     },
     {
@@ -9185,7 +9235,9 @@
       "platforms": [
         "BBC Micro"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about *Repton: The Lost Realms*."
     },
     {
@@ -9362,7 +9414,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about making *Stamp Quest*."
     },
     {
@@ -9543,7 +9597,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about Red Wolf and *Vorpal*."
     },
     {
@@ -9707,7 +9763,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about developing *XOP* and *XOP Black*."
     },
     {
@@ -9904,7 +9962,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about the *Gwobby* games."
     },
     {
@@ -10028,7 +10088,9 @@
         "Commodore 64",
         "Amiga"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about coding on classic computers."
     },
     {
@@ -10149,7 +10211,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his Atari 8-bit games and ports."
     },
     {
@@ -10418,7 +10482,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Homebrew Heroes Q&A about his *Space Harrier* port."
     },
     {
@@ -10598,7 +10664,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Q&A about remaking *Dingo*."
     },
     {
@@ -10774,7 +10842,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Q&A about their remake of *Armalyte*."
     },
     {
@@ -10964,7 +11034,9 @@
         "Xbox 360",
         "Wii"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Q&A about the making of *Retro City Rampage*."
     },
     {
@@ -11143,7 +11215,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Q&A about porting *Prince of Persia* to the Commodore 64."
     },
     {
@@ -11569,7 +11643,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew developer discusses **Endless Forms Most Beautiful** and its relationship to **Stamp Quest**."
     },
     {
@@ -11701,7 +11777,9 @@
       "platforms": [
         "Amstrad CPC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "González describes recreating **Bubble Bobble** for the Amstrad CPC as **BB4CPC**."
     },
     {
@@ -11824,7 +11902,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Cauldwell discusses the long development of **More Tea, Vicar?**."
     },
     {
@@ -11971,7 +12051,9 @@
       "platforms": [
         "Amiga"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Humphrey discusses remaking **Downfall** for the Amiga."
     },
     {
@@ -12085,7 +12167,9 @@
       "platforms": [
         "SAM Coupé"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew developers discuss **The Lost Disks of SAM**."
     },
     {
@@ -12239,7 +12323,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The developers answer questions about their C64 platform game **Soulless**."
     },
     {
@@ -12420,7 +12506,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Farrow discusses his remake of **Atic Atac**."
     },
     {
@@ -12556,7 +12644,9 @@
       "platforms": [
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Alvis discusses starting the C64 publishing label Flimsoft."
     },
     {
@@ -12750,7 +12840,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew programmer discusses **Ridiculous Reality** and Atari 8-bit development."
     },
     {
@@ -12911,7 +13003,9 @@
         "Videopac",
         "Odyssey2"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew developer discusses making **Mage: The Enchanted Crystals** for the Videopac and Odyssey2."
     },
     {
@@ -13084,7 +13178,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew developer explains the design of **Mole Rat** and **Shuttlebug**."
     },
     {
@@ -13206,7 +13302,9 @@
         "ZX81",
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Smith discusses coding **Impact!** and other games for Sinclair computers."
     },
     {
@@ -13389,7 +13487,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The Flump Studios programmer answers questions about the indie shooter **Pester**."
     },
     {
@@ -13543,7 +13643,9 @@
         "Atari 8-bit",
         "Commodore 64"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Kehrer explains emulating vector arcade games on 8-bit home computers."
     },
     {
@@ -13692,7 +13794,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Redmond answers questions about the Xbox Live Indie shooter **Chronoblast**."
     },
     {
@@ -13881,7 +13985,9 @@
       "platforms": [
         "Commodore PET"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Johnson discusses programming **Ladybug** for the PET."
     },
     {
@@ -14038,7 +14144,9 @@
         "SAM Coupé",
         "Amiga"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew team discuss adapting **Lost Disks of SAM** into **Moebius Goatlizard**."
     },
     {
@@ -14244,7 +14352,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The indie developer discusses designing the puzzle game **Ninja Twins**."
     },
     {
@@ -14430,7 +14540,9 @@
       "platforms": [
         "ZX Spectrum"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Cauldwell discusses the design and evolution of **Arcade Game Designer**."
     },
     {
@@ -14585,7 +14697,9 @@
       "platforms": [
         "PC"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The homebrew developer discusses his fan sequel **Bruce Lee II**."
     },
     {
@@ -14756,7 +14870,9 @@
       "platforms": [
         "Atari 8-bit"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Houra explains converting an Ultimate isometric game to Atari computers."
     },
     {
@@ -14927,7 +15043,9 @@
       "platforms": [
         "Xbox 360"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Hanson discusses developing the indie shooter **Power-Up**."
     },
     {
@@ -15123,7 +15241,9 @@
       "platforms": [
         "VIC-20"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Richards explains his VIC-20 homebrew conversion of **Pitfall!**."
     },
     {
@@ -15323,7 +15443,9 @@
       "platforms": [
         "Commodore Plus/4"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Kisnémet discusses adapting **Sgt Helmet Zero** to the Plus/4."
     },
     {
@@ -15474,7 +15596,9 @@
       "platforms": [
         "Raspberry Pi"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "Silvera explains developing the FUZE educational computer."
     },
     {
@@ -15635,7 +15759,9 @@
       "platforms": [
         "Atari 2600"
       ],
-      "tags": [],
+      "tags": [
+        "homebrew"
+      ],
       "description_markdown": "The team explains its homebrew game **CGE Adventures**."
     },
     {
