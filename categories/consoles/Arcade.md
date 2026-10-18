@@ -237,6 +237,12 @@ Rare Gamer provides a technical overview of Fokker, a cancelled 1988 arcade flig
 {% include link-to-other-site.html url="https://www.raregamer.co.uk/games/fokker/" description="Rare Gamer explores the history and technical implementation of Fokker, a cancelled 1988 arcade flight simulator that utilized Rare's custom Razz board." image="https://www.raregamer.co.uk/wp-content/uploads/2012/03/fokker_01.png" title="Fokker - Rare Gamer" %}
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Arcade" %}
+
+---
 # References
 [^1]: [mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
 [^2]: Wireframe Issue 01 page 33

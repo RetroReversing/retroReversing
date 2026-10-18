@@ -55,6 +55,12 @@ The key optimizations implemented to improve *RPCS3* performance on *ARM* hardwa
 * **Hardware-Specific Wait Instructions:** Implementing *WFE* (Wait For Event) allowed the emulator to enter a low-power state while waiting for cache line updates, leading to measurable power savings.
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="PlayStation 3" %}
+
+---
 # All Posts
 <div>
 

@@ -181,6 +181,12 @@ For a comprehensive breakdown of the development process and the technical strat
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="ZX Spectrum" %}
+
+---
 # References
 [^1]: [history - Back in the late 1980s, how was commercial software for 8-bit home computers developed? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/9006/back-in-the-late-1980s-how-was-commercial-software-for-8-bit-home-computers-dev#:~:text=,file%20on%20that%20distant%20mainframe)
 [^2]: [Sinclair User](https://worldofspectrum.org/archive/magazines/pages/sinclair-user/61/44) and [User john_e - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/users/1912/john-e)

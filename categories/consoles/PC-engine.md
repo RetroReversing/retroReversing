@@ -63,6 +63,12 @@ Interview with **Takayuki Hirono** where he explains the differences between the
 [An Interview with 8ing and developers from Compile and TechnoSoft - YouTube](https://www.youtube.com/watch?v=_gop6t8B4HY)
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="PC Engine|TurboGrafx-16" %}
+
+---
 # References
 [^1]: [The PC-Engine Chronicles, the unexpected success of an unusual console - A TurboGrafx-16 Documentary](https://www.youtube.com/watch?v=ow13aO1OmJM)
 [^2]: [Tokuma Shoten Intermedia - DEVELOでべろBOX - Generation MSX](https://www.generation-msx.nl/hardware/tokuma-shoten-intermedia/develobox/1708/)

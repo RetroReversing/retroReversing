@@ -62,6 +62,12 @@ Sony released their HIT-BIT machines which started with the HB-10 which had 16KB
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="MSX|MSX2" %}
+
+---
 # References
 [^1]: PSi2 Issue 19
 [^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)

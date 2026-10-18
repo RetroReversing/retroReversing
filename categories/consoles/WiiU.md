@@ -1,10 +1,5 @@
 ---
 permalink: /wiiu
-redirect_from:
-  - /wiiu/
-  - /wiiu
-  - /wiiU
-  - /wiiU/
 title: Nintendo Wii U Reverse Engineering
 layout: post
 recommendTitle: All WiiU Posts
@@ -84,6 +79,12 @@ If you want a higher-leverage target to start with, look for titles with debug s
 If you want a friendlier first target, games with symbols or unstripped binaries can dramatically reduce the amount of guesswork:
 {% include_cached link-to-other-post.html post="/wii-u-unstripped" description="A large reference table of Wii U titles known to ship with debug symbols or otherwise unstripped binaries." %}
 
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Wii U" %}
 
 ---
 # All Posts

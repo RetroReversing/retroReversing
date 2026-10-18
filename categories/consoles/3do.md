@@ -33,6 +33,12 @@ The Apple Quadra was a series of personal computers produced by Apple Inc. durin
 The Apple Quadra series included various models with different specifications and capabilities. These computers were used for a wide range of tasks, including desktop publishing, graphic design, and software development. The Quadra series was part of Apple's efforts to provide high-performance computers to professional and power users.
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="3DO" %}
+
+---
 # References
 [^1]: Game Developer Magazine issue 1
 

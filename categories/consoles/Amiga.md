@@ -267,6 +267,12 @@ RobSmithDev has an excellent video about the history and reverse engineering of 
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="Amiga|Amiga CD32" %}
+
+---
 # References
 [^1]: [MobyGames - Amiga games list](https://www.mobygames.com/platform/amiga/)
 [^2]: [The Amiga Development System - YouTube](https://www.youtube.com/watch?v=lfUVgHsPoNU)

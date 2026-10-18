@@ -1754,6 +1754,12 @@ This allows your code to initialize silently alongside the game, providing a sta
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Windows" %}
+
+---
 # References
 [^1]: PSi2 Issue 19
 [^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)

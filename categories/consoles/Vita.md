@@ -64,6 +64,12 @@ The write-up details the creation of the VCI format for 1:1 backups, which prese
 {% include link-to-other-site.html url="https://silica.codes/ramblings/gc.htm" description="Silica documents the reverse engineering of the PS Vita Game Cartridge (GC) interface, explaining the CMD56 challenge-response protocol and the development of the VCI backup format." image="https://opengraph.githubassets.com/1/LiEnby/GcToolKit" title="Reverse Engineering Game Cartridge Authentication on the PlayStation Vita" %}
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="PlayStation Vita" %}
+
+---
 # All Posts
 <div>
 

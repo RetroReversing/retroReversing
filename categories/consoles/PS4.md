@@ -55,5 +55,11 @@ According to [Phoronix](https://www.phoronix.com/news/MTM5NDI) the operating sys
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="PlayStation 4" %}
+
+---
 # References
 [^1]: [Sony's PlayStation 4 Is Running Modified FreeBSD 9 - Phoronix](https://www.phoronix.com/news/MTM5NDI)

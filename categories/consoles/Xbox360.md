@@ -75,6 +75,12 @@ The Xecuter Blaster 360 was a permanent install that allows you to flash your dr
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Xbox 360" %}
+
+---
 # All Posts
 <div>
 

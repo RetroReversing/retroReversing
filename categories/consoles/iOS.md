@@ -138,5 +138,11 @@ The **cgnkrz** repository provides **QLCARFiles**, a native macOS application bu
 
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="iOS|iPhone" %}
+
+---
 # References
 [^1]: [iPhone OS 1: The Beginning of an Era - Low End MacLow End Mac](https://lowendmac.com/2017/iphone-os-1-the-beginning-of-an-era/?utm_source=chatgpt.com)

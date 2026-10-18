@@ -282,6 +282,12 @@ The [*Sonic the Hedgehog* Game Gear split disassembly](https://github.com/TheRav
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="Game Gear" %}
+
+---
 # References
 [^1]: [GST♥: Part 2: A Discovery with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416756992688128/part-2-a-discovery-with-paul-hutchinson)
 [^2]: [GST♥: Part 1: A Chat with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson#:~:text=cover%20was%20removed%20in%20order,and%20we%20would%20meet%20and)

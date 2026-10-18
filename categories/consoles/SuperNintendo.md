@@ -318,6 +318,12 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="SNES|Super Nintendo" %}
+
+---
 # References
 [^1]: [Kevin Edwards ( Retro Videogame development ) on X: "@BananaBytesBr IIRC about 6-7 months from start to final build." / X](https://twitter.com/KevEdwardsRetro/status/1715423462066360653)
 [^2]: [Development:Super Mario World 2: Yoshi's Island - The Cutting Room Floor](https://tcrf.net/Development:Super_Mario_World_2:_Yoshi%27s_Island)

@@ -413,6 +413,12 @@ Then simply join the header with the content from address 0x747E67D6 and 0xC87FC
 </div>
 
 ---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platforms="NES|Nintendo Entertainment System" %}
+
+---
 # References
 [^1]: [ROM City Rampage](https://www.romhacking.net/forum/index.php?topic=15982.0)
 [^2]: Game Developer Magazine April 1994 Page 24

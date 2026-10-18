@@ -90,3 +90,9 @@ This is a list of the games you can enjoy without being able to read any Japanes
 * Umizuri ni ikou - Fishing game
 * Wasabi Produce - Street Dancer - Rhythm game
 * Wonder Stadium
+
+---
+# Magazine Interviews
+The magazine index collects developer interviews tagged for this system across all indexed magazines.
+
+{% include interview-table.html platform="WonderSwan" %}
