@@ -1,0 +1,57 @@
+{% case include.kind %}
+{% when "audio" %}
+<figure class="rr-turok-visual rr-turok-visual--audio" data-turok-audio>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">The sound shelf / PR/tengine/sounds</span><strong>5,034 files</strong></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Audio chart view"><button type="button" data-audio-view="format" aria-pressed="true">By format</button><button type="button" data-audio-view="duration" aria-pressed="false">By duration</button></div>
+  <div class="rr-turok-bars" data-audio-bars aria-live="polite">
+    <div class="rr-turok-bars__row"><span>AIFF source</span><span class="rr-turok-bars__track"><i style="width:100%"></i></span><strong>4,406</strong></div>
+    <div class="rr-turok-bars__row"><span>N64 VADPCM</span><span class="rr-turok-bars__track"><i style="width:14.25%"></i></span><strong>628</strong></div>
+  </div>
+  <figcaption>Counts and approximate durations come from the audio headers in this copy. No sound files are served by this page.</figcaption>
+</figure>
+{% when "boss" %}
+<figure class="rr-turok-visual rr-turok-visual--boss" data-turok-boss>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Boss mode board / trex.c</span><strong>One creature, many states</strong></div>
+  <div class="rr-turok-boss__scene" aria-hidden="true"><span class="rr-turok-boss__sun"></span><span class="rr-turok-boss__rex">T. REX</span><span class="rr-turok-boss__ground"></span></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Tyrannosaurus modes"><button type="button" data-boss="entrance" aria-pressed="true">Entrance</button><button type="button" data-boss="hunt" aria-pressed="false">Hunt</button><button type="button" data-boss="fire" aria-pressed="false">Fire</button><button type="button" data-boss="cave" aria-pressed="false">Cave</button></div>
+  <div class="rr-turok-visual__readout" aria-live="polite"><strong data-boss-title>Protected entrance</strong><p data-boss-copy>The elevator idle and rage modes carry an invincibility flag while the encounter opens.</p><code data-boss-code>BF_INVINCIBLE | BF_ENTER_MODE</code></div>
+  <figcaption>Selected entries from the `BOSS_MODE_INFO` table; the illustration is schematic.</figcaption>
+</figure>
+{% when "map" %}
+<figure class="rr-turok-visual rr-turok-visual--map" data-turok-map>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Cartography / map.c</span><strong>Discovery crosses connected regions</strong></div>
+  <div class="rr-turok-map__grid" role="img" aria-label="Illustrative connected-room map with a closed gate"><span class="is-revealed">01<br>START</span><span class="is-revealed">02<br>PASSAGE</span><span class="is-gate">GATE<br>CLOSED</span><span>04<br>CHAMBER</span><span>05<br>EXIT</span></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Map reveal controls"><button type="button" data-map-action="gate">Open gate</button><button type="button" data-map-action="reset">Reset map</button></div>
+  <p class="rr-turok-visual__note" data-map-status aria-live="polite">The closed door keeps the next connected region hidden.</p>
+  <figcaption>This simplified map illustrates `REGFLAG_DOOR`, `REGFLAG_OPENDOOR`, and recursive region reveal; it is not a game level.</figcaption>
+</figure>
+{% when "attract" %}
+<figure class="rr-turok-visual rr-turok-visual--attract" data-turok-attract>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Demo tape / attract.c</span><strong>Input changes over time</strong></div>
+  <div class="rr-turok-timeline" role="group" aria-label="Illustrative demo beats"><button type="button" data-beat="0" aria-pressed="true"><b>00</b><span>Ready</span></button><button type="button" data-beat="1" aria-pressed="false"><b>01</b><span>Move</span></button><button type="button" data-beat="2" aria-pressed="false"><b>02</b><span>Jump</span></button><button type="button" data-beat="3" aria-pressed="false"><b>03</b><span>Fire</span></button></div>
+  <div class="rr-turok-visual__readout" aria-live="polite"><strong data-attract-title>Starting point</strong><p data-attract-copy>The header selects a warp and records how many frames the demo spans.</p><code data-attract-code>warp ID + total frames</code></div>
+  <figcaption>A fabricated four-beat sequence explains the packed format; it is not a surviving demo recording.</figcaption>
+</figure>
+{% when "mechanisms" %}
+<figure class="rr-turok-visual rr-turok-visual--mechanisms" data-turok-mechanisms>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Moving architecture / aidoor.c</span><strong>Each machine has a clock</strong></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Level mechanisms"><button type="button" data-mechanism="platform" aria-pressed="true">Platform</button><button type="button" data-mechanism="pressure" aria-pressed="false">Pressure action</button><button type="button" data-mechanism="portal" aria-pressed="false">Portal</button></div>
+  <div class="rr-turok-mechanism__steps" aria-live="polite"><span data-step="0">Triggered</span><span data-step="1">Waits for delay</span><span data-step="2">Moves away</span><span data-step="3">Resets</span></div>
+  <p class="rr-turok-visual__note" data-mechanism-copy>A collapsing platform changes its region, waits, moves to its destination, then returns after another timer.</p>
+  <figcaption>State sequence distilled from the advance routines; timing depends on object settings.</figcaption>
+</figure>
+{% when "weapons" %}
+<figure class="rr-turok-visual rr-turok-visual--weapons" data-turok-weapons>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Effects pipeline / aiweap.c + particle.c + fx.c</span><strong>Three modules, one shot</strong></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Weapon examples"><button type="button" data-weapon="arrow" aria-pressed="true">Explosive arrow</button><button type="button" data-weapon="chrono" aria-pressed="false">Chronoscepter</button><button type="button" data-weapon="rocket" aria-pressed="false">Rocket</button></div>
+  <div class="rr-turok-pipeline" aria-live="polite"><div><small>01 / weapon</small><strong data-weapon-a>Tek Bow update</strong><code>aiweap.c</code></div><div><small>02 / projectile</small><strong data-weapon-b>Explosive arrow</strong><code>particle.c</code></div><div><small>03 / visual</small><strong data-weapon-c>Two arrow swooshes</strong><code>fx.c</code></div></div>
+  <figcaption>The selected labels identify source-code responsibilities, not a claim that every weapon shares the same visual trail.</figcaption>
+</figure>
+{% when "training" %}
+<figure class="rr-turok-visual rr-turok-visual--training" data-turok-training>
+  <div class="rr-turok-visual__head"><span class="rr-turok-visual__eyebrow">Training card / train.c</span><strong>The same lesson in three builds</strong></div>
+  <div class="rr-turok-visual__switch" role="group" aria-label="Training text language"><button type="button" data-language="english" aria-pressed="true">English</button><button type="button" data-language="german" aria-pressed="false">German</button><button type="button" data-language="kanji" aria-pressed="false">KANJI bytes</button></div>
+  <div class="rr-turok-training__screen" aria-live="polite"><small data-training-branch>#ifdef ENGLISH</small><strong data-training-title>jumping</strong><p data-training-copy>press the r<br>button to jump.</p></div>
+  <figcaption>Text and bytes are short excerpts from `train.c`. The Japanese branch needs the game's font mapping to display as characters.</figcaption>
+</figure>
+{% endcase %}
