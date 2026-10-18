@@ -382,6 +382,20 @@ sound_files:
 
 Then place it in the article with `{% raw %}{% include game-data-visual.html id="example-sound-files" config=site.data.example_game_visuals.sound_files %}{% endraw %}`. The `variant`, `eyebrow`, `title`, and `caption` include parameters may override the same fields in `config`. See `_data/turok_game_visuals.yml` for complete examples of every variant. Keep source evidence and uncertainty in the surrounding article text and captions; diagrams are explanatory models unless they reproduce measured data.
 
+Choose the variant for the relationship the reader needs to understand:
+
+Variant | Best use | Configuration
+--- | --- | ---
+`bars` | Compare measured counts, sizes, or durations from an archive. | `options` with labeled `bars` containing numeric `value` fields.
+`story` | Let readers switch among named modes or behaviors, such as a boss's states. | `scene` and `options` with `heading`, `copy`, and optional `code`.
+`reveal` | Show how a gate, discovery flag, or other condition changes what is visible. | `cells` with `label`, optional `initially_visible`, `revealed_label`, or `gate`.
+`timeline` | Step through a sequence of inputs or events. | Ordered `options` with `badge`, `heading`, `copy`, and optional `code`.
+`stages` | Compare short state transitions for several mechanisms. | `options` with a `steps` list and explanatory `note`.
+`pipeline` | Trace data or an effect through several files or subsystems. | `options` with ordered `nodes` containing `step`, `heading`, and optional `code`.
+`card` | Compare short text, UI, or localization variants in one place. | `options` with `heading`, `copy`, and optional `branch`.
+
+Write the factual explanation beside the visual so the article still makes sense without interaction. State whether numbers were measured, text is excerpted, or a scene is schematic; never present fabricated steps or maps as recovered game data. Keep each option short enough to scan, and provide descriptive control labels and a caption. Use `article-figure.html` for a single historical image, `article-gallery.html` for image comparisons, or `archive-explorer.html` for a large file tree; the game data visual is for a focused relationship that benefits from switching or revealing states.
+
 ---
 # Tips for making the pages more visually engaging and readable
 <div class="emoji">💡</div>
