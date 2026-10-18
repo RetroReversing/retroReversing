@@ -20,15 +20,20 @@ recommend:
 - vita
 - android
 editlink: /consoles/vita/DecompilePlaystationMobile.md
+updatedAt: '2026-10-18'
 ---
 
 Playstation Mobile games are all build using C# and the Mono Runtime environment and thus are trivial to reverse engineer with standard .NET decompilers in many cases with full debug symbols in tact.
 
 # Reverse Engineering PSMobile Games
-The first step to reverse engineering a Playstation Mobile game is to decrypt the files on the device and find the application executable.
+The first step to reverse engineering a Playstation Mobile game is to decrypt its files and find the application executable.
 
 ## Decrypting PS Mobile Games
-This section will cover how to extract and decrypt Playstation Mobile games using a Jailbroken Playstation Vita.
+You can decrypt the PSSE layer on a PC with [psse-decrypt](https://github.com/LiEnby/psse-decrypt), without running a plugin on a Vita. The tool accepts a PSM game folder and supports both PSM and Unity games. It requires the game's license: the decryption key is stored in its `FAKE.rif` file [^3].
+
+Run `psse_decrypt.py <psm game folder>` on the game folder, then use the decrypted `app.exe` and `.dll` files in a .NET decompiler. The tool's README lists its Python dependencies [^3].
+
+The older Vita-based method uses the FuckPSSE plugin. It is useful if you already have a playable game installed on a jailbroken Vita, but it is not required for PC decryption.
 
 First of all you need to have the PS Mobile game installed on your Vita and playable. 
 
@@ -37,7 +42,7 @@ When installed the contents will be extracted to the folder:
 
 However all of these files are encrypted with PSSE DRM so if you try to open any of the files including text files they will be un-openable.
 
-So in order to decrypt the contents you will need to install the plugin **FuckPSSE** on your vita, the easiest way is to use **AutoPlugin**.
+For the Vita-based method, install **FuckPSSE** on the Vita, for example with **AutoPlugin**.
  
 When the plugin is installed open the game you want to reverse engineer and it will simply show a red screen now, that means its started decrypting! When finished the screen will turn green, when that happens you can safely close the game and disable the plugin. 
 
@@ -69,7 +74,7 @@ The **RO** folder is where all the application and license files that don't need
 ### Application Folder
 Some common files that are in this folder:
 * **app.exe** - The main game executable - decompile this to understand how the game logic works
-* **app.info** - Binary file with **PSMA** file header, presumably meta data about the application
+* **app.info** - Compiled `app.xml` metadata in Sony's CXML format, with a `PSMA` header. The same CXML structure is used by Vita RCO and RCS resources. A CXML decompiler can recover the XML and embedded resources [^4].
 * **edata.list** - Plain text file of all the files in the Application folder
 * **osc.cfg** - YAML file containing mapping information for which buttons can be used
 * **psse.list** - seems to be the same as edata.list
@@ -77,7 +82,7 @@ Some common files that are in this folder:
 This folder also contains DLL files, which are libraries of shared code that get loaded at runtime, these are also .NET based and you can find a list of the most common in the section below entitled **Common Dynamically Linked Libraries**.
 
 ### License Folder
-This is where you will find the RIF licenses, you won't need to do anything with these files they are just used to decrypt the content.
+This folder contains the RIF licenses used for decryption. The PC-based `psse-decrypt` method needs the game's `FAKE.rif` because it contains that game's key [^3].
 
 ---
 ## Read Write Folder (/RW)
@@ -91,8 +96,8 @@ The **/RW/System** folder is normally used for files such as crash dumps and com
 * content_id
 * pm.dat
 
-### Temp (Created by FuckPSSE)
-The Temp folder is not a standard folder for PS Mobile titles it is created when the **FuckPSSE** is installed and the game is run, it then puts all the extracted files from the **/RO/Application** folder.
+### Temp Folder
+`/RW/Temp` is a standard writable folder for PS Mobile titles. In the Vita-based dumping method, **FuckPSSE** replaces `app.exe` in memory with a program that copies `/RO/Application` into `/RW/Temp`. The PSM runtime decrypts the files as they are read, leaving a decrypted copy in `Temp` [^5].
 
 ---
 # Common Files
@@ -317,3 +322,6 @@ This all points to the game supporting a custom scripting language that could be
 # References
 [^1]: [visual studio 2010 - What is Microsoft.csharp.dll in .NET 4.0 - Stack Overflow](https://stackoverflow.com/questions/2460883/what-is-microsoft-csharp-dll-in-net-4-0)
 [^2]: [c# - How do I use the Mono.CSharp interpreter in Microsoft.NET - Stack Overflow](https://stackoverflow.com/questions/5520364/how-do-i-use-the-mono-csharp-interpreter-in-microsoft-net)
+[^3]: [psse-decrypt README](https://github.com/LiEnby/psse-decrypt)
+[^4]: [Vita Developer Wiki - app.info](https://www.psdevwiki.com/vita/App.info)
+[^5]: Technical clarification supplied by a contributor about the FuckPSSE dumping method.
