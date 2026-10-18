@@ -8,7 +8,7 @@ title: Turok 64 Official Source Code Analysis
 image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
 videocarousel:
   - title: Turok 64 Official Source Code Found
-    image: https://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
+    image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
     youtube: 'ONEy_ybKWsg'
   - title: The Making of Turok Dinosaur Hunter for Nintendo 64
     image: /public/games/turok/Turok3_DoctorV64.png
@@ -25,7 +25,7 @@ breadcrumbs:
     url: '#'
 recommend: n64
 editlink: /consoles/n64/Turok64SourceCode.md
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-18'
 ---
 
 # Turok Dinosaur Hunter from cartridge to code
@@ -204,6 +204,13 @@ The game-specific trail begins in `tengine`. Its `spec` file maps the ROM layout
 - dosvers/ - host-side source and tools
 {% endcapture %}
 {% include connected-folder-tree.html folder="tengine" path="src/PR/tengine" body=turok_tree_body version="Source map" content=turok_tree_items %}
+
+## Browse the archive as a desktop
+This **SGI desktop-inspired simulation** lets you explore the names and folders in this copy of the Turok archive. Start in `PR/tengine`, where the game code sits, or jump to the Nintendo SDK samples and the neighboring workstation software. Select a file to see its size and a short account of its purpose. The index covers **10,478 files in 160 folders**, but contains no file contents.
+
+{% include archive-explorer.html manifest="/public/data/turok-source-archive.json" layout="sgi" title="Turok Source Archive / src" layout_label="SGI desktop simulation" %}
+
+The source copy gives every file an **October 2026** filesystem date, matching when this copy was made. Those dates do not identify when Iguana wrote the files, so the explorer omits them.
 
 ## Four versions of the asset directory
 The three loose `cartdata` files and the ROM image each contain an eleven-block directory. `cartdir.h` names those blocks: graphic objects, textures, levels, sound-effect definitions, and other game data. Their matching structure hides different contents. These are counts of indexed entries, not counts of playable maps or original art projects:
@@ -526,6 +533,31 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 {% include video-carousel.html videocarousel=page.videocarousel %}
 
 ---
+# Other software in the archive
+The source-code find preserves more than the game itself. Three folders near Turok's code open windows onto the larger collection of software around it.
+
+## An SGI preprocessor from GNU
+Among the Turok files is a small detour into the workstation's software: `src/gnu/acpp`. It is the source code for an **ANSI C preprocessor**, the program that expands `#include` files and macros before the compiler tackles the C code. It is not a hidden Turok engine or an Iguana-made tool.
+
+The folder's `README` identifies it as **GNU `cpp` with a few compatibility changes**. Its `version.c` reports version `1.35.95x`. [Silicon Graphics' `acpp` manual](https://techpubs.jurassic.nl/manpages_0530/cat5/acpp.html) explains why it might be found beside game code from an SGI workstation: IRIX supplied this GNU-derived preprocessor as an option to the C compiler, selected with `cc -acpp` [^31].
+
+There is a revealing distinction here. Iguana described its **world-building and animation tools** as creations of its own [^4], but the surrounding archive also preserves ordinary workstation components. `acpp` is one of those components. Neither Turok's `Makefile` nor its ROM `spec` names `acpp`, so the folder's presence alone cannot tell us whether this option was used for a Turok build. It does show the wider software environment caught up in the source-code find.
+
+---
+## SLATEC: a library of mathematics
+Another unexpected neighbor is `src/slatec`. It contains **SLATEC**, a public library of more than 1,400 mathematical and statistical routines written in Fortran 77. Developed across US national laboratories, it offered ready-made calculations for problems such as numerical integration and special functions [^32].
+
+The copy here has an unusual shape. Its large `sladaf` file holds the Fortran routines in fixed-length records, while `slatbl`, `slakwd`, and `slacat` act as indexes to their names, keywords, and categories. The first routine introduces itself as the **SLATEC Common Mathematical Library**. The files resemble a searchable shelf of mathematical recipes, complete with a card catalog.
+
+No reference to SLATEC appears in Turok's game source or build files, so its presence does not establish that the game used these routines. Alongside `acpp`, it shows how a recovered source collection can preserve useful software that happened to sit near the game, as well as the code that made it.
+
+---
+## A one-line clue to the SGI desktop
+The entire `src/X11/motif` folder contains just one tiny file: `mmkmf`. Its 18 bytes spell out `/usr/bin/X11/mmkmf`, a path on an IRIX workstation. This looks like a saved link target, not a copy of the Motif toolkit.
+
+**Motif** supplied the buttons, menus, and windows of many X11 desktop programs. On SGI's IRIX, [`mmkmf` generated Makefiles for Motif applications](https://techpubs.jurassic.nl/library/manuals/3000/007-3951-001/sgi_html/ch01.html). This stray path offers a glimpse of the graphical workstation environment around the archive. Turok's engine and build files do not refer to Motif or `mmkmf`, so it does not establish that the game or Iguana's authoring tools used the toolkit.
+
+---
 # References
 [^1]: [Turok Forums discussion of the source archive](https://www.turokforums.com/index.php?topic=645.0)
 [^2]: [Community discussion of the discovered source code](https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/)
@@ -557,3 +589,5 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 [^28]: [Nightdive Turok remaster level editor announcement](https://www.gamespot.com/articles/see-turok-pc-remasters-level-editor-in-action-out-/1100-6446653/)
 [^29]: [Nintendo 64 development-board manual for the SGI Indy](https://tech-pubs.net/sgi_developer/books/ultra64-guide/index.html)
 [^30]: [Interview with Turok composer Darren Mitchell about his equipment and workflow](https://duke64nukem.com/2018/02/10/darren-mitchell-interview-turok/)
+[^31]: [SGI IRIX 5.3 `acpp` manual page](https://techpubs.jurassic.nl/manpages_0530/cat5/acpp.html)
+[^32]: [Netlib SLATEC Common Mathematical Library catalog](https://www.netlib.org/slatec/)

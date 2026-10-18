@@ -668,7 +668,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       $('.owl-slide-no-auto').owlCarousel({
         nav: true,
-        loop: true,
+        loop: false,
         autoplay: false,
         items: 1
       });

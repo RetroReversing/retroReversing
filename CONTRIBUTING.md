@@ -350,6 +350,14 @@ The archive is split very neatly into the game itself and the DOS-side tools use
 {% include connected-folder-tree.html folder="FZERO" path="/src/FZERO" body=fzero_root_body version="/" content=folder_items %}
 ```
 
+For a browsable archive with many files, use the reusable `archive-explorer.html` include. Its content lives in a JSON file under `public/data`; the component's `layout` selects a visual skin. `sgi` is available, and another era can be added as a CSS skin without changing the file data or browser behavior.
+
+```liquid
+{% include archive-explorer.html manifest="/public/data/example-archive.json" layout="sgi" title="Example Archive" layout_label="SGI desktop simulation" %}
+```
+
+The JSON uses `version`, `root`, `initialPath`, `locations`, `folders`, and `files`. Each file has a relative `path`, byte `size`, short `description`, and optional `basis` explaining whether the description was verified or inferred. An optional `note` appears below the browser. Publish names and metadata only when file contents cannot be hosted. Exclude `.DS_Store` and other incidental operating-system metadata. Inspect file headers, source declarations, or formats before assigning a purpose; when those do not establish one, say so. Omit copied or extraction timestamps when they do not preserve the original file dates.
+
 ---
 # Tips for making the pages more visually engaging and readable
 <div class="emoji">💡</div>

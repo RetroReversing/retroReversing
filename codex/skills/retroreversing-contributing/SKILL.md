@@ -71,6 +71,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 * Internal links to RetroReversing pages: `link-to-other-post.html` via `{% raw %}{% include_cached ... %}{% endraw %}`.
 * Article illustrations: use `article-figure.html` for single images and capture figure includes into `article-gallery.html` for responsive groups. Shared CSS loads automatically. See the contributing guide for parameters and examples.
 * Folder listings / nested trees: `connected-folder-tree.html` rather than raw HTML or bullet dumps.
+* Large browsable archives: `archive-explorer.html` with file records and descriptions in a JSON manifest under `public/data`. Use `layout="sgi"` for the SGI skin; future layouts should add a skin without embedding archive-specific data in the component. Exclude `.DS_Store` and other incidental operating-system metadata. Base descriptions on inspected content where possible, and state uncertainty where contents do not establish a purpose. Omit extraction timestamps when original dates are unavailable.
 * Source-file callouts: `source-code-card.html` / `source-code-card-grid.html` when actually showing real file contents/symbols.
   * The `functions`, `variables`, and `lines` fields must be exact numeric counts from the file.
   * Omit the card if you can't provide exact counts yet.

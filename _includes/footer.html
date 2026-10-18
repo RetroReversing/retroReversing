@@ -26,13 +26,8 @@
   </footer>
   <!-- /footer -->
 {% include file-lab.html %}
-{% comment %}Wasmer/r2wasm need SharedArrayBuffer; root COI worker is required for the in-page modal.{% endcomment %}
-<script>
-  window.coi = {
-    coepCredentialless: function () { return false; }
-  };
-</script>
-<script src="{{ '/coi-serviceworker.min.js' | relative_url }}"></script>
+{% comment %}The worker isolates /file-lab/ only; articles need unrestricted video and comment embeds.{% endcomment %}
+<script src="{{ '/coi-serviceworker.js' | relative_url }}"></script>
 <script type="module" src="{{ '/public/js/file-lab/file-lab.js' | relative_url }}"></script>
 <script defer src="/public/js/jquery.min.js"></script>
 <script defer src="/public/js/popper.min.js"></script>

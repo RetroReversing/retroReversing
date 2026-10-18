@@ -7,10 +7,10 @@
           <div class="carousel-caption">
               <div class="embed-responsive embed-responsive-16by9">
                 {% if item.youtube %}
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ item.youtube }}" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ item.youtube }}" title="{{ item.title | escape }} on YouTube" loading="lazy" allowfullscreen></iframe>
                 {% endif %}
                 {% if item.twitch %}
-                <iframe src="https://player.twitch.tv/?autoplay=false&video={{item.twitch}}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+                <iframe data-twitch-video="{{ item.twitch }}" title="{{ item.title | escape }} on Twitch" loading="lazy" frameborder="0" allowfullscreen scrolling="no"></iframe>
                 {% endif %}
               </div>
           </div>
@@ -18,4 +18,13 @@
       {% endfor %}
     </div>
   </section>
+  <script>
+    document.querySelectorAll("iframe[data-twitch-video]").forEach(function (frame) {
+      var url = new URL("https://player.twitch.tv/");
+      url.searchParams.set("video", "v" + frame.dataset.twitchVideo);
+      url.searchParams.set("parent", window.location.hostname);
+      url.searchParams.set("autoplay", "false");
+      frame.src = url.toString();
+    });
+  </script>
 {% endif %}
