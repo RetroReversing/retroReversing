@@ -4,19 +4,31 @@ title: File Lab
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
-  <title>File Lab - Retro Reversing</title>
-  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/public/css/file-lab-app.css' | relative_url }}">
-</head>
-<body class="rr-file-lab-page">
-  {% include file-lab-app.html %}
+{% include head.html %}
+<body class="fixed-header has-site-sidebar rr-file-lab-page">
+  {% include header.html %}
+
+  <section class="rr-home-section">
+    {% include_cached site-sidebar-left.html %}
+
+    <div class="rr-home-section-right">
+      {% include file-lab-app.html %}
+    </div>
+  </section>
+
   {% comment %}Only this page is cross-origin isolated for SharedArrayBuffer tools.{% endcomment %}
   <script src="{{ '/coi-serviceworker.js' | relative_url }}"></script>
   <script type="module" src="{{ '/public/js/file-lab/file-lab.js' | relative_url }}"></script>
+  <script defer src="/public/js/jquery.min.js"></script>
+  <script defer src="/public/js/popper.min.js"></script>
+  <script defer src="/public/js/bootstrap.min.js"></script>
+  <script defer src="/public/js/owl.carousel.min.js"></script>
+  <script defer src="/public/js/lightbox.js"></script>
+  <script defer src="/public/js/wow.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script defer src="{{ '/public/js/main.js' | relative_url }}"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script defer src="{{ '/public/js/search-index.js' | relative_url }}"></script>
+  <script defer src="{{ '/public/js/search.js' | relative_url }}"></script>
 </body>
 </html>
