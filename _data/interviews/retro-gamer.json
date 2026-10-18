@@ -1582,142 +1582,908 @@
     },
     {
       "type": "interview",
-      "issue": 32,
-      "pages": null,
-      "developer": "Mark Cale",
-      "platforms": [
-        "Nintendo DS",
-        "PlayStation Portable"
+      "issue": 31,
+      "pages": [
+        6
       ],
-      "description_markdown": "Discusses the development of **Impossible Mission** for **DS** and **PSP**, noting the effective use of the touch screen in the **DS** version and the superior visuals of the **PSP** version."
+      "developer": "Archer Maclean",
+      "platforms": [],
+      "description_markdown": "Maclean discusses his games and the Retro Fusion event in a short question-and-answer interview."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        7
+      ],
+      "developer": "Philip Oliver",
+      "platforms": [],
+      "description_markdown": "Philip Oliver discusses Retro Fusion and the Oliver Twins’ games."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        30,
+        35
+      ],
+      "developer": "Julian Rignall and Richard Leadbetter",
+      "platforms": [],
+      "description_markdown": "Julian Rignall and Richard Leadbetter discusses the making of *Mean Machines* magazine."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        38,
+        41
+      ],
+      "developer": "Jon Hare and Martin Galway",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Jon Hare and Martin Galway discusses *Wizball*."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        44,
+        51
+      ],
+      "developer": "Al Lowe and other Sierra developers",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Al Lowe and other Sierra developers discusses Sierra On-Line and its adventure games."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        54,
+        57
+      ],
+      "developer": "Will Crowther and Don Woods",
+      "platforms": [],
+      "description_markdown": "Will Crowther and Don Woods discusses *Adventure* and the origins of text adventures."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        60,
+        63
+      ],
+      "developer": "Charles Cecil",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Charles Cecil discusses *Broken Sword*."
+    },
+    {
+      "type": "interview",
+      "issue": 31,
+      "pages": [
+        72,
+        77
+      ],
+      "developer": "Dale DeSharone",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Dale DeSharone discusses his career in game development and educational software."
     },
     {
       "type": "interview",
       "issue": 32,
-      "pages": null,
-      "developer": "Martyn Brown",
+      "pages": [
+        6
+      ],
+      "developer": "Mark Cale",
+      "platforms": [],
+      "description_markdown": "Mark Cale discusses the *Impossible Mission* remake."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        18,
+        23
+      ],
+      "developer": "Jordan Mechner",
       "platforms": [
+        "Apple II"
+      ],
+      "description_markdown": "Jordan Mechner discusses *Prince of Persia*."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        26,
+        29
+      ],
+      "developer": "Martyn Brown and other developers",
+      "platforms": [],
+      "description_markdown": "Martyn Brown and other developers discusses their first games in the Before They Were Famous feature."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        32,
+        37
+      ],
+      "developer": "Kevin Toms and the Collyer brothers",
+      "platforms": [
+        "ZX Spectrum",
+        "PC"
+      ],
+      "description_markdown": "Kevin Toms and the Collyer brothers discusses the history of football management games."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        40,
+        45
+      ],
+      "developer": "Steve Warner and Dale DeSharone",
+      "platforms": [],
+      "description_markdown": "Steve Warner and Dale DeSharone discuss their work on the Philips CD-i."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        52,
+        59
+      ],
+      "developer": "Phantasy Star developers",
+      "platforms": [
+        "Sega Master System",
+        "Sega Mega Drive",
+        "Sega Dreamcast"
+      ],
+      "description_markdown": "Several Phantasy Star developers discuss the evolution of the *Phantasy Star* series."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        60,
+        65
+      ],
+      "developer": "Gregg Barnett",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Gregg Barnett discusses *The Way of the Exploding Fist* and its sequels."
+    },
+    {
+      "type": "interview",
+      "issue": 32,
+      "pages": [
+        76,
+        81
+      ],
+      "developer": "Owen Rubin",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Owen Rubin discusses his Atari and Bally arcade career."
+    },
+    {
+      "type": "interview",
+      "issue": 33,
+      "pages": [
+        30,
+        33
+      ],
+      "developer": "Dave Perry",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Dave Perry discusses *Earthworm Jim*."
+    },
+    {
+      "type": "interview",
+      "issue": 33,
+      "pages": [
+        36,
+        41
+      ],
+      "developer": "Jon Hare",
+      "platforms": [
+        "Commodore 64",
         "Amiga"
       ],
-      "description_markdown": "Known for co-founding **Team 17**, creators of the **Worms** series and other **Amiga** classics"
+      "description_markdown": "Jon Hare discusses Sensible Software."
     },
     {
       "type": "interview",
       "issue": 33,
-      "pages": null,
-      "developer": "Dr Peter Favaro",
-      "platforms": [],
-      "description_markdown": "Discusses the development of **Alter Ego**, a 'life simulator' released by **Activision** in **1986**."
-    },
-    {
-      "type": "interview",
-      "issue": 33,
-      "pages": null,
-      "developer": "Satoshi Tajiri",
-      "platforms": [
-        "Game Boy"
+      "pages": [
+        52,
+        57
       ],
-      "description_markdown": "Discusses the development of **Pokémon** for the **Game Boy**, mentioning his mentorship under Shigeru Miyamoto and the naming of characters Ash and Shigeru after himself and Miyamoto."
+      "developer": "Michael Meyers",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Meyers discusses his work at Data East USA in the company profile."
+    },
+    {
+      "type": "interview",
+      "issue": 33,
+      "pages": [
+        60,
+        63
+      ],
+      "developer": "Dr Peter Favaro",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Dr Peter Favaro discusses *Alter Ego*."
+    },
+    {
+      "type": "interview",
+      "issue": 33,
+      "pages": [
+        96
+      ],
+      "developer": "Trevor Hall and Ian Pare",
+      "platforms": [
+        "BBC Micro",
+        "Commodore 64"
+      ],
+      "description_markdown": "Trevor Hall and Ian Pare discusses *Twin Kingdom Valley* and its mobile remake."
     },
     {
       "type": "interview",
       "issue": 34,
-      "pages": null,
+      "pages": [
+        18,
+        23
+      ],
+      "developer": "Mark Cale and John Twiddy",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Mark Cale and John Twiddy discusses *The Last Ninja*."
+    },
+    {
+      "type": "interview",
+      "issue": 34,
+      "pages": [
+        30,
+        33
+      ],
+      "developer": "Doug Bell",
+      "platforms": [
+        "Atari ST"
+      ],
+      "description_markdown": "Doug Bell discusses *Dungeon Master*."
+    },
+    {
+      "type": "interview",
+      "issue": 34,
+      "pages": [
+        58,
+        61
+      ],
+      "developer": "Ron Gilbert and Dave Grossman",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Ron Gilbert and Dave Grossman discusses *The Secret of Monkey Island*."
+    },
+    {
+      "type": "interview",
+      "issue": 34,
+      "pages": [
+        74,
+        77
+      ],
       "developer": "Jon Ritman",
-      "platforms": [],
-      "description_markdown": "Discusses his isometric adventure game **Head Over Heels**."
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Jon Ritman discusses *Head over Heels*."
     },
     {
       "type": "interview",
       "issue": 34,
-      "pages": null,
-      "developer": "Mark Cale",
-      "platforms": [],
-      "description_markdown": "Discusses the history of **System 3**, including their past titles and plans for the future. The company is known for titles like **Impossible Mission** and **The Last Ninja**"
-    },
-    {
-      "type": "interview",
-      "issue": 34,
-      "pages": null,
-      "developer": "Ron Gilbert",
-      "platforms": [],
-      "description_markdown": "Discusses the creation of **Monkey Island**, including the game's development process and his collaboration with Tim Schafer and Dave Grossman"
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Stuart Fotheringham",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Stuart Fotheringham discusses his game development career."
     },
     {
       "type": "interview",
       "issue": 35,
-      "pages": null,
+      "pages": [
+        30,
+        36
+      ],
       "developer": "John Wilson",
-      "platforms": [],
-      "description_markdown": "Discusses his work at **Zenobi**, a company he founded to create text-based adventure games, including **Arrival on the Atari ST**, **An Everyday Tale Of A Seeker Of Gold**, and **Fuddo And Slam**."
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "John Wilson discusses Zenobi Software."
     },
     {
       "type": "interview",
       "issue": 35,
-      "pages": null,
+      "pages": [
+        48,
+        51
+      ],
+      "developer": "Steve Brown, Richard Leinfellner and Stan Schembri",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Steve Brown, Richard Leinfellner and Stan Schembri discusses *Cauldron* and *Cauldron II*."
+    },
+    {
+      "type": "interview",
+      "issue": 35,
+      "pages": [
+        60,
+        63
+      ],
+      "developer": "Eugene Jarvis",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Eugene Jarvis discusses *Smash TV*."
+    },
+    {
+      "type": "interview",
+      "issue": 35,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Lee Carus and Nick Burcombe",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Lee Carus and Nick Burcombe discusses *WipEout*."
+    },
+    {
+      "type": "interview",
+      "issue": 35,
+      "pages": [
+        84,
+        87
+      ],
       "developer": "Steve Wright",
-      "platforms": [],
-      "description_markdown": "Discusses his time at **Atari**"
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "Steve Wright discusses his Atari programming career."
     },
     {
       "type": "interview",
       "issue": 36,
-      "pages": null,
-      "developer": "Jonathan Thompson",
+      "pages": [
+        18,
+        25
+      ],
+      "developer": "Gregg Mayles and Chris Sutherland",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Gregg Mayles and Chris Sutherland discusses *Banjo-Kazooie*."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        28,
+        33
+      ],
+      "developer": "Roger Hector",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "description_markdown": "Roger Hector discusses Sega Technical Institute."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        34,
+        37
+      ],
+      "developer": "Eduard Luna Bolaño",
       "platforms": [],
-      "description_markdown": "Discusses a new retro game competition he is involved in, seeking new ideas inspired by classic titles like **Pac-Man**, **Space Invaders**, and **Tank Wars**."
+      "description_markdown": "Eduard Luna Bolaño discusses *Streets of Rage Remake*."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Alfred Milgrom",
+      "platforms": [],
+      "description_markdown": "Alfred Milgrom discusses Melbourne House and Beam Software, part one."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        48,
+        53
+      ],
+      "developer": "Koji Igarashi",
+      "platforms": [
+        "PlayStation"
+      ],
+      "description_markdown": "Koji Igarashi discusses *Castlevania: Symphony of the Night*."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        56,
+        61
+      ],
+      "developer": "Paul Davies, Ed Lomas and other CVG staff",
+      "platforms": [],
+      "description_markdown": "Paul Davies, Ed Lomas and other CVG staff discuss the revival of *Computer and Video Games* magazine."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        62,
+        65
+      ],
+      "developer": "David Crane",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "David Crane discusses *Pitfall!*."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        78,
+        81
+      ],
+      "developer": "Dan Phillips, Robin Levy and John Kemp",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Dan Phillips, Robin Levy and John Kemp discusses *Armalyte*."
+    },
+    {
+      "type": "interview",
+      "issue": 36,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Robert White and Mike Richardson",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Robert White and Mike Richardson discusses *Turbo Esprit*."
     },
     {
       "type": "interview",
       "issue": 37,
-      "pages": null,
+      "pages": [
+        30,
+        33
+      ],
       "developer": "David Crane",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "description_markdown": "David Crane discusses *Pitfall II: Lost Caverns*."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        36,
+        41
+      ],
+      "developer": "Trevor Storey and Stuart Collier",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Trevor Storey and Stuart Collier discusses *Jet Set Willy Online*."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        42,
+        47
+      ],
+      "developer": "Beam Software developers",
       "platforms": [],
-      "description_markdown": "Discusses the making of **Pitfall II: Lost Caverns**"
+      "description_markdown": "Beam Software developers discuss Melbourne House and Beam Software in the second part of the company profile."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        50,
+        53
+      ],
+      "developer": "Akira Nishitani",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Akira Nishitani discusses *Final Fight*."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        74,
+        79
+      ],
+      "developer": "Tohru Murayama and Richard Leadbetter",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Tohru Murayama and Richard Leadbetter discuss the history of *Virtua Fighter*."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        80,
+        83
+      ],
+      "developer": "Mike Richardson",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Mike Richardson discusses *Thanatos*."
+    },
+    {
+      "type": "interview",
+      "issue": 37,
+      "pages": [
+        84,
+        87
+      ],
+      "developer": "Ste Ruddy",
+      "platforms": [],
+      "description_markdown": "Ste Ruddy discusses his game programming career."
     },
     {
       "type": "interview",
       "issue": 38,
-      "pages": null,
-      "developer": "Developers at System 3",
+      "pages": [
+        28,
+        33
+      ],
+      "developer": "Dave Doak, Steve Ellis, Karl Hilton and Graeme Norgate",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "description_markdown": "Dave Doak, Steve Ellis, Karl Hilton and Graeme Norgate discusses *GoldenEye 007*."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        34,
+        39
+      ],
+      "developer": "Eikichi Kawasaki and Keiko Ijo",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Eikichi Kawasaki and Keiko Ijo discuss SNK’s early history, part one."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        40,
+        45
+      ],
+      "developer": "Steve Brown",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Steve Brown discusses *Barbarian* and *Barbarian II*."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        58,
+        61
+      ],
+      "developer": "Sid Meier",
+      "platforms": [
+        "Commodore 64",
+        "PC"
+      ],
+      "description_markdown": "Sid Meier discusses *Pirates!*."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        72,
+        79
+      ],
+      "developer": "Jon Waldern and Matt Wilkinson",
       "platforms": [],
-      "description_markdown": "Discuss their updated version of **California Games**, which includes **Summer Games 1 and 2**"
+      "description_markdown": "Jon Waldern and Matt Wilkinson discusses the rise and fall of Virtuality."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        82,
+        85
+      ],
+      "developer": "Martyn Brown and Allister Brimble",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Martyn Brown and Allister Brimble discusses *Superfrog*."
+    },
+    {
+      "type": "interview",
+      "issue": 38,
+      "pages": [
+        88,
+        93
+      ],
+      "developer": "David Foster and other conversion developers",
+      "platforms": [],
+      "description_markdown": "David Foster and other conversion developers discusses home conversions of *Dragon’s Lair*."
     },
     {
       "type": "interview",
       "issue": 39,
-      "pages": null,
-      "developer": "Developers at Rare",
+      "pages": [
+        28,
+        33
+      ],
+      "developer": "John Salwitz and Dave Ralston",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "John Salwitz and Dave Ralston discusses *Paperboy*."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        44,
+        47
+      ],
+      "developer": "Jon Hare",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Jon Hare discusses *Parallax*."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        50,
+        55
+      ],
+      "developer": "Thalamus developers and staff",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "description_markdown": "Thalamus developers and staff discuss the publisher and its games."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        56,
+        59
+      ],
+      "developer": "Phil Thornton and Mark Cale",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Phil Thornton and Mark Cale discusses *Putty*."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        66,
+        69
+      ],
+      "developer": "George Broussard",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "George Broussard discusses *Duke Nukem 3D*."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        72,
+        77
+      ],
+      "developer": "Eikichi Kawasaki",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Eikichi Kawasaki discuss SNK’s Neo Geo era, part two."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        78,
+        83
+      ],
+      "developer": "Mike Dailly and Gary Timmons",
+      "platforms": [
+        "Amiga"
+      ],
+      "description_markdown": "Mike Dailly and Gary Timmons discusses *Lemmings* and *Lemmings 2*."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        84,
+        88
+      ],
+      "developer": "Ed Rotberg",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Ed Rotberg discusses his Atari arcade career."
+    },
+    {
+      "type": "interview",
+      "issue": 39,
+      "pages": [
+        90,
+        93
+      ],
+      "developer": "Rare developers",
       "platforms": [
         "Xbox 360"
       ],
-      "description_markdown": "Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade**"
-    },
-    {
-      "type": "interview",
-      "issue": 39,
-      "pages": null,
-      "developer": "Developers of Lemmings",
-      "platforms": [],
-      "description_markdown": "Discuss the creation of **Lemmings**"
+      "description_markdown": "Rare developers discuss *Jetpac Refuelled*."
     },
     {
       "type": "interview",
       "issue": 40,
-      "pages": null,
-      "developer": "Developers of Libble Rabble",
-      "platforms": [],
-      "description_markdown": "Discuss the development of **Libble Rabble**"
+      "pages": [
+        26,
+        33
+      ],
+      "developer": "Ed Boon",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Ed Boon discusses the history of *Mortal Kombat*."
     },
     {
       "type": "interview",
       "issue": 40,
-      "pages": null,
+      "pages": [
+        36,
+        39
+      ],
+      "developer": "Jon Freeman",
+      "platforms": [],
+      "description_markdown": "Jon Freeman discusses *Archon*."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        54,
+        58
+      ],
+      "developer": "Don McIntyre",
+      "platforms": [],
+      "description_markdown": "Don McIntyre discusses Virtuality’s unreleased *Pac-Man VR*."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        62,
+        65
+      ],
       "developer": "John Romero",
       "platforms": [
         "PC"
       ],
-      "description_markdown": "Discusses his time at **id Software** and the development of **Quake**, including his design philosophy and his eventual departure from the company to form **Ion Storm**."
+      "description_markdown": "John Romero discusses *Quake*."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        66,
+        71
+      ],
+      "developer": "Eikichi Kawasaki",
+      "platforms": [
+        "Arcade"
+      ],
+      "description_markdown": "Eikichi Kawasaki discuss SNK’s later history, part three."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        74,
+        77
+      ],
+      "developer": "Mark Eyles",
+      "platforms": [
+        "Commodore 64",
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Mark Eyles discusses *Aliens: The Computer Game*."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        80,
+        85
+      ],
+      "developer": "Bob Prince and Tom Hall",
+      "platforms": [
+        "PC"
+      ],
+      "description_markdown": "Bob Prince and Tom Hall discuss id Software’s history."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        88,
+        91
+      ],
+      "developer": "Nigel Alderton",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "description_markdown": "Nigel Alderton discusses *Chuckie Egg*."
+    },
+    {
+      "type": "interview",
+      "issue": 40,
+      "pages": [
+        92,
+        95
+      ],
+      "developer": "Mel Croucher",
+      "platforms": [],
+      "description_markdown": "Mel Croucher discusses his experimental game development career."
     },
     {
       "type": "interview",
