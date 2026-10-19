@@ -25,7 +25,7 @@ updatedAt: '2026-10-19'
 
 The [Nintendo 64](/n64) operating-system SDK shipped small source projects that taught developers how to draw a first frame, schedule audio and graphics, use controllers and storage, and measure the hardware. The examples changed across releases: new peripherals gained samples, some older projects moved to a separate directory, and familiar folder names often held revised files [^1] [^11].
 
-Two development archives preserve earlier working copies. The [Oman archive](/oman-archive) has samples in both `APPS` and `usr/src/PR`. A Project Reality (`PR`) tree beside the *Turok: Dinosaur Hunter* source holds many of the same projects. Their shared 2.0G release notes identify an early SDK base, but neither tree is an untouched distribution [^21]. This guide compares those copies with the supplied 2.0H, 2.0I, 2.0J, and 2.0L packages.
+Two development archives preserve earlier working copies. The Oman archive has samples in both `APPS` and `usr/src/PR`. A Project Reality (`PR`) tree beside the *Turok: Dinosaur Hunter* source holds many of the same projects. Their shared 2.0G release notes identify an early SDK base, but neither tree is an untouched distribution [^21]. This guide compares those copies with the supplied 2.0H, 2.0I, 2.0J, and 2.0L packages.
 
 The wider libraries and development tools are covered in the SDK overview:
 
@@ -143,9 +143,17 @@ Oman has five projects only in its `usr/src/PR` tree: `blockmonkey`, `chrome`, `
 # How closely do Oman and Turok match?
 The inventory contains 33 demo projects present in both archives, counting Oman's alternate `PR` and `NTRON.SKIP` paths but excluding the shared `Texture` asset folder. Only `overlay`, `polyline`, and `print` are byte-identical as complete folders. In seven more projects, every Oman file matches a Turok file at the same relative path, but Turok has additional files. Across all 33 projects, 29 have at least one exact file match [^27].
 
+The Oman archive viewer shows the wider directory tree, including the SDK examples and hardware verification programs:
+
+{% include_cached link-to-other-post.html post="/oman-archive" description="Browse the Oman archive's file and folder descriptions, checksums, SDK demos, and Project Reality hardware material." %}
+
 The seven projects with extra Turok files are `ginv`, `greset`, `gtdemo`, `hostio`, `onetri`, `simple`, and `soundmonkey`. Their 106 extra files are mostly object files, ROM images, executables, dependency files, and build maps. `GTDEMO` also retains generated `walktable` and `punchtable` tools and headers. These build products explain why a folder can contain the same source as Oman without being identical as a whole [^27].
 
 Other matches are partial. Oman's `chrome` shares four texture files with Turok, while its nine corresponding source and build files differ. `mipmap` matches on 53 of 54 Oman files. Release labels matter too: `onetri` has the same 11 relative file paths in the 2.0J and 2.0L packages, but only one file is byte-identical across those two versions [^2] [^10] [^11] [^25].
+
+The Turok source analysis explains the game engine and build environment surrounding its copy of the `PR` samples:
+
+{% include_cached link-to-other-post.html post="/turok64sourcecode" description="Explore Turok's neighboring game source, ROM build plan, development hardware, and the SDK samples in its PR tree." %}
 
 ---
 # What do the demos teach?
@@ -197,7 +205,7 @@ The N64 Developers Toolkit 5.2 disc is labelled August 2000. Its later examples 
 
 {% include article-figure.html src="/public/images/n64/sdk-discs/n64-developers-toolkit-5.2-disc.webp" alt="Green Nintendo 64 Developers Toolkit version 5.2 disc labelled August 2000" width="1200" height="1198" size="document" title="Developers Toolkit 5.2" caption="The supplied Toolkit 5.2 disc photograph. Its label reads August 2000. The NuSystem, HVQ, and sound-tool examples are outside the OS demo inventory. Select the image for a larger view." %}
 
-The [Oman archive viewer](/oman-archive#browse-the-oman-archive) indexes its wider `APPS` tree, including hardware tests outside this catalog. The [Turok source analysis](/turok64sourcecode) explains the adjacent game engine and build environment.
+The Oman archive viewer indexes its wider `APPS` tree, including hardware tests outside this catalog. The Turok source analysis explains the adjacent game engine and build environment.
 
 ---
 # References

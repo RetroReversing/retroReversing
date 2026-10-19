@@ -34,7 +34,9 @@ SGI's 1993 announcement described the Indy workstation as a Project Reality auth
 
 The name "Oman" identifies the circulating archive. This copy contains no verified statement naming the person who first distributed it, and its copied filesystem dates cannot establish that event. Claims that the archive appeared in a particular month or caused a particular advance in N64 emulation therefore need independent contemporary evidence.
 
-Many source modules carry SGI proprietary notices. The viewer below publishes names, sizes, descriptions, and checksums to document the collection without reproducing its source code. The later [Gigaleak](/gigaleak) is a separate collection; its appearance does not date or authenticate this archive.
+Many source modules carry SGI proprietary notices. The viewer below publishes names, sizes, descriptions, and checksums to document the collection without reproducing its source code. The later Gigaleak is a separate collection; its appearance does not date or authenticate this archive.
+
+{% include_cached link-to-other-post.html post="/gigaleak" description="Read about the later Nintendo leak separately from the Oman archive and its Project Reality files." %}
 
 ---
 # What is in this copy?
@@ -172,7 +174,9 @@ The project also carries tiny SGI-format textures. These two 32 x 32 source imag
 
 Other `APPS` projects exercise audio, controller input, microcode, rendering modes, and performance. The viewer supplies their individual file records; `RDPATT` shows how application code, display lists, and small assets fit together in one test project.
 
-Many of the application folders also survive in the Project Reality development tree beside Turok's game source. The [N64 SDK demo guide](/n64-sdk-demos) compares complete-file checksums and explains the lessons in the shared samples.
+Many of the application folders also survive in the Project Reality development tree beside Turok's game source. The N64 SDK demo guide compares complete-file checksums and explains the lessons in the shared samples.
+
+{% include_cached link-to-other-post.html post="/n64-sdk-demos" description="See which Oman demo projects also appear in Turok and four later SDK packages, with descriptions of what each project demonstrates." %}
 
 ---
 # COSIM Folder (Co-Simulation)
