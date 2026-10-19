@@ -6,9 +6,7 @@ tags:
 - leak
 title: Oman Archive - N64 Leak by SGI employee
 category: n64
-placeholderimages:
-- /public/images/n64/oman/texture-filter-patterns.webp
-- /public/images/n64/oman/tennis-test-image.webp
+image: /public/N64/N64 Oman Archive.jpg
 permalink: /oman-archive
 breadcrumbs:
   - name: Home
@@ -22,6 +20,7 @@ recommend:
 - n64
 editlink: /consoles/n64/OmanArchive.md
 updatedAt: '2026-10-18'
+twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
 ---
 
 The **Oman archive** is a collection of development material for [Nintendo 64](/n64) hardware and software. It preserves Silicon Graphics (SGI) Project Reality documentation, chip design and simulation files, operating-system source, tools, and demonstration programs. Nintendo and SGI announced their Project Reality partnership in August 1993 [^1].

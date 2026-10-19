@@ -25,7 +25,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
    * `title` must not contain colons.
    * `permalink` must not end with a trailing `/`.
    * `tags`/`recommend` values must be valid and used appropriately (`recommend` can be omitted and will fall back to `tags`).
-   * On game, leak, and source pages, omit `image` and `twitterimage`. Feed local WebP box art through `placeholderimages` (one or two paths, most relevant platform first) and run `node scripts/generate-placeholder-social-images.js`. Commit `public/generated/placeholders/<permalink-slug>.jpg`. Do this whenever the page is about a specific game or a multi-platform archive, instead of pointing `image` at a single cover.
+   * Preserve existing valid `image` and `twitterimage` values. For a new game, leak, or source page without a curated preview, feed local WebP box art through `placeholderimages` (one or two paths, most relevant platform first) and run `node scripts/generate-placeholder-social-images.js`. Commit `public/generated/placeholders/<permalink-slug>.jpg` when generated.
 3) Write like a technical handbook (not a blog post):
    * Short paragraphs, short sentences, encourage hands-on experimentation.
    * Present terminology first, then explain/justify.
@@ -95,7 +95,7 @@ Use this skill whenever you create or edit content in the `retroReversing` repo 
 ### Images
 * Prefer linking externally hosted box-art (e.g. MobyGames) for "section about a specific game" figures when appropriate.
 * Prefer Libretro-hosted box art over Wikia/Fandom image URLs when suitable covers are available. Wikia/Fandom URLs can return HTTP 403 and leave the site showing placeholders. Match the game, platform, and relevant edition or region. Convert Libretro covers to WebP before adding them to the repo.
-* For card and social thumbnails, omit `image`/`twitterimage` and list those local covers in `placeholderimages`. The generator blends up to two images side by side. Keep in-article figures for the body; do not skip the generator on game or source pages just because one cover already exists.
+* For card and social thumbnails, check existing `image` and `twitterimage` values and keep them when they load correctly. If no valid curated preview exists, omit those fields and list local covers in `placeholderimages`. The generator blends up to two images side by side. Keep in-article figures for the body.
 * Before finishing, check new or replaced external image URLs with a GET request: confirm a successful response, an image content type, and actual image data rather than an HTML error page or placeholder. Replace blocked or broken URLs with a verified alternative.
 * When a rendered preview is available, check that the images visibly load on the page. A successful URL request alone does not guarantee browser loading. Use descriptive alt text.
 * Never leave pasted Markdown images named only `image.png` in the repository.

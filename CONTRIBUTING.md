@@ -215,9 +215,9 @@ Field | Purpose
 `tags` | Search/discovery tags for the page, and the values other pages match against in their `recommend` lists, only use valid tags from `valid-tags.json`
 `title` | Full page title shown in the page header and metadata (do not use colons! as it messes with the yaml frontmatter)
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category. This can be a single value (`category: leak`) or a list (`category: [leak, snes]`) when a page belongs to multiple categories.
-`image` | Optional override for the preview image. Leave it out on new pages so the thumbnail generator can run. Setting it skips generation and makes cards use that one file.
-`placeholderimages` | Local repo image paths, usually box art, blended into the generated social and discovery thumbnail. Use this on game, leak, and source pages instead of setting `image`. The generator only runs when `image` and `twitterimage` are omitted. It draws up to two paths, side by side.
-`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated, if in doubt leave blank (avoid using but don't remove)
+`image` | Optional preview image. Preserve an existing valid image; on new pages, leave it out when using the thumbnail generator. Setting it skips generation and makes cards use that file.
+`placeholderimages` | Local repo image paths, usually box art, blended into the generated social and discovery thumbnail when no valid curated preview exists. The generator only runs when `image` and `twitterimage` are omitted. It draws up to two paths, side by side.
+`twitterimage` | Absolute URL version of the preview image for social sharing. Preserve an existing valid URL; leave it blank on new pages when using the generator.
 `permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page
 `recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site, only use valid tags from `valid-tags.json`
@@ -418,10 +418,11 @@ After the physical overview, introduce the development hardware and software use
 If box art, physical media, internal photos, or tool evidence cannot be found, say so briefly where relevant and continue with the available material. Do not add speculative images or claims merely to fill the sequence. For digital-only games, use an appropriate release image or screenshot in place of physical media.
 
 ### Feed box art into the thumbnail generator
-Game, leak, and source pages should usually use the generated card instead of a single `image` file. Omit `image` and `twitterimage`. List local WebP covers in `placeholderimages`. The generator blends up to two of those images into the social and discovery thumbnail, so do this whenever the page is about a specific game or a multi-platform archive.
+For new game, leak, and source pages without a curated preview image, list local WebP covers in `placeholderimages`. The generator blends up to two of those images into the social and discovery thumbnail. Before changing an existing page, check its `image` and `twitterimage`: preserve each valid image instead of replacing it with a generated placeholder.
 
 The usual steps are:
-* Omit `image` and `twitterimage` so the generator can run
+* Check existing `image` and `twitterimage` URLs and keep them when they load correctly
+* On a new page without a valid curated preview, omit `image` and `twitterimage` so the generator can run
 * Store matching box art in the repo as WebP
 * Prefer Libretro `Named_Boxarts` covers, converted to WebP, over hotlinked MobyGames or Fandom URLs
 * List one or two local paths in `placeholderimages`, with the most relevant platform first
