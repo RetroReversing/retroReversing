@@ -91,12 +91,12 @@ The `rom.rnc` image is a surviving result; `PR/tengine/spec` is the build plan. 
 # Development environment
 The archive mixes Iguana's game files with Nintendo's `PR` SDK tree. The game files show how Turok worked; the neighboring SDK samples and libraries show the tools available to its programmers.
 
-The `PR/README_DEMOS` names 35 sample projects. The N64 SDK demo guide explains their techniques and compares their files with the Oman `APPS` tree.
+The `PR/README_DEMOS` names 35 sample projects. A [separate guide to the N64 SDK demos](/n64-sdk-demos) explains their techniques and compares their files with the Oman `APPS` tree.
 
 {% include_cached link-to-other-post.html post="/n64-sdk-demos" description="Compare the Turok and Oman sample trees with four packaged N64 OS releases and learn what the demos do." %}
 
 ## Nintendo 64 SDK and ROM layout
-`PR/tengine/Makefile` includes `$(ROOT)/usr/include/make/PRdefs` from Nintendo's official N64 SDK. The adjacent `spec` file defines boot code, audio and display-list memory, frame buffers, a cartridge cache, a Z-buffer, raw data segments, and the main code segment. It also names Nintendo microcode objects such as `gspF3DEX.NoN.fifo.o`.
+`PR/tengine/Makefile` includes `$(ROOT)/usr/include/make/PRdefs` from [Nintendo's official N64 SDK](/n64-sdk). The adjacent `spec` file defines boot code, audio and display-list memory, frame buffers, a cartridge cache, a Z-buffer, raw data segments, and the main code segment. It also names Nintendo microcode objects such as `gspF3DEX.NoN.fifo.o`.
 
 ```mermaid
 flowchart LR
@@ -125,7 +125,7 @@ Iguana combined **SGI test hardware**, an **in-house world editor**, 3D modeling
   <div class="rr-game-media-row__copy" markdown="1">
 **Two shared stations.** David Dienstbier described one SGI workstation in a common room where artists could test assets in the engine, and another in the lead programmer's office [^9] [^13]. The source discovery also involved former Acclaim **SGI Indy** machines [^15].
 
-**A console on a board.** The SGI-based Nintendo 64 development kit used a GIO expansion card inside the Indy, as Nintendo's hardware documentation describes [^29]. It allowed testing on N64 hardware without writing a cartridge for every change. Creative director Nigel Cook recalled receiving final development kits about halfway through production, with little rework despite earlier hardware uncertainty [^10].
+**A console on a board.** The [SGI-based Nintendo 64 development kit](/official-n64-devkit) used a GIO expansion card inside the Indy, as Nintendo's hardware documentation describes [^29]. It allowed testing on N64 hardware without writing a cartridge for every change. Creative director Nigel Cook recalled receiving final development kits about halfway through production, with little rework despite earlier hardware uncertainty [^10].
   </div>
 </section>
 
@@ -151,7 +151,7 @@ The development-hardware guide shows the SGI board and later devices such as the
   </div>
 </section>
 
-Omelchuck recalled the software as "3D Studio Max v4" [^10]. Autodesk's records put **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. That last version postdates Turok's launch, so the exact version behind the recollection remains uncertain. The wider range of N64 3D modeling software gives this tool choice context.
+Omelchuck recalled the software as "3D Studio Max v4" [^10]. Autodesk's records put **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. That last version postdates Turok's launch, so the exact version behind the recollection remains uncertain. The wider range of [N64 3D modeling software](/n64-3d-modelling) gives this tool choice context.
 
 {% include_cached link-to-other-post.html post="/n64-3d-modelling" description="Explore the modeling and conversion tools available to N64 artists, including 3D Studio and MultiGen." %}
 
@@ -177,7 +177,7 @@ Mitchell said the producer described each level's creatures and atmosphere befor
   </div>
 </section>
 
-**Two audio banks.** The ROM build plan places music and sound effects in separate N64 sound-bank pairs. A `.ctl` file describes instruments and sounds; its matching `.tbl` holds the sample bytes that the audio engine plays. In `audio.c`, `alBnkfNew` connects each control bank to its sample table.
+**Two audio banks.** The ROM build plan places music and sound effects in separate [N64 sound-bank](/n64sound#n64-sound-banks) pairs. A `.ctl` file describes instruments and sounds; its matching `.tbl` holds the sample bytes that the audio engine plays. In `audio.c`, `alBnkfNew` connects each control bank to its sample table.
 
 The N64 sound guide explains the control-bank and sample-table format in more detail:
 
@@ -206,7 +206,7 @@ The header of `PR/tengine/rnc.s` calls itself **"PROPACK Unpack Source Code - So
     <figcaption>A Doctor V64 in Turok 3 development footage. This frame does not establish its use on the first game [^8].</figcaption>
   </figure>
   <div class="rr-game-media-row__copy" markdown="1">
-A documentary about **Turok 3** shows a Bung Doctor V64 and Windows development tools [^7] [^8]. A 1997 report priced the V64 at **US$450** [^24]. The footage establishes later Acclaim use, but not whether Iguana had one for the first Turok.
+A documentary about **Turok 3** shows a [Bung Doctor V64](/official-n64-devkit#bung-doctorv64) and Windows development tools [^7] [^8]. A 1997 report priced the V64 at **US$450** [^24]. The footage establishes later Acclaim use, but not whether Iguana had one for the first Turok.
 
 The same documentary shows an Acclaim **ArtSend debugging cartridge** around the seven-minute mark [^25]. That shot features the ArtSend, a different device from the V64. `PR/tengine/cart.c` also has a `WIN32` branch for host-side code, but that does not identify the IDE used for the original N64 game. A Windows edition, ported by Sculptured Software, has a **26 November 1997 US release** in GameFAQs and MobyGames [^18] [^20].
   </div>

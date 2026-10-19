@@ -157,7 +157,7 @@ On Windows it was installed into `C:\Ultra\usr` and used a UNIX-like directory s
 * sbin - a few custom command line tools
 * src - Source code for Demo applications and the libultra and libnaudio libraries
 
-The `src/PR` demo projects range from a first triangle to texture filtering, audio scheduling, terrain editing, and hardware performance tests. The demo guide maps the PC 2.0H, IRIX 2.0I, and PC 2.0J/2.0L packages and compares them with the Turok and Oman copies.
+The `src/PR` demo projects range from a first triangle to texture filtering, audio scheduling, terrain editing, and hardware performance tests. A [dedicated guide to the N64 SDK demos](/n64-sdk-demos) maps the PC 2.0H, IRIX 2.0I, and PC 2.0J/2.0L packages and compares them with the Turok and Oman copies.
 
 {% include_cached link-to-other-post.html post="/n64-sdk-demos" description="Explore the official demo inventory, what each sample teaches, and how the Oman and Turok copies compare with later OS releases." %}
 
