@@ -2156,7 +2156,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native Windows and Linux/Steam Deck recompilation using gba-recomp; requires a user-owned USA ROM. Work in progress: brief sprite silhouettes in the first level and initial gamepad detection issues are documented.",
+          "notes_markdown": "Native Windows, Linux/Steam Deck and Android recompilation using gba-recomp. Version 3.0 documents USA and European ROM support. Work in progress: mouse and Android touch controls are experimental, and brief first-level sprite silhouettes remain documented.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
