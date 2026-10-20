@@ -3294,7 +3294,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Jet Force Gemini Recomp",
+              "url": "https://github.com/TK22-26/JetForceGemini-Recomp",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "AI-assisted N64Recomp port for Windows x64; requires a supported USA big-endian ROM. Modern controls and high-refresh presentation remain experimental. The documented campaign verification used testing mods and an all-Tribals save; original-console accuracy and broader hardware qualification remain in progress.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
