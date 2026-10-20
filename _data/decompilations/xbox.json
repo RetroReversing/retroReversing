@@ -11,14 +11,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2023-07-07T09:16:33Z",
         "last_commit_url": "https://github.com/halo-re/halo/commit/21bc641df6b8bdd730c23885ff643545423dcc82",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Inactive",
-        "github_stars": 455
+        "github_stars": 456
       },
       "ai_used": null
     },
@@ -32,12 +32,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-10-10T00:12:56Z",
         "last_commit_url": "https://github.com/Revan67/ThirdAge-Recomp/commit/39757977fda4d4707286a2bb4219c7264c628702",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
         "github_stars": 7
       },
@@ -53,14 +53,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
-        "last_commit_at": "2026-10-17T14:26:21Z",
-        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/6fce430797ec0573634fa6be18a08f73957efa63",
+        "checked_at": "2026-10-20T08:51:22Z",
+        "last_commit_at": "2026-10-19T18:25:21Z",
+        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/748a9ecee6fc46f64f182b4b56c306bc6c581044",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
-        "github_stars": 66
+        "github_stars": 69
       },
       "ai_used": null
     },
@@ -74,14 +74,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-10-17T23:31:15Z",
         "last_commit_url": "https://github.com/punpckhdq/halo/commit/8d3aedaab8480b58e21fc635ee98de5932d972a5",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
-        "github_stars": 195
+        "github_stars": 196
       },
       "ai_used": null
     },
@@ -95,14 +95,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-09-26T11:37:26Z",
         "last_commit_url": "https://github.com/andeecollard/jsrf-recomp/commit/4242eb69694c8752ca42550ca3765e56288d4535",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -116,13 +116,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 147,
-        "checked_at": "2026-10-19T09:16:32Z",
+        "github_stars": 153,
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-10-18T21:13:05Z",
         "last_commit_url": "https://github.com/portingpete/Black-2006-Recomp/commit/829ccf17a41650ba68f431f6f150d4e076c16cc7",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null
@@ -137,13 +137,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 80,
-        "checked_at": "2026-10-19T09:16:32Z",
-        "last_commit_at": "2026-10-19T02:52:11Z",
-        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/7abc684a795221504d60fd0e8482bb9545cd17c8",
+        "github_stars": 97,
+        "checked_at": "2026-10-20T08:51:22Z",
+        "last_commit_at": "2026-10-20T01:15:10Z",
+        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/50bf8f0390a8df96f59ee37ae80ecc98e458715d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null
@@ -158,13 +158,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 87,
-        "checked_at": "2026-10-19T09:16:32Z",
-        "last_commit_at": "2026-10-19T09:04:15Z",
-        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/6cff8daaf31319e3fe83edf2dfb2d66c18a52a6b",
+        "github_stars": 96,
+        "checked_at": "2026-10-20T08:51:22Z",
+        "last_commit_at": "2026-10-20T08:38:31Z",
+        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/d6c1f679c850c636223b731296dbf32c4d393ae0",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null
@@ -179,13 +179,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 276,
-        "checked_at": "2026-10-19T09:16:32Z",
+        "github_stars": 305,
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-10-19T06:49:23Z",
         "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/e5ada6ffa316c8fae998b9992c315e2b95899904",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null
@@ -200,13 +200,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 47,
-        "checked_at": "2026-10-19T09:16:32Z",
+        "github_stars": 49,
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-10-08T12:42:29Z",
         "last_commit_url": "https://github.com/SirSymo/SM2-Recomp/commit/a11fb1d0a550ded60077b78da04c698052a0ec7e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null
@@ -221,13 +221,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 74,
-        "checked_at": "2026-10-19T09:16:32Z",
-        "last_commit_at": "2026-10-18T23:28:35Z",
-        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/406b74584c1de9d0fcbbe30f8132f03b60311aab",
+        "github_stars": 91,
+        "checked_at": "2026-10-20T08:51:22Z",
+        "last_commit_at": "2026-10-19T22:59:22Z",
+        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/2bde5f26deddf7c2e7b0a52903010bebcd0a2872",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active"
       },
       "ai_used": null

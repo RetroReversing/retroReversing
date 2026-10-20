@@ -11,14 +11,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-09-06T16:32:08Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Decompilation/commit/a7f5195e21fdad7b75e4587e249013feeea9e6f3",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
-        "github_stars": 1148
+        "github_stars": 1149
       },
       "ai_used": null
     },
@@ -32,14 +32,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-09-06T16:32:08Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Decompilation/commit/a7f5195e21fdad7b75e4587e249013feeea9e6f3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
-        "github_stars": 1148
+        "github_stars": 1149
       },
       "ai_used": null
     },
@@ -53,12 +53,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-09-06T23:18:43Z",
         "last_commit_url": "https://github.com/RSDKModding/RSDKv4-Script-Decompilation/commit/67156e451d22e2f148ef9f2c91517dfa5103333a",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
         "github_stars": 140
       },
@@ -74,12 +74,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2023-04-01T09:32:18Z",
         "last_commit_url": "https://github.com/ImmutableOctet/sonicgba/commit/0b579e0f418e649a966ec1d4cc5496ede9dab47c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Inactive",
         "github_stars": 19
       },
@@ -95,12 +95,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2025-05-30T07:56:49Z",
         "last_commit_url": "https://github.com/decompfrontier/client/commit/1964d51a53adcf330fc9549c75ada565da72ab76",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Inactive",
         "github_stars": 14
       },
@@ -116,12 +116,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-19T09:16:32Z",
+        "checked_at": "2026-10-20T08:51:22Z",
         "last_commit_at": "2026-09-01T00:11:39Z",
         "last_commit_url": "https://github.com/Juanen100/SBMI-Decomp/commit/10517e684a91d9a163d4eabc380f0a00b59e9964",
         "default_branch": "4.37.00-Release",
         "archived": false,
-        "last_success_at": "2026-10-19T09:16:32Z",
+        "last_success_at": "2026-10-20T08:51:22Z",
         "status": "Active",
         "github_stars": 14
       },
