@@ -1668,6 +1668,13 @@ The original PC version of **Call of Duty** (released in 2003) was built using a
 This engine was adapted and enhanced by Infinity Ward to deliver distinctive features for Call of Duty, and while later games in the series would use the proprietary **IW engine** (a fork that diverged from id Tech 3), the original game remained fundamentally based on id Tech 3
 
 ---
+### Cryo Atlantis engine
+**Atlantis - The Lost Tales** (Cryo Interactive, 1997) runs on an engine of 360-degree panoramas, full-screen videos and dialog scenes whose mouths are drawn as small 3D models over the video.
+Its file formats (BigFile archives, HNM6 panoramas and videos, APC sound, WAM place files and CON scripts) are documented on a dedicated page:
+
+{% include_cached link-to-other-post.html post="/cryo-atlantis-engine" description="The archive, picture, sound, place and script formats of Cryo's Atlantis engine, and how its 3D talking heads are drawn." %}
+
+---
 ## Retro Game Programming Tutorials
 If you are looking to reverse games from the late 1990s then it can sometimes be useful to see tutorials that were posted online during that time, **flipCode** had a good multi-part series on writing networking code [flipCode - Network Game Programming](https://web.archive.org/web/19990909174312/http://www.flipcode.com/network/)
 
