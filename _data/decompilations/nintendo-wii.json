@@ -840,6 +840,18 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "sonic-and-the-black-knight-recomp": {
+      "name": "Sonic and the Black Knight",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/yunophilia/BlackKnightRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -1804,6 +1816,32 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/Etrainquandt17/Whippy"
+            }
+          ]
+        },
+        {
+          "project": "sonic-and-the-black-knight-recomp",
+          "name_markdown": "[Sonic and the Black Knight (Recomp)](https://github.com/yunophilia/BlackKnightRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sonic%20and%20the%20Black%20Knight%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic and the Black Knight Wii box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation for the PAL Wii release, replacing motion controls with conventional input. The Linux preset builds generated code only until the runtime is ported from Direct3D 11 and XAudio2. [Announcement](https://www.reddit.com/r/decomps/comments/1xbcihj/sonic_and_the_black_knight_recompiled/).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/yunophilia/BlackKnightRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/yunophilia/BlackKnightRecomp"
             }
           ]
         }
