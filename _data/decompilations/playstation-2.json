@@ -1284,6 +1284,18 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "killzone-recomp": {
+      "name": "Killzone",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/drakolordx7/KillzoneRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -2710,6 +2722,32 @@
             {
               "name": "Native port",
               "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+            }
+          ]
+        },
+        {
+          "project": "killzone-recomp",
+          "name_markdown": "[Killzone (Recomp)](https://github.com/drakolordx7/KillzoneRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Killzone%20%28USA%29.png",
+              "alt": "Killzone PlayStation 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 PS2Recomp port for the NTSC-U release. This test build verifies boot, menus and first-mission gameplay; longer play-throughs remain ongoing, and Killzone Online is excluded.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/drakolordx7/KillzoneRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/drakolordx7/KillzoneRecomp"
             }
           ]
         }
