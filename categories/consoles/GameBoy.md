@@ -21,7 +21,7 @@ recommend:
   - ds
 editlink: ../categories/consoles/GameBoy.md
 excerpt: Hub page for Game Boy and Game Boy Color hardware, development, reverse engineering, and source code resources
-updatedAt: '2026-10-21'
+updatedAt: '2026-04-26'
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy

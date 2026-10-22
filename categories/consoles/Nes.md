@@ -22,7 +22,7 @@ recommend:
  - introduction
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
-updatedAt: '2026-10-21'
+updatedAt: '2022-10-08'
 tags:
   - nes
   - introduction

@@ -36,7 +36,6 @@ recommend:
 - gameboy
 - sourcecode
 editlink: /consoles/gameboy/PokemonRedBlue.md
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

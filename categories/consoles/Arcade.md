@@ -21,7 +21,6 @@ tags:
   - arcade
   - introduction
   - hardware
-updatedAt: '2026-10-21'
 ---
 
 ### What was the first Arcade Video Game?

@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive

@@ -19,7 +19,7 @@ recommend:
 - ghidra
 editlink: /tools/Ghidra/GhidraDecompilingIntroduction.md
 youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 # Introduction

@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
 recommend: 
   - introduction
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-08'
 editlink: /Introduction/Legality.md
 ---
 

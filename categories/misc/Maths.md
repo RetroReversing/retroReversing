@@ -16,8 +16,6 @@ redirect_from:
 editlink: ../categories/misc/Maths.md
 tags:
   - maths
-
-updatedAt: '2026-10-21'
 ---
 # Game mathematics prerequisites
 [javidx9](https://www.youtube.com/watch?v=DPfxjQ6sqrc) introduces mathematics useful to aspiring game developers. It provides background before the more focused vector, matrix and quaternion articles.

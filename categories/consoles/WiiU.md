@@ -19,7 +19,6 @@ recommend:
   - wiiu
   - wii
   - introduction
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

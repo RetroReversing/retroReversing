@@ -19,7 +19,7 @@ recommend:
 - hardware
 - leak
 editlink: /hardware/Verilog.md
-updatedAt: '2026-10-21'
+updatedAt: '2020-05-08'
 ---
 
 <section class="postSection">

@@ -22,7 +22,6 @@ redirect_from:
 tags:
   - megadrive
   - sega
-updatedAt: '2026-10-21'
 ---
 
 Welcome to our in-depth guide to Amiga reverse engineering! This page serves two roles. It groups all of our posts related to Amiga reverse engineering, and it aggregates high quality sources from the web into create a unified reference.

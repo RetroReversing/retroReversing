@@ -26,7 +26,6 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64HardwareArchitecture.md
-updatedAt: '2026-10-21'
 ---
 
 <section class="postSection">

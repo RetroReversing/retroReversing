@@ -20,7 +20,6 @@ editlink: ../categories/consoles/Wonderswan.md
 updatedAt_: '2023-07-21'
 tags:
   - wonderswan
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

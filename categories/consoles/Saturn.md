@@ -9,7 +9,7 @@ recommend:
 recommendTitle: All Sega Saturn Posts
 editlink: ../categories/consoles/Saturn.md
 excerpt: Awesome list of SEGA Saturn Game Development and Reverse Engineering information
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-17'
 breadcrumbs:
   - name: Home
     url: /

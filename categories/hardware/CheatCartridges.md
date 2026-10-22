@@ -23,7 +23,6 @@ redirect_from:
   - /hardware/cheatcartridge/
 tags:
   - hardware
-updatedAt: '2026-10-21'
 ---
 
 # Action Replay (Datel)

@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 tags:
   - ps3
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-20'
 ---
 
 # Introduction

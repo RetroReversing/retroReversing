@@ -20,7 +20,6 @@ recommend:
 - sdk
 - gba
 editlink: /consoles/ds/DSOfficialSDK.md
-updatedAt: '2026-10-21'
 ---
 
 The NITRO SDK was previously known as the IRIS SDK, but got renamed sometime before April 2004 (release 1.0 of NITRO-SDK). Much of the structure and files remain from the IRIS SDK but most files have been renamed to NITRO.

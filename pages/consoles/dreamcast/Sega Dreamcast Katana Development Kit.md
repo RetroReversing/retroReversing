@@ -37,7 +37,6 @@ references:
 redirect_from:
   - /Sega-Dreamcast-System-Disc-2
 editlink: /consoles/dreamcast/Sega Dreamcast Katana Development Kit.md
-updatedAt: '2026-10-21'
 ---
 
 # Official Sega Development hardware

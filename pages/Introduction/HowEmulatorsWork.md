@@ -20,7 +20,7 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /Introduction/HowEmulatorsWork.md
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-08'
 ---
 
 Have you ever wondered how emulators work? How would you implement an emulator? Where should you start if you are interested in emulator development? 

@@ -21,7 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 # Introduction

@@ -23,7 +23,6 @@ recommend:
 tags:
   - dos
   - pc
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

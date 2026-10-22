@@ -26,7 +26,7 @@ recommend:
 tags:
 - introduction
 editlink: ../categories/Introduction.md
-updatedAt: '2026-10-21'
+updatedAt: '2025-08-28'
 ---
 
 This guide is for all beginners who are interested in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.

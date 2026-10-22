@@ -19,7 +19,6 @@ redirect_from:
   - /dreamcast/
 tags:
   - dreamcast
-updatedAt: '2026-10-21'
 ---
 
 # Introduction to Hacking/Reversing the SEGA Dreamcast

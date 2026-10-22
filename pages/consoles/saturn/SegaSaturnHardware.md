@@ -37,7 +37,7 @@ recommend:
   - saturn
   - consolearchitecture
 editlink: /consoles/saturn/SegaSaturnHardware.md
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-18'
 ---
 <!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD Gouraud preclipping -->
 

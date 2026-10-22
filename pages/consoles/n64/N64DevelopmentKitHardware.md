@@ -38,7 +38,7 @@ recommend: n64
 editlink: /consoles/n64/N64DevelopmentKitHardware.md
 references:
   - archive.org
-updatedAt: '2026-10-21'
+updatedAt: '2020-01-11'
 ---
 
 The website N64Squid has a page dedicated to Nintendo 64 development hardware that is well worth a look: [Nintendo 64 development hardware - N64 Squid](https://n64squid.com/homebrew/n64-sdk/development-hardware/). This page aims to compliment that page and give additional details about the hardware, so it is recommended you read that page first [^3]. 

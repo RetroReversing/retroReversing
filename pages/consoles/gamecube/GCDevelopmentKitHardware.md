@@ -31,7 +31,7 @@ editlink: /consoles/gamecube/GCDevelopmentKitHardware.md
 references:
   - archive.org
 twitterimage: https://www.retroreversing.com/public/images/gc/Gamecube Development Kit Hardware.jpg 
-updatedAt: '2026-10-21'
+updatedAt: '2020-09-30'
 redirect_from:
  - /prodg-gamecube
  - /gamecube-development-kit-hardware/

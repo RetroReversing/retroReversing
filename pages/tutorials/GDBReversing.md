@@ -21,7 +21,7 @@ tags:
 - introduction
 - gdb
 editlink: /tutorials/GDBReversing.md
-updatedAt: '2026-10-21'
+updatedAt: '2020-08-28'
 ---
 
 # Introduction

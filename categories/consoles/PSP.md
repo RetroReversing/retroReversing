@@ -18,7 +18,6 @@ breadcrumbs:
     url: #
 tags:
   - psp
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

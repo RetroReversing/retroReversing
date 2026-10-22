@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64SDK.md
-updatedAt: '2026-10-21'
+updatedAt: '2020-08-09'
 twitterimage: https://www.retroreversing.com/public/N64/N64 SDK.jpg
 ---
 

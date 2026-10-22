@@ -17,7 +17,6 @@ recommend:
 tags:
  - programming-languages
  - tools
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

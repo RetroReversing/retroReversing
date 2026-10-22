@@ -18,7 +18,7 @@ breadcrumbs:
     url: /gba
 tags:
  - gba
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering

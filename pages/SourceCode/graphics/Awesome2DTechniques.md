@@ -22,7 +22,6 @@ recommend:
   - 3d
   - introduction
 editlink: /pages/SourceCode/graphics/Awesome2DTechniques.md
-updatedAt: '2026-10-21'
 ---
 
 This is a Work in progress page to list interesting articles on 2D graphics techniques to create cool effects.

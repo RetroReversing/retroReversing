@@ -21,7 +21,7 @@ recommend:
   - pc
   - dos
   - msx
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 # Introduction

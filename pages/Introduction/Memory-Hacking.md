@@ -23,7 +23,7 @@ recommend:
 - memory
 - introduction
 editlink: /Introduction/Memory-Hacking.md
-updatedAt: '2026-10-21'
+updatedAt: '2021-03-24'
 ---
 
 # Memory Hacking

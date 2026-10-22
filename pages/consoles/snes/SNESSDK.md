@@ -23,7 +23,7 @@ recommend:
 redirect_from:
 - /super-famicom-snes-sdk/
 editlink: /consoles/snes/SNESSDK.md
-updatedAt: '2026-10-21'
+updatedAt: '2021-07-03'
 ---
 
 # Official Nintendo Super Famicom SDK

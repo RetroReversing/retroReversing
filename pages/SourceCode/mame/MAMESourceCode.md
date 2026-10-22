@@ -22,7 +22,7 @@ tags:
 - emulation
 - arcade
 editlink: ../pages/SourceCode/mame/MAMESourceCode.md
-updatedAt: '2026-10-21'
+updatedAt: '2026-04-11'
 ---
 
 # MAME Repository Structure

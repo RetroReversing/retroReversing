@@ -18,7 +18,7 @@ redirect_from:
   - /supernintendo
 tags:
   - snes
-updatedAt: '2026-10-21'
+updatedAt: '2025-12-07'
 ---
 
 # Introduction

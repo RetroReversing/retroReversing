@@ -30,7 +30,7 @@ recommend:
 - n64
 - games
 editlink: /consoles/n64/SuperMario64.md
-updatedAt: '2026-10-21'
+updatedAt: '2020-05-07'
 ---
 
 # Introduction to Super Mario 64 Reversing & Modding

@@ -23,7 +23,6 @@ videocarousel:
     image: https://img.youtube.com/vi/ieoMqvFuUbw/maxresdefault.jpg
     youtube: 'ieoMqvFuUbw'
 editlink: /consoles/ps1/MakingOfPlaystationGames.html
-updatedAt: '2026-10-21'
 ---
 
 # PlayStation Underground

@@ -32,7 +32,7 @@ videocarousel:
     image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
     youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2026-10-21'
+updatedAt: '2019-11-11'
 tags:
   - ps1
 ---

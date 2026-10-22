@@ -22,7 +22,6 @@ recommend:
 - games
 - introduction
 editlink: /consoles/n64/Mario-Kart-64.md
-updatedAt: '2026-10-21'
 ---
 
 # Introduction to Mario Kart 64

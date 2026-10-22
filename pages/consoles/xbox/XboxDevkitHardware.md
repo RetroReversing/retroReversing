@@ -31,7 +31,7 @@ videocarousel:
     image: http://img.youtube.com/vi/ocJcI7YjLJc/hqdefault.jpg
     youtube: 'ocJcI7YjLJc'
 editlink: /consoles/xbox/XboxDevkitHardware.md
-updatedAt: '2026-10-21'
+updatedAt: '2021-03-26'
 ---
 
 # Alpha Development Hardware

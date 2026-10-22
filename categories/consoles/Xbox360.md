@@ -19,7 +19,6 @@ redirect_from:
   - /xbox360/
 tags:
   - xbox360
-updatedAt: '2026-10-21'
 ---
 
 # Introduction

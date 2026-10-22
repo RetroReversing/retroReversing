@@ -23,7 +23,6 @@ recommend:
 - ghidra
 editlink: /tools/Ghidra/GhidraN64.md
 youtube: "3d3a39LuCwc"
-updatedAt: '2026-10-21'
 ---
 
 # Importing a Nintendo 64 ROM

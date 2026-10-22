@@ -25,7 +25,7 @@ breadcrumbs:
     url: '#'
 recommend: n64
 editlink: /consoles/n64/Turok64SourceCode.md
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-18'
 ---
 
 <link rel="stylesheet" href="/public/css/game-data-visual.css">

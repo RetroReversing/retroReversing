@@ -20,7 +20,7 @@ redirect_from:
   - /gamecube/
 tags:
   - gamecube
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-16'
 ---
 
 Welcome to our page dedicated to Gamecube reverse engineering! The Gamecube was a popular gaming console released by Nintendo in 2001, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
