@@ -22,6 +22,7 @@ recommend:
 - tutorials
 - ghidra
 editlink: /tools/Ghidra/GhidraN64.md
+updatedAt: '2026-10-22'
 youtube: "3d3a39LuCwc"
 ---
 
@@ -47,7 +48,15 @@ You only need to clone if you are planning on contributing, but even then you wo
 ## Import a ROM file
 Find a .z64 file and import it into the project, it should come up as "N64 Loader by Warranty Voider", but if it comes up as "binary" then it has not been installed correctly.
 
-If the N64 Loader option doesn't appear for you then you probably don't have JDK 12 or higher, you can either install JDK12 or build the plugin yourself on jdk11 which is what I did and works just fine :)
+If the loader does not appear, check that the extension was built for your installed Ghidra version and that Ghidra is using its required JDK. The loader README notes that Ghidra 12.1 requires JDK 21; an older JDK 12 instruction will not work for that release [^3].
+
+---
+## Find Code Loaded After the ROM Import
+An imported ROM is only the starting image. Ghidra can follow direct references in the mapped code, but it cannot infer every function that a game later decompresses, relocates, or loads as an overlay. If a function runs in RAM but does not appear at that address in the imported program, first trace the game's load or DMA operation. Record the ROM source, decompressed output if any, RAM destination, and the game state that triggers the load [^3].
+
+The [N64LoaderWV README](https://github.com/zeroKilo/N64LoaderWV) documents an `RDRAM dump file` import option. After triggering the code in an emulator, capture a complete 4 MiB base-memory or 8 MiB Expansion Pak RDRAM dump and import it with that option. Inspect the new memory blocks and disassemble the loaded region at its runtime address. The dump must be exactly one of those sizes; a small extracted overlay file is not a substitute for this loader option [^3].
+
+A dump records one moment in execution. When two overlays use the same RAM address at different times, capture them separately and keep their symbols tied to their overlay and game revision. Compare the loaded bytes and relocation evidence with the original ROM before transferring names into the main project. The [N64 reversing introduction](/N64Reversing#connect-the-runtime-function-to-the-rom) explains how to connect a RAM function back to its cartridge range.
 
 ---
 # Detecting N64 API signatures
@@ -84,9 +93,11 @@ If you have a version of the N64 SDK then you can use the `Parse C Source` featu
 If there are any errors with the parsing of the C files then you will need to locate the generated file called: `CParserPlugin.out`. Normally it is generated in the current users home directory so you can run:
 ```
 cat ~/CParserPlugin.out
+```
 ---
 # References
 [^1]: [N64 ROM Decompiling With Ghidra - N64LoaderWV - YouTube](https://www.youtube.com/watch?v=3d3a39LuCwc)
 [^2]: [Assembler Games N64 Signatures (Wayback Machine)](https://web.archive.org/web/20191111210232/https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)
+[^3]: [N64LoaderWV README](https://github.com/zeroKilo/N64LoaderWV), ROM import scope, runtime memory dump option and size requirements, and current JDK guidance.
 
 

@@ -137,6 +137,8 @@ Integrate subsystems in the order the game first needs them:
 
 Save formats matter. EEPROM, SRAM, and FlashRAM are accessed differently; a native save file must reflect the game's chosen medium if you want compatibility with original data [^6]. For renderer integration, inspect [RT64](https://github.com/rt64/rt64), which N64ModernRuntime recommends. Zelda64Recomp shows these pieces assembled in a real project [^2] [^6].
 
+The [asset workflow in the N64 reversing introduction](/N64Reversing#choose-an-asset-path-for-a-recomp) explains when to read original data from the user's ROM and when extraction or rebuilding is needed.
+
 ---
 ## Worked Example From Zelda64Recomp
 Majora's Mask is a useful case study because the [Zelda64Recomp repository](https://github.com/Zelda64Recomp/Zelda64Recomp) publishes the configuration, build instructions, and native project together. This is an explanation of its files, not a configuration for another game [^2] [^8].
@@ -151,6 +153,20 @@ The path from input to executable is visible in these project files:
 For a new title, begin by reproducing the *roles* of those files: verified input, symbol and overlay metadata, a small patch set, identified microcode, and a host build. The Majora's Mask addresses and patch words are evidence about that game only. A port that translates its CPU functions still needs its own runtime tests for DMA, graphics, audio, input, and saves.
 
 For a repeatable validation and build process, see [Testing and Automating an N64 Recomp](/testing-an-n64-recomp). The [N64 reversing introduction](/N64Reversing#keep-symbols-and-overlay-evidence-under-version-control) also gives a versioned symbol-record template.
+
+---
+## Harder Case Study From GoldenEye
+[GoldenRecomp](https://github.com/kholdfuzion/goldenrecomp) documents obstacles that its GoldenEye 007 port encountered after symbol recovery. Its developers changed the underlying decomp build to avoid the game's TLB-dependent memory layout. They also modified their N64Recomp fork for jump tables whose targets crossed segment boundaries. These describe the project's documented solution at that point in development, not a claim that every current N64Recomp version has the same limits [^9].
+
+The later [GoldenEye64Recomp](https://github.com/cblock85/GoldenEye64Recomp) documents a patch that turns a supported user-supplied NTSC-U dump into its TLB-free layout. Its symbol files and patches are specific to that revision. The project also reports remaining custom display-command effects and timing issues, showing why a game can be playable while still differing from the original [^10].
+
+GoldenEye suggests four checks before treating a translated build as a portable game:
+* **Address mapping** - Trace TLB writes and virtual ranges before assuming every guest address maps directly to RDRAM.
+* **Control flow** - Inspect switch destinations and function pointers across segment boundaries; a translator needs the correct targets.
+* **Rendering** - Identify graphics commands and microcode that the chosen renderer does not implement.
+* **Timing** - Compare gameplay actions at the original simulation cadence before adding display interpolation or higher refresh rates.
+
+A different title may need none of these changes. Use GoldenEye as a diagnostic example, then verify each issue against the exact ROM and tool revisions in your own project [^9] [^10].
 
 ---
 ## Validate Each Milestone
@@ -188,3 +204,5 @@ Verify one ROM revision, document one executable region, translate one known fun
 [^6]: [N64ModernRuntime README](https://github.com/N64Recomp/N64ModernRuntime), runtime services, platform callbacks, renderer integration, and save media.
 [^7]: [N64Recomp pull request 118](https://github.com/N64Recomp/N64Recomp/pull/118), merged RSPRecomp overlay support.
 [^8]: [Zelda64Recomp build instructions](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) and [Majora's Mask recomp configuration](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/us.rev1.toml), concrete input and build pipeline.
+[^9]: [GoldenRecomp README](https://github.com/kholdfuzion/goldenrecomp), documented TLB-free build and cross-segment jump-table changes.
+[^10]: [GoldenEye64Recomp README](https://github.com/cblock85/GoldenEye64Recomp), supported ROM, local patching, and reported renderer and timing limitations.
