@@ -11,12 +11,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-01-23T18:47:06Z",
         "last_commit_url": "https://github.com/LLONSIT/AeroGauge/commit/55ccafad3bf003b4794774c89caaf84afe1eafe1",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 32
       },
@@ -32,12 +32,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-22T19:28:08Z",
         "last_commit_url": "https://github.com/blackgamma7/Aidyn/commit/8072ab17896fcee3e62aaad419f067e231574476",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 42
       },
@@ -53,13 +53,13 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "last_commit_at": "2026-09-28T08:05:33Z",
         "last_commit_url": "https://gitlab.com/banjo.decomp/banjo-kazooie/-/commit/e8d31fa53645616fcac6e051543222b973a2edb0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "github_stars": null
       },
       "ai_used": null
@@ -74,14 +74,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-25T18:57:05Z",
         "last_commit_url": "https://github.com/BanjoRecomp/BanjoRecomp/commit/dbd52154bc1e00e56867b1fac94a8f907052f41b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 2069
+        "github_stars": 2074
       },
       "ai_used": null
     },
@@ -95,14 +95,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-11-29T22:55:36Z",
         "last_commit_url": "https://github.com/Mr-Wiseguy/banjo-tooie/commit/25033be6ec9e35975483f064d086391d2381ca4c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 151
+        "github_stars": 152
       },
       "ai_used": null
     },
@@ -116,12 +116,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2021-12-28T13:05:00Z",
         "last_commit_url": "https://github.com/retroplastic/blastcorps/commit/baa807e502c0b8d608aea4e26fe58752d2797f01",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 43
       },
@@ -137,12 +137,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-25T11:45:41Z",
         "last_commit_url": "https://github.com/DeltaniumIndustries/BodyHarvestDecomp/commit/805157f0f205fe02f5f80b4b3cfc7940696d88d3",
         "archived": true,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 6
       },
@@ -158,12 +158,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-08T01:25:34Z",
         "last_commit_url": "https://github.com/Bomberhackers/bm64/commit/c7c5fd5a73a9d5969673535030fc4f1df956fa5f",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 35
       },
@@ -179,12 +179,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-24T23:35:53Z",
         "last_commit_url": "https://github.com/RevoSucks/BM64Recomp/commit/726adc908ca7abd27c4cba12d1f52a0c243727df",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 306
       },
@@ -200,12 +200,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-04T14:28:32Z",
         "last_commit_url": "https://github.com/Bomberhackers/bm64tsa/commit/170add1810a9f7f4766038c17741216eac387d1b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 14
       },
@@ -221,12 +221,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-24T15:15:36Z",
         "last_commit_url": "https://github.com/Bomberhackers/bmhero/commit/a07c57e1ee9bd20d054a7180017d30f5aa86d70f",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 62
       },
@@ -242,12 +242,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-05-12T03:53:56Z",
         "last_commit_url": "https://github.com/RevoSucks/BMHeroRecomp/commit/400f4c005e9c2b155915b8f04ec7e0e4a95df9f4",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 125
       },
@@ -263,12 +263,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-09-08T04:07:50Z",
         "last_commit_url": "https://github.com/k64ret/cv64/commit/5307217aa772019b7576cad3cb2c545e88e0394a",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 66
       },
@@ -284,12 +284,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-26T02:29:59Z",
         "last_commit_url": "https://github.com/chameleonTwistRet/chameleonTwistv1.0-JP/commit/3bdc8fa875a8fbb46dc61878ad0804c37c74f681",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 12
       },
@@ -305,12 +305,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-03-11T04:41:15Z",
         "last_commit_url": "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp/commit/f7d171462776e2dbf893206a96c2f55692bce559",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 63
       },
@@ -326,12 +326,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-13T03:36:22Z",
         "last_commit_url": "https://github.com/chameleonTwistRet/chameleonTwist2v1.0-JP/commit/a0b2aef24da51237933fd1c7e34609f1c4e3aafe",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 6
       },
@@ -347,12 +347,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-05-10T08:30:55Z",
         "last_commit_url": "https://github.com/mkst/conker/commit/3adf229175c037c771f251f169f9dd80ca306924",
         "archived": true,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 239
       },
@@ -368,12 +368,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-06-23T05:38:49Z",
         "last_commit_url": "https://github.com/Unnunu/darkrift/commit/bf6f24597cc4e550d32ea71da6f5acf0e5eebb87",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 4
       },
@@ -389,14 +389,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-01T19:46:44Z",
         "last_commit_url": "https://github.com/DavidSM64/Diddy-Kong-Racing/commit/a5eb080fa8f91b97d6f6495e0549ef7121ae7496",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 424
+        "github_stars": 425
       },
       "ai_used": null
     },
@@ -410,12 +410,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-20T15:39:32Z",
-        "last_commit_url": "https://github.com/zestydevy/dinosaur-planet/commit/f9b8e6f0539aa18d996679c0a229b8e812a8eab5",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-22T03:09:01Z",
+        "last_commit_url": "https://github.com/zestydevy/dinosaur-planet/commit/393a07efbab7f689c02a3663a8f33e600c64ad51",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 218
       },
@@ -431,14 +431,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-17T00:24:56Z",
         "last_commit_url": "https://github.com/DinosaurPlanetRecomp/dino-recomp/commit/9eab0febb4b8f63ca1228c1f0ed85952b117db44",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 332
+        "github_stars": 333
       },
       "ai_used": null
     },
@@ -452,13 +452,13 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "last_commit_at": "2026-10-10T00:54:47Z",
         "last_commit_url": "https://gitlab.com/dk64_decomp/dk64/-/commit/d3959ba4c95dc936ebeb5c9ccfcd12ba2ac58830",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "github_stars": null
       },
       "ai_used": null
@@ -473,14 +473,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-30T00:02:08Z",
         "last_commit_url": "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/commit/3b0c36d3fbfeb0b5d2c47923f35cf84b31edcbf7",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 529
+        "github_stars": 532
       },
       "ai_used": null
     },
@@ -494,12 +494,12 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-05-30T05:04:00Z",
         "last_commit_url": "https://github.com/Erick194/DOOM64-RE/commit/6931e678a0b2958be1b49598f2fe60712c6596e1",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 237
       },
@@ -515,12 +515,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-19T20:04:26Z",
         "last_commit_url": "https://github.com/adipocira/doraemon1/commit/675b5540eb4cc3591b63904642eb82376a427a10",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 9
       },
@@ -536,12 +536,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-16T17:56:24Z",
         "last_commit_url": "https://github.com/zeldaret/af/commit/4ddba04604ee7b4c4cfc0b64f8ee4d094bb385be",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 302
       },
@@ -557,12 +557,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-13T23:21:13Z",
         "last_commit_url": "https://github.com/AngheloAlf/drmario64/commit/b5526094c4b699c1718ebec510acc31ccafd4b47",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 81
       },
@@ -578,14 +578,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-12-18T04:46:41Z",
         "last_commit_url": "https://github.com/theboy181/drmario64_recomp_plus/commit/af91e3bf56b1ffc329ff4327fdc2380515463de7",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 154
+        "github_stars": 155
       },
       "ai_used": null
     },
@@ -599,12 +599,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-08-04T16:02:49Z",
         "last_commit_url": "https://github.com/NBlood/Duke64-RE/commit/7ec429c4ba37245da5a5671a019e911b22ff318c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 19
       },
@@ -620,12 +620,12 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-11-06T10:14:24Z",
         "last_commit_url": "https://github.com/Gillou68310/DukeNukemZeroHour/commit/beca47137e63a2da6999ef9a7974dba16cd6f82b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 277
       },
@@ -641,13 +641,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "last_commit_at": "2026-09-25T21:34:07Z",
         "last_commit_url": "https://gitlab.com/sonicdcer/ExtremeGRecomp/-/commit/30f36ea96144f679d6f8bd375ce498b54cadff03",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "github_stars": null
       },
       "ai_used": null
@@ -662,12 +662,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-17T14:56:50Z",
         "last_commit_url": "https://github.com/inspectredc/fzerox/commit/4b00f36ceeabfe657866a7d02f3411545b5f55eb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 109
       },
@@ -683,14 +683,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-17T22:23:20Z",
-        "last_commit_url": "https://github.com/Zorkats/G-Diffuser/commit/bf1f367b51f8eb9c834519eb152b9a98f151a1dc",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-22T03:38:31Z",
+        "last_commit_url": "https://github.com/Zorkats/G-Diffuser/commit/90612506fb171d6b438cecb0872c53a2d5bdad7d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 293
+        "github_stars": 292
       },
       "ai_used": null
     },
@@ -704,12 +704,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-01-06T15:42:50Z",
         "last_commit_url": "https://github.com/inspectredc/fzerox-expansion-kit/commit/80599932af86c4421e2b1d5a19b88af9303cb77d",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 31
       },
@@ -725,12 +725,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-30T07:19:43Z",
         "last_commit_url": "https://github.com/Drahsid/gauntlet-legends/commit/ab64e91062ae872fe7208dd362033e4328d31bfb",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 29
       },
@@ -746,12 +746,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-03T02:38:33Z",
         "last_commit_url": "https://github.com/MatBourgon/Gex64Decomp/commit/7f48432de8cad85db6d777397a9cb41005f82250",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 28
       },
@@ -767,12 +767,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-07-28T09:54:58Z",
         "last_commit_url": "https://github.com/Rainchus/Glover/commit/f2d2b2824e29a5d9b00718a283a3cb243be3ca52",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 12
       },
@@ -788,8 +788,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-12T13:00:08Z",
         "last_commit_url": "https://github.com/StopSine/gga/commit/a51a0e69d26b0d06373a209d560a280d01c2b4a1",
         "default_branch": "main",
@@ -812,14 +812,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-17T17:48:42Z",
         "last_commit_url": "https://github.com/n64decomp/007/commit/c4356466796c697dfd298010b9bed261f9ed8c6a",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 803
+        "github_stars": 804
       },
       "ai_used": null
     },
@@ -833,12 +833,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-14T22:54:55Z",
         "last_commit_url": "https://github.com/harvestwhisperer/hm64-decomp/commit/9824b8810fe97c3cf4d37ec887e02f968c6462fb",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 224
       },
@@ -854,12 +854,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-25T20:53:33Z",
         "last_commit_url": "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/commit/ddd991cf5d5d0d79ff80b893600248d6ea73cf2e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 172
       },
@@ -875,12 +875,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-02T18:49:45Z",
         "last_commit_url": "https://github.com/Ryan-Myers/Jet-Force-Gemini/commit/efd5abb1c79636e297b831f7c2d5bf47eac39c0c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 56
       },
@@ -896,12 +896,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-13T18:21:09Z",
         "last_commit_url": "https://github.com/Kirby64Ret/kirby64/commit/0ff486772fc5fee31756e3a1121b3d2d1057e1d2",
         "archived": false,
         "default_branch": "splat",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 235
       },
@@ -917,12 +917,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-01-05T01:22:37Z",
         "last_commit_url": "https://github.com/marijnvdwerf/lego-racers/commit/f91fecc0d9b9664c06842778ac1ec5fde9313216",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 8
       },
@@ -938,12 +938,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-06-29T20:46:27Z",
         "last_commit_url": "https://github.com/monde-lointain/mariogolf64/commit/5014056b8ac5c26178e299bbdaede70c0d318910",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 24
       },
@@ -959,12 +959,12 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-12T03:18:46Z",
         "last_commit_url": "https://github.com/n64decomp/mk64/commit/58cfcb022e10f83bc3b889d7e97508cae6837098",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 1315
       },
@@ -980,12 +980,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-06-28T16:57:50Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty/commit/26dca4f3cf2dab1839bc1de3579b7227b65b9ee6",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 82
       },
@@ -1001,12 +1001,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-26T19:40:58Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty2/commit/020a95ae0021a5d6d4e39cf98628cb86faba129a",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 53
       },
@@ -1022,14 +1022,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-17T19:05:59Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty3/commit/73f7fd83bdad6679becd80cf34141407238c6bc3",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 72
+        "github_stars": 73
       },
       "ai_used": null
     },
@@ -1043,12 +1043,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-04-05T03:12:10Z",
         "last_commit_url": "https://github.com/DellM-79/MarioTennisN64/commit/0fc88dc5f71f388e6d1bd69c8e6a8e5face7bf9e",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 12
       },
@@ -1064,12 +1064,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-09T23:56:00Z",
         "last_commit_url": "https://github.com/Drahsid/mischief-makers/commit/ccecff346f31f02aaa460b22705a6f18d38f4d56",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 72
       },
@@ -1085,12 +1085,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-09T22:28:01Z",
         "last_commit_url": "https://github.com/klorfmorf/mnsg/commit/7e2029c5c7beca705e7ded2c8fa85a5a21d1c3ee",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 11
       },
@@ -1106,14 +1106,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-19T19:36:05Z",
         "last_commit_url": "https://github.com/klorfmorf/Goemon64Recomp/commit/6661abc439327b9ed9e235c391720f9034f61a78",
         "default_branch": "dev",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 324
+        "github_stars": 326
       },
       "ai_used": null
     },
@@ -1127,12 +1127,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-07-13T17:51:08Z",
         "last_commit_url": "https://github.com/farisawan-2000/evangelion/commit/66fb87879fa314ca9b5caba24d9aadea27e984ba",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 38
       },
@@ -1148,12 +1148,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-11-20T16:02:17Z",
         "last_commit_url": "https://github.com/Ryan-Myers/onegaimonsters/commit/8c70d0820439cac8a7d937284b6afcda46536717",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 3
       },
@@ -1169,14 +1169,14 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-26T13:43:09Z",
         "last_commit_url": "https://github.com/pmret/papermario/commit/1104f1f71b824042a5fa1f958f2d861b603320fd",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 1637
+        "github_stars": 1638
       },
       "ai_used": null
     },
@@ -1190,14 +1190,14 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-03-14T23:33:59Z",
         "last_commit_url": "https://github.com/n64decomp/perfect_dark/commit/169ed48bdcbfb3b568b028bd5bebb27680073514",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
-        "github_stars": 875
+        "github_stars": 874
       },
       "ai_used": null
     },
@@ -1211,14 +1211,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-13T05:51:05Z",
         "last_commit_url": "https://github.com/perfect-dark-pc-port/perfect_dark/commit/32a1cb9f268dd3ac73016801025c6bbbfa20130f",
         "default_branch": "port",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 2068
+        "github_stars": 2072
       },
       "ai_used": null
     },
@@ -1232,12 +1232,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T21:50:40Z",
         "last_commit_url": "https://github.com/AngheloAlf/puzzleleague64/commit/25e8127337b021964a4f7dc7e2baea318736ba03",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 42
       },
@@ -1253,12 +1253,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-14T15:47:09Z",
         "last_commit_url": "https://github.com/ethteck/pokemonsnap/commit/df8815e75f3d79618466e01e0827c6165b93d11c",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 112
       },
@@ -1274,12 +1274,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-03T16:08:48Z",
         "last_commit_url": "https://github.com/pret/pokestadium/commit/6995f32445e344c03f9b0c774eabcd157559f867",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 213
       },
@@ -1295,12 +1295,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-07-10T15:49:56Z",
         "last_commit_url": "https://github.com/pret/pokestadiumgs/commit/c0e10f23d90cc4f335b654711f13e53c2c07323b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 60
       },
@@ -1316,12 +1316,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-02-03T01:48:35Z",
         "last_commit_url": "https://github.com/Rainchus/Quest64-Decomp/commit/d964ce0f1be3f5e7789e6cc97c4878a9529f6aac",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 18
       },
@@ -1337,12 +1337,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-29T01:15:22Z",
         "last_commit_url": "https://github.com/Rainchus/Quest64-Recomp/commit/ea94271a3ed1101628bfdac95e9966b31bd25f39",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 281
       },
@@ -1358,12 +1358,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2023-01-15T20:41:51Z",
         "last_commit_url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels/commit/cd1fc6d3f575841a240373d7b8a2baf532da2f9f",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 46
       },
@@ -1379,12 +1379,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2023-05-18T04:34:46Z",
         "last_commit_url": "https://github.com/Rainchus/ShadowGate64/commit/022f96c4cfd46c530fc4c07d4d47c59cb0c34f07",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 7
       },
@@ -1400,14 +1400,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T03:47:39Z",
         "last_commit_url": "https://github.com/cdlewis/snowboardkids2-decomp/commit/0325e25a327a2739c764d0614faf6908f8b2d949",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 196
+        "github_stars": 195
       },
       "ai_used": null
     },
@@ -1421,12 +1421,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-10T20:18:46Z",
         "last_commit_url": "https://github.com/mkst/sssv/commit/8bff37d73ce5909737f35f1abf2b5f1d1094e76f",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 66
       },
@@ -1442,12 +1442,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-26T09:36:24Z",
         "last_commit_url": "https://github.com/Cellenseres/SSSV_Recomp/commit/a4dbfe40e205bd804c76db62227e94f6d5858a9b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 104
       },
@@ -1463,12 +1463,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-28T18:33:04Z",
         "last_commit_url": "https://github.com/sonicdcer/sf64/commit/4235c59f00b04440e3fd5fec49f0bc80e48cf212",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 355
       },
@@ -1484,14 +1484,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-02-10T19:39:16Z",
         "last_commit_url": "https://github.com/EltaleLibrarian/SotE/commit/510851c571a24f947aec1f3e7b2ad10cc72403f0",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -1505,14 +1505,14 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2023-08-17T13:21:59Z",
         "last_commit_url": "https://github.com/n64decomp/sm64/commit/9921382a68bb0c865e5e45eb594d9c64db59b1af",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
-        "github_stars": 8907
+        "github_stars": 8914
       },
       "ai_used": null
     },
@@ -1526,14 +1526,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-11-15T00:58:49Z",
         "last_commit_url": "https://github.com/sm64-port/sm64-port/commit/2b17d081c9798b31b91dc71f37994b0da28cffc9",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
-        "github_stars": 1323
+        "github_stars": 1324
       },
       "ai_used": null
     },
@@ -1547,14 +1547,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-06-01T01:13:57Z",
         "last_commit_url": "https://github.com/coop-deluxe/sm64coopdx/commit/8cd6e5977d9f920d51ca71f2c61801d019ed79c6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 1471
+        "github_stars": 1473
       },
       "ai_used": null
     },
@@ -1568,12 +1568,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-11T03:35:11Z",
         "last_commit_url": "https://github.com/MorsGames/sm64plus/commit/44fccee2fc4bd4768ae4eff1e5c47b21abe5d85d",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 645
       },
@@ -1589,14 +1589,14 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T21:20:00Z",
         "last_commit_url": "https://github.com/VetriTheRetri/ssb-decomp-re/commit/572a747d8171137718fad472c5d7473dc7309ffd",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 270
+        "github_stars": 271
       },
       "ai_used": null
     },
@@ -1610,12 +1610,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2021-04-17T22:53:26Z",
         "last_commit_url": "https://github.com/farisawan-2000/superman/commit/c8adc82a770b2975efe8c6eeab4894e986ab7d4f",
         "archived": false,
         "default_branch": "beta",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 22
       },
@@ -1631,14 +1631,14 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-18T12:31:57Z",
         "last_commit_url": "https://github.com/zeldaret/oot/commit/14759abf9abb4295de142cdc1452998630ea70fb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 5615
+        "github_stars": 5616
       },
       "ai_used": null
     },
@@ -1652,14 +1652,14 @@
       "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T01:33:26Z",
         "last_commit_url": "https://github.com/zeldaret/mm/commit/710e1a7d50a1f987f5fc55abca37f7fdcc8ee43d",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 1755
+        "github_stars": 1756
       },
       "ai_used": null
     },
@@ -1673,14 +1673,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-25T17:45:11Z",
         "last_commit_url": "https://github.com/Zelda64Recomp/Zelda64Recomp/commit/b65c482ed672258eb684ab94a4e8c8aa662615ee",
         "default_branch": "dev",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 7493
+        "github_stars": 7498
       },
       "ai_used": null
     },
@@ -1694,12 +1694,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-01-23T03:15:03Z",
         "last_commit_url": "https://github.com/KiritoDv/tnt/commit/a8e40a2e86f96b54eb534c8625577ca1d8faff58",
         "archived": true,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 6
       },
@@ -1715,12 +1715,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2023-12-04T02:54:20Z",
         "last_commit_url": "https://github.com/Drahsid/turok3/commit/1053f64c26293a153e1e3f296aa4a623a32921c9",
         "archived": true,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 26
       },
@@ -1736,12 +1736,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2022-10-29T20:49:44Z",
         "last_commit_url": "https://github.com/LLONSIT/VirtualPool64/commit/a021756c35e3b42aaa0406aa96833cf1643a882e",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 8
       },
@@ -1757,12 +1757,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-26T01:28:41Z",
         "last_commit_url": "https://github.com/AKI-Club/vpw2/commit/f3900db987e5777ec231e5c921af47b094464a93",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 29
       },
@@ -1778,12 +1778,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-26T02:48:12Z",
         "last_commit_url": "https://github.com/LLONSIT/Wave-Race-64/commit/e00a55f87cb410d6b431807bd2d08594b10e550e",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 111
       },
@@ -1799,12 +1799,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-19T16:22:24Z",
         "last_commit_url": "https://github.com/decompals/yoshis-story/commit/82e891eea6c523684e1e1a43f0229a243858cf84",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 82
       },
@@ -1820,14 +1820,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-17T17:12:01Z",
         "last_commit_url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp/commit/ce3634ad4be6ee5666dec2cd0bbcc35c4571bf29",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 79
+        "github_stars": 81
       },
       "ai_used": null
     },
@@ -1841,12 +1841,12 @@
       "completion_status": "Withdrawn",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-29T06:16:52Z",
         "last_commit_url": "https://github.com/riseio/project-bumble/commit/1c6c4d025183b209e6762752e570fcd4bd7179f3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 37
       },
@@ -1862,12 +1862,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-15T05:39:33Z",
-        "last_commit_url": "https://github.com/alondero/aerogauge-recomp/commit/987c3de7bb670e06a9866675fb8fa0413513b54c",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-21T13:18:32Z",
+        "last_commit_url": "https://github.com/alondero/aerogauge-recomp/commit/d4408065e88ab089f2c3e934370353e638f06e22",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 41
       },
@@ -1883,14 +1883,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-19T21:07:40Z",
         "last_commit_url": "https://github.com/SlaveOfIDO/blastcorps/commit/7245ac9bcb2e75e09548882f5f1c330016cd513a",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 11
+        "github_stars": 13
       },
       "ai_used": null
     },
@@ -1904,12 +1904,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-19T20:37:00Z",
-        "last_commit_url": "https://github.com/jaytheham/body-harvest-decompilation/commit/df6a70dccc3388eaecf15852addf7bab25403d23",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-21T18:44:52Z",
+        "last_commit_url": "https://github.com/jaytheham/body-harvest-decompilation/commit/7064b30f01f8590c02cda64b00db3c3e1e5b5480",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 46
       },
@@ -1925,12 +1925,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-07-26T05:29:20Z",
         "last_commit_url": "https://github.com/jvicu2001/rr64-decomp/commit/9596f54b06b0b2958f5a634010169b8eb0e800f1",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 5
       },
@@ -1946,12 +1946,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T02:30:21Z",
         "last_commit_url": "https://github.com/Tmcg2/rogue_squadron64/commit/6b5f59ea7d9a82a89c13b537ba7630d1b2cdf395",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 20
       },
@@ -1967,12 +1967,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-03T20:27:46Z",
         "last_commit_url": "https://github.com/LLONSIT-glitch/wonder/commit/ec8ad7fe9796953b749318f57211664fed845bd1",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 8
       },
@@ -1988,12 +1988,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T23:13:21Z",
         "last_commit_url": "https://github.com/synamaxmusic/bar-decomp/commit/bd312023654ed73596026fee93128f1939cc3a17",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 18
       },
@@ -2009,12 +2009,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-21T00:33:01Z",
-        "last_commit_url": "https://github.com/DevOldSchool/conkers-bfd-decomp/commit/d7d64d4a5e46313868c45fb8431e6736d224a2fe",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-22T08:27:21Z",
+        "last_commit_url": "https://github.com/DevOldSchool/conkers-bfd-decomp/commit/bbc3724b647e754787689f50c6c06ed65fedc894",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 32
       },
@@ -2030,14 +2030,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-20T13:55:56Z",
-        "last_commit_url": "https://github.com/ThatGuyMcd/DKR-R/commit/34ed57ae97ef46759e5b23aa8d7a1e7ec89f3f56",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-21T19:43:14Z",
+        "last_commit_url": "https://github.com/ThatGuyMcd/DKR-R/commit/bb19a35f7169b54accf53411d17b6c26ad709a7d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 230
+        "github_stars": 233
       },
       "ai_used": null
     },
@@ -2051,12 +2051,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-14T22:16:29Z",
         "last_commit_url": "https://github.com/lfarroco/ogre-battle-64-recomp/commit/64291791b1081dcce6c5387f91f54e647f1a53c3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 78
       },
@@ -2072,14 +2072,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T00:54:35Z",
         "last_commit_url": "https://github.com/DabDavis/perfect-dark-dabs-mod/commit/cc90f3635adb570352c55a7ca73ce7198a10769e",
         "default_branch": "dabs-mod",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 191
+        "github_stars": 193
       },
       "ai_used": null
     },
@@ -2093,14 +2093,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-17T21:05:57Z",
-        "last_commit_url": "https://github.com/JackandBeans/Snap64Recomp/commit/cf53b89272b9db19059dd97eed2690ea1dd94844",
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-21T16:55:47Z",
+        "last_commit_url": "https://github.com/JackandBeans/Snap64Recomp/commit/edfaca40af1b8494b52cd616934474085dfa8deb",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 118
+        "github_stars": 119
       },
       "ai_used": null
     },
@@ -2114,12 +2114,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-10-20T13:30:24Z",
         "last_commit_url": "https://github.com/sonicdcer/sk/commit/16fbf1f1c4a72a84dd821974adfdb5e67d4aeec6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 5
       },
@@ -2135,12 +2135,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-07T22:43:32Z",
         "last_commit_url": "https://github.com/elliotttate/wave-race-64-recomp/commit/9041cc8024f6d2015859f88f5a0307b36cd4e50a",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 170
       },
@@ -2156,14 +2156,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-18T14:50:50Z",
         "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx/commit/aa02fdd605a5a46a600472a681184d191f48361f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 5
+        "github_stars": 6
       },
       "ai_used": null
     },
@@ -2177,14 +2177,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-15T18:32:00Z",
         "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault/commit/82babe4beaa761f7806b5b41437eb197292f76d3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 6
+        "github_stars": 7
       },
       "ai_used": null
     },
@@ -2198,14 +2198,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-15T18:53:20Z",
         "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/commit/3c074c3bd9e20e81c32a37b588a70ecd2073e128",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -2219,13 +2219,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 1,
-        "checked_at": "2026-10-21T08:50:56Z",
+        "github_stars": 2,
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T23:23:12Z",
         "last_commit_url": "https://github.com/mschienbein/shiren2-decomp/commit/2a2afbba5c42ff6afce866ab0fd6abef5bc2fbf6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active"
       },
       "ai_used": null
@@ -2240,13 +2240,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 2,
-        "checked_at": "2026-10-21T08:50:56Z",
-        "last_commit_at": "2026-10-21T03:49:40Z",
-        "last_commit_url": "https://github.com/southcitycapture/hybridheaven-decomp/commit/423c149b4e618af965ba146cc8be654d260783d8",
+        "github_stars": 3,
+        "checked_at": "2026-10-22T08:53:56Z",
+        "last_commit_at": "2026-10-21T19:31:11Z",
+        "last_commit_url": "https://github.com/southcitycapture/hybridheaven-decomp/commit/5505987c4b92e0b8c2e5f95849fafbaa4567b259",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active"
       },
       "ai_used": null
@@ -2262,12 +2262,12 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 5,
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-27T11:51:17Z",
         "last_commit_url": "https://github.com/marijnvdwerf/paperboy-n64/commit/439f9883fc4c11ffde3de37876bd69a958307220",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active"
       },
       "ai_used": null
@@ -2283,12 +2283,12 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 24,
-        "checked_at": "2026-10-21T08:50:56Z",
+        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-16T16:43:31Z",
         "last_commit_url": "https://github.com/n0madic/StarCraft64-recomp/commit/425f409e02edacf897354cd0872c61ce67a9067a",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-21T08:50:56Z",
+        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active"
       },
       "ai_used": null
