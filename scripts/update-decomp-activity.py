@@ -221,7 +221,6 @@ def refresh(data, client, now, limit=None, selected=None, github_graphql=False):
                     cache[identity] = error
         result = cache[identity]
         activity = project.setdefault('activity', {})
-        activity['checked_at'] = iso(now)
         if isinstance(result, Exception):
             failures += 1
             activity['check_error'] = str(result)
@@ -233,7 +232,6 @@ def refresh(data, client, now, limit=None, selected=None, github_graphql=False):
                 break
         else:
             activity.update(result)
-            activity['last_success_at'] = iso(now)
             activity['status'] = activity_status(result['last_commit_at'], result['archived'], now)
             activity.pop('check_error', None)
     return attempts, failures

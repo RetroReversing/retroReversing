@@ -43,6 +43,7 @@ jobs:
           title: Refresh decompilation activity and GitHub stars
           body: |
             Refresh repository activity and GitHub star counts from the daily scheduled job.
+            Check timestamps are not stored; unchanged repository data produces no catalog changes.
             Manual completion figures, AI-use values, and table content are preserved.
             Failed checks retain their previous evidence; see the workflow log for details.
             Validation: updater/catalog unit tests.

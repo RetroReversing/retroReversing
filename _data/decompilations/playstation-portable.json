@@ -11,12 +11,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T05:29:02Z",
         "last_commit_url": "https://github.com/tclamb/mhp2g-decomp/commit/395c16d02c72488a2ead4e0e0b94af2df330a521",
         "default_branch": "development",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 33
       },

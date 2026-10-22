@@ -11,12 +11,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T14:04:39Z",
         "last_commit_url": "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/commit/0a53327a6876d2c404406ac74fe11ac6a3333a99",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 933
       },
@@ -32,12 +30,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-06T19:42:25Z",
         "last_commit_url": "https://github.com/aboood40091/red-pro2/commit/1cf3b5d1a9d66fb257f318348d8f0fa2e641fde0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 46
       },
@@ -53,12 +49,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-04-15T05:55:41Z",
         "last_commit_url": "https://github.com/Radfordhound/OpenLW/commit/73ea9a66d3e76057259821b4019b4811ffd1e770",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 20
       },
@@ -74,12 +68,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2024-12-18T18:50:37Z",
         "last_commit_url": "https://github.com/Dexx-io/Splatoon-Decomp/commit/9ef403d96f1a370bdd70434ce158a0c29879bfcf",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 17
       },
@@ -95,12 +87,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2025-01-04T19:04:53Z",
         "last_commit_url": "https://github.com/Swiftshine/yww/commit/23d1c1c47fa314e3d1ae7bf9cd3a213dd925e512",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 8
       },
