@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64BootCode.md
-updatedAt: '2019-10-27'
+updatedAt: '2026-10-22'
 ---
 
 # Introduction to Nintendo 64 Bootcode
@@ -60,6 +60,14 @@ Basically it all boils down to initialization of the different chips (CP0, RCP, 
 One reason is for security and to prevent backup devices being used, for example the `CIC-NUS-6103` and `CIC-NUS-6106` change the RAM entry point for the game [^5].
 
 Currently more analysis is needed to compare the different bootcodes and figure out why the differences were required and how similar they are. Comment below if you have any information that might be of use.
+
+---
+## Identifying the CIC and checking a ROM
+The MD5 table above identifies an IPL3 boot-code variant by its bytes. It does not check whether the rest of the cartridge image still has valid header checksums. A conventional ROM stores the header at `0x0000`-`0x003F` and IPL3 at `0x0040`-`0x0FFF`. The CIC-specific checksum covers the next MiB, from `0x1000` through `0x100FFF` [^6].
+
+For a modified ROM, first confirm its byte order and CIC variant. Then compare its calculated checksums with the values stored in the header. [ipl3checksum](https://github.com/Decompollaborate/ipl3checksum) can detect supported CIC variants, check the stored values, and calculate replacements. Its detector can also return no result, so an unknown boot code needs separate investigation rather than an assumed 6102 checksum [^6].
+
+This distinction matters when diagnosing a ROM that rebuilds byte-for-byte except for its header: the IPL3 hash identifies the bootstrap, while the header checksum depends on game data and the selected CIC algorithm. Our [N64 reversing introduction](/N64Reversing) explains how to normalise dump byte order before hashing or comparing a ROM.
 
 ---
 # Pseudo C-code
@@ -1002,3 +1010,4 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 [^3]: Talcardo Jirones in the comment sections of this page
 [^4]: [Micro-64](http://micro-64.com/database/gamecic.shtml)
 [^5]: [ROM - en64 wiki](http://en64.shoutwiki.com/wiki/ROM)
+[^6]: [ipl3checksum](https://github.com/Decompollaborate/ipl3checksum), CIC detection, IPL3 location, checksum range, and ROM checksum checking.
