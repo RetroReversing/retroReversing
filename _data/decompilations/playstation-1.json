@@ -1716,6 +1716,2324 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "ace-combat-3": {
+      "name": "Ace Combat 3",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/sal063/Ace-Combat-3-static-recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T22:15:47Z",
+        "last_commit_url": "https://github.com/sal063/Ace-Combat-3-static-recompilation/commit/0dfb14971b6a5f0f001f02dcc810e6ec6c0065a5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "ace-combat-3-electrosphere": {
+      "name": "Ace Combat 3: Electrosphere",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:20:52Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp/commit/8e0cc8ae035d0b31419da7013bb66678b013a851",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "alexbeav-s-ps1-recomps-psxrecomp-ports": {
+      "name": "Alexbeav's PS1 recomps (psxrecomp-ports)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/psxrecomp-ports",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T20:47:13Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/psxrecomp-ports/commit/0c288c08dc03b8583e4a5a896a6b384c7ab0b8d9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 113
+      },
+      "ai_used": null
+    },
+    "alien-resurrection": {
+      "name": "Alien Resurrection",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Heromachine/AlienResurrection-Recompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T03:41:10Z",
+        "last_commit_url": "https://github.com/Heromachine/AlienResurrection-Recompilation/commit/9244c8c3526cef4f6af97f5403f7e534c70441db",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "alien-resurrection-recomp": {
+      "name": "Alien Resurrection (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T15:01:45Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp/commit/38ac885663ca130ae39e05eb5fe2d6ad3ba4e68c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "alone-in-the-dark-the-new-nightmare": {
+      "name": "Alone in the Dark: The New Nightmare",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:20:41Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp/commit/170f9044f4468efd731db7fa22f2734e9d895b07",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "alundra": {
+      "name": "Alundra",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/alundra-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:21:48Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/alundra-recomp/commit/380212895a9e2cc8ba1bf2bb4b5fce549d088b8c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "another-mind": {
+      "name": "Another Mind",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/halkuncode/anothermind-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T01:52:37Z",
+        "last_commit_url": "https://github.com/halkuncode/anothermind-decomp/commit/6dd5e402d599d2bdddd06b589669defa16d7e88e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "ape-escape": {
+      "name": "Ape Escape",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T17:19:08Z",
+        "last_commit_url": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux/commit/95398d212b0b263a3132cecc8ad253533e61496d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "apocalypse": {
+      "name": "Apocalypse",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/apocalypse-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:15:53Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/apocalypse-recomp/commit/1a601dcbfd460a36048fc3d6721dbc98c0223b2d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "apocalypse-project-repocalypse": {
+      "name": "Apocalypse (Project Repocalypse)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T08:52:31Z",
+        "last_commit_url": "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/commit/f63dbd5ee8ef0dca6caf7ba1891fb4b7519a2838",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "armored-core-playstation-1": {
+      "name": "Armored Core",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Armored-Core-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-13T23:44:08Z",
+        "last_commit_url": "https://github.com/omegakatana92/Armored-Core-Recomp/commit/de2d2dcdf1da13cf2b2e4c82fbe7ec9b851720db",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "battle-arena-toshinden-battle-arena-toshinden-recompiled": {
+      "name": "Battle Arena Toshinden (Battle Arena Toshinden Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mstan/BattleArenaToshindenRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T19:33:34Z",
+        "last_commit_url": "https://github.com/mstan/BattleArenaToshindenRecomp/commit/cadc96f1b681c8cde5e3b144aa7a67f109ae05d5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "bomberman-fantasy-race-bomberman-fantasy-race-recompiled": {
+      "name": "Bomberman Fantasy Race (Bomberman Fantasy Race Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T21:01:23Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp/commit/188c4279df97b266d142156695e44d94006d8398",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "bomberman-party-edition-bomberman-party-edition-recomp": {
+      "name": "Bomberman Party Edition (Bomberman Party Edition Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp/commit/9834a8955615313148ec6d5119ad0868806d41d4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "bomberman-world-bomberman-world-recompiled": {
+      "name": "Bomberman World (Bomberman World Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Bomberman-World-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Bomberman-World-Recomp/commit/284ab8680c4fc765bd3478cd7db60dbb78a1dba2",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "brave-fencer-musashi-playstation-1": {
+      "name": "Brave Fencer Musashi",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T15:31:15Z",
+        "last_commit_url": "https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port/commit/ad71556b44506599fb08e654e28651d81eba7206",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "breath-of-fire-iii": {
+      "name": "Breath of Fire III",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/loopyd/bof3-decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:21:21Z",
+        "last_commit_url": "https://github.com/loopyd/bof3-decompilation/commit/20b8428a7541542e56d23d861e7dd54430882b23",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "breath-of-fire-iii-breath-of-fire-iii-pc-port": {
+      "name": "Breath of Fire III (Breath of Fire III - PC Port)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/kerokline/BreathOfFire3PCPort",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:59:04Z",
+        "last_commit_url": "https://github.com/kerokline/BreathOfFire3PCPort/commit/19880aa6c86f9bca8bb22afd416a47894904fa47",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "breath-of-fire-iii-recomp": {
+      "name": "Breath of Fire III (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/kerokline/BreathOfFire3Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-19T22:15:39Z",
+        "last_commit_url": "https://github.com/kerokline/BreathOfFire3Recomp/commit/9cce20e0244e879300b1dc1837c0ab1b0772a91b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "bugs-bunny-lost-in-time": {
+      "name": "Bugs Bunny: Lost in Time!",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/quantumdude836/BugsDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-04-04T20:45:23Z",
+        "last_commit_url": "https://github.com/quantumdude836/BugsDecomp/commit/0dd943b8b8ed2148faebd52dbca4fde9d5a16954",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "castlevania-symphony-of-the-night-nocturnerecomp": {
+      "name": "Castlevania: Symphony of the Night (NocturneRecomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/birabittoh/NocturneRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-27T16:30:26Z",
+        "last_commit_url": "https://github.com/birabittoh/NocturneRecomp/commit/5390d5ec91d4b0d0c87a6db35ea351343d04cd91",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 381
+      },
+      "ai_used": null
+    },
+    "colin-mcrae-rally-2-0": {
+      "name": "Colin McRae Rally 2.0",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/CMR2Decomp/CMR2Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-15T18:49:45Z",
+        "last_commit_url": "https://github.com/CMR2Decomp/CMR2Decomp/commit/0e18a20853a80f4177e6c7da30b94b60f65ae2ba",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 42
+      },
+      "ai_used": null
+    },
+    "crash-bandicoot-3-warped": {
+      "name": "Crash Bandicoot 3: Warped",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:17:10Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp/commit/4f28550188177c1699065f0d00d5f82a5ed61e78",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "crash-bash": {
+      "name": "Crash Bash",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mateusfavarin/crashbash",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-05-17T00:01:45Z",
+        "last_commit_url": "https://github.com/mateusfavarin/crashbash/commit/2d2feb98ac0ef2e18587350d86ac74897b5b28f8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "crash-team-racing-playstation-1": {
+      "name": "Crash Team Racing",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/NyperYuhgard/CTR-PC-Port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-03T23:23:12Z",
+        "last_commit_url": "https://github.com/NyperYuhgard/CTR-PC-Port/commit/09949b6548aac237b1266db744e66fd0f45776f5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "dance-dance-revolution-1st-mix": {
+      "name": "Dance Dance Revolution 1st Mix",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/bmbelo87/ddr-1st-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-15T18:52:53Z",
+        "last_commit_url": "https://github.com/bmbelo87/ddr-1st-recomp/commit/395aa9ff8b8d3ce0f58995749f01662be3cfa8b6",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "diablo-playstation-1": {
+      "name": "Diablo",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/diablo-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T15:01:47Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/diablo-recomp/commit/1e71257166f6a2c0e087f7a36e0e3bde984132d4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "die-hard-trilogy": {
+      "name": "Die Hard Trilogy",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/die-hard-trilogy-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:20:59Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/die-hard-trilogy-recomp/commit/395cd80ccfabe0bb28b11edc412ea179be9eb3ca",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "digimon-world-2-playstation-1": {
+      "name": "Digimon World 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Wyrelade/DW2-PC",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T20:45:59Z",
+        "last_commit_url": "https://github.com/Wyrelade/DW2-PC/commit/1dbb32a0332a78d5e9afbe4d26c62d86cc5e3f76",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "digimon-world-2003": {
+      "name": "Digimon World 2003",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/digimon-world-2003-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:21:55Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/digimon-world-2003-recomp/commit/465c35387143c51d60690d831d52698b0676a759",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "digimon-world-2003-playstation-1": {
+      "name": "Digimon World 2003",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/gascarcella/dw2003recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T02:29:37Z",
+        "last_commit_url": "https://github.com/gascarcella/dw2003recomp/commit/a2b8d3d7459dee97badabbea6accf3052e00496b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "digimon-world-3-d-w-3-recomp": {
+      "name": "Digimon World 3 (D-W-3-Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Xive080/D-W-3-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-14T20:41:57Z",
+        "last_commit_url": "https://github.com/Xive080/D-W-3-Recomp/commit/43650ce5f3e3448a670361f456fdb453d21e0b29",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "digimon-world-3-2003": {
+      "name": "Digimon World 3(2003)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ReGame-Labs/dw3_decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T03:16:37Z",
+        "last_commit_url": "https://github.com/ReGame-Labs/dw3_decomp/commit/791932b757b358bb8228f851ce96f4d22ae112dd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "dino-crisis": {
+      "name": "Dino Crisis",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:17:05Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp/commit/13563ec9c0ed7be37155cff9d163c9e5b610ff42",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "dino-crisis-2-playstation-1": {
+      "name": "Dino Crisis 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:16:59Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-2-recomp/commit/58d461b517b34f0c9fff04847650e0178dae9d3b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "doom-psydoom": {
+      "name": "Doom (PsyDoom)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/BodbDearg/PsyDoom",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-06-13T06:03:59Z",
+        "last_commit_url": "https://github.com/BodbDearg/PsyDoom/commit/2c50690b6e0ae26cbb83ad9039d24748f76275f8",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 547
+      },
+      "ai_used": null
+    },
+    "dragon-ball-gt-final-bout": {
+      "name": "Dragon Ball GT: Final Bout",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T23:36:29Z",
+        "last_commit_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/commit/5646617ee9339836f12a947cceb849ee07c1bad9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "einhander": {
+      "name": "Einhänder",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/strider973/Einhander-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-29T11:39:30Z",
+        "last_commit_url": "https://github.com/strider973/Einhander-Recompiled/commit/607c5c827caf3bc2a2fd7cd2ec00ba8e825eb9f8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 91
+      },
+      "ai_used": null
+    },
+    "final-fantasy-ix": {
+      "name": "Final Fantasy IX",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:16:42Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp/commit/cd5aa0e2567049bc2f30a493edc8f19015522c08",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "final-fantasy-tactics": {
+      "name": "Final Fantasy Tactics",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/NJH-1001/FinFanTacRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-03T18:28:09Z",
+        "last_commit_url": "https://github.com/NJH-1001/FinFanTacRecomp/commit/ec6a28e8669b6dc1dbf40ebb80ba8db2cff9e0b5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "final-fantasy-tactics-fft-decomp": {
+      "name": "Final Fantasy Tactics (fft_decomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/adamrt/fft_decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:13:04Z",
+        "last_commit_url": "https://github.com/adamrt/fft_decomp/commit/11464943bbdbd2a0af022d90cb7f10455cf911df",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-playstation-1": {
+      "name": "Final Fantasy VII",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ficed/Braver",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-12-04T19:43:07Z",
+        "last_commit_url": "https://github.com/ficed/Braver/commit/6cff433479925def0a5f3811232db56798625c4b",
+        "default_branch": "release",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-ff7-coaster": {
+      "name": "Final Fantasy VII (ff7-coaster)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ergonomy-joe/ff7-coaster",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-25T08:14:27Z",
+        "last_commit_url": "https://github.com/ergonomy-joe/ff7-coaster/commit/825f4baf194d0a8fbed372be68eb56acf32a967c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-ff7-worldmap": {
+      "name": "Final Fantasy VII (ff7-worldmap)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ergonomy-joe/ff7-worldmap",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-06T05:12:31Z",
+        "last_commit_url": "https://github.com/ergonomy-joe/ff7-worldmap/commit/bc7576e68b118e776ccefecfbc982a702a7f9e0f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-ffvii": {
+      "name": "Final Fantasy VII (ffvii)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Drahsid/ffvii",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-11-27T11:07:53Z",
+        "last_commit_url": "https://github.com/Drahsid/ffvii/commit/432306639e67479cf9cb5ef52e10e395d156354e",
+        "default_branch": "master",
+        "archived": true,
+        "status": "Inactive",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-q-gears-reverse": {
+      "name": "Final Fantasy VII (q-gears_reverse)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Akari1982/q-gears_reverse",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-24T13:39:02Z",
+        "last_commit_url": "https://github.com/Akari1982/q-gears_reverse/commit/e0fabf7e121818e5abe2f873e34a07d0eb32742d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "final-fantasy-viii-recomp": {
+      "name": "Final Fantasy VIII (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:16:15Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/commit/90a514ab28ac9b4ab4d4ab52eaa44ceb7aa4fb11",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "gran-turismo-2-playstation-1": {
+      "name": "Gran Turismo 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/GTTeancum/OpenGTPS1",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-10T14:01:10Z",
+        "last_commit_url": "https://github.com/GTTeancum/OpenGTPS1/commit/d9e6af5dccf704383f28faf8d1b50633e2539046",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 32
+      },
+      "ai_used": null
+    },
+    "gran-turismo-2-gt2-multiplayer": {
+      "name": "Gran Turismo 2 (gt2-multiplayer)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ianitsky/gt2-multiplayer",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-13T21:05:33Z",
+        "last_commit_url": "https://github.com/ianitsky/gt2-multiplayer/commit/c5d2aebf4f7f1b157c6842b12f1ae542bb914c9e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "hybrid": {
+      "name": "Hybrid",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Joshua-1248/Hybrid-PS1-Decompilation",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-20T02:02:12Z",
+        "last_commit_url": "https://github.com/Joshua-1248/Hybrid-PS1-Decompilation/commit/e4f67471ab545f7f86c3d8dc8c889d69a9786a63",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "jet-moto-2": {
+      "name": "Jet Moto 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/goodshepherd23/JetMoto2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T00:57:03Z",
+        "last_commit_url": "https://github.com/goodshepherd23/JetMoto2-Recomp/commit/cd14d8727d16c1da12cf1da547de3f5b8d6b473b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "king-s-field": {
+      "name": "King's Field",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Voicedrew11/verdite2",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T19:32:04Z",
+        "last_commit_url": "https://github.com/Voicedrew11/verdite2/commit/5387d0be45c171c467ebac5676b4f9e6b281f767",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 54
+      },
+      "ai_used": true
+    },
+    "king-s-field-ii": {
+      "name": "King's Field II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Voicedrew11/verdite3",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T22:36:42Z",
+        "last_commit_url": "https://github.com/Voicedrew11/verdite3/commit/ebc307bc42669519af736c6d29cd5d1cba06881a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": true
+    },
+    "legacy-of-kain-soul-reaver-playstation-1": {
+      "name": "Legacy of Kain: Soul Reaver",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Gh0stBlade/KAIN2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-04-24T17:18:56Z",
+        "last_commit_url": "https://github.com/Gh0stBlade/KAIN2/commit/e9fa662a02ab597af1e2b2b8e4d1a6af02c180ef",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 176
+      },
+      "ai_used": null
+    },
+    "legend-of-legaia-recomp": {
+      "name": "Legend of Legaia (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SamSteProjects/legend-of-legaia-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-27T20:29:11Z",
+        "last_commit_url": "https://github.com/SamSteProjects/legend-of-legaia-recomp/commit/261a40d12a800a73426367f643d2267e8393db3f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "lsd-dream-emulator-playstation-1": {
+      "name": "LSD: Dream Emulator",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/brian-oblivion/lsddecomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T12:49:05Z",
+        "last_commit_url": "https://github.com/brian-oblivion/lsddecomp/commit/90a398e4f429b4371be05648605fc198b9efb395",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "marvel-vs-capcom-clash-of-super-heroes-marvel-vs-capcom-clash-of-super-heroes-recompiled": {
+      "name": "Marvel vs. Capcom: Clash of Super Heroes (Marvel vs. Capcom: Clash of Super Heroes Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/commit/f7f7e34df4ae49b47658e1820efc091ae4e1b76c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "medievil-playstation-1": {
+      "name": "MediEvil",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T22:50:05Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp/commit/918e3c2db5e0f2fca97cfd2998f607a1822573f2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "medievil-ii": {
+      "name": "MediEvil II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T04:38:47Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp/commit/432c69c9ca8e9942ec23b4a984dd98ef8518fcda",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "mega-man-legends-mml1": {
+      "name": "Mega Man Legends (mml1)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ChrisNonyminus/mml1",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-07-23T14:26:18Z",
+        "last_commit_url": "https://github.com/ChrisNonyminus/mml1/commit/964bad3096a2d7a4a3d6cc65678d8440b2ea9cb1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 85
+      },
+      "ai_used": null
+    },
+    "mega-man-x4-recomp": {
+      "name": "Mega Man X4 (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mstan/MegaManX4Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T11:23:03Z",
+        "last_commit_url": "https://github.com/mstan/MegaManX4Recomp/commit/a3c75e2b5c00e7283cd4de771b074cd73c037011",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 106
+      },
+      "ai_used": null
+    },
+    "mega-man-x5": {
+      "name": "Mega Man X5",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mstan/MegaManX5Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-12T04:31:43Z",
+        "last_commit_url": "https://github.com/mstan/MegaManX5Recomp/commit/c8fde08b77b8c8daae8d0955b6529de79c82d85b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 56
+      },
+      "ai_used": null
+    },
+    "mega-man-x5-mmx5": {
+      "name": "Mega Man X5 (mmx5)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/anzaldoivan/mmx5",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T23:21:15Z",
+        "last_commit_url": "https://github.com/anzaldoivan/mmx5/commit/ebdd888e5c695be0cb6eda2a89f7d001644e5feb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 0
+      },
+      "ai_used": null
+    },
+    "mega-man-x6": {
+      "name": "Mega Man X6",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/anzaldoivan/mmx6",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T21:14:34Z",
+        "last_commit_url": "https://github.com/anzaldoivan/mmx6/commit/95d088979744359ab673ba46f8bcbf779abec28f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "metal-gear-solid-playstation-1": {
+      "name": "Metal Gear Solid",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:17:16Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp/commit/94807c835e4c16df255c4c11978cbcb51020734f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 29
+      },
+      "ai_used": null
+    },
+    "metal-gear-solid-mgs-reintegral": {
+      "name": "Metal Gear Solid (mgs-reintegral)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Drommedhar/mgs-reintegral",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T05:57:33Z",
+        "last_commit_url": "https://github.com/Drommedhar/mgs-reintegral/commit/85b05f7ed64c26a2312ba322b5bf1cec419bbc8d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 37
+      },
+      "ai_used": null
+    },
+    "metal-gear-solid-mgsone-recomp": {
+      "name": "Metal Gear Solid (mgsone-recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/coccofresco/mgsone-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T12:29:56Z",
+        "last_commit_url": "https://github.com/coccofresco/mgsone-recomp/commit/2ae09d4f9a29332a4058393dab0bc1435af27dc6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "metal-slug-x-metal-slug-x-recompiled": {
+      "name": "Metal Slug X (Metal Slug X Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp/commit/eddccb54f1648e2da037573e2cfddf04701e838f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "nightmare-creatures-ii": {
+      "name": "Nightmare Creatures II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:18:22Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp/commit/add70c594a04952965b52059a9881ca9d4ca7a79",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "openspideyps1": {
+      "name": "OpenSpideyPS1",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/GTTeancum/SpideyPS1recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-14T00:34:43Z",
+        "last_commit_url": "https://github.com/GTTeancum/SpideyPS1recomp/commit/b100572675d4caba3cf3162529b300e88be033f4",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "parappa-the-rapper-parappasource": {
+      "name": "PaRappa the Rapper (PaRappaSource)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/cuckydev/PaRappaSource",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-10-30T04:55:10Z",
+        "last_commit_url": "https://github.com/cuckydev/PaRappaSource/commit/dd742cf869e464a8e5e34c5a2a134ffcf8e76e1d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "parappatherapper": {
+      "name": "PaRappaTheRapper",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/kirby1237/PaRappaTheRapperRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T07:04:44Z",
+        "last_commit_url": "https://github.com/kirby1237/PaRappaTheRapperRecomp/commit/cff6e6908e7f44032b6fa0edf6136cf360bfea8b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "parasite-eve-recomp": {
+      "name": "Parasite Eve (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:21:16Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/commit/abfc05bc23a9a264cf9a105b2662226e17ece299",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "parasite-eve-hd-remaster": {
+      "name": "Parasite Eve HD Remaster",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/faligame/Parasite-Eve-HD-Remaster",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T13:55:03Z",
+        "last_commit_url": "https://github.com/faligame/Parasite-Eve-HD-Remaster/commit/4a4d1c4e1f70b967e991df41cbf0d07f3b8b9ea2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 194
+      },
+      "ai_used": null
+    },
+    "parasite-eve-ii-playstation-1": {
+      "name": "Parasite Eve II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T13:51:40Z",
+        "last_commit_url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster/commit/6244648ae8e18d370c5eec0e74fcfd76b3fdcc80",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 228
+      },
+      "ai_used": null
+    },
+    "point-blank": {
+      "name": "Point Blank",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TekRantGaming/point-blank-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T22:17:54Z",
+        "last_commit_url": "https://github.com/TekRantGaming/point-blank-recompiled/commit/15c48788c5d02b0075343f007e282193426cd27b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "puyo-puyo-box": {
+      "name": "Puyo Puyo BOX",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/kirby1237/PuyoPuyoBoxRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-07T13:57:54Z",
+        "last_commit_url": "https://github.com/kirby1237/PuyoPuyoBoxRecomp/commit/ea96779399aafe4c76ab240550737efe421177e1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "rampage-through-time-rampage-through-time-recompiled": {
+      "name": "Rampage Through Time (Rampage Through Time Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp/commit/3a0e93658238d63ffe0fdf8b4cbc3605569dfff6",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "resident-evil-resident-evil-pc-decomp": {
+      "name": "Resident Evil (resident-evil-pc-decomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ecruells/resident-evil-pc-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-27T03:08:03Z",
+        "last_commit_url": "https://github.com/ecruells/resident-evil-pc-decomp/commit/15004914527567a2b9cecf34997abe8c252bcbf9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 144
+      },
+      "ai_used": null
+    },
+    "resident-evil-3-nemesis": {
+      "name": "Resident Evil 3: Nemesis",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:16:54Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp/commit/70acd8542a48c3e0afbf7b1cdec25f3faf228e0c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "ridge-racer-playstation-1": {
+      "name": "Ridge Racer",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/kazuyette/rr-decomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T23:11:41Z",
+        "last_commit_url": "https://github.com/kazuyette/rr-decomp/commit/3b42b36e222b2d9aa968666706e940bf49ee76f8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "samurai-shodown-warriors-rage": {
+      "name": "Samurai Shodown: Warriors Rage",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-09T01:50:03Z",
+        "last_commit_url": "https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp/commit/ac46c1d4825a0368be60819245c0b0164bffbc67",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "sexy-parodius": {
+      "name": "Sexy Parodius",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/NJH-1001/SexyParoRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-04T00:10:25Z",
+        "last_commit_url": "https://github.com/NJH-1001/SexyParoRecomp/commit/d4c7817bd75612c043e3f4633d89ac6d303816d7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "sheep-dog-n-wolf-sheep-raider-playstation-1": {
+      "name": "Sheep, Dog 'n' Wolf / Sheep Raider",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SDW-Community/sdw-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-27T03:55:45Z",
+        "last_commit_url": "https://github.com/SDW-Community/sdw-decomp/commit/677cc76a9cbdc90cabb7c89bd531c17792b24ffa",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "silent-hill-playstation-1": {
+      "name": "Silent Hill",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Sezzary/SilentEngine",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T11:11:05Z",
+        "last_commit_url": "https://github.com/Sezzary/SilentEngine/commit/a614f095ab9642817228fa9643e47257fa980cdc",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 218
+      },
+      "ai_used": null
+    },
+    "silent-hill-silent-hill-decomp": {
+      "name": "Silent Hill (silent-hill-decomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "project_type": "Recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T00:30:39Z",
+        "last_commit_url": "https://github.com/SlickAmogus/silent-hill-decomp/commit/2f9c6cc1a63a27ef7ff5a9783d5b9001131ef010",
+        "default_branch": "pc-port",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 749
+      },
+      "ai_used": null
+    },
+    "silent-hill-silent-hill-pc-nightly": {
+      "name": "Silent Hill (silent-hill-pc-nightly)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SlickAmogus/silent-hill-pc-nightly",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-18T17:08:55Z",
+        "last_commit_url": "https://github.com/SlickAmogus/silent-hill-pc-nightly/commit/845ba367489af13e301b9f22dec52411da15c8b5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 102
+      },
+      "ai_used": true
+    },
+    "spider-man": {
+      "name": "Spider-Man",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/krystalgamer/spidey-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T19:42:57Z",
+        "last_commit_url": "https://github.com/krystalgamer/spidey-decomp/commit/f8a039248908e085f8fba8106769aea7f8f9de67",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 141
+      },
+      "ai_used": null
+    },
+    "spyro-2-ripto-s-rage": {
+      "name": "Spyro 2: Ripto's Rage!",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TheMobyCollective/spyro-2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T16:07:23Z",
+        "last_commit_url": "https://github.com/TheMobyCollective/spyro-2/commit/97a46499d0443409757fc55fb65ce9c4bf448918",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "spyro-the-dragon-spyro1-reverse-engineering": {
+      "name": "Spyro the Dragon (spyro1-reverse-engineering)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/C0mposer/spyro1-reverse-engineering",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-01-20T18:36:20Z",
+        "last_commit_url": "https://github.com/C0mposer/spyro1-reverse-engineering/commit/25d0faaa1cf6cf0d9d918d2a4e80dd07726cc9d3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "spyro-year-of-the-dragon": {
+      "name": "Spyro: Year of the Dragon",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TheMobyCollective/spyro-3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T19:39:33Z",
+        "last_commit_url": "https://github.com/TheMobyCollective/spyro-3/commit/4c5d4f34cbf91c4c67a993bca66cb051b2b52a04",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "star-wars-episode-i-jedi-power-battles": {
+      "name": "Star wars - Episode I - Jedi Power Battles",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp/commit/444ca25f9ed4e6f2d2380f58a446528f921eb3e6",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 8
+      },
+      "ai_used": null
+    },
+    "star-wars-masters-of-teras-kasi-mastersofteraskasirecomp": {
+      "name": "Star Wars: Masters of Teräs Käsi (MastersOfTerasKasiRecomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp/commit/a515e6c8750ba3f16e148feccf09ab0247f78d12",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "street-fighter-alpha-3": {
+      "name": "Street Fighter Alpha 3",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T07:56:30Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/commit/7772f7edcf1a827c495c57d397ec3b8f9fd0acb5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 78
+      },
+      "ai_used": null
+    },
+    "street-fighter-ex-2-plus": {
+      "name": "Street Fighter EX 2 Plus",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-29T15:26:47Z",
+        "last_commit_url": "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/commit/f4151f535b258f59db62932931f940c87758c345",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "street-fighter-ex-plus-alpha": {
+      "name": "Street Fighter EX Plus Alpha",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/guimaraf/plusalpha-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T16:41:48Z",
+        "last_commit_url": "https://github.com/guimaraf/plusalpha-recomp/commit/bd9d6185c59abe49b9a77dd688a76e9ec39aac54",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "suikoden": {
+      "name": "Suikoden",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/suikoden-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:15:58Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/suikoden-recomp/commit/4383122da91b1ffec004b50bb34a623b403a439d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "suikoden-ii": {
+      "name": "Suikoden II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:17:59Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp/commit/638571493112ba800700ec384df472c1ac3501cc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "syphon-filter-pc-recomp": {
+      "name": "Syphon Filter (PC Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Madxbio97/SF-pc-port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-13T18:37:18Z",
+        "last_commit_url": "https://github.com/Madxbio97/SF-pc-port/commit/a11020bbf8ea136e1685edfe29217e7c965b49c9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 129
+      },
+      "ai_used": null
+    },
+    "syphon-filter-2": {
+      "name": "Syphon Filter 2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T12:23:46Z",
+        "last_commit_url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/commit/5066d264b50039ee3dd01e38b0fde51d0b91c3eb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "tekken-3": {
+      "name": "Tekken 3",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/FishB0nes98/Tekken3Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-23T15:02:50Z",
+        "last_commit_url": "https://github.com/FishB0nes98/Tekken3Recompiled/commit/3d3acc81ba84752c711f3b047d1779a816046d11",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 62
+      },
+      "ai_used": null
+    },
+    "tenchu-stealth-assassins": {
+      "name": "Tenchu: Stealth Assassins",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Heromachine/Tenchu-SA-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-24T03:46:52Z",
+        "last_commit_url": "https://github.com/Heromachine/Tenchu-SA-Recomp/commit/818853516b37457bac7b9149039ab95b360fc5a2",
+        "default_branch": "bootstrap-boots",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "tokimeki-memorial-forever-with-you-playstation-1": {
+      "name": "Tokimeki Memorial: Forever with You",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/CosmicScribe64/tokimemo-ps1-decomp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T21:03:28Z",
+        "last_commit_url": "https://github.com/CosmicScribe64/tokimemo-ps1-decomp/commit/a46e787e1ff893087b08cfe314a9e96ccecec56f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "tomba-2-the-evil-swine-return": {
+      "name": "Tomba! 2: The Evil Swine Return",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mstan/Tomba2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T17:30:23Z",
+        "last_commit_url": "https://github.com/mstan/Tomba2Recomp/commit/d8ae95d4381ed095bb24b8273c3198e01c55bb74",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "tombi": {
+      "name": "Tombi!",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/afsenovilla/Tombi-Decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T14:22:35Z",
+        "last_commit_url": "https://github.com/afsenovilla/Tombi-Decomp/commit/442107ebf63da9bb0a61c2441f229d816ed09e1f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "tony-hawk-s-pro-skater-tony-was-a-pro-skater": {
+      "name": "Tony Hawk's Pro Skater (Tony Was A Pro Skater)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/LANCommander/TonyWasAProSkater",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T23:14:07Z",
+        "last_commit_url": "https://github.com/LANCommander/TonyWasAProSkater/commit/d9319c8d5b42c431de02bec0f02f0cf955f2fbae",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "toystory2": {
+      "name": "ToyStory2",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/PeriBluGaming/ToyStory2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T12:23:33Z",
+        "last_commit_url": "https://github.com/PeriBluGaming/ToyStory2Recomp/commit/f75474db5956ef20f15ee01d9f03f6258b3cf218",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "twinbee-paradise-in-donburi-shima": {
+      "name": "TwinBee PARADISE in Donburi Shima",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Jhuyghue/donburi-recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T21:33:27Z",
+        "last_commit_url": "https://github.com/Jhuyghue/donburi-recomp/commit/de3afdbcd91ee615992473e0734127e678908525",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "twisted-metal-1-4": {
+      "name": "Twisted Metal 1-4",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/jcoker85/TwistedMetal1234Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T20:55:05Z",
+        "last_commit_url": "https://github.com/jcoker85/TwistedMetal1234Recomp/commit/102e9c26ae78a0ddd8cbfba028fa96b6e3b33b58",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "twisted-metal-4-twistedmetal4-recompiled": {
+      "name": "Twisted Metal 4 (TwistedMetal4 Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/TechnicallyComputers/TwistedMetal4Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T20:27:24Z",
+        "last_commit_url": "https://github.com/TechnicallyComputers/TwistedMetal4Recomp/commit/c75337f26e5809f024b1019846655ea418db4e07",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "vagrant-story-playstation-1": {
+      "name": "Vagrant Story",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/noprompt/rood-boi",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:50:05Z",
+        "last_commit_url": "https://github.com/noprompt/rood-boi/commit/fdbb5e410351f91959a4a795275420e3016ac777",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "vagrant-story-vs-nativeport": {
+      "name": "Vagrant Story (VS-NativePort)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/JEschete/VS-NativePort",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:46:12Z",
+        "last_commit_url": "https://github.com/JEschete/VS-NativePort/commit/91f446c611da5db1b28a47b87d9a94ed801a8d64",
+        "default_branch": "work",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "vigilante-8-vigilante-8-2nd-offense": {
+      "name": "Vigilante 8 / Vigilante 8: 2nd Offense",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/GTTeancum/Vigilante-8-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-24T12:19:18Z",
+        "last_commit_url": "https://github.com/GTTeancum/Vigilante-8-recomp/commit/6fc8179bebc8d30dc01f05d5cf1fd398a82e2a19",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "wipeout-playstation-1": {
+      "name": "Wipeout",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/jnmartin84/wipeout-dc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-04-01T12:34:38Z",
+        "last_commit_url": "https://github.com/jnmartin84/wipeout-dc/commit/b54f5966a05fb10c4496d8c5df1a968151f2808f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 180
+      },
+      "ai_used": null
+    },
+    "wipeout-xl-wipeout-xl-recompiled": {
+      "name": "Wipeout XL (Wipeout XL Recompiled)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/NJH-1001/Wipeout2K97XL",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T05:44:54Z",
+        "last_commit_url": "https://github.com/NJH-1001/Wipeout2K97XL/commit/f696afcc555294e6af2fd28918dabd16c12ec5d2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "xenogears-recomp": {
+      "name": "Xenogears (Recomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/OpokXeno/xenogears-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T04:27:37Z",
+        "last_commit_url": "https://github.com/OpokXeno/xenogears-recomp/commit/48b86388c23a7dd84fa0a659013e27d0565e93e5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 64
+      },
+      "ai_used": null
+    },
+    "xenogears-xenogears-decomp-port": {
+      "name": "Xenogears (xenogears-decomp-port)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Blizz127/xenogears-decomp-port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T02:31:46Z",
+        "last_commit_url": "https://github.com/Blizz127/xenogears-decomp-port/commit/33a7260a242b23079836a178943ce8b8e25325b6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "yu-gi-oh-forbidden-memories-playstation-1": {
+      "name": "Yu-Gi-Oh! Forbidden Memories",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-26T20:40:10Z",
+        "last_commit_url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/commit/90cc0a9f894386856986b0cafb058c8588674d95",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 143
+      },
+      "ai_used": null
+    },
+    "yu-gi-oh-forbidden-memories-memories-decomp": {
+      "name": "Yu-Gi-Oh! Forbidden Memories (memories-decomp)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/krystalgamer/memories-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:40:50Z",
+        "last_commit_url": "https://github.com/krystalgamer/memories-decomp/commit/1a526009c824f0a5ec58dab343e0f6df0dc0a4ba",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "jackie-chan-stuntmaster-rechan": {
+      "name": "Jackie Chan Stuntmaster (ReChan)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SilverwireGames/ReChan",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T12:18:40Z",
+        "last_commit_url": "https://github.com/SilverwireGames/ReChan/commit/5029a5008c842232886ee709f58d5282c9f78103",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 58
+      },
+      "ai_used": null
+    },
+    "legend-of-legaia-playstation-1": {
+      "name": "Legend of Legaia",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/AndrewAltimit/legend-of-legaia-re",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T01:39:25Z",
+        "last_commit_url": "https://github.com/AndrewAltimit/legend-of-legaia-re/commit/5ec8568f51dfc08490fbd628e146a887979d392a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -3853,6 +6171,2640 @@
             {
               "name": "Native port",
               "url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "ace-combat-3",
+          "name_markdown": "[Ace Combat 3](https://github.com/sal063/Ace-Combat-3-static-recompilation)",
+          "images": [],
+          "notes_markdown": "A static recompilation of Ace Combat 3, with native rendering and enhanced rendering",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sal063/Ace-Combat-3-static-recompilation"
+            }
+          ]
+        },
+        {
+          "project": "ace-combat-3-electrosphere",
+          "name_markdown": "[Ace Combat 3: Electrosphere](https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ace%20Combat%203%20-%20Electrosphere%20%28USA%29.png",
+              "alt": "Ace Combat 3: Electrosphere box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source-only Windows setup host for Ace Combat 3: Electrosphere (USA); Wave 2 release draft.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp"
+            }
+          ]
+        },
+        {
+          "project": "alexbeav-s-ps1-recomps-psxrecomp-ports",
+          "name_markdown": "[Alexbeav's PS1 recomps (psxrecomp-ports)](https://github.com/alexbeavs-ps1-ports/psxrecomp-ports)",
+          "images": [],
+          "notes_markdown": "Unofficial noncommercial PlayStation recompilation releases",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/psxrecomp-ports"
+            }
+          ]
+        },
+        {
+          "project": "alien-resurrection",
+          "name_markdown": "[Alien Resurrection](https://github.com/Heromachine/AlienResurrection-Recompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alien%20Resurrection%20%28USA%29.png",
+              "alt": "Alien Resurrection box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Heromachine/AlienResurrection-Recompilation"
+            }
+          ]
+        },
+        {
+          "project": "alien-resurrection-recomp",
+          "name_markdown": "[Alien Resurrection (Recomp)](https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alien%20Resurrection%20%28USA%29.png",
+              "alt": "Alien Resurrection (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Alien Resurrection static recompilation setup project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp"
+            }
+          ]
+        },
+        {
+          "project": "alone-in-the-dark-the-new-nightmare",
+          "name_markdown": "[Alone in the Dark: The New Nightmare](https://github.com/alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alone%20in%20the%20Dark%20-%20The%20New%20Nightmare%20%28USA%29.png",
+              "alt": "Alone in the Dark: The New Nightmare box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Owned-input PSX recompilation project for Alone in the Dark: The New Nightmare",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp"
+            }
+          ]
+        },
+        {
+          "project": "alundra",
+          "name_markdown": "[Alundra](https://github.com/alexbeavs-ps1-ports/alundra-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Alundra%20%28USA%29.png",
+              "alt": "Alundra box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source-only Windows setup host for Alundra; Wave 2 release draft.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/alundra-recomp"
+            }
+          ]
+        },
+        {
+          "project": "another-mind",
+          "name_markdown": "[Another Mind](https://github.com/halkuncode/anothermind-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Another%20Mind%20%28Japan%29.png",
+              "alt": "Another Mind box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A source code recovery of Squaresoft's visual novel \"Another Mind\"",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/halkuncode/anothermind-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ape-escape",
+          "name_markdown": "[Ape Escape](https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ape%20Escape%20%28USA%29.png",
+              "alt": "Ape Escape (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Better version of the Ape Escape recomp. Also making it available on MacOS for the first time ever.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux"
+            }
+          ]
+        },
+        {
+          "project": "apocalypse",
+          "name_markdown": "[Apocalypse](https://github.com/alexbeavs-ps1-ports/apocalypse-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Apocalypse%20%28USA%29.png",
+              "alt": "Apocalypse box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "apocalypse: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/apocalypse-recomp"
+            }
+          ]
+        },
+        {
+          "project": "apocalypse-project-repocalypse",
+          "name_markdown": "[Apocalypse (Project Repocalypse)](https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Apocalypse%20%28USA%29.png",
+              "alt": "Apocalypse (Project Repocalypse) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Static Recomplation of PSX Game Apocalypse",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port"
+            }
+          ]
+        },
+        {
+          "project": "armored-core-playstation-1",
+          "name_markdown": "[Armored Core](https://github.com/omegakatana92/Armored-Core-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Armored%20Core%20%28USA%29.png",
+              "alt": "Armored Core box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan made port or recomp of armored core  for the psx or ps1 provide your own rom or iso.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/omegakatana92/Armored-Core-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "battle-arena-toshinden-battle-arena-toshinden-recompiled",
+          "name_markdown": "[Battle Arena Toshinden (Battle Arena Toshinden Recompiled)](https://github.com/mstan/BattleArenaToshindenRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Battle%20Arena%20Toshinden%20%28USA%29.png",
+              "alt": "Battle Arena Toshinden (Battle Arena Toshinden Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Battle Arena Toshinden (USA) static recompilation with optional adaptive widescreen, Extra Roster mods, and two-player rollback netplay.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/BattleArenaToshindenRecomp"
+            }
+          ]
+        },
+        {
+          "project": "bomberman-fantasy-race-bomberman-fantasy-race-recompiled",
+          "name_markdown": "[Bomberman Fantasy Race (Bomberman Fantasy Race Recompiled)](https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20Fantasy%20Race%20%28USA%29.png",
+              "alt": "Bomberman Fantasy Race (Bomberman Fantasy Race Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "bomberman-party-edition-bomberman-party-edition-recomp",
+          "name_markdown": "[Bomberman Party Edition (Bomberman Party Edition Recomp)](https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20-%20Party%20Edition%20%28USA%29.png",
+              "alt": "Bomberman Party Edition (Bomberman Party Edition Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp"
+            }
+          ]
+        },
+        {
+          "project": "bomberman-world-bomberman-world-recompiled",
+          "name_markdown": "[Bomberman World (Bomberman World Recompiled)](https://github.com/TechnicallyComputers/Bomberman-World-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bomberman%20World%20%28USA%29.png",
+              "alt": "Bomberman World (Bomberman World Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Bomberman-World-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "brave-fencer-musashi-playstation-1",
+          "name_markdown": "[Brave Fencer Musashi](https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Brave%20Fencer%20Musashi%20%28USA%29.png",
+              "alt": "Brave Fencer Musashi box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port"
+            }
+          ]
+        },
+        {
+          "project": "breath-of-fire-iii",
+          "name_markdown": "[Breath of Fire III](https://github.com/loopyd/bof3-decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Breath%20of%20Fire%20III%20%28USA%29.png",
+              "alt": "Breath of Fire III box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse engineering and decompilation of Breath of Fire III.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/loopyd/bof3-decompilation"
+            }
+          ]
+        },
+        {
+          "project": "breath-of-fire-iii-breath-of-fire-iii-pc-port",
+          "name_markdown": "[Breath of Fire III (Breath of Fire III - PC Port)](https://github.com/kerokline/BreathOfFire3PCPort)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Breath%20of%20Fire%20III%20%28USA%29.png",
+              "alt": "Breath of Fire III (Breath of Fire III - PC Port) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A renovation of the 2001 Chinese PC port of Breath of Fire III",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kerokline/BreathOfFire3PCPort"
+            }
+          ]
+        },
+        {
+          "project": "breath-of-fire-iii-recomp",
+          "name_markdown": "[Breath of Fire III (Recomp)](https://github.com/kerokline/BreathOfFire3Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Breath%20of%20Fire%20III%20%28USA%29.png",
+              "alt": "Breath of Fire III (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Recompile of Capcom's Breath of Fire III",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kerokline/BreathOfFire3Recomp"
+            }
+          ]
+        },
+        {
+          "project": "bugs-bunny-lost-in-time",
+          "name_markdown": "[Bugs Bunny: Lost in Time!](https://github.com/quantumdude836/BugsDecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Bugs%20Bunny%20-%20Lost%20in%20Time%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Bugs Bunny: Lost in Time! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation project for the PC game \"Bugs Bunny: Lost in Time!\" (aka BBLiT) by Behaviour Interactive.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/quantumdude836/BugsDecomp"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-symphony-of-the-night-nocturnerecomp",
+          "name_markdown": "[Castlevania: Symphony of the Night (NocturneRecomp)](https://github.com/birabittoh/NocturneRecomp)",
+          "images": [
+            {
+              "alt": "Castlevania: Symphony of the Night box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/birabittoh/NocturneRecomp"
+            }
+          ]
+        },
+        {
+          "project": "colin-mcrae-rally-2-0",
+          "name_markdown": "[Colin McRae Rally 2.0](https://github.com/CMR2Decomp/CMR2Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Colin%20McRae%20Rally%202.0%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Colin McRae Rally 2.0 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A decompilation of Colin McRae Rally 2.0 (PC) (2000)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/CMR2Decomp/CMR2Decomp"
+            }
+          ]
+        },
+        {
+          "project": "crash-bandicoot-3-warped",
+          "name_markdown": "[Crash Bandicoot 3: Warped](https://github.com/alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Crash%20Bandicoot%203%20-%20Warped%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Crash Bandicoot 3: Warped box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Portable PSXRecomp setup candidate. Owned game disc and retail BIOS required.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp"
+            }
+          ]
+        },
+        {
+          "project": "crash-bash",
+          "name_markdown": "[Crash Bash](https://github.com/mateusfavarin/crashbash)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Crash%20Bash%20%28USA%29.png",
+              "alt": "Crash Bash box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse engineering project of Crash Bash (PSX)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mateusfavarin/crashbash"
+            }
+          ]
+        },
+        {
+          "project": "crash-team-racing-playstation-1",
+          "name_markdown": "[Crash Team Racing](https://github.com/NyperYuhgard/CTR-PC-Port)",
+          "images": [],
+          "notes_markdown": "A PC Port From Crash Team Racing",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/NyperYuhgard/CTR-PC-Port"
+            }
+          ]
+        },
+        {
+          "project": "dance-dance-revolution-1st-mix",
+          "name_markdown": "[Dance Dance Revolution 1st Mix](https://github.com/bmbelo87/ddr-1st-recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation of Dance Dance Revolution 1st Mix (SLPM-86222), built on PSXRecomp. Configuration and tooling only - you supply your own legal disc dump.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/bmbelo87/ddr-1st-recomp"
+            }
+          ]
+        },
+        {
+          "project": "diablo-playstation-1",
+          "name_markdown": "[Diablo](https://github.com/alexbeavs-ps1-ports/diablo-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Diablo%20%28USA%29%20%28En%2CFr%2CDe%2CSv%29.png",
+              "alt": "Diablo box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Diablo static recompilation setup project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/diablo-recomp"
+            }
+          ]
+        },
+        {
+          "project": "die-hard-trilogy",
+          "name_markdown": "[Die Hard Trilogy](https://github.com/alexbeavs-ps1-ports/die-hard-trilogy-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Die%20Hard%20Trilogy%20%28USA%29.png",
+              "alt": "Die Hard Trilogy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source-only Windows setup host for Die Hard Trilogy; Wave 2 release draft.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/die-hard-trilogy-recomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-2-playstation-1",
+          "name_markdown": "[Digimon World 2](https://github.com/Wyrelade/DW2-PC)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Digimon%20World%202%20%28USA%29.png",
+              "alt": "Digimon World 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC port of Digimon World 2 (PS1) built from the matching decomp. Needs your own disc image.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Wyrelade/DW2-PC"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-2003",
+          "name_markdown": "[Digimon World 2003](https://github.com/alexbeavs-ps1-ports/digimon-world-2003-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Digimon%20World%202003%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Digimon World 2003 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source-only Windows setup host for Digimon World 2003; Wave 2 release draft.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/digimon-world-2003-recomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-2003-playstation-1",
+          "name_markdown": "[Digimon World 2003](https://github.com/gascarcella/dw2003recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Digimon%20World%202003%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Digimon World 2003 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC Port of Digimon World 2003 (PS1, EU)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/gascarcella/dw2003recomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-3-d-w-3-recomp",
+          "name_markdown": "[Digimon World 3 (D-W-3-Recomp)](https://github.com/Xive080/D-W-3-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Digimon%20World%203%20%28USA%29.png",
+              "alt": "Digimon World 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Xive080/D-W-3-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Xive080/D-W-3-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "digimon-world-3-2003",
+          "name_markdown": "[Digimon World 3(2003)](https://github.com/ReGame-Labs/dw3_decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Digimon%20World%203%20%28USA%29.png",
+              "alt": "Digimon World 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Digimon World 3 (2003)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/ReGame-Labs/dw3_decomp"
+            }
+          ]
+        },
+        {
+          "project": "dino-crisis",
+          "name_markdown": "[Dino Crisis](https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dino%20Crisis%20%28USA%29.png",
+              "alt": "Dino Crisis box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "dino-crisis: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp"
+            }
+          ]
+        },
+        {
+          "project": "dino-crisis-2-playstation-1",
+          "name_markdown": "[Dino Crisis 2](https://github.com/alexbeavs-ps1-ports/dino-crisis-2-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dino%20Crisis%202%20%28USA%29.png",
+              "alt": "Dino Crisis 2 box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "dino-crisis-2: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "doom-psydoom",
+          "name_markdown": "[Doom (PsyDoom)](https://github.com/BodbDearg/PsyDoom)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Doom%20%28USA%29.png",
+              "alt": "Doom (PsyDoom) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A backport of PSX Doom to PC",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/BodbDearg/PsyDoom"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-gt-final-bout",
+          "name_markdown": "[Dragon Ball GT: Final Bout](https://github.com/novapowers0/DB-Final-Bout-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Dragon%20Ball%20GT%20-%20Final%20Bout%20%28USA%29.png",
+              "alt": "Dragon Ball GT: Final Bout box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Dragon Ball GT: Final Bout (SLUS-00493) for Windows. Bring your own disc. Playable v0.1.0 with stretch-only widescreen, Vulkan and LAN/direct-IP netplay.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/novapowers0/DB-Final-Bout-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "einhander",
+          "name_markdown": "[Einhänder](https://github.com/strider973/Einhander-Recompiled)",
+          "images": [],
+          "notes_markdown": "Simple Recomp of EINHANDER",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/strider973/Einhander-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-ix",
+          "name_markdown": "[Final Fantasy IX](https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20IX%20%28USA%29.png",
+              "alt": "Final Fantasy IX box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "final-fantasy-ix: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-tactics",
+          "name_markdown": "[Final Fantasy Tactics](https://github.com/NJH-1001/FinFanTacRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20Tactics%20%28USA%29.png",
+              "alt": "Final Fantasy Tactics box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Final Fantasy Tactics USA (SCUS-94221) PSXRecomp setup project for Windows x86-64, with OpenBIOS, modern controllers and optional 16:9.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NJH-1001/FinFanTacRecomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-tactics-fft-decomp",
+          "name_markdown": "[Final Fantasy Tactics (fft_decomp)](https://github.com/adamrt/fft_decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20Tactics%20%28USA%29.png",
+              "alt": "Final Fantasy Tactics (fft_decomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of North American PlayStation Final Fantasy Tactics",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/adamrt/fft_decomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-playstation-1",
+          "name_markdown": "[Final Fantasy VII](https://github.com/ficed/Braver)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/ficed/Braver"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-ff7-coaster",
+          "name_markdown": "[Final Fantasy VII (ff7-coaster)](https://github.com/ergonomy-joe/ff7-coaster)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompiled code from the FF7 minigame \"Jet Coaster\" (and it builds with Visual Studio 2008)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ergonomy-joe/ff7-coaster"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-ff7-worldmap",
+          "name_markdown": "[Final Fantasy VII (ff7-worldmap)](https://github.com/ergonomy-joe/ff7-worldmap)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "FF7 world map engine (decompiled)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ergonomy-joe/ff7-worldmap"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-ffvii",
+          "name_markdown": "[Final Fantasy VII (ffvii)](https://github.com/Drahsid/ffvii)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An in-progress matching decompilation of Final Fantasy VII For the PSX.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Drahsid/ffvii"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-q-gears-reverse",
+          "name_markdown": "[Final Fantasy VII (q-gears_reverse)](https://github.com/Akari1982/q-gears_reverse)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Final fantasy and xenogears reverse data and code.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Akari1982/q-gears_reverse"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-viii-recomp",
+          "name_markdown": "[Final Fantasy VIII (Recomp)](https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VIII%20%28USA%29.png",
+              "alt": "Final Fantasy VIII box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "final-fantasy-viii: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp"
+            }
+          ]
+        },
+        {
+          "project": "gran-turismo-2-playstation-1",
+          "name_markdown": "[Gran Turismo 2](https://github.com/GTTeancum/OpenGTPS1)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Gran%20Turismo%202%20%28USA%29.png",
+              "alt": "Gran Turismo 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Windows x64 static-recompilation port of US Gran Turismo 2 Simulation and Arcade discs",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GTTeancum/OpenGTPS1"
+            }
+          ]
+        },
+        {
+          "project": "gran-turismo-2-gt2-multiplayer",
+          "name_markdown": "[Gran Turismo 2 (gt2-multiplayer)](https://github.com/ianitsky/gt2-multiplayer)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Gran%20Turismo%202%20%28USA%29.png",
+              "alt": "Gran Turismo 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Multiplayer version of the great game GranTurismo 2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ianitsky/gt2-multiplayer"
+            }
+          ]
+        },
+        {
+          "project": "hybrid",
+          "name_markdown": "[Hybrid](https://github.com/Joshua-1248/Hybrid-PS1-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Hybrid%20%28Europe%29.png",
+              "alt": "Hybrid box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "W.I.P. Decompilation of Hybrid for the PlayStation 1. Japanese version, with European version and others to come.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Joshua-1248/Hybrid-PS1-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "jet-moto-2",
+          "name_markdown": "[Jet Moto 2](https://github.com/goodshepherd23/JetMoto2-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jet%20Moto%202%20%28USA%29.png",
+              "alt": "Jet Moto 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Jet Moto 2 Recompiled - native PC build of Jet Moto 2: Championship Edition (PS1, SCUS-94167) via RecompOne static recompilation. Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/goodshepherd23/JetMoto2-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "king-s-field",
+          "name_markdown": "[King's Field](https://github.com/Voicedrew11/verdite2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20%28USA%29.png",
+              "alt": "King's Field box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI driven attempt at porting King's Field (SLUS-00158) to PC with a variety of improvements AI use: [maintainer statement](https://github.com/Voicedrew11/verdite2).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Voicedrew11/verdite2"
+            }
+          ]
+        },
+        {
+          "project": "king-s-field-ii",
+          "name_markdown": "[King's Field II](https://github.com/Voicedrew11/verdite3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/King%27s%20Field%20II%20%28USA%29.png",
+              "alt": "King's Field II box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI driven attempt at porting King's Field II (SLUS-00255) to PC with a variety of improvements AI use: [maintainer statement](https://github.com/Voicedrew11/verdite3).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Voicedrew11/verdite3"
+            }
+          ]
+        },
+        {
+          "project": "legacy-of-kain-soul-reaver-playstation-1",
+          "name_markdown": "[Legacy of Kain: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)",
+          "images": [
+            {
+              "alt": "Legacy of Kain: Soul Reaver box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legacy%20of%20Kain%20-%20Soul%20Reaver%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Legacy of Kain: Soul Reaver Decompile",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Gh0stBlade/KAIN2"
+            }
+          ]
+        },
+        {
+          "project": "legend-of-legaia-recomp",
+          "name_markdown": "[Legend of Legaia (Recomp)](https://github.com/SamSteProjects/legend-of-legaia-recomp)",
+          "images": [
+            {
+              "alt": "Legend of Legaia box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legend%20of%20Legaia%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SamSteProjects/legend-of-legaia-recomp"
+            }
+          ]
+        },
+        {
+          "project": "lsd-dream-emulator-playstation-1",
+          "name_markdown": "[LSD: Dream Emulator](https://github.com/brian-oblivion/lsddecomp)",
+          "images": [
+            {
+              "alt": "LSD Dream Emulator box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/LSD%20-%20Dream%20Emulator%20%28Japan%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of LSD: Dream Emulator for the PlayStation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/brian-oblivion/lsddecomp"
+            }
+          ]
+        },
+        {
+          "project": "marvel-vs-capcom-clash-of-super-heroes-marvel-vs-capcom-clash-of-super-heroes-recompiled",
+          "name_markdown": "[Marvel vs. Capcom: Clash of Super Heroes (Marvel vs. Capcom: Clash of Super Heroes Recompiled)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Marvel%20vs.%20Capcom%20-%20Clash%20of%20Super%20Heroes%20%28USA%29.png",
+              "alt": "Marvel vs. Capcom: Clash of Super Heroes (Marvel vs. Capcom: Clash of Super Heroes Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "medievil-playstation-1",
+          "name_markdown": "[MediEvil](https://github.com/alexbeavs-ps1-ports/medievil-recomp)",
+          "images": [
+            {
+              "alt": "MediEvil box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/MediEvil%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "MediEvil static recompilation setup project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/medievil-recomp"
+            }
+          ]
+        },
+        {
+          "project": "medievil-ii",
+          "name_markdown": "[MediEvil II](https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/MediEvil%20II%20%28USA%29.png",
+              "alt": "MediEvil II box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "MediEvil II static recompilation setup project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-legends-mml1",
+          "name_markdown": "[Mega Man Legends (mml1)](https://github.com/ChrisNonyminus/mml1)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20Legends%20%28USA%29.png",
+              "alt": "Mega Man Legends (mml1) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "WIP Decompilation of Megaman Legends (aka Rockman Dash) for the PlayStation 1.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ChrisNonyminus/mml1"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x4-recomp",
+          "name_markdown": "[Mega Man X4 (Recomp)](https://github.com/mstan/MegaManX4Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X4%20%28USA%29.png",
+              "alt": "Mega Man X4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/MegaManX4Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x5",
+          "name_markdown": "[Mega Man X5](https://github.com/mstan/MegaManX5Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X5%20%28USA%29.png",
+              "alt": "Mega Man X5 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mega Man X5 (USA, SLUS-01334) statically recompiled to a native Windows executable with the PSXRecomp framework.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/MegaManX5Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x5-mmx5",
+          "name_markdown": "[Mega Man X5 (mmx5)](https://github.com/anzaldoivan/mmx5)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X5%20%28USA%29.png",
+              "alt": "Mega Man X5 (mmx5) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mega Man X5 (PS1) matching decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/anzaldoivan/mmx5"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x6",
+          "name_markdown": "[Mega Man X6](https://github.com/anzaldoivan/mmx6)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Mega%20Man%20X6%20%28USA%29.png",
+              "alt": "Mega Man X6 (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Mega Man X6 (PS1, USA v1.1)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/anzaldoivan/mmx6"
+            }
+          ]
+        },
+        {
+          "project": "metal-gear-solid-playstation-1",
+          "name_markdown": "[Metal Gear Solid](https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp)",
+          "images": [
+            {
+              "alt": "Metal Gear Solid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Gear%20Solid%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "metal-gear-solid: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp"
+            }
+          ]
+        },
+        {
+          "project": "metal-gear-solid-mgs-reintegral",
+          "name_markdown": "[Metal Gear Solid (mgs-reintegral)](https://github.com/Drommedhar/mgs-reintegral)",
+          "images": [
+            {
+              "alt": "Metal Gear Solid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Gear%20Solid%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Drommedhar/mgs-reintegral"
+            }
+          ]
+        },
+        {
+          "project": "metal-gear-solid-mgsone-recomp",
+          "name_markdown": "[Metal Gear Solid (mgsone-recomp)](https://github.com/coccofresco/mgsone-recomp)",
+          "images": [
+            {
+              "alt": "Metal Gear Solid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Gear%20Solid%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Midnight Ghost Stone: a native Metal Gear Solid PS1 recompilation with original-asset Vulkan presentation. Experimental alpha.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/coccofresco/mgsone-recomp"
+            }
+          ]
+        },
+        {
+          "project": "metal-slug-x-metal-slug-x-recompiled",
+          "name_markdown": "[Metal Slug X (Metal Slug X Recompiled)](https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Metal%20Slug%20X%20%28USA%29.png",
+              "alt": "Metal Slug X (Metal Slug X Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "nightmare-creatures-ii",
+          "name_markdown": "[Nightmare Creatures II](https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Nightmare%20Creatures%20II%20%28USA%29.png",
+              "alt": "Nightmare Creatures II box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Nightmare Creatures II (PlayStation). Owned-input kit: you supply your own disc and BIOS.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp"
+            }
+          ]
+        },
+        {
+          "project": "openspideyps1",
+          "name_markdown": "[OpenSpideyPS1](https://github.com/GTTeancum/SpideyPS1recomp)",
+          "images": [],
+          "notes_markdown": "Native recompilations of Neversoft's PlayStation Spider-Man games, built with RecompOne. Games are siloed; only the recompiler and runtime are shared.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GTTeancum/SpideyPS1recomp"
+            }
+          ]
+        },
+        {
+          "project": "parappa-the-rapper-parappasource",
+          "name_markdown": "[PaRappa the Rapper (PaRappaSource)](https://github.com/cuckydev/PaRappaSource)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/PaRappa%20the%20Rapper%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "PaRappa the Rapper (PaRappaSource) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PaRappa the Rapper Decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cuckydev/PaRappaSource"
+            }
+          ]
+        },
+        {
+          "project": "parappatherapper",
+          "name_markdown": "[PaRappaTheRapper](https://github.com/kirby1237/PaRappaTheRapperRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/PaRappa%20the%20Rapper%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "PaRappaTheRapper box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "a static recompilation of PaRappa the Rapper made with psxrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kirby1237/PaRappaTheRapperRecomp"
+            }
+          ]
+        },
+        {
+          "project": "parasite-eve-recomp",
+          "name_markdown": "[Parasite Eve (Recomp)](https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20%28USA%29.png",
+              "alt": "Parasite Eve box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Owned-input PSX recompilation project for Parasite Eve",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp"
+            }
+          ]
+        },
+        {
+          "project": "parasite-eve-hd-remaster",
+          "name_markdown": "[Parasite Eve HD Remaster](https://github.com/faligame/Parasite-Eve-HD-Remaster)",
+          "images": [],
+          "notes_markdown": "Native PC port of PARASITE EVE via static recompilation - true 4K rendering, 60 fps, HD Remaster Not an emulator. Work in progress.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/faligame/Parasite-Eve-HD-Remaster"
+            }
+          ]
+        },
+        {
+          "project": "parasite-eve-ii-playstation-1",
+          "name_markdown": "[Parasite Eve II](https://github.com/faligame/Parasite-Eve-2-HD-Remaster)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Parasite%20Eve%20II%20%28USA%29.png",
+              "alt": "Parasite Eve II box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster"
+            }
+          ]
+        },
+        {
+          "project": "point-blank",
+          "name_markdown": "[Point Blank](https://github.com/TekRantGaming/point-blank-recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Point%20Blank%20%28USA%29.png",
+              "alt": "Point Blank box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Namco's Point Blank (PlayStation) via static recompilation (PSXRecomp). Aim with your mouse or a controller, no light gun needed. Bring...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TekRantGaming/point-blank-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "puyo-puyo-box",
+          "name_markdown": "[Puyo Puyo BOX](https://github.com/kirby1237/PuyoPuyoBoxRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Puyo%20Puyo%20Box%20%28Japan%29.png",
+              "alt": "Puyo Puyo BOX box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "a static recompilation of Puyo Puyo Box made with PSXrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kirby1237/PuyoPuyoBoxRecomp"
+            }
+          ]
+        },
+        {
+          "project": "rampage-through-time-rampage-through-time-recompiled",
+          "name_markdown": "[Rampage Through Time (Rampage Through Time Recompiled)](https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Rampage%20-%20Through%20Time%20%28USA%29.png",
+              "alt": "Rampage Through Time (Rampage Through Time Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-resident-evil-pc-decomp",
+          "name_markdown": "[Resident Evil (resident-evil-pc-decomp)](https://github.com/ecruells/resident-evil-pc-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Resident%20Evil%20%28USA%29.png",
+              "alt": "Resident Evil (resident-evil-pc-decomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Resident Evil 1 PC Port Decomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ecruells/resident-evil-pc-decomp"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-3-nemesis",
+          "name_markdown": "[Resident Evil 3: Nemesis](https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
+              "alt": "Resident Evil 3: Nemesis USA PlayStation box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Resident Evil 3: Nemesis: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp"
+            }
+          ]
+        },
+        {
+          "project": "ridge-racer-playstation-1",
+          "name_markdown": "[Ridge Racer](https://github.com/kazuyette/rr-decomp)",
+          "images": [
+            {
+              "alt": "Ridge Racer box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Ridge%20Racer%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Ridge Racer (PlayStation, Namco, 1994, SLPS-00001), and a static recompilation that boots and plays natively on Linux and Windows. No game...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kazuyette/rr-decomp"
+            }
+          ]
+        },
+        {
+          "project": "samurai-shodown-warriors-rage",
+          "name_markdown": "[Samurai Shodown: Warriors Rage](https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Samurai%20Shodown%20-%20Warriors%20Rage%20%28USA%29.png",
+              "alt": "Samurai Shodown: Warriors Rage box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan made port using mstans psxrecomp and no assets from the game nor bios or the game itself is included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/omegakatana92/Samuai-Shodown-Warriors-Rage-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "sexy-parodius",
+          "name_markdown": "[Sexy Parodius](https://github.com/NJH-1001/SexyParoRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Sexy%20Parodius%20%28Japan%29.png",
+              "alt": "Sexy Parodius box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Owned-input Windows x86-64 PSXRecomp project for Sexy Parodius (Japan, SLPM-86009)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NJH-1001/SexyParoRecomp"
+            }
+          ]
+        },
+        {
+          "project": "sheep-dog-n-wolf-sheep-raider-playstation-1",
+          "name_markdown": "[Sheep, Dog 'n' Wolf / Sheep Raider](https://github.com/SDW-Community/sdw-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Sheep%2C%20Dog%20%27n%27%20Wolf%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%29.png",
+              "alt": "Sheep Dog n' Wolf / Sheep Raider box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A byte-matching decompilation of Sheep, Dog 'n' Wolf (Sheep Raider, 2001, PC): source that compiles with the original Visual C++ 6.0 to the exact...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/SDW-Community/sdw-decomp"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-playstation-1",
+          "name_markdown": "[Silent Hill](https://github.com/Sezzary/SilentEngine)",
+          "images": [
+            {
+              "alt": "Silent Hill box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Silent%20Hill%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "WIP multi-platform port of Silent Hill 1 with a future-proof foundation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Sezzary/SilentEngine"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-silent-hill-decomp",
+          "name_markdown": "[Silent Hill (silent-hill-decomp)](https://github.com/SlickAmogus/silent-hill-decomp)",
+          "images": [
+            {
+              "alt": "Silent Hill box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Silent%20Hill%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Recompilation",
+              "url": "https://github.com/SlickAmogus/silent-hill-decomp"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-silent-hill-pc-nightly",
+          "name_markdown": "[Silent Hill (silent-hill-pc-nightly)](https://github.com/SlickAmogus/silent-hill-pc-nightly)",
+          "images": [
+            {
+              "alt": "Silent Hill box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Silent%20Hill%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Nightly builds of the AI-Assisted Silent Hill 1 PC port based on the PSX decompilation project. AI use: [maintainer statement](https://github.com/SlickAmogus/silent-hill-pc-nightly).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SlickAmogus/silent-hill-pc-nightly"
+            }
+          ]
+        },
+        {
+          "project": "spider-man",
+          "name_markdown": "[Spider-Man](https://github.com/krystalgamer/spidey-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Spider-Man%20%28USA%29.png",
+              "alt": "Spider-Man box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Neversoft's Spider-Man game (PC PORT)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/krystalgamer/spidey-decomp"
+            }
+          ]
+        },
+        {
+          "project": "spyro-2-ripto-s-rage",
+          "name_markdown": "[Spyro 2: Ripto's Rage!](https://github.com/TheMobyCollective/spyro-2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Spyro%202%20-%20Ripto%27s%20Rage%21%20%28USA%29.png",
+              "alt": "Spyro 2: Ripto's Rage! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Spyro 2 decompilation project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/TheMobyCollective/spyro-2"
+            }
+          ]
+        },
+        {
+          "project": "spyro-the-dragon-spyro1-reverse-engineering",
+          "name_markdown": "[Spyro the Dragon (spyro1-reverse-engineering)](https://github.com/C0mposer/spyro1-reverse-engineering)",
+          "images": [
+            {
+              "alt": "Spyro the Dragon box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Spyro%20the%20Dragon%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A reverse engineering project for the original Spyro the Dragon for the PS1",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/C0mposer/spyro1-reverse-engineering"
+            }
+          ]
+        },
+        {
+          "project": "spyro-year-of-the-dragon",
+          "name_markdown": "[Spyro: Year of the Dragon](https://github.com/TheMobyCollective/spyro-3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Spyro%20-%20Year%20of%20the%20Dragon%20%28USA%29.png",
+              "alt": "Spyro: Year of the Dragon box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Spyro: Year of the Dragon Decompilation Project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/TheMobyCollective/spyro-3"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-episode-i-jedi-power-battles",
+          "name_markdown": "[Star wars - Episode I - Jedi Power Battles](https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Star%20Wars%20-%20Episode%20I%20-%20Jedi%20Power%20Battles%20%28USA%29.png",
+              "alt": "Star wars - Episode I - Jedi Power Battles box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-masters-of-teras-kasi-mastersofteraskasirecomp",
+          "name_markdown": "[Star Wars: Masters of Teräs Käsi (MastersOfTerasKasiRecomp)](https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Star%20Wars%20-%20Masters%20of%20Teras%20Kasi%20%28USA%29.png",
+              "alt": "Star Wars: Masters of Teräs Käsi (MastersOfTerasKasiRecomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp"
+            }
+          ]
+        },
+        {
+          "project": "street-fighter-alpha-3",
+          "name_markdown": "[Street Fighter Alpha 3](https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Street%20Fighter%20Alpha%203%20%28USA%29.png",
+              "alt": "Street Fighter Alpha 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "street-fighter-ex-2-plus",
+          "name_markdown": "[Street Fighter EX 2 Plus](https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Street%20Fighter%20EX2%20Plus%20%28USA%29.png",
+              "alt": "Street Fighter EX 2 Plus box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Street Fighter EX2 Plus (PS1, SLUS-01105) on psxrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "street-fighter-ex-plus-alpha",
+          "name_markdown": "[Street Fighter EX Plus Alpha](https://github.com/guimaraf/plusalpha-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Street%20Fighter%20EX%20Plus%20Alpha%20%28USA%29.png",
+              "alt": "Street Fighter EX Plus Alpha box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/guimaraf/plusalpha-recomp"
+            }
+          ]
+        },
+        {
+          "project": "suikoden",
+          "name_markdown": "[Suikoden](https://github.com/alexbeavs-ps1-ports/suikoden-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Suikoden%20%28USA%29.png",
+              "alt": "Suikoden box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "suikoden: source for the standalone setup release candidate",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/suikoden-recomp"
+            }
+          ]
+        },
+        {
+          "project": "suikoden-ii",
+          "name_markdown": "[Suikoden II](https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Suikoden%20II%20%28USA%29.png",
+              "alt": "Suikoden II box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Suikoden II (PlayStation). Owned-input kit: you supply your own disc and BIOS.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp"
+            }
+          ]
+        },
+        {
+          "project": "syphon-filter-pc-recomp",
+          "name_markdown": "[Syphon Filter (PC Recomp)](https://github.com/Madxbio97/SF-pc-port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Syphon%20Filter%20%28USA%29.png",
+              "alt": "Syphon Filter (PC Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Madxbio97/SF-pc-port"
+            }
+          ]
+        },
+        {
+          "project": "syphon-filter-2",
+          "name_markdown": "[Syphon Filter 2](https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Syphon%20Filter%202%20%28USA%29.png",
+              "alt": "Syphon Filter 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental Syphon Filter 2 static recompilation for Windows using PSXRecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "tekken-3",
+          "name_markdown": "[Tekken 3](https://github.com/FishB0nes98/Tekken3Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tekken%203%20%28USA%29.png",
+              "alt": "Tekken 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Tekken 3 hybrid recompilation preview with Jun Kazama, widescreen, custom skins and local asset import tools.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/FishB0nes98/Tekken3Recompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/FishB0nes98/Tekken3Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "tenchu-stealth-assassins",
+          "name_markdown": "[Tenchu: Stealth Assassins](https://github.com/Heromachine/Tenchu-SA-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tenchu%20-%20Stealth%20Assassins%20%28USA%29.png",
+              "alt": "Tenchu: Stealth Assassins box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Tenchu: Stealth Assassins (PS1) to C#. Ships the tool, not the game -- bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Heromachine/Tenchu-SA-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "tokimeki-memorial-forever-with-you-playstation-1",
+          "name_markdown": "[Tokimeki Memorial: Forever with You](https://github.com/CosmicScribe64/tokimemo-ps1-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tokimeki%20Memorial%20-%20Forever%20with%20You%20%28Japan%29%20%28Rev%201%29.png",
+              "alt": "Tokimeki Memorial: Forever with You box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Tokimeki Memorial: Forever with You (PS1, Japan). Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/CosmicScribe64/tokimemo-ps1-decomp"
+            }
+          ]
+        },
+        {
+          "project": "tomba-2-the-evil-swine-return",
+          "name_markdown": "[Tomba! 2: The Evil Swine Return](https://github.com/mstan/Tomba2Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tomba%21%202%20-%20The%20Evil%20Swine%20Return%20%28USA%29.png",
+              "alt": "Tomba! 2: The Evil Swine Return box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Tomba! 2: The Evil Swine Return (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/Tomba2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "tombi",
+          "name_markdown": "[Tombi!](https://github.com/afsenovilla/Tombi-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tombi%21%20%28Europe%29%20%28En%2CEs%2CPt%2CSv%2CDa%29.png",
+              "alt": "Tombi! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A work-in-progress matching decompilation of Tombi! (known as Tomba! in North America and Ore! Tomba in Japan) for the original PlayStation. The goal is...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/afsenovilla/Tombi-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "tony-hawk-s-pro-skater-tony-was-a-pro-skater",
+          "name_markdown": "[Tony Hawk's Pro Skater (Tony Was A Pro Skater)](https://github.com/LANCommander/TonyWasAProSkater)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%20%28USA%29.png",
+              "alt": "Tony Hawk's Pro Skater (Tony Was A Pro Skater) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/LANCommander/TonyWasAProSkater"
+            }
+          ]
+        },
+        {
+          "project": "toystory2",
+          "name_markdown": "[ToyStory2](https://github.com/PeriBluGaming/ToyStory2Recomp)",
+          "images": [],
+          "notes_markdown": "Toy Story 2 - Buzz Lightyear so the Rescue (USA)! recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/PeriBluGaming/ToyStory2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "twinbee-paradise-in-donburi-shima",
+          "name_markdown": "[TwinBee PARADISE in Donburi Shima](https://github.com/Jhuyghue/donburi-recomp)",
+          "images": [],
+          "notes_markdown": "Researching of TwinBee PARADISE in Donburi Island. Doing research and documentation on how the game operates in the orginal engine and works on different...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Jhuyghue/donburi-recomp"
+            }
+          ]
+        },
+        {
+          "project": "twisted-metal-1-4",
+          "name_markdown": "[Twisted Metal 1-4](https://github.com/jcoker85/TwistedMetal1234Recomp)",
+          "images": [],
+          "notes_markdown": "Twisted Metal 1-4 (USA) recompiled for PC using psxrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jcoker85/TwistedMetal1234Recomp"
+            }
+          ]
+        },
+        {
+          "project": "twisted-metal-4-twistedmetal4-recompiled",
+          "name_markdown": "[Twisted Metal 4 (TwistedMetal4 Recompiled)](https://github.com/TechnicallyComputers/TwistedMetal4Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Twisted%20Metal%204%20%28USA%29.png",
+              "alt": "Twisted Metal 4 (TwistedMetal4 Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TechnicallyComputers/TwistedMetal4Recomp"
+            }
+          ]
+        },
+        {
+          "project": "vagrant-story-playstation-1",
+          "name_markdown": "[Vagrant Story](https://github.com/noprompt/rood-boi)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Vagrant%20Story%20%28USA%29.png",
+              "alt": "Vagrant Story box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Vagrant Story on the rood-reverse decompilation: Vulkan ray tracing, path-traced GI, live editor. Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/noprompt/rood-boi"
+            }
+          ]
+        },
+        {
+          "project": "vagrant-story-vs-nativeport",
+          "name_markdown": "[Vagrant Story (VS-NativePort)](https://github.com/JEschete/VS-NativePort)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Vagrant%20Story%20%28USA%29.png",
+              "alt": "Vagrant Story box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/JEschete/VS-NativePort"
+            }
+          ]
+        },
+        {
+          "project": "vigilante-8-vigilante-8-2nd-offense",
+          "name_markdown": "[Vigilante 8 / Vigilante 8: 2nd Offense](https://github.com/GTTeancum/Vigilante-8-recomp)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GTTeancum/Vigilante-8-recomp"
+            }
+          ]
+        },
+        {
+          "project": "wipeout-playstation-1",
+          "name_markdown": "[Wipeout](https://github.com/jnmartin84/wipeout-dc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wipeout%20%28USA%29.png",
+              "alt": "Wipeout box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dreamcast port of wipeout-rewrite",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jnmartin84/wipeout-dc"
+            }
+          ]
+        },
+        {
+          "project": "wipeout-xl-wipeout-xl-recompiled",
+          "name_markdown": "[Wipeout XL (Wipeout XL Recompiled)](https://github.com/NJH-1001/Wipeout2K97XL)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Wipeout%20XL%20%28USA%29.png",
+              "alt": "Wipeout XL (Wipeout XL Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Wipeout XL USA SCUS-94351 setup kits for Windows x64 and Linux/macOS previews. OpenBIOS, configurable NeGcon dual sticks, optional widescreen and extended draw distance. Supply...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NJH-1001/Wipeout2K97XL"
+            }
+          ]
+        },
+        {
+          "project": "xenogears-recomp",
+          "name_markdown": "[Xenogears (Recomp)](https://github.com/OpokXeno/xenogears-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Xenogears%20%28USA%29.png",
+              "alt": "Xenogears (non-matching) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Xenogears for PC",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/OpokXeno/xenogears-recomp"
+            }
+          ]
+        },
+        {
+          "project": "xenogears-xenogears-decomp-port",
+          "name_markdown": "[Xenogears (xenogears-decomp-port)](https://github.com/Blizz127/xenogears-decomp-port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Xenogears%20%28USA%29.png",
+              "alt": "Xenogears (non-matching) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Xenogears Decomp and Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Blizz127/xenogears-decomp-port"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-forbidden-memories-playstation-1",
+          "name_markdown": "[Yu-Gi-Oh! Forbidden Memories](https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20%28USA%29.png",
+              "alt": "Yu-Gi-Oh! Forbidden Memories box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp"
+            }
+          ]
+        },
+        {
+          "project": "yu-gi-oh-forbidden-memories-memories-decomp",
+          "name_markdown": "[Yu-Gi-Oh! Forbidden Memories (memories-decomp)](https://github.com/krystalgamer/memories-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20%28USA%29.png",
+              "alt": "Yu-Gi-Oh! Forbidden Memories box art for PlayStation 1",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/krystalgamer/memories-decomp"
+            }
+          ]
+        },
+        {
+          "project": "jackie-chan-stuntmaster-rechan",
+          "name_markdown": "[Jackie Chan Stuntmaster (ReChan)](https://github.com/SilverwireGames/ReChan)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jackie%20Chan%20Stuntmaster%20%28USA%29.png",
+              "alt": "Jackie Chan Stuntmaster (ReChan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Jackie Chan Stuntmaster reimplementation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/SilverwireGames/ReChan"
+            }
+          ]
+        },
+        {
+          "project": "legend-of-legaia-playstation-1",
+          "name_markdown": "[Legend of Legaia](https://github.com/AndrewAltimit/legend-of-legaia-re)",
+          "images": [
+            {
+              "alt": "Legend of Legaia box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legend%20of%20Legaia%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse-engineering Legend of Legaia (PSX, 1999): Ghidra-traced format documentation, Rust extractors for every asset on the disc, and an engine reimplementation targeting wgpu/SDL3 with...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/AndrewAltimit/legend-of-legaia-re"
             }
           ]
         }

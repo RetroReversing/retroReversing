@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "idle-office-tycoon": {
+      "name": "Idle Office Tycoon",
+      "platforms": [
+        "iOS"
+      ],
+      "repository_url": "https://github.com/Avenze/ios_reverse_engineering",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-06-01T14:04:05Z",
+        "last_commit_url": "https://github.com/Avenze/ios_reverse_engineering/commit/6cad54131aeca1335b93198a254d7d5013254d43",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "ultimate-mk3-ios": {
+      "name": "Ultimate MK3 iOS",
+      "platforms": [
+        "iOS"
+      ],
+      "repository_url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:40:38Z",
+        "last_commit_url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled/commit/c18f85e0ed28041fb143963fba2ac8d025213670",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 44
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "ios": {
+      "name": "iOS",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "idle-office-tycoon",
+          "name_markdown": "[Idle Office Tycoon](https://github.com/Avenze/ios_reverse_engineering)",
+          "images": [],
+          "notes_markdown": "A repository detailing my decompilation and disassembly process of the reverse engineering of the iOS game Idle Office Tycoon",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Avenze/ios_reverse_engineering"
+            }
+          ]
+        },
+        {
+          "project": "ultimate-mk3-ios",
+          "name_markdown": "[Ultimate MK3 iOS](https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled)",
+          "images": [],
+          "notes_markdown": "Ultimate Mortal Kombat 3 (iOS, EA Mobile 2011), fully decompiled: all 2,572 game functions are readable C, checked against a static ARM-to-C recompiler. Native...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

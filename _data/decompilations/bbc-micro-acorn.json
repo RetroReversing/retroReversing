@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "aviator-aviator-source-code-bbc-micro-mark-moxon": {
+      "name": "Aviator (aviator-source-code-bbc-micro (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/aviator-source-code-bbc-micro",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-01T10:40:38Z",
+        "last_commit_url": "https://github.com/markmoxon/aviator-source-code-bbc-micro/commit/d613d80fcb08a855c4cf7fdd305270808d2de8e7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 59
+      },
+      "ai_used": null
+    },
+    "elite-c64-elite-flicker-free-mark-moxon": {
+      "name": "Elite (c64-elite-flicker-free (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/c64-elite-flicker-free",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-01T10:41:59Z",
+        "last_commit_url": "https://github.com/markmoxon/c64-elite-flicker-free/commit/16e8d2edc9205d6d8e66a4e8efb1af82fe18f574",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 96
+      },
+      "ai_used": null
+    },
+    "elite-elite-a-source-code-bbc-micro-mark-moxon": {
+      "name": "Elite (elite-a-source-code-bbc-micro (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-a-source-code-bbc-micro",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:11:17Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-a-source-code-bbc-micro/commit/75433e92e4914f970b14132fce6c8da68da5692f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 60
+      },
+      "ai_used": null
+    },
+    "elite-elite-source-code-6502-second-processor-mark-moxon": {
+      "name": "Elite (elite-source-code-6502-second-processor (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-6502-second-processor",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T12:27:01Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-6502-second-processor/commit/9080bd09c814b43c9c82571493c74bfb447aa607",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 41
+      },
+      "ai_used": null
+    },
+    "elite-elite-source-code-acorn-electron-mark-moxon": {
+      "name": "Elite (elite-source-code-acorn-electron (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-acorn-electron",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:10:36Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-acorn-electron/commit/15fbf590f1bab3a23b203ada30a07afc14d05762",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "elite-elite-source-code-apple-ii-mark-moxon": {
+      "name": "Elite (elite-source-code-apple-ii (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-apple-ii",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:28:43Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-apple-ii/commit/f0f3811581fdb1155c5f3973d2882149f2a71c5f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "elite-elite-source-code-bbc-master-mark-moxon": {
+      "name": "Elite (elite-source-code-bbc-master (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-bbc-master",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:10:27Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-bbc-master/commit/b892ec6be38c929a82083b73fdbb1bddbcdfc881",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "elite-elite-source-code-bbc-micro-disc-mark-moxon": {
+      "name": "Elite (elite-source-code-bbc-micro-disc (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-bbc-micro-disc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:10:10Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-bbc-micro-disc/commit/379deffe94fdb9dd9634e0b642e4d34995edc61f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 53
+      },
+      "ai_used": null
+    },
+    "lander-lander-source-code-acorn-archimedes-mark-moxon": {
+      "name": "Lander (lander-source-code-acorn-archimedes (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/lander-source-code-acorn-archimedes",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T10:58:03Z",
+        "last_commit_url": "https://github.com/markmoxon/lander-source-code-acorn-archimedes/commit/767744bc01d56b75eaa1a50f2249189f6d7e7835",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 111
+      },
+      "ai_used": null
+    },
+    "repton-ajgbarnes-bbc-micro-repton": {
+      "name": "Repton (ajgbarnes bbc-micro-repton)",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/ajgbarnes/bbc-micro-repton",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-12-03T13:09:32Z",
+        "last_commit_url": "https://github.com/ajgbarnes/bbc-micro-repton/commit/993bd7eef8780f909072e27251f2b2a2eaad1af3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "revs-revs-source-code-bbc-micro-mark-moxon": {
+      "name": "Revs (revs-source-code-bbc-micro (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/revs-source-code-bbc-micro",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-01T10:40:44Z",
+        "last_commit_url": "https://github.com/markmoxon/revs-source-code-bbc-micro/commit/d6cba7e75ce2a7489b96ec958ac50916d7797dd6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 42
+      },
+      "ai_used": null
+    },
+    "the-sentinel-the-sentinel-source-code-bbc-micro-mark-moxon": {
+      "name": "The Sentinel (the-sentinel-source-code-bbc-micro (Mark Moxon))",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/markmoxon/the-sentinel-source-code-bbc-micro",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-01T10:41:00Z",
+        "last_commit_url": "https://github.com/markmoxon/the-sentinel-source-code-bbc-micro/commit/cc4eaa11b734ad5b2de969cbf214d68404942641",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 59
+      },
+      "ai_used": null
+    },
+    "thrust-kieranhj-thrust-disassembly": {
+      "name": "Thrust (kieranhj thrust-disassembly)",
+      "platforms": [
+        "BBC Micro / Acorn"
+      ],
+      "repository_url": "https://github.com/kieranhj/thrust-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T10:19:21Z",
+        "last_commit_url": "https://github.com/kieranhj/thrust-disassembly/commit/3ad3693d75cf48c0e012999f81c66955d35fcd0c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 27
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "bbc-micro-acorn": {
+      "name": "BBC Micro / Acorn",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "aviator-aviator-source-code-bbc-micro-mark-moxon",
+          "name_markdown": "[Aviator (aviator-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/aviator-source-code-bbc-micro)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Aviator on the BBC Micro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/aviator-source-code-bbc-micro"
+            }
+          ]
+        },
+        {
+          "project": "elite-c64-elite-flicker-free-mark-moxon",
+          "name_markdown": "[Elite (c64-elite-flicker-free (Mark Moxon))](https://github.com/markmoxon/c64-elite-flicker-free)",
+          "images": [],
+          "notes_markdown": "A patch for Commodore 64 and Plus/4 Elite that removes the flicker",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/c64-elite-flicker-free"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-a-source-code-bbc-micro-mark-moxon",
+          "name_markdown": "[Elite (elite-a-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/elite-a-source-code-bbc-micro)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for Angus Duggan's classic game Elite-A on the BBC Micro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-a-source-code-bbc-micro"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-source-code-6502-second-processor-mark-moxon",
+          "name_markdown": "[Elite (elite-source-code-6502-second-processor (Mark Moxon))](https://github.com/markmoxon/elite-source-code-6502-second-processor)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Elite on the BBC Micro with a 6502 Second Processor",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-6502-second-processor"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-source-code-acorn-electron-mark-moxon",
+          "name_markdown": "[Elite (elite-source-code-acorn-electron (Mark Moxon))](https://github.com/markmoxon/elite-source-code-acorn-electron)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Elite on the Acorn Electron",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-acorn-electron"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-source-code-apple-ii-mark-moxon",
+          "name_markdown": "[Elite (elite-source-code-apple-ii (Mark Moxon))](https://github.com/markmoxon/elite-source-code-apple-ii)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Elite on the Apple II",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-apple-ii"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-source-code-bbc-master-mark-moxon",
+          "name_markdown": "[Elite (elite-source-code-bbc-master (Mark Moxon))](https://github.com/markmoxon/elite-source-code-bbc-master)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Elite on the BBC Master",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-bbc-master"
+            }
+          ]
+        },
+        {
+          "project": "elite-elite-source-code-bbc-micro-disc-mark-moxon",
+          "name_markdown": "[Elite (elite-source-code-bbc-micro-disc (Mark Moxon))](https://github.com/markmoxon/elite-source-code-bbc-micro-disc)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the disc version of the classic game Elite on the BBC Micro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-bbc-micro-disc"
+            }
+          ]
+        },
+        {
+          "project": "lander-lander-source-code-acorn-archimedes-mark-moxon",
+          "name_markdown": "[Lander (lander-source-code-acorn-archimedes (Mark Moxon))](https://github.com/markmoxon/lander-source-code-acorn-archimedes)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Lander on the Acorn Archimedes",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/lander-source-code-acorn-archimedes"
+            }
+          ]
+        },
+        {
+          "project": "repton-ajgbarnes-bbc-micro-repton",
+          "name_markdown": "[Repton (ajgbarnes bbc-micro-repton)](https://github.com/ajgbarnes/bbc-micro-repton)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ajgbarnes/bbc-micro-repton"
+            }
+          ]
+        },
+        {
+          "project": "revs-revs-source-code-bbc-micro-mark-moxon",
+          "name_markdown": "[Revs (revs-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/revs-source-code-bbc-micro)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game Revs on the BBC Micro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/revs-source-code-bbc-micro"
+            }
+          ]
+        },
+        {
+          "project": "the-sentinel-the-sentinel-source-code-bbc-micro-mark-moxon",
+          "name_markdown": "[The Sentinel (the-sentinel-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/the-sentinel-source-code-bbc-micro)",
+          "images": [],
+          "notes_markdown": "Fully documented source code for the classic game The Sentinel on the BBC Micro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/the-sentinel-source-code-bbc-micro"
+            }
+          ]
+        },
+        {
+          "project": "thrust-kieranhj-thrust-disassembly",
+          "name_markdown": "[Thrust (kieranhj thrust-disassembly)](https://github.com/kieranhj/thrust-disassembly)",
+          "images": [],
+          "notes_markdown": "Reverse engineered source to BBC Thrust",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/kieranhj/thrust-disassembly"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

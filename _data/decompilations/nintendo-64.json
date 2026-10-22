@@ -2112,6 +2112,2001 @@
         "github_stars": 57
       },
       "ai_used": null
+    },
+    "1080-snowboarding": {
+      "name": "1080° Snowboarding",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/djsaunde/1080-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:23:34Z",
+        "last_commit_url": "https://github.com/djsaunde/1080-decomp/commit/30a14f0db97da06288a3d1fe186fe56ed96af528",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "animal-forest-animal-forest-psp": {
+      "name": "Animal Forest (animal_forest_psp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/bruder-grimm/animal_forest_psp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T11:38:13Z",
+        "last_commit_url": "https://github.com/bruder-grimm/animal_forest_psp/commit/7010cce9e5d37b99215af042602f7e2df820789d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "automobili-lamborghini": {
+      "name": "Automobili Lamborghini",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/alondero/automobililamborghini-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T21:00:46Z",
+        "last_commit_url": "https://github.com/alondero/automobililamborghini-recomp/commit/982ee9d45fee4f8e48191f83bf5e68ccd040aaa6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "banjo-kazooie-banjo-kazooie": {
+      "name": "Banjo-Kazooie (banjo-kazooie)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/n64decomp/banjo-kazooie",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-28T08:05:33Z",
+        "last_commit_url": "https://github.com/n64decomp/banjo-kazooie/commit/e8d31fa53645616fcac6e051543222b973a2edb0",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 658
+      },
+      "ai_used": null
+    },
+    "banjo-kazooie-banjo-recompiled-android-port": {
+      "name": "Banjo-Kazooie (Banjo: Recompiled [Android Port])",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/AurelioB/BanjoRecomp-Android",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-13T04:40:14Z",
+        "last_commit_url": "https://github.com/AurelioB/BanjoRecomp-Android/commit/2966e05b808afdf7fb82cb3f07397aa9383b02f1",
+        "default_branch": "android",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 110
+      },
+      "ai_used": null
+    },
+    "banjo-kazooie-lighthouse": {
+      "name": "Banjo-Kazooie (Lighthouse)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/HarbourMasters/Lighthouse",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T00:07:59Z",
+        "last_commit_url": "https://github.com/HarbourMasters/Lighthouse/commit/dd6b84b6de9298b04409d52448fa3664a5d9159a",
+        "default_branch": "develop",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 519
+      },
+      "ai_used": null
+    },
+    "banjo-tooie-banjo-tooie-recompiled": {
+      "name": "Banjo-Tooie (Banjo-Tooie: Recompiled)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Vidanox/BanjoTooieRecompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-17T18:53:01Z",
+        "last_commit_url": "https://github.com/Vidanox/BanjoTooieRecompiled/commit/9ebab5c2552f74429444106d04e73f32ce6346a8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "battletanx-nintendo-64": {
+      "name": "BattleTanx",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/AbuN64/battletanx-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T01:06:16Z",
+        "last_commit_url": "https://github.com/AbuN64/battletanx-decomp/commit/24027254213d40858a6071ef34d0aa4fe1938106",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "battletanx-global-assault-btgarecomp": {
+      "name": "BattleTanx: Global Assault (BTGARecomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/wootbeer/btgarecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T22:08:02Z",
+        "last_commit_url": "https://github.com/wootbeer/btgarecomp/commit/04d489c23302cf8f4c84355a51617e1944198ee3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "battlezone-rise-of-the-black-dogs-bzrecomp": {
+      "name": "Battlezone: Rise of the Black Dogs (BZRecomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/wootbeer/bzrecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T00:59:40Z",
+        "last_commit_url": "https://github.com/wootbeer/bzrecomp/commit/89be9674c28c5a488addb2f8173efc5862ef0dd6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "beetle-adventure-racing-recomp": {
+      "name": "Beetle Adventure Racing! (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-20T11:58:05Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp/commit/6497e67257809401468cd47850393775952b31bb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 67
+      },
+      "ai_used": null
+    },
+    "blast-corps-power-dozer": {
+      "name": "Blast Corps (Power Dozer)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/djultra64/Power-Dozer",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T11:39:01Z",
+        "last_commit_url": "https://github.com/djultra64/Power-Dozer/commit/49c78dd9e181969d581e83a5b79a4f48727c4781",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "body-harvest-recomp": {
+      "name": "Body Harvest (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/body-harvest-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-17T15:32:06Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/body-harvest-recomp/commit/711a2b6fe2a3843ecbf31941d439be858948d7f4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "castlevania-64-cv64-recomp": {
+      "name": "Castlevania 64 (CV64-Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/spacefarergames/CV64-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-02-15T20:26:19Z",
+        "last_commit_url": "https://github.com/spacefarergames/CV64-Recomp/commit/7cd38d720fb1ec395c2da0ad1fb6291cad3f1f9a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "castlevania-64-recomp": {
+      "name": "Castlevania 64 (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RevoSucks/CV64Recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-06T02:36:45Z",
+        "last_commit_url": "https://github.com/RevoSucks/CV64Recomp/commit/141b35d8902a6c74e247988df26d394822f8026c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "castlevania-legacy-of-darkness": {
+      "name": "Castlevania: Legacy of Darkness",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/fliperama86/cvlod_recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T05:50:50Z",
+        "last_commit_url": "https://github.com/fliperama86/cvlod_recomp/commit/9e213e00b52b22c3f13b3576058792f3f82dfa25",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 136
+      },
+      "ai_used": null
+    },
+    "conker-s-bad-fur-day-conker64-recompiled": {
+      "name": "Conker's Bad Fur Day (conker64-recompiled)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Conker64Recomp/conker64-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-02T01:08:22Z",
+        "last_commit_url": "https://github.com/Conker64Recomp/conker64-recompiled/commit/0a9dbbf409accdcc0bebd676455de4f5a192f7e5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 36
+      },
+      "ai_used": null
+    },
+    "diddy-kong-racing-goldenballoon": {
+      "name": "Diddy Kong Racing (goldenballoon)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/akratch/goldenballoon",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T21:32:26Z",
+        "last_commit_url": "https://github.com/akratch/goldenballoon/commit/2b69e748ec04f87a4dc6f032c598726de1b0e813",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 183
+      },
+      "ai_used": null
+    },
+    "doom-64-doom64-dc": {
+      "name": "Doom 64 (doom64-dc)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jnmartin84/doom64-dc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-21T19:29:42Z",
+        "last_commit_url": "https://github.com/jnmartin84/doom64-dc/commit/799ccb9fa252fb026deddaf1839835c73da25549",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "doraemon-nobita-to-mittsu-no-seireiseki-recomp": {
+      "name": "Doraemon: Nobita to Mittsu no Seireiseki (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/citrongames/Dora64",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-26T09:50:50Z",
+        "last_commit_url": "https://github.com/citrongames/Dora64/commit/680d81feb4c57309ba80536300d73725ea9dffaa",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310": {
+      "name": "Duke Nukem: Zero Hour (DukeNukemZeroHourPort (Gillou68310))",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Gillou68310/DukeNukemZeroHourPort",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-11-06T10:31:02Z",
+        "last_commit_url": "https://github.com/Gillou68310/DukeNukemZeroHourPort/commit/4b9104b0f7877c80859ef6685534dd41c9e04736",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "evo-s-space-adventures": {
+      "name": "Evo's Space Adventures",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/mkst/esa",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-10T10:03:16Z",
+        "last_commit_url": "https://github.com/mkst/esa/commit/914e9dbd1414eed3ae890da11ec16d77a590c23c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "f-zero-x-f-zerox": {
+      "name": "F-Zero X (f-zerox)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/BttrDrgn/f-zerox",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-05-23T18:13:05Z",
+        "last_commit_url": "https://github.com/BttrDrgn/f-zerox/commit/3880655cb759f69e64802c9104ae345c6424232c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 41
+      },
+      "ai_used": null
+    },
+    "f-zero-x-gdx-3ds": {
+      "name": "F-Zero X (gdx-3ds)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/cruxxxxxx/gdx-3ds",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T01:51:45Z",
+        "last_commit_url": "https://github.com/cruxxxxxx/gdx-3ds/commit/bf8ed600255970f1e1e1b1eeb541979113400ce5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "glover-glover-decomp": {
+      "name": "Glover (glover-decomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/djsaunde/glover-decomp-1",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-03-24T03:18:59Z",
+        "last_commit_url": "https://github.com/djsaunde/glover-decomp-1/commit/670e02e5824f2671513cc6b376023351d26e8160",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "glover-recomp": {
+      "name": "Glover (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ThatGuyMcd/Glover-R",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-06T14:56:07Z",
+        "last_commit_url": "https://github.com/ThatGuyMcd/Glover-R/commit/32b8f4017de4d2832562814919b04473168485b2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "goldeneye-007-nintendo-64": {
+      "name": "GoldenEye 007",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/goldenpad",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-04T01:50:11Z",
+        "last_commit_url": "https://github.com/chrissotraidis/goldenpad/commit/52bb67328c2cc4b98b4242ba0539985bd61fc2d3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 188
+      },
+      "ai_used": null
+    },
+    "goldeneye-007-goldeneye-metal": {
+      "name": "GoldenEye 007 (goldeneye-metal)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ysrdevs/goldeneye-metal",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T20:09:29Z",
+        "last_commit_url": "https://github.com/ysrdevs/goldeneye-metal/commit/d9ea7daf295b6d3ea1eed33ff789a9bdf534bfe3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 86
+      },
+      "ai_used": null
+    },
+    "goldeneye-007-goldeneye-recomp-server-online-play-for-goldeneye-recomp": {
+      "name": "GoldenEye 007 (GoldenEye-Recomp-Server (online play for GoldenEye recomp))",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/SunJaycy/GoldenEye-Recomp-Server",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-06-12T15:52:35Z",
+        "last_commit_url": "https://github.com/SunJaycy/GoldenEye-Recomp-Server/commit/225c64eede97e7bfec977d63bcb0cc9454bf30d7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "goldeneye-007-goldenrecomp": {
+      "name": "GoldenEye 007 (GoldenRecomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/kholdfuzion/GoldenRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-05T04:36:48Z",
+        "last_commit_url": "https://github.com/kholdfuzion/GoldenRecomp/commit/f31b5d1e214f57c9ddb3dc598daa688bccffdd4f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 219
+      },
+      "ai_used": null
+    },
+    "hey-you-pikachu": {
+      "name": "Hey You, Pikachu!",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/farisawan-2000/hey_you_pikachu",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-04-13T23:34:06Z",
+        "last_commit_url": "https://github.com/farisawan-2000/hey_you_pikachu/commit/3dc6d6ad7e7298d08277da723dffdcaad3d44938",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "hybrid-heaven-nintendo-64": {
+      "name": "Hybrid Heaven",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-19T19:29:19Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp/commit/467bd1be98c8759730faf3f96edeca4674c4f2dc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "hybrid-heaven-nintendo-64-ogdanimal": {
+      "name": "Hybrid Heaven",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ogdanimal/HybridHeaven-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T23:13:01Z",
+        "last_commit_url": "https://github.com/ogdanimal/HybridHeaven-Recomp/commit/faef6b4da84a720555d1cd809487b332cad9329f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "hybrid-heaven-recomp": {
+      "name": "Hybrid Heaven (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/hunkstalker/hybrid-heaven-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T18:16:05Z",
+        "last_commit_url": "https://github.com/hunkstalker/hybrid-heaven-recomp/commit/739a2d881755e545df7385224b22ed8459d29294",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "jet-force-gemini-nintendo-64": {
+      "name": "Jet Force Gemini",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/VibinToast/JetForceGemini-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T17:40:05Z",
+        "last_commit_url": "https://github.com/VibinToast/JetForceGemini-Recomp/commit/58249b666b7da4031d60482a48a8d21ebfa56f92",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "kirby-and-the-crystal-shards": {
+      "name": "Kirby and the Crystal Shards",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Kirby64Ret/Kirby64Recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-18T12:50:31Z",
+        "last_commit_url": "https://github.com/Kirby64Ret/Kirby64Recomp/commit/480ed7e2a3160087bbe5f680f08e601eef7a4d69",
+        "default_branch": "dev",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "knife-edge-nose-gunner": {
+      "name": "Knife Edge - Nose Gunner",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/disi33/KE-NG_Reversing",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-04-01T13:31:34Z",
+        "last_commit_url": "https://github.com/disi33/KE-NG_Reversing/commit/763400c88aa4a7c9db0340e8e73cd03325cc57bd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-majora-s-mask-mmrecomprando": {
+      "name": "The Legend of Zelda: Majora's Mask (MMRecompRando)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RecompRando/MMRecompRando",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-04T03:01:06Z",
+        "last_commit_url": "https://github.com/RecompRando/MMRecompRando/commit/27ed1ad0b7113e5e97564aac636852a5aff622f8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-majora-s-mask-zelda64-recompiled-android": {
+      "name": "The Legend of Zelda: Majora's Mask (Zelda64 Recompiled [Android])",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/linkzenic/Zelda64Recomp-Android",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-09T22:58:33Z",
+        "last_commit_url": "https://github.com/linkzenic/Zelda64Recomp-Android/commit/41b2bb73443b8fe94ce22ac16416b408466d3bde",
+        "default_branch": "android-port",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 44
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-ocarina-of-time-nintendo-64": {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/blawar/ooot",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-04-22T01:53:30Z",
+        "last_commit_url": "https://github.com/blawar/ooot/commit/d9c19b5345a808e01694613bf61fa879cf3eb659",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 705
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-ocarina-of-time-oot-dc": {
+      "name": "The Legend of Zelda: Ocarina of Time (oot-dc)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jnmartin84/oot-dc",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-11T20:30:25Z",
+        "last_commit_url": "https://github.com/jnmartin84/oot-dc/commit/a775fec1ec9674f63288b50ea3a79cdea57fe4d6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-ocarina-of-time-oot-psp": {
+      "name": "The Legend of Zelda: Ocarina of Time (oot-PSP)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/z2442/oot-PSP",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T23:18:01Z",
+        "last_commit_url": "https://github.com/z2442/oot-PSP/commit/ac15528c4e20cedc881a5a370979a60a8f08cabe",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 90
+      },
+      "ai_used": null
+    },
+    "mabecs-international-superstar-soccer-2000": {
+      "name": "Mabecs International Superstar Soccer 2000",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Mabec-games/iss2000-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T18:40:47Z",
+        "last_commit_url": "https://github.com/Mabec-games/iss2000-recomp/commit/22a3f1b3f3cded4f57151e1c6c55879933931f2e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "mario-golf-recomp": {
+      "name": "Mario Golf (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Rainchus/MarioGolf64",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-06-20T21:16:13Z",
+        "last_commit_url": "https://github.com/Rainchus/MarioGolf64/commit/399d33e5088652a20ace3627dbc4b4d613432ff8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "mario-kart-64-mk64recomp": {
+      "name": "Mario Kart 64 (MK64Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/arefdsg/MK64Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-24T20:09:21Z",
+        "last_commit_url": "https://github.com/arefdsg/MK64Recomp/commit/77cd6127d5fe6e2f30f63fd0625eb3367884232c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "mario-kart-64-spaghettikart-android-port": {
+      "name": "Mario Kart 64 (SpaghettiKart [Android Port])",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/izzy2lost/SpaghettiKart",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-03T01:30:36Z",
+        "last_commit_url": "https://github.com/izzy2lost/SpaghettiKart/commit/9253aad869c96a8e660f707a74fe57c5d4ebdd2a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 113
+      },
+      "ai_used": null
+    },
+    "mario-party-3-recomp": {
+      "name": "Mario Party 3 (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Rainchus/MarioParty3-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-03-17T03:11:39Z",
+        "last_commit_url": "https://github.com/Rainchus/MarioParty3-Recomp/commit/538f3fcd5d50bc988004a5273f574fc8baaa7a80",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "mega-man-64": {
+      "name": "Mega Man 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-04-30T19:46:46Z",
+        "last_commit_url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled/commit/62d2e3e4061490a85e0332af63d9a858f10cd0d2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 276
+      },
+      "ai_used": null
+    },
+    "mischief-makers-recomp": {
+      "name": "Mischief Makers (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T03:50:46Z",
+        "last_commit_url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp/commit/ef89277812f31895b2902cf4e61780f2dd021644",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 97
+      },
+      "ai_used": null
+    },
+    "mystical-ninja-starring-goemon-nintendo-64": {
+      "name": "Mystical Ninja Starring Goemon",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ogdanimal/Goemon64Recomp-Android",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T23:12:58Z",
+        "last_commit_url": "https://github.com/ogdanimal/Goemon64Recomp-Android/commit/f2614817ce51aebf15069a8b0f032139cc5aff25",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "n64-classic-rush-2": {
+      "name": "N64 Classic: Rush 2",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/bryantmh/rush2recompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T00:05:14Z",
+        "last_commit_url": "https://github.com/bryantmh/rush2recompiled/commit/f65532d0565c00ea72da8346b06c5feb5575a976",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 56
+      },
+      "ai_used": null
+    },
+    "paper-mario-nintendo-64": {
+      "name": "Paper Mario",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/SecondaryLifer/StarHaven",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T17:22:14Z",
+        "last_commit_url": "https://github.com/SecondaryLifer/StarHaven/commit/fe8f795894da666761a9f00934fc4790e0f30ecc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 59
+      },
+      "ai_used": null
+    },
+    "paper-mario-pmvita": {
+      "name": "Paper Mario ( pmvita)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/versacepapermario/papermario-pc-upload",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-03-30T09:59:37Z",
+        "last_commit_url": "https://github.com/versacepapermario/papermario-pc-upload/commit/2f10454b8fb2b72ecc4001e8aa502ae24a9c172c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "paper-mario-papermario-dx-engine-fork": {
+      "name": "Paper Mario (papermario-dx (engine fork))",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/bates64/papermario-dx",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T08:41:19Z",
+        "last_commit_url": "https://github.com/bates64/papermario-dx/commit/3adac62ca108e4a373bbc7f04e8361f52625fc6f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 125
+      },
+      "ai_used": null
+    },
+    "paper-mario-papermariodecompilation": {
+      "name": "Paper Mario (PaperMarioDecompilation)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/PaperMarioDecompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-06-12T10:37:26Z",
+        "last_commit_url": "https://github.com/RetroReversing/PaperMarioDecompilation/commit/64976a4bf7578e12ae101fe7a8da7245d3935303",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "paper-mario-recomp": {
+      "name": "Paper Mario (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/lucyawrey/Paper_Mario_64_Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-08T20:39:51Z",
+        "last_commit_url": "https://github.com/lucyawrey/Paper_Mario_64_Recomp/commit/09dcb129ab4c3ab5ae4d1838841f05decb6e7b26",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "perfect-dark-perfect-dark-port-android": {
+      "name": "Perfect Dark (Perfect Dark Port [Android])",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/izzy2lost/perfect_dark",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-20T22:43:14Z",
+        "last_commit_url": "https://github.com/izzy2lost/perfect_dark/commit/0bc2e28d142bdfbf9b4aa7b19014ccb0e5202c80",
+        "default_branch": "port",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 104
+      },
+      "ai_used": null
+    },
+    "pokemon-snap-nintendo-64": {
+      "name": "Pokémon Snap",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/snappad",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T05:38:58Z",
+        "last_commit_url": "https://github.com/chrissotraidis/snappad/commit/93d8fc03d546909aec30c51fad18fe0eac4457d7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "pokemon-stadium-nintendo-64": {
+      "name": "Pokémon Stadium",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/annepad",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T09:28:14Z",
+        "last_commit_url": "https://github.com/chrissotraidis/annepad/commit/360eabc22d19c67de5d6c1256881085c34e9a450",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "pokemon-stadium-pokemonstadium": {
+      "name": "Pokémon Stadium (pokemonstadium)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ethteck/pokemonstadium",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-10-17T07:54:10Z",
+        "last_commit_url": "https://github.com/ethteck/pokemonstadium/commit/bb442d403f5ebb28ee50687c842464024268dfea",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 41
+      },
+      "ai_used": null
+    },
+    "quest-64-nintendo-64": {
+      "name": "Quest 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Mallos31/Quest",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-11-22T17:40:32Z",
+        "last_commit_url": "https://github.com/Mallos31/Quest/commit/401fe0edbad858057d6bf7d05335f88c8a3faf41",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "quest-64-quest-64-tale-recompiled": {
+      "name": "Quest 64 (Quest 64 Tale: Recompiled)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/boricuapab/quest64tale-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T01:49:42Z",
+        "last_commit_url": "https://github.com/boricuapab/quest64tale-recompiled/commit/ef5410af09678710b37685ed075766cb9529582f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "road-rash-64": {
+      "name": "Road Rash 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/linkssy2/RoadRash64Recompiled",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T21:39:24Z",
+        "last_commit_url": "https://github.com/linkssy2/RoadRash64Recompiled/commit/a789926d38f17c9a683a7826d74536a1ff2200b5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 74
+      },
+      "ai_used": null
+    },
+    "san-francisco-rush-2049": {
+      "name": "San Francisco Rush 2049",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/cabi24/SFRush2049-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:58:55Z",
+        "last_commit_url": "https://github.com/cabi24/SFRush2049-decomp/commit/dd4cf01d3846ef60ca88708dac83af446da5a4f2",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 8
+      },
+      "ai_used": null
+    },
+    "san-francisco-rush-2049-nintendo-64": {
+      "name": "San Francisco Rush 2049",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/amazingalek/rush-2049-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T05:26:50Z",
+        "last_commit_url": "https://github.com/amazingalek/rush-2049-recomp/commit/e6f08c5b13484b8bddd5d12c7843fcab0cb42580",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "snowboard-kids-snowboard-kids-recompiled": {
+      "name": "Snowboard Kids (Snowboard Kids: Recompiled)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/cdlewis/snowboardkids-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T00:24:35Z",
+        "last_commit_url": "https://github.com/cdlewis/snowboardkids-recomp/commit/2ac83a8af625acf7da92d5610b25f2693bff7c91",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "star-fox-64-starship-android-port": {
+      "name": "Star Fox 64 (Starship [Android Port])",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/izzy2lost/Starship",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-11-16T16:12:03Z",
+        "last_commit_url": "https://github.com/izzy2lost/Starship/commit/f2794c26dd0bab87a5f5d755150fb8f025c77379",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 110
+      },
+      "ai_used": null
+    },
+    "star-wars-rogue-squadron-nintendo-64": {
+      "name": "Star Wars: Rogue Squadron",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T17:30:34Z",
+        "last_commit_url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp/commit/365ac476e1fb0fe682a23e15f9bd981ddc51d4ff",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": true
+    },
+    "star-wars-shadows-of-the-empire-recomp": {
+      "name": "Star Wars: Shadows of the Empire (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/GTTeancum/SotE-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:06:03Z",
+        "last_commit_url": "https://github.com/GTTeancum/SotE-Recomp/commit/41641e5d359487bfcac0f15586b071c934457ab1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 41
+      },
+      "ai_used": null
+    },
+    "super-mario-64-nintendo-64": {
+      "name": "Super Mario 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/sm64pc/sm64ex",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-12-17T14:37:35Z",
+        "last_commit_url": "https://github.com/sm64pc/sm64ex/commit/d7ca2c04364a6dd0dac58b47151e04e26887e6f0",
+        "default_branch": "nightly",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 1872
+      },
+      "ai_used": null
+    },
+    "super-mario-64-libsm64-godot": {
+      "name": "Super Mario 64 (libsm64-godot)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Brawmario/libsm64-godot",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-04-04T00:44:55Z",
+        "last_commit_url": "https://github.com/Brawmario/libsm64-godot/commit/7d7be1e28ba67b10a506dc25ae82f79ce6ed7c27",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 219
+      },
+      "ai_used": null
+    },
+    "super-mario-64-libsm64-rust": {
+      "name": "Super Mario 64 (libsm64-rust)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/nickmass/libsm64-rust",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-11-16T19:10:26Z",
+        "last_commit_url": "https://github.com/nickmass/libsm64-rust/commit/f46ed0ad26c98dbf056f7b0739f70ac8fc7791e3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 45
+      },
+      "ai_used": null
+    },
+    "super-mario-64-libsm64-sharp": {
+      "name": "Super Mario 64 (libsm64-sharp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/MeltyPlayer/libsm64-sharp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-09-17T05:24:01Z",
+        "last_commit_url": "https://github.com/MeltyPlayer/libsm64-sharp/commit/1cbfd9fbe8ce5f0f8e922eb0ca516f57f79e01dd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "super-mario-64-libsm64-unity": {
+      "name": "Super Mario 64 (libsm64-unity)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/libsm64/libsm64-unity",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-04-15T19:59:34Z",
+        "last_commit_url": "https://github.com/libsm64/libsm64-unity/commit/21f67378a9834e0cd91616acc253ee49eafbf426",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 64
+      },
+      "ai_used": null
+    },
+    "super-mario-64-sm64-decomp": {
+      "name": "Super Mario 64 (sm64-decomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/justinwash/sm64-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2019-07-12T15:34:04Z",
+        "last_commit_url": "https://github.com/justinwash/sm64-decomp/commit/e6e1dc9df59f69ba897494f473376bce6df04bf1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "super-mario-64-sm64-pc-port-webgl": {
+      "name": "Super Mario 64 (SM64-PC-Port-WebGL)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/NotAn127/SM64-PC-Port-WebGL",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T16:55:40Z",
+        "last_commit_url": "https://github.com/NotAn127/SM64-PC-Port-WebGL/commit/16642fb00ca0be7e47e838caa7b29f81259e68b7",
+        "default_branch": "gh-pages",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "super-mario-64-smue5": {
+      "name": "Super Mario 64 (SMUE5)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheEnbyWitch/SMUE5",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-12-20T21:23:00Z",
+        "last_commit_url": "https://github.com/TheEnbyWitch/SMUE5/commit/c1678c0e801395991c7b217a21e98bb90102bab2",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 27
+      },
+      "ai_used": null
+    },
+    "super-mario-64-in-scratch-sm64-scratch": {
+      "name": "Super Mario 64 in Scratch (sm64-scratch)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/naegoxdev/sm64-scratch",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T15:10:48Z",
+        "last_commit_url": "https://github.com/naegoxdev/sm64-scratch/commit/b953d524a0af9d0f5a053e7cf1201252fbaa326c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "super-robot-wars-64": {
+      "name": "Super Robot Wars 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/dyzz/srw64-recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T10:34:17Z",
+        "last_commit_url": "https://github.com/dyzz/srw64-recomp/commit/49f728dc967c9f88ae9ddc01f90fada853469a7d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "super-smash-bros-nintendo-64": {
+      "name": "Super Smash Bros",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/zestydevy/smash64r",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-05-05T15:56:42Z",
+        "last_commit_url": "https://github.com/zestydevy/smash64r/commit/7148e9575fe1a09712cc1a46ded8ed0284a5a0b9",
+        "default_branch": "dev",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 66
+      },
+      "ai_used": null
+    },
+    "super-smash-bros-nintendo-64-rockenrooster": {
+      "name": "Super Smash Bros.",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/rockenrooster/Smash64DS_Port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:11:53Z",
+        "last_commit_url": "https://github.com/rockenrooster/Smash64DS_Port/commit/43901a79a2759532551f853898767d7964833521",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "super-smash-bros-nintendo-64-beigeceleron": {
+      "name": "Super Smash Bros.",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/beigeceleron/ssb64-dc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T00:41:29Z",
+        "last_commit_url": "https://github.com/beigeceleron/ssb64-dc/commit/303993a2f47219f5a7938853e0e5fa41e5b893eb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "super-smash-bros-battleship": {
+      "name": "Super Smash Bros. (BattleShip)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/JRickey/BattleShip",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T13:52:49Z",
+        "last_commit_url": "https://github.com/JRickey/BattleShip/commit/f85b8922b20e3948d369682dbede5651824abcbb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 506
+      },
+      "ai_used": null
+    },
+    "tetrisphere": {
+      "name": "Tetrisphere",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/djultra64/Blocksphere",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T12:48:04Z",
+        "last_commit_url": "https://github.com/djultra64/Blocksphere/commit/53203b6508af9b5546d8b3000789b05fcc02e927",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "toy-story-2-buzz-lightyear-to-the-rescue": {
+      "name": "Toy Story 2: Buzz Lightyear to the Rescue",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Capridog/SpaceRanger",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T14:01:32Z",
+        "last_commit_url": "https://github.com/Capridog/SpaceRanger/commit/40461c5eb419db1a889d7bdfe9878d56c493f8cc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "tube": {
+      "name": "Tube",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/rep-stosw/tube64",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-08-28T06:21:53Z",
+        "last_commit_url": "https://github.com/rep-stosw/tube64/commit/65b428ff5f621c6e580f9d0e127e4b46e5af4a70",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "turok-2-seeds-of-evil": {
+      "name": "Turok 2: Seeds of Evil",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/mgrz18/turok2-decomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T17:51:58Z",
+        "last_commit_url": "https://github.com/mgrz18/turok2-decomp/commit/ff8089bca14bbcf838dfbc0778b9f012ee04c8c0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "turok-rage-wars": {
+      "name": "Turok: Rage Wars",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/wootbeer/PaxDino",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T01:38:18Z",
+        "last_commit_url": "https://github.com/wootbeer/PaxDino/commit/1ccc166419539ac069b2cac32ae912798b39466e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "turok-rage-wars-rage-wars-recompiled": {
+      "name": "Turok: Rage Wars (rage-wars-recompiled)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/ArtfulRascal8/rage-wars-recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T18:44:09Z",
+        "last_commit_url": "https://github.com/ArtfulRascal8/rage-wars-recompiled/commit/4ee6e29f6f1184520bed4431f3038b18a702cb59",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "virtual-pro-wrestling-2": {
+      "name": "Virtual Pro Wrestling 2",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/VPW2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:11:13Z",
+        "last_commit_url": "https://github.com/jessetbh/VPW2Recomp/commit/9ab45993bfe4770bc0a18a2d1e5967c22b63e240",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "virtual-pro-wrestling-64": {
+      "name": "Virtual Pro Wrestling 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/VPW64Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:11:05Z",
+        "last_commit_url": "https://github.com/jessetbh/VPW64Recomp/commit/181aa2862f69daccbeffd4f81a416e26d35ee732",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "wave-race-64-wave-race-64-recomp": {
+      "name": "Wave Race 64 (wave-race-64-recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T09:45:27Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp/commit/b7c677a4a9a9c73e4be3ab2c7e29f3fbbf14aaab",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 93
+      },
+      "ai_used": null
+    },
+    "wayne-gretzky-s-3d-hockey": {
+      "name": "Wayne Gretzky's 3D Hockey",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/geno55/wg3d-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T22:41:56Z",
+        "last_commit_url": "https://github.com/geno55/wg3d-recomp/commit/4666cbf2967a0005ddf2b1635ba4fe81aa8ccfd5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "wcw-vs-nwo-world-tour": {
+      "name": "WCW vs. nWo: World Tour",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:10:56Z",
+        "last_commit_url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp/commit/89739f7a49c154f8e3bcec297063bb017300c075",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "wcw-nwo-revenge-recomp": {
+      "name": "WCW/nWo Revenge (Recomp)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/WCWnWoRevengeRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:10:59Z",
+        "last_commit_url": "https://github.com/jessetbh/WCWnWoRevengeRecomp/commit/c1c43a694f120c5567fec4ce5d35e2f008041319",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "the-world-is-not-enough-i-could-have-given-you-the-world": {
+      "name": "The World Is Not Enough (I Could Have Given You the World)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/riseio/TWIPE_00Sheven",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T07:01:30Z",
+        "last_commit_url": "https://github.com/riseio/TWIPE_00Sheven/commit/91e312b93b6abd837cb88fb0da0ceda902a72003",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 65
+      },
+      "ai_used": null
+    },
+    "wwf-no-mercy": {
+      "name": "WWF No Mercy",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/WWFNoMercyRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:44:16Z",
+        "last_commit_url": "https://github.com/jessetbh/WWFNoMercyRecomp/commit/abb5641a37eeaa40bc0e199d256e5ac52878f7b2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 37
+      },
+      "ai_used": null
+    },
+    "wwf-wrestlemania-2000": {
+      "name": "WWF WrestleMania 2000",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T03:11:02Z",
+        "last_commit_url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp/commit/f967ace4d2795c50ac490016a3b5925c4f17b83f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "yoshi-s-story-dinotale": {
+      "name": "Yoshi's Story (DinoTale)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/wootbeer/dinotale",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T14:04:28Z",
+        "last_commit_url": "https://github.com/wootbeer/dinotale/commit/65060b54925016f634b4e0e327878f72051cd4a9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 29
+      },
+      "ai_used": null
+    },
+    "doom64-ex-plus-enhanced": {
+      "name": "DOOM64-EX-Plus-Enhanced",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Styd051/DOOM64-EX-Plus-Enhanced",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-27T13:02:39Z",
+        "last_commit_url": "https://github.com/Styd051/DOOM64-EX-Plus-Enhanced/commit/8b3dce734b5e075016902055af3d7a56275f8faa",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "super-mario-64-infinite-mario-64-ever": {
+      "name": "Super Mario 64 [Infinite Mario 64 Ever]",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/Brawmario/infinite-mario-64-ever",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-18T19:13:04Z",
+        "last_commit_url": "https://github.com/Brawmario/infinite-mario-64-ever/commit/5d220d036205d2fe9da83f0af323b2082bb729fb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "goldeneye-007-gitlab-source-project": {
+      "name": "GoldenEye 007 (GitLab source project)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://gitlab.com/kholdfuzion/goldeneye_src",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-17T17:48:42Z",
+        "last_commit_url": "https://gitlab.com/kholdfuzion/goldeneye_src/-/commit/c4356466796c697dfd298010b9bed261f9ed8c6a",
+        "default_branch": "master",
+        "archived": false,
+        "github_stars": null,
+        "status": "Active"
+      },
+      "ai_used": null
+    },
+    "perfect-dark-gitlab-source-project": {
+      "name": "Perfect Dark (GitLab source project)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://gitlab.com/ryandwyer/perfect-dark",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-06-22T06:23:42Z",
+        "last_commit_url": "https://gitlab.com/ryandwyer/perfect-dark/-/commit/46d3393bed1a3d5fbefbdba6df7237579b5c66e0",
+        "default_branch": "master",
+        "archived": false,
+        "github_stars": null,
+        "status": "Active"
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian": {
+      "name": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/HarbourMasters/Shipwright",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T05:40:37Z",
+        "last_commit_url": "https://github.com/HarbourMasters/Shipwright/commit/2827fc2a0f56a9cdc18a87adf8c1bb7e91315f41",
+        "default_branch": "develop",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5721
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian": {
+      "name": "The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/2ship2harkinian/2ship2harkinian",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T23:21:41Z",
+        "last_commit_url": "https://github.com/2ship2harkinian/2ship2harkinian/commit/131cb07a9b50d45577794d679672381aa1c2df58",
+        "default_branch": "develop",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2360
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -4717,6 +6712,2320 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/cdlewis/snowboardkids-decomp"
+            }
+          ]
+        },
+        {
+          "project": "1080-snowboarding",
+          "name_markdown": "[1080° Snowboarding](https://github.com/djsaunde/1080-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/1080%20Snowboarding%20%28USA%29%20%28En%2CJa%29%20%28LodgeNet%29.png",
+              "alt": "1080° Snowboarding box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/djsaunde/1080-decomp"
+            }
+          ]
+        },
+        {
+          "project": "animal-forest-animal-forest-psp",
+          "name_markdown": "[Animal Forest (animal_forest_psp)](https://github.com/bruder-grimm/animal_forest_psp)",
+          "images": [],
+          "notes_markdown": "Port of animal forest to the psp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/bruder-grimm/animal_forest_psp"
+            }
+          ]
+        },
+        {
+          "project": "automobili-lamborghini",
+          "name_markdown": "[Automobili Lamborghini](https://github.com/alondero/automobililamborghini-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Automobili%20Lamborghini%20%28USA%29.png",
+              "alt": "Automobili Lamborghini box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static Recompilation of Automobili Lamborghini for the N64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alondero/automobililamborghini-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/alondero/automobililamborghini-recomp"
+            }
+          ]
+        },
+        {
+          "project": "banjo-kazooie-banjo-kazooie",
+          "name_markdown": "[Banjo-Kazooie (banjo-kazooie)](https://github.com/n64decomp/banjo-kazooie)",
+          "images": [
+            {
+              "alt": "Banjo-Kazooie box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A decompilation of Banjo Kazooie. (MIRROR of https://gitlab.com/banjo.decomp/banjo-kazooie)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/n64decomp/banjo-kazooie"
+            }
+          ]
+        },
+        {
+          "project": "banjo-kazooie-banjo-recompiled-android-port",
+          "name_markdown": "[Banjo-Kazooie (Banjo: Recompiled \\[Android Port\\])](https://github.com/AurelioB/BanjoRecomp-Android)",
+          "images": [
+            {
+              "alt": "Banjo-Kazooie box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Android Port of Banjo-Kazooie made using N64: Recompiled",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/AurelioB/BanjoRecomp-Android"
+            }
+          ]
+        },
+        {
+          "project": "banjo-kazooie-lighthouse",
+          "name_markdown": "[Banjo-Kazooie (Lighthouse)](https://github.com/HarbourMasters/Lighthouse)",
+          "images": [
+            {
+              "alt": "Banjo-Kazooie box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/HarbourMasters/Lighthouse"
+            }
+          ]
+        },
+        {
+          "project": "banjo-tooie-banjo-tooie-recompiled",
+          "name_markdown": "[Banjo-Tooie (Banjo-Tooie: Recompiled)](https://github.com/Vidanox/BanjoTooieRecompiled)",
+          "images": [
+            {
+              "alt": "Banjo-Tooie box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Banjo-Tooie%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Vidanox/BanjoTooieRecompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Vidanox/BanjoTooieRecompiled"
+            }
+          ]
+        },
+        {
+          "project": "battletanx-nintendo-64",
+          "name_markdown": "[BattleTanx](https://github.com/AbuN64/battletanx-decomp)",
+          "images": [
+            {
+              "alt": "BattleTanx box art (Nintendo 64, USA)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A work-in-progress decompilation of Battletanx for the N64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/AbuN64/battletanx-decomp"
+            }
+          ]
+        },
+        {
+          "project": "battletanx-global-assault-btgarecomp",
+          "name_markdown": "[BattleTanx: Global Assault (BTGARecomp)](https://github.com/wootbeer/btgarecomp)",
+          "images": [
+            {
+              "alt": "BattleTanx: Global Assault box art (Nintendo 64, USA)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/BattleTanx%20-%20Global%20Assault%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "BattleTanx: Global Assault (1999 N64) Recomp and Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/wootbeer/btgarecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/wootbeer/btgarecomp"
+            }
+          ]
+        },
+        {
+          "project": "battlezone-rise-of-the-black-dogs-bzrecomp",
+          "name_markdown": "[Battlezone: Rise of the Black Dogs (BZRecomp)](https://github.com/wootbeer/bzrecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Battlezone%20-%20Rise%20of%20the%20Black%20Dogs%20%28USA%29.png",
+              "alt": "Battlezone: Rise of the Black Dogs (BZRecomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Battlezone: Rise of the Black Dogs N64 Recomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/wootbeer/bzrecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/wootbeer/bzrecomp"
+            }
+          ]
+        },
+        {
+          "project": "beetle-adventure-racing-recomp",
+          "name_markdown": "[Beetle Adventure Racing! (Recomp)](https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Beetle%20Adventure%20Racing%21%20%28USA%29%20%28En%2CFr%2CDe%29.png",
+              "alt": "Beetle Adventure Racing! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation port of Beetle Adventure Racing (N64) to native PC, with widescreen, high-FPS and modern input support. Requires your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"
+            }
+          ]
+        },
+        {
+          "project": "blast-corps-power-dozer",
+          "name_markdown": "[Blast Corps (Power Dozer)](https://github.com/djultra64/Power-Dozer)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Blast%20Corps%20%28USA%29.png",
+              "alt": "Blast Corps box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Power Dozer - native Blast Corps PC port using static recompilation. Linux and Windows; bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/djultra64/Power-Dozer"
+            }
+          ]
+        },
+        {
+          "project": "body-harvest-recomp",
+          "name_markdown": "[Body Harvest (Recomp)](https://github.com/danielgomesvieira2000/body-harvest-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Body%20Harvest%20%28USA%29.png",
+              "alt": "Body Harvest box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Body Harvest: Recompiled - a native PC port of Body Harvest (N64) built with N64Recomp, RT64 and RecompFrontend. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/danielgomesvieira2000/body-harvest-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/danielgomesvieira2000/body-harvest-recomp"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-64-cv64-recomp",
+          "name_markdown": "[Castlevania 64 (CV64-Recomp)](https://github.com/spacefarergames/CV64-Recomp)",
+          "images": [
+            {
+              "alt": "Castlevania 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Castlevania%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static Recomp and Remaster of Castlevania 64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/spacefarergames/CV64-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/spacefarergames/CV64-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-64-recomp",
+          "name_markdown": "[Castlevania 64 (Recomp)](https://github.com/RevoSucks/CV64Recomp)",
+          "images": [
+            {
+              "alt": "Castlevania 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Castlevania%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A recompilation of Castlevania for the N64.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RevoSucks/CV64Recomp"
+            }
+          ]
+        },
+        {
+          "project": "castlevania-legacy-of-darkness",
+          "name_markdown": "[Castlevania: Legacy of Darkness](https://github.com/fliperama86/cvlod_recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20%28USA%29.png",
+              "alt": "Castlevania: Legacy of Darkness box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Recompile Castlevania: Legacy of Darkness (N64) into a native executable using N64Recomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/fliperama86/cvlod_recomp"
+            }
+          ]
+        },
+        {
+          "project": "conker-s-bad-fur-day-conker64-recompiled",
+          "name_markdown": "[Conker's Bad Fur Day (conker64-recompiled)](https://github.com/Conker64Recomp/conker64-recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Conker%27s%20Bad%20Fur%20Day%20%28USA%29.png",
+              "alt": "Conker's Bad Fur Day (DevOldSchool) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Conker's Bad Fur Day (N64) via Static MIPS Recompilation. SDL2 engine with 3D UV texturing, N64 audio, EEPROM save system,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Conker64Recomp/conker64-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "diddy-kong-racing-goldenballoon",
+          "name_markdown": "[Diddy Kong Racing (goldenballoon)](https://github.com/akratch/goldenballoon)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Diddy%20Kong%20Racing%20%28USA%29%20%28En%2CFr%29.png",
+              "alt": "Diddy Kong Racing (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Golden Balloon - a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/akratch/goldenballoon"
+            }
+          ]
+        },
+        {
+          "project": "doom-64-doom64-dc",
+          "name_markdown": "[Doom 64 (doom64-dc)](https://github.com/jnmartin84/doom64-dc)",
+          "images": [
+            {
+              "alt": "Doom 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Doom%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Doom 64 port for Sega Dreamcast / KallistiOS",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jnmartin84/doom64-dc"
+            }
+          ]
+        },
+        {
+          "project": "doraemon-nobita-to-mittsu-no-seireiseki-recomp",
+          "name_markdown": "[Doraemon: Nobita to Mittsu no Seireiseki (Recomp)](https://github.com/citrongames/Dora64)",
+          "images": [
+            {
+              "alt": "Doraemon: Nobita to Mittsu no Seireiseki box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Doraemon%20-%20Nobita%20to%203tsu%20no%20Seireiseki%20%28Japan%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dora64 native PC recompilation with ROM-based source generation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/citrongames/Dora64"
+            }
+          ]
+        },
+        {
+          "project": "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310",
+          "name_markdown": "[Duke Nukem: Zero Hour (DukeNukemZeroHourPort (Gillou68310))](https://github.com/Gillou68310/DukeNukemZeroHourPort)",
+          "images": [
+            {
+              "alt": "Duke Nukem: Zero Hour box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Duke%20Nukem%20-%20Zero%20Hour%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native port of Duke Nukem: Zero Hour, with game source, libraries and platform build projects.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Gillou68310/DukeNukemZeroHourPort"
+            }
+          ]
+        },
+        {
+          "project": "evo-s-space-adventures",
+          "name_markdown": "[Evo's Space Adventures](https://github.com/mkst/esa)",
+          "images": [],
+          "notes_markdown": "Evo's Space Adventures for PSX. A proof of concept, matching PSX decompilation, leveraging tools from N64 decomp projects.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mkst/esa"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-x-f-zerox",
+          "name_markdown": "[F-Zero X (f-zerox)](https://github.com/BttrDrgn/f-zerox)",
+          "images": [
+            {
+              "alt": "F-Zero X box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "F-Zero X Decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/BttrDrgn/f-zerox"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-x-gdx-3ds",
+          "name_markdown": "[F-Zero X (gdx-3ds)](https://github.com/cruxxxxxx/gdx-3ds)",
+          "images": [
+            {
+              "alt": "F-Zero X box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial 3DS Port of F-Zero X based on G-Diffuser &amp; the decompilation of inspectredc",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cruxxxxxx/gdx-3ds"
+            }
+          ]
+        },
+        {
+          "project": "glover-glover-decomp",
+          "name_markdown": "[Glover (glover-decomp)](https://github.com/djsaunde/glover-decomp-1)",
+          "images": [
+            {
+              "alt": "Glover box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Glover%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/djsaunde/glover-decomp-1"
+            }
+          ]
+        },
+        {
+          "project": "glover-recomp",
+          "name_markdown": "[Glover (Recomp)](https://github.com/ThatGuyMcd/Glover-R)",
+          "images": [
+            {
+              "alt": "Glover box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Glover%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Static Recompilation of Glover by ThatGuyMcd",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ThatGuyMcd/Glover-R"
+            }
+          ]
+        },
+        {
+          "project": "goldeneye-007-nintendo-64",
+          "name_markdown": "[GoldenEye 007](https://github.com/chrissotraidis/goldenpad)",
+          "images": [
+            {
+              "alt": "GoldenEye 007 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "GoldenEye 007, native for iPhone, iPad, and Apple Silicon Mac. Metal, touch controls, and user-supplied retail data.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/chrissotraidis/goldenpad"
+            }
+          ]
+        },
+        {
+          "project": "goldeneye-007-goldeneye-metal",
+          "name_markdown": "[GoldenEye 007 (goldeneye-metal)](https://github.com/ysrdevs/goldeneye-metal)",
+          "images": [
+            {
+              "alt": "GoldenEye 007 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "GoldenEye Metal is an experimental, source-only static recompilation project focused on a native Apple Silicon and Metal rendering path. This repository contains the runtime,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ysrdevs/goldeneye-metal"
+            }
+          ]
+        },
+        {
+          "project": "goldeneye-007-goldeneye-recomp-server-online-play-for-goldeneye-recomp",
+          "name_markdown": "[GoldenEye 007 (GoldenEye-Recomp-Server (online play for GoldenEye recomp))](https://github.com/SunJaycy/GoldenEye-Recomp-Server)",
+          "images": [
+            {
+              "alt": "GoldenEye 007 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SunJaycy/GoldenEye-Recomp-Server"
+            }
+          ]
+        },
+        {
+          "project": "goldeneye-007-goldenrecomp",
+          "name_markdown": "[GoldenEye 007 (GoldenRecomp)](https://github.com/kholdfuzion/GoldenRecomp)",
+          "images": [
+            {
+              "alt": "GoldenEye 007 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "WIP Recompilation of a game about a special agent who saves the world from a traitor.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/kholdfuzion/GoldenRecomp"
+            }
+          ]
+        },
+        {
+          "project": "hey-you-pikachu",
+          "name_markdown": "[Hey You, Pikachu!](https://github.com/farisawan-2000/hey_you_pikachu)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hey%20You%2C%20Pikachu%21%20%28USA%29.png",
+              "alt": "Hey You, Pikachu! box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of \"Hey You, Pikachu!\" (mainly for analyzing the voice library)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/farisawan-2000/hey_you_pikachu"
+            }
+          ]
+        },
+        {
+          "project": "hybrid-heaven-nintendo-64",
+          "name_markdown": "[Hybrid Heaven](https://github.com/danielgomesvieira2000/hybrid-heaven-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hybrid%20Heaven%20%28USA%29.png",
+              "alt": "Hybrid Heaven box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Hybrid Heaven: Recompiled - a native PC port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"
+            }
+          ]
+        },
+        {
+          "project": "hybrid-heaven-nintendo-64-ogdanimal",
+          "name_markdown": "[Hybrid Heaven](https://github.com/ogdanimal/HybridHeaven-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hybrid%20Heaven%20%28USA%29.png",
+              "alt": "Hybrid Heaven box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "hybrid-heaven-recomp",
+          "name_markdown": "[Hybrid Heaven (Recomp)](https://github.com/hunkstalker/hybrid-heaven-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Hybrid%20Heaven%20%28USA%29.png",
+              "alt": "Hybrid Heaven box art for Nintendo 64",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial AI native PC port of Hybrid Heaven (N64) via static recompilation, featuring a purist UI preserving the original design. Multi-language: EN, ES, CA,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/hunkstalker/hybrid-heaven-recomp"
+            }
+          ]
+        },
+        {
+          "project": "jet-force-gemini-nintendo-64",
+          "name_markdown": "[Jet Force Gemini](https://github.com/VibinToast/JetForceGemini-Recomp)",
+          "images": [
+            {
+              "alt": "Jet Force Gemini artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Jet%20Force%20Gemini%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Jet Force Gemini on the N64 ported to PC &amp; Steam Deck. Supports Mouse &amp; Keyboard, 60+ FPS and HD texture support. 100% Playable.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/VibinToast/JetForceGemini-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "kirby-and-the-crystal-shards",
+          "name_markdown": "[Kirby and the Crystal Shards](https://github.com/Kirby64Ret/Kirby64Recomp)",
+          "images": [],
+          "notes_markdown": "Kirby 64 Recomp (ok fine i'll use cmake)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Kirby64Ret/Kirby64Recomp"
+            }
+          ]
+        },
+        {
+          "project": "knife-edge-nose-gunner",
+          "name_markdown": "[Knife Edge - Nose Gunner](https://github.com/disi33/KE-NG_Reversing)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Knife%20Edge%20-%20Nose%20Gunner%20%28USA%29.png",
+              "alt": "Knife Edge - Nose Gunner box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reversing the N64 game Knife Edge - Nose Gunner",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/disi33/KE-NG_Reversing"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-majora-s-mask-mmrecomprando",
+          "name_markdown": "[The Legend of Zelda: Majora's Mask (MMRecompRando)](https://github.com/RecompRando/MMRecompRando)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Majora's Mask box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Majora's Mask Archipelago randomizer with an emphasis on fun and silliness. SHNIGEDY DING-DONG",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/RecompRando/MMRecompRando"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-majora-s-mask-zelda64-recompiled-android",
+          "name_markdown": "[The Legend of Zelda: Majora's Mask (Zelda64 Recompiled \\[Android\\])](https://github.com/linkzenic/Zelda64Recomp-Android)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Majora's Mask box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Android port of Zelda64 Recompiled",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/linkzenic/Zelda64Recomp-Android"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-nintendo-64",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time](https://github.com/blawar/ooot)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Ocarina of Time box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/blawar/ooot"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-oot-dc",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time (oot-dc)](https://github.com/jnmartin84/oot-dc)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Ocarina of Time box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A port of the Ocarina of Time decompilation to the Sega Dreamcast.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jnmartin84/oot-dc"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-oot-psp",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time (oot-PSP)](https://github.com/z2442/oot-PSP)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Ocarina of Time box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/z2442/oot-PSP"
+            }
+          ]
+        },
+        {
+          "project": "mabecs-international-superstar-soccer-2000",
+          "name_markdown": "[Mabecs International Superstar Soccer 2000](https://github.com/Mabec-games/iss2000-recomp)",
+          "images": [],
+          "notes_markdown": "Native Windows &amp; Linux widescreen port of International Superstar Soccer 2000 (N64) via static recompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Mabec-games/iss2000-recomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-golf-recomp",
+          "name_markdown": "[Mario Golf (Recomp)](https://github.com/Rainchus/MarioGolf64)",
+          "images": [
+            {
+              "alt": "Mario Golf box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Golf%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Rainchus/MarioGolf64"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-64-mk64recomp",
+          "name_markdown": "[Mario Kart 64 (MK64Recomp)](https://github.com/arefdsg/MK64Recomp)",
+          "images": [
+            {
+              "alt": "Mario Kart 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Kart%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/arefdsg/MK64Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/arefdsg/MK64Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-64-spaghettikart-android-port",
+          "name_markdown": "[Mario Kart 64 (SpaghettiKart \\[Android Port\\])](https://github.com/izzy2lost/SpaghettiKart)",
+          "images": [
+            {
+              "alt": "Mario Kart 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Kart%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Android",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/izzy2lost/SpaghettiKart"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-3-recomp",
+          "name_markdown": "[Mario Party 3 (Recomp)](https://github.com/Rainchus/MarioParty3-Recomp)",
+          "images": [
+            {
+              "alt": "Mario Party 3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mario%20Party%203%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Rainchus/MarioParty3-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Rainchus/MarioParty3-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-64",
+          "name_markdown": "[Mega Man 64](https://github.com/MegaMan64Recomp/MegaMan64Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mega%20Man%2064%20%28USA%29.png",
+              "alt": "Mega Man 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Recompilation of Mega Man 64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "mischief-makers-recomp",
+          "name_markdown": "[Mischief Makers (Recomp)](https://github.com/ThiagoLira/trouble-makers-pc-recomp)",
+          "images": [
+            {
+              "alt": "Mischief Makers box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mischief%20Makers%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp"
+            }
+          ]
+        },
+        {
+          "project": "mystical-ninja-starring-goemon-nintendo-64",
+          "name_markdown": "[Mystical Ninja Starring Goemon](https://github.com/ogdanimal/Goemon64Recomp-Android)",
+          "images": [
+            {
+              "alt": "Mystical Ninja Starring Goemon artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Mystical%20Ninja%20Starring%20Goemon%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Android port of Mystical Ninja Starring Goemon via static recompilation, with RT64 Vulkan rendering. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ogdanimal/Goemon64Recomp-Android"
+            }
+          ]
+        },
+        {
+          "project": "n64-classic-rush-2",
+          "name_markdown": "[N64 Classic: Rush 2](https://github.com/bryantmh/rush2recompiled)",
+          "images": [],
+          "notes_markdown": "A recompilation of the N64 Classic: Rush 2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bryantmh/rush2recompiled"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-nintendo-64",
+          "name_markdown": "[Paper Mario](https://github.com/SecondaryLifer/StarHaven)",
+          "images": [
+            {
+              "alt": "Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Nintendo 3DS port of Paper Mario (N64), built from the decompilation. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SecondaryLifer/StarHaven"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-pmvita",
+          "name_markdown": "[Paper Mario ( pmvita)](https://github.com/versacepapermario/papermario-pc-upload)",
+          "images": [
+            {
+              "alt": "Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "WIP Paper Mario 64 PC port based on libultraship",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/versacepapermario/papermario-pc-upload"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-papermario-dx-engine-fork",
+          "name_markdown": "[Paper Mario (papermario-dx (engine fork))](https://github.com/bates64/papermario-dx)",
+          "images": [
+            {
+              "alt": "Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "[MIRROR] Base for making Paper Mario (N64) mods, built on the decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bates64/papermario-dx"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-papermariodecompilation",
+          "name_markdown": "[Paper Mario (PaperMarioDecompilation)](https://github.com/RetroReversing/PaperMarioDecompilation)",
+          "images": [
+            {
+              "alt": "Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "N64 Decompilation Project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/RetroReversing/PaperMarioDecompilation"
+            }
+          ]
+        },
+        {
+          "project": "paper-mario-recomp",
+          "name_markdown": "[Paper Mario (Recomp)](https://github.com/lucyawrey/Paper_Mario_64_Recomp)",
+          "images": [
+            {
+              "alt": "Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/lucyawrey/Paper_Mario_64_Recomp"
+            }
+          ]
+        },
+        {
+          "project": "perfect-dark-perfect-dark-port-android",
+          "name_markdown": "[Perfect Dark (Perfect Dark Port \\[Android\\])](https://github.com/izzy2lost/perfect_dark)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Perfect%20Dark%20%28USA%29.png",
+              "alt": "Perfect Dark (Dab's Mod) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Android Port!! work in progress port of n64decomp/perfect_dark to modern platforms",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/izzy2lost/perfect_dark"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-snap-nintendo-64",
+          "name_markdown": "[Pokémon Snap](https://github.com/chrissotraidis/snappad)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Snap%20%28USA%29.png",
+              "alt": "Pokemon Snap (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokémon Snap, statically recompiled for iPhone, iPad, and Apple Silicon Mac.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/chrissotraidis/snappad"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-stadium-nintendo-64",
+          "name_markdown": "[Pokémon Stadium](https://github.com/chrissotraidis/annepad)",
+          "images": [
+            {
+              "alt": "Pokemon Stadium box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Stadium%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, and ROM-free builds.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/chrissotraidis/annepad"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-stadium-pokemonstadium",
+          "name_markdown": "[Pokémon Stadium (pokemonstadium)](https://github.com/ethteck/pokemonstadium)",
+          "images": [
+            {
+              "alt": "Pokemon Stadium box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Pokemon%20Stadium%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Pokemon Stadium",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ethteck/pokemonstadium"
+            }
+          ]
+        },
+        {
+          "project": "quest-64-nintendo-64",
+          "name_markdown": "[Quest 64](https://github.com/Mallos31/Quest)",
+          "images": [
+            {
+              "alt": "Quest 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Quest%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "decompilation of Quest64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Mallos31/Quest"
+            }
+          ]
+        },
+        {
+          "project": "quest-64-quest-64-tale-recompiled",
+          "name_markdown": "[Quest 64 (Quest 64 Tale: Recompiled)](https://github.com/boricuapab/quest64tale-recompiled)",
+          "images": [
+            {
+              "alt": "Quest 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Quest%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/boricuapab/quest64tale-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "road-rash-64",
+          "name_markdown": "[Road Rash 64](https://github.com/linkssy2/RoadRash64Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Road%20Rash%2064%20%28USA%29.png",
+              "alt": "Road Rash 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial Road Rash 64 PC recompilation with 60 FPS presentation, MAX LOD, widescreen, custom music and experimental multiplayer. Requires your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/linkssy2/RoadRash64Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "san-francisco-rush-2049",
+          "name_markdown": "[San Francisco Rush 2049](https://github.com/cabi24/SFRush2049-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/San%20Francisco%20Rush%202049%20%28USA%29.png",
+              "alt": "San Francisco Rush 2049 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation project for the N64 game San Francisco Rush 2049",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/cabi24/SFRush2049-decomp"
+            }
+          ]
+        },
+        {
+          "project": "san-francisco-rush-2049-nintendo-64",
+          "name_markdown": "[San Francisco Rush 2049](https://github.com/amazingalek/rush-2049-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/San%20Francisco%20Rush%202049%20%28USA%29.png",
+              "alt": "San Francisco Rush 2049 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/amazingalek/rush-2049-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/amazingalek/rush-2049-recomp"
+            }
+          ]
+        },
+        {
+          "project": "snowboard-kids-snowboard-kids-recompiled",
+          "name_markdown": "[Snowboard Kids (Snowboard Kids: Recompiled)](https://github.com/cdlewis/snowboardkids-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%20%28USA%29.png",
+              "alt": "Snowboard Kids box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Snowboard Kids for PC (Windows/Linux/MacOS)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/cdlewis/snowboardkids-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/cdlewis/snowboardkids-recomp"
+            }
+          ]
+        },
+        {
+          "project": "star-fox-64-starship-android-port",
+          "name_markdown": "[Star Fox 64 (Starship \\[Android Port\\])](https://github.com/izzy2lost/Starship)",
+          "images": [
+            {
+              "alt": "Star Fox 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Star%20Fox%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "SF64 Android Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/izzy2lost/Starship"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-rogue-squadron-nintendo-64",
+          "name_markdown": "[Star Wars: Rogue Squadron](https://github.com/MikeSemicolonD/RogueSquadron64Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Star%20Wars%20-%20Rogue%20Squadron%20%28USA%29.png",
+              "alt": "Star Wars: Rogue Squadron box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux &amp; Android AI use: [maintainer statement](https://github.com/MikeSemicolonD/RogueSquadron64Recomp).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-shadows-of-the-empire-recomp",
+          "name_markdown": "[Star Wars: Shadows of the Empire (Recomp)](https://github.com/GTTeancum/SotE-Recomp)",
+          "images": [
+            {
+              "alt": "Star Wars: Shadows of the Empire box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Star%20Wars%20-%20Shadows%20of%20the%20Empire%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GTTeancum/SotE-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-nintendo-64",
+          "name_markdown": "[Super Mario 64](https://github.com/sm64pc/sm64ex)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Fork of https://github.com/sm64-port/sm64-port with additional features.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/sm64pc/sm64ex"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-libsm64-godot",
+          "name_markdown": "[Super Mario 64 (libsm64-godot)](https://github.com/Brawmario/libsm64-godot)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Addon that binds libsm64 to Godot via GDExtension, allowing to integrate Mario from the Super Mario 64 engine into any Godot 4 project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Brawmario/libsm64-godot"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-libsm64-rust",
+          "name_markdown": "[Super Mario 64 (libsm64-rust)](https://github.com/nickmass/libsm64-rust)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/nickmass/libsm64-rust"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-libsm64-sharp",
+          "name_markdown": "[Super Mario 64 (libsm64-sharp)](https://github.com/MeltyPlayer/libsm64-sharp)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "C# bindings for libsm64.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/MeltyPlayer/libsm64-sharp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-libsm64-unity",
+          "name_markdown": "[Super Mario 64 (libsm64-unity)](https://github.com/libsm64/libsm64-unity)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unity engine demo client of libsm64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/libsm64/libsm64-unity"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-sm64-decomp",
+          "name_markdown": "[Super Mario 64 (sm64-decomp)](https://github.com/justinwash/sm64-decomp)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Super Mario 64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/justinwash/sm64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-sm64-pc-port-webgl",
+          "name_markdown": "[Super Mario 64 (SM64-PC-Port-WebGL)](https://github.com/NotAn127/SM64-PC-Port-WebGL)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Here is the link ig, took a while to do this, believe me",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/NotAn127/SM64-PC-Port-WebGL"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-smue5",
+          "name_markdown": "[Super Mario 64 (SMUE5)](https://github.com/TheEnbyWitch/SMUE5)",
+          "images": [
+            {
+              "alt": "Super Mario 64 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A port of libsm64 to UE5",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/TheEnbyWitch/SMUE5"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-in-scratch-sm64-scratch",
+          "name_markdown": "[Super Mario 64 in Scratch (sm64-scratch)](https://github.com/naegoxdev/sm64-scratch)",
+          "images": [],
+          "notes_markdown": "A Super Mario 64 demake built in Scratch",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/naegoxdev/sm64-scratch"
+            }
+          ]
+        },
+        {
+          "project": "super-robot-wars-64",
+          "name_markdown": "[Super Robot Wars 64](https://github.com/dyzz/srw64-recomp)",
+          "images": [],
+          "notes_markdown": "Experimental Super Robot Wars 64 native recompilation, with Japanese/Chinese text and optional HD presentation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dyzz/srw64-recomp"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-nintendo-64",
+          "name_markdown": "[Super Smash Bros](https://github.com/zestydevy/smash64r)",
+          "images": [
+            {
+              "alt": "Super Smash Bros. box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Super Smash Bros. for PC (Windows/Linux)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/zestydevy/smash64r"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/zestydevy/smash64r"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-nintendo-64-rockenrooster",
+          "name_markdown": "[Super Smash Bros.](https://github.com/rockenrooster/Smash64DS_Port)",
+          "images": [
+            {
+              "alt": "Super Smash Bros. box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Nintendo DS source port of Super Smash Bros. 64 via the BattleShip decomp.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/rockenrooster/Smash64DS_Port"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-nintendo-64-beigeceleron",
+          "name_markdown": "[Super Smash Bros.](https://github.com/beigeceleron/ssb64-dc)",
+          "images": [
+            {
+              "alt": "Super Smash Bros. box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fully native port of Super Smash Bros. (N64) for the Sega Dreamcast.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/beigeceleron/ssb64-dc"
+            }
+          ]
+        },
+        {
+          "project": "super-smash-bros-battleship",
+          "name_markdown": "[Super Smash Bros. (BattleShip)](https://github.com/JRickey/BattleShip)",
+          "images": [
+            {
+              "alt": "Super Smash Bros. box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A smashin' port for PC, Mac, and Linux!",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/JRickey/BattleShip"
+            }
+          ]
+        },
+        {
+          "project": "tetrisphere",
+          "name_markdown": "[Tetrisphere](https://github.com/djultra64/Blocksphere)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Tetrisphere%20%28USA%29.png",
+              "alt": "Tetrisphere box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A community Tetrisphere PC port for Linux and Windows through static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/djultra64/Blocksphere"
+            }
+          ]
+        },
+        {
+          "project": "toy-story-2-buzz-lightyear-to-the-rescue",
+          "name_markdown": "[Toy Story 2: Buzz Lightyear to the Rescue](https://github.com/Capridog/SpaceRanger)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Toy%20Story%202%20-%20Buzz%20Lightyear%20to%20the%20Rescue%21%20%28USA%29.png",
+              "alt": "Toy Story 2: Buzz Lightyear to the Rescue box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "SpaceRanger - a native PC port of Toy Story 2: Buzz Lightyear to the Rescue (N64) via static recompilation. Requires your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Capridog/SpaceRanger"
+            }
+          ]
+        },
+        {
+          "project": "tube",
+          "name_markdown": "[Tube](https://github.com/rep-stosw/tube64)",
+          "images": [],
+          "notes_markdown": "64-bit vesion of DOS game Tube (Bullfrog, 1994)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/rep-stosw/tube64"
+            }
+          ]
+        },
+        {
+          "project": "turok-2-seeds-of-evil",
+          "name_markdown": "[Turok 2: Seeds of Evil](https://github.com/mgrz18/turok2-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Turok%202%20-%20Seeds%20of%20Evil%20%28USA%29.png",
+              "alt": "Turok 2: Seeds of Evil box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mgrz18/turok2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "turok-rage-wars",
+          "name_markdown": "[Turok: Rage Wars](https://github.com/wootbeer/PaxDino)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Turok%20-%20Rage%20Wars%20%28USA%29.png",
+              "alt": "Turok: Rage Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Turok: Rage Wars Recomp and Modern PC Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/wootbeer/PaxDino"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/wootbeer/PaxDino"
+            }
+          ]
+        },
+        {
+          "project": "turok-rage-wars-rage-wars-recompiled",
+          "name_markdown": "[Turok: Rage Wars (rage-wars-recompiled)](https://github.com/ArtfulRascal8/rage-wars-recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Turok%20-%20Rage%20Wars%20%28USA%29.png",
+              "alt": "Turok: Rage Wars (rage-wars-recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Rage Wars Recompiled by XR64 Studios. Windows PC, local multiplayer and experimental OpenXR PCVR.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ArtfulRascal8/rage-wars-recompiled"
+            }
+          ]
+        },
+        {
+          "project": "virtual-pro-wrestling-2",
+          "name_markdown": "[Virtual Pro Wrestling 2](https://github.com/jessetbh/VPW2Recomp)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/VPW2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "virtual-pro-wrestling-64",
+          "name_markdown": "[Virtual Pro Wrestling 64](https://github.com/jessetbh/VPW64Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Virtual%20Pro%20Wrestling%2064%20%28Japan%29.png",
+              "alt": "Virtual Pro Wrestling 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/VPW64Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/jessetbh/VPW64Recomp"
+            }
+          ]
+        },
+        {
+          "project": "wave-race-64-wave-race-64-recomp",
+          "name_markdown": "[Wave Race 64 (wave-race-64-recomp)](https://github.com/danielgomesvieira2000/wave-race-64-recomp)",
+          "images": [
+            {
+              "alt": "Wave Race 64 (Recomp) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Wave%20Race%2064%20-%20Kawasaki%20Jet%20Ski%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp"
+            }
+          ]
+        },
+        {
+          "project": "wayne-gretzky-s-3d-hockey",
+          "name_markdown": "[Wayne Gretzky's 3D Hockey](https://github.com/geno55/wg3d-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Wayne%20Gretzky%27s%203D%20Hockey%20%28USA%29.png",
+              "alt": "Wayne Gretzky's 3D Hockey box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Wayne Gretzky's 3D Hockey (N64) via N64Recomp static recompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/geno55/wg3d-recomp"
+            }
+          ]
+        },
+        {
+          "project": "wcw-vs-nwo-world-tour",
+          "name_markdown": "[WCW vs. nWo: World Tour](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WCW%20vs.%20nWo%20-%20World%20Tour%20%28USA%29.png",
+              "alt": "WCW vs. nWo: World Tour box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp"
+            }
+          ]
+        },
+        {
+          "project": "wcw-nwo-revenge-recomp",
+          "name_markdown": "[WCW/nWo Revenge (Recomp)](https://github.com/jessetbh/WCWnWoRevengeRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WCW-nWo%20Revenge%20%28USA%29.png",
+              "alt": "WCW/nWo Revenge (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/WCWnWoRevengeRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/jessetbh/WCWnWoRevengeRecomp"
+            }
+          ]
+        },
+        {
+          "project": "the-world-is-not-enough-i-could-have-given-you-the-world",
+          "name_markdown": "[The World Is Not Enough (I Could Have Given You the World)](https://github.com/riseio/TWIPE_00Sheven)",
+          "images": [],
+          "notes_markdown": "A static recompilation project of the N64 game The World Is Not Enough",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/riseio/TWIPE_00Sheven"
+            }
+          ]
+        },
+        {
+          "project": "wwf-no-mercy",
+          "name_markdown": "[WWF No Mercy](https://github.com/jessetbh/WWFNoMercyRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WWF%20No%20Mercy%20%28USA%29.png",
+              "alt": "WWF No Mercy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/WWFNoMercyRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/jessetbh/WWFNoMercyRecomp"
+            }
+          ]
+        },
+        {
+          "project": "wwf-wrestlemania-2000",
+          "name_markdown": "[WWF WrestleMania 2000](https://github.com/jessetbh/WWFWrestleMania2000Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/WWF%20WrestleMania%202000%20%28USA%29.png",
+              "alt": "WWF WrestleMania 2000 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp"
+            }
+          ]
+        },
+        {
+          "project": "yoshi-s-story-dinotale",
+          "name_markdown": "[Yoshi's Story (DinoTale)](https://github.com/wootbeer/dinotale)",
+          "images": [
+            {
+              "alt": "Yoshi's Story box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Yoshi%27s%20Story%20%28USA%29%20%28En%2CJa%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Yoshi's Story Recomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/wootbeer/dinotale"
+            }
+          ]
+        },
+        {
+          "project": "doom64-ex-plus-enhanced",
+          "name_markdown": "[DOOM64-EX-Plus-Enhanced](https://github.com/Styd051/DOOM64-EX-Plus-Enhanced)",
+          "images": [],
+          "notes_markdown": "This is a custom fork of the EX+ engine with news customs contents, news customs options, news customs features, and possibly more in the...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/Styd051/DOOM64-EX-Plus-Enhanced"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-infinite-mario-64-ever",
+          "name_markdown": "[Super Mario 64 \\[Infinite Mario 64 Ever\\]](https://github.com/Brawmario/infinite-mario-64-ever)",
+          "images": [],
+          "notes_markdown": "Fork of Inifinite Mario 64, originally by TwilightPB",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/Brawmario/infinite-mario-64-ever"
+            }
+          ]
+        },
+        {
+          "project": "goldeneye-007-gitlab-source-project",
+          "name_markdown": "[GoldenEye 007 (GitLab source project)](https://gitlab.com/kholdfuzion/goldeneye_src)",
+          "images": [
+            {
+              "alt": "GoldenEye 007 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source reconstruction hosted on GitLab.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://gitlab.com/kholdfuzion/goldeneye_src"
+            }
+          ]
+        },
+        {
+          "project": "perfect-dark-gitlab-source-project",
+          "name_markdown": "[Perfect Dark (GitLab source project)](https://gitlab.com/ryandwyer/perfect-dark)",
+          "images": [
+            {
+              "alt": "Perfect Dark box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Perfect%20Dark%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source reconstruction hosted on GitLab.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://gitlab.com/ryandwyer/perfect-dark"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian",
+          "name_markdown": "[The Legend of Zelda: Ocarina of Time (Ship of Harkinian)](https://github.com/HarbourMasters/Shipwright)",
+          "images": [],
+          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/HarbourMasters/Shipwright"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian",
+          "name_markdown": "[The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)](https://github.com/2ship2harkinian/2ship2harkinian)",
+          "images": [],
+          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/2ship2harkinian/2ship2harkinian"
             }
           ]
         }

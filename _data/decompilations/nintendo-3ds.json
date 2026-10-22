@@ -133,6 +133,82 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "the-legend-of-zelda-majora-s-mask-3d-project-restoration": {
+      "name": "The Legend of Zelda: Majora's Mask 3D (Project Restoration)",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/leoetlino/project-restoration",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-01-02T22:35:00Z",
+        "last_commit_url": "https://github.com/leoetlino/project-restoration/commit/dcb583cd41d61ed8636fe29f65110a4fdac40059",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 810
+      },
+      "ai_used": null
+    },
+    "loveplus": {
+      "name": "LovePlus+",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/gage-marshall/lp-engine",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T14:31:33Z",
+        "last_commit_url": "https://github.com/gage-marshall/lp-engine/commit/0c73f43f4fea2fb722f479f05161ba90354da3f9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "mario-luigi-dream-team-milli4c": {
+      "name": "Mario & Luigi: Dream Team (MILLI4C)",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-12T02:32:46Z",
+        "last_commit_url": "https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C/commit/36cd49713d49cf771555a7e381f4968578651fa6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "monster-hunter-4-ultimate": {
+      "name": "Monster Hunter 4 Ultimate",
+      "platforms": [
+        "Nintendo 3DS"
+      ],
+      "repository_url": "https://github.com/mhvuze/mh4u-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T05:07:08Z",
+        "last_commit_url": "https://github.com/mhvuze/mh4u-decomp/commit/97d8c75e52768dd92a64258556b085f3b4fb099e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -295,6 +371,76 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/RedShyGuy/acnl-decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-majora-s-mask-3d-project-restoration",
+          "name_markdown": "[The Legend of Zelda: Majora's Mask 3D (Project Restoration)](https://github.com/leoetlino/project-restoration)",
+          "images": [],
+          "notes_markdown": "A Majora's Mask 3D patch that restores some mechanics from the original game to get the best of both worlds",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/leoetlino/project-restoration"
+            }
+          ]
+        },
+        {
+          "project": "loveplus",
+          "name_markdown": "[LovePlus+](https://github.com/gage-marshall/lp-engine)",
+          "images": [],
+          "notes_markdown": "Native Rust runtime for LovePlus+",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/gage-marshall/lp-engine"
+            }
+          ]
+        },
+        {
+          "project": "mario-luigi-dream-team-milli4c",
+          "name_markdown": "[Mario & Luigi: Dream Team (MILLI4C)](https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C)",
+          "images": [],
+          "notes_markdown": "A starting work in progress decomp of Mario &amp; Luigi Dream Team [1.0 US REV0] [TitleID: 00040000000D5A00]]",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Mario-and-Luigi-3Ds-R-D/MILLI4C"
+            }
+          ]
+        },
+        {
+          "project": "monster-hunter-4-ultimate",
+          "name_markdown": "[Monster Hunter 4 Ultimate](https://github.com/mhvuze/mh4u-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_3DS/master/Named_Boxarts/Monster%20Hunter%204%20Ultimate%20%28USA%29.png",
+              "alt": "Monster Hunter 4 Ultimate box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Progress tracking for a matching decompilation of Monster Hunter 4 Ultimate (Nintendo 3DS, EU v1.1).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/mhvuze/mh4u-decomp"
             }
           ]
         }

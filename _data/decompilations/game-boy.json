@@ -190,6 +190,576 @@
         "github_stars": 52
       },
       "ai_used": null
+    },
+    "battle-arena-toshinden": {
+      "name": "Battle Arena Toshinden",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-30T22:44:52Z",
+        "last_commit_url": "https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp/commit/016442a3b27304067f4e4ba3ab8e5fb6d3c46808",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "final-fantasy-adventure-ffa-disassembly": {
+      "name": "Final Fantasy Adventure (FFA-Disassembly)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/daid/FFA-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T14:34:01Z",
+        "last_commit_url": "https://github.com/daid/FFA-Disassembly/commit/3c90c56b0f7ae71894b2dcb2d40adfa59dbb66a4",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "jpn-pokemon-blue": {
+      "name": "JPN Pokémon Blue",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Narishma-gb/pokeblue",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-16T07:48:09Z",
+        "last_commit_url": "https://github.com/Narishma-gb/pokeblue/commit/69cd1814203dd24533c46af383d7cff5591aea90",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "jpn-pokemon-gold-silver": {
+      "name": "JPN Pokémon Gold/Silver",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Narishma-gb/pokesilver",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-06-13T06:33:10Z",
+        "last_commit_url": "https://github.com/Narishma-gb/pokesilver/commit/edbe53978ef1777fc5c41019e17b7544070eab92",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "jpn-pokemon-red-green": {
+      "name": "JPN Pokémon Red/Green",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Narishma-gb/pokegreen",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-16T12:52:41Z",
+        "last_commit_url": "https://github.com/Narishma-gb/pokegreen/commit/953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "kirby-s-dream-land-game-boy": {
+      "name": "Kirby's Dream Land",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Kirby-Dream-Land-Recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-30T21:45:56Z",
+        "last_commit_url": "https://github.com/omegakatana92/Kirby-Dream-Land-Recomp/commit/66dfc20d0ca7042ad14d85f5ca2a81cfd5f6f5df",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "kirby-s-pinball-land": {
+      "name": "Kirby's Pinball Land",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-30T21:47:34Z",
+        "last_commit_url": "https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp/commit/f23eba597630aeda79ff8a728970ab4ca1e18f5c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "mega-man-ii-rw2": {
+      "name": "Mega Man II (rw2)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Kak2X/rw2",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T12:04:02Z",
+        "last_commit_url": "https://github.com/Kak2X/rw2/commit/d9c905c4caac58c777e20525745e7cdc647f3bd1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "mega-man-dr-wily-s-revenge": {
+      "name": "Mega Man: Dr. Wily's Revenge",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/iimarckus/megaman",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-10-13T06:57:39Z",
+        "last_commit_url": "https://github.com/iimarckus/megaman/commit/3b59f9697e846431075e6de5316ab91f30058c62",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "metroid-ii-return-of-samus-m2ros": {
+      "name": "Metroid II: Return of Samus (M2RoS)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/metroidret/M2RoS",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-25T01:23:21Z",
+        "last_commit_url": "https://github.com/metroidret/M2RoS/commit/031aea34cb1a6c6aae0f27b55dd2a6fe7c36b810",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 32
+      },
+      "ai_used": null
+    },
+    "pocket-love": {
+      "name": "Pocket Love",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/RussianManSMWC/Pocket-Love-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T06:22:16Z",
+        "last_commit_url": "https://github.com/RussianManSMWC/Pocket-Love-Disassembly/commit/4286d9800113e20b21f5f135f2beec0b76079528",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "pokemon-gold-spaceworld-demo": {
+      "name": "Pokemon Gold SpaceWorld Demo",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/pret/pokegold-spaceworld",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T15:05:38Z",
+        "last_commit_url": "https://github.com/pret/pokegold-spaceworld/commit/4dfa9554c58cd14f3fc6f892aaa8230736f0b4e3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 403
+      },
+      "ai_used": null
+    },
+    "pokemon-rby-gsc-frlf-rse-g1r-deluxe": {
+      "name": "Pokemon RBY / GSC / FRLF / RSE (G1R Deluxe)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/bryanthaboi/gen1recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T02:31:39Z",
+        "last_commit_url": "https://github.com/bryanthaboi/gen1recomp/commit/79ea62f45fb2ea8f65d081a109431e4eb1bbdb36",
+        "default_branch": "dev",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4011
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue": {
+      "name": "Pokémon Red and Blue",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/jayceekaycee/RedPlusPlus",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2016-03-01T05:05:03Z",
+        "last_commit_url": "https://github.com/jayceekaycee/RedPlusPlus/commit/716df629b65f6a4f8171a74ee77a64211b00106e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokemon-claude-red": {
+      "name": "Pokémon Red and Blue (pokemon-claude-red)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/levy-street/pokemon-claude-red",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-30T05:53:30Z",
+        "last_commit_url": "https://github.com/levy-street/pokemon-claude-red/commit/5aedbfe00b1b204fc604ad963509c74b65f704b0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 70
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokemonredandbluerecomp": {
+      "name": "Pokémon Red and Blue (PokemonRedAndBlueRecomp)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/mstan/PokemonRedAndBlueRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-23T06:51:57Z",
+        "last_commit_url": "https://github.com/mstan/PokemonRedAndBlueRecomp/commit/b5f8bf3127d1208f3582d2f84862a2bfc8f605a9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokered-fr": {
+      "name": "Pokémon Red and Blue (pokered-fr)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/einstein95/pokered-fr",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-27T00:09:39Z",
+        "last_commit_url": "https://github.com/einstein95/pokered-fr/commit/7ddc547e22e4c84f3e492a3c04a92c26f7f2e877",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokered-gbc": {
+      "name": "Pokémon Red and Blue (pokered-gbc)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/dannye/pokered-gbc",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-25T18:05:09Z",
+        "last_commit_url": "https://github.com/dannye/pokered-gbc/commit/c1a3b6c5a7591472241036d0cf09c3817f841f93",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 182
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokered-jp": {
+      "name": "Pokémon Red and Blue (pokered-jp)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/luckytyphlosion/pokered-jp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2017-01-16T23:30:18Z",
+        "last_commit_url": "https://github.com/luckytyphlosion/pokered-jp/commit/258d1a89ec49a2a0ccfbdd232ac0e5d96d00899a",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokered-pro": {
+      "name": "Pokémon Red and Blue (Pokered-Pro)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Kamy41/Pokered-Pro",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-08T20:47:35Z",
+        "last_commit_url": "https://github.com/Kamy41/Pokered-Pro/commit/041c2e66bab9ad4b8543edbc05cfb89e10486547",
+        "default_branch": "MasterBeta",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "pokemon-red-and-blue-pokemon-anniversary-red": {
+      "name": "Pokémon Red and Blue (Pokémon Anniversary Red)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/TwitchPlaysPokemon/pokemonAnniversaryRed",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2015-05-27T04:46:09Z",
+        "last_commit_url": "https://github.com/TwitchPlaysPokemon/pokemonAnniversaryRed/commit/ff082d4417f0935c092d9255af66f6639f4af009",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 35
+      },
+      "ai_used": null
+    },
+    "super-mario-land-2-6-golden-coins-supermarioland2recomp": {
+      "name": "Super Mario Land 2: 6 Golden Coins (SuperMarioLand2Recomp)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/mstan/SuperMarioLand2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T02:54:10Z",
+        "last_commit_url": "https://github.com/mstan/SuperMarioLand2Recomp/commit/be57e210f1c1a11d777b5482076dbbc371468ea1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "super-mario-land-3-wario-land-recomp": {
+      "name": "Super Mario Land 3: Wario Land (Recomp)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-30T23:01:30Z",
+        "last_commit_url": "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/commit/59d99c9f39d4f6300b5b63ebaa8abaf104bd6216",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "tetris": {
+      "name": "Tetris",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/osnr/tetris",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2017-07-01T10:19:27Z",
+        "last_commit_url": "https://github.com/osnr/tetris/commit/4ca2f8bf3013a13a4c54d59ee03c929036045f93",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 85
+      },
+      "ai_used": null
+    },
+    "tetris-gbtetris": {
+      "name": "Tetris (gbtetris)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/meithecatte/gbtetris",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2019-07-01T12:19:22Z",
+        "last_commit_url": "https://github.com/meithecatte/gbtetris/commit/5b2a33fbb8119afc8b776ccfd19bd92ae9ae1d4e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "tetris-kirpich": {
+      "name": "Tetris (Kirpich)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/etroimcasso/Kirpich",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T05:57:05Z",
+        "last_commit_url": "https://github.com/etroimcasso/Kirpich/commit/a6e2df3b8c75a8dbd1c4ae0c82ea481dd51ec2b0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "tetris-tetris-disassembly-davfaithid": {
+      "name": "Tetris (tetris-disassembly (davFaithid))",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/davFaithid/tetris-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-11-27T03:34:27Z",
+        "last_commit_url": "https://github.com/davFaithid/tetris-disassembly/commit/a0585806b108657e5db724a308db3f1e8070ee27",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "tetris-tetris-gb-disasm": {
+      "name": "Tetris (tetris-gb-disasm)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/vinheim3/tetris-gb-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-01-19T09:20:58Z",
+        "last_commit_url": "https://github.com/vinheim3/tetris-gb-disasm/commit/af54544fe292464055dc1d32490e48c4f998c9d9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 32
+      },
+      "ai_used": null
+    },
+    "wario-land-super-mario-land-3": {
+      "name": "Wario Land: Super Mario Land 3",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/GABRIELNNK/Bigodao",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T05:19:49Z",
+        "last_commit_url": "https://github.com/GABRIELNNK/Bigodao/commit/15d9c983c5f214d30ef2749ef8e304e1725e4d0b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "tetris-agbtetris": {
+      "name": "Tetris (agbtetris)",
+      "platforms": [
+        "Game Boy"
+      ],
+      "repository_url": "https://github.com/Normmatt/agbtetris",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-02-16T00:04:40Z",
+        "last_commit_url": "https://github.com/Normmatt/agbtetris/commit/1da0c92d31f5ba4f565775a25418acabebd6b811",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 18
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -423,6 +993,680 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/alexsteb/tetris_disassembly"
+            }
+          ]
+        },
+        {
+          "project": "battle-arena-toshinden",
+          "name_markdown": "[Battle Arena Toshinden](https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Battle%20Arena%20Toshinden%20%28USA%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Battle Arena Toshinden box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan-made recompilation of the Game Boy version of Battle Arena Toshinden. Requires users to provide their own ROM. Windows is officially supported, with...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-adventure-ffa-disassembly",
+          "name_markdown": "[Final Fantasy Adventure (FFA-Disassembly)](https://github.com/daid/FFA-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Final%20Fantasy%20Adventure%20%28USA%29.png",
+              "alt": "Final Fantasy Adventure (FFA-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/daid/FFA-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "jpn-pokemon-blue",
+          "name_markdown": "[JPN Pokémon Blue](https://github.com/Narishma-gb/pokeblue)",
+          "images": [],
+          "notes_markdown": "Disassembly of JPN Pokémon Blue",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Narishma-gb/pokeblue"
+            }
+          ]
+        },
+        {
+          "project": "jpn-pokemon-gold-silver",
+          "name_markdown": "[JPN Pokémon Gold/Silver](https://github.com/Narishma-gb/pokesilver)",
+          "images": [],
+          "notes_markdown": "Disassembly of JPN Pokémon Gold/Silver",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Narishma-gb/pokesilver"
+            }
+          ]
+        },
+        {
+          "project": "jpn-pokemon-red-green",
+          "name_markdown": "[JPN Pokémon Red/Green](https://github.com/Narishma-gb/pokegreen)",
+          "images": [],
+          "notes_markdown": "Disassembly of JPN Pokémon Red/Green",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Narishma-gb/pokegreen"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-dream-land-game-boy",
+          "name_markdown": "[Kirby's Dream Land](https://github.com/omegakatana92/Kirby-Dream-Land-Recomp)",
+          "images": [
+            {
+              "alt": "Kirby's Dream Land box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Kirby%27s%20Dream%20Land%20%28USA%2C%20Europe%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan-made recompilation of Kirby's Dream Land for modern systems. Requires the user to provide their own legally obtained ROM. No copyrighted ROM or...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/omegakatana92/Kirby-Dream-Land-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-pinball-land",
+          "name_markdown": "[Kirby's Pinball Land](https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Kirby%27s%20Pinball%20Land%20%28USA%2C%20Europe%29.png",
+              "alt": "Kirby's Pinball Land box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan-made recompilation of Kirby's Pinball Land for modern systems. Requires the user's own legally obtained ROM. No copyrighted ROM or Nintendo/HAL Laboratory assets...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-ii-rw2",
+          "name_markdown": "[Mega Man II (rw2)](https://github.com/Kak2X/rw2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Mega%20Man%20II%20%28USA%29.png",
+              "alt": "Mega Man II (rw2) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Rockman World 2 / Mega Man II disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Kak2X/rw2"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-dr-wily-s-revenge",
+          "name_markdown": "[Mega Man: Dr. Wily's Revenge](https://github.com/iimarckus/megaman)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Mega%20Man%20-%20Dr.%20Wily%27s%20Revenge%20%28USA%29.png",
+              "alt": "Mega Man: Dr. Wily's Revenge box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "disassembly of Mega Man for the Game Boy",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/iimarckus/megaman"
+            }
+          ]
+        },
+        {
+          "project": "metroid-ii-return-of-samus-m2ros",
+          "name_markdown": "[Metroid II: Return of Samus (M2RoS)](https://github.com/metroidret/M2RoS)",
+          "images": [
+            {
+              "alt": "Metroid II: Return of Samus box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Metroid%20II%20-%20Return%20of%20Samus%20%28World%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of a classic Game Boy game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/metroidret/M2RoS"
+            }
+          ]
+        },
+        {
+          "project": "pocket-love",
+          "name_markdown": "[Pocket Love](https://github.com/RussianManSMWC/Pocket-Love-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pocket%20Love%20%28Japan%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pocket Love box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of Pocket Love (Game Boy, Super Game Boy Enhanced)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/RussianManSMWC/Pocket-Love-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-gold-spaceworld-demo",
+          "name_markdown": "[Pokemon Gold SpaceWorld Demo](https://github.com/pret/pokegold-spaceworld)",
+          "images": [],
+          "notes_markdown": "Disassembly of the Pokémon Gold and Silver 1997 Space World demo",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokegold-spaceworld"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-rby-gsc-frlf-rse-g1r-deluxe",
+          "name_markdown": "[Pokemon RBY / GSC / FRLF / RSE (G1R Deluxe)](https://github.com/bryanthaboi/gen1recomp)",
+          "images": [],
+          "notes_markdown": "Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1, 2, and 3 Poke",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bryanthaboi/gen1recomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue",
+          "name_markdown": "[Pokémon Red and Blue](https://github.com/jayceekaycee/RedPlusPlus)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features. Now a standalone repository, so you can actually search...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/jayceekaycee/RedPlusPlus"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokemon-claude-red",
+          "name_markdown": "[Pokémon Red and Blue (pokemon-claude-red)](https://github.com/levy-street/pokemon-claude-red)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokémon Red, rebuilt from raw pixels by Claude Opus 5.5. Every sprite, tile, battle effect and song is code: zero image files. Plays in...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/levy-street/pokemon-claude-red"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokemonredandbluerecomp",
+          "name_markdown": "[Pokémon Red and Blue (PokemonRedAndBlueRecomp)](https://github.com/mstan/PokemonRedAndBlueRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokémon Red &amp; Blue recompiled for the Game Boy using a fork of gb-recompiled · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/PokemonRedAndBlueRecomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokered-fr",
+          "name_markdown": "[Pokémon Red and Blue (pokered-fr)](https://github.com/einstein95/pokered-fr)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "disassembly of Pokémon: Version Rouge",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/einstein95/pokered-fr"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokered-gbc",
+          "name_markdown": "[Pokémon Red and Blue (pokered-gbc)](https://github.com/dannye/pokered-gbc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokémon Red/Blue overhauled with full GBC support. Made by FroggestSpirit, Drenn, and dannye. Also check out the crysaudio branch.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/dannye/pokered-gbc"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokered-jp",
+          "name_markdown": "[Pokémon Red and Blue (pokered-jp)](https://github.com/luckytyphlosion/pokered-jp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "disassembly of Japanese edition of Pokémon Red",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/luckytyphlosion/pokered-jp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokered-pro",
+          "name_markdown": "[Pokémon Red and Blue (Pokered-Pro)](https://github.com/Kamy41/Pokered-Pro)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Pokémon Red/Blue with some fixies and improvements (and a little surprise at Vermilion Dock if you talk to Giovanni after the fight...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Kamy41/Pokered-Pro"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-red-and-blue-pokemon-anniversary-red",
+          "name_markdown": "[Pokémon Red and Blue (Pokémon Anniversary Red)](https://github.com/TwitchPlaysPokemon/pokemonAnniversaryRed)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Red box art (Game Boy)",
+              "width": 100
+            },
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
+              "alt": "Pokemon Blue box art (Game Boy)",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Anniversary Red dissassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TwitchPlaysPokemon/pokemonAnniversaryRed"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-land-2-6-golden-coins-supermarioland2recomp",
+          "name_markdown": "[Super Mario Land 2: 6 Golden Coins (SuperMarioLand2Recomp)](https://github.com/mstan/SuperMarioLand2Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Super%20Mario%20Land%202%20-%206%20Golden%20Coins%20%28USA%2C%20Europe%29.png",
+              "alt": "Super Mario Land 2: 6 Golden Coins (SuperMarioLand2Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Super Mario Land 2: 6 Golden Coins (Game Boy) static recompilation with adaptive widescreen and DX mods",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/SuperMarioLand2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-land-3-wario-land-recomp",
+          "name_markdown": "[Super Mario Land 3: Wario Land (Recomp)](https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-)",
+          "images": [
+            {
+              "alt": "Super Mario Land 3: Wario Land box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Wario%20Land%20-%20Super%20Mario%20Land%203%20%28World%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A fan-made recompilation of Super Mario Land 3: Wario Land for modern systems. Requires the user to provide their own legally obtained ROM. No...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-"
+            }
+          ]
+        },
+        {
+          "project": "tetris",
+          "name_markdown": "[Tetris](https://github.com/osnr/tetris)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": ":memo: Disassembly of Tetris for Game Boy.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/osnr/tetris"
+            }
+          ]
+        },
+        {
+          "project": "tetris-gbtetris",
+          "name_markdown": "[Tetris (gbtetris)](https://github.com/meithecatte/gbtetris)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A compilable Gameboy Tetris disassembly, hopefully fully labeled and documented one day.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/meithecatte/gbtetris"
+            }
+          ]
+        },
+        {
+          "project": "tetris-kirpich",
+          "name_markdown": "[Tetris (Kirpich)](https://github.com/etroimcasso/Kirpich)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "GB DMG Tetris multi-platform PC port with multiple quality-of-life enhancements, written in C++, built on the Polyrhythm engine",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/etroimcasso/Kirpich"
+            }
+          ]
+        },
+        {
+          "project": "tetris-tetris-disassembly-davfaithid",
+          "name_markdown": "[Tetris (tetris-disassembly (davFaithid))](https://github.com/davFaithid/tetris-disassembly)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Tetris (GB) Disassembly compatible with RGBDS (Tested). An experimental 3DSVC version is included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/davFaithid/tetris-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "tetris-tetris-gb-disasm",
+          "name_markdown": "[Tetris (tetris-gb-disasm)](https://github.com/vinheim3/tetris-gb-disasm)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/vinheim3/tetris-gb-disasm"
+            }
+          ]
+        },
+        {
+          "project": "wario-land-super-mario-land-3",
+          "name_markdown": "[Wario Land: Super Mario Land 3](https://github.com/GABRIELNNK/Bigodao)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Wario%20Land%20-%20Super%20Mario%20Land%203%20%28World%29.png",
+              "alt": "Wario Land: Super Mario Land 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A static recompilation study and native port of Wario Land: Super Mario Land 3 with native widescreen support, mods support for HD tile and...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GABRIELNNK/Bigodao"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/GABRIELNNK/Bigodao"
+            }
+          ]
+        },
+        {
+          "project": "tetris-agbtetris",
+          "name_markdown": "[Tetris (agbtetris)](https://github.com/Normmatt/agbtetris)",
+          "images": [
+            {
+              "alt": "Tetris box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is both a port and a decompilation of the 1989 tetris for the original gameboy.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/Normmatt/agbtetris"
             }
           ]
         }
