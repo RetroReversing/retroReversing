@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64ReversingIntroduction.md
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-22'
 excerpt: 'A practical guide to N64 reverse engineering, from ROM identification and MIPS debugging to asset extraction and matching decompilation.'
 ---
 
@@ -315,6 +315,30 @@ Keep a compact record containing:
 Repeat after a fresh boot and in another level or state where appropriate.
 This helps detect temporary allocations, misleading display values, and addresses that only happened to work in one save state.
 
+### Keep Symbols and Overlay Evidence Under Version Control
+An address alone is not a stable identity when a game has multiple revisions or overlays sharing RAM. Keep a human-readable research record beside the tool-specific symbol and segment files. This illustrative YAML is a research template, not N64Recomp's input schema:
+
+```yaml
+game: example-game
+revision: us-1.0
+rom_sha256: "<verified digest>"
+symbols:
+  - name: func_80083A20
+    vram: "0x80083A20"
+    rom_range: "<start..end>"
+    section: text
+    overlay: null
+    size: "<verified bytes>"
+    confidence: observed
+    evidence:
+      - "direct call at <address>"
+      - "execution trace for <scene>"
+```
+
+Use a separate revision mapping when the same function moves between releases. For an overlay, record its ROM or VROM range, load destination, relocation source, and the state in which it was observed. Keep the original address-derived name in the record after a semantic rename, so old traces and other researchers' maps remain comparable. Mark guesses as tentative; a plausible name is not evidence of a function boundary.
+
+[N64Recomp's configuration and symbol inputs](https://github.com/N64Recomp/N64Recomp) consume project-specific metadata. Convert the verified research record into the format required by the pinned tool version, and check that every emitted address still maps to the intended revision and overlay [^16].
+
 ---
 # Map the ROM Into Code and Data
 A cartridge image does not provide a universal filesystem or a complete list of functions.
@@ -524,3 +548,4 @@ For patches, identify the exact base image and distribute the patch with applica
 [^13]: [Nintendo SDK - osPiStartDma](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/n64man/os/osPiStartDma.htm), cartridge DMA interface.
 [^14]: [SGI - Nintendo 64 RSP Programmer's Guide](https://ultra64.ca/files/documentation/silicon-graphics/SGI_Nintendo_64_RSP_Programmers_Guide.pdf), RSP architecture and programming.
 [^15]: [Nintendo SDK - gSPSegment](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/n64man/gsp/gSPSegment.htm), segmented graphics address translation.
+[^16]: [N64Recomp README](https://github.com/N64Recomp/N64Recomp), symbol metadata and overlay configuration requirements.
