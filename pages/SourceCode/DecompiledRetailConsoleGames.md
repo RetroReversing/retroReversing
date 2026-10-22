@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-12'
+updatedAt: '2026-10-22'
 ---
 
 This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
@@ -38,6 +38,8 @@ The tables list project types as comma-separated links to their respective proje
 * <a id="glossary-reimplementation"></a>**Reimplementation / Game engine reimplementation** - Builds new code to reproduce the game's or engine's behavior, often using the original game's assets.
 * <a id="glossary-rewrite"></a>**Rewrite** - Rebuilds the implementation with a different architecture or language, potentially using reverse engineering to understand the original behavior.
 * <a id="glossary-fan-remake"></a>**Fan remake** - Recreates the game independently, potentially changing its engine, assets or gameplay.
+
+For an introductory comparison, see the [Held Games explainer](https://heldgames.com/guides/retro-decompilation-recompilation-explained) and the [Reddit ELI5 discussion](https://www.reddit.com/r/explainlikeimfive/comments/1j6mo9p/eli5_how_do_video_game_recompilations_work_to_get/). Both explain why a game can run natively after recompilation; the Reddit thread is informal community discussion. For a detailed early example, Andrew Kelley's [Jamulator article](https://andrewkelley.me/post/jamulator.html) walks through static disassembly and recompilation of NES games with LLVM and Go.
 
 For entries with a dated activity check, Active means the linked repository received a default-branch commit within the preceding 12 months. Inactive means no commits in that period, or an archived repository. These labels describe repository activity rather than completion or playability. Last-commit dates come from the project catalog. Check dates are stored in the catalog for maintenance. A failed check retains earlier evidence and is labeled as unavailable; Unverified means no successful check is recorded. Undated activity labels have not yet been checked by the script.
 

@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-22'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive
@@ -493,6 +493,8 @@ If you want to experiment with decompilation on a retro binary:
 
 Decompilers reward patience and annotation.
 The first output is a sketch; the useful map is the one you refine.
+
+To practise matching decompilation rather than only reading decompiler output, [Decomp Academy](https://decomp-academy.dev/) offers graded exercises using real GameCube, Game Boy Advance and Nintendo 64 functions. You write C and compare the resulting machine code against the target, which makes compiler behaviour part of the lesson.
 
 ## Starting a Dreamcast decompilation
 <div class="emoji">🔧</div>

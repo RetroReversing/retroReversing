@@ -44,6 +44,8 @@ The [XEO3 Recomp Kit](https://github.com/fxceless/xeo3-recomp-kit) targets Micro
 
 {% include link-to-other-site.html url="https://github.com/fxceless/xeo3-recomp-kit" description="fxceless' XEO3 Recomp Kit recompiles Xbox 360 games into the DLL loaded by Microsoft's XEO3 back-compat emulator. Its README reports Crackdown as playable from a disc folder, Need for Speed: Most Wanted reaching menus and races, and Fable II booting and rendering before freezing." title="XEO3 Recomp Kit" %}
 
+For the separate XenonRecomp toolchain, [this community issue discussion](https://github.com/hedge-dev/XenonRecomp/issues/13) sketches a workflow from an Xbox 360 `.xex` through XenonAnalyse and XenonRecomp to generated code. The comments also explain that a running game still needs platform services such as rendering and kernel functions. Treat the thread as practical notes rather than maintained project documentation.
+
 ---
 # Hardware
 If you're interested in reverse engineering software for the Xbox 360 gaming console, it's essential to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Xbox 360 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
