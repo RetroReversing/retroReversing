@@ -122,7 +122,7 @@ For a concrete configuration with real symbols, patches, and overlay metadata, i
 
 Your first translation should be a small, direct-call function with known input and output. Compare its behavior against the original under an emulator. Then add call targets and loaded sections incrementally. A successful C compilation proves the generated source is syntactically valid; it does not establish accurate emulation of memory, timing, or hardware services.
 
-N64Recomp translates CPU instructions. It can also recompile [RSP](#glossary-rsp) microcode, though the upstream documentation does not describe RSP overlay support [^1]. Identify the game's graphics and audio microcode before choosing to recompile it or intercept standard tasks at a higher level.
+N64Recomp translates CPU instructions and has a separate [RSP](#glossary-rsp) recompiler. RSP overlay support was added after parts of the README were written, so check the features of the exact revision you pin [^7]. Identify the game's graphics and audio microcode before choosing to recompile it or intercept standard tasks at a higher level.
 
 ---
 ## Connect a Native Runtime
@@ -171,3 +171,4 @@ Verify one ROM revision, document one executable region, translate one known fun
 [^4]: [N64Recomp ROM byte-order handling](https://github.com/N64Recomp/N64Recomp) and [Zelda64Recomp ROM selection FAQ](https://github.com/Zelda64Recomp/Zelda64Recomp), accepted dump representations and revision specificity.
 [^5]: [Nintendo 64 Programming Manual](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/), cartridge DMA, memory, and operating-system behavior.
 [^6]: [N64ModernRuntime README](https://github.com/N64Recomp/N64ModernRuntime), runtime services, platform callbacks, renderer integration, and save media.
+[^7]: [N64Recomp pull request 118](https://github.com/N64Recomp/N64Recomp/pull/118), merged RSPRecomp overlay support.
