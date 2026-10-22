@@ -21,7 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-22'
 ---
 
 # Introduction
@@ -223,6 +223,12 @@ Krome Studios used the **Merkury Engine** for many of its own titles, particular
 If you are interested in learning more we have a specific post about the Merkury engine:
 {% include_cached link-to-other-post.html post="/krome-merkury-engine" %}
 
+
+---
+# Static Recompilation for the Browser
+[PS2 Web Recomp](https://github.com/snuri00/ps2-web-recomp) translates a game's Emotion Engine executable into C++ ahead of time, then compiles it to WebAssembly. Its browser runtime handles the remaining PS2 operating system and hardware services, including graphics through WebGPU. The project documents *Gran Turismo 4* and *God of War II* as working examples, with users supplying their own disc images.
+
+The repository's [How it works section](https://github.com/snuri00/ps2-web-recomp#how-it-works) explains how the recompiler handles R5900 instructions and how the runtime handles the I/O processor and vector units. This is a toolkit and runtime for game-specific browser builds rather than a matching decompilation of either example game.
 
 ---
 # Executable Overlays and Loadable Segments
