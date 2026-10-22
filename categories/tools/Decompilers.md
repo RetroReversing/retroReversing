@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-21'
+updatedAt: '2026-10-22'
 ---
 
 # From Machine Code to Pseudo-C
@@ -504,6 +504,8 @@ If you want to experiment with decompilation on a retro binary:
 * Read the disassemblers post first if CFG or basic-block terminology is unfamiliar.
 
 Compare each inferred type or branch with the instructions that produced it. A single corrected function signature can make its callers easier to read too.
+
+To practise matching decompilation rather than only reading decompiler output, [Decomp Academy](https://decomp-academy.dev/) offers graded exercises using real GameCube, Game Boy Advance and Nintendo 64 functions. You write C and compare the resulting machine code against the target, which makes compiler behaviour part of the lesson.
 
 ## Starting a Dreamcast decompilation
 <div class="emoji">🔧</div>
