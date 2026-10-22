@@ -608,6 +608,348 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "animal-crossing-wild-world": {
+      "name": "Animal Crossing: Wild World",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/6elphegor/acww-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T16:24:51Z",
+        "last_commit_url": "https://github.com/6elphegor/acww-decomp/commit/4e54d6abbd696a43213b0c600e7f466cf7b22f32",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "dragon-quest-iv-chapters-of-the-chosen-dqiv-recompiled": {
+      "name": "Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T17:49:53Z",
+        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled/commit/793a40ea08a703ae36d41bba263782d541ae2bdb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 48
+      },
+      "ai_used": null
+    },
+    "ds-protect": {
+      "name": "DS Protect",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/taxicat1/dsprot",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-22T22:24:45Z",
+        "last_commit_url": "https://github.com/taxicat1/dsprot/commit/7f156a4a02a0cad410898bdf176bb77378cac2aa",
+        "default_branch": "1.23",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "final-fantasy-crystal-chronicles-echoes-of-time": {
+      "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/JonathanDC64/FFCCEOT-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T01:43:58Z",
+        "last_commit_url": "https://github.com/JonathanDC64/FFCCEOT-Recomp/commit/934c7434c9a6c2866fea17fa36098ef9c0652fc4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "final-fantasy-iv-3d-remake": {
+      "name": "Final Fantasy IV (3D Remake)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-10T04:20:56Z",
+        "last_commit_url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project/commit/47497a47e0bc7dce2a5e5de0d2f947afb0043f73",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 8
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-chinatown-wars": {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/official-kryo-to/ctw-native/tree/main/port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:22:55Z",
+        "last_commit_url": "https://github.com/official-kryo-to/ctw-native/commit/b0506abc786fea229101c56e0a64726aa8b4ac97",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-chinatown-wars-nintendo-ds": {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/official-kryo-to/ctw-native",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:22:55Z",
+        "last_commit_url": "https://github.com/official-kryo-to/ctw-native/commit/b0506abc786fea229101c56e0a64726aa8b4ac97",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "kingdom-hearts-358-2-days-khdays-vita": {
+      "name": "Kingdom Hearts 358/2 Days (khdays-vita)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/ggdrn/KH-DAYS-VITA",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T20:04:52Z",
+        "last_commit_url": "https://github.com/ggdrn/KH-DAYS-VITA/commit/913c38e228b0cae1d4fa66584baa3d2d5287d050",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "kingdom-hearts-re-coded-nintendo-ds": {
+      "name": "Kingdom Hearts Re:coded",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yokimitsuro/khrecoded-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T20:17:35Z",
+        "last_commit_url": "https://github.com/Yokimitsuro/khrecoded-decomp/commit/ce0fb851082158ae4090ffdb3f94bbee8f86c674",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-spirit-tracks-st": {
+      "name": "The Legend of Zelda: Spirit Tracks (st)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/zeldaret/st",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T01:39:02Z",
+        "last_commit_url": "https://github.com/zeldaret/st/commit/048ffeaaaae4137aa258e2ecb3e9bf996c98d435",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 70
+      },
+      "ai_used": null
+    },
+    "mario-kart-ds": {
+      "name": "Mario Kart DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/XorTroll/mkds-re",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-01-24T18:12:43Z",
+        "last_commit_url": "https://github.com/XorTroll/mkds-re/commit/4124540cfc0526f4febed62fe3227518f0f64f47",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 64
+      },
+      "ai_used": null
+    },
+    "metroid-prime-hunters": {
+      "name": "Metroid Prime Hunters",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-04T03:59:00Z",
+        "last_commit_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp/commit/9c2d1e00d67968ccbd7eb9f9979d16589401f597",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 265
+      },
+      "ai_used": null
+    },
+    "metroid-prime-hunters-huntersrecomp-ayn-thor": {
+      "name": "Metroid Prime Hunters (HuntersRecomp (AYN Thor))",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/aabrole/HuntersRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-06T00:54:07Z",
+        "last_commit_url": "https://github.com/aabrole/HuntersRecomp/commit/7482c7013b14b18e17864521ceb1a079c172499c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 37
+      },
+      "ai_used": null
+    },
+    "pokemon-black-2-and-white-2": {
+      "name": "Pokémon Black 2 and White 2",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/fuddlesworth/pokebw2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:21:01Z",
+        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/753b3fd97683fc619bb98b52e7276afac3d5e32f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "pokemon-mystery-dungeon-explorers-of-sky-pmdsky-debug-symbol-database": {
+      "name": "Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/UsernameFodder/pmdsky-debug",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T01:13:29Z",
+        "last_commit_url": "https://github.com/UsernameFodder/pmdsky-debug/commit/c72fe675919ec83cfe93f687973afae85e00d1a3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 55
+      },
+      "ai_used": null
+    },
+    "pokemon-platinum-nintendo-ds": {
+      "name": "Pokémon Platinum",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/JimB16/PokePlat",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-01-31T18:00:24Z",
+        "last_commit_url": "https://github.com/JimB16/PokePlat/commit/ccbdf7ea8b08f23d3adcb6baa7d1f2b8dc24bbc1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 116
+      },
+      "ai_used": null
+    },
+    "super-mario-64-ds-nintendo-ds": {
+      "name": "Super Mario 64 DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/mstan/supermario64dsrecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-09T20:22:56Z",
+        "last_commit_url": "https://github.com/mstan/supermario64dsrecomp/commit/deb9973373d052ae7ca0d72f7849b6076f21ad81",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "super-mario-64-ds-sm64ds-decomp": {
+      "name": "Super Mario 64 DS (sm64ds-decomp)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/tangosdev/sm64ds-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:10:54Z",
+        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/20a470b32a5f407593db88374d6e81686f19d700",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 224
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -1355,6 +1697,394 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp"
+            }
+          ]
+        },
+        {
+          "project": "animal-crossing-wild-world",
+          "name_markdown": "[Animal Crossing: Wild World](https://github.com/6elphegor/acww-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Animal%20Crossing%20-%20Wild%20World%20%28USA%29.png",
+              "alt": "Animal Crossing: Wild World box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Animal Crossing: Wild World (Nintendo DS, USA)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/6elphegor/acww-decomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-quest-iv-chapters-of-the-chosen-dqiv-recompiled",
+          "name_markdown": "[Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)](https://github.com/GoldieLeGenie/DQIV-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Dragon%20Quest%20IV%20-%20Chapters%20of%20the%20Chosen%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "native PC version of dragon quest IV DS",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GoldieLeGenie/DQIV-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "ds-protect",
+          "name_markdown": "[DS Protect](https://github.com/taxicat1/dsprot)",
+          "images": [],
+          "notes_markdown": "Decompilation of DS Protect",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/taxicat1/dsprot"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-crystal-chronicles-echoes-of-time",
+          "name_markdown": "[Final Fantasy Crystal Chronicles: Echoes of Time](https://github.com/JonathanDC64/FFCCEOT-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Final%20Fantasy%20Crystal%20Chronicles%20-%20Echoes%20of%20Time%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Final Fantasy Crystal Chronicles: Echoes of Time box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (DS) by static recompilation. Bring your own ROM: the game is built on...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/JonathanDC64/FFCCEOT-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/JonathanDC64/FFCCEOT-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-iv-3d-remake",
+          "name_markdown": "[Final Fantasy IV (3D Remake)](https://github.com/GlitchedDeveloper/Babil-Decompilation-Project)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Final%20Fantasy%20IV%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Final Fantasy IV (3D Remake) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An open-source decompilation of Final Fantasy IV (3D Remake)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-chinatown-wars",
+          "name_markdown": "[Grand Theft Auto: Chinatown Wars](https://github.com/official-kryo-to/ctw-native/tree/main/port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Chinatown%20Wars%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Grand Theft Auto: Chinatown Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Bringing GTA: Chinatown Wars to native PC with your own game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/official-kryo-to/ctw-native/tree/main/port"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-chinatown-wars-nintendo-ds",
+          "name_markdown": "[Grand Theft Auto: Chinatown Wars](https://github.com/official-kryo-to/ctw-native)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Chinatown%20Wars%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Grand Theft Auto: Chinatown Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Bringing GTA: Chinatown Wars to native PC with your own game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/official-kryo-to/ctw-native"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-358-2-days-khdays-vita",
+          "name_markdown": "[Kingdom Hearts 358/2 Days (khdays-vita)](https://github.com/ggdrn/KH-DAYS-VITA)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20358-2%20Days%20%28USA%29.png",
+              "alt": "Kingdom Hearts 358/2 Days box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Port of Decompilation of Kingdom Hearts: 358/2 Days to PS VITA",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/ggdrn/KH-DAYS-VITA"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-re-coded-nintendo-ds",
+          "name_markdown": "[Kingdom Hearts Re:coded](https://github.com/Yokimitsuro/khrecoded-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20Re-coded%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Kingdom Hearts Re:coded box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of Kingdom Hearts Re:coded (Nintendo DS)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Yokimitsuro/khrecoded-decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-spirit-tracks-st",
+          "name_markdown": "[The Legend of Zelda: Spirit Tracks (st)](https://github.com/zeldaret/st)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Spirit Tracks box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Spirit%20Tracks%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of The Legend of Zelda: Spirit Tracks",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/st"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-ds",
+          "name_markdown": "[Mario Kart DS](https://github.com/XorTroll/mkds-re)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20Kart%20DS%20%28USA%29%20%28Demo%29%20%28Kiosk%29.png",
+              "alt": "Mario Kart DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/XorTroll/mkds-re"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime-hunters",
+          "name_markdown": "[Metroid Prime Hunters](https://github.com/mstan/MetroidPrimeHuntersRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+              "alt": "Metroid Prime Hunters box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/mstan/MetroidPrimeHuntersRecomp"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime-hunters-huntersrecomp-ayn-thor",
+          "name_markdown": "[Metroid Prime Hunters (HuntersRecomp (AYN Thor))](https://github.com/aabrole/HuntersRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+              "alt": "Metroid Prime Hunters (HuntersRecomp (AYN Thor)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Metroid Prime Hunters recomp for the AYN Thor: native dual-screen Android port with twin-stick Prime controls and HD GLES rendering",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/aabrole/HuntersRecomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-black-2-and-white-2",
+          "name_markdown": "[Pokémon Black 2 and White 2](https://github.com/fuddlesworth/pokebw2)",
+          "images": [],
+          "notes_markdown": "Decompilation of Pokémon Black 2 and White 2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/fuddlesworth/pokebw2"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-mystery-dungeon-explorers-of-sky-pmdsky-debug-symbol-database",
+          "name_markdown": "[Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))](https://github.com/UsernameFodder/pmdsky-debug)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Explorers%20of%20Sky%20%28USA%29.png",
+              "alt": "Pokemon Mystery Dungeon: Explorers of Sky box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Debug info for reverse engineering PMD: Explorers of Sky",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/UsernameFodder/pmdsky-debug"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-platinum-nintendo-ds",
+          "name_markdown": "[Pokémon Platinum](https://github.com/JimB16/PokePlat)",
+          "images": [
+            {
+              "alt": "Pokemon Platinum box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Pokemon Platinum",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/JimB16/PokePlat"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-ds-nintendo-ds",
+          "name_markdown": "[Super Mario 64 DS](https://github.com/mstan/supermario64dsrecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Super%20Mario%2064%20DS%20%28USA%2C%20Australia%29%20%28Rev%201%29.png",
+              "alt": "Super Mario 64 DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/supermario64dsrecomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-ds-sm64ds-decomp",
+          "name_markdown": "[Super Mario 64 DS (sm64ds-decomp)](https://github.com/tangosdev/sm64ds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Super%20Mario%2064%20DS%20%28USA%2C%20Australia%29%20%28Rev%201%29.png",
+              "alt": "Super Mario 64 DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/tangosdev/sm64ds-decomp"
             }
           ]
         }

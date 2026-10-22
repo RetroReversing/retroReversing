@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "mario-s-tennis": {
+      "name": "Mario's Tennis",
+      "platforms": [
+        "Virtual Boy"
+      ],
+      "repository_url": "https://github.com/mstan/MarioTennisVirtualBoyRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T00:44:59Z",
+        "last_commit_url": "https://github.com/mstan/MarioTennisVirtualBoyRecomp/commit/28995d368538559005aaaf9a78ab8e35eacecd71",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "zero-racers": {
+      "name": "Zero Racers",
+      "platforms": [
+        "Virtual Boy"
+      ],
+      "repository_url": "https://github.com/mstan/ZeroRacersVirtualBoyRecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T00:45:28Z",
+        "last_commit_url": "https://github.com/mstan/ZeroRacersVirtualBoyRecomp/commit/817e14002ef238ffe200d0399a8e2b1d68ff358c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "virtual-boy": {
+      "name": "Virtual Boy",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "mario-s-tennis",
+          "name_markdown": "[Mario's Tennis](https://github.com/mstan/MarioTennisVirtualBoyRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Virtual_Boy/master/Named_Boxarts/Mario%27s%20Tennis%20%28Japan%2C%20USA%29.png",
+              "alt": "Mario's Tennis box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mario's Tennis recompiled for the Virtual Boy using vbrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/MarioTennisVirtualBoyRecomp"
+            }
+          ]
+        },
+        {
+          "project": "zero-racers",
+          "name_markdown": "[Zero Racers](https://github.com/mstan/ZeroRacersVirtualBoyRecomp)",
+          "images": [],
+          "notes_markdown": "Zero Racers Virtual Boy native recompilation with recomp-ui and independent cosimulation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mstan/ZeroRacersVirtualBoyRecomp"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

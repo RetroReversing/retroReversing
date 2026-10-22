@@ -95,6 +95,158 @@
         "github_stars": 8
       },
       "ai_used": null
+    },
+    "the-legend-of-zelda-breath-of-the-wild-nintendo-wii-u": {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/hardkiller2565123123/CafeRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T21:38:56Z",
+        "last_commit_url": "https://github.com/hardkiller2565123123/CafeRecomp/commit/6285e85423283b39f4acbe744b2cca69a863ccb5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 38
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-the-wind-waker-hd-tloz-tww-hd-recompiled-android": {
+      "name": "The Legend of Zelda: The Wind Waker HD (TLoZ:TWW HD Recompiled - Android)",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T16:40:54Z",
+        "last_commit_url": "https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid/commit/b1993cf31b5ef146daa718ace570ea592150614d",
+        "default_branch": "android",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 176
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-the-wind-waker-hd-wind-waker-hd-for-playstation-5": {
+      "name": "The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/griches/PS5_WindWakerHD",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T11:39:45Z",
+        "last_commit_url": "https://github.com/griches/PS5_WindWakerHD/commit/923c482c48716e579876e52d2bc329bc90d8dbc3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-the-wind-waker-hd-wwhd-verified-decompilation": {
+      "name": "The Legend of Zelda: The Wind Waker HD (wwhd (verified decompilation))",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/ZeldaWWHDDecomp/wwhd",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T14:37:59Z",
+        "last_commit_url": "https://github.com/ZeldaWWHDDecomp/wwhd/commit/b2811a3ce838d1f875bc8e68536c1950af5d7ffc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 32
+      },
+      "ai_used": null
+    },
+    "new-super-mario-bros-u-nintendo-wii-u": {
+      "name": "New Super Mario Bros. U",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/nsmbu-recomp/nsmbu-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T01:02:47Z",
+        "last_commit_url": "https://github.com/nsmbu-recomp/nsmbu-recomp/commit/de4d65668ab2067f59f6e8cb90305c22c1142884",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "splatoon-splatoon-decomp-splatoon-decomp-lab": {
+      "name": "Splatoon (splatoon-decomp (Splatoon Decomp Lab))",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/sdlfoundation/splatoon-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-02-17T13:49:42Z",
+        "last_commit_url": "https://github.com/sdlfoundation/splatoon-decomp/commit/4fc0db8a6027898653d4328dde83f522b5f911a4",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "tekken-tag-tournament-2-wii-u-edition": {
+      "name": "Tekken Tag Tournament 2 Wii U Edition",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T10:25:01Z",
+        "last_commit_url": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/commit/85d4aaa5f569f26bdaf4ed429fcd0b7ee4b8e0d2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "zeldawwhdrecompandroid": {
+      "name": "ZeldaWWHDRecompAndroid",
+      "platforms": [
+        "Nintendo Wii U"
+      ],
+      "repository_url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T09:13:13Z",
+        "last_commit_url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/commit/2f28a4012fd2b5001695d1c8fd96d453d6304878",
+        "default_branch": "enhanced",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 78
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -254,6 +406,178 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/Swiftshine/yww"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-breath-of-the-wild-nintendo-wii-u",
+          "name_markdown": "[The Legend of Zelda: Breath of the Wild](https://github.com/hardkiller2565123123/CafeRecomp)",
+          "images": [],
+          "notes_markdown": "First Working Wii U Recomp Tool",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/hardkiller2565123123/CafeRecomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-the-wind-waker-hd-tloz-tww-hd-recompiled-android",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker HD (TLoZ:TWW HD Recompiled - Android)](https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker HD box art (Nintendo Wii U)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20(USA%2C%20Asia)%20(En%2CFr%2CEs).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "TLoZ:TWW HD Recomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-the-wind-waker-hd-wind-waker-hd-for-playstation-5",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)](https://github.com/griches/PS5_WindWakerHD)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker HD box art (Nintendo Wii U)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20(USA%2C%20Asia)%20(En%2CFr%2CEs).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial PS5 homebrew port of ZeldaWWHDRecomp. No game data: built from your own dump.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/griches/PS5_WindWakerHD"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-the-wind-waker-hd-wwhd-verified-decompilation",
+          "name_markdown": "[The Legend of Zelda: The Wind Waker HD (wwhd (verified decompilation))](https://github.com/ZeldaWWHDDecomp/wwhd)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: The Wind Waker HD box art (Nintendo Wii U)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20HD%20(USA%2C%20Asia)%20(En%2CFr%2CEs).png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/ZeldaWWHDDecomp/wwhd"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/ZeldaWWHDDecomp/wwhd"
+            }
+          ]
+        },
+        {
+          "project": "new-super-mario-bros-u-nintendo-wii-u",
+          "name_markdown": "[New Super Mario Bros. U](https://github.com/nsmbu-recomp/nsmbu-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/New%20Super%20Mario%20Bros.%20U%20%28USA%29%20%28En%2CFr%2CEs%29%20%28Rev%202%29.png",
+              "alt": "New Super Mario Bros. U box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "New Super Mario Bros. U: Native Port / Recompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/nsmbu-recomp/nsmbu-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/nsmbu-recomp/nsmbu-recomp"
+            }
+          ]
+        },
+        {
+          "project": "splatoon-splatoon-decomp-splatoon-decomp-lab",
+          "name_markdown": "[Splatoon (splatoon-decomp (Splatoon Decomp Lab))](https://github.com/sdlfoundation/splatoon-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Splatoon%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Splatoon box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Splatoon",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sdlfoundation/splatoon-decomp"
+            }
+          ]
+        },
+        {
+          "project": "tekken-tag-tournament-2-wii-u-edition",
+          "name_markdown": "[Tekken Tag Tournament 2 Wii U Edition](https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii_U/master/Named_Boxarts/Tekken%20Tag%20Tournament%202%20-%20Wii%20U%20Edition%20%28USA%29%20%28En%2CFr%2CEs%29%20%28Rev%201%29.png",
+              "alt": "Tekken Tag Tournament 2 Wii U Edition box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native Linux port of Tekken Tag Tournament 2 Wii U Edition by static recompilation. No game files included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition"
+            }
+          ]
+        },
+        {
+          "project": "zeldawwhdrecompandroid",
+          "name_markdown": "[ZeldaWWHDRecompAndroid](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED)",
+          "images": [],
+          "notes_markdown": "Wind Waker HD recompiled for Android (native ARM + Vulkan, no emulator), enhanced: native widescreen, fixed shadows, pinch-to-zoom camera, phone-made touch controls with in-game...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED"
             }
           ]
         }

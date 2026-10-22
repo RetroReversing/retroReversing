@@ -19,6 +19,234 @@
         "github_stars": 12
       },
       "ai_used": null
+    },
+    "sonic-dream-team": {
+      "name": "Sonic Dream Team",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/dev-camo/project-lucid",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:33:18Z",
+        "last_commit_url": "https://github.com/dev-camo/project-lucid/commit/a0e2e333e98fc5f05c0692c3499d4436648c4c6a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "aleph-one": {
+      "name": "Aleph One",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/Aleph-One-Marathon/alephone",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T23:48:47Z",
+        "last_commit_url": "https://github.com/Aleph-One-Marathon/alephone/commit/d2d8f6dac0ec75dfe78dea29184abc478f4b20ee",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 816
+      },
+      "ai_used": null
+    },
+    "billy-frontier": {
+      "name": "Billy Frontier",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/BillyFrontier",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-12-07T18:43:14Z",
+        "last_commit_url": "https://github.com/jorio/BillyFrontier/commit/3c0b52af693552b69e924766f3447e6229f15c9b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "bugdom": {
+      "name": "Bugdom",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/Bugdom",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-03-08T12:14:03Z",
+        "last_commit_url": "https://github.com/jorio/Bugdom/commit/7d7ad9979a86a7a149a85611bb01b06a339f4805",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 515
+      },
+      "ai_used": null
+    },
+    "bugdom-2": {
+      "name": "Bugdom 2",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/Bugdom2",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-03-08T11:19:20Z",
+        "last_commit_url": "https://github.com/jorio/Bugdom2/commit/a0e59762400447706c2a15e052837c1f9a7e8dae",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 72
+      },
+      "ai_used": null
+    },
+    "cro-mag-rally": {
+      "name": "Cro-Mag Rally",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/CroMagRally",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-26T21:59:46Z",
+        "last_commit_url": "https://github.com/jorio/CroMagRally/commit/370fc175466d6ced3612afb7b171c958cb6b76e1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 177
+      },
+      "ai_used": null
+    },
+    "marathon-marathon-android": {
+      "name": "Marathon (Marathon (Android))",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/daniele-rapagnani/alephone-android",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-05-21T18:09:02Z",
+        "last_commit_url": "https://github.com/daniele-rapagnani/alephone-android/commit/bb0e44d2f4a3c5a8902490d05c29af4c2e141945",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 70
+      },
+      "ai_used": null
+    },
+    "mighty-mike": {
+      "name": "Mighty Mike",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/MightyMike",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-12-07T18:32:01Z",
+        "last_commit_url": "https://github.com/jorio/MightyMike/commit/fd98a629f7c795b20a6f79b8cf843d8a96a4ebbe",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 215
+      },
+      "ai_used": null
+    },
+    "nanosaur-2-hatchling-nanosaur-2-jorio": {
+      "name": "Nanosaur 2: Hatchling (Nanosaur 2 (jorio))",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/Nanosaur2",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-12-07T18:15:55Z",
+        "last_commit_url": "https://github.com/jorio/Nanosaur2/commit/56cac5bc849a8eb90b3fa84e3826b2cadc1d4855",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 108
+      },
+      "ai_used": null
+    },
+    "otto-matic": {
+      "name": "Otto Matic",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jorio/OttoMatic",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-09-28T10:24:19Z",
+        "last_commit_url": "https://github.com/jorio/OttoMatic/commit/636056a92c1f276a5af5c3dc7df5c3cb952fd47a",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 184
+      },
+      "ai_used": null
+    },
+    "simcity-micropolis-java": {
+      "name": "SimCity (micropolis-java)",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/jason17055/micropolis-java",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2015-01-25T18:59:33Z",
+        "last_commit_url": "https://github.com/jason17055/micropolis-java/commit/9f6ddb4b5f36a005fe4c4f77488d7969eabf0797",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "simcity-micropolisjs": {
+      "name": "SimCity (micropolisJS)",
+      "platforms": [
+        "PC (macOS)"
+      ],
+      "repository_url": "https://github.com/graememcc/micropolisJS",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-07-13T19:21:38Z",
+        "last_commit_url": "https://github.com/graememcc/micropolisJS/commit/f13a1624d111d235e804bd80f48ba7c9f66a8e0f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 731
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -49,6 +277,198 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/mariopossamato/LEGO-Batman"
+            }
+          ]
+        },
+        {
+          "project": "sonic-dream-team",
+          "name_markdown": "[Sonic Dream Team](https://github.com/dev-camo/project-lucid)",
+          "images": [],
+          "notes_markdown": "An in-progress reconstruction of Sonic Dream Team for macOS, Windows, and Linux. You must supply your own macOS game bundle. Game assets are not...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dev-camo/project-lucid"
+            }
+          ]
+        },
+        {
+          "project": "aleph-one",
+          "name_markdown": "[Aleph One](https://github.com/Aleph-One-Marathon/alephone)",
+          "images": [],
+          "notes_markdown": "Aleph One is the open source continuation of Bungie's Marathon 2 game engine.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/Aleph-One-Marathon/alephone"
+            }
+          ]
+        },
+        {
+          "project": "billy-frontier",
+          "name_markdown": "[Billy Frontier](https://github.com/jorio/BillyFrontier)",
+          "images": [],
+          "notes_markdown": "Pangea Software's Billy Frontier for modern systems",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/BillyFrontier"
+            }
+          ]
+        },
+        {
+          "project": "bugdom",
+          "name_markdown": "[Bugdom](https://github.com/jorio/Bugdom)",
+          "images": [],
+          "notes_markdown": "🐛 Pangea Software's Bugdom for modern systems",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/Bugdom"
+            }
+          ]
+        },
+        {
+          "project": "bugdom-2",
+          "name_markdown": "[Bugdom 2](https://github.com/jorio/Bugdom2)",
+          "images": [],
+          "notes_markdown": "Pangea Software's Bugdom 2 for modern systems 🦗",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/Bugdom2"
+            }
+          ]
+        },
+        {
+          "project": "cro-mag-rally",
+          "name_markdown": "[Cro-Mag Rally](https://github.com/jorio/CroMagRally)",
+          "images": [],
+          "notes_markdown": "The wildest racing game since man invented the wheel!",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/CroMagRally"
+            }
+          ]
+        },
+        {
+          "project": "marathon-marathon-android",
+          "name_markdown": "[Marathon (Marathon (Android))](https://github.com/daniele-rapagnani/alephone-android)",
+          "images": [],
+          "notes_markdown": "Port of the AlephOne engine on Android",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/daniele-rapagnani/alephone-android"
+            }
+          ]
+        },
+        {
+          "project": "mighty-mike",
+          "name_markdown": "[Mighty Mike](https://github.com/jorio/MightyMike)",
+          "images": [],
+          "notes_markdown": "Pangea Software's Mighty Mike (Power Pete) for modern systems",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/MightyMike"
+            }
+          ]
+        },
+        {
+          "project": "nanosaur-2-hatchling-nanosaur-2-jorio",
+          "name_markdown": "[Nanosaur 2: Hatchling (Nanosaur 2 (jorio))](https://github.com/jorio/Nanosaur2)",
+          "images": [],
+          "notes_markdown": "Pangea Software's Nanosaur II for modern systems",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/Nanosaur2"
+            }
+          ]
+        },
+        {
+          "project": "otto-matic",
+          "name_markdown": "[Otto Matic](https://github.com/jorio/OttoMatic)",
+          "images": [],
+          "notes_markdown": "Pangea Software's Otto Matic 🤖",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jorio/OttoMatic"
+            }
+          ]
+        },
+        {
+          "project": "simcity-micropolis-java",
+          "name_markdown": "[SimCity (micropolis-java)](https://github.com/jason17055/micropolis-java)",
+          "images": [],
+          "notes_markdown": "Micropolis game, written in Java",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jason17055/micropolis-java"
+            }
+          ]
+        },
+        {
+          "project": "simcity-micropolisjs",
+          "name_markdown": "[SimCity (micropolisJS)](https://github.com/graememcc/micropolisJS)",
+          "images": [],
+          "notes_markdown": "A port of Micropolis to JS/HTML5",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/graememcc/micropolisJS"
             }
           ]
         }

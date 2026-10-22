@@ -1,0 +1,847 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "castle-master-ii-the-crypt-santiontanon-castlemaster2-disassembly": {
+      "name": "Castle Master II: The Crypt (santiontanon castlemaster2-disassembly)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/santiontanon/castlemaster2-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-07-16T15:03:26Z",
+        "last_commit_url": "https://github.com/santiontanon/castlemaster2-disassembly/commit/bf2961c62b9208d0afd49c337e20e6c0c582d96d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "chuckie-egg-paul-hughes-zxspectrumchuckieegg": {
+      "name": "Chuckie Egg (Paul Hughes ZXSpectrumChuckieEgg)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/Paulie68000/ZXSpectrumChuckieEgg",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-16T20:51:33Z",
+        "last_commit_url": "https://github.com/Paulie68000/ZXSpectrumChuckieEgg/commit/ecefdf22492d2aa03a4dfe180f313a96867b52d2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "cobra-paul-hughes-zxspectrumcobra": {
+      "name": "Cobra (Paul Hughes ZXSpectrumCobra)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/Paulie68000/ZXSpectrumCobra",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-17T23:48:23Z",
+        "last_commit_url": "https://github.com/Paulie68000/ZXSpectrumCobra/commit/8998fe706a30d5e195f25929888933e1544937d0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "deathchase-ritchie333-deathchase": {
+      "name": "Deathchase (Ritchie333 deathchase)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/Ritchie333/deathchase",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-11-07T15:20:44Z",
+        "last_commit_url": "https://github.com/Ritchie333/deathchase/commit/1a0fd71c33297cc69edd82d7872d2be057e95ad0",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "exolon-rusarh-exolon-esl": {
+      "name": "Exolon (rusarh exolon-esl)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/rusarh/exolon-esl",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-10-17T21:01:22Z",
+        "last_commit_url": "https://github.com/rusarh/exolon-esl/commit/b534255db33cdfcb4726ba54b94831d9502a697e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "fred-kmatveev-zx-fred-reveng": {
+      "name": "Fred (kmatveev zx-fred-reveng)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/kmatveev/zx-fred-reveng",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-07-27T07:17:36Z",
+        "last_commit_url": "https://github.com/kmatveev/zx-fred-reveng/commit/9ac36d34ee5381342091eb1b66442f088af3ffb3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "the-great-escape-dpt-the-great-escape": {
+      "name": "The Great Escape (dpt The-Great-Escape)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/dpt/The-Great-Escape",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-01-22T19:41:51Z",
+        "last_commit_url": "https://github.com/dpt/The-Great-Escape/commit/b280ebc6ed2b7f505fe8cd05a8cbba66bcbdbb8f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 90
+      },
+      "ai_used": null
+    },
+    "head-over-heels-simon-frankau-head-over-heels": {
+      "name": "Head Over Heels (simon-frankau head-over-heels)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/simon-frankau/head-over-heels",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2017-06-28T09:43:29Z",
+        "last_commit_url": "https://github.com/simon-frankau/head-over-heels/commit/f4f318f9dea624b1760064a1da76b20b125a519d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 32
+      },
+      "ai_used": null
+    },
+    "the-hobbit-paul-maddern-pobtastic-skoolkit-disassembly": {
+      "name": "The Hobbit (Paul Maddern (pobtastic) SkoolKit disassembly)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/pobtastic/hobbit",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-10-14T23:29:35Z",
+        "last_commit_url": "https://github.com/pobtastic/hobbit/commit/5b9ac055569ac645296ce74b3b9eb70fb2635eeb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "hyper-active-paul-hughes-zxspectrumhyperactive": {
+      "name": "Hyper Active (Paul Hughes ZXSpectrumHyperActive)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/Paulie68000/ZXSpectrumHyperActive",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-03T20:36:28Z",
+        "last_commit_url": "https://github.com/Paulie68000/ZXSpectrumHyperActive/commit/cfb85961b74edc68843cba9a8503516a8980e532",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "jet-set-willy-jetsetwilly-skoolkit-ca": {
+      "name": "Jet Set Willy (jetsetwilly (skoolkit.ca))",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/skoolkid/jetsetwilly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T20:03:25Z",
+        "last_commit_url": "https://github.com/skoolkid/jetsetwilly/commit/b8e0361370a52ceabf9ac541344764d3d98268e7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "jetpac": {
+      "name": "Jetpac",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/mrcook/jetpac-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-04-14T20:31:04Z",
+        "last_commit_url": "https://github.com/mrcook/jetpac-disassembly/commit/69dcde1a9f980b3d0948ca62bcb68d6c3a9b1c7d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 77
+      },
+      "ai_used": null
+    },
+    "the-lords-of-midnight-mrcook-lords-of-midnight-disassembly-spectrum-dos": {
+      "name": "The Lords of Midnight (mrcook lords-of-midnight-disassembly (Spectrum + DOS))",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/mrcook/lords-of-midnight-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-12-04T18:28:08Z",
+        "last_commit_url": "https://github.com/mrcook/lords-of-midnight-disassembly/commit/ece0ed814e37bc379805306856cb49a75815910a",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "manic-miner": {
+      "name": "Manic Miner",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/skoolkid/manicminer",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T20:03:27Z",
+        "last_commit_url": "https://github.com/skoolkid/manicminer/commit/1f2c8c01529f36a03642912f9e489006cf598664",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "manic-miner-mrcook-manic-miner-manic-miner-retro": {
+      "name": "Manic Miner (mrcook manic-miner (Manic Miner: Retro!))",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/mrcook/manic-miner",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-03-01T21:31:51Z",
+        "last_commit_url": "https://github.com/mrcook/manic-miner/commit/f6f5265aaa67de3543b6ed22d1ed070f6bf81514",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "manic-miner-tobylobster-manicminer": {
+      "name": "Manic Miner (TobyLobster ManicMiner)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/TobyLobster/ManicMiner",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-03-04T20:56:43Z",
+        "last_commit_url": "https://github.com/TobyLobster/ManicMiner/commit/e41d373d6b909b9c1db01a14da5c94d05f904d02",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "nether-earth-santiontanon-netherearth-disassembly": {
+      "name": "Nether Earth (santiontanon netherearth-disassembly)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/santiontanon/netherearth-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-04-06T12:42:11Z",
+        "last_commit_url": "https://github.com/santiontanon/netherearth-disassembly/commit/762e33e4bb1a5d2f608c6436d489a8376ef11cd5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 33
+      },
+      "ai_used": null
+    },
+    "rex-ultrabolido-skrex": {
+      "name": "Rex (ultrabolido skRex)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/ultrabolido/skRex",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-11-06T16:01:38Z",
+        "last_commit_url": "https://github.com/ultrabolido/skRex/commit/a63b608e5c247af25b35aec5de5b14cee4dd9f41",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "soldier-of-fortune-kmatveev-zx-sof-reveng": {
+      "name": "Soldier of Fortune (kmatveev zx-sof-reveng)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/kmatveev/zx-sof-reveng",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-04-01T19:21:47Z",
+        "last_commit_url": "https://github.com/kmatveev/zx-sof-reveng/commit/1e5c10d1a16575aa8643a363b1f3821740c635f7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "mercenary-mikedailly-mercenarydisassembly": {
+      "name": "Mercenary (mikedailly MercenaryDisassembly)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/mikedailly/MercenaryDisassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-03-13T13:08:49Z",
+        "last_commit_url": "https://github.com/mikedailly/MercenaryDisassembly/commit/466758cfbeedff945afee1e3aedbc6e572e284cd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "green-beret-paul-hughes-zxspectrumgreenberet": {
+      "name": "Green Beret (Paul Hughes ZXSpectrumGreenBeret)",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/Paulie68000/ZXSpectrumGreenBeret",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-01-03T23:33:50Z",
+        "last_commit_url": "https://github.com/Paulie68000/ZXSpectrumGreenBeret/commit/006484529ac29dd0de8af02b1c2a1040368b1f09",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "river-raid-river-raid-disasm-sergei-morozov": {
+      "name": "River Raid (river-raid-disasm (Sergei Morozov))",
+      "platforms": [
+        "ZX Spectrum"
+      ],
+      "repository_url": "https://github.com/river-raid/river-raid-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-04-05T22:06:50Z",
+        "last_commit_url": "https://github.com/river-raid/river-raid-disasm/commit/997a0853b1d91cf818718c19fbcbcf7d2aa56e85",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "zx-spectrum": {
+      "name": "ZX Spectrum",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "castle-master-ii-the-crypt-santiontanon-castlemaster2-disassembly",
+          "name_markdown": "[Castle Master II: The Crypt (santiontanon castlemaster2-disassembly)](https://github.com/santiontanon/castlemaster2-disassembly)",
+          "images": [],
+          "notes_markdown": "Disassembly of the original 1990 Castle Master II: The Crypt ZX Spectrum game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/santiontanon/castlemaster2-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "chuckie-egg-paul-hughes-zxspectrumchuckieegg",
+          "name_markdown": "[Chuckie Egg (Paul Hughes ZXSpectrumChuckieEgg)](https://github.com/Paulie68000/ZXSpectrumChuckieEgg)",
+          "images": [],
+          "notes_markdown": "Fully documented reverse engineered source code to AnF's ZX Spectrum Chuckie Egg",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Paulie68000/ZXSpectrumChuckieEgg"
+            }
+          ]
+        },
+        {
+          "project": "cobra-paul-hughes-zxspectrumcobra",
+          "name_markdown": "[Cobra (Paul Hughes ZXSpectrumCobra)](https://github.com/Paulie68000/ZXSpectrumCobra)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Cobra%20%28Ocean%20Software%20Ltd%29.png",
+              "alt": "Cobra (Paul Hughes ZXSpectrumCobra) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Full reverse engineered source code of Jonathan \"Joffa\" Smith's Cobra",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Paulie68000/ZXSpectrumCobra"
+            }
+          ]
+        },
+        {
+          "project": "deathchase-ritchie333-deathchase",
+          "name_markdown": "[Deathchase (Ritchie333 deathchase)](https://github.com/Ritchie333/deathchase)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Deathchase%20%28Micromega%29.png",
+              "alt": "Deathchase (Ritchie333 deathchase) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly and annotation of the classic 1983 computer game \"Deathchase\"",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Ritchie333/deathchase"
+            }
+          ]
+        },
+        {
+          "project": "exolon-rusarh-exolon-esl",
+          "name_markdown": "[Exolon (rusarh exolon-esl)](https://github.com/rusarh/exolon-esl)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Exolon%20%28Hewson%20Consultants%20Ltd%29.png",
+              "alt": "Exolon (rusarh exolon-esl) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "zx-spectrum game disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/rusarh/exolon-esl"
+            }
+          ]
+        },
+        {
+          "project": "fred-kmatveev-zx-fred-reveng",
+          "name_markdown": "[Fred (kmatveev zx-fred-reveng)](https://github.com/kmatveev/zx-fred-reveng)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Fred%20%28Investronica%20S.A.%29.png",
+              "alt": "Fred (kmatveev zx-fred-reveng) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse engineering and optimizations for game Fred for ZX Spectrum",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/kmatveev/zx-fred-reveng"
+            }
+          ]
+        },
+        {
+          "project": "the-great-escape-dpt-the-great-escape",
+          "name_markdown": "[The Great Escape (dpt The-Great-Escape)](https://github.com/dpt/The-Great-Escape)",
+          "images": [],
+          "notes_markdown": "Classic ZX Spectrum game \"The Great Escape\" reverse engineered",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/dpt/The-Great-Escape"
+            }
+          ]
+        },
+        {
+          "project": "head-over-heels-simon-frankau-head-over-heels",
+          "name_markdown": "[Head Over Heels (simon-frankau head-over-heels)](https://github.com/simon-frankau/head-over-heels)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Head%20over%20Heels%20%28Ocean%20Software%20Ltd%29.png",
+              "alt": "Head Over Heels (simon-frankau head-over-heels) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A reverse-engineering of the classic isometric ZX Spectrum game \"Head Over Heels\"",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/simon-frankau/head-over-heels"
+            }
+          ]
+        },
+        {
+          "project": "the-hobbit-paul-maddern-pobtastic-skoolkit-disassembly",
+          "name_markdown": "[The Hobbit (Paul Maddern (pobtastic) SkoolKit disassembly)](https://github.com/pobtastic/hobbit)",
+          "images": [],
+          "notes_markdown": "A disassembly of The Hobbit, created using SkoolKit.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pobtastic/hobbit"
+            }
+          ]
+        },
+        {
+          "project": "hyper-active-paul-hughes-zxspectrumhyperactive",
+          "name_markdown": "[Hyper Active (Paul Hughes ZXSpectrumHyperActive)](https://github.com/Paulie68000/ZXSpectrumHyperActive)",
+          "images": [],
+          "notes_markdown": "Fully reverse engineered source code to Jonathan Smith's Hyper Active covermount game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Paulie68000/ZXSpectrumHyperActive"
+            }
+          ]
+        },
+        {
+          "project": "jet-set-willy-jetsetwilly-skoolkit-ca",
+          "name_markdown": "[Jet Set Willy (jetsetwilly (skoolkit.ca))](https://github.com/skoolkid/jetsetwilly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Jet%20Set%20Willy%20%28Software%20Projects%20Ltd%29.png",
+              "alt": "Jet Set Willy (jetsetwilly (skoolkit.ca)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of Jet Set Willy, created using SkoolKit.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/skoolkid/jetsetwilly"
+            }
+          ]
+        },
+        {
+          "project": "jetpac",
+          "name_markdown": "[Jetpac](https://github.com/mrcook/jetpac-disassembly)",
+          "images": [],
+          "notes_markdown": "JETPAC: fully annotated source code of this classic 8-bit game (1983, ZX Spectrum)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/mrcook/jetpac-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "the-lords-of-midnight-mrcook-lords-of-midnight-disassembly-spectrum-dos",
+          "name_markdown": "[The Lords of Midnight (mrcook lords-of-midnight-disassembly (Spectrum + DOS))](https://github.com/mrcook/lords-of-midnight-disassembly)",
+          "images": [],
+          "notes_markdown": "The Lords of Midnight source code: ZX Spectrum and DOS disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/mrcook/lords-of-midnight-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "manic-miner",
+          "name_markdown": "[Manic Miner](https://github.com/skoolkid/manicminer)",
+          "images": [],
+          "notes_markdown": "A disassembly of Manic Miner, created using SkoolKit.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/skoolkid/manicminer"
+            }
+          ]
+        },
+        {
+          "project": "manic-miner-mrcook-manic-miner-manic-miner-retro",
+          "name_markdown": "[Manic Miner (mrcook manic-miner (Manic Miner: Retro!))](https://github.com/mrcook/manic-miner)",
+          "images": [],
+          "notes_markdown": "Manic Miner: Retro! - pixel perfect Z80 to C++ port (WIP) of the classic ZX Spectrum 8-bit game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/mrcook/manic-miner"
+            }
+          ]
+        },
+        {
+          "project": "manic-miner-tobylobster-manicminer",
+          "name_markdown": "[Manic Miner (TobyLobster ManicMiner)](https://github.com/TobyLobster/ManicMiner)",
+          "images": [],
+          "notes_markdown": "Disassembly of the original BBC Micro version of Manic Miner",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/TobyLobster/ManicMiner"
+            }
+          ]
+        },
+        {
+          "project": "nether-earth-santiontanon-netherearth-disassembly",
+          "name_markdown": "[Nether Earth (santiontanon netherearth-disassembly)](https://github.com/santiontanon/netherearth-disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Nether%20Earth%20%28Argus%20Press%20Software%20Ltd%29.png",
+              "alt": "Nether Earth (santiontanon netherearth-disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of the original 1986 Nether Earth ZX Spectrum game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/santiontanon/netherearth-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "rex-ultrabolido-skrex",
+          "name_markdown": "[Rex (ultrabolido skRex)](https://github.com/ultrabolido/skRex)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Rex%20%28Europe%29.png",
+              "alt": "Rex (ultrabolido skRex) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of Rex, created using SkoolKit.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ultrabolido/skRex"
+            }
+          ]
+        },
+        {
+          "project": "soldier-of-fortune-kmatveev-zx-sof-reveng",
+          "name_markdown": "[Soldier of Fortune (kmatveev zx-sof-reveng)](https://github.com/kmatveev/zx-sof-reveng)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Soldier%20of%20Fortune%20%28Firebird%20Software%20Ltd%29.png",
+              "alt": "Soldier of Fortune (kmatveev zx-sof-reveng) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse engineering of Soldier of Fortune game for ZX Spectrum",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/kmatveev/zx-sof-reveng"
+            }
+          ]
+        },
+        {
+          "project": "mercenary-mikedailly-mercenarydisassembly",
+          "name_markdown": "[Mercenary (mikedailly MercenaryDisassembly)](https://github.com/mikedailly/MercenaryDisassembly)",
+          "images": [],
+          "notes_markdown": "Disassembly of the ZX Spectrum game Mercenary",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/mikedailly/MercenaryDisassembly"
+            }
+          ]
+        },
+        {
+          "project": "green-beret-paul-hughes-zxspectrumgreenberet",
+          "name_markdown": "[Green Beret (Paul Hughes ZXSpectrumGreenBeret)](https://github.com/Paulie68000/ZXSpectrumGreenBeret)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sinclair_-_ZX_Spectrum/master/Named_Boxarts/Green%20Beret%20%28Imagine%20Software%20Ltd%29.png",
+              "alt": "Green Beret (Paul Hughes ZXSpectrumGreenBeret) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Green Beret for the ZX Spectrum, with GreenBeret.asm and Spectrum.asm source files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Paulie68000/ZXSpectrumGreenBeret"
+            }
+          ]
+        },
+        {
+          "project": "river-raid-river-raid-disasm-sergei-morozov",
+          "name_markdown": "[River Raid (river-raid-disasm (Sergei Morozov))](https://github.com/river-raid/river-raid-disasm)",
+          "images": [],
+          "notes_markdown": "Disassembly of River Raid for ZX Spectrum",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/river-raid/river-raid-disasm"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
