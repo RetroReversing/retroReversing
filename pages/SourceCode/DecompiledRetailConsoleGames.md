@@ -234,6 +234,8 @@ The [PlayStation 2 guide](/ps2) covers the console, SDK, and development hardwar
 
 The table below lists PlayStation 2 reverse-engineering projects and native ports.
 
+Related toolkit: [PS2 Web Recomp](https://github.com/snuri00/ps2-web-recomp) statically recompiles Emotion Engine code to WebAssembly for browser builds. Its runtime supplies PS2 hardware and operating system services; the repository documents *Gran Turismo 4* and *God of War II* as examples. The [PlayStation 2 guide](/ps2#static-recompilation-for-the-browser) explains the approach.
+
 {% include decomp-table.html console="playstation-2" %}
 
 ---
