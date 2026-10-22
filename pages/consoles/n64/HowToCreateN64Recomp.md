@@ -138,6 +138,21 @@ Integrate subsystems in the order the game first needs them:
 Save formats matter. EEPROM, SRAM, and FlashRAM are accessed differently; a native save file must reflect the game's chosen medium if you want compatibility with original data [^6]. For renderer integration, inspect [RT64](https://github.com/rt64/rt64), which N64ModernRuntime recommends. Zelda64Recomp shows these pieces assembled in a real project [^2] [^6].
 
 ---
+## Worked Example From Zelda64Recomp
+Majora's Mask is a useful case study because the [Zelda64Recomp repository](https://github.com/Zelda64Recomp/Zelda64Recomp) publishes the configuration, build instructions, and native project together. This is an explanation of its files, not a configuration for another game [^2] [^8].
+
+The path from input to executable is visible in these project files:
+* **Game input** - `BUILDING.md` identifies one supported US ROM revision and instructs the developer to decompress a local copy before recompilation. The game itself runs with the standard ROM.
+* **CPU metadata** - `us.rev1.toml` names the entry point, decompressed ROM, symbol file, overlay-section file, and generated-function output directory. Its `stubs` and `ignored` lists distinguish deliberately replaced hardware calls from a symbol that is not actually a function.
+* **Targeted changes** - The same TOML file records instruction patches by function and VRAM address. This makes each deviation from the original instructions inspectable.
+* **RSP translation** - `BUILDING.md` runs `RSPRecomp` with separate audio and JPEG microcode configurations after the CPU recompilation.
+* **Native build** - The project then uses CMake to compile the translated functions and platform code into a desktop executable. Its README identifies RT64 as the renderer and explains that releases contain no game assets [^2] [^8].
+
+For a new title, begin by reproducing the *roles* of those files: verified input, symbol and overlay metadata, a small patch set, identified microcode, and a host build. The Majora's Mask addresses and patch words are evidence about that game only. A port that translates its CPU functions still needs its own runtime tests for DMA, graphics, audio, input, and saves.
+
+For a repeatable validation and build process, see [Testing and Automating an N64 Recomp](/testing-an-n64-recomp). The [N64 reversing introduction](/N64Reversing#keep-symbols-and-overlay-evidence-under-version-control) also gives a versioned symbol-record template.
+
+---
 ## Validate Each Milestone
 Test behavior in a reference emulator and the native build using the same ROM revision and game state. Log the first mismatch, then reduce it to one subsystem. A second independent emulator can help distinguish a port error from an emulator-specific behavior.
 
@@ -172,3 +187,4 @@ Verify one ROM revision, document one executable region, translate one known fun
 [^5]: [Nintendo 64 Programming Manual](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/), cartridge DMA, memory, and operating-system behavior.
 [^6]: [N64ModernRuntime README](https://github.com/N64Recomp/N64ModernRuntime), runtime services, platform callbacks, renderer integration, and save media.
 [^7]: [N64Recomp pull request 118](https://github.com/N64Recomp/N64Recomp/pull/118), merged RSPRecomp overlay support.
+[^8]: [Zelda64Recomp build instructions](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/BUILDING.md) and [Majora's Mask recomp configuration](https://github.com/Zelda64Recomp/Zelda64Recomp/blob/dev/us.rev1.toml), concrete input and build pipeline.
