@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64SDK.md
-updatedAt: '2020-08-09'
+updatedAt: '2026-10-22'
 twitterimage: https://www.retroreversing.com/public/N64/N64 SDK.jpg
 ---
 
@@ -156,6 +156,20 @@ system.h | Header file for all the definitions from **main.c**
 hvqbuf.c | Simply defines the HVQ buffer where the image is read into
 
 ---
+# Building ROM images with makerom
+Nintendo's documented development pipeline compiles C and assembly into relocatable objects, then uses `makerom` to link and pack code and data according to a segment specification. The tool can also add raw files to the cartridge image. A segment's location in ROM therefore does not by itself tell you where the game will load it in RAM [^1].
+
+The documented IRIX 5.3 compiler setup used these options when building N64 modules:
+
+Option | Purpose in Nintendo's documented build
+---|---
+`-non_shared` | Avoid position-independent, shared code
+`-G 0` | Avoid the compiler's small-data/global-pointer area
+`-mips2` | Target the MIPS II instruction set; recommended by the manual
+
+These are historical SDK instructions, not universal flags for every retail game. A matching decompilation must establish its target game's compiler revision, per-file options, linker order, and segment layout from that game's evidence. Nintendo also distinguishes the release `libultra.a` from the debug `libultra_d.a` when packing a retail ROM [^1].
+
+---
 # N64 Operating System
 The N64 OS was initially released with both SGI and PC versions on the same disc, later it was moved to a disc for each operating system.
 
@@ -168,3 +182,7 @@ On Windows it was installed into `C:\Ultra\usr` and used a UNIX-like directory s
 ## Known Versions
 Latest Version: **2.0L**
 Released Versions: **2.0J**, **2.0K**, **2.0H**, **2.0L**
+
+---
+# References
+[^1]: [Nintendo 64 Programming Manual - Building ROM Images](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/pro-man/pro05/05-06.htm), `makerom`, compiler options, segments, and release libraries.
