@@ -2053,7 +2053,23 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Skies of Arcadia Legends: Recompiled",
+              "url": "https://github.com/ogdanimal/SkiesOfArcadiaLegends-Recomp",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Android"
+              ],
+              "description_markdown": "AI-assisted static recompilation/native port supporting the original USA, European and Japanese GameCube discs. Version 0.81 is beta software; Android performance limits and platform-specific issues are documented upstream.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
