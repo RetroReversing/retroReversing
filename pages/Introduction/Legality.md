@@ -39,6 +39,12 @@ So far we have discussed reverse engineering projects that are educational in na
 
 For simplicity in the rest of this post will will refer to decompilation/remasters/remakes that are based on the original source but written in a higher level language (such as C/C++) simply as re-implementations.
 
+---
+## Why emulation matters for preservation
+[Nerrel](https://www.youtube.com/watch?v=f35i5AVzpsg) examines what a world without emulation would lose. The video supplies preservation context for this discussion rather than legal advice about a particular project.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f35i5AVzpsg" title="Let&#x27;s Imagine a World Without Emulation" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Never distribute original Assets
 First of all it is important to make sure no original game assets (sprites, sounds, 3d models etc) are distributed with the re-implementation, this is a no-brainer as they are original unmodified copyrighted works so fair use would not apply. This means you need to be extra careful when developing and don't * accidentally* commit assets to source control (and if you do, don't forget to purge the history after deleting). 
 

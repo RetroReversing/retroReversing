@@ -27,6 +27,12 @@ This tutorial series will guide you through the basics of decompiling a C++ exec
 
 The video tutorial is created by James Tate over on his excellent YouTube channel, and it is highly recommended that you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w).
 
+---
+## Video-game reversing walkthrough
+[Hilltop](https://www.youtube.com/watch?v=qCEZC3cPc1s) introduces hacking video games with Ghidra. It provides another practical view of the binary-analysis workflow before the C++ examples below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qCEZC3cPc1s" title="An introduction to hacking video games with Ghidra" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Download and Run Ghidra
 The first step, of course, is to download Ghidra if you haven't already, which you can do from the official site:
 

@@ -58,6 +58,12 @@ The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz k
 {% include_cached link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For more information on the GBA SDK Demo games check out this post." %}
 
 ---
+# Homebrew porting case studies
+[abe's projects](https://www.youtube.com/watch?v=8aK1YYrkRfY) documents an attempt to port Super Auto Pets to the Game Boy Advance. The project is a modern example of adapting a game to the handheld's constraints.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8aK1YYrkRfY" title="I tried to port Super Auto Pets to the Gameboy Advance." loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
 # Emulation
 Much to the annoyance of Nintendo, Game Boy Advance emulators were released before the console was even launched! Developers managed to get their hands on early development kits and managed to build and release the first known GBA emulator known as **GBAEmu** in September 2000 [^1]! It was able to play the official SDK Demo's such as Yoshi's Island [^2].
 

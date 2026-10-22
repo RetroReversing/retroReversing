@@ -52,14 +52,21 @@ System | Voices/Channels
 NES | 5 Voices
 Commodore 64 | 3 Voices
 
+---
+## Mega Drive music production
+[GST Channel](https://www.youtube.com/watch?v=WEvnZRCW_qc) demonstrates making Sega Genesis music with a period workflow from 1994. The video connects the console's sound hardware with the tools used to compose for it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WEvnZRCW_qc" title="How to make Sega Genesis music (in 1994)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## NES
 The first 2 voices were only capable of producing square waves.
 The 3rd voice can only produce a triangle and is used for bass notes.
 The 4th voice can only produce random noise.
 The 5th voice was for PCM sample sounds but apparently rarely used.
 
-You can see a visualisation of the wave in a play though of Mario bros 3 in the video by Bizqwit below [^2]:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xI3xZAn7r2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Displaced Gamers](https://www.youtube.com/watch?v=mJnz6dEWwIw) explains the NES DMC audio channel. The discussion is a focused example of sample playback within an early console sound system.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJnz6dEWwIw" title="NES Sound: The DMC - Behind the Code" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Commodore 64
 Although the C64 only had 3 voices, each one could use whatever waveform it wanted out of the following options:
@@ -67,6 +74,10 @@ Although the C64 only had 3 voices, each one could use whatever waveform it want
 * Triangle
 * Sawtooth
 * Noise
+
+[Ben Eater](https://www.youtube.com/watch?v=LSMQ3U1Thzw) explains the SID and classic 8-bit sound. The video complements the sample-playback discussion with an overview of the chip itself.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LSMQ3U1Thzw" title="The SID: Classic 8-bit sound" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### How the C64 Played Sound Samples
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xWyLeVnxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -91,9 +102,24 @@ Notice that they both use the same audio chip inside (Yamaha YM3812).
 # PCM Samples
 Audio would be built up of small audio clips called "samples". The concept of a "Mod Tracker" was developed to take advantage of this capability.
 
+[Bisqwit](https://www.youtube.com/watch?v=m9qstmRvej8) explains PCM audio and provides example C++ code. It is a practical companion to the distinction between stored samples and synthesised sound.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m9qstmRvej8" title="How does PCM audio work? :: Case study and example C++ code" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## SNES music production
+[Nerdwriter1](https://www.youtube.com/watch?v=jvIzIAgRWV0) explains how music was made for the Super Nintendo. It is a useful introduction to the production side of sample-based console audio.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jvIzIAgRWV0" title="How Music Was Made On Super Nintendo" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Audio Tools for Retro Games
+
+---
+## Tracker music
+[Ahoy](https://www.youtube.com/watch?v=roBkg-iPrbw) traces tracker music and its role in 16-bit sound. The video connects music-production tools with the data and playback code used by games.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/roBkg-iPrbw" title="Trackers: The Sound of 16-Bit" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 # VGMTrans
 [vgmtrans/vgmtrans: VGMTrans - a tool to convert proprietary, sequenced videogame music to industry-standard formats](https://github.com/vgmtrans/vgmtrans?tab=readme-ov-file#vgmtrans---video-game-music-translator--)
@@ -101,4 +127,3 @@ Audio would be built up of small audio clips called "samples". The concept of a 
 ---
 # References
 [^1]: [How Oldschool Sound/Music worked](https://www.youtube.com/watch?v=q_3d1x2VPxk)
-[^2]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)

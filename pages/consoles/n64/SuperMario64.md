@@ -124,6 +124,12 @@ The project can be rebuilt with the correct version of the IDO C compiler throug
 
 This allows anyone with basic C-knowledge to hack around and change core gameplay elements, make the game easier/harder/add new mechanics etc.
 
+---
+## Performance and optimisation
+[MattKC](https://www.youtube.com/watch?v=9_gdOKSTaxM) examines a performance problem in Super Mario 64. The investigation is a companion to the existing optimisation discussion and the reconstructed source code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_gdOKSTaxM" title="Nintendo&#x27;s big mistake that made Super Mario 64 super slow" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Introduction to the Decompilation project
 Mountainflaw has released a tutorial that covers the basics of the Decompilation project and is the best way to get started for newcomers:
 [Introduction to Super Mario64 Decomp](https://mountainflaw.github.io/assets/page/intro.html)

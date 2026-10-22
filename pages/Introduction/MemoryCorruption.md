@@ -106,6 +106,12 @@ Unfortunately it doesn't mention any source code release of the changes made to 
 
 But it is quite fun to watch as the levels get more and more corrupted as it seems the corruption happens after a set number of frames.
 
+---
+### Reprogramming Tetris through gameplay
+[Displaced Gamers](https://www.youtube.com/watch?v=QOES2XTqT74) explains how Tetris can be reprogrammed through play. The case study connects changes in game state to the more deliberate use of memory corruption.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QOES2XTqT74" title="How to Reprogram Tetris By Playing It - Behind the Code Leveled Up" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Nintendo 64
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wR89Ezgwt84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Nintendo 64 corruption is covered in depth on the Corrupt.Wiki site available here:

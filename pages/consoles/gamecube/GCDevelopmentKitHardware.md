@@ -51,6 +51,10 @@ The systems seems to have been distributed with software called the **gameOptix 
 </div>
 </section>
 
+[Adventures in Tech](https://www.youtube.com/watch?v=FcMxCcLnXAM) provides an overview of the Nintendo GameCube DDH development kit. The hardware tour complements the description of this early Dolphin system.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FcMxCcLnXAM" title="Nintendo GameCube Development Kit (DDH) - Overview -- Part 1 of a series" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Prototype AMC DDH
 <section class="postSection">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/04uII-sb4cQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage" ></iframe>

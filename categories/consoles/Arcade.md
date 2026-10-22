@@ -35,6 +35,12 @@ Despite its name it is not actually a "computer" as microchips were too expensiv
 ---
 # Development of Arcade Games
 
+---
+## Pac-Man's kill screen
+[Retro Game Mechanics Explained](https://www.youtube.com/watch?v=NKKfW8X9uYk) explains Pac-Man's kill screen as a game-implementation problem. It is a compact case study for connecting visible arcade behaviour to the code and data behind it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NKKfW8X9uYk" title="Pac-Man Kill Screen Explained" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## What programming languages were used to create Arcade games?
 Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
 
@@ -79,6 +85,12 @@ So prototype Arcade games were placed into various arcades and player behaviour 
 
 ---
 # Arcade Development Hardware
+
+---
+## Tempest ROM hacking and EPROMs
+[Dave's Garage](https://www.youtube.com/watch?v=BjsVSEbXDOM) introduces Tempest video-game hacking and EPROMs. The tutorial connects changes to an arcade program with the physical chips that store it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BjsVSEbXDOM" title="01-Tempest Video Game Hacking - Introduction and EPROMS" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Game Development at Taito
 Taito put together a **250-page Hardware Manual** for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".

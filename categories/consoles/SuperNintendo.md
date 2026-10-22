@@ -181,6 +181,12 @@ We have a post all about the hardware that was used to develop for the Super Nin
 For an in-depth look at the SNES Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Super Nintendo Entertainment System.webp" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
 
+---
+### Blanking, timing and lag
+[Retro Game Mechanics Explained](https://www.youtube.com/watch?v=Q8ph2OVqZeM) explains lag and blanking on the Super Nintendo. The video connects display timing to behaviour that can otherwise look like an unexplained slowdown.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q8ph2OVqZeM" title="Lag &amp; Blanking - Super Nintendo Entertainment System Features Pt. 06" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Was the SNES backwards compatible with the NES?
 No, but it was intended to be during early development of the SNES which we found out thanks to an interview with **Masayuki Uemura** [^8]:
 > In truth, we actually wanted the Super Famicom to be able to play Famicom games too. We used a CPU that's equipped with a 6502 emulation mode and everything. However, the sheer amount of games released for the Famicom, plus the fact that they often used different types of ROMs and chips made it too difficult to produce a perfect conversion.
@@ -292,6 +298,10 @@ The Youtuber **CaptRobau** has an excellent video showing off the graphical diff
 
 ---
 # SNES Emulation
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=AiRp6bB_o4Y) examines ZSNES and its contribution to emulation history. It provides context for the tools and compatibility expectations that followed it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiRp6bB_o4Y" title="How ZSNES pioneered modern Emulation" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## State of SNES Emulation
 Every three years **Near/Byuu** wrote an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen. Sadly with the passing of Near this is the last state of emulation, however it still still very much worth a read, and to **remember how much they contributed** to the SNES emulation scene.

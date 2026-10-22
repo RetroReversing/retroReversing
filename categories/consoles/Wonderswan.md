@@ -30,6 +30,12 @@ If you're interested in learning more about the technical aspects of this consol
 Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your Wonderswan, and get ready to dive into the exciting world of reverse engineering!
 
 ---
+# Homebrew development
+[ChibiAkumas](https://www.youtube.com/watch?v=avCZ_jhq-Ks) demonstrates bitmap graphics programming for the WonderSwan and WonderSwan Color in 8086 assembly. The lesson connects the handheld's CPU with a concrete graphics task.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/avCZ_jhq-Ks" title="Lesson P10 - Bitmap graphics on the Wonderswan / Wonderswan Color 8086 ASM" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
 # Hardware
 
 ## CPU

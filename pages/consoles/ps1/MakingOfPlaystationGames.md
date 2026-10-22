@@ -51,6 +51,12 @@ PlayStation Underground Volume 4.3
 PlayStation Underground Volume 4.4
 ```
 
+---
+## The development of Blasto
+[PlayStation Museum](https://www.youtube.com/watch?v=1qzlR8aeEC8) presents footage about the development of Blasto for the PlayStation. It complements the other making-of material collected from PlayStation publications.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1qzlR8aeEC8" title="The Development of Blasto for the PlayStation console" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## PlayStation Underground Vol. 1 Issue 4
 
 ### Making of Crash Bandicoot 2: Cortex Strikes Back

@@ -101,7 +101,11 @@ Debug units look very similar to the retail Xbox consoles both inside and out bu
 
 One of the main ones is the ability to run unsigned code instead of retail signed code and double the RAM of the retail console. This is required due to debug tools overhead that remain in memory while the prototypes are run.
  </div>
-</section> 
+</section>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=jR46e-HU06c) demonstrates an original Xbox debug kit and explains its role in console game development. The video provides a practical view of the hardware described in this section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jR46e-HU06c" title="The Original Xbox Debug Kit - How console games were developed in 2001" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Different Debug Kit variants
 There were multiple different variants of the Debug Kit, in the video below PToPOnline provides an excellent overview of these:

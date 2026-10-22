@@ -130,6 +130,10 @@ Some ROM hacks are done purely with a HEX editor and emulator so this is a power
 
 So go on give it a try, open your favourite ROM in a Hex editor and see what you can find!
 
+[LiveOverflow](https://www.youtube.com/watch?v=LyNyf3UM9Yc) demonstrates binary patching with Vim, Binary Ninja, Ghidra and radare2. The examples connect inspecting bytes with deliberately changing a program.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LyNyf3UM9Yc" title="Patching Binaries (with vim, Binary Ninja, Ghidra and radare2)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## File Formats
 
 <section class="postSection">
@@ -386,6 +390,12 @@ We have a separate post covering how decompilers work below:
 ---
 # Lesson 5 - CPU
 When learning reverse engineering and assembly language programming it is vital to know how a CPU actually works, what are the major parts and how they interact, that is what this section will focus on.
+
+---
+## Hardware interrupts
+[Ben Eater](https://www.youtube.com/watch?v=DlEa8kd7n3Q) introduces hardware interrupts. The explanation provides background for understanding how a CPU responds to events outside the normal instruction sequence.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DlEa8kd7n3Q" title="Hardware interrupts" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## What are Microprocessors (CPUs)?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EJh4BIujpHA?si=0OfwRXjM9JiWavqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
