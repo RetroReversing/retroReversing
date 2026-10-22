@@ -551,7 +551,7 @@
       "ai_used": null
     },
     "silent-hill-3": {
-      "name": "Silent Hill 3",
+      "name": "Silent Hill 2 and Silent Hill 3 (Memory of Alessa)",
       "platforms": [
         "PlayStation 2"
       ],
@@ -560,12 +560,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
-        "last_commit_at": "2026-10-22T04:39:44Z",
-        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/47e5fa7185da569bf80ec50f24df89c14bd485b4",
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_commit_at": "2026-10-22T19:44:25Z",
+        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/38adcf4cefb1bf4f26fe599c4f6b6513b3a6d242",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
         "status": "Active",
         "github_stars": 158
       },
@@ -1305,6 +1305,48 @@
         "status": "Active"
       },
       "ai_used": true
+    },
+    "gran-turismo-4": {
+      "name": "Gran Turismo 4",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/gustavocanepa/gt4-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T01:43:49Z",
+        "last_commit_url": "https://github.com/gustavocanepa/gt4-decomp/commit/f43776b357a394eb7933f8f22c2d1c5586b1c328",
+        "default_branch": "master",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 77
+      },
+      "ai_used": true
+    },
+    "digital-devil-saga-1-and-2": {
+      "name": "Digital Devil Saga 1 and 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Megami-Decomps/dds-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:27:29Z",
+        "last_commit_url": "https://github.com/Megami-Decomps/dds-decomp/commit/2b718ed80b74a8174ced13fdc4109e3f52068468",
+        "default_branch": "main",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 32
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -2757,6 +2799,94 @@
             {
               "name": "Native port",
               "url": "https://github.com/drakolordx7/KillzoneRecomp"
+            }
+          ]
+        },
+        {
+          "project": "gran-turismo-4",
+          "name_markdown": "[Gran Turismo 4](https://github.com/gustavocanepa/gt4-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Gran%20Turismo%204%20%28USA%2C%20Canada%29%20%28v1.01%29.png",
+              "alt": "Gran Turismo 4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching reconstruction of the NTSC-U v1.01 CORE.GT4 engine executable (SCUS-97328). Game logic in Adhoc scripts is a separate scope. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/gustavocanepa/gt4-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digital-devil-saga-1-and-2",
+          "name_markdown": "[Shin Megami Tensei: Digital Devil Saga](https://github.com/Megami-Decomps/dds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Digital%20Devil%20Saga%20%28USA%29.png",
+              "alt": "Shin Megami Tensei: Digital Devil Saga box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA (SLUS_209.74). Shared matching-decompilation repository for both games, with separate progress reports. Unfinished functions use extracted assembly; a matching build does not imply completed decompilation. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Megami-Decomps/dds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digital-devil-saga-1-and-2",
+          "name_markdown": "[Shin Megami Tensei: Digital Devil Saga 2](https://github.com/Megami-Decomps/dds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Digital%20Devil%20Saga%202%20%28USA%29.png",
+              "alt": "Shin Megami Tensei: Digital Devil Saga 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA (SLUS_211.52). Shared matching-decompilation repository for both games, with separate progress reports. Unfinished functions use extracted assembly; a matching build does not imply completed decompilation. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Megami-Decomps/dds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-3",
+          "name_markdown": "[Silent Hill 2](https://github.com/dreamingmoths/memory-of-alessa)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Silent%20Hill%202%20%28USA%29%20%28En%2CJa%29%20%28v1.20%29.png",
+              "alt": "Silent Hill 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PS2 engine reconstruction (SLUS_202.28) in the Memory of Alessa monorepo, shared with Silent Hill 3. The mirror-of-alessa repository republishes progress reports rather than containing a separate decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/dreamingmoths/memory-of-alessa"
             }
           ]
         }

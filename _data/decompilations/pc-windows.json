@@ -1294,6 +1294,27 @@
         "github_stars": 4
       },
       "ai_used": null
+    },
+    "crimsonland": {
+      "name": "Crimsonland",
+      "platforms": [
+        "PC (Windows)"
+      ],
+      "repository_url": "https://github.com/banteg/crimson",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T16:23:51Z",
+        "last_commit_url": "https://github.com/banteg/crimson/commit/dbb300f6db806caa5a6a5e96d49ee158859f6445",
+        "default_branch": "master",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 191
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -2674,6 +2695,56 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/NancySadkov/dest"
+            }
+          ]
+        },
+        {
+          "project": "crimsonland",
+          "name_markdown": "[Crimsonland](https://github.com/banteg/crimson)",
+          "images": [
+            {
+              "url": "https://opengraph.githubassets.com/decompilation/banteg/crimson",
+              "alt": "Crimsonland reconstruction project preview",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching C/C++ reconstruction of Crimsonland Classic 1.9.93 and grim.dll using Visual C++ 6. The repository also contains a Python/raylib reimplementation. Game assets are distributed with permission according to the project README.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Crimsonland WebAssembly",
+              "url": "https://crimson.land/play/",
+              "platforms": [
+                "Browser"
+              ],
+              "description_markdown": "Browser build of the recovered source.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "Crimsonland desktop client",
+              "url": "https://github.com/banteg/crimson",
+              "platforms": [
+                "macOS",
+                "Linux"
+              ],
+              "description_markdown": "SDL3 client for the browser build.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/banteg/crimson"
+            },
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/banteg/crimson"
             }
           ]
         }

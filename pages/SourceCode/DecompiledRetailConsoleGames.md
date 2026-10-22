@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-12'
+updatedAt: '2026-10-22'
 ---
 
 This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
@@ -30,7 +30,7 @@ This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossa
 ---
 ## Glossary of Project Types
 The tables list project types as comma-separated links to their respective projects. A game can have several projects, and a project can use more than one approach:
-* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code.
+* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code. Emulator decompilations reconstruct the emulator bundled with a release rather than the emulated game code.
 * <a id="glossary-matching-decompilation"></a>**Matching decompilation** - Aims to compile back to the same machine code as the original game. Matching does not mean the project is complete.
 * <a id="glossary-disassembly"></a>**Disassembly** - Converts machine code into assembly source, often with manually added labels and comments.
 * <a id="glossary-static-recompilation"></a>**Static recompilation** - Translates machine code ahead of time into source that can be compiled for another platform, without recovering the original source code.

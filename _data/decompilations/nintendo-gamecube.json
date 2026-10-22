@@ -1410,6 +1410,69 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "pokemon-colosseum": {
+      "name": "Pokemon Colosseum",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/dougchansan/pkmn-colosseum",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T05:12:08Z",
+        "last_commit_url": "https://github.com/dougchansan/pkmn-colosseum/commit/876de33adc88acdbac119b846c5115ee41e54ccb",
+        "default_branch": "master",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": true
+    },
+    "resident-evil-code-veronica-x-gamecube": {
+      "name": "Resident Evil - Code: Veronica X (GameCube)",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/fmil95/recvx-gc-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-05T12:36:10Z",
+        "last_commit_url": "https://github.com/fmil95/recvx-gc-decomp/commit/556f897e05945f4ad636be41f0de3d02106ea192",
+        "default_branch": "main",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 37
+      },
+      "ai_used": null
+    },
+    "oot-gamecube-n64-emulator": {
+      "name": "Ocarina of Time GameCube N64 emulator",
+      "platforms": [
+        "Nintendo GameCube"
+      ],
+      "repository_url": "https://github.com/zeldaret/oot-gc",
+      "project_type": "Emulator decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-05-24T21:11:09Z",
+        "last_commit_url": "https://github.com/zeldaret/oot-gc/commit/6e449e1748a02c12b4cb218453c529175b85364a",
+        "default_branch": "main",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Inactive",
+        "github_stars": 150
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -3054,6 +3117,66 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/lifewillbeokay/moh-rising-sun"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-colosseum",
+          "name_markdown": "[Pokemon Colosseum](https://github.com/dougchansan/pkmn-colosseum)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Pokemon%20Colosseum%20%28USA%29.png",
+              "alt": "Pokemon Colosseum box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "NTSC-U (GC6E01). Matching reconstruction of the main DOL and 25 REL modules. Original fallback objects remain where needed; a matching build does not imply completed decompilation. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/dougchansan/pkmn-colosseum"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-code-veronica-x-gamecube",
+          "name_markdown": "[Resident Evil - Code: Veronica X](https://github.com/fmil95/recvx-gc-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_GameCube/master/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
+              "alt": "Resident Evil - Code: Veronica X box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA (GCDE08). GameCube decompilation complementary to the separate PS2 project. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/fmil95/recvx-gc-decomp"
+            }
+          ]
+        },
+        {
+          "project": "oot-gamecube-n64-emulator",
+          "name_markdown": "[Ocarina of Time / Collector's Edition N64 emulator](https://github.com/zeldaret/oot-gc)",
+          "images": [],
+          "notes_markdown": "Reconstructs the N64 emulator bundled with GameCube Zelda releases, rather than the N64 game code. Supports regional Master Quest and Collector's Edition releases, including Majora's Mask; primarily targets Japanese Collector's Edition. Requires user-supplied disc files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Emulator decompilation",
+              "url": "https://github.com/zeldaret/oot-gc"
             }
           ]
         }

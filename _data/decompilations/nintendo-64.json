@@ -2292,6 +2292,48 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "pilotwings-64-matching-decompilation": {
+      "name": "Pilotwings 64 (matching decompilation)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/n64decomp/pw64",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T18:22:59Z",
+        "last_commit_url": "https://github.com/n64decomp/pw64/commit/cb66cb2a3b093412285d381829c8ab7787660298",
+        "default_branch": "main",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 83
+      },
+      "ai_used": null
+    },
+    "snowboard-kids-cdlewis": {
+      "name": "Snowboard Kids (cdlewis matching decompilation)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/cdlewis/snowboardkids-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T03:50:49Z",
+        "last_commit_url": "https://github.com/cdlewis/snowboardkids-decomp/commit/a1808f65b1d5872bcc97297c184209c29f3057a4",
+        "default_branch": "main",
+        "archived": false,
+        "checked_at": "2026-10-22T19:47:54Z",
+        "last_success_at": "2026-10-22T19:47:54Z",
+        "status": "Active",
+        "github_stars": 57
+      },
+      "ai_used": null
     }
   },
   "consoles": {
@@ -4429,8 +4471,8 @@
           ]
         },
         {
-          "project": "pilotwings-64-recompiled",
-          "name_markdown": "[Pilotwings 64](https://github.com/danielgomesvieira2000/pilotwings-64-recomp)",
+          "project": "pilotwings-64-matching-decompilation",
+          "name_markdown": "[Pilotwings 64](https://github.com/n64decomp/pw64)",
           "images": [
             {
               "alt": "Pilotwings 64 box art (Nintendo 64)",
@@ -4438,7 +4480,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Static recompilation using N64Recomp; Windows and Linux builds. Completion has not been independently verified.",
+          "notes_markdown": "Matching decompilation targets the North American release and requires a user-supplied ROM. The separate N64Recomp project provides Windows and Linux builds; its completion has not been independently verified.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4468,6 +4510,10 @@
             }
           ],
           "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/n64decomp/pw64"
+            },
             {
               "name": "Static recompilation",
               "url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp"
@@ -4871,6 +4917,28 @@
             {
               "name": "Native port",
               "url": "https://github.com/n0madic/StarCraft64-recomp"
+            }
+          ]
+        },
+        {
+          "project": "snowboard-kids-cdlewis",
+          "name_markdown": "[Snowboard Kids (cdlewis)](https://github.com/cdlewis/snowboardkids-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Snowboard%20Kids%20%28USA%29.png",
+              "alt": "Snowboard Kids box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation distinct from sonicdcer/sk. US C reconstruction is in progress; the Japanese build currently uses extracted assembly. Requires a user-supplied ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/cdlewis/snowboardkids-decomp"
             }
           ]
         }
