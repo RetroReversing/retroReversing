@@ -25,7 +25,7 @@ breadcrumbs:
     url: '#'
 recommend: n64
 editlink: /consoles/n64/Turok64SourceCode.md
-updatedAt: '2026-10-18'
+updatedAt: '2026-10-21'
 ---
 
 <link rel="stylesheet" href="/public/css/game-data-visual.css">
@@ -636,6 +636,10 @@ Reusing an object from the archive can change the resulting binary and does not 
 The video carousel pairs **Turok 64 Official Source Code Found** with [The Making of Turok Dinosaur Hunter for Nintendo 64](https://www.twitch.tv/videos/125480737), which includes footage of Acclaim's later development equipment.
 
 {% include video-carousel.html videocarousel=page.videocarousel %}
+
+[Digital Foundry](https://www.youtube.com/watch?v=H4RJn0mEhIg) examines how Turok developed the console first-person shooter on the Nintendo 64. The retrospective supplies visual context for the engine and hardware constraints discussed in this source-code analysis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H4RJn0mEhIg" title="DF Retro: Turok Dinosaur Hunter - How An N64 Classic Evolved The Console FPS" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Other software in the archive

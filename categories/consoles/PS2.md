@@ -21,7 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -55,6 +55,12 @@ The main components of the PS2 hardware were:
 * **Graphics Synthesiser (GS)** - 4MB with features such as Z-buffer, trilinear texturing and Gourard shading [^1]
 * **Sound Processor (SPU2)** - 48-Channel sound chip
 * **Image processing Unit (IPU)** - Decodes MPEG2 streams
+
+---
+## Console security
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=VGMR6FHey68) explains how PlayStation 2 security was defeated. It is a platform-specific introduction to the protection mechanisms that homebrew and research tools had to work around.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VGMR6FHey68" title="How the Sony Playstation 2 Security Was Defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Retail Hardware
 For an in-depth look at the PlayStation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:

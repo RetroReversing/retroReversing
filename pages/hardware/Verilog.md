@@ -19,7 +19,7 @@ recommend:
 - hardware
 - leak
 editlink: /hardware/Verilog.md
-updatedAt: '2020-05-08'
+updatedAt: '2026-10-21'
 ---
 
 <section class="postSection">
@@ -65,6 +65,10 @@ Software based emulators are not the only way to simulate old hardware on more m
 Field Programmable Gate Array (FPGA) is a chip with logic blocks that can be re-configured after the chip is manufactured [^1]. 
 
 This allows the chip to be reconfigured to somewhat match the original circuits of the system you want to emulate. This is much more efficient and can technically be more accurate if the code used to generate the FPGA configuration (in this case Verilog) is correct.
+
+[Charles Clayton](https://www.youtube.com/watch?v=iHg0mmIg0UU) introduces field-programmable gate arrays. It provides background for the hardware-emulation projects in this section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iHg0mmIg0UU" title="What&#x27;s an FPGA?" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Program Your Own FPGA Video Game
 Andy West (Element 14) presents and excellent tutorial that convert the basics of what an FPGA is and even goes into detail in how to write a Pong clone in Verilog! This is a must watch video for anyone interested in FPGAs.

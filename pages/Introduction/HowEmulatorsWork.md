@@ -20,7 +20,7 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /Introduction/HowEmulatorsWork.md
-updatedAt: '2026-10-08'
+updatedAt: '2026-10-21'
 ---
 
 Have you ever wondered how emulators work? How would you implement an emulator? Where should you start if you are interested in emulator development? 
@@ -282,6 +282,12 @@ So the CPU can be dumb and just write to a certain address, but the Memory Manag
 * Audio/Graphics RAM
 
 These will all be different chips on the board but will all just be referenced by an address. So how does the MMU know which addresses point to which memory chips? This is where the memory map comes in handy.
+
+---
+## Save states and rewind
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=HBnIM2PsC1A) explains how emulators rewind games. The feature provides a concrete example of why capturing and restoring machine state matters.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HBnIM2PsC1A" title="How Emulators &#x27;Rewind&#x27; Games | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Memory Maps
 A memory map is a piece of documentation that is used to indicate which address ranges are used for what purpose. Here are some example memory maps for various consoles:

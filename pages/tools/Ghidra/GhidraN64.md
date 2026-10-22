@@ -23,6 +23,7 @@ recommend:
 - ghidra
 editlink: /tools/Ghidra/GhidraN64.md
 youtube: "3d3a39LuCwc"
+updatedAt: '2026-10-21'
 ---
 
 # Importing a Nintendo 64 ROM
@@ -54,6 +55,10 @@ If the N64 Loader option doesn't appear for you then you probably don't have JDK
 After importing the game into Ghidra you will notice that all the functions have default names that start with: `FUN_`. 
 
 These names are not very helpful and we know that the games were compiled with a version of the Official Nintendo 64 SDK, so if we could find those libraries in the binary then we can give them useful names and help start solving the puzzle.
+
+[Warranty Voider](https://www.youtube.com/watch?v=fhI3Vpw7FVk) demonstrates using signature files with N64LoaderWV. The walkthrough complements the written steps for recognising SDK functions in an imported ROM.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fhI3Vpw7FVk" title="N64LoaderWV - How to use signature files" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Downloading pre-generated Signature files
 Over on AssemblerGames there is a pack of `Signature Files` for N64 SDK libraries. You can think of these as a sort of regular expression for compiled function code. It is not always accurate but it is a great start, you can download them from assembler games 

@@ -21,7 +21,7 @@ recommend:
   - pc
   - dos
   - msx
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -1700,6 +1700,12 @@ The project focuses on modifying the original screensaver binary by patching out
 ---
 # Reverse Engineering
 The following techniques help reconstruct function interfaces and inspect running Windows games.
+
+---
+## Fixing a game without its source code
+[ExileLord](https://www.youtube.com/watch?v=A9U5wK_boYM) documents fixing a long-standing Guitar Hero bug without the original source code. The case study connects binary investigation to a concrete compatibility repair.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A9U5wK_boYM" title="How I Fixed a 10 Year Old Guitar Hero Bug Without the Source Code" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Recovering 32-bit x86 Calling Conventions
 A wrong calling convention can make decompiled parameters and stack variables misleading.

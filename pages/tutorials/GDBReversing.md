@@ -21,7 +21,7 @@ tags:
 - introduction
 - gdb
 editlink: /tutorials/GDBReversing.md
-updatedAt: '2020-08-28'
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -38,7 +38,11 @@ GDB can thus be useful for reverse engineering as it can show and dynamically ch
 
 One of the key benefits lies in GDB's ability to dynamically analyze the execution of retro game code. With GDB, reverse engineers can run retro games within the debugger, observing the program's behavior, and gaining insights into memory usage, register values, and the flow of execution. 
 
-Breakpoint support in GDB is particularly advantageous for reverse engineers dissecting retro games. By strategically placing breakpoints at critical points in the code, such as game state transitions, collision detection routines, or graphics rendering functions, analysts can pause the game at specific moments and meticulously inspect the program's state. This aids in understanding game mechanics, identifying graphical rendering processes, and uncovering the underlying algorithms governing gameplay. 
+Breakpoint support in GDB is particularly advantageous for reverse engineers dissecting retro games. By strategically placing breakpoints at critical points in the code, such as game state transitions, collision detection routines, or graphics rendering functions, analysts can pause the game at specific moments and meticulously inspect the program's state. This aids in understanding game mechanics, identifying graphical rendering processes, and uncovering the underlying algorithms governing gameplay.
+
+[LiveOverflow](https://www.youtube.com/watch?v=8wz2CM0483o) demonstrates recovering game classes with GDB using Pwn Adventure 3. The example shows how debugger observations can help reconstruct a program's object structure.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8wz2CM0483o" title="Recover Game Classes with gdb - Pwn Adventure 3" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # GDB CheatSheet

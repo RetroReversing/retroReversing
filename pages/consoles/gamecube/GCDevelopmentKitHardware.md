@@ -31,7 +31,7 @@ editlink: /consoles/gamecube/GCDevelopmentKitHardware.md
 references:
   - archive.org
 twitterimage: https://www.retroreversing.com/public/images/gc/Gamecube Development Kit Hardware.jpg 
-updatedAt: '2020-09-30'
+updatedAt: '2026-10-21'
 redirect_from:
  - /prodg-gamecube
  - /gamecube-development-kit-hardware/
@@ -50,6 +50,10 @@ It was built by Applied Microsystems Corp (AMC) and just looked like a standard 
 The systems seems to have been distributed with software called the **gameOptix DVD Development Kit** by AMC, presumably this was used to send the game data to the hardware [^3].
 </div>
 </section>
+
+[Adventures in Tech](https://www.youtube.com/watch?v=FcMxCcLnXAM) provides an overview of the Nintendo GameCube DDH development kit. The hardware tour complements the description of this early Dolphin system.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FcMxCcLnXAM" title="Nintendo GameCube Development Kit (DDH) - Overview -- Part 1 of a series" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Prototype AMC DDH
 <section class="postSection">

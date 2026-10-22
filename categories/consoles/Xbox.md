@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 tags:
   - xbox
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -64,6 +65,16 @@ This section of our guide will provide you with detailed information and resourc
 
 ---
 # Reverse Engineering
+
+---
+## Console security and disc dumping
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=XuOm-RTQxVU) explains how the original Xbox's security was defeated. It provides context for the tools and software that became possible once unsigned code could run.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XuOm-RTQxVU" title="How the Original Xbox Security was Defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=uY8KNl88Lqc) describes how cracking groups ripped original Xbox discs. The account complements the security overview with a disc-dumping and preservation workflow.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uY8KNl88Lqc" title="Secrets of The Scene: How Cracking Groups Ripped Original Xbox Discs | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## File Formats 
 

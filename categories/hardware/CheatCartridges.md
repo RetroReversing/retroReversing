@@ -23,6 +23,7 @@ redirect_from:
   - /hardware/cheatcartridge/
 tags:
   - hardware
+updatedAt: '2026-10-21'
 ---
 
 # Action Replay (Datel)
@@ -32,6 +33,17 @@ Since Datel have produced many chat cartidges and other custom unlicensed consol
 
 {% include_cached link-to-other-post.html post="/companies/datel/" %}
 
+---
+## Game Boy cheat devices
+[wwwchrismcovellcom](https://www.youtube.com/watch?v=NJZ3keMXKH4) covers the history and use of Game Boy cheat devices. It provides a handheld-specific comparison with the other cheat-cartridge families on this page.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NJZ3keMXKH4" title="Game Boy Cheat Devices - History &amp; Use" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## GameShark history
+[Wrestling With Gaming](https://www.youtube.com/watch?v=h4vs4X66nas) traces the history of GameShark. The video provides context for the cheat-device families discussed alongside [Datel](/companies/datel) and Action Replay hardware.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h4vs4X66nas" title="The Story Of The GameShark - Gaming&#x27;s Most Famous Cheating Device!" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Multiface (Romantic Robot) (1986)

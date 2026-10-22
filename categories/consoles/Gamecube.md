@@ -20,7 +20,7 @@ redirect_from:
   - /gamecube/
 tags:
   - gamecube
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-21'
 ---
 
 Welcome to our page dedicated to Gamecube reverse engineering! The Gamecube was a popular gaming console released by Nintendo in 2001, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
@@ -104,6 +104,12 @@ If you are interested in learning more we have a specific post about the **Merku
 
 ---
 # Reverse Engineering
+
+---
+## Console security
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=Uxjl_kD3imQ) explains how GameCube security was defeated. The video provides context for the platform's disc formats, homebrew tools and reverse-engineering workflows.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxjl_kD3imQ" title="How the Nintendo GameCube Security was defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## GameCube specific File Formats
 We have a specific post that covers all the file formats that can be found in gamecube games (or file formats used to store gamecube games) here:

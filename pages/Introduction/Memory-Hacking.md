@@ -23,7 +23,7 @@ recommend:
 - memory
 - introduction
 editlink: /Introduction/Memory-Hacking.md
-updatedAt: '2021-03-24'
+updatedAt: '2026-10-21'
 ---
 
 # Memory Hacking
@@ -56,7 +56,11 @@ The technique is simple:
 
 Now you can **lock** these memory addresses if you don't want the game to change the stat, e.g you won't lose HP.
  </div>
-</section> 
+</section>
+
+[Hex Murder](https://www.youtube.com/watch?v=zFUHrg-wdmo) introduces reading and writing another process's memory from C++. The tutorial provides a programming counterpart to memory searches performed through a graphical cheat tool.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zFUHrg-wdmo" title="C++ Game Hacking Tutorial Ep.1 | Reading/Writing Memory" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Share What you find
@@ -81,6 +85,14 @@ For example if you look for a life cheat code for **Action Replay** it will have
 ---
 # More advanced Memory Hacking
 Memory Hacking is not exclusive to Emulators or cheat cartridges, the PC gaming community has been using these methods for many years. One very popular tool is known as **Cheat Engine** and it performs the same functions but for any PC program.
+
+[Cheat The Game](https://www.youtube.com/watch?v=kCrJ2Y7th4w) demonstrates finding a god-mode modification in Moonlighter. It is a practical example of connecting game behaviour with the memory locations that control it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kCrJ2Y7th4w" title="Moonlighter: FINDING GOD MODE" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[LiveOverflow](https://www.youtube.com/watch?v=elI6vZR6HGE) explains how speedrunners use game-hacking tools. The examples connect memory inspection with the investigation of game behaviour.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/elI6vZR6HGE" title="How Speedrunners Use Game Hacking Tools" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # iHaxGames - Cheat Engine for mac!

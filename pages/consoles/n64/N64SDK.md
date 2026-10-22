@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64SDK.md
-updatedAt: '2020-08-09'
+updatedAt: '2026-10-21'
 twitterimage: https://www.retroreversing.com/public/N64/N64 SDK.jpg
 ---
 
@@ -44,6 +44,16 @@ The N64 Developers toolkit contained all the following applications used for N64
 The CD contains a PC and SGI folder, with the SGI folder simply containing a tar archive of all the contents.
 
 On Windows a **Setup.exe** file was included that is installed into `C:\nintendo\n64kit` and contained pre-compiled executables for all of the main applications.
+
+---
+## Development-environment constraints
+[Zygal Studios](https://www.youtube.com/watch?v=28LfKAgDTnk) discusses the difficulties of the Nintendo 64 development environment. It provides historical context for the official tools and libraries catalogued in this article.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/28LfKAgDTnk" title="The Nintendo 64 Environment was TERRIBLE for Game Development" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=gRslfM-MOOw) examines why Nintendo 64 games were difficult to develop. The overview complements the catalogue of SDK components with the constraints developers faced when using them.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gRslfM-MOOw" title="Why was the Nintendo 64 so hard to develop games for ? | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Known Versions of N64Kit
 Latest Version: **5.2**

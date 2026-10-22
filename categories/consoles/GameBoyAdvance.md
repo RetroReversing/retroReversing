@@ -18,7 +18,7 @@ breadcrumbs:
     url: /gba
 tags:
  - gba
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-21'
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering
@@ -56,6 +56,12 @@ The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz k
 
 ## SDK Demos
 {% include_cached link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For more information on the GBA SDK Demo games check out this post." %}
+
+---
+# Homebrew porting case studies
+[abe's projects](https://www.youtube.com/watch?v=8aK1YYrkRfY) documents an attempt to port Super Auto Pets to the Game Boy Advance. The project is a modern example of adapting a game to the handheld's constraints.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8aK1YYrkRfY" title="I tried to port Super Auto Pets to the Gameboy Advance." loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Emulation

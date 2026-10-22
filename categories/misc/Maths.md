@@ -16,6 +16,18 @@ redirect_from:
 editlink: ../categories/misc/Maths.md
 tags:
   - maths
+
+updatedAt: '2026-10-21'
+---
+# Game mathematics prerequisites
+[javidx9](https://www.youtube.com/watch?v=DPfxjQ6sqrc) introduces mathematics useful to aspiring game developers. It provides background before the more focused vector, matrix and quaternion articles.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPfxjQ6sqrc" title="Essential Mathematics For Aspiring Game Developers" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Madbook](https://www.youtube.com/watch?v=iPWWrM81z-o) explains which mathematics is useful for beginner game developers. It is a companion introduction to the specific topics linked in this hub.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iPWWrM81z-o" title="Essential Maths For Beginner Gamedevs - Which Math is Useful?" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ---
 
 # Vectors

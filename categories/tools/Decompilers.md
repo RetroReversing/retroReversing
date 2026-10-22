@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-21'
 ---
 
 # Understanding How Decompilers Work: A Deep Dive
@@ -319,6 +319,12 @@ These tools embed the pipeline above behind a GUI and scripting API:
 
 For a broader tool list and related workflows, see:
 {% include_cached link-to-other-post.html post="/tools" description="Retro Game Development Tools lists decompilers, disassemblers, debuggers, and file-format analyzers." %}
+
+---
+## RetDec
+[Cooper](https://www.youtube.com/watch?v=jXYxPenTcHs) presents Peter Matula's Hack.lu lightning talk introducing RetDec, an open-source machine-code decompiler. It offers a short comparison point for the interactive tools discussed here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXYxPenTcHs" title="Hack.lu 2017 Lightning Talk: RetDec: An Open-Source Machine-Code Decompiler by Peter Matula" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Limits of Automatic Decompilation

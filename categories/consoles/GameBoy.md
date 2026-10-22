@@ -21,7 +21,7 @@ recommend:
   - ds
 editlink: ../categories/consoles/GameBoy.md
 excerpt: Hub page for Game Boy and Game Boy Color hardware, development, reverse engineering, and source code resources
-updatedAt: '2026-04-26'
+updatedAt: '2026-10-21'
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
@@ -52,6 +52,18 @@ Understanding the platform before opening a ROM saves time. The Game Boy family 
 If you want a broad architectural overview before going deeper, Copetti's write-up is one of the best starting points:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="Rodrigo Copetti provides a practical architectural overview of the Game Boy, covering the CPU, memory layout, graphics pipeline, audio system, and cartridge hardware." image="/public/NintendoGameBoyThumb.png" title="Game Boy Architecture - A Practical Analysis" %}
 
+---
+### Game Boy Color graphics
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=ZEJVOH6Pxkg) explains how graphics work on the Game Boy Color. It complements the original Game Boy overview with the later handheld's graphics capabilities.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZEJVOH6Pxkg" title="How Graphics worked on the Nintendo Game Boy Color | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+### Game Boy graphics
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=zQE1K074v3s) explains how graphics work on the original Game Boy. It provides a visual introduction to the hardware behind the display.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zQE1K074v3s" title="How Graphics worked on the Nintendo Game Boy | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Boot ROM
 The boot ROM is one of the first platform-specific code paths worth understanding. It establishes initial hardware state, checks cartridge header data, and controls the startup sequence:
 {% include link-to-other-site.html url="https://realboyemulator.wordpress.com/2013/01/03/a-look-at-the-game-boy-bootstrap-let-the-fun-begin/" description="A practical breakdown of the original Game Boy bootstrap process, useful when studying cartridge headers, reset state, and emulator accuracy." title="A Look At The Game Boy Bootstrap" %}
@@ -77,6 +89,12 @@ These two videos are worth keeping together because they focus on the physical h
 # Development
 Understanding the official toolchain helps when you encounter build artifacts, linker conventions, or assembly layout in old projects.
 
+---
+## Game Boy homebrew tools
+[MortMort](https://www.youtube.com/watch?v=0xO5jCqs3As) demonstrates a user-friendly workflow for making a Game Boy game. It provides an alternative starting point to writing the assembly code directly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xO5jCqs3As" title="Make a real GameBoy game easy &amp; user friendly [Tutorial, Gamedev]" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Development Kit Hardware
 Nintendo sold dedicated development hardware for Game Boy projects, and the physical setup explains a lot about how teams built, tested, and flashed handheld software in the early 1990s:
 {% include_cached link-to-other-post.html post="/gameboy-development-kit-hardware" description="An overview of the official Game Boy development hardware and how it fit into commercial production workflows." %}
@@ -89,9 +107,25 @@ Alongside the hardware, Nintendo also shipped a software development kit with as
 The Game Boy CPU uses its own instruction set variant, so it helps to keep a Game Boy specific opcode reference nearby instead of assuming normal Z80 compatibility:
 {% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="A beginner friendly but detailed introduction to Game Boy assembly programming, with examples of the instruction set and platform specific quirks." image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="Game Boy Assembly Programming" %}
 
+[ChibiAkumas](https://www.youtube.com/watch?v=Tn1rFUutkdo) introduces GBZ80 assembly programming for the Game Boy and Game Boy Color. The tutorial is a direct starting point for reading or writing code for these handhelds.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tn1rFUutkdo" title="Introduction to GBZ80 Assembly programming on the Gameboy and Gameboy Color" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ---
 # Reverse Engineering
 If you want to begin with projects that already expose structure, build systems, or platform specific research, start with the material below.
+
+---
+## ROM patching walkthrough
+[stacksmashing](https://www.youtube.com/watch?v=dQLp5i8oS3Y) demonstrates reverse engineering and patching a Game Boy ROM. The workflow is a practical companion to the platform-specific tools collected here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQLp5i8oS3Y" title="How to reverse engineer &amp; patch a Game Boy ROM" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## Super Mario Land 2 memory exploration
+[Retro Game Mechanics Explained](https://www.youtube.com/watch?v=FPzuYWbnln4) explores Super Mario Land 2's memory. The investigation is a practical example of learning how a Game Boy game stores and changes its state.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FPzuYWbnln4" title="Super Mario Land 2 - Memory Exploration" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Pokemon Red and Blue
 The Pokemon Reverse Engineering Team (PRET) reconstructed Pokemon Red and Blue into retail matching assembly, making it one of the most useful Game Boy case studies for understanding large commercial codebases:
@@ -232,6 +266,12 @@ The audio hardware is one of the most technically interesting parts of the platf
 ---
 # Tools and File Formats
 If you are tracing ROM headers, cartridge metadata, or patch formats, the material below is worth keeping close.
+
+---
+## Recovering ROM data from photographs
+[David Bombal](https://www.youtube.com/watch?v=z1nRvJi9d5U) demonstrates a tool for decoding Game Boy ROM data from a photograph. The project provides an unusual preservation workflow alongside conventional cartridge dumping.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z1nRvJi9d5U" title="This Free Tool Decodes Game Boy ROM From a Photograph" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## File Formats
 Start here if you want a broader survey of Game Boy file structures before drilling into specific ROM hacks or tools:

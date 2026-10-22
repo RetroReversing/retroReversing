@@ -38,7 +38,7 @@ recommend: n64
 editlink: /consoles/n64/N64DevelopmentKitHardware.md
 references:
   - archive.org
-updatedAt: '2020-01-11'
+updatedAt: '2026-10-21'
 ---
 
 The website N64Squid has a page dedicated to Nintendo 64 development hardware that is well worth a look: [Nintendo 64 development hardware - N64 Squid](https://n64squid.com/homebrew/n64-sdk/development-hardware/). This page aims to compliment that page and give additional details about the hardware, so it is recommended you read that page first [^3]. 
@@ -303,6 +303,10 @@ SN Systems also released an unofficial development kit created specifically for 
 The Doctor V64 was a 3rd Party Development kit and Piracy device that was much cheaper than the official nintendo development kits [^19]. It is the original Creator of .v64 files (it has functionality to dump carts) and even came with a CD full of N64 roms.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HrQYdr0FY70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Retro Tech Archive](https://www.youtube.com/watch?v=r0rdTrBoAIA) demonstrates the Bung Doctor V64 as a Nintendo 64 development system. The hardware tour complements the specifications and connection details below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r0rdTrBoAIA" title="Bung Doctor V64 for the Nintendo 64 Game Console - Game Development System" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### Development Studios known to have used The V64
 * Acclaim/Iguana (Turok series)

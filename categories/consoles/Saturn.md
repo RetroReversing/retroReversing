@@ -9,7 +9,7 @@ recommend:
 recommendTitle: All Sega Saturn Posts
 editlink: ../categories/consoles/Saturn.md
 excerpt: Awesome list of SEGA Saturn Game Development and Reverse Engineering information
-updatedAt: '2026-10-17'
+updatedAt: '2026-10-21'
 breadcrumbs:
   - name: Home
     url: /
@@ -85,6 +85,10 @@ When the Saturn was launched it brought incredible processing power into the hom
 ## Retail Saturn Disc Copy Protection 
 The user **jhl** on assemblergames has an excellent post on the inner workings of the Saturn DISC protection:
 https://web.archive.org/web/20170626013038/https://www.assemblergames.com/threads/saturn-copy-protection-and-cdrs-the-conclusive-end.50295/
+
+[GameHut](https://www.youtube.com/watch?v=Qaq9vlfoGnA) explains how a laser-shot disc was used as a protection mechanism. The video gives a focused introduction to the physical-disc aspect of Saturn copy protection.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qaq9vlfoGnA" title="How a Laser-Shot Disk Defeats Hackers &amp; Pirates (Coding Secrets)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Saturn Hardware in the Arcade
 The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabinet, some of the games released for the ST-V were also available on the Saturn but others remain exclusive to the arcade hardware.

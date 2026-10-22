@@ -37,7 +37,7 @@ recommend:
   - saturn
   - consolearchitecture
 editlink: /consoles/saturn/SegaSaturnHardware.md
-updatedAt: '2026-10-18'
+updatedAt: '2026-10-21'
 ---
 <!-- cspell:words SCSP SMPC WORKRAM VBLANK TVSTAT TVMD Gouraud preclipping -->
 
@@ -72,6 +72,24 @@ Image from EDGE magazine issue 23
 ---
 # Developer-facing hardware restrictions
 The DTS technical bulletins make the architecture more concrete: they record rules developers had to follow when using the chips and expansion port, beyond listing their specifications.
+
+---
+## Investigating Saturn graphics
+[Low Score Boy](https://www.youtube.com/watch?v=f_OchOV_WDg) investigates the Saturn's graphics capabilities. English and French subtitles accompany the technical discussion.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f_OchOV_WDg" title="[Low Score Boy] Sega Saturn Graphic In-depth Investigations (English/French subtitled)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## Programming the SCU DSP
+[GameHut](https://www.youtube.com/watch?v=n8plen8cLro) explains the programming challenges of the Saturn's DSP. The discussion provides a developer's perspective on using a specialised processor within the console.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n8plen8cLro" title="Coding for the World&#x27;s Trickiest Chip - SEGA&#x27;s Saturn DSP (CODING SECRETS)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## Sonic R rendering techniques
+[GameHut](https://www.youtube.com/watch?v=WDJgeuoaSvQ) discusses the effects used in Sonic R and the implementation work needed to make them possible on the Saturn.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WDJgeuoaSvQ" title="Sonic R&#x27;s &quot;Impossible&quot; Effects - How We Made them Possible (Coding Secrets)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Reading peripherals through the SMPC
 The System Manager and Peripheral Control chip (SMPC) handles controller data as well as system commands. Sega's July 1996 bulletin instructs developers to use the peripheral library to fetch controller data rather than the SH-2 direct mode, with an exception for Virtua Gun. It also warns against relying on reserved peripheral-data bits, because later peripherals could use them [^2]. That matters when reading old input routines: masking unused bits was part of compatibility, not just tidying the code.

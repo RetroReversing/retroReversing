@@ -19,6 +19,7 @@ recommend:
   - wiiu
   - wii
   - introduction
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -42,6 +43,12 @@ The NAND layout is one of the first Wii U-specific topics worth understanding, a
 ---
 # Reverse Engineering
 If you are actively reversing Wii U titles, these pages cover the recurring platform-level topics you will keep meeting across games:
+
+---
+## Memory hacking and pointer searches
+[BullyWiiPlaza](https://www.youtube.com/watch?v=KUEXUZuO0qc) demonstrates setting up and using Universal Pointer Searcher for Wii U. The tutorial provides a platform-specific workflow for locating game state through pointer chains.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUEXUZuO0qc" title="[Wii U] Universal Pointer Searcher Setup &amp; Usage Tutorial" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## File Formats and Title Layout
 Start here if you want to understand how Wii U titles are packaged on disc and in eShop/NUS formats:

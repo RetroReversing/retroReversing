@@ -36,6 +36,7 @@ recommend:
 - gameboy
 - sourcecode
 editlink: /consoles/gameboy/PokemonRedBlue.md
+updatedAt: '2026-10-21'
 ---
 
 # Introduction
@@ -101,6 +102,18 @@ Now you should be able to use `rgbds` tools from the command line, so you can go
 If all goes well it will generate `pokered.gbc` and `pokeblue.gbc` which are byte-identical versions of the retail ROMS! If it didn't go well check out the install instructions: [pokered/INSTALL.md · pret/pokered](https://github.com/pret/pokered/blob/6ba3765c5932996f5da6417ae703794ff10bb1cb/INSTALL.md)
 </div>
 </section>
+
+---
+## MissingNo and game state
+[LiveOverflow](https://www.youtube.com/watch?v=p8OBktd42GI) investigates the MissingNo glitch in Pokemon. It provides a concrete example of using unexpected behaviour to study the game's code and data.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p8OBktd42GI" title="Researching MissingNo Glitch in Pokemon" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## Savegame data
+[LiveOverflow](https://www.youtube.com/watch?v=VVbRe7wr3G4) dissects the Pokemon Red savegame. The investigation is useful alongside the disassembly when connecting saved bytes with the game's data structures.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VVbRe7wr3G4" title="Dissecting Pokemon Red Savegame" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Maps

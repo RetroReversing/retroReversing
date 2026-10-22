@@ -19,6 +19,7 @@ redirect_from:
   - /dreamcast/
 tags:
   - dreamcast
+updatedAt: '2026-10-21'
 ---
 
 # Introduction to Hacking/Reversing the SEGA Dreamcast
@@ -34,6 +35,12 @@ So grab your VMU, fire up your Dreamcast, and get ready to dive into the excitin
 [Neperos](https://www.neperos.com/article/p5rxdje14b48db27) hosts an article (originally from *Retro Revival* magazine) that chronicles the rise of the Sega Dreamcast homebrew scene. The piece details how the "MIL-CD" exploit and the release of the **Utopia Boot Disc** bypassed the console's copy protection, paving the way for homebrew development tools like **KallistiOS** and the porting of emulators and media players such as **DCDivX** and **ScummVM**.
 
 {% include link-to-other-site.html url="https://www.neperos.com/article/p5rxdje14b48db27" description="A retrospective on the technical origins of the Dreamcast homebrew scene, covering the discovery of the MIL-CD backdoor, the release of the Utopia bootloader, and the evolution of open-source development kits." image="https://i.ytimg.com/vi/YbYY7JE4M1I/hqdefault.jpg" title="History of Dreamcast Homebrew" %}
+
+---
+### How bleemcast ran PlayStation games
+[Tech Rules](https://www.youtube.com/watch?v=bC2o92Jp0Dc) examines how bleem made PlayStation discs run on the Dreamcast. It complements the developer interview with an explanation of the emulator's technical challenge.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bC2o92Jp0Dc" title="How bleem Made PS1 Discs Run on the Dreamcast | Tech Rules" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### Bleemcasting: An Interview With Bleemcast! Developer Randy Linden
 [The Dreamcast Junkyard](https://www.thedreamcastjunkyard.co.uk/2019/10/bleemcasting-interview-with-bleemcast.html) speaks with Randy Linden, the core developer behind the Bleemcast! emulator. The interview covers the technical challenges of porting the PC emulator to the Dreamcast's SH-4 architecture, the reverse engineering of the MIL-CD format to bypass Sega's licensing, and the history behind the unreleased "BleemPod" hardware.
