@@ -36,7 +36,33 @@ Most commercial games written for Game Boy/Game Boy Color/NES/SNES/SMS/MegaDrive
 
 {% include link-to-other-site.html url="https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/" description="gingerBill explains how Odin integrates typed inline assembly with the language's type system, register bindings, clobbers, and multiple-return-value semantics." title="Designing Odin's Inline Assembly" %}
 
+---
+## Assembly fundamentals
+[Ben Eater](https://www.youtube.com/watch?v=ZYJIakkcLYw) explains how loops work in assembly language. This is a useful foundation for recognising control flow in a disassembly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYJIakkcLYw" title="How assembly language loops work" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Dave's Garage](https://www.youtube.com/watch?v=CfbciNZvg0o) presents an introductory assembly-language programming session. It offers a longer practical starting point for readers learning to follow machine-level code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CfbciNZvg0o" title="Assembly Language Snow Day!  Learn ASM Now!" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Jason Turley](https://www.youtube.com/watch?v=tKGYU5wQCSA) offers advice for learning assembly programming. It is a short orientation resource alongside the practical programming lessons.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tKGYU5wQCSA" title="3 Tips to QUICKLY Learn Assembly Programming!" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## x86 Assembly Language
+
+---
+### Functions and procedures in NASM
+[OliveStem](https://www.youtube.com/watch?v=EEEYPCxQyB4) introduces x86 functions and procedures using NASM. The tutorial is useful preparation for recognising calls, returns and function boundaries in a disassembly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EEEYPCxQyB4" title="Learning x86 with NASM - Basics of x86 functions/procedures" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+### Reversing x86 code
+[jyn](https://www.youtube.com/watch?v=ygOqZzATxNQ) introduces reverse engineering x86 assembly. The walkthrough provides a practical counterpart to the language and tool references.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygOqZzATxNQ" title="Reverse Engineering x86 Assembly" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### x86-64 Playground
 [x64.halb.it](https://x64.halb.it/) is an interactive, browser-based environment for writing, running, and debugging x86-64 assembly code. Created by Alberto Ventafridda, it utilizes a WASM port of the Blink emulator to provide a full Linux-compatible runtime with a GDB-like interface for inspecting registers and memory, making it an excellent tool for learning binary exploitation without a local setup. 

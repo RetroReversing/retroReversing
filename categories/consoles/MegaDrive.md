@@ -137,6 +137,18 @@ In the image below you can see the Main Programmer **Naozumi Honma** on the left
 ---
 ## Assembly Language programming
 
+---
+### Sonic coding techniques
+[GameHut](https://www.youtube.com/watch?v=Br5NfeQsLQo) examines coding techniques used in Sonic the Hedgehog. The examples connect the Mega Drive's programming model to the behaviour of a specific game.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Br5NfeQsLQo" title="The Coding Secrets hidden in &quot;Sonic the Hedgehog&quot;" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+### Sonic 3D exception handling
+[GameHut](https://www.youtube.com/watch?v=i9bkKw32dGw) explains why physically disturbing Sonic 3D can reveal a level-select screen. The example connects an unusual player-visible result with the game's defensive programming.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i9bkKw32dGw" title="Why does PUNCHING Sonic 3D trigger a Secret Level Select?" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Basics of 68K Assembly
 In an interview with **Computerphile** the Tanglewood developer **Matt Phillips** explains the basics of how assembly language programming works for creating Mega Drive games:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kalmryn9_sE?si=3GarbB4oJDhYoxLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

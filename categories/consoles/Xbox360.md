@@ -68,6 +68,10 @@ The Xbox 360 development hardware is particularly intriguing for those intereste
 
 ## Piracy Hardware
 
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=bw_B3lQxOps) explains how Xbox 360 DVD security was defeated. It provides background for understanding the drive-related hardware and tools in this section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bw_B3lQxOps" title="How the Xbox 360 DVD Security was Defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Xecuter Blaster 360
 The Xecuter Blaster 360 was a permanent install that allows you to flash your drive freely as many times as you need. It had an external switching device when, once fitted, allows you to flash your DVD Firmware without ever having to open up your Xbox 360 case ever again.
 

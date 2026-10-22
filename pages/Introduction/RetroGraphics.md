@@ -29,6 +29,12 @@ updatedAt: '2026-10-08'
 
 The **8-bit Guy** on Youtube has an excellent series of videos covering how early computer graphics were implemented with the limitations of the hardware in mind.
 
+---
+# Graphics pipeline overview
+[Branch Education](https://www.youtube.com/watch?v=C8YtdC8mxTU) introduces how video-game graphics work. The overview supplies context before the platform-specific memory and rendering techniques discussed below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C8YtdC8mxTU" title="How do Video Game Graphics Work?" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 # Memory
 Previously graphics chips didn't have their own memory (e.g VRAM) so they had to share Ram with he CPU.
 
@@ -68,6 +74,10 @@ Colour Cells were Used in:
 Another tool to get around the limitations of Colour Cells was the Hardwire Sprite Generator.
 
 Basically if you wanted a character or enemy to use more colours and resolution that the colour cells allowed you could make them a "Sprite" which act completely independently to the background colours [^1].
+
+[GameHut](https://www.youtube.com/watch?v=RvRG_v8XpC0) examines Sonic's implementation in relation to Sega's graphics hardware. The video is a game-specific companion to the general explanation of hardware sprites.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvRG_v8XpC0" title="SONIC Torn Apart - Exposing SEGA&#x27;s Insanity with Hardware (CODING SECRETS)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### NTSC Artifact Colouring
 NTSC Artifact colour was Used in: 

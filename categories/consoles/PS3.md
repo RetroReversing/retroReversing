@@ -31,6 +31,12 @@ This hub gathers original hardware documentation, accounts of how studios used t
 # Hardware
 The Cell/RSX split shapes both the code a game runs and the data it sends to the screen.
 
+---
+## Console security
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=siOXFGZj_z0) examines the PlayStation 3's security and the history of attempts to defeat it. The overview complements the processor and development-tool information in this guide.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/siOXFGZj_z0" title="The Sony Playstation 3 - The &quot;Unhackable&quot; Console | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## How Many Processors Could a PS3 Game Use?
 IBM's [Cell Broadband Engine Programming Handbook](https://www.cresco.enea.it/LA1/cresco_sp14_ylichron/CBE-docs/CellBE_PXCell_Handbook_v1.11_12May08_pub.pdf) describes a 64-bit PowerPC-based Power Processor Element (PPE) and eight Synergistic Processor Elements (SPEs) in the Cell architecture [^2].
 That is the general chip design, not the count a game can use. A [Sony Computer Entertainment graphics-pipeline presentation](https://download.swiborg.com/dev/pdf/graphics-pipeline-of-the-ps3.pdf) diagrams seven SPUs in the PS3, while an [MIT PS3 programming reference](https://groups.csail.mit.edu/cag/ps3/cellminiref.shtml) says six are available to application code [^3] [^9].

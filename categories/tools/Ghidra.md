@@ -29,6 +29,12 @@ There is no better way to start out the hobby reverse engineering than learning 
 
 # Console Plugins
 
+---
+## Commodore 64
+[Warranty Voider](https://www.youtube.com/watch?v=thl6VciaUzg) demonstrates C64LoaderWV, a Ghidra loader for Commodore 64 programs. The video shows how a platform-specific loader makes a game binary available for analysis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thl6VciaUzg" title="C64LoaderWV - Loading C64 programs into Ghidra" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Nintendo Game Boy
 Download the Ghidra plugin from [Github](https://github.com/Gekkio/GhidraBoy)
 
@@ -128,6 +134,10 @@ Download the Ghidra plugin from [Github](https://github.com/XboxDev/ghidra-xbe)
 Download the Ghidra plugin from [Github](https://github.com/zeroKilo/XEXLoaderWV)
 
 {% include_cached link-to-other-post.html post="/xbox360" description="The Xbox 360 page covers the console and its development kit." %}
+
+[Warranty Voider](https://www.youtube.com/watch?v=coGz0f7hHTM) demonstrates XEXLoaderWV for decompiling Xbox 360 XEX files in Ghidra. The walkthrough shows the loader in use rather than only describing its supported format.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/coGz0f7hHTM" title="X360 XEX Decompiling With Ghidra - XEXLoaderWV" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## PlayStation 1
 Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_psx_ldr)

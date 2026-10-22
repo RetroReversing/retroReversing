@@ -119,6 +119,12 @@ DirectX [HLSL](#glossary-hlsl) shader files for the Direct3D renderer (Windows).
 ---
 # Documentation
 
+---
+## Debugger automation
+[Coco Town](https://www.youtube.com/watch?v=ySY8EN0sE6I) demonstrates automating MAME's CoCo debugger. The workflow shows how debugger scripting can support repeated reverse-engineering tasks.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ySY8EN0sE6I" title="Automate the MAME CoCo Debugger | #SepTandy" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Documentation Website (docs/)
 Source files for the MAME documentation website. Built with [Sphinx](#glossary-sphinx); contains reStructuredText source (`source/`), themes, and a `Makefile` to generate HTML output.
 
@@ -286,6 +292,10 @@ The default location MAME looks for [ROM](#glossary-rom) sets and hard disk imag
 `dir.txt` - a plain-text placeholder (`Place ROM directories here`) whose only purpose is to ensure the empty directory is tracked by git, since git does not version-track empty directories.
 
 No actual ROM files are included in the repository - distributing them would violate copyright.
+
+[Bytes N Bits](https://www.youtube.com/watch?v=p8EARNSOGI0) explains MAME ROM sets. The overview helps relate the files supplied to the emulator to its machine definitions and ROM-loading code.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p8EARNSOGI0" title="MAME ROMs Explained" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### How MAME resolves ROMs
 When you run a machine, MAME searches every directory listed in `rompath` (default: `roms`) for a match. It accepts two layouts inside each path:

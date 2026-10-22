@@ -107,6 +107,20 @@ The [PSXSplash](https://psxsplash.github.io/docs/latest/) documentation provides
 ---
 # Hardware
 
+---
+## Disc protection and modchips
+[Technology Connections](https://www.youtube.com/watch?v=XUwSOfQ1D3c) explains the PlayStation's disc copy protection and its limitations. It provides background for understanding how modchips interact with the authentication process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUwSOfQ1D3c" title="Sony&#x27;s Clever but Flawed PlayStation Copy Protection--And How They Might Have Fixed It" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[MattKC](https://www.youtube.com/watch?v=INxyKrcYNoE) demonstrates making a PlayStation modchip from scratch. The project gives a hardware implementation example alongside the security explanations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INxyKrcYNoE" title="Making a PlayStation 1 modchip from SCRATCH" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=7HOBQ7HifLE) explains how the PlayStation's security was defeated. It supplies a broader account of the protection system alongside the modchip construction example.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7HOBQ7HifLE" title="How the Sony PlayStation PS1 Security was defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Retail PlayStation hardware
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
 
@@ -164,6 +178,12 @@ The PSY-Q development environment exposes the gte functionality to programmers u
 
 
 One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^3].
+
+---
+#### Why PlayStation graphics wobble
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=x8TO-nrUtSI) explains the warping and wobble associated with PlayStation graphics. The visual examples help connect the console's rendering limitations with their appearance in games.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x8TO-nrUtSI" title="Why PlayStation 1 Graphics Warped and Wobbled so much | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 ## Development Kit Hardware

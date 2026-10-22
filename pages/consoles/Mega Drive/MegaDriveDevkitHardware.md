@@ -192,6 +192,18 @@ This was also used for the Cross Products Mega-CD development kit and you can se
 # Third Party Development Kits
 SEGA were not the only distributer of development kits for the SEGA Mega Drive, British-based companies such as SN Systems and Cross Products dominated the marked in the UK.
 
+---
+## Super Magic Drive
+[Nostalgia Nerd](https://www.youtube.com/watch?v=rGjnsKOoxi8) demonstrates the Super Magic Drive ROM-ripping hardware. It illustrates another route for moving Mega Drive cartridge data between a console and a computer.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rGjnsKOoxi8" title="Super Magic Drive: The Original ROM Ripper | Nostalgia Nerd" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
+## USB MegaDrive DevKit
+[Chris McClelland](https://www.youtube.com/watch?v=JxBzxhMhANI) demonstrates a USB MegaDrive DevKit. This modern hardware project provides a comparison with the period development systems in this article.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JxBzxhMhANI" title="USB MegaDrive DevKit Part 2" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Cross Products SNASM 68000
 <section class="postSection">
     <img src="/public/images/megadrive/Cross Products SNASM 68000.jpg" class="wow slideInLeft postImage" />

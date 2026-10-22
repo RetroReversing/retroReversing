@@ -45,6 +45,12 @@ In Sega's internal model numbering system for the Dreamcast, the prefix "HKT" is
 ---
 ## Sega Katana Development Box (HKT-0100)
 
+---
+### Development software tour
+[Nix McRetro](https://www.youtube.com/watch?v=iMvG31AtV0U) demonstrates a Dreamcast development kit and its software. The tour gives a practical view of the tools used alongside Katana hardware.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iMvG31AtV0U" title="Sega Dreamcast Dev Kit Demo - Software Overview" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Set 4 Development hardware
 This is a Set4 evelopment kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface...[^6]
 ![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/8c9e31fc-ff0a-47f6-998b-dc4f419c8234)

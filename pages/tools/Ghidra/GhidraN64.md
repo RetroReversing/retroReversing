@@ -55,6 +55,10 @@ After importing the game into Ghidra you will notice that all the functions have
 
 These names are not very helpful and we know that the games were compiled with a version of the Official Nintendo 64 SDK, so if we could find those libraries in the binary then we can give them useful names and help start solving the puzzle.
 
+[Warranty Voider](https://www.youtube.com/watch?v=fhI3Vpw7FVk) demonstrates using signature files with N64LoaderWV. The walkthrough complements the written steps for recognising SDK functions in an imported ROM.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fhI3Vpw7FVk" title="N64LoaderWV - How to use signature files" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Downloading pre-generated Signature files
 Over on AssemblerGames there is a pack of `Signature Files` for N64 SDK libraries. You can think of these as a sort of regular expression for compiled function code. It is not always accurate but it is a great start, you can download them from assembler games 
 [Here](https://web.archive.org/web/20191111210232/https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)

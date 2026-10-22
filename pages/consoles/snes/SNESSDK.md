@@ -31,7 +31,13 @@ Unlike the original Famicom system, Nintendo provided third party developers wit
 
 The tools were created by a subsidiary of Nintendo called Intelligent Systems who would later be responsible for the software development kits for all Nintendo systems.
 
-If you see the acronym **SHVC** in this post or while browsing the SDK it stands for Super Home Video Computer, which was what the SNES was called internally at Nintendo. 
+If you see the acronym **SHVC** in this post or while browsing the SDK it stands for Super Home Video Computer, which was what the SNES was called internally at Nintendo.
+
+---
+## Using the official tools
+[Inkbox](https://www.youtube.com/watch?v=kYLJLJkVfLk) demonstrates making an SNES game with the official development tools. The project provides practical context for the SDK components catalogued below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kYLJLJkVfLk" title="Making an SNES Game the Way Nintendo Intended" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Files leaked
 There are still Super Famicom SDK files that have never been archived or released on the internet unfortunately, so this post will only cover the files we have access to.

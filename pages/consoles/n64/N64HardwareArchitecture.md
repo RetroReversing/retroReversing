@@ -77,6 +77,11 @@ The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor (
 </div>
 </section>
 
+---
+### Comparing the N64 and PlayStation
+[Purple Arcade](https://www.youtube.com/watch?v=DhKX_i4BlGs) compares why games on the [PlayStation](/ps1) and Nintendo 64 looked different. It is a useful visual comparison of the consequences of their hardware designs.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DhKX_i4BlGs" title="Why PS1 and N64 Games Were Different" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## PIF(P)-NUS (PIF)
 The Peripheral Interface Bus (PIF) handles all the input from external peripherals such as the game controllers. It has a small Initial Program Loader which is about 2kb of code. 
