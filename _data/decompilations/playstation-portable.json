@@ -21,6 +21,18 @@
         "github_stars": 33
       },
       "ai_used": null
+    },
+    "monster-hunter-freedom-unite-recomp": {
+      "name": "Monster Hunter Freedom Unite",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/Mango77x/MHForever",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -51,6 +63,32 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/tclamb/mhp2g-decomp"
+            }
+          ]
+        },
+        {
+          "project": "monster-hunter-freedom-unite-recomp",
+          "name_markdown": "[Monster Hunter Freedom Unite (MHForever)](https://github.com/Mango77x/MHForever)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Monster Hunter Freedom Unite European PSP box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation supporting the European v1.01 release. Single-player is documented as playable from start to finish, but the software remains early; online multiplayer and US/Japanese releases are not yet supported. Experimental interpolated output supports 60-180 FPS when the host can sustain it.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Mango77x/MHForever"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Mango77x/MHForever"
             }
           ]
         }
