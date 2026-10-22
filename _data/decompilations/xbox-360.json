@@ -11,12 +11,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-21T22:11:28Z",
         "last_commit_url": "https://github.com/rexglue/rexglue-sdk/commit/c94f5ebdcb3c9d1a460ca48e04f9758448f8d518",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 1148
       },
@@ -32,12 +30,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-17T01:11:03Z",
         "last_commit_url": "https://github.com/fxceless/xeo3-recomp-kit/commit/56483c853102e608883ba639b7cf901e13908ed3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 0
       },
@@ -53,10 +49,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-05T13:58:02Z",
         "last_commit_url": "https://github.com/zolaware/reblue/commit/85aae686489dff775890fb8100ab525d7b7427b0",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -74,10 +68,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T04:17:32Z",
         "last_commit_url": "https://github.com/psxrestore/Condemned2Recomp/commit/aa7aac332650901b8a08fbf8fe23f0e39d73b6de",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -95,10 +87,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-21T09:26:41Z",
         "last_commit_url": "https://github.com/masterspike52/reDAHM/commit/b1a326869113fb17045f1bf11f396adfcd59f727",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -116,10 +106,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-02-20T10:43:09Z",
         "last_commit_url": "https://github.com/WistfulHopes/DBZ1/commit/1c88aaf9f1360400ec93384dc0b1f5ec5951dc88",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -137,10 +125,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T17:24:14Z",
         "last_commit_url": "https://github.com/birabittoh/EternalSonataReprise/commit/5ee3fe77ddf176cbf8df64f65a46a44047a4c83d",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -158,10 +144,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T07:36:16Z",
         "last_commit_url": "https://github.com/MaxDeadBear/KameoRePowered/commit/f3fc10331f42cfd0a44fe0a0d4ad2c996e212043",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -179,10 +163,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-04-01T06:54:16Z",
         "last_commit_url": "https://github.com/MaxDeadBear/Re-Cherry/commit/4f8f82028c02e25a32402b4de96f9c23e2f3b7c5",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -200,10 +182,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-19T23:17:06Z",
         "last_commit_url": "https://github.com/mzzvxm/LARecomp/commit/aa43aa991e204e2d4e10d046cecf652e4cea417a",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -221,10 +201,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T04:14:59Z",
         "last_commit_url": "https://github.com/MaxDeadBear/NaughtyBear_ReStuff/commit/aa77d50e8df1eb65a516f49534eee56d2554ddc8",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -242,10 +220,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T11:01:19Z",
         "last_commit_url": "https://github.com/sonicnext-dev/MarathonRecomp/commit/162250665e7e0eb07771e8e6992f4fb26f06a7e9",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -263,10 +239,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-06-29T11:05:43Z",
         "last_commit_url": "https://github.com/hedge-dev/UnleashedRecomp/commit/cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -284,10 +258,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-08T17:50:30Z",
         "last_commit_url": "https://github.com/goliathret/EdgeOfTimeRecomp/commit/340144e4c7979a9f46699bef368fe7d7c62fddc9",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -305,10 +277,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-05-15T12:11:57Z",
         "last_commit_url": "https://github.com/dptug/TerrariaXDK/commit/c212d3c630fa2517e1e3c601cc328de88409ce0b",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
@@ -326,10 +296,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-03T01:10:20Z",
         "last_commit_url": "https://github.com/SolarCookies/TiP-Recomp/commit/be5e91c8a83da21d976902962c61688c849cf29d",
-        "last_success_at": "2026-10-22T08:53:56Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -347,12 +315,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T12:56:21Z",
         "last_commit_url": "https://github.com/doc-haz/infinite-undiscovery-recomp/commit/82d044101ed1756c27d4963b4984fa1988475e8c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 42
       },
@@ -368,12 +334,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-12T13:14:41Z",
         "last_commit_url": "https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp/commit/b5603ac4202b4a8083c4f1476cd5fa258e93f133",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 95
       },
@@ -389,12 +353,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T01:04:05Z",
         "last_commit_url": "https://github.com/samuelit0davila/fifa-street-pc-port/commit/ca03ea9b2951f00760b6b4bfcf588b1af3e9bdde",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 400
       },
@@ -410,12 +372,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-22T15:46:30Z",
         "last_commit_url": "https://github.com/sal063/AC6_recomp/commit/09144bb092ad871584808aeead69c395edbd5200",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 547
       },
@@ -431,12 +391,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T04:08:23Z",
         "last_commit_url": "https://github.com/masterspike52/reNut/commit/624f040af2ecc2dbb1be07c9f5cd20ec78cf9663",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 163
       },
@@ -452,12 +410,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-03-04T03:50:25Z",
         "last_commit_url": "https://github.com/SkiddyToast/Crackdown/commit/1b89e0f0ece75178a97bbf9fef210764bfe1d4f2",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 34
       },
@@ -473,12 +429,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-07T23:14:51Z",
         "last_commit_url": "https://github.com/matty45/Crackdown2-Recomp/commit/589d8ce85b8a06ea87157d8ec07a7642bbeb4997",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 34
       },
@@ -494,12 +448,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T01:28:57Z",
         "last_commit_url": "https://github.com/rjkiv/dc3-decomp/commit/8e115fd21cb7a5b63c7017a1fcaed86224abce6f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 43
       },
@@ -515,12 +467,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-09T08:38:18Z",
         "last_commit_url": "https://github.com/Revan67/DOAX2-Recomp/commit/7664e2d7bdda7b7f202f16caf5806efceb761e17",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 13
       },
@@ -536,12 +486,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-07-31T02:37:18Z",
         "last_commit_url": "https://github.com/ChimpsAtSea/Reach/commit/8723dc3d051a29675e00ffe3f8eebf355a30a702",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 74
       },
@@ -557,12 +505,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-02T16:50:03Z",
         "last_commit_url": "https://github.com/ihatecompvir/band3_recomp/commit/0a04c13567470c53083b3271269099f30dd0e6dc",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 56
       },
@@ -578,12 +524,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-27T06:07:02Z",
         "last_commit_url": "https://github.com/Revan67/RumbleRosesXX-Recomp/commit/c5037d52ac75f42958ea8588c41e0ff2a49dfdc2",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 7
       },
@@ -599,12 +543,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-02-26T20:07:18Z",
         "last_commit_url": "https://github.com/PranchaD/re-Sonic06Demo/commit/4b78cc0246a75ff463aa7ac08531acec1a5b8092",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 16
       },
@@ -620,12 +562,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-03T19:31:56Z",
         "last_commit_url": "https://github.com/LittleBitUA/DPRecomp/commit/e0624129c06b9437aa0278b58f2f3eb954192aec",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 169
       },
@@ -641,12 +581,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-09-30T09:10:54Z",
         "last_commit_url": "https://github.com/SebaaMG/Kinect-Sports-Decomp/commit/540b8e38e28bd0144f590d566151ebb96526f687",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 5
       },
@@ -662,12 +600,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-20T19:43:39Z",
         "last_commit_url": "https://github.com/beatrixzy/PGR4-Recomp/commit/38d8d87c1c74be4531aa3ba82f0eb8a9ae661e19",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 205
       },
@@ -683,12 +619,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-25T00:22:00Z",
         "last_commit_url": "https://github.com/ant0-blase/Saw2-X360-ReXGlue/commit/ca28b92622f945892fc4203f42f97e81c9ace975",
         "default_branch": "main",
         "archived": true,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Inactive",
         "github_stars": 4
       },
@@ -704,12 +638,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-08-30T17:31:53Z",
         "last_commit_url": "https://github.com/rjkiv/sonic06/commit/eb11705eabe94830001eb897877a1655a1144b1c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 15
       },
@@ -725,12 +657,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-11T21:15:48Z",
         "last_commit_url": "https://github.com/YesterMester/TheSimpsonsGameRecomp/commit/4ff637bc47900c86f003a48ec3f5ab6cbefc55c6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 370
       },
@@ -746,12 +676,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-22T05:40:19Z",
         "last_commit_url": "https://github.com/freefrank/LostOdysseyRecomp/commit/c35c41ac1ba125ee4ffa751d72669a899cfc264b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 775
       },
@@ -767,12 +695,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-22T08:53:56Z",
         "last_commit_at": "2026-10-21T23:30:45Z",
         "last_commit_url": "https://github.com/PaulCombal/mw2-recompiled/commit/04a2555bd4c4f5c96f686fa4209f73ed97e4cc03",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-22T08:53:56Z",
         "status": "Active",
         "github_stars": 115
       },
