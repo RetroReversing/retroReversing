@@ -102,6 +102,89 @@ score of zero or report the remaining mismatch.
 The project documents N64 compiler matching and rebuildable exports. Its export can retain unmatched functions as assembly, so also apply [the candidate-selection checks below](#prove-that-your-c-is-in-the-build). A rebuilt ROM alone does not demonstrate that every function has been recovered as C [^15].
 
 ---
+## Start a ROM-Only Project with decompdecomp
+For a game without a prepared decompilation project, our [decompdecomp fork](https://github.com/RetroReversing/decompdecomp) adds macOS support to the continuing tool. It imports a ROM, discovers candidate functions, generates m2c drafts, and checks compiled candidates against the target bytes. The older decomp.wtf commands above belong to the archived application; use the current fork's instructions for a new project.
+
+On a Mac, install from the fork after installing Git and Apple's command line tools:
+
+```sh
+git clone https://github.com/RetroReversing/decompdecomp.git
+cd decompdecomp
+bash site/public/install.sh
+```
+
+The installer creates `~/Applications/decompdecomp.app`. Open it, complete **Compilers & tools**, and import your own ROM. On Apple Silicon, the period KMC compiler requires Rosetta; IDO compilers require separate explicit license acceptance. Start with one project and keep its ROM, drafts, disassembly, and recovered code in a private working directory.
+
+Before asking an agent to recover C, record these facts:
+* **Identify the bytes** - Read the ROM magic, region, revision, size, and normalized hash. A filename extension does not establish byte order.
+* **Check import coverage** - Compare the discovered code with the boot routine. A handful of functions may describe a loader while the main game remains compressed.
+* **Treat compiler detection as a hypothesis** - Test several nontrivial functions with candidate versions and flags. A tiny function that matches two compilers cannot distinguish them.
+* **Run the automatic draft pass** - Keep exact compiler matches and inspect the remaining errors. Draft C is a starting point, even when it looks plausible.
+* **Preserve an audit trail** - Record tool revision, extraction checks, compiler settings, candidate bytes, and build results. Keep original target hashes fixed.
+
+Use this instruction when working without existing game source:
+
+```text
+Work only from my supplied ROM and machine-derived analysis.
+Do not read existing game source, decompilation repositories, symbol maps,
+or articles that derive names and types from that source.
+You may read tool code and generic hardware or file-format documentation.
+Keep game binaries, disassembly, and recovered C local.
+Explain uncertain names and types. Accept C only after the existing
+linked-byte judge passes. Report code coverage separately from matches.
+```
+
+---
+### Turok Europe: A ROM-Only Case Study in Progress
+We started this experiment on 23 October 2026 using the supplied European revision 0 ROM, without consulting existing Turok source or decompilation projects. **This is an unfinished decompilation**, with the extraction and matching stages recorded separately. These measurements describe this exact input, not every Turok release.
+
+The initial inspection established the following baseline:
+
+Measurement | ROM-derived result
+--- | ---
+File size | 8,388,608 bytes
+Header game code | `NTUP`, Europe, revision 0
+Actual input byte order | 16-bit-swapped v64, despite the `.n64` filename
+Entry address | `0x80000400`
+Initial import | 12 candidate functions, 3,680 bytes
+
+The normalized ROM SHA-1 is:
+
+```text
+88916d5d2e2470f395ad8f4245d34138ef2d156a
+```
+
+The small initial import was the first obstacle. Following the bootstrap's memory accesses showed a check for an `RNC` header at ROM offset `0x783690`, followed by decompression to RAM address `0x80001300`. Stopping after the initial import would have missed the main program.
+
+The main container uses **RNC method 1**. Its header declares 462,217 packed bytes and 1,015,248 unpacked bytes. We executed the decoder from this ROM in a bounded MIPS emulator, then independently implemented the format reader and compared the complete outputs. The packed CRC16 was `f045`, the unpacked CRC16 was `a680`, and the unpacked SHA-256 was:
+
+```text
+f0c9bd34991216298c760a683908458ed50435d052dd4e67af24374bfea5104d
+```
+
+The output ends at `0x800F90D0`, the same address where the bootstrap begins clearing BSS. Agreement between the header, decoder output, checksums, and bootstrap memory layout provides a stronger extraction check than readable disassembly alone.
+
+Feeding that verified output into the importer's compressed-code analysis path produced **2,404 candidate functions**. Some very short boundaries still need review. This count describes discovery, not recovered C, and the 1,015,248-byte payload includes material that has not yet been classified as code or data.
+
+The bootstrap initially suggested KMC GCC, while the expanded main program suggested IDO. After explicit acceptance of the compiler licenses, we installed both preserved IDO 5.3 and 7.1 toolchains. Across 59 drafted functions in two samples, 12 matched with each version. Both versions produced the same match counts, so IDO 5.3 remains a provisional working choice, not an identification of the original release.
+
+The first complete automatic draft pass and a byte-pointer refinement pass reached **409 exact function matches, covering 24,840 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17% by function count but only 4% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
+
+A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
+
+**Reproduction status:** a fresh import with the new RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and filters decoded assets out of code discovery. The implementation and tests are in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2). While that change is under review, use its branch for this case study:
+
+```sh
+git fetch origin codex/rom-import-workflow
+git switch codex/rom-import-workflow
+bash site/public/install.sh
+```
+
+After importing, select IDO 5.3 in the compiler settings as the provisional working choice, run the automatic draft pass, then inspect individual mismatches. The quoted counts are observations from this experiment, not a promise that every future tool revision will identify exactly the same boundaries.
+
+**Build status:** extracting the program, generating drafts, and rebuilding an expanded analysis image do not establish that recovered C has rebuilt the original cartridge. A final matching build must select the recovered C, reconstruct the compressed main program, and compare the complete normalized ROM against its fixed original hash. That proof is still outstanding.
+
+---
 ## Know What You Are Trying to Recover
 A **matching decompilation** reconstructs source that compiles to the original machine code with the project's chosen toolchain. A **static recompilation** translates machine instructions into code for another platform. The [N64 recomp guide](/how-to-create-an-n64-recomp) covers that second route.
 
