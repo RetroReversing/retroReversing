@@ -92,7 +92,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 543
+        "github_stars": 544
       },
       "ai_used": null
     },
@@ -111,7 +111,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 730
+        "github_stars": 735
       },
       "ai_used": null
     },
@@ -220,12 +220,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T04:11:56Z",
-        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/49f78f35ccd8c6880e189d23a630eef2976c44ac",
+        "last_commit_at": "2026-10-23T02:31:49Z",
+        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/6dc1499e3127176d4cb34f41c01ee62e1d98808a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 578
+        "github_stars": 582
       },
       "ai_used": null
     },
@@ -244,7 +244,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 146
+        "github_stars": 147
       },
       "ai_used": null
     },
@@ -301,7 +301,8 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 3,
+        "check_error": "GitHub GraphQL repository check failed"
       },
       "ai_used": null
     },
@@ -358,7 +359,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -448,8 +449,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T01:58:05Z",
-        "last_commit_url": "https://github.com/gamemasterplc/bltouch2/commit/2f8b405500ea925a6900375bebd36c23afed0aae",
+        "last_commit_at": "2026-10-23T00:49:46Z",
+        "last_commit_url": "https://github.com/gamemasterplc/bltouch2/commit/9e2f6acd7031e7c6139f1a2087fd2a874d149834",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -491,7 +492,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 65
+        "github_stars": 66
       },
       "ai_used": null
     },
@@ -524,7 +525,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 100,
+        "github_stars": 101,
         "last_commit_at": "2026-10-11T14:41:13Z",
         "last_commit_url": "https://github.com/Yokimitsuro/khdays-decomp/commit/261a89eaa8f65dd566ae0828b0b57c85c847a6ee",
         "default_branch": "main",
@@ -582,8 +583,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 3,
-        "last_commit_at": "2026-10-22T00:27:54Z",
-        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/2bd62cbf23179dda907e9bb87acad1926b1d9905",
+        "last_commit_at": "2026-10-23T06:03:15Z",
+        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/bdca9b1a84de26d84070d717d0596507a256f700",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -601,8 +602,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 14,
-        "last_commit_at": "2026-10-22T08:29:14Z",
-        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/601d2865ddeb4765ece8c3e5de98b822e4bd5aba",
+        "last_commit_at": "2026-10-23T08:05:00Z",
+        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/606bee17fde947ce6317f700af0453cb2044432a",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -719,7 +720,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 46
+        "github_stars": 48
       },
       "ai_used": null
     },
@@ -738,7 +739,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 46
+        "github_stars": 48
       },
       "ai_used": null
     },
@@ -847,12 +848,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:21:01Z",
-        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/753b3fd97683fc619bb98b52e7276afac3d5e32f",
+        "last_commit_at": "2026-10-23T08:06:52Z",
+        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/b62c655bfa13f3b2c2c7dea09fda9837b6adffa6",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 47
+        "github_stars": 49
       },
       "ai_used": null
     },
@@ -923,8 +924,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:10:54Z",
-        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/20a470b32a5f407593db88374d6e81686f19d700",
+        "last_commit_at": "2026-10-23T05:17:45Z",
+        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/ff124921483637f922b4da25c102fd263999f66a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",

@@ -11,7 +11,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": null
+        "github_stars": null,
+        "check_error": "GitHub GraphQL repository check failed",
+        "status": "Unverified"
       },
       "ai_used": null
     },
@@ -25,7 +27,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": null
+        "github_stars": 6033,
+        "last_commit_at": "2026-10-20T11:30:29Z",
+        "last_commit_url": "https://github.com/TwilitRealm/dusklight/commit/77705f8bb95ef7b7dca4675b149c4bcb6a48da34",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active"
       },
       "ai_used": null
     },

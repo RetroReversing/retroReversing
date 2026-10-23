@@ -30,12 +30,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-22T01:49:44Z",
-        "last_commit_url": "https://github.com/Xeeynamo/sotn-decomp/commit/2be55ee17221ee306e330edf2df2d49d48ba47ae",
+        "last_commit_at": "2026-10-22T22:07:29Z",
+        "last_commit_url": "https://github.com/Xeeynamo/sotn-decomp/commit/7bc54d8157b6bed77e6bd15e5db9461a734fe1e5",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1165
+        "github_stars": 1168
       },
       "ai_used": null
     },
@@ -54,7 +54,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 947
+        "github_stars": 952
       },
       "ai_used": null
     },
@@ -130,7 +130,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 422
+        "github_stars": 425
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 4
+        "github_stars": 5
       },
       "previous_repository_urls": [
         "https://github.com/juandav/dcb_decomp"
@@ -209,7 +209,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 1422
+        "github_stars": 1425
       },
       "ai_used": null
     },
@@ -223,12 +223,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-22T00:03:27Z",
-        "last_commit_url": "https://github.com/Xeeynamo/ff7-decomp/commit/fc71ccc0cda69d23cb8236a9cfbecae8bce23876",
+        "last_commit_at": "2026-10-22T21:16:00Z",
+        "last_commit_url": "https://github.com/Xeeynamo/ff7-decomp/commit/1432ebf688aa8d5bb5a90e1c31ba165e7eed5951",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 176
+        "github_stars": 177
       },
       "ai_used": null
     },
@@ -285,7 +285,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 562
+        "github_stars": 565
       },
       "ai_used": null
     },
@@ -321,8 +321,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T16:08:07Z",
-        "last_commit_url": "https://github.com/celophi/lom-decomp/commit/996805ae2b26ea9c34d60e259af1e69e84f8f9ce",
+        "last_commit_at": "2026-10-22T17:29:49Z",
+        "last_commit_url": "https://github.com/celophi/lom-decomp/commit/c34db9803ae8cb58d45060a8246e161de690ece3",
         "archived": false,
         "default_branch": "master",
         "status": "Active",
@@ -402,7 +402,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 198
+        "github_stars": 202
       },
       "ai_used": null
     },
@@ -416,12 +416,12 @@
       "completion_status": "Completed",
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-19T01:40:15Z",
-        "last_commit_url": "https://github.com/FoxdieTeam/mgs_reversing/commit/bf9189e653bf0449684717db93fe824b6f889b0c",
+        "last_commit_at": "2026-10-22T14:29:55Z",
+        "last_commit_url": "https://github.com/FoxdieTeam/mgs_reversing/commit/7bbcb71021b59c55adeb9be46074adebaf68d2ad",
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 817
+        "github_stars": 819
       },
       "ai_used": null
     },
@@ -511,12 +511,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-21T20:05:14Z",
-        "last_commit_url": "https://github.com/shdecompilations/silent-hill-decomp/commit/405a62166af93385d8f71c0ae98782b7b5ad3202",
+        "last_commit_at": "2026-10-23T07:24:29Z",
+        "last_commit_url": "https://github.com/shdecompilations/silent-hill-decomp/commit/c605dbd41d133c434b45782888e43a30314f8022",
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 956
+        "github_stars": 958
       },
       "ai_used": null
     },
@@ -535,7 +535,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 176
+        "github_stars": 178
       },
       "ai_used": null
     },
@@ -568,8 +568,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-18T19:35:48Z",
-        "last_commit_url": "https://github.com/hansbonini/psx_tomba/commit/fb3b36715f6966c099be95564c155bd842003b76",
+        "last_commit_at": "2026-10-23T03:00:44Z",
+        "last_commit_url": "https://github.com/hansbonini/psx_tomba/commit/f23b34a5f4a59b1324376ffb4be884e8322e2c28",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
@@ -630,7 +630,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Inactive",
-        "github_stars": 980
+        "github_stars": 982
       },
       "ai_used": null
     },
@@ -758,12 +758,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T08:29:26Z",
-        "last_commit_url": "https://github.com/sozud/mmx4/commit/2132637af6026d617940095a9b5815cc05fd09b6",
+        "last_commit_at": "2026-10-23T08:07:28Z",
+        "last_commit_url": "https://github.com/sozud/mmx4/commit/699341586b2bbf95ae44572652626d06d48189e7",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 35
+        "github_stars": 36
       },
       "ai_used": null
     },
@@ -801,7 +801,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 297
+        "github_stars": 298
       },
       "ai_used": null
     },
@@ -896,7 +896,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 2988
+        "github_stars": 2989
       },
       "ai_used": null
     },
@@ -953,7 +953,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 73
+        "github_stars": 76
       },
       "ai_used": null
     },
@@ -972,7 +972,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 78
+        "github_stars": 80
       },
       "ai_used": null
     },
@@ -991,7 +991,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 292
+        "github_stars": 294
       },
       "ai_used": null
     },
@@ -1119,8 +1119,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T04:06:22Z",
-        "last_commit_url": "https://github.com/Caesar0007/NFSHS-PSX-decomp/commit/fa6a3a2ecc09a90abbcdc241af4e491be0c383b9",
+        "last_commit_at": "2026-10-23T02:28:52Z",
+        "last_commit_url": "https://github.com/Caesar0007/NFSHS-PSX-decomp/commit/5419ed679fcf01e3226fb51f5352963792fc877d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1143,7 +1143,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 31
+        "github_stars": 32
       },
       "ai_used": null
     },
@@ -1238,7 +1238,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 115
+        "github_stars": 116
       },
       "ai_used": null
     },
@@ -1295,7 +1295,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -1367,8 +1367,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 3,
-        "last_commit_at": "2026-10-19T21:05:57Z",
-        "last_commit_url": "https://github.com/EiscremeWaffle/bubsy3d-decomp/commit/6003064b4a0f26c8fa0eb94facf4074854138df4",
+        "last_commit_at": "2026-10-22T19:39:31Z",
+        "last_commit_url": "https://github.com/EiscremeWaffle/bubsy3d-decomp/commit/25960a0ab7142992dd21f983b713ca2680711ea7",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1405,8 +1405,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 60,
-        "last_commit_at": "2026-10-21T20:33:22Z",
-        "last_commit_url": "https://github.com/roengstrom/ff8-decomp/commit/d88b7dadee8c7c881de0e2fe3f4670fae29e771e",
+        "last_commit_at": "2026-10-22T20:52:21Z",
+        "last_commit_url": "https://github.com/roengstrom/ff8-decomp/commit/32e25a41e4788d69d60e99286e8eda30b0b8d5a4",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1423,7 +1423,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 35,
+        "github_stars": 36,
         "last_commit_at": "2026-10-13T04:21:07Z",
         "last_commit_url": "https://github.com/coalslav/hmbtn-decomp/commit/a2dd23e4554154bb34a4c8a09d1a74b4039028dc",
         "default_branch": "main",
@@ -1499,9 +1499,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 70,
-        "last_commit_at": "2026-10-18T21:12:01Z",
-        "last_commit_url": "https://github.com/GabeRealB/parasite-eve-2-decomp/commit/5481ae96a27e5c93ef9af620e6909a9891259b47",
+        "github_stars": 73,
+        "last_commit_at": "2026-10-22T21:51:02Z",
+        "last_commit_url": "https://github.com/GabeRealB/parasite-eve-2-decomp/commit/8f2014814b5ec7c5625d22ecb05e9b9a7e7dc4bd",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1537,7 +1537,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 30,
+        "github_stars": 31,
         "last_commit_at": "2026-10-12T02:50:37Z",
         "last_commit_url": "https://github.com/Spicywonda/castlevania-chronicles-recomp/commit/99ac8ae85e679ad60eadb7cc86be4f59bd4580ce",
         "default_branch": "main",
@@ -1556,7 +1556,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 97,
+        "github_stars": 98,
         "last_commit_at": "2026-10-18T11:13:20Z",
         "last_commit_url": "https://github.com/obaidr1/hercules-recompiled/commit/747d4de22ad695ed45eec6e000cebedaea38b20e",
         "default_branch": "main",
@@ -1632,9 +1632,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 226,
-        "last_commit_at": "2026-10-21T17:24:37Z",
-        "last_commit_url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/commit/e64b91f9c02fc17c1ca3e4734563922bc1c57494",
+        "github_stars": 233,
+        "last_commit_at": "2026-10-23T05:36:44Z",
+        "last_commit_url": "https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/commit/c1530ede3c9d5b26ebd98c986092de6d56e41ee0",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -1694,7 +1694,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 113
+        "github_stars": 114
       },
       "ai_used": null
     },
@@ -1732,7 +1732,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 5
       },
       "ai_used": null
     },
@@ -1751,7 +1751,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 9
+        "github_stars": 10
       },
       "ai_used": null
     },
@@ -1808,7 +1808,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -1865,7 +1865,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 18
+        "github_stars": 20
       },
       "ai_used": null
     },
@@ -1993,8 +1993,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:59:04Z",
-        "last_commit_url": "https://github.com/kerokline/BreathOfFire3PCPort/commit/19880aa6c86f9bca8bb22afd416a47894904fa47",
+        "last_commit_at": "2026-10-22T23:32:43Z",
+        "last_commit_url": "https://github.com/kerokline/BreathOfFire3PCPort/commit/9a4cda2e3a47f48399c67313a4d3a7d3a2fd5006",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2302,7 +2302,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -2791,8 +2791,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T11:23:03Z",
-        "last_commit_url": "https://github.com/mstan/MegaManX4Recomp/commit/a3c75e2b5c00e7283cd4de771b074cd73c037011",
+        "last_commit_at": "2026-10-22T22:51:02Z",
+        "last_commit_url": "https://github.com/mstan/MegaManX4Recomp/commit/160818ef7b77d5e349e9f86f5429dfcf5b2657ca",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -2891,7 +2891,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 37
+        "github_stars": 38
       },
       "ai_used": null
     },
@@ -2967,7 +2967,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 39
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -3043,7 +3043,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 194
+        "github_stars": 196
       },
       "ai_used": null
     },
@@ -3062,7 +3062,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 228
+        "github_stars": 232
       },
       "ai_used": null
     },
@@ -3133,12 +3133,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-09-27T03:08:03Z",
-        "last_commit_url": "https://github.com/ecruells/resident-evil-pc-decomp/commit/15004914527567a2b9cecf34997abe8c252bcbf9",
+        "last_commit_at": "2026-10-23T02:34:56Z",
+        "last_commit_url": "https://github.com/ecruells/resident-evil-pc-decomp/commit/f167782d5ea488aaaee43522b06698b1e301e0f9",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 144
+        "github_stars": 146
       },
       "ai_used": null
     },
@@ -3157,7 +3157,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 13
       },
       "ai_used": null
     },
@@ -3266,12 +3266,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T00:30:39Z",
-        "last_commit_url": "https://github.com/SlickAmogus/silent-hill-decomp/commit/2f9c6cc1a63a27ef7ff5a9783d5b9001131ef010",
+        "last_commit_at": "2026-10-23T08:44:59Z",
+        "last_commit_url": "https://github.com/SlickAmogus/silent-hill-decomp/commit/a6312acc7f81397f82494884ba3e6b89a941ba62",
         "default_branch": "pc-port",
         "archived": false,
         "status": "Active",
-        "github_stars": 749
+        "github_stars": 751
       },
       "ai_used": null
     },
@@ -3556,7 +3556,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 62
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -3589,8 +3589,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:03:28Z",
-        "last_commit_url": "https://github.com/CosmicScribe64/tokimemo-ps1-decomp/commit/a46e787e1ff893087b08cfe314a9e96ccecec56f",
+        "last_commit_at": "2026-10-23T08:20:24Z",
+        "last_commit_url": "https://github.com/CosmicScribe64/tokimemo-ps1-decomp/commit/f1cd4f5b4d96c8f5817a3cba1a423979ccbf1374",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -3646,12 +3646,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T23:14:07Z",
-        "last_commit_url": "https://github.com/LANCommander/TonyWasAProSkater/commit/d9319c8d5b42c431de02bec0f02f0cf955f2fbae",
+        "last_commit_at": "2026-10-23T05:30:25Z",
+        "last_commit_url": "https://github.com/LANCommander/TonyWasAProSkater/commit/ed0ac5149c744177781879cc501d1e626533a649",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 40
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -3741,12 +3741,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:50:05Z",
-        "last_commit_url": "https://github.com/noprompt/rood-boi/commit/fdbb5e410351f91959a4a795275420e3016ac777",
+        "last_commit_at": "2026-10-23T02:37:22Z",
+        "last_commit_url": "https://github.com/noprompt/rood-boi/commit/81388794f462f7f835780b766fdb01090a139082",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 22
+        "github_stars": 23
       },
       "ai_used": null
     },
@@ -3760,12 +3760,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:46:12Z",
-        "last_commit_url": "https://github.com/JEschete/VS-NativePort/commit/91f446c611da5db1b28a47b87d9a94ed801a8d64",
+        "last_commit_at": "2026-10-23T07:59:43Z",
+        "last_commit_url": "https://github.com/JEschete/VS-NativePort/commit/813acea0ea29efa03ab17fb02db34d13d7bf62fe",
         "default_branch": "work",
         "archived": false,
         "status": "Active",
-        "github_stars": 22
+        "github_stars": 24
       },
       "ai_used": null
     },
@@ -3817,8 +3817,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T05:44:54Z",
-        "last_commit_url": "https://github.com/NJH-1001/Wipeout2K97XL/commit/f696afcc555294e6af2fd28918dabd16c12ec5d2",
+        "last_commit_at": "2026-10-23T03:11:15Z",
+        "last_commit_url": "https://github.com/NJH-1001/Wipeout2K97XL/commit/464def7d7d95d46a548863475cdccee1e1ea31b3",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -3860,7 +3860,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 10
+        "github_stars": 11
       },
       "ai_used": null
     },
@@ -3893,8 +3893,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:40:50Z",
-        "last_commit_url": "https://github.com/krystalgamer/memories-decomp/commit/1a526009c824f0a5ec58dab343e0f6df0dc0a4ba",
+        "last_commit_at": "2026-10-23T08:35:11Z",
+        "last_commit_url": "https://github.com/krystalgamer/memories-decomp/commit/83f7353a4d629db4913578b3c8c3e1970dd83d68",
         "default_branch": "master",
         "archived": false,
         "status": "Active",

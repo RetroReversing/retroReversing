@@ -184,7 +184,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 110
+        "github_stars": 111
       },
       "ai_used": null
     },
@@ -279,7 +279,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Inactive",
-        "github_stars": 160
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -354,7 +354,7 @@
         "last_commit_url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/commit/25d73ed4db7033b9177ec116f99f4185e7397a6f",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 41,
+        "github_stars": 46,
         "status": "Active"
       },
       "ai_used": true
@@ -369,8 +369,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T01:31:11Z",
-        "last_commit_url": "https://github.com/DerrickGold/ar-recomp/commit/e550cf3f0733cff2b9f5f8b5fd0baa605fc803ff",
+        "last_commit_at": "2026-10-23T02:32:09Z",
+        "last_commit_url": "https://github.com/DerrickGold/ar-recomp/commit/93c2786af6012325cc00c414c7bff07aa22ce672",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -412,7 +412,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 260
+        "github_stars": 261
       },
       "ai_used": null
     },
@@ -431,7 +431,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 174
+        "github_stars": 176
       },
       "ai_used": null
     },
@@ -488,7 +488,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 11
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -545,7 +545,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 123
+        "github_stars": 124
       },
       "ai_used": null
     },
@@ -773,7 +773,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 726
+        "github_stars": 727
       },
       "ai_used": null
     },
@@ -863,12 +863,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T00:56:37Z",
-        "last_commit_url": "https://github.com/mstan/MegaManXSNESRecomp/commit/99450ef9017fb0a873a6201c85cf9e416da21398",
+        "last_commit_at": "2026-10-23T05:26:56Z",
+        "last_commit_url": "https://github.com/mstan/MegaManXSNESRecomp/commit/452ac3180e0557f2cd6226af87ae0f6704b14f1a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 200
+        "github_stars": 201
       },
       "ai_used": null
     },
@@ -963,7 +963,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 106
+        "github_stars": 107
       },
       "ai_used": null
     },
@@ -1210,7 +1210,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 210
+        "github_stars": 211
       },
       "ai_used": null
     },
@@ -1267,7 +1267,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 23
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -1357,7 +1357,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": null
+        "github_stars": 55,
+        "last_commit_at": "2026-10-20T13:38:17Z",
+        "last_commit_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/commit/d54e9f309c8e367c2c22e93231c29d67b052e22e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active"
       },
       "ai_used": null
     }

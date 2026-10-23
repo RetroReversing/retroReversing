@@ -54,7 +54,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Inactive",
-        "github_stars": 475
+        "github_stars": 476
       },
       "ai_used": null
     },
@@ -106,8 +106,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-15T18:42:11Z",
-        "last_commit_url": "https://github.com/pbr-ret/pbr-decomp/commit/2f00145d6b48689c2d182c409828b13cdf1e55f8",
+        "last_commit_at": "2026-10-23T07:29:26Z",
+        "last_commit_url": "https://github.com/pbr-ret/pbr-decomp/commit/41a652eb4432ea9bb65f0f27a11d1bb21e0e8894",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
@@ -187,7 +187,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 1290
+        "github_stars": 1294
       },
       "ai_used": null
     },
@@ -201,12 +201,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-22T07:23:26Z",
-        "last_commit_url": "https://github.com/SMGCommunity/Garigari/commit/af7106e61af334d461cb6dbe0bc4f8feaa2a68ea",
+        "last_commit_at": "2026-10-23T02:39:28Z",
+        "last_commit_url": "https://github.com/SMGCommunity/Garigari/commit/dc73096e6a5a817112079587d785620f05525580",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 82
+        "github_stars": 83
       },
       "ai_used": null
     },
@@ -244,7 +244,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 104
+        "github_stars": 106
       },
       "ai_used": null
     },
@@ -282,7 +282,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 216
+        "github_stars": 215
       },
       "ai_used": null
     },
@@ -353,8 +353,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-09-04T14:05:00Z",
-        "last_commit_url": "https://github.com/projectPiki/pik1wii/commit/7170ba8a1eafd6dd3e30923c827b20f4a0df735e",
+        "last_commit_at": "2026-10-23T05:21:02Z",
+        "last_commit_url": "https://github.com/projectPiki/pik1wii/commit/051c29750ee179f7b6d97bfda094febdb0191a0f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -396,7 +396,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 147
+        "github_stars": 148
       },
       "ai_used": null
     },
@@ -486,12 +486,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-09-10T17:21:00Z",
-        "last_commit_url": "https://github.com/Alice-2010/Decomp/commit/ee1bf06e7a6361de0709faf2ed76fc13d6dcdfca",
+        "last_commit_at": "2026-10-22T15:55:09Z",
+        "last_commit_url": "https://github.com/Alice-2010/Decomp/commit/768231d6d37f2065a12825deb6bb968cfa660004",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -676,8 +676,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T01:43:55Z",
-        "last_commit_url": "https://github.com/orangedude27/excite-truck/commit/497fc5f1159060a083610aca1e051c1bc8d94fdc",
+        "last_commit_at": "2026-10-23T03:15:36Z",
+        "last_commit_url": "https://github.com/orangedude27/excite-truck/commit/c2281630d61f544307ed2f1fa391789861abe220",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -752,7 +752,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 0,
+        "github_stars": 1,
         "last_commit_at": "2026-10-21T14:12:21Z",
         "last_commit_url": "https://github.com/Etrainquandt17/Whippy/commit/2abb43f36085f6aa8c1447774d8eed3a1732d38d",
         "default_branch": "main",
@@ -771,11 +771,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T04:11:15Z",
-        "last_commit_url": "https://github.com/yunophilia/BlackKnightRecomp/commit/d010d1b45e7f4bc27a830bab6f5f0c4a7e6654a4",
+        "last_commit_at": "2026-10-23T04:37:56Z",
+        "last_commit_url": "https://github.com/yunophilia/BlackKnightRecomp/commit/ef850dc12f02d9a2c1669104a59d90b39d02a640",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 7,
+        "github_stars": 9,
         "status": "Active"
       },
       "ai_used": true
@@ -795,7 +795,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 57
+        "github_stars": 58
       },
       "ai_used": null
     },
@@ -947,7 +947,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 704
+        "github_stars": 707
       },
       "ai_used": null
     },
@@ -1004,7 +1004,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1237
+        "github_stars": 1243
       },
       "ai_used": null
     },
@@ -1061,7 +1061,7 @@
         "default_branch": "stable",
         "archived": false,
         "status": "Active",
-        "github_stars": 95
+        "github_stars": 96
       },
       "ai_used": null
     },
@@ -1170,12 +1170,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T16:45:00Z",
-        "last_commit_url": "https://github.com/OpenPort-Labs/Galaxy-Android/commit/1abcb975927ecb4189949bd51f81e73a04d97566",
+        "last_commit_at": "2026-10-23T08:26:44Z",
+        "last_commit_url": "https://github.com/OpenPort-Labs/Galaxy-Android/commit/2fcb3db027ba6bc994ca3da125453412bb9bcd80",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 254
+        "github_stars": 257
       },
       "ai_used": null
     },
@@ -1194,7 +1194,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 111
+        "github_stars": 112
       },
       "ai_used": null
     },
@@ -1213,7 +1213,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 306
+        "github_stars": 314
       },
       "ai_used": null
     },
@@ -1246,12 +1246,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:30:07Z",
-        "last_commit_url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros/commit/01c35ca76214b3dca1d0369b54262837f12003a8",
+        "last_commit_at": "2026-10-23T05:27:16Z",
+        "last_commit_url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros/commit/46343ab1471ddbdc39efa26190d40513b1b8e3ea",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 97
+        "github_stars": 111
       },
       "ai_used": null
     },
@@ -1265,8 +1265,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T19:16:17Z",
-        "last_commit_url": "https://github.com/Tanline666/veryfat-dungeon/commit/8d34ddc9d006e44bb95b1434f5d175abb6facc91",
+        "last_commit_at": "2026-10-23T02:44:54Z",
+        "last_commit_url": "https://github.com/Tanline666/veryfat-dungeon/commit/d10ae80d43a1dba305ff481fb382eb018f22c90e",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1303,8 +1303,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:47:46Z",
-        "last_commit_url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/commit/47c0bc20614e2c5f616f560f21d36857639b9b8d",
+        "last_commit_at": "2026-10-23T05:02:27Z",
+        "last_commit_url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/commit/e9637b8a11c8feb3dc671c81daee6c4319e95ac8",
         "default_branch": "main",
         "archived": false,
         "status": "Active",

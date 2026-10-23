@@ -139,7 +139,7 @@
         "archived": false,
         "default_branch": "AS",
         "status": "Active",
-        "github_stars": 454
+        "github_stars": 456
       },
       "ai_used": null
     },
@@ -158,7 +158,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 318
+        "github_stars": 320
       },
       "ai_used": null
     },
@@ -177,7 +177,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 264
+        "github_stars": 265
       },
       "ai_used": null
     },
@@ -196,7 +196,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Inactive",
-        "github_stars": 30
+        "github_stars": 31
       },
       "ai_used": null
     },
@@ -215,7 +215,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Inactive",
-        "github_stars": 40
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -229,8 +229,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T07:12:11Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/e0461a935943c8b447104791f397aa1611404f3e",
+        "last_commit_at": "2026-10-22T11:01:13Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/e3303d2cee4cb8552cdda68da99f8fd92839cff2",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -248,8 +248,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-18T19:46:36Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/2bc3f58eed4f28308a206f5651b7d8c843b959c1",
+        "last_commit_at": "2026-10-22T11:01:16Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/2b45e553b1b75b1d80266d7d023a9104f32b0e59",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -324,8 +324,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T03:51:38Z",
-        "last_commit_url": "https://github.com/mstan/Sonic3AndKnucklesRecomp/commit/5d777d699aa79094f3d1df1aa2c4f56a64b39f72",
+        "last_commit_at": "2026-10-22T23:38:20Z",
+        "last_commit_url": "https://github.com/mstan/Sonic3AndKnucklesRecomp/commit/ddafabc4790512488f0751ac162ef6b7b7740599",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -419,8 +419,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-18T14:25:20Z",
-        "last_commit_url": "https://github.com/mstan/SonicTheHedgehog2Recomp/commit/e1451eee49cf2238164e282d0c1a8f79ce8a76aa",
+        "last_commit_at": "2026-10-23T04:40:20Z",
+        "last_commit_url": "https://github.com/mstan/SonicTheHedgehog2Recomp/commit/177c8ca60abff1427e2e8a06a8ae267e61046ec5",
         "default_branch": "master",
         "archived": false,
         "status": "Active",

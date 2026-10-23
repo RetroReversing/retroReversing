@@ -38,7 +38,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 480
+        "github_stars": 481
       },
       "ai_used": null
     },
@@ -57,7 +57,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 2324
+        "github_stars": 2343
       },
       "ai_used": null
     },
@@ -114,7 +114,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 353
+        "github_stars": 368
       },
       "ai_used": null
     },
@@ -152,7 +152,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1628
+        "github_stars": 1669
       },
       "ai_used": null
     },
@@ -171,7 +171,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 384
+        "github_stars": 394
       },
       "ai_used": null
     },
@@ -185,8 +185,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:19:52Z",
-        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/5ace7bc235912f85a57dcf851e2d08af0cfe6918",
+        "last_commit_at": "2026-10-23T01:06:05Z",
+        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/cdc93a172b87b26a7a7bb0908b67611a569e7242",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -247,7 +247,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 155
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -304,7 +304,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 390
+        "github_stars": 409
       },
       "ai_used": null
     },
