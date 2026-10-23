@@ -395,7 +395,21 @@
           "completion_percent": 17,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Savage Wind Recomp",
+              "url": "https://github.com/Revivedx/SavageWindRecomp",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "AI-assisted static recompilation of the Switch 1.8.2 release. Alpha with the opening and Great Plateau tested; later areas are untested. Requires extracted base-game and update files. Linux builds are untested with this game; DLC is unsupported.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
