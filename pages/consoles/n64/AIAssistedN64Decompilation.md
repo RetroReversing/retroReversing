@@ -16,14 +16,76 @@ breadcrumbs:
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
 updatedAt: '2026-10-23'
-excerpt: 'Start AI assisted Nintendo 64 decompilation with one function, a compiler diff, practical prompts, and a verified local build.'
+excerpt: 'Get Codex or Claude Code, supply your N64 ROM, and copy one prompt to start with our decompdecomp fork. See the measured Turok result and timing.'
 ---
 
 # AI Assisted N64 Decompilation Tutorial
-Start with **one function and a compiler comparison**. An AI assistant can propose C, explain MIPS instructions, and help investigate a mismatch. Your first useful result is a candidate you have compiled and compared with the original function.
+**Get Codex or Claude Code, supply your N64 ROM, and paste the prompt below.** The agent can set up our decompdecomp fork and start checking recovered C against your game. You can start before learning the compiler and disassembly tools; the later sections explain how to judge the results.
 
-This tutorial assumes basic C knowledge. You can try the browser exercise immediately, then set up a local project when you want to integrate a match. The examples come from projects in our [Nintendo 64 catalogue](/n64), especially Body Harvest and the two Snowboard Kids decompilations.
+## Quick Start with Your ROM and One Prompt
+Use an agent that can run commands and read files on your computer. Follow these steps:
+* **Get a coding agent** - Install and sign in to [Codex](https://learn.chatgpt.com/docs/quickstart), or open the **Code** tab in the [Claude desktop app](https://code.claude.com/docs/en/desktop). Choose a local session and a new working folder [^17] [^18].
+* **Supply your ROM** - Attach your own `.z64`, `.n64`, or `.v64` file to the chat. If the client will not accept that file type, paste the ROM's full local path and give the agent access to its folder. A path on your computer needs a local agent session.
+* **Paste the starter prompt** - Use **Copy starter prompt** below, paste it into the agent, and send it with the ROM or path. You do not need to clone or install decompdecomp by hand first.
+* **Answer required setup questions** - The agent may need permission to install a dependency or your explicit acceptance of a proprietary compiler license. Keep the first target small: one C function that passes the real compiler comparison.
 
+This is the complete starter prompt; it has no placeholders to fill in:
+
+{% capture n64_starter_prompt %}
+Help me start a matching decompilation of the N64 ROM I am supplying.
+Use the attached ROM, or the local ROM path in my message.
+If you cannot access it, ask me for its full local path.
+
+Use RetroReversing's decompdecomp fork:
+https://github.com/RetroReversing/decompdecomp
+Check out this tested revision, which includes RNC-packed code support:
+af853d2f0da41ded2a9c9436ab2eb460f915b25b
+Read its README and AGENTS.md, detect my operating system, and set up
+its supported tools in a new dedicated workspace. Preserve my input
+ROM and any existing decompdecomp projects. Ask for my acceptance
+before installing a proprietary compiler; do not accept for me.
+
+Start from my ROM. Do not consult existing source for this game,
+other game decompilation projects, leaked code, or source-derived maps.
+Tool code and generic hardware/format documentation are allowed.
+Keep my ROM, extracted binaries, disassembly, and recovered C local.
+
+Identify byte order, region, revision, and hashes, then import the ROM.
+Check that discovery reaches the main program, not just a small loader.
+If code is compressed or import fails, investigate and explain the
+obstacle. Treat compiler detection as a hypothesis and compare settings.
+
+Run the automatic draft/matching pass, then investigate a small function.
+Keep the original targets and judge fixed. Accept C only after compiling
+and linking it to the exact target bytes. Save the best attempts and an
+audit log so we can continue. Export a checkpoint and verify the full
+original ROM where supported; distinguish it from an analysis image.
+
+Report matched C bytes and functions, detected-code coverage, remaining
+assembly, actual build results, elapsed time, and the next obstacle.
+Do not call drafts or an assembly-backed rebuild a full decompilation.
+{% endcapture %}
+{% include copy-prompt.html id="n64-starter-prompt" text=n64_starter_prompt %}
+
+The prompt asks the agent to do the setup and first matching attempts. A successful first session can also uncover an unsupported format or compiler; record that obstacle rather than treating a plausible C draft as finished work. For a browser-only exercise without a ROM, use [the one-function exercise below](#try-one-function-before-installing-anything).
+
+---
+## What Our Turok Run Actually Took
+We used **GPT-6.1 Sol in Codex**, alongside decompdecomp, m2c, compiler comparisons, and decomp-permuter. On **23 October 2026**, our European revision 0 Turok run reached **419 exactly matching C functions and 26,112 bytes**, or **4.2% of the 626,012 bytes identified as candidate code**. This percentage does not measure the whole game.
+
+Our recorded elapsed times were:
+
+Checkpoint | Local time (BST) | Elapsed from first import
+---|---|---
+First recorded ROM import | 17:31:41 | Starting point
+419 verified C matches reached | 18:02:03 | About 30 minutes
+Full original-cartridge rebuild verified with those 419 C selections | 18:10:17 | About 39 minutes
+
+These are wall-clock observations from our import/match records and build log, not a controlled model benchmark. The session included compressed-code investigation, RNC tool fixes, compiler comparisons, manual refinement, and build verification. The earlier macOS port and tools installed before the first import are outside this timing. Much of the routine drafting and matching was done by the local tools; GPT-6.1 Sol helped direct and repair the workflow.
+
+**Do not extrapolate 30 minutes to a completion date.** The remaining 1,950 candidates include harder functions, and code still needs boundary and type review. Most of the verified rebuild still uses assembly. Another game, machine, compiler setup, or agent model may behave differently; we have not measured this run with Claude Code. See [the detailed Turok case study](#turok-europe-a-rom-only-case-study-in-progress) and [source checkpoint](https://github.com/RetroReversing/turok-decomp) for the exact input, compiler settings, and remaining work.
+
+---
 ## Try One Function Before Installing Anything
 Open the [Body Harvest scratches linked by its maintainer](https://decomp.me/preset/211), or an existing Nintendo 64 scratch on [decomp.me](https://decomp.me). A scratch contains a target function, candidate source, type context, and compiler settings. Editing and saving someone else's scratch creates a fork [^1] [^2].
 
@@ -413,3 +475,6 @@ For a game without an existing project, first establish a code map, supported RO
 [^15]: [decomp.wtf README](https://github.com/i12bp8/decomp.wtf), discontinuation notice, final version, platform support, Demo Quest 64, agent connection, and export behavior; checked 23 October 2026.
 
 [^16]: [RetroReversing decompdecomp README](https://github.com/RetroReversing/decompdecomp), macOS source installation, in-app agents, migration from the archived commands, and project export.
+
+[^17]: [Official Codex quickstart](https://learn.chatgpt.com/docs/quickstart), desktop setup, selecting Codex, signing in, and choosing a local project folder; checked 23 October 2026.
+[^18]: [Claude Code desktop documentation](https://code.claude.com/docs/en/desktop), the Code tab, local sessions, file references, and attachments; checked 23 October 2026.

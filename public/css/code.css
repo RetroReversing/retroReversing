@@ -113,3 +113,25 @@
         display: none;
     }
 }
+
+/* Starter prompts remain readable and wrap to the article width on small screens. */
+.post .rr-copy-prompt pre {
+    padding: 1rem;
+    color: var(--rr-color-code-text);
+    background: var(--rr-color-code-bg);
+    border: 1px solid var(--rr-color-code-border);
+}
+
+.post .rr-copy-prompt pre > code {
+    width: auto;
+    min-width: 0;
+    color: inherit;
+    background: transparent;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.post .rr-copy-prompt-status {
+    display: block;
+    margin: 0.5rem 0;
+}
