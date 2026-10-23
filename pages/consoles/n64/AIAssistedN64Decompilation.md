@@ -103,7 +103,7 @@ The project documents N64 compiler matching and rebuildable exports. Its export 
 
 ---
 ## Start a ROM-Only Project with decompdecomp
-For a game without a prepared decompilation project, our [decompdecomp fork](https://github.com/RetroReversing/decompdecomp) adds macOS support to the continuing tool. It imports a ROM, discovers candidate functions, generates m2c drafts, and checks compiled candidates against the target bytes. The older decomp.wtf commands above belong to the archived application; use the current fork's instructions for a new project.
+For a game without a prepared decompilation project, our [decompdecomp fork](https://github.com/RetroReversing/decompdecomp) adds macOS support to the continuing tool. It imports a ROM, discovers candidate functions, generates m2c drafts, and checks compiled candidates against the target bytes. The older decomp.wtf commands above belong to the archived application; use the current fork's instructions for a new project [^16].
 
 On a Mac, install from the fork after installing Git and Apple's command line tools:
 
@@ -114,6 +114,12 @@ bash site/public/install.sh
 ```
 
 The installer creates `~/Applications/decompdecomp.app`. Open it, complete **Compilers & tools**, and import your own ROM. On Apple Silicon, the period KMC compiler requires Rosetta; IDO compilers require separate explicit license acceptance. Start with one project and keep its ROM, drafts, disassembly, and recovered code in a private working directory.
+
+For the first working session, use the project's controls:
+* **Run autopilot** - Let the free machine-draft pass try the discovered functions before starting a helper. Open one result and compare the draft, compiler output, and target.
+* **Save the constraints** - Put the ROM-only prompt below into **Instructions for agents** and select **Save instructions** before starting an AI helper.
+* **Start one helper** - Use **Start agents** in the app and choose a supported local CLI or API model. Current decompdecomp runs helpers inside the app; it removed the archived `decomp connect` and `decomp mcp` commands.
+* **Export a checkpoint** - Use **Export** in the project header. Check how many functions were selected as C, whether any fell back to assembly, and what image the build actually compared.
 
 Before asking an agent to recover C, record these facts:
 * **Identify the bytes** - Read the ROM magic, region, revision, size, and normalized hash. A filename extension does not establish byte order.
@@ -168,11 +174,19 @@ Feeding that verified output into the importer's compressed-code analysis path p
 
 The bootstrap initially suggested KMC GCC, while the expanded main program suggested IDO. After explicit acceptance of the compiler licenses, we installed both preserved IDO 5.3 and 7.1 toolchains. Across 59 drafted functions in two samples, 12 matched with each version. Both versions produced the same match counts, so IDO 5.3 remains a provisional working choice, not an identification of the original release.
 
-The first complete automatic draft pass and a byte-pointer refinement pass reached **409 exact function matches, covering 24,840 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17% by function count but only 4% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
+The IDO 5.3 attempts used these working flags from the tool's compiler registry:
+
+```text
+-O2 -mips2 -G 0 -non_shared -Xcpluscomm -Wab,-r4300_mul
+```
+
+Keep those settings in your log when comparing a candidate. They are measured working settings for this experiment; they do not prove that every function or library in the ROM used that configuration.
+
+The automatic draft pass, byte-pointer refinement, manual recovery, and bounded mutation pass reached **419 exact function matches, covering 26,112 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17.4% by function count but only 4.2% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
 
 A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
 
-**Reproduction status:** a fresh import with the new RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and filters decoded assets out of code discovery. The implementation and tests are in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2). While that change is under review, use its branch for this case study:
+**Reproduction status:** a fresh import with the new RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and uses instruction patterns to reject blocks that do not look like code. The implementation and tests are in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2), tested at commit `af853d2`. While that change is under review, use its branch for this case study:
 
 ```sh
 git fetch origin codex/rom-import-workflow
@@ -182,7 +196,11 @@ bash site/public/install.sh
 
 After importing, select IDO 5.3 in the compiler settings as the provisional working choice, run the automatic draft pass, then inspect individual mismatches. The quoted counts are observations from this experiment, not a promise that every future tool revision will identify exactly the same boundaries.
 
-**Build status:** extracting the program, generating drafts, and rebuilding an expanded analysis image do not establish that recovered C has rebuilt the original cartridge. A final matching build must select the recovered C, reconstruct the compressed main program, and compare the complete normalized ROM against its fixed original hash. That proof is still outstanding.
+**Verified build:** the final standalone export selected **419 C functions out of 2,405 exported functions**, with the remaining code kept as assembly. After fixing generated linker names and references across split assembly files, it rebuilt the expanded image, reconstructed the RNC container from linked output, and reproduced the complete original **8,388,608-byte cartridge** byte for byte. Its SHA-1 was the fixed normalized hash above. The extra exported startup function explains why this denominator differs from the discovery database.
+
+This proves a partial matching build, not a complete decompilation. The packed reconstruction uses the original stream's coding decisions and replaces literal spans with bytes from the newly linked program; it decodes that result again and rejects incompatible back-references. A general compressor would be needed for arbitrary edits. Assembly and asset fallbacks still supply most of the game.
+
+A bounded three-minute mutation pass tested 16,208 candidate rewrites, improving 13 functions and finding 10 further exact matches. Every accepted rewrite went through the same byte judge. Register allocation and instruction ordering can depend on C expression shape, so a semantic explanation is useful, but the compiler comparison remains the acceptance test.
 
 ---
 ## Know What You Are Trying to Recover
@@ -391,3 +409,5 @@ For a game without an existing project, first establish a code map, supported RO
 [^13]: [REA README](https://github.com/isTurn/REA) and [installation guide](https://github.com/isTurn/REA/blob/main/docs/installation.md), agent registration and native analysis providers.
 [^14]: [REA raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md), supported processor families, little-endian languages, and excluded big-endian targets.
 [^15]: [decomp.wtf README](https://github.com/i12bp8/decomp.wtf), discontinuation notice, final version, platform support, Demo Quest 64, agent connection, and export behavior; checked 23 October 2026.
+
+[^16]: [RetroReversing decompdecomp README](https://github.com/RetroReversing/decompdecomp), macOS source installation, in-app agents, migration from the archived commands, and project export.
