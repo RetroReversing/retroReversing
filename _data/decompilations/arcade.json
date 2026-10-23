@@ -54,7 +54,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 158
+        "github_stars": 159
       },
       "ai_used": null
     },
@@ -220,8 +220,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:16:56Z",
-        "last_commit_url": "https://github.com/naari3/mkgp2-decomp/commit/4dc7caaa40422ba62c34a70f143c7b9f08dacbc0",
+        "last_commit_at": "2026-10-23T08:31:07Z",
+        "last_commit_url": "https://github.com/naari3/mkgp2-decomp/commit/a73126b8b3e3894b26c85693eabe4f34ba194c7b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -320,7 +320,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 43
+        "github_stars": 44
       },
       "ai_used": null
     },
@@ -377,7 +377,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 245
+        "github_stars": 246
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 56
+        "github_stars": 58
       },
       "ai_used": null
     },
@@ -472,7 +472,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 62
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -491,7 +491,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 36
       },
       "ai_used": null
     },

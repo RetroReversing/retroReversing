@@ -16,7 +16,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1148
+        "github_stars": 1154
       },
       "ai_used": null
     },
@@ -54,7 +54,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 835
+        "github_stars": 839
       },
       "ai_used": null
     },
@@ -68,12 +68,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-22T04:17:32Z",
-        "last_commit_url": "https://github.com/psxrestore/Condemned2Recomp/commit/aa7aac332650901b8a08fbf8fe23f0e39d73b6de",
+        "last_commit_at": "2026-10-23T06:00:51Z",
+        "last_commit_url": "https://github.com/psxrestore/Condemned2Recomp/commit/819df410d320765a5bb434958aa034bf095fa503",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 242
+        "github_stars": 245
       },
       "ai_used": null
     },
@@ -130,7 +130,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 158
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 64
+        "github_stars": 65
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 52
+        "github_stars": 54
       },
       "ai_used": null
     },
@@ -187,7 +187,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 191
+        "github_stars": 195
       },
       "ai_used": null
     },
@@ -225,7 +225,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 697
+        "github_stars": 698
       },
       "ai_used": null
     },
@@ -244,7 +244,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 5245
+        "github_stars": 5253
       },
       "ai_used": null
     },
@@ -263,7 +263,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 422
+        "github_stars": 425
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 224
+        "github_stars": 225
       },
       "ai_used": null
     },
@@ -320,7 +320,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 42
+        "github_stars": 43
       },
       "ai_used": null
     },
@@ -339,7 +339,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 95
+        "github_stars": 96
       },
       "ai_used": null
     },
@@ -353,12 +353,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T01:04:05Z",
-        "last_commit_url": "https://github.com/samuelit0davila/fifa-street-pc-port/commit/ca03ea9b2951f00760b6b4bfcf588b1af3e9bdde",
+        "last_commit_at": "2026-10-23T01:14:21Z",
+        "last_commit_url": "https://github.com/samuelit0davila/fifa-street-pc-port/commit/a4be1d0a22c330d64d540cbf6681edbf6a8d4f7b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 400
+        "github_stars": 404
       },
       "ai_used": null
     },
@@ -377,7 +377,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 547
+        "github_stars": 549
       },
       "ai_used": null
     },
@@ -391,12 +391,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T04:08:23Z",
-        "last_commit_url": "https://github.com/masterspike52/reNut/commit/624f040af2ecc2dbb1be07c9f5cd20ec78cf9663",
+        "last_commit_at": "2026-10-22T09:33:04Z",
+        "last_commit_url": "https://github.com/masterspike52/reNut/commit/99cb2f4e4ba7fe147d3ed967baaacbe252319dd8",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 163
+        "github_stars": 170
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 34
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -448,8 +448,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T01:28:57Z",
-        "last_commit_url": "https://github.com/rjkiv/dc3-decomp/commit/8e115fd21cb7a5b63c7017a1fcaed86224abce6f",
+        "last_commit_at": "2026-10-23T06:03:49Z",
+        "last_commit_url": "https://github.com/rjkiv/dc3-decomp/commit/748b47eaad4df2d9075ee7554bf40bd6cde3b2f6",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -472,7 +472,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -510,7 +510,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 56
+        "github_stars": 57
       },
       "ai_used": null
     },
@@ -567,7 +567,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 169
+        "github_stars": 172
       },
       "ai_used": null
     },
@@ -605,7 +605,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 205
+        "github_stars": 207
       },
       "ai_used": null
     },
@@ -662,7 +662,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 370
+        "github_stars": 373
       },
       "ai_used": null
     },
@@ -676,12 +676,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T05:40:19Z",
-        "last_commit_url": "https://github.com/freefrank/LostOdysseyRecomp/commit/c35c41ac1ba125ee4ffa751d72669a899cfc264b",
+        "last_commit_at": "2026-10-23T01:06:45Z",
+        "last_commit_url": "https://github.com/freefrank/LostOdysseyRecomp/commit/2128383494a53071db658cbf550778beedc6240d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 775
+        "github_stars": 787
       },
       "ai_used": null
     },
@@ -695,12 +695,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T23:30:45Z",
-        "last_commit_url": "https://github.com/PaulCombal/mw2-recompiled/commit/04a2555bd4c4f5c96f686fa4209f73ed97e4cc03",
+        "last_commit_at": "2026-10-22T17:22:48Z",
+        "last_commit_url": "https://github.com/PaulCombal/mw2-recompiled/commit/d52863279a783977c0bb776232a85637f0449ee7",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 115
+        "github_stars": 121
       },
       "ai_used": null
     },
@@ -809,12 +809,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T05:37:07Z",
-        "last_commit_url": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/commit/64a81500cfebcbfa484a27ef00d593f0565fe05b",
+        "last_commit_at": "2026-10-23T08:37:44Z",
+        "last_commit_url": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation/commit/d7e78e3b23d6c7584fa997262d96114ae09d65a3",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 100
+        "github_stars": 101
       },
       "ai_used": null
     },
@@ -852,7 +852,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 63
+        "github_stars": 65
       },
       "ai_used": null
     },
@@ -966,7 +966,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -999,8 +999,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:02:03Z",
-        "last_commit_url": "https://github.com/BurnoutDecomp/b5-decomp/commit/5093cdb07f74fe0cfa6a6a32283fb6195be790ab",
+        "last_commit_at": "2026-10-22T21:11:38Z",
+        "last_commit_url": "https://github.com/BurnoutDecomp/b5-decomp/commit/91a0ed564f9c9e3dec915bfb416c0467650084ef",
         "default_branch": "dev",
         "archived": false,
         "status": "Active",
@@ -1023,7 +1023,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 136
+        "github_stars": 142
       },
       "ai_used": null
     },
@@ -1042,7 +1042,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 315
+        "github_stars": 320
       },
       "ai_used": null
     },
@@ -1080,7 +1080,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 286
+        "github_stars": 288
       },
       "ai_used": null
     },
@@ -1118,7 +1118,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -1137,7 +1137,8 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 70
+        "github_stars": 70,
+        "check_error": "GitHub GraphQL repository check failed"
       },
       "ai_used": null
     },
@@ -1156,7 +1157,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 47
+        "github_stars": 49
       },
       "ai_used": null
     },
@@ -1175,7 +1176,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 59
+        "github_stars": 60
       },
       "ai_used": null
     },
@@ -1189,12 +1190,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:13:10Z",
-        "last_commit_url": "https://github.com/Maxilure/MindOver-Recomp/commit/06cea7dc88f3a6d14d6f3529f22ccf83453a51aa",
+        "last_commit_at": "2026-10-23T04:03:15Z",
+        "last_commit_url": "https://github.com/Maxilure/MindOver-Recomp/commit/9cb53c880d3d84c838f59d75394a509974e44dc4",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 27
+        "github_stars": 29
       },
       "ai_used": null
     },
@@ -1213,7 +1214,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 648
+        "github_stars": 654
       },
       "ai_used": null
     },
@@ -1346,7 +1347,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 160
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -1365,7 +1366,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 21
       },
       "ai_used": null
     },
@@ -1384,7 +1385,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 196
+        "github_stars": 199
       },
       "ai_used": null
     },
@@ -1403,7 +1404,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 95
+        "github_stars": 97
       },
       "ai_used": null
     },
@@ -1441,7 +1442,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 87
+        "github_stars": 88
       },
       "ai_used": null
     },
@@ -1479,7 +1480,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 519
+        "github_stars": 522
       },
       "ai_used": null
     },
@@ -1498,7 +1499,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 392
+        "github_stars": 393
       },
       "ai_used": null
     },
@@ -1536,7 +1537,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 81
+        "github_stars": 82
       },
       "ai_used": null
     },
@@ -1574,7 +1575,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 860
+        "github_stars": 869
       },
       "ai_used": null
     },
@@ -1626,12 +1627,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:03:47Z",
-        "last_commit_url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/commit/04b7d31569b632cbad134c8f05451194b9c6c27f",
+        "last_commit_at": "2026-10-23T06:10:46Z",
+        "last_commit_url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/commit/1ba3436a2f956f29fca569705cc47c9de65bc282",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 259
+        "github_stars": 265
       },
       "ai_used": null
     },
@@ -1650,7 +1651,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 99
+        "github_stars": 104
       },
       "ai_used": null
     },
@@ -1688,7 +1689,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 114
+        "github_stars": 118
       },
       "ai_used": null
     },
@@ -1726,7 +1727,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 97
+        "github_stars": 100
       },
       "ai_used": null
     },
@@ -1840,7 +1841,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 49
+        "github_stars": 50
       },
       "ai_used": null
     },
@@ -2011,7 +2012,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 44
+        "github_stars": 45
       },
       "ai_used": null
     },
@@ -2049,7 +2050,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 28
+        "github_stars": 30
       },
       "ai_used": null
     },
@@ -2068,7 +2069,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 40
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -2087,7 +2088,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 207
+        "github_stars": 208
       },
       "ai_used": null
     },
@@ -2106,7 +2107,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 225
+        "github_stars": 228
       },
       "ai_used": null
     },
@@ -2163,7 +2164,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 33
+        "github_stars": 34
       },
       "ai_used": null
     },
@@ -2291,12 +2292,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T12:40:30Z",
-        "last_commit_url": "https://github.com/jorjbarbosa/naruto-rise-recomp/commit/6ca0708587cee547b553519f4dc24a0354d134e2",
+        "last_commit_at": "2026-10-23T01:28:52Z",
+        "last_commit_url": "https://github.com/jorjbarbosa/naruto-rise-recomp/commit/6e25a099af55580be6f639adf9ccbccb76d36162",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 120
+        "github_stars": 125
       },
       "ai_used": null
     },
@@ -2334,7 +2335,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 86
+        "github_stars": 88
       },
       "ai_used": null
     },
@@ -2372,7 +2373,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 160
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -2391,7 +2392,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 246
+        "github_stars": 247
       },
       "ai_used": null
     },
@@ -2410,7 +2411,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 6
       },
       "ai_used": null
     },
@@ -2486,7 +2487,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 46
+        "github_stars": 47
       },
       "ai_used": null
     },
@@ -2581,7 +2582,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 166
+        "github_stars": 169
       },
       "ai_used": null
     },
@@ -2614,8 +2615,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:14:05Z",
-        "last_commit_url": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/commit/a676564359d21afe6adab01a2eba5b0474f8c5bc",
+        "last_commit_at": "2026-10-23T02:57:53Z",
+        "last_commit_url": "https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/commit/32430a6f8e3e9c54d8d5d76b51b4f778b0a4d82c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2638,7 +2639,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 325
+        "github_stars": 328
       },
       "ai_used": null
     },
@@ -2695,7 +2696,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 18
+        "github_stars": 19
       },
       "ai_used": null
     },
@@ -2733,7 +2734,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 72
+        "github_stars": 74
       },
       "ai_used": null
     },
@@ -2752,7 +2753,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1705
+        "github_stars": 1709
       },
       "ai_used": null
     },
@@ -2823,12 +2824,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:08:03Z",
-        "last_commit_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/commit/b856eeb1937da4968b5296f422ffb55009b9f601",
+        "last_commit_at": "2026-10-23T07:12:27Z",
+        "last_commit_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/commit/1d126fad0b0b83c0edf245b6d71e044203302ca0",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 97
+        "github_stars": 98
       },
       "ai_used": null
     },
@@ -2904,7 +2905,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 6
+        "github_stars": 7
       },
       "ai_used": null
     },
@@ -2923,7 +2924,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 452
+        "github_stars": 455
       },
       "ai_used": null
     },
@@ -2942,7 +2943,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 46
+        "github_stars": 47
       },
       "ai_used": null
     },
@@ -2980,7 +2981,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 47
+        "github_stars": 51
       },
       "ai_used": null
     },
@@ -3018,7 +3019,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 135
+        "github_stars": 138
       },
       "ai_used": null
     },
@@ -3056,7 +3057,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 44
+        "github_stars": 46
       },
       "ai_used": null
     },
@@ -3113,7 +3114,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 88
+        "github_stars": 90
       },
       "ai_used": null
     },
@@ -3132,7 +3133,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 45
+        "github_stars": 47
       },
       "ai_used": null
     },
@@ -3151,7 +3152,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 44
+        "github_stars": 45
       },
       "ai_used": null
     },
@@ -3170,7 +3171,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 105
+        "github_stars": 106
       },
       "ai_used": null
     },
@@ -3208,7 +3209,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 155
+        "github_stars": 156
       },
       "ai_used": null
     },
@@ -3222,8 +3223,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:07:20Z",
-        "last_commit_url": "https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP/commit/edaa248f1450d80b6c0a454b277ae55ee17c8459",
+        "last_commit_at": "2026-10-23T00:40:44Z",
+        "last_commit_url": "https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP/commit/cf9b1b3e40320458b400c43d8c58bc05654ec57f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -3241,8 +3242,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:07:20Z",
-        "last_commit_url": "https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP/commit/31a4c0b47cd9e409911abb8f01bf28972de7fbca",
+        "last_commit_at": "2026-10-23T01:37:17Z",
+        "last_commit_url": "https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP/commit/8b5d878bca261e71b9fde0d131cf70c931988dd3",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -3284,7 +3285,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 120
+        "github_stars": 123
       },
       "ai_used": null
     },

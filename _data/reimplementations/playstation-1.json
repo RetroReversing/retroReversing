@@ -16,7 +16,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 858
+        "github_stars": 861
       },
       "ai_used": null
     },
@@ -30,8 +30,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T07:15:57Z",
-        "last_commit_url": "https://github.com/LostArtefacts/TRX/commit/c3b9439f659e78eb3c5ab73621a47a9de7afba0a",
+        "last_commit_at": "2026-10-23T07:36:55Z",
+        "last_commit_url": "https://github.com/LostArtefacts/TRX/commit/dce1113262e1df4e55242fa58ced58de778b528c",
         "archived": false,
         "default_branch": "develop",
         "status": "Active",
@@ -73,7 +73,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 5133
+        "github_stars": 5134
       },
       "ai_used": null
     },
@@ -125,8 +125,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T01:39:25Z",
-        "last_commit_url": "https://github.com/AndrewAltimit/legend-of-legaia-re/commit/5ec8568f51dfc08490fbd628e146a887979d392a",
+        "last_commit_at": "2026-10-23T00:12:53Z",
+        "last_commit_url": "https://github.com/AndrewAltimit/legend-of-legaia-re/commit/abc6d76cf46dc8afa67c8b7f44a8d1af0287c827",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
