@@ -153,7 +153,60 @@ The revised starter prompt limits the first session to 30 minutes, uses one agen
 
 We are gathering these runs for a comparison of **models, prices, usage limits, and verified results**. This K2.8 Preview High attempt consumed the available five-hour allowance without producing a verified C match. That is a poor practical result for this session, even though an importer defect blocked the matching stage. The subscription price was $20 per month; that is not a $20 charge for this individual run. The export does not establish a per-run dollar cost or how cached tokens count toward the allowance.
 
-The runs used different starting conditions: Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with the verified importer, record setup and matching time separately, and retain this failed-run result alongside the retry. Record the exact model setting, plan or API price, allowance available at the start, and verified matching bytes for each future run. A **GPT-6.1 Sol run on V-Rally** is also underway for comparison; its results are pending. Record whether it uses the original or revised prompt and whether it starts before or after the importer repair, since those conditions affect the comparison. These observations are preliminary data; a broader ranking needs more runs.
+The runs used different starting conditions: Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with the verified importer, record setup and matching time separately, and retain this failed-run result alongside the retry. Record the exact model setting, plan or API price, allowance available at the start, and verified matching bytes for each future run. The [completed Sol run through Abacus.ai](#what-sol-through-abacusai-achieved-on-v-rally) provides another fresh-start observation on the same ROM and tool revision. Record prompt and importer differences alongside future results, since those conditions affect the comparison. These observations are preliminary data; a broader ranking needs more runs.
+
+---
+## What Sol Through Abacus.ai Achieved on V-Rally
+A second fresh-start V-Rally session used **GPT-6.1 Sol through Abacus.ai** on 23 October 2026. The app log identifies `OPENAI_GPT6_1_SOL`; the saved local records do not establish its reasoning-effort setting. It used the same European revision 0 ROM and historical tool commit `af853d2` as the Kimi attempt, and encountered the same importer defect.
+
+**The result was 603 matching C functions covering 34,164 bytes**, or **6.0363% of the 565,980 detected candidate-code bytes**. The full 12,582,912-byte normalized ROM rebuilt byte for byte, retaining all 603 C selections without rejected selections falling back to assembly. Pair-swapping the output back also reproduced the supplied original file exactly. Most code remains assembly, and these percentages do not measure complete game recovery.
+
+We checked the saved checkpoint and output files independently: SQLite integrity passed, all 603 selected C files existed, their matched target spans agreed with the final ROM, and the target aggregate and recorded judge-file hashes were unchanged. The tool checkout was clean. This review compared the saved artifacts; it did not recompile every C file again. The evidence available locally was project metadata, app logs, scripts, audit records, and build artifacts, rather than a complete verbatim chat export.
+
+### How the Workflow Reached That Result
+Sol's session repaired the generated layout through a local adapter before freezing the matching targets. It merged discovered ranges sharing the same ROM-to-VRAM mapping into main subsegments while preserving main/BSS boundaries. The failed import and before/after configuration were retained. Although the tool checkout stayed clean, this adapter changed import behavior; it was not an untouched stock import. This repair differs from the generic fork fix linked above.
+
+The accepted C came from **local m2c drafting, compilation, exact linked-byte judging, and engine propagation**. The automatic pass processed 2,101 open candidates in **165.527 seconds**, about **2 minutes 46 seconds**. Its own draft counter reported 544 matches; the project total, including propagated matches, was 603. Describe this as a Sol-directed workflow yielding 603 verified matches, rather than 603 functions manually written by Sol.
+
+A later investigation of the 28-byte `func_80012168` added no matches. Six compilable KMC flag configurations retained a score of 5. The permuter rejected the baseline with a parser error and generated no variants. The agent correctly kept that near match separate from the accepted C count. The KMC-compatible compiler remains a working hypothesis; no proprietary alternative was installed for this run.
+
+The supported GNU linker eventually completed. An alternative `ld.lld` diagnostic failed on symbol metadata and was not used for the successful build. The session's notes also withdrew unsupported helper claims about compressed code and linker speedups. Saved byte comparisons and measured results provide stronger evidence than those initial diagnoses.
+
+The recorded timeline, in BST on 23 October 2026, was:
+
+Stage | Time or duration
+---|---
+Session started | 21:44:17
+First import failed | 22:01:36
+Repaired import completed | 22:13:05
+Automatic matching | 22:21:53 to 22:24:39
+Export, compile, link, and comparison | About 18 minutes 4 seconds
+Final verification completed | 22:45:53
+Total wall time through verification | About 61 minutes 36 seconds
+
+Roughly 37.5 minutes elapsed before automatic matching began, so the successful outcome still includes considerable orchestration overhead. Total wall time includes setup, investigation, build time, waiting, and a user continuation; it is not uninterrupted model generation.
+
+---
+### Price, Allowance, and the Preliminary Comparison
+The participant reported an **Abacus.ai subscription costing $10 per month**, with a **20,000-token monthly allocation**, a **3,000-token cap for premium models such as Sol**, and approximately **2,000 tokens used by this run**. These are the participant's platform-reported units and price for this experiment. They are not raw model input/output token counts or a verified public price list.
+
+That usage equals **10% of the stated monthly allocation** and approximately **66.7% of the premium cap**. Other usage would affect the remaining balance. Local project metadata recorded `creditsUsed: 0`, which we did not treat as proof of a free run because the participant observed usage. A subscription price does not establish a per-run dollar charge, and Abacus's units cannot be directly compared with Kimi's input/output/cache token counts.
+
+The fresh-start observations compare as follows:
+
+Measurement | Kimi Code | Sol through Abacus.ai
+---|---|---
+Model | K2.8 Preview High | GPT-6.1 Sol, effort unrecorded
+Participant's monthly subscription | Plus, $20 | $10
+Reported allowance consumed | Full five-hour allowance, 100% available at start | About 2,000 platform units; 3,000 premium cap
+Wall time to recorded outcome | About 18 minutes 16 seconds | About 61 minutes 36 seconds
+Initial importer defect | Encountered; remained blocked | Encountered; worked around
+Verified matching C | None observed | 603 functions, 34,164 bytes
+Full original-ROM rebuild | None | Byte-identical
+
+**Sol through Abacus.ai delivered the more useful end-to-end result in these sessions.** It overcame the importer blocker and produced a verified checkpoint within the reported premium allowance. The longer wall-clock run, continuation, differing platform quotas, and shared automatic tools prevent a strict equal-budget model ranking or a precise cost-per-token comparison.
+
+For a stronger matching comparison, run both models from the same validated import with zero accepted C, the same prompt, compiler/tool revisions, and matching window. Keep setup success and cost as separate outcomes, including the failed Kimi attempt. Review the seven uncovered frame patterns, 29 uncovered returns, and extra exported assembly entry before treating the candidate-code denominator as complete executable coverage.
 
 ---
 ## Try One Function Before Installing Anything
