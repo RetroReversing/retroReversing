@@ -55,6 +55,53 @@ Current compiler error or diff: <actual output>
 Your stopping point for this first exercise is a saved candidate, its actual comparison, and a short explanation of the remaining difference. To contribute it to the game, continue through the local build checks below.
 
 ---
+## Where REA and decomp.wtf Fit
+[REA](https://github.com/isTurn/REA) connects a coding agent to analysis tools. [decomp.wtf](https://github.com/i12bp8/decomp.wtf) provides a workspace for compiler-backed matching. Choose according to the result you need:
+
+Starting goal | Tool or workflow | What establishes success
+---|---|---
+Try a function with minimal setup | decomp.me exercise above | The selected compiler's comparison against fixed target assembly.
+Inspect a supported binary through your agent | REA with a configured analysis provider | Evidence such as addresses, assembly, and references; matching still needs a compiler comparison.
+Try a local matching workspace with a supplied N64 demo | decomp.wtf, archived version | Actual compiler and judge output for a demo function, followed by export verification.
+Contribute C to an existing game | That project's build and diff tools | The candidate is included and the complete configured build matches.
+
+### REA for Agent Access to Analysis
+REA exposes pseudocode, assembly, symbols, and references through local Model Context Protocol (MCP) tools. Native analysis uses a configured Hopper, Ghidra, or IDA installation. Check the README's Node.js requirement, then run:
+
+```bash
+npx rea-agents@latest setup
+```
+
+Review the proposed agent registrations and provider setup, then restart the agent as instructed. Its [installation guide](https://github.com/isTurn/REA/blob/main/docs/installation.md) explains host and provider requirements [^13].
+
+**Check the N64 input path first.** REA's [raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md) lists x86, x86-64, ARM, and ARM64 with little-endian Ghidra languages. It explicitly excludes big-endian raw targets and does not list MIPS. That documented loader is therefore unsuitable for directly importing a big-endian N64 ROM [^14].
+
+Ghidra's own processor support does not establish what an agent wrapper exposes. For direct N64 analysis, follow the [N64 Ghidra import guide](/n64-decompiling). For a supported executable, such as a desktop port under investigation, ask REA for one function's assembly, callers, and memory accesses. Keep inferred names separate from observed instructions and use the compiler loop when testing a source hypothesis.
+
+---
+### decomp.wtf and the Supplied N64 Demo
+The author discontinued decomp.wtf and archived its repository on **15 October 2026**. Its README identifies **0.10.6** as the final version. Treat it as an archived experiment with no promised fixes [^15].
+
+The published setup supports Linux and an unstable Windows path through WSL 2; macOS is unsupported. Follow the [archived installation instructions](https://github.com/i12bp8/decomp.wtf#install). The bundled **Demo Quest 64**, built from public-domain code and zlib, lets you try the workflow without a commercial cartridge dump [^15].
+
+After installation, connect your agent with:
+
+```bash
+decomp connect
+```
+
+Start with this bounded request:
+
+```text
+Open the bundled Demo Quest 64 project. Work on one function only.
+Show its target, candidate C, compiler settings, and actual judge result.
+Keep the target and verification rules fixed. Stop after a verified
+score of zero or report the remaining mismatch.
+```
+
+The project documents N64 compiler matching and rebuildable exports. Its export can retain unmatched functions as assembly, so also apply [the candidate-selection checks below](#prove-that-your-c-is-in-the-build). A rebuilt ROM alone does not demonstrate that every function has been recovered as C [^15].
+
+---
 ## Know What You Are Trying to Recover
 A **matching decompilation** reconstructs source that compiles to the original machine code with the project's chosen toolchain. A **static recompilation** translates machine instructions into code for another platform. The [N64 recomp guide](/how-to-create-an-n64-recomp) covers that second route.
 
@@ -257,3 +304,7 @@ For a game without an existing project, first establish a code map, supported RO
 [^10]: [Jet Force Gemini Recomp README](https://github.com/TK22-26/JetForceGemini-Recomp), AI disclosure and validation scope.
 [^11]: [Pilotwings 64 recomp README](https://github.com/danielgomesvieira2000/pilotwings-64-recomp), AI disclosure and credited foundations.
 [^12]: [Ogre Battle 64 recomp README](https://github.com/lfarroco/ogre-battle-64-recomp), AI disclosure, banks, and RSP build pipeline.
+
+[^13]: [REA README](https://github.com/isTurn/REA) and [installation guide](https://github.com/isTurn/REA/blob/main/docs/installation.md), agent registration and native analysis providers.
+[^14]: [REA raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md), supported processor families, little-endian languages, and excluded big-endian targets.
+[^15]: [decomp.wtf README](https://github.com/i12bp8/decomp.wtf), discontinuation notice, final version, platform support, Demo Quest 64, agent connection, and export behavior; checked 23 October 2026.

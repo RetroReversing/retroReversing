@@ -138,6 +138,10 @@ Tool | What it contributes
 [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) | Search for source-code variations that improve a match
 [ido-static-recomp](https://github.com/decompals/ido-static-recomp) | Run statically recompiled historical IDO compilers in supported N64 workflows
 [decomp.me](https://decomp.me/) | Experiment with compiler-backed matching decompilation in a browser
+[REA](https://github.com/isTurn/REA) | Give agents access to a configured native analysis provider; its documented raw loader excludes MIPS and big-endian targets [^15].
+[decomp.wtf](https://github.com/i12bp8/decomp.wtf) | Archived matching workspace with an N64 demo and compiler judge; discontinued 15 October 2026 [^16].
+
+The [N64 tutorial compares REA and decomp.wtf](/ai-assisted-n64-decompilation#where-rea-and-decompwtf-fit), including provider limits and an optional demo-based exercise.
 
 A tool that explains Ghidra pseudocode and a tool that autonomously writes matching C are not interchangeable. The latter needs a real build environment, not just a text-generation interface.
 
@@ -328,3 +332,6 @@ Useful resources for a first project include:
 [^12]: [Gao et al. - DecompileBench, ACL 2025](https://aclanthology.org/2025.findings-acl.1194/).
 [^13]: [BinMetric - IJCAI 2025](https://www.ijcai.org/proceedings/2025/858).
 [^14]: [decomp.wtf - Judge tests for constants and stale match records](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py).
+
+[^15]: [REA README](https://github.com/isTurn/REA) and [raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md), provider integration and supported raw target architectures.
+[^16]: [decomp.wtf README](https://github.com/i12bp8/decomp.wtf), discontinuation notice and matching-workspace capabilities; checked 23 October 2026.
