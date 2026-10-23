@@ -1,0 +1,185 @@
+{
+  "experiment_date": "2026-10-23",
+  "model": "gpt-5.6-terra",
+  "setup_started_utc": "2026-10-23T19:50:07Z",
+  "matching_started_utc": "2026-10-23T19:55:45Z",
+  "matching_deadline_utc": "2026-10-23T20:25:45Z",
+  "matching_window_seconds": 1800,
+  "detected_code_bytes": 626012,
+  "baseline": {
+    "matched_functions": 419,
+    "matched_bytes": 26112
+  },
+  "after": {
+    "matched_functions": 442,
+    "matched_bytes": 27964
+  },
+  "gain": {
+    "matched_functions": 23,
+    "matched_bytes": 1852
+  },
+  "compiler": {
+    "toolchain": "ido-5.3",
+    "flags": [
+      "-O2",
+      "-mips2",
+      "-G",
+      "0",
+      "-non_shared",
+      "-Xcpluscomm",
+      "-Wab,-r4300_mul"
+    ]
+  },
+  "tool_commit": "af853d2f0da41ded2a9c9436ab2eb460f915b25b",
+  "recovery_note": "The isolated database failed during its first post-deadline backup. The 23 pre-deadline candidates were reconstructed from the baseline, then independently compiled and judged after the timed window. Verification time is excluded from the score window.",
+  "added_functions": [
+    {
+      "name": "func_80006188",
+      "size": 60,
+      "matched": true,
+      "source_sha256": "1436dd4a6c35dc35d51515558883fa7d9bc25ff53c4eff94212bac08299d2c2a"
+    },
+    {
+      "name": "func_800112D8",
+      "size": 140,
+      "matched": true,
+      "source_sha256": "8aeeaa7a4dd79e1c529c3868938b2fbcdf4203a14d4304d88fe74fb3bdc1dd71"
+    },
+    {
+      "name": "func_800219B8",
+      "size": 52,
+      "matched": true,
+      "source_sha256": "b24270a66c44efc7cf69e3e69fc072c130327f1ebf7b0d434566b3444bbdef4a"
+    },
+    {
+      "name": "func_80021A80",
+      "size": 52,
+      "matched": true,
+      "source_sha256": "554b1bbbcd0bd659b8f8f7ae54d1c53960cc7638380e088db1ae317bd334cef8"
+    },
+    {
+      "name": "func_80032B10",
+      "size": 72,
+      "matched": true,
+      "source_sha256": "0ba4bbd015f0e8cb5673f8ce41b63d13ee801ecacb141fe357822693c0760ff4"
+    },
+    {
+      "name": "func_800336C0",
+      "size": 144,
+      "matched": true,
+      "source_sha256": "2a40a4d7e63b46dd5ee58d93e208f8c1c6ad586d093970ddf042919a37ac560b"
+    },
+    {
+      "name": "func_80033750",
+      "size": 64,
+      "matched": true,
+      "source_sha256": "824deeb3be76362dcd7bd5bf1e52bc207f704bcc2b4a9b63ead86aeb8b86c5f5"
+    },
+    {
+      "name": "func_80033C88",
+      "size": 84,
+      "matched": true,
+      "source_sha256": "31199b53164a771671b1f62121a91a54fbaeeb6fadba70d9ef63ce783c2b7383"
+    },
+    {
+      "name": "func_80033F64",
+      "size": 332,
+      "matched": true,
+      "source_sha256": "d4518187e94dffd346d3379b2b677c99b2190c8ef25bfe3c6d8ae04c4c5d9ce3"
+    },
+    {
+      "name": "func_80034868",
+      "size": 80,
+      "matched": true,
+      "source_sha256": "2ee92ff99f00f9addd699253e4652454f4d810e77c7e12a56f216d2a06f4ff73"
+    },
+    {
+      "name": "func_80034AF8",
+      "size": 64,
+      "matched": true,
+      "source_sha256": "df94f2f13e87ee8c701696a69e908896e8003b9cfd84f44ad91c699176dadc21"
+    },
+    {
+      "name": "func_80034B4C",
+      "size": 68,
+      "matched": true,
+      "source_sha256": "40cd28824d86c3035d871dd40d580203c4dd1274167859f0c9fcb8ebcd7c0c4f"
+    },
+    {
+      "name": "func_8003EE90",
+      "size": 32,
+      "matched": true,
+      "source_sha256": "c749180eff9d81d65ffd42c992a2644052edd81b9a0bbc67c68c4f2497e52c63"
+    },
+    {
+      "name": "func_80047150",
+      "size": 92,
+      "matched": true,
+      "source_sha256": "8c673a3978e342297ac764df5a35349951bfefbe41dcb713dd8184049df82202"
+    },
+    {
+      "name": "func_80049504",
+      "size": 32,
+      "matched": true,
+      "source_sha256": "3a8d9f6433adecb0fa0a817cceb973d584a7cc21c2b64e1979f37689c5aeef9d"
+    },
+    {
+      "name": "func_80049524",
+      "size": 32,
+      "matched": true,
+      "source_sha256": "dbb7b97886c6e9163e16e6b79f0baab2081e051ebc475780f34889a8c234d187"
+    },
+    {
+      "name": "func_8004FBC0",
+      "size": 48,
+      "matched": true,
+      "source_sha256": "d9e01b9ac689ec61abe01060a227766edfd7a91fc4c79ac3c76114d2d6a686df"
+    },
+    {
+      "name": "func_8004FBF0",
+      "size": 52,
+      "matched": true,
+      "source_sha256": "8647c7ee07cbb3c60c43b3c48b15b2c0c077cac4454543e7ff4e664d938c9d4f"
+    },
+    {
+      "name": "func_8005AFE8",
+      "size": 92,
+      "matched": true,
+      "source_sha256": "baf68beda131c62cf3137ba29ebb4840e7a3d174a3bc4e257191248581365457"
+    },
+    {
+      "name": "func_80083B80",
+      "size": 116,
+      "matched": true,
+      "source_sha256": "de7c08c2cd00be3cad6631696043bc0eec6e9a2933df1352a0bb5438442892d9"
+    },
+    {
+      "name": "func_8009DF18",
+      "size": 48,
+      "matched": true,
+      "source_sha256": "8544ed241def67bee10442eeb5776a286009617f2cee284e11d39c41e6321301"
+    },
+    {
+      "name": "func_800A4CA0",
+      "size": 48,
+      "matched": true,
+      "source_sha256": "30c0428daf3af046e10855e4ed46a66a434f653527e7d74d60c288cafd639b0e"
+    },
+    {
+      "name": "func_800A4CD0",
+      "size": 48,
+      "matched": true,
+      "source_sha256": "f094c06a678a678872583a4f1dfaa46ae779c538dc231736d1edf23c5625a8fb"
+    }
+  ],
+  "post_window_verification": {
+    "all_added_functions_exact": true,
+    "cartridge_byte_identical": true,
+    "cartridge_size_bytes": 8388608,
+    "normalized_cartridge_sha1": "88916d5d2e2470f395ad8f4245d34138ef2d156a",
+    "selected_c_functions": 442,
+    "exported_functions": 2405,
+    "rejected_c_fallbacks": [],
+    "remaining_code": "Assembly fallbacks supply the remaining functions."
+  }
+}
