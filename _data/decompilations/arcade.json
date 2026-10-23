@@ -570,63 +570,6 @@
         "github_stars": 11
       },
       "ai_used": null
-    },
-    "out-run": {
-      "name": "Out Run",
-      "platforms": [
-        "Arcade"
-      ],
-      "repository_url": "https://github.com/djyt/cannonball",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2022-01-30T19:37:16Z",
-        "last_commit_url": "https://github.com/djyt/cannonball/commit/27493ebf62be3498dff93ed6a45e8e2db819bae1",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Inactive",
-        "github_stars": 887
-      },
-      "ai_used": null
-    },
-    "outrun-cannonball-dx": {
-      "name": "OutRun (CannonBall DX)",
-      "platforms": [
-        "Arcade"
-      ],
-      "repository_url": "https://github.com/Endprodukt/cannonball-dx",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-07T07:03:29Z",
-        "last_commit_url": "https://github.com/Endprodukt/cannonball-dx/commit/09edd625138d5b95bc41b184ee8bda0e0d7c4b8b",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 114
-      },
-      "ai_used": null
-    },
-    "space-invaders": {
-      "name": "Space Invaders",
-      "platforms": [
-        "Arcade"
-      ],
-      "repository_url": "https://github.com/loadzero/si78c",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2019-12-06T14:20:13Z",
-        "last_commit_url": "https://github.com/loadzero/si78c/commit/0b2b4f1ed3c73ba0765625d589fbdcb21660f3ee",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Inactive",
-        "github_stars": 797
-      },
-      "ai_used": null
     }
   },
   "consoles": {
@@ -1123,54 +1066,6 @@
             {
               "name": "Fan remake",
               "url": "https://github.com/jotd666/mspacman500"
-            }
-          ]
-        },
-        {
-          "project": "out-run",
-          "name_markdown": "[Out Run](https://github.com/djyt/cannonball)",
-          "images": [],
-          "notes_markdown": "Cannonball: An Enhanced OutRun Engine",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/djyt/cannonball"
-            }
-          ]
-        },
-        {
-          "project": "outrun-cannonball-dx",
-          "name_markdown": "[OutRun (CannonBall DX)](https://github.com/Endprodukt/cannonball-dx)",
-          "images": [],
-          "notes_markdown": "CannonBall DX - OutRun fork focused on modern racing wheels, multi-device input, expanded FFB, 21:9 ultrawide and arcade cabinets.",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/Endprodukt/cannonball-dx"
-            }
-          ]
-        },
-        {
-          "project": "space-invaders",
-          "name_markdown": "[Space Invaders](https://github.com/loadzero/si78c)",
-          "images": [],
-          "notes_markdown": "si78c is a memory accurate reimplementation of Space Invaders in C.",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/loadzero/si78c"
             }
           ]
         }

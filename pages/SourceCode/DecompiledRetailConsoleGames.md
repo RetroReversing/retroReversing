@@ -22,10 +22,10 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-23'
 ---
 
-This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries. Independently written reimplementations are maintained in a separate catalog and excluded from these tables.
 
 ---
 ## Glossary of Project Types
@@ -36,7 +36,6 @@ The tables list project types as comma-separated links to their respective proje
 * <a id="glossary-compatibility-layer"></a>**Compatibility layer** - Runs the original executable through replacement platform services and graphics translation. The game code is not reconstructed as source or statically recompiled.
 * <a id="glossary-static-recompilation"></a>**Static recompilation** - Translates machine code ahead of time into source that can be compiled for another platform, without recovering the original source code.
 * <a id="glossary-source-port"></a>**Native port / Source port** - Adapts available or reconstructed source code to run on another platform. A port can build on a decompilation, disassembly or reimplementation.
-* <a id="glossary-reimplementation"></a>**Reimplementation / Game engine reimplementation** - Builds new code to reproduce the game's or engine's behavior, often using the original game's assets.
 * <a id="glossary-rewrite"></a>**Rewrite** - Rebuilds the implementation with a different architecture or language, potentially using reverse engineering to understand the original behavior.
 * <a id="glossary-fan-remake"></a>**Fan remake** - Recreates the game independently, potentially changing its engine, assets or gameplay.
 
@@ -153,7 +152,7 @@ The table below lists Nintendo 3DS reverse-engineering projects and native ports
 
 ---
 ## Virtual Boy
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="virtual-boy" %}
 
@@ -216,7 +215,7 @@ The [Game Gear guide](/gamegear) covers the handheld and its development hardwar
 
 ---
 ## Sega Saturn
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="sega-saturn" %}
 
@@ -263,19 +262,19 @@ The table below lists PlayStation Portable decompilation projects.
 
 ---
 ## PlayStation 3
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="playstation-3" %}
 
 ---
 ## PlayStation 4
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="playstation-4" %}
 
 ---
 ## PlayStation 5
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="playstation-5" %}
 
@@ -321,7 +320,7 @@ The table below lists Xbox 360 reverse-engineering projects and native ports.
 
 ---
 ## Xbox One
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="xbox-one" %}
 
@@ -342,7 +341,7 @@ The table below lists decompilation projects targeting macOS game releases.
 
 ---
 ## Apple II
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="apple-ii" %}
 
@@ -364,25 +363,25 @@ The table below lists Atari 2600 disassembly projects and collections.
 
 ---
 ## Atari 8-bit
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="atari-8-bit" %}
 
 ---
 ## Atari ST
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="atari-st" %}
 
 ---
 ## Atari Jaguar
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="atari-jaguar" %}
 
 ---
 ## Atari Lynx
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="atari-lynx" %}
 
@@ -395,7 +394,7 @@ The table below lists Commodore 64 disassembly projects.
 
 ---
 ## Amiga
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="amiga" %}
 
@@ -448,55 +447,55 @@ The table below lists Windows Phone decompilation projects.
 These tables cover other computers, arcade systems and projects whose original platforms span several releases.
 
 ## ZX Spectrum
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="zx-spectrum" %}
 
 ---
 ## BBC Micro / Acorn
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="bbc-micro-acorn" %}
 
 ---
 ## Arcade
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="arcade" %}
 
 ---
 ## Neo Geo
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="neo-geo" %}
 
 ---
 ## iOS
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="ios" %}
 
 ---
 ## Mobile (multiple or unspecified systems)
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="mobile" %}
 
 ---
 ## Web / Flash
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="web-flash" %}
 
 ---
 ## Multiple platforms
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="multiplatform" %}
 
 ---
 ## Other Game Platforms
-The table lists source reconstructions, related ports and engine reimplementations for this platform.
+The table lists source reconstructions and related ports for this platform.
 
 {% include decomp-table.html console="other-platforms" %}
 

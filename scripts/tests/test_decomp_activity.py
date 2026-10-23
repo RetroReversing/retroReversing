@@ -132,7 +132,8 @@ class ActivityTests(unittest.TestCase):
                     self.assertTrue(all(isinstance(name, str) and name for name in port['project_types']))
                 for image in row.get('images', []):
                     self.assertTrue(image['url'].startswith(('https://', 'http://', '/')))
-        for project in catalog['projects'].values():
+        separate, _ = activity.load_catalog(activity.ROOT / '_data/reimplementations')
+        for project in list(catalog['projects'].values()) + list(separate['projects'].values()):
             self.assertIn('ai_used', project)
             self.assertTrue(project['ai_used'] is None or type(project['ai_used']) is bool)
             evidence = project['activity']
@@ -144,6 +145,37 @@ class ActivityTests(unittest.TestCase):
             if evidence.get('last_commit_at'):
                 activity.timestamp(evidence['last_commit_at'])
                 self.assertTrue(evidence['last_commit_url'].startswith('https://'))
+
+    def test_reimplementations_are_separate_from_decompilation_tables(self):
+        decomps, _ = activity.load_catalog(activity.DEFAULT_DATA)
+        reimplementations, sources = activity.load_catalog(activity.ROOT / '_data/reimplementations')
+        self.assertTrue(reimplementations['projects'])
+        self.assertFalse(decomps['projects'].keys() & reimplementations['projects'].keys())
+        for project in decomps['projects'].values():
+            self.assertNotIn('reimplement', project['project_type'].lower())
+        for console in decomps['consoles'].values():
+            for row in console['rows']:
+                types = [t['name'] for t in row['project_types']]
+                types += [t for port in row['ports'] for t in port['project_types']]
+                self.assertFalse(any('reimplement' in name.lower() for name in types))
+        for path, (data, _) in sources.items():
+            self.assertTrue(set(data['consoles']) <= {path.stem})
+            for console in data['consoles'].values():
+                for row in console['rows']:
+                    self.assertIn(row['project'], data['projects'])
+                    self.assertTrue(row['project_types'])
+            for project in data['projects'].values():
+                self.assertIn('ai_used', project)
+                self.assertIn('github_stars', project['activity'])
+                self.assertNotIn('checked_at', project['activity'])
+                self.assertNotIn('last_success_at', project['activity'])
+        # Mixed entries retain their source reconstructions on the decomp page.
+        self.assertEqual(decomps['projects']['crimsonland']['project_type'], 'Matching decompilation')
+        self.assertIn('super-mario-world', decomps['projects'])
+        self.assertNotIn('battle-city-browser-reimplementation', decomps['projects'])
+        self.assertIn('the-legend-of-zelda-a-link-to-the-past-recompilation', decomps['projects'])
+        self.assertIn('the-legend-of-zelda-a-link-to-the-past', reimplementations['projects'])
+        self.assertIn('super-mario-world-snesrev', reimplementations['projects'])
 
     def test_http_rate_limit_detection(self):
         error = HTTPError('https://api.github.com/repos/o/r', 403, 'Forbidden', {'X-RateLimit-Remaining': '0'}, None)

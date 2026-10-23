@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "star-wars-knights-of-the-old-republic-reone": {
+      "name": "Star Wars: Knights of the Old Republic (reone)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/seedhartha/reone",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-04-06T15:36:37Z",
+        "last_commit_url": "https://github.com/seedhartha/reone/commit/9417f636f2d13c7b2f359308525009f286d765c0",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 320
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "xbox": {
+      "name": "Xbox",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "star-wars-knights-of-the-old-republic-reone",
+          "name_markdown": "[Star Wars: Knights of the Old Republic (reone)](https://github.com/seedhartha/reone)",
+          "images": [],
+          "notes_markdown": "Game engine capable of running KotOR and TSL",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/seedhartha/reone"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
