@@ -18,7 +18,7 @@ breadcrumbs:
   - name: AI-Assisted Decompilation
     url: '#'
 editlink: /pages/tools/AIAssistedDecompilation.md
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-23'
 ---
 
 AI can help a reverse engineer turn a game executable into readable C, identify unknown functions, and search for source code that recreates the original machine instructions. The last task is particularly interesting for retro games: an AI agent can write C, run the original compiler, inspect the differences and try again.
@@ -26,6 +26,8 @@ AI can help a reverse engineer turn a game executable into readable C, identify 
 The important distinction is between **code that looks plausible**, **code that behaves correctly**, and **code that compiles to the same bytes**. Newer language models are making the third task more practical, but a compiler and a byte comparison remain the final authority.
 
 This guide explains the approach using Nintendo 64 and PlayStation examples, including what recent Claude Opus 5.5 benchmark results actually demonstrate. It also distinguishes matching decompilation from AI-generated ports that run the original machine code through emulation or static recompilation.
+
+For a practical first session, follow the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation). It starts with a single-function browser exercise and continues through a verified local build.
 
 For the underlying disassembly, intermediate representations and source reconstruction, start with the existing explanation:
 

@@ -15,7 +15,7 @@ breadcrumbs:
   - name: How to Create an N64 Recomp
     url: '#'
 editlink: /consoles/n64/HowToCreateN64Recomp.md
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-23'
 excerpt: 'Create a Nintendo 64 static recompilation with a verified ROM, code and overlay maps, N64Recomp, a native runtime, and game-by-game validation.'
 ---
 
@@ -26,6 +26,8 @@ This guide is for developers comfortable with C or C++, pointers, hexadecimal ad
 
 ## Choose the Right Kind of Project
 A **static recompilation** translates the original instructions into host-compilable C. A **matching decompilation** reconstructs source that rebuilds the original ROM byte for byte. A **source port** adapts reconstructed source to a new platform. These can share research, but only the matching project needs to recover equivalent high-level C for every function. [Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) uses static recompilation for Majora's Mask and uses knowledge from its decompilation project for modifications [^2].
+
+For a hands-on matching-source workflow, the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation) explains how to propose one C function, compare its output, and verify it in the game build.
 
 Aim for one observable milestone at a time:
 * **Mapped ROM** - You can explain where the initial code and one runtime-loaded code region reside in ROM and RAM.
