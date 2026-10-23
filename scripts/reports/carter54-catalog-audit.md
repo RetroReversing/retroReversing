@@ -30,7 +30,7 @@ msx | 2
 multiplatform | 5
 neo-geo | 1
 nintendo-3ds | 4
-nintendo-64 | 105
+nintendo-64 | 104
 nintendo-ds | 18
 nintendo-entertainment-system-nes | 41
 nintendo-gamecube | 41
@@ -40,7 +40,7 @@ nintendo-wii-u | 8
 other-platforms | 9
 pc-98 | 1
 pc-macos | 12
-pc-windows | 489
+pc-windows | 490
 playstation-1 | 122
 playstation-2 | 51
 playstation-3 | 11
@@ -64,6 +64,7 @@ zx-spectrum | 22
 
 ## Scope corrections
 The primary repositories establish several differences from the source list:
+* **Tube64** - The [upstream README](https://github.com/rep-stosw/tube64#readme) identifies a 64-bit port of Bullfrog's DOS game Tube, with Windows, Linux and browser versions. It belongs in PC (DOS / Windows), not Nintendo 64.
 * **Augustus** - Reimplements Caesar III, rather than Pharaoh and Cleopatra.
 * **Fate/EXTELLA LINK** - The README identifies LINK as the game being researched.
 * **Green Beret, Mercenary and River Raid** - The inspected repositories target ZX Spectrum rather than the source list's arcade or Atari buckets.
