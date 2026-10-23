@@ -123,6 +123,32 @@ These candidates still need type and readability review. Some retain unknown-typ
 **Verification and recovery:** the experiment database failed during the first post-deadline backup. We reconstructed the isolated state from the untouched baseline and the 23 recovered candidates. All 23 recovered candidates passed independent per-function comparisons afterward. A full rebuild selected 442 C functions out of 2,405 exported functions, with no rejected C selections, and reproduced the original 8,388,608-byte cartridge byte for byte. Its normalized SHA-1 remained `88916d5d2e2470f395ad8f4245d34138ef2d156a`. This verification was outside the 30-minute score window; assembly supplied the remaining code. The published source repository linked above remains the separately verified 419-function checkpoint; this follow-up is an isolated experiment.
 
 ---
+### What Sol Light Added After Terra
+We continued from Terra's **442-function, 27,964-byte checkpoint** with the requested **Sol 6.1 Light** setting. The dispatched configuration was **GPT-6.1 Sol with low reasoning effort**. Its 30-minute matching window ran from **22:31:45 to 23:01:45 BST on 23 October 2026**, with setup and post-window verification timed separately. The experiment used another isolated workspace and preserved Terra's baseline.
+
+After excluding five candidates rejected by the full-image check, the retained result was:
+
+Measurement | After Terra | After Sol Light | Sol Light gain
+---|---|---|---
+Retained matching C functions | 442 | 886 | 444
+Matching code bytes | 27,964 | 61,836 | 33,872
+Detected-code coverage | 4.467% | 9.878% | 5.411 percentage points
+
+The denominator remains **626,012 detected candidate-code bytes**. This is approximately **4.5% to 9.9%** when rounded to one decimal place. The final original-cartridge rebuild for this retained selection is pending; these are the conservative selection counts, not yet a fully rebuilt score.
+
+The productive changes were:
+* **Recover records passed by value** - A ROM-derived 12-byte record explained a family of wrappers that machine drafts could not compile correctly. A typed candidate established the pattern, then bounded generation and individual compiler checks recovered another 276 wrappers covering 20,976 bytes. This family accounts for much of the gain; the result should not be extrapolated across unrelated code.
+* **Restore forwarded arguments** - Extending the argument-recovery approach from Terra produced 136 additional candidates covering 7,632 bytes. Untouched incoming argument registers can carry values that a draft omitted from its inferred function signature.
+* **Model stack objects and declaration order** - Explicit record, vector, and matrix storage helped recover stack offsets. Declaration permutations recovered an 864-byte function. These sources still need type and readability review; compiler-specific stack expressions are not general C programming recommendations.
+* **Supply ROM-derived jump-table context** - Table data helped generate switch candidates that earlier drafts missed. This also exposed the importance of full-image verification: isolated function checks alone did not catch every integration difference.
+
+**Why we excluded five candidates:** at the deadline, the frozen record contained 891 candidates and 62,656 bytes that passed the per-function judge. All 449 additions also passed a separate post-window compilation check, with baseline sources, target bytes, addresses, and relocations unchanged. However, the complete expanded-image rebuild contained seven differing bytes across five new jump-table candidates, totaling 820 code bytes. Those five were excluded from a separate retained selection, using their original assembly instead. The raw freeze and failed build were preserved; no new matching or source repair was counted after the deadline.
+
+The five excluded candidates were `func_80026DC0`, `func_80049BE0`, `func_8004F884`, `func_80058708`, and `func_80070D48`. The initial **10.009% isolated-check figure is not the accepted full-build result**. This is a concrete reason to keep the cartridge rebuild as the final acceptance gate rather than reporting a function judge's score alone.
+
+Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. There is no separately measured per-run price or allowance usage for this Codex subagent run. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
+
+---
 ## What the Kimi Code V-Rally Attempt Revealed
 A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The selected model was **K2.8 Preview High**, as confirmed by the person running the experiment.
 
