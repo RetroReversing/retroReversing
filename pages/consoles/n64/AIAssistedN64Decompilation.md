@@ -102,7 +102,7 @@ These are wall-clock observations from our import/match records and build log, n
 ### What Another 30 Minutes With Terra Added
 We then gave **GPT-5.6 Terra** an isolated copy of the 419-function checkpoint and a 30-minute matching window. On 23 October 2026, that window ran from **20:55:45 to 21:25:45 BST**. Setup began at 20:50:07 BST; copying the workspace and subsequent backup and verification work were outside the matching window.
 
-The [measurement record](/public/data/n64-terra-30min-20261023.json) lists the 23 added functions, source hashes, compiler settings, and independent comparison results. The comparison keeps the same 626,012-byte detected-code denominator:
+The comparison keeps the same 626,012-byte detected-code denominator:
 
 Measurement | Starting checkpoint | After Terra | Gain
 ---|---|---|---
@@ -124,13 +124,13 @@ These candidates still need type and readability review. Some retain unknown-typ
 
 ---
 ## What the Kimi Code V-Rally Attempt Revealed
-A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The supplied session was labeled K2.8; its export records the alias `kimi-code/kimi-for-coding`, so the archive alone does not verify the underlying model version.
+A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The selected model was **K2.8 Preview High**, as confirmed by the person running the experiment.
 
 **The run stopped during import, before matching C.** It preserved the ROM, identified its pair-swapped byte order, recorded hashes, checked out the requested fork revision, and installed free tools. Its first custom import script omitted the database parent directory; creating that directory resolved the initial error. The next import exposed a generated segment/BSS configuration problem.
 
 The exported activity spans **21:22:18 to 21:40:34 BST, about 18 minutes 16 seconds**. The final provider error says the **five-hour usage allowance** was exhausted. This does not mean the agent worked for five hours, and the archive does not show how much allowance remained when it started.
 
-The [sanitized session measurements](/public/data/n64-kimi-vrally-session-20261023.json) sum each recorded usage event once:
+The following totals sum each usage event in the supplied session export once:
 
 Recorded usage | Main agent | Exploration helper | Total
 ---|---|---|---
@@ -151,7 +151,9 @@ The revised starter prompt limits the first session to 30 minutes, uses one agen
 
 **Importer follow-up:** [the BSS preservation fix](https://github.com/RetroReversing/decompdecomp/pull/3) preserves the original memory extent when discovering additional code, and converts that extent to the actual BSS size during export. Its synthetic regression checks both BSS addresses and repeated discovery. Standalone export also retains known startup aliases when discovery gives the target function an address-based name. A fresh isolated import with the fix found 2,121 candidates covering 565,980 bytes; these remain candidate-code statistics, and no C matching pass was run. Its standalone export selected zero C functions out of 2,122 exported functions including startup, and rebuilt the complete 12,582,912-byte normalized original ROM byte for byte. The normalized SHA-1 was `da3f262dfb86cff1376c9a1aa081212e5a7aad64`. This later validation used the repaired tool and is separate from the failed Kimi session. If your `main` checkout does not yet include that fix, use its `codex/n64-bss-import` branch at `72cac6c` for the retry.
 
-This is not a controlled comparison with Sol or Terra. Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with a verified importer, record setup and matching time separately, and retain the original failed-run result alongside the retry.
+We are gathering these runs for a comparison of **models, prices, usage limits, and verified results**. This K2.8 Preview High attempt consumed the available five-hour allowance without producing a verified C match. That is a poor practical result for this session, even though an importer defect blocked the matching stage. The session export does not establish the monetary cost, quota remaining at the start, or how cached tokens count toward the allowance.
+
+The runs used different starting conditions: Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with the verified importer, record setup and matching time separately, and retain this failed-run result alongside the retry. Record the exact model setting, plan or API price, allowance available at the start, and verified matching bytes for each future run. These observations are preliminary data for that comparison; a broader ranking needs more runs.
 
 ---
 ## Try One Function Before Installing Anything
