@@ -149,6 +149,18 @@ The five excluded candidates were `func_80026DC0`, `func_80049BE0`, `func_8004F8
 Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. There is no separately measured per-run price or allowance usage for this Codex subagent run. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
 
 ---
+### Can Line Breaks Change the Generated Assembly?
+**Preserve source layout when testing IDO candidates.** In a separate source-assisted Turok experiment using IDO 5.3, a same-source comparison passed the per-function judge with its whitespace preserved (score 0). Replacing every run of whitespace with a single space scored 120 and changed the ordering of a function call and a floating-point load. This supports layout sensitivity in that example. It does not isolate newlines from other whitespace or establish which compiler stage caused the change.
+
+The wider pass recovered 22 additional per-function matches, but header and global-declaration fixes also changed between passes. **Those 22 cannot all be credited to preserving line breaks.** This trial had access to existing source and is separate from the ROM-only results above. Its per-function observations are also separate from full-cartridge acceptance.
+
+Source-location information is a possible influence on compiler decisions, but instruction scheduling has not been established as the internal cause. Rewriting two assignments into a chained assignment changes expression structure and is a different experiment from changing whitespace alone.
+
+For your own controlled comparison, keep the compiler, flags, headers, macros, symbol addresses, and linker setup fixed. Save both candidates and change only newlines between ordinary C tokens. Avoid moving preprocessor directives, changing `//` comment boundaries, or using `__LINE__`, which can make line placement change program meaning. Compare the preprocessed token sequences and linked instruction bytes, then repeat the builds to check determinism. Differences confined to debug records do not demonstrate different executable instructions.
+
+Keep each formatting variant as a separate attempt. Recheck matched functions after automatic formatting and retain the complete ROM rebuild as the final acceptance gate. The [decompdecomp IDO guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/ido.md) records this precaution for agents. A small reproduction using synthetic C and a newline-only comparison are still needed before describing this as a confirmed IDO scheduling quirk.
+
+---
 ## What the Kimi Code V-Rally Attempt Revealed
 A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The selected model was **K2.8 Preview High**, as confirmed by the person running the experiment.
 
