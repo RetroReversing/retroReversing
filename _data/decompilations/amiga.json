@@ -134,25 +134,6 @@
       },
       "ai_used": null
     },
-    "open-fodder": {
-      "name": "Open Fodder",
-      "platforms": [
-        "Amiga"
-      ],
-      "repository_url": "https://github.com/OpenFodder/openfodder",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-20T21:37:18Z",
-        "last_commit_url": "https://github.com/OpenFodder/openfodder/commit/4312ff7c1abe3b6750483921893651d9d3c55b33",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 610
-      },
-      "ai_used": null
-    },
     "knightmare-knightmareamiga-h0ffman": {
       "name": "Knightmare (KnightmareAmiga (h0ffman))",
       "platforms": [
@@ -352,22 +333,6 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/Vesuri/stuntcarracer"
-            }
-          ]
-        },
-        {
-          "project": "open-fodder",
-          "name_markdown": "[Open Fodder](https://github.com/OpenFodder/openfodder)",
-          "images": [],
-          "notes_markdown": "Open Fodder: An open source port of Cannon Fodder",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/OpenFodder/openfodder"
             }
           ]
         },

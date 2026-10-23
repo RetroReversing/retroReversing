@@ -741,25 +741,6 @@
         "github_stars": 20
       },
       "ai_used": null
-    },
-    "tetris-agbtetris": {
-      "name": "Tetris (agbtetris)",
-      "platforms": [
-        "Game Boy"
-      ],
-      "repository_url": "https://github.com/Normmatt/agbtetris",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2018-02-16T00:04:40Z",
-        "last_commit_url": "https://github.com/Normmatt/agbtetris/commit/1da0c92d31f5ba4f565775a25418acabebd6b811",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Inactive",
-        "github_stars": 18
-      },
-      "ai_used": null
     }
   },
   "consoles": {
@@ -1645,28 +1626,6 @@
             {
               "name": "Native port",
               "url": "https://github.com/GABRIELNNK/Bigodao"
-            }
-          ]
-        },
-        {
-          "project": "tetris-agbtetris",
-          "name_markdown": "[Tetris (agbtetris)](https://github.com/Normmatt/agbtetris)",
-          "images": [
-            {
-              "alt": "Tetris box art",
-              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy/master/Named_Boxarts/Tetris%20%28World%29%20%28Rev%201%29.png",
-              "width": 100
-            }
-          ],
-          "notes_markdown": "This is both a port and a decompilation of the 1989 tetris for the original gameboy.",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/Normmatt/agbtetris"
             }
           ]
         }

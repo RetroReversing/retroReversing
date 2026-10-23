@@ -9,6 +9,7 @@ python3 scripts/update-decomp-activity.py
 python3 scripts/update-decomp-activity.py --github-graphql
 python3 scripts/update-decomp-activity.py --limit 20
 python3 scripts/update-decomp-activity.py --data _data/decompilations/sega-mega-drive.json
+python3 scripts/update-decomp-activity.py --data _data/reimplementations --github-graphql
 python3 scripts/update-decomp-activity.py --project balloon-fight --dry-run
 python3 -m unittest discover -s scripts/tests -p 'test_decomp_activity.py'
 ```
@@ -32,6 +33,10 @@ Each successful GitHub check saves `activity.github_stars` from GitHub's `starga
 Each project also has a manually maintained `ai_used` field: `true` means confirmed AI use in the project's development, `false` means explicitly confirmed no AI use, and `null` means unknown. Leave it null unless the maintainers or project documentation establish the answer; absence of an AI statement does not mean false. Keep a source link in the game's `notes_markdown` when documenting a confirmed value. This field applies to that project, so a decompilation and its separately cataloged port can have different values. The activity updater never infers or changes `ai_used`.
 
 To add a project, open its platform file and give it a globally unique, readable ID under `projects` with `name`, `platforms`, `repository_url`, `project_type`, `completion_status`, `legacy_status`, `ai_used: null`, and an `activity` object with `github_stars: null`. Use lowercase names with hyphens, such as `balloon-fight`; distinguish shared names with a console or project suffix, such as `tetris-nes` and `tetris-game-boy`. Keep IDs stable when editing display names. Add a row to the relevant `consoles` entry referencing that ID in `project`. Each console has a display `name`, ordered `columns`, and ordered `rows`. Each row supplies `name_markdown` (including its project link), `images` (objects with `url`, `alt`, and `width`), `project_types` (an array of objects with `name` and `url`), `notes_markdown`, and an optional `mapper` for four-column tables. Markdown fields support existing inline links and formatting. Row display data stays separate from repository identity because several games can share one repository.
+
+Independently written reimplementations belong in `_data/reimplementations/<platform>.json`, using the same schema. They are not rendered on the decompilation page. Move both the project record and its table row, including artwork, completion figures and ports. For a game with both a source reconstruction and a separate reimplementation, keep the source reconstruction in the decompilation catalog and store the reimplementation separately. Do not attach reimplementations to decompilation rows through `project_types` or `ports`. A repository containing both approaches can have separate records with distinct IDs. Never copy a different repository's commit date or stars when splitting a port into its own record.
+
+The daily workflow refreshes both directories with separate updater invocations and includes both in its update PR. The default script invocation continues to select only the decompilation catalog; use `--data _data/reimplementations` for the separate catalog.
 
 Each platform file retains `schema_version: 1`, `projects`, and `consoles`.
 The filename must match its console key, for example `sega-mega-drive.json` contains `consoles["sega-mega-drive"]`.

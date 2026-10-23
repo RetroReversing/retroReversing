@@ -39,25 +39,6 @@
       },
       "ai_used": null
     },
-    "aleph-one": {
-      "name": "Aleph One",
-      "platforms": [
-        "PC (macOS)"
-      ],
-      "repository_url": "https://github.com/Aleph-One-Marathon/alephone",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-17T23:48:47Z",
-        "last_commit_url": "https://github.com/Aleph-One-Marathon/alephone/commit/d2d8f6dac0ec75dfe78dea29184abc478f4b20ee",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 816
-      },
-      "ai_used": null
-    },
     "billy-frontier": {
       "name": "Billy Frontier",
       "platforms": [
@@ -293,22 +274,6 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/dev-camo/project-lucid"
-            }
-          ]
-        },
-        {
-          "project": "aleph-one",
-          "name_markdown": "[Aleph One](https://github.com/Aleph-One-Marathon/alephone)",
-          "images": [],
-          "notes_markdown": "Aleph One is the open source continuation of Bungie's Marathon 2 game engine.",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/Aleph-One-Marathon/alephone"
             }
           ]
         },

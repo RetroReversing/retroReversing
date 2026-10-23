@@ -1540,25 +1540,6 @@
       },
       "ai_used": null
     },
-    "five-nights-at-freddy-s-1-4-xbox-360": {
-      "name": "Five Nights at Freddy's 1-4 (Xbox 360)",
-      "platforms": [
-        "Xbox 360"
-      ],
-      "repository_url": "https://github.com/Sergey004/FNAF1-Recomp-proj",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-22T11:04:20Z",
-        "last_commit_url": "https://github.com/Sergey004/FNAF1-Recomp-proj/commit/fadb0a7dc7db1c007e6d8a76d558328ba6eda537",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 6
-      },
-      "ai_used": null
-    },
     "flatout-ultimate-carnage": {
       "name": "FlatOut: Ultimate Carnage",
       "platforms": [
@@ -3363,44 +3344,6 @@
         "github_stars": 57
       },
       "ai_used": null
-    },
-    "call-of-duty-black-ops-webgpu": {
-      "name": "Call of Duty: Black Ops (WebGPU))",
-      "platforms": [
-        "Xbox 360"
-      ],
-      "repository_url": "https://github.com/SwagSoftware/KisakBlack",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-02T13:01:36Z",
-        "last_commit_url": "https://github.com/SwagSoftware/KisakBlack/commit/306bb14a8e052a6244bd1df4e4df7d8504c04ef4",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 235
-      },
-      "ai_used": null
-    },
-    "skate-3-skate-3-rust-engine": {
-      "name": "Skate 3 (Skate 3 Rust Engine)",
-      "platforms": [
-        "Xbox 360"
-      ],
-      "repository_url": "https://github.com/SK8-ENGINE/skate-3-rust-engine",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2026-10-09T09:36:00Z",
-        "last_commit_url": "https://github.com/SK8-ENGINE/skate-3-rust-engine/commit/2e16697797c8358d16f747a8259354ff2921041a",
-        "default_branch": "main",
-        "archived": false,
-        "status": "Active",
-        "github_stars": 778
-      },
-      "ai_used": null
     }
   },
   "consoles": {
@@ -5156,22 +5099,6 @@
           ]
         },
         {
-          "project": "five-nights-at-freddy-s-1-4-xbox-360",
-          "name_markdown": "[Five Nights at Freddy's 1-4 (Xbox 360)](https://github.com/Sergey004/FNAF1-Recomp-proj)",
-          "images": [],
-          "notes_markdown": "A very experimental C++ port\\clean-room reconstruction and recompilation of FNAF 1,2,3,4 and SL for the Xbox 360 (No Assets Included) This project is NOT...",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/Sergey004/FNAF1-Recomp-proj"
-            }
-          ]
-        },
-        {
           "project": "flatout-ultimate-carnage",
           "name_markdown": "[FlatOut: Ultimate Carnage](https://github.com/ZackWilde27/FlatOut-UC-Decomp)",
           "images": [],
@@ -6736,38 +6663,6 @@
             {
               "name": "Static recompilation",
               "url": "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo"
-            }
-          ]
-        },
-        {
-          "project": "call-of-duty-black-ops-webgpu",
-          "name_markdown": "[Call of Duty: Black Ops (WebGPU))](https://github.com/SwagSoftware/KisakBlack)",
-          "images": [],
-          "notes_markdown": "BLOPS Open Source Reimplementation",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/SwagSoftware/KisakBlack"
-            }
-          ]
-        },
-        {
-          "project": "skate-3-skate-3-rust-engine",
-          "name_markdown": "[Skate 3 (Skate 3 Rust Engine)](https://github.com/SK8-ENGINE/skate-3-rust-engine)",
-          "images": [],
-          "notes_markdown": "Rust and Bevy skating project based on Skate 3 reverse-engineering research. Game assets not included.",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/SK8-ENGINE/skate-3-rust-engine"
             }
           ]
         }

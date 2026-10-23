@@ -210,25 +210,6 @@
       },
       "ai_used": null
     },
-    "riiablo": {
-      "name": "Riiablo",
-      "platforms": [
-        "Android"
-      ],
-      "repository_url": "https://github.com/collinsmith/riiablo",
-      "project_type": "Reimplementation",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "last_commit_at": "2025-01-13T06:57:39Z",
-        "last_commit_url": "https://github.com/collinsmith/riiablo/commit/59aa8d5021c457e8d2891bb23c9e3a0ef724c6b3",
-        "default_branch": "master",
-        "archived": false,
-        "status": "Inactive",
-        "github_stars": 1106
-      },
-      "ai_used": null
-    },
     "super-cat-tales-paws": {
       "name": "Super Cat Tales: PAWS",
       "platforms": [
@@ -423,22 +404,6 @@
             {
               "name": "Fan remake",
               "url": "https://github.com/b3dgs/lionheart-remake"
-            }
-          ]
-        },
-        {
-          "project": "riiablo",
-          "name_markdown": "[Riiablo](https://github.com/collinsmith/riiablo)",
-          "images": [],
-          "notes_markdown": "Diablo II remade using Java and LibGDX",
-          "completion_percent": null,
-          "completion_qualifier": "",
-          "completion_metric": "completion",
-          "ports": [],
-          "project_types": [
-            {
-              "name": "Reimplementation",
-              "url": "https://github.com/collinsmith/riiablo"
             }
           ]
         },
