@@ -83,7 +83,30 @@ Full original-cartridge rebuild verified with those 419 C selections | 18:10:17 
 
 These are wall-clock observations from our import/match records and build log, not a controlled model benchmark. The session included compressed-code investigation, RNC tool fixes, compiler comparisons, manual refinement, and build verification. The earlier macOS port and tools installed before the first import are outside this timing. Much of the routine drafting and matching was done by the local tools; GPT-6.1 Sol helped direct and repair the workflow.
 
-**Do not extrapolate 30 minutes to a completion date.** The remaining 1,950 candidates include harder functions, and code still needs boundary and type review. Most of the verified rebuild still uses assembly. Another game, machine, compiler setup, or agent model may behave differently; we have not measured this run with Claude Code. See [the detailed Turok case study](#turok-europe-a-rom-only-case-study-in-progress) and [source checkpoint](https://github.com/RetroReversing/turok-decomp) for the exact input, compiler settings, and remaining work.
+**Do not extrapolate 30 minutes to a completion date.** At that checkpoint, the remaining 1,950 open candidates included harder functions, and code still needs boundary and type review. Most of the verified rebuild still uses assembly. Another game, machine, compiler setup, or agent model may behave differently; we have not measured this run with Claude Code. See [the detailed Turok case study](#turok-europe-a-rom-only-case-study-in-progress) and [source checkpoint](https://github.com/RetroReversing/turok-decomp) for the exact input, compiler settings, and remaining work.
+
+### What Another 30 Minutes With Terra Added
+We then gave **GPT-5.6 Terra** an isolated copy of the 419-function checkpoint and a 30-minute matching window. On 23 October 2026, that window ran from **20:55:45 to 21:25:45 BST**. Setup began at 20:50:07 BST; copying the workspace and subsequent backup and verification work were outside the matching window.
+
+The [measurement record](/public/data/n64-terra-30min-20261023.json) lists the 23 added functions, source hashes, compiler settings, and independent comparison results. The comparison keeps the same 626,012-byte detected-code denominator:
+
+Measurement | Starting checkpoint | After Terra | Gain
+---|---|---|---
+Exactly matching C functions | 419 | 442 | 23
+Matching code bytes | 26,112 | 27,964 | 1,852
+Detected-code coverage | 4.171% | 4.467% | 0.296 percentage points
+
+Rounded to one decimal place, this moved **4.2% to 4.5%**. This was a continuation with prepared drafts, installed tools, and compiler settings already available. It is not a comparison of the two models' speed or ability, and it does not establish a sustainable completion rate.
+
+The useful findings were in the C representation of the existing assembly:
+* **Recover stack workspaces** - Some m2c drafts modeled an address-passed workspace as a single scalar. In `func_80033F64`, a five-word local array with an interior pointer reproduced the target's stack offsets and matched all 332 bytes. Check the stack accesses and callees before deciding whether a local is a scalar, array, or structure.
+* **Recover forwarded arguments** - Small wrappers sometimes left incoming argument registers untouched while setting a later argument. A draft that passed only the visible constant put it in the wrong register. For example, `func_80049504` matched when represented as forwarding two incoming arguments followed by `0x13`. Inspect the caller and callee together rather than trusting an incomplete inferred prototype.
+* **Inspect temporary lifetimes** - Reducing artificial m2c temporaries helped `func_800112D8` match 140 bytes. Local declaration order and padding also affected generated stack accesses. These are compiler-specific matching hypotheses; they do not prove the original variable names or source layout.
+* **Stop unproductive searches** - The bounded decomp-permuter pass found no additional exact matches in this follow-up. Targeted edits produced the reported gains. A search that helped an earlier batch need not help the next one.
+
+These candidates still need type and readability review. Some retain unknown-type placeholders, provisional declarations, or stack-offset expressions that should not be copied as general C programming practice. Exact machine-code matching is evidence about the selected compiler output, not proof that the recovered source is portable or that its gameplay meaning is understood.
+
+**Verification and recovery:** the experiment database failed during the first post-deadline backup. We reconstructed the isolated state from the untouched baseline and the 23 recovered candidates. All 23 recovered candidates passed independent per-function comparisons afterward. A full rebuild selected 442 C functions out of 2,405 exported functions, with no rejected C selections, and reproduced the original 8,388,608-byte cartridge byte for byte. Its normalized SHA-1 remained `88916d5d2e2470f395ad8f4245d34138ef2d156a`. This verification was outside the 30-minute score window; assembly supplied the remaining code. The published source repository linked above remains the separately verified 419-function checkpoint; this follow-up is an isolated experiment.
 
 ---
 ## Try One Function Before Installing Anything
@@ -246,7 +269,9 @@ The IDO 5.3 attempts used these working flags from the tool's compiler registry:
 
 Keep those settings in your log when comparing a candidate. They are measured working settings for this experiment; they do not prove that every function or library in the ROM used that configuration.
 
-The automatic draft pass, byte-pointer refinement, manual recovery, and bounded mutation pass reached **419 exact function matches, covering 26,112 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17.4% by function count but only 4.2% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
+The initial automatic draft pass, byte-pointer refinement, manual recovery, and bounded mutation pass reached **419 exact function matches, covering 26,112 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17.4% by function count but only 4.2% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
+
+The [30-minute Terra continuation](#what-another-30-minutes-with-terra-added) later reached 442 exact matches and 27,964 bytes using the same denominator. The counts and build described below refer to the initial 419-function checkpoint.
 
 A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
 
