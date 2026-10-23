@@ -134,7 +134,7 @@ Retained matching C functions | 442 | 886 | 444
 Matching code bytes | 27,964 | 61,836 | 33,872
 Detected-code coverage | 4.467% | 9.878% | 5.411 percentage points
 
-The denominator remains **626,012 detected candidate-code bytes**. This is approximately **4.5% to 9.9%** when rounded to one decimal place. The final original-cartridge rebuild for this retained selection is pending; these are the conservative selection counts, not yet a fully rebuilt score.
+The denominator remains **626,012 detected candidate-code bytes**. This is approximately **4.5% to 9.9%** when rounded to one decimal place. **The final original-cartridge rebuild passed**, selecting all 886 retained C functions out of 2,405 exported functions. It reproduced the complete 8,388,608-byte normalized original cartridge byte for byte, with SHA-1 `88916d5d2e2470f395ad8f4245d34138ef2d156a`. Verification finished at **23:14:24 BST**, about 12 minutes 39 seconds after the matching window closed; that time includes independent recompilation and both full-build attempts. The five rejected C candidates remain assembly in the verified build.
 
 The productive changes were:
 * **Recover records passed by value** - A ROM-derived 12-byte record explained a family of wrappers that machine drafts could not compile correctly. A typed candidate established the pattern, then bounded generation and individual compiler checks recovered another 276 wrappers covering 20,976 bytes. This family accounts for much of the gain; the result should not be extrapolated across unrelated code.
