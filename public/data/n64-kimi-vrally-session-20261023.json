@@ -58,5 +58,18 @@
     "Usage sums include repeated cached context; they do not establish billing or quota weighting.",
     "The starting allowance remaining is unknown.",
     "No successful matching trial occurred, so this is not a model matching benchmark."
-  ]
+  ],
+  "follow_up_validation": {
+    "separate_from_kimi_session": true,
+    "tool_fix_pr": "https://github.com/RetroReversing/decompdecomp/pull/3",
+    "tool_commit": "72cac6c9df215754aae698283cafc68b3ed26bb3",
+    "candidate_functions": 2121,
+    "candidate_bytes": 565980,
+    "selected_c_functions": 0,
+    "exported_functions": 2122,
+    "normalized_original_byte_identical": true,
+    "rom_size_bytes": 12582912,
+    "normalized_sha1": "da3f262dfb86cff1376c9a1aa081212e5a7aad64",
+    "coverage_status": "Candidate discovery remains provisional; no C matching pass was performed."
+  }
 }
