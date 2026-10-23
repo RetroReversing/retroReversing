@@ -144,6 +144,8 @@ linked-byte judge passes. Report code coverage separately from matches.
 ### Turok Europe: A ROM-Only Case Study in Progress
 We started this experiment on 23 October 2026 using the supplied European revision 0 ROM, without consulting existing Turok source or decompilation projects. **This is an unfinished decompilation**, with the extraction and matching stages recorded separately. These measurements describe this exact input, not every Turok release.
 
+The [Turok decompilation repository](https://github.com/RetroReversing/turok-decomp) contains the 419-function C checkpoint, build configuration, and a preparation script. Supply your own supported ROM to regenerate the assembly and assets locally; no ROM or compiler binaries are included.
+
 The initial inspection established the following baseline:
 
 Measurement | ROM-derived result
