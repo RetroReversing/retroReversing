@@ -33,37 +33,51 @@ This is the complete starter prompt; it has no placeholders to fill in:
 
 {% capture n64_starter_prompt %}
 Help me start a matching decompilation of the N64 ROM I am supplying.
-Use the attached ROM, or the local ROM path in my message.
-If you cannot access it, ask me for its full local path.
+Use my attached ROM or local path. If inaccessible, ask for its full path.
 
-Use RetroReversing's decompdecomp fork:
+Use the main branch of RetroReversing's decompdecomp fork:
 https://github.com/RetroReversing/decompdecomp
-Check out this tested revision, which includes RNC-packed code support:
-af853d2f0da41ded2a9c9436ab2eb460f915b25b
-Read its README and AGENTS.md, detect my operating system, and set up
-its supported tools in a new dedicated workspace. Preserve my input
-ROM and any existing decompdecomp projects. Ask for my acceptance
-before installing a proprietary compiler; do not accept for me.
+Record the exact commit used. Read README and AGENTS.md, detect my OS,
+and use supported tools in a new dedicated workspace. Preserve my ROM
+and existing projects. Reuse verified installed tools where suitable.
+Ask before installing a proprietary compiler; do not accept its license
+for me. Create workspace and database parent directories before import.
+Disable app windows, tray, updates, and agent discovery for isolated work.
 
-Start from my ROM. Do not consult existing source for this game,
-other game decompilation projects, leaked code, or source-derived maps.
-Tool code and generic hardware/format documentation are allowed.
-Keep my ROM, extracted binaries, disassembly, and recovered C local.
+Work from my ROM. Do not consult existing game source, other game
+decompilation projects, leaked code, or source-derived maps. Tool code
+and generic hardware/format documentation are allowed. Keep my ROM,
+extracted binaries, disassembly, and recovered C local.
 
-Identify byte order, region, revision, and hashes, then import the ROM.
-Check that discovery reaches the main program, not just a small loader.
-If code is compressed or import fails, investigate and explain the
-obstacle. Treat compiler detection as a hypothesis and compare settings.
+Keep this first session within 30 minutes of wall time, including setup.
+Use one agent unless I ask for delegation. After required instructions,
+read only code needed for the current stage; avoid an architecture survey.
+Before calling an unfamiliar API, read its signature and one real usage.
+Keep tool output short and save detailed logs to files.
 
-Run the automatic draft/matching pass, then investigate a small function.
-Keep the original targets and judge fixed. Accept C only after compiling
-and linking it to the exact target bytes. Save the best attempts and an
-audit log so we can continue. Export a checkpoint and verify the full
-original ROM where supported; distinguish it from an analysis image.
+First identify byte order, region, revision, and hashes, then import.
+Validate that discovery reaches the main CPU program and distinguishes
+RSP microcode/data from CPU code. Do not trust compiler detection or
+candidate-code coverage without checking their evidence.
+If import fails, preserve the failing config and full error. Investigate
+for at most 10 minutes or five hypothesis-driven attempts, whichever comes
+first. Do not bypass validation, delete required sections, or change the
+target to make import pass. If still blocked, save a reproducible diagnosis
+and stop with a clear report rather than using the remaining quota.
 
-Report matched C bytes and functions, detected-code coverage, remaining
-assembly, actual build results, elapsed time, and the next obstacle.
-Do not call drafts or an assembly-backed rebuild a full decompilation.
+Only after a successful import, compare plausible compiler settings,
+run a bounded automatic draft/matching pass, and investigate one small
+function. Keep targets and the judge fixed. Accept C only after compiling
+and linking it to the exact original bytes. Save best attempts locally.
+
+Update a short audit/checkpoint after setup, import, an accepted match,
+and any blocking error: commands, hashes, settings, counts, and next step.
+Export and verify the original ROM where supported and within the time
+budget; distinguish it from an analysis image. Stop workers at the budget.
+Report completed and blocked stages, verified C bytes/functions, coverage
+only when its denominator is validated, remaining assembly, actual build
+results, setup versus matching time, and how to resume. An assembly-backed
+rebuild or plausible draft is not a full decompilation.
 {% endcapture %}
 {% include copy-prompt.html id="n64-starter-prompt" text=n64_starter_prompt %}
 
@@ -107,6 +121,37 @@ The useful findings were in the C representation of the existing assembly:
 These candidates still need type and readability review. Some retain unknown-type placeholders, provisional declarations, or stack-offset expressions that should not be copied as general C programming practice. Exact machine-code matching is evidence about the selected compiler output, not proof that the recovered source is portable or that its gameplay meaning is understood.
 
 **Verification and recovery:** the experiment database failed during the first post-deadline backup. We reconstructed the isolated state from the untouched baseline and the 23 recovered candidates. All 23 recovered candidates passed independent per-function comparisons afterward. A full rebuild selected 442 C functions out of 2,405 exported functions, with no rejected C selections, and reproduced the original 8,388,608-byte cartridge byte for byte. Its normalized SHA-1 remained `88916d5d2e2470f395ad8f4245d34138ef2d156a`. This verification was outside the 30-minute score window; assembly supplied the remaining code. The published source repository linked above remains the separately verified 419-function checkpoint; this follow-up is an isolated experiment.
+
+---
+## What the Kimi Code V-Rally Attempt Revealed
+A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The supplied session was labeled K2.8; its export records the alias `kimi-code/kimi-for-coding`, so the archive alone does not verify the underlying model version.
+
+**The run stopped during import, before matching C.** It preserved the ROM, identified its pair-swapped byte order, recorded hashes, checked out the requested fork revision, and installed free tools. Its first custom import script omitted the database parent directory; creating that directory resolved the initial error. The next import exposed a generated segment/BSS configuration problem.
+
+The exported activity spans **21:22:18 to 21:40:34 BST, about 18 minutes 16 seconds**. The final provider error says the **five-hour usage allowance** was exhausted. This does not mean the agent worked for five hours, and the archive does not show how much allowance remained when it started.
+
+The [sanitized session measurements](/public/data/n64-kimi-vrally-session-20261023.json) sum each recorded usage event once:
+
+Recorded usage | Main agent | Exploration helper | Total
+---|---|---|---
+Successful usage records | 58 | 23 | 81
+Uncached input tokens | 104,288 | 140,846 | 245,134
+Cached input tokens read | 3,651,840 | 1,901,312 | 5,553,152
+Output tokens | 36,855 | 9,178 | 46,033
+
+These are logged processing totals, including repeated cached context. They are not unique-text counts, prices, or a calculation of how Kimi charges its allowance. There were 82 requests; the final main-agent request failed. The exploration helper made 32 file-reading calls across import, compilers, matching, export, server routes, and tests before the first import was completed.
+
+The failure exposed two different problems:
+* **Importer layout** - Adding discovered code segments shortened the original main segment's ROM-backed range. Its BSS extent still depended on the old range. Splat then calculated a parent end of `0x8002E338`, below the explicit BSS start of `0x800A73E0`, and rejected the configuration. Preserving the original BSS address range is required; deleting BSS or disabling validation is not a valid repair.
+* **Unbounded investigation** - The agent repeatedly investigated a suspected duplicate BSS and tried unfamiliar parser APIs with incorrect arguments or nonexistent names. Large source reads and repeated context processing consumed the session without producing a successful import. The only saved audit write still marked completed setup work as pending.
+
+There were **no verified C matches or successful builds in that exported session**. A validated coverage denominator was not established, so a whole-game completion percentage cannot be inferred. The heuristic report of ten extra code segments and 554 KiB was preliminary discovery, not proof that all those bytes were CPU code.
+
+The revised starter prompt limits the first session to 30 minutes, uses one agent by default, requires stage checkpoints, and caps import debugging at ten minutes or five hypothesis-driven attempts. It asks the agent to inspect API signatures before calling them and to stop with a reproducible diagnosis when blocked. It also uses `main` and records its commit rather than pinning new sessions to the earlier experiment revision.
+
+**Importer follow-up:** [the BSS preservation fix](https://github.com/RetroReversing/decompdecomp/pull/3) preserves the original memory extent when discovering additional code, and converts that extent to the actual BSS size during export. Its synthetic regression checks both BSS addresses and repeated discovery. A fresh isolated import with the fix found 2,121 candidates covering 565,980 bytes; these remain candidate-code statistics, and no C matching pass was run. The fix is under review: for this retry, use its `codex/n64-bss-import` branch at `a0e610f` until it is merged into `main`.
+
+This is not a controlled comparison with Sol or Terra. Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with a verified importer, record setup and matching time separately, and retain the original failed-run result alongside the retry.
 
 ---
 ## Try One Function Before Installing Anything
@@ -275,13 +320,7 @@ The [30-minute Terra continuation](#what-another-30-minutes-with-terra-added) la
 
 A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
 
-**Reproduction status:** a fresh import with the new RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and uses instruction patterns to reject blocks that do not look like code. The implementation and tests are in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2), tested at commit `af853d2`. While that change is under review, use its branch for this case study:
-
-```sh
-git fetch origin codex/rom-import-workflow
-git switch codex/rom-import-workflow
-bash site/public/install.sh
-```
+**Reproduction status:** a fresh import with the RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and uses instruction patterns to reject blocks that do not look like code. The implementation and tests were introduced in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2), tested at historical commit `af853d2`. That work is merged into `main`; use the fork's main branch for new sessions and record its exact commit.
 
 After importing, select IDO 5.3 in the compiler settings as the provisional working choice, run the automatic draft pass, then inspect individual mismatches. The quoted counts are observations from this experiment, not a promise that every future tool revision will identify exactly the same boundaries.
 

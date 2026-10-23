@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-23",
+  "source": "User-supplied Kimi Code session export; raw archive remains private and contains a ROM.",
+  "reported_model_label": "K2.8",
+  "recorded_model_alias": "kimi-code/kimi-for-coding",
+  "app_version": "1.1.0",
+  "first_activity_utc": "2026-10-23T20:22:18.846Z",
+  "last_activity_utc": "2026-10-23T20:40:34.731Z",
+  "turn_duration_ms": 1095696,
+  "tool_revision": "af853d2f0da41ded2a9c9436ab2eb460f915b25b",
+  "agents": {
+    "main": {
+      "requests": 59,
+      "usage_records": 58,
+      "usage": {
+        "inputOther": 104288,
+        "output": 36855,
+        "inputCacheRead": 3651840,
+        "inputCacheCreation": 0
+      },
+      "tool_calls": {
+        "TodoList": 3,
+        "Glob": 1,
+        "Bash": 43,
+        "Read": 9,
+        "Agent": 1,
+        "Write": 3,
+        "TaskOutput": 2,
+        "Grep": 3
+      }
+    },
+    "agent-0": {
+      "requests": 23,
+      "usage_records": 23,
+      "usage": {
+        "inputOther": 140846,
+        "output": 9178,
+        "inputCacheRead": 1901312,
+        "inputCacheCreation": 0
+      },
+      "tool_calls": {
+        "Bash": 4,
+        "Read": 32,
+        "Grep": 9
+      }
+    }
+  },
+  "outcome": {
+    "successful_import": false,
+    "verified_c_matches_observed": 0,
+    "successful_rebuild_observed": false,
+    "validated_coverage_denominator": null,
+    "failure_stage": "Import: splat BSS parent extent below explicit BSS start.",
+    "termination": "Provider HTTP 429: five-hour usage allowance exhausted."
+  },
+  "limitations": [
+    "The export does not establish the underlying model version beyond its alias.",
+    "Usage sums include repeated cached context; they do not establish billing or quota weighting.",
+    "The starting allowance remaining is unknown.",
+    "No successful matching trial occurred, so this is not a model matching benchmark."
+  ]
+}
