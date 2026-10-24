@@ -149,6 +149,14 @@ The most valuable reverse engineering projects tend to be the **platform exclusi
 Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStation 2-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_2-only_games)
 
 ---
+## Matching Decompilation Research
+The [Digital Devil Saga 1 and 2 project](https://github.com/Megami-Decomps/dds-decomp) reconstructs readable source for the USA PS2 executables and checks rebuilt executables against retail SHA-1 hashes.
+Unfinished functions use assembly extracted from the original executable, so a matching build is not evidence that all code has been recovered. The project explicitly describes itself as research, not a playable port, and requires the user's own game files [^9].
+
+[ChronicleTwo](https://github.com/TheMoonPeople/ChronicleTwo) reconstructs Dark Chronicle, also known as Dark Cloud 2.
+Its documented PAL build checks the rebuilt executable against retail and supports objdiff comparisons; a separate native-port target is also provided. These build targets should not be confused with an independently verified completion or full-game compatibility claim. The build requires the user's own PAL disc image [^10].
+
+---
 ## Static Recompilation Projects
 Static recompilation translates game code ahead of time for a different host processor. It does not by itself establish a completed matching decompilation or remove the need to reproduce console hardware behavior.
 
@@ -279,3 +287,5 @@ The magazine index collects developer interviews tagged for this system across a
 [^6]: [decomp.wtf - ELF overlay handling and IOP exclusions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py).
 [^7]: [LasVola, God Hand Recompiled README](https://github.com/LasVola/godhand-recomp), progress, implementation and credits, consulted 24 October 2026.
 [^8]: [moesuito, GT4Recomp README](https://github.com/moesuito/gt4-staticrecomp), implementation, performance, known issues and requirements, consulted 24 October 2026.
+[^9]: [Megami-Decomps, Digital Devil Saga 1 and 2 README](https://github.com/Megami-Decomps/dds-decomp), matching-build scope and assembly fallbacks, consulted 24 October 2026.
+[^10]: [TheMoonPeople, ChronicleTwo README](https://github.com/TheMoonPeople/ChronicleTwo), PAL build, objdiff and native-port targets, consulted 24 October 2026.

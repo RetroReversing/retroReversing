@@ -21,6 +21,7 @@ tags:
   - arcade
   - introduction
   - hardware
+updatedAt: '2026-10-24'
 ---
 
 ### What was the first Arcade Video Game?
@@ -133,6 +134,14 @@ Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers 
 
 The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: [https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py](https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py)
 
+
+---
+## Acrobat Mission Rank Analysis
+Pasky's [Acrobat Mission Ghidra analysis](https://x.com/TheRealPasky/status/2113201618447425646) connects the shooter's difficulty system to specific game-state values rather than relying on perceived difficulty.
+The thread reports a separate rank from 0 to 7 for each player, with starting values set by the difficulty DIP switches. Rank rises every 1,800 play updates, approximately 30 seconds at 60 Hz [^13].
+
+According to the analysis, higher rank reduces some shot damage and changes charged-shot hit-check intervals rather than increasing enemy health.
+For the World version, Pasky identifies player rank at `0x80270` and `0x80292`, with timers at `0x80272` and `0x80294`. These are author-reported findings for that version, not addresses established for every release [^13].
 
 ---
 # Speed Up Kits
@@ -268,3 +277,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
 [^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)
 [^12]: [Before Pong, There Was Computer Space - The MIT Press Reader](https://thereader.mitpress.mit.edu/before-pong-there-was-computer-space/)
+[^13]: [Pasky, Acrobat Mission rank-system thread](https://x.com/TheRealPasky/status/2113201618447425646), with [rank timing](https://x.com/TheRealPasky/status/2113202537549484214), [damage behavior](https://x.com/TheRealPasky/status/2113203228212912546) and [World-version addresses](https://x.com/TheRealPasky/status/2113204133184573925), 22 October 2026.
