@@ -15,17 +15,15 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-22'
 ---
 
-# Understanding How Decompilers Work: A Deep Dive
-Decompilers attempt to recover high-level source code from compiled machine code.
-They sit one step above disassemblers on the reverse-engineering ladder: where a disassembler turns bytes into assembly, a decompiler tries to rebuild loops, variables, function calls, and data types that resemble C, C++, or another source language.
+# From Machine Code to Pseudo-C
+A disassembler names the instructions in a ROM or executable. A decompiler goes further, grouping those instructions into variables, calls and control structures that resemble source code.
 
-For retro game research, decompilers are how you turn an opaque ROM or executable into something you can read, annotate, and compare against leaked source or SDK headers.
-The output is almost never identical to the original source, but it can be close enough to follow game logic, identify rendering paths, or bootstrap a full matching decompilation project.
+That C-like view can help trace a game's rendering path or compare a function with surviving SDK headers. It is a reconstruction, though: the compiler may have erased names, merged statements or moved code out of its original function. The assembly remains the evidence when the pseudo-code looks suspicious.
 
-This post explains the decompilation pipeline, the main analysis stages, and why some binaries decompile cleanly while others stay stubbornly unreadable.
+This hub follows the steps between machine instructions and readable output, then connects them to the particular problems found in retro games and matching decompilation projects.
 
 For the disassembly stage that decompilers depend on, see:
 {% include_cached link-to-other-post.html post="/disassemblers" description="Disassemblers - A Deep Dive covers machine-code recovery, control-flow graphs, and interactive analysis." %}
@@ -78,7 +76,7 @@ The word "decompilation" is used in two related ways:
 * **Matching decompilation projects** - Community efforts to rewrite an entire game in C or C++ so it compiles back to the original ROM or executable, such as the [Super Mario 64](/super-mario-64) project.
 
 Tool decompilers help you understand code quickly.
-Matching projects require human judgment, original compiler research, and years of verification.
+Matching projects also need compiler research and repeated compile-and-compare work.
 The pipeline concepts in this post apply to both, but only the tool path is automatic.
 
 ---
@@ -291,6 +289,14 @@ For a platform-specific walkthrough using Ghidra on C++, see:
 # Special Cases in Retro Game Reversing
 Some ecosystems give decompilers extra hooks beyond generic native analysis.
 
+## What If Two Modules Occupy the Same Memory?
+Some games load a piece of code only when it is needed, then replace it with another. The [*Doubutsu no Mori* decompilation guide](https://github.com/zeldaret/af/blob/main/docs/working_with_splat.md) describes actor overlays that are loaded and unloaded, with relocation data to adjust addresses when an overlay enters RAM [^20]. A ROM offset, the overlay's virtual address and its eventual RAM address are different parts of that story.
+
+If two modules can occupy the same address range at different times, one flat memory map cannot describe both sets of bytes. [Ghidra's memory documentation](https://ghidra.re/ghidra_docs/api/ghidra/program/model/mem/Memory.html) provides overlay blocks for alternate contents of a physical region. Within an overlay, discovered code references prefer that overlay's address space when a block exists at the destination offset [^21]. This can keep two functions with the same numeric address distinct, though cross-overlay references still need scrutiny.
+
+The game's loader and relocation records establish which bytes and addresses belong together. A plausible decompilation at the wrong address is still the wrong function.
+
+---
 ## Delphi Binaries
 [Delphi](/delphi) executables often retain class VMTs, RTTI, DFM form resources, and published method names.
 Delphi-aware tools can recover forms, buttons, and event handlers even when method bodies stay assembly-heavy.
@@ -319,6 +325,12 @@ These tools embed the pipeline above behind a GUI and scripting API:
 
 For a broader tool list and related workflows, see:
 {% include_cached link-to-other-post.html post="/tools" description="Retro Game Development Tools lists decompilers, disassemblers, debuggers, and file-format analyzers." %}
+
+---
+## RetDec
+[Cooper](https://www.youtube.com/watch?v=jXYxPenTcHs) presents Peter Matula's Hack.lu lightning talk introducing RetDec, an open-source machine-code decompiler. It offers a short comparison point for the interactive tools discussed here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXYxPenTcHs" title="Hack.lu 2017 Lightning Talk: RetDec: An Open-Source Machine-Code Decompiler by Peter Matula" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 # Limits of Automatic Decompilation
@@ -491,8 +503,9 @@ If you want to experiment with decompilation on a retro binary:
 * Rename one variable and one function, define a struct for a repeated memory access pattern, and re-decompile.
 * Read the disassemblers post first if CFG or basic-block terminology is unfamiliar.
 
-Decompilers reward patience and annotation.
-The first output is a sketch; the useful map is the one you refine.
+Compare each inferred type or branch with the instructions that produced it. A single corrected function signature can make its callers easier to read too.
+
+To practise matching decompilation rather than only reading decompiler output, [Decomp Academy](https://decomp-academy.dev/) offers graded exercises using real GameCube, Game Boy Advance and Nintendo 64 functions. You write C and compare the resulting machine code against the target, which makes compiler behaviour part of the lesson.
 
 ## Starting a Dreamcast decompilation
 <div class="emoji">🔧</div>
@@ -519,3 +532,5 @@ The first output is a sketch; the useful map is the one you refine.
 [^17]: [decomp.wtf - Project-level matching judge tests](https://github.com/i12bp8/decomp.wtf/blob/main/tests/test_fork_judge.py).
 [^18]: [decomp-permuter - Search modes and required inputs](https://github.com/simonlindholm/decomp-permuter).
 [^19]: [decomp.wtf - Source mutation and permutation search](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/permuter.py).
+[^20]: [zeldaret/af - Working with Splat](https://github.com/zeldaret/af/blob/main/docs/working_with_splat.md), "Actors and Overlays".
+[^21]: [Ghidra API - Memory](https://ghidra.re/ghidra_docs/api/ghidra/program/model/mem/Memory.html), overlay block and code-reference behavior.

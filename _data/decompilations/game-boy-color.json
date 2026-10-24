@@ -11,14 +11,12 @@
       "completion_status": "Byte-exact rebuild",
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T14:06:26Z",
-        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-GBC/commit/065a50d35a0f9f81644a62a69fdd5530fa589141",
+        "last_commit_at": "2026-10-22T18:17:48Z",
+        "last_commit_url": "https://github.com/TheGh0stShip/BattleTanx-GBC/commit/97cc8dcfd6a9c104a9c88b55378f87f131fe85ce",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 0
+        "github_stars": 1
       },
       "ai_used": null
     },
@@ -32,12 +30,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2020-05-31T22:34:38Z",
         "last_commit_url": "https://github.com/Ebernacher90/DragonQuestMonstersGerman/commit/d164096f7136ea2c17f4d9e8eddfc27aae5e9b21",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 4
       },
@@ -53,12 +49,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-05-29T14:01:48Z",
         "last_commit_url": "https://github.com/huderlem/carrotcrazy/commit/d4b18699b135214971be1985b22169a1845c9f22",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 15
       },
@@ -74,14 +68,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-06T17:47:13Z",
-        "last_commit_url": "https://github.com/pret/pokegold/commit/ef0201d8daf47e8b3ea1518eacf890f37d4cd5e8",
+        "last_commit_at": "2026-10-21T15:03:49Z",
+        "last_commit_url": "https://github.com/pret/pokegold/commit/fc702b6d922aecce274782d68bba8639936a1182",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 729
+        "github_stars": 732
       },
       "ai_used": null
     },
@@ -95,14 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-06T17:48:07Z",
-        "last_commit_url": "https://github.com/pret/pokecrystal/commit/3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+        "last_commit_at": "2026-10-21T23:28:40Z",
+        "last_commit_url": "https://github.com/pret/pokecrystal/commit/5c877ef55197039c9676e8e3eec6d254b1c40fe8",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 2531
+        "github_stars": 2540
       },
       "ai_used": null
     },
@@ -116,14 +106,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-16T00:27:27Z",
-        "last_commit_url": "https://github.com/DanZC/suiCune/commit/72e804ff964d4e6f9cae38837d45b311fa501868",
+        "last_commit_at": "2026-10-21T22:49:50Z",
+        "last_commit_url": "https://github.com/DanZC/suiCune/commit/1d15c92975947f2ce98cdeda68c194f16a43a55b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 186
+        "github_stars": 187
       },
       "ai_used": null
     },
@@ -137,14 +125,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-12T00:35:18Z",
         "last_commit_url": "https://github.com/pret/pokepinball/commit/0a6f6dca71548a726e6808250b303d9e97a8e2f8",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 202
+        "github_stars": 204
       },
       "ai_used": null
     },
@@ -158,12 +144,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-06T17:50:40Z",
         "last_commit_url": "https://github.com/pret/poketcg/commit/2d81ec3cbff4ebb2fd3f1f770ba245227a702ead",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 333
       },
@@ -179,12 +163,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-22T18:19:56Z",
         "last_commit_url": "https://github.com/pret/pokepuzzle/commit/529e4c96255cdda93c8fa6eb40e5ee15cf56f674",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 81
       },
@@ -200,12 +182,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2020-08-20T15:09:07Z",
         "last_commit_url": "https://github.com/froggestspirit/wland3/commit/29f1df63322efc635074c532e335896edf630515",
         "archived": true,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 21
       },
@@ -221,14 +201,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-25T18:50:29Z",
         "last_commit_url": "https://github.com/zladx/LADX-Disassembly/commit/2a5c2c0d6df93a54df81ae9e1fe28b5c2fd60d03",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 916
+        "github_stars": 918
       },
       "ai_used": null
     },
@@ -242,12 +220,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-02T01:43:28Z",
         "last_commit_url": "https://github.com/Stewmath/oracles-disasm/commit/21c924afdc8a13225e849214479d5113da2ec226",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 221
       },
@@ -263,12 +239,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-06T17:54:21Z",
         "last_commit_url": "https://github.com/pret/poketcg2/commit/228394aadcd03230382cde89af6764f0601d937a",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 96
       },
@@ -284,12 +258,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-02-02T08:09:19Z",
         "last_commit_url": "https://github.com/NiyaDev/DWM/commit/e5d0c57fce9288e2625b585aafa6ea390206e308",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 9
       },
@@ -305,14 +277,392 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-10-08T13:21:19Z",
         "last_commit_url": "https://github.com/animaone/star-ocean-blue-sphere-source-code/commit/6683fa8ed2448ca8dedc30d21198d6f7e593e1b0",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 18
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "deja-vu-i-ii-the-casebooks-of-ace-harding": {
+      "name": "Deja Vu I & II: The Casebooks of Ace Harding",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Hoshiruna/djv1-2disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T18:20:32Z",
+        "last_commit_url": "https://github.com/Hoshiruna/djv1-2disasm/commit/b7ae8ca791ba31b956e015d3c87f3acc47f0fb42",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "dragon-warrior-iii-gbc-dragon-warrior-3-gbc": {
+      "name": "Dragon Warrior III (GBC) (dragon-warrior-3-gbc)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/VariantXYZ/dragon-warrior-3-gbc",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-06-28T23:50:05Z",
+        "last_commit_url": "https://github.com/VariantXYZ/dragon-warrior-3-gbc/commit/cfc909089f464c06553c845e9e3e8aad05be728d",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "hamtaro-ham-hams-unite-hamtaro-in-pieces": {
+      "name": "Hamtaro: Ham-Hams Unite! (hamtaro-in-pieces)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/obskyr/hamtaro-in-pieces",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-04-09T13:32:04Z",
+        "last_commit_url": "https://github.com/obskyr/hamtaro-in-pieces/commit/951eef5008917a714560944a45f7d3c297b59427",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "harry-potter-and-the-sorcerer-s-stone-hpss-disassembly": {
+      "name": "Harry Potter and the Sorcerer's Stone (HPSS-Disassembly)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/terinjokes/HPSS-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-10-24T00:22:17Z",
+        "last_commit_url": "https://github.com/terinjokes/HPSS-Disassembly/commit/338935b1aaa3fde84b009df03a620848ceb58386",
+        "default_branch": "trunk",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "harvest-moon-3-gbc-hm3": {
+      "name": "Harvest Moon 3 GBC (hm3)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Sanqui/hm3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-04-30T10:49:18Z",
+        "last_commit_url": "https://github.com/Sanqui/hm3/commit/40ba02cb369ad58e20f4da0cfb34d6bdba70943f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "keitai-denjuu-telefang": {
+      "name": "Keitai Denjuu Telefang",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/telefang/telefang",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-10-19T13:58:56Z",
+        "last_commit_url": "https://github.com/telefang/telefang/commit/190b171a920e1bde7eb6ad67a046aa0c46da5da7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 103
+      },
+      "ai_used": null
+    },
+    "keitai-denjuu-telefang-telefang-gb": {
+      "name": "Keitai Denjuu Telefang (telefang_gb)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/PikalaxALT/telefang_gb",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-06-05T20:53:15Z",
+        "last_commit_url": "https://github.com/PikalaxALT/telefang_gb/commit/a4efe7b27f81a24e55ec8981e3c4e728881d87f5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons": {
+      "name": "The Legend of Zelda: Oracle of Ages / Oracle of Seasons",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/ZakyPew/epoch-equinox",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-27T20:35:26Z",
+        "last_commit_url": "https://github.com/ZakyPew/epoch-equinox/commit/d8d3cafede0db8b71106dc11ea97dc4186acda7e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons-oracles-decomp": {
+      "name": "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (Oracles Decomp)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/kirby-letsgo/oracles-decomp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T21:30:44Z",
+        "last_commit_url": "https://github.com/kirby-letsgo/oracles-decomp/commit/0ad90d04a8cc257206457440930811834c053d13",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 93
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-oracle-of-ages-seasons-game-boy-color": {
+      "name": "The Legend of Zelda: Oracle of Ages/Seasons",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/thibautbus/top",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T08:44:26Z",
+        "last_commit_url": "https://github.com/thibautbus/top/commit/127081982af7c583f9944225d0109b2d2d4cfa81",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 75
+      },
+      "ai_used": null
+    },
+    "mario-golf-game-boy-color": {
+      "name": "Mario Golf",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/DarkRTA/mgolf",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-11-30T19:21:02Z",
+        "last_commit_url": "https://github.com/DarkRTA/mgolf/commit/9525fe5016960af07995ee74d9d3d37cda32ab17",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "mario-tennis-game-boy-color": {
+      "name": "Mario Tennis (Game Boy Color)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/gerbiljames/mario-tennis-gbc-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:14:17Z",
+        "last_commit_url": "https://github.com/gerbiljames/mario-tennis-gbc-disasm/commit/85319c1161204eb9afa56124238f666fc64c3056",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "medarot-3": {
+      "name": "Medarot 3",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Medabots/medarot3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T07:13:22Z",
+        "last_commit_url": "https://github.com/Medabots/medarot3/commit/b1adb631d2e7ae9e8dfad7000f2f47a9952307c8",
+        "default_branch": "tr_EN",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 49
+      },
+      "ai_used": null
+    },
+    "medarot-4": {
+      "name": "Medarot 4",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Medabots/medarot4",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-02-05T02:51:30Z",
+        "last_commit_url": "https://github.com/Medabots/medarot4/commit/1901614461701697423cbb8292ac04955c2c0ce9",
+        "default_branch": "tr_EN",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "pokemon-gold-silver-crystal-gen2recomped": {
+      "name": "Pokemon Gold / Silver / Crystal (Gen2Recomped)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/UNDERdecoded/Gen2Recomped",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T07:59:38Z",
+        "last_commit_url": "https://github.com/UNDERdecoded/Gen2Recomped/commit/13af468b97dc37015d14ad5c71d7f067c3ee810d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 414
+      },
+      "ai_used": null
+    },
+    "pokemon-crystal-pokekuristaru": {
+      "name": "Pokémon Crystal (pokekuristaru)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/PikalaxALT/pokekuristaru",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2017-08-02T01:22:24Z",
+        "last_commit_url": "https://github.com/PikalaxALT/pokekuristaru/commit/2fb3ee8f8c06aeaa89c37defbea8b85466f61260",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "pokemon-gold-and-silver-pokemon-polished-crystal": {
+      "name": "Pokémon Gold and Silver (Pokémon Polished Crystal)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/Rangi42/polishedcrystal",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:57:30Z",
+        "last_commit_url": "https://github.com/Rangi42/polishedcrystal/commit/0aa83fae241d62a62f2d05c19fcc2d1f4bce8b36",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1679
+      },
+      "ai_used": null
+    },
+    "robot-poncots-robopon-sun-star": {
+      "name": "Robot Poncots (Robopon) Sun / Star",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/PikalaxALT/robopon",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-03-01T15:51:20Z",
+        "last_commit_url": "https://github.com/PikalaxALT/robopon/commit/1d84c9a15ad75b14f9df083f48592841980b82dc",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "shantae": {
+      "name": "Shantae",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/vibecodekun/shantaerecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:48:10Z",
+        "last_commit_url": "https://github.com/vibecodekun/shantaerecomp/commit/d870bd2e9969135adb7277bf5b02445a3cd50871",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 8
+      },
+      "ai_used": null
+    },
+    "wario-land-3-warioland3": {
+      "name": "Wario Land 3 (warioland3)",
+      "platforms": [
+        "Game Boy Color"
+      ],
+      "repository_url": "https://github.com/ElectroDeoxys/warioland3",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-16T23:20:00Z",
+        "last_commit_url": "https://github.com/ElectroDeoxys/warioland3/commit/560fce6faf50df4a48c0448f00105b6075f8f231",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
       },
       "ai_used": null
     }
@@ -641,6 +991,380 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/animaone/star-ocean-blue-sphere-source-code"
+            }
+          ]
+        },
+        {
+          "project": "deja-vu-i-ii-the-casebooks-of-ace-harding",
+          "name_markdown": "[Deja Vu I & II: The Casebooks of Ace Harding](https://github.com/Hoshiruna/djv1-2disasm)",
+          "images": [],
+          "notes_markdown": "A disassembly of the Game Boy Color game Deja Vu I &amp; II - The Casebooks of Ace Harding.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Hoshiruna/djv1-2disasm"
+            }
+          ]
+        },
+        {
+          "project": "dragon-warrior-iii-gbc-dragon-warrior-3-gbc",
+          "name_markdown": "[Dragon Warrior III (GBC) (dragon-warrior-3-gbc)](https://github.com/VariantXYZ/dragon-warrior-3-gbc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Dragon%20Warrior%20III%20%28USA%29.png",
+              "alt": "Dragon Warrior III (GBC) (dragon-warrior-3-gbc) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dragon Warrior 3 GBC disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/VariantXYZ/dragon-warrior-3-gbc"
+            }
+          ]
+        },
+        {
+          "project": "hamtaro-ham-hams-unite-hamtaro-in-pieces",
+          "name_markdown": "[Hamtaro: Ham-Hams Unite! (hamtaro-in-pieces)](https://github.com/obskyr/hamtaro-in-pieces)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Hamtaro%20-%20Ham-Hams%20Unite%21%20%28USA%29.png",
+              "alt": "Hamtaro: Ham-Hams Unite! (hamtaro-in-pieces) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of the wonderful Game Boy Color game Hamtaro: Ham-Hams Unite!",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/obskyr/hamtaro-in-pieces"
+            }
+          ]
+        },
+        {
+          "project": "harry-potter-and-the-sorcerer-s-stone-hpss-disassembly",
+          "name_markdown": "[Harry Potter and the Sorcerer's Stone (HPSS-Disassembly)](https://github.com/terinjokes/HPSS-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Harry%20Potter%20and%20the%20Sorcerer%27s%20Stone%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CSv%2CNo%2CDa%2CFi%29.png",
+              "alt": "Harry Potter and the Sorcerer's Stone (HPSS-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work in Progress disassembly of Harry Potter and the Sorcerer's Stone (GBC)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/terinjokes/HPSS-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "harvest-moon-3-gbc-hm3",
+          "name_markdown": "[Harvest Moon 3 GBC (hm3)](https://github.com/Sanqui/hm3)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Harvest%20Moon%203%20GBC%20%28USA%29.png",
+              "alt": "Harvest Moon 3 GBC (hm3) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Harvest Moon 3 GBC partial disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Sanqui/hm3"
+            }
+          ]
+        },
+        {
+          "project": "keitai-denjuu-telefang",
+          "name_markdown": "[Keitai Denjuu Telefang](https://github.com/telefang/telefang)",
+          "images": [],
+          "notes_markdown": "Partial Telefang disassembly and English translation (on the patch branch)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/telefang/telefang"
+            }
+          ]
+        },
+        {
+          "project": "keitai-denjuu-telefang-telefang-gb",
+          "name_markdown": "[Keitai Denjuu Telefang (telefang_gb)](https://github.com/PikalaxALT/telefang_gb)",
+          "images": [],
+          "notes_markdown": "Disassembly of Keitai Denjuu Telefang Speed and Power for the Gameboy Color (Japanese)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/PikalaxALT/telefang_gb"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons",
+          "name_markdown": "[The Legend of Zelda: Oracle of Ages / Oracle of Seasons](https://github.com/ZakyPew/epoch-equinox)",
+          "images": [],
+          "notes_markdown": "The Legend of Zelda: Oracle of Ages recompilation using gb-recompiled",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ZakyPew/epoch-equinox"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons-oracles-decomp",
+          "name_markdown": "[The Legend of Zelda: Oracle of Ages / Oracle of Seasons (Oracles Decomp)](https://github.com/kirby-letsgo/oracles-decomp)",
+          "images": [],
+          "notes_markdown": "Native app for the GBC zelda oracle games",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/kirby-letsgo/oracles-decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-oracle-of-ages-seasons-game-boy-color",
+          "name_markdown": "[The Legend of Zelda: Oracle of Ages/Seasons](https://github.com/thibautbus/top)",
+          "images": [],
+          "notes_markdown": "The Oracles Project - A faithful, moddable port of Oracle of Ages and Oracle of Seasons for PC, macOS and Android: your own ROM...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/thibautbus/top"
+            }
+          ]
+        },
+        {
+          "project": "mario-golf-game-boy-color",
+          "name_markdown": "[Mario Golf](https://github.com/DarkRTA/mgolf)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Mario%20Golf%20%28USA%29.png",
+              "alt": "Mario Golf box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Mario Golf (GBC)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/DarkRTA/mgolf"
+            }
+          ]
+        },
+        {
+          "project": "mario-tennis-game-boy-color",
+          "name_markdown": "[Mario Tennis (Game Boy Color)](https://github.com/gerbiljames/mario-tennis-gbc-disasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Mario%20Tennis%20%28USA%29.png",
+              "alt": "Mario Tennis (Game Boy Color) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of Mario Tennis for the Game Boy Color, with an Archipelago integration on the archipelago branch",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/gerbiljames/mario-tennis-gbc-disasm"
+            }
+          ]
+        },
+        {
+          "project": "medarot-3",
+          "name_markdown": "[Medarot 3](https://github.com/Medabots/medarot3)",
+          "images": [],
+          "notes_markdown": "Medarot 3 GBC disassembly/translation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Medabots/medarot3"
+            }
+          ]
+        },
+        {
+          "project": "medarot-4",
+          "name_markdown": "[Medarot 4](https://github.com/Medabots/medarot4)",
+          "images": [],
+          "notes_markdown": "Medarot 4 GBC disassembly/translation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Medabots/medarot4"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-gold-silver-crystal-gen2recomped",
+          "name_markdown": "[Pokemon Gold / Silver / Crystal (Gen2Recomped)](https://github.com/UNDERdecoded/Gen2Recomped)",
+          "images": [],
+          "notes_markdown": "Generation 2 Pokemon Recomp forked from Gen1Recomp and modified",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/UNDERdecoded/Gen2Recomped"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-crystal-pokekuristaru",
+          "name_markdown": "[Pokémon Crystal (pokekuristaru)](https://github.com/PikalaxALT/pokekuristaru)",
+          "images": [
+            {
+              "alt": "Pokemon Crystal box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Pokemon%20-%20Crystal%20Version%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Pokemon Crystal (J)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/PikalaxALT/pokekuristaru"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-gold-and-silver-pokemon-polished-crystal",
+          "name_markdown": "[Pokémon Gold and Silver (Pokémon Polished Crystal)](https://github.com/Rangi42/polishedcrystal)",
+          "images": [],
+          "notes_markdown": "An upgrade to Pokémon Crystal. Brings features and content up to date, and adds some original content.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Rangi42/polishedcrystal"
+            }
+          ]
+        },
+        {
+          "project": "robot-poncots-robopon-sun-star",
+          "name_markdown": "[Robot Poncots (Robopon) Sun / Star](https://github.com/PikalaxALT/robopon)",
+          "images": [],
+          "notes_markdown": "Robot Poncots (ロボポン) Sun and Star (Japanese)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/PikalaxALT/robopon"
+            }
+          ]
+        },
+        {
+          "project": "shantae",
+          "name_markdown": "[Shantae](https://github.com/vibecodekun/shantaerecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Shantae%20%28USA%29.png",
+              "alt": "Shantae box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Shantae (GBC) static recompilation for Windows and Linux, with an expanded view, no slowdown, rewind and shader presets. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/vibecodekun/shantaerecomp"
+            }
+          ]
+        },
+        {
+          "project": "wario-land-3-warioland3",
+          "name_markdown": "[Wario Land 3 (warioland3)](https://github.com/ElectroDeoxys/warioland3)",
+          "images": [
+            {
+              "alt": "Wario Land 3 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Color/master/Named_Boxarts/Wario%20Land%203%20%28World%29%20%28En%2CJa%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Wario Land 3 Disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ElectroDeoxys/warioland3"
             }
           ]
         }

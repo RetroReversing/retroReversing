@@ -132,16 +132,50 @@ class ActivityTests(unittest.TestCase):
                     self.assertTrue(all(isinstance(name, str) and name for name in port['project_types']))
                 for image in row.get('images', []):
                     self.assertTrue(image['url'].startswith(('https://', 'http://', '/')))
-        for project in catalog['projects'].values():
+        separate, _ = activity.load_catalog(activity.ROOT / '_data/reimplementations')
+        for project in list(catalog['projects'].values()) + list(separate['projects'].values()):
             self.assertIn('ai_used', project)
             self.assertTrue(project['ai_used'] is None or type(project['ai_used']) is bool)
             evidence = project['activity']
+            self.assertNotIn('checked_at', evidence)
+            self.assertNotIn('last_success_at', evidence)
             self.assertIn('github_stars', evidence)
             stars = evidence['github_stars']
             self.assertTrue(stars is None or (type(stars) is int and stars >= 0))
             if evidence.get('last_commit_at'):
                 activity.timestamp(evidence['last_commit_at'])
                 self.assertTrue(evidence['last_commit_url'].startswith('https://'))
+
+    def test_reimplementations_are_separate_from_decompilation_tables(self):
+        decomps, _ = activity.load_catalog(activity.DEFAULT_DATA)
+        reimplementations, sources = activity.load_catalog(activity.ROOT / '_data/reimplementations')
+        self.assertTrue(reimplementations['projects'])
+        self.assertFalse(decomps['projects'].keys() & reimplementations['projects'].keys())
+        for project in decomps['projects'].values():
+            self.assertNotIn('reimplement', project['project_type'].lower())
+        for console in decomps['consoles'].values():
+            for row in console['rows']:
+                types = [t['name'] for t in row['project_types']]
+                types += [t for port in row['ports'] for t in port['project_types']]
+                self.assertFalse(any('reimplement' in name.lower() for name in types))
+        for path, (data, _) in sources.items():
+            self.assertTrue(set(data['consoles']) <= {path.stem})
+            for console in data['consoles'].values():
+                for row in console['rows']:
+                    self.assertIn(row['project'], data['projects'])
+                    self.assertTrue(row['project_types'])
+            for project in data['projects'].values():
+                self.assertIn('ai_used', project)
+                self.assertIn('github_stars', project['activity'])
+                self.assertNotIn('checked_at', project['activity'])
+                self.assertNotIn('last_success_at', project['activity'])
+        # Mixed entries retain their source reconstructions on the decomp page.
+        self.assertEqual(decomps['projects']['crimsonland']['project_type'], 'Matching decompilation')
+        self.assertIn('super-mario-world', decomps['projects'])
+        self.assertNotIn('battle-city-browser-reimplementation', decomps['projects'])
+        self.assertIn('the-legend-of-zelda-a-link-to-the-past-recompilation', decomps['projects'])
+        self.assertIn('the-legend-of-zelda-a-link-to-the-past', reimplementations['projects'])
+        self.assertIn('super-mario-world-snesrev', reimplementations['projects'])
 
     def test_http_rate_limit_detection(self):
         error = HTTPError('https://api.github.com/repos/o/r', 403, 'Forbidden', {'X-RateLimit-Remaining': '0'}, None)
@@ -234,6 +268,38 @@ class ActivityTests(unittest.TestCase):
             self.assertIs(projects[str(i)]['ai_used'], value)
             self.assertEqual(projects[str(i)]['activity']['github_stars'], 0)
 
+    def test_unchanged_daily_refresh_does_not_rewrite_catalog(self):
+        for graphql in (False, True):
+            with self.subTest(graphql=graphql), tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / 'games.json'
+                path.write_text(json.dumps({'schema_version': 1, 'projects': {
+                    'game': {'name': 'Game', 'repository_url': 'https://github.com/o/r',
+                             'ai_used': None, 'activity': {}}}, 'consoles': {}}))
+
+                def client():
+                    fixture = FixtureClient([
+                        {'default_branch': 'main', 'stargazers_count': 12},
+                        [{'commit': {'committer': {'date': '2026-10-10T00:00:00Z'}},
+                          'html_url': 'https://github.com/o/r/commit/abc'}]])
+                    fixture.graphql = lambda query: {'data': {'r0': self.graphql_node()}}
+                    return fixture
+
+                data, sources = activity.load_catalog(path)
+                self.assertEqual(activity.refresh(data, client(), NOW, github_graphql=graphql), (1, 0))
+                activity.save_catalog(sources)
+                original = path.read_bytes()
+                data, sources = activity.load_catalog(path)
+                self.assertEqual(activity.refresh(data, client(), NOW + dt.timedelta(days=1),
+                                                  github_graphql=graphql), (1, 0))
+                with patch.object(Path, 'replace') as replace:
+                    activity.save_catalog(sources)
+                    replace.assert_not_called()
+                self.assertEqual(path.read_bytes(), original)
+                evidence = data['projects']['game']['activity']
+                self.assertEqual(evidence['last_commit_at'], '2026-10-10T00:00:00Z')
+                self.assertNotIn('checked_at', evidence)
+                self.assertNotIn('last_success_at', evidence)
+
     def test_invalid_star_count_preserves_previous_snapshot(self):
         for stars in (-1, True, '12', None):
             with self.subTest(stars=stars):
@@ -247,7 +313,7 @@ class ActivityTests(unittest.TestCase):
                     self.assertEqual(project['activity'][key], value)
 
     def test_transient_failure_preserves_evidence_and_completion(self):
-        old = {'github_stars': 23, 'status': 'Active', 'last_commit_at': '2026-09-01T00:00:00Z', 'last_commit_url': 'https://github.com/o/r/commit/abc', 'last_success_at': '2026-09-02T00:00:00Z'}
+        old = {'github_stars': 23, 'status': 'Active', 'last_commit_at': '2026-09-01T00:00:00Z', 'last_commit_url': 'https://github.com/o/r/commit/abc'}
         project = {'name': 'Game', 'repository_url': 'https://github.com/o/r', 'completion_status': 'Completed', 'activity': dict(old)}
         data = {'projects': {'game': project}}
         activity.refresh(data, FixtureClient([{'default_branch': 'main', 'stargazers_count': 99},

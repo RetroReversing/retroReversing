@@ -19,6 +19,7 @@ redirect_from:
   - /xbox360/
 tags:
   - xbox360
+updatedAt: '2026-10-24'
 ---
 
 # Introduction
@@ -44,6 +45,16 @@ The [XEO3 Recomp Kit](https://github.com/fxceless/xeo3-recomp-kit) targets Micro
 
 {% include link-to-other-site.html url="https://github.com/fxceless/xeo3-recomp-kit" description="fxceless' XEO3 Recomp Kit recompiles Xbox 360 games into the DLL loaded by Microsoft's XEO3 back-compat emulator. Its README reports Crackdown as playable from a disc folder, Need for Speed: Most Wanted reaching menus and races, and Fable II booting and rendering before freezing." title="XEO3 Recomp Kit" %}
 
+For the separate XenonRecomp toolchain, [this community issue discussion](https://github.com/hedge-dev/XenonRecomp/issues/13) sketches a workflow from an Xbox 360 `.xex` through XenonAnalyse and XenonRecomp to generated code. The comments also explain that a running game still needs platform services such as rendering and kernel functions. Treat the thread as practical notes rather than maintained project documentation.
+
+---
+## Enchanted Arms
+IAndrewJJ's [EnchantedArmsRecomp](https://github.com/IAndrewJJ/EnchantedArmsRecomp), presented as EnchantedArmsPC, is a separate Xbox 360 recompilation project with a launcher that builds from the user's supported USA/Europe game ISO.
+The repository includes no game files [^1].
+
+The README reports testing of menus, saving, loading and early gameplay, while a full playthrough remains in progress. Known issues include invisible or incorrectly shaded characters and brief stutters.
+These limits make it a work-in-progress port resource, not evidence of a completed matching decompilation or full-game compatibility [^1].
+
 ---
 # Hardware
 If you're interested in reverse engineering software for the Xbox 360 gaming console, it's essential to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Xbox 360 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
@@ -66,6 +77,10 @@ The Xbox 360 development hardware is particularly intriguing for those intereste
 
 ## Piracy Hardware
 
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=bw_B3lQxOps) explains how Xbox 360 DVD security was defeated. It provides background for understanding the drive-related hardware and tools in this section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bw_B3lQxOps" title="How the Xbox 360 DVD Security was Defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Xecuter Blaster 360
 The Xecuter Blaster 360 was a permanent install that allows you to flash your drive freely as many times as you need. It had an external switching device when, once fitted, allows you to flash your DVD Firmware without ever having to open up your Xbox 360 case ever again.
 
@@ -86,3 +101,7 @@ The magazine index collects developer interviews tagged for this system across a
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [IAndrewJJ, EnchantedArmsRecomp README](https://github.com/IAndrewJJ/EnchantedArmsRecomp), setup requirements and testing limitations, consulted 24 October 2026.

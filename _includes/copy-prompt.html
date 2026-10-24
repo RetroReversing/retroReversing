@@ -1,0 +1,6 @@
+<div class="rr-copy-prompt">
+  <button type="button" class="btn btn-primary" data-copy-prompt="{{ include.id | escape }}">{{ include.label | default: 'Copy starter prompt' | escape }}</button>
+  <span class="rr-copy-prompt-status" role="status" aria-live="polite"></span>
+  <pre><code id="{{ include.id | escape }}">{{ include.text | strip | escape }}</code></pre>
+</div>
+<script defer src="{{ '/public/js/copy-prompt.js' | relative_url }}"></script>

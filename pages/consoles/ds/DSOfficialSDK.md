@@ -28,6 +28,12 @@ Even although the SDK was renamed to NITRO in version 1.0 it still distributed t
 
 When the Nintendo DSi was released the SDK was once again renamed to the twilight (TWL) SDK.
 
+---
+# Nintendo DS development workflow
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=dvgZs3sUM5Y) explains how Nintendo DS games were made. The overview provides context for the Nitro SDK's tools, libraries and documentation described below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dvgZs3sUM5Y" title="How games were made on the Nintendo DS  | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 # Leaked Versions of the SDK
 Known Leaked versions:
 * **NITRO-SDK 3.0** (Unknown Leak)

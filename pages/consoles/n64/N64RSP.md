@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64RSP.md
-updatedAt: '2020-05-03'
+updatedAt: '2026-10-22'
 ---
 
 # Introduction
@@ -28,11 +28,11 @@ updatedAt: '2020-05-03'
     <img src="/public/N64/N64-RCP-Decapped.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-Unlike most PC hardware at the time the Nintendo 64 has the advantage of having its own stand alone graphics processor known as the `Reality Co-Processor` (RCP). This freed up the main CPU from having to do any graphics calculations and it could use all its processing power for the main game logic.
+The Nintendo 64's separate `Reality Co-Processor` (RCP) handles much of the graphics pipeline. The main CPU still prepares display lists and schedules the graphics tasks that the RSP executes [^11].
 
 The RCP is actually split into two distinct parts one for the Geometry transformations known as the `Reality Signal Processor` (RSP) and the other for the Per-pixel calculations known as the `Reality Display Processor` (RDP).
 
-The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor that deals with data transform. It is a MIPS-based cpu like the main R4000 cpu but it also contains additional 8-bit vector opcodes [^1].
+The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor that deals with data transform. It has a MIPS-style scalar instruction set and vector instructions operating on 128-bit registers. Each vector register can be addressed as eight 16-bit elements [^10].
 
 The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^9].
 
@@ -55,7 +55,7 @@ Common tasks given to the RSP for graphical data processing are:
 * Vertex Transforms (translate, scale, rotate)
 
 ## Usage of RSP for Audio
-Common tasks given to the RSP for graphical data processing are:
+Common tasks given to the RSP for audio processing are:
 * Wavetable Audio format decoding
 * Midi Audio processing
 * MP3 decoding (Conkers Bad Fur Day)
@@ -95,6 +95,15 @@ So most early games used pre-written microcode developed by SGI and Nintendo and
 
 In fact the main reason for the lack of custom microcode development by 3rd party games is due to the poor tools and documentation provided by nintendo. Not to mention the complexity of programming for it and no debugger was provided [^1].
 
+---
+## Identifying a Game's Microcode
+An `OSTask` describes the program the RSP will run. Its `ucode_boot` field points to boot microcode, `ucode` points to task microcode, and `ucode_data` points to task data. The `data_ptr` field points to the command list supplied to that program; it is not itself the RSP executable [^11].
+
+To identify a task in a ROM, follow the code that fills these fields and trace the transfers into RSP instruction memory (IMEM) and data memory (DMEM). Record the loaded bytes, task type, and call site. Compare the microcode with known SDK graphics or audio programs before classifying it as custom. A different display list does not, by itself, imply different microcode [^11].
+
+This distinction also matters for ports and static recompilations. A renderer may understand a known graphics microcode's commands, while an unfamiliar program may need RSP-level analysis. [N64Recomp's RSPRecomp](https://github.com/N64Recomp/N64Recomp) is one route for translating RSP instructions; its overlay support was added in 2025, so check the exact revision and configuration used by a project [^12].
+
+---
 ## The Microcode wizard - Yoshitaka Yasumoto
  **Yoshitaka Yasumoto** is credited in many games as being the microcode programmer (e.g Yoshi's story) but most games use his microcode without explicitly giving credit as it was part of the Official N64 SDK. 
 
@@ -197,3 +206,6 @@ So you could summarize that the purpose of the graphics RSP microcode is to impl
 [^7]: https://level42.ca/projects/ultra64/Documentation/man/pro-man/pro25/index25.4.html 
 [^8]: https://level42.ca/projects/ultra64/Documentation/man/n64man/ucode/gspF3DLP.Rej.html 
 [^9]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n9)
+[^10]: [SGI Nintendo 64 RSP Programmer's Guide](https://ultra64.ca/files/documentation/silicon-graphics/SGI_Nintendo_64_RSP_Programmers_Guide.pdf), scalar/vector instructions and vector register elements.
+[^11]: [Nintendo SDK - OSTask Structure](https://ultra64.ca/files/documentation/online-manuals/functions_reference_manual_2.0i/os/OSTask.html), task microcode, data, and command-list fields.
+[^12]: [N64Recomp RSP overlay support](https://github.com/N64Recomp/N64Recomp/pull/118), merged January 2025.

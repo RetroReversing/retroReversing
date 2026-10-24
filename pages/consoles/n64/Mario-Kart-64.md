@@ -44,6 +44,10 @@ The source code is almost completely written in C and compiled with IDO C compil
 
 ## 2D Graphics & Rendering
 
+[OverKart 64](https://www.youtube.com/watch?v=UdTqP6YyY9Q) explains Mario Kart 64's use of F3DEX. The video is a game-specific companion to the rendering documentation collected here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UdTqP6YyY9Q" title="How Does Mario Kart 64 Work? Part 2: F3DEX" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Gameplay
 
 ## Tracks/World

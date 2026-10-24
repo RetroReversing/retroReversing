@@ -1,0 +1,1075 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "asteroids-asteroids-disassembly": {
+      "name": "Asteroids (asteroids-disassembly)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/nmikstas/asteroids-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2019-12-16T23:57:17Z",
+        "last_commit_url": "https://github.com/nmikstas/asteroids-disassembly/commit/1122a8ec831fcb9fdc6fd8b5525d782553060d51",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 55
+      },
+      "ai_used": null
+    },
+    "daytona-arcade-recomp": {
+      "name": "Daytona Arcade Recomp",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/alphanu1/daytona-arcade-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:42:19Z",
+        "last_commit_url": "https://github.com/alphanu1/daytona-arcade-recomp/commit/f32c48ff9b9bb41ecc7a25d9998c281b9bd0952c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 222
+      },
+      "ai_used": null
+    },
+    "dead-or-alive-jiggle-or-physics": {
+      "name": "Dead or Alive ++ (Jiggle-or-Physics)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/3dge7161/Jiggle-or-Physics",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T18:15:28Z",
+        "last_commit_url": "https://github.com/3dge7161/Jiggle-or-Physics/commit/9e42e3ba122249d14ec2acbcc22f9fca34330f68",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "defender-defender-source-code": {
+      "name": "Defender (Defender-Source-Code)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/AaronBottegal/Defender-Source-Code",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-01-08T17:54:01Z",
+        "last_commit_url": "https://github.com/AaronBottegal/Defender-Source-Code/commit/5f6030d7847c1895954fcbe4b1e3dc7e31823046",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "defender-falcon": {
+      "name": "Defender (Falcon)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/therealsark02/defender",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-17T09:26:21Z",
+        "last_commit_url": "https://github.com/therealsark02/defender/commit/7d5fca0b4cdfdd1df4a57bca1ddc667047274678",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "double-dragon-double-dragon-snes": {
+      "name": "Double Dragon (double-dragon-snes)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/rumbleminze/double-dragon-snes",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T02:04:06Z",
+        "last_commit_url": "https://github.com/rumbleminze/double-dragon-snes/commit/03ed2e59d8afbd3ddff7abf8a88296021d8167f3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "f-zero-ax": {
+      "name": "F-Zero AX",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/TheInfiniteLegend/f-0-ax",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-04-27T22:59:51Z",
+        "last_commit_url": "https://github.com/TheInfiniteLegend/f-0-ax/commit/e74badfcacd4f48039add8d70bca91a7993b2e63",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "green-beret-cadaver-greenberet-disassembly": {
+      "name": "Green Beret (cadaver greenberet-disassembly)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/cadaver/greenberet-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T11:23:22Z",
+        "last_commit_url": "https://github.com/cadaver/greenberet-disassembly/commit/3fa299a295ca1eff636454363dea16ad30d71450",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "initial-d-arcade-stage-ver-3": {
+      "name": "Initial D Arcade Stage Ver.3",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-21T22:54:01Z",
+        "last_commit_url": "https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-/commit/7f182756ea4a0c522733366406eb7c4c873e5130",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 160
+      },
+      "ai_used": null
+    },
+    "jackal-nes-jackal-disassembly-fully-commented": {
+      "name": "Jackal (NES-Jackal_Disassembly_Fully_Commented)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/RayofJay/NES-Jackal_Disassembly_Fully_Commented",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-05-29T23:28:22Z",
+        "last_commit_url": "https://github.com/RayofJay/NES-Jackal_Disassembly_Fully_Commented/commit/f6788304f7021cb50938238a66123bb1db03a9e6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "jackal-uefi-jackal": {
+      "name": "Jackal (UEFI_Jackal)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/MikeWuPing/UEFI_Jackal",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-22T09:04:42Z",
+        "last_commit_url": "https://github.com/MikeWuPing/UEFI_Jackal/commit/8309f5bbd0a9275167e473a78dd32d4c05cb6b9b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "mario-kart-arcade-gp-2": {
+      "name": "Mario Kart Arcade GP 2",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/naari3/mkgp2-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:06:20Z",
+        "last_commit_url": "https://github.com/naari3/mkgp2-decomp/commit/9cfb1d413486f21068a693f63c6a9841265a2cc0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "sega-rally-championship-96": {
+      "name": "SEGA Rally Championship 96",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/xandoxan65/segarally95-recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T10:14:49Z",
+        "last_commit_url": "https://github.com/xandoxan65/segarally95-recomp/commit/b601713be457a25a81a6cdbd484a0f3d69d32909",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "sinistar": {
+      "name": "Sinistar",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/synamaxmusic/sinistar",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-11-16T23:20:44Z",
+        "last_commit_url": "https://github.com/synamaxmusic/sinistar/commit/1fe5f675205f3d4e05e56b86f29391eccd51f97a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 45
+      },
+      "ai_used": null
+    },
+    "sonic-the-fighters-stfdecomp": {
+      "name": "Sonic The Fighters (stfdecomp)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/biggestsonicfan/stfdecomp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-06-07T17:31:24Z",
+        "last_commit_url": "https://github.com/biggestsonicfan/stfdecomp/commit/62415436523a1dad088c4d8aad648920c4234f9d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 110
+      },
+      "ai_used": null
+    },
+    "street-fighter-alpha-2-street-fighter-alpha-2-recomp": {
+      "name": "Street Fighter Alpha 2 (Street Fighter Alpha 2 Recomp)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/tmcleroy/sfa2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T18:12:57Z",
+        "last_commit_url": "https://github.com/tmcleroy/sfa2-recomp/commit/16810dc5219fc42397917ae5d5c8738c5f79bbd3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "tekken-6-tekken6-recomp": {
+      "name": "Tekken 6 (tekken6-recomp)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/mahmoud-mess/tekken6-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T08:48:39Z",
+        "last_commit_url": "https://github.com/mahmoud-mess/tekken6-recomp/commit/3efad76564e6cf143e0f79685e0dafe143b4c44d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 45
+      },
+      "ai_used": null
+    },
+    "thrill-drive-2-konami-viper-recomp": {
+      "name": "Thrill Drive 2 (konami-viper-recomp)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/spita90/konami-viper-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T09:21:57Z",
+        "last_commit_url": "https://github.com/spita90/konami-viper-recomp/commit/f65fa785c032faf9ef4bb6423e1cceb307805477",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "time-crisis-time-crisis-vr": {
+      "name": "Time Crisis (Time Crisis VR)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/DR-89/time-crisis-vr",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T16:14:08Z",
+        "last_commit_url": "https://github.com/DR-89/time-crisis-vr/commit/fcf1bbc52782fc5273415fe703d5811680bb36b7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 81
+      },
+      "ai_used": null
+    },
+    "time-crisis-ii-namco22-decompile": {
+      "name": "Time Crisis II (namco22-decompile)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/spacestate1/namco22-decompile",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T11:29:27Z",
+        "last_commit_url": "https://github.com/spacestate1/namco22-decompile/commit/39a43e25ce7cfcb27d01f236825a5e920158cacd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 249
+      },
+      "ai_used": null
+    },
+    "vampire-savior-the-lord-of-vampire": {
+      "name": "Vampire Savior: The Lord of Vampire",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/tmcleroy/vampire-savior-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T18:12:58Z",
+        "last_commit_url": "https://github.com/tmcleroy/vampire-savior-recomp/commit/62e2152858c74754243b8f5c3f3546ba7f294c3f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "virtua-cop-2-re-virtua-cop-2": {
+      "name": "Virtua Cop 2 (re-virtua-cop-2)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/jevarg/re-virtua-cop-2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-19T21:47:58Z",
+        "last_commit_url": "https://github.com/jevarg/re-virtua-cop-2/commit/7ae9d0fe5472304339475391bb9f29a480187c8d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "virtua-fighter-virtua-fighter-recomp": {
+      "name": "Virtua Fighter (Virtua Fighter Recomp)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/mr-finster/vf1-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T05:35:19Z",
+        "last_commit_url": "https://github.com/mr-finster/vf1-recomp/commit/df9d7966d83be243ef38035683b9a276c6cb6ab8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 61
+      },
+      "ai_used": null
+    },
+    "virtua-fighter-2": {
+      "name": "Virtua Fighter 2",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/celsowm/vf2-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T04:04:02Z",
+        "last_commit_url": "https://github.com/celsowm/vf2-decomp/commit/83ca4835ce783dd0bc347ced4dbaf455886ef3bf",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "virtua-fighter-2-arcade": {
+      "name": "Virtua Fighter 2",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/mr-finster/vf2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T03:58:52Z",
+        "last_commit_url": "https://github.com/mr-finster/vf2-recomp/commit/689ee98a1608d45792300bdaef09efe117adfc3f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 65
+      },
+      "ai_used": null
+    },
+    "virtua-fighter-3": {
+      "name": "Virtua Fighter 3",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/mr-finster/vf3-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T22:24:40Z",
+        "last_commit_url": "https://github.com/mr-finster/vf3-recomp/commit/d30b722eb492fd05edabc4b6ad428eff972f7c2c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "wizard-of-wor-dabadab-wizardofwor": {
+      "name": "Wizard of Wor (dabadab wizardofwor)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/dabadab/wizardofwor",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-03-21T11:05:34Z",
+        "last_commit_url": "https://github.com/dabadab/wizardofwor/commit/946126a59c4d16105a1431a7075dffbe0c788b5e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "xevious-xevious-arcade-68k-transcode": {
+      "name": "Xevious (xevious (arcade -> 68k transcode))",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/jotd666/xevious",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-22T08:31:34Z",
+        "last_commit_url": "https://github.com/jotd666/xevious/commit/f4e86ebcb6f693895d691ef3823bf6d83511e9bd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "bagman-bagman-arcade-68k-transcode": {
+      "name": "Bagman (bagman (arcade -> 68k transcode))",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/jotd666/bagman",
+      "project_type": "Fan remake",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-02-28T10:31:32Z",
+        "last_commit_url": "https://github.com/jotd666/bagman/commit/1f4b68d31ddf61a3e6b64cd6c3ea0259d35c6e2e",
+        "default_branch": "transcode",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "ms-pac-man-mspacman500-arcade-68k-transcode": {
+      "name": "Ms. Pac-Man (mspacman500 (arcade -> 68k transcode))",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/jotd666/mspacman500",
+      "project_type": "Fan remake",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-05T18:56:02Z",
+        "last_commit_url": "https://github.com/jotd666/mspacman500/commit/d370854d8005366b031848a7a9060c5721927bd8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "arcade": {
+      "name": "Arcade",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "asteroids-asteroids-disassembly",
+          "name_markdown": "[Asteroids (asteroids-disassembly)](https://github.com/nmikstas/asteroids-disassembly)",
+          "images": [],
+          "notes_markdown": "Disassembly of the Asteroids arcade game firmware",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/nmikstas/asteroids-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "daytona-arcade-recomp",
+          "name_markdown": "[Daytona Arcade Recomp](https://github.com/alphanu1/daytona-arcade-recomp)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/alphanu1/daytona-arcade-recomp"
+            }
+          ]
+        },
+        {
+          "project": "dead-or-alive-jiggle-or-physics",
+          "name_markdown": "[Dead or Alive ++ (Jiggle-or-Physics)](https://github.com/3dge7161/Jiggle-or-Physics)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/3dge7161/Jiggle-or-Physics"
+            }
+          ]
+        },
+        {
+          "project": "defender-defender-source-code",
+          "name_markdown": "[Defender (Defender-Source-Code)](https://github.com/AaronBottegal/Defender-Source-Code)",
+          "images": [],
+          "notes_markdown": "Defender arcade game code reverse engineered back into source.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/AaronBottegal/Defender-Source-Code"
+            }
+          ]
+        },
+        {
+          "project": "defender-falcon",
+          "name_markdown": "[Defender (Falcon)](https://github.com/therealsark02/defender)",
+          "images": [],
+          "notes_markdown": "A port of Williams Defender for the Atari ST/STE/Falcon",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/therealsark02/defender"
+            }
+          ]
+        },
+        {
+          "project": "double-dragon-double-dragon-snes",
+          "name_markdown": "[Double Dragon (double-dragon-snes)](https://github.com/rumbleminze/double-dragon-snes)",
+          "images": [],
+          "notes_markdown": "SNES port of the NES game Double Dragon",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/rumbleminze/double-dragon-snes"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-ax",
+          "name_markdown": "[F-Zero AX](https://github.com/TheInfiniteLegend/f-0-ax)",
+          "images": [],
+          "notes_markdown": "The decompilation of F-Zero AX for Triforce",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/TheInfiniteLegend/f-0-ax"
+            }
+          ]
+        },
+        {
+          "project": "green-beret-cadaver-greenberet-disassembly",
+          "name_markdown": "[Green Beret (cadaver greenberet-disassembly)](https://github.com/cadaver/greenberet-disassembly)",
+          "images": [],
+          "notes_markdown": "Disassembly of the C64 version of Green Beret",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cadaver/greenberet-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "initial-d-arcade-stage-ver-3",
+          "name_markdown": "[Initial D Arcade Stage Ver.3](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-)",
+          "images": [],
+          "notes_markdown": "Native SH-4 AOT recompilation of Initial D Arcade Stage 3 (NAOMI 2) - BIOS-free Vulkan public early demo (WIP).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-"
+            }
+          ]
+        },
+        {
+          "project": "jackal-nes-jackal-disassembly-fully-commented",
+          "name_markdown": "[Jackal (NES-Jackal_Disassembly_Fully_Commented)](https://github.com/RayofJay/NES-Jackal_Disassembly_Fully_Commented)",
+          "images": [],
+          "notes_markdown": "A full disassembly for Jackal on the NES.  All sections are commented.  Graphical data is omitted.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/RayofJay/NES-Jackal_Disassembly_Fully_Commented"
+            }
+          ]
+        },
+        {
+          "project": "jackal-uefi-jackal",
+          "name_markdown": "[Jackal (UEFI_Jackal)](https://github.com/MikeWuPing/UEFI_Jackal)",
+          "images": [],
+          "notes_markdown": "UEFI Shell 环境下用 C 语言完整复刻红白机游戏《赤色要塞》（Jackal）：不模拟 NES 硬件，而是把原游戏的 6502 反汇编逐行翻译成平台无关的 C 核心，再以 UEFI GOP 做图形输出、UEFI 服务做输入与定时，在 QEMU（或真实 UEFI 环境）中原生运行",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/MikeWuPing/UEFI_Jackal"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-arcade-gp-2",
+          "name_markdown": "[Mario Kart Arcade GP 2](https://github.com/naari3/mkgp2-decomp)",
+          "images": [],
+          "notes_markdown": "Matching decompilation of Mario Kart Arcade GP2 (GNLJ82) main.dol. PPC code only - no game assets.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/naari3/mkgp2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "sega-rally-championship-96",
+          "name_markdown": "[SEGA Rally Championship 96](https://github.com/xandoxan65/segarally95-recomp)",
+          "images": [],
+          "notes_markdown": "Recomp of SEGA Rally Championship 96 for Model 2 arcade hardware",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/xandoxan65/segarally95-recomp"
+            }
+          ]
+        },
+        {
+          "project": "sinistar",
+          "name_markdown": "[Sinistar](https://github.com/synamaxmusic/sinistar)",
+          "images": [],
+          "notes_markdown": "A source code rewrite to the 1983 arcade game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/synamaxmusic/sinistar"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-fighters-stfdecomp",
+          "name_markdown": "[Sonic The Fighters (stfdecomp)](https://github.com/biggestsonicfan/stfdecomp)",
+          "images": [],
+          "notes_markdown": "A decompilation attempt at Sonic the Fighters",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/biggestsonicfan/stfdecomp"
+            }
+          ]
+        },
+        {
+          "project": "street-fighter-alpha-2-street-fighter-alpha-2-recomp",
+          "name_markdown": "[Street Fighter Alpha 2 (Street Fighter Alpha 2 Recomp)](https://github.com/tmcleroy/sfa2-recomp)",
+          "images": [],
+          "notes_markdown": "Moved to tmcleroy/cps2recomp (CPS-2 Recomp). Unofficial native PC port of Street Fighter Alpha 2 (CPS-2 arcade) via static recompilation, with a training mode.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/tmcleroy/sfa2-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/tmcleroy/sfa2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "tekken-6-tekken6-recomp",
+          "name_markdown": "[Tekken 6 (tekken6-recomp)](https://github.com/mahmoud-mess/tekken6-recomp)",
+          "images": [],
+          "notes_markdown": "Original open-source static recompilation of Tekken 6 (Xbox 360) for native execution on PC. This project provides the recompilation foundation used by downstream projects...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mahmoud-mess/tekken6-recomp"
+            }
+          ]
+        },
+        {
+          "project": "thrill-drive-2-konami-viper-recomp",
+          "name_markdown": "[Thrill Drive 2 (konami-viper-recomp)](https://github.com/spita90/konami-viper-recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation of Konami Viper arcade games (Thrill Drive 2, GTI Club 2) to native code - no game data included",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/spita90/konami-viper-recomp"
+            }
+          ]
+        },
+        {
+          "project": "time-crisis-time-crisis-vr",
+          "name_markdown": "[Time Crisis (Time Crisis VR)](https://github.com/DR-89/time-crisis-vr)",
+          "images": [],
+          "notes_markdown": "Experimental standalone Time Crisis VR port for Meta Quest 3, based on spacestate1/namco22-decompile. OpenXR, tracked pistol, physical ducking and 120 Hz target.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/DR-89/time-crisis-vr"
+            }
+          ]
+        },
+        {
+          "project": "time-crisis-ii-namco22-decompile",
+          "name_markdown": "[Time Crisis II (namco22-decompile)](https://github.com/spacestate1/namco22-decompile)",
+          "images": [],
+          "notes_markdown": "A  decompilation of Namco system 22",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/spacestate1/namco22-decompile"
+            }
+          ]
+        },
+        {
+          "project": "vampire-savior-the-lord-of-vampire",
+          "name_markdown": "[Vampire Savior: The Lord of Vampire](https://github.com/tmcleroy/vampire-savior-recomp)",
+          "images": [],
+          "notes_markdown": "Moved to tmcleroy/cps2recomp (CPS-2 Recomp). Unofficial native PC port of Vampire Savior (CPS-2 arcade) via static recompilation, with a training mode.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/tmcleroy/vampire-savior-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/tmcleroy/vampire-savior-recomp"
+            }
+          ]
+        },
+        {
+          "project": "virtua-cop-2-re-virtua-cop-2",
+          "name_markdown": "[Virtua Cop 2 (re-virtua-cop-2)](https://github.com/jevarg/re-virtua-cop-2)",
+          "images": [],
+          "notes_markdown": "Reverse engineering of Virtua Cop 2 PC (1997)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jevarg/re-virtua-cop-2"
+            }
+          ]
+        },
+        {
+          "project": "virtua-fighter-virtua-fighter-recomp",
+          "name_markdown": "[Virtua Fighter (Virtua Fighter Recomp)](https://github.com/mr-finster/vf1-recomp)",
+          "images": [],
+          "notes_markdown": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mr-finster/vf1-recomp"
+            }
+          ]
+        },
+        {
+          "project": "virtua-fighter-2",
+          "name_markdown": "[Virtua Fighter 2](https://github.com/celsowm/vf2-decomp)",
+          "images": [],
+          "notes_markdown": "Clean-room, non-matching C decompilation project for Virtua Fighter 2 Version 2.1 (Sega Model 2 / i960)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/celsowm/vf2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "virtua-fighter-2-arcade",
+          "name_markdown": "[Virtua Fighter 2](https://github.com/mr-finster/vf2-recomp)",
+          "images": [],
+          "notes_markdown": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mr-finster/vf2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "virtua-fighter-3",
+          "name_markdown": "[Virtua Fighter 3](https://github.com/mr-finster/vf3-recomp)",
+          "images": [],
+          "notes_markdown": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mr-finster/vf3-recomp"
+            }
+          ]
+        },
+        {
+          "project": "wizard-of-wor-dabadab-wizardofwor",
+          "name_markdown": "[Wizard of Wor (dabadab wizardofwor)](https://github.com/dabadab/wizardofwor)",
+          "images": [],
+          "notes_markdown": "Wizard of Wor for C64 disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/dabadab/wizardofwor"
+            }
+          ]
+        },
+        {
+          "project": "xevious-xevious-arcade-68k-transcode",
+          "name_markdown": "[Xevious (xevious (arcade -> 68k transcode))](https://github.com/jotd666/xevious)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jotd666/xevious"
+            }
+          ]
+        },
+        {
+          "project": "bagman-bagman-arcade-68k-transcode",
+          "name_markdown": "[Bagman (bagman (arcade -> 68k transcode))](https://github.com/jotd666/bagman)",
+          "images": [],
+          "notes_markdown": "remake of the 1982 arcade game for Windows, NintendoDS and Amiga",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Fan remake",
+              "url": "https://github.com/jotd666/bagman"
+            }
+          ]
+        },
+        {
+          "project": "ms-pac-man-mspacman500-arcade-68k-transcode",
+          "name_markdown": "[Ms. Pac-Man (mspacman500 (arcade -> 68k transcode))](https://github.com/jotd666/mspacman500)",
+          "images": [],
+          "notes_markdown": "Remake of MsPacman for Amiga500 in 68k assembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Fan remake",
+              "url": "https://github.com/jotd666/mspacman500"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -11,14 +11,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-07-02T07:10:39Z",
         "last_commit_url": "https://github.com/sonicretro/kid-chameleon-disasm/commit/5856daef633cd7162acdf9ddf1a56fa81aedc65b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 42
+        "github_stars": 43
       },
       "ai_used": null
     },
@@ -32,14 +30,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2013-12-02T04:53:07Z",
         "last_commit_url": "https://github.com/sonicretro/ktes2/commit/f7c0e72554c5ac0f9c592c71f95166dbd9b72873",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -53,8 +49,6 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2020-08-09T13:16:44Z",
         "last_commit_url": "https://github.com/sung3r/ps2disasm/commit/50e63573bb3b832e6b5222b3b3943e64aa9f19b9",
         "default_branch": "master",
@@ -77,8 +71,6 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2022-05-24T18:54:51Z",
         "last_commit_url": "https://github.com/brecert/ps3disasm/commit/b9b7d609ea6bafdee832bb0d574175fb3fe0a7f5",
         "default_branch": "master",
@@ -101,8 +93,6 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-08-19T21:26:09Z",
         "last_commit_url": "https://github.com/squidfeatures/ps4disasm/commit/8a658314850904c6888969f90177779845133a7e",
         "default_branch": "master",
@@ -125,12 +115,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2013-12-07T05:47:59Z",
         "last_commit_url": "https://github.com/sonicretro/ristar/commit/85b82f10c04e3402769bdad05ea469a472c2f100",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 34
       },
@@ -146,14 +134,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-17T18:42:34Z",
         "last_commit_url": "https://github.com/sonicretro/s1disasm/commit/15dfa3a6ee4c53aeb482233e493755c84b4f3479",
         "archived": false,
         "default_branch": "AS",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 453
+        "github_stars": 456
       },
       "ai_used": null
     },
@@ -167,14 +153,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-16T06:20:32Z",
         "last_commit_url": "https://github.com/sonicretro/s2disasm/commit/4ef457c18fc4902396c43ab06fabc119ac6ecb64",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 318
+        "github_stars": 320
       },
       "ai_used": null
     },
@@ -188,12 +172,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-11T02:05:30Z",
         "last_commit_url": "https://github.com/sonicretro/skdisasm/commit/73de97c6b55055bcb8089c1d55d006b02136f163",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 265
       },
@@ -209,14 +191,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2013-12-02T05:13:35Z",
         "last_commit_url": "https://github.com/sonicretro/s3ddisasm/commit/6d7815119e662b162875d64be58d991fac582f2d",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 30
+        "github_stars": 31
       },
       "ai_used": null
     },
@@ -230,14 +210,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2019-11-28T04:18:15Z",
         "last_commit_url": "https://github.com/sonicretro/spindisasm/commit/d835779e55a36fa204edfa34c1a332d9e3836f6c",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 40
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -251,14 +229,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T21:46:11Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/13e9e0c6131e88666ba6542f841b3e9614c295d3",
+        "last_commit_at": "2026-10-22T11:01:13Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/toy-story-disasm/commit/e3303d2cee4cb8552cdda68da99f8fd92839cff2",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 0
+        "github_stars": 1
       },
       "ai_used": null
     },
@@ -272,14 +248,254 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T21:46:15Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/9c9ae7b5f6ba6de9e042582e43b6660eec930b8a",
+        "last_commit_at": "2026-10-22T11:01:16Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm/commit/2b45e553b1b75b1d80266d7d023a9104f32b0e59",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 0
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "puyo-puyo-puyodisasm": {
+      "name": "Puyo Puyo (puyodisasm)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/Nasina7/puyodisasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-11-16T02:58:21Z",
+        "last_commit_url": "https://github.com/Nasina7/puyodisasm/commit/8bb3dba379c443e02b825ae8e9b1ff7cddfd2e63",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "quackshot-starring-donald-duck-quackshot-src": {
+      "name": "QuackShot Starring Donald Duck (quackshot_src)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/lab313ru/quackshot_src",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2019-01-28T20:25:45Z",
+        "last_commit_url": "https://github.com/lab313ru/quackshot_src/commit/90f7be9961c78ca4df2deede0790789aea944f6e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "shining-force": {
+      "name": "Shining Force",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/ShiningForceCentral/SF1DISASM",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-09-11T02:22:26Z",
+        "last_commit_url": "https://github.com/ShiningForceCentral/SF1DISASM/commit/1f466bf038a64f6bdf3113e484bace0c3c66c6f7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "sonic-3-knuckles": {
+      "name": "Sonic 3 & Knuckles",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/mstan/Sonic3AndKnucklesRecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T23:38:20Z",
+        "last_commit_url": "https://github.com/mstan/Sonic3AndKnucklesRecomp/commit/ddafabc4790512488f0751ac162ef6b7b7740599",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "sonic-3-knuckles-sonic-clean-engine-s-c-e": {
+      "name": "Sonic 3 & Knuckles (Sonic Clean Engine (S.C.E.))",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/TheBlad768/Sonic-Clean-Engine-S.C.E.-",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T23:28:47Z",
+        "last_commit_url": "https://github.com/TheBlad768/Sonic-Clean-Engine-S.C.E.-/commit/5a435e600cd9cfdfb0e234648a8ad78dac961322",
+        "default_branch": "flamedriver",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 62
+      },
+      "ai_used": null
+    },
+    "sonic-the-hedgehog-recomp": {
+      "name": "Sonic the Hedgehog (Recomp)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/mstan/SonicTheHedgehogRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T14:10:04Z",
+        "last_commit_url": "https://github.com/mstan/SonicTheHedgehogRecomp/commit/cb898070c9bd408786e8956fd0162ec51d899f0f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "sonic-the-hedgehog-s1disasm": {
+      "name": "Sonic the Hedgehog (s1disasm)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/cvghivebrain/s1disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-03-12T05:13:29Z",
+        "last_commit_url": "https://github.com/cvghivebrain/s1disasm/commit/ba72041f3a7c695f2cc56c10f7bf114ac544a779",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 49
+      },
+      "ai_used": null
+    },
+    "sonic-the-hedgehog-sonic-j2me-decompilation": {
+      "name": "Sonic the Hedgehog (sonic-j2me-decompilation)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/yowari/sonic-j2me-decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-03-07T16:53:39Z",
+        "last_commit_url": "https://github.com/yowari/sonic-j2me-decompilation/commit/283aad979880ce00f49c63bd9807a30db9e5dc5f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "sonic-the-hedgehog-2-recomp": {
+      "name": "Sonic the Hedgehog 2 (Recomp)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/mstan/SonicTheHedgehog2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T04:40:20Z",
+        "last_commit_url": "https://github.com/mstan/SonicTheHedgehog2Recomp/commit/177c8ca60abff1427e2e8a06a8ae267e61046ec5",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 21
+      },
+      "ai_used": null
+    },
+    "sonic-the-hedgehog-2-sonic-2-nick-arcade-disassembly": {
+      "name": "Sonic the Hedgehog 2 (Sonic-2-Nick-Arcade-Disassembly)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/AlexField442/Sonic-2-Nick-Arcade-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-06-05T04:48:23Z",
+        "last_commit_url": "https://github.com/AlexField442/Sonic-2-Nick-Arcade-Disassembly/commit/2a14c39a95549d9c52679fac4d5888c13be3ae9d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "streets-of-rage": {
+      "name": "Streets of Rage",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/RuiNelson/StreetsOfRageProject",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T14:23:07Z",
+        "last_commit_url": "https://github.com/RuiNelson/StreetsOfRageProject/commit/5355f22ea37555b3e73cf59e0f19a7032e9a1951",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "toejam-earl-tje-disasm": {
+      "name": "ToeJam & Earl (tje-disasm)",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://github.com/bstreiff/tje-disasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-01-25T05:18:41Z",
+        "last_commit_url": "https://github.com/bstreiff/tje-disasm/commit/cd85d2e6e4f3256e0ab3f5328de1fea63b80ae75",
+        "default_branch": "dev",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "streets-of-rage-2-new-era": {
+      "name": "Streets of Rage 2 New Era",
+      "platforms": [
+        "Sega Mega Drive"
+      ],
+      "repository_url": "https://www.sor2newera.com/",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "github_stars": null
       },
       "ai_used": null
     }
@@ -598,6 +814,268 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/consolesplayingconsoles/dbzbr-disasm"
+            }
+          ]
+        },
+        {
+          "project": "puyo-puyo-puyodisasm",
+          "name_markdown": "[Puyo Puyo (puyodisasm)](https://github.com/Nasina7/puyodisasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Puyo%20Puyo%20%28Japan%29.png",
+              "alt": "Puyo Puyo (puyodisasm) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A work-in-progress disassembly of Puyo Puyo for the Sega Megadrive",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Nasina7/puyodisasm"
+            }
+          ]
+        },
+        {
+          "project": "quackshot-starring-donald-duck-quackshot-src",
+          "name_markdown": "[QuackShot Starring Donald Duck (quackshot_src)](https://github.com/lab313ru/quackshot_src)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Quack%20Shot%20Starring%20Donald%20Duck%20%28USA%29.png",
+              "alt": "QuackShot Starring Donald Duck (quackshot_src) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Quackshot source code (assemble with AS)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/lab313ru/quackshot_src"
+            }
+          ]
+        },
+        {
+          "project": "shining-force",
+          "name_markdown": "[Shining Force](https://github.com/ShiningForceCentral/SF1DISASM)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Shining%20Force%20%28USA%29.png",
+              "alt": "Shining Force box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of the game \"Shining Force\" for documentation and fan-project purposes.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ShiningForceCentral/SF1DISASM"
+            }
+          ]
+        },
+        {
+          "project": "sonic-3-knuckles",
+          "name_markdown": "[Sonic 3 & Knuckles](https://github.com/mstan/Sonic3AndKnucklesRecomp)",
+          "images": [],
+          "notes_markdown": "Sonic 3 &amp; Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mstan/Sonic3AndKnucklesRecomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-3-knuckles-sonic-clean-engine-s-c-e",
+          "name_markdown": "[Sonic 3 & Knuckles (Sonic Clean Engine (S.C.E.))](https://github.com/TheBlad768/Sonic-Clean-Engine-S.C.E.-)",
+          "images": [],
+          "notes_markdown": "Cleaned up the Sonic 3 &amp; Knuckles Disassembly (S.C.E.)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/TheBlad768/Sonic-Clean-Engine-S.C.E.-"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-recomp",
+          "name_markdown": "[Sonic the Hedgehog (Recomp)](https://github.com/mstan/SonicTheHedgehogRecomp)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic the Hedgehog recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/SonicTheHedgehogRecomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-s1disasm",
+          "name_markdown": "[Sonic the Hedgehog (s1disasm)](https://github.com/cvghivebrain/s1disasm)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic the Hedgehog (Mega Drive) Hivebrain 2022 disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/cvghivebrain/s1disasm"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-sonic-j2me-decompilation",
+          "name_markdown": "[Sonic the Hedgehog (sonic-j2me-decompilation)](https://github.com/yowari/sonic-j2me-decompilation)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic The Hedgehog: Part One J2ME decompilation project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/yowari/sonic-j2me-decompilation"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-2-recomp",
+          "name_markdown": "[Sonic the Hedgehog 2 (Recomp)](https://github.com/mstan/SonicTheHedgehog2Recomp)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic the Hedgehog 2 recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/SonicTheHedgehog2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "sonic-the-hedgehog-2-sonic-2-nick-arcade-disassembly",
+          "name_markdown": "[Sonic the Hedgehog 2 (Sonic-2-Nick-Arcade-Disassembly)](https://github.com/AlexField442/Sonic-2-Nick-Arcade-Disassembly)",
+          "images": [
+            {
+              "alt": "Sonic the Hedgehog 2 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Sonic%20The%20Hedgehog%202%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Sonic 2 Nick Arcade Disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/AlexField442/Sonic-2-Nick-Arcade-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "streets-of-rage",
+          "name_markdown": "[Streets of Rage](https://github.com/RuiNelson/StreetsOfRageProject)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Mega_Drive_-_Genesis/master/Named_Boxarts/Streets%20of%20Rage%20%28USA%29.png",
+              "alt": "Streets of Rage box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Streets of Rage recompilation project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/RuiNelson/StreetsOfRageProject"
+            }
+          ]
+        },
+        {
+          "project": "toejam-earl-tje-disasm",
+          "name_markdown": "[ToeJam & Earl (tje-disasm)](https://github.com/bstreiff/tje-disasm)",
+          "images": [],
+          "notes_markdown": "Toejam &amp; Earl Disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/bstreiff/tje-disasm"
+            }
+          ]
+        },
+        {
+          "project": "streets-of-rage-2-new-era",
+          "name_markdown": "[Streets of Rage 2 New Era](https://www.sor2newera.com/)",
+          "images": [],
+          "notes_markdown": "Reverse-engineered native rebuild with Windows, macOS, Linux and Android versions. Requires a user-supplied Streets of Rage 2 ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://www.sor2newera.com/"
             }
           ]
         }

@@ -184,6 +184,12 @@ Now double click on **BOOT.BIN** in the Ghidra tree view and Ghidra will then as
 Give it some time to analyze, depending on the size of the executable it could take up to 10 or 20 minutes.
 
 ---
+## PSP security history
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=qIxKPu20R58) explains how the PSP's security was defeated. This historical overview provides context for the homebrew and reverse-engineering tools used with the platform.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qIxKPu20R58" title="How the Sony Playstation Portable PSP Security was defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
 # Magazine Interviews
 The magazine index collects developer interviews tagged for this system across all indexed magazines.
 

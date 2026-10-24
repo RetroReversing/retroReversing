@@ -32,7 +32,7 @@ videocarousel:
     image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
     youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2019-11-11'
+updatedAt: '2026-10-24'
 tags:
   - ps1
 ---
@@ -91,6 +91,14 @@ Tony Hawk's Pro Skater 1+2 | PS4/5, Switch, XboxOne | Remade in Unreal Engine 4
 Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
 This list also doesn't include projects such as **PS one Classics** as they were just emulations of the original PS1 games running on a more modern console and not either a source port or a full remake.
 
+---
+### Dino Crisis Modern Edition
+Rotmill's [Dino Crisis Modern Edition](https://github.com/Rotmill/Dino-Crisis-Modern-Edition) is a fan mod that rebuilds the PS1 game from the user's own disc image into a native Windows program.
+It adds an over-the-shoulder camera, updated controls and quality-of-life settings. The project's setup translates game code to C using the psxrecomp framework and builds it locally; this is not a claim that a matching decompilation has been completed [^7].
+
+The repository and installer contain no original game files. See the project's supported-disc list before attempting a build, and do not redistribute the generated game program [^7].
+
+---
 ## Tool-Assisted-Speedruns (TAS) for PS1
 In this video EZScape demonstrates a few speed runs for PS1 games that could never be possible by humans as they require changing the controller input every single frame. He shows techniques such as Zig-zagging in Crash Bandicoot, Pac-Man World and Spyro 3.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZchqpHU_Hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -106,6 +114,20 @@ The [PSXSplash](https://psxsplash.github.io/docs/latest/) documentation provides
 
 ---
 # Hardware
+
+---
+## Disc protection and modchips
+[Technology Connections](https://www.youtube.com/watch?v=XUwSOfQ1D3c) explains the PlayStation's disc copy protection and its limitations. It provides background for understanding how modchips interact with the authentication process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUwSOfQ1D3c" title="Sony&#x27;s Clever but Flawed PlayStation Copy Protection--And How They Might Have Fixed It" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[MattKC](https://www.youtube.com/watch?v=INxyKrcYNoE) demonstrates making a PlayStation modchip from scratch. The project gives a hardware implementation example alongside the security explanations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INxyKrcYNoE" title="Making a PlayStation 1 modchip from SCRATCH" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=7HOBQ7HifLE) explains how the PlayStation's security was defeated. It supplies a broader account of the protection system alongside the modchip construction example.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7HOBQ7HifLE" title="How the Sony PlayStation PS1 Security was defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Retail PlayStation hardware
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
@@ -164,6 +186,12 @@ The PSY-Q development environment exposes the gte functionality to programmers u
 
 
 One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^3].
+
+---
+#### Why PlayStation graphics wobble
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=x8TO-nrUtSI) explains the warping and wobble associated with PlayStation graphics. The visual examples help connect the console's rendering limitations with their appearance in games.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x8TO-nrUtSI" title="Why PlayStation 1 Graphics Warped and Wobbled so much | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ---
 ## Development Kit Hardware
@@ -280,3 +308,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^4]: [What's inside a Playstation? - YouTube](https://www.youtube.com/watch?v=JqeFT67U-xo&feature=player_embedded)
 [^5]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
 [^6]: [ www.raphnet.net/electronique/psx_adaptor/Playstation.txt](http://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
+[^7]: [Rotmill, Dino Crisis Modern Edition README](https://github.com/Rotmill/Dino-Crisis-Modern-Edition), features, build process and disc requirements, consulted 24 October 2026.

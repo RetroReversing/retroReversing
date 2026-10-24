@@ -655,6 +655,10 @@ The video carousel pairs **Turok 64 Official Source Code Found** with [The Makin
 
 {% include video-carousel.html videocarousel=page.videocarousel %}
 
+[Digital Foundry](https://www.youtube.com/watch?v=H4RJn0mEhIg) examines how Turok developed the console first-person shooter on the Nintendo 64. The retrospective supplies visual context for the engine and hardware constraints discussed in this source-code analysis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H4RJn0mEhIg" title="DF Retro: Turok Dinosaur Hunter - How An N64 Classic Evolved The Console FPS" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ---
 # Other software in the archive
 The source-code find preserves more than the game itself. Three folders near Turok's code open windows onto the larger collection of software around it.

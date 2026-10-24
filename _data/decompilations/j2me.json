@@ -11,17 +11,236 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-02-19T17:08:02Z",
         "last_commit_url": "https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation/commit/faf958e0be65898422d3a714ff0b2d4a81c1acb9",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 36
       },
       "ai_used": null
+    },
+    "bounce-tales": {
+      "name": "Bounce Tales",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/HelloOO7/BounceTales",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-02-07T18:04:48Z",
+        "last_commit_url": "https://github.com/HelloOO7/BounceTales/commit/572ce4144071036e109ad362b384febc66d13b8f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 53
+      },
+      "ai_used": null
+    },
+    "diamond-rush": {
+      "name": "Diamond Rush",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/palaceswitcher/Diamond-Rush-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-14T00:21:36Z",
+        "last_commit_url": "https://github.com/palaceswitcher/Diamond-Rush-Decomp/commit/5e05c42aa1aae3377790600eb6d27497101b79e7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "doom-ii-rpg-doomiirpg-re": {
+      "name": "Doom II RPG (DoomIIRPG-RE)",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/Erick194/DoomIIRPG-RE",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-07-09T18:54:45Z",
+        "last_commit_url": "https://github.com/Erick194/DoomIIRPG-RE/commit/ba6227d82c4f70ec46453c803ce2ded1b519b1fc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 100
+      },
+      "ai_used": null
+    },
+    "doom-rpg-doomrpg-re": {
+      "name": "Doom RPG (DoomRPG-RE)",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/Erick194/DoomRPG-RE",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-04-23T00:23:22Z",
+        "last_commit_url": "https://github.com/Erick194/DoomRPG-RE/commit/8ff35da34478170eb3c9d42604184f1174b4558c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 161
+      },
+      "ai_used": null
+    },
+    "green-farm-3": {
+      "name": "Green Farm 3",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/SmithGoll/Greenier-Farm-3-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-05-01T05:43:17Z",
+        "last_commit_url": "https://github.com/SmithGoll/Greenier-Farm-3-Decomp/commit/33f5347eb016a61ccb137e62a5ad213e6290a161",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "wolfenstein-rpg-wolfensteinrpg-re": {
+      "name": "Wolfenstein RPG (WolfensteinRPG-RE)",
+      "platforms": [
+        "Java 2 Mobile Edition (J2ME)"
+      ],
+      "repository_url": "https://github.com/Erick194/WolfensteinRPG-RE",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-02-24T02:44:59Z",
+        "last_commit_url": "https://github.com/Erick194/WolfensteinRPG-RE/commit/99720e39770116366442b03608daaf1d0b744160",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 57
+      },
+      "ai_used": null
     }
   },
-  "consoles": {}
+  "consoles": {
+    "j2me": {
+      "name": "Java 2 Mobile Edition (J2ME)",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "bounce-tales",
+          "name_markdown": "[Bounce Tales](https://github.com/HelloOO7/BounceTales)",
+          "images": [],
+          "notes_markdown": "Decompilation of Rovio's Bounce Tales (2008) video game for Nokia mobile devices.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/HelloOO7/BounceTales"
+            }
+          ]
+        },
+        {
+          "project": "diamond-rush",
+          "name_markdown": "[Diamond Rush](https://github.com/palaceswitcher/Diamond-Rush-Decomp)",
+          "images": [],
+          "notes_markdown": "Decompilation of Diamond Rush",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/palaceswitcher/Diamond-Rush-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "doom-ii-rpg-doomiirpg-re",
+          "name_markdown": "[Doom II RPG (DoomIIRPG-RE)](https://github.com/Erick194/DoomIIRPG-RE)",
+          "images": [],
+          "notes_markdown": "Doom II RPG Reverse Engineering By [GEC]",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Erick194/DoomIIRPG-RE"
+            }
+          ]
+        },
+        {
+          "project": "doom-rpg-doomrpg-re",
+          "name_markdown": "[Doom RPG (DoomRPG-RE)](https://github.com/Erick194/DoomRPG-RE)",
+          "images": [],
+          "notes_markdown": "Doom RPG Reverse Engineering By [GEC]",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Erick194/DoomRPG-RE"
+            }
+          ]
+        },
+        {
+          "project": "green-farm-3",
+          "name_markdown": "[Green Farm 3](https://github.com/SmithGoll/Greenier-Farm-3-Decomp)",
+          "images": [],
+          "notes_markdown": "Decompilation of Green Farm 3",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SmithGoll/Greenier-Farm-3-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "wolfenstein-rpg-wolfensteinrpg-re",
+          "name_markdown": "[Wolfenstein RPG (WolfensteinRPG-RE)](https://github.com/Erick194/WolfensteinRPG-RE)",
+          "images": [],
+          "notes_markdown": "Wolfenstein RPG Reverse Engineering By [GEC]",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Erick194/WolfensteinRPG-RE"
+            }
+          ]
+        }
+      ]
+    }
+  }
 }

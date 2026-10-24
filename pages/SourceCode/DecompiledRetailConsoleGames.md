@@ -22,31 +22,33 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-12'
+updatedAt: '2026-10-24'
 ---
 
-This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries.
+This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries. Independently written reimplementations are maintained in a separate catalog and excluded from these tables.
 
 ---
 ## Glossary of Project Types
 The tables list project types as comma-separated links to their respective projects. A game can have several projects, and a project can use more than one approach:
-* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code.
+* <a id="glossary-decompilation"></a>**Decompilation** - Reconstructs higher-level source code, such as C or C++, from a compiled game. Engine decompilations focus on the engine; C# decompilations reconstruct managed code. Emulator decompilations reconstruct the emulator bundled with a release rather than the emulated game code.
 * <a id="glossary-matching-decompilation"></a>**Matching decompilation** - Aims to compile back to the same machine code as the original game. Matching does not mean the project is complete.
 * <a id="glossary-disassembly"></a>**Disassembly** - Converts machine code into assembly source, often with manually added labels and comments.
+* <a id="glossary-compatibility-layer"></a>**Compatibility layer** - Runs the original executable through replacement platform services and graphics translation. The game code is not reconstructed as source or statically recompiled.
 * <a id="glossary-static-recompilation"></a>**Static recompilation** - Translates machine code ahead of time into source that can be compiled for another platform, without recovering the original source code.
 * <a id="glossary-source-port"></a>**Native port / Source port** - Adapts available or reconstructed source code to run on another platform. A port can build on a decompilation, disassembly or reimplementation.
-* <a id="glossary-reimplementation"></a>**Reimplementation / Game engine reimplementation** - Builds new code to reproduce the game's or engine's behavior, often using the original game's assets.
 * <a id="glossary-rewrite"></a>**Rewrite** - Rebuilds the implementation with a different architecture or language, potentially using reverse engineering to understand the original behavior.
 * <a id="glossary-fan-remake"></a>**Fan remake** - Recreates the game independently, potentially changing its engine, assets or gameplay.
 
-For entries with a dated activity check, Active means the linked repository received a default-branch commit within the preceding 12 months. Inactive means no commits in that period, or an archived repository. These labels describe repository activity rather than completion or playability. Last-commit dates come from the project catalog. Check dates are stored in the catalog for maintenance. A failed check retains earlier evidence and is labeled as unavailable; Unverified means no successful check is recorded. Undated activity labels have not yet been checked by the script.
+For an introductory comparison, see the [Held Games explainer](https://heldgames.com/guides/retro-decompilation-recompilation-explained) and the [Reddit ELI5 discussion](https://www.reddit.com/r/explainlikeimfive/comments/1j6mo9p/eli5_how_do_video_game_recompilations_work_to_get/). Both explain why a game can run natively after recompilation; the Reddit thread is informal community discussion. For a detailed early example, Andrew Kelley's [Jamulator article](https://andrewkelley.me/post/jamulator.html) walks through static disassembly and recompilation of NES games with LLVM and Go.
+
+For entries with a recorded commit date, Active means the linked repository received a default-branch commit within the preceding 12 months. Inactive means no commits in that period, or an archived repository. These labels describe repository activity rather than completion or playability. Last-commit dates come from the project catalog. A failed check retains earlier evidence and is labeled as unavailable; Unverified means no successful check is recorded. Undated activity labels have not yet been checked by the script.
 
 If you are interested to see officially released or leaked source code check out this other post:
 {% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
-Decompilation and disassembly projects generally need to have reconstructed at least 10% of the source code to be included. Exceptions include platforms with few reversing projects and native-port projects that do not report a matching-code percentage.
+The directory includes projects at different stages of development. Check the linked progress reports for their current source coverage and build requirements.
 
-Project links provide build instructions and current progress.
+Project links provide build instructions and current progress. Summaries describe each maintainer's stated scope; completion and playability are not inferred from repository activity. The [Greates Games Decompilations List](https://github.com/Carter54git/Greates-Games-Decompilations-List) provides another community-maintained directory.
 
 ---
 # Nintendo Systems
@@ -149,6 +151,12 @@ The table below lists Nintendo 3DS reverse-engineering projects and native ports
 {% include decomp-table.html console="nintendo-3ds" %}
 
 ---
+## Virtual Boy
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="virtual-boy" %}
+
+---
 # Bandai Systems
 ## WonderSwan
 The table below lists WonderSwan decompilation projects.
@@ -169,6 +177,9 @@ The table below lists Sega 32X disassembly projects.
 
 ---
 ## Sega CD
+The table lists the relevant reconstruction projects and ports.
+
+{% include decomp-table.html console="sega-cd" %}
 
 ### Shining Force CD
 [ShiningForceCentral's disassembly](https://github.com/ShiningForceCentral/SFCDDISASM) reconstructs Shining Force CD.
@@ -195,11 +206,18 @@ The [Mega Drive guide](/megadrive) covers Genesis development and reversing.
 
 ---
 ## Sega Game Gear (GG)
-Decompiled Game Gear projects are listed under this heading.
-The [Game Gear guide](/gamegear) covers the handheld and its development hardware.
+The [Game Gear guide](/gamegear) covers the handheld and its development hardware. The table lists Game Gear reconstruction projects and ports.
+
+{% include decomp-table.html console="sega-game-gear" %}
 
 ### Sonic 1
 {% include link-to-other-site.html url="https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly" description="" image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear" %}
+
+---
+## Sega Saturn
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="sega-saturn" %}
 
 ---
 ## Sega Dreamcast (DC)
@@ -232,6 +250,8 @@ The [PlayStation 2 guide](/ps2) covers the console, SDK, and development hardwar
 
 The table below lists PlayStation 2 reverse-engineering projects and native ports.
 
+Related toolkit: [PS2 Web Recomp](https://github.com/snuri00/ps2-web-recomp) statically recompiles Emotion Engine code to WebAssembly for browser builds. Its runtime supplies PS2 hardware and operating system services; the repository documents *Gran Turismo 4* and *God of War II* as examples. The [PlayStation 2 guide](/ps2#static-recompilation-for-the-browser) explains the approach.
+
 {% include decomp-table.html console="playstation-2" %}
 
 ---
@@ -241,12 +261,34 @@ The table below lists PlayStation Portable decompilation projects.
 {% include decomp-table.html console="playstation-portable" %}
 
 ---
+## PlayStation 3
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="playstation-3" %}
+
+---
+## PlayStation 4
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="playstation-4" %}
+
+---
+## PlayStation 5
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="playstation-5" %}
+
+---
 # Microsoft Systems
 Microsoft console projects include Xbox reverse engineering and Xbox 360 static recompilations.
 
 ## MSX
 Decompiled MSX projects are listed under this heading.
 The [MSX guide](/msx) covers the computer and its reversing notes.
+
+The table lists additional MSX reconstruction projects.
+
+{% include decomp-table.html console="msx" %}
 
 ### Metal Gear (1987)
 {% include link-to-other-site.html url="https://github.com/GuillianSeed/MetalGear" description="This repository contains the fully annotated disassembly of the original Metal Gear game, released by Konami for MSX2 in 1987 with code RC750." image="https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg" title="Fully annotated disassembly of the original Metal Gear game"  %}
@@ -277,7 +319,13 @@ The table below lists Xbox 360 reverse-engineering projects and native ports.
 **hedge-dev** has released UnleashedRecomp, a project that statically recompiles the Xbox 360 version of *Sonic Unleashed* to run natively on PC. By translating the original PowerPC instructions and Xenos shaders into native C++ and HLSL, this tool bypasses traditional emulation overhead, enabling features like arbitrary resolutions, high frame rates, and deep modding support on Windows and Linux.
 
 ---
-## PC (Windows)
+## Xbox One
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="xbox-one" %}
+
+---
+## PC (DOS / Windows)
 The table below lists the relevant entries.
 
 The [PC guide](/pc) covers game development and reversing.
@@ -290,6 +338,12 @@ The [PC guide](/pc) covers game development and reversing.
 The table below lists decompilation projects targeting macOS game releases.
 
 {% include decomp-table.html console="pc-macos" %}
+
+---
+## Apple II
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="apple-ii" %}
 
 ---
 # Atari Systems
@@ -308,6 +362,30 @@ The table below lists Atari 2600 disassembly projects and collections.
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVision Disassembly" %}
 
 ---
+## Atari 8-bit
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="atari-8-bit" %}
+
+---
+## Atari ST
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="atari-st" %}
+
+---
+## Atari Jaguar
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="atari-jaguar" %}
+
+---
+## Atari Lynx
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="atari-lynx" %}
+
+---
 # Commodore Systems
 ## Commodore 64
 The table below lists Commodore 64 disassembly projects.
@@ -315,9 +393,18 @@ The table below lists Commodore 64 disassembly projects.
 {% include decomp-table.html console="commodore-64" %}
 
 ---
+## Amiga
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="amiga" %}
+
+---
 # NEC Systems
 
 ## PC-9801
+The table lists the relevant reconstruction projects and ports.
+
+{% include decomp-table.html console="pc-98" %}
 
 ### Touhou Project 1-5 (1997-1998)
 
@@ -327,9 +414,12 @@ The table below lists Commodore 64 disassembly projects.
 
 ---
 # Mobile games
-Mobile games are a special case that weren't initially going to be included, but we have included a few games that are based on console games.
+Mobile projects include decompilations and ports of phone and tablet releases.
 
 ## Java 2 Mobile Edition (J2ME)
+The table lists the relevant reconstruction projects and ports.
+
+{% include decomp-table.html console="j2me" %}
 
 ### Sonic 1 J2ME
 {% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="https://repository-images.githubusercontent.com/254218052/8e42f080-7f34-11ea-9261-3e534fe23726" title="Decompile of the 2005 mobile port of Sonic 1" %}
@@ -350,4 +440,62 @@ The table below lists Windows Phone decompilation projects.
 
 ### Plants vs. Zombies (2011)
 {% include link-to-other-site.html url="https://github.com/Mewnojs/PlantsVsZombies.NET" description="powered by MonoGame." image="https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg" title="A port of Plants vs. Zombies Windows Phone version to various platforms" %}
+
+
+---
+# Additional Platforms
+These tables cover other computers, arcade systems and projects whose original platforms span several releases.
+
+## ZX Spectrum
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="zx-spectrum" %}
+
+---
+## BBC Micro / Acorn
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="bbc-micro-acorn" %}
+
+---
+## Arcade
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="arcade" %}
+
+---
+## Neo Geo
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="neo-geo" %}
+
+---
+## iOS
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="ios" %}
+
+---
+## Mobile (multiple or unspecified systems)
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="mobile" %}
+
+---
+## Web / Flash
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="web-flash" %}
+
+---
+## Multiple platforms
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="multiplatform" %}
+
+---
+## Other Game Platforms
+The table lists source reconstructions and related ports for this platform.
+
+{% include decomp-table.html console="other-platforms" %}
 

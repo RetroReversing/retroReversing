@@ -304,6 +304,10 @@ The Doctor V64 was a 3rd Party Development kit and Piracy device that was much c
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HrQYdr0FY70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Retro Tech Archive](https://www.youtube.com/watch?v=r0rdTrBoAIA) demonstrates the Bung Doctor V64 as a Nintendo 64 development system. The hardware tour complements the specifications and connection details below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r0rdTrBoAIA" title="Bung Doctor V64 for the Nintendo 64 Game Console - Game Development System" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### Development Studios known to have used The V64
 * Acclaim/Iguana (Turok series)
 

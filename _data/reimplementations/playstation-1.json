@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "need-for-speed-1-6": {
+      "name": "Need for Speed 1-6",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/OpenNFS/OpenNFS",
+      "project_type": "Game Engine Reimplementation",
+      "completion_status": null,
+      "legacy_status": "Inactive",
+      "activity": {
+        "last_commit_at": "2026-06-21T14:43:02Z",
+        "last_commit_url": "https://github.com/OpenNFS/OpenNFS/commit/dcd9197033272f8be307a839105e74185809f9f9",
+        "archived": false,
+        "default_branch": "main",
+        "status": "Active",
+        "github_stars": 861
+      },
+      "ai_used": null
+    },
+    "tomb-raider": {
+      "name": "Tomb Raider",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/rr-/Tomb1Main",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T06:13:04Z",
+        "last_commit_url": "https://github.com/LostArtefacts/TRX/commit/df1283201f04d056e0176feeedd6254586199ae1",
+        "archived": false,
+        "default_branch": "develop",
+        "status": "Active",
+        "github_stars": 1019
+      },
+      "ai_used": null
+    },
+    "tomb-raider-ii": {
+      "name": "Tomb Raider II",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Arsunt/TR2Main",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "last_commit_at": "2023-06-05T14:56:32Z",
+        "last_commit_url": "https://github.com/Arsunt/TR2Main/commit/f38bc90438e21e8a37e915a812cade52efce1d68",
+        "archived": false,
+        "default_branch": "master",
+        "status": "Inactive",
+        "github_stars": 203
+      },
+      "ai_used": null
+    },
+    "tomb-raider-1-5": {
+      "name": "Tomb Raider 1-5",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/XProger/OpenLara",
+      "project_type": "Game Engine Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-26T16:56:52Z",
+        "last_commit_url": "https://github.com/XProger/OpenLara/commit/3b268ca4bf986c380f44a26ffd9218bf6d376249",
+        "archived": false,
+        "default_branch": "master",
+        "status": "Active",
+        "github_stars": 5135
+      },
+      "ai_used": null
+    },
+    "final-fantasy-vii-playstation-1": {
+      "name": "Final Fantasy VII",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/ficed/Braver",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-12-04T19:43:07Z",
+        "last_commit_url": "https://github.com/ficed/Braver/commit/6cff433479925def0a5f3811232db56798625c4b",
+        "default_branch": "release",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "jackie-chan-stuntmaster-rechan": {
+      "name": "Jackie Chan Stuntmaster (ReChan)",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/SilverwireGames/ReChan",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T12:18:40Z",
+        "last_commit_url": "https://github.com/SilverwireGames/ReChan/commit/5029a5008c842232886ee709f58d5282c9f78103",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 60
+      },
+      "ai_used": null
+    },
+    "legend-of-legaia-playstation-1": {
+      "name": "Legend of Legaia",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/AndrewAltimit/legend-of-legaia-re",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T21:48:34Z",
+        "last_commit_url": "https://github.com/AndrewAltimit/legend-of-legaia-re/commit/777e9b3232452af27c2cfda6ca5ed3547f5fd248",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "playstation-1": {
+      "name": "PlayStation 1",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "need-for-speed-1-6",
+          "name_markdown": "[Need for Speed 1-6](https://github.com/OpenNFS/OpenNFS)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Game Engine Reimplementation",
+              "url": "https://github.com/OpenNFS/OpenNFS"
+            }
+          ]
+        },
+        {
+          "project": "tomb-raider",
+          "name_markdown": "[Tomb Raider](https://github.com/rr-/Tomb1Main)",
+          "images": [
+            {
+              "alt": "Tomb Raider box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tomb%20Raider%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC Port Fully Playable",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Tomb Raider",
+              "url": "https://github.com/rr-/Tomb1Main",
+              "platforms": [
+                "PC"
+              ],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/rr-/Tomb1Main"
+            }
+          ]
+        },
+        {
+          "project": "tomb-raider-ii",
+          "name_markdown": "[Tomb Raider II](https://github.com/Arsunt/TR2Main)",
+          "images": [
+            {
+              "alt": "Tomb Raider II artwork",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Tomb%20Raider%20II%20-%20Starring%20Lara%20Croft%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "v0.8.2 release",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/Arsunt/TR2Main"
+            }
+          ]
+        },
+        {
+          "project": "tomb-raider-1-5",
+          "name_markdown": "[Tomb Raider 1-5](https://github.com/XProger/OpenLara)",
+          "images": [
+            {
+              "alt": "",
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "First Game Fully Playable",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Game Engine Reimplementation",
+              "url": "https://github.com/XProger/OpenLara"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-vii-playstation-1",
+          "name_markdown": "[Final Fantasy VII](https://github.com/ficed/Braver)",
+          "images": [
+            {
+              "alt": "Final Fantasy VII box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Final%20Fantasy%20VII%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/ficed/Braver"
+            }
+          ]
+        },
+        {
+          "project": "jackie-chan-stuntmaster-rechan",
+          "name_markdown": "[Jackie Chan Stuntmaster (ReChan)](https://github.com/SilverwireGames/ReChan)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Jackie%20Chan%20Stuntmaster%20%28USA%29.png",
+              "alt": "Jackie Chan Stuntmaster (ReChan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Jackie Chan Stuntmaster reimplementation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/SilverwireGames/ReChan"
+            }
+          ]
+        },
+        {
+          "project": "legend-of-legaia-playstation-1",
+          "name_markdown": "[Legend of Legaia](https://github.com/AndrewAltimit/legend-of-legaia-re)",
+          "images": [
+            {
+              "alt": "Legend of Legaia box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Legend%20of%20Legaia%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse-engineering Legend of Legaia (PSX, 1999): Ghidra-traced format documentation, Rust extractors for every asset on the disc, and an engine reimplementation targeting wgpu/SDL3 with...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/AndrewAltimit/legend-of-legaia-re"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

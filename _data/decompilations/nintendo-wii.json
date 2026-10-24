@@ -11,12 +11,10 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-06-13T16:18:14Z",
         "last_commit_url": "https://github.com/SwareJonge/IEStrikers/commit/c73dae7e030459bc82716d5d74732e5e9b7d29f3",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 16
       },
@@ -32,14 +30,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-14T15:51:47Z",
         "last_commit_url": "https://github.com/Swiftshine/key/commit/7f2a9ab9ad66d8e2f6eac52acc2c01dff0bd03a2",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 53
+        "github_stars": 54
       },
       "ai_used": null
     },
@@ -53,14 +49,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-09-16T19:12:37Z",
         "last_commit_url": "https://github.com/snailspeed3/mkw/commit/78572c95c41dbf6cbb7dd251a567e538560ce1d8",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 471
+        "github_stars": 476
       },
       "ai_used": null
     },
@@ -74,14 +68,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-05-01T01:15:07Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty8/commit/72dd8dc42c66313c9cb82344e5b728b65ec9d6cb",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -95,14 +87,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-04-01T22:37:56Z",
         "last_commit_url": "https://github.com/mariopartyrd/marioparty9/commit/0aefa6939a8e79bc417f50d86c52c243a7e899c3",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 22
+        "github_stars": 23
       },
       "ai_used": null
     },
@@ -116,14 +106,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-15T18:42:11Z",
-        "last_commit_url": "https://github.com/pbr-ret/pbr-decomp/commit/2f00145d6b48689c2d182c409828b13cdf1e55f8",
+        "last_commit_at": "2026-10-23T15:17:37Z",
+        "last_commit_url": "https://github.com/pbr-ret/pbr-decomp/commit/ab14b156970f009b45715ef9ece4895c4cc8d6a3",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -137,12 +125,10 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-03T19:49:27Z",
         "last_commit_url": "https://github.com/SephDB/pokepark-wii-decomp/commit/735b49153c27f0f52de2af87911eaa3398ef6a72",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 17
       },
@@ -158,14 +144,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T15:27:32Z",
-        "last_commit_url": "https://github.com/DarkRTA/rb3/commit/4963978948cbb40dc2ddbe96782102f65116fe85",
+        "last_commit_at": "2026-10-20T20:34:00Z",
+        "last_commit_url": "https://github.com/DarkRTA/rb3/commit/30a2e6f59d61899d2a79380da80a1fee8500f76d",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 123
+        "github_stars": 125
       },
       "ai_used": null
     },
@@ -179,14 +163,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-06-22T15:15:03Z",
         "last_commit_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp/commit/8038c5f74cece91b37b75761a4f999d6569cf3cc",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -200,14 +182,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T20:04:33Z",
-        "last_commit_url": "https://github.com/SMGCommunity/Petari/commit/86ae7a3d3241adf07d5d3f9949e0462cccc583c1",
+        "last_commit_at": "2026-10-24T01:14:37Z",
+        "last_commit_url": "https://github.com/SMGCommunity/Petari/commit/f3defb7b21bad70d84949adfdeb66b7b1c573031",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 1257
+        "github_stars": 1301
       },
       "ai_used": null
     },
@@ -221,14 +201,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T15:41:03Z",
-        "last_commit_url": "https://github.com/SMGCommunity/Garigari/commit/b58a1fd703af23cd2bc3554e5f13ee6eabb21de5",
+        "last_commit_at": "2026-10-24T06:00:52Z",
+        "last_commit_url": "https://github.com/SMGCommunity/Garigari/commit/f6bc33eec56aa49da852a96156d30d9136a2cc04",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 75
+        "github_stars": 85
       },
       "ai_used": null
     },
@@ -242,14 +220,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-04T15:57:03Z",
         "last_commit_url": "https://github.com/SeekyCt/spm-decomp/commit/bb6e5f6ef84e4b13808e317d687e8990f6fd7be6",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 101
+        "github_stars": 104
       },
       "ai_used": null
     },
@@ -263,14 +239,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-10T07:01:38Z",
-        "last_commit_url": "https://github.com/doldecomp/brawl/commit/b96b501ff127b29e8946ee9a352a7bdc2ef5f38a",
+        "last_commit_at": "2026-10-23T20:05:59Z",
+        "last_commit_url": "https://github.com/doldecomp/brawl/commit/1769bcba8601466cea571a044f93829a52080db4",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 102
+        "github_stars": 107
       },
       "ai_used": null
     },
@@ -284,12 +258,10 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-05-14T08:46:46Z",
         "last_commit_url": "https://github.com/nim-ka/vc64-decomp/commit/e28658f6e520c01c6fca8c0aebe24902d9f82505",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 21
       },
@@ -305,14 +277,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T20:10:45Z",
-        "last_commit_url": "https://github.com/zeldaret/ss/commit/d3d8e3cbf3d353b2231f06690965cac5366e28a1",
+        "last_commit_at": "2026-10-20T02:56:23Z",
+        "last_commit_url": "https://github.com/zeldaret/ss/commit/96f2dd5497c4ceb595de76fd897fbb1542b27323",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 209
+        "github_stars": 216
       },
       "ai_used": null
     },
@@ -326,12 +296,10 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2022-05-29T12:28:05Z",
         "last_commit_url": "https://github.com/simdecomp/ts2c/commit/5d084a9875d0d243290c85776771fc9d4350d0c5",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 2
       },
@@ -347,14 +315,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-15T07:44:15Z",
         "last_commit_url": "https://github.com/doldecomp/ogws/commit/f5a1bb5ed7692a9e09e737bc1236f592274dcf73",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 175
+        "github_stars": 178
       },
       "ai_used": null
     },
@@ -368,14 +334,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-06-28T10:22:22Z",
         "last_commit_url": "https://github.com/xbret/xenoblade/commit/ea25691b2029394ab777bda7060139e517a13cba",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 145
+        "github_stars": 148
       },
       "ai_used": null
     },
@@ -389,12 +353,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-09-04T14:05:00Z",
-        "last_commit_url": "https://github.com/projectPiki/pik1wii/commit/7170ba8a1eafd6dd3e30923c827b20f4a0df735e",
+        "last_commit_at": "2026-10-23T05:21:02Z",
+        "last_commit_url": "https://github.com/projectPiki/pik1wii/commit/051c29750ee179f7b6d97bfda094febdb0191a0f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 14
       },
@@ -410,12 +372,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-12T05:56:09Z",
         "last_commit_url": "https://github.com/projectPiki/pik2wii/commit/c337efc6223170da79977a05f8f3d1bf8774fe73",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 22
       },
@@ -431,14 +391,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-24T09:29:35Z",
         "last_commit_url": "https://github.com/NSMBW-Community/NSMBW-Decomp/commit/58fe6985e3ca55261beb543fe7558f66c3ddd7c4",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 143
+        "github_stars": 148
       },
       "ai_used": null
     },
@@ -452,12 +410,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-04-24T19:53:20Z",
         "last_commit_url": "https://github.com/KooShnoo/pokemon-rumble/commit/11c112f7548b26ab2cecfcf52e201b8d3b76120f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 13
       },
@@ -473,12 +429,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-12-01T16:27:51Z",
         "last_commit_url": "https://github.com/Swiftshine/wlsi/commit/f9b988e6ec8f6c7c6e8c4ed380c5512a3c14937c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 1
       },
@@ -494,14 +448,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-01-21T15:18:30Z",
         "last_commit_url": "https://github.com/Fancy2209/wog-wiiware/commit/aad03e6f64f57a39595cde6589d0871e6c170ef3",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 2
+        "github_stars": 3
       },
       "ai_used": null
     },
@@ -515,12 +467,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-09-07T16:32:43Z",
         "last_commit_url": "https://github.com/EltyDev/MSM-decomp/commit/ec7a2472495f1e201eaf29f9d974c5310401b122",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 3
       },
@@ -536,14 +486,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-09-10T17:21:00Z",
-        "last_commit_url": "https://github.com/Alice-2010/Decomp/commit/ee1bf06e7a6361de0709faf2ed76fc13d6dcdfca",
+        "last_commit_at": "2026-10-22T15:55:09Z",
+        "last_commit_url": "https://github.com/Alice-2010/Decomp/commit/768231d6d37f2065a12825deb6bb968cfa660004",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -557,12 +505,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-06-01T22:48:31Z",
         "last_commit_url": "https://github.com/vabold/bba-wd/commit/6dc6fd2e04684c5ac2bef5cf4b39655f8032d153",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 7
       },
@@ -578,12 +524,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-09-17T06:58:16Z",
         "last_commit_url": "https://github.com/FortuneStreetModding/boom-street-decomp/commit/64f821da5dd87da914aaa488be4de03cdff3d70a",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 3
       },
@@ -599,12 +543,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-07-24T10:26:17Z",
         "last_commit_url": "https://github.com/Moddimation/GoVacation-Decompilation/commit/f1b9ca5ce74013eebf34709372fd5df57187d32e",
         "default_branch": "master",
         "archived": true,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 4
       },
@@ -620,12 +562,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-07-31T06:40:49Z",
         "last_commit_url": "https://github.com/AM7999/ISpy-SM-Decomp/commit/774f08e1209d4cd347a4ca0411e2af677c2d2f0e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 3
       },
@@ -641,12 +581,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-11T22:07:14Z",
-        "last_commit_url": "https://github.com/Swiftshine/kdc/commit/81b52d6a31b6dd671bea0268f36a874477ee2bf6",
+        "last_commit_at": "2026-10-23T21:39:49Z",
+        "last_commit_url": "https://github.com/Swiftshine/kdc/commit/3160edc5689a70ebbcc4490bb39da2b2bd0e8371",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 14
       },
@@ -662,12 +600,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-12-07T21:38:38Z",
         "last_commit_url": "https://github.com/ThePlayerRolo/LegoCloneWarsWii/commit/b0ed795a586d1d921c536c991bf250bec39ae811",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 21
       },
@@ -683,12 +619,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-05-12T11:08:44Z",
         "last_commit_url": "https://github.com/Bsquo/pcopter_wii/commit/40d539347a063927df9d2ea4df8b1b7dd81afd03",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 2
       },
@@ -704,12 +638,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-06-09T17:42:49Z",
-        "last_commit_url": "https://github.com/conhlee/rhf/commit/4429cbcb000abff644683d98701f6ab8c1671e10",
+        "last_commit_at": "2026-10-24T00:18:30Z",
+        "last_commit_url": "https://github.com/conhlee/rhf/commit/92179d0ffbb1af625aa72c8bb1c7457de11ddf18",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 29
       },
@@ -725,12 +657,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-01-21T01:46:51Z",
         "last_commit_url": "https://github.com/HaydnTrigg/Castaway/commit/f5c5dbcf2b4a20eb797b1aa6eb03f6cf09a4dbbe",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 18
       },
@@ -746,13 +676,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2025-06-10T14:29:01Z",
-        "last_commit_url": "https://github.com/orangedude27/excite-truck/commit/eea8f4c890d1c50a77601b177c604c91052a0c1b",
+        "last_commit_at": "2026-10-23T19:20:27Z",
+        "last_commit_url": "https://github.com/orangedude27/excite-truck/commit/d94d8819777cc7a067f8e8863b295358314d69fc",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
-        "status": "Inactive",
+        "status": "Active",
         "github_stars": 2
       },
       "ai_used": null
@@ -767,14 +695,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T04:48:20Z",
-        "last_commit_url": "https://github.com/yannicksuter/mscharged-decomp/commit/e05229451a8415a4fbfb3304042e3cdbbfba150d",
+        "last_commit_at": "2026-10-22T07:43:43Z",
+        "last_commit_url": "https://github.com/yannicksuter/mscharged-decomp/commit/8592d67e2865975066fa6a9065826ff0e36e610f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 36
+        "github_stars": 38
       },
       "ai_used": null
     },
@@ -788,14 +714,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-06-22T15:15:03Z",
         "last_commit_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp/commit/8038c5f74cece91b37b75761a4f999d6569cf3cc",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -810,12 +734,10 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 16,
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-03T22:19:31Z",
         "last_commit_url": "https://github.com/akiramusic000/Rhae/commit/182cf1a172a944a088fd69b1cd84e3d0c21e0bd5",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -830,14 +752,563 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 0,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T18:10:20Z",
-        "last_commit_url": "https://github.com/Etrainquandt17/Whippy/commit/8ee40c841475db862231f37b8cb64196b613cc17",
+        "github_stars": 1,
+        "last_commit_at": "2026-10-21T14:12:21Z",
+        "last_commit_url": "https://github.com/Etrainquandt17/Whippy/commit/2abb43f36085f6aa8c1447774d8eed3a1732d38d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
+      },
+      "ai_used": null
+    },
+    "sonic-and-the-black-knight-recomp": {
+      "name": "Sonic and the Black Knight",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/yunophilia/BlackKnightRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T04:37:56Z",
+        "last_commit_url": "https://github.com/yunophilia/BlackKnightRecomp/commit/ef850dc12f02d9a2c1669104a59d90b39d02a640",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": 13,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "mario-kart-wii-doldecomp": {
+      "name": "Mario Kart Wii (doldecomp)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/doldecomp/mkw",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T01:39:58Z",
+        "last_commit_url": "https://github.com/doldecomp/mkw/commit/8b9b5ee653da28663e498039e52f5d19f929a011",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 58
+      },
+      "ai_used": null
+    },
+    "wii-virtual-console-n64-emulator": {
+      "name": "Wii Virtual Console N64 emulator",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/zeldaret/oot-vc",
+      "project_type": "Emulator decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-06T13:25:04Z",
+        "last_commit_url": "https://github.com/zeldaret/oot-vc/commit/6fee0769e9e2f0ba7ad20c2b36c5c6063f24a8bd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 96
+      },
+      "ai_used": null
+    },
+    "de-blob": {
+      "name": "de Blob",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/AdventureT/OpenToshi",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-12-31T20:26:43Z",
+        "last_commit_url": "https://github.com/AdventureT/OpenToshi/commit/62e0082db7b2619a26c890d5cc9e9321cdd447ff",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 51
+      },
+      "ai_used": null
+    },
+    "donkey-kong-country-returns": {
+      "name": "Donkey Kong Country Returns",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Wexos/DKCR-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-07-15T14:53:04Z",
+        "last_commit_url": "https://github.com/Wexos/DKCR-Decompilation/commit/f1f176897063e532ec86bff2ffa0b96f0f822251",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "forecast-channel": {
+      "name": "Forecast Channel",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/doldecomp/forecast",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T12:08:14Z",
+        "last_commit_url": "https://github.com/doldecomp/forecast/commit/4964ab3aad84c4b627202fb79b58bbedfe8a14b6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "kirby-s-return-to-dream-land-kirby-wii-recomp": {
+      "name": "Kirby's Return to Dream Land (Kirby Wii Recomp)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/ExpansionPak/ModernGekko",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-17T02:30:46Z",
+        "last_commit_url": "https://github.com/ExpansionPak/ModernGekko/commit/a2e4e2b026a68d4848f20ebf16f0e0ddeb573957",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 176
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-skyward-sword-skybreak": {
+      "name": "The Legend of Zelda: Skyward Sword (Skybreak)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Kyra422/skybreak",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T00:50:48Z",
+        "last_commit_url": "https://github.com/Kyra422/skybreak/commit/3d53ea3b864825cd2acf4881da3e68fbb7620d88",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-dismkw": {
+      "name": "Mario Kart Wii (DisMKW)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/aplumafreak500/DisMKW",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-11-26T22:08:56Z",
+        "last_commit_url": "https://github.com/aplumafreak500/DisMKW/commit/7c7c5e90b9bce70a48f9c6c67a0242829e93dfcb",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-kartpad": {
+      "name": "Mario Kart Wii (KartPad)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/kartpad",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T07:09:46Z",
+        "last_commit_url": "https://github.com/chrissotraidis/kartpad/commit/ac9b86eff4423ae646d6c0e38ec397793f285743",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 708
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-mkw": {
+      "name": "Mario Kart Wii (mkw)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/vabold/mkw",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-19T15:28:16Z",
+        "last_commit_url": "https://github.com/vabold/mkw/commit/bdb985f816b45d91e9297c1e0b67228688d9c7f1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-mkw-structures": {
+      "name": "Mario Kart Wii (mkw-structures)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/SeekyCt/mkw-structures",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-08-13T11:22:54Z",
+        "last_commit_url": "https://github.com/SeekyCt/mkw-structures/commit/1d71d950ad6200906dd3290c02b3ab596179c8ee",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 47
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-recomp": {
+      "name": "Mario Kart Wii (Recomp)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/patchzyy/Wiicompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T16:00:55Z",
+        "last_commit_url": "https://github.com/patchzyy/Wiicompiled/commit/ac99413d45b8a02b22c8b1e510eb9cdbe9804a54",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1248
+      },
+      "ai_used": null
+    },
+    "mario-kart-wii-service-pack-mkw-sp": {
+      "name": "Mario Kart Wii - Service Pack (mkw-sp)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/mkw-sp/mkw-sp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-12-11T01:33:46Z",
+        "last_commit_url": "https://github.com/mkw-sp/mkw-sp/commit/d2511168b4f102ac871bf0b6e9c089f0f8bfeeb0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 102
+      },
+      "ai_used": null
+    },
+    "mario-party-9-marioparty9": {
+      "name": "Mario Party 9 (marioparty9)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/ricky074game/marioparty9",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T17:28:15Z",
+        "last_commit_url": "https://github.com/ricky074game/marioparty9/commit/a17f3a629dbb38e7b0d2db6a239beccd9be18753",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "mario-strikers-charged-mscharged-port": {
+      "name": "Mario Strikers Charged (mscharged-port)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/previouslevelgames/recharged",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T20:03:00Z",
+        "last_commit_url": "https://github.com/previouslevelgames/recharged/commit/0bec25b45c99f36226ab74bccd620b92b48edeea",
+        "default_branch": "stable",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 100
+      },
+      "ai_used": null
+    },
+    "mario-strikers-charged-strikers-wiicompiled": {
+      "name": "Mario Strikers Charged (Strikers-WiiCompiled)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-03T09:04:28Z",
+        "last_commit_url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled/commit/451e06bafe060da8d4110d0df7546e5ec64b6b3a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "muscle-march": {
+      "name": "Muscle March",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/tmcleroy/muscle-march-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T15:06:27Z",
+        "last_commit_url": "https://github.com/tmcleroy/muscle-march-recomp/commit/cf30a56ba033ec0e3ed1feb38aa806913eec3796",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "pokemon-battle-revolution-pokerevo": {
+      "name": "Pokémon Battle Revolution (pokerevo)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/pret/pokerevo",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-10-26T20:00:26Z",
+        "last_commit_url": "https://github.com/pret/pokerevo/commit/ae02670ef33650e44313443dd95180f485150d84",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 77
+      },
+      "ai_used": null
+    },
+    "super-mario-all-stars-25th-anniversary-edition": {
+      "name": "Super Mario All-Stars 25th Anniversary Edition",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/ThePlayerRolo/Super-Mario-All-Star-Decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-01T13:36:59Z",
+        "last_commit_url": "https://github.com/ThePlayerRolo/Super-Mario-All-Star-Decomp/commit/685ac3c1e85ea9e88ebe13568343afaf31e7ee8c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "super-mario-galaxy-ps4-recomp": {
+      "name": "Super Mario Galaxy ( PS4 recomp)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/chrissotraidis/galaxypad",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T10:28:13Z",
+        "last_commit_url": "https://github.com/chrissotraidis/galaxypad/commit/7e282fc1f6d942832a6215391101990ad7abcfc9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 98
+      },
+      "ai_used": null
+    },
+    "super-mario-galaxy-galaxy-android": {
+      "name": "Super Mario Galaxy (Galaxy Android)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/OpenPort-Labs/Galaxy-Android",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T09:06:47Z",
+        "last_commit_url": "https://github.com/OpenPort-Labs/Galaxy-Android/commit/865013efd7409165316d75985e173a36977670c0",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 261
+      },
+      "ai_used": null
+    },
+    "super-mario-galaxy-galaxyquest-meta-quest-3-vr": {
+      "name": "Super Mario Galaxy (GalaxyQuest (Meta Quest 3 VR))",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/bigmak94/GalaxyQuest",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T21:36:25Z",
+        "last_commit_url": "https://github.com/bigmak94/GalaxyQuest/commit/179739d6d1538ba64f7544e601ccc95748de846a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 114
+      },
+      "ai_used": null
+    },
+    "super-mario-galaxy-nebula": {
+      "name": "Super Mario Galaxy (Nebula)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/keepvaibin/nebula",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T08:02:28Z",
+        "last_commit_url": "https://github.com/keepvaibin/nebula/commit/984b735c619d87426096f0bdf58f540569d628e5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 322
+      },
+      "ai_used": null
+    },
+    "super-mario-galaxy-smgdecompilation": {
+      "name": "Super Mario Galaxy (SMGDecompilation)",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/snailspeed3/SMGDecompilation",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-12-18T23:55:20Z",
+        "last_commit_url": "https://github.com/snailspeed3/SMGDecompilation/commit/11eda1d7289a1415584d0e2e5273aba2a97bae70",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 97
+      },
+      "ai_used": null
+    },
+    "super-paper-mario-nintendo-wii": {
+      "name": "Super Paper Mario",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T05:27:16Z",
+        "last_commit_url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros/commit/46343ab1471ddbdc39efa26190d40513b1b8e3ea",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 124
+      },
+      "ai_used": null
+    },
+    "wii-fit-plus": {
+      "name": "Wii Fit Plus",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/Tanline666/veryfat-dungeon",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:23:21Z",
+        "last_commit_url": "https://github.com/Tanline666/veryfat-dungeon/commit/e64c94f4e0d1a7566ce492683ae9db50be61ba8f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "wii-party": {
+      "name": "Wii Party",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/arelkair/wiiparty-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:38:53Z",
+        "last_commit_url": "https://github.com/arelkair/wiiparty-recomp/commit/2d57e95afdefaafe9c10a38ad38121d07395042c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "mlb-power-pros-2008": {
+      "name": "MLB Power Pros 2008",
+      "platforms": [
+        "Nintendo Wii"
+      ],
+      "repository_url": "https://github.com/HopeAero/MLBPowerPros2008Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:43:29Z",
+        "last_commit_url": "https://github.com/HopeAero/MLBPowerPros2008Recomp/commit/58e75d412d10aa977dabce477f30ecf2ef97cc31",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
       },
       "ai_used": null
     }
@@ -1177,7 +1648,21 @@
           "completion_percent": 1,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Brawl Recompiled",
+              "url": "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Work-in-progress WiiCompiled port requiring a USA RSBE01 disc image. Classic and Subspace Emissary have only been tested at their openings. Replaced mod modules use a PowerPC interpreter; online play is between port users, without Dolphin cross-play.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -1804,6 +2289,646 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/Etrainquandt17/Whippy"
+            }
+          ]
+        },
+        {
+          "project": "sonic-and-the-black-knight-recomp",
+          "name_markdown": "[Sonic and the Black Knight (Recomp)](https://github.com/yunophilia/BlackKnightRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Sonic%20and%20the%20Black%20Knight%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic and the Black Knight Wii box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation for the PAL Wii release, replacing motion controls with conventional input. The Linux preset builds generated code only until the runtime is ported from Direct3D 11 and XAudio2. [Announcement](https://www.reddit.com/r/decomps/comments/1xbcihj/sonic_and_the_black_knight_recompiled/).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/yunophilia/BlackKnightRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/yunophilia/BlackKnightRecomp"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-doldecomp",
+          "name_markdown": "[Mario Kart Wii (doldecomp)](https://github.com/doldecomp/mkw)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PAL (RMCP01). Additional matching-decompilation project with its own progress tracking. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/doldecomp/mkw"
+            }
+          ]
+        },
+        {
+          "project": "wii-virtual-console-n64-emulator",
+          "name_markdown": "[Wii Virtual Console N64 emulator](https://github.com/zeldaret/oot-vc)",
+          "images": [],
+          "notes_markdown": "Reconstructs the N64 emulator bundled with Wii Virtual Console releases, rather than the N64 game code. Supports regional Super Mario 64, Mario Kart 64 and Ocarina of Time releases; primarily targets Japanese Ocarina of Time. Requires user-supplied WAD contents.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Emulator decompilation",
+              "url": "https://github.com/zeldaret/oot-vc"
+            }
+          ]
+        },
+        {
+          "project": "de-blob",
+          "name_markdown": "[de Blob](https://github.com/AdventureT/OpenToshi)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/de%20Blob%20%28USA%29.png",
+              "alt": "de Blob box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of the Toshi engine and Toshi games like de blob.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/AdventureT/OpenToshi"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-country-returns",
+          "name_markdown": "[Donkey Kong Country Returns](https://github.com/Wexos/DKCR-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Donkey%20Kong%20Country%20Returns%20%28USA%29.png",
+              "alt": "Donkey Kong Country Returns box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Donkey Long Country Returns for the Nintendo Wii.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Wexos/DKCR-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "forecast-channel",
+          "name_markdown": "[Forecast Channel](https://github.com/doldecomp/forecast)",
+          "images": [],
+          "notes_markdown": "Decompilation of the Wii's Forecast Channel (USA/NTSC v7)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/doldecomp/forecast"
+            }
+          ]
+        },
+        {
+          "project": "kirby-s-return-to-dream-land-kirby-wii-recomp",
+          "name_markdown": "[Kirby's Return to Dream Land (Kirby Wii Recomp)](https://github.com/ExpansionPak/ModernGekko)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Kirby%27s%20Return%20to%20Dream%20Land%20%28USA%29.png",
+              "alt": "Kirby's Return to Dream Land box art for Nintendo Wii",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Runtime for recompilations of GameCube games",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ExpansionPak/ModernGekko"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-skyward-sword-skybreak",
+          "name_markdown": "[The Legend of Zelda: Skyward Sword (Skybreak)](https://github.com/Kyra422/skybreak)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Skyward Sword box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/The%20Legend%20of%20Zelda_%20Skyward%20Sword%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An experimental native PC port project for The Legend of Zelda: Skyward Sword (Wii). No game assets included; your own game copy is required.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Kyra422/skybreak"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-dismkw",
+          "name_markdown": "[Mario Kart Wii (DisMKW)](https://github.com/aplumafreak500/DisMKW)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "pret-style disassembly of Mario Kart Wii. WIP",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/aplumafreak500/DisMKW"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-kartpad",
+          "name_markdown": "[Mario Kart Wii (KartPad)](https://github.com/chrissotraidis/kartpad)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mario Kart Wii and Retro Rewind, native for iOS, iPadOS, macOS, tvOS, and Android.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/chrissotraidis/kartpad"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-mkw",
+          "name_markdown": "[Mario Kart Wii (mkw)](https://github.com/vabold/mkw)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/vabold/mkw"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-mkw-structures",
+          "name_markdown": "[Mario Kart Wii (mkw-structures)](https://github.com/SeekyCt/mkw-structures)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Documentation of various parts of Mario Kart Wii",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/SeekyCt/mkw-structures"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-recomp",
+          "name_markdown": "[Mario Kart Wii (Recomp)](https://github.com/patchzyy/Wiicompiled)",
+          "images": [
+            {
+              "alt": "Mario Kart Wii box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Kart%20Wii%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Wiicompiled",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/patchzyy/Wiicompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/patchzyy/Wiicompiled"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-wii-service-pack-mkw-sp",
+          "name_markdown": "[Mario Kart Wii - Service Pack (mkw-sp)](https://github.com/mkw-sp/mkw-sp)",
+          "images": [],
+          "notes_markdown": "Mario Kart Wii - Service Pack",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/mkw-sp/mkw-sp"
+            }
+          ]
+        },
+        {
+          "project": "mario-party-9-marioparty9",
+          "name_markdown": "[Mario Party 9 (marioparty9)](https://github.com/ricky074game/marioparty9)",
+          "images": [
+            {
+              "alt": "Mario Party 9 box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Party%209%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of Mario Party 9 (Wii)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/ricky074game/marioparty9"
+            }
+          ]
+        },
+        {
+          "project": "mario-strikers-charged-mscharged-port",
+          "name_markdown": "[Mario Strikers Charged (mscharged-port)](https://github.com/previouslevelgames/recharged)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20%28USA%29.png",
+              "alt": "Mario Strikers Charged box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mario Strikers Charged for PC, Mac &amp; Linux. Ported from decompiled code. Not a recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/previouslevelgames/recharged"
+            }
+          ]
+        },
+        {
+          "project": "mario-strikers-charged-strikers-wiicompiled",
+          "name_markdown": "[Mario Strikers Charged (Strikers-WiiCompiled)](https://github.com/BlackAndBlue95/Strikers-WiiCompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Mario%20Strikers%20Charged%20%28USA%29.png",
+              "alt": "Mario Strikers Charged box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Mario Strikers Charged via static recompilation (fork of WiiCompiled). No game data included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/BlackAndBlue95/Strikers-WiiCompiled"
+            }
+          ]
+        },
+        {
+          "project": "muscle-march",
+          "name_markdown": "[Muscle March](https://github.com/tmcleroy/muscle-march-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Muscle%20March%20%28USA%29%20%28WiiWare%29.png",
+              "alt": "Muscle March box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial native PC port of Muscle March (WiiWare) via static recompilation: macOS, Linux, Steam Deck, Windows. Requires your own copy of the game. Beta.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/tmcleroy/muscle-march-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/tmcleroy/muscle-march-recomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-battle-revolution-pokerevo",
+          "name_markdown": "[Pokémon Battle Revolution (pokerevo)](https://github.com/pret/pokerevo)",
+          "images": [
+            {
+              "alt": "Pokemon Battle Revolution box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Pokemon%20Battle%20Revolution%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Pokemon Battle Revolution [PAL]",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pret/pokerevo"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-all-stars-25th-anniversary-edition",
+          "name_markdown": "[Super Mario All-Stars 25th Anniversary Edition](https://github.com/ThePlayerRolo/Super-Mario-All-Star-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20All-Stars_%2025th%20Anniversary%20Edition%20%28Europe%29.png",
+              "alt": "Super Mario All-Stars 25th Anniversary Edition box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "for the memes lol",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ThePlayerRolo/Super-Mario-All-Star-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-ps4-recomp",
+          "name_markdown": "[Super Mario Galaxy ( PS4 recomp)](https://github.com/chrissotraidis/galaxypad)",
+          "images": [
+            {
+              "alt": "Super Mario Galaxy (Korean) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Super Mario Galaxy: native for iOS, iPadOS, and MacOS.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/chrissotraidis/galaxypad"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-galaxy-android",
+          "name_markdown": "[Super Mario Galaxy (Galaxy Android)](https://github.com/OpenPort-Labs/Galaxy-Android)",
+          "images": [
+            {
+              "alt": "Super Mario Galaxy (Korean) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native 100% ARM64 Android port of the 2007 cosmic gravity platformer with OpenGL ES 3.2, AAudio, Hor+ ultrawide, and touch controls.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/OpenPort-Labs/Galaxy-Android"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-galaxyquest-meta-quest-3-vr",
+          "name_markdown": "[Super Mario Galaxy (GalaxyQuest (Meta Quest 3 VR))](https://github.com/bigmak94/GalaxyQuest)",
+          "images": [
+            {
+              "alt": "Super Mario Galaxy (Korean) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "GalaxyQuest: Super Mario Galaxy in VR on Meta Quest 3, a native port built on the Petari decompilation. Bring your own game files. 100%...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/bigmak94/GalaxyQuest"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-nebula",
+          "name_markdown": "[Super Mario Galaxy (Nebula)](https://github.com/keepvaibin/nebula)",
+          "images": [
+            {
+              "alt": "Super Mario Galaxy (Korean) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A decompiled PC Port of Super Mario Galaxy, intended to work on Windows, Linux, MacOS, Android, and iOS/iPadOS.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/keepvaibin/nebula"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-galaxy-smgdecompilation",
+          "name_markdown": "[Super Mario Galaxy (SMGDecompilation)](https://github.com/snailspeed3/SMGDecompilation)",
+          "images": [
+            {
+              "alt": "Super Mario Galaxy (Korean) box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Mario%20Galaxy%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "(WIP) 1:1 Decompilation of Super Mario Galaxy",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/snailspeed3/SMGDecompilation"
+            }
+          ]
+        },
+        {
+          "project": "super-paper-mario-nintendo-wii",
+          "name_markdown": "[Super Paper Mario](https://github.com/josiahg2502-glitch/NewSuperPaperBros)",
+          "images": [
+            {
+              "alt": "Super Paper Mario box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Super%20Paper%20Mario%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Super Paper Mario (Wii) by static recompilation: 4K, cinematic widescreen, 120 fps, HQ music, HD textures, gamepad and pointer support....",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros"
+            }
+          ]
+        },
+        {
+          "project": "wii-fit-plus",
+          "name_markdown": "[Wii Fit Plus](https://github.com/Tanline666/veryfat-dungeon)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wii%20Fit%20Plus%20%28USA%29.png",
+              "alt": "Wii Fit Plus box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Wii Fit Plus decomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Tanline666/veryfat-dungeon"
+            }
+          ]
+        },
+        {
+          "project": "wii-party",
+          "name_markdown": "[Wii Party](https://github.com/arelkair/wiiparty-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/Wii%20Party%20%28USA%29.png",
+              "alt": "Wii Party box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Wii Party for native PC. Requires your own legally obtained copy of the game; no copyrighted assets included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/arelkair/wiiparty-recomp"
+            }
+          ]
+        },
+        {
+          "project": "mlb-power-pros-2008",
+          "name_markdown": "[MLB Power Pros 2008](https://github.com/HopeAero/MLBPowerPros2008Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Wii/master/Named_Boxarts/MLB%20Power%20Pros%202008%20%28USA%29.png",
+              "alt": "MLB Power Pros 2008 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native recompilation of MLB Power Pros 2008 (Wii) on Wiicompiled. No game data included. See the repository for target-platform details.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/HopeAero/MLBPowerPros2008Recomp"
             }
           ]
         }

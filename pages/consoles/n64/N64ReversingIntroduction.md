@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64ReversingIntroduction.md
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-22'
 excerpt: 'A practical guide to N64 reverse engineering, from ROM identification and MIPS debugging to asset extraction and matching decompilation.'
 ---
 
@@ -315,6 +315,38 @@ Keep a compact record containing:
 Repeat after a fresh boot and in another level or state where appropriate.
 This helps detect temporary allocations, misleading display values, and addresses that only happened to work in one save state.
 
+### Keep Symbols and Overlay Evidence Under Version Control
+An address alone is not a stable identity when a game has multiple revisions or overlays sharing RAM. Keep a human-readable research record beside the tool-specific symbol and segment files. This illustrative YAML is a research template, not N64Recomp's input schema:
+
+```yaml
+game: example-game
+revision: us-1.0
+rom_sha256: "<verified digest>"
+symbols:
+  - name: func_80083A20
+    vram: "0x80083A20"
+    rom_range: "<start..end>"
+    section: text
+    overlay: null
+    size: "<verified bytes>"
+    confidence: observed
+    evidence:
+      - "direct call at <address>"
+      - "execution trace for <scene>"
+```
+
+Use a separate revision mapping when the same function moves between releases. For an overlay, record its ROM or VROM range, load destination, relocation source, and the state in which it was observed. Keep the original address-derived name in the record after a semantic rename, so old traces and other researchers' maps remain comparable. Mark guesses as tentative; a plausible name is not evidence of a function boundary.
+
+[N64Recomp's configuration and symbol inputs](https://github.com/N64Recomp/N64Recomp) consume project-specific metadata. Convert the verified research record into the format required by the pinned tool version, and check that every emitted address still maps to the intended revision and overlay [^16].
+
+---
+### Carry Findings Across ROM Revisions
+Regional releases and later revisions can move a function without changing its role. Start by hashing both normalized images and mapping comparable executable regions and overlays. Compare the loaded code for each region rather than assuming equal ROM offsets or RAM addresses.
+
+[BinDiff](https://github.com/google/bindiff) compares disassemblies and can transfer names and comments between related binaries, including MIPS programs. It supports Ghidra, IDA, and Binary Ninja. [Diaphora](https://github.com/joxeankoret/diaphora) offers a similar matching workflow inside IDA, with graph, instruction, and byte-level heuristics [^17] [^18].
+
+Treat every tool match as a candidate. Check the function's callers, constants, data references, and surrounding control flow in the destination revision. An altered inlined function or a reused overlay address can make a high-scoring match misleading. Record the source revision and address, destination revision and address, overlay identity, tool result, and manual evidence in the versioned symbol map. Transfer a semantic name only after confirming the behavior; never copy an address into the new revision's recomp configuration unchanged.
+
 ---
 # Map the ROM Into Code and Data
 A cartridge image does not provide a universal filesystem or a complete list of functions.
@@ -396,6 +428,22 @@ A value that looks like an invalid CPU pointer may therefore be valid graphics d
 For textures, establish the pixel format, bit depth, dimensions, palette where required, and layout before trusting a preview.
 For models, follow vertex buffers, transforms, display lists, and animation data together.
 See [3D modelling tools](/n64-3d-modelling), [RSP internals](/n64rsp), and [RDP internals](/n64rdp) for deeper coverage.
+
+---
+## Choose an Asset Path for a Recomp
+An N64 game can store textures, audio, models, scripts, and compressed archives in formats chosen by its developers. Identify an asset through the code that reads it before choosing an extraction tool. A display-list editor is not a universal cartridge asset parser.
+
+The project goal determines how much extraction is useful:
+
+Goal | Asset path | Check
+---|---|---
+Run an unchanged game through a static recomp | Keep original assets in the user's ROM and preserve the game's ROM-read behavior | The same ROM range reaches the same consumer through PI DMA
+Rebuild a matching ROM or edit an original asset | Extract, document the game's format, then rebuild from a controlled representation | Reconstructed bytes, compression, alignment, and offsets match the target
+Add a new native asset | Keep project-created files separate from the original ROM data | The new path does not silently replace an original-game read
+
+[N64ModernRuntime](https://github.com/N64Recomp/N64ModernRuntime) includes PI DMA ROM reads, so a recomp can often leave original data in the user's image. [Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) uses a user-supplied game and says its releases contain no game assets [^19]. A matching decompilation has a different test: visual equivalence is insufficient if the rebuilt compressed stream or padding differs from the original bytes.
+
+[Fast64](https://github.com/Fast-64/fast64) exports F3D display lists and has additional workflows for Super Mario 64 and Ocarina of Time. [Z64Utils](https://github.com/Random06457/Z64Utils) parses structures in Zelda 64 ROMs. Those game-specific features are useful examples, but their formats should not be assumed for an unrelated title [^20].
 
 ---
 ## Audio, Scripts, and Saves
@@ -524,3 +572,8 @@ For patches, identify the exact base image and distribute the patch with applica
 [^13]: [Nintendo SDK - osPiStartDma](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/n64man/os/osPiStartDma.htm), cartridge DMA interface.
 [^14]: [SGI - Nintendo 64 RSP Programmer's Guide](https://ultra64.ca/files/documentation/silicon-graphics/SGI_Nintendo_64_RSP_Programmers_Guide.pdf), RSP architecture and programming.
 [^15]: [Nintendo SDK - gSPSegment](https://ultra64.ca/files/documentation/online-manuals/man-v5-1/n64man/gsp/gSPSegment.htm), segmented graphics address translation.
+[^16]: [N64Recomp README](https://github.com/N64Recomp/N64Recomp), symbol metadata and overlay configuration requirements.
+[^17]: [BinDiff README](https://github.com/google/bindiff), supported disassemblers and transfer of analysis between binary versions.
+[^18]: [Diaphora README](https://github.com/joxeankoret/diaphora), IDA integration and matching methods.
+[^19]: [N64ModernRuntime README](https://github.com/N64Recomp/N64ModernRuntime) and [Zelda64Recomp README](https://github.com/Zelda64Recomp/Zelda64Recomp), ROM reads and user-supplied game assets.
+[^20]: [Fast64 README](https://github.com/Fast-64/fast64) and [Z64Utils README](https://github.com/Random06457/Z64Utils), documented tool scope.

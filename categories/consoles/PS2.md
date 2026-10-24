@@ -21,7 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-24'
 ---
 
 # Introduction
@@ -55,6 +55,12 @@ The main components of the PS2 hardware were:
 * **Graphics Synthesiser (GS)** - 4MB with features such as Z-buffer, trilinear texturing and Gourard shading [^1]
 * **Sound Processor (SPU2)** - 48-Channel sound chip
 * **Image processing Unit (IPU)** - Decodes MPEG2 streams
+
+---
+## Console security
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=VGMR6FHey68) explains how PlayStation 2 security was defeated. It is a platform-specific introduction to the protection mechanisms that homebrew and research tools had to work around.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VGMR6FHey68" title="How the Sony Playstation 2 Security Was Defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Retail Hardware
 For an in-depth look at the PlayStation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:
@@ -143,6 +149,31 @@ The most valuable reverse engineering projects tend to be the **platform exclusi
 Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStation 2-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_2-only_games)
 
 ---
+## Matching Decompilation Research
+The [Digital Devil Saga 1 and 2 project](https://github.com/Megami-Decomps/dds-decomp) reconstructs readable source for the USA PS2 executables and checks rebuilt executables against retail SHA-1 hashes.
+Unfinished functions use assembly extracted from the original executable, so a matching build is not evidence that all code has been recovered. The project explicitly describes itself as research, not a playable port, and requires the user's own game files [^9].
+
+[ChronicleTwo](https://github.com/TheMoonPeople/ChronicleTwo) reconstructs Dark Chronicle, also known as Dark Cloud 2.
+Its documented PAL build checks the rebuilt executable against retail and supports objdiff comparisons; a separate native-port target is also provided. These build targets should not be confused with an independently verified completion or full-game compatibility claim. The build requires the user's own PAL disc image [^10].
+
+---
+## Static Recompilation Projects
+Static recompilation translates game code ahead of time for a different host processor. It does not by itself establish a completed matching decompilation or remove the need to reproduce console hardware behavior.
+
+### God Hand
+LasVola's [God Hand Recompiled](https://github.com/LasVola/godhand-recomp) uses PS2Recomp to translate the main executable to C++, with function names and boundaries from LucasPicoli's `god-hand-decomp` project.
+Its README reports side-by-side testing with a real PS2 through stage 2 and part of stage 3. Later stages, final bosses and the ending remain untested in the documented progress report.
+The project requires the user's own USA disc image and includes no game data [^7].
+
+---
+### Gran Turismo 4
+The [moesuito GT4Recomp fork](https://github.com/moesuito/gt4-staticrecomp), forked from [Kaezzey's project](https://github.com/Kaezzey/gt4-staticrecomp), documents ahead-of-time translation of Emotion Engine code and VU0/VU1 microprograms to native code.
+Graphics use the PCSX2 GSdx renderer in a separate process, while other PS2 hardware behavior is reproduced in software. This is a hybrid recompilation, not a claim of zero emulation [^8].
+
+The maintainers report full-speed 60 FPS in their tested scenes, but long sessions, some graphics features and broader GPU coverage remain incompletely tested.
+Setup requires the user's own Gran Turismo 4 USA v2.00 disc image (SCUS-97328); the repository does not provide game files [^8].
+
+---
 # Software Development Kits
 
 ## Official Software development kit
@@ -219,6 +250,12 @@ If you are interested in learning more we have a specific post about the Merkury
 
 
 ---
+# Static Recompilation for the Browser
+[PS2 Web Recomp](https://github.com/snuri00/ps2-web-recomp) translates a game's Emotion Engine executable into C++ ahead of time, then compiles it to WebAssembly. Its browser runtime handles the remaining PS2 operating system and hardware services, including graphics through WebGPU. The project documents *Gran Turismo 4* and *God of War II* as working examples, with users supplying their own disc images.
+
+The repository's [How it works section](https://github.com/snuri00/ps2-web-recomp#how-it-works) explains how the recompiler handles R5900 instructions and how the runtime handles the I/O processor and vector units. This is a toolkit and runtime for game-specific browser builds rather than a matching decompilation of either example game.
+
+---
 # Executable Overlays and Loadable Segments
 A disc file containing code may be a separate executable or a raw overlay rather than part of the boot program.
 The [decomp.wtf PS2 importer](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py) reads executable ELF program headers to obtain the file offsets and virtual addresses of executable loadable segments [^6].
@@ -248,3 +285,7 @@ The magazine index collects developer interviews tagged for this system across a
 [^4]: [GDC 2004 Evolve](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
 [^5]: Postmortems from Game Developer (Austin Grossman, 2003) Page 299
 [^6]: [decomp.wtf - ELF overlay handling and IOP exclusions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py).
+[^7]: [LasVola, God Hand Recompiled README](https://github.com/LasVola/godhand-recomp), progress, implementation and credits, consulted 24 October 2026.
+[^8]: [moesuito, GT4Recomp README](https://github.com/moesuito/gt4-staticrecomp), implementation, performance, known issues and requirements, consulted 24 October 2026.
+[^9]: [Megami-Decomps, Digital Devil Saga 1 and 2 README](https://github.com/Megami-Decomps/dds-decomp), matching-build scope and assembly fallbacks, consulted 24 October 2026.
+[^10]: [TheMoonPeople, ChronicleTwo README](https://github.com/TheMoonPeople/ChronicleTwo), PAL build, objdiff and native-port targets, consulted 24 October 2026.

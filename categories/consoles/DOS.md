@@ -87,6 +87,12 @@ Without their standards your PC wouldn't even boot if it wasn't compatible with 
 ---
 # DOS Game Reverse Engineering
 
+---
+## A DOS game reversing walkthrough
+[Fabrice Lété](https://www.youtube.com/watch?v=KdIpuCznir4) works through reverse engineering an old DOS game. The investigation is a practical companion to the other game-specific reversing examples.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KdIpuCznir4" title="Reverse engineering an old DOS game (part 1 of N)" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Reversing DOS games with CicoParser
 **CicoParser** is a tool that helps convert old DOS programs to run on modern computers. Instead of emulating the entire DOS system, it translates the program's assembly code into C code. This makes the program run much faster and allows for easier modification and improvement of the original application.
 
@@ -141,6 +147,12 @@ The Youtuber **Displaced Gamers** has an excellent video explaining the common D
 ## 32-bit DOS Applications
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EDl9qBZ9Bb0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 The video discusses the 640k memory limitation of DOS and why many DOS games require more than 1MB of memory. The 16-bit x86 architecture used a trick to address up to one megabyte of memory, which became a limitation as software became more complicated. DOS extenders were developed to allow 32-bit memory access with almost no performance penalty, enabling 32-bit games to run on 16-bit MS-DOS. DOS extenders were based on the DPMI specification, providing larger memory access and multitasking capabilities. Developers only needed to know how to use the correct DOS external functions when mode switching was necessary. The use of DOS extenders extended the lifespan of MS-DOS and its legacy is engraved into the memory of classic DOS games, which shaped the video game industry.
+
+---
+### DOS memory models
+[PhilsComputerLab](https://www.youtube.com/watch?v=VRYJsOdjDoM) explains DOS memory. The video provides background for the real-mode, protected-mode and extender discussions that follow.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VRYJsOdjDoM" title="DOS Memory Explained" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### Real Mode
 Real mode is a processor mode in the x86 architecture where the CPU can directly access the first 1MB of memory. In real mode, the CPU uses 16-bit registers and addresses memory using 20-bit addresses that are formed by combining a 16-bit segment address with a 16-bit offset address. Real mode is the default mode of operation for the x86 CPU, and it was used in early versions of MS-DOS.

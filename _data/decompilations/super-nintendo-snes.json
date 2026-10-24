@@ -11,12 +11,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-08-27T08:17:41Z",
         "last_commit_url": "https://github.com/FredYeye/various-game-disassembly/commit/3d1e056c4590dc89deb13a109f7e91216ae9e37d",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 3
       },
@@ -32,12 +30,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-11-21T17:09:56Z",
         "last_commit_url": "https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly/commit/c2080f40469c716923f550706509a0d354229841",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 30
       },
@@ -53,12 +49,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-10-22T11:26:26Z",
         "last_commit_url": "https://github.com/p4plus2/DKC2-disassembly/commit/fb3eff9435683652eac354fc61c5a4a66f2faef6",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 76
       },
@@ -74,12 +68,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-09-30T01:55:44Z",
         "last_commit_url": "https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly/commit/a7a115152746284f4671b406957b3b1f8dd5993b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 21
       },
@@ -95,14 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-17T17:52:45Z",
         "last_commit_url": "https://github.com/Herringway/ebsrc/commit/68aec5c39e67f3ef4f0be138ee58c1ba0cc33d62",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 185
+        "github_stars": 187
       },
       "ai_used": null
     },
@@ -116,12 +106,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2022-08-02T18:02:40Z",
         "last_commit_url": "https://github.com/everything8215/ff4/commit/a360e2ea7ddc0dc5223bea1db74ebd1a9967280b",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 35
       },
@@ -137,7 +125,6 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-11T15:58:28Z",
         "status": "Unverified",
         "check_error": "Static disassembly download; no repository commit history",
         "github_stars": null
@@ -154,14 +141,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-14T21:18:11Z",
         "last_commit_url": "https://github.com/everything8215/ff6/commit/813013276c952fdd27edcf7b8b86f17291542cbf",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 88
+        "github_stars": 90
       },
       "ai_used": null
     },
@@ -175,12 +160,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-01-07T18:53:39Z",
         "last_commit_url": "https://github.com/Yoshifanatic1/Goof-Troop-Disassembly/commit/573805ade9478ad63ad8d6f411119aeb2bd02685",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 10
       },
@@ -196,14 +179,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-07-05T19:51:56Z",
         "last_commit_url": "https://github.com/LIJI32/superbomberman/commit/6b9d0721952a3dff6eb145ba11b8e81b07782e33",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 110
+        "github_stars": 111
       },
       "ai_used": null
     },
@@ -217,14 +198,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-15T08:34:37Z",
-        "last_commit_url": "https://github.com/FredYeye/Super-Ghouls-n-Ghosts-Disassembly/commit/61f9fc001c57d4fb3f374f760f36f3082ffdc2fa",
+        "last_commit_at": "2026-10-19T18:53:14Z",
+        "last_commit_url": "https://github.com/FredYeye/Super-Ghouls-n-Ghosts-Disassembly/commit/e0e0663ec3e046e7a076961041df3013381206f9",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -238,12 +217,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-05-04T22:37:50Z",
         "last_commit_url": "https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly/commit/57cb707669d71bb55817a0f88d28b3018c8bec57",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 49
       },
@@ -255,39 +232,16 @@
         "Super Nintendo (SNES)"
       ],
       "repository_url": "https://github.com/IsoFrieze/SMWDisX",
-      "project_type": "Disassembly / Reimplementation",
+      "project_type": "Disassembly",
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-08-20T03:50:59Z",
         "last_commit_url": "https://github.com/IsoFrieze/SMWDisX/commit/30643c7595a7d097d731de69476f8059c7cf98c3",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 181
-      },
-      "ai_used": null
-    },
-    "super-mario-world-snesrev": {
-      "name": "Super Mario World (snesrev)",
-      "platforms": [
-        "Super Nintendo (SNES)"
-      ],
-      "repository_url": "https://github.com/snesrev/smw",
-      "project_type": "Related project",
-      "completion_status": null,
-      "legacy_status": null,
-      "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2023-08-16T22:29:54Z",
-        "last_commit_url": "https://github.com/snesrev/smw/commit/eae20c65c58930c8b62c76188d259579ad4130f1",
-        "default_branch": "main",
-        "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
-        "status": "Inactive",
-        "github_stars": 644
+        "github_stars": 182
       },
       "ai_used": null
     },
@@ -301,12 +255,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-08-15T23:41:43Z",
         "last_commit_url": "https://github.com/brunovalads/yoshisisland-disassembly/commit/fb79f7994fb19146de35c02fb98fee8af5877372",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 162
       },
@@ -322,14 +274,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2021-09-06T07:42:17Z",
         "last_commit_url": "https://github.com/strager/supermetroid/commit/b7785a19024454ef366500243648cb64e687164b",
         "archived": false,
         "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 160
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -343,35 +293,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-02-10T19:36:05Z",
         "last_commit_url": "https://github.com/Yoshifanatic1/Super-Punch-Out-Disassembly/commit/3a1bd913e5ff6aefe7c7bcdb2c797919bcea7cba",
         "archived": false,
         "default_branch": "main",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 5
-      },
-      "ai_used": null
-    },
-    "the-legend-of-zelda-a-link-to-the-past": {
-      "name": "The Legend of Zelda: A Link to the Past",
-      "platforms": [
-        "Super Nintendo (SNES)"
-      ],
-      "repository_url": "https://github.com/snesrev/zelda3",
-      "project_type": "Reimplementation, PC Port",
-      "completion_status": null,
-      "legacy_status": "Active",
-      "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-02T23:58:23Z",
-        "last_commit_url": "https://github.com/snesrev/zelda3/commit/45a149d8b4bb8098f53d1009f76e76e7d8b79bbf",
-        "archived": false,
-        "default_branch": "master",
-        "last_success_at": "2026-10-18T08:18:48Z",
-        "status": "Active",
-        "github_stars": 4873
       },
       "ai_used": null
     },
@@ -385,12 +312,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-04-01T06:04:49Z",
         "last_commit_url": "https://github.com/hellow554/RustyBlazer/commit/699824e0c418bba874535c807855ee9ceb303c72",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 5
       },
@@ -406,14 +331,1038 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-21T02:08:14Z",
         "last_commit_url": "https://github.com/everything8215/ff5/commit/997c87d1d8fdff2c142d91050fe400b6cb293905",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "super-mario-all-stars-recomp": {
+      "name": "Super Mario All-Stars",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T13:51:15Z",
+        "last_commit_url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/commit/25d73ed4db7033b9177ec116f99f4185e7397a6f",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": 50,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "actraiser": {
+      "name": "ActRaiser",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/DerrickGold/ar-recomp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T02:32:09Z",
+        "last_commit_url": "https://github.com/DerrickGold/ar-recomp/commit/93c2786af6012325cc00c414c7bff07aa22ce672",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "bs-zelda-no-densetsu-bs-zelda-no-densetsu-disassembly": {
+      "name": "BS Zelda no Densetsu (BS-Zelda-no-Densetsu-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/BS-Zelda-no-Densetsu-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-10-31T17:32:48Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/BS-Zelda-no-Densetsu-Disassembly/commit/bd438f0c9f1ae139d82fe9edaef185786b343e5d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "donkey-kong-country-recomp": {
+      "name": "Donkey Kong Country (Recomp)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/elliotttate/DKC1Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-15T01:08:12Z",
+        "last_commit_url": "https://github.com/elliotttate/DKC1Recomp/commit/3eb9a10c49cb210df2bd63addafe2a78cf9f4e22",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 264
+      },
+      "ai_used": null
+    },
+    "donkey-kong-country-2-diddy-s-kong-quest": {
+      "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/elliotttate/DKC2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-13T22:04:23Z",
+        "last_commit_url": "https://github.com/elliotttate/DKC2Recomp/commit/3b386cb4a6b67472bc6693664ce61a11190e7b5d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 178
+      },
+      "ai_used": null
+    },
+    "donkey-kong-country-2-diddy-s-kong-quest-donkey-kong-country-2-disassembly": {
+      "name": "Donkey Kong Country 2: Diddy's Kong Quest (Donkey-Kong-Country-2-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-08-31T02:53:27Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly/commit/bc1138ffa5568b4f74deba1a5ff6af8e562c06a1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "doom": {
+      "name": "Doom",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Cacodemontube/DoomSNESRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:39:24Z",
+        "last_commit_url": "https://github.com/Cacodemontube/DoomSNESRecomp/commit/23b7a495055516ab0b938de51ee51ac46634c96f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "dragon-ball-z-super-saiya-densetsu": {
+      "name": "Dragon Ball Z: Super Saiya Densetsu",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:33:04Z",
+        "last_commit_url": "https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust/commit/5962a7ce14eff926ee7618854b80cca77ecf3605",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "earthbound-earthbound-d-port": {
+      "name": "EarthBound (earthbound (D port))",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Herringway/earthbound",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-08T00:34:38Z",
+        "last_commit_url": "https://github.com/Herringway/earthbound/commit/85ebb4d12dc65668ebfc0d8cc3f3179e34d231b6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 38
+      },
+      "ai_used": null
+    },
+    "earthbound-earthbound-disassembly": {
+      "name": "EarthBound (EarthBound-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/EarthBound-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-01-11T18:39:20Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/EarthBound-Disassembly/commit/313657d1f74888b4d8c619c602581673883bd15a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "earthbound-phase-distorter": {
+      "name": "EarthBound (Phase Distorter)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/TheRunaway5/Phase-Distorter",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T20:24:15Z",
+        "last_commit_url": "https://github.com/TheRunaway5/Phase-Distorter/commit/d6b5802b4e6fec5c1f3c6781e31037d299870e24",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 124
+      },
+      "ai_used": null
+    },
+    "earthbound-companion": {
+      "name": "Earthbound Companion",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/rages4calm/earthbound-companion",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T11:17:13Z",
+        "last_commit_url": "https://github.com/rages4calm/earthbound-companion/commit/308251d72bc343f61475377c4f6598e794baafbb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 36
+      },
+      "ai_used": null
+    },
+    "f-zero": {
+      "name": "F-Zero",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/FZeroSNESRecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-22T03:37:37Z",
+        "last_commit_url": "https://github.com/mstan/FZeroSNESRecomp/commit/1686df46d4fc7c22b5dc8fdfaa5282ca4bd78562",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 82
+      },
+      "ai_used": null
+    },
+    "f-zero-recomp": {
+      "name": "F-Zero (Recomp)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/craigshaw/FZeroRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T15:46:54Z",
+        "last_commit_url": "https://github.com/craigshaw/FZeroRecomp/commit/5f37c22c7a2acef8b341545e9f2a4c5a4463990b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "fire-emblem-thracia-776-fireemblem5": {
+      "name": "Fire Emblem: Thracia 776 (FireEmblem5)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/ZaneAvernathy/FireEmblem5",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-01-03T12:52:12Z",
+        "last_commit_url": "https://github.com/ZaneAvernathy/FireEmblem5/commit/980bb114886061532267a6aa50e4ebd5a37d6d8b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 35
+      },
+      "ai_used": null
+    },
+    "go-go-ackman": {
+      "name": "Go Go Ackman",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/catmidori/gogoackman1recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-16T02:46:38Z",
+        "last_commit_url": "https://github.com/catmidori/gogoackman1recomp/commit/db9f16b5ae51719f0ec81f3f4bae63a5ef84348c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 2
+      },
+      "ai_used": null
+    },
+    "harvest-moon-hm-decomp": {
+      "name": "Harvest Moon (HM-Decomp)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/ElisaS-Codes/HM-Decomp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-06-10T20:36:18Z",
+        "last_commit_url": "https://github.com/ElisaS-Codes/HM-Decomp/commit/88429ba3467dca339ef279f0ef5d2b519f7b52dd",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "international-superstar-soccer-deluxe-international-superstar-soccer-deluxe-snes-disassembly": {
+      "name": "International Superstar Soccer Deluxe (International-Superstar-Soccer-Deluxe-SNES-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/International-Superstar-Soccer-Deluxe-SNES-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-08-07T01:51:50Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/International-Superstar-Soccer-Deluxe-SNES-Disassembly/commit/d5b0e975c25c266d1a92692a62cb18462807c679",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "iss-deluxe": {
+      "name": "ISS Deluxe",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/sergiomanzur/issd-native",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T04:14:16Z",
+        "last_commit_url": "https://github.com/sergiomanzur/issd-native/commit/2c20d46dc1e0167db072dd4d8abbfde0cf01cd8e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 29
+      },
+      "ai_used": true
+    },
+    "jungle-strike": {
+      "name": "Jungle Strike",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T02:18:54Z",
+        "last_commit_url": "https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp/commit/65d0e83af249b56d736883b0b9f80750f5f55e42",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "jurassic-park-jurassic-park-1-snes-disassembly": {
+      "name": "Jurassic Park (Jurassic-Park-1-SNES-disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/Jurassic-Park-1-SNES-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-04-25T14:48:43Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/Jurassic-Park-1-SNES-disassembly/commit/82b825c4be6a1242609ce10778da5d4181502679",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 10
+      },
+      "ai_used": null
+    },
+    "kirby-super-star-kss-disassembly": {
+      "name": "Kirby Super Star (KSS-disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Ankouno/KSS-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-10-07T22:03:39Z",
+        "last_commit_url": "https://github.com/Ankouno/KSS-disassembly/commit/9863c88e7f987e71bca858cd6a466ea04b5b8339",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes": {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T22:59:19Z",
+        "last_commit_url": "https://github.com/EstebanPdN/zelda-alttp-3ds/commit/48c4e351c971e112687e5ebdec7dd8f585e677d7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 728
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-yeoldpress": {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/YeOldPress/alttp-dx",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T18:43:37Z",
+        "last_commit_url": "https://github.com/YeOldPress/alttp-dx/commit/13d4cfeb71b2c67af592b26407e62bb66e8a6254",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-waterdish": {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Waterdish/zelda3-android",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-06-03T00:50:23Z",
+        "last_commit_url": "https://github.com/Waterdish/zelda3-android/commit/d4c184af0b26b9076471e01b36e31c84494505b6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 208
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past-alttp-disassembly": {
+      "name": "The Legend of Zelda: A Link to the Past (alttp-disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/walkingeyerobot/alttp-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2018-11-25T21:22:08Z",
+        "last_commit_url": "https://github.com/walkingeyerobot/alttp-disassembly/commit/79207d1730c2af1c777bc5dc3f94538f779ea292",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "mega-man-7-mega-man-7-disassembly": {
+      "name": "Mega Man 7 (Mega-Man-7-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/Mega-Man-7-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-01-29T22:51:46Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/Mega-Man-7-Disassembly/commit/fad8cbd3c2023a7bf57217c83cc08cb4cca38211",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "mega-man-x": {
+      "name": "Mega Man X",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/MegaManXSNESRecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T05:26:56Z",
+        "last_commit_url": "https://github.com/mstan/MegaManXSNESRecomp/commit/452ac3180e0557f2cd6226af87ae0f6704b14f1a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 206
+      },
+      "ai_used": null
+    },
+    "mega-man-x2": {
+      "name": "Mega Man X2",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/MegaManX2Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T20:21:55Z",
+        "last_commit_url": "https://github.com/mstan/MegaManX2Recomp/commit/c62a096873fd6b98f197bb06b0b6929432de1bc3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 48
+      },
+      "ai_used": null
+    },
+    "mega-man-x3": {
+      "name": "Mega Man X3",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/MegamanX3SNESRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T20:21:55Z",
+        "last_commit_url": "https://github.com/mstan/MegamanX3SNESRecomp/commit/371c3e83b97c258ac553430742b2f79d7e93ebe9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "mystery-dungeon-shiren-the-wanderer": {
+      "name": "Mystery Dungeon: Shiren the Wanderer",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/CelestialAmber/shiren",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-07-13T10:51:03Z",
+        "last_commit_url": "https://github.com/CelestialAmber/shiren/commit/0d404e43b8642f7e2d71dbc0fed5bdd643fc678e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "shin-megami-tensei-j1-0": {
+      "name": "Shin Megami Tensei J1.0",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/spannerisms/smt1dasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2022-11-17T12:23:18Z",
+        "last_commit_url": "https://github.com/spannerisms/smt1dasm/commit/6d950c02be4b24adb07f8e024db26ce38b1554e3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "star-fox": {
+      "name": "Star Fox",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/kandowontu2/starfox-enhanced",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T16:56:46Z",
+        "last_commit_url": "https://github.com/kandowontu2/starfox-enhanced/commit/e513c732f21f63b5ce73206bc7ee0d4689ffcd18",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 110
+      },
+      "ai_used": null
+    },
+    "star-fox-starfoxdisassembly": {
+      "name": "Star Fox (StarFoxDisassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/SpyderTL/StarFoxDisassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-10-26T14:49:11Z",
+        "last_commit_url": "https://github.com/SpyderTL/StarFoxDisassembly/commit/20f9f3c77f453945d81906a9499a136818f93857",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "starfox-recomp": {
+      "name": "Starfox Recomp",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/StarFoxSNESRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T20:40:48Z",
+        "last_commit_url": "https://github.com/mstan/StarFoxSNESRecomp/commit/1b6b0598ef8d93030a723eaa595d8a478a658ed3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 30
+      },
+      "ai_used": null
+    },
+    "strike-gunner-s-t-g": {
+      "name": "Strike Gunner S.T.G",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T03:57:40Z",
+        "last_commit_url": "https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp/commit/f507564744619c791d8779e8f2e9c60e15c6bc5e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "super-bomberman-recomp": {
+      "name": "Super Bomberman (Recomp)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/elliotttate/BombermanRecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-26T16:00:34Z",
+        "last_commit_url": "https://github.com/elliotttate/BombermanRecomp/commit/56106599c1fb2f612fd642ee37c0e015611fc31d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "super-mario-kart": {
+      "name": "Super Mario Kart",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/jvipond/super_mario_kart_recompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-03-26T14:23:45Z",
+        "last_commit_url": "https://github.com/jvipond/super_mario_kart_recompilation/commit/4863989a7a2365e085bdaef5cc6ec6be88c88283",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "super-mario-kart-super-mario-kart-disassembly": {
+      "name": "Super Mario Kart (Super-Mario-Kart-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/Super-Mario-Kart-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-01-11T18:25:24Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/Super-Mario-Kart-Disassembly/commit/f5c5c21f263172f20936893fa339ae0819094954",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "super-mario-rpg-legend-of-the-seven-stars": {
+      "name": "Super Mario RPG: Legend of the Seven Stars",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/SuperMarioRPGRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-22T03:20:03Z",
+        "last_commit_url": "https://github.com/mstan/SuperMarioRPGRecomp/commit/26fe2b8a62f78cd10a49a2a09cc81fb2b33abc9f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "super-mario-world-smas-launcher": {
+      "name": "Super Mario World (SMAS_Launcher)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/stephini/SMAS_Launcher",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-07-20T06:37:27Z",
+        "last_commit_url": "https://github.com/stephini/SMAS_Launcher/commit/5b43b533dd223b73f7d225d436d4f66db647237d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 63
+      },
+      "ai_used": null
+    },
+    "super-mario-world-smw-smas-smasw-disassembly": {
+      "name": "Super Mario World (SMW-SMAS-SMASW-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/SMW-SMAS-SMASW-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-03-05T01:29:06Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/SMW-SMAS-SMASW-Disassembly/commit/a3c93ead3198923f2772374e21936eab2f243dab",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 28
+      },
+      "ai_used": null
+    },
+    "super-mario-world-smw-src": {
+      "name": "Super Mario World (smw-src)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/galaxyhaxz/smw-src",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-11-29T00:15:52Z",
+        "last_commit_url": "https://github.com/galaxyhaxz/smw-src/commit/30e66e1ae3e8e0e518885dbcd5f85f2909a4969e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 58
+      },
+      "ai_used": null
+    },
+    "super-mario-world-smwdisc-all-log": {
+      "name": "Super Mario World (SMWDisC (All.log++))",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/gnaghi/SMWDisC",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2015-01-21T03:53:24Z",
+        "last_commit_url": "https://github.com/gnaghi/SMWDisC/commit/93cd8c5da23853213ebd0f44df1ef707c2234c34",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "super-mario-world-2-yoshi-s-island-yoshi-s-island-disassembly": {
+      "name": "Super Mario World 2: Yoshi's Island (Yoshi-s-Island-Disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Yoshifanatic1/Yoshi-s-Island-Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2021-06-21T22:54:00Z",
+        "last_commit_url": "https://github.com/Yoshifanatic1/Yoshi-s-Island-Disassembly/commit/7be13ebf078a3e09849d533fea8db65894c5e36c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "super-metroid-launcher": {
+      "name": "Super Metroid (Launcher)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/RadzPrower/Super-Metroid-Launcher",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T14:29:38Z",
+        "last_commit_url": "https://github.com/RadzPrower/Super-Metroid-Launcher/commit/cd1ed7497d135f1dcc1ab1435481ace838288321",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 212
+      },
+      "ai_used": null
+    },
+    "super-metroid-sm-3ds": {
+      "name": "Super Metroid (sm-3ds)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/CharlesAverill/sm-3ds",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-14T09:20:45Z",
+        "last_commit_url": "https://github.com/CharlesAverill/sm-3ds/commit/7359262829fbe2a8e74ed72c9848a691930e01c7",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "super-metroid-sm-disassembly": {
+      "name": "Super Metroid (sm_disassembly)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/InsaneFirebat/sm_disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T12:50:42Z",
+        "last_commit_url": "https://github.com/InsaneFirebat/sm_disassembly/commit/7af131ebc328359e852e923603163a329c7aa7af",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 24
+      },
+      "ai_used": null
+    },
+    "tiny-toon-adventures-buster-busts-loose-buster-busts-loose-pc-port": {
+      "name": "Tiny Toon Adventures: Buster Busts Loose! (Buster Busts Loose! (PC port))",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/Darhkfox/BusterBustsLoose",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-07T12:16:26Z",
+        "last_commit_url": "https://github.com/Darhkfox/BusterBustsLoose/commit/10aa80dea7fbdae31f0c38f51199c136ed0172d2",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "tokimeki-memorial-forever-with-you": {
+      "name": "Tokimeki Memorial: Forever With You",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/CelestialAmber/tokimemo",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-02-17T00:27:52Z",
+        "last_commit_url": "https://github.com/CelestialAmber/tokimemo/commit/f5daba6ce40d575c4b3981d6b56f69c55e942e13",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "zelda-no-densetsu-kamigami-no-triforce": {
+      "name": "Zelda no Densetsu: Kamigami no Triforce",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/spannerisms/jpdasm",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-15T07:21:47Z",
+        "last_commit_url": "https://github.com/spannerisms/jpdasm/commit/4535f694752d1469ede65083e986ce2101945264",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 38
+      },
+      "ai_used": null
+    },
+    "zombies-ate-my-neighbors-zombies-ate-my-neighbors-pc-port": {
+      "name": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:25:02Z",
+        "last_commit_url": "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port/commit/410454abfef1f48e0a2d4a142d81145ad9718b36",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "super-mario-world-super-mario-world-remastered": {
+      "name": "Super Mario World (Super Mario World Remastered)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/JHDev2006/Super-Mario-World-Remastered-Public",
+      "project_type": "Fan remake",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-05-14T11:27:20Z",
+        "last_commit_url": "https://github.com/JHDev2006/Super-Mario-World-Remastered-Public/commit/4c520cf0bf5ad919991b0a84d1e30643508f0086",
+        "default_branch": "main",
+        "archived": true,
+        "status": "Inactive",
+        "github_stars": 281
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past-recompilation": {
+      "name": "A Link to the Past SNES Recompiled",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "github_stars": 57,
+        "last_commit_at": "2026-10-20T13:38:17Z",
+        "last_commit_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/commit/d54e9f309c8e367c2c22e93231c29d67b052e22e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active"
       },
       "ai_used": null
     }
@@ -720,16 +1669,6 @@
           "completion_metric": "completion",
           "ports": [
             {
-              "name": "Super Mario World (snesrev)",
-              "url": "https://github.com/snesrev/smw",
-              "platforms": [],
-              "description_markdown": "C reimplementation and native port.",
-              "project_types": [
-                "Reimplementation",
-                "Native port"
-              ]
-            },
-            {
               "name": "Super Mario World Recompiled",
               "url": "https://github.com/mstan/SuperMarioWorldRecomp",
               "platforms": [
@@ -829,8 +1768,8 @@
           ]
         },
         {
-          "project": "the-legend-of-zelda-a-link-to-the-past",
-          "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/snesrev/zelda3)",
+          "project": "the-legend-of-zelda-a-link-to-the-past-recompilation",
+          "name_markdown": "[A Link to the Past SNES Recompiled](https://github.com/mstan/ZeldaAlttPSNESRecomp)",
           "images": [
             {
               "alt": "The Legend of Zelda: A Link to the Past box art",
@@ -838,41 +1777,19 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Experimental preview; documented testing reaches the early dungeon.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [
-            {
-              "name": "The Legend of Zelda: A Link to the Past",
-              "url": "https://github.com/snesrev/zelda3",
-              "platforms": [],
-              "description_markdown": "",
-              "project_types": [
-                "Native port"
-              ]
-            },
-            {
-              "name": "A Link to the Past SNES Recompiled",
-              "url": "https://github.com/mstan/ZeldaAlttPSNESRecomp",
-              "platforms": [
-                "Windows"
-              ],
-              "description_markdown": "Experimental preview; documented testing reaches the early dungeon.",
-              "project_types": [
-                "Static recompilation",
-                "Native port"
-              ]
-            }
-          ],
+          "ports": [],
           "project_types": [
             {
-              "name": "Reimplementation",
-              "url": "https://github.com/snesrev/zelda3"
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/ZeldaAlttPSNESRecomp"
             },
             {
               "name": "Native port",
-              "url": "https://github.com/snesrev/zelda3"
+              "url": "https://github.com/mstan/ZeldaAlttPSNESRecomp"
             }
           ]
         },
@@ -917,6 +1834,1153 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/everything8215/ff5"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-all-stars-recomp",
+          "name_markdown": "[Super Mario All-Stars (Recomp)](https://github.com/TanookiStudios/SuperMarioAllStarsRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20All-Stars%20%28USA%29.png",
+              "alt": "Super Mario All-Stars Super Nintendo box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted native port for macOS, Windows and Linux requiring the USA ROM. Super Mario Bros. and The Lost Levels are mostly translated to native code; Super Mario Bros. 2 and 3 currently use a built-in interpreter. Windows and Linux releases were not tested on physical target machines at announcement. [Announcement](https://www.reddit.com/r/recomps/comments/1xb8p6y/super_mario_allstars_was_my_favorite_game_as_a/).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp"
+            }
+          ]
+        },
+        {
+          "project": "actraiser",
+          "name_markdown": "[ActRaiser](https://github.com/DerrickGold/ar-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/ActRaiser%20%28USA%29.png",
+              "alt": "ActRaiser box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "ActRaiser (SNES) Recompilation Project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/DerrickGold/ar-recomp"
+            }
+          ]
+        },
+        {
+          "project": "bs-zelda-no-densetsu-bs-zelda-no-densetsu-disassembly",
+          "name_markdown": "[BS Zelda no Densetsu (BS-Zelda-no-Densetsu-Disassembly)](https://github.com/Yoshifanatic1/BS-Zelda-no-Densetsu-Disassembly)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/BS-Zelda-no-Densetsu-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-country-recomp",
+          "name_markdown": "[Donkey Kong Country (Recomp)](https://github.com/elliotttate/DKC1Recomp)",
+          "images": [
+            {
+              "alt": "Donkey Kong Country box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Donkey Kong Country (SNES USA v1.0) with native widescreen presentation and deterministic debugging tools",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/elliotttate/DKC1Recomp"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-country-2-diddy-s-kong-quest",
+          "name_markdown": "[Donkey Kong Country 2: Diddy's Kong Quest](https://github.com/elliotttate/DKC2Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy%27s%20Kong%20Quest%20%28USA%29%20%28En%2CFr%29.png",
+              "alt": "Donkey Kong Country 2: Diddy's Kong Quest box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/elliotttate/DKC2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "donkey-kong-country-2-diddy-s-kong-quest-donkey-kong-country-2-disassembly",
+          "name_markdown": "[Donkey Kong Country 2: Diddy's Kong Quest (Donkey-Kong-Country-2-Disassembly)](https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Donkey%20Kong%20Country%202%20-%20Diddy%27s%20Kong%20Quest%20%28USA%29%20%28En%2CFr%29.png",
+              "alt": "Donkey Kong Country 2: Diddy's Kong Quest (Donkey-Kong-Country-2-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/Donkey-Kong-Country-2-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "doom",
+          "name_markdown": "[Doom](https://github.com/Cacodemontube/DoomSNESRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Doom%20%28USA%29.png",
+              "alt": "Doom box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "This is a PC Recomp of the SNES Version of Doom using SNESrecomp.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Cacodemontube/DoomSNESRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Cacodemontube/DoomSNESRecomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-super-saiya-densetsu",
+          "name_markdown": "[Dragon Ball Z: Super Saiya Densetsu](https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Super%20Saiya%20Densetsu%20%28Japan%29.png",
+              "alt": "Dragon Ball Z: Super Saiya Densetsu box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dragon Ball Z: Super Saiya Densetsu (SNES) - Classic, Recompiled and HD Remastered, rewritten in Rust. Bring your own ROM.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust"
+            }
+          ]
+        },
+        {
+          "project": "earthbound-earthbound-d-port",
+          "name_markdown": "[EarthBound (earthbound (D port))](https://github.com/Herringway/earthbound)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/EarthBound%20%28USA%29.png",
+              "alt": "EarthBound (earthbound (D port)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "attempt at decompiling+porting earthbound",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Herringway/earthbound"
+            }
+          ]
+        },
+        {
+          "project": "earthbound-earthbound-disassembly",
+          "name_markdown": "[EarthBound (EarthBound-Disassembly)](https://github.com/Yoshifanatic1/EarthBound-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/EarthBound%20%28USA%29.png",
+              "alt": "EarthBound (EarthBound-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of EarthBound; the repository contains the EB source directory and framework build documentation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/EarthBound-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "earthbound-phase-distorter",
+          "name_markdown": "[EarthBound (Phase Distorter)](https://github.com/TheRunaway5/Phase-Distorter)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/EarthBound%20%28USA%29.png",
+              "alt": "EarthBound (Phase Distorter) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Mother 2/EarthBound PC Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/TheRunaway5/Phase-Distorter"
+            }
+          ]
+        },
+        {
+          "project": "earthbound-companion",
+          "name_markdown": "[Earthbound Companion](https://github.com/rages4calm/earthbound-companion)",
+          "images": [],
+          "notes_markdown": "EarthBound Companion 1.0: native Windows port with Original and MaternalBound Redux, widescreen/4K, MSU music, controllers, Story Shuffle and 46 offline achievements. Linux, macOS and...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/rages4calm/earthbound-companion"
+            }
+          ]
+        },
+        {
+          "project": "f-zero",
+          "name_markdown": "[F-Zero](https://github.com/mstan/FZeroSNESRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/F-Zero%20%28USA%29.png",
+              "alt": "F-Zero box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mstan/FZeroSNESRecomp"
+            }
+          ]
+        },
+        {
+          "project": "f-zero-recomp",
+          "name_markdown": "[F-Zero (Recomp)](https://github.com/craigshaw/FZeroRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/F-Zero%20%28USA%29.png",
+              "alt": "F-Zero (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "F-Zero recompiled",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/craigshaw/FZeroRecomp"
+            }
+          ]
+        },
+        {
+          "project": "fire-emblem-thracia-776-fireemblem5",
+          "name_markdown": "[Fire Emblem: Thracia 776 (FireEmblem5)](https://github.com/ZaneAvernathy/FireEmblem5)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Fire%20Emblem%20-%20Thracia%20776%20%28USA%29.png",
+              "alt": "Fire Emblem: Thracia 776 (FireEmblem5) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A disassembly of Fire Emblem: Thracia 776",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ZaneAvernathy/FireEmblem5"
+            }
+          ]
+        },
+        {
+          "project": "go-go-ackman",
+          "name_markdown": "[Go Go Ackman](https://github.com/catmidori/gogoackman1recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Go%20Go%20Ackman%20%28Japan%29.png",
+              "alt": "Go Go Ackman box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation version of Go Go Ackman for the SNES made using the Snesercomp project, from https://github.com/RetroPortingToolKit/snesrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/catmidori/gogoackman1recomp"
+            }
+          ]
+        },
+        {
+          "project": "harvest-moon-hm-decomp",
+          "name_markdown": "[Harvest Moon (HM-Decomp)](https://github.com/ElisaS-Codes/HM-Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Harvest%20Moon%20%28USA%29.png",
+              "alt": "Harvest Moon (HM-Decomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation/Dissasemble of Harvest Moon for SNES",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/ElisaS-Codes/HM-Decomp"
+            }
+          ]
+        },
+        {
+          "project": "international-superstar-soccer-deluxe-international-superstar-soccer-deluxe-snes-disassembly",
+          "name_markdown": "[International Superstar Soccer Deluxe (International-Superstar-Soccer-Deluxe-SNES-Disassembly)](https://github.com/Yoshifanatic1/International-Superstar-Soccer-Deluxe-SNES-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/International%20Superstar%20Soccer%20Deluxe%20%28USA%29.png",
+              "alt": "International Superstar Soccer Deluxe (International-Superstar-Soccer-Deluxe-SNES-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/International-Superstar-Soccer-Deluxe-SNES-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "iss-deluxe",
+          "name_markdown": "[ISS Deluxe](https://github.com/sergiomanzur/issd-native)",
+          "images": [],
+          "notes_markdown": "AI-driven native recompilation project for ISS Deluxe on SNES AI use: [maintainer statement](https://github.com/sergiomanzur/issd-native).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/sergiomanzur/issd-native"
+            }
+          ]
+        },
+        {
+          "project": "jungle-strike",
+          "name_markdown": "[Jungle Strike](https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Jungle%20Strike%20%28USA%29.png",
+              "alt": "Jungle Strike box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Jungle Strike (SNES) for Windows 10 and 11. ROM not included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Junior-Jones/Jungle-Strike-SNES-Static-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "jurassic-park-jurassic-park-1-snes-disassembly",
+          "name_markdown": "[Jurassic Park (Jurassic-Park-1-SNES-disassembly)](https://github.com/Yoshifanatic1/Jurassic-Park-1-SNES-disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Jurassic%20Park%20%28USA%29.png",
+              "alt": "Jurassic Park (Jurassic-Park-1-SNES-disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/Jurassic-Park-1-SNES-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "kirby-super-star-kss-disassembly",
+          "name_markdown": "[Kirby Super Star (KSS-disassembly)](https://github.com/Ankouno/KSS-disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Kirby%20Super%20Star%20%28USA%29.png",
+              "alt": "Kirby Super Star (KSS-disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A repository dedicated to disassembling and documenting Kirby Super Star.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Kirby Super Star Recomp",
+              "url": "https://github.com/NVDEMU/KirbySuperStarPC",
+              "platforms": [
+                "Windows",
+                "macOS",
+                "Linux"
+              ],
+              "description_markdown": "Experimental snesrecomp port requiring the exact USA SA-1 ROM. Official Nightly packages are setup packs: generate the C code and rebuild locally before playing. Manual macOS builds are reported to render correctly; some routines remain interpreted.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Ankouno/KSS-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes",
+          "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/EstebanPdN/zelda-alttp-3ds)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/EstebanPdN/zelda-alttp-3ds"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-yeoldpress",
+          "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/YeOldPress/alttp-dx)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC Port of The Legend of Zelda: A Link to the Past",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/YeOldPress/alttp-dx"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-waterdish",
+          "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/Waterdish/zelda3-android)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A port of Zelda3 to Android",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Waterdish/zelda3-android"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-a-link-to-the-past-alttp-disassembly",
+          "name_markdown": "[The Legend of Zelda: A Link to the Past (alttp-disassembly)](https://github.com/walkingeyerobot/alttp-disassembly)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/walkingeyerobot/alttp-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-7-mega-man-7-disassembly",
+          "name_markdown": "[Mega Man 7 (Mega-Man-7-Disassembly)](https://github.com/Yoshifanatic1/Mega-Man-7-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%207%20%28USA%29.png",
+              "alt": "Mega Man 7 (Mega-Man-7-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Mega Man 7; the repository contains the MM7 source directory and framework build documentation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/Mega-Man-7-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x",
+          "name_markdown": "[Mega Man X](https://github.com/mstan/MegaManXSNESRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+              "alt": "Mega Man X box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mstan/MegaManXSNESRecomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x2",
+          "name_markdown": "[Mega Man X2](https://github.com/mstan/MegaManX2Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%20X2%20%28USA%29.png",
+              "alt": "Mega Man X2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Mega Man X2 (SNES) via snesrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/MegaManX2Recomp"
+            }
+          ]
+        },
+        {
+          "project": "mega-man-x3",
+          "name_markdown": "[Mega Man X3](https://github.com/mstan/MegamanX3SNESRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Mega%20Man%20X3%20%28USA%29.png",
+              "alt": "Mega Man X3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of Mega Man X3 (SNES) via snesrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/MegamanX3SNESRecomp"
+            }
+          ]
+        },
+        {
+          "project": "mystery-dungeon-shiren-the-wanderer",
+          "name_markdown": "[Mystery Dungeon: Shiren the Wanderer](https://github.com/CelestialAmber/shiren)",
+          "images": [],
+          "notes_markdown": "Disassembly of Fushigi no Dungeon 2: Fuurai no Shiren",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/CelestialAmber/shiren"
+            }
+          ]
+        },
+        {
+          "project": "shin-megami-tensei-j1-0",
+          "name_markdown": "[Shin Megami Tensei J1.0](https://github.com/spannerisms/smt1dasm)",
+          "images": [],
+          "notes_markdown": "Disassembly of Shin Megami Tensei J1.0 for the SNES",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/spannerisms/smt1dasm"
+            }
+          ]
+        },
+        {
+          "project": "star-fox",
+          "name_markdown": "[Star Fox](https://github.com/kandowontu2/starfox-enhanced)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Star%20Fox%20%28USA%29.png",
+              "alt": "Star Fox box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Star Fox Enhanced source and portable platform builds (Assisted by Codex AI)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/kandowontu2/starfox-enhanced"
+            }
+          ]
+        },
+        {
+          "project": "star-fox-starfoxdisassembly",
+          "name_markdown": "[Star Fox (StarFoxDisassembly)](https://github.com/SpyderTL/StarFoxDisassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Star%20Fox%20%28USA%29.png",
+              "alt": "Star Fox (StarFoxDisassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Star Fox for the SNES (US version 1.2)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/SpyderTL/StarFoxDisassembly"
+            }
+          ]
+        },
+        {
+          "project": "starfox-recomp",
+          "name_markdown": "[Starfox Recomp](https://github.com/mstan/StarFoxSNESRecomp)",
+          "images": [],
+          "notes_markdown": "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/StarFoxSNESRecomp"
+            }
+          ]
+        },
+        {
+          "project": "strike-gunner-s-t-g",
+          "name_markdown": "[Strike Gunner S.T.G](https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Strike%20Gunner%20S.T.G%20%28USA%29.png",
+              "alt": "Strike Gunner S.T.G box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A native PC recompilation of the SNES shmup, Strike Gunner STG.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/SlippyGetBackHere/Strike-Gunner-STG-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "super-bomberman-recomp",
+          "name_markdown": "[Super Bomberman (Recomp)](https://github.com/elliotttate/BombermanRecomp)",
+          "images": [
+            {
+              "alt": "Super Bomberman box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Bomberman%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native recompilation of Super Bomberman (USA) for Windows using snesrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/elliotttate/BombermanRecomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-kart",
+          "name_markdown": "[Super Mario Kart](https://github.com/jvipond/super_mario_kart_recompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20Kart%20%28USA%29.png",
+              "alt": "Super Mario Kart box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Attempt to recompile SNES Super Mario Kart (USA).sfc to x86-64 using LLVM",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/jvipond/super_mario_kart_recompilation"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-kart-super-mario-kart-disassembly",
+          "name_markdown": "[Super Mario Kart (Super-Mario-Kart-Disassembly)](https://github.com/Yoshifanatic1/Super-Mario-Kart-Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20Kart%20%28USA%29.png",
+              "alt": "Super Mario Kart (Super-Mario-Kart-Disassembly) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Super Mario Kart; the repository contains the SMK source directory and framework build documentation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/Super-Mario-Kart-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-rpg-legend-of-the-seven-stars",
+          "name_markdown": "[Super Mario RPG: Legend of the Seven Stars](https://github.com/mstan/SuperMarioRPGRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28USA%29.png",
+              "alt": "Super Mario RPG: Legend of the Seven Stars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/SuperMarioRPGRecomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-smas-launcher",
+          "name_markdown": "[Super Mario World (SMAS_Launcher)](https://github.com/stephini/SMAS_Launcher)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/stephini/SMAS_Launcher"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-smw-smas-smasw-disassembly",
+          "name_markdown": "[Super Mario World (SMW-SMAS-SMASW-Disassembly)](https://github.com/Yoshifanatic1/SMW-SMAS-SMASW-Disassembly)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassemblies of Super Mario World and Super Mario All-Stars; game-specific source directories share framework build documentation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/SMW-SMAS-SMASW-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-smw-src",
+          "name_markdown": "[Super Mario World (smw-src)](https://github.com/galaxyhaxz/smw-src)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Source code to Super Mario World (SNES disassembly)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/galaxyhaxz/smw-src"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-smwdisc-all-log",
+          "name_markdown": "[Super Mario World (SMWDisC (All.log++))](https://github.com/gnaghi/SMWDisC)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Super Mario World disassembly",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/gnaghi/SMWDisC"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-2-yoshi-s-island-yoshi-s-island-disassembly",
+          "name_markdown": "[Super Mario World 2: Yoshi's Island (Yoshi-s-Island-Disassembly)](https://github.com/Yoshifanatic1/Yoshi-s-Island-Disassembly)",
+          "images": [
+            {
+              "alt": "Super Mario World 2: Yoshi's Island box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%202%20-%20Yoshi%27s%20Island%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Yoshifanatic1/Yoshi-s-Island-Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "super-metroid-launcher",
+          "name_markdown": "[Super Metroid (Launcher)](https://github.com/RadzPrower/Super-Metroid-Launcher)",
+          "images": [
+            {
+              "alt": "Super Metroid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Conversion of Zelda 3 Launcher to Super Metroid Launcher",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/RadzPrower/Super-Metroid-Launcher"
+            }
+          ]
+        },
+        {
+          "project": "super-metroid-sm-3ds",
+          "name_markdown": "[Super Metroid (sm-3ds)](https://github.com/CharlesAverill/sm-3ds)",
+          "images": [
+            {
+              "alt": "Super Metroid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native 3DS port of Super Metroid",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/CharlesAverill/sm-3ds"
+            }
+          ]
+        },
+        {
+          "project": "super-metroid-sm-disassembly",
+          "name_markdown": "[Super Metroid (sm_disassembly)](https://github.com/InsaneFirebat/sm_disassembly)",
+          "images": [
+            {
+              "alt": "Super Metroid box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Metroid%20%28Japan%2C%20USA%29%20%28En%2CJa%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A relocatable disassembly of Super Metroid (SNES) based on P.JBoy's bank logs",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/InsaneFirebat/sm_disassembly"
+            }
+          ]
+        },
+        {
+          "project": "tiny-toon-adventures-buster-busts-loose-buster-busts-loose-pc-port",
+          "name_markdown": "[Tiny Toon Adventures: Buster Busts Loose! (Buster Busts Loose! (PC port))](https://github.com/Darhkfox/BusterBustsLoose)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Tiny%20Toon%20Adventures%20-%20Buster%20Busts%20Loose%21%20%28USA%29.png",
+              "alt": "Tiny Toon Adventures: Buster Busts Loose! (Buster Busts Loose! (PC port)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Windows PC port of Tiny Toon Adventures: Buster Busts Loose! (SNES) with true widescreen, HUD re-anchoring, display options, cheats, level select and music player....",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Darhkfox/BusterBustsLoose"
+            }
+          ]
+        },
+        {
+          "project": "tokimeki-memorial-forever-with-you",
+          "name_markdown": "[Tokimeki Memorial: Forever With You](https://github.com/CelestialAmber/tokimemo)",
+          "images": [],
+          "notes_markdown": "WIP decompilation of Tokimeki Memorial: Forever With You (PS1)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/CelestialAmber/tokimemo"
+            }
+          ]
+        },
+        {
+          "project": "zelda-no-densetsu-kamigami-no-triforce",
+          "name_markdown": "[Zelda no Densetsu: Kamigami no Triforce](https://github.com/spannerisms/jpdasm)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Zelda%20no%20Densetsu%20-%20Kamigami%20no%20Triforce%20%28Japan%29.png",
+              "alt": "Zelda no Densetsu: Kamigami no Triforce box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Accurate and annotated disassembly of Zelda no Densetsu: Kamigami no Triforce",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/spannerisms/jpdasm"
+            }
+          ]
+        },
+        {
+          "project": "zombies-ate-my-neighbors-zombies-ate-my-neighbors-pc-port",
+          "name_markdown": "[Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)](https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Zombies%20Ate%20My%20Neighbors%20%28USA%29.png",
+              "alt": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-world-super-mario-world-remastered",
+          "name_markdown": "[Super Mario World (Super Mario World Remastered)](https://github.com/JHDev2006/Super-Mario-World-Remastered-Public)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A Remake / Remaster of the original Super Mario World, in Godot. Adds new features / improvements!",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Fan remake",
+              "url": "https://github.com/JHDev2006/Super-Mario-World-Remastered-Public"
             }
           ]
         }

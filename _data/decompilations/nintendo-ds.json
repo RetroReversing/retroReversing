@@ -11,14 +11,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-05-04T18:43:22Z",
         "last_commit_url": "https://github.com/LagoLunatic/ooe/commit/3dc4a82881b4cb8f9d584571fcf2053ddc584f6a",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 32
+        "github_stars": 34
       },
       "ai_used": null
     },
@@ -32,14 +30,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T22:37:15Z",
-        "last_commit_url": "https://github.com/DQIX/dqix-decomp/commit/0ab187e4dcf44cc058aafbb50403773ab782b4d2",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-23T21:47:05Z",
+        "last_commit_url": "https://github.com/DQIX/dqix-decomp/commit/1253a35daacdaceb813d7fdba28ef77c7dbd0855",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 50
+        "github_stars": 52
       },
       "ai_used": null
     },
@@ -53,14 +49,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-29T21:50:39Z",
         "last_commit_url": "https://github.com/Rainchus/PartnersInTime-Decomp/commit/a26b1e8da14f0cdaf2ff17d62ae4c9c6d27e6c3e",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -74,14 +68,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-04-17T22:56:25Z",
         "last_commit_url": "https://github.com/mariopartyrd/mariopartyDS/commit/881aa6969faa4849f8f6b8fa9b45bcd44a1872be",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -95,14 +87,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-11T22:56:20Z",
         "last_commit_url": "https://github.com/pret/pokediamond/commit/b623abef1b4dfe204ca50aab42447ac00c134290",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 543
+        "github_stars": 544
       },
       "ai_used": null
     },
@@ -116,14 +106,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T03:12:49Z",
-        "last_commit_url": "https://github.com/pret/pokeheartgold/commit/5bb4b3b4961cbf0f8a42360c58a3c045d8535069",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-19T12:08:31Z",
+        "last_commit_url": "https://github.com/pret/pokeheartgold/commit/6988158691eb6178cff697cda0428045ddcba5fb",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 704
+        "github_stars": 739
       },
       "ai_used": null
     },
@@ -137,14 +125,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-10T20:15:32Z",
         "last_commit_url": "https://github.com/cybervisi0n/pokeplatinum/commit/35067868f64f23d25d17ac3e536cfdd9a7f40523",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "pc_port",
-        "github_stars": 125
+        "github_stars": 130
       },
       "ai_used": null
     },
@@ -158,14 +144,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-06-21T13:44:20Z",
         "last_commit_url": "https://github.com/patataofcourse/rhgold/commit/bb9d0fe86926fdce3752262155b6efe51d903f72",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 50
+        "github_stars": 51
       },
       "ai_used": null
     },
@@ -179,14 +163,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-09T16:59:14Z",
         "last_commit_url": "https://github.com/zeldaret/ph/commit/f0799bd6038be6858499ec68f0d03cdbbfa53d0b",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 113
+        "github_stars": 116
       },
       "ai_used": null
     },
@@ -200,10 +182,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-14T01:39:02Z",
         "last_commit_url": "https://github.com/Yanis002/st/commit/048ffeaaaae4137aa258e2ecb3e9bf996c98d435",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -221,14 +201,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-09-03T19:10:14Z",
-        "last_commit_url": "https://github.com/NSMB-Decomp/nsmb/commit/9c7c0b341ae87f860df090e1e35d720f06c70bfa",
+        "last_commit_at": "2026-10-21T20:21:52Z",
+        "last_commit_url": "https://github.com/NSMB-Decomp/nsmb/commit/363b5cb02496b754aaab1b922a558b5ddf934251",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 65
+        "github_stars": 69
       },
       "ai_used": null
     },
@@ -242,14 +220,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-14T17:57:17Z",
-        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/1dc13dcea40c04ab53f1f607de46023dc409ef20",
+        "last_commit_at": "2026-10-24T03:43:07Z",
+        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/be36a9db3d2390a5009adc087c7aef550ce335e7",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 573
+        "github_stars": 584
       },
       "ai_used": null
     },
@@ -263,14 +239,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-14T22:03:57Z",
         "last_commit_url": "https://github.com/pret/pmd-sky/commit/e3f02199ebe9e263ee67b07f36b3f240f83ef5d9",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 144
+        "github_stars": 147
       },
       "ai_used": null
     },
@@ -284,14 +258,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-23T08:46:42Z",
         "last_commit_url": "https://github.com/RushRE/SonicRushAdventure-Decomp/commit/b449036259b8eff92ceb2b226474149bcf8a0a30",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 45
+        "github_stars": 46
       },
       "ai_used": null
     },
@@ -305,12 +277,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-03-15T20:36:11Z",
         "last_commit_url": "https://github.com/matty45/sm64ds-decomp/commit/d1647eb374445b41a3da2d41769b9ee8784c0500",
         "default_branch": "main",
         "archived": true,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 10
       },
@@ -326,14 +296,13 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-12-12T13:01:20Z",
         "last_commit_url": "https://github.com/sasja-san/atc/commit/d7d6781b0018b9b43d01f3ac44cd164d649e973e",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 3,
+        "check_error": "GitHub GraphQL repository check failed"
       },
       "ai_used": null
     },
@@ -347,12 +316,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-08-02T23:27:02Z",
         "last_commit_url": "https://github.com/imavie/ecdpdecomp/commit/5f259dc290b49452eecd127a44e7709767cc6c7d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 6
       },
@@ -368,12 +335,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-08T02:01:03Z",
         "last_commit_url": "https://github.com/Eebit/fe11-us/commit/83f8abc778288d316d6b97990beed95b69313865",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 17
       },
@@ -389,14 +354,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-17T20:45:49Z",
         "last_commit_url": "https://github.com/CacaBueno64/ie3ogres/commit/d5f6dc0cbd1f833c8a8475a108bef0f5133ef75c",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -410,13 +373,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-10-20T15:59:58Z",
         "last_commit_url": "https://github.com/LiruJ/Lego-Battles-Decomp/commit/d9f2b809b08c85077847f046827fc508e6962453",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
-        "status": "Active",
+        "status": "Inactive",
         "github_stars": 10
       },
       "ai_used": null
@@ -431,12 +392,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-08-07T21:12:25Z",
         "last_commit_url": "https://github.com/redraincatching/locksmith/commit/da8913160371d72f15dfbabf43becfa999d91e42",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 0
       },
@@ -452,14 +411,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-01-30T15:35:54Z",
         "last_commit_url": "https://github.com/Yanis002/pm4/commit/7cc8b8ec21904c6657108b2c5b81055b79ac9443",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 4
+        "github_stars": 5
       },
       "ai_used": null
     },
@@ -473,14 +430,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-12T18:04:34Z",
-        "last_commit_url": "https://github.com/Yotona/twewy/commit/d6041bf476b12eaa83035d7cfc3063e366f486f8",
+        "last_commit_at": "2026-10-18T22:31:35Z",
+        "last_commit_url": "https://github.com/Yotona/twewy/commit/0026d7347107415cbfbf2cd218f5859ae00b69a7",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 33
       },
       "ai_used": null
     },
@@ -494,12 +449,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-07T01:24:01Z",
-        "last_commit_url": "https://github.com/gamemasterplc/bltouch2/commit/4cf2e6cedaae7948b7e69c32ea923fe802aa5984",
+        "last_commit_at": "2026-10-23T00:49:46Z",
+        "last_commit_url": "https://github.com/gamemasterplc/bltouch2/commit/9e2f6acd7031e7c6139f1a2087fd2a874d149834",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 7
       },
@@ -515,14 +468,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-08T21:11:42Z",
-        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-DECOMP/commit/eea86a309c8ed3d940b6119b1010a8a82cfc7034",
+        "last_commit_at": "2026-10-18T20:04:49Z",
+        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-DECOMP/commit/ab3676c6e3022e87d3fb3e0085beb48627687936",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -536,14 +487,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-17T04:02:02Z",
         "last_commit_url": "https://github.com/squiddonaut/pokeblack/commit/67d91a78b16caccbd4fbecdddf8a74c823d208a6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 62
+        "github_stars": 66
       },
       "ai_used": null
     },
@@ -557,13 +506,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 3,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-15T14:54:25Z",
-        "last_commit_url": "https://github.com/sturmds/advance-wars-dual-strike-decomp/commit/422e74731ce468c3d7387a7b2cd761970cad6e18",
+        "github_stars": 4,
+        "last_commit_at": "2026-10-16T01:26:31Z",
+        "last_commit_url": "https://github.com/sturmds/advance-wars-dual-strike-decomp/commit/47864817dc01b491422fe6e9f02c8be6752efa7e",
         "default_branch": "mainline",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -578,13 +525,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 96,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 102,
         "last_commit_at": "2026-10-11T14:41:13Z",
         "last_commit_url": "https://github.com/Yokimitsuro/khdays-decomp/commit/261a89eaa8f65dd566ae0828b0b57c85c847a6ee",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -599,13 +544,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 4,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-11T16:34:18Z",
-        "last_commit_url": "https://github.com/istornz/bowsers-inside-story-decomp/commit/3870e5cfe27ac2b34a875016884151bd84f6fa0e",
+        "github_stars": 6,
+        "last_commit_at": "2026-10-21T16:08:00Z",
+        "last_commit_url": "https://github.com/istornz/bowsers-inside-story-decomp/commit/d3614367a699abf48e72298d2d04f48c945e616d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -620,13 +563,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 2,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 3,
         "last_commit_at": "2026-10-10T04:42:49Z",
         "last_commit_url": "https://github.com/ReGame-Labs/dwds_decomp/commit/91efd17c4c05ce106ce0f973155149d23d9de519",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -641,13 +582,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 2,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T22:52:20Z",
-        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/b769c2b9c8c098d692ed29c35a218f2ed1a40f89",
+        "github_stars": 3,
+        "last_commit_at": "2026-10-24T05:48:53Z",
+        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/35aaa04e792e9b92252c402046d98439f14f8f72",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -662,14 +601,335 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 13,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T02:33:21Z",
-        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/1592db87f474a6ea143af8f8cf39340896bd79d5",
+        "github_stars": 14,
+        "last_commit_at": "2026-10-23T23:55:19Z",
+        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/2feef0eab5fb05efadda6be45082187779818539",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
+      },
+      "ai_used": null
+    },
+    "animal-crossing-wild-world": {
+      "name": "Animal Crossing: Wild World",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/6elphegor/acww-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T16:24:51Z",
+        "last_commit_url": "https://github.com/7ucina/acww-decomp/commit/4e54d6abbd696a43213b0c600e7f466cf7b22f32",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "dragon-quest-iv-chapters-of-the-chosen-dqiv-recompiled": {
+      "name": "Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T17:18:20Z",
+        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled/commit/d33f26238e2f1ede995ca55cebccbf7ec8af15fe",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 49
+      },
+      "ai_used": null
+    },
+    "ds-protect": {
+      "name": "DS Protect",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/taxicat1/dsprot",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-01-22T22:24:45Z",
+        "last_commit_url": "https://github.com/taxicat1/dsprot/commit/7f156a4a02a0cad410898bdf176bb77378cac2aa",
+        "default_branch": "1.23",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "final-fantasy-crystal-chronicles-echoes-of-time": {
+      "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/JonathanDC64/FFCCEOT-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T01:43:58Z",
+        "last_commit_url": "https://github.com/JonathanDC64/FFCCEOT-Recomp/commit/934c7434c9a6c2866fea17fa36098ef9c0652fc4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "final-fantasy-iv-3d-remake": {
+      "name": "Final Fantasy IV (3D Remake)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-10T04:20:56Z",
+        "last_commit_url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project/commit/47497a47e0bc7dce2a5e5de0d2f947afb0043f73",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 8
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-chinatown-wars": {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/official-kryo-to/ctw-native/tree/main/port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:22:55Z",
+        "last_commit_url": "https://github.com/official-kryo-to/ctw-native/commit/b0506abc786fea229101c56e0a64726aa8b4ac97",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 50
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-chinatown-wars-nintendo-ds": {
+      "name": "Grand Theft Auto: Chinatown Wars",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/official-kryo-to/ctw-native",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T19:22:55Z",
+        "last_commit_url": "https://github.com/official-kryo-to/ctw-native/commit/b0506abc786fea229101c56e0a64726aa8b4ac97",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 50
+      },
+      "ai_used": null
+    },
+    "kingdom-hearts-re-coded-nintendo-ds": {
+      "name": "Kingdom Hearts Re:coded",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Yokimitsuro/khrecoded-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T20:17:35Z",
+        "last_commit_url": "https://github.com/Yokimitsuro/khrecoded-decomp/commit/ce0fb851082158ae4090ffdb3f94bbee8f86c674",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-spirit-tracks-st": {
+      "name": "The Legend of Zelda: Spirit Tracks (st)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/zeldaret/st",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:38:03Z",
+        "last_commit_url": "https://github.com/zeldaret/st/commit/8b757595f4466b616496ca387d69f376f8bd4353",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 71
+      },
+      "ai_used": null
+    },
+    "mario-kart-ds": {
+      "name": "Mario Kart DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/XorTroll/mkds-re",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-01-24T18:12:43Z",
+        "last_commit_url": "https://github.com/XorTroll/mkds-re/commit/4124540cfc0526f4febed62fe3227518f0f64f47",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 64
+      },
+      "ai_used": null
+    },
+    "metroid-prime-hunters": {
+      "name": "Metroid Prime Hunters",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T08:17:03Z",
+        "last_commit_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp/commit/3f5e1951f16f3b82a483146ae0163b7fa05e9c29",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 266
+      },
+      "ai_used": null
+    },
+    "metroid-prime-hunters-huntersrecomp-ayn-thor": {
+      "name": "Metroid Prime Hunters (HuntersRecomp (AYN Thor))",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/aabrole/HuntersRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-06T00:54:07Z",
+        "last_commit_url": "https://github.com/aabrole/HuntersRecomp/commit/7482c7013b14b18e17864521ceb1a079c172499c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 38
+      },
+      "ai_used": null
+    },
+    "pokemon-black-2-and-white-2": {
+      "name": "Pokémon Black 2 and White 2",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/fuddlesworth/pokebw2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T03:38:15Z",
+        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/e522642f9ec496783642df075f05fcd07d3cbc1b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 52
+      },
+      "ai_used": null
+    },
+    "pokemon-mystery-dungeon-explorers-of-sky-pmdsky-debug-symbol-database": {
+      "name": "Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/UsernameFodder/pmdsky-debug",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T01:13:29Z",
+        "last_commit_url": "https://github.com/UsernameFodder/pmdsky-debug/commit/c72fe675919ec83cfe93f687973afae85e00d1a3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 55
+      },
+      "ai_used": null
+    },
+    "pokemon-platinum-nintendo-ds": {
+      "name": "Pokémon Platinum",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/JimB16/PokePlat",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-01-31T18:00:24Z",
+        "last_commit_url": "https://github.com/JimB16/PokePlat/commit/ccbdf7ea8b08f23d3adcb6baa7d1f2b8dc24bbc1",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 116
+      },
+      "ai_used": null
+    },
+    "super-mario-64-ds-nintendo-ds": {
+      "name": "Super Mario 64 DS",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/mstan/supermario64dsrecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-09T20:22:56Z",
+        "last_commit_url": "https://github.com/mstan/supermario64dsrecomp/commit/deb9973373d052ae7ca0d72f7849b6076f21ad81",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "super-mario-64-ds-sm64ds-decomp": {
+      "name": "Super Mario 64 DS (sm64ds-decomp)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/tangosdev/sm64ds-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T06:31:08Z",
+        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/c82dfa3d1996516133b173fa7e17b03d00952eba",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 224
       },
       "ai_used": null
     }
@@ -1419,6 +1679,372 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp"
+            }
+          ]
+        },
+        {
+          "project": "animal-crossing-wild-world",
+          "name_markdown": "[Animal Crossing: Wild World](https://github.com/6elphegor/acww-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Animal%20Crossing%20-%20Wild%20World%20%28USA%29.png",
+              "alt": "Animal Crossing: Wild World box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Animal Crossing: Wild World (Nintendo DS, USA)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/6elphegor/acww-decomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-quest-iv-chapters-of-the-chosen-dqiv-recompiled",
+          "name_markdown": "[Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)](https://github.com/GoldieLeGenie/DQIV-Recompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Dragon%20Quest%20IV%20-%20Chapters%20of%20the%20Chosen%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "native PC version of dragon quest IV DS",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GoldieLeGenie/DQIV-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "ds-protect",
+          "name_markdown": "[DS Protect](https://github.com/taxicat1/dsprot)",
+          "images": [],
+          "notes_markdown": "Decompilation of DS Protect",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/taxicat1/dsprot"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-crystal-chronicles-echoes-of-time",
+          "name_markdown": "[Final Fantasy Crystal Chronicles: Echoes of Time](https://github.com/JonathanDC64/FFCCEOT-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Final%20Fantasy%20Crystal%20Chronicles%20-%20Echoes%20of%20Time%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Final Fantasy Crystal Chronicles: Echoes of Time box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (DS) by static recompilation. Bring your own ROM: the game is built on...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/JonathanDC64/FFCCEOT-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/JonathanDC64/FFCCEOT-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "final-fantasy-iv-3d-remake",
+          "name_markdown": "[Final Fantasy IV (3D Remake)](https://github.com/GlitchedDeveloper/Babil-Decompilation-Project)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Final%20Fantasy%20IV%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Final Fantasy IV (3D Remake) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An open-source decompilation of Final Fantasy IV (3D Remake)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GlitchedDeveloper/Babil-Decompilation-Project"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-chinatown-wars",
+          "name_markdown": "[Grand Theft Auto: Chinatown Wars](https://github.com/official-kryo-to/ctw-native/tree/main/port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Chinatown%20Wars%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Grand Theft Auto: Chinatown Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Bringing GTA: Chinatown Wars to native PC with your own game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/official-kryo-to/ctw-native/tree/main/port"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-chinatown-wars-nintendo-ds",
+          "name_markdown": "[Grand Theft Auto: Chinatown Wars](https://github.com/official-kryo-to/ctw-native)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Chinatown%20Wars%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Grand Theft Auto: Chinatown Wars box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Bringing GTA: Chinatown Wars to native PC with your own game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/official-kryo-to/ctw-native"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-re-coded-nintendo-ds",
+          "name_markdown": "[Kingdom Hearts Re:coded](https://github.com/Yokimitsuro/khrecoded-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Kingdom%20Hearts%20-%20Re-coded%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Kingdom Hearts Re:coded box art for Nintendo DS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of Kingdom Hearts Re:coded (Nintendo DS)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Yokimitsuro/khrecoded-decomp"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-spirit-tracks-st",
+          "name_markdown": "[The Legend of Zelda: Spirit Tracks (st)](https://github.com/zeldaret/st)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: Spirit Tracks box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Spirit%20Tracks%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of The Legend of Zelda: Spirit Tracks",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/zeldaret/st"
+            }
+          ]
+        },
+        {
+          "project": "mario-kart-ds",
+          "name_markdown": "[Mario Kart DS](https://github.com/XorTroll/mkds-re)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Mario%20Kart%20DS%20%28USA%29%20%28Demo%29%20%28Kiosk%29.png",
+              "alt": "Mario Kart DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/XorTroll/mkds-re"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime-hunters",
+          "name_markdown": "[Metroid Prime Hunters](https://github.com/mstan/MetroidPrimeHuntersRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+              "alt": "Metroid Prime Hunters box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/mstan/MetroidPrimeHuntersRecomp"
+            }
+          ]
+        },
+        {
+          "project": "metroid-prime-hunters-huntersrecomp-ayn-thor",
+          "name_markdown": "[Metroid Prime Hunters (HuntersRecomp (AYN Thor))](https://github.com/aabrole/HuntersRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+              "alt": "Metroid Prime Hunters (HuntersRecomp (AYN Thor)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Metroid Prime Hunters recomp for the AYN Thor: native dual-screen Android port with twin-stick Prime controls and HD GLES rendering",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/aabrole/HuntersRecomp"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-black-2-and-white-2",
+          "name_markdown": "[Pokémon Black 2 and White 2](https://github.com/fuddlesworth/pokebw2)",
+          "images": [],
+          "notes_markdown": "Decompilation of Pokémon Black 2 and White 2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/fuddlesworth/pokebw2"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-mystery-dungeon-explorers-of-sky-pmdsky-debug-symbol-database",
+          "name_markdown": "[Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))](https://github.com/UsernameFodder/pmdsky-debug)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20Mystery%20Dungeon%20-%20Explorers%20of%20Sky%20%28USA%29.png",
+              "alt": "Pokemon Mystery Dungeon: Explorers of Sky box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Debug info for reverse engineering PMD: Explorers of Sky",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/UsernameFodder/pmdsky-debug"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-platinum-nintendo-ds",
+          "name_markdown": "[Pokémon Platinum](https://github.com/JimB16/PokePlat)",
+          "images": [
+            {
+              "alt": "Pokemon Platinum box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20-%20Platinum%20Version%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembly of Pokemon Platinum",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/JimB16/PokePlat"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-ds-nintendo-ds",
+          "name_markdown": "[Super Mario 64 DS](https://github.com/mstan/supermario64dsrecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Super%20Mario%2064%20DS%20%28USA%2C%20Australia%29%20%28Rev%201%29.png",
+              "alt": "Super Mario 64 DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mstan/supermario64dsrecomp"
+            }
+          ]
+        },
+        {
+          "project": "super-mario-64-ds-sm64ds-decomp",
+          "name_markdown": "[Super Mario 64 DS (sm64ds-decomp)](https://github.com/tangosdev/sm64ds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Super%20Mario%2064%20DS%20%28USA%2C%20Australia%29%20%28Rev%201%29.png",
+              "alt": "Super Mario 64 DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/tangosdev/sm64ds-decomp"
             }
           ]
         }

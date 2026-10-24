@@ -11,7 +11,7 @@ redirect_from:
   - /3d
 editlink: ../categories/tools/3DSoftware.md
 title: 3D Software used in Retro-era Game Development
-updatedAt: '2026-10-16'
+updatedAt: '2026-10-19'
 recommend:
  - 3d
  - software
@@ -23,21 +23,22 @@ tags:
 ---
 
 # Introduction
-A recovered model is only one part of a game's art pipeline.
-The modelling package, exporter and asset converter can each leave different files behind, while a rendered cutscene may survive only as video.
-This page covers 3D tools used from the 1990s into the early 2010s, with examples of what to look for in development archives.
+A game's 3D artwork might survive as an editable scene, an exported mesh, a runtime model or nothing more than a rendered movie.
+Those files tell different parts of the production story.
+This hub follows the modelling and animation tools used from the 1990s into the early 2010s, with original documentation and surviving toolchains that help make sense of their output.
 
 ---
 # From Modelling Software to Game Assets
-An editable scene and a game-ready model serve different purposes.
-Keep exporters, conversion scripts and build instructions alongside source artwork: they explain which parts of the scene reached the engine.
-For example, Quake II's model compiler reads triangle data and writes an MD2 model; the authoring application's scene is not the runtime format [^2].
+An editable scene is not necessarily a game-ready model.
+Exporters, conversion scripts and build instructions show which parts of a scene reached the engine.
+In *Quake II*, for example, a compiler reads triangle data and writes an MD2 model rather than shipping the author's scene file [^2].
 
-These documented pipelines provide starting points for investigating recovered assets:
+The following sources show what survives at different stages of a 3D pipeline:
 
 Tool or pipeline | Evidence to inspect | What it tells you
 ---|---|---
 Quake II qdata | Base mesh, animation frame files and `models.c` | How triangle input becomes an MD2 model [^2]
+Doom 3 model export | `.ase` or `.lwo` props; Maya `.mb` scenes, `.def` export blocks and MD5 character files | Why static and animated models leave different evidence [^7]
 SOFTIMAGE 3D Design Toolkit for Saturn | Exported files and target preview tools | How artists checked textures and geometry for the console [^3]
 LightWave 6 object files | `FORM` and `LWO2` header, surface and image chunks | Object structure and dependencies that may be missing from an archive [^4]
 
@@ -47,27 +48,38 @@ In `models.c`, the base mesh and animation frames can be read through either `Lo
 Frame lookup supports names such as `run.1` and `run1.tri`; the default model output is `tris.md2` [^2].
 
 The compiler rejects an animation frame when its triangle count differs from the base mesh.
-That check is worth finding before attempting to repair or re-export an animation: a sequence of files that each opens correctly is not necessarily a sequence the game compiler accepts [^2].
-Search the source for `FindFrameFile` and the triangle-count error to follow that path through the code.
+So a set of frames can look intact in isolation yet fail as a model sequence [^2].
+The `FindFrameFile` function and triangle-count error in the source show where those checks happen.
+
+---
+## Why Does a Doom 3 Archive Have Several Model Formats?
+The [original *Doom 3* model-export guide](https://iddevnet.dhewm3.org/doom3/modelexport.html) separates static props from animated characters.
+The engine can load `.lwo` LightWave objects and `.ase` 3ds Max exports as static models.
+For characters, the documented route starts with Maya binary `.mb` scenes and uses `exportModels` to produce `.md5mesh` and `.md5anim` files [^7].
+
+The export declarations live in `.def` files: `mesh` and `anim` entries name their Maya inputs, while options can set a frame range or destination [^7].
+That makes a `.def` file a useful bridge between source scenes and the MD5 files found in game data.
+Static models have a different dependency to watch: the guide derives material names from texture paths embedded in the export, so a moved `.ase` file may have intact geometry but broken material references [^7].
+The released [*Doom 3* source README](https://github.com/id-Software/DOOM-3/blob/master/README.txt) also identifies the included Maya export plug-in code; it does not include the game's art assets [^8].
 
 ---
 # How Were 3D Game Cut Scenes Developed?
-Prerendered cutscenes store finished images for playback; real-time cutscenes ask the game engine to draw the scene as it runs.
-Offline rendering allows a scene to take longer than a frame interval to compute, but the resulting video does not preserve an editable mesh, rig or lighting setup.
-When investigating a cutscene, first establish whether the archive contains the original scene, rendered frames or only the encoded movie.
+Prerendered cutscenes play back finished images; real-time cutscenes ask the game engine to draw each frame.
+Offline rendering can spend longer on a frame, but the finished video cannot reveal an editable mesh, rig or lighting setup on its own.
+An archive of original scenes tells a different story from one containing only rendered frames or the encoded movie.
 
 Modelling and animation packages such as 3D Studio Max, Maya and Softimage are separate from compositing tools, which combine rendered layers and effects.
 The existing [community discussion of 1990s cutscene software](https://news.ycombinator.com/item?id=34305515) is useful for research leads, rather than proof of a particular game's production setup [^1].
 
 ## Compositing and Animation Tools
 Compositing packages worth looking for in production records include Combustion, Quantel Henry, After Effects, Nuke and Fusion.
-Record the version and contemporary vendor when identifying an installation; a product's later branding does not date an old project.
+The version and contemporary vendor matter when identifying an installation; a product's later branding does not date an old project.
 NaturalMotion's morpheme belongs to the animation-middleware side of the investigation, rather than a list of offline renderers.
-For any of these tools, a game's credits, project files or developer account are stronger evidence of use than a general software list.
+A game's credits, project files or developer account make a stronger case for any particular tool than a general software list.
 
 ---
 # 3D Art Software
-The sections below connect modelling packages to surviving documentation and development material.
+These modelling packages each left distinctive documentation and development files.
 
 ## 3D Studio (Max)
 The distinction between a native scene and an exchange file matters when examining 3D Studio material.
@@ -85,16 +97,16 @@ For the history of Alias PowerAnimator and Maya in game development, see:
 It offered Saturn-format export and a viewer based on SGI IRIX and Saturn CartDev, alongside interactive colour reduction, texture painting and UV-coordinate editing.
 The newsletter specifies SGI workstations running IRIX 5.2 or 5.3 [^3].
 
-This is useful evidence of the work between modelling and runtime rendering: artists could adjust textures and inspect exported results for the target machine.
-It also gives archive researchers concrete software and workstation names to search for, rather than treating every Softimage installation as equivalent.
+Artists could adjust textures and inspect the exported result on target hardware before it entered a game.
+The newsletter also pins this toolkit to specific software and workstations; a generic Softimage installation would not tell the same story.
 
 ## LightWave
 The [LightWave SDK object-format specification](https://documentation.help/LightWave/lwo2.html), dated 9 November 2001, documents `LWO2`, introduced with LightWave 6.0.
 A file starts with `FORM`, a four-byte big-endian size equal to the file length minus eight, and then `LWO2`.
-Use that header to select a parser rather than assuming every `.lwo` file uses this version [^4].
+That header distinguishes this version from other `.lwo` files [^4].
 
 Objects contain points, polygons and surfaces, but surfaces can also reference external images, plug-ins and animation envelopes.
-If a recovered model opens without its textures, inspect those references before assuming the artwork was lost.
+If a recovered model opens without its textures, the references may be broken even when the artwork survives elsewhere.
 The SDK's [annotated object-file examples](https://documentation.help/LightWave/lwo2ex.html) provide small files to compare against a hex dump [^4].
 
 ### LightWave Used by Team17 for Worms on the Amiga
@@ -105,7 +117,7 @@ The recovery shows LightWave animation files, full-motion video assets and unrel
 
 ---
 # Other 3D Art Software
-Smaller packages can be harder to identify in development archives, especially when their names changed between releases.
+Some packages changed names between releases, complicating the search for their old project files and documentation.
 
 ## 3D-Brush (Later 3DCoat)
 3D-Brush was created by **Andrew Shpagin**, who had previously worked at GSC.
@@ -130,3 +142,5 @@ The [archived Visual Software website from November 1999](https://web.archive.or
 [^4]: [LightWave SDK - Object Files](https://documentation.help/LightWave/lwo2.html), 9 November 2001, and [Object File Examples](https://documentation.help/LightWave/lwo2ex.html).
 [^5]: [CGTrader interview with Andrew Shpagin and Stanislav Chernyshuk](https://www.cgtrader.com/blog/pilgway-talk-about-the-ethics-in-3d-and-hint-at-a-new-major-release-of-3dcoat-in-the-next-12-months-2018-05), 23 May 2018.
 [^6]: [Andrew Shpagin - 3D-Coat 2.07 released](https://3dcoat.com/forum/index.php?/topic/878-3d-coat-207-released/), 10 March 2008.
+[^7]: [id Software - Making DOOM 3 Mods: Model Exporting](https://iddevnet.dhewm3.org/doom3/modelexport.html), including static models, Maya animation export and material paths.
+[^8]: [id Software - DOOM 3 source release README](https://github.com/id-Software/DOOM-3/blob/master/README.txt), "Game data and patching" and "MayaImport".

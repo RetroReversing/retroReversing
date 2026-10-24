@@ -11,14 +11,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2023-07-07T09:16:33Z",
         "last_commit_url": "https://github.com/halo-re/halo/commit/21bc641df6b8bdd730c23885ff643545423dcc82",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
-        "github_stars": 452
+        "github_stars": 458
       },
       "ai_used": null
     },
@@ -32,14 +30,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-10T00:12:56Z",
         "last_commit_url": "https://github.com/Revan67/ThirdAge-Recomp/commit/39757977fda4d4707286a2bb4219c7264c628702",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 6
+        "github_stars": 7
       },
       "ai_used": null
     },
@@ -53,14 +49,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T14:26:21Z",
-        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/6fce430797ec0573634fa6be18a08f73957efa63",
+        "last_commit_at": "2026-10-24T06:47:33Z",
+        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/33b1029150c5d06790a49066015a1ac56bbd6aff",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 50
+        "github_stars": 75
       },
       "ai_used": null
     },
@@ -74,14 +68,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T23:31:15Z",
-        "last_commit_url": "https://github.com/punpckhdq/halo/commit/8d3aedaab8480b58e21fc635ee98de5932d972a5",
+        "last_commit_at": "2026-10-23T09:47:23Z",
+        "last_commit_url": "https://github.com/punpckhdq/halo/commit/7263d7480cb0f6983f7e3adc6b5550ccca1ca1e0",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 194
+        "github_stars": 198
       },
       "ai_used": null
     },
@@ -95,14 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-26T11:37:26Z",
         "last_commit_url": "https://github.com/andeecollard/jsrf-recomp/commit/4242eb69694c8752ca42550ca3765e56288d4535",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -116,13 +106,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 138,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T00:11:44Z",
-        "last_commit_url": "https://github.com/portingpete/Black-2006-Recomp/commit/9f2f03a5b9aab1c330f62131745c58dad670ff83",
+        "github_stars": 179,
+        "last_commit_at": "2026-10-22T14:53:24Z",
+        "last_commit_url": "https://github.com/portingpete/Black-2006-Recomp/commit/53acebac3f0bc5a7ab5ca025a7ac10240a0b24d5",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -137,13 +125,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 73,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T02:28:22Z",
-        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/c4078effb7a9349a0c127e01ff232486decafdad",
+        "github_stars": 158,
+        "last_commit_at": "2026-10-23T21:56:13Z",
+        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/0b3fa17bb8cbe89726b955a04d51985ffbbf64f6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -158,13 +144,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 77,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T07:30:48Z",
-        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/e689ad5ab30c3781862b5dabf4fca83789ede829",
+        "github_stars": 109,
+        "last_commit_at": "2026-10-24T07:58:19Z",
+        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/a40c5445831d8b6c3cec67a99b5430cd8cb1925d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -179,13 +163,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 259,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T06:36:56Z",
-        "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/fcd6668e85efa260d31b2d0fb38a6f33cf78cf19",
+        "github_stars": 339,
+        "last_commit_at": "2026-10-22T02:07:56Z",
+        "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/a455de608838d4ecc62d17250004c47b8fcb5170",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -200,13 +182,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 46,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 53,
         "last_commit_at": "2026-10-08T12:42:29Z",
         "last_commit_url": "https://github.com/SirSymo/SM2-Recomp/commit/a11fb1d0a550ded60077b78da04c698052a0ec7e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -221,15 +201,728 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 47,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T23:33:54Z",
-        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/3c4639a80b036701be1131b9499e1d00be904393",
+        "github_stars": 142,
+        "last_commit_at": "2026-10-23T16:10:50Z",
+        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/5fc57d84d617aa7f360cf0a5ab707dc9334f4b95",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
+      "ai_used": null
+    },
+    "genma-onimusha-recomp": {
+      "name": "Genma Onimusha",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/rafaelkenedy/genma-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T01:40:49Z",
+        "last_commit_url": "https://github.com/rafaelkenedy/genma-recomp/commit/1bc94ecd6556ceb19f5103c3449999bae220c9bd",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": 15,
+        "status": "Active"
+      },
+      "ai_used": null
+    },
+    "project-gotham-racing-2-recomp": {
+      "name": "Project Gotham Racing 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/hk21x/pgr2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T20:37:54Z",
+        "last_commit_url": "https://github.com/hk21x/pgr2-recomp/commit/7ad7195180a601200ad35ff23593e6be7cd7d6b6",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": 40,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "darkwatch-recomp": {
+      "name": "Darkwatch",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Clergyman0013/arizona-vamp-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T11:37:23Z",
+        "last_commit_url": "https://github.com/Clergyman0013/arizona-vamp-recomp/commit/3114f1bf9c20ed9a8de98b4a86d4104f35618c2d",
+        "default_branch": "master",
+        "archived": false,
+        "github_stars": 22,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "black-black-xbe-recomp": {
+      "name": "Black (Black - XBE Recomp)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/TGP482/BLACK-XBERecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T00:29:33Z",
+        "last_commit_url": "https://github.com/TGP482/BLACK-XBERecomp/commit/0d249e108d7060b13692ca03e2c63c4ecaca1842",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 703
+      },
+      "ai_used": null
+    },
+    "black-black-pc": {
+      "name": "BLACK (black-pc)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Spark198rus/black-pc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T19:32:45Z",
+        "last_commit_url": "https://github.com/Spark198rus/black-pc/commit/d6a86e5571e8bc4b7b3f8fd483ba2f122e888113",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 326
+      },
+      "ai_used": null
+    },
+    "blinx-2-masters-of-time-and-space": {
+      "name": "Blinx 2: Masters of Time and Space",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/apexJCL/blinx2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T04:10:48Z",
+        "last_commit_url": "https://github.com/apexJCL/blinx2-recomp/commit/066691b494a9cceb26568996c95a91e33262154c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "breakdown": {
+      "name": "Breakdown",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Heromachine/Breakdown-Recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T01:09:58Z",
+        "last_commit_url": "https://github.com/Heromachine/Breakdown-Recompilation/commit/473b7d22c6c24b74f4bf424ecfff3cc1355c6a5a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "buffy-the-vampire-slayer-chaos-bleeds": {
+      "name": "Buffy the Vampire Slayer: Chaos Bleeds",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T05:14:42Z",
+        "last_commit_url": "https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc/commit/34166525b72447515339edad3e46cd62ff7e1a86",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "burnout": {
+      "name": "Burnout",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Heromachine/Burnout-Recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T23:04:30Z",
+        "last_commit_url": "https://github.com/Heromachine/Burnout-Recompilation/commit/1068afc478b28d6cc15f8d0ed325e156cf7c7848",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "burnout-2-point-of-impact": {
+      "name": "Burnout 2: Point of Impact",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/timftw21/burnout2-recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:24:11Z",
+        "last_commit_url": "https://github.com/timftw21/burnout2-recompilation/commit/a999a85e2f6c8eaec0bd40e5b521f31c11e65dd3",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "burnout-3": {
+      "name": "Burnout 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/mxmstr/Burnout3Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-23T17:24:58Z",
+        "last_commit_url": "https://github.com/mxmstr/Burnout3Recomp/commit/67ecd39f8c85a2d52a70e181b28e8d1a335d8499",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "burnout-3-takedown": {
+      "name": "Burnout 3: Takedown",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/sp00nznet/burnout3",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T09:47:41Z",
+        "last_commit_url": "https://github.com/sp00nznet/burnout3/commit/3c85ed7777886f4a8f805cb243b123b1b82cf375",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 139
+      },
+      "ai_used": null
+    },
+    "burnout-3-takedown-xbox": {
+      "name": "Burnout 3: Takedown",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/xenophobentx/takedawn",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T06:27:12Z",
+        "last_commit_url": "https://github.com/xenophobentx/takedawn/commit/4f074e211822eaf43d4a3902c744d5ed0e9c9adf",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 375
+      },
+      "ai_used": null
+    },
+    "dead-or-alive-3": {
+      "name": "Dead or Alive 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/parkerallan/doa3-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T02:07:50Z",
+        "last_commit_url": "https://github.com/parkerallan/doa3-recomp/commit/919c49f7f364fce67e85f13e75d4921e148422d9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 77
+      },
+      "ai_used": null
+    },
+    "dead-or-alive-3-xbox": {
+      "name": "Dead or Alive 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/NoRain211/doa3-re",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T03:41:23Z",
+        "last_commit_url": "https://github.com/NoRain211/doa3-re/commit/d76349fdcc158678ed15eb58bfbafa306ea6cc4d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "dead-or-alive-xtreme-beach-volleyball": {
+      "name": "Dead or Alive Xtreme Beach Volleyball",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/NoRain211/doaxvb-re",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T01:27:05Z",
+        "last_commit_url": "https://github.com/NoRain211/doaxvb-re/commit/4f353654118d1dd6167bb41ce8a8a912902ef10a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 213
+      },
+      "ai_used": null
+    },
+    "def-jam-fight-for-ny-xbox": {
+      "name": "Def Jam: Fight for NY",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/comoria08/defjam_recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T22:07:37Z",
+        "last_commit_url": "https://github.com/comoria08/defjam_recomp/commit/acfb3142d14f72214c93fed3b357d5624876df8d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "far-cry-instincts": {
+      "name": "Far Cry Instincts",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/VinceIP/fci-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T00:37:48Z",
+        "last_commit_url": "https://github.com/VinceIP/fci-recomp/commit/09e9e623d13c1838191c57b832c869773511c74c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 54
+      },
+      "ai_used": null
+    },
+    "jet-set-radio-future-jet-set-radio-future-unleashed": {
+      "name": "Jet Set Radio Future (Jet Set Radio Future Unleashed)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T21:40:05Z",
+        "last_commit_url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/commit/dc2c2e3d970411db06462f5e64b6abb77064e963",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 157
+      },
+      "ai_used": null
+    },
+    "mercenaries-playground-of-destruction": {
+      "name": "Mercenaries: Playground of Destruction",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/KraftMacAndChee/Mercenaries-Recompiled",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-06T02:33:17Z",
+        "last_commit_url": "https://github.com/KraftMacAndChee/Mercenaries-Recompiled/commit/f513ae4e041401b7b032410016940971488d523b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 150
+      },
+      "ai_used": null
+    },
+    "midtown-madness-3": {
+      "name": "Midtown Madness 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T08:11:10Z",
+        "last_commit_url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/commit/adad92083c2ea369dc43e7a7801bf78b2c02b33e",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "midtown-madness-3-xbox": {
+      "name": "Midtown Madness 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/MattSG/mm3-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T22:09:28Z",
+        "last_commit_url": "https://github.com/MattSG/mm3-recomp/commit/3816d92b2d2bdcac0733dd46f1c03eaa91ffa11d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "mortal-kombat-shaolin-monks": {
+      "name": "Mortal Kombat: Shaolin Monks",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/OAleex/ShaolinMonksRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T00:31:52Z",
+        "last_commit_url": "https://github.com/OAleex/ShaolinMonksRecomp/commit/7d8309098dfe995a7985dc125f286b5585f45b32",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 194
+      },
+      "ai_used": null
+    },
+    "need-for-speed-underground-2-switch-port": {
+      "name": "Need for Speed: Underground 2 (Switch port)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/antoxa2584x/nfsu2-sw",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T00:12:48Z",
+        "last_commit_url": "https://github.com/antoxa2584x/nfsu2-sw/commit/d3bbc3094f8e1ad3b34593eabd431f7d251b14cb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 159
+      },
+      "ai_used": null
+    },
+    "opence": {
+      "name": "OpenCE",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/OpenCommunityEdition/OpenCE",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T01:08:46Z",
+        "last_commit_url": "https://github.com/OpenCommunityEdition/OpenCE/commit/5e27f3a27b2d3c27d3edeb450fe40c24defb9c15",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1790
+      },
+      "ai_used": null
+    },
+    "prince-of-persia-the-sands-of-time-resot": {
+      "name": "Prince of Persia: The Sands of Time (reSOT)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/FulGerNet/rePOP",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T10:23:42Z",
+        "last_commit_url": "https://github.com/FulGerNet/rePOP/commit/d8190090c15186dd55d419ee3a20f6231bac4189",
+        "default_branch": "reSOT",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 62
+      },
+      "ai_used": null
+    },
+    "rallisport-challenge-2-rallisport-challenge-2-static-recompilation": {
+      "name": "RalliSport Challenge 2 (RalliSport Challenge 2 - static recompilation)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/Mortify7612/RallisportChallenge2-decomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T18:23:23Z",
+        "last_commit_url": "https://github.com/Mortify7612/RallisportChallenge2-decomp/commit/6e45b4a2097ed2d6c8ad50398f64ebac20a83425",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 61
+      },
+      "ai_used": null
+    },
+    "ssx-3-xbox": {
+      "name": "SSX 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/koenhendriks/SSX3-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T07:06:43Z",
+        "last_commit_url": "https://github.com/koenhendriks/SSX3-recomp/commit/6d8406e6b60b9e9fc3ac21c999eb3707d3c55885",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 42
+      },
+      "ai_used": null
+    },
+    "ssx-3-xbox-bertibertig": {
+      "name": "SSX 3",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/bertibertig/SSX3-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T20:50:47Z",
+        "last_commit_url": "https://github.com/bertibertig/SSX3-Recomp/commit/33f0737271ead8994b1150a90686aa8be6db1fdf",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 5
+      },
+      "ai_used": null
+    },
+    "ssx-tricky-xbox": {
+      "name": "SSX Tricky",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/GiZcesi/OpenTricky",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T10:43:05Z",
+        "last_commit_url": "https://github.com/GiZcesi/OpenTricky/commit/ff9eb4e09a430f07f2aaf189950e20daa4c56b0f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 115
+      },
+      "ai_used": null
+    },
+    "ssx-tricky-xbox-reindance": {
+      "name": "SSX Tricky",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/reindance/ssx-tricky-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T12:16:49Z",
+        "last_commit_url": "https://github.com/reindance/ssx-tricky-recomp/commit/18545275f08180bd6c7bad68f9748c2754a61bec",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "star-wars-episode-iii-revenge-of-the-sith-swrots-pc": {
+      "name": "Star Wars: Episode III - Revenge of the Sith (SWROTS-PC)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/jedijosh920/SWROTS-PC",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T02:55:21Z",
+        "last_commit_url": "https://github.com/jedijosh920/SWROTS-PC/commit/f459f126fd9a62065fa1764d7127469900a6e653",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 79
+      },
+      "ai_used": null
+    },
+    "starcraft-ghost": {
+      "name": "StarCraft: Ghost",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/aknavj/scghost-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-13T07:38:22Z",
+        "last_commit_url": "https://github.com/aknavj/scghost-recomp/commit/f67e6eb6440af617daea95fa340be8601720080f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "timesplitters-2": {
+      "name": "TimeSplitters 2",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/phobos665/split2-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T23:09:10Z",
+        "last_commit_url": "https://github.com/phobos665/split2-recomp/commit/5271eb0206ae6b6e2cadca446f2cce39f8234453",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 22
+      },
+      "ai_used": null
+    },
+    "the-urbz-sims-in-the-city-xbox": {
+      "name": "The Urbz: Sims in the City",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/abilliontokens/urbz-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T02:22:11Z",
+        "last_commit_url": "https://github.com/abilliontokens/urbz-recomp/commit/aac2198e767fece3d690863fab6ff3d42776fb3f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "x-men-legends": {
+      "name": "X-Men Legends",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/GTTeancum/XML1-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T20:23:10Z",
+        "last_commit_url": "https://github.com/GTTeancum/XML1-recomp/commit/a30ec299a82f28ba02376f8d1f15397d44a5a6ff",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "jet-set-radio-future-codeberg": {
+      "name": "Jet Set Radio Future (Codeberg)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://codeberg.org/KeybadeBlox/JSRF-Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T03:47:26Z",
+        "last_commit_url": "https://codeberg.org/KeybadeBlox/JSRF-Decompilation/commit/465f11298c5c68cdbe558d1b79aeb6bfcd0685bc",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": null,
+        "status": "Active"
+      },
+      "ai_used": null
+    },
+    "call-of-duty-finest-hour-remastered": {
+      "name": "Call of Duty: Finest Hour (Finest Hour Remastered)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/crazyriddler/FinestHourRemastered",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
       "ai_used": null
     }
   },
@@ -544,6 +1237,698 @@
             {
               "name": "Native port",
               "url": "https://github.com/gamboozino/ngbrecomp"
+            }
+          ]
+        },
+        {
+          "project": "genma-onimusha-recomp",
+          "name_markdown": "[Genma Onimusha (Recomp)](https://github.com/rafaelkenedy/genma-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Genma%20Onimusha%20%28USA%29.png",
+              "alt": "Genma Onimusha Xbox box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Windows x64 static recompilation requiring a user-owned USA Xbox copy. Version 0.3.0 documents a playable release, while the game remains 4:3 and the optional HD texture pack is separate.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/rafaelkenedy/genma-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/rafaelkenedy/genma-recomp"
+            }
+          ]
+        },
+        {
+          "project": "project-gotham-racing-2-recomp",
+          "name_markdown": "[Project Gotham Racing 2 (Recomp)](https://github.com/hk21x/pgr2-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Project%20Gotham%20Racing%202%20%28USA%29.png",
+              "alt": "Project Gotham Racing 2 Xbox box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation requiring the PAL Xbox release. Sound reverb and filters are not modelled; 60 FPS races and extended draw distance remain experimental. [Announcement](https://www.reddit.com/r/recomps/comments/1xb4udc/project_gotham_racing_2_native_pc_port_ultrawide/).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/hk21x/pgr2-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/hk21x/pgr2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "darkwatch-recomp",
+          "name_markdown": "[Darkwatch (Arizona Vamp Recomp)](https://github.com/Clergyman0013/arizona-vamp-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Darkwatch%20%28USA%29.png",
+              "alt": "Darkwatch Xbox box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation targeting the NTSC-U Xbox release. Early build verified through the first level; a full play-through is not yet documented. macOS and Android are future targets only. [Announcement](https://www.reddit.com/r/recomps/comments/1xayxvd/darkwatch_xbox_static_recompilation_pc_port/).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Clergyman0013/arizona-vamp-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Clergyman0013/arizona-vamp-recomp"
+            }
+          ]
+        },
+        {
+          "project": "black-black-xbe-recomp",
+          "name_markdown": "[Black (Black - XBE Recomp)](https://github.com/TGP482/BLACK-XBERecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+              "alt": "BLACK box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An unofficial original Xbox version PC port of BLACK (2006) via static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/TGP482/BLACK-XBERecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/TGP482/BLACK-XBERecomp"
+            }
+          ]
+        },
+        {
+          "project": "black-black-pc",
+          "name_markdown": "[BLACK (black-pc)](https://github.com/Spark198rus/black-pc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+              "alt": "BLACK box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Unofficial native Windows port of BLACK (Xbox, NTSC-U). Runs your own copy of the game's code on the PC; no game data included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Spark198rus/black-pc"
+            }
+          ]
+        },
+        {
+          "project": "blinx-2-masters-of-time-and-space",
+          "name_markdown": "[Blinx 2: Masters of Time and Space](https://github.com/apexJCL/blinx2-recomp)",
+          "images": [],
+          "notes_markdown": "BLiNX 2 recompilation effort using xbox's recomp tools",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/apexJCL/blinx2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "breakdown",
+          "name_markdown": "[Breakdown](https://github.com/Heromachine/Breakdown-Recompilation)",
+          "images": [],
+          "notes_markdown": "Static recompilation of Breakdown (Xbox, Namco 2004) to a native Windows build. Ships the tool, not the game -- bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Heromachine/Breakdown-Recompilation"
+            }
+          ]
+        },
+        {
+          "project": "buffy-the-vampire-slayer-chaos-bleeds",
+          "name_markdown": "[Buffy the Vampire Slayer: Chaos Bleeds](https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc)",
+          "images": [],
+          "notes_markdown": "Unofficial native PC port of Buffy the Vampire Slayer: Chaos Bleeds (Xbox). Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc"
+            }
+          ]
+        },
+        {
+          "project": "burnout",
+          "name_markdown": "[Burnout](https://github.com/Heromachine/Burnout-Recompilation)",
+          "images": [],
+          "notes_markdown": "Static recompilation of Burnout (Xbox, Criterion 2002) to a native Windows build. Ships the tool, not the game: you supply your own disc image.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Heromachine/Burnout-Recompilation"
+            }
+          ]
+        },
+        {
+          "project": "burnout-2-point-of-impact",
+          "name_markdown": "[Burnout 2: Point of Impact](https://github.com/timftw21/burnout2-recompilation)",
+          "images": [],
+          "notes_markdown": "A static recompilation of Burnout 2: Point of Impact for the original Xbox.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/timftw21/burnout2-recompilation"
+            }
+          ]
+        },
+        {
+          "project": "burnout-3",
+          "name_markdown": "[Burnout 3](https://github.com/mxmstr/Burnout3Recomp)",
+          "images": [],
+          "notes_markdown": "Burnout 3: Takedown PC port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/mxmstr/Burnout3Recomp"
+            }
+          ]
+        },
+        {
+          "project": "burnout-3-takedown",
+          "name_markdown": "[Burnout 3: Takedown](https://github.com/sp00nznet/burnout3)",
+          "images": [],
+          "notes_markdown": "A project to statically recompile the original Xbox version of Burnout 3: Takedown (2004, Criterion Games / EA) into a native Windows 11 x86-64...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sp00nznet/burnout3"
+            }
+          ]
+        },
+        {
+          "project": "burnout-3-takedown-xbox",
+          "name_markdown": "[Burnout 3: Takedown](https://github.com/xenophobentx/takedawn)",
+          "images": [],
+          "notes_markdown": "Unofficial native PC/handheld port of Burnout 3: Takedown (static recompilation). Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/xenophobentx/takedawn"
+            }
+          ]
+        },
+        {
+          "project": "dead-or-alive-3",
+          "name_markdown": "[Dead or Alive 3](https://github.com/parkerallan/doa3-recomp)",
+          "images": [],
+          "notes_markdown": "Dead or Alive 3 PC Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/parkerallan/doa3-recomp"
+            }
+          ]
+        },
+        {
+          "project": "dead-or-alive-3-xbox",
+          "name_markdown": "[Dead or Alive 3](https://github.com/NoRain211/doa3-re)",
+          "images": [],
+          "notes_markdown": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NoRain211/doa3-re"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/NoRain211/doa3-re"
+            }
+          ]
+        },
+        {
+          "project": "dead-or-alive-xtreme-beach-volleyball",
+          "name_markdown": "[Dead or Alive Xtreme Beach Volleyball](https://github.com/NoRain211/doaxvb-re)",
+          "images": [],
+          "notes_markdown": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/NoRain211/doaxvb-re"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/NoRain211/doaxvb-re"
+            }
+          ]
+        },
+        {
+          "project": "def-jam-fight-for-ny-xbox",
+          "name_markdown": "[Def Jam: Fight for NY](https://github.com/comoria08/defjam_recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+              "alt": "Def Jam: Fight for NY box art for Xbox",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Def Jam: Fight for NY (Xbox) - recompilation statique pour Windows",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/comoria08/defjam_recomp"
+            }
+          ]
+        },
+        {
+          "project": "far-cry-instincts",
+          "name_markdown": "[Far Cry Instincts](https://github.com/VinceIP/fci-recomp)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/VinceIP/fci-recomp"
+            }
+          ]
+        },
+        {
+          "project": "jet-set-radio-future-jet-set-radio-future-unleashed",
+          "name_markdown": "[Jet Set Radio Future (Jet Set Radio Future Unleashed)](https://github.com/JuMatt/JetSetRadioFuture-Unleashed)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Jet%20Set%20Radio%20Future%20%28USA%29.png",
+              "alt": "Jet Set Radio Future (Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Jet Set Radio Future for all",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed"
+            }
+          ]
+        },
+        {
+          "project": "mercenaries-playground-of-destruction",
+          "name_markdown": "[Mercenaries: Playground of Destruction](https://github.com/KraftMacAndChee/Mercenaries-Recompiled)",
+          "images": [],
+          "notes_markdown": "A recompilation project for Mercenaries: Playground of Destruction",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/KraftMacAndChee/Mercenaries-Recompiled"
+            }
+          ]
+        },
+        {
+          "project": "midtown-madness-3",
+          "name_markdown": "[Midtown Madness 3](https://github.com/lakshya16157/midtown-madness-3-PC-Native)",
+          "images": [],
+          "notes_markdown": "Midtown Madness 3 PC Native: an improved and modded MM3 PC port for Windows 10/11 x64. Xbox static recompilation with Direct3D 11, keyboard controls,...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native"
+            }
+          ]
+        },
+        {
+          "project": "midtown-madness-3-xbox",
+          "name_markdown": "[Midtown Madness 3](https://github.com/MattSG/mm3-recomp)",
+          "images": [],
+          "notes_markdown": "Experimental, largely AI-written static recompilation of Midtown Madness 3 for Windows. Expect rough edges; fixes and PRs welcome.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/MattSG/mm3-recomp"
+            }
+          ]
+        },
+        {
+          "project": "mortal-kombat-shaolin-monks",
+          "name_markdown": "[Mortal Kombat: Shaolin Monks](https://github.com/OAleex/ShaolinMonksRecomp)",
+          "images": [],
+          "notes_markdown": "Native port of Mortal Kombat: Shaolin Monks (Xbox) through static recompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/OAleex/ShaolinMonksRecomp"
+            }
+          ]
+        },
+        {
+          "project": "need-for-speed-underground-2-switch-port",
+          "name_markdown": "[Need for Speed: Underground 2 (Switch port)](https://github.com/antoxa2584x/nfsu2-sw)",
+          "images": [],
+          "notes_markdown": "Need For Speed Underground 2 Xbox Original port for Nintendo Switch",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/antoxa2584x/nfsu2-sw"
+            }
+          ]
+        },
+        {
+          "project": "opence",
+          "name_markdown": "[OpenCE](https://github.com/OpenCommunityEdition/OpenCE)",
+          "images": [],
+          "notes_markdown": "Halo: Combat Evolved (for original Xbox) ported to Windows, Linux and Android",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/OpenCommunityEdition/OpenCE"
+            }
+          ]
+        },
+        {
+          "project": "prince-of-persia-the-sands-of-time-resot",
+          "name_markdown": "[Prince of Persia: The Sands of Time (reSOT)](https://github.com/FulGerNet/rePOP)",
+          "images": [],
+          "notes_markdown": "Static recompilation project bringing the original Xbox Prince of Persia trilogy natively to PC and Android with modern enhancements and unlocked performance.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/FulGerNet/rePOP"
+            }
+          ]
+        },
+        {
+          "project": "rallisport-challenge-2-rallisport-challenge-2-static-recompilation",
+          "name_markdown": "[RalliSport Challenge 2 (RalliSport Challenge 2 - static recompilation)](https://github.com/Mortify7612/RallisportChallenge2-decomp)",
+          "images": [],
+          "notes_markdown": "Recompilation of DICE's 2004 Rallisport Challenge 2 for Linux and Windows.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Mortify7612/RallisportChallenge2-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ssx-3-xbox",
+          "name_markdown": "[SSX 3](https://github.com/koenhendriks/SSX3-recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation of SSX 3 (original Xbox, PAL) into a native Windows program",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/koenhendriks/SSX3-recomp"
+            }
+          ]
+        },
+        {
+          "project": "ssx-3-xbox-bertibertig",
+          "name_markdown": "[SSX 3](https://github.com/bertibertig/SSX3-Recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation of SSX 3 (Xbox) to a native PC port with xboxrecomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/bertibertig/SSX3-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/bertibertig/SSX3-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "ssx-tricky-xbox",
+          "name_markdown": "[SSX Tricky](https://github.com/GiZcesi/OpenTricky)",
+          "images": [],
+          "notes_markdown": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GiZcesi/OpenTricky"
+            }
+          ]
+        },
+        {
+          "project": "ssx-tricky-xbox-reindance",
+          "name_markdown": "[SSX Tricky](https://github.com/reindance/ssx-tricky-recomp)",
+          "images": [],
+          "notes_markdown": "Linux-first native recompilation of SSX Tricky for original Xbox. Build locally with your own game files; experimental Windows support.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/reindance/ssx-tricky-recomp"
+            }
+          ]
+        },
+        {
+          "project": "star-wars-episode-iii-revenge-of-the-sith-swrots-pc",
+          "name_markdown": "[Star Wars: Episode III - Revenge of the Sith (SWROTS-PC)](https://github.com/jedijosh920/SWROTS-PC)",
+          "images": [],
+          "notes_markdown": "Unofficial native Windows port of Star Wars: Episode III - Revenge of the Sith (Xbox). Bring your own copy.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/jedijosh920/SWROTS-PC"
+            }
+          ]
+        },
+        {
+          "project": "starcraft-ghost",
+          "name_markdown": "[StarCraft: Ghost](https://github.com/aknavj/scghost-recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation of the Xbox StarCraft: Ghost executable using XboxRecomp.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/aknavj/scghost-recomp"
+            }
+          ]
+        },
+        {
+          "project": "timesplitters-2",
+          "name_markdown": "[TimeSplitters 2](https://github.com/phobos665/split2-recomp)",
+          "images": [],
+          "notes_markdown": "Recompilation Project for Timesplitters 2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/phobos665/split2-recomp"
+            }
+          ]
+        },
+        {
+          "project": "the-urbz-sims-in-the-city-xbox",
+          "name_markdown": "[The Urbz: Sims in the City](https://github.com/abilliontokens/urbz-recomp)",
+          "images": [],
+          "notes_markdown": "Static recompilation port scaffold for the original Xbox game The Urbz: Sims in the City (USA), built on XboxXBERecomp. No game data.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/abilliontokens/urbz-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/abilliontokens/urbz-recomp"
+            }
+          ]
+        },
+        {
+          "project": "x-men-legends",
+          "name_markdown": "[X-Men Legends](https://github.com/GTTeancum/XML1-recomp)",
+          "images": [],
+          "notes_markdown": "X-Men Legends original Xbox to Windows recompilation feasibility project targeting Direct3D 8",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/GTTeancum/XML1-recomp"
+            }
+          ]
+        },
+        {
+          "project": "jet-set-radio-future-codeberg",
+          "name_markdown": "[Jet Set Radio Future (Codeberg)](https://codeberg.org/KeybadeBlox/JSRF-Decompilation)",
+          "images": [],
+          "notes_markdown": "Original Xbox source reconstruction hosted on Codeberg.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://codeberg.org/KeybadeBlox/JSRF-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "call-of-duty-finest-hour-remastered",
+          "name_markdown": "[Call of Duty: Finest Hour (Finest Hour Remastered)](https://github.com/crazyriddler/FinestHourRemastered)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Call%20of%20Duty%20-%20Finest%20Hour%20%28USA%29.png",
+              "alt": "US Xbox front box art for Call of Duty: Finest Hour",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of the original Xbox game for native Windows. Requires the PAL Europe title 4156002A version 3 disc; other releases are unsupported. Linux and Steam Deck run through Proton/Wine, rather than a native Linux build. Enhanced textures and models are optional.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/crazyriddler/FinestHourRemastered"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/crazyriddler/FinestHourRemastered"
             }
           ]
         }

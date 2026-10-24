@@ -3,6 +3,27 @@
     bytes < 1048576 ? `${(bytes / 1024).toFixed(1)} KiB` : `${(bytes / 1048576).toFixed(1)} MiB`;
   const basename = (path) => path.split('/').pop();
   const parent = (path) => path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '';
+  const articleLinks = (entry) => {
+    const value = entry && entry.article;
+    if (!value) return [];
+    return (Array.isArray(value) ? value : [value]).filter((item) => item && item.href && item.title);
+  };
+  const appendArticleLinks = (detail, links) => {
+    if (!links.length) return;
+    const wrap = document.createElement('p');
+    wrap.className = 'rr-archive__article';
+    const label = document.createElement('span');
+    label.className = 'rr-archive__article-label';
+    label.textContent = 'On this page';
+    wrap.append(label);
+    links.forEach((item) => {
+      const link = document.createElement('a');
+      link.href = item.href;
+      link.textContent = item.title;
+      wrap.append(link);
+    });
+    detail.append(wrap);
+  };
 
   function initialize(root, manifest) {
     if (manifest.version !== 1 || !Array.isArray(manifest.files) || !Array.isArray(manifest.folders)) {
@@ -90,7 +111,9 @@
           dd.textContent = value;
           metadata.append(dt, dd);
         });
-        detail.append(heading, path, copy, metadata);
+        detail.append(heading, path, copy);
+        appendArticleLinks(detail, articleLinks(folderEntry));
+        detail.append(metadata);
         return;
       }
       if (!entry) {
@@ -119,7 +142,9 @@
         dd.textContent = value;
         metadata.append(dt, dd);
       });
-      detail.append(heading, path, copy, metadata);
+      detail.append(heading, path, copy);
+      appendArticleLinks(detail, articleLinks(entry));
+      detail.append(metadata);
     }
 
     function renderBreadcrumbs() {
@@ -147,6 +172,12 @@
         row.classList.add('is-selected');
       });
       if (path === selected) row.classList.add('is-selected');
+      const links = articleLinks(entry);
+      if (links.length) {
+        row.classList.add('has-article');
+        row.title = `On this page: ${links.map((item) => item.title).join(', ')}`;
+        row.setAttribute('aria-label', `${isSearch ? path : basename(path)}, explained on this page`);
+      }
       const icon = document.createElement('span');
       icon.className = 'rr-archive__icon rr-archive__icon--file';
       icon.setAttribute('aria-hidden', 'true');
@@ -164,8 +195,10 @@
       const row = button('', 'rr-archive__row', () => navigate(path));
       const folderEntry = folderDescriptionMap.get(path);
       if (folderEntry) {
+        const links = articleLinks(folderEntry);
         row.title = folderEntry.description;
         row.setAttribute('aria-label', `${basename(path)} folder. ${folderEntry.description}`);
+        if (links.length) row.classList.add('has-article');
       }
       const icon = document.createElement('span');
       icon.className = 'rr-archive__icon rr-archive__icon--folder';

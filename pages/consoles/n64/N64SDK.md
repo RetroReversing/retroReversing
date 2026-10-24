@@ -45,6 +45,16 @@ The CD contains a PC and SGI folder, with the SGI folder simply containing a tar
 
 On Windows a **Setup.exe** file was included that is installed into `C:\nintendo\n64kit` and contained pre-compiled executables for all of the main applications.
 
+---
+## Development-environment constraints
+[Zygal Studios](https://www.youtube.com/watch?v=28LfKAgDTnk) discusses the difficulties of the Nintendo 64 development environment. It provides historical context for the official tools and libraries catalogued in this article.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/28LfKAgDTnk" title="The Nintendo 64 Environment was TERRIBLE for Game Development" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=gRslfM-MOOw) examines why Nintendo 64 games were difficult to develop. The overview complements the catalogue of SDK components with the constraints developers faced when using them.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gRslfM-MOOw" title="Why was the Nintendo 64 so hard to develop games for ? | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Known Versions of N64Kit
 Latest Version: **5.2**
 
@@ -146,6 +156,20 @@ main.c | Contains the sample specific logic to load the HVQ image
 README.txt | Brief overview of how to use the sample
 system.h | Header file for all the definitions from **main.c**
 hvqbuf.c | Simply defines the HVQ buffer where the image is read into
+
+---
+# Building ROM images with makerom
+Nintendo's documented development pipeline compiles C and assembly into relocatable objects, then uses `makerom` to link and pack code and data according to a segment specification. The tool can also add raw files to the cartridge image. A segment's location in ROM therefore does not by itself tell you where the game will load it in RAM [^1].
+
+The documented IRIX 5.3 compiler setup used these options when building N64 modules:
+
+Option | Purpose in Nintendo's documented build
+---|---
+`-non_shared` | Avoid position-independent, shared code
+`-G 0` | Avoid the compiler's small-data/global-pointer area
+`-mips2` | Target the MIPS II instruction set; recommended by the manual
+
+These are historical SDK instructions, not universal flags for every retail game. A matching decompilation must establish its target game's compiler revision, per-file options, linker order, and segment layout from that game's evidence. Nintendo also distinguishes the release `libultra.a` from the debug `libultra_d.a` when packing a retail ROM [^1].
 
 ---
 # N64 Operating System

@@ -21,6 +21,7 @@ tags:
   - arcade
   - introduction
   - hardware
+updatedAt: '2026-10-24'
 ---
 
 ### What was the first Arcade Video Game?
@@ -34,6 +35,12 @@ Despite its name it is not actually a "computer" as microchips were too expensiv
 
 ---
 # Development of Arcade Games
+
+---
+## Pac-Man's kill screen
+[Retro Game Mechanics Explained](https://www.youtube.com/watch?v=NKKfW8X9uYk) explains Pac-Man's kill screen as a game-implementation problem. It is a compact case study for connecting visible arcade behaviour to the code and data behind it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NKKfW8X9uYk" title="Pac-Man Kill Screen Explained" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## What programming languages were used to create Arcade games?
 Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
@@ -80,6 +87,12 @@ So prototype Arcade games were placed into various arcades and player behaviour 
 ---
 # Arcade Development Hardware
 
+---
+## Tempest ROM hacking and EPROMs
+[Dave's Garage](https://www.youtube.com/watch?v=BjsVSEbXDOM) introduces Tempest video-game hacking and EPROMs. The tutorial connects changes to an arcade program with the physical chips that store it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BjsVSEbXDOM" title="01-Tempest Video Game Hacking - Introduction and EPROMS" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ## Game Development at Taito
 Taito put together a **250-page Hardware Manual** for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
 
@@ -121,6 +134,14 @@ Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers 
 
 The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: [https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py](https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py)
 
+
+---
+## Acrobat Mission Rank Analysis
+Pasky's [Acrobat Mission Ghidra analysis](https://x.com/TheRealPasky/status/2113201618447425646) connects the shooter's difficulty system to specific game-state values rather than relying on perceived difficulty.
+The thread reports a separate rank from 0 to 7 for each player, with starting values set by the difficulty DIP switches. Rank rises every 1,800 play updates, approximately 30 seconds at 60 Hz [^13].
+
+According to the analysis, higher rank reduces some shot damage and changes charged-shot hit-check intervals rather than increasing enemy health.
+For the World version, Pasky identifies player rank at `0x80270` and `0x80292`, with timers at `0x80272` and `0x80294`. These are author-reported findings for that version, not addresses established for every release [^13].
 
 ---
 # Speed Up Kits
@@ -256,3 +277,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
 [^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)
 [^12]: [Before Pong, There Was Computer Space - The MIT Press Reader](https://thereader.mitpress.mit.edu/before-pong-there-was-computer-space/)
+[^13]: [Pasky, Acrobat Mission rank-system thread](https://x.com/TheRealPasky/status/2113201618447425646), with [rank timing](https://x.com/TheRealPasky/status/2113202537549484214), [damage behavior](https://x.com/TheRealPasky/status/2113203228212912546) and [World-version addresses](https://x.com/TheRealPasky/status/2113204133184573925), 22 October 2026.

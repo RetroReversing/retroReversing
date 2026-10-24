@@ -11,14 +11,202 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-12-11T07:47:36Z",
         "last_commit_url": "https://github.com/pditincho/mm-explained/commit/152940f7f3d27ffacd8dbd8c7d6516748c9c7a52",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 50
+      },
+      "ai_used": null
+    },
+    "attack-of-the-mutant-camels-attack-of-the-mutant-camels-reverse-engineer": {
+      "name": "Attack of the Mutant Camels (Attack of the Mutant Camels (reverse engineer))",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/C64-Mark/Attack-of-the-Mutant-Camels",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-04-10T10:31:43Z",
+        "last_commit_url": "https://github.com/C64-Mark/Attack-of-the-Mutant-Camels/commit/d7cad846da779f9e427622d44361e4b642e8aaa2",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "crossroads-ii-pandemonium-crossroads-2-disassembly": {
+      "name": "Crossroads II: Pandemonium (crossroads-2-disassembly)",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/MarkRdgOx/crossroads-2-disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-21T01:09:30Z",
+        "last_commit_url": "https://github.com/MarkRdgOx/crossroads-2-disassembly/commit/2e6cda42e6d792e8eb44b4e5d8ef9ad1e4575cce",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "elite-commodore-64": {
+      "name": "Elite",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/markmoxon/elite-source-code-commodore-64",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T14:28:38Z",
+        "last_commit_url": "https://github.com/markmoxon/elite-source-code-commodore-64/commit/4dab4c0b752cadefe027fb0ef9cf2c8611046f50",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 474
+      },
+      "ai_used": null
+    },
+    "ghost-town-esshahn-ghost-town": {
+      "name": "Ghost Town (Esshahn Ghost-Town)",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/Esshahn/Ghost-Town",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-04-01T19:59:58Z",
+        "last_commit_url": "https://github.com/Esshahn/Ghost-Town/commit/c7a62e2443d60d105f47e5c4f5c4429e886ff3f7",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 23
+      },
+      "ai_used": null
+    },
+    "gridrunner-gridrunner-llamasoft-source-code-project": {
+      "name": "Gridrunner (gridrunner (Llamasoft Source Code Project))",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/mwenge/gridrunner",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-05-19T11:32:07Z",
+        "last_commit_url": "https://github.com/mwenge/gridrunner/commit/4f6cb5db0dae1aebd6b161f0d1db8b96e27f1581",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 75
+      },
+      "ai_used": null
+    },
+    "iridis-alpha-iridisalpha-llamasoft-source-code-project": {
+      "name": "Iridis Alpha (iridisalpha (Llamasoft Source Code Project))",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/mwenge/iridisalpha",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-03-03T18:42:35Z",
+        "last_commit_url": "https://github.com/mwenge/iridisalpha/commit/2d52a71bafe019c460ade3a76e5f292c26ffa518",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 29
+      },
+      "ai_used": null
+    },
+    "maniac-mansion-maniac-mansion-disassembly": {
+      "name": "Maniac Mansion (Maniac.Mansion.Disassembly)",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/segrax/Maniac.Mansion.Disassembly",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2020-04-23T09:38:15Z",
+        "last_commit_url": "https://github.com/segrax/Maniac.Mansion.Disassembly/commit/0e4a04768e2a11eb869e1ba3c6a5b6429ef2c6c9",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 43
+      },
+      "ai_used": null
+    },
+    "uridium-uridium-uridiumfraktion": {
+      "name": "Uridium (uridium (+ UridiumFraktion))",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/mwenge/uridium",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-03T14:21:11Z",
+        "last_commit_url": "https://github.com/mwenge/uridium/commit/fccb4544d51abaf8ce1b70156fcb8f0f7e6988a3",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "the-way-of-the-exploding-fist-paul-maddern-pobtastic-skoolkit-disassembly": {
+      "name": "The Way of the Exploding Fist (Paul Maddern (pobtastic) SkoolKit disassembly)",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/pobtastic/wayoftheexplodingfist",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-10-14T23:27:31Z",
+        "last_commit_url": "https://github.com/pobtastic/wayoftheexplodingfist/commit/fa410005e09c93a07606cc97a2be5e179b8af7cf",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 11
+      },
+      "ai_used": null
+    },
+    "habitat-neohabitat": {
+      "name": "Habitat (NeoHabitat)",
+      "platforms": [
+        "Commodore 64"
+      ],
+      "repository_url": "https://github.com/frandallfarmer/neohabitat",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T23:18:58Z",
+        "last_commit_url": "https://github.com/frandallfarmer/neohabitat/commit/48e1a25a993a31990827525a84f33e638bc27396",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 252
       },
       "ai_used": null
     }
@@ -51,6 +239,202 @@
             {
               "name": "Disassembly",
               "url": "https://github.com/pditincho/mm-explained"
+            }
+          ]
+        },
+        {
+          "project": "attack-of-the-mutant-camels-attack-of-the-mutant-camels-reverse-engineer",
+          "name_markdown": "[Attack of the Mutant Camels (Attack of the Mutant Camels (reverse engineer))](https://github.com/C64-Mark/Attack-of-the-Mutant-Camels)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Attack%20of%20the%20Mutant%20Camels%20%28USA%29.png",
+              "alt": "Attack of the Mutant Camels (Attack of the Mutant Camels (reverse engineer)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reverse engineer of C64 Jeff Minter classic Attack of the Mutant Camels",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/C64-Mark/Attack-of-the-Mutant-Camels"
+            }
+          ]
+        },
+        {
+          "project": "crossroads-ii-pandemonium-crossroads-2-disassembly",
+          "name_markdown": "[Crossroads II: Pandemonium (crossroads-2-disassembly)](https://github.com/MarkRdgOx/crossroads-2-disassembly)",
+          "images": [],
+          "notes_markdown": "Attempt at commented disassembly of C64 Crossroads 2.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/MarkRdgOx/crossroads-2-disassembly"
+            }
+          ]
+        },
+        {
+          "project": "elite-commodore-64",
+          "name_markdown": "[Elite](https://github.com/markmoxon/elite-source-code-commodore-64)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Elite%20%28USA%2C%20Europe%29.png",
+              "alt": "Elite box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Fully documented source code for the classic game Elite on the Commodore 64",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/markmoxon/elite-source-code-commodore-64"
+            }
+          ]
+        },
+        {
+          "project": "ghost-town-esshahn-ghost-town",
+          "name_markdown": "[Ghost Town (Esshahn Ghost-Town)](https://github.com/Esshahn/Ghost-Town)",
+          "images": [],
+          "notes_markdown": "Disassembly of the Commodore 16 game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/Esshahn/Ghost-Town"
+            }
+          ]
+        },
+        {
+          "project": "gridrunner-gridrunner-llamasoft-source-code-project",
+          "name_markdown": "[Gridrunner (gridrunner (Llamasoft Source Code Project))](https://github.com/mwenge/gridrunner)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Gridrunner%20%28USA%2C%20Europe%29.png",
+              "alt": "Gridrunner (gridrunner (Llamasoft Source Code Project)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Gridrunner (1982) by Jeff Minter",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/mwenge/gridrunner"
+            }
+          ]
+        },
+        {
+          "project": "iridis-alpha-iridisalpha-llamasoft-source-code-project",
+          "name_markdown": "[Iridis Alpha (iridisalpha (Llamasoft Source Code Project))](https://github.com/mwenge/iridisalpha)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Iridis%20Alpha%20%28Europe%29.png",
+              "alt": "Iridis Alpha (iridisalpha (Llamasoft Source Code Project)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Disassembled Source Code for the C64 game Iridis Alpha by Jeff Minter",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/mwenge/iridisalpha"
+            }
+          ]
+        },
+        {
+          "project": "maniac-mansion-maniac-mansion-disassembly",
+          "name_markdown": "[Maniac Mansion (Maniac.Mansion.Disassembly)](https://github.com/segrax/Maniac.Mansion.Disassembly)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Maniac%20Mansion%20%28USA%2C%20Europe%29.png",
+              "alt": "Maniac Mansion box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Commented disassembly of game scripts, and spreadsheets which detail room objects, variables and their usage",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/segrax/Maniac.Mansion.Disassembly"
+            }
+          ]
+        },
+        {
+          "project": "uridium-uridium-uridiumfraktion",
+          "name_markdown": "[Uridium (uridium (+ UridiumFraktion))](https://github.com/mwenge/uridium)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Commodore_-_64/master/Named_Boxarts/Uridium%20%28USA%29.png",
+              "alt": "Uridium (uridium (+ UridiumFraktion)) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Uridium (1986) by Andrew Braybrook",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mwenge/uridium"
+            }
+          ]
+        },
+        {
+          "project": "the-way-of-the-exploding-fist-paul-maddern-pobtastic-skoolkit-disassembly",
+          "name_markdown": "[The Way of the Exploding Fist (Paul Maddern (pobtastic) SkoolKit disassembly)](https://github.com/pobtastic/wayoftheexplodingfist)",
+          "images": [],
+          "notes_markdown": "A disassembly of The Way of the Exploding Fist, created using SkoolKit.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/pobtastic/wayoftheexplodingfist"
+            }
+          ]
+        },
+        {
+          "project": "habitat-neohabitat",
+          "name_markdown": "[Habitat (NeoHabitat)](https://github.com/frandallfarmer/neohabitat)",
+          "images": [],
+          "notes_markdown": "Repository for the NeoClassical Habitat Server Project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/frandallfarmer/neohabitat"
             }
           ]
         }

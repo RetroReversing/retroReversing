@@ -81,6 +81,12 @@ However the same wasn't the case in the west as described in this quote from [Mo
 
 For emulators to support all the different cartridge hardware, emulator authors came up with the concept of Mappers which are part of the **iNES Header** and are used by emulators to vary the emulation based on what Mapper the game ROM is defined as using.
 
+---
+### Punch-Out and the MMC2
+[Displaced Gamers](https://www.youtube.com/watch?v=Zfl1dvu5gBo) explains how Punch-Out uses MMC2 for its graphics. The example connects cartridge mapper behaviour to what the game can display.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zfl1dvu5gBo" title="MMC2 Magic - How Punch-Out&#x27;s Graphics Work" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ### NESCartDB: NES Cartridge Database
 **NESCartDB** is the definitive resource for technical information on Nintendo Entertainment System (NES) and Famicom cartridges, originally created by **BootGod**. The database catalogs high-resolution PCB scans, mapper assignments, ROM checksums, and chipset details for thousands of games. It serves as a critical reference for emulator developers and reverse engineers needing to verify hardware configurations and understand how specific titles interface with the console.
 
@@ -242,6 +248,10 @@ You can easily replace the 2D Sprites and Tiles from a NES game with HD/4K alter
 
 Mesen even comes with a HD Pack Builder Tool to create your own texture packs, for more information: [HD Packs :: Mesen Documentation](https://www.mesen.ca/docs/hdpacks.html#using-the-hd-pack-builder)
 
+[Gamester81](https://www.youtube.com/watch?v=U3LVxImKjiY) demonstrates HD graphics for NES games. The showcase provides a visual companion to the texture-pack tools in this section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U3LVxImKjiY" title="NES HD Games - Looks Amazing! Gamester81" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 ---
 # Homebrew NES Development
 
@@ -308,7 +318,14 @@ It covers the following topics related to NES Graphics:
 
 ---
 # Reverse Engineering Famicom and NES games
-If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed. 
+If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed.
+
+---
+## Super Mario Bros. 3 memory visualisation
+[Bisqwit](https://www.youtube.com/watch?v=xI3xZAn7r2A) visualises memory use in Super Mario Bros. 3. The display provides a concrete companion to memory maps and the process of identifying game state in a running NES program [^nes-memory-visualisation].
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xI3xZAn7r2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
 
 ## The Basics of NES Reversing
 In this section, we'll provide an overview of the basic techniques used to reverse engineer NES games, including disassembly, debugging, and memory analysis
@@ -429,3 +446,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
 [^8]: [Hammer News Hammer Editor (Eye-2) Famicom Modification Tool Code Page](https://k1ilove.yu-nagi.com/diskto14.html)
 [^9]: [Ikari Warriors, Guerilla War, and The SNK Golden Age - shmuplations.com](https://shmuplations.com/snkgoldenage/)
+[^nes-memory-visualisation]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)

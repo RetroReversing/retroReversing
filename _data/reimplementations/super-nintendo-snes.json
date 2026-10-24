@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "projects": {
+    "super-mario-world-snesrev": {
+      "name": "Super Mario World (snesrev)",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/snesrev/smw",
+      "project_type": "Reimplementation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2023-08-16T22:29:54Z",
+        "last_commit_url": "https://github.com/snesrev/smw/commit/eae20c65c58930c8b62c76188d259579ad4130f1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 648
+      },
+      "ai_used": null
+    },
+    "the-legend-of-zelda-a-link-to-the-past": {
+      "name": "The Legend of Zelda: A Link to the Past",
+      "platforms": [
+        "Super Nintendo (SNES)"
+      ],
+      "repository_url": "https://github.com/snesrev/zelda3",
+      "project_type": "Reimplementation, PC Port",
+      "completion_status": null,
+      "legacy_status": "Active",
+      "activity": {
+        "last_commit_at": "2026-10-02T23:58:23Z",
+        "last_commit_url": "https://github.com/snesrev/zelda3/commit/45a149d8b4bb8098f53d1009f76e76e7d8b79bbf",
+        "archived": false,
+        "default_branch": "master",
+        "status": "Active",
+        "github_stars": 4902
+      },
+      "ai_used": null
+    }
+  },
+  "consoles": {
+    "super-nintendo-snes": {
+      "name": "Super Nintendo (SNES)",
+      "columns": [
+        "Name",
+        "Project Type",
+        "Status / Ports"
+      ],
+      "rows": [
+        {
+          "project": "super-mario-world-snesrev",
+          "name_markdown": "[Super Mario World (snesrev)](https://github.com/snesrev/smw)",
+          "images": [
+            {
+              "alt": "Super Mario World box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "C reimplementation and native port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "Super Mario World (snesrev)",
+              "url": "https://github.com/snesrev/smw",
+              "platforms": [],
+              "description_markdown": "C reimplementation and native port.",
+              "project_types": [
+                "Reimplementation",
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/snesrev/smw"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/snesrev/smw"
+            }
+          ]
+        },
+        {
+          "project": "the-legend-of-zelda-a-link-to-the-past",
+          "name_markdown": "[The Legend of Zelda: A Link to the Past](https://github.com/snesrev/zelda3)",
+          "images": [
+            {
+              "alt": "The Legend of Zelda: A Link to the Past box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Super_Nintendo_Entertainment_System/master/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "The Legend of Zelda: A Link to the Past",
+              "url": "https://github.com/snesrev/zelda3",
+              "platforms": [],
+              "description_markdown": "",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Reimplementation",
+              "url": "https://github.com/snesrev/zelda3"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/snesrev/zelda3"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

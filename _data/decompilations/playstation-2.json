@@ -11,14 +11,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T02:37:44Z",
-        "last_commit_url": "https://github.com/TheMoonPeople/Chronicle/commit/50eaff633e4e02e5dbc6a7a6a84c7e34688cb738",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-22T22:40:46Z",
+        "last_commit_url": "https://github.com/TheMoonPeople/Chronicle/commit/d486311d56a60c4cfdc416a65e3d9a1cf0c9abfb",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 94
+        "github_stars": 102
       },
       "ai_used": null
     },
@@ -32,14 +30,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T13:42:57Z",
-        "last_commit_url": "https://github.com/Mikompilation/Himuro/commit/37370ea9d3befe705b1e7037e93e1d9c45aac43d",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-18T11:04:44Z",
+        "last_commit_url": "https://github.com/Mikompilation/Himuro/commit/595b082aef19c329a25dc6926e4ac638d13ed75d",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 129
+        "github_stars": 133
       },
       "ai_used": null
     },
@@ -53,13 +49,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "last_commit_at": "2024-02-06T12:13:19Z",
         "last_commit_url": "https://github.com/Mikompilation/Mikompilation/commit/afd5bc1692cd9a11e39416abb66b23a0082ccd69",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "github_stars": 58
       },
       "ai_used": null
@@ -74,14 +68,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2022-07-29T09:18:31Z",
         "last_commit_url": "https://github.com/Cai1Hsu/re3/commit/e19f40616349938de2ae02912a17813cc86ced15",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "miami",
-        "github_stars": 318
+        "github_stars": 322
       },
       "ai_used": null
     },
@@ -95,10 +87,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-01-08T12:54:28Z",
         "last_commit_url": "https://github.com/RossyDoubleUnderscore/ICO-decomp/commit/4324c16d7f891c963a29e24365a0287683b64288",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -116,14 +106,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-16T01:27:51Z",
-        "last_commit_url": "https://github.com/open-goal/jak-project/commit/32c3cf73970f885c0a588623208232db72a74a58",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-22T14:55:31Z",
+        "last_commit_url": "https://github.com/open-goal/jak-project/commit/d2a4685b7007a85b2e28f4703156e0ea28a85763",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 3581
+        "github_stars": 3606
       },
       "ai_used": null
     },
@@ -137,14 +125,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-08-17T18:13:15Z",
         "last_commit_url": "https://github.com/ethteck/kh1/commit/0df3b6586d2d0b4dab39d1eb7e9859c464934e19",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 110
+        "github_stars": 112
       },
       "ai_used": null
     },
@@ -158,10 +144,8 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-03-07T20:12:13Z",
         "last_commit_url": "https://github.com/entriphy/kl2_lv_decomp/commit/2c4735ca064be44dddb47fc5262e5ddaa3dfd117",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
@@ -179,8 +163,6 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-20T23:58:28Z",
         "last_commit_url": "https://github.com/GirianSeed/mgs2old/commit/ff8f22d010d31481345bdaa3eb08eeaa418a142a",
         "default_branch": "new-trunk",
@@ -203,14 +185,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-14T01:28:31Z",
         "last_commit_url": "https://github.com/2Tie/mh1j/commit/1da254baf02cffe6dd368f3d1f4a064249c31aec",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 43
+        "github_stars": 44
       },
       "ai_used": null
     },
@@ -224,14 +204,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-17T09:45:51Z",
         "last_commit_url": "https://github.com/parappadev/parappa2/commit/45694de3b6ed8d8bb0514e27bcaf091198698faf",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 204
+        "github_stars": 207
       },
       "ai_used": null
     },
@@ -245,14 +223,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T23:21:33Z",
-        "last_commit_url": "https://github.com/AshfordFamily/recvx-decomp/commit/d9a9e0f00351bfb93584715a981c919a6e713d5f",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-23T23:11:27Z",
+        "last_commit_url": "https://github.com/AshfordFamily/recvx-decomp/commit/fff043b2472ea048a3fc5b0b2608b6867187c4a4",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 287
+        "github_stars": 296
       },
       "ai_used": null
     },
@@ -266,14 +242,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-11T21:58:25Z",
-        "last_commit_url": "https://github.com/TheOnlyZac/sly1/commit/ea5e2d77ac2a083df1efeafcee178f895943b13d",
-        "last_success_at": "2026-10-18T08:18:48Z",
+        "last_commit_at": "2026-10-22T17:30:17Z",
+        "last_commit_url": "https://github.com/TheOnlyZac/sly1/commit/2fe82db85737f01e58bf143e13f985c27edd9817",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 273
+        "github_stars": 279
       },
       "ai_used": null
     },
@@ -287,14 +261,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-04-03T13:13:30Z",
         "last_commit_url": "https://github.com/crowded-street/3s-decomp/commit/be9b9bc69dc19822a8eca9ce3e72ba560d5a3835",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 282
+        "github_stars": 283
       },
       "ai_used": null
     },
@@ -308,12 +280,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-08-20T13:54:24Z",
         "last_commit_url": "https://github.com/guimaraf/3sxw/commit/1dd85159d13fba217d1db972984b5a7d762e6cec",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 63
       },
@@ -329,14 +299,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-03-01T21:56:33Z",
         "last_commit_url": "https://github.com/abelbriggs1/tmb_decomp/commit/506f3177593b6b6a3603da8857055bdf761cee00",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 20
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -350,14 +318,12 @@
       "completion_status": null,
       "legacy_status": "Inactive",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2024-08-18T23:34:11Z",
         "last_commit_url": "https://github.com/SquareMan/xenosaga/commit/4c969ed898755b50534084b00a3ab4e87b4690fb",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -371,10 +337,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-07-15T07:38:53Z",
         "last_commit_url": "https://github.com/Hamzaxx370/Ogre-Decomp/commit/5c7b5576c34e59738b98d8a6e182b9752e7186f2",
-        "last_success_at": "2026-10-18T08:18:48Z",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
@@ -392,12 +356,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-10-05T10:09:52Z",
         "last_commit_url": "https://github.com/calmsacibis995/crash-ps2/commit/8f64fda50ec85fcee6b1570b690d995fa0c8ba23",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 14
       },
@@ -413,14 +375,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-25T22:29:00Z",
         "last_commit_url": "https://github.com/IWILLCRAFT-M0d/dogcomp/commit/9a6e3b2fea88668eb7feb0248601ae085e5b4e6d",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -434,12 +394,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-02-19T05:45:34Z",
         "last_commit_url": "https://github.com/ieee802dot11ac/amp/commit/452476f16d793572b3d9e76ab3b8da1a455068de",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 5
       },
@@ -455,12 +413,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-08-26T19:13:27Z",
         "last_commit_url": "https://github.com/Gmon20/makethedecomp/commit/a3014d99053bd05f3a0ca8692e40cec24c266466",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 2
       },
@@ -476,12 +432,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-05-25T23:58:45Z",
         "last_commit_url": "https://github.com/cScarletter/Drakan-The-Ancient-Gates-Decompilation-/commit/2dc585b154240b762287270c898a63a42701d294",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 4
       },
@@ -497,12 +451,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-07-27T23:56:49Z",
         "last_commit_url": "https://github.com/WistfulHopes/ggx/commit/85b1242bfd03e89e8cd335dcec78e7aa31aee21e",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 11
       },
@@ -518,12 +470,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2025-05-15T00:27:55Z",
         "last_commit_url": "https://github.com/VELD-Dev/Pyrocitor/commit/3892379cb46e0598c77a3541c7eb36dc04c809b2",
         "default_branch": "main",
         "archived": true,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Inactive",
         "github_stars": 11
       },
@@ -539,19 +489,17 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-02-15T16:05:42Z",
         "last_commit_url": "https://github.com/Fantaskink/SOTC/commit/59b47f6004a19bc924fa61e1b1587c0f4968b513",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 132
+        "github_stars": 141
       },
       "ai_used": null
     },
     "silent-hill-3": {
-      "name": "Silent Hill 3",
+      "name": "Silent Hill 2 and Silent Hill 3 (Memory of Alessa)",
       "platforms": [
         "PlayStation 2"
       ],
@@ -560,14 +508,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T21:35:25Z",
-        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/9c71a38f82512d634d301a2ec63b3fc44d9e37c8",
+        "last_commit_at": "2026-10-24T02:07:51Z",
+        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/ea1e7acb901042d1b02ed04103c6aa5a294f9586",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 150
+        "github_stars": 159
       },
       "ai_used": null
     },
@@ -581,14 +527,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-06T08:16:55Z",
         "last_commit_url": "https://github.com/ssxdecomp/ssx/commit/f372f10c1f8d1e22945f1843b1522af6f39839c8",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 18
+        "github_stars": 21
       },
       "ai_used": null
     },
@@ -602,14 +546,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T03:09:43Z",
-        "last_commit_url": "https://github.com/ssxdecomp/ssx3/commit/00bf4fb1fe87d13f9dec796248575a4a235d31b1",
+        "last_commit_at": "2026-10-18T10:33:00Z",
+        "last_commit_url": "https://github.com/ssxdecomp/ssx3/commit/3ba7ec7c63648189d82cbb2d0070df6321859879",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 33
+        "github_stars": 38
       },
       "ai_used": null
     },
@@ -623,12 +565,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-29T08:44:32Z",
         "last_commit_url": "https://github.com/aaaaaaaaaaway/chulip-decomp/commit/369f9381114be35744f77e357d923846841bfd1e",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 2
       },
@@ -644,14 +584,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T02:39:50Z",
-        "last_commit_url": "https://github.com/denzi-gh/crashwoc-decomp-ps2/commit/3379f3c5f0735dff6addff3fea79f3e2200e0263",
+        "last_commit_at": "2026-10-24T08:20:43Z",
+        "last_commit_url": "https://github.com/denzi-gh/crashwoc-decomp-ps2/commit/7ba0b063d85ec376ccab64961f5cec0a2fd4b753",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -665,14 +603,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T10:05:44Z",
-        "last_commit_url": "https://github.com/LucasPicoli/god-hand-decomp/commit/7ce8e285a371ec53a1d8d9d52b8dabb5c701e8d4",
+        "last_commit_at": "2026-10-24T08:15:07Z",
+        "last_commit_url": "https://github.com/LucasPicoli/god-hand-decomp/commit/9cd02ece08cf9148fd6a6a057e2e6960ced36727",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 58
+        "github_stars": 74
       },
       "ai_used": null
     },
@@ -686,15 +622,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-09-26T00:59:38Z",
-        "last_commit_url": "https://github.com/weirdbeardgame/Mulberry/commit/4b01e9494cbd87f0a07ce5b72fa303fb2379fc91",
+        "last_commit_at": "2026-10-17T17:27:56Z",
+        "last_commit_url": "https://github.com/weirdbeardgame/Mulberry/commit/d6237716596b37a68ca2bbcf23cd256892d59685",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-17T10:42:54Z",
         "status": "Active",
-        "github_stars": 14,
-        "check_error": "GitHub GraphQL repository check failed"
+        "github_stars": 1
       },
       "ai_used": null
     },
@@ -708,14 +641,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T08:14:02Z",
-        "last_commit_url": "https://github.com/g-guthrie/mvc2-ps2-decomp/commit/3473cc88bf37a60013052b8c7c14c8d2ac3679a3",
+        "last_commit_at": "2026-10-23T21:51:20Z",
+        "last_commit_url": "https://github.com/g-guthrie/mvc2-ps2-decomp/commit/406ea869c5592d0f42ffa24e4f198e58c3a27c7f",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -729,14 +660,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-20T23:56:07Z",
         "last_commit_url": "https://github.com/GirianSeed/mgs3/commit/24d04d6570602d97b80c736f4cde01b0229f337e",
         "default_branch": "trunk",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 26
+        "github_stars": 28
       },
       "ai_used": null
     },
@@ -750,12 +679,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-12T02:18:12Z",
         "last_commit_url": "https://github.com/Daniel-McCarthy/SPPS/commit/3b483cf95c8c7ff67ee442e8018e82cc6f820531",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 7
       },
@@ -771,14 +698,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-15T02:39:19Z",
-        "last_commit_url": "https://github.com/theclub654/ProjectCane/commit/d8e34caf5edd2a0e2d4ec292b69145425ec6201c",
+        "last_commit_at": "2026-10-22T08:05:55Z",
+        "last_commit_url": "https://github.com/theclub654/ProjectCane/commit/f77825d6bc9be3f795ead9d140b410fb9c9c22c1",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 272
+        "github_stars": 313
       },
       "ai_used": null
     },
@@ -792,12 +717,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T21:50:05Z",
-        "last_commit_url": "https://github.com/Harskov/stretch-panic-usa/commit/840f19d03d243b18614d22a54fc6c1a145fa593c",
+        "last_commit_at": "2026-10-24T06:43:58Z",
+        "last_commit_url": "https://github.com/Harskov/stretch-panic-usa/commit/506641c7ba37966328916c5114fc8197766a55e9",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 2
       },
@@ -813,12 +736,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-05-13T19:12:56Z",
         "last_commit_url": "https://github.com/GirianSeed/zoe1/commit/5235acaca2d94ec1f7ae41bf1c0fc5e120e8e91d",
         "default_branch": "trunk",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 5
       },
@@ -834,12 +755,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-06-04T16:11:09Z",
         "last_commit_url": "https://github.com/GirianSeed/zoe2/commit/2572f7f0b0fd767fc4a59a8330c1f2d98468683c",
         "default_branch": "trunk",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 4
       },
@@ -855,12 +774,10 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-09-20T05:32:30Z",
         "last_commit_url": "https://github.com/GirianSeed/zoe3/commit/c67818afd03e02bc7add80242fa0aaf10032bda1",
         "default_branch": "trunk",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
         "github_stars": 4
       },
@@ -876,14 +793,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-17T22:19:09Z",
         "last_commit_url": "https://github.com/ssxdecomp/ssxtricky/commit/55a57c775b0ab5e7789c9945352c13f153a63ba6",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 10
+        "github_stars": 11
       },
       "ai_used": null
     },
@@ -897,14 +812,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T07:31:50Z",
-        "last_commit_url": "https://github.com/lombyte-project/Lombyte/commit/d28908d3538aafbc9b24387738ebcc39d3e4ff25",
+        "last_commit_at": "2026-10-24T06:03:34Z",
+        "last_commit_url": "https://github.com/lombyte-project/Lombyte/commit/2d6fb52bb80eaa4f67f00090ca412a61c9b987ed",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 45
+        "github_stars": 47
       },
       "ai_used": null
     },
@@ -918,14 +831,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T06:13:37Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac1-decomp/commit/7f5d3ff56701b611ac0e2c2589ef1f49cf8ac8fe",
+        "last_commit_at": "2026-10-24T05:47:44Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac1-decomp/commit/de14440819093b81c00a1e219d4fef54d6fccd16",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 55
+        "github_stars": 60
       },
       "ai_used": null
     },
@@ -939,14 +850,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T04:42:41Z",
-        "last_commit_url": "https://github.com/nathanialf/ico-pc/commit/4c29ac4c121a357092dea6ee12f6d715ce6cf1f9",
+        "last_commit_at": "2026-10-24T05:49:01Z",
+        "last_commit_url": "https://github.com/nathanialf/ico-pc/commit/78aed29f4446cb2d9fae328ed9d4a49f3f230214",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 356
+        "github_stars": 433
       },
       "ai_used": null
     },
@@ -960,13 +869,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 31,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T07:29:26Z",
-        "last_commit_url": "https://github.com/TheMoonPeople/ChronicleTwo/commit/54801dac6078f35ab402547e04f40972f797d9fe",
+        "github_stars": 35,
+        "last_commit_at": "2026-10-23T23:47:13Z",
+        "last_commit_url": "https://github.com/TheMoonPeople/ChronicleTwo/commit/f344ede3dbc5eac1e06d6a446c6acd036ae6ca73",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -982,12 +889,10 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 1,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T07:38:29Z",
-        "last_commit_url": "https://github.com/USED255/artonelico2-decomp/commit/5a945aad2c02670a7eb2c94d01b6bcc52bfcd16f",
+        "last_commit_at": "2026-10-20T18:02:57Z",
+        "last_commit_url": "https://github.com/USED255/artonelico2-decomp/commit/4d28b8459d81eae1a876cb7a525fc389c8f19f1b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1002,13 +907,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 13,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T03:24:34Z",
-        "last_commit_url": "https://github.com/Voicedrew11/kfiv-decomp/commit/88b0978f8e949ba66659654c87b4b84cad8b8409",
+        "github_stars": 14,
+        "last_commit_at": "2026-10-21T17:08:20Z",
+        "last_commit_url": "https://github.com/Voicedrew11/kfiv-decomp/commit/09adc15974b2936b09943d2a55cc29fa472a79b2",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1023,13 +926,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 16,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-15T19:25:37Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac-deadlocked-decomp/commit/1d26d1e86dd0edf98d0d680e5e049e9c2b1a8eb1",
+        "github_stars": 20,
+        "last_commit_at": "2026-10-23T23:02:51Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac4-decomp/commit/04d07c665ad720e2b9478deea0be94077de62005",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1044,13 +945,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 28,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T17:25:12Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac3-uya-decomp/commit/ac0eb2a87cc1706e1d15025f8a17838d17f9175c",
+        "github_stars": 35,
+        "last_commit_at": "2026-10-22T18:14:22Z",
+        "last_commit_url": "https://github.com/vetusmagnus/rac3-uya-decomp/commit/fc118a0b7442665a2b181055dc352ce5d117c41b",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1065,13 +964,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 18,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 20,
         "last_commit_at": "2026-08-01T10:04:26Z",
         "last_commit_url": "https://github.com/cakehonolulu/Bullseye/commit/ea8e35a5a2edba71198994db8203a5d9364a6b70",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1086,13 +983,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 20,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T04:57:26Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac2-gc-decomp/commit/f614180fac38bf35c684efe7624216aefcf97ac7",
+        "github_stars": 27,
+        "last_commit_at": "2026-10-24T07:52:38Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac2-decomp/commit/73fca27e5a6faab0504d18e102db43bd6443bda5",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1107,13 +1002,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 43,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T23:00:42Z",
-        "last_commit_url": "https://github.com/Raikaru/Persona4-Decompilation/commit/ed632e524f46fc6aaad1322a62132cf91f0ee60a",
+        "github_stars": 47,
+        "last_commit_at": "2026-10-24T00:50:42Z",
+        "last_commit_url": "https://github.com/Raikaru/Persona4-Decompilation/commit/854e43d25d5b511503d919cd1d2841c85a64dece",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1128,13 +1021,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 14,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T02:00:25Z",
-        "last_commit_url": "https://github.com/celophi/so3-decomp/commit/050846a731d948e8d03a9249fb62421c34705327",
+        "github_stars": 15,
+        "last_commit_at": "2026-10-23T21:10:31Z",
+        "last_commit_url": "https://github.com/celophi/so3-decomp/commit/2b2e20997dc86995005ae35ddefa52d145d96139",
         "default_branch": "master",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1149,13 +1040,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 4,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-17T09:59:11Z",
-        "last_commit_url": "https://github.com/zm2283145/syphon-filter-omega-strain-decomp/commit/d41eacc6dd89befed75fec21a02faaa2b5a4750c",
+        "github_stars": 5,
+        "last_commit_at": "2026-10-21T07:08:58Z",
+        "last_commit_url": "https://github.com/zm2283145/syphon-filter-omega-strain-decomp/commit/99e1e5427798faa0e57c377860b1a57c6c4ef2a9",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1171,12 +1060,10 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 1,
-        "checked_at": "2026-10-18T08:18:48Z",
         "last_commit_at": "2026-10-14T03:38:47Z",
         "last_commit_url": "https://github.com/mikegoforth/summoner-2-decomp/commit/0c2edc3f739ed3d2dccd38b439448ad64d4ffd28",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1191,13 +1078,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 97,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 105,
         "last_commit_at": "2026-09-19T19:22:40Z",
         "last_commit_url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation/commit/078662b4018b5e79d5aa5ee9b9c60aceec9e7649",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1212,13 +1097,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 116,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-18T03:11:09Z",
-        "last_commit_url": "https://github.com/KIexster/god-of-war-recomp/commit/e5230e4ae0cde198ff1f2152849f62b6d13128f6",
+        "github_stars": 177,
+        "last_commit_at": "2026-10-24T05:34:12Z",
+        "last_commit_url": "https://github.com/KIexster/god-of-war-recomp/commit/6095aed256bfbdc98566b27763094be5475408da",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1233,13 +1116,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 67,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-11T15:34:07Z",
-        "last_commit_url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/commit/3e74da68d7633db9996457dca4a9388ece0847c0",
+        "github_stars": 82,
+        "last_commit_at": "2026-10-23T21:09:40Z",
+        "last_commit_url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/commit/f6dfd968001b492415969bb70bd5aad3bfa79abd",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1254,13 +1135,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 68,
-        "checked_at": "2026-10-18T08:18:48Z",
+        "github_stars": 81,
         "last_commit_at": "2026-10-14T07:40:37Z",
         "last_commit_url": "https://github.com/danisandoval/fukami/commit/2ecb2810ddb742245b17fd54500bcf07d1fe6760",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
       },
       "ai_used": null
@@ -1275,14 +1154,943 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 33,
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-13T23:39:33Z",
-        "last_commit_url": "https://github.com/thiagordsfx/urban-reign-recomp/commit/2fa53c4dcfade75205f0384fceb0e72db3b9c2a2",
+        "github_stars": 55,
+        "last_commit_at": "2026-10-23T01:24:03Z",
+        "last_commit_url": "https://github.com/thiagordsfx/urban-reign-recomp/commit/20b30fd731b153110bd1b60db61bc421d42586c4",
         "default_branch": "main",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active"
+      },
+      "ai_used": null
+    },
+    "killzone-recomp": {
+      "name": "Killzone",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/drakolordx7/KillzoneRecomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:23:37Z",
+        "last_commit_url": "https://github.com/drakolordx7/KillzoneRecomp/commit/832c8adb7b730c0b98c03516dc582d139606c1d8",
+        "default_branch": "master",
+        "archived": false,
+        "github_stars": 113,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "gran-turismo-4": {
+      "name": "Gran Turismo 4",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/gustavocanepa/gt4-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T03:08:25Z",
+        "last_commit_url": "https://github.com/gustavocanepa/gt4-decomp/commit/69c89d21e107e6e540f7427625ac8948c167ba25",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 86
+      },
+      "ai_used": true
+    },
+    "digital-devil-saga-1-and-2": {
+      "name": "Digital Devil Saga 1 and 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Megami-Decomps/dds-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T08:17:57Z",
+        "last_commit_url": "https://github.com/Megami-Decomps/dds-decomp/commit/091c9365d5ba7bad6dae420985ee822e8a426ed5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 35
+      },
+      "ai_used": null
+    },
+    "hack-imoq": {
+      "name": ".hack//IMOQ",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/dothacktranslate/dothack-decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-21T18:50:04Z",
+        "last_commit_url": "https://github.com/dothacktranslate/dothack-decompilation/commit/3710da14278b7a9119176ed82260d092520163a1",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 6
+      },
+      "ai_used": null
+    },
+    "hack-infection-recompilation": {
+      "name": ".hack//Infection (Recompilation)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/dothacktranslate/dothack-recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-14T06:16:16Z",
+        "last_commit_url": "https://github.com/dothacktranslate/dothack-recompilation/commit/9d326ad1efb326429228fc8ffb10e0b514526f2b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 46
+      },
+      "ai_used": null
+    },
+    "biohazard-outbreak-biohazard-outbreak-file-2": {
+      "name": "Biohazard Outbreak / Biohazard Outbreak File 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/GalaxyNostalgia/Outbreak-decomp",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T22:40:54Z",
+        "last_commit_url": "https://github.com/GalaxyNostalgia/Outbreak-decomp/commit/98ee385469cb94f198c2301c91261d016ddbe158",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "bounce": {
+      "name": "Bounce",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/misterjdrg/Bouncer",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-09-22T23:14:52Z",
+        "last_commit_url": "https://github.com/misterjdrg/Bouncer/commit/dfa9402e58dbc7c1e11b0ca09ef112f7f68e1258",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "burnout-3-takedown-burnout-3-takedown-pc-port": {
+      "name": "Burnout 3: Takedown (Burnout 3: Takedown - PC port)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/danielgomesvieira2000/burnout3-pc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T19:39:58Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/burnout3-pc/commit/37a3997faf48bc14c9b7471c2d6b40972ecf714f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 168
+      },
+      "ai_used": null
+    },
+    "crash-twinsanity": {
+      "name": "Crash Twinsanity",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T18:28:12Z",
+        "last_commit_url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/commit/53783cd0b9c58b10486bdd028752b2f0964496a5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "crash-twinsanity-twinsanity-reversed": {
+      "name": "Crash Twinsanity (twinsanity-reversed)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Smartkin/twinsanity-reversed",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-05T21:46:38Z",
+        "last_commit_url": "https://github.com/Smartkin/twinsanity-reversed/commit/38d533d0033b48b5d6b49880c49f5eeeade0f38e",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "dark-cloud-2-dc2-ps2recomp": {
+      "name": "Dark Cloud 2 (DC2-PS2RECOMP)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Red-tv141/DC2-PS2RECOMP",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-10T19:47:53Z",
+        "last_commit_url": "https://github.com/Red-tv141/DC2-PS2RECOMP/commit/1ff567e638360db8b43921f6687766801bfbe8c9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 35
+      },
+      "ai_used": null
+    },
+    "def-jam-vendetta": {
+      "name": "Def Jam Vendetta",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/jcsix694/def-jam-vendetta-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T09:18:59Z",
+        "last_commit_url": "https://github.com/jcsix694/def-jam-vendetta-recomp/commit/c43ee93fce6ddb5c77d089bcfa6613de0619e96b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 25
+      },
+      "ai_used": null
+    },
+    "dragon-ball-z-budokai-tenkaichi-2-bt2-recomp": {
+      "name": "Dragon Ball Z: Budokai Tenkaichi 2 (BT2 Recomp)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/oric212/BT2-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T10:45:26Z",
+        "last_commit_url": "https://github.com/oric212/BT2-Recomp/commit/d6c8b519aef1395f9d7efed394356f8a04f7b43c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 12
+      },
+      "ai_used": null
+    },
+    "dragon-ball-z-budokai-tenkaichi-3": {
+      "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/z3xox/BT3-Recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-01T01:04:50Z",
+        "last_commit_url": "https://github.com/z3xox/BT3-Recomp/commit/e22a34beb564e2d0f32bd60b02f0a95d9645ddcc",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 112
+      },
+      "ai_used": null
+    },
+    "dragon-ball-z-budokai-tenkaichi-3-bt3-decompiled": {
+      "name": "Dragon Ball Z: Budokai Tenkaichi 3 (BT3-Decompiled)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/z3xox/BT3-Decompiled",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-08T06:53:03Z",
+        "last_commit_url": "https://github.com/z3xox/BT3-Decompiled/commit/95b950367364137130758ef82a218e607a54b703",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 26
+      },
+      "ai_used": null
+    },
+    "dragon-ball-z-budokai-tenkaichi-3-tenkaichi3decomp": {
+      "name": "Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/z3xox/Tenkaichi3Decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T00:49:56Z",
+        "last_commit_url": "https://github.com/z3xox/Tenkaichi3Decomp/commit/b8956f984367c568ac14fef568c9f53a86b22f47",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 567
+      },
+      "ai_used": null
+    },
+    "extermination": {
+      "name": "Extermination",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/FastestMolasses/Extermination",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-20T18:13:13Z",
+        "last_commit_url": "https://github.com/FastestMolasses/Extermination/commit/153c5aece3ff0795643f493fab695396d8c63186",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "fatal-frame-mikupan": {
+      "name": "Fatal Frame (MikuPan)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Mikompilation/MikuPan",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-02T19:26:26Z",
+        "last_commit_url": "https://github.com/Mikompilation/MikuPan/commit/ec204d75441e98d8bd43ddd95cae744eb683f00c",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 132
+      },
+      "ai_used": null
+    },
+    "ford-racing": {
+      "name": "Ford Racing",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/dashr9230/Gt2",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-07-30T19:54:41Z",
+        "last_commit_url": "https://github.com/dashr9230/Gt2/commit/6faed1d81fdffb5ba070edd0c8d909534f86944b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "frequency": {
+      "name": "FreQuency",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Tatsh/resonance",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T03:28:37Z",
+        "last_commit_url": "https://github.com/Tatsh/resonance/commit/b64d34fb515b1120e68e0dc40433aa420a436c72",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 0
+      },
+      "ai_used": null
+    },
+    "george-of-the-jungle-and-the-search-for-the-secret": {
+      "name": "George of the Jungle and the Search for the Secret",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/2gifts/george-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-09T00:08:26Z",
+        "last_commit_url": "https://github.com/2gifts/george-decomp/commit/09880fd9dcc8fe2ccb9efc230b68961c960683ff",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 1
+      },
+      "ai_used": null
+    },
+    "god-of-war-playstation-2": {
+      "name": "God of War",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Waffle565/God-Of-War-Native-Port",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T20:38:45Z",
+        "last_commit_url": "https://github.com/Waffle565/God-Of-War-Native-Port/commit/514f89186f1926edaf4807696a59557679c7d517",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 39
+      },
+      "ai_used": null
+    },
+    "haunting-ground-openhuey": {
+      "name": "Haunting Ground (OpenHuey)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/ArnautDaniel/OpenHuey",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T11:50:06Z",
+        "last_commit_url": "https://github.com/ArnautDaniel/OpenHuey/commit/fb378421b5956c668c49fa2536814cfd88e7ea1b",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "kingdom-hearts-ii": {
+      "name": "Kingdom Hearts II",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/GovanifY/kh2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-24T21:51:21Z",
+        "last_commit_url": "https://github.com/GovanifY/kh2/commit/8b5bc4790ac3fe951ffaf15b6933d186ebab7a43",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 9
+      },
+      "ai_used": null
+    },
+    "over-the-hedge": {
+      "name": "Over the Hedge",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/dantekall/Over-The-Hedge---Decompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T06:34:01Z",
+        "last_commit_url": "https://github.com/dantekall/Over-The-Hedge---Decompilation/commit/50eb34c925c5b405be1ae32919f37ec5e2578cd6",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "persona-3-fes": {
+      "name": "Persona 3 FES",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/snaku/Persona3-FES-Decompilation",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-04T07:23:07Z",
+        "last_commit_url": "https://github.com/snaku/Persona3-FES-Decompilation/commit/59d284ee21fe166bd46252e38e1a08874c4a1a66",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 70
+      },
+      "ai_used": null
+    },
+    "ps2-osdsys-playstation-2": {
+      "name": "PS2 OSDSYS",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/JeanxPereira/CrystalOSD-Decomp-Legacy",
+      "project_type": "Disassembly",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-12T23:36:35Z",
+        "last_commit_url": "https://github.com/JeanxPereira/CrystalOSD-Decomp-Legacy/commit/7eb5d818bf5581534001f09c326ba691ce91f9dd",
+        "default_branch": "main",
+        "archived": true,
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "ratchet-clank-openrac-umbrella": {
+      "name": "Ratchet & Clank (OpenRAC (umbrella))",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/OpenRAC/OpenRAC",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T08:14:00Z",
+        "last_commit_url": "https://github.com/OpenRAC/OpenRAC/commit/7d6d3b2912c7320842e8d3eb72d14e444bcabf86",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 35
+      },
+      "ai_used": null
+    },
+    "ratchet-clank-rac-rs": {
+      "name": "Ratchet & Clank (rac-rs)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/AsobiCodes/rac-rs",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T00:00:23Z",
+        "last_commit_url": "https://github.com/AsobiCodes/rac-rs/commit/2f8802da68cd9e8ed9bd5be8071dce42eda06d4f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 129
+      },
+      "ai_used": null
+    },
+    "ratchet-clank-rac1-native": {
+      "name": "Ratchet & Clank (rac1-native)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/RAC-Native/rac1-native-game",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T15:58:27Z",
+        "last_commit_url": "https://github.com/RAC-Native/rac1-native-game/commit/1acd2dcca1f6da8d8f139041a4e442d322567108",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 74
+      },
+      "ai_used": null
+    },
+    "resident-evil-code-veronica-x-recvx-enhanced-recomp": {
+      "name": "Resident Evil - Code: Veronica X (recvx-enhanced-recomp)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/aikatore/recvx-enhanced-port",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-23T17:49:13Z",
+        "last_commit_url": "https://github.com/aikatore/recvx-enhanced-port/commit/38d457e3ec11a3120447e3544031af9a40eccbdb",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 122
+      },
+      "ai_used": null
+    },
+    "resident-evil-outbreak": {
+      "name": "Resident Evil Outbreak",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/sp00nznet/reo",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T23:19:40Z",
+        "last_commit_url": "https://github.com/sp00nznet/reo/commit/de19db7db52331d2c364cfd989c6fa4cec393632",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 36
+      },
+      "ai_used": null
+    },
+    "resident-evil-outbreak-file-2-reof2": {
+      "name": "Resident Evil Outbreak File #2 (REOF2)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/caprado/REOF2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-26T01:39:44Z",
+        "last_commit_url": "https://github.com/caprado/REOF2/commit/414919650b18a44e41c3b1a2574e9ed7c4a3dcd9",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "road-trip": {
+      "name": "Road Trip",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/silentsudin/RoadTripAdventure-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T22:41:19Z",
+        "last_commit_url": "https://github.com/silentsudin/RoadTripAdventure-recomp/commit/0f6d3613e8e32ccda5305227a578b1fb659983a8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 17
+      },
+      "ai_used": null
+    },
+    "scooby-doo-mystery-mayhem": {
+      "name": "Scooby-Doo! Mystery Mayhem",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T07:12:34Z",
+        "last_commit_url": "https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc/commit/9f680da8a76ca8b4b4f6bdea11e3932c8879d99f",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null
+    },
+    "shadow-of-the-colossus-playstation-2": {
+      "name": "Shadow of the Colossus",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/TheRealestNwah/sotc-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T07:51:01Z",
+        "last_commit_url": "https://github.com/TheRealestNwah/sotc-decomp/commit/b1598a7fb2bb82bdfdae07d8b2c702dadeef7101",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 20
+      },
+      "ai_used": null
+    },
+    "shadow-of-the-colossus-recomp": {
+      "name": "Shadow of the Colossus (Recomp)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/InconspicuousCactus/SotCStaticRecompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-06-08T13:11:50Z",
+        "last_commit_url": "https://github.com/InconspicuousCactus/SotCStaticRecompilation/commit/0145a4b4422ce41cdd5bed547dae3deb8deaaa3a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "silent-hill-2": {
+      "name": "Silent Hill 2",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/dreamingmoths/mirror-of-alessa",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T02:06:19Z",
+        "last_commit_url": "https://github.com/dreamingmoths/mirror-of-alessa/commit/fbb548b59989f9108d203bf53f8a75c30ae1b826",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "silent-hill-2-sh2-nx": {
+      "name": "Silent Hill 2 (sh2-nx)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/cutarev/sh2-nx",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T01:24:36Z",
+        "last_commit_url": "https://github.com/cutarev/sh2-nx/commit/95ae2f16efc09c82f405f04383a27d98c2fa804a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 40
+      },
+      "ai_used": null
+    },
+    "socom-ii-u-s-navy-seals": {
+      "name": "SOCOM II: U.S. Navy SEALs",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Scotho/socom-unzipped",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T21:08:54Z",
+        "last_commit_url": "https://github.com/Scotho/socom-unzipped/commit/bbfd48da2d5bddc9c0e71ad804de250eccaaa90a",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 27
+      },
+      "ai_used": null
+    },
+    "sonic-riders-zero-gravity-ps2-prototype": {
+      "name": "Sonic Riders: Zero Gravity (PS2 Prototype)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/KidWizardOfTheWeb/SR2",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-09-05T17:46:42Z",
+        "last_commit_url": "https://github.com/KidWizardOfTheWeb/SR2/commit/b5820699c9120ddc72bebe4d5a2329e20f835c81",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 7
+      },
+      "ai_used": null
+    },
+    "tom-and-jerry-in-war-of-the-whiskers-wotwdecomp": {
+      "name": "Tom and Jerry in War of the Whiskers (wotwdecomp)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/cohaereo/wotwdecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-01-01T20:31:27Z",
+        "last_commit_url": "https://github.com/cohaereo/wotwdecomp/commit/0a0e1b22b2f3367e7ad9b932d6271c56aa8f312f",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 16
+      },
+      "ai_used": null
+    },
+    "tourist-trophy": {
+      "name": "Tourist Trophy",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/gustavocanepa/tt-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-14T15:24:33Z",
+        "last_commit_url": "https://github.com/gustavocanepa/tt-decomp/commit/e4947f848402619985f5d4e285b54c4dd862d992",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 4
+      },
+      "ai_used": null
+    },
+    "treasure-planet": {
+      "name": "Treasure Planet",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Colt-Zero/Thousand-Worlds",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-05-21T23:38:18Z",
+        "last_commit_url": "https://github.com/Colt-Zero/Thousand-Worlds/commit/5273c6053b54d17dc7f01380d4f9f19baa696072",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 3
+      },
+      "ai_used": null
+    },
+    "twisted-metal-harbor-city": {
+      "name": "Twisted Metal: Harbor City",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/jacobleeharris/tmhc",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-30T18:34:04Z",
+        "last_commit_url": "https://github.com/jacobleeharris/tmhc/commit/2f87ada8eefa8cce00d05e09a0b4731b4876d1e5",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
+    "war-of-the-monsters": {
+      "name": "War of the Monsters",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/yanm1103/War_of_the_Monsters_recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T04:31:02Z",
+        "last_commit_url": "https://github.com/yanm1103/War_of_the_Monsters_recomp/commit/ec6463b169e4ec4d49a2a4a7618fc51cce780859",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 15
+      },
+      "ai_used": null
+    },
+    "xenosaga-episode-i-der-wille-zur-macht": {
+      "name": "Xenosaga Episode I: Der Wille zur Macht",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/OpokXeno/xsg-i-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-24T07:46:11Z",
+        "last_commit_url": "https://github.com/OpokXeno/xsg-i-decomp/commit/e15abb566cf7b8ec4fbb5604e9d02161c3600c11",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 18
+      },
+      "ai_used": null
+    },
+    "ys-vi": {
+      "name": "Ys VI",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/GrantBenR/YsViDecomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2025-08-28T15:09:24Z",
+        "last_commit_url": "https://github.com/GrantBenR/YsViDecomp/commit/1d658d1d2a6ce696a38b529f20cfad94f5d71407",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Inactive",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "shadow-hearts-sourcehut": {
+      "name": "Shadow Hearts (SourceHut)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2024-11-06T15:45:51Z",
+        "last_commit_url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation/commit/a757b59f228f4dd382688a5fee2946ea4cb4f31c",
+        "default_branch": "master",
+        "archived": false,
+        "github_stars": null,
+        "status": "Inactive"
       },
       "ai_used": null
     }
@@ -2711,6 +3519,1082 @@
             {
               "name": "Native port",
               "url": "https://github.com/thiagordsfx/urban-reign-recomp"
+            }
+          ]
+        },
+        {
+          "project": "killzone-recomp",
+          "name_markdown": "[Killzone (Recomp)](https://github.com/drakolordx7/KillzoneRecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Killzone%20%28USA%29.png",
+              "alt": "Killzone PlayStation 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 PS2Recomp port for the NTSC-U release. This test build verifies boot, menus and first-mission gameplay; longer play-throughs remain ongoing, and Killzone Online is excluded.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/drakolordx7/KillzoneRecomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/drakolordx7/KillzoneRecomp"
+            }
+          ]
+        },
+        {
+          "project": "gran-turismo-4",
+          "name_markdown": "[Gran Turismo 4](https://github.com/gustavocanepa/gt4-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Gran%20Turismo%204%20%28USA%2C%20Canada%29%20%28v1.01%29.png",
+              "alt": "Gran Turismo 4 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching reconstruction of the NTSC-U v1.01 CORE.GT4 engine executable (SCUS-97328). Game logic in Adhoc scripts is a separate scope. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/gustavocanepa/gt4-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digital-devil-saga-1-and-2",
+          "name_markdown": "[Shin Megami Tensei: Digital Devil Saga](https://github.com/Megami-Decomps/dds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Digital%20Devil%20Saga%20%28USA%29.png",
+              "alt": "Shin Megami Tensei: Digital Devil Saga box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA (SLUS_209.74). Shared matching-decompilation repository for both games, with separate progress reports. Unfinished functions use extracted assembly; a matching build does not imply completed decompilation. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Megami-Decomps/dds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "digital-devil-saga-1-and-2",
+          "name_markdown": "[Shin Megami Tensei: Digital Devil Saga 2](https://github.com/Megami-Decomps/dds-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Digital%20Devil%20Saga%202%20%28USA%29.png",
+              "alt": "Shin Megami Tensei: Digital Devil Saga 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "USA (SLUS_211.52). Shared matching-decompilation repository for both games, with separate progress reports. Unfinished functions use extracted assembly; a matching build does not imply completed decompilation. Requires user-supplied game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Megami-Decomps/dds-decomp"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-3",
+          "name_markdown": "[Silent Hill 2](https://github.com/dreamingmoths/memory-of-alessa)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Silent%20Hill%202%20%28USA%29%20%28En%2CJa%29%20%28v1.20%29.png",
+              "alt": "Silent Hill 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PS2 engine reconstruction (SLUS_202.28) in the Memory of Alessa monorepo, shared with Silent Hill 3. The mirror-of-alessa repository republishes progress reports rather than containing a separate decompilation.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/dreamingmoths/memory-of-alessa"
+            }
+          ]
+        },
+        {
+          "project": "hack-imoq",
+          "name_markdown": "[.hack//IMOQ](https://github.com/dothacktranslate/dothack-decompilation)",
+          "images": [],
+          "notes_markdown": "Decompilation of the .hack//IMOQ PlayStation 2 games. A sister repo to the .hack//Recompilation project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dothacktranslate/dothack-decompilation"
+            }
+          ]
+        },
+        {
+          "project": "hack-infection-recompilation",
+          "name_markdown": "[.hack//Infection (Recompilation)](https://github.com/dothacktranslate/dothack-recompilation)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/dothacktranslate/dothack-recompilation"
+            }
+          ]
+        },
+        {
+          "project": "biohazard-outbreak-biohazard-outbreak-file-2",
+          "name_markdown": "[Biohazard Outbreak / Biohazard Outbreak File 2](https://github.com/GalaxyNostalgia/Outbreak-decomp)",
+          "images": [],
+          "notes_markdown": "Biohazard: outbreak decomp",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/GalaxyNostalgia/Outbreak-decomp"
+            }
+          ]
+        },
+        {
+          "project": "bounce",
+          "name_markdown": "[Bounce](https://github.com/misterjdrg/Bouncer)",
+          "images": [],
+          "notes_markdown": "Decompilation/deobfuscation of 2001 javame game Bounce",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/misterjdrg/Bouncer"
+            }
+          ]
+        },
+        {
+          "project": "burnout-3-takedown-burnout-3-takedown-pc-port",
+          "name_markdown": "[Burnout 3: Takedown (Burnout 3: Takedown - PC port)](https://github.com/danielgomesvieira2000/burnout3-pc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Burnout%203%20-%20Takedown%20%28USA%29.png",
+              "alt": "Burnout 3: Takedown (Burnout 3: Takedown - PC port) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Burnout 3: Takedown as a native Windows port, through a PS2 decompilation toolchain. Unofficial; bring your own disc. No game content included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/danielgomesvieira2000/burnout3-pc"
+            }
+          ]
+        },
+        {
+          "project": "crash-twinsanity",
+          "name_markdown": "[Crash Twinsanity](https://github.com/GioPixelGH/Crash-Twinsanity-Windows)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Crash%20Twinsanity%20%28USA%29%20%28v1.00%29.png",
+              "alt": "Crash Twinsanity box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation....",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows"
+            }
+          ]
+        },
+        {
+          "project": "crash-twinsanity-twinsanity-reversed",
+          "name_markdown": "[Crash Twinsanity (twinsanity-reversed)](https://github.com/Smartkin/twinsanity-reversed)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Crash%20Twinsanity%20%28USA%29%20%28v1.00%29.png",
+              "alt": "Crash Twinsanity (twinsanity-reversed) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Crash Twinsanity for PS2 reverse engineered",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Smartkin/twinsanity-reversed"
+            }
+          ]
+        },
+        {
+          "project": "dark-cloud-2-dc2-ps2recomp",
+          "name_markdown": "[Dark Cloud 2 (DC2-PS2RECOMP)](https://github.com/Red-tv141/DC2-PS2RECOMP)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dark%20Chronicle%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Dark Cloud 2 box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Red-tv141/DC2-PS2RECOMP"
+            }
+          ]
+        },
+        {
+          "project": "def-jam-vendetta",
+          "name_markdown": "[Def Jam Vendetta](https://github.com/jcsix694/def-jam-vendetta-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Def%20Jam%20-%20Vendetta%20%28USA%29.png",
+              "alt": "Def Jam Vendetta box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Def Jam Vendetta (PS2) recompiled for PC with PS2Recomp - source only, build from your own disc",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/jcsix694/def-jam-vendetta-recomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-tenkaichi-2-bt2-recomp",
+          "name_markdown": "[Dragon Ball Z: Budokai Tenkaichi 2 (BT2 Recomp)](https://github.com/oric212/BT2-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%202%20%28USA%29%20%28En%2CJa%29.png",
+              "alt": "Dragon Ball Z: Budokai Tenkaichi 2 (BT2 Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/oric212/BT2-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-tenkaichi-3",
+          "name_markdown": "[Dragon Ball Z: Budokai Tenkaichi 3](https://github.com/z3xox/BT3-Recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20%28USA%29%20%28En%2CJa%29.png",
+              "alt": "Dragon Ball Z: Budokai Tenkaichi 3 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Dragon Ball Z: Budokai Tenkaichi 3 PC port via static recompilation (PS2Recomp fork) - bring your own disc image",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/z3xox/BT3-Recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/z3xox/BT3-Recomp"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-tenkaichi-3-bt3-decompiled",
+          "name_markdown": "[Dragon Ball Z: Budokai Tenkaichi 3 (BT3-Decompiled)](https://github.com/z3xox/BT3-Decompiled)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20%28USA%29%20%28En%2CJa%29.png",
+              "alt": "Dragon Ball Z: Budokai Tenkaichi 3 (BT3-Decompiled) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Dragon Ball Z: Budokai Tenkaichi 3 (PS2, SLUS-21678).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/z3xox/BT3-Decompiled"
+            }
+          ]
+        },
+        {
+          "project": "dragon-ball-z-budokai-tenkaichi-3-tenkaichi3decomp",
+          "name_markdown": "[Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp)](https://github.com/z3xox/Tenkaichi3Decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Dragon%20Ball%20Z%20-%20Budokai%20Tenkaichi%203%20%28USA%29%20%28En%2CJa%29.png",
+              "alt": "Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/z3xox/Tenkaichi3Decomp"
+            }
+          ]
+        },
+        {
+          "project": "extermination",
+          "name_markdown": "[Extermination](https://github.com/FastestMolasses/Extermination)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Extermination%20%28USA%29.png",
+              "alt": "Extermination box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of the 2001 action horror PS2 game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/FastestMolasses/Extermination"
+            }
+          ]
+        },
+        {
+          "project": "fatal-frame-mikupan",
+          "name_markdown": "[Fatal Frame (MikuPan)](https://github.com/Mikompilation/MikuPan)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Fatal%20Frame%20%28USA%29.png",
+              "alt": "Fatal Frame (MikuPan) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC Port Of Fatal Frame 1 Based On Himuro",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Mikompilation/MikuPan"
+            }
+          ]
+        },
+        {
+          "project": "ford-racing",
+          "name_markdown": "[Ford Racing](https://github.com/dashr9230/Gt2)",
+          "images": [],
+          "notes_markdown": "A work-in-progress non-matching decompilation of Ford Racing (2000) video game",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/dashr9230/Gt2"
+            }
+          ]
+        },
+        {
+          "project": "frequency",
+          "name_markdown": "[FreQuency](https://github.com/Tatsh/resonance)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Frequency%20%28USA%29.png",
+              "alt": "FreQuency box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reconstructed source of the PlayStation 2 game FreQuency.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Tatsh/resonance"
+            }
+          ]
+        },
+        {
+          "project": "george-of-the-jungle-and-the-search-for-the-secret",
+          "name_markdown": "[George of the Jungle and the Search for the Secret](https://github.com/2gifts/george-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/George%20of%20the%20Jungle%20and%20the%20Search%20for%20the%20Secret%20%28USA%29.png",
+              "alt": "George of the Jungle and the Search for the Secret box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation research for George of the Jungle and the Search for the Secret (USA, PS2)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/2gifts/george-decomp"
+            }
+          ]
+        },
+        {
+          "project": "god-of-war-playstation-2",
+          "name_markdown": "[God of War](https://github.com/Waffle565/God-Of-War-Native-Port)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/God%20of%20War%20%28USA%29.png",
+              "alt": "God of War box art for PlayStation 2",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A native PC port of God of War (PS2, NTSC-U SCUS-97399): the game's code is statically recompiled to C++, and the PS2 hardware it...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Waffle565/God-Of-War-Native-Port"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Waffle565/God-Of-War-Native-Port"
+            }
+          ]
+        },
+        {
+          "project": "haunting-ground-openhuey",
+          "name_markdown": "[Haunting Ground (OpenHuey)](https://github.com/ArnautDaniel/OpenHuey)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Haunting%20Ground%20%28USA%29.png",
+              "alt": "Haunting Ground (OpenHuey) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Haunting Ground (PS2) decompilation, PC port, and actor-based rewrite",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/ArnautDaniel/OpenHuey"
+            }
+          ]
+        },
+        {
+          "project": "kingdom-hearts-ii",
+          "name_markdown": "[Kingdom Hearts II](https://github.com/GovanifY/kh2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Kingdom%20Hearts%20II%20%28USA%29.png",
+              "alt": "Kingdom Hearts II box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Kingdom Hearts 2 Decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GovanifY/kh2"
+            }
+          ]
+        },
+        {
+          "project": "over-the-hedge",
+          "name_markdown": "[Over the Hedge](https://github.com/dantekall/Over-The-Hedge---Decompilation)",
+          "images": [],
+          "notes_markdown": "This is a decompilation for the PlayStation 2 version of Over The Hedge. It is meant to explore the ins and outs of the...",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dantekall/Over-The-Hedge---Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "persona-3-fes",
+          "name_markdown": "[Persona 3 FES](https://github.com/snaku/Persona3-FES-Decompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Persona%203%20FES%20%28Europe%29.png",
+              "alt": "Persona 3 FES box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Decompilation of Shin Megami Tensei: Persona 3 FES (USA)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/snaku/Persona3-FES-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "ps2-osdsys-playstation-2",
+          "name_markdown": "[PS2 OSDSYS](https://github.com/JeanxPereira/CrystalOSD-Decomp-Legacy)",
+          "images": [],
+          "notes_markdown": "Archived: matching decompilation of the PS2 OSDSYS. Successor: JeanxPereira/CrystalOSD",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Disassembly",
+              "url": "https://github.com/JeanxPereira/CrystalOSD-Decomp-Legacy"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-clank-openrac-umbrella",
+          "name_markdown": "[Ratchet & Clank (OpenRAC (umbrella))](https://github.com/OpenRAC/OpenRAC)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20_%20Clank%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28v2.00%29.png",
+              "alt": "Ratchet & Clank (OpenRAC) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A matching decompilation and PC port for the Ratchet &amp; Clank series.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/OpenRAC/OpenRAC"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-clank-rac-rs",
+          "name_markdown": "[Ratchet & Clank (rac-rs)](https://github.com/AsobiCodes/rac-rs)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20_%20Clank%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28v2.00%29.png",
+              "alt": "Ratchet & Clank (OpenRAC) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/AsobiCodes/rac-rs"
+            }
+          ]
+        },
+        {
+          "project": "ratchet-clank-rac1-native",
+          "name_markdown": "[Ratchet & Clank (rac1-native)](https://github.com/RAC-Native/rac1-native-game)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Ratchet%20_%20Clank%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28v2.00%29.png",
+              "alt": "Ratchet & Clank (OpenRAC) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Ratchet And Clank 1 (PS2) Native Port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/RAC-Native/rac1-native-game"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-code-veronica-x-recvx-enhanced-recomp",
+          "name_markdown": "[Resident Evil - Code: Veronica X (recvx-enhanced-recomp)](https://github.com/aikatore/recvx-enhanced-port)",
+          "images": [
+            {
+              "alt": "Resident Evil - Code: Veronica X box art",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A enhanced RE CVX port/recompilation including online co-op and enhanced rendering options",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/aikatore/recvx-enhanced-port"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/aikatore/recvx-enhanced-port"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-outbreak",
+          "name_markdown": "[Resident Evil Outbreak](https://github.com/sp00nznet/reo)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20%28USA%29%20%28v1.01%29.png",
+              "alt": "Resident Evil Outbreak box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A static recompilation of Resident Evil Outbreak for modern Windows.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sp00nznet/reo"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-outbreak-file-2-reof2",
+          "name_markdown": "[Resident Evil Outbreak File #2 (REOF2)](https://github.com/caprado/REOF2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Resident%20Evil%20-%20Outbreak%20-%20File%202%20%28USA%29.png",
+              "alt": "Resident Evil Outbreak File #2 (REOF2) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PS2 Resident Evil Outbreak File #2 decompilation and preservation project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/caprado/REOF2"
+            }
+          ]
+        },
+        {
+          "project": "road-trip",
+          "name_markdown": "[Road Trip](https://github.com/silentsudin/RoadTripAdventure-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Road%20Trip%20%28USA%29.png",
+              "alt": "Road Trip box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A static recompilation of Road Trip (Choro Q HG 2) for macOS and Android, built from your own disc",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/silentsudin/RoadTripAdventure-recomp"
+            }
+          ]
+        },
+        {
+          "project": "scooby-doo-mystery-mayhem",
+          "name_markdown": "[Scooby-Doo! Mystery Mayhem](https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Scooby-Doo%21%20Mystery%20Mayhem%20%28USA%29%20%28En%2CFr%29.png",
+              "alt": "Scooby-Doo! Mystery Mayhem box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Fan PC port of Scooby-Doo! Mystery Mayhem (PS2) in Rust/Bevy. No game assets: bring your own ISO.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc"
+            }
+          ]
+        },
+        {
+          "project": "shadow-of-the-colossus-playstation-2",
+          "name_markdown": "[Shadow of the Colossus](https://github.com/TheRealestNwah/sotc-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shadow%20of%20the%20Colossus%20%28USA%29.png",
+              "alt": "Shadow of the Colossus box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheRealestNwah/sotc-decomp"
+            }
+          ]
+        },
+        {
+          "project": "shadow-of-the-colossus-recomp",
+          "name_markdown": "[Shadow of the Colossus (Recomp)](https://github.com/InconspicuousCactus/SotCStaticRecompilation)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Shadow%20of%20the%20Colossus%20%28USA%29.png",
+              "alt": "Shadow of the Colossus box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "An in progress port of Shadow of the Colossus (PS2) to PC using static recompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/InconspicuousCactus/SotCStaticRecompilation"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-2",
+          "name_markdown": "[Silent Hill 2](https://github.com/dreamingmoths/mirror-of-alessa)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Silent%20Hill%202%20%28USA%29%20%28En%2CJa%29%20%28v1.20%29.png",
+              "alt": "Silent Hill 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Artifact mirror for the Memory of Alessa project",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/dreamingmoths/mirror-of-alessa"
+            }
+          ]
+        },
+        {
+          "project": "silent-hill-2-sh2-nx",
+          "name_markdown": "[Silent Hill 2 (sh2-nx)](https://github.com/cutarev/sh2-nx)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Silent%20Hill%202%20%28USA%29%20%28En%2CJa%29%20%28v1.20%29.png",
+              "alt": "Silent Hill 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Silent Hill 2 (PC) statically recompiled to run natively on the Nintendo Switch. Bring your own game files.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/cutarev/sh2-nx"
+            }
+          ]
+        },
+        {
+          "project": "socom-ii-u-s-navy-seals",
+          "name_markdown": "[SOCOM II: U.S. Navy SEALs](https://github.com/Scotho/socom-unzipped)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/SOCOM%20II%20-%20U.S.%20Navy%20SEALs%20%28USA%29.png",
+              "alt": "SOCOM II: U.S. Navy SEALs box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "SOCOM II: U.S. Navy SEALs, statically recompiled for PC with self-hosted online play",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Scotho/socom-unzipped"
+            }
+          ]
+        },
+        {
+          "project": "sonic-riders-zero-gravity-ps2-prototype",
+          "name_markdown": "[Sonic Riders: Zero Gravity (PS2 Prototype)](https://github.com/KidWizardOfTheWeb/SR2)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Sonic%20Riders%20-%20Zero%20Gravity%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Sonic Riders: Zero Gravity (PS2 Prototype) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/KidWizardOfTheWeb/SR2"
+            }
+          ]
+        },
+        {
+          "project": "tom-and-jerry-in-war-of-the-whiskers-wotwdecomp",
+          "name_markdown": "[Tom and Jerry in War of the Whiskers (wotwdecomp)](https://github.com/cohaereo/wotwdecomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Tom%20and%20Jerry%20in%20War%20of%20the%20Whiskers%20%28USA%29%20%28En%2CEs%29.png",
+              "alt": "Tom and Jerry in War of the Whiskers (wotwdecomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "A decompilation of Tom and Jerry War of the Whiskers brought to you by one dude",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cohaereo/wotwdecomp"
+            }
+          ]
+        },
+        {
+          "project": "tourist-trophy",
+          "name_markdown": "[Tourist Trophy](https://github.com/gustavocanepa/tt-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Tourist%20Trophy%20%28USA%29.png",
+              "alt": "Tourist Trophy box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Tourist Trophy (PS2), sister project of the Gran Turismo 4 decompilation",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/gustavocanepa/tt-decomp"
+            }
+          ]
+        },
+        {
+          "project": "treasure-planet",
+          "name_markdown": "[Treasure Planet](https://github.com/Colt-Zero/Thousand-Worlds)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Colt-Zero/Thousand-Worlds"
+            }
+          ]
+        },
+        {
+          "project": "twisted-metal-harbor-city",
+          "name_markdown": "[Twisted Metal: Harbor City](https://github.com/jacobleeharris/tmhc)",
+          "images": [],
+          "notes_markdown": "Matching decompilation of Twisted Metal: Harbor City (PS2)",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/jacobleeharris/tmhc"
+            }
+          ]
+        },
+        {
+          "project": "war-of-the-monsters",
+          "name_markdown": "[War of the Monsters](https://github.com/yanm1103/War_of_the_Monsters_recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/War%20of%20the%20Monsters%20%28USA%29.png",
+              "alt": "War of the Monsters box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PC port of War of the Monsters focused on QoL and new features",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/yanm1103/War_of_the_Monsters_recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/yanm1103/War_of_the_Monsters_recomp"
+            }
+          ]
+        },
+        {
+          "project": "xenosaga-episode-i-der-wille-zur-macht",
+          "name_markdown": "[Xenosaga Episode I: Der Wille zur Macht](https://github.com/OpokXeno/xsg-i-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Xenosaga%20Episode%20I%20-%20Der%20Wille%20zur%20Macht%20%28USA%29.png",
+              "alt": "Xenosaga Episode I: Der Wille zur Macht box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of Xenosaga Episode I: Der Wille zur Macht for the PS2",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/OpokXeno/xsg-i-decomp"
+            }
+          ]
+        },
+        {
+          "project": "ys-vi",
+          "name_markdown": "[Ys VI](https://github.com/GrantBenR/YsViDecomp)",
+          "images": [],
+          "notes_markdown": "Exploration of Ys VI DX8 on Steam using Ghidra",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/GrantBenR/YsViDecomp"
+            }
+          ]
+        },
+        {
+          "project": "shadow-hearts-sourcehut",
+          "name_markdown": "[Shadow Hearts (SourceHut)](https://git.sr.ht/~benoitren/shadowheartsdecompilation)",
+          "images": [],
+          "notes_markdown": "Source reconstruction hosted on SourceHut.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation"
             }
           ]
         }

@@ -31,6 +31,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update-decomp-activity.py --github-graphql
+      - name: Refresh reimplementation repository data
+        id: refresh_reimplementations
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update-decomp-activity.py --data _data/reimplementations --github-graphql
       - name: Validate catalog
         run: python3 -m unittest discover -s scripts/tests -p 'test_decomp_activity.py'
       - name: Open or update the daily refresh PR
@@ -38,16 +44,19 @@ jobs:
         with:
           branch: automation/decompilation-activity
           delete-branch: true
-          add-paths: _data/decompilations/*.json
+          add-paths: |
+            _data/decompilations/*.json
+            _data/reimplementations/*.json
           commit-message: Refresh decompilation activity and GitHub stars
           title: Refresh decompilation activity and GitHub stars
           body: |
-            Refresh repository activity and GitHub star counts from the daily scheduled job.
+            Refresh repository activity and GitHub star counts in the decompilation and reimplementation catalogs.
+            Check timestamps are not stored; unchanged repository data produces no catalog changes.
             Manual completion figures, AI-use values, and table content are preserved.
             Failed checks retain their previous evidence; see the workflow log for details.
             Validation: updater/catalog unit tests.
       - name: Report incomplete refresh
-        if: steps.refresh.outcome == 'failure'
+        if: steps.refresh.outcome == 'failure' || steps.refresh_reimplementations.outcome == 'failure'
         run: |
           echo '::error::Some repository checks failed. Successful updates were still submitted in the refresh PR; inspect the refresh log.'
           exit 1

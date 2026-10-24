@@ -11,14 +11,183 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "checked_at": "2026-10-18T08:18:48Z",
-        "last_commit_at": "2026-10-08T15:30:00Z",
-        "last_commit_url": "https://github.com/tclamb/mhp2g-decomp/commit/1d81fcb047e92bf0750c1735dd2eef2074606aff",
+        "last_commit_at": "2026-10-22T05:29:02Z",
+        "last_commit_url": "https://github.com/tclamb/mhp2g-decomp/commit/395c16d02c72488a2ead4e0e0b94af2df330a521",
         "default_branch": "development",
         "archived": false,
-        "last_success_at": "2026-10-18T08:18:48Z",
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 34
+      },
+      "ai_used": null
+    },
+    "monster-hunter-freedom-unite-recomp": {
+      "name": "Monster Hunter Freedom Unite",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/Mango77x/MHForever",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "github_stars": 33,
+        "last_commit_at": "2026-10-23T12:21:41Z",
+        "last_commit_url": "https://github.com/Mango77x/MHForever/commit/0d229bf7e9143f2680ddd357fea1c0dc3abeaac4",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active"
+      },
+      "ai_used": true
+    },
+    "ace-combat-x": {
+      "name": "ACE COMBAT X",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/sal063/Ace-Combat-X-Recompilation",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-08-28T18:35:56Z",
+        "last_commit_url": "https://github.com/sal063/Ace-Combat-X-Recompilation/commit/f6268e959cac75481989077a94305b22e55ec8ad",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 84
+      },
+      "ai_used": null
+    },
+    "fate-unlimited-codes": {
+      "name": "Fate/unlimited codes",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-17T22:12:06Z",
+        "last_commit_url": "https://github.com/elprogramadorloco-arch/fuc-recomp/commit/2ce98889eb9ef7f69ed74123173e4e7b2aa620a8",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 33
+      },
+      "ai_used": null
+    },
+    "god-of-war-chains-of-olympus": {
+      "name": "God of War: Chains of Olympus",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-19T15:16:58Z",
+        "last_commit_url": "https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO/commit/7d5cc9688d63a86b11c0cae779046071381cb74b",
+        "default_branch": "Copilot-Claude",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 13
+      },
+      "ai_used": null
+    },
+    "god-of-war-chains-of-olympus-psp-web-recomp": {
+      "name": "God of War: Chains of Olympus (PSP Web Recomp)",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/snuri00/psp-web-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-15T09:19:44Z",
+        "last_commit_url": "https://github.com/snuri00/psp-web-recomp/commit/37826ab881d9a593efb842fe47adfae2e9118b5d",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 385
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-vice-city-stories-psprecomp-vcs-android": {
+      "name": "Grand Theft Auto: Vice City Stories (PSPRecomp-VCS-Android)",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-22T14:10:53Z",
+        "last_commit_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android/commit/9fd696f8d85f11ba36292c0c0fbe5403e8067359",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 38
+      },
+      "ai_used": null
+    },
+    "grand-theft-auto-vice-city-stories-vice-city-stories-recomp": {
+      "name": "Grand Theft Auto: Vice City Stories (Vice City Stories Recomp)",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/OverkillLabs3/vice-city-stories-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-04T21:24:10Z",
+        "last_commit_url": "https://github.com/OverkillLabs3/vice-city-stories-recomp/commit/b5a861d200ad66a126d51ec2fcef56b0455e4daf",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 31
+      },
+      "ai_used": null
+    },
+    "lcs-recomp": {
+      "name": "LCS Recomp",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/elmasas/lcs-recomp",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-18T14:49:50Z",
+        "last_commit_url": "https://github.com/elmasas/lcs-recomp/commit/1132a76e59a29d7395635a5239a0d4aadd948385",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 258
+      },
+      "ai_used": null
+    },
+    "shin-megami-tensei-persona-3-portable-p3p3ds": {
+      "name": "Shin Megami Tensei: Persona 3 Portable (P3P3DS)",
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "repository_url": "https://github.com/endercodezz/P3P3DS",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-11T21:23:51Z",
+        "last_commit_url": "https://github.com/endercodezz/P3P3DS/commit/4d198db9a4591ea5d5bb171c4fec2ec3e9d8585c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 57
       },
       "ai_used": null
     }
@@ -51,6 +220,190 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/tclamb/mhp2g-decomp"
+            }
+          ]
+        },
+        {
+          "project": "monster-hunter-freedom-unite-recomp",
+          "name_markdown": "[Monster Hunter Freedom Unite (MHForever)](https://github.com/Mango77x/MHForever)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "alt": "Monster Hunter Freedom Unite European PSP box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted Windows x64 static recompilation supporting the European v1.01 release. Single-player is documented as playable from start to finish, but the software remains early; online multiplayer and US/Japanese releases are not yet supported. Experimental interpolated output supports 60-180 FPS when the host can sustain it.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Mango77x/MHForever"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Mango77x/MHForever"
+            }
+          ]
+        },
+        {
+          "project": "ace-combat-x",
+          "name_markdown": "[ACE COMBAT X](https://github.com/sal063/Ace-Combat-X-Recompilation)",
+          "images": [],
+          "notes_markdown": "A static recompilation of ACE COMBAT X with a native renderer",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/sal063/Ace-Combat-X-Recompilation"
+            }
+          ]
+        },
+        {
+          "project": "fate-unlimited-codes",
+          "name_markdown": "[Fate/unlimited codes](https://github.com/elprogramadorloco-arch/fuc-recomp)",
+          "images": [],
+          "notes_markdown": "Hybrid native Fate/unlimited codes project: PS2 static-recompilation/gameplay base with PSP assets and controls in development. No game files included.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/elprogramadorloco-arch/fuc-recomp"
+            }
+          ]
+        },
+        {
+          "project": "god-of-war-chains-of-olympus",
+          "name_markdown": "[God of War: Chains of Olympus](https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/God%20of%20War%20-%20Chains%20of%20Olympus%20%28USA%29.png",
+              "alt": "God of War: Chains of Olympus box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Recompilador estático de God of War: Chains of Olympus para dispositivos ARM64, com foco no R36S.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO"
+            }
+          ]
+        },
+        {
+          "project": "god-of-war-chains-of-olympus-psp-web-recomp",
+          "name_markdown": "[God of War: Chains of Olympus (PSP Web Recomp)](https://github.com/snuri00/psp-web-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/God%20of%20War%20-%20Chains%20of%20Olympus%20%28USA%29.png",
+              "alt": "God of War: Chains of Olympus (PSP Web Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "PSP games in the browser, static recompilation to WebAssembly, an HLE kernel and a WebGL2 renderer",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/snuri00/psp-web-recomp"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-vice-city-stories-psprecomp-vcs-android",
+          "name_markdown": "[Grand Theft Auto: Vice City Stories (PSPRecomp-VCS-Android)](https://github.com/codepdbh/PSPRecomp-VCS-Android)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20%28USA%29.png",
+              "alt": "Grand Theft Auto: Vice City Stories (PSPRecomp-VCS-Android) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/codepdbh/PSPRecomp-VCS-Android"
+            }
+          ]
+        },
+        {
+          "project": "grand-theft-auto-vice-city-stories-vice-city-stories-recomp",
+          "name_markdown": "[Grand Theft Auto: Vice City Stories (Vice City Stories Recomp)](https://github.com/OverkillLabs3/vice-city-stories-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20Stories%20%28USA%29.png",
+              "alt": "Grand Theft Auto: Vice City Stories (Vice City Stories Recomp) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Vice City Stories Native on Windows and MacOS",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/OverkillLabs3/vice-city-stories-recomp"
+            }
+          ]
+        },
+        {
+          "project": "lcs-recomp",
+          "name_markdown": "[LCS Recomp](https://github.com/elmasas/lcs-recomp)",
+          "images": [],
+          "notes_markdown": "",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/elmasas/lcs-recomp"
+            }
+          ]
+        },
+        {
+          "project": "shin-megami-tensei-persona-3-portable-p3p3ds",
+          "name_markdown": "[Shin Megami Tensei: Persona 3 Portable (P3P3DS)](https://github.com/endercodezz/P3P3DS)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Boxarts/Shin%20Megami%20Tensei%20-%20Persona%203%20Portable%20%28USA%29.png",
+              "alt": "Shin Megami Tensei: Persona 3 Portable (P3P3DS) box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Persona 3 Portable port for New Nintendo 3DS",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Native port",
+              "url": "https://github.com/endercodezz/P3P3DS"
             }
           ]
         }
