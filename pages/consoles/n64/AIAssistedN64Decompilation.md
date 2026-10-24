@@ -16,11 +16,13 @@ breadcrumbs:
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
 updatedAt: '2026-10-24'
-excerpt: 'Get Codex or Claude Code, supply your N64 ROM, and copy one prompt to start with our decompdecomp fork. See the measured Turok result and timing.'
+excerpt: 'Start N64 matching decompilation with one copyable prompt. Compare Sol, Astra, Luna, and Kimi results, source access, verified progress, and API-equivalent costs.'
 ---
 
 # AI Assisted N64 Decompilation Tutorial
-**Get Codex or Claude Code, supply your N64 ROM, and paste the prompt below.** The agent can set up our decompdecomp fork and start checking recovered C against your game. You can start before learning the compiler and disassembly tools; the later sections explain how to judge the results.
+**Install Codex or Claude Code, supply your N64 ROM, and paste the starter prompt below.** The agent sets up our decompdecomp fork and begins testing C against the original game bytes. Your first goal is a verified checkpoint, not a finished PC port.
+
+Start with the copyable prompt. Then use the model comparison to decide where to spend your next session. The practical sections explain how to check the output; the experiment reports at the end show what happened in our Turok and V-Rally trials.
 
 ## Quick Start with Your ROM and One Prompt
 Use an agent that can run commands and read files on your computer. Follow these steps:
@@ -39,7 +41,10 @@ Use the main branch of RetroReversing's decompdecomp fork:
 https://github.com/RetroReversing/decompdecomp
 Record the exact commit used. Read README and AGENTS.md, detect my OS,
 and use supported tools in a new dedicated workspace. Preserve my ROM
-and existing projects. Reuse verified installed tools where suitable.
+and existing projects. Record the model and reasoning effort used.
+Work from the ROM and machine-derived analysis only. Do not consult
+existing game source, decompilation repositories, or source-derived maps
+unless I explicitly authorize a separate source-assisted experiment. Reuse verified installed tools where suitable.
 Create workspace and database parent directories before import.
 Disable app windows, tray, updates, and agent discovery for isolated work.
 
@@ -75,340 +80,84 @@ rebuild or plausible draft is not a full decompilation.
 {% endcapture %}
 {% include copy-prompt.html id="n64-starter-prompt" text=n64_starter_prompt %}
 
-The prompt asks the agent to do the setup and first matching attempts. A successful first session can also uncover an unsupported format or compiler; record that obstacle rather than treating a plausible C draft as finished work. For a browser-only exercise without a ROM, use [the one-function exercise below](#try-one-function-before-installing-anything).
+The prompt asks the agent to do the setup and first matching attempts. A successful first session can also uncover an unsupported format or compiler; record that obstacle rather than treating a plausible C draft as finished work. For a browser-only exercise without a ROM, use [the one-function exercise](#try-one-function-before-installing-anything).
 
 ---
-## What Our Turok Run Actually Took
-We used **GPT-6.1 Sol in Codex**, alongside decompdecomp, m2c, compiler comparisons, and decomp-permuter. On **23 October 2026**, our European revision 0 Turok run reached **419 exactly matching C functions and 26,112 bytes**, or **4.2% of the 626,012 bytes identified as candidate code**. This percentage does not measure the whole game.
+## Which Model Should You Start With?
+**Our practical starting choice is GPT-6.1 Sol.** If you can select reasoning effort, high is a reasonable option for a focused matching session: in our same-checkpoint test, Sol high recovered more code than Astra high at a lower API-equivalent cost. That test had original source available. It does not establish the same advantage for a fresh ROM-only project, and we have not measured Claude Code with this game.
 
-Our recorded elapsed times were:
+Choose according to the task and evidence we have:
 
-Checkpoint | Local time (BST) | Elapsed from first import
+Your situation | Practical choice | What our trials establish
 ---|---|---
-First recorded ROM import | 17:31:41 | Starting point
-419 verified C matches reached | 18:02:03 | About 30 minutes
-Full original-cartridge rebuild verified with those 419 C selections | 18:10:17 | About 39 minutes
+First attempt with only a ROM | Sol in Codex, using the starter prompt | Sol-directed ROM-only work reached verified checkpoints; setup and automatic tools contributed substantially.
+Continue a difficult matching checkpoint | Try Sol high for a bounded session | It led our three-way source-assisted comparison on verified bytes and estimated cost per result.
+A specific problem remains unexplained | Consider a bounded Astra session | Astra found useful type/layout hypotheses; its higher token price needs to earn its place in your workflow.
+Low spend matters more than progress per half hour | Luna on a narrow task | It was cheapest, but recovered only one function in our measured continuation.
+Use Claude Code instead of Codex | Use the same prompt and verification gates | The workflow is transferable; this article has no measured Claude result.
+Trying Kimi Code | Check the fixed importer before spending another allowance | Our K2.8 Preview High attempt stopped at an importer defect, so it did not measure matching ability.
 
-These are wall-clock observations from our import/match records and build log, not a controlled model benchmark. The session included compressed-code investigation, RNC tool fixes, compiler comparisons, manual refinement, and build verification. The earlier macOS port and tools installed before the first import are outside this timing. Much of the routine drafting and matching was done by the local tools; GPT-6.1 Sol helped direct and repair the workflow.
+### The Most Comparable 30-Minute Results
+These three runs started from the **same verified 56.100% Turok checkpoint**, with **original source, headers, and object files available**. Each had a 30-minute matching window, followed by independent compilation and a byte-identical cartridge rebuild. Later agents did not read the other comparison runs' findings.
 
-**Do not extrapolate 30 minutes to a completion date.** At that checkpoint, the remaining 1,950 open candidates included harder functions, and code still needs boundary and type review. Most of the verified rebuild still uses assembly. Another game, machine, compiler setup, or agent model may behave differently; we have not measured this run with Claude Code. See [the detailed Turok case study](#turok-europe-a-rom-only-case-study-in-progress) and [source checkpoint](https://github.com/RetroReversing/turok-decomp) for the exact input, compiler settings, and remaining work.
+The useful comparison is verified work added, alongside estimated cost:
 
-### What Another 30 Minutes With Terra Added
-We then gave **GPT-5.6 Terra** an isolated copy of the 419-function checkpoint and a 30-minute matching window. On 23 October 2026, that window ran from **20:55:45 to 21:25:45 BST**. Setup began at 20:50:07 BST; copying the workspace and subsequent backup and verification work were outside the matching window.
-
-The comparison keeps the same 626,012-byte detected-code denominator:
-
-Measurement | Starting checkpoint | After Terra | Gain
----|---|---|---
-Exactly matching C functions | 419 | 442 | 23
-Matching code bytes | 26,112 | 27,964 | 1,852
-Detected-code coverage | 4.171% | 4.467% | 0.296 percentage points
-
-Rounded to one decimal place, this moved **4.2% to 4.5%**. This was a continuation with prepared drafts, installed tools, and compiler settings already available. It is not a comparison of the two models' speed or ability, and it does not establish a sustainable completion rate.
-
-The useful findings were in the C representation of the existing assembly:
-* **Recover stack workspaces** - Some m2c drafts modeled an address-passed workspace as a single scalar. In `func_80033F64`, a five-word local array with an interior pointer reproduced the target's stack offsets and matched all 332 bytes. Check the stack accesses and callees before deciding whether a local is a scalar, array, or structure.
-* **Recover forwarded arguments** - Small wrappers sometimes left incoming argument registers untouched while setting a later argument. A draft that passed only the visible constant put it in the wrong register. For example, `func_80049504` matched when represented as forwarding two incoming arguments followed by `0x13`. Inspect the caller and callee together rather than trusting an incomplete inferred prototype.
-* **Inspect temporary lifetimes** - Reducing artificial m2c temporaries helped `func_800112D8` match 140 bytes. Local declaration order and padding also affected generated stack accesses. These are compiler-specific matching hypotheses; they do not prove the original variable names or source layout.
-* **Stop unproductive searches** - The bounded decomp-permuter pass found no additional exact matches in this follow-up. Targeted edits produced the reported gains. A search that helped an earlier batch need not help the next one.
-
-These candidates still need type and readability review. Some retain unknown-type placeholders, provisional declarations, or stack-offset expressions that should not be copied as general C programming practice. Exact machine-code matching is evidence about the selected compiler output, not proof that the recovered source is portable or that its gameplay meaning is understood.
-
-**Verification and recovery:** the experiment database failed during the first post-deadline backup. We reconstructed the isolated state from the untouched baseline and the 23 recovered candidates. All 23 recovered candidates passed independent per-function comparisons afterward. A full rebuild selected 442 C functions out of 2,405 exported functions, with no rejected C selections, and reproduced the original 8,388,608-byte cartridge byte for byte. Its normalized SHA-1 remained `88916d5d2e2470f395ad8f4245d34138ef2d156a`. This verification was outside the 30-minute score window; assembly supplied the remaining code. The published source repository linked above remains the separately verified 419-function checkpoint; this follow-up is an isolated experiment.
-
----
-### What Sol Light Added After Terra
-We continued from Terra's **442-function, 27,964-byte checkpoint** with the requested **Sol 6.1 Light** setting. The dispatched configuration was **GPT-6.1 Sol with low reasoning effort**. Its 30-minute matching window ran from **22:31:45 to 23:01:45 BST on 23 October 2026**, with setup and post-window verification timed separately. The experiment used another isolated workspace and preserved Terra's baseline.
-
-After excluding five candidates rejected by the full-image check, the retained result was:
-
-Measurement | After Terra | After Sol Light | Sol Light gain
----|---|---|---
-Retained matching C functions | 442 | 886 | 444
-Matching code bytes | 27,964 | 61,836 | 33,872
-Detected-code coverage | 4.467% | 9.878% | 5.411 percentage points
-
-The denominator remains **626,012 detected candidate-code bytes**. This is approximately **4.5% to 9.9%** when rounded to one decimal place. **The final original-cartridge rebuild passed**, selecting all 886 retained C functions out of 2,405 exported functions. It reproduced the complete 8,388,608-byte normalized original cartridge byte for byte, with SHA-1 `88916d5d2e2470f395ad8f4245d34138ef2d156a`. Verification finished at **23:14:24 BST**, about 12 minutes 39 seconds after the matching window closed; that time includes independent recompilation and both full-build attempts. The five rejected C candidates remain assembly in the verified build.
-
-The productive changes were:
-* **Recover records passed by value** - A ROM-derived 12-byte record explained a family of wrappers that machine drafts could not compile correctly. A typed candidate established the pattern, then bounded generation and individual compiler checks recovered another 276 wrappers covering 20,976 bytes. This family accounts for much of the gain; the result should not be extrapolated across unrelated code.
-* **Restore forwarded arguments** - Extending the argument-recovery approach from Terra produced 136 additional candidates covering 7,632 bytes. Untouched incoming argument registers can carry values that a draft omitted from its inferred function signature.
-* **Model stack objects and declaration order** - Explicit record, vector, and matrix storage helped recover stack offsets. Declaration permutations recovered an 864-byte function. These sources still need type and readability review; compiler-specific stack expressions are not general C programming recommendations.
-* **Supply ROM-derived jump-table context** - Table data helped generate switch candidates that earlier drafts missed. This also exposed the importance of full-image verification: isolated function checks alone did not catch every integration difference.
-
-**Why we excluded five candidates:** at the deadline, the frozen record contained 891 candidates and 62,656 bytes that passed the per-function judge. All 449 additions also passed a separate post-window compilation check, with baseline sources, target bytes, addresses, and relocations unchanged. However, the complete expanded-image rebuild contained seven differing bytes across five new jump-table candidates, totaling 820 code bytes. Those five were excluded from a separate retained selection, using their original assembly instead. The raw freeze and failed build were preserved; no new matching or source repair was counted after the deadline.
-
-The five excluded candidates were `func_80026DC0`, `func_80049BE0`, `func_8004F884`, `func_80058708`, and `func_80070D48`. The initial **10.009% isolated-check figure is not the accepted full-build result**. This is a concrete reason to keep the cartridge rebuild as the final acceptance gate rather than reporting a function judge's score alone.
-
-Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. The API-equivalent estimate below uses recovered token logs; the subscription allowance consumed by this individual run was not measured. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
-
----
-## Turok Model Trials With and Without Source Access
-The first two timed continuations used **only the ROM and ROM-derived analysis**. For the next four trials, we explicitly gave agents access to existing Turok C source, headers, and original object files on disk. These later trials measure **source-assisted reconstruction, including reuse of original code**. Their gains must not be presented as decompilation from a ROM alone.
-
-Every trial had a 30-minute matching window. Setup and final verification were outside that window. Coverage uses the same fixed denominator of **626,012 detected candidate-code bytes**, not the cartridge size. Accepted results below passed independent checks and a complete byte-identical original-cartridge rebuild; remaining functions still use assembly.
-
-The six verified results were:
-
-Model and reasoning effort | Inputs available | C functions before -> after | Matching bytes added | Coverage before -> after
+Model and effort | New C functions | New matching bytes | Final code coverage | Estimated whole-session API equivalent
 ---|---|---|---|---
-GPT-5.6 Terra, medium | ROM only | 419 -> 442 | 1,852 | 4.171% -> 4.467%
-GPT-6.1 Sol, low | ROM only | 442 -> 886 | 33,872 | 4.467% -> 9.878%
-GPT-6.1 Sol, low | ROM plus original source, headers, and objects | 886 -> 1,563 | 182,000 | 9.878% -> 38.951%
-GPT-6 Astra, low | ROM plus original source, headers, and objects | 1,563 -> 1,763 | 107,356 | 38.951% -> 56.100%
-GPT-6 Luna, low | ROM plus original source, headers, and objects | 1,763 -> 1,764 | 472 | 56.100% -> 56.175%
-GPT-6 Astra, high | ROM plus original source, headers, and objects | 1,763 -> 1,785 | 7,732 | 56.100% -> 57.335%
+GPT-6.1 Sol, high | 29 | 8,396 | 57.441% | $2.63
+GPT-6 Astra, high | 22 | 7,732 | 57.335% | $18.78
+GPT-6 Luna, low | 1 | 472 | 56.175% | $0.35
 
-The session records identify the source-assisted Sol run as low reasoning effort. "Light" in our earlier run descriptions means low effort, not a separate model. These trials are individual observations, not repeated benchmark averages.
+**These dollar figures are Standard API-equivalent estimates, not Codex subscription charges.** They include each agent's setup, matching, verification, and reporting. The underlying usage logs and pricing assumptions are explained in [the cost methodology](#rough-api-equivalent-costs). The earlier ROM-only and source-assisted continuations are listed in [the complete results](#turok-model-trials-with-and-without-source-access).
 
-### What Access to Existing Source Changed
-**Sol recovered 677 additional functions**, ending with 243,836 matching bytes. Original types and declarations explained many cases that ROM-derived drafts had missed. Relocation-aware comparisons of original object files helped locate candidate source functions, but similar wrappers could be confused; symbol mapping alone earned no matching credit.
-
-Sol's raw per-function result reached 1,678 functions and 283,036 bytes, or 45.213%. Full-export layout checks excluded **115 candidates totaling 39,200 bytes**, chiefly because compiler-owned constants or tables could not occupy the required original data positions. The retained **1,563-function, 38.951%** selection rebuilt the expanded image and original cartridge byte for byte. Verification finished about **5 minutes 48 seconds** after the matching cutoff.
-
-**Astra low then added 200 functions**, reaching 351,192 matching bytes and 56.100%. A useful discovery was a modified particle limit in the supplied source: it declared two particles, while a preserved comment specified 128. Each particle occupied 392 bytes. Restoring 128 explained a 49,392-byte displacement in later engine members and recovered further matches against unchanged ROM targets.
-
-Astra also replaced incompatible compiler-owned constants and initialized local arrays with typed references or aggregate copies from existing ROM data. These were source-level hypotheses, checked against the fixed compiler and linker configuration. All 200 additions survived independent checks and the full rebuild, with no exclusions or automatic fallbacks. Final verification took about **5 minutes 34 seconds** beyond the matching window.
-
-The source-assisted outputs remain separate from the ROM-only public work. This article reports measurements and methods; it does not distribute the original source or its derived private checkpoints.
+Sol high produced seven more functions than Astra high, but only 664 more code bytes. Its estimated cost was about 86% lower. Luna's low output per half hour still came at the lowest total cost. This is one run per setting, not a general model ranking; function size, agent decisions, local tools, and the remaining workload all matter.
 
 ---
-### Luna and Astra High From the Same Checkpoint
-Luna and Astra high both started from **1,763 functions and 351,192 matching bytes**. Astra high did not consult Luna's experiment artifacts. This is the closest comparison in this set, although it is still one run per setting with different agent decisions and no repeated trials.
+## What Should Your First Session Produce?
+The starter prompt budgets **30 minutes including setup**. Our continuation experiments budgeted **30 minutes of matching after setup**, with final verification afterward. Do not expect those two budgets to produce the same amount of code.
 
-**Luna added one 472-byte function**, reaching 1,764 C functions and 56.175%. It recorded 19,253 candidate attempts. Several candidates matched in isolation but failed data-placement safety checks, so they received no credit. The one retained addition and complete cartridge rebuild passed.
+A useful first-session report should answer:
+* **Did import reach the main game code?** A successful loader import can still miss compressed code.
+* **What actually matched?** Ask for verified C functions and bytes, the coverage denominator, and remaining assembly.
+* **What rebuilt?** An analysis image, expanded program, and original cartridge are different verification targets.
+* **Where can you resume?** Keep the workspace, tool revision, compiler settings, best attempts, and next unresolved problem.
 
-**Astra high added 22 functions and 7,732 bytes**, reaching 1,785 C functions and 57.335%. Useful changes included preserving a unary minus when replacing complete constant expressions, correcting the position of a four-byte engine member, and using typed references to existing constants and engine members. All 22 additions passed independent compilation and the full cartridge rebuild, with zero exclusions or automatic fallbacks. Verification finished about **6 minutes 1 second** after cutoff.
+Our first Turok run with GPT-6.1 Sol reached **419 matching functions / 4.2% of detected code** about 30 minutes after the first import. The complete cartridge check finished about nine minutes later. That run also involved tool repairs, so it is an example of elapsed work rather than a completion-rate promise. A fresh V-Rally attempt with Kimi stopped at import; another with Sol through Abacus.ai reached 603 matching functions after about an hour. The detailed reports below explain those different starting conditions.
 
-The account hit a usage limit during Astra high's run. The resumed agent audited its workers and found that matching had continued through the interruption, so the original 30-minute cutoff was retained. All credited candidates were accepted before the deadline. Three in-flight checks finished milliseconds after cutoff during worker termination; none passed acceptance or received credit.
-
-Astra high therefore produced more verified code in the allotted time, while Luna was much cheaper in the API-equivalent calculation below. Their final percentages are alternative continuations from the same checkpoint; do not add their gains together without checking overlap and rebuilding the combined selection.
-
----
-### Rough API-Equivalent Costs
-**These are API-equivalent estimates, not actual Codex subscription charges or measured subscription allowance usage.** We applied published OpenAI Standard API token prices, checked on **24 October 2026**, to usage recovered from each agent's local session records. They estimate what comparable recorded token usage would cost at those rates [^19] [^20].
-
-The matching-window column covers logged model responses completed during the recorded 30-minute window. Requests that cross a boundary are assigned by their usage-event timestamp, so this split is approximate. The whole-session column includes setup, verification, and reporting by that agent. It excludes this parent chat, earlier tool development, local CPU/electricity, subscription fees, taxes, and separately billed tools.
-
-Estimated costs in US dollars were:
-
-Model and reasoning effort | Source access | 30-minute matching window | Whole agent session
----|---|---|---
-GPT-5.6 Terra, medium | No | $3.20 | $4.31
-GPT-6.1 Sol, low | No | $3.50 | $6.90
-GPT-6.1 Sol, low | Yes | $2.76 | $3.51
-GPT-6 Astra, low | Yes | $17.91 | $22.61
-GPT-6 Luna, low | Yes | $0.26 | $0.35
-GPT-6 Astra, high | Yes | $14.67 | $18.78
-Total of these six trials | Mixed | $42.30 | $56.45
-
-Whole-session token counts used in the calculation were:
-
-Run | Uncached input | Cached input reads | Output including reasoning
----|---|---|---
-Terra medium, ROM only | 228,650 | 15,710,464 | 58,932
-Sol low, ROM only | 421,657 | 37,198,848 | 95,480
-Sol low, source-assisted | 237,308 | 22,360,064 | 79,491
-Astra low, source-assisted | 185,507 | 17,336,960 | 68,414
-Luna low, source-assisted | 242,590 | 29,368,192 | 68,677
-Astra high, source-assisted | 173,551 | 14,493,184 | 50,988
-
-These are processing totals across requests, including repeated context, not millions of unique source tokens. We used increments in the cumulative counters and discarded repeated counter events. Reasoning tokens are part of output usage and were not charged twice. Cached reads account for about **98.6% to 99.2% of input tokens** across these sessions.
-
-The base Standard rates per million tokens were:
-
-Model | Uncached input | Cached input | Output
----|---|---|---
-GPT-5.6 Terra | $2.00 | $0.20 | $12.00
-GPT-6.1 Sol | $2.00 | $0.10 | $10.00
-GPT-6 Astra | $10.00 | $1.00 | $50.00
-GPT-6 Luna | $0.10 | $0.01 | $0.50
-
-For each request, we multiplied uncached input, cached reads, and output by their applicable rates and divided by one million. The estimate also applies the published long-context input/cache and output multipliers to the 41 requests above 272,000 input tokens in the ROM-only Sol session. That surcharge occurred outside its matching window [^19] [^20].
-
-**Cache-write and service-tier uncertainty:** session records reported zero cache-write tokens, so the estimates charge non-cached input at the ordinary input rate. If those tokens were instead charged as default 30-minute cache writes at 1.25 times input pricing, the combined Standard estimate would rise by about $1.37. We cannot reconstruct an actual API invoice from these Codex records. The agent tool advertised Priority service; published Fast/Priority-equivalent pricing is generally twice Standard, making the six whole sessions roughly **$113** under that assumption. Neither figure is a claim about the amount charged by the subscription [^19] [^20].
-
-**How to interpret value:** source-assisted Sol had the largest gain at low estimated cost, but it started earlier with easier opportunities. Astra high produced 22 functions versus Luna's one from the same checkpoint, while its whole-session Standard estimate was about 53 times higher. Luna's result was weak for progress per half hour, but its low price means that observation alone does not establish poor value per dollar. Keep wall time, verified code bytes, source access, starting checkpoint, and cost separate when choosing the next model.
+**A plausible C listing is not a match, and a matching ROM may still contain assembly.** If import is blocked, preserve the error and stop at the prompt's investigation limit. If matching succeeds, save the checkpoint and check that the accepted C really participated in the build.
 
 ---
-### Can Line Breaks Change the Generated Assembly?
-**Preserve source layout when testing IDO candidates.** In a separate source-assisted Turok experiment using IDO 5.3, a same-source comparison passed the per-function judge with its whitespace preserved (score 0). Replacing every run of whitespace with a single space scored 120 and changed the ordering of a function call and a floating-point load. This supports layout sensitivity in that example. It does not isolate newlines from other whitespace or establish which compiler stage caused the change.
+## Know What You Are Trying to Recover
+A **matching decompilation** reconstructs source that compiles to the original machine code with the project's chosen toolchain. A **static recompilation** translates machine instructions into code for another platform. The [N64 recomp guide](/how-to-create-an-n64-recomp) covers that second route.
 
-The wider pass recovered 22 additional per-function matches, but header and global-declaration fixes also changed between passes. **Those 22 cannot all be credited to preserving line breaks.** This trial had access to existing source and is separate from the ROM-only results above. Its per-function observations are also separate from full-cartridge acceptance.
+For the broader tool landscape, see [AI-Assisted Decompilation for Retro Games](/ai-assisted-decompilation). These terms help explain the matching loop:
 
-Source-location information is a possible influence on compiler decisions, but instruction scheduling has not been established as the internal cause. Rewriting two assignments into a chained assignment changes expression structure and is a different experiment from changing whitespace alone.
-
-For your own controlled comparison, keep the compiler, flags, headers, macros, symbol addresses, and linker setup fixed. Save both candidates and change only newlines between ordinary C tokens. Avoid moving preprocessor directives, changing `//` comment boundaries, or using `__LINE__`, which can make line placement change program meaning. Compare the preprocessed token sequences and linked instruction bytes, then repeat the builds to check determinism. Differences confined to debug records do not demonstrate different executable instructions.
-
-Keep each formatting variant as a separate attempt. Recheck matched functions after automatic formatting and retain the complete ROM rebuild as the final acceptance gate. The [decompdecomp IDO guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/ido.md) records this precaution for agents. A small reproduction using synthetic C and a newline-only comparison are still needed before describing this as a confirmed IDO scheduling quirk.
-
----
-## What the Kimi Code V-Rally Attempt Revealed
-A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The selected model was **K2.8 Preview High**, as confirmed by the person running the experiment.
-
-**The run stopped during import, before matching C.** It preserved the ROM, identified its pair-swapped byte order, recorded hashes, checked out the requested fork revision, and installed free tools. Its first custom import script omitted the database parent directory; creating that directory resolved the initial error. The next import exposed a generated segment/BSS configuration problem.
-
-The exported activity spans **21:22:18 to 21:40:34 BST, about 18 minutes 16 seconds**. The final provider error says the **five-hour usage allowance** was exhausted. The person running the experiment confirmed that the allowance was **100% available at the start**, on the **Kimi Plus plan costing $20 per month**. This session exhausted that full five-hour allowance in about 18 minutes of wall time; it did not run for five hours. These are the participant's plan and price for this run, not a claim about every subscription or future pricing.
-
-The following totals sum each usage event in the supplied session export once:
-
-Recorded usage | Main agent | Exploration helper | Total
----|---|---|---
-Successful usage records | 58 | 23 | 81
-Uncached input tokens | 104,288 | 140,846 | 245,134
-Cached input tokens read | 3,651,840 | 1,901,312 | 5,553,152
-Output tokens | 36,855 | 9,178 | 46,033
-
-These are logged processing totals, including repeated cached context. They are not unique-text counts, prices, or a calculation of how Kimi charges its allowance. There were 82 requests; the final main-agent request failed. The exploration helper made 32 file-reading calls across import, compilers, matching, export, server routes, and tests before the first import was completed.
-
-The failure exposed two different problems:
-* **Importer layout** - Adding discovered code segments shortened the original main segment's ROM-backed range. Its BSS extent still depended on the old range. Splat then calculated a parent end of `0x8002E338`, below the explicit BSS start of `0x800A73E0`, and rejected the configuration. Preserving the original BSS address range is required; deleting BSS or disabling validation is not a valid repair.
-* **Unbounded investigation** - The agent repeatedly investigated a suspected duplicate BSS and tried unfamiliar parser APIs with incorrect arguments or nonexistent names. Large source reads and repeated context processing consumed the session without producing a successful import. The only saved audit write still marked completed setup work as pending.
-
-There were **no verified C matches or successful builds in that exported session**. A validated coverage denominator was not established, so a whole-game completion percentage cannot be inferred. The heuristic report of ten extra code segments and 554 KiB was preliminary discovery, not proof that all those bytes were CPU code.
-
-The revised starter prompt limits the first session to 30 minutes, uses one agent by default, requires stage checkpoints, and caps import debugging at ten minutes or five hypothesis-driven attempts. It asks the agent to inspect API signatures before calling them and to stop with a reproducible diagnosis when blocked. It also uses `main` and records its commit rather than pinning new sessions to the earlier experiment revision.
-
-**Importer follow-up:** [the BSS preservation fix](https://github.com/RetroReversing/decompdecomp/pull/3) preserves the original memory extent when discovering additional code, and converts that extent to the actual BSS size during export. Its synthetic regression checks both BSS addresses and repeated discovery. Standalone export also retains known startup aliases when discovery gives the target function an address-based name. A fresh isolated import with the fix found 2,121 candidates covering 565,980 bytes; these remain candidate-code statistics, and no C matching pass was run. Its standalone export selected zero C functions out of 2,122 exported functions including startup, and rebuilt the complete 12,582,912-byte normalized original ROM byte for byte. The normalized SHA-1 was `da3f262dfb86cff1376c9a1aa081212e5a7aad64`. This later validation used the repaired tool and is separate from the failed Kimi session. If your `main` checkout does not yet include that fix, use its `codex/n64-bss-import` branch at `72cac6c` for the retry.
-
-We are gathering these runs for a comparison of **models, prices, usage limits, and verified results**. This K2.8 Preview High attempt consumed the available five-hour allowance without producing a verified C match. That is a poor practical result for this session, even though an importer defect blocked the matching stage. The subscription price was $20 per month; that is not a $20 charge for this individual run. The export does not establish a per-run dollar cost or how cached tokens count toward the allowance.
-
-The runs used different starting conditions: Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with the verified importer, record setup and matching time separately, and retain this failed-run result alongside the retry. Record the exact model setting, plan or API price, allowance available at the start, and verified matching bytes for each future run. The [completed Sol run through Abacus.ai](#what-sol-through-abacusai-achieved-on-v-rally) provides another fresh-start observation on the same ROM and tool revision. Record prompt and importer differences alongside future results, since those conditions affect the comparison. These observations are preliminary data; a broader ranking needs more runs.
-
----
-## What Sol Through Abacus.ai Achieved on V-Rally
-A second fresh-start V-Rally session used **GPT-6.1 Sol through Abacus.ai** on 23 October 2026. The app log identifies `OPENAI_GPT6_1_SOL`; the saved local records do not establish its reasoning-effort setting. It used the same European revision 0 ROM and historical tool commit `af853d2` as the Kimi attempt, and encountered the same importer defect.
-
-**The result was 603 matching C functions covering 34,164 bytes**, or **6.0363% of the 565,980 detected candidate-code bytes**. The full 12,582,912-byte normalized ROM rebuilt byte for byte, retaining all 603 C selections without rejected selections falling back to assembly. Pair-swapping the output back also reproduced the supplied original file exactly. Most code remains assembly, and these percentages do not measure complete game recovery.
-
-We checked the saved checkpoint and output files independently: SQLite integrity passed, all 603 selected C files existed, their matched target spans agreed with the final ROM, and the target aggregate and recorded judge-file hashes were unchanged. The tool checkout was clean. This review compared the saved artifacts; it did not recompile every C file again. The evidence available locally was project metadata, app logs, scripts, audit records, and build artifacts, rather than a complete verbatim chat export.
-
-### How the Workflow Reached That Result
-Sol's session repaired the generated layout through a local adapter before freezing the matching targets. It merged discovered ranges sharing the same ROM-to-VRAM mapping into main subsegments while preserving main/BSS boundaries. The failed import and before/after configuration were retained. Although the tool checkout stayed clean, this adapter changed import behavior; it was not an untouched stock import. This repair differs from the generic fork fix linked above.
-
-The accepted C came from **local m2c drafting, compilation, exact linked-byte judging, and engine propagation**. The automatic pass processed 2,101 open candidates in **165.527 seconds**, about **2 minutes 46 seconds**. Its own draft counter reported 544 matches; the project total, including propagated matches, was 603. Describe this as a Sol-directed workflow yielding 603 verified matches, rather than 603 functions manually written by Sol.
-
-A later investigation of the 28-byte `func_80012168` added no matches. Six compilable KMC flag configurations retained a score of 5. The permuter rejected the baseline with a parser error and generated no variants. The agent correctly kept that near match separate from the accepted C count. The KMC-compatible compiler remains a working hypothesis; no proprietary alternative was installed for this run.
-
-The supported GNU linker eventually completed. An alternative `ld.lld` diagnostic failed on symbol metadata and was not used for the successful build. The session's notes also withdrew unsupported helper claims about compressed code and linker speedups. Saved byte comparisons and measured results provide stronger evidence than those initial diagnoses.
-
-The recorded timeline, in BST on 23 October 2026, was:
-
-Stage | Time or duration
+Term | Meaning in this tutorial
 ---|---
-Session started | 21:44:17
-First import failed | 22:01:36
-Repaired import completed | 22:13:05
-Automatic matching | 22:21:53 to 22:24:39
-Export, compile, link, and comparison | About 18 minutes 4 seconds
-Final verification completed | 22:45:53
-Total wall time through verification | About 61 minutes 36 seconds
+<a id="glossary-target"></a>Target | Original instructions and data used as the fixed comparison.
+<a id="glossary-context"></a>Context | Types, macros, global declarations, and function prototypes needed to compile the candidate.
+<a id="glossary-codegen"></a>Code generation | The instructions produced by a particular compiler and set of flags.
+<a id="glossary-match"></a>Match | The candidate reproduces the required instructions or bytes under the project's comparison rules.
+<a id="glossary-fallback"></a>Assembly fallback | Original assembly used in place of a C function that has not yet been accepted as matching.
 
-Roughly 37.5 minutes elapsed before automatic matching began, so the successful outcome still includes considerable orchestration overhead. Total wall time includes setup, investigation, build time, waiting, and a user continuation; it is not uninterrupted model generation.
+The AI proposes hypotheses; the compiler and comparison test them. This is the tutorial's schematic workflow:
 
----
-### Price, Allowance, and the Preliminary Comparison
-The participant reported an **Abacus.ai subscription costing $10 per month**, with a **20,000-token monthly allocation**, a **3,000-token cap for premium models such as Sol**, and approximately **2,000 tokens used by this run**. These are the participant's platform-reported units and price for this experiment. They are not raw model input/output token counts or a verified public price list.
-
-That usage equals **10% of the stated monthly allocation** and approximately **66.7% of the premium cap**. Other usage would affect the remaining balance. Local project metadata recorded `creditsUsed: 0`, which we did not treat as proof of a free run because the participant observed usage. A subscription price does not establish a per-run dollar charge, and Abacus's units cannot be directly compared with Kimi's input/output/cache token counts.
-
-The fresh-start observations compare as follows:
-
-Measurement | Kimi Code | Sol through Abacus.ai
----|---|---
-Model | K2.8 Preview High | GPT-6.1 Sol, effort unrecorded
-Participant's monthly subscription | Plus, $20 | $10
-Reported allowance consumed | Full five-hour allowance, 100% available at start | About 2,000 platform units; 3,000 premium cap
-Wall time to recorded outcome | About 18 minutes 16 seconds | About 61 minutes 36 seconds
-Initial importer defect | Encountered; remained blocked | Encountered; worked around
-Verified matching C | None observed | 603 functions, 34,164 bytes
-Full original-ROM rebuild | None | Byte-identical
-
-**Sol through Abacus.ai delivered the more useful end-to-end result in these sessions.** It overcame the importer blocker and produced a verified checkpoint within the reported premium allowance. The longer wall-clock run, continuation, differing platform quotas, and shared automatic tools prevent a strict equal-budget model ranking or a precise cost-per-token comparison.
-
-For a stronger matching comparison, run both models from the same validated import with zero accepted C, the same prompt, compiler/tool revisions, and matching window. Keep setup success and cost as separate outcomes, including the failed Kimi attempt. Review the seven uncovered frame patterns, 29 uncovered returns, and extra exported assembly entry before treating the candidate-code denominator as complete executable coverage.
-
----
-## Try One Function Before Installing Anything
-Open the [Body Harvest scratches linked by its maintainer](https://decomp.me/preset/211), or an existing Nintendo 64 scratch on [decomp.me](https://decomp.me). A scratch contains a target function, candidate source, type context, and compiler settings. Editing and saving someone else's scratch creates a fork [^1] [^2].
-
-For a first attempt, choose a short function with straightforward control flow. A getter, setter, or small arithmetic helper is easier to investigate than a graphics routine. The following is a suggested exercise, not a promise of a match within a particular time:
-* **Keep the baseline** - Record the scratch URL, current score, compiler, flags, and existing C. Keep the target assembly fixed.
-* **Ask for an explanation** - Give your AI assistant the target assembly, current C, relevant context, and the prompt below. Use source you are entitled to share; decomp.me stores submitted scratch data.
-* **Compile one proposal** - Put the candidate in the scratch's source editor. Preserve its context and settings. Read the compiler error or assembly diff before making another change.
-* **Keep the best attempt** - Save an improved fork and note what changed. An explained mismatch is a useful result even when the function still does not match.
-
-Use this prompt with your chosen function:
-
-```text
-Help me match this one N64 function in C.
-First explain its inputs, outputs, memory accesses, signedness, and branches.
-Account for MIPS branch delay slots. Mark uncertain types and meanings.
-Then propose one small change to the current C and predict its effect.
-Preserve symbol names, target assembly, compiler, flags, and context.
-Do not claim a match until I provide the actual compiler comparison.
-
-Compiler and flags: <copy from the scratch>
-Target assembly: <one function>
-Current C: <current candidate>
-Context: <relevant types, macros, globals, and prototypes>
-Current compiler error or diff: <actual output>
+```mermaid
+flowchart TD
+  A["Target and context"] --> B["Candidate C"]
+  B --> C["Compile and compare"]
+  C --> D["Explain first difference"]
+  D --> B
+  C --> E["Integrate and verify ROM"]
 ```
 
-**Read the metric correctly.** decomp.me's difference score gets smaller as the candidate gets closer. Some local tools instead report a similarity percentage that rises toward 100%. A compiler error is a failed attempt. Only the configured tool's exact-match result counts as a match [^1].
+For ROM mapping, debugger setup, and MIPS background, use the [N64 reversing introduction](/N64Reversing).
 
-Your stopping point for this first exercise is a saved candidate, its actual comparison, and a short explanation of the remaining difference. To contribute it to the game, continue through the local build checks below.
-
----
-## Where REA and decomp.wtf Fit
-[REA](https://github.com/isTurn/REA) connects a coding agent to analysis tools. [decomp.wtf](https://github.com/i12bp8/decomp.wtf) provides a workspace for compiler-backed matching. Choose according to the result you need:
-
-Starting goal | Tool or workflow | What establishes success
----|---|---
-Try a function with minimal setup | decomp.me exercise above | The selected compiler's comparison against fixed target assembly.
-Inspect a supported binary through your agent | REA with a configured analysis provider | Evidence such as addresses, assembly, and references; matching still needs a compiler comparison.
-Try a local matching workspace with a supplied N64 demo | decomp.wtf, archived version | Actual compiler and judge output for a demo function, followed by export verification.
-Contribute C to an existing game | That project's build and diff tools | The candidate is included and the complete configured build matches.
-
-### REA for Agent Access to Analysis
-REA exposes pseudocode, assembly, symbols, and references through local Model Context Protocol (MCP) tools. Native analysis uses a configured Hopper, Ghidra, or IDA installation. Check the README's Node.js requirement, then run:
-
-```bash
-npx rea-agents@latest setup
-```
-
-Review the proposed agent registrations and provider setup, then restart the agent as instructed. Its [installation guide](https://github.com/isTurn/REA/blob/main/docs/installation.md) explains host and provider requirements [^13].
-
-**Check the N64 input path first.** REA's [raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md) lists x86, x86-64, ARM, and ARM64 with little-endian Ghidra languages. It explicitly excludes big-endian raw targets and does not list MIPS. That documented loader is therefore unsuitable for directly importing a big-endian N64 ROM [^14].
-
-Ghidra's own processor support does not establish what an agent wrapper exposes. For direct N64 analysis, follow the [N64 Ghidra import guide](/n64-decompiling). For a supported executable, such as a desktop port under investigation, ask REA for one function's assembly, callers, and memory accesses. Keep inferred names separate from observed instructions and use the compiler loop when testing a source hypothesis.
-
----
-### decomp.wtf and the Supplied N64 Demo
-The author discontinued decomp.wtf and archived its repository on **15 October 2026**. Its README identifies **0.10.6** as the final version. Treat it as an archived experiment with no promised fixes [^15].
-
-The published setup supports Linux and an unstable Windows path through WSL 2; macOS is unsupported. Follow the [archived installation instructions](https://github.com/i12bp8/decomp.wtf#install). The bundled **Demo Quest 64**, built from public-domain code and zlib, lets you try the workflow without a commercial cartridge dump [^15].
-
-After installation, connect your agent with:
-
-```bash
-decomp connect
-```
-
-Start with this bounded request:
-
-```text
-Open the bundled Demo Quest 64 project. Work on one function only.
-Show its target, candidate C, compiler settings, and actual judge result.
-Keep the target and verification rules fixed. Stop after a verified
-score of zero or report the remaining mismatch.
-```
-
-The project documents N64 compiler matching and rebuildable exports. Its export can retain unmatched functions as assembly, so also apply [the candidate-selection checks below](#prove-that-your-c-is-in-the-build). A rebuilt ROM alone does not demonstrate that every function has been recovered as C [^15].
+{% include_cached link-to-other-post.html post="/N64Reversing" description="Prepare an exact ROM revision, follow loaded code, and understand the evidence behind a decompilation." %}
 
 ---
 ## Start a ROM-Only Project with decompdecomp
-For a game without a prepared decompilation project, our [decompdecomp fork](https://github.com/RetroReversing/decompdecomp) adds macOS support to the continuing tool. It imports a ROM, discovers candidate functions, generates m2c drafts, and checks compiled candidates against the target bytes. The older decomp.wtf commands above belong to the archived application; use the current fork's instructions for a new project [^16].
+For a game without a prepared decompilation project, our [decompdecomp fork](https://github.com/RetroReversing/decompdecomp) adds macOS support to the continuing tool. It imports a ROM, discovers candidate functions, generates m2c drafts, and checks compiled candidates against the target bytes. Use this section if you prefer manual setup or want to understand what the starter prompt asks the agent to do [^16].
 
 On a Mac, install from the fork after installing Git and Apple's command line tools:
 
@@ -446,96 +195,40 @@ linked-byte judge passes. Report code coverage separately from matches.
 ```
 
 ---
-### Turok Europe: A ROM-Only Case Study in Progress
-We started this experiment on 23 October 2026 using the supplied European revision 0 ROM, without consulting existing Turok source or decompilation projects. **This is an unfinished decompilation**, with the extraction and matching stages recorded separately. These measurements describe this exact input, not every Turok release.
+## Try One Function Before Installing Anything
+This is an optional browser-only route if you want to understand the matching loop before setting up a ROM project. Open the [Body Harvest scratches linked by its maintainer](https://decomp.me/preset/211), or an existing Nintendo 64 scratch on [decomp.me](https://decomp.me). A scratch contains a target function, candidate source, type context, and compiler settings. Editing and saving someone else's scratch creates a fork [^1] [^2].
 
-The [Turok decompilation repository](https://github.com/RetroReversing/turok-decomp) contains the 419-function C checkpoint, build configuration, and a preparation script. Supply your own supported ROM to regenerate the assembly and assets locally; no ROM or compiler binaries are included.
+For a first attempt, choose a short function with straightforward control flow. A getter, setter, or small arithmetic helper is easier to investigate than a graphics routine. The following is a suggested exercise, not a promise of a match within a particular time:
+* **Keep the baseline** - Record the scratch URL, current score, compiler, flags, and existing C. Keep the target assembly fixed.
+* **Ask for an explanation** - Give your AI assistant the target assembly, current C, relevant context, and the prompt below. Use source you are entitled to share; decomp.me stores submitted scratch data.
+* **Compile one proposal** - Put the candidate in the scratch's source editor. Preserve its context and settings. Read the compiler error or assembly diff before making another change.
+* **Keep the best attempt** - Save an improved fork and note what changed. An explained mismatch is a useful result even when the function still does not match.
 
-The initial inspection established the following baseline:
-
-Measurement | ROM-derived result
---- | ---
-File size | 8,388,608 bytes
-Header game code | `NTUP`, Europe, revision 0
-Actual input byte order | 16-bit-swapped v64, despite the `.n64` filename
-Entry address | `0x80000400`
-Initial import | 12 candidate functions, 3,680 bytes
-
-The normalized ROM SHA-1 is:
+Use this prompt with your chosen function:
 
 ```text
-88916d5d2e2470f395ad8f4245d34138ef2d156a
+Help me match this one N64 function in C.
+First explain its inputs, outputs, memory accesses, signedness, and branches.
+Account for MIPS branch delay slots. Mark uncertain types and meanings.
+Then propose one small change to the current C and predict its effect.
+Preserve symbol names, target assembly, compiler, flags, and context.
+Do not claim a match until I provide the actual compiler comparison.
+
+Compiler and flags: <copy from the scratch>
+Target assembly: <one function>
+Current C: <current candidate>
+Context: <relevant types, macros, globals, and prototypes>
+Current compiler error or diff: <actual output>
 ```
 
-The small initial import was the first obstacle. Following the bootstrap's memory accesses showed a check for an `RNC` header at ROM offset `0x783690`, followed by decompression to RAM address `0x80001300`. Stopping after the initial import would have missed the main program.
+**Read the metric correctly.** decomp.me's difference score gets smaller as the candidate gets closer. Some local tools instead report a similarity percentage that rises toward 100%. A compiler error is a failed attempt. Only the configured tool's exact-match result counts as a match [^1].
 
-The main container uses **RNC method 1**. Its header declares 462,217 packed bytes and 1,015,248 unpacked bytes. We executed the decoder from this ROM in a bounded MIPS emulator, then independently implemented the format reader and compared the complete outputs. The packed CRC16 was `f045`, the unpacked CRC16 was `a680`, and the unpacked SHA-256 was:
-
-```text
-f0c9bd34991216298c760a683908458ed50435d052dd4e67af24374bfea5104d
-```
-
-The output ends at `0x800F90D0`, the same address where the bootstrap begins clearing BSS. Agreement between the header, decoder output, checksums, and bootstrap memory layout provides a stronger extraction check than readable disassembly alone.
-
-Feeding that verified output into the importer's compressed-code analysis path produced **2,404 candidate functions**. Some very short boundaries still need review. This count describes discovery, not recovered C, and the 1,015,248-byte payload includes material that has not yet been classified as code or data.
-
-The bootstrap initially suggested KMC GCC, while the expanded main program suggested IDO. After explicit acceptance of the compiler licenses, we installed both preserved IDO 5.3 and 7.1 toolchains. Across 59 drafted functions in two samples, 12 matched with each version. Both versions produced the same match counts, so IDO 5.3 remains a provisional working choice, not an identification of the original release.
-
-The IDO 5.3 attempts used these working flags from the tool's compiler registry:
-
-```text
--O2 -mips2 -G 0 -non_shared -Xcpluscomm -Wab,-r4300_mul
-```
-
-Keep those settings in your log when comparing a candidate. They are measured working settings for this experiment; they do not prove that every function or library in the ROM used that configuration.
-
-The initial automatic draft pass, byte-pointer refinement, manual recovery, and bounded mutation pass reached **419 exact function matches, covering 26,112 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17.4% by function count but only 4.2% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
-
-The [30-minute Terra continuation](#what-another-30-minutes-with-terra-added) later reached 442 exact matches and 27,964 bytes using the same denominator. The counts and build described below refer to the initial 419-function checkpoint.
-
-A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
-
-**Reproduction status:** a fresh import with the RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and uses instruction patterns to reject blocks that do not look like code. The implementation and tests were introduced in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2), tested at historical commit `af853d2`. That work is merged into `main`; use the fork's main branch for new sessions and record its exact commit.
-
-After importing, select IDO 5.3 in the compiler settings as the provisional working choice, run the automatic draft pass, then inspect individual mismatches. The quoted counts are observations from this experiment, not a promise that every future tool revision will identify exactly the same boundaries.
-
-**Verified build:** the final standalone export selected **419 C functions out of 2,405 exported functions**, with the remaining code kept as assembly. After fixing generated linker names and references across split assembly files, it rebuilt the expanded image, reconstructed the RNC container from linked output, and reproduced the complete original **8,388,608-byte cartridge** byte for byte. Its SHA-1 was the fixed normalized hash above. The extra exported startup function explains why this denominator differs from the discovery database.
-
-This proves a partial matching build, not a complete decompilation. The packed reconstruction uses the original stream's coding decisions and replaces literal spans with bytes from the newly linked program; it decodes that result again and rejects incompatible back-references. A general compressor would be needed for arbitrary edits. Assembly and asset fallbacks still supply most of the game.
-
-A bounded three-minute mutation pass tested 16,208 candidate rewrites, improving 13 functions and finding 10 further exact matches. Every accepted rewrite went through the same byte judge. Register allocation and instruction ordering can depend on C expression shape, so a semantic explanation is useful, but the compiler comparison remains the acceptance test.
-
----
-## Know What You Are Trying to Recover
-A **matching decompilation** reconstructs source that compiles to the original machine code with the project's chosen toolchain. A **static recompilation** translates machine instructions into code for another platform. The [N64 recomp guide](/how-to-create-an-n64-recomp) covers that second route.
-
-For the broader tool landscape, see [AI-Assisted Decompilation for Retro Games](/ai-assisted-decompilation). These terms help explain the matching loop:
-
-Term | Meaning in this tutorial
----|---
-<a id="glossary-target"></a>Target | Original instructions and data used as the fixed comparison.
-<a id="glossary-context"></a>Context | Types, macros, global declarations, and function prototypes needed to compile the candidate.
-<a id="glossary-codegen"></a>Code generation | The instructions produced by a particular compiler and set of flags.
-<a id="glossary-match"></a>Match | The candidate reproduces the required instructions or bytes under the project's comparison rules.
-<a id="glossary-fallback"></a>Assembly fallback | Original assembly used in place of a C function that has not yet been accepted as matching.
-
-The AI proposes hypotheses; the compiler and comparison test them. This is the tutorial's schematic workflow:
-
-```mermaid
-flowchart TD
-  A["Target and context"] --> B["Candidate C"]
-  B --> C["Compile and compare"]
-  C --> D["Explain first difference"]
-  D --> B
-  C --> E["Integrate and verify ROM"]
-```
-
-For ROM mapping, debugger setup, and MIPS background, use the [N64 reversing introduction](/N64Reversing).
-
-{% include_cached link-to-other-post.html post="/N64Reversing" description="Prepare an exact ROM revision, follow loaded code, and understand the evidence behind a decompilation." %}
+Your stopping point for this first exercise is a saved candidate, its actual comparison, and a short explanation of the remaining difference. To contribute it to the game, continue through the local build checks below.
 
 ---
 ## Build a Known Project Locally
+Use this optional route when you want to contribute to an existing project instead of importing a new game. Follow its own build rules and accepted ROM revisions.
+
 [Body Harvest's decompilation](https://github.com/jaytheham/body-harvest-decompilation) provides a practical local example. Its agent instructions specify C89 and IDO 5.3 with `-O2 -mips2 -32`. Its build supports separately identified US and EU inputs. Use the project's current README if its setup changes [^2] [^3].
 
 Keep your original ROM separate from experiments. For the US walkthrough, the repository expects a big-endian image named `baserom.us.z64` with SHA-1 `bbb6666f5014a473747ee4145f036d9fb25d7348`. Renaming a different revision does not convert it [^2].
@@ -657,6 +350,18 @@ our configured comparison. Preserve the previous best if this becomes worse.
 ```
 
 ---
+### Can Line Breaks Change the Generated Assembly?
+**Preserve source layout when testing IDO candidates.** In a separate source-assisted Turok experiment using IDO 5.3, a same-source comparison passed the per-function judge with its whitespace preserved (score 0). Replacing every run of whitespace with a single space scored 120 and changed the ordering of a function call and a floating-point load. This supports layout sensitivity in that example. It does not isolate newlines from other whitespace or establish which compiler stage caused the change.
+
+The wider pass recovered 22 additional per-function matches, but header and global-declaration fixes also changed between passes. **Those 22 cannot all be credited to preserving line breaks.** This trial had access to existing source and is separate from the [ROM-only trials](#what-our-turok-run-actually-took). Its per-function observations are also separate from full-cartridge acceptance.
+
+Source-location information is a possible influence on compiler decisions, but instruction scheduling has not been established as the internal cause. Rewriting two assignments into a chained assignment changes expression structure and is a different experiment from changing whitespace alone.
+
+For your own controlled comparison, keep the compiler, flags, headers, macros, symbol addresses, and linker setup fixed. Save both candidates and change only newlines between ordinary C tokens. Avoid moving preprocessor directives, changing `//` comment boundaries, or using `__LINE__`, which can make line placement change program meaning. Compare the preprocessed token sequences and linked instruction bytes, then repeat the builds to check determinism. Differences confined to debug records do not demonstrate different executable instructions.
+
+Keep each formatting variant as a separate attempt. Recheck matched functions after automatic formatting and retain the complete ROM rebuild as the final acceptance gate. The [decompdecomp IDO guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/ido.md) records this precaution for agents. A small reproduction using synthetic C and a newline-only comparison are still needed before describing this as a confirmed IDO scheduling quirk.
+
+---
 ## Prove That Your C Is in the Build
 A matching ROM can still contain original assembly. Many projects deliberately use an [assembly fallback](#glossary-fallback) while a C implementation is unfinished.
 
@@ -671,6 +376,42 @@ Before accepting a function, establish these results:
 For Body Harvest's US build, the final ROM check should again report `build/bh.us.z64: OK`. Shared source changes can also affect its EU build; verify the affected supported versions before proposing the change [^3].
 
 This matters particularly with agents: Lewis documents a case where an assistant changed the expected SHA-1 to make a failing build pass. His later workflow protected that value and required verification through a controlled build script [^7].
+
+---
+## Continue After Your First Attempt
+Keep a short result with the target symbol, candidate, comparison output, and any uncertainties. A partial result should say precisely what still differs. For a verified match, follow the project's contribution instructions and include the build result with your proposed change.
+
+For a game without an existing project, first establish a code map, supported ROM revision, compiler hypothesis, and an assembly rebuild. [Splat](https://github.com/ethteck/splat), [spimdisasm](https://github.com/Decompollaborate/spimdisasm), and [m2c](https://github.com/matt-kempster/m2c) support that groundwork. The [N64 reversing introduction](/N64Reversing) explains the broader process. Reuse the one-function AI loop once the target and comparison are trustworthy.
+
+---
+## Where REA and decomp.wtf Fit
+[REA](https://github.com/isTurn/REA) connects a coding agent to analysis tools. [decomp.wtf](https://github.com/i12bp8/decomp.wtf) provides a workspace for compiler-backed matching. Choose according to the result you need:
+
+Starting goal | Tool or workflow | What establishes success
+---|---|---
+Try a function with minimal setup | decomp.me exercise above | The selected compiler's comparison against fixed target assembly.
+Inspect a supported binary through your agent | REA with a configured analysis provider | Evidence such as addresses, assembly, and references; matching still needs a compiler comparison.
+Try a local matching workspace | RetroReversing decompdecomp fork | Actual compiler and judge output, followed by export verification.
+Contribute C to an existing game | That project's build and diff tools | The candidate is included and the complete configured build matches.
+
+### REA for Agent Access to Analysis
+REA exposes pseudocode, assembly, symbols, and references through local Model Context Protocol (MCP) tools. Native analysis uses a configured Hopper, Ghidra, or IDA installation. Check the README's Node.js requirement, then run:
+
+```bash
+npx rea-agents@latest setup
+```
+
+Review the proposed agent registrations and provider setup, then restart the agent as instructed. Its [installation guide](https://github.com/isTurn/REA/blob/main/docs/installation.md) explains host and provider requirements [^13].
+
+**Check the N64 input path first.** REA's [raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md) lists x86, x86-64, ARM, and ARM64 with little-endian Ghidra languages. It explicitly excludes big-endian raw targets and does not list MIPS. That documented loader is therefore unsuitable for directly importing a big-endian N64 ROM [^14].
+
+Ghidra's own processor support does not establish what an agent wrapper exposes. For direct N64 analysis, follow the [N64 Ghidra import guide](/n64-decompiling). For a supported executable, such as a desktop port under investigation, ask REA for one function's assembly, callers, and memory accesses. Keep inferred names separate from observed instructions and use the compiler loop when testing a source hypothesis.
+
+---
+### decomp.wtf and the Supplied N64 Demo
+The author discontinued decomp.wtf and archived its repository on **15 October 2026**, with **0.10.6** as the final version. Its bundled Demo Quest 64 uses public-domain code and zlib, which makes it useful for understanding the original workflow without a commercial ROM [^15].
+
+For a new local project, use the continuing [RetroReversing decompdecomp fork](https://github.com/RetroReversing/decompdecomp) described above. Archived instructions involving `decomp connect` belong to the old application. Current helpers run inside decompdecomp; the fork adds macOS support [^16].
 
 ---
 ## Learn from Projects in the Catalogue
@@ -689,10 +430,312 @@ Project | Published evidence | Useful lesson
 The Snowboard Kids projects are valuable references even where their original matching work is complete. Their documentation identifies cleanup, naming, and understanding as further work. Do not assume an old unmatched-function queue still exists [^4] [^8].
 
 ---
-## Continue After Your First Attempt
-Keep a short result with the target symbol, candidate, comparison output, and any uncertainties. A partial result should say precisely what still differs. For a verified match, follow the project's contribution instructions and include the build result with your proposed change.
+## What Our Turok Run Actually Took
+This report records the initial ROM-only checkpoint and its two continuations. We used **GPT-6.1 Sol in Codex**, alongside decompdecomp, m2c, compiler comparisons, and decomp-permuter. On **23 October 2026**, our European revision 0 Turok run reached **419 exactly matching C functions and 26,112 bytes**, or **4.2% of the 626,012 bytes identified as candidate code**. This percentage does not measure the whole game.
 
-For a game without an existing project, first establish a code map, supported ROM revision, compiler hypothesis, and an assembly rebuild. [Splat](https://github.com/ethteck/splat), [spimdisasm](https://github.com/Decompollaborate/spimdisasm), and [m2c](https://github.com/matt-kempster/m2c) support that groundwork. The [N64 reversing introduction](/N64Reversing) explains the broader process. Reuse the one-function AI loop once the target and comparison are trustworthy.
+Our recorded elapsed times were:
+
+Checkpoint | Local time (BST) | Elapsed from first import
+---|---|---
+First recorded ROM import | 17:31:41 | Starting point
+419 verified C matches reached | 18:02:03 | About 30 minutes
+Full original-cartridge rebuild verified with those 419 C selections | 18:10:17 | About 39 minutes
+
+These are wall-clock observations from our import/match records and build log, not a controlled model benchmark. The session included compressed-code investigation, RNC tool fixes, compiler comparisons, manual refinement, and build verification. The earlier macOS port and tools installed before the first import are outside this timing. Much of the routine drafting and matching was done by the local tools; GPT-6.1 Sol helped direct and repair the workflow.
+
+**Do not extrapolate 30 minutes to a completion date.** At that checkpoint, the remaining 1,950 open candidates included harder functions, and code still needs boundary and type review. Most of the verified rebuild still uses assembly. Another game, machine, compiler setup, or agent model may behave differently; we have not measured this run with Claude Code. See [the detailed Turok case study](#turok-europe-a-rom-only-case-study-in-progress) and [source checkpoint](https://github.com/RetroReversing/turok-decomp) for the exact input, compiler settings, and remaining work.
+
+### What Another 30 Minutes With Terra Added
+We then gave **GPT-5.6 Terra** an isolated copy of the 419-function checkpoint and a 30-minute matching window. On 23 October 2026, that window ran from **20:55:45 to 21:25:45 BST**. Setup began at 20:50:07 BST; copying the workspace and subsequent backup and verification work were outside the matching window.
+
+The comparison keeps the same 626,012-byte detected-code denominator:
+
+Measurement | Starting checkpoint | After Terra | Gain
+---|---|---|---
+Exactly matching C functions | 419 | 442 | 23
+Matching code bytes | 26,112 | 27,964 | 1,852
+Detected-code coverage | 4.171% | 4.467% | 0.296 percentage points
+
+Rounded to one decimal place, this moved **4.2% to 4.5%**. This was a continuation with prepared drafts, installed tools, and compiler settings already available. It is not a comparison of the two models' speed or ability, and it does not establish a sustainable completion rate.
+
+The useful findings were in the C representation of the existing assembly:
+* **Recover stack workspaces** - Some m2c drafts modeled an address-passed workspace as a single scalar. In `func_80033F64`, a five-word local array with an interior pointer reproduced the target's stack offsets and matched all 332 bytes. Check the stack accesses and callees before deciding whether a local is a scalar, array, or structure.
+* **Recover forwarded arguments** - Small wrappers sometimes left incoming argument registers untouched while setting a later argument. A draft that passed only the visible constant put it in the wrong register. For example, `func_80049504` matched when represented as forwarding two incoming arguments followed by `0x13`. Inspect the caller and callee together rather than trusting an incomplete inferred prototype.
+* **Inspect temporary lifetimes** - Reducing artificial m2c temporaries helped `func_800112D8` match 140 bytes. Local declaration order and padding also affected generated stack accesses. These are compiler-specific matching hypotheses; they do not prove the original variable names or source layout.
+* **Stop unproductive searches** - The bounded decomp-permuter pass found no additional exact matches in this follow-up. Targeted edits produced the reported gains. A search that helped an earlier batch need not help the next one.
+
+These candidates still need type and readability review. Some retain unknown-type placeholders, provisional declarations, or stack-offset expressions that should not be copied as general C programming practice. Exact machine-code matching is evidence about the selected compiler output, not proof that the recovered source is portable or that its gameplay meaning is understood.
+
+**Verification and recovery:** the experiment database failed during the first post-deadline backup. We reconstructed the isolated state from the untouched baseline and the 23 recovered candidates. All 23 recovered candidates passed independent per-function comparisons afterward. A full rebuild selected 442 C functions out of 2,405 exported functions, with no rejected C selections, and reproduced the original 8,388,608-byte cartridge byte for byte. Its normalized SHA-1 remained `88916d5d2e2470f395ad8f4245d34138ef2d156a`. This verification was outside the 30-minute score window; assembly supplied the remaining code. The published source repository linked above remains the separately verified 419-function checkpoint; this follow-up is an isolated experiment.
+
+---
+### What Sol Light Added After Terra
+We continued from Terra's **442-function, 27,964-byte checkpoint** with the requested **Sol 6.1 Light** setting. The dispatched configuration was **GPT-6.1 Sol with low reasoning effort**. Its 30-minute matching window ran from **22:31:45 to 23:01:45 BST on 23 October 2026**, with setup and post-window verification timed separately. The experiment used another isolated workspace and preserved Terra's baseline.
+
+After excluding five candidates rejected by the full-image check, the retained result was:
+
+Measurement | After Terra | After Sol Light | Sol Light gain
+---|---|---|---
+Retained matching C functions | 442 | 886 | 444
+Matching code bytes | 27,964 | 61,836 | 33,872
+Detected-code coverage | 4.467% | 9.878% | 5.411 percentage points
+
+The denominator remains **626,012 detected candidate-code bytes**. This is approximately **4.5% to 9.9%** when rounded to one decimal place. **The final original-cartridge rebuild passed**, selecting all 886 retained C functions out of 2,405 exported functions. It reproduced the complete 8,388,608-byte normalized original cartridge byte for byte, with SHA-1 `88916d5d2e2470f395ad8f4245d34138ef2d156a`. Verification finished at **23:14:24 BST**, about 12 minutes 39 seconds after the matching window closed; that time includes independent recompilation and both full-build attempts. The five rejected C candidates remain assembly in the verified build.
+
+The productive changes were:
+* **Recover records passed by value** - A ROM-derived 12-byte record explained a family of wrappers that machine drafts could not compile correctly. A typed candidate established the pattern, then bounded generation and individual compiler checks recovered another 276 wrappers covering 20,976 bytes. This family accounts for much of the gain; the result should not be extrapolated across unrelated code.
+* **Restore forwarded arguments** - Extending the argument-recovery approach from Terra produced 136 additional candidates covering 7,632 bytes. Untouched incoming argument registers can carry values that a draft omitted from its inferred function signature.
+* **Model stack objects and declaration order** - Explicit record, vector, and matrix storage helped recover stack offsets. Declaration permutations recovered an 864-byte function. These sources still need type and readability review; compiler-specific stack expressions are not general C programming recommendations.
+* **Supply ROM-derived jump-table context** - Table data helped generate switch candidates that earlier drafts missed. This also exposed the importance of full-image verification: isolated function checks alone did not catch every integration difference.
+
+**Why we excluded five candidates:** at the deadline, the frozen record contained 891 candidates and 62,656 bytes that passed the per-function judge. All 449 additions also passed a separate post-window compilation check, with baseline sources, target bytes, addresses, and relocations unchanged. However, the complete expanded-image rebuild contained seven differing bytes across five new jump-table candidates, totaling 820 code bytes. Those five were excluded from a separate retained selection, using their original assembly instead. The raw freeze and failed build were preserved; no new matching or source repair was counted after the deadline.
+
+The five excluded candidates were `func_80026DC0`, `func_80049BE0`, `func_8004F884`, `func_80058708`, and `func_80070D48`. The initial **10.009% isolated-check figure is not the accepted full-build result**. This is a concrete reason to keep the cartridge rebuild as the final acceptance gate rather than reporting a function judge's score alone.
+
+Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. The API-equivalent estimate below uses recovered token logs; the subscription allowance consumed by this individual run was not measured. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
+
+---
+## Turok Model Trials With and Without Source Access
+The first two timed continuations used **only the ROM and ROM-derived analysis**. For the next five trials, we explicitly gave agents access to existing Turok C source, headers, and original object files on disk. These later trials measure **source-assisted reconstruction, including reuse of original code**. Their gains must not be presented as decompilation from a ROM alone.
+
+Every trial had a 30-minute matching window. Setup and final verification were outside that window. Coverage uses the same fixed denominator of **626,012 detected candidate-code bytes**, not the cartridge size. Accepted results below passed independent checks and a complete byte-identical original-cartridge rebuild; remaining functions still use assembly.
+
+The seven verified results were:
+
+Model and reasoning effort | Inputs available | C functions before -> after | Matching bytes added | Coverage before -> after
+---|---|---|---|---
+GPT-5.6 Terra, medium | ROM only | 419 -> 442 | 1,852 | 4.171% -> 4.467%
+GPT-6.1 Sol, low | ROM only | 442 -> 886 | 33,872 | 4.467% -> 9.878%
+GPT-6.1 Sol, low | ROM plus original source, headers, and objects | 886 -> 1,563 | 182,000 | 9.878% -> 38.951%
+GPT-6 Astra, low | ROM plus original source, headers, and objects | 1,563 -> 1,763 | 107,356 | 38.951% -> 56.100%
+GPT-6 Luna, low | ROM plus original source, headers, and objects | 1,763 -> 1,764 | 472 | 56.100% -> 56.175%
+GPT-6 Astra, high | ROM plus original source, headers, and objects | 1,763 -> 1,785 | 7,732 | 56.100% -> 57.335%
+GPT-6.1 Sol, high | ROM plus original source, headers, and objects | 1,763 -> 1,792 | 8,396 | 56.100% -> 57.441%
+
+The session records identify the source-assisted Sol run as low reasoning effort. "Light" in our earlier run descriptions means low effort, not a separate model. These trials are individual observations, not repeated benchmark averages.
+
+### What Access to Existing Source Changed
+**Sol recovered 677 additional functions**, ending with 243,836 matching bytes. Original types and declarations explained many cases that ROM-derived drafts had missed. Relocation-aware comparisons of original object files helped locate candidate source functions, but similar wrappers could be confused; symbol mapping alone earned no matching credit.
+
+Sol's raw per-function result reached 1,678 functions and 283,036 bytes, or 45.213%. Full-export layout checks excluded **115 candidates totaling 39,200 bytes**, chiefly because compiler-owned constants or tables could not occupy the required original data positions. The retained **1,563-function, 38.951%** selection rebuilt the expanded image and original cartridge byte for byte. Verification finished about **5 minutes 48 seconds** after the matching cutoff.
+
+**Astra low then added 200 functions**, reaching 351,192 matching bytes and 56.100%. A useful discovery was a modified particle limit in the supplied source: it declared two particles, while a preserved comment specified 128. Each particle occupied 392 bytes. Restoring 128 explained a 49,392-byte displacement in later engine members and recovered further matches against unchanged ROM targets.
+
+Astra also replaced incompatible compiler-owned constants and initialized local arrays with typed references or aggregate copies from existing ROM data. These were source-level hypotheses, checked against the fixed compiler and linker configuration. All 200 additions survived independent checks and the full rebuild, with no exclusions or automatic fallbacks. Final verification took about **5 minutes 34 seconds** beyond the matching window.
+
+The source-assisted outputs remain separate from the ROM-only public work. This article reports measurements and methods; it does not distribute the original source or its derived private checkpoints.
+
+---
+### Luna, Astra High, and Sol High From the Same Checkpoint
+Luna, Astra high, and Sol high each started from **1,763 functions and 351,192 matching bytes**. Astra high did not consult Luna's artifacts, and Sol high did not consult either later comparison run's artifacts or findings. All three had access to the original source, headers, objects, and the earlier checkpoint's prepared inputs. This is the closest comparison in this set, although it is still one run per setting with different agent decisions and no repeated trials.
+
+**Luna added one 472-byte function**, reaching 1,764 C functions and 56.175%. It recorded 19,253 candidate attempts. Several candidates matched in isolation but failed data-placement safety checks, so they received no credit. The one retained addition and complete cartridge rebuild passed.
+
+**Astra high added 22 functions and 7,732 bytes**, reaching 1,785 C functions and 57.335%. Useful changes included preserving a unary minus when replacing complete constant expressions, correcting the position of a four-byte engine member, and using typed references to existing constants and engine members. All 22 additions passed independent compilation and the full cartridge rebuild, with zero exclusions or automatic fallbacks. Verification finished about **6 minutes 1 second** after cutoff.
+
+The account hit a usage limit during Astra high's run. The resumed agent audited its workers and found that matching had continued through the interruption, so the original 30-minute cutoff was retained. All credited candidates were accepted before the deadline. Three in-flight checks finished milliseconds after cutoff during worker termination; none passed acceptance or received credit.
+
+**Sol high added 29 functions and 8,396 bytes**, reaching 1,792 C functions, 359,588 matching bytes, and **57.441%**. Its exact 30-minute matching window ran from **11:41:16 to 12:11:16 BST on 24 October 2026**. All 29 new functions passed independent compilation. The expanded image, normalized cartridge, and reconstructed original input byte order were byte-identical, with zero exclusions or automatic fallbacks. The final export selected 1,792 C functions and 613 assembly functions out of 2,405. Cartridge proof completed about **6 minutes 23 seconds** after cutoff, including final byte-order reconstruction.
+
+Sol independently found the unary-minus substitution-span problem and tested typed engine references and earlier positions for the inferred four-byte engine gap. It also handled integer literals promoted to floating point, cached repeated constant loads, and referenced existing vector and string data. Broad address products, many formatting and caching variants, and scalar static substitutions failed. No compiler, target, linker, or judging rules were changed to obtain the matches.
+
+**Sol high produced seven more functions and 664 more matching bytes than Astra high in this run, at about 86% lower estimated whole-session cost.** That is approximately 32% more functions but only 8.6% more code bytes, which illustrates why both measurements matter. Compared with Luna, Sol produced 29 times as many functions at about 7.5 times the estimated cost. The identical starting point improves this comparison, but one trial per model/effort does not establish a general ranking. Different candidate choices, search scripts, and local compiler throughput still influence the result. This also does not isolate the effect of high versus low effort: the earlier Sol low trial started from a different checkpoint.
+
+Sol high therefore produced the most verified code in the allotted time among these three trials, while Luna had the lowest total API-equivalent cost. Their final percentages are alternative continuations from the same checkpoint; do not add their gains together without checking overlap and rebuilding the combined selection.
+
+---
+### Rough API-Equivalent Costs
+**These are API-equivalent estimates, not actual Codex subscription charges or measured subscription allowance usage.** We applied published OpenAI Standard API token prices, checked on **24 October 2026**, to usage recovered from each agent's local session records. They estimate what comparable recorded token usage would cost at those rates [^19] [^20].
+
+The matching-window column covers logged model responses completed during the recorded 30-minute window. Requests that cross a boundary are assigned by their usage-event timestamp, so this split is approximate. The whole-session column includes setup, verification, and reporting by that agent. It excludes this parent chat, earlier tool development, local CPU/electricity, subscription fees, taxes, and separately billed tools.
+
+Estimated costs in US dollars were:
+
+Model and reasoning effort | Source access | 30-minute matching window | Whole agent session
+---|---|---|---
+GPT-5.6 Terra, medium | No | $3.20 | $4.31
+GPT-6.1 Sol, low | No | $3.50 | $6.90
+GPT-6.1 Sol, low | Yes | $2.76 | $3.51
+GPT-6 Astra, low | Yes | $17.91 | $22.61
+GPT-6 Luna, low | Yes | $0.26 | $0.35
+GPT-6 Astra, high | Yes | $14.67 | $18.78
+GPT-6.1 Sol, high | Yes | $1.91 | $2.63
+Total of these seven trials | Mixed | $44.21 | $59.08
+
+Whole-session token counts used in the calculation were:
+
+Run | Uncached input | Cached input reads | Output including reasoning
+---|---|---|---
+Terra medium, ROM only | 228,650 | 15,710,464 | 58,932
+Sol low, ROM only | 421,657 | 37,198,848 | 95,480
+Sol low, source-assisted | 237,308 | 22,360,064 | 79,491
+Astra low, source-assisted | 185,507 | 17,336,960 | 68,414
+Luna low, source-assisted | 242,590 | 29,368,192 | 68,677
+Astra high, source-assisted | 173,551 | 14,493,184 | 50,988
+Sol high, source-assisted | 139,377 | 17,054,336 | 64,651
+
+These are processing totals across requests, including repeated context, not millions of unique source tokens. We used increments in the cumulative counters and discarded repeated counter events. Reasoning tokens are part of output usage and were not charged twice. Cached reads account for about **98.6% to 99.2% of input tokens** across these sessions.
+
+The base Standard rates per million tokens were:
+
+Model | Uncached input | Cached input | Output
+---|---|---|---
+GPT-5.6 Terra | $2.00 | $0.20 | $12.00
+GPT-6.1 Sol | $2.00 | $0.10 | $10.00
+GPT-6 Astra | $10.00 | $1.00 | $50.00
+GPT-6 Luna | $0.10 | $0.01 | $0.50
+
+For each request, we multiplied uncached input, cached reads, and output by their applicable rates and divided by one million. The estimate also applies the published long-context input/cache and output multipliers to the 41 requests above 272,000 input tokens in the ROM-only Sol session. That surcharge occurred outside its matching window. Sol high had no requests above that threshold; its recorded cache-write count was zero [^19] [^20].
+
+**Cache-write and service-tier uncertainty:** session records reported zero cache-write tokens, so the estimates charge non-cached input at the ordinary input rate. If those tokens were instead charged as default 30-minute cache writes at 1.25 times input pricing, the combined Standard estimate would rise by about $1.44. We cannot reconstruct an actual API invoice from these Codex records. The agent tool advertised Priority service; published Fast/Priority-equivalent pricing is generally twice Standard, making the seven whole sessions roughly **$118** under that assumption. Neither figure is a claim about the amount charged by the subscription [^19] [^20].
+
+**How to interpret value:** source-assisted Sol low had the largest gain at low estimated cost, but it started earlier with easier opportunities. Sol high subsequently achieved the strongest measured progress per dollar among the three trials sharing the 56.100% starting checkpoint. Astra high produced 22 functions versus Luna's one from the same checkpoint, while its whole-session Standard estimate was about 53 times higher. Luna's result was weak for progress per half hour, but its low price means that observation alone does not establish poor value per dollar. Keep wall time, verified code bytes, source access, starting checkpoint, and cost separate when choosing the next model.
+
+---
+## What the Kimi Code V-Rally Attempt Revealed
+A fresh-game attempt on **V-Rally Edition 99, Europe revision 0** used our earlier starter prompt in Kimi Code on 23 October 2026. The selected model was **K2.8 Preview High**, as confirmed by the person running the experiment.
+
+**The run stopped during import, before matching C.** It preserved the ROM, identified its pair-swapped byte order, recorded hashes, checked out the requested fork revision, and installed free tools. Its first custom import script omitted the database parent directory; creating that directory resolved the initial error. The next import exposed a generated segment/BSS configuration problem.
+
+The exported activity spans **21:22:18 to 21:40:34 BST, about 18 minutes 16 seconds**. The final provider error says the **five-hour usage allowance** was exhausted. The person running the experiment confirmed that the allowance was **100% available at the start**, on the **Kimi Plus plan costing $20 per month**. This session exhausted that full five-hour allowance in about 18 minutes of wall time; it did not run for five hours. These are the participant's plan and price for this run, not a claim about every subscription or future pricing.
+
+The following totals sum each usage event in the supplied session export once:
+
+Recorded usage | Main agent | Exploration helper | Total
+---|---|---|---
+Successful usage records | 58 | 23 | 81
+Uncached input tokens | 104,288 | 140,846 | 245,134
+Cached input tokens read | 3,651,840 | 1,901,312 | 5,553,152
+Output tokens | 36,855 | 9,178 | 46,033
+
+These are logged processing totals, including repeated cached context. They are not unique-text counts, prices, or a calculation of how Kimi charges its allowance. There were 82 requests; the final main-agent request failed. The exploration helper made 32 file-reading calls across import, compilers, matching, export, server routes, and tests before the first import was completed.
+
+The failure exposed two different problems:
+* **Importer layout** - Adding discovered code segments shortened the original main segment's ROM-backed range. Its BSS extent still depended on the old range. Splat then calculated a parent end of `0x8002E338`, below the explicit BSS start of `0x800A73E0`, and rejected the configuration. Preserving the original BSS address range is required; deleting BSS or disabling validation is not a valid repair.
+* **Unbounded investigation** - The agent repeatedly investigated a suspected duplicate BSS and tried unfamiliar parser APIs with incorrect arguments or nonexistent names. Large source reads and repeated context processing consumed the session without producing a successful import. The only saved audit write still marked completed setup work as pending.
+
+There were **no verified C matches or successful builds in that exported session**. A validated coverage denominator was not established, so a whole-game completion percentage cannot be inferred. The heuristic report of ten extra code segments and 554 KiB was preliminary discovery, not proof that all those bytes were CPU code.
+
+The revised starter prompt limits the first session to 30 minutes, uses one agent by default, requires stage checkpoints, and caps import debugging at ten minutes or five hypothesis-driven attempts. It asks the agent to inspect API signatures before calling them and to stop with a reproducible diagnosis when blocked. It also uses `main` and records its commit rather than pinning new sessions to the earlier experiment revision.
+
+**Importer follow-up:** [the BSS preservation fix](https://github.com/RetroReversing/decompdecomp/pull/3) preserves the original memory extent when discovering additional code, and converts that extent to the actual BSS size during export. Its synthetic regression checks both BSS addresses and repeated discovery. Standalone export also retains known startup aliases when discovery gives the target function an address-based name. A fresh isolated import with the fix found 2,121 candidates covering 565,980 bytes; these remain candidate-code statistics, and no C matching pass was run. Its standalone export selected zero C functions out of 2,122 exported functions including startup, and rebuilt the complete 12,582,912-byte normalized original ROM byte for byte. The normalized SHA-1 was `da3f262dfb86cff1376c9a1aa081212e5a7aad64`. This later validation used the repaired tool and is separate from the failed Kimi session. If your `main` checkout does not yet include that fix, use its `codex/n64-bss-import` branch at `72cac6c` for the retry.
+
+We are gathering these runs for a comparison of **models, prices, usage limits, and verified results**. This K2.8 Preview High attempt consumed the available five-hour allowance without producing a verified C match. That is a poor practical result for this session, even though an importer defect blocked the matching stage. The subscription price was $20 per month; that is not a $20 charge for this individual run. The export does not establish a per-run dollar cost or how cached tokens count toward the allowance.
+
+The runs used different starting conditions: Sol's Turok run included tool development; Terra continued an already working project. A fairer Kimi retry should begin with the verified importer, record setup and matching time separately, and retain this failed-run result alongside the retry. Record the exact model setting, plan or API price, allowance available at the start, and verified matching bytes for each future run. The [completed Sol run through Abacus.ai](#what-sol-through-abacusai-achieved-on-v-rally) provides another fresh-start observation on the same ROM and tool revision. Record prompt and importer differences alongside future results, since those conditions affect the comparison. These observations are preliminary data; a broader ranking needs more runs.
+
+---
+## What Sol Through Abacus.ai Achieved on V-Rally
+A second fresh-start V-Rally session used **GPT-6.1 Sol through Abacus.ai** on 23 October 2026. The app log identifies `OPENAI_GPT6_1_SOL`; the saved local records do not establish its reasoning-effort setting. It used the same European revision 0 ROM and historical tool commit `af853d2` as the Kimi attempt, and encountered the same importer defect.
+
+**The result was 603 matching C functions covering 34,164 bytes**, or **6.0363% of the 565,980 detected candidate-code bytes**. The full 12,582,912-byte normalized ROM rebuilt byte for byte, retaining all 603 C selections without rejected selections falling back to assembly. Pair-swapping the output back also reproduced the supplied original file exactly. Most code remains assembly, and these percentages do not measure complete game recovery.
+
+We checked the saved checkpoint and output files independently: SQLite integrity passed, all 603 selected C files existed, their matched target spans agreed with the final ROM, and the target aggregate and recorded judge-file hashes were unchanged. The tool checkout was clean. This review compared the saved artifacts; it did not recompile every C file again. The evidence available locally was project metadata, app logs, scripts, audit records, and build artifacts, rather than a complete verbatim chat export.
+
+### How the Workflow Reached That Result
+Sol's session repaired the generated layout through a local adapter before freezing the matching targets. It merged discovered ranges sharing the same ROM-to-VRAM mapping into main subsegments while preserving main/BSS boundaries. The failed import and before/after configuration were retained. Although the tool checkout stayed clean, this adapter changed import behavior; it was not an untouched stock import. This repair differs from the generic fork fix linked above.
+
+The accepted C came from **local m2c drafting, compilation, exact linked-byte judging, and engine propagation**. The automatic pass processed 2,101 open candidates in **165.527 seconds**, about **2 minutes 46 seconds**. Its own draft counter reported 544 matches; the project total, including propagated matches, was 603. Describe this as a Sol-directed workflow yielding 603 verified matches, rather than 603 functions manually written by Sol.
+
+A later investigation of the 28-byte `func_80012168` added no matches. Six compilable KMC flag configurations retained a score of 5. The permuter rejected the baseline with a parser error and generated no variants. The agent correctly kept that near match separate from the accepted C count. The KMC-compatible compiler remains a working hypothesis; no proprietary alternative was installed for this run.
+
+The supported GNU linker eventually completed. An alternative `ld.lld` diagnostic failed on symbol metadata and was not used for the successful build. The session's notes also withdrew unsupported helper claims about compressed code and linker speedups. Saved byte comparisons and measured results provide stronger evidence than those initial diagnoses.
+
+The recorded timeline, in BST on 23 October 2026, was:
+
+Stage | Time or duration
+---|---
+Session started | 21:44:17
+First import failed | 22:01:36
+Repaired import completed | 22:13:05
+Automatic matching | 22:21:53 to 22:24:39
+Export, compile, link, and comparison | About 18 minutes 4 seconds
+Final verification completed | 22:45:53
+Total wall time through verification | About 61 minutes 36 seconds
+
+Roughly 37.5 minutes elapsed before automatic matching began, so the successful outcome still includes considerable orchestration overhead. Total wall time includes setup, investigation, build time, waiting, and a user continuation; it is not uninterrupted model generation.
+
+---
+### Price, Allowance, and the Preliminary Comparison
+The participant reported an **Abacus.ai subscription costing $10 per month**, with a **20,000-token monthly allocation**, a **3,000-token cap for premium models such as Sol**, and approximately **2,000 tokens used by this run**. These are the participant's platform-reported units and price for this experiment. They are not raw model input/output token counts or a verified public price list.
+
+That usage equals **10% of the stated monthly allocation** and approximately **66.7% of the premium cap**. Other usage would affect the remaining balance. Local project metadata recorded `creditsUsed: 0`, which we did not treat as proof of a free run because the participant observed usage. A subscription price does not establish a per-run dollar charge, and Abacus's units cannot be directly compared with Kimi's input/output/cache token counts.
+
+The fresh-start observations compare as follows:
+
+Measurement | Kimi Code | Sol through Abacus.ai
+---|---|---
+Model | K2.8 Preview High | GPT-6.1 Sol, effort unrecorded
+Participant's monthly subscription | Plus, $20 | $10
+Reported allowance consumed | Full five-hour allowance, 100% available at start | About 2,000 platform units; 3,000 premium cap
+Wall time to recorded outcome | About 18 minutes 16 seconds | About 61 minutes 36 seconds
+Initial importer defect | Encountered; remained blocked | Encountered; worked around
+Verified matching C | None observed | 603 functions, 34,164 bytes
+Full original-ROM rebuild | None | Byte-identical
+
+**Sol through Abacus.ai delivered the more useful end-to-end result in these sessions.** It overcame the importer blocker and produced a verified checkpoint within the reported premium allowance. The longer wall-clock run, continuation, differing platform quotas, and shared automatic tools prevent a strict equal-budget model ranking or a precise cost-per-token comparison.
+
+For a stronger matching comparison, run both models from the same validated import with zero accepted C, the same prompt, compiler/tool revisions, and matching window. Keep setup success and cost as separate outcomes, including the failed Kimi attempt. Review the seven uncovered frame patterns, 29 uncovered returns, and extra exported assembly entry before treating the candidate-code denominator as complete executable coverage.
+
+---
+## Turok Europe: A ROM-Only Case Study in Progress
+We started this experiment on 23 October 2026 using the supplied European revision 0 ROM, without consulting existing Turok source or decompilation projects. **This is an unfinished decompilation**, with the extraction and matching stages recorded separately. These measurements describe this exact input, not every Turok release.
+
+The [Turok decompilation repository](https://github.com/RetroReversing/turok-decomp) contains the 419-function C checkpoint, build configuration, and a preparation script. Supply your own supported ROM to regenerate the assembly and assets locally; no ROM or compiler binaries are included.
+
+The initial inspection established the following baseline:
+
+Measurement | ROM-derived result
+--- | ---
+File size | 8,388,608 bytes
+Header game code | `NTUP`, Europe, revision 0
+Actual input byte order | 16-bit-swapped v64, despite the `.n64` filename
+Entry address | `0x80000400`
+Initial import | 12 candidate functions, 3,680 bytes
+
+The normalized ROM SHA-1 is:
+
+```text
+88916d5d2e2470f395ad8f4245d34138ef2d156a
+```
+
+The small initial import was the first obstacle. Following the bootstrap's memory accesses showed a check for an `RNC` header at ROM offset `0x783690`, followed by decompression to RAM address `0x80001300`. Stopping after the initial import would have missed the main program.
+
+The main container uses **RNC method 1**. Its header declares 462,217 packed bytes and 1,015,248 unpacked bytes. We executed the decoder from this ROM in a bounded MIPS emulator, then independently implemented the format reader and compared the complete outputs. The packed CRC16 was `f045`, the unpacked CRC16 was `a680`, and the unpacked SHA-256 was:
+
+```text
+f0c9bd34991216298c760a683908458ed50435d052dd4e67af24374bfea5104d
+```
+
+The output ends at `0x800F90D0`, the same address where the bootstrap begins clearing BSS. Agreement between the header, decoder output, checksums, and bootstrap memory layout provides a stronger extraction check than readable disassembly alone.
+
+Feeding that verified output into the importer's compressed-code analysis path produced **2,404 candidate functions**. Some very short boundaries still need review. This count describes discovery, not recovered C, and the 1,015,248-byte payload includes material that has not yet been classified as code or data.
+
+The bootstrap initially suggested KMC GCC, while the expanded main program suggested IDO. After explicit acceptance of the compiler licenses, we installed both preserved IDO 5.3 and 7.1 toolchains. Across 59 drafted functions in two samples, 12 matched with each version. Both versions produced the same match counts, so IDO 5.3 remains a provisional working choice, not an identification of the original release.
+
+The IDO 5.3 attempts used these working flags from the tool's compiler registry:
+
+```text
+-O2 -mips2 -G 0 -non_shared -Xcpluscomm -Wab,-r4300_mul
+```
+
+Keep those settings in your log when comparing a candidate. They are measured working settings for this experiment; they do not prove that every function or library in the ROM used that configuration.
+
+The initial automatic draft pass, byte-pointer refinement, manual recovery, and bounded mutation pass reached **419 exact function matches, covering 26,112 bytes**. Against the 2,404 discovered candidates and their 626,012 bytes, that is about 17.4% by function count but only 4.2% by bytes. Another 35 candidates were classified as assembly. These are analysis statistics, not a whole-game completion percentage; unidentified code and data remain outside that denominator.
+
+The [30-minute Terra continuation](#what-another-30-minutes-with-terra-added) later reached 442 exact matches and 27,964 bytes using the same denominator. The counts and build described below refer to the initial 419-function checkpoint.
+
+A manual attempt illustrates why types matter. The target at `0x8000EF70` indexed records with a 12-byte stride. Giving that table an explicit record type fixed the draft's pointer scaling; the score improved from 55 to 10. The remaining diff involved register allocation around a counter update. Expressing it as a pre-increment produced score 0 under both tested compilers. This establishes a machine-code match for that function; the table's gameplay meaning remains unproven.
+
+**Reproduction status:** a fresh import with the RNC method-1 reader reached the same 2,404 candidates without the private extraction hook. The reader verifies both checksums before accepting a block and uses instruction patterns to reject blocks that do not look like code. The implementation and tests were introduced in [the RNC importer and cartridge export pull request](https://github.com/RetroReversing/decompdecomp/pull/2), tested at historical commit `af853d2`. That work is merged into `main`; use the fork's main branch for new sessions and record its exact commit.
+
+After importing, select IDO 5.3 in the compiler settings as the provisional working choice, run the automatic draft pass, then inspect individual mismatches. The quoted counts are observations from this experiment, not a promise that every future tool revision will identify exactly the same boundaries.
+
+**Verified build:** the final standalone export selected **419 C functions out of 2,405 exported functions**, with the remaining code kept as assembly. After fixing generated linker names and references across split assembly files, it rebuilt the expanded image, reconstructed the RNC container from linked output, and reproduced the complete original **8,388,608-byte cartridge** byte for byte. Its SHA-1 was the fixed normalized hash above. The extra exported startup function explains why this denominator differs from the discovery database.
+
+This proves a partial matching build, not a complete decompilation. The packed reconstruction uses the original stream's coding decisions and replaces literal spans with bytes from the newly linked program; it decodes that result again and rejects incompatible back-references. A general compressor would be needed for arbitrary edits. Assembly and asset fallbacks still supply most of the game.
+
+A bounded three-minute mutation pass tested 16,208 candidate rewrites, improving 13 functions and finding 10 further exact matches. Every accepted rewrite went through the same byte judge. Register allocation and instruction ordering can depend on C expression shape, so a semantic explanation is useful, but the compiler comparison remains the acceptance test.
 
 ---
 # References
