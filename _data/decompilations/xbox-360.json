@@ -3345,6 +3345,18 @@
         "github_stars": 59
       },
       "ai_used": null
+    },
+    "torchlight-recomp": {
+      "name": "Torchlight (Torchlight Recomp)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/YaPeL/torchlight-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -6664,6 +6676,32 @@
             {
               "name": "Static recompilation",
               "url": "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo"
+            }
+          ]
+        },
+        {
+          "project": "torchlight-recomp",
+          "name_markdown": "[Torchlight (Torchlight Recomp)](https://github.com/YaPeL/torchlight-recomp)",
+          "images": [
+            {
+              "url": "https://store-images.s-microsoft.com/image/apps.50234.67240812470044264.09c15e8c-821c-4178-a3dd-4bd09f415942.d3604a76-d5d8-4a93-8138-123f1aeb7f75",
+              "alt": "Official Xbox 360 digital cover art for Torchlight showing its three adventurers",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Beta static recompilation of the Xbox Live Arcade version using ReXGlue and a native OGRE renderer. Requires your own Xbox 360 v1.0.140.0 game package. Targets Windows, Linux and Apple Silicon macOS 13.3 or later; Intel Macs are unsupported. Steam Deck AppImage is untested. Xbox Live sign-in and leaderboards are unavailable.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/YaPeL/torchlight-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/YaPeL/torchlight-recomp"
             }
           ]
         }
