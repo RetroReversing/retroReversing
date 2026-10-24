@@ -1648,7 +1648,21 @@
           "completion_percent": 1,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Brawl Recompiled",
+              "url": "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "Work-in-progress WiiCompiled port requiring a USA RSBE01 disc image. Classic and Subspace Emissary have only been tested at their openings. Replaced mod modules use a PowerPC interpreter; online play is between port users, without Dolphin cross-play.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
