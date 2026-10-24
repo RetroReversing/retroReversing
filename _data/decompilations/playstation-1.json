@@ -3901,6 +3901,18 @@
         "github_stars": 12
       },
       "ai_used": null
+    },
+    "roll-away-psx-pc-recomp": {
+      "name": "Roll Away / Kula World / KulaQuest",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -8506,6 +8518,32 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/krystalgamer/memories-decomp"
+            }
+          ]
+        },
+        {
+          "project": "roll-away-psx-pc-recomp",
+          "name_markdown": "[Roll Away / Kula World / KulaQuest](https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Roll%20Away%20%28USA%29.png",
+              "alt": "US PlayStation front box art for Roll Away, also released as Kula World and KulaQuest",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Beta native Windows port through static recompilation. Supports the US SLUS-00724, European SCES-01000 and Japanese SCPS-10064 discs. Requires your own game data; BIN/CUE or CHD preserves XA music and movies that ISO images omit. Other operating systems are planned.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp"
             }
           ]
         }
