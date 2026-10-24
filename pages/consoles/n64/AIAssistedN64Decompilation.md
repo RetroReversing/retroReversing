@@ -15,7 +15,7 @@ breadcrumbs:
   - name: AI Assisted N64 Decompilation
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
-updatedAt: '2026-10-23'
+updatedAt: '2026-10-24'
 excerpt: 'Get Codex or Claude Code, supply your N64 ROM, and copy one prompt to start with our decompdecomp fork. See the measured Turok result and timing.'
 ---
 
@@ -146,7 +146,95 @@ The productive changes were:
 
 The five excluded candidates were `func_80026DC0`, `func_80049BE0`, `func_8004F884`, `func_80058708`, and `func_80070D48`. The initial **10.009% isolated-check figure is not the accepted full-build result**. This is a concrete reason to keep the cartridge rebuild as the final acceptance gate rather than reporting a function judge's score alone.
 
-Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. There is no separately measured per-run price or allowance usage for this Codex subagent run. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
+Sol combined manual hypotheses with bounded local transformations and compiler feedback. This was a continuation with prepared drafts and prior compiler knowledge, not the same starting point as Terra's earlier batch or either fresh V-Rally session. The API-equivalent estimate below uses recovered token logs; the subscription allowance consumed by this individual run was not measured. Keep its 30-minute matching result separate from setup time, verification time, and the Abacus.ai subscription experiment below.
+
+---
+## Turok Model Trials With and Without Source Access
+The first two timed continuations used **only the ROM and ROM-derived analysis**. For the next four trials, we explicitly gave agents access to existing Turok C source, headers, and original object files on disk. These later trials measure **source-assisted reconstruction, including reuse of original code**. Their gains must not be presented as decompilation from a ROM alone.
+
+Every trial had a 30-minute matching window. Setup and final verification were outside that window. Coverage uses the same fixed denominator of **626,012 detected candidate-code bytes**, not the cartridge size. Accepted results below passed independent checks and a complete byte-identical original-cartridge rebuild; remaining functions still use assembly.
+
+The six verified results were:
+
+Model and reasoning effort | Inputs available | C functions before -> after | Matching bytes added | Coverage before -> after
+---|---|---|---|---
+GPT-5.6 Terra, medium | ROM only | 419 -> 442 | 1,852 | 4.171% -> 4.467%
+GPT-6.1 Sol, low | ROM only | 442 -> 886 | 33,872 | 4.467% -> 9.878%
+GPT-6.1 Sol, low | ROM plus original source, headers, and objects | 886 -> 1,563 | 182,000 | 9.878% -> 38.951%
+GPT-6 Astra, low | ROM plus original source, headers, and objects | 1,563 -> 1,763 | 107,356 | 38.951% -> 56.100%
+GPT-6 Luna, low | ROM plus original source, headers, and objects | 1,763 -> 1,764 | 472 | 56.100% -> 56.175%
+GPT-6 Astra, high | ROM plus original source, headers, and objects | 1,763 -> 1,785 | 7,732 | 56.100% -> 57.335%
+
+The session records identify the source-assisted Sol run as low reasoning effort. "Light" in our earlier run descriptions means low effort, not a separate model. These trials are individual observations, not repeated benchmark averages.
+
+### What Access to Existing Source Changed
+**Sol recovered 677 additional functions**, ending with 243,836 matching bytes. Original types and declarations explained many cases that ROM-derived drafts had missed. Relocation-aware comparisons of original object files helped locate candidate source functions, but similar wrappers could be confused; symbol mapping alone earned no matching credit.
+
+Sol's raw per-function result reached 1,678 functions and 283,036 bytes, or 45.213%. Full-export layout checks excluded **115 candidates totaling 39,200 bytes**, chiefly because compiler-owned constants or tables could not occupy the required original data positions. The retained **1,563-function, 38.951%** selection rebuilt the expanded image and original cartridge byte for byte. Verification finished about **5 minutes 48 seconds** after the matching cutoff.
+
+**Astra low then added 200 functions**, reaching 351,192 matching bytes and 56.100%. A useful discovery was a modified particle limit in the supplied source: it declared two particles, while a preserved comment specified 128. Each particle occupied 392 bytes. Restoring 128 explained a 49,392-byte displacement in later engine members and recovered further matches against unchanged ROM targets.
+
+Astra also replaced incompatible compiler-owned constants and initialized local arrays with typed references or aggregate copies from existing ROM data. These were source-level hypotheses, checked against the fixed compiler and linker configuration. All 200 additions survived independent checks and the full rebuild, with no exclusions or automatic fallbacks. Final verification took about **5 minutes 34 seconds** beyond the matching window.
+
+The source-assisted outputs remain separate from the ROM-only public work. This article reports measurements and methods; it does not distribute the original source or its derived private checkpoints.
+
+---
+### Luna and Astra High From the Same Checkpoint
+Luna and Astra high both started from **1,763 functions and 351,192 matching bytes**. Astra high did not consult Luna's experiment artifacts. This is the closest comparison in this set, although it is still one run per setting with different agent decisions and no repeated trials.
+
+**Luna added one 472-byte function**, reaching 1,764 C functions and 56.175%. It recorded 19,253 candidate attempts. Several candidates matched in isolation but failed data-placement safety checks, so they received no credit. The one retained addition and complete cartridge rebuild passed.
+
+**Astra high added 22 functions and 7,732 bytes**, reaching 1,785 C functions and 57.335%. Useful changes included preserving a unary minus when replacing complete constant expressions, correcting the position of a four-byte engine member, and using typed references to existing constants and engine members. All 22 additions passed independent compilation and the full cartridge rebuild, with zero exclusions or automatic fallbacks. Verification finished about **6 minutes 1 second** after cutoff.
+
+The account hit a usage limit during Astra high's run. The resumed agent audited its workers and found that matching had continued through the interruption, so the original 30-minute cutoff was retained. All credited candidates were accepted before the deadline. Three in-flight checks finished milliseconds after cutoff during worker termination; none passed acceptance or received credit.
+
+Astra high therefore produced more verified code in the allotted time, while Luna was much cheaper in the API-equivalent calculation below. Their final percentages are alternative continuations from the same checkpoint; do not add their gains together without checking overlap and rebuilding the combined selection.
+
+---
+### Rough API-Equivalent Costs
+**These are API-equivalent estimates, not actual Codex subscription charges or measured subscription allowance usage.** We applied published OpenAI Standard API token prices, checked on **24 October 2026**, to usage recovered from each agent's local session records. They estimate what comparable recorded token usage would cost at those rates [^19] [^20].
+
+The matching-window column covers logged model responses completed during the recorded 30-minute window. Requests that cross a boundary are assigned by their usage-event timestamp, so this split is approximate. The whole-session column includes setup, verification, and reporting by that agent. It excludes this parent chat, earlier tool development, local CPU/electricity, subscription fees, taxes, and separately billed tools.
+
+Estimated costs in US dollars were:
+
+Model and reasoning effort | Source access | 30-minute matching window | Whole agent session
+---|---|---|---
+GPT-5.6 Terra, medium | No | $3.20 | $4.31
+GPT-6.1 Sol, low | No | $3.50 | $6.90
+GPT-6.1 Sol, low | Yes | $2.76 | $3.51
+GPT-6 Astra, low | Yes | $17.91 | $22.61
+GPT-6 Luna, low | Yes | $0.26 | $0.35
+GPT-6 Astra, high | Yes | $14.67 | $18.78
+Total of these six trials | Mixed | $42.30 | $56.45
+
+Whole-session token counts used in the calculation were:
+
+Run | Uncached input | Cached input reads | Output including reasoning
+---|---|---|---
+Terra medium, ROM only | 228,650 | 15,710,464 | 58,932
+Sol low, ROM only | 421,657 | 37,198,848 | 95,480
+Sol low, source-assisted | 237,308 | 22,360,064 | 79,491
+Astra low, source-assisted | 185,507 | 17,336,960 | 68,414
+Luna low, source-assisted | 242,590 | 29,368,192 | 68,677
+Astra high, source-assisted | 173,551 | 14,493,184 | 50,988
+
+These are processing totals across requests, including repeated context, not millions of unique source tokens. We used increments in the cumulative counters and discarded repeated counter events. Reasoning tokens are part of output usage and were not charged twice. Cached reads account for about **98.6% to 99.2% of input tokens** across these sessions.
+
+The base Standard rates per million tokens were:
+
+Model | Uncached input | Cached input | Output
+---|---|---|---
+GPT-5.6 Terra | $2.00 | $0.20 | $12.00
+GPT-6.1 Sol | $2.00 | $0.10 | $10.00
+GPT-6 Astra | $10.00 | $1.00 | $50.00
+GPT-6 Luna | $0.10 | $0.01 | $0.50
+
+For each request, we multiplied uncached input, cached reads, and output by their applicable rates and divided by one million. The estimate also applies the published long-context input/cache and output multipliers to the 41 requests above 272,000 input tokens in the ROM-only Sol session. That surcharge occurred outside its matching window [^19] [^20].
+
+**Cache-write and service-tier uncertainty:** session records reported zero cache-write tokens, so the estimates charge non-cached input at the ordinary input rate. If those tokens were instead charged as default 30-minute cache writes at 1.25 times input pricing, the combined Standard estimate would rise by about $1.37. We cannot reconstruct an actual API invoice from these Codex records. The agent tool advertised Priority service; published Fast/Priority-equivalent pricing is generally twice Standard, making the six whole sessions roughly **$113** under that assumption. Neither figure is a claim about the amount charged by the subscription [^19] [^20].
+
+**How to interpret value:** source-assisted Sol had the largest gain at low estimated cost, but it started earlier with easier opportunities. Astra high produced 22 functions versus Luna's one from the same checkpoint, while its whole-session Standard estimate was about 53 times higher. Luna's result was weak for progress per half hour, but its low price means that observation alone does not establish poor value per dollar. Keep wall time, verified code bytes, source access, starting checkpoint, and cost separate when choosing the next model.
 
 ---
 ### Can Line Breaks Change the Generated Assembly?
@@ -635,3 +723,6 @@ For a game without an existing project, first establish a code map, supported RO
 
 [^17]: [Official Codex quickstart](https://learn.chatgpt.com/docs/quickstart), desktop setup, selecting Codex, signing in, and choosing a local project folder; checked 23 October 2026.
 [^18]: [Claude Code desktop documentation](https://code.claude.com/docs/en/desktop), the Code tab, local sessions, file references, and attachments; checked 23 October 2026.
+
+[^19]: [OpenAI API pricing](https://developers.openai.com/api/docs/pricing), Standard and Fast token rates, cache-write rates, and Priority/Fast naming; checked 24 October 2026. Costs in this article are estimates applied to local agent usage records, not subscription charges.
+[^20]: OpenAI model pricing pages for [GPT-5.6 Terra](https://developers.openai.com/api/docs/models/gpt-5.6-terra), [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol), [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra), and [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna), cached-input and output rates and applicable long-context multipliers; checked 24 October 2026.
