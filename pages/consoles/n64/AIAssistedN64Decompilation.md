@@ -49,7 +49,10 @@ Create workspace and database parent directories before import.
 Disable app windows, tray, updates, and agent discovery for isolated work.
 
 Keep this first session within 30 minutes of wall time, including setup.
-Use one agent unless I ask for delegation. After required instructions,
+Use one agent unless I ask for delegation. Record a start time and deadline.
+Keep working until that deadline unless blocked or I ask you to stop.
+A progress report is not a reason to end an otherwise productive session.
+After required instructions,
 read only code needed for the current stage; avoid an architecture survey.
 Before calling an unfamiliar API, read its signature and one real usage.
 Keep tool output short and save detailed logs to files.
@@ -84,7 +87,7 @@ The prompt asks the agent to do the setup and first matching attempts. A success
 
 ---
 ## Which Model Should You Start With?
-**Our practical starting choice is GPT-6.1 Sol.** If you can select reasoning effort, high is a reasonable option for a focused matching session: in our same-checkpoint test, Sol high recovered more code than Astra high at a lower API-equivalent cost. That test had original source available. It does not establish the same advantage for a fresh ROM-only project, and we have not measured Claude Code with this game.
+**Our practical starting choice is GPT-6.1 Sol.** If you can select reasoning effort, high is a reasonable option for a focused matching session: in our same-checkpoint test, Sol high recovered more code than Astra high at a lower API-equivalent cost. That test had original source available. It does not establish the same advantage for a fresh ROM-only project, and the fresh V-Rally Sonnet run below tests setup rather than the same Turok continuation.
 
 Choose according to the task and evidence we have:
 
@@ -94,7 +97,7 @@ First attempt with only a ROM | Sol in Codex, using the starter prompt | Sol-dir
 Continue a difficult matching checkpoint | Try Sol high for a bounded session | It led our three-way source-assisted comparison on verified bytes and estimated cost per result.
 A specific problem remains unexplained | Consider a bounded Astra session | Astra found useful type/layout hypotheses; its higher token price needs to earn its place in your workflow.
 Low spend matters more than progress per half hour | Luna on a narrow task | It was cheapest, but recovered only one function in our measured continuation.
-Use Claude Code instead of Codex | Use the same prompt and verification gates | The workflow is transferable; this article has no measured Claude result.
+Use Claude Code instead of Codex | Sonnet 5.5 with the same prompt and verification gates | Our fresh V-Rally session produced a verified checkpoint, but needed download help and reminders to continue.
 Trying Kimi Code | Check the fixed importer before spending another allowance | Our K2.8 Preview High attempt stopped at an importer defect, so it did not measure matching ability.
 
 ### The Most Comparable 30-Minute Results
@@ -113,6 +116,27 @@ GPT-6 Luna, low | 1 | 472 | 56.175% | $0.35
 Sol high produced seven more functions than Astra high, but only 664 more code bytes. Its estimated cost was about 86% lower. Luna's low output per half hour still came at the lowest total cost. This is one run per setting, not a general model ranking; function size, agent decisions, local tools, and the remaining workload all matter.
 
 ---
+### Fresh-Game Setup Comparison on V-Rally
+**Use V-Rally to judge getting started; use the Turok continuation above to judge matching from a prepared checkpoint.** All three fresh V-Rally sessions used the same European revision 0 ROM and worked without existing game source. They exercised setup, import, compiler installation, automatic matching, and export. Tool versions, platform restrictions, user intervention, and time budgets differed, so they are practical workflow observations rather than equal-condition model scores.
+
+The recorded outcomes were:
+
+Measurement | Kimi Code | Sol through Abacus.ai | Claude Code
+---|---|---|---
+Model | K2.8 Preview High | GPT-6.1 Sol, effort unrecorded | Sonnet 5.5, effort unrecorded
+Tool revision | af853d2, before importer fix | af853d2, with local import adapter | f4702cb, including importer fix
+Import | Blocked by BSS layout defect | Repaired locally | Succeeded in about 1 minute 47 seconds from session start
+Verified C | None observed | 603 functions / 34,164 bytes | 645 functions / 35,868 bytes
+Detected-code coverage | No completed import | 6.036% | 6.337%
+Complete original-ROM rebuild | None | Byte-identical | Byte-identical
+Wall time to final reported result | About 18 minutes 16 seconds | About 61 minutes 36 seconds | About 43 minutes 10 seconds
+Cost or allowance evidence | $20/month Plus; full five-hour allowance exhausted | $10/month; about 2,000 platform units used | Participant reported $2.70 for the session
+
+**Sonnet delivered the largest verified checkpoint in these fresh-start observations.** It used the repaired importer, so its successful import is not proof it would have diagnosed the defect that blocked Kimi. Its main friction was blocked tool downloads and stopping before its budget ended. Sol's older-tool run spent time repairing import; Kimi's result primarily measures failure to get through that stage. Subscription allocations, provider units, reported session costs, and API-equivalent estimates must remain separate.
+
+Sonnet's final result followed a budget extension and user reminders, not an unattended 30-minute run. For a fairer rerun, give every model the same fixed tool revision, fresh workspace, installed compilers, prompt, and deadline. Record first import, first verified cartridge, final verified C, user interventions, and total cost separately. See [the Sonnet session analysis](#what-sonnet-55-achieved-on-a-fresh-v-rally-project) for its checkpoints and token accounting.
+
+---
 ## What Should Your First Session Produce?
 The starter prompt budgets **30 minutes including setup**. Our continuation experiments budgeted **30 minutes of matching after setup**, with final verification afterward. Do not expect those two budgets to produce the same amount of code.
 
@@ -122,7 +146,7 @@ A useful first-session report should answer:
 * **What rebuilt?** An analysis image, expanded program, and original cartridge are different verification targets.
 * **Where can you resume?** Keep the workspace, tool revision, compiler settings, best attempts, and next unresolved problem.
 
-Our first Turok run with GPT-6.1 Sol reached **419 matching functions / 4.2% of detected code** about 30 minutes after the first import. The complete cartridge check finished about nine minutes later. That run also involved tool repairs, so it is an example of elapsed work rather than a completion-rate promise. A fresh V-Rally attempt with Kimi stopped at import; another with Sol through Abacus.ai reached 603 matching functions after about an hour. The detailed reports below explain those different starting conditions.
+Our first Turok run with GPT-6.1 Sol reached **419 matching functions / 4.2% of detected code** about 30 minutes after the first import. The complete cartridge check finished about nine minutes later. That run also involved tool repairs, so it is an example of elapsed work rather than a completion-rate promise. A fresh V-Rally attempt with Kimi stopped at import; another with Sol through Abacus.ai reached 603 matching functions after about an hour. Sonnet 5.5 reached 645 after about 43 minutes, with an extended budget and user help. The detailed reports below explain those different starting conditions.
 
 **A plausible C listing is not a match, and a matching ROM may still contain assembly.** If import is blocked, preserve the error and stop at the prompt's investigation limit. If matching succeeds, save the checkpoint and check that the accepted C really participated in the build.
 
@@ -678,6 +702,58 @@ Full original-ROM rebuild | None | Byte-identical
 For a stronger matching comparison, run both models from the same validated import with zero accepted C, the same prompt, compiler/tool revisions, and matching window. Keep setup success and cost as separate outcomes, including the failed Kimi attempt. Review the seven uncovered frame patterns, 29 uncovered returns, and extra exported assembly entry before treating the candidate-code denominator as complete executable coverage.
 
 ---
+## What Sonnet 5.5 Achieved on a Fresh V-Rally Project
+The supplied Claude Code export records **`claude-sonnet-5-5`**, the same V-Rally Europe revision 0 input hash used in the Kimi and Abacus sessions, and **decompdecomp main at `f4702cb8a2016c188b0366d79488a6291219a8d6`**. Its starting prompt requested ROM-only work, one agent, and 30 minutes including setup. The export does not establish the selected reasoning-effort setting; the model's documented default is not evidence of this session's setting.
+
+**The verified final result was 645 C functions and 35,868 matching bytes**, or **6.337% of the 565,980 imported candidate-code bytes**. The database contains 2,121 functions: 645 matched, 20 assembly-only, and 1,456 open. Export includes 2,122 entries, selecting 645 C and 1,477 assembly functions. The extra entry is the same import/export count distinction encountered in the Sol review, not a reason to treat a function percentage as whole-game completion.
+
+We independently checked the supplied artifacts: database integrity passed, all 645 selected C files existed, and every matched target span agreed with the final ROM. Swapping the original v64 input into z64 order produced exactly the archived 12,582,912-byte rebuilt cartridge, with SHA-1 `da3f262dfb86cff1376c9a1aa081212e5a7aad64`. The final export reported no fallback selections. This review checked saved evidence; it did not independently recompile all 645 C files.
+
+### Setup Success and User Intervention
+Import succeeded without the BSS workaround because this tool revision included the importer fix. GitHub release downloads for KMC GCC, objdiff, and later the export's modern binutils failed with proxy `403` errors. The user supplied successful installation results outside the agent's restricted environment. Sonnet preserved the failure and checksums rather than bypassing validation. A missing compiler initially blocked matching; missing modern binutils later blocked the first export check.
+
+The tool checkout's source files matched the recorded revision. The archived checkout did contain packaging executable-mode differences and a rewritten dependency lockfile using the environment's package mirror. It was not a completely clean Git checkout, but the saved differences did not modify importer or judge source.
+
+The timeline on 24 October 2026, in BST, was:
+
+Checkpoint | Time | Elapsed from first user prompt
+---|---|---
+First prompt | 11:53:36 | Start
+Successful import recorded | 11:55:23 | About 1 minute 47 seconds
+Automatic matching | 12:01:14 to 12:03:45 | About 151 seconds for the pass
+First byte-identical export confirmed | By 12:08:46 | About 15 minutes 10 seconds
+552-function rebuild reported, then agent stopped | 12:13:04 | About 19 minutes 29 seconds
+User asked why work had stopped | 12:19:48 | About 26 minutes 12 seconds
+User objected again and requested added time | 12:21:18 | About 27 minutes 42 seconds
+645-function final rebuild reported | 12:36:46 | About 43 minutes 10 seconds
+
+The agent stopped early twice and required reminders to use the remaining time. It estimated the interruption compensation as 15 minutes and extended the budget to 45 minutes. That estimate is not a measured active-runtime correction. The original 30-minute point had 576 individually matched functions in the final database's timestamps, but the most recent completed full-ROM proof then covered 552. Do not describe the final 645 as a 30-minute result.
+
+### What Produced the Matching C
+The automatic pass reported **499 direct matches** and 296 near misses, while the database attributed **551 matches / 29,604 bytes** to autopilot. That 52-function difference is consistent with engine-level propagation being separate from the direct pass counter, but the supplied audit did not explain each extra match. The reliable final measurement comes from the database selection and complete rebuild, not from adding progress counters together.
+
+The later agent-directed work added **94 functions / 6,264 bytes** beyond the autopilot checkpoint. Successful fixes recovered untouched argument registers that m2c had omitted, completed missing lower-numbered parameters, and corrected pointer arithmetic scaled by an inferred element type. Sonnet recognized repeated wrapper patterns and used bounded scripts to apply and judge variants. These are tool-assisted results, not 645 functions written individually by the model.
+
+Relative to the earlier Abacus Sol result, Sonnet selected **42 more C functions and 1,704 more bytes**, about 5% more matched code bytes. Its automatic starting checkpoint was smaller than Sol's 603-function automatic/propagated result, but subsequent targeted work brought it ahead. That is useful practical evidence; differing tool revisions and time budgets still prevent a strict model ranking.
+
+### Reported Cost and API-Equivalent Estimate
+**The participant reported a session cost of $2.70.** The supplied transcript does not establish the provider billing breakdown, subscription plan, or how that reported charge was calculated. We keep it separate from the following Standard API-equivalent estimate.
+
+The JSONL contains 167 assistant records but only **74 distinct model message IDs**. Repeated records for a message carry identical usage; counting every record would overstate cost. Deduplicating by message ID gives:
+
+Recorded usage | Tokens
+---|---
+Ordinary input | 150
+Five-minute cache writes | 167,619
+Cached input reads | 7,674,435
+Output, including thinking | 51,645
+Thinking already included in output | 14,795
+
+At published Sonnet 5.5 Standard rates of $2 per million ordinary input tokens, $2.50 for five-minute cache writes, $0.10 for cache reads, and $10 for output, those records imply approximately **$1.70 API-equivalent**. About **$1.66** is attributable to messages through the final result; the remainder includes the later archive/export request. Thinking is not charged a second time. The usage records report Standard service and no server-side web searches or fetches. Local compiler CPU time is excluded [^21].
+
+The **reported $2.70** and **calculated $1.70 API equivalent** are different measurements. The archive does not explain their difference, so we do not invent a surcharge or equate either figure to subscription allowance use. This makes Sonnet useful evidence for initial-setup workflow and reported session spend, while Turok remains the comparison for equal-starting-checkpoint matching.
+
+---
 ## Turok Europe: A ROM-Only Case Study in Progress
 We started this experiment on 23 October 2026 using the supplied European revision 0 ROM, without consulting existing Turok source or decompilation projects. **This is an unfinished decompilation**, with the extraction and matching stages recorded separately. These measurements describe this exact input, not every Turok release.
 
@@ -763,3 +839,5 @@ A bounded three-minute mutation pass tested 16,208 candidate rewrites, improving
 
 [^19]: [OpenAI API pricing](https://developers.openai.com/api/docs/pricing), Standard and Fast token rates, cache-write rates, and Priority/Fast naming; checked 24 October 2026. Costs in this article are estimates applied to local agent usage records, not subscription charges.
 [^20]: OpenAI model pricing pages for [GPT-5.6 Terra](https://developers.openai.com/api/docs/models/gpt-5.6-terra), [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol), [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra), and [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna), cached-input and output rates and applicable long-context multipliers; checked 24 October 2026.
+
+[^21]: [Anthropic Sonnet 5.5 model documentation](https://platform.claude.com/docs/en/models/sonnet-5-5/overview), Standard input, output, five-minute cache-write, and cache-read pricing; checked 24 October 2026. The API-equivalent estimate uses deduplicated supplied session usage, separately from the participant-reported $2.70 cost.
