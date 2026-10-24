@@ -40,14 +40,8 @@ https://github.com/RetroReversing/decompdecomp
 Record the exact commit used. Read README and AGENTS.md, detect my OS,
 and use supported tools in a new dedicated workspace. Preserve my ROM
 and existing projects. Reuse verified installed tools where suitable.
-Ask before installing a proprietary compiler; do not accept its license
-for me. Create workspace and database parent directories before import.
+Create workspace and database parent directories before import.
 Disable app windows, tray, updates, and agent discovery for isolated work.
-
-Work from my ROM. Do not consult existing game source, other game
-decompilation projects, leaked code, or source-derived maps. Tool code
-and generic hardware/format documentation are allowed. Keep my ROM,
-extracted binaries, disassembly, and recovered C local.
 
 Keep this first session within 30 minutes of wall time, including setup.
 Use one agent unless I ask for delegation. After required instructions,
