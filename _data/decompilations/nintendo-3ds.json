@@ -322,7 +322,25 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Ocarina ReTuned",
+              "url": "https://github.com/OTPR26/Ocarina-ReTuned",
+              "platforms": [
+                "Windows",
+                "macOS",
+                "Linux",
+                "Android",
+                "iOS",
+                "tvOS"
+              ],
+              "description_markdown": "Preview fork of TriAevum with Ocarina ReFramed single-screen gameplay, touch controls and local ROM preparation. Requires a supported decrypted USA ROM; other regions and revisions are unsupported. iOS and tvOS require preparation on a Mac with Xcode and local signing. Downloaded previews have iCloud sync disabled; Mac and Linux setup need external build tools.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Static recompilation",
