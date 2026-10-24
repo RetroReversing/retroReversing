@@ -115,6 +115,25 @@
       },
       "ai_used": null
     },
+    "klonoa-empire-of-dreams-kleod": {
+      "name": "Klonoa: Empire of Dreams (kleod)",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/testyourmine/kleod",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-10-21T22:31:40Z",
+        "last_commit_url": "https://github.com/testyourmine/kleod/commit/b056011a415f7b67f00155e0e9a5d3b0d0afd06b",
+        "default_branch": "main",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 19
+      },
+      "ai_used": null
+    },
     "klonoa-empire-of-dreams": {
       "name": "Klonoa: Empire of Dreams",
       "platforms": [
@@ -2066,10 +2085,10 @@
           ]
         },
         {
-          "project": "klonoa-empire-of-dreams",
+          "project": "klonoa-empire-of-dreams-kleod",
           "name_markdown": "[Klonoa: Empire of Dreams](https://github.com/testyourmine/kleod)",
           "images": [],
-          "notes_markdown": "USA-version decompilation. The README identifies the target ROM SHA-1; completion percentage is not reported.",
+          "notes_markdown": "testyourmine's USA-version decompilation (kleod), separate from Dream-Atelier's project. The README identifies the target ROM SHA-1; no completion percentage is imported.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -2077,7 +2096,7 @@
           "project_types": [
             {
               "name": "Decompilation",
-              "url": "https://github.com/Dream-Atelier/kl-eod-decomp"
+              "url": "https://github.com/testyourmine/kleod"
             }
           ]
         },

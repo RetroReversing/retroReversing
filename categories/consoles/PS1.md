@@ -32,7 +32,7 @@ videocarousel:
     image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
     youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2019-11-11'
+updatedAt: '2026-10-24'
 tags:
   - ps1
 ---
@@ -91,6 +91,14 @@ Tony Hawk's Pro Skater 1+2 | PS4/5, Switch, XboxOne | Remade in Unreal Engine 4
 Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
 This list also doesn't include projects such as **PS one Classics** as they were just emulations of the original PS1 games running on a more modern console and not either a source port or a full remake.
 
+---
+### Dino Crisis Modern Edition
+Rotmill's [Dino Crisis Modern Edition](https://github.com/Rotmill/Dino-Crisis-Modern-Edition) is a fan mod that rebuilds the PS1 game from the user's own disc image into a native Windows program.
+It adds an over-the-shoulder camera, updated controls and quality-of-life settings. The project's setup translates game code to C using the psxrecomp framework and builds it locally; this is not a claim that a matching decompilation has been completed [^7].
+
+The repository and installer contain no original game files. See the project's supported-disc list before attempting a build, and do not redistribute the generated game program [^7].
+
+---
 ## Tool-Assisted-Speedruns (TAS) for PS1
 In this video EZScape demonstrates a few speed runs for PS1 games that could never be possible by humans as they require changing the controller input every single frame. He shows techniques such as Zig-zagging in Crash Bandicoot, Pac-Man World and Spyro 3.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZchqpHU_Hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -300,3 +308,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^4]: [What's inside a Playstation? - YouTube](https://www.youtube.com/watch?v=JqeFT67U-xo&feature=player_embedded)
 [^5]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
 [^6]: [ www.raphnet.net/electronique/psx_adaptor/Playstation.txt](http://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
+[^7]: [Rotmill, Dino Crisis Modern Edition README](https://github.com/Rotmill/Dino-Crisis-Modern-Edition), features, build process and disc requirements, consulted 24 October 2026.

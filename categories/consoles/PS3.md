@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 tags:
   - ps3
-updatedAt: '2026-10-20'
+updatedAt: '2026-10-24'
 ---
 
 # Introduction
@@ -54,6 +54,14 @@ For someone examining a game, this means PowerPC disassembly alone may miss the 
 
 The handbook documents the hardware rules. For a compact, hands-on companion, MIT's [Cell Programming Mini-Reference](https://groups.csail.mit.edu/cag/ps3/cellminiref.shtml) covers DMA alignment, mailboxes and SPE thread behavior [^3].
 Its examples use the Linux Cell programming environment, so its `libspe` calls should not be mistaken for the licensed PS3 game SDK; the [PS3 Linux programming notes](https://www.kernel.org/pub/linux/kernel/people/geoff/cell/ps3-linux-docs/ApplicationProgrammingEnvironment.html) spell out that environment's toolchain [^3].
+
+---
+### White Knight Chronicles Recompilation Example
+WK2D's [White Knight Chronicles II Recomp](https://github.com/WK2D/White-Knight-Chronicles-2-Recomp) illustrates the separate work needed for SPU code. Despite the project's name, its initial testing focuses on White Knight Chronicles I, which is included on the sequel's disc.
+The project translates game code ahead of time and implements the required PS3 services in a runtime. Its SPU work combines compiled jobs with readable, project-written C++ replacements; replacement coverage remains partial [^11].
+
+The README reports starting-town rendering, short movement and save/load tests, not a complete playable game. Combat, sustained traversal and a full playthrough remain unverified.
+Building requires the user's own USA BLUS30784 version 01.00 disc files; game files and generated game sources are not included in the repository [^11].
 
 ---
 # Game Development
@@ -113,3 +121,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^8]: [Whatcookie, RPCS3 optimizations on ARM64: What Didn't Make the Cut](https://whatcookie.github.io/posts/rpcs3-on-arm64-what-didnt-make-the-cut/), discussion of `WFE` behavior.
 [^9]: [Cédric Perthuis, Introduction to the Graphics Pipeline of the PS3](https://download.swiborg.com/dev/pdf/graphics-pipeline-of-the-ps3.pdf), Sony Computer Entertainment Research and Development, pp. 4, 8 and 12.
 [^10]: [Sony Computer Entertainment, Sony Computer Entertainment to Acquire SN Systems](https://sonyinteractive.com/en/press-releases/2005/sony-computer-entertainment-to-acquire-sn-systems/), 21 July 2005.
+[^11]: [WK2D, White Knight Chronicles II Recomp README](https://github.com/WK2D/White-Knight-Chronicles-2-Recomp), status, SPU execution model and build requirements, consulted 24 October 2026.

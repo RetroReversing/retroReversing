@@ -21,7 +21,7 @@ recommend:
  - ps2
  - ps1
  - introduction
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-24'
 ---
 
 # Introduction
@@ -149,6 +149,31 @@ The most valuable reverse engineering projects tend to be the **platform exclusi
 Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStation 2-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_2-only_games)
 
 ---
+## Matching Decompilation Research
+The [Digital Devil Saga 1 and 2 project](https://github.com/Megami-Decomps/dds-decomp) reconstructs readable source for the USA PS2 executables and checks rebuilt executables against retail SHA-1 hashes.
+Unfinished functions use assembly extracted from the original executable, so a matching build is not evidence that all code has been recovered. The project explicitly describes itself as research, not a playable port, and requires the user's own game files [^9].
+
+[ChronicleTwo](https://github.com/TheMoonPeople/ChronicleTwo) reconstructs Dark Chronicle, also known as Dark Cloud 2.
+Its documented PAL build checks the rebuilt executable against retail and supports objdiff comparisons; a separate native-port target is also provided. These build targets should not be confused with an independently verified completion or full-game compatibility claim. The build requires the user's own PAL disc image [^10].
+
+---
+## Static Recompilation Projects
+Static recompilation translates game code ahead of time for a different host processor. It does not by itself establish a completed matching decompilation or remove the need to reproduce console hardware behavior.
+
+### God Hand
+LasVola's [God Hand Recompiled](https://github.com/LasVola/godhand-recomp) uses PS2Recomp to translate the main executable to C++, with function names and boundaries from LucasPicoli's `god-hand-decomp` project.
+Its README reports side-by-side testing with a real PS2 through stage 2 and part of stage 3. Later stages, final bosses and the ending remain untested in the documented progress report.
+The project requires the user's own USA disc image and includes no game data [^7].
+
+---
+### Gran Turismo 4
+The [moesuito GT4Recomp fork](https://github.com/moesuito/gt4-staticrecomp), forked from [Kaezzey's project](https://github.com/Kaezzey/gt4-staticrecomp), documents ahead-of-time translation of Emotion Engine code and VU0/VU1 microprograms to native code.
+Graphics use the PCSX2 GSdx renderer in a separate process, while other PS2 hardware behavior is reproduced in software. This is a hybrid recompilation, not a claim of zero emulation [^8].
+
+The maintainers report full-speed 60 FPS in their tested scenes, but long sessions, some graphics features and broader GPU coverage remain incompletely tested.
+Setup requires the user's own Gran Turismo 4 USA v2.00 disc image (SCUS-97328); the repository does not provide game files [^8].
+
+---
 # Software Development Kits
 
 ## Official Software development kit
@@ -260,3 +285,7 @@ The magazine index collects developer interviews tagged for this system across a
 [^4]: [GDC 2004 Evolve](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
 [^5]: Postmortems from Game Developer (Austin Grossman, 2003) Page 299
 [^6]: [decomp.wtf - ELF overlay handling and IOP exclusions](https://github.com/i12bp8/decomp.wtf/blob/main/src/decompnet/rom/overlays.py).
+[^7]: [LasVola, God Hand Recompiled README](https://github.com/LasVola/godhand-recomp), progress, implementation and credits, consulted 24 October 2026.
+[^8]: [moesuito, GT4Recomp README](https://github.com/moesuito/gt4-staticrecomp), implementation, performance, known issues and requirements, consulted 24 October 2026.
+[^9]: [Megami-Decomps, Digital Devil Saga 1 and 2 README](https://github.com/Megami-Decomps/dds-decomp), matching-build scope and assembly fallbacks, consulted 24 October 2026.
+[^10]: [TheMoonPeople, ChronicleTwo README](https://github.com/TheMoonPeople/ChronicleTwo), PAL build, objdiff and native-port targets, consulted 24 October 2026.
