@@ -1,0 +1,8 @@
+.post .oman-archive__pixel-art {
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.post .oman-archive__pixel-art img {
+  image-rendering: pixelated;
+}

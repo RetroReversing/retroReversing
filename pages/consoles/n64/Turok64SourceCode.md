@@ -91,6 +91,10 @@ The `rom.rnc` image is a surviving result; `PR/tengine/spec` is the build plan. 
 # Development environment
 The archive mixes Iguana's game files with Nintendo's `PR` SDK tree. The game files show how Turok worked; the neighboring SDK samples and libraries show the tools available to its programmers.
 
+The `PR/README_DEMOS` names 35 sample projects. A [separate guide to the N64 SDK demos](/n64-sdk-demos) explains their techniques and compares their files with the Oman `APPS` tree.
+
+{% include_cached link-to-other-post.html post="/n64-sdk-demos" description="Compare the Turok and Oman sample trees with four packaged N64 OS releases and learn what the demos do." %}
+
 ## Nintendo 64 SDK and ROM layout
 `PR/tengine/Makefile` includes `$(ROOT)/usr/include/make/PRdefs` from [Nintendo's official N64 SDK](/n64-sdk). The adjacent `spec` file defines boot code, audio and display-list memory, frame buffers, a cartridge cache, a Z-buffer, raw data segments, and the main code segment. It also names Nintendo microcode objects such as `gspF3DEX.NoN.fifo.o`.
 
@@ -104,6 +108,10 @@ flowchart LR
 ```
 
 The diagram traces the roles of these files. The `Makefile` contains commented final-build commands, so the archive does not establish that the retail game can be rebuilt without changes.
+
+The SDK overview places these build files beside the operating-system libraries and tools they depend on:
+
+{% include_cached link-to-other-post.html post="/n64-sdk" description="See the official N64 SDK's libraries, tools, operating-system releases, and development-disc history." %}
 
 ## Workstations and authoring tools
 Iguana combined **SGI test hardware**, an **in-house world editor**, 3D modeling and motion capture, and a separate music workflow. The hardware photo and software screens below are representative; only the documentary frame shows Acclaim's own workspace.
@@ -123,6 +131,10 @@ Iguana combined **SGI test hardware**, an **in-house world editor**, 3D modeling
 
 The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**. An `src/X11` folder exists, but does not identify the desktop the team used. The `PR/man/F3DEX/README` date of **15 October 1996** belongs to F3DEX microcode release 1.00, not the entire SDK. The game files use Nintendo headers, libraries, and microcode; no separate third-party SDK has been identified in those files.
 
+The development-hardware guide shows the SGI board and later devices such as the Doctor V64 mentioned below:
+
+{% include_cached link-to-other-post.html post="/official-n64-devkit" description="Compare the SGI Indy development board with other N64 hardware, including the Doctor V64 visible in later Acclaim footage." %}
+
 ---
 ### World building and character animation
 <section class="rr-game-media-row">
@@ -140,6 +152,8 @@ The SDK release notes in `PR/relnotes` discuss **IRIX 5.3 and 6.2**. An `src/X11
 </section>
 
 Omelchuck recalled the software as "3D Studio Max v4" [^10]. Autodesk's records put **3D Studio Release 4** in 1994, **3D Studio MAX** on sale by January 1997, and **3ds max 4** in use by January 2001 [^21] [^22] [^23]. That last version postdates Turok's launch, so the exact version behind the recollection remains uncertain. The wider range of [N64 3D modeling software](/n64-3d-modelling) gives this tool choice context.
+
+{% include_cached link-to-other-post.html post="/n64-3d-modelling" description="Explore the modeling and conversion tools available to N64 artists, including 3D Studio and MultiGen." %}
 
 ---
 ### Music, samples, and compression
@@ -164,6 +178,10 @@ Mitchell said the producer described each level's creatures and atmosphere befor
 </section>
 
 **Two audio banks.** The ROM build plan places music and sound effects in separate [N64 sound-bank](/n64sound#n64-sound-banks) pairs. A `.ctl` file describes instruments and sounds; its matching `.tbl` holds the sample bytes that the audio engine plays. In `audio.c`, `alBnkfNew` connects each control bank to its sample table.
+
+The N64 sound guide explains the control-bank and sample-table format in more detail:
+
+{% include_cached link-to-other-post.html post="/n64sound" description="Learn how N64 sound banks pair instrument and sound definitions in .ctl files with sample data in .tbl files." %}
 
 The loose audio files contain these banks:
 

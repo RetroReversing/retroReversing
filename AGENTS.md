@@ -6,5 +6,8 @@ Always read the entire file at ./codex/skills/retroreversing-contributing/SKILL.
 Do not do git operations by default because multiple changes may be made by different agents. An explicit user request may authorize the necessary git operations for that request, including committing changes and raising a pull request.
 When committing and pushing, always create a pull request for the branch if one is not already open.
 
+## Post preview images
+Preserve an existing valid `image` or `twitterimage` in post frontmatter. Check that the image loads before replacing it. Use `placeholderimages` and the generated preview only when the post has no valid curated preview image; do not replace a working image just to use the generator.
+
 ## CSS colours
 Always use design tokens from `public/css/variables.css` (`--rr-color-*`) for colours, borders, and surfaces. Do not hardcode hex/rgb values in new CSS unless no suitable token exists yet - add a token to `variables.css` instead. Tokens adapt to dark mode via `@media (prefers-color-scheme: dark)` and homepage feed overrides on `body.home-page`.
