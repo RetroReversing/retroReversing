@@ -144,11 +144,11 @@ Sol combined manual hypotheses with bounded local transformations and compiler f
 
 ---
 ## Turok Model Trials With and Without Source Access
-The first two timed continuations used **only the ROM and ROM-derived analysis**. For the next four trials, we explicitly gave agents access to existing Turok C source, headers, and original object files on disk. These later trials measure **source-assisted reconstruction, including reuse of original code**. Their gains must not be presented as decompilation from a ROM alone.
+The first two timed continuations used **only the ROM and ROM-derived analysis**. For the next five trials, we explicitly gave agents access to existing Turok C source, headers, and original object files on disk. These later trials measure **source-assisted reconstruction, including reuse of original code**. Their gains must not be presented as decompilation from a ROM alone.
 
 Every trial had a 30-minute matching window. Setup and final verification were outside that window. Coverage uses the same fixed denominator of **626,012 detected candidate-code bytes**, not the cartridge size. Accepted results below passed independent checks and a complete byte-identical original-cartridge rebuild; remaining functions still use assembly.
 
-The six verified results were:
+The seven verified results were:
 
 Model and reasoning effort | Inputs available | C functions before -> after | Matching bytes added | Coverage before -> after
 ---|---|---|---|---
@@ -158,6 +158,7 @@ GPT-6.1 Sol, low | ROM plus original source, headers, and objects | 886 -> 1,563
 GPT-6 Astra, low | ROM plus original source, headers, and objects | 1,563 -> 1,763 | 107,356 | 38.951% -> 56.100%
 GPT-6 Luna, low | ROM plus original source, headers, and objects | 1,763 -> 1,764 | 472 | 56.100% -> 56.175%
 GPT-6 Astra, high | ROM plus original source, headers, and objects | 1,763 -> 1,785 | 7,732 | 56.100% -> 57.335%
+GPT-6.1 Sol, high | ROM plus original source, headers, and objects | 1,763 -> 1,792 | 8,396 | 56.100% -> 57.441%
 
 The session records identify the source-assisted Sol run as low reasoning effort. "Light" in our earlier run descriptions means low effort, not a separate model. These trials are individual observations, not repeated benchmark averages.
 
@@ -173,8 +174,8 @@ Astra also replaced incompatible compiler-owned constants and initialized local 
 The source-assisted outputs remain separate from the ROM-only public work. This article reports measurements and methods; it does not distribute the original source or its derived private checkpoints.
 
 ---
-### Luna and Astra High From the Same Checkpoint
-Luna and Astra high both started from **1,763 functions and 351,192 matching bytes**. Astra high did not consult Luna's experiment artifacts. This is the closest comparison in this set, although it is still one run per setting with different agent decisions and no repeated trials.
+### Luna, Astra High, and Sol High From the Same Checkpoint
+Luna, Astra high, and Sol high each started from **1,763 functions and 351,192 matching bytes**. Astra high did not consult Luna's artifacts, and Sol high did not consult either later comparison run's artifacts or findings. All three had access to the original source, headers, objects, and the earlier checkpoint's prepared inputs. This is the closest comparison in this set, although it is still one run per setting with different agent decisions and no repeated trials.
 
 **Luna added one 472-byte function**, reaching 1,764 C functions and 56.175%. It recorded 19,253 candidate attempts. Several candidates matched in isolation but failed data-placement safety checks, so they received no credit. The one retained addition and complete cartridge rebuild passed.
 
@@ -182,7 +183,21 @@ Luna and Astra high both started from **1,763 functions and 351,192 matching byt
 
 The account hit a usage limit during Astra high's run. The resumed agent audited its workers and found that matching had continued through the interruption, so the original 30-minute cutoff was retained. All credited candidates were accepted before the deadline. Three in-flight checks finished milliseconds after cutoff during worker termination; none passed acceptance or received credit.
 
-Astra high therefore produced more verified code in the allotted time, while Luna was much cheaper in the API-equivalent calculation below. Their final percentages are alternative continuations from the same checkpoint; do not add their gains together without checking overlap and rebuilding the combined selection.
+**Sol high added 29 functions and 8,396 bytes**, reaching 1,792 C functions, 359,588 matching bytes, and **57.441%**. Its exact 30-minute matching window ran from **11:41:16 to 12:11:16 BST on 24 October 2026**. All 29 new functions passed independent compilation. The expanded image, normalized cartridge, and reconstructed original input byte order were byte-identical, with zero exclusions or automatic fallbacks. The final export selected 1,792 C functions and 613 assembly functions out of 2,405. Cartridge proof completed about **6 minutes 23 seconds** after cutoff, including final byte-order reconstruction.
+
+Sol independently found the unary-minus substitution-span problem and tested typed engine references and earlier positions for the inferred four-byte engine gap. It also handled integer literals promoted to floating point, cached repeated constant loads, and referenced existing vector and string data. Broad address products, many formatting and caching variants, and scalar static substitutions failed. No compiler, target, linker, or judging rules were changed to obtain the matches.
+
+For these three same-checkpoint trials, the whole-session Standard API-equivalent comparison is:
+
+Model and effort | New C functions | New matching bytes | Coverage gain | Estimated whole-session cost | Estimated cost per new function
+---|---|---|---|---|---
+GPT-6 Luna, low | 1 | 472 | 0.075 percentage points | $0.35 | $0.35
+GPT-6 Astra, high | 22 | 7,732 | 1.235 percentage points | $18.78 | $0.85
+GPT-6.1 Sol, high | 29 | 8,396 | 1.341 percentage points | $2.63 | $0.09
+
+**Sol high produced seven more functions and 664 more matching bytes than Astra high in this run, at about 86% lower estimated whole-session cost.** That is approximately 32% more functions but only 8.6% more code bytes, which illustrates why both measurements matter. Compared with Luna, Sol produced 29 times as many functions at about 7.5 times the estimated cost. The identical starting point improves this comparison, but one trial per model/effort does not establish a general ranking. Different candidate choices, search scripts, and local compiler throughput still influence the result. This also does not isolate the effect of high versus low effort: the earlier Sol low trial started from a different checkpoint.
+
+Sol high therefore produced the most verified code in the allotted time among these three trials, while Luna had the lowest total API-equivalent cost. Their final percentages are alternative continuations from the same checkpoint; do not add their gains together without checking overlap and rebuilding the combined selection.
 
 ---
 ### Rough API-Equivalent Costs
@@ -200,7 +215,8 @@ GPT-6.1 Sol, low | Yes | $2.76 | $3.51
 GPT-6 Astra, low | Yes | $17.91 | $22.61
 GPT-6 Luna, low | Yes | $0.26 | $0.35
 GPT-6 Astra, high | Yes | $14.67 | $18.78
-Total of these six trials | Mixed | $42.30 | $56.45
+GPT-6.1 Sol, high | Yes | $1.91 | $2.63
+Total of these seven trials | Mixed | $44.21 | $59.08
 
 Whole-session token counts used in the calculation were:
 
@@ -212,6 +228,7 @@ Sol low, source-assisted | 237,308 | 22,360,064 | 79,491
 Astra low, source-assisted | 185,507 | 17,336,960 | 68,414
 Luna low, source-assisted | 242,590 | 29,368,192 | 68,677
 Astra high, source-assisted | 173,551 | 14,493,184 | 50,988
+Sol high, source-assisted | 139,377 | 17,054,336 | 64,651
 
 These are processing totals across requests, including repeated context, not millions of unique source tokens. We used increments in the cumulative counters and discarded repeated counter events. Reasoning tokens are part of output usage and were not charged twice. Cached reads account for about **98.6% to 99.2% of input tokens** across these sessions.
 
@@ -224,11 +241,11 @@ GPT-6.1 Sol | $2.00 | $0.10 | $10.00
 GPT-6 Astra | $10.00 | $1.00 | $50.00
 GPT-6 Luna | $0.10 | $0.01 | $0.50
 
-For each request, we multiplied uncached input, cached reads, and output by their applicable rates and divided by one million. The estimate also applies the published long-context input/cache and output multipliers to the 41 requests above 272,000 input tokens in the ROM-only Sol session. That surcharge occurred outside its matching window [^19] [^20].
+For each request, we multiplied uncached input, cached reads, and output by their applicable rates and divided by one million. The estimate also applies the published long-context input/cache and output multipliers to the 41 requests above 272,000 input tokens in the ROM-only Sol session. That surcharge occurred outside its matching window. Sol high had no requests above that threshold; its recorded cache-write count was zero [^19] [^20].
 
-**Cache-write and service-tier uncertainty:** session records reported zero cache-write tokens, so the estimates charge non-cached input at the ordinary input rate. If those tokens were instead charged as default 30-minute cache writes at 1.25 times input pricing, the combined Standard estimate would rise by about $1.37. We cannot reconstruct an actual API invoice from these Codex records. The agent tool advertised Priority service; published Fast/Priority-equivalent pricing is generally twice Standard, making the six whole sessions roughly **$113** under that assumption. Neither figure is a claim about the amount charged by the subscription [^19] [^20].
+**Cache-write and service-tier uncertainty:** session records reported zero cache-write tokens, so the estimates charge non-cached input at the ordinary input rate. If those tokens were instead charged as default 30-minute cache writes at 1.25 times input pricing, the combined Standard estimate would rise by about $1.44. We cannot reconstruct an actual API invoice from these Codex records. The agent tool advertised Priority service; published Fast/Priority-equivalent pricing is generally twice Standard, making the seven whole sessions roughly **$118** under that assumption. Neither figure is a claim about the amount charged by the subscription [^19] [^20].
 
-**How to interpret value:** source-assisted Sol had the largest gain at low estimated cost, but it started earlier with easier opportunities. Astra high produced 22 functions versus Luna's one from the same checkpoint, while its whole-session Standard estimate was about 53 times higher. Luna's result was weak for progress per half hour, but its low price means that observation alone does not establish poor value per dollar. Keep wall time, verified code bytes, source access, starting checkpoint, and cost separate when choosing the next model.
+**How to interpret value:** source-assisted Sol low had the largest gain at low estimated cost, but it started earlier with easier opportunities. Sol high subsequently achieved the strongest measured progress per dollar among the three trials sharing the 56.100% starting checkpoint. Astra high produced 22 functions versus Luna's one from the same checkpoint, while its whole-session Standard estimate was about 53 times higher. Luna's result was weak for progress per half hour, but its low price means that observation alone does not establish poor value per dollar. Keep wall time, verified code bytes, source access, starting checkpoint, and cost separate when choosing the next model.
 
 ---
 ### Can Line Breaks Change the Generated Assembly?
