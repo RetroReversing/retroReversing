@@ -119,8 +119,9 @@ Model and effort | New C functions | New matching bytes | Final coverage | Stand
 GPT-6.1 Sol, high | 29 | 8,396 | 57.441% | $2.63
 GPT-6 Astra, high | 22 | 7,732 | 57.335% | $18.78
 GPT-6 Luna, low | 1 | 472 | 56.175% | $0.35
+GPT-6 Luna, high | 0 | 0 | 56.100% | $0.36
 
-**Sol high gave the best measured progress per dollar in this comparison.** It produced seven more functions than Astra high, but only 664 more code bytes, at about 86% lower estimated cost. Both function count and code size matter. Luna was cheapest overall, but made little progress in the half hour.
+**Sol high gave the best measured progress per dollar in this comparison.** It produced seven more functions than Astra high, but only 664 more code bytes, at about 86% lower estimated cost. Both function count and code size matter. Luna low was cheapest overall, but made little progress in the half hour. Luna high added no matches: its source-mapping probes failed the fixed comparison, and the unchanged baseline still rebuilt byte-identically. Increasing Luna's effort did not improve the result in these two trials; this does not establish a general high-versus-low rule.
 
 These were single trials with different agent decisions and search strategies. The result supports trying Sol high for another bounded session; it does not establish that Astra or Luna will perform the same way on another game. It also does not prove high effort beats low effort, because the earlier Sol low run started elsewhere.
 
@@ -164,7 +165,7 @@ The practical precaution is simple: **save the original candidate and recheck af
 ## What Did the Turok Sessions Cost?
 **These are API-equivalent estimates, not Codex subscription charges or measured subscription allowance usage.** They apply published Standard rates to recorded token usage. Whole-session estimates include setup, matching, verification, and reporting by the agent [^19] [^20].
 
-The seven completed trials measured so far were:
+The eight completed trials measured so far were:
 
 Model and effort | Existing source available? | Verified coverage change | 30-minute matching estimate | Whole-session estimate
 ---|---|---|---|---
@@ -175,13 +176,14 @@ GPT-6 Astra, low | Yes | 38.951% -> 56.100% | $17.91 | $22.61
 GPT-6 Luna, low | Yes | 56.100% -> 56.175% | $0.26 | $0.35
 GPT-6 Astra, high | Yes | 56.100% -> 57.335% | $14.67 | $18.78
 GPT-6.1 Sol, high | Yes | 56.100% -> 57.441% | $1.91 | $2.63
-Total spending estimate across these trials | Mixed | Alternative branches, not additive progress | $44.21 | $59.08
+GPT-6 Luna, high | Yes | 56.100% -> 56.100% | $0.24 | $0.36
+Total spending estimate across these trials | Mixed | Alternative branches, not additive progress | $44.45 | $59.44
 
-Coverage uses a fixed **626,012-byte detected-code denominator**, not the cartridge size. The final three rows are alternative continuations of the same checkpoint; do not add their gains together.
+Coverage uses a fixed **626,012-byte detected-code denominator**, not the cartridge size. The final four model rows are alternative continuations of the same checkpoint; do not add their gains together.
 
-**How we estimated cost:** count each usage event once, price cached reads separately, and include reasoning in output without charging it twice. Most input was reused cached context. We applied applicable long-context rates; recorded cache-write counts were zero. If uncached tokens instead incurred default cache-write rates, the combined estimate would rise by about $1.44. The matching-window split uses response timestamps and is approximate. Local CPU time, this parent chat, subscription fees, taxes, and separately billed tools are excluded.
+**How we estimated cost:** count each usage event once, price cached reads separately, and include reasoning in output without charging it twice. Most input was reused cached context. We applied applicable long-context rates; recorded cache-write counts were zero. If uncached tokens instead incurred default cache-write rates, the combined estimate would rise by about $1.45. The matching-window split uses response timestamps and is approximate. Local CPU time, this parent chat, subscription fees, taxes, and separately billed tools are excluded.
 
-The agent tool advertised Priority service. At published Fast/Priority-equivalent rates, these whole sessions would be roughly **$118**, rather than $59. Neither estimate reconstructs a subscription bill [^19] [^20].
+The agent tool advertised Priority service. At published Fast/Priority-equivalent rates, these whole sessions would be roughly **$119**, rather than $59. Neither estimate reconstructs a subscription bill [^19] [^20].
 
 For Sonnet's V-Rally session, repeated transcript records were deduplicated by message ID. Published rates applied to ordinary input, cache writes, cached reads, and output gave approximately **$1.70 API equivalent**, separately from the participant's **$2.70 reported cost**. The archive does not explain that difference [^21].
 
