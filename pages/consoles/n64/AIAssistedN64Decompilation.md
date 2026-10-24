@@ -16,13 +16,26 @@ breadcrumbs:
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
 updatedAt: '2026-10-24'
-excerpt: 'Start N64 matching decompilation with one copyable prompt. Compare Sol, Astra, Luna, and Kimi results, source access, verified progress, and API-equivalent costs.'
+excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then use a copyable agent prompt and compare verified model results and costs.'
 ---
 
 # AI Assisted N64 Decompilation Tutorial
-**Install Codex or Claude Code, supply your N64 ROM, and paste the starter prompt below.** The agent sets up our decompdecomp fork and begins testing C against the original game bytes. Your first goal is a verified checkpoint, not a finished PC port.
+**Start with your own N64 ROM in decompdecomp.** Its local autopilot can find matches without spending AI tokens. When that pass finishes, use Codex or Claude Code and the starter prompt below for harder functions. Your first goal is a verified checkpoint, not a finished PC port.
 
-Start with the copyable prompt. Then use the model comparison to decide where to spend your next session. The practical sections explain how to check the output; the findings explain what mattered in our Turok and V-Rally trials.
+You can also give the ROM directly to an agent and let it handle setup. The model comparison helps decide where to spend your next session; our Turok and V-Rally results show what each path produced.
+
+## Start in the App Without AI Tokens
+[Install the RetroReversing decompdecomp fork](https://github.com/RetroReversing/decompdecomp#install), open the app, and select **New project**. Supply your own ROM, confirm that you own it, choose the compiler when prompted, and select **Start decompiling**. The screenshot shows the V-Rally import screen just before that step.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-new-project.png" alt="decompdecomp's New project screen with a V-Rally N64 ROM selected, the compiler menu, and the Start decompiling button" width="1445" height="951" size="document" title="Start with the local app" caption="Select your ROM and compiler, then let the automatic matching pass run before starting an AI agent." %}
+
+Let the app import the game and finish its **free matches** pass before opening **Agents & models**. Its local tools draft C and check it against the game's bytes; this stage uses **zero AI model tokens**. It still takes computer time, and setup may need free tool downloads or your explicit acceptance of a proprietary compiler license. Record the matches and save or export a checkpoint. Then start an agent for the functions the automatic pass could not match. The amount of free progress varies by game and compiler [^16].
+
+In our separate app run on V-Rally, the automatic draft pass reported **469 matches**. The project overview then showed **551 of 2,101 functions matched**, or **5.26% of detected code**, with **zero agents started**. The other 82 matches came from the app's automatic reuse of matching code on identical functions. This screenshot is the result after the free local stage; it is a different run from the model sessions in the table below.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.png" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
+
+If you prefer the agent to handle setup too, follow the prompt route below. Both routes use decompdecomp's matching engine; do not count the app's automatic matches as extra model-produced work.
 
 ## Quick Start with Your ROM and One Prompt
 Use an agent that can run commands and read files on your computer. Follow these steps:
@@ -234,7 +247,7 @@ For an existing decompilation, follow its own agent and contribution rules. [Bod
 ## Other Ways to Get Started
 **Try one function in the browser:** [decomp.me](https://decomp.me) provides a target, candidate C, context, and compiler settings in a scratch. Fork a short function, ask the agent for one small change, and run the real comparison. Its difference score falls toward zero as the candidate improves [^1].
 
-**Set up decompdecomp yourself:** follow the [RetroReversing fork's README](https://github.com/RetroReversing/decompdecomp). On macOS, the installer creates the app; complete Compilers & tools, import your ROM, run autopilot, then start one helper. IDO installation requires explicit license acceptance. Export a checkpoint and check how much C the build actually uses [^16].
+**Use the app first:** follow [the no-token app walkthrough](#start-in-the-app-without-ai-tokens) above, then connect an agent after the local pass finishes [^16].
 
 **Use REA for analysis:** [REA](https://github.com/isTurn/REA) connects agents to supported Ghidra, Hopper, or IDA analysis. Its documented raw-binary loader does not support big-endian MIPS N64 ROMs, so use a supported import path rather than assuming generic Ghidra support makes the wrapper suitable. Analysis output still needs compiler verification for a matching decompilation [^13] [^14].
 
