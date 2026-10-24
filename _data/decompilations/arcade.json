@@ -30,12 +30,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:27:44Z",
-        "last_commit_url": "https://github.com/alphanu1/daytona-arcade-recomp/commit/32967f60c01c1753b329dc4a3e943c4e1275006b",
+        "last_commit_at": "2026-10-23T19:42:19Z",
+        "last_commit_url": "https://github.com/alphanu1/daytona-arcade-recomp/commit/f32c48ff9b9bb41ecc7a25d9998c281b9bd0952c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 220
+        "github_stars": 222
       },
       "ai_used": null
     },
@@ -54,7 +54,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 22
+        "github_stars": 23
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 159
+        "github_stars": 160
       },
       "ai_used": null
     },
@@ -220,8 +220,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:31:07Z",
-        "last_commit_url": "https://github.com/naari3/mkgp2-decomp/commit/a73126b8b3e3894b26c85693eabe4f34ba194c7b",
+        "last_commit_at": "2026-10-23T19:06:20Z",
+        "last_commit_url": "https://github.com/naari3/mkgp2-decomp/commit/9cfb1d413486f21068a693f63c6a9841265a2cc0",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -320,7 +320,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 44
+        "github_stars": 45
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 80
+        "github_stars": 81
       },
       "ai_used": null
     },
@@ -377,7 +377,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 246
+        "github_stars": 249
       },
       "ai_used": null
     },
@@ -429,12 +429,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T22:27:47Z",
-        "last_commit_url": "https://github.com/mr-finster/vf1-recomp/commit/ae7d6f60baa0b81a9c3cf9d604cd5cc6aaae107f",
+        "last_commit_at": "2026-10-24T05:35:19Z",
+        "last_commit_url": "https://github.com/mr-finster/vf1-recomp/commit/df9d7966d83be243ef38035683b9a276c6cb6ab8",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 58
+        "github_stars": 61
       },
       "ai_used": null
     },
@@ -448,8 +448,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T08:37:58Z",
-        "last_commit_url": "https://github.com/celsowm/vf2-decomp/commit/ff4b38d775d2ea52279662f2511aadbd6ab992b2",
+        "last_commit_at": "2026-10-24T04:04:02Z",
+        "last_commit_url": "https://github.com/celsowm/vf2-decomp/commit/83ca4835ce783dd0bc347ced4dbaf455886ef3bf",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -467,12 +467,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T05:23:36Z",
-        "last_commit_url": "https://github.com/mr-finster/vf2-recomp/commit/dfb19d6862228542fa908618a4cd990c56d70335",
+        "last_commit_at": "2026-10-24T03:58:52Z",
+        "last_commit_url": "https://github.com/mr-finster/vf2-recomp/commit/689ee98a1608d45792300bdaef09efe117adfc3f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 63
+        "github_stars": 65
       },
       "ai_used": null
     },
@@ -491,7 +491,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 36
+        "github_stars": 40
       },
       "ai_used": null
     },

@@ -73,7 +73,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 731
+        "github_stars": 732
       },
       "ai_used": null
     },
@@ -92,7 +92,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 2539
+        "github_stars": 2540
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -448,12 +448,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:52:46Z",
-        "last_commit_url": "https://github.com/kirby-letsgo/oracles-decomp/commit/310c2b5fbb29c91c936221fbf762c899a341a363",
+        "last_commit_at": "2026-10-23T21:30:44Z",
+        "last_commit_url": "https://github.com/kirby-letsgo/oracles-decomp/commit/0ad90d04a8cc257206457440930811834c053d13",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 91
+        "github_stars": 93
       },
       "ai_used": null
     },
@@ -505,8 +505,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T23:02:58Z",
-        "last_commit_url": "https://github.com/gerbiljames/mario-tennis-gbc-disasm/commit/7f9ab5e7d040c5f867cd67aa732b1d99b56b2c21",
+        "last_commit_at": "2026-10-23T19:14:17Z",
+        "last_commit_url": "https://github.com/gerbiljames/mario-tennis-gbc-disasm/commit/85319c1161204eb9afa56124238f666fc64c3056",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -524,8 +524,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T07:05:51Z",
-        "last_commit_url": "https://github.com/Medabots/medarot3/commit/fa729f89a9404b29b8569a649cd68d261fdb4c38",
+        "last_commit_at": "2026-10-24T07:13:22Z",
+        "last_commit_url": "https://github.com/Medabots/medarot3/commit/b1adb631d2e7ae9e8dfad7000f2f47a9952307c8",
         "default_branch": "tr_EN",
         "archived": false,
         "status": "Active",
@@ -567,7 +567,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 410
+        "github_stars": 414
       },
       "ai_used": null
     },
@@ -605,7 +605,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1678
+        "github_stars": 1679
       },
       "ai_used": null
     },
@@ -643,7 +643,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 7
+        "github_stars": 8
       },
       "ai_used": null
     },

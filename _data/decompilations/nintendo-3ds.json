@@ -92,7 +92,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 549
+        "github_stars": 554
       },
       "ai_used": null
     },
@@ -126,8 +126,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 9,
-        "last_commit_at": "2026-10-23T06:56:14Z",
-        "last_commit_url": "https://github.com/RedShyGuy/acnl-decomp/commit/7696d28929d6cb7e0539e9f5b41957b53f7ff90c",
+        "last_commit_at": "2026-10-23T12:25:53Z",
+        "last_commit_url": "https://github.com/RedShyGuy/acnl-decomp/commit/d04fe6e9cecd5ded0a315876cf6bf216a0d23aff",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -168,7 +168,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 10
+        "github_stars": 11
       },
       "ai_used": null
     },
@@ -206,7 +206,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 22
       },
       "ai_used": null
     }

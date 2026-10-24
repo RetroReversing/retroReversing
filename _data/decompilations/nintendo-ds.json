@@ -30,12 +30,12 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-19T18:22:23Z",
-        "last_commit_url": "https://github.com/DQIX/dqix-decomp/commit/92731c20ce3b144815630e03c3ce8e2c126fb734",
+        "last_commit_at": "2026-10-23T21:47:05Z",
+        "last_commit_url": "https://github.com/DQIX/dqix-decomp/commit/1253a35daacdaceb813d7fdba28ef77c7dbd0855",
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 51
+        "github_stars": 52
       },
       "ai_used": null
     },
@@ -73,7 +73,7 @@
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -111,7 +111,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 735
+        "github_stars": 739
       },
       "ai_used": null
     },
@@ -130,7 +130,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "pc_port",
-        "github_stars": 129
+        "github_stars": 130
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 115
+        "github_stars": 116
       },
       "ai_used": null
     },
@@ -220,12 +220,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T02:31:49Z",
-        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/6dc1499e3127176d4cb34f41c01ee62e1d98808a",
+        "last_commit_at": "2026-10-24T03:43:07Z",
+        "last_commit_url": "https://github.com/pret/pokeplatinum/commit/be36a9db3d2390a5009adc087c7aef550ce335e7",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 582
+        "github_stars": 584
       },
       "ai_used": null
     },
@@ -525,7 +525,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 101,
+        "github_stars": 102,
         "last_commit_at": "2026-10-11T14:41:13Z",
         "last_commit_url": "https://github.com/Yokimitsuro/khdays-decomp/commit/261a89eaa8f65dd566ae0828b0b57c85c847a6ee",
         "default_branch": "main",
@@ -583,8 +583,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 3,
-        "last_commit_at": "2026-10-23T06:03:15Z",
-        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/bdca9b1a84de26d84070d717d0596507a256f700",
+        "last_commit_at": "2026-10-24T05:48:53Z",
+        "last_commit_url": "https://github.com/dothacktranslate/okamiden-decomp/commit/35aaa04e792e9b92252c402046d98439f14f8f72",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -602,8 +602,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 14,
-        "last_commit_at": "2026-10-23T08:05:00Z",
-        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/606bee17fde947ce6317f700af0453cb2044432a",
+        "last_commit_at": "2026-10-23T23:55:19Z",
+        "last_commit_url": "https://github.com/kh-recoded-decomp/kh-recoded-decomp/commit/2feef0eab5fb05efadda6be45082187779818539",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -621,7 +621,7 @@
       "legacy_status": null,
       "activity": {
         "last_commit_at": "2026-10-14T16:24:51Z",
-        "last_commit_url": "https://github.com/6elphegor/acww-decomp/commit/4e54d6abbd696a43213b0c600e7f466cf7b22f32",
+        "last_commit_url": "https://github.com/7ucina/acww-decomp/commit/4e54d6abbd696a43213b0c600e7f466cf7b22f32",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -639,12 +639,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T17:49:53Z",
-        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled/commit/793a40ea08a703ae36d41bba263782d541ae2bdb",
+        "last_commit_at": "2026-10-23T17:18:20Z",
+        "last_commit_url": "https://github.com/GoldieLeGenie/DQIV-Recompiled/commit/d33f26238e2f1ede995ca55cebccbf7ec8af15fe",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 48
+        "github_stars": 49
       },
       "ai_used": null
     },
@@ -682,7 +682,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -720,7 +720,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 48
+        "github_stars": 50
       },
       "ai_used": null
     },
@@ -739,7 +739,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 48
+        "github_stars": 50
       },
       "ai_used": null
     },
@@ -772,12 +772,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-14T01:39:02Z",
-        "last_commit_url": "https://github.com/zeldaret/st/commit/048ffeaaaae4137aa258e2ecb3e9bf996c98d435",
+        "last_commit_at": "2026-10-23T19:38:03Z",
+        "last_commit_url": "https://github.com/zeldaret/st/commit/8b757595f4466b616496ca387d69f376f8bd4353",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 70
+        "github_stars": 71
       },
       "ai_used": null
     },
@@ -810,12 +810,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-04T03:59:00Z",
-        "last_commit_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp/commit/9c2d1e00d67968ccbd7eb9f9979d16589401f597",
+        "last_commit_at": "2026-10-24T08:17:03Z",
+        "last_commit_url": "https://github.com/mstan/MetroidPrimeHuntersRecomp/commit/3f5e1951f16f3b82a483146ae0163b7fa05e9c29",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 265
+        "github_stars": 266
       },
       "ai_used": null
     },
@@ -834,7 +834,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 37
+        "github_stars": 38
       },
       "ai_used": null
     },
@@ -848,12 +848,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:06:52Z",
-        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/b62c655bfa13f3b2c2c7dea09fda9837b6adffa6",
+        "last_commit_at": "2026-10-24T03:38:15Z",
+        "last_commit_url": "https://github.com/fuddlesworth/pokebw2/commit/e522642f9ec496783642df075f05fcd07d3cbc1b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 49
+        "github_stars": 52
       },
       "ai_used": null
     },
@@ -924,8 +924,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:17:45Z",
-        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/ff124921483637f922b4da25c102fd263999f66a",
+        "last_commit_at": "2026-10-24T06:31:08Z",
+        "last_commit_url": "https://github.com/tangosdev/sm64ds-decomp/commit/c82dfa3d1996516133b173fa7e17b03d00952eba",
         "default_branch": "main",
         "archived": false,
         "status": "Active",

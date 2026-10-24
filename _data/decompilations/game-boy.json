@@ -92,7 +92,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 5006
+        "github_stars": 5007
       },
       "ai_used": null
     },
@@ -107,8 +107,8 @@
       "legacy_status": null,
       "activity": {
         "status": "Active",
-        "last_commit_at": "2026-10-22T03:41:48Z",
-        "last_commit_url": "https://github.com/pret/pokeyellow/commit/b6696f24b3be84fe64cf702f5a15ba40c66b7f39",
+        "last_commit_at": "2026-10-24T04:55:22Z",
+        "last_commit_url": "https://github.com/pret/pokeyellow/commit/4cda94cf3bbc30f201b93bd5a7678f5279e0527e",
         "archived": false,
         "default_branch": "master",
         "github_stars": 896
@@ -429,12 +429,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T02:31:39Z",
-        "last_commit_url": "https://github.com/bryanthaboi/gen1recomp/commit/79ea62f45fb2ea8f65d081a109431e4eb1bbdb36",
+        "last_commit_at": "2026-10-23T21:31:59Z",
+        "last_commit_url": "https://github.com/bryanthaboi/gen1recomp/commit/535a5ec088c1ae1bf4d91dd3e35a56f64cf46d91",
         "default_branch": "dev",
         "archived": false,
         "status": "Active",
-        "github_stars": 4015
+        "github_stars": 4023
       },
       "ai_used": null
     },
@@ -510,7 +510,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -733,8 +733,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:26:48Z",
-        "last_commit_url": "https://github.com/GABRIELNNK/Bigodao/commit/00e2dbb4d8b9303a4d722dbf365d2e1b78b90001",
+        "last_commit_at": "2026-10-24T06:21:09Z",
+        "last_commit_url": "https://github.com/GABRIELNNK/Bigodao/commit/745d080f2a0991aed3be9cb3ca2368a19da1890a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",

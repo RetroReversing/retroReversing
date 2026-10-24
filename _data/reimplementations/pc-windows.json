@@ -49,12 +49,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T00:46:25Z",
-        "last_commit_url": "https://github.com/banteg/crimson/commit/b5dfe1571afb79b1e536b333ef26a381f23ecaec",
+        "last_commit_at": "2026-10-24T00:46:43Z",
+        "last_commit_url": "https://github.com/banteg/crimson/commit/424227e1efbdcc77efc5ed33e681439b8f8a3e7c",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 191
+        "github_stars": 192
       },
       "ai_used": null
     },
@@ -68,8 +68,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T02:33:23Z",
-        "last_commit_url": "https://github.com/doyaGu/Ballanced/commit/ef7bd696e4f0bd9a2c8775ae61a8d94db209102b",
+        "last_commit_at": "2026-10-24T02:24:36Z",
+        "last_commit_url": "https://github.com/doyaGu/Ballanced/commit/be42c19c95521e0bff4461063208b1221fdfe1ca",
         "default_branch": "sdl",
         "archived": false,
         "status": "Active",
@@ -92,7 +92,7 @@
         "default_branch": "miami",
         "archived": false,
         "status": "Active",
-        "github_stars": 443
+        "github_stars": 446
       },
       "ai_used": null
     },
@@ -206,7 +206,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 310
+        "github_stars": 312
       },
       "ai_used": null
     },
@@ -244,7 +244,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 120
+        "github_stars": 121
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 339
+        "github_stars": 340
       },
       "ai_used": null
     },
@@ -320,7 +320,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 57
+        "github_stars": 58
       },
       "ai_used": null
     },
@@ -339,7 +339,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 119
+        "github_stars": 121
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 158
+        "github_stars": 160
       },
       "ai_used": null
     },
@@ -372,12 +372,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T09:06:21Z",
-        "last_commit_url": "https://github.com/OpenRCT2/OpenRCT2/commit/0a5f145ae5e51afddb76fa6905d7d82656c4f604",
+        "last_commit_at": "2026-10-23T21:10:59Z",
+        "last_commit_url": "https://github.com/OpenRCT2/OpenRCT2/commit/47163dabbb7a13d1bf11e6c24e735c3d59201208",
         "default_branch": "develop",
         "archived": false,
         "status": "Active",
-        "github_stars": 16488
+        "github_stars": 16492
       },
       "ai_used": null
     },
@@ -396,7 +396,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 3413
+        "github_stars": 3414
       },
       "ai_used": null
     },
@@ -415,7 +415,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 2127
+        "github_stars": 2128
       },
       "ai_used": null
     },
@@ -448,8 +448,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-06T13:56:32Z",
-        "last_commit_url": "https://github.com/TheForceEngine/TheForceEngine/commit/d834210b836ae2381dacaa99479a7d1576c964df",
+        "last_commit_at": "2026-10-24T02:08:14Z",
+        "last_commit_url": "https://github.com/TheForceEngine/TheForceEngine/commit/6ae6d225c31e7623c5d1ab357f018b5577d83869",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -491,7 +491,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 317
+        "github_stars": 320
       },
       "ai_used": null
     },
@@ -529,7 +529,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 68
+        "github_stars": 71
       },
       "ai_used": null
     },
@@ -605,7 +605,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 372
+        "github_stars": 373
       },
       "ai_used": null
     },
@@ -638,12 +638,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T09:30:19Z",
-        "last_commit_url": "https://github.com/cxong/cdogs-sdl/commit/a388e3918c3a70e8a753a754f01ee21f8a31f28f",
+        "last_commit_at": "2026-10-24T06:57:22Z",
+        "last_commit_url": "https://github.com/cxong/cdogs-sdl/commit/c70d1feaf9d89cf80e23265b256d9a364848e6ea",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1098
+        "github_stars": 1097
       },
       "ai_used": null
     },
@@ -662,7 +662,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1144
+        "github_stars": 1151
       },
       "ai_used": null
     },
@@ -719,7 +719,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 191
+        "github_stars": 196
       },
       "ai_used": null
     },
@@ -757,7 +757,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 3543
+        "github_stars": 3544
       },
       "ai_used": null
     },
@@ -795,7 +795,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 2891
+        "github_stars": 2892
       },
       "ai_used": null
     },
@@ -904,12 +904,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T04:27:23Z",
-        "last_commit_url": "https://github.com/OpenMW/openmw/commit/25ae8f2b7e8f97dd05240a05a3c9033ca64896d5",
+        "last_commit_at": "2026-10-23T20:53:16Z",
+        "last_commit_url": "https://github.com/OpenMW/openmw/commit/4e718b500ffee6657db90297d7b8a08a57d439bc",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 6666
+        "github_stars": 6671
       },
       "ai_used": null
     },
@@ -961,8 +961,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T22:36:24Z",
-        "last_commit_url": "https://github.com/QW-Group/ezquake-source/commit/4f6441ed82b24344ebdf8ffdff169d42f5cd6ebf",
+        "last_commit_at": "2026-10-23T21:53:47Z",
+        "last_commit_url": "https://github.com/QW-Group/ezquake-source/commit/454058bc4e8dde73307e4269b52597a014bb0816",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1018,8 +1018,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T23:33:58Z",
-        "last_commit_url": "https://github.com/ihhub/fheroes2/commit/8501bd2f8e16a448919c2abdddfbaefe460671c7",
+        "last_commit_at": "2026-10-23T22:46:26Z",
+        "last_commit_url": "https://github.com/ihhub/fheroes2/commit/4ec9886825b198b6d0ec7ffc15c6b11ee76e9165",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1042,7 +1042,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -1094,12 +1094,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T03:26:14Z",
-        "last_commit_url": "https://github.com/freeciv/freeciv/commit/9d22256819e9d97f7037bc2b1727ef1021a07a1b",
+        "last_commit_at": "2026-10-24T07:40:38Z",
+        "last_commit_url": "https://github.com/freeciv/freeciv/commit/b2307bd16106159eb6a2d2efbcb03c0bcafad631",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1614
+        "github_stars": 1615
       },
       "ai_used": null
     },
@@ -1137,7 +1137,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1262
+        "github_stars": 1263
       },
       "ai_used": null
     },
@@ -1194,7 +1194,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 645
+        "github_stars": 646
       },
       "ai_used": null
     },
@@ -1208,9 +1208,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T09:05:25Z",
-        "last_commit_url": "https://github.com/dpt/The-Great-Escape-in-C/commit/4715d6d014569f8fce658f8f9168b86339a92591",
-        "default_branch": "master",
+        "last_commit_at": "2026-10-23T23:59:04Z",
+        "last_commit_url": "https://github.com/dpt/The-Great-Escape-in-C/commit/025d3b2fe031aa79689135fae06c2a242ee8c05e",
+        "default_branch": "main",
         "archived": false,
         "status": "Active",
         "github_stars": 134
@@ -1303,12 +1303,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T07:49:58Z",
-        "last_commit_url": "https://github.com/vcmi/vcmi/commit/ce59b07eaa2cf57bae9fb8f4956373aa0bca5b6c",
+        "last_commit_at": "2026-10-24T06:29:05Z",
+        "last_commit_url": "https://github.com/vcmi/vcmi/commit/b145aff784d15b91a7bfae43a3eb72929c01c604",
         "default_branch": "develop",
         "archived": false,
         "status": "Active",
-        "github_stars": 5976
+        "github_stars": 5981
       },
       "ai_used": null
     },
@@ -1327,7 +1327,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1135
+        "github_stars": 1138
       },
       "ai_used": null
     },
@@ -1341,8 +1341,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T01:50:57Z",
-        "last_commit_url": "https://github.com/ja2-stracciatella/ja2-stracciatella/commit/d0b1d3e0369364d4848384d0f75486fce1ad1001",
+        "last_commit_at": "2026-10-24T08:12:13Z",
+        "last_commit_url": "https://github.com/ja2-stracciatella/ja2-stracciatella/commit/0689e525f618b725b723a10016e477b73a4c9903",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1360,8 +1360,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T17:49:06Z",
-        "last_commit_url": "https://github.com/deathkiller/jazz2-native/commit/36a1414d691142443ef7ad9078995e2be4755f11",
+        "last_commit_at": "2026-10-23T16:29:47Z",
+        "last_commit_url": "https://github.com/deathkiller/jazz2-native/commit/893c5200d75da7e9b5f8e9a932da4e744ae63ee3",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1403,7 +1403,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1989
+        "github_stars": 1990
       },
       "ai_used": null
     },
@@ -1474,8 +1474,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T12:48:08Z",
-        "last_commit_url": "https://github.com/LBALab/lba2-classic-community/commit/011394fbc2476053d596f007ff93c72f9e32401b",
+        "last_commit_at": "2026-10-23T10:55:25Z",
+        "last_commit_url": "https://github.com/LBALab/lba2-classic-community/commit/2fa1c7a66de2ce8707d85cb9a304dbd6f96c8ab8",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1555,7 +1555,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 50
+        "github_stars": 52
       },
       "ai_used": null
     },
@@ -1645,8 +1645,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-03-04T02:13:55Z",
-        "last_commit_url": "https://github.com/nxengine/nxengine-evo/commit/1f093d1423cc395eb199230cd609b806ef1daa36",
+        "last_commit_at": "2026-10-23T11:02:47Z",
+        "last_commit_url": "https://github.com/nxengine/nxengine-evo/commit/decfe2406e5b640153d0b77d34fc2d5c486ea433",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1664,8 +1664,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T15:02:57Z",
-        "last_commit_url": "https://github.com/Bishop-333/OmegA-engine/commit/2f75dda5cbdf542c77f21fe8cb05fd2e30153a49",
+        "last_commit_at": "2026-10-23T18:23:16Z",
+        "last_commit_url": "https://github.com/Bishop-333/OmegA-engine/commit/9af384e8a11eb9cbfa1f3de161209ffcf71fb6c1",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1745,7 +1745,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 14540
+        "github_stars": 14544
       },
       "ai_used": null
     },
@@ -1783,7 +1783,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1590
+        "github_stars": 1592
       },
       "ai_used": null
     },
@@ -1878,7 +1878,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1630
+        "github_stars": 1633
       },
       "ai_used": null
     },
@@ -1935,7 +1935,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1952
+        "github_stars": 1953
       },
       "ai_used": null
     },
@@ -1954,7 +1954,7 @@
         "default_branch": "bleed",
         "archived": false,
         "status": "Active",
-        "github_stars": 144
+        "github_stars": 145
       },
       "ai_used": null
     },
@@ -1973,7 +1973,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 845
+        "github_stars": 848
       },
       "ai_used": null
     },
@@ -2011,7 +2011,7 @@
         "default_branch": "bleed",
         "archived": false,
         "status": "Active",
-        "github_stars": 17631
+        "github_stars": 17637
       },
       "ai_used": null
     },
@@ -2025,8 +2025,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T13:54:12Z",
-        "last_commit_url": "https://github.com/OpenReliant/openreliant/commit/fcab9494af0f032f80e2c91cdc120d84f5adc839",
+        "last_commit_at": "2026-10-23T22:42:55Z",
+        "last_commit_url": "https://github.com/OpenReliant/openreliant/commit/c8b34f25b7a01b04d590a37a941d2c67a56be6a0",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2125,7 +2125,7 @@
         "default_branch": "jgrpp",
         "archived": false,
         "status": "Active",
-        "github_stars": 807
+        "github_stars": 808
       },
       "ai_used": null
     },
@@ -2144,7 +2144,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 595
+        "github_stars": 596
       },
       "ai_used": null
     },
@@ -2163,7 +2163,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 2236
+        "github_stars": 2238
       },
       "ai_used": null
     },
@@ -2277,7 +2277,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1862
+        "github_stars": 1863
       },
       "ai_used": null
     },
@@ -2348,12 +2348,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T20:15:30Z",
-        "last_commit_url": "https://github.com/Return-To-The-Roots/s25client/commit/566e9235c7bdfcdc3cc82b99eb62ea469d2cbe04",
+        "last_commit_at": "2026-10-24T07:47:46Z",
+        "last_commit_url": "https://github.com/Return-To-The-Roots/s25client/commit/a3dd2327d0f52a36ae65c710adf68ecd9202cab8",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 600
+        "github_stars": 601
       },
       "ai_used": null
     },
@@ -2410,7 +2410,7 @@
         "default_branch": "dev",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 2663
+        "github_stars": 2664
       },
       "ai_used": null
     },
@@ -2486,7 +2486,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 908
+        "github_stars": 909
       },
       "ai_used": null
     },
@@ -2500,8 +2500,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-18T13:41:05Z",
-        "last_commit_url": "https://github.com/simutrans/simutrans/commit/ba0fc81d0ea859a0898a8be7ffd327a8c1980afc",
+        "last_commit_at": "2026-10-24T02:28:43Z",
+        "last_commit_url": "https://github.com/simutrans/simutrans/commit/371e525256095e8a7caf7377a60888616e7601d7",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -2581,7 +2581,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 47
+        "github_stars": 48
       },
       "ai_used": null
     },
@@ -2595,8 +2595,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T00:40:34Z",
-        "last_commit_url": "https://github.com/dpjudas/SurrealEngine/commit/97d35ae2561d448a69279f52f56338b9ba2e2bde",
+        "last_commit_at": "2026-10-24T05:07:30Z",
+        "last_commit_url": "https://github.com/dpjudas/SurrealEngine/commit/104ff82dbaa0062281bf6b5a12b66d4209aa1fe3",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -2652,12 +2652,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T21:22:39Z",
-        "last_commit_url": "https://github.com/CorsixTH/CorsixTH/commit/f98c9e8e1d22f638233c12b10f3a351f1484608c",
+        "last_commit_at": "2026-10-24T02:01:17Z",
+        "last_commit_url": "https://github.com/CorsixTH/CorsixTH/commit/befcd2440ec75d9ae3a27947862b206fbb900079",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 4613
+        "github_stars": 4615
       },
       "ai_used": null
     },
@@ -2714,7 +2714,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -2733,7 +2733,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 8411
+        "github_stars": 8417
       },
       "ai_used": null
     },
@@ -2823,8 +2823,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T22:10:45Z",
-        "last_commit_url": "https://github.com/Kweepa/OpenUnderground/commit/e3e11963e425e98f6e738f2649357763027e4971",
+        "last_commit_at": "2026-10-24T08:12:03Z",
+        "last_commit_url": "https://github.com/Kweepa/OpenUnderground/commit/b66859124100f713e064a4bc58c93ec0bf442674",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2861,12 +2861,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:47:46Z",
-        "last_commit_url": "https://github.com/YuriPlanet/vera20k/commit/b2027dad69ef2aebe0f0a9f3eb13768f7765e70a",
+        "last_commit_at": "2026-10-24T00:53:53Z",
+        "last_commit_url": "https://github.com/YuriPlanet/vera20k/commit/4b75e0ad4bc5b2c5be728b7ee0c9e998de13759a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 180
+        "github_stars": 197
       },
       "ai_used": null
     },
@@ -2904,7 +2904,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 444
+        "github_stars": 445
       },
       "ai_used": null
     },
@@ -2937,12 +2937,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:36:52Z",
-        "last_commit_url": "https://github.com/samwhosung/benilla/commit/2019beb7f5a6c8dcd7572efe4f1347b753fd0942",
+        "last_commit_at": "2026-10-24T07:25:49Z",
+        "last_commit_url": "https://github.com/samwhosung/benilla/commit/84d7bd7cfe379380697ef608eff46510847dbdba",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 787
+        "github_stars": 792
       },
       "ai_used": null
     },
@@ -2961,7 +2961,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 2880
+        "github_stars": 2885
       },
       "ai_used": null
     },
@@ -2980,7 +2980,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1188
+        "github_stars": 1190
       },
       "ai_used": null
     },
@@ -3037,7 +3037,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 987
+        "github_stars": 989
       },
       "ai_used": null
     },

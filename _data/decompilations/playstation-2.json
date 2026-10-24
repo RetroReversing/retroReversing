@@ -73,7 +73,7 @@
         "archived": false,
         "status": "Inactive",
         "default_branch": "miami",
-        "github_stars": 321
+        "github_stars": 322
       },
       "ai_used": null
     },
@@ -111,7 +111,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "master",
-        "github_stars": 3604
+        "github_stars": 3606
       },
       "ai_used": null
     },
@@ -209,7 +209,7 @@
         "archived": false,
         "status": "Active",
         "default_branch": "main",
-        "github_stars": 206
+        "github_stars": 207
       },
       "ai_used": null
     },
@@ -223,8 +223,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-10-22T22:51:17Z",
-        "last_commit_url": "https://github.com/AshfordFamily/recvx-decomp/commit/0a453943f9724df798abe04e361a90f92bf49e33",
+        "last_commit_at": "2026-10-23T23:11:27Z",
+        "last_commit_url": "https://github.com/AshfordFamily/recvx-decomp/commit/fff043b2472ea048a3fc5b0b2608b6867187c4a4",
         "archived": false,
         "status": "Active",
         "default_branch": "master",
@@ -323,7 +323,7 @@
         "archived": false,
         "status": "Inactive",
         "default_branch": "main",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -494,7 +494,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 139
+        "github_stars": 141
       },
       "ai_used": null
     },
@@ -508,12 +508,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:43:03Z",
-        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/ac9b34fab75ffb99362ea5937476bea524715604",
+        "last_commit_at": "2026-10-24T02:07:51Z",
+        "last_commit_url": "https://github.com/dreamingmoths/memory-of-alessa/commit/ea1e7acb901042d1b02ed04103c6aa5a294f9586",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 158
+        "github_stars": 159
       },
       "ai_used": null
     },
@@ -532,7 +532,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 21
       },
       "ai_used": null
     },
@@ -584,12 +584,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:39:12Z",
-        "last_commit_url": "https://github.com/denzi-gh/crashwoc-decomp-ps2/commit/25e934a82658116b0dc21bec407c8b4fee255545",
+        "last_commit_at": "2026-10-24T08:20:43Z",
+        "last_commit_url": "https://github.com/denzi-gh/crashwoc-decomp-ps2/commit/7ba0b063d85ec376ccab64961f5cec0a2fd4b753",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -603,12 +603,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T02:41:08Z",
-        "last_commit_url": "https://github.com/LucasPicoli/god-hand-decomp/commit/5b22d271176ff97fe902f349b063191eb61d4307",
+        "last_commit_at": "2026-10-24T08:15:07Z",
+        "last_commit_url": "https://github.com/LucasPicoli/god-hand-decomp/commit/9cd02ece08cf9148fd6a6a057e2e6960ced36727",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 69
+        "github_stars": 74
       },
       "ai_used": null
     },
@@ -641,8 +641,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T07:30:01Z",
-        "last_commit_url": "https://github.com/g-guthrie/mvc2-ps2-decomp/commit/c099b68a612b777ef9fdfca81d9e27552c1e029b",
+        "last_commit_at": "2026-10-23T21:51:20Z",
+        "last_commit_url": "https://github.com/g-guthrie/mvc2-ps2-decomp/commit/406ea869c5592d0f42ffa24e4f198e58c3a27c7f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -665,7 +665,7 @@
         "default_branch": "trunk",
         "archived": false,
         "status": "Active",
-        "github_stars": 27
+        "github_stars": 28
       },
       "ai_used": null
     },
@@ -703,7 +703,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 305
+        "github_stars": 313
       },
       "ai_used": null
     },
@@ -717,8 +717,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T15:33:26Z",
-        "last_commit_url": "https://github.com/Harskov/stretch-panic-usa/commit/5f42f1ed3de87af37898c77369afae9d5f8ab45f",
+        "last_commit_at": "2026-10-24T06:43:58Z",
+        "last_commit_url": "https://github.com/Harskov/stretch-panic-usa/commit/506641c7ba37966328916c5114fc8197766a55e9",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -812,8 +812,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T04:28:27Z",
-        "last_commit_url": "https://github.com/lombyte-project/Lombyte/commit/c41bf1c324eecae8006bf82808ad19ed42ee5eb9",
+        "last_commit_at": "2026-10-24T06:03:34Z",
+        "last_commit_url": "https://github.com/lombyte-project/Lombyte/commit/2d6fb52bb80eaa4f67f00090ca412a61c9b987ed",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -831,8 +831,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T07:12:54Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac1-decomp/commit/0da53da29b722035ed6a9146b8b45dcd6fa96285",
+        "last_commit_at": "2026-10-24T05:47:44Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac1-decomp/commit/de14440819093b81c00a1e219d4fef54d6fccd16",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -850,12 +850,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:05:42Z",
-        "last_commit_url": "https://github.com/nathanialf/ico-pc/commit/7f1cd86c03c3ee9a38bc498438937037ba0f5f14",
+        "last_commit_at": "2026-10-24T05:49:01Z",
+        "last_commit_url": "https://github.com/nathanialf/ico-pc/commit/78aed29f4446cb2d9fae328ed9d4a49f3f230214",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 428
+        "github_stars": 433
       },
       "ai_used": null
     },
@@ -870,8 +870,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 35,
-        "last_commit_at": "2026-10-22T23:13:58Z",
-        "last_commit_url": "https://github.com/TheMoonPeople/ChronicleTwo/commit/7fa51e7139cf06e856a9e4a3a5b250925653a280",
+        "last_commit_at": "2026-10-23T23:47:13Z",
+        "last_commit_url": "https://github.com/TheMoonPeople/ChronicleTwo/commit/f344ede3dbc5eac1e06d6a446c6acd036ae6ca73",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -927,8 +927,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 20,
-        "last_commit_at": "2026-10-23T01:27:14Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac4-decomp/commit/cfd24ae830cfd91d817790860731a3017304dcc7",
+        "last_commit_at": "2026-10-23T23:02:51Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac4-decomp/commit/04d07c665ad720e2b9478deea0be94077de62005",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -945,7 +945,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 34,
+        "github_stars": 35,
         "last_commit_at": "2026-10-22T18:14:22Z",
         "last_commit_url": "https://github.com/vetusmagnus/rac3-uya-decomp/commit/fc118a0b7442665a2b181055dc352ce5d117c41b",
         "default_branch": "main",
@@ -983,9 +983,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 25,
-        "last_commit_at": "2026-10-23T06:18:27Z",
-        "last_commit_url": "https://github.com/OpenRAC/rac2-decomp/commit/f5eee85f4786c9114a4856b207f220c2d73dd2d1",
+        "github_stars": 27,
+        "last_commit_at": "2026-10-24T07:52:38Z",
+        "last_commit_url": "https://github.com/OpenRAC/rac2-decomp/commit/73fca27e5a6faab0504d18e102db43bd6443bda5",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -1003,8 +1003,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 47,
-        "last_commit_at": "2026-10-21T00:07:12Z",
-        "last_commit_url": "https://github.com/Raikaru/Persona4-Decompilation/commit/d19f9e222c96450289faa9fec9c40c24267bf4bd",
+        "last_commit_at": "2026-10-24T00:50:42Z",
+        "last_commit_url": "https://github.com/Raikaru/Persona4-Decompilation/commit/854e43d25d5b511503d919cd1d2841c85a64dece",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1022,8 +1022,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 15,
-        "last_commit_at": "2026-10-23T02:29:05Z",
-        "last_commit_url": "https://github.com/celophi/so3-decomp/commit/2a6177d575b5aaeeffe99ea51a44130501232494",
+        "last_commit_at": "2026-10-23T21:10:31Z",
+        "last_commit_url": "https://github.com/celophi/so3-decomp/commit/2b2e20997dc86995005ae35ddefa52d145d96139",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -1078,7 +1078,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 102,
+        "github_stars": 105,
         "last_commit_at": "2026-09-19T19:22:40Z",
         "last_commit_url": "https://github.com/sal063/Ace-Combat-5-Static-recompilation/commit/078662b4018b5e79d5aa5ee9b9c60aceec9e7649",
         "default_branch": "main",
@@ -1097,9 +1097,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 165,
-        "last_commit_at": "2026-10-18T18:20:07Z",
-        "last_commit_url": "https://github.com/KIexster/god-of-war-recomp/commit/92ece581c673842c282a9c23819545de5ab92d3c",
+        "github_stars": 177,
+        "last_commit_at": "2026-10-24T05:34:12Z",
+        "last_commit_url": "https://github.com/KIexster/god-of-war-recomp/commit/6095aed256bfbdc98566b27763094be5475408da",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1116,9 +1116,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 79,
-        "last_commit_at": "2026-10-11T15:34:07Z",
-        "last_commit_url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/commit/3e74da68d7633db9996457dca4a9388ece0847c0",
+        "github_stars": 82,
+        "last_commit_at": "2026-10-23T21:09:40Z",
+        "last_commit_url": "https://github.com/Sinan-Karakaya/DQ8-Recompiled/commit/f6dfd968001b492415969bb70bd5aad3bfa79abd",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -1135,7 +1135,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 80,
+        "github_stars": 81,
         "last_commit_at": "2026-10-14T07:40:37Z",
         "last_commit_url": "https://github.com/danisandoval/fukami/commit/2ecb2810ddb742245b17fd54500bcf07d1fe6760",
         "default_branch": "main",
@@ -1154,7 +1154,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 52,
+        "github_stars": 55,
         "last_commit_at": "2026-10-23T01:24:03Z",
         "last_commit_url": "https://github.com/thiagordsfx/urban-reign-recomp/commit/20b30fd731b153110bd1b60db61bc421d42586c4",
         "default_branch": "main",
@@ -1177,7 +1177,7 @@
         "last_commit_url": "https://github.com/drakolordx7/KillzoneRecomp/commit/832c8adb7b730c0b98c03516dc582d139606c1d8",
         "default_branch": "master",
         "archived": false,
-        "github_stars": 103,
+        "github_stars": 113,
         "status": "Active"
       },
       "ai_used": true
@@ -1192,12 +1192,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T02:21:53Z",
-        "last_commit_url": "https://github.com/gustavocanepa/gt4-decomp/commit/807a7b2227d31b4f58d3c438263625b245fc647b",
+        "last_commit_at": "2026-10-24T03:08:25Z",
+        "last_commit_url": "https://github.com/gustavocanepa/gt4-decomp/commit/69c89d21e107e6e540f7427625ac8948c167ba25",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 81
+        "github_stars": 86
       },
       "ai_used": true
     },
@@ -1211,12 +1211,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:49:01Z",
-        "last_commit_url": "https://github.com/Megami-Decomps/dds-decomp/commit/c6eef8539b89d360113d3f1a0ea7f69fcfd6c283",
+        "last_commit_at": "2026-10-24T08:17:57Z",
+        "last_commit_url": "https://github.com/Megami-Decomps/dds-decomp/commit/091c9365d5ba7bad6dae420985ee822e8a426ed5",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 33
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -1268,12 +1268,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T12:23:27Z",
-        "last_commit_url": "https://github.com/GalaxyNostalgia/Outbreak-decomp/commit/eb6af3876e3ea31673e88348635e5cb66abd925d",
+        "last_commit_at": "2026-10-23T22:40:54Z",
+        "last_commit_url": "https://github.com/GalaxyNostalgia/Outbreak-decomp/commit/98ee385469cb94f198c2301c91261d016ddbe158",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -1306,12 +1306,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T18:56:15Z",
-        "last_commit_url": "https://github.com/danielgomesvieira2000/burnout3-pc/commit/e7c917cea538275dda9f2c834debe34150dec27e",
+        "last_commit_at": "2026-10-23T19:39:58Z",
+        "last_commit_url": "https://github.com/danielgomesvieira2000/burnout3-pc/commit/37a3997faf48bc14c9b7471c2d6b40972ecf714f",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 159
+        "github_stars": 168
       },
       "ai_used": null
     },
@@ -1325,12 +1325,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T17:52:37Z",
-        "last_commit_url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/commit/533802b8213591a87fad58f6eb41c13d4ee536f3",
+        "last_commit_at": "2026-10-23T18:28:12Z",
+        "last_commit_url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows/commit/53783cd0b9c58b10486bdd028752b2f0964496a5",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 19
       },
       "ai_used": null
     },
@@ -1382,8 +1382,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:05:11Z",
-        "last_commit_url": "https://github.com/jcsix694/def-jam-vendetta-recomp/commit/ecd3497168318dc77e30d203424446121187aaac",
+        "last_commit_at": "2026-10-23T09:18:59Z",
+        "last_commit_url": "https://github.com/jcsix694/def-jam-vendetta-recomp/commit/c43ee93fce6ddb5c77d089bcfa6613de0619e96b",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1425,7 +1425,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 111
+        "github_stars": 112
       },
       "ai_used": null
     },
@@ -1458,12 +1458,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:19:12Z",
-        "last_commit_url": "https://github.com/z3xox/Tenkaichi3Decomp/commit/13ecf4f3eaf4ba5b285adba33f81f699246598a9",
+        "last_commit_at": "2026-10-24T00:49:56Z",
+        "last_commit_url": "https://github.com/z3xox/Tenkaichi3Decomp/commit/b8956f984367c568ac14fef568c9f53a86b22f47",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 552
+        "github_stars": 567
       },
       "ai_used": null
     },
@@ -1501,7 +1501,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 130
+        "github_stars": 132
       },
       "ai_used": null
     },
@@ -1534,8 +1534,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T18:59:19Z",
-        "last_commit_url": "https://github.com/Tatsh/resonance/commit/245335f18dddd7ab4bf87977433d248f48cd4fcf",
+        "last_commit_at": "2026-10-24T03:28:37Z",
+        "last_commit_url": "https://github.com/Tatsh/resonance/commit/b64d34fb515b1120e68e0dc40433aa420a436c72",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1577,7 +1577,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 35
+        "github_stars": 39
       },
       "ai_used": null
     },
@@ -1596,7 +1596,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -1629,8 +1629,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T11:08:05Z",
-        "last_commit_url": "https://github.com/dantekall/Over-The-Hedge---Decompilation/commit/c9b8af63fae49d15fed0f22bd15802594436a12d",
+        "last_commit_at": "2026-10-24T06:34:01Z",
+        "last_commit_url": "https://github.com/dantekall/Over-The-Hedge---Decompilation/commit/50eb34c925c5b405be1ae32919f37ec5e2578cd6",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1686,12 +1686,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:31:40Z",
-        "last_commit_url": "https://github.com/OpenRAC/OpenRAC/commit/b992e28c756161f1eae4adc38f009132d07c519c",
+        "last_commit_at": "2026-10-24T08:14:00Z",
+        "last_commit_url": "https://github.com/OpenRAC/OpenRAC/commit/7d6d3b2912c7320842e8d3eb72d14e444bcabf86",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 33
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -1710,7 +1710,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 119
+        "github_stars": 129
       },
       "ai_used": null
     },
@@ -1743,12 +1743,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:37:30Z",
-        "last_commit_url": "https://github.com/aikatore/recvx-enhanced-port/commit/76c67742072e9f2451c309fde3f7a0fc1822ffb5",
+        "last_commit_at": "2026-10-23T17:49:13Z",
+        "last_commit_url": "https://github.com/aikatore/recvx-enhanced-port/commit/38d457e3ec11a3120447e3544031af9a40eccbdb",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 65
+        "github_stars": 122
       },
       "ai_used": null
     },
@@ -1767,7 +1767,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 34
+        "github_stars": 36
       },
       "ai_used": null
     },
@@ -1786,7 +1786,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 30
+        "github_stars": 31
       },
       "ai_used": null
     },
@@ -1838,12 +1838,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:44:30Z",
-        "last_commit_url": "https://github.com/TheRealestNwah/sotc-decomp/commit/c04ff22bb88f322c91f4ae01863299c5fcdaacaa",
+        "last_commit_at": "2026-10-24T07:51:01Z",
+        "last_commit_url": "https://github.com/TheRealestNwah/sotc-decomp/commit/b1598a7fb2bb82bdfdae07d8b2c702dadeef7101",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 18
+        "github_stars": 20
       },
       "ai_used": null
     },
@@ -1876,12 +1876,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:45:46Z",
-        "last_commit_url": "https://github.com/dreamingmoths/mirror-of-alessa/commit/1b4ce32df164c4989d9736769af9a718068f6678",
+        "last_commit_at": "2026-10-24T02:06:19Z",
+        "last_commit_url": "https://github.com/dreamingmoths/mirror-of-alessa/commit/fbb548b59989f9108d203bf53f8a75c30ae1b826",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -1900,7 +1900,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 39
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -1919,7 +1919,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 27
       },
       "ai_used": null
     },
@@ -2028,12 +2028,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:09:56Z",
-        "last_commit_url": "https://github.com/yanm1103/War_of_the_Monsters_recomp/commit/bd3482c221d5c7d3c754e2592612862441ddf04e",
+        "last_commit_at": "2026-10-24T04:31:02Z",
+        "last_commit_url": "https://github.com/yanm1103/War_of_the_Monsters_recomp/commit/ec6463b169e4ec4d49a2a4a7618fc51cce780859",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -2047,12 +2047,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:30:42Z",
-        "last_commit_url": "https://github.com/OpokXeno/xsg-i-decomp/commit/c2b41ba3821f2f6e1db97b3ad3c862245f6fe7fa",
+        "last_commit_at": "2026-10-24T07:46:11Z",
+        "last_commit_url": "https://github.com/OpokXeno/xsg-i-decomp/commit/e15abb566cf7b8ec4fbb5604e9d02161c3600c11",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },

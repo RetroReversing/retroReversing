@@ -38,7 +38,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 481
+        "github_stars": 484
       },
       "ai_used": null
     },
@@ -57,7 +57,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 2343
+        "github_stars": 2358
       },
       "ai_used": null
     },
@@ -109,12 +109,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T19:54:36Z",
-        "last_commit_url": "https://github.com/K0NL/B2recomp/commit/26c45d71ee43ce116f82f329be5bb863cfec211e",
+        "last_commit_at": "2026-10-23T22:45:36Z",
+        "last_commit_url": "https://github.com/K0NL/B2recomp/commit/bec514e9fd8e45f3f1d813dc0b24fc8c2542ebec",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 368
+        "github_stars": 406
       },
       "ai_used": null
     },
@@ -133,7 +133,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 60
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -147,12 +147,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T16:20:28Z",
-        "last_commit_url": "https://github.com/peiikai/LASRecomp/commit/466fee615a94e56cb17b7acb88bf474e2d20a093",
+        "last_commit_at": "2026-10-23T23:47:08Z",
+        "last_commit_url": "https://github.com/peiikai/LASRecomp/commit/59b61fd3c65dcabd0feb62d5d5706240cb3f5bb9",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1669
+        "github_stars": 1721
       },
       "ai_used": null
     },
@@ -171,7 +171,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 394
+        "github_stars": 409
       },
       "ai_used": null
     },
@@ -185,12 +185,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T01:06:05Z",
-        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/cdc93a172b87b26a7a7bb0908b67611a569e7242",
+        "last_commit_at": "2026-10-24T04:13:47Z",
+        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/176274f5397dc1e027d942e506aff467b6ab5170",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 97
+        "github_stars": 99
       },
       "ai_used": null
     },
@@ -209,7 +209,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 622
+        "github_stars": 623
       },
       "ai_used": null
     },
@@ -223,8 +223,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T13:40:04Z",
-        "last_commit_url": "https://github.com/charlieduzstuf/pokesword/commit/ffdd5ed195a224b733f1e439711125ed30cb7921",
+        "last_commit_at": "2026-10-23T20:10:01Z",
+        "last_commit_url": "https://github.com/charlieduzstuf/pokesword/commit/b0e3e8e7dac9ad2ed9a5e96215029c147f1f215c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -247,7 +247,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 161
+        "github_stars": 171
       },
       "ai_used": null
     },
@@ -304,7 +304,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 409
+        "github_stars": 447
       },
       "ai_used": null
     },

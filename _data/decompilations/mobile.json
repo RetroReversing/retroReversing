@@ -353,12 +353,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-09-29T11:11:53Z",
-        "last_commit_url": "https://github.com/Gzh0821/pvzge_web/commit/0e4a05348b6de328e2902a57afa24a3a454a4205",
+        "last_commit_at": "2026-10-23T12:32:20Z",
+        "last_commit_url": "https://github.com/Gzh0821/pvzge_web/commit/53d2ebb3ec51d1f69e9f906a5c4f70a5864dbfc6",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 240
+        "github_stars": 242
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 245
+        "github_stars": 246
       },
       "ai_used": null
     }

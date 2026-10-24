@@ -49,12 +49,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:43:10Z",
-        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/ad7e8ab81ca47af8fd0f6ab071d96bcde0d5ef0c",
+        "last_commit_at": "2026-10-24T06:47:33Z",
+        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/33b1029150c5d06790a49066015a1ac56bbd6aff",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 73
+        "github_stars": 75
       },
       "ai_used": null
     },
@@ -68,12 +68,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T23:31:15Z",
-        "last_commit_url": "https://github.com/punpckhdq/halo/commit/8d3aedaab8480b58e21fc635ee98de5932d972a5",
+        "last_commit_at": "2026-10-23T09:47:23Z",
+        "last_commit_url": "https://github.com/punpckhdq/halo/commit/7263d7480cb0f6983f7e3adc6b5550ccca1ca1e0",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 197
+        "github_stars": 198
       },
       "ai_used": null
     },
@@ -92,7 +92,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -106,7 +106,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 174,
+        "github_stars": 179,
         "last_commit_at": "2026-10-22T14:53:24Z",
         "last_commit_url": "https://github.com/portingpete/Black-2006-Recomp/commit/53acebac3f0bc5a7ab5ca025a7ac10240a0b24d5",
         "default_branch": "main",
@@ -125,9 +125,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 136,
-        "last_commit_at": "2026-10-22T20:25:43Z",
-        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/dcd0df0065fc238b0dbab62bea52326a3ffb9763",
+        "github_stars": 158,
+        "last_commit_at": "2026-10-23T21:56:13Z",
+        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/0b3fa17bb8cbe89726b955a04d51985ffbbf64f6",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -144,9 +144,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 108,
-        "last_commit_at": "2026-10-23T07:32:16Z",
-        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/1dea9f4e4fbdc39549a3c37d217cdb8c5f0754ab",
+        "github_stars": 109,
+        "last_commit_at": "2026-10-24T07:58:19Z",
+        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/a40c5445831d8b6c3cec67a99b5430cd8cb1925d",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -163,7 +163,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 333,
+        "github_stars": 339,
         "last_commit_at": "2026-10-22T02:07:56Z",
         "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/a455de608838d4ecc62d17250004c47b8fcb5170",
         "default_branch": "main",
@@ -201,9 +201,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 135,
-        "last_commit_at": "2026-10-23T02:49:49Z",
-        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/69494614f7c339d09c42514ed7608c69513f819d",
+        "github_stars": 142,
+        "last_commit_at": "2026-10-23T16:10:50Z",
+        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/5fc57d84d617aa7f360cf0a5ab707dc9334f4b95",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -224,7 +224,7 @@
         "last_commit_url": "https://github.com/rafaelkenedy/genma-recomp/commit/1bc94ecd6556ceb19f5103c3449999bae220c9bd",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 14,
+        "github_stars": 15,
         "status": "Active"
       },
       "ai_used": null
@@ -239,11 +239,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T05:34:43Z",
-        "last_commit_url": "https://github.com/hk21x/pgr2-recomp/commit/6db33d936fc332451e6f0ed310f8b622cfd45f8d",
+        "last_commit_at": "2026-10-23T20:37:54Z",
+        "last_commit_url": "https://github.com/hk21x/pgr2-recomp/commit/7ad7195180a601200ad35ff23593e6be7cd7d6b6",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 33,
+        "github_stars": 40,
         "status": "Active"
       },
       "ai_used": true
@@ -262,7 +262,7 @@
         "last_commit_url": "https://github.com/Clergyman0013/arizona-vamp-recomp/commit/3114f1bf9c20ed9a8de98b4a86d4104f35618c2d",
         "default_branch": "master",
         "archived": false,
-        "github_stars": 12,
+        "github_stars": 22,
         "status": "Active"
       },
       "ai_used": true
@@ -282,7 +282,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 676
+        "github_stars": 703
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 318
+        "github_stars": 326
       },
       "ai_used": null
     },
@@ -339,7 +339,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 37
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -377,7 +377,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 5
+        "github_stars": 6
       },
       "ai_used": null
     },
@@ -396,7 +396,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 34
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 135
+        "github_stars": 139
       },
       "ai_used": null
     },
@@ -453,7 +453,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 358
+        "github_stars": 375
       },
       "ai_used": null
     },
@@ -467,12 +467,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T18:18:58Z",
-        "last_commit_url": "https://github.com/parkerallan/doa3-recomp/commit/f1460dc5d2172b264248aa96c060cfc180571c42",
+        "last_commit_at": "2026-10-24T02:07:50Z",
+        "last_commit_url": "https://github.com/parkerallan/doa3-recomp/commit/919c49f7f364fce67e85f13e75d4921e148422d9",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 73
+        "github_stars": 77
       },
       "ai_used": null
     },
@@ -486,12 +486,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T07:05:53Z",
-        "last_commit_url": "https://github.com/NoRain211/doa3-re/commit/ffb01bc0a2e4bb47f448dd4c32f3e3542e50adb1",
+        "last_commit_at": "2026-10-24T03:41:23Z",
+        "last_commit_url": "https://github.com/NoRain211/doa3-re/commit/d76349fdcc158678ed15eb58bfbafa306ea6cc4d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -505,12 +505,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T07:17:52Z",
-        "last_commit_url": "https://github.com/NoRain211/doaxvb-re/commit/7b2fccba0c34551e6fd18091bd826e8f43a95aba",
+        "last_commit_at": "2026-10-24T01:27:05Z",
+        "last_commit_url": "https://github.com/NoRain211/doaxvb-re/commit/4f353654118d1dd6167bb41ce8a8a912902ef10a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 209
+        "github_stars": 213
       },
       "ai_used": null
     },
@@ -543,12 +543,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:42:43Z",
-        "last_commit_url": "https://github.com/VinceIP/fci-recomp/commit/2a27c8467fcce190085bb4c030252ad58501e071",
+        "last_commit_at": "2026-10-24T00:37:48Z",
+        "last_commit_url": "https://github.com/VinceIP/fci-recomp/commit/09e9e623d13c1838191c57b832c869773511c74c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 51
+        "github_stars": 54
       },
       "ai_used": null
     },
@@ -567,7 +567,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 153
+        "github_stars": 157
       },
       "ai_used": null
     },
@@ -586,7 +586,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 147
+        "github_stars": 150
       },
       "ai_used": null
     },
@@ -600,12 +600,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:33:39Z",
-        "last_commit_url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/commit/88392538131de4ebca32a66be9bbc894ba83157f",
+        "last_commit_at": "2026-10-24T08:11:10Z",
+        "last_commit_url": "https://github.com/lakshya16157/midtown-madness-3-PC-Native/commit/adad92083c2ea369dc43e7a7801bf78b2c02b33e",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 22
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -619,12 +619,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:50:51Z",
-        "last_commit_url": "https://github.com/MattSG/mm3-recomp/commit/94e37238aa875b2aaec8c301a63c81c0b4a7ad44",
+        "last_commit_at": "2026-10-23T22:09:28Z",
+        "last_commit_url": "https://github.com/MattSG/mm3-recomp/commit/3816d92b2d2bdcac0733dd46f1c03eaa91ffa11d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -643,7 +643,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 175
+        "github_stars": 194
       },
       "ai_used": null
     },
@@ -662,7 +662,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 156
+        "github_stars": 159
       },
       "ai_used": null
     },
@@ -676,12 +676,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T12:36:58Z",
-        "last_commit_url": "https://github.com/OpenCommunityEdition/OpenCE/commit/ce95f7deed5bbf726e50a9d5fe5227437194cf3b",
+        "last_commit_at": "2026-10-24T01:08:46Z",
+        "last_commit_url": "https://github.com/OpenCommunityEdition/OpenCE/commit/5e27f3a27b2d3c27d3edeb450fe40c24defb9c15",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1779
+        "github_stars": 1790
       },
       "ai_used": null
     },
@@ -700,7 +700,7 @@
         "default_branch": "reSOT",
         "archived": false,
         "status": "Active",
-        "github_stars": 55
+        "github_stars": 62
       },
       "ai_used": null
     },
@@ -719,7 +719,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 59
+        "github_stars": 61
       },
       "ai_used": null
     },
@@ -733,12 +733,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T15:17:16Z",
-        "last_commit_url": "https://github.com/koenhendriks/SSX3-recomp/commit/4217e567b2df0062713a10970c3c070f13fce62e",
+        "last_commit_at": "2026-10-24T07:06:43Z",
+        "last_commit_url": "https://github.com/koenhendriks/SSX3-recomp/commit/6d8406e6b60b9e9fc3ac21c999eb3707d3c55885",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 37
+        "github_stars": 42
       },
       "ai_used": null
     },
@@ -752,8 +752,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:50:39Z",
-        "last_commit_url": "https://github.com/bertibertig/SSX3-Recomp/commit/3d214dfe128d207ee5dc9fd3370e15efc21adeeb",
+        "last_commit_at": "2026-10-23T20:50:47Z",
+        "last_commit_url": "https://github.com/bertibertig/SSX3-Recomp/commit/33f0737271ead8994b1150a90686aa8be6db1fdf",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -776,7 +776,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 113
+        "github_stars": 115
       },
       "ai_used": null
     },
@@ -814,7 +814,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 78
+        "github_stars": 79
       },
       "ai_used": null
     },
@@ -847,12 +847,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T16:55:29Z",
-        "last_commit_url": "https://github.com/phobos665/split2-recomp/commit/eaffa0aeb4c349a13c91c96a40acfeee96478b2c",
+        "last_commit_at": "2026-10-23T23:09:10Z",
+        "last_commit_url": "https://github.com/phobos665/split2-recomp/commit/5271eb0206ae6b6e2cadca446f2cce39f8234453",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 18
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -871,7 +871,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -890,7 +890,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 13
       },
       "ai_used": null
     },
