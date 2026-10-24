@@ -912,6 +912,18 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "call-of-duty-finest-hour-remastered": {
+      "name": "Call of Duty: Finest Hour (Finest Hour Remastered)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/crazyriddler/FinestHourRemastered",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -1891,6 +1903,32 @@
             {
               "name": "Decompilation",
               "url": "https://codeberg.org/KeybadeBlox/JSRF-Decompilation"
+            }
+          ]
+        },
+        {
+          "project": "call-of-duty-finest-hour-remastered",
+          "name_markdown": "[Call of Duty: Finest Hour (Finest Hour Remastered)](https://github.com/crazyriddler/FinestHourRemastered)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Call%20of%20Duty%20-%20Finest%20Hour%20%28USA%29.png",
+              "alt": "US Xbox front box art for Call of Duty: Finest Hour",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Static recompilation of the original Xbox game for native Windows. Requires the PAL Europe title 4156002A version 3 disc; other releases are unsupported. Linux and Steam Deck run through Proton/Wine, rather than a native Linux build. Enhanced textures and models are optional.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/crazyriddler/FinestHourRemastered"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/crazyriddler/FinestHourRemastered"
             }
           ]
         }
