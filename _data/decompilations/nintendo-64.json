@@ -4211,6 +4211,18 @@
                 "Static recompilation",
                 "Native port"
               ]
+            },
+            {
+              "name": "Tooie Recompiled (Frostie)",
+              "url": "https://github.com/Frostie77/Tooie-Recompiled",
+              "platforms": [
+                "Android"
+              ],
+              "description_markdown": "N64Recomp and RT64 port for Android ARM64; requires Android 7.0 or newer, a compatible Vulkan GPU, a physical controller and the supported USA ROM. Tested on AYN Odin 2 Portal; broader device compatibility and a full playthrough remain unverified. Known visual glitches and stutter; a Retroid Pocket 5 startup crash is under investigation.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
             }
           ],
           "project_types": [
