@@ -2303,7 +2303,22 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Kirby Super Star Recomp",
+              "url": "https://github.com/NVDEMU/KirbySuperStarPC",
+              "platforms": [
+                "Windows",
+                "macOS",
+                "Linux"
+              ],
+              "description_markdown": "Experimental snesrecomp port requiring the exact USA SA-1 ROM. Official Nightly packages are setup packs: generate the C code and rebuild locally before playing. Manual macOS builds are reported to render correctly; some routines remain interpreted.",
+              "project_types": [
+                "Static recompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Disassembly",
