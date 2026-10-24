@@ -37,49 +37,53 @@ This is the complete starter prompt; it has no placeholders to fill in:
 Help me start a matching decompilation of the N64 ROM I am supplying.
 Use my attached ROM or local path. If inaccessible, ask for its full path.
 
-Use the main branch of RetroReversing's decompdecomp fork:
+Use RetroReversing's decompdecomp fork, main branch:
 https://github.com/RetroReversing/decompdecomp
-Record the exact commit used. Read README and AGENTS.md, detect my OS,
-and use supported tools in a new dedicated workspace. Preserve my ROM
-and existing projects. Record the model and reasoning effort used.
-Work from the ROM and machine-derived analysis only. Do not consult
-existing game source, decompilation repositories, or source-derived maps
-unless I explicitly authorize a separate source-assisted experiment. Reuse verified installed tools where suitable.
-Create workspace and database parent directories before import.
-Disable app windows, tray, updates, and agent discovery for isolated work.
+Read README and AGENTS.md, record the commit, OS, model and effort.
+Preserve my ROM and existing projects. Reuse verified installed tools
+and an existing checkpoint when available; otherwise create an isolated
+workspace with its database parent directories. Disable windows, tray,
+updates and agent discovery for isolated work. Ask me to accept any
+required proprietary compiler license; do not accept it for me.
 
-Keep this first session within 30 minutes of wall time, including setup.
-Use one agent unless I ask for delegation. Record a start time and deadline.
-Keep working until that deadline unless blocked or I ask you to stop.
-A progress report is not a reason to end an otherwise productive session.
-After required instructions,
-read only code needed for the current stage; avoid an architecture survey.
-Before calling an unfamiliar API, read its signature and one real usage.
-Keep tool output short and save detailed logs to files.
+Use relevant existing game source, decompilation projects, symbol maps,
+and documentation where available. First check local files and a targeted
+reference search; avoid broad repository tours. Record what you reused
+and distinguish source-assisted reconstruction from ROM-only recovery.
 
-First identify byte order, region, revision, and hashes, then import.
-Validate that discovery reaches the main CPU program and distinguishes
-RSP microcode/data from CPU code. Do not trust compiler detection or
-candidate-code coverage without checking their evidence.
-If import fails, preserve the failing config and full error. Investigate
-for at most 10 minutes or five hypothesis-driven attempts, whichever comes
-first. Do not bypass validation, delete required sections, or change the
-target to make import pass. If still blocked, save a reproducible diagnosis
-and stop with a clear report rather than using the remaining quota.
+Budget this first session to 30 minutes including setup and verification.
+Record start and deadline. Use one agent unless I request delegation.
+Keep working while productive; a progress report is not a reason to stop.
+Read only instructions and code needed for the current stage. Check an
+unfamiliar API's signature and one real usage before calling it.
+Keep output short, save detailed logs, and summarize long-running jobs
+at meaningful checkpoints rather than repeatedly polling the model.
 
-Only after a successful import, compare plausible compiler settings,
-run a bounded automatic draft/matching pass, and investigate one small
-function. Keep targets and the judge fixed. Accept C only after compiling
-and linking it to the exact original bytes. Save best attempts locally.
+Identify ROM byte order, region, revision and hashes. Import, then check
+that discovery reaches the main CPU program rather than only its loader.
+Keep compiler detection and coverage provisional until supported by evidence.
+If blocked, preserve the error and failing config. Investigate at most
+10 minutes or five hypothesis-driven attempts, whichever comes first.
+Never bypass validation or change target bytes to make import succeed.
 
-Update a short audit/checkpoint after setup, import, an accepted match,
-and any blocking error: commands, hashes, settings, counts, and next step.
-Export and verify the original ROM where supported and within the time
-budget; distinguish it from an analysis image. Stop workers at the budget.
-Report completed and blocked stages, verified C bytes/functions, coverage
-only when its denominator is validated, remaining assembly, actual build
-results, setup versus matching time, and how to resume. An assembly-backed
-rebuild or plausible draft is not a full decompilation.
+After import, run the free automatic draft/matching pass first.
+Use its results to guide compiler checks and choose a small near match.
+Explain one mismatch, test one source/type hypothesis, then check related
+functions if the pattern works. Compile/judge each candidate locally.
+Cache attempted source/context/settings/target combinations and skip exact
+repeats. Bound searches; change strategy if they stop producing improvement.
+Preserve best candidates and source formatting. Keep targets and judge fixed.
+
+Batch function checks and save accepted sources with their provenance.
+Do not rebuild the complete ROM after every small match. Use full builds
+at integration checkpoints and at the end; reserve time based on observed
+build duration. If verification cannot finish within budget, report pending
+work explicitly. Stop matching workers at the deadline.
+
+Report verified C functions/bytes, coverage with its denominator, remaining
+assembly, full original-ROM verification, setup/matching/build time, token
+usage and cost if available, and the saved checkpoint's next step.
+Drafts, isolated matches, and assembly-backed rebuilds are different results.
 {% endcapture %}
 {% include copy-prompt.html id="n64-starter-prompt" text=n64_starter_prompt %}
 
@@ -117,13 +121,16 @@ The verified gains and estimated whole-session costs were:
 Model and effort | New C functions | New matching bytes | Final coverage | Standard API-equivalent cost
 ---|---|---|---|---
 GPT-6.1 Sol, high | 29 | 8,396 | 57.441% | $2.63
+GPT-6.1 Sol, low | 6 | 2,560 | 56.509% | $2.21
 GPT-6 Astra, high | 22 | 7,732 | 57.335% | $18.78
 GPT-6 Luna, low | 1 | 472 | 56.175% | $0.35
 GPT-6 Luna, high | 0 | 0 | 56.100% | $0.36
 
 **Sol high gave the best measured progress per dollar in this comparison.** It produced seven more functions than Astra high, but only 664 more code bytes, at about 86% lower estimated cost. Both function count and code size matter. Luna low was cheapest overall, but made little progress in the half hour. Luna high added no matches: its source-mapping probes failed the fixed comparison, and the unchanged baseline still rebuilt byte-identically. Increasing Luna's effort did not improve the result in these two trials; this does not establish a general high-versus-low rule.
 
-These were single trials with different agent decisions and search strategies. The result supports trying Sol high for another bounded session; it does not establish that Astra or Luna will perform the same way on another game. It also does not prove high effort beats low effort, because the earlier Sol low run started elsewhere.
+Sol low added six functions by combining existing constant references with original module-level data declarations. All additions passed independent compilation and the complete cartridge rebuild, with no rejections or fallbacks. From the same starting point, **Sol high produced about 3.3 times as many matching bytes for roughly 19% more estimated whole-session cost**. This supports high effort for this particular workload, while remaining a single trial per setting.
+
+These were single trials with different agent decisions and search strategies. The result supports trying Sol high for another bounded session; it does not establish that Astra or Luna will perform the same way on another game. The earlier Sol low continuations below used different checkpoints; the new 56.100% run is the direct low-versus-high comparison.
 
 ---
 ## What Should Your First Session Produce?
@@ -138,6 +145,18 @@ Ask for a small, resumable result:
 Our initial **GPT-6.1 Sol Turok run reached 419 matching functions, about 4.2% of detected code, roughly 30 minutes after the first import**. The complete cartridge check finished about nine minutes later. It included tool repairs and is an example of elapsed work, not a prediction of how quickly a game can be completed.
 
 **A plausible C listing is not a match.** Matching decompilation means that C compiles to the original bytes. A static recompilation translates machine instructions for another platform; see the [N64 recomp guide](/how-to-create-an-n64-recomp) for that route.
+
+---
+## Spend Less Time and Allowance
+The biggest savings in our sessions came from reducing repeated work, not simply choosing the cheapest model. These are practical changes supported by the trials; we have not measured a combined savings percentage:
+* **Reuse setup and references** - Keep a working toolchain, validated import, and resumable checkpoint. Relevant source, types, and maps can avoid rediscovering known facts; record when they contribute.
+* **Let local tools do routine work** - Run autopilot before paid matching. Ask the model to diagnose a mismatch and design a bounded batch, then let local compiler checks test candidates without a model call for every variant.
+* **Avoid duplicate attempts and context** - Save source, context, settings, and target hashes with each attempt. Reuse compact notes instead of rereading whole transcripts, and skip identical combinations. Short logs and fewer polling turns reduce repeated context processing.
+* **Build at useful checkpoints** - Recheck each changed function, but group accepted changes before a full ROM build. Keep the final full-cartridge check: skipping it inflated some apparent results. Reserve time for the linker rather than spending the entire budget on matching.
+* **Choose effort by verified output** - In our shared-checkpoint trial, Sol high produced about 3.3 times the matching bytes of Sol low for 19% more estimated cost. Luna was cheap but added little; lower token prices alone did not buy faster progress.
+* **Stop unproductive searches** - Put limits on import debugging and candidate searches. Preserve the best result and change hypotheses when attempts stop improving. A fixed time budget should not become an instruction to consume the remaining allowance without useful work.
+
+These controls are included in the starter prompt. Existing source is welcome in ordinary projects; we restricted it only for the ROM-only experiments reported here.
 
 ---
 ## The Findings That Changed Our Workflow
@@ -165,7 +184,7 @@ The practical precaution is simple: **save the original candidate and recheck af
 ## What Did the Turok Sessions Cost?
 **These are API-equivalent estimates, not Codex subscription charges or measured subscription allowance usage.** They apply published Standard rates to recorded token usage. Whole-session estimates include setup, matching, verification, and reporting by the agent [^19] [^20].
 
-The eight completed trials measured so far were:
+The nine completed trials measured so far were:
 
 Model and effort | Existing source available? | Verified coverage change | 30-minute matching estimate | Whole-session estimate
 ---|---|---|---|---
@@ -177,13 +196,14 @@ GPT-6 Luna, low | Yes | 56.100% -> 56.175% | $0.26 | $0.35
 GPT-6 Astra, high | Yes | 56.100% -> 57.335% | $14.67 | $18.78
 GPT-6.1 Sol, high | Yes | 56.100% -> 57.441% | $1.91 | $2.63
 GPT-6 Luna, high | Yes | 56.100% -> 56.100% | $0.24 | $0.36
-Total spending estimate across these trials | Mixed | Alternative branches, not additive progress | $44.45 | $59.44
+GPT-6.1 Sol, low | Yes | 56.100% -> 56.509% | $1.59 | $2.21
+Total spending estimate across these trials | Mixed | Alternative branches, not additive progress | $46.04 | $61.64
 
-Coverage uses a fixed **626,012-byte detected-code denominator**, not the cartridge size. The final four model rows are alternative continuations of the same checkpoint; do not add their gains together.
+Coverage uses a fixed **626,012-byte detected-code denominator**, not the cartridge size. The final five model rows are alternative continuations of the same checkpoint; do not add their gains together.
 
-**How we estimated cost:** count each usage event once, price cached reads separately, and include reasoning in output without charging it twice. Most input was reused cached context. We applied applicable long-context rates; recorded cache-write counts were zero. If uncached tokens instead incurred default cache-write rates, the combined estimate would rise by about $1.45. The matching-window split uses response timestamps and is approximate. Local CPU time, this parent chat, subscription fees, taxes, and separately billed tools are excluded.
+**How we estimated cost:** count each usage event once, price cached reads separately, and include reasoning in output without charging it twice. Most input was reused cached context. We applied applicable long-context rates; recorded cache-write counts were zero. If uncached tokens instead incurred default cache-write rates, the combined estimate would rise by about $1.49. The matching-window split uses response timestamps and is approximate. Local CPU time, this parent chat, subscription fees, taxes, and separately billed tools are excluded.
 
-The agent tool advertised Priority service. At published Fast/Priority-equivalent rates, these whole sessions would be roughly **$119**, rather than $59. Neither estimate reconstructs a subscription bill [^19] [^20].
+The agent tool advertised Priority service. At published Fast/Priority-equivalent rates, these whole sessions would be roughly **$123**, rather than $62. Neither estimate reconstructs a subscription bill [^19] [^20].
 
 For Sonnet's V-Rally session, repeated transcript records were deduplicated by message ID. Published rates applied to ordinary input, cache writes, cached reads, and output gave approximately **$1.70 API equivalent**, separately from the participant's **$2.70 reported cost**. The archive does not explain that difference [^21].
 
