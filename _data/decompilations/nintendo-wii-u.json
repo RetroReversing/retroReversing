@@ -16,7 +16,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 986
+        "github_stars": 1014
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 31
       },
       "ai_used": null
     },
@@ -163,12 +163,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T01:02:47Z",
-        "last_commit_url": "https://github.com/nsmbu-recomp/nsmbu-recomp/commit/de4d65668ab2067f59f6e8cb90305c22c1142884",
+        "last_commit_at": "2026-10-24T03:21:28Z",
+        "last_commit_url": "https://github.com/nsmbu-recomp/nsmbu-recomp/commit/c2540f41a30a461b07982a32eb91dd6f58f872a6",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 33
       },
       "ai_used": null
     },
@@ -201,12 +201,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T10:25:01Z",
-        "last_commit_url": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/commit/85d4aaa5f569f26bdaf4ed429fcd0b7ee4b8e0d2",
+        "last_commit_at": "2026-10-23T21:47:18Z",
+        "last_commit_url": "https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/commit/0bf27d4c9d678d822cf8a80fb01889749eae821e",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 30
       },
       "ai_used": null
     },
@@ -225,7 +225,7 @@
         "default_branch": "enhanced",
         "archived": false,
         "status": "Active",
-        "github_stars": 78
+        "github_stars": 81
       },
       "ai_used": null
     }

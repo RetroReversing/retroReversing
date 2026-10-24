@@ -54,7 +54,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 39
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -87,12 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T07:26:04Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/1029b4a7f85d5e5b8125994427be5a12efd0dc11",
+        "last_commit_at": "2026-10-23T23:16:08Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/c6337e7bee9ad91bd6ea0fced6f303e2accb773e",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 4
       },
       "ai_used": null
     },
@@ -106,12 +106,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T10:59:01Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/e482c6abd0fcdd46c11c267bc48407a087d57a39",
+        "last_commit_at": "2026-10-23T23:15:58Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/478e9069fdc7c855721583edc0603f6adaee4296",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1
+        "github_stars": 2
       },
       "ai_used": null
     },
@@ -144,8 +144,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T23:21:40Z",
-        "last_commit_url": "https://github.com/lamb2k/re4dc/commit/8f2ffae83d973201c6044e5d76bfbec50d9568eb",
+        "last_commit_at": "2026-10-24T01:37:54Z",
+        "last_commit_url": "https://github.com/lamb2k/re4dc/commit/ec3dcf4a05e5eb90686567e417e9421e0030aad0",
         "default_branch": "dreamcast-port",
         "archived": false,
         "status": "Active",

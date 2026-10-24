@@ -73,7 +73,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 228
+        "github_stars": 229
       },
       "ai_used": null
     },
@@ -92,7 +92,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 43
+        "github_stars": 44
       },
       "ai_used": null
     },
@@ -244,7 +244,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 1006
+        "github_stars": 1007
       },
       "ai_used": null
     },
@@ -263,7 +263,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 3630
+        "github_stars": 3639
       },
       "ai_used": null
     },
@@ -282,7 +282,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 1683
+        "github_stars": 1687
       },
       "ai_used": null
     },
@@ -339,7 +339,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 684
+        "github_stars": 685
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 684
+        "github_stars": 685
       },
       "ai_used": null
     },
@@ -415,7 +415,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 929
+        "github_stars": 930
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 493
+        "github_stars": 497
       },
       "ai_used": null
     },
@@ -565,8 +565,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T20:01:46Z",
-        "last_commit_url": "https://github.com/SAT-R/sa3/commit/63fc7974bc53d3ddac2651a7a04bfd7e17c96419",
+        "last_commit_at": "2026-10-23T22:24:28Z",
+        "last_commit_url": "https://github.com/SAT-R/sa3/commit/ed0c853fc3e9b01a4c3ca873192c20028ede91d2",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -646,7 +646,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 28
+        "github_stars": 29
       },
       "ai_used": null
     },
@@ -679,8 +679,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-09-29T01:52:10Z",
-        "last_commit_url": "https://github.com/MokhaLeee/FireEmblem7J/commit/f27a0295d855229f3fad01412d855f4ae7a1c8f0",
+        "last_commit_at": "2026-10-23T16:06:21Z",
+        "last_commit_url": "https://github.com/MokhaLeee/FireEmblem7J/commit/b31041292c69c5415ffd6fe6e9bd47d079d1104d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -798,7 +798,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 19
+        "github_stars": 20
       },
       "ai_used": null
     },
@@ -874,7 +874,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 170
+        "github_stars": 173
       },
       "ai_used": null
     },
@@ -908,8 +908,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 2,
-        "last_commit_at": "2026-10-23T04:33:00Z",
-        "last_commit_url": "https://github.com/722rsr/gtadv3-decomp/commit/bd40d03738b5dde78e0db59cd92730e56d48c239",
+        "last_commit_at": "2026-10-24T04:26:29Z",
+        "last_commit_url": "https://github.com/722rsr/gtadv3-decomp/commit/cbe7592d50039e81324a3cd66fa93b48be69e50c",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -927,8 +927,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 1,
-        "last_commit_at": "2026-10-23T08:46:10Z",
-        "last_commit_url": "https://github.com/moozilla/boktai3-decomp/commit/d6223f53c27d3d60dc0e431cb80e6bff5c280ab1",
+        "last_commit_at": "2026-10-24T08:05:55Z",
+        "last_commit_url": "https://github.com/moozilla/boktai3-decomp/commit/aeab4f5ed40db4717a3b837bd647cdcaf789d865",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -945,7 +945,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 10,
+        "github_stars": 11,
         "last_commit_at": "2026-10-04T21:03:23Z",
         "last_commit_url": "https://github.com/CosmicScribe64/eds-decomp/commit/857002acd7a2e3ce98afb2992fe9761144308c9a",
         "default_branch": "main",
@@ -964,7 +964,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 59,
+        "github_stars": 62,
         "last_commit_at": "2026-10-21T14:16:27Z",
         "last_commit_url": "https://github.com/josiahg2502-glitch/Mother3Recomp/commit/682dcfe4ff0ff02d5b1f3ee3661b5f112d320e47",
         "default_branch": "master",
@@ -1064,7 +1064,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -1083,7 +1083,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 38
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -1121,7 +1121,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 21
       },
       "ai_used": null
     },
@@ -1154,8 +1154,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T01:38:44Z",
-        "last_commit_url": "https://github.com/PascalPixel/alchemy/commit/cb19bcdf07dfe35530f049e4c27a446d21bb0e83",
+        "last_commit_at": "2026-10-24T07:53:04Z",
+        "last_commit_url": "https://github.com/PascalPixel/alchemy/commit/f21e6732e987951d9de1d6ffcc99de8c5134c47f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1178,7 +1178,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 57
+        "github_stars": 60
       },
       "ai_used": null
     },
@@ -1230,8 +1230,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:05:42Z",
-        "last_commit_url": "https://github.com/holly-hacker/hp3-gba-decomp/commit/207d6c1754077e6e10c125e49eee3d39c886250a",
+        "last_commit_at": "2026-10-23T13:39:06Z",
+        "last_commit_url": "https://github.com/holly-hacker/hp3-gba-decomp/commit/3dd472dacf9e0d0fcc49498c92ebfce8ed23dd46",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1268,12 +1268,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:25:08Z",
-        "last_commit_url": "https://github.com/MatyMeatBoy/ReKHCoM/commit/28439a08cfa4b016f856f541fca485fc21b90c2c",
+        "last_commit_at": "2026-10-24T08:20:07Z",
+        "last_commit_url": "https://github.com/MatyMeatBoy/ReKHCoM/commit/8de27ed15d645a845059f8021eda90ca91d4bdcf",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 59
+        "github_stars": 61
       },
       "ai_used": null
     },
@@ -1330,7 +1330,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 401
+        "github_stars": 402
       },
       "ai_used": null
     },
@@ -1387,7 +1387,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 71
+        "github_stars": 72
       },
       "ai_used": null
     },
@@ -1501,7 +1501,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 48
+        "github_stars": 49
       },
       "ai_used": null
     },
@@ -1520,7 +1520,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 590
+        "github_stars": 598
       },
       "ai_used": null
     },
@@ -1648,8 +1648,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T22:16:05Z",
-        "last_commit_url": "https://github.com/mstan/RubySapphireRecomp/commit/13a2d723b9d731064162636d2ec3c083d596a861",
+        "last_commit_at": "2026-10-23T14:40:16Z",
+        "last_commit_url": "https://github.com/mstan/RubySapphireRecomp/commit/eddbc3bd14b3f53519039cdf9c78584ed62a224b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1767,7 +1767,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 21
+        "github_stars": 22
       },
       "ai_used": null
     },
@@ -1881,7 +1881,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 22
       },
       "ai_used": null
     },

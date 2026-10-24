@@ -92,7 +92,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 186
+        "github_stars": 187
       },
       "ai_used": null
     },
@@ -354,7 +354,7 @@
         "last_commit_url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/commit/25d73ed4db7033b9177ec116f99f4185e7397a6f",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 46,
+        "github_stars": 50,
         "status": "Active"
       },
       "ai_used": true
@@ -412,7 +412,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 261
+        "github_stars": 264
       },
       "ai_used": null
     },
@@ -431,7 +431,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 176
+        "github_stars": 178
       },
       "ai_used": null
     },
@@ -469,7 +469,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -488,7 +488,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -564,7 +564,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 33
+        "github_stars": 36
       },
       "ai_used": null
     },
@@ -583,7 +583,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 80
+        "github_stars": 82
       },
       "ai_used": null
     },
@@ -602,7 +602,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 42
+        "github_stars": 43
       },
       "ai_used": null
     },
@@ -716,7 +716,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 6
+        "github_stars": 7
       },
       "ai_used": null
     },
@@ -773,7 +773,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 727
+        "github_stars": 728
       },
       "ai_used": null
     },
@@ -811,7 +811,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 207
+        "github_stars": 208
       },
       "ai_used": null
     },
@@ -868,7 +868,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 201
+        "github_stars": 206
       },
       "ai_used": null
     },
@@ -887,7 +887,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 47
+        "github_stars": 48
       },
       "ai_used": null
     },
@@ -958,12 +958,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T02:09:25Z",
-        "last_commit_url": "https://github.com/kandowontu2/starfox-enhanced/commit/0f889bdc3d605cdb2cb28abb008fd9d7ea2a8f8e",
+        "last_commit_at": "2026-10-23T16:56:46Z",
+        "last_commit_url": "https://github.com/kandowontu2/starfox-enhanced/commit/e513c732f21f63b5ce73206bc7ee0d4689ffcd18",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 107
+        "github_stars": 110
       },
       "ai_used": null
     },
@@ -1039,7 +1039,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 11
+        "github_stars": 12
       },
       "ai_used": null
     },
@@ -1096,7 +1096,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 10
+        "github_stars": 11
       },
       "ai_used": null
     },
@@ -1115,7 +1115,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 62
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -1205,12 +1205,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T21:45:58Z",
-        "last_commit_url": "https://github.com/RadzPrower/Super-Metroid-Launcher/commit/f69aa6ba770574cb17525e81ab5f5603c231592c",
+        "last_commit_at": "2026-10-23T14:29:38Z",
+        "last_commit_url": "https://github.com/RadzPrower/Super-Metroid-Launcher/commit/cd1ed7497d135f1dcc1ab1435481ace838288321",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 211
+        "github_stars": 212
       },
       "ai_used": null
     },
@@ -1357,7 +1357,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 55,
+        "github_stars": 57,
         "last_commit_at": "2026-10-20T13:38:17Z",
         "last_commit_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/commit/d54e9f309c8e367c2c22e93231c29d67b052e22e",
         "default_branch": "main",

@@ -924,7 +924,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -943,7 +943,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 13
       },
       "ai_used": null
     },
@@ -976,12 +976,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-19T19:26:17Z",
-        "last_commit_url": "https://github.com/mstan/FaxanaduRecomp/commit/80705e858b41b2e0a60f44e8ab0ccb8975813390",
+        "last_commit_at": "2026-10-23T16:56:41Z",
+        "last_commit_url": "https://github.com/mstan/FaxanaduRecomp/commit/6a297c2fa8613700777f050abc2ca6a7cf9c7064",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -1209,7 +1209,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -1323,7 +1323,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 39
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -1337,8 +1337,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T14:22:43Z",
-        "last_commit_url": "https://github.com/nathsou/smb/commit/6ba857f2d7f43371983d21a04de7025b05ec2513",
+        "last_commit_at": "2026-10-24T08:09:57Z",
+        "last_commit_url": "https://github.com/nathsou/smb/commit/679b19916aa0b7aa7df0fb7b566a4e9ddc664e09",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1456,7 +1456,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 19
+        "github_stars": 20
       },
       "ai_used": null
     },
@@ -1532,7 +1532,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 3262
+        "github_stars": 3265
       },
       "ai_used": null
     }
