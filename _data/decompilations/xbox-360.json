@@ -3357,6 +3357,18 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": null
+    },
+    "fear-nx": {
+      "name": "F.E.A.R. (F.E.A.R. NX)",
+      "platforms": [
+        "Xbox 360"
+      ],
+      "repository_url": "https://github.com/infriker/fear-nx",
+      "project_type": "Static recompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -6702,6 +6714,32 @@
             {
               "name": "Native port",
               "url": "https://github.com/YaPeL/torchlight-recomp"
+            }
+          ]
+        },
+        {
+          "project": "fear-nx",
+          "name_markdown": "[F.E.A.R. (F.E.A.R. NX)](https://github.com/infriker/fear-nx)",
+          "images": [
+            {
+              "url": "https://store-images.s-microsoft.com/image/apps.46093.14556122242310292.df8643af-bc6d-47be-8578-fd37c1f12578.d3b82136-0a81-4c22-baff-e620fc25ebe1",
+              "alt": "Official Xbox 360 F.E.A.R. cover art showing Alma above armed soldiers",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Nintendo Switch port of the Xbox 360 game, with PowerPC code statically recompiled to AArch64 using ReXGlue and a native Vulkan/Mesa renderer. Requires your own Xbox 360 game with the exact supported default.xex revision (Title ID 565507D9); the Windows release is incompatible. Requires title takeover mode; applet mode and emulators are unsupported. Work in progress with intermittent rendering defects and GPU-related slowdowns. See the repository for the supported executable hash.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Static recompilation",
+              "url": "https://github.com/infriker/fear-nx"
+            },
+            {
+              "name": "Native port",
+              "url": "https://github.com/infriker/fear-nx"
             }
           ]
         }
