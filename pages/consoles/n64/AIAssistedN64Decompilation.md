@@ -50,6 +50,8 @@ The free pass has done the easy work. Give the remaining functions to a coding a
 
 **Start with one worker.** Open your game and click **Start agents**. Choose an agent, model, and effort. Set **How many** to **1**, then select **Start**.
 
+**Start cheap, then step up.** After the free autopilot pass, try a short run with **Luna or Haiku** to pick up easier remaining matches at low cost. When verified progress slows, switch to **Sol or Sonnet** for harder functions. Keep the same project so the next model can reuse saved attempts and notes. This is a suggested spending strategy; we have not yet measured a full cheap-first run against using a stronger model throughout.
+
 {% include article-figure.html src="/public/images/n64/decompdecomp-start-agents.webp" alt="decompdecomp Start agents panel with Codex CLI selected, model and effort menus, five workers, and eight functions per session" width="1193" height="926" size="document" title="Configure your agents" caption="How many controls parallel workers. Functions per session controls how often each worker starts a fresh conversation. The selected model and five-worker count are examples, not recommendations." %}
 
 **Watch the map turn green.** Each worker writes candidate C, then the app compiles it and checks the bytes against your ROM. Differences go back to the worker for another attempt. Verified matches are saved automatically [^16].
@@ -72,15 +74,16 @@ Open a new terminal, run `codex`, and follow the sign-in prompts. You can also u
 
 **Subscription budget.** ChatGPT Plus is about **$20/month**, with Codex CLI access and included Sol/Luna usage. Pro starts at **$100/month**, with higher-priced tiers for heavier use. Available models and limits depend on your account; check the model picker and usage dashboard [^25].
 
-For comparing the main current model families, these are Standard API prices in USD per **one million tokens**, checked 25 October 2026. Input is what the model reads; output is what it generates. Cached input is reused context. These are API rates, not extra charges on top of included subscription usage [^19]:
+For comparing the current model families and Terra from our earlier trials, these are Standard API prices in USD per **one million tokens**, checked 25 October 2026. Input is what the model reads; output is what it generates. Cached input is reused context. These are API rates, not extra charges on top of included subscription usage [^19]:
 
 Model | Input | Cached input | Output | Recommended
 ---|---:|---:|---:|---
-GPT-6 Luna | $0.10 | $0.01 | $0.50 | Cheap; little progress in our Turok trials
-GPT-6.1 Sol | $2 | $0.10 | $10 | **Best value in our shared-checkpoint test**
+GPT-6 Luna | $0.10 | $0.01 | $0.50 | **Try first for easier matches**
+GPT-6.1 Sol | $2 | $0.10 | $10 | **Step up for harder work; best measured value**
+GPT-5.6 Terra | $2 | $0.20 | $12 | Earlier tested model; higher rates than Sol [^20]
 GPT-6 Astra | $10 | $1 | $50 | Higher cost; try when Sol stalls
 
-Sol costs about one-fifth of Astra at these base rates. Actual session cost depends on retries, context, and output, including reasoning. Cache writes, long contexts, and faster service modes can add charges; the [OpenAI pricing page](https://developers.openai.com/api/docs/pricing) has the full rate card.
+Luna costs about one-twentieth of Sol at these base rates. Sol costs about one-fifth of Astra. Terra is included for completeness, but its current cached-input and output rates are higher than Sol's. Our Luna trials began at an already-developed Turok checkpoint and produced little progress; they do not test how much easier work Luna could collect at the start. Actual session cost depends on retries, context, and output, including reasoning. Cache writes, long contexts, and faster service modes can add charges; the [OpenAI pricing page](https://developers.openai.com/api/docs/pricing) has the full rate card.
 
 ---
 ### Install Anthropic Claude Code
@@ -98,8 +101,8 @@ The main Claude families below are sorted by Standard API price, in USD per **on
 
 Model | Input | Cached input | Output | Recommended
 ---|---:|---:|---:|---
-Claude Haiku 5.5 | $0.10 | $0.01 | $0.50 | Cheapest; untested in our decomp trials
-Claude Sonnet 5.5 | $2 | $0.10 | $10 | **Our tested Claude starting choice**
+Claude Haiku 5.5 | $0.10 | $0.01 | $0.50 | **Try first for easier matches; untested here**
+Claude Sonnet 5.5 | $2 | $0.10 | $10 | **Step up when Haiku stalls; tested here**
 Claude Opus 5.5 | $4 | $0.20 | $20 | Twice Sonnet's base rates; untested here
 Claude Fable 5.1 | $10 | $0.25 | $50 | Most expensive here; untested
 
