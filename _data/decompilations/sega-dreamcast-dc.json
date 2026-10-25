@@ -84,7 +84,7 @@
       ],
       "repository_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp",
       "project_type": "Decompilation",
-      "completion_status": null,
+      "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
         "last_commit_at": "2026-10-25T07:53:25Z",
@@ -280,7 +280,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Completed",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
