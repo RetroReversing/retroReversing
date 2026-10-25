@@ -65,6 +65,13 @@ When it finishes, note the matched-function count and code coverage, then save o
 
 **Keep the free-pass result separate from agent progress.** The later screenshot below was taken with two agents already working, so its match count is not a measurement of the free pass alone. We have not recorded a final coverage figure or agent cost for Chicken Run.
 
+### Let Your Projects Help Each Other
+**More compatible projects in the app mean more opportunities for free matches.** Keep projects with verified C imported in the same app library, including other regions of games you own. Shared library routines and unchanged regional code can let work on one project benefit another. You do not need to keep every project visible in a tab.
+
+The app looks for identical functions after accounting for address differences, adapts symbol names, then recompiles the candidate against the destination game's bytes. Only an exact result counts as a match. This uses local computer time and **zero AI model tokens**; more projects improve the pool of candidates, but do not guarantee more matches. Compatible compiler settings and function boundaries still matter [^13].
+
+Let autopilot run after importing a related project, and run it again after that project's matching progress improves. Check **Matches from other games** for transfer results. Individual functions can also show **Other games and local SDKs** suggestions: similar code is a useful starting point for an agent, but needs adaptation and verification before it counts [^13]. See the [V-Rally transfer screenshot in the N64 tutorial](/ai-assisted-n64-decompilation#let-your-projects-help-each-other) for an example of accepted matches and unsuccessful attempts.
+
 ---
 ## Understand the PS1 Compiler
 The compiler converts recovered C into machine instructions. Matching needs the right compiler version, flags and assembler behaviour. Plausible C can behave correctly while producing different bytes.
@@ -185,3 +192,5 @@ For the next Chicken Run checkpoint, record the exact disc edition, detected com
 [^10]: [Digimon World build instructions](https://github.com/jype0/dw_decomp), CodeWarrior for PlayStation Release 4 and `cc_mips.dll`.
 [^11]: [Tokimeki Memorial toolchain explanation](https://github.com/CosmicScribe64/tokimemo-ps1-decomp#toolchain), early SGI-family code generation reproduced with IDO 5.3 and compatibility steps. The absence of a PS1 IDO option was checked against decompdecomp's PS1 platform definition on 25 October 2026.
 [^12]: [mkst's preserved PSY-Q compiler version information](https://github.com/mkst/esa/releases), compiler banners and ASPSX versions for PSY-Q 4.4, 4.5 and 4.6.
+
+[^13]: decompdecomp's [cross-project matching and similarity implementation](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/twins.py), [autopilot](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/autopilot.py), and [function suggestions display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/function.js). Behaviour checked in the installed RetroReversing app on 25 October 2026. The regional transfer example is covered in the [N64 tutorial](/ai-assisted-n64-decompilation#let-your-projects-help-each-other).

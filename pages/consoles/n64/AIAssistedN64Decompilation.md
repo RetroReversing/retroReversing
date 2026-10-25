@@ -45,6 +45,17 @@ In our separate app run on V-Rally, the automatic draft pass reported **469 matc
 
 {% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.webp" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
 
+### Let Your Projects Help Each Other
+**More compatible projects in the app mean more opportunities for free matches.** Keep projects with verified C imported in the same app library, including other regions of games you own. Shared library routines and unchanged regional code can let work on one project benefit another. You do not need to keep every project visible in a tab.
+
+The app looks for identical functions after accounting for address differences, adapts symbol names, then recompiles the candidate against the destination game's bytes. Only an exact result counts as a match. This uses local computer time and **zero AI model tokens**; more projects improve the pool of candidates, but do not guarantee more matches. Compatible compiler settings and function boundaries still matter [^41].
+
+Let autopilot run after importing a related project, and run it again after that project's matching progress improves. Check **Matches from other games** for transfer results. Individual functions can also show **Other games and local SDKs** suggestions: similar code is a useful starting point for an agent, but needs adaptation and verification before it counts [^41].
+
+In our V-Rally regional comparison, the app verified **429 North American functions using C from the European project**. The North American project had 859 total matches at that checkpoint. These transfers were free of AI token charges; they were not 429 additional model-produced functions. Regional differences and failed transfers meant the two editions still had different coverage totals.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-cross-project-matches.webp" alt="decompdecomp V-Rally autopilot reporting 684 free matches, with 429 verified matches from other games across 730 transfer attempts and individual match and miss results" width="1180" height="625" size="document" title="Free matches from another V-Rally region" caption="The app reports 429 verified cross-project matches across 730 transfer attempts. The 684 free autopilot matches include those transfers; do not add the two totals together. Misses remain unverified." %}
+
 ---
 ## Understanding the Compiler
 A compiler turns C into the machine instructions executed by the N64. Matching decompilation runs that process again: your recovered C must produce the same bytes. **The compiler version and its flags matter as much as the C source.** A modern compiler can produce working code that fails the original-byte comparison.
@@ -342,3 +353,5 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 
 [^39]: decompdecomp's [map colour logic](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/map.js) and [map legend](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/index.html), scored candidates, active claims, matched/polished states, and set-aside labels.
 [^40]: decompdecomp's [function claim scheduler and attempt recording](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/network.py), default strategies, duplicate-code priority, dependencies, release cooldowns, regional success, model routing, and failed-compilation accounting.
+
+[^41]: decompdecomp's [cross-project matching and similarity implementation](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/twins.py), [autopilot](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/autopilot.py), and [function suggestions display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/function.js). Behaviour checked in the installed RetroReversing app on 25 October 2026. V-Rally counts are from the local app database: 429 distinct North American functions accepted from the European project, among 859 total North American matches.
