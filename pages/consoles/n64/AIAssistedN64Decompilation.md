@@ -56,6 +56,10 @@ The free pass has done the easy work. Give the remaining functions to a coding a
 
 **Keep an eye on usage.** Model calls use your provider's paid allowance or API balance. Check its usage page and export a checkpoint before moving the project.
 
+**Use your subscription first.** For regular decompilation work, our first choice is Codex CLI with ChatGPT sign-in or Claude Code with an eligible Claude subscription. The monthly fee includes an allowance, so repeated matching attempts can cost less than paying for every model call through an API. This is especially useful if you already subscribe: work within the included allowance adds no separate API charge [^25] [^26].
+
+**Watch the limits.** Subscriptions have usage limits, and additional credits or extra usage can cost more. Sign in with your subscription account to use its allowance; supplying an API key uses API billing. Savings depend on how often you work and which model you use. The API-equivalent costs below are comparison estimates, not subscription bills.
+
 ---
 ### Install Codex CLI or Claude Code
 CLI means command-line interface: the terminal program decompdecomp launches to run your agent. Select its card in **Start agents**; if it is missing, the app offers **Install it for me**. You can also install it yourself with the official commands below for macOS or Linux.
@@ -144,3 +148,5 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^22]: [Official Codex CLI guide](https://learn.chatgpt.com/docs/codex/cli), standalone installation and first-run sign-in.
 [^23]: [Claude Code quickstart](https://code.claude.com/docs/en/quickstart), native installation, version check, supported accounts, and first-run sign-in.
 [^24]: decompdecomp's [agent session manager](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py) and [worker prompts](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/tools.py), default session size, compiled-claim counting, and automatic session renewal.
+[^25]: [Codex pricing](https://learn.chatgpt.com/docs/pricing) and [authentication](https://learn.chatgpt.com/docs/auth), included subscription usage, usage limits, additional credits, and separate API-key billing.
+[^26]: [Claude Code cost guide](https://code.claude.com/docs/en/costs), included Pro and Max subscription usage, plan limits, additional usage credits, and the distinction between estimated session cost and subscription billing.
