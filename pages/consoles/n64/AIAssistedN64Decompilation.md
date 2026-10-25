@@ -114,6 +114,8 @@ Return to decompdecomp and select **Installed it already? Look again** if needed
 ### Connect DeepSeek Through the API
 DeepSeek works through decompdecomp's **API key** option, so there is no separate CLI to install. Create an account at the [DeepSeek platform](https://platform.deepseek.com), add credit, and create an API key. In **Agents & models**, select the DeepSeek preset or configure its OpenAI-compatible base URL as `https://api.deepseek.com`. Enter your key, choose a supported model, then return to **Start agents** and select **API key** [^29].
 
+{% include article-figure.html src="/public/images/n64/decompdecomp-deepseek-api-setup.webp" alt="decompdecomp API model settings showing the DeepSeek provider, model field, API address, masked API key, and Save button" width="583" height="643" size="document" title="Connect your DeepSeek account" caption="Select the provider, enter your API key and model, then save the endpoint before starting agents." %}
+
 For a fresh connection, DeepSeek currently documents the following model names. USD prices per million tokens are shown as **off-peak to peak** ranges, checked 25 October 2026 [^30]:
 
 Model | Input | Cached input | Output | Suggested use
@@ -121,7 +123,7 @@ Model | Input | Cached input | Output | Suggested use
 DeepSeek Flash (`deepseek-flash`) | $0.15-$0.30 | $0.003-$0.006 | $0.60-$1.20 | Low-cost first pass
 DeepSeek V4 Pro (`deepseek-v4-pro`) | $0.66-$1.32 | $0.022-$0.044 | $1.98-$3.96 | Try for harder work
 
-Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V4.1-Flash-1017**. The app displayed the configured label `deepseek-chat`; the participant confirmed the actual model and version. Peak rates are twice off-peak rates; check the [official rate card](https://api-docs.deepseek.com/quick_start/pricing/) for its UTC schedule and current prices.
+Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V4.1-Flash-1017**. Peak rates are twice off-peak rates; check the [official rate card](https://api-docs.deepseek.com/quick_start/pricing/) for its UTC schedule and current prices.
 
 ---
 ### What the Agent Settings Mean
