@@ -43,6 +43,31 @@ In our separate app run on V-Rally, the automatic draft pass reported **469 matc
 
 {% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.png" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
 
+---
+## Understanding the Compiler
+A compiler turns C into the machine instructions executed by the N64. Matching decompilation runs that process again: your recovered C must produce the same bytes. **The compiler version and its flags matter as much as the C source.** A modern compiler can produce working code that fails the original-byte comparison.
+
+The app's N64 choices include these historical toolchains [^33]:
+
+Compiler | What the name means | Why it matters
+---|---|---
+IDO 5.3 | Version 5.3 of SGI's C compiler toolchain | One possible original N64 toolchain; shown in the screenshot
+IDO 7.1 | A later version of the IDO toolchain | The same C can produce different instructions from IDO 5.3
+KMC GCC 2.7.2 | The N64-era KMC variant of GCC 2.7.2 | Another supported toolchain, used by our V-Rally project
+
+**Flags change the recipe.** Settings such as `-O2` control optimization; `-G0` and `-G8` affect small-data addressing. Debug options such as `-g` can also affect generated code with historical compilers. A mismatch can therefore come from compiler settings as well as source code.
+
+### How Detection Works
+The app builds its compiler evidence in stages [^34]:
+* **An initial guess** - N64 import looks for assembly patterns associated with IDO or GCC. For example, their use of unconditional branches and jumps can differ. This chooses a starting point; it does not prove a compiler version or flag set.
+* **Real compilation checks** - Candidate C is compiled and compared with the target bytes. The app can test installed compilers against small drafts; during matching, agents can try alternatives and search flags. A successful comparison provides stronger evidence than the initial guess.
+* **A compiler map** - Matched functions and background compiler surveys reveal ranges that may need different settings. The app checks neighbouring functions before applying a suggested range, and guards existing matches against compiler changes.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-compiler-detection.webp" alt="decompdecomp compiler summary showing IDO 5.3, twelve parts with another compiler, and two changes waiting for review" width="1175" height="257" size="document" title="Compiler evidence can change as matching progresses" caption="The project uses IDO 5.3 as its main compiler, with overrides for 12 code ranges. Two suggested changes are waiting for review." %}
+
+**What should you do?** Click **Look at it** to review pending suggestions. The screenshot's **12 parts** means code ranges with compiler overrides, which may differ by version or flags; it does not mean 12 distinct compiler products. **Two changes waiting** means suggestions awaiting review. Start with the detected settings and let matching evidence guide changes. Proprietary toolchains require your acceptance before installation [^16].
+
+---
 ## Start Agents in decompdecomp
 The free pass has done the easy work. Give the remaining functions to a coding agent.
 
@@ -240,3 +265,6 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^31]: decompdecomp's [agent statistics display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/agents.js) and [session accounting](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py), cumulative tokens per match and dollar-cost fallback. South Park counts, DeepSeek Flash model/version, and confirmation that the run consumed the full $10 balance were supplied by the participant. Cost per match is $10 / 56; matches per dollar is 56 / $10.
 
 [^32]: Participant-supplied decompdecomp V-Rally statistics: `claude-sonnet-5-5#low`, six matches, $2.48 total and $0.41 per match; Haiku, 337 matches, $141 total and $0.42 per match. Haiku version, effort, timing, checkpoints, and billing basis were not supplied.
+
+[^33]: decompdecomp's [N64 platform definition](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/__init__.py), supported compiler versions; [IDO guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/ido.md), compiler behaviour and matching context.
+[^34]: decompdecomp's [N64 ROM reader](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/rom.py), initial assembly heuristic; [import compiler tests](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/importing.py), small-draft comparison; [compiler engine](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/compilers.py) and [app guide](https://github.com/RetroReversing/decompdecomp/blob/main/docs/GUIDE.md), flag search, surveys, range checks, suggestions, and safeguards for matched code.
