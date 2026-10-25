@@ -35,13 +35,13 @@ The fork is based on n-delic's project and preserves its credits and licenses. W
 ## Start in the App Without AI Tokens
 [Install decompdecomp](https://github.com/RetroReversing/decompdecomp#install) using the version that fits your platform, open the app, and select **New project**. Supply your own ROM, confirm that you own it, choose the compiler when prompted, and select **Start decompiling**. The screenshot shows the V-Rally import screen just before that step.
 
-{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-new-project.png" alt="decompdecomp's New project screen with a V-Rally N64 ROM selected, the compiler menu, and the Start decompiling button" width="1445" height="951" size="document" title="Start with the local app" caption="Select your ROM and compiler, then let the automatic matching pass run before starting an AI agent." %}
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-new-project.webp" alt="decompdecomp's New project screen with a V-Rally N64 ROM selected, the compiler menu, and the Start decompiling button" width="1445" height="951" size="document" title="Start with the local app" caption="Select your ROM and compiler, then let the automatic matching pass run before starting an AI agent." %}
 
 Let the app import the game and finish its **free matches** pass before opening **Agents & models**. Its local tools draft C and check it against the game's bytes; this stage uses **zero AI model tokens**. It still takes computer time, and setup may need free tool downloads or your explicit acceptance of a proprietary compiler license. Record the matches and save or export a checkpoint. Then start an agent for the functions the automatic pass could not match. The amount of free progress varies by game and compiler [^16].
 
 In our separate app run on V-Rally, the automatic draft pass reported **469 matches**. The project overview then showed **551 of 2,101 functions matched**, or **5.26% of detected code**, with **zero agents started**. The other 82 matches came from the app's automatic reuse of matching code on identical functions. This screenshot is the result after the free local stage; it is a different run from the model sessions in the table below.
 
-{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.png" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.webp" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
 
 ---
 ## Understanding the Compiler
@@ -222,6 +222,33 @@ The agent is trying to reproduce the original machine code. A green match means 
 
 
 ---
+## Reading Function Status and the Work Queue
+Each square in the ROM map represents a function. Its colour shows the current state, while its detail view preserves attempts and notes [^39]:
+
+Status | What it means
+---|---
+To do | Unmatched, unclaimed, and no scored candidate is recorded. It may never have been attempted, but failed compilations or an inspection without a scored candidate can leave it this colour.
+Tried | A scored candidate exists, but it does not match. The app retains the best attempt for another worker to improve.
+Close | A tried candidate is relatively near a match according to the difference score. This is a colour gradient, not proof that only a small amount of work remains.
+Working | A worker currently holds the function's claim. It may already have earlier attempts; this does not mean it was previously untouched.
+Matched | Accepted C compiles to the target bytes under the project's comparison settings.
+Polished | Matched C has also been given more readable names, types, and comments, while preserving the match. Those interpretations can still need human review.
+Set aside | Excluded from ordinary matching work, for example because it looks like hand-written assembly or a fragment of another function. Its detail view explains why.
+Not C | Agents from multiple models have agreed it should be set aside as code they cannot reproduce in C. This is a recorded assessment, not a mathematical proof; its page can reopen it.
+
+**To do is not an audit of whether anyone has looked at a function.** Open its detail view to check attempts, errors, and notes. The overview's **to go** count is broader still: it includes remaining unmatched work, including previously tried functions.
+
+### How the App Chooses the Next Function
+The normal matching strategy aims for easier progress, with adjustments based on what the project has learned [^40]:
+* **Avoid collisions** - Already matched, set-aside, and currently claimed functions are not handed out as ordinary new work. A worker normally finishes or releases its current claim before taking another.
+* **Prefer useful wins** - Smaller functions generally come earlier. Functions with identical copies can get priority because one match may unlock several others for free.
+* **Respect dependencies** - If one function needs another matched first, that prerequisite can move forward in the queue. Work still waiting on a dependency moves back.
+* **Avoid repeating failures** - Recently released functions cool down, especially for the same worker or model family. Regions with poor matching results can be deprioritised while compiler or context problems are investigated.
+* **Use model results** - Once enough project history exists, models with stronger matching results can receive work repeatedly abandoned by others. This uses observed success, rather than assuming that the most expensive model is always best.
+
+A worker can also request a particular function, and other selection strategies exist. The map stays in ROM order for navigation; the work queue does not. A grey square beside green ones may therefore be waiting its turn rather than being missed.
+
+---
 ## Model Results and Costs
 These are different tests: **V-Rally** measures a fresh, ROM-only setup; **Turok** measures work on an existing project. All verified C results passed a byte-identical cartridge rebuild. Percentages refer to detected code, not the whole cartridge. Each result is a single trial, not a general model ranking.
 
@@ -310,3 +337,6 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^36]: [Excitebike 64 toolchain documentation](https://github.com/chasmlol/excitebike64#toolchain), SN64 GCC 2.8.1 for game code, SN64 GCC 2.7.2 builds 0006 and 0001 for the loader, and retail USA Rev 1 and European build targets.
 [^37]: [Turok 2 decompilation project](https://github.com/mgrz18/turok2-decomp), reported confirmation of SN64 GCC 2.8.1 with `-O2` on eight engine functions.
 [^38]: [Ocarina of Time build configuration](https://github.com/zeldaret/oot/blob/main/Makefile), EGCS compiler selection for specific iQue files and libraries.
+
+[^39]: decompdecomp's [map colour logic](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/map.js) and [map legend](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/index.html), scored candidates, active claims, matched/polished states, and set-aside labels.
+[^40]: decompdecomp's [function claim scheduler and attempt recording](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/network.py), default strategies, duplicate-code priority, dependencies, release cooldowns, regional success, model routing, and failed-compilation accounting.
