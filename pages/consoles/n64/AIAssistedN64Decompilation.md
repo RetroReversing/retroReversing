@@ -74,14 +74,18 @@ Open a new terminal, run `codex`, and follow the sign-in prompts. You can also u
 
 **Subscription budget.** ChatGPT Plus is about **$20/month**, with Codex CLI access and included Sol/Luna usage. Pro starts at **$100/month**, with higher-priced tiers for heavier use. Available models and limits depend on your account; check the model picker and usage dashboard [^25].
 
+**Paste the exact model name.** In **Start agents**, select **Codex CLI**, choose **Another model...**, and paste one of the identifiers in the table below. Set reasoning separately with the **Effort** menu; the model field should contain just the identifier, without a suffix such as `#low`. Availability depends on your signed-in account [^20].
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-codex-custom-model.webp" alt="decompdecomp Codex CLI launcher with Another model selected, an empty model-name field, Low effort, and one worker" width="560" height="579" size="document" title="Choose a Codex model by name" caption="Paste the model identifier into the field below Another model, then choose effort and start your worker. Functions per session is adjustable; the screenshot shows 10." %}
+
 For comparing the current model families and Terra from our earlier trials, these are Standard API prices in USD per **one million tokens**, checked 25 October 2026. Input is what the model reads; output is what it generates. Cached input is reused context. These are API rates, not extra charges on top of included subscription usage [^19]:
 
 Model | Input | Cached input | Output | Recommended
 ---|---:|---:|---:|---
-GPT-6 Luna | $0.10 | $0.01 | $0.50 | **Try first for easier matches**
-GPT-6.1 Sol | $2 | $0.10 | $10 | **Step up for harder work; best measured value**
-GPT-5.6 Terra | $2 | $0.20 | $12 | Earlier tested model; higher rates than Sol [^20]
-GPT-6 Astra | $10 | $1 | $50 | Higher cost; try when Sol stalls
+GPT-6 Luna (`gpt-6-luna`) | $0.10 | $0.01 | $0.50 | **Try first for easier matches**
+GPT-6.1 Sol (`gpt-6.1-sol`) | $2 | $0.10 | $10 | **Step up for harder work; best measured value**
+GPT-5.6 Terra (`gpt-5.6-terra`) | $2 | $0.20 | $12 | Earlier tested model; higher rates than Sol [^20]
+GPT-6 Astra (`gpt-6-astra`) | $10 | $1 | $50 | Higher cost; try when Sol stalls
 
 Luna costs about one-twentieth of Sol at these base rates. Sol costs about one-fifth of Astra. Terra is included for completeness, but its current cached-input and output rates are higher than Sol's. Our Luna trials began at an already-developed Turok checkpoint and produced little progress; they do not test how much easier work Luna could collect at the start. Actual session cost depends on retries, context, and output, including reasoning. Cache writes, long contexts, and faster service modes can add charges; the [OpenAI pricing page](https://developers.openai.com/api/docs/pricing) has the full rate card.
 
