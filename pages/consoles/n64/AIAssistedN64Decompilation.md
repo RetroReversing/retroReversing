@@ -44,13 +44,19 @@ In our separate app run on V-Rally, the automatic draft pass reported **469 matc
 {% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.png" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
 
 ## Start Agents in decompdecomp
-Once the free pass is complete, connect a coding agent to the project:
+The free pass has done the easy work. Give the remaining functions to a coding agent.
 
-* **Get a coding agent** - Install and sign in to Claude Code or Codex, or choose an API provider in **Agents & models**. The app also supports opencode and Antigravity. With the API option, choose a provider/model and enter its API key; with a command-line agent, decompdecomp can detect or install the helper and guide you through sign-in. Use an account or API key that you are comfortable using for paid model calls [^16].
-* **Choose the agent in the app** - Open **Agents & models** from the left sidebar and check that your agent is available and configured. Return to your game project and click **Start agents** in the project header. Select the agent or model and how many workers to run, then start them. If you are new to this, begin with one worker so you can see the workflow and usage before adding more.
-* **Watch the function map** - Each worker takes a different unmatched function. It receives the function's assembly, relevant data and context, then writes a C candidate. The app builds that candidate with the selected original compiler and compares its machine code byte for byte with the ROM. A mismatch is sent back to the worker to investigate; a verified match is saved and becomes available to the other workers. Matched functions turn green in the map, while the project overview tracks coverage and agent activity [^16].
-* **Review progress and costs** - Model calls are billed or counted by the provider you configured; the app does not make them free. Start with a small number of workers and watch the provider's usage page as well as the app's map. Workers can retry after transient failures and wait when they hit a usage limit. Save or export a checkpoint before changing settings or moving the project.
+**Connect your agent.** Use Codex CLI or Claude Code with your signed-in account, or enter a provider's API key in **Agents & models**. Installation instructions are below.
 
+**Start with one worker.** Open your game and click **Start agents**. Choose an agent, model, and effort. Set **How many** to **1**, then select **Start**.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-start-agents.webp" alt="decompdecomp Start agents panel with Codex CLI selected, model and effort menus, five workers, and eight functions per session" width="1193" height="926" size="document" title="Configure your agents" caption="How many controls parallel workers. Functions per session controls how often each worker starts a fresh conversation. The selected model and five-worker count are examples, not recommendations." %}
+
+**Watch the map turn green.** Each worker writes candidate C, then the app compiles it and checks the bytes against your ROM. Differences go back to the worker for another attempt. Verified matches are saved automatically [^16].
+
+**Keep an eye on usage.** Model calls use your provider's paid allowance or API balance. Check its usage page and export a checkpoint before moving the project.
+
+---
 ### Install Codex CLI or Claude Code
 CLI means command-line interface: the terminal program decompdecomp launches to run your agent. Select its card in **Start agents**; if it is missing, the app offers **Install it for me**. You can also install it yourself with the official commands below for macOS or Linux.
 
@@ -74,9 +80,7 @@ Return to decompdecomp and select **Installed it already? Look again** if needed
 
 ---
 ### What the Agent Settings Mean
-The launch panel lets you choose the model, effort, number of workers, and when each worker starts a fresh conversation:
-
-{% include article-figure.html src="/public/images/n64/decompdecomp-start-agents.webp" alt="decompdecomp Start agents panel with Codex CLI selected, model and effort menus, five workers, and eight functions per session" width="1193" height="926" size="document" title="Configure your agents" caption="How many controls parallel workers. Functions per session controls how often each worker starts a fresh conversation. The selected model and five-worker count are examples, not recommendations." %}
+The launch panel above has two controls that affect how much work runs and how much context each agent carries:
 
 * **How many** - The number of workers running at once. The screenshot selects five, each claiming different work. More workers can increase throughput, but also increase simultaneous model usage, compiler load, and the chance of hitting provider limits. Start with one.
 * **Functions per session** - How much work a worker attempts before ending its conversation and starting a fresh one. The default is **8**. In the matching workflow, the CLI is instructed to complete eight claims that it has compiled; a claim can contain a batch of small functions. A compiled claim can count even when it does not match; repeated compiler checks on that claim do not each use another slot. This is not a promise of eight new matches. Five workers with this setting do not stop after 40 matches: the app starts further sessions while work remains [^24].
