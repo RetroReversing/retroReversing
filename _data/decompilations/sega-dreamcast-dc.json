@@ -30,8 +30,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-02T04:17:49Z",
-        "last_commit_url": "https://github.com/lhsazevedo/tbg-decomp/commit/a81e38746c4fa7f37d841c166ebc818c54864bae",
+        "last_commit_at": "2026-10-25T04:51:39Z",
+        "last_commit_url": "https://github.com/lhsazevedo/tbg-decomp/commit/ad1e5217c2d88ccd25f44d269b3b5b2acfbb9d01",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
@@ -73,7 +73,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 103
+        "github_stars": 106
       },
       "ai_used": null
     },
@@ -87,12 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T23:16:08Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/c6337e7bee9ad91bd6ea0fced6f303e2accb773e",
+        "last_commit_at": "2026-10-25T07:53:25Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/crazy-taxi-decomp/commit/70dfedf3465c9e5073b97661bee85cc724d85a72",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 4
+        "github_stars": 5
       },
       "ai_used": null
     },
@@ -106,8 +106,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T23:15:58Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/478e9069fdc7c855721583edc0603f6adaee4296",
+        "last_commit_at": "2026-10-25T08:38:47Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/virtua-tennis-decomp/commit/a236e4c0b05b73c755060e52080851c03328faec",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -130,7 +130,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 4
       },
       "ai_used": null
     },
@@ -144,8 +144,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T01:37:54Z",
-        "last_commit_url": "https://github.com/lamb2k/re4dc/commit/ec3dcf4a05e5eb90686567e417e9421e0030aad0",
+        "last_commit_at": "2026-10-25T07:50:15Z",
+        "last_commit_url": "https://github.com/lamb2k/re4dc/commit/1900b87774b8907adbddc2517f8d451c6244b788",
         "default_branch": "dreamcast-port",
         "archived": false,
         "status": "Active",

@@ -111,7 +111,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 57
+        "github_stars": 56
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -282,7 +282,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 3639
+        "github_stars": 3641
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 1687
+        "github_stars": 1688
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 685
+        "github_stars": 686
       },
       "ai_used": null
     },
@@ -377,7 +377,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 685
+        "github_stars": 686
       },
       "ai_used": null
     },
@@ -453,7 +453,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 497
+        "github_stars": 499
       },
       "ai_used": null
     },
@@ -489,8 +489,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T08:27:38Z",
-        "last_commit_url": "https://github.com/jellees/mlss/commit/5c71b217e286e28476d0d67e418bb3748a1df2e0",
+        "last_commit_at": "2026-10-24T12:15:09Z",
+        "last_commit_url": "https://github.com/jellees/mlss/commit/9dc18ea295f605c997277c86c47b3536ae73af38",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -584,8 +584,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T22:24:28Z",
-        "last_commit_url": "https://github.com/SAT-R/sa3/commit/ed0c853fc3e9b01a4c3ca873192c20028ede91d2",
+        "last_commit_at": "2026-10-24T22:36:39Z",
+        "last_commit_url": "https://github.com/SAT-R/sa3/commit/86449dc9c839ac3460a2a523f3b765d533ed4bcd",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -927,8 +927,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 2,
-        "last_commit_at": "2026-10-24T04:26:29Z",
-        "last_commit_url": "https://github.com/722rsr/gtadv3-decomp/commit/cbe7592d50039e81324a3cd66fa93b48be69e50c",
+        "last_commit_at": "2026-10-24T17:36:01Z",
+        "last_commit_url": "https://github.com/722rsr/gtadv3-decomp/commit/aaeda6320da751a515b2f76abd2ab6b62d1a68f0",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -946,8 +946,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 1,
-        "last_commit_at": "2026-10-24T08:05:55Z",
-        "last_commit_url": "https://github.com/moozilla/boktai3-decomp/commit/aeab4f5ed40db4717a3b837bd647cdcaf789d865",
+        "last_commit_at": "2026-10-25T08:39:46Z",
+        "last_commit_url": "https://github.com/moozilla/boktai3-decomp/commit/8e2cea61a1438b3347dc46271c852ee3aa0ff92d",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -983,7 +983,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 62,
+        "github_stars": 65,
         "last_commit_at": "2026-10-21T14:16:27Z",
         "last_commit_url": "https://github.com/josiahg2502-glitch/Mother3Recomp/commit/682dcfe4ff0ff02d5b1f3ee3661b5f112d320e47",
         "default_branch": "master",
@@ -1097,12 +1097,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T00:32:14Z",
-        "last_commit_url": "https://github.com/james2doyle/ffta-recomp/commit/8d1c9a9bbcbba06f955b5bb566f90e9b379bc3a8",
+        "last_commit_at": "2026-10-25T00:30:37Z",
+        "last_commit_url": "https://github.com/james2doyle/ffta-recomp/commit/0f1ae462096ab64cc152bbaaf1801edc71945b23",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 40
+        "github_stars": 41
       },
       "ai_used": null
     },
@@ -1173,8 +1173,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T07:53:04Z",
-        "last_commit_url": "https://github.com/PascalPixel/alchemy/commit/f21e6732e987951d9de1d6ffcc99de8c5134c47f",
+        "last_commit_at": "2026-10-24T12:28:32Z",
+        "last_commit_url": "https://github.com/PascalPixel/alchemy/commit/b1147bc8ebf9d19b76441986338bf98e6de81c5c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1192,12 +1192,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T20:25:38Z",
-        "last_commit_url": "https://github.com/Shmargus/GSRecomp/commit/27fedb57bf1e9f016a791529e0a7e89a1fa89f2c",
+        "last_commit_at": "2026-10-24T19:51:22Z",
+        "last_commit_url": "https://github.com/Shmargus/GSRecomp/commit/c72ef00dad078f6a714258d3e157ee6ea3d4a4ab",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 60
+        "github_stars": 64
       },
       "ai_used": null
     },
@@ -1287,12 +1287,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T08:20:07Z",
-        "last_commit_url": "https://github.com/MatyMeatBoy/ReKHCoM/commit/8de27ed15d645a845059f8021eda90ca91d4bdcf",
+        "last_commit_at": "2026-10-25T08:37:33Z",
+        "last_commit_url": "https://github.com/MatyMeatBoy/ReKHCoM/commit/e6240aa1439658f3cd6d64dcc21163cbfaaf52ca",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 61
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -1311,7 +1311,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -1349,7 +1349,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 402
+        "github_stars": 403
       },
       "ai_used": null
     },
@@ -1520,7 +1520,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 49
+        "github_stars": 48
       },
       "ai_used": null
     },
@@ -1539,7 +1539,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 598
+        "github_stars": 610
       },
       "ai_used": null
     },
@@ -1862,7 +1862,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 19
+        "github_stars": 20
       },
       "ai_used": null
     },
@@ -1876,8 +1876,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-12T12:46:18Z",
-        "last_commit_url": "https://github.com/ShaffySwitcher/wariowareinc/commit/cac3fa3d0e8b427e5fb731d9d5b36ff937035b59",
+        "last_commit_at": "2026-10-25T00:51:49Z",
+        "last_commit_url": "https://github.com/ShaffySwitcher/wariowareinc/commit/5ba1d48463b2dd9e75913673005eb3ebd78ccade",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1914,8 +1914,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T03:27:43Z",
-        "last_commit_url": "https://github.com/Edwin2929/sma3-recomp-android./commit/bf83a2685639fd8b6eca05a6de1d467e64220cef",
+        "last_commit_at": "2026-10-25T08:08:03Z",
+        "last_commit_url": "https://github.com/Edwin2929/sma3-recomp-android./commit/40849aeef03a5cdd569a19f35034c8233c9520d2",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1938,7 +1938,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 23
       },
       "ai_used": null
     }

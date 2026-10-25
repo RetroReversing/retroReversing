@@ -30,8 +30,8 @@
       "completion_status": null,
       "legacy_status": "Active",
       "activity": {
-        "last_commit_at": "2026-09-22T19:28:08Z",
-        "last_commit_url": "https://github.com/blackgamma7/Aidyn/commit/8072ab17896fcee3e62aaad419f067e231574476",
+        "last_commit_at": "2026-10-25T07:57:05Z",
+        "last_commit_url": "https://github.com/blackgamma7/Aidyn/commit/c0d323a900298adcb3d74e88ad8431682c527b1a",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
@@ -73,7 +73,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 2082
+        "github_stars": 2087
       },
       "ai_used": null
     },
@@ -111,7 +111,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Inactive",
-        "github_stars": 44
+        "github_stars": 45
       },
       "ai_used": null
     },
@@ -225,7 +225,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 125
+        "github_stars": 126
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 540
+        "github_stars": 543
       },
       "ai_used": null
     },
@@ -620,7 +620,7 @@
       "legacy_status": null,
       "activity": {
         "last_commit_at": "2026-10-22T03:38:31Z",
-        "last_commit_url": "https://github.com/Zorkats/G-Diffuser/commit/90612506fb171d6b438cecb0872c53a2d5bdad7d",
+        "last_commit_url": "https://github.com/Zorkats/G-Diffuser/commit/37e4daa95afb44e5e3a36050dd5a0dc30d85f034",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -855,7 +855,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -893,7 +893,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 83
+        "github_stars": 84
       },
       "ai_used": null
     },
@@ -912,7 +912,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 54
+        "github_stars": 55
       },
       "ai_used": null
     },
@@ -931,7 +931,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 75
+        "github_stars": 76
       },
       "ai_used": null
     },
@@ -1045,7 +1045,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 3
+        "github_stars": 4
       },
       "ai_used": null
     },
@@ -1102,7 +1102,7 @@
         "default_branch": "port",
         "archived": false,
         "status": "Active",
-        "github_stars": 2077
+        "github_stars": 2081
       },
       "ai_used": null
     },
@@ -1311,7 +1311,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 105
+        "github_stars": 106
       },
       "ai_used": null
     },
@@ -1406,7 +1406,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1479
+        "github_stars": 1483
       },
       "ai_used": null
     },
@@ -1425,7 +1425,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 646
+        "github_stars": 648
       },
       "ai_used": null
     },
@@ -1482,7 +1482,7 @@
         "archived": false,
         "default_branch": "main",
         "status": "Active",
-        "github_stars": 5619
+        "github_stars": 5620
       },
       "ai_used": null
     },
@@ -1520,7 +1520,7 @@
         "default_branch": "dev",
         "archived": false,
         "status": "Active",
-        "github_stars": 7511
+        "github_stars": 7521
       },
       "ai_used": null
     },
@@ -1686,8 +1686,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T13:18:32Z",
-        "last_commit_url": "https://github.com/alondero/aerogauge-recomp/commit/d4408065e88ab089f2c3e934370353e638f06e22",
+        "last_commit_at": "2026-10-24T19:42:16Z",
+        "last_commit_url": "https://github.com/alondero/aerogauge-recomp/commit/023b13ef0d77adc1753b3e92d9da5d621f075405",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1710,7 +1710,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 12
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -1724,8 +1724,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T20:19:51Z",
-        "last_commit_url": "https://github.com/jaytheham/body-harvest-decompilation/commit/bb70734bc2a9fd939bff100d5f1d21645b7f1acd",
+        "last_commit_at": "2026-10-25T04:33:30Z",
+        "last_commit_url": "https://github.com/jaytheham/body-harvest-decompilation/commit/826789bcf1665d10e665e7d9f412424ffe3c4574",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -1819,8 +1819,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T06:51:21Z",
-        "last_commit_url": "https://github.com/DevOldSchool/conkers-bfd-decomp/commit/683fefb4e7e954ffd3a17596b7aca8559d9041cd",
+        "last_commit_at": "2026-10-25T02:12:43Z",
+        "last_commit_url": "https://github.com/DevOldSchool/conkers-bfd-decomp/commit/75af1e4fbc2bb4291b3cead41e06e02444f7ca7d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1838,12 +1838,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T12:27:04Z",
-        "last_commit_url": "https://github.com/ThatGuyMcd/DKR-R/commit/d94b05ff2ab0d8f7e239cd45a29a9fc95c62c72a",
+        "last_commit_at": "2026-10-25T00:45:01Z",
+        "last_commit_url": "https://github.com/ThatGuyMcd/DKR-R/commit/c328f63a55256f2a46e06661704abd403a197b2f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 235
+        "github_stars": 236
       },
       "ai_used": null
     },
@@ -1881,7 +1881,7 @@
         "default_branch": "dabs-mod",
         "archived": false,
         "status": "Active",
-        "github_stars": 197
+        "github_stars": 196
       },
       "ai_used": null
     },
@@ -1895,8 +1895,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T20:17:30Z",
-        "last_commit_url": "https://github.com/JackandBeans/Snap64Recomp/commit/eeadc07229c8f5d61bcf0c22eb66984db466f9d6",
+        "last_commit_at": "2026-10-25T02:14:28Z",
+        "last_commit_url": "https://github.com/JackandBeans/Snap64Recomp/commit/28087c6360381fe34819396a41202a4e6ff290b2",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1938,7 +1938,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 170
+        "github_stars": 171
       },
       "ai_used": null
     },
@@ -1995,7 +1995,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -2029,8 +2029,8 @@
       "legacy_status": null,
       "activity": {
         "github_stars": 3,
-        "last_commit_at": "2026-10-23T12:00:06Z",
-        "last_commit_url": "https://github.com/southcitycapture/hybridheaven-decomp/commit/4481befe1cf0f07d678e970961b8b62ca00d43d5",
+        "last_commit_at": "2026-10-25T03:10:19Z",
+        "last_commit_url": "https://github.com/southcitycapture/hybridheaven-decomp/commit/e9f2dab634d737c3bd18f28b72adfdc150f7cb51",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -2066,7 +2066,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 28,
+        "github_stars": 29,
         "last_commit_at": "2026-10-16T16:43:31Z",
         "last_commit_url": "https://github.com/n0madic/StarCraft64-recomp/commit/425f409e02edacf897354cd0872c61ce67a9067a",
         "default_branch": "master",
@@ -2085,8 +2085,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-15T18:22:59Z",
-        "last_commit_url": "https://github.com/n64decomp/pw64/commit/cb66cb2a3b093412285d381829c8ab7787660298",
+        "last_commit_at": "2026-10-24T19:24:07Z",
+        "last_commit_url": "https://github.com/n64decomp/pw64/commit/11a76263f4a6fdbecdc86d2701a35075b18ba511",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2104,8 +2104,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T04:05:45Z",
-        "last_commit_url": "https://github.com/cdlewis/snowboardkids-decomp/commit/64d23f114cfcc4d4f382f902ba7dd87393bbf476",
+        "last_commit_at": "2026-10-25T03:35:56Z",
+        "last_commit_url": "https://github.com/cdlewis/snowboardkids-decomp/commit/bd2088198042acedb7ee9c65c2d5c1f6c9a24326",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2123,8 +2123,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T07:51:57Z",
-        "last_commit_url": "https://github.com/djsaunde/1080-decomp/commit/32cdb84df4c90278e000958b54fc99dc6761def2",
+        "last_commit_at": "2026-10-25T08:12:06Z",
+        "last_commit_url": "https://github.com/djsaunde/1080-decomp/commit/d98fe054a90b18ecc80ac58798f069d25f0abf65",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2142,8 +2142,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-08T11:38:13Z",
-        "last_commit_url": "https://github.com/bruder-grimm/animal_forest_psp/commit/7010cce9e5d37b99215af042602f7e2df820789d",
+        "last_commit_at": "2026-10-24T14:52:18Z",
+        "last_commit_url": "https://github.com/bruder-grimm/animal_forest_psp/commit/1bb1f1d113d30643a1e37a529f62a9e71bc4eb2d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2161,8 +2161,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T22:07:24Z",
-        "last_commit_url": "https://github.com/alondero/automobililamborghini-recomp/commit/39682a5d9cdd8de87f084a785fc0fee219356602",
+        "last_commit_at": "2026-10-24T23:29:00Z",
+        "last_commit_url": "https://github.com/alondero/automobililamborghini-recomp/commit/127e9c551a067c04c7d79b73b1ae465063b1eb5a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2223,7 +2223,7 @@
         "default_branch": "develop",
         "archived": false,
         "status": "Active",
-        "github_stars": 522
+        "github_stars": 524
       },
       "ai_used": null
     },
@@ -2242,7 +2242,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -2275,8 +2275,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T22:08:02Z",
-        "last_commit_url": "https://github.com/wootbeer/btgarecomp/commit/04d489c23302cf8f4c84355a51617e1944198ee3",
+        "last_commit_at": "2026-10-24T23:42:00Z",
+        "last_commit_url": "https://github.com/wootbeer/btgarecomp/commit/4afa89bcb21f38a010f63726ecf9f716fcb04fab",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2375,7 +2375,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 31
+        "github_stars": 32
       },
       "ai_used": null
     },
@@ -2413,7 +2413,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 137
+        "github_stars": 138
       },
       "ai_used": null
     },
@@ -2432,7 +2432,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 35
+        "github_stars": 36
       },
       "ai_used": null
     },
@@ -2451,7 +2451,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 184
+        "github_stars": 185
       },
       "ai_used": null
     },
@@ -2565,7 +2565,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 32
+        "github_stars": 33
       },
       "ai_used": null
     },
@@ -2603,7 +2603,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 17
+        "github_stars": 18
       },
       "ai_used": null
     },
@@ -2617,8 +2617,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-04T01:50:11Z",
-        "last_commit_url": "https://github.com/chrissotraidis/goldenpad/commit/52bb67328c2cc4b98b4242ba0539985bd61fc2d3",
+        "last_commit_at": "2026-10-24T14:15:47Z",
+        "last_commit_url": "https://github.com/chrissotraidis/goldenpad/commit/00c0982d70449a984d4a99b1ec4a19e03b38d590",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -2641,7 +2641,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 87
+        "github_stars": 88
       },
       "ai_used": null
     },
@@ -2774,7 +2774,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 23
+        "github_stars": 24
       },
       "ai_used": null
     },
@@ -2869,7 +2869,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 703
+        "github_stars": 704
       },
       "ai_used": null
     },
@@ -2907,7 +2907,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 90
+        "github_stars": 91
       },
       "ai_used": null
     },
@@ -3073,12 +3073,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T06:29:48Z",
-        "last_commit_url": "https://github.com/bryantmh/rush2recompiled/commit/5c6ef80011b8ab4ef95ba3ca8aa9f11b1f0fb997",
+        "last_commit_at": "2026-10-25T02:15:39Z",
+        "last_commit_url": "https://github.com/bryantmh/rush2recompiled/commit/2f5970e12585e5af0b7b35d3cd27cb74dd7354ea",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 57
+        "github_stars": 58
       },
       "ai_used": null
     },
@@ -3092,12 +3092,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T07:53:49Z",
-        "last_commit_url": "https://github.com/SecondaryLifer/StarHaven/commit/2716749a372940233c3ea12974c129d2b6974b80",
+        "last_commit_at": "2026-10-25T08:28:22Z",
+        "last_commit_url": "https://github.com/SecondaryLifer/StarHaven/commit/72f9c5a0d6c4534cec9a94884148923161571866",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 67
+        "github_stars": 73
       },
       "ai_used": null
     },
@@ -3340,8 +3340,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T00:21:42Z",
-        "last_commit_url": "https://github.com/n64hub/rush-2049-recomp/commit/e02cf98ff78e0a3b4bddd7521d93d9f678a5233c",
+        "last_commit_at": "2026-10-25T04:26:24Z",
+        "last_commit_url": "https://github.com/n64hub/rush-2049-recomp/commit/c3992ac55b5f994081e2a1d9842574008a0141d7",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -3359,12 +3359,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T00:59:40Z",
-        "last_commit_url": "https://github.com/cdlewis/snowboardkids-recomp/commit/b7a5013717916abb7203ec504a4517fa076e3a10",
+        "last_commit_at": "2026-10-25T02:53:57Z",
+        "last_commit_url": "https://github.com/cdlewis/snowboardkids-recomp/commit/ecdde76baf607ba6736cd2b789604bf481935e3f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -3402,7 +3402,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 19
       },
       "ai_used": true
     },
@@ -3421,7 +3421,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 42
+        "github_stars": 43
       },
       "ai_used": null
     },
@@ -3440,7 +3440,7 @@
         "default_branch": "nightly",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 1872
+        "github_stars": 1873
       },
       "ai_used": null
     },
@@ -3606,12 +3606,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T04:48:19Z",
-        "last_commit_url": "https://github.com/dyzz/srw64-recomp/commit/a9c87cf17ce561f66dc0d4855213141c54e1daa3",
+        "last_commit_at": "2026-10-25T04:36:41Z",
+        "last_commit_url": "https://github.com/dyzz/srw64-recomp/commit/a8624260f4d80ebc11dcc5317e972bdda974143f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 29
+        "github_stars": 30
       },
       "ai_used": null
     },
@@ -3644,8 +3644,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T08:09:57Z",
-        "last_commit_url": "https://github.com/rockenrooster/Smash64DS_Port/commit/81846e0fa01f2073cfa197d5d1dc3a306c9e205c",
+        "last_commit_at": "2026-10-25T08:00:17Z",
+        "last_commit_url": "https://github.com/rockenrooster/Smash64DS_Port/commit/845aaaa6c521f6083b85bf84e40469e2736ca8d2",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
@@ -3682,12 +3682,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T13:33:07Z",
-        "last_commit_url": "https://github.com/JRickey/BattleShip/commit/48051da9cf69c2b139b9868a3f642a3a4f8e3162",
+        "last_commit_at": "2026-10-24T12:45:10Z",
+        "last_commit_url": "https://github.com/JRickey/BattleShip/commit/7866b2eb9ead92143e0a86775a4599b97f62e148",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 511
+        "github_stars": 515
       },
       "ai_used": null
     },
@@ -3801,7 +3801,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 7
+        "github_stars": 9
       },
       "ai_used": null
     },
@@ -3915,7 +3915,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 69
+        "github_stars": 70
       },
       "ai_used": null
     },
@@ -3972,7 +3972,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 31
+        "github_stars": 32
       },
       "ai_used": null
     },
@@ -4029,7 +4029,7 @@
         "default_branch": "develop",
         "archived": false,
         "status": "Active",
-        "github_stars": 5739
+        "github_stars": 5751
       },
       "ai_used": null
     },
@@ -4043,12 +4043,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:43:21Z",
-        "last_commit_url": "https://github.com/2ship2harkinian/2ship2harkinian/commit/da2cd9652e06f75bac7ff4c58020de2e27337640",
+        "last_commit_at": "2026-10-24T14:42:15Z",
+        "last_commit_url": "https://github.com/2ship2harkinian/2ship2harkinian/commit/b30a286c55bd94f0868e6a103d0e4c511f7003a9",
         "default_branch": "develop",
         "archived": false,
         "status": "Active",
-        "github_stars": 2369
+        "github_stars": 2375
       },
       "ai_used": null
     },
@@ -4062,9 +4062,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 43,
-        "last_commit_at": "2026-10-24T01:50:47Z",
-        "last_commit_url": "https://github.com/wootbeer/snprecomp/commit/2e87013fe78f55a73180141666e800478369d287",
+        "github_stars": 56,
+        "last_commit_at": "2026-10-24T23:02:23Z",
+        "last_commit_url": "https://github.com/wootbeer/snprecomp/commit/0b512afcf946a0b6596fde8e4c22b9fe43e3b172",
         "default_branch": "main",
         "archived": false,
         "status": "Active"

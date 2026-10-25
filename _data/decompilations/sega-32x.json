@@ -35,7 +35,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 184
+        "github_stars": 185
       },
       "ai_used": null
     },
@@ -49,9 +49,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 47,
-        "last_commit_at": "2026-10-24T07:32:32Z",
-        "last_commit_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled/commit/dab97d83ae8d170fcb6d6746c9876eff14fe0def",
+        "github_stars": 49,
+        "last_commit_at": "2026-10-24T18:49:30Z",
+        "last_commit_url": "https://github.com/YuutaTsubasa/ChaotixRecompiled/commit/562a287df107f79259430ee857a25ce3bdb73cbb",
         "default_branch": "main",
         "archived": false,
         "status": "Active"

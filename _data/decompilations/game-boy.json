@@ -87,12 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T21:47:16Z",
-        "last_commit_url": "https://github.com/pret/pokered/commit/a53671100ec22e5394ff26ec028d0812a238dae2",
+        "last_commit_at": "2026-10-24T14:12:53Z",
+        "last_commit_url": "https://github.com/pret/pokered/commit/171e2c204f9c1ff8e577ca387a4bbb009e130843",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 5007
+        "github_stars": 5008
       },
       "ai_used": null
     },
@@ -107,11 +107,11 @@
       "legacy_status": null,
       "activity": {
         "status": "Active",
-        "last_commit_at": "2026-10-24T04:55:22Z",
-        "last_commit_url": "https://github.com/pret/pokeyellow/commit/4cda94cf3bbc30f201b93bd5a7678f5279e0527e",
+        "last_commit_at": "2026-10-24T16:42:42Z",
+        "last_commit_url": "https://github.com/pret/pokeyellow/commit/9327549dce06435ec3fd0334057bd32b0ba29876",
         "archived": false,
         "default_branch": "master",
-        "github_stars": 896
+        "github_stars": 898
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "dev",
         "archived": false,
         "status": "Active",
-        "github_stars": 4023
+        "github_stars": 4033
       },
       "ai_used": null
     },
@@ -676,8 +676,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T05:57:05Z",
-        "last_commit_url": "https://github.com/etroimcasso/Kirpich/commit/a6e2df3b8c75a8dbd1c4ae0c82ea481dd51ec2b0",
+        "last_commit_at": "2026-10-24T19:25:35Z",
+        "last_commit_url": "https://github.com/etroimcasso/Kirpich/commit/61e0a0fe08aa26af7fc1d2f6ca02665934c9a0fd",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -733,8 +733,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T06:21:09Z",
-        "last_commit_url": "https://github.com/GABRIELNNK/Bigodao/commit/745d080f2a0991aed3be9cb3ca2368a19da1890a",
+        "last_commit_at": "2026-10-25T05:25:05Z",
+        "last_commit_url": "https://github.com/GABRIELNNK/Bigodao/commit/cc87a6f37fe77949fa42fa0f21e8cb40ce769737",
         "default_branch": "main",
         "archived": false,
         "status": "Active",

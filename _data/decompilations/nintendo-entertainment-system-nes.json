@@ -35,7 +35,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -92,7 +92,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -206,7 +206,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -301,7 +301,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -320,7 +320,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -339,7 +339,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -469,7 +469,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -488,7 +488,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -507,7 +507,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -526,7 +526,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -639,7 +639,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -658,7 +658,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -696,7 +696,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -753,7 +753,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 301
+        "github_stars": 302
       },
       "ai_used": null
     },
@@ -829,7 +829,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 2
+        "github_stars": 3
       },
       "ai_used": null
     },
@@ -943,7 +943,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -1095,7 +1095,7 @@
         "default_branch": "lifeforce",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 24
+        "github_stars": 25
       },
       "ai_used": null
     },
@@ -1166,8 +1166,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-20T21:31:53Z",
-        "last_commit_url": "https://github.com/metroidret/m1disasm/commit/cdd84d8b3e04abf126f22485dc54182c6b163cf3",
+        "last_commit_at": "2026-10-24T10:48:51Z",
+        "last_commit_url": "https://github.com/metroidret/m1disasm/commit/8678e1ed8a5e65b76b9f4f74308fced7ab1b8bd2",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -1209,7 +1209,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 26
+        "github_stars": 27
       },
       "ai_used": null
     },
@@ -1266,7 +1266,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -1323,7 +1323,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 41
+        "github_stars": 42
       },
       "ai_used": null
     },
@@ -1337,12 +1337,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T08:09:57Z",
-        "last_commit_url": "https://github.com/nathsou/smb/commit/679b19916aa0b7aa7df0fb7b566a4e9ddc664e09",
+        "last_commit_at": "2026-10-24T18:50:49Z",
+        "last_commit_url": "https://github.com/nathsou/smb/commit/e4e9c70010b53052ca6d1b2e9e9f865d80827f2f",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 14
+        "github_stars": 15
       },
       "ai_used": null
     },
@@ -1532,7 +1532,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 3265
+        "github_stars": 3267
       },
       "ai_used": null
     }
