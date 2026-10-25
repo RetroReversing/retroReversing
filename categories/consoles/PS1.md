@@ -32,7 +32,7 @@ videocarousel:
     image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
     youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2026-10-24'
+updatedAt: '2026-10-25'
 tags:
   - ps1
 ---
@@ -268,6 +268,12 @@ To create textures (and therefore sprites) the following tools are known to have
 ---
 # Reverse Engineering PS1 Games
 
+## AI Assisted Matching Decompilation
+Start with your own disc image in decompdecomp, let local tools collect free matches, then connect a coding agent. Our Chicken Run walkthrough explains PS1 compiler detection, overlays and how to read the function map.
+
+{% include_cached link-to-other-post.html post="/ai-assisted-ps1-decompilation" description="Start a PS1 matching decompilation in the app, using Chicken Run as the worked example." %}
+
+---
 ## Radare2
 First you need to find the executable on the PS1 disc image, it will be named after the unique Sony Code e.g `SLES_032.85`.
 
