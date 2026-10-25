@@ -51,7 +51,38 @@ Once the free pass is complete, connect a coding agent to the project:
 * **Watch the function map** - Each worker takes a different unmatched function. It receives the function's assembly, relevant data and context, then writes a C candidate. The app builds that candidate with the selected original compiler and compares its machine code byte for byte with the ROM. A mismatch is sent back to the worker to investigate; a verified match is saved and becomes available to the other workers. Matched functions turn green in the map, while the project overview tracks coverage and agent activity [^16].
 * **Review progress and costs** - Model calls are billed or counted by the provider you configured; the app does not make them free. Start with a small number of workers and watch the provider's usage page as well as the app's map. Workers can retry after transient failures and wait when they hit a usage limit. Save or export a checkpoint before changing settings or moving the project.
 
-The agent is trying to reproduce the original machine code, not merely write C that looks plausible. A green match means the function compiled to the same bytes; it does not prove that its names or explanation capture the original developer's intent. Keep the automatic matches from the previous step separate from results produced by model agents when comparing progress.
+### Install Codex CLI or Claude Code
+CLI means command-line interface: the terminal program decompdecomp launches to run your agent. Select its card in **Start agents**; if it is missing, the app offers **Install it for me**. You can also install it yourself with the official commands below for macOS or Linux.
+
+For [Codex CLI](https://learn.chatgpt.com/docs/codex/cli), open Terminal and run:
+
+```bash
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+```
+
+Open a new terminal, run `codex`, and follow the sign-in prompts. You can also use `codex login` as shown in the app. Check installation with `codex --version` [^22].
+
+For [Claude Code](https://code.claude.com/docs/en/quickstart), run:
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Open a new terminal, run `claude`, and complete its browser sign-in. Check installation with `claude --version`. Use an account with access to Claude Code; the official guide also covers API billing and Windows installation. For Windows, follow the Windows instructions in the linked Codex or Claude guide [^23].
+
+Return to decompdecomp and select **Installed it already? Look again** if needed. Choose the CLI, model, and effort, then start your worker. The app supplies the decompilation task and tool connection; you do not need to paste a starting prompt.
+
+---
+### What the Agent Settings Mean
+The launch panel lets you choose the model, effort, number of workers, and when each worker starts a fresh conversation:
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-start-agents.webp" alt="decompdecomp Start agents panel with Codex CLI selected, model and effort menus, five workers, and eight functions per session" width="1193" height="926" size="document" title="Configure your agents" caption="How many controls parallel workers. Functions per session controls how often each worker starts a fresh conversation. The selected model and five-worker count are examples, not recommendations." %}
+
+* **How many** - The number of workers running at once. The screenshot selects five, each claiming different work. More workers can increase throughput, but also increase simultaneous model usage, compiler load, and the chance of hitting provider limits. Start with one.
+* **Functions per session** - How much work a worker attempts before ending its conversation and starting a fresh one. The default is **8**. In the matching workflow, the CLI is instructed to complete eight claims that it has compiled; a claim can contain a batch of small functions. A compiled claim can count even when it does not match; repeated compiler checks on that claim do not each use another slot. This is not a promise of eight new matches. Five workers with this setting do not stop after 40 matches: the app starts further sessions while work remains [^24].
+* **Lower or higher values** - A lower value resets conversation history more often, keeping context smaller but repeating session setup and guide-reading overhead. A higher value lets a worker carry more recent reasoning between functions, but its conversation can grow larger and cost more to process. Saved matches, best attempts, and project notes remain available after a reset. Leave the default at eight initially; changing it does not guarantee lower cost or better matches.
+
+The agent is trying to reproduce the original machine code. A green match means the function compiled to the same bytes; it does not prove that its names or explanation capture the original developer's intent. Keep automatic matches separate from results produced by model agents when comparing progress.
 
 
 ---
@@ -106,3 +137,6 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^20]: OpenAI model pricing pages for [GPT-5.6 Terra](https://developers.openai.com/api/docs/models/gpt-5.6-terra), [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol), [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra), and [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna), cached-input and output rates and applicable long-context multipliers; checked 24 October 2026.
 
 [^21]: [Anthropic Sonnet 5.5 model documentation](https://platform.claude.com/docs/en/models/sonnet-5-5/overview), Standard input, output, five-minute cache-write, and cache-read pricing; checked 24 October 2026. The API-equivalent estimate uses deduplicated supplied session usage, separately from the participant-reported $2.70 cost.
+[^22]: [Official Codex CLI guide](https://learn.chatgpt.com/docs/codex/cli), standalone installation and first-run sign-in.
+[^23]: [Claude Code quickstart](https://code.claude.com/docs/en/quickstart), native installation, version check, supported accounts, and first-run sign-in.
+[^24]: decompdecomp's [agent session manager](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py) and [worker prompts](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/tools.py), default session size, compiled-claim counting, and automatic session renewal.
