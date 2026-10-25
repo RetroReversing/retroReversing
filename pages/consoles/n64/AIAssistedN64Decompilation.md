@@ -125,6 +125,12 @@ DeepSeek V4 Pro (`deepseek-v4-pro`) | $0.66-$1.32 | $0.022-$0.044 | $1.98-$3.96 
 
 Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V4.1-Flash-1017**. Peak rates are twice off-peak rates; check the [official rate card](https://api-docs.deepseek.com/quick_start/pricing/) for its UTC schedule and current prices.
 
+
+#### What Do You Get for $10 With DeepSeek?
+**Our $10 bought 56 matched functions in South Park.** We used DeepSeek Flash, version **DeepSeek-V4.1-Flash-1017**, through decompdecomp's API agent and consumed the full $10 balance.
+
+That works out to about **$0.18 per matched function**, including spending on unsuccessful attempts. This is one game's result; function size and difficulty affect how far another $10 will go. See the [South Park comparison](#south-park-deepseek-and-luna-in-the-app) below for the Luna results and token figures.
+
 ---
 ### What the Agent Settings Mean
 The launch panel above has two controls that affect how much work runs and how much context each agent carries:
