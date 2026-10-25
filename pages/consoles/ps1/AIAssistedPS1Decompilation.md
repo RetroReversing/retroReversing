@@ -75,16 +75,35 @@ Compiler | App identifier | Typical use in the app's guidance
 ---|---|---
 GCC 2.6.3 | `gcc-2.6.3-psx` | PSY-Q 3.5-3.6; early PlayStation games, 1995-1996
 GCC 2.7.2 | `gcc-2.7.2-psx` | PSY-Q 4.0-4.3; many PlayStation games, 1996-1998
-GCC 2.8.1 | `gcc-2.8.1-psx` | PSY-Q 4.4 and later; late PlayStation games, 1998-2000
+GCC 2.8.1 | `gcc-2.8.1-psx` | PSY-Q 4.4; some later PlayStation games
 
 **Let matching evidence choose Chicken Run's settings.** A PS-X EXE does not identify its exact PSY-Q version. Unless you choose a compiler explicitly, the app tests its supported GCC versions after import [^2].
 
+### Compiler Coverage Is Incomplete
+**decompdecomp does not include every compiler used for retail PS1 games.** Its three PS1 candidates cover part of the GCC family. A game built with another version or compiler family may need additional toolchain support before its C can match. Spending more on an AI model cannot correct a missing compiler.
+
+Published matching projects document these additional compiler requirements. These are evidence from particular games and build configurations, rather than a complete catalogue of PS1 toolchains:
+
+Missing compiler or variant | Retail-game matching evidence
+---|---
+GCC 2.5.7 | The [Rayman decompilation](https://github.com/rayman-decomp/rayman-ps1-decomp) explicitly requires this version [^6].
+GCC 2.6.0, GCC 2.8.0 and GCC 2.7.2 CDK | [Legend of Mana](https://github.com/celophi/lom-decomp) uses these variants for different parts of its matching build. The CDK variant is distinct from the app's existing GCC 2.7.2 PSX entry [^7].
+EGCS 2.91.66 / EGCS 1.1.2 | The [Vib-Ribbon project](https://github.com/PawiX25/revib) uses this compiler with a documented adjustment to its C++ compiler [^8].
+GCC 2.95.2, PSY-Q build | The [Yu-Gi-Oh! Forbidden Memories project](https://github.com/gonzaloberteri/ygofm-decomp) identifies the PSY-Q 4.6 compiler and ASPSX 2.86 [^9].
+Metrowerks CodeWarrior for PlayStation Release 4 | The [Digimon World decompilation](https://github.com/jype0/dw_decomp) requires its `cc_mips.dll`. This is a different compiler family from GCC [^10].
+Early SGI IDO/RISCompiler-derived PS1 toolchain | The [Tokimeki Memorial project](https://github.com/CosmicScribe64/tokimemo-ps1-decomp) uses IDO 5.3 with compatibility steps to reproduce an early SGI-family compiler. decompdecomp has N64 IDO support, but no corresponding PS1 integration [^11].
+
+**PSY-Q 4.4 is not a catch-all for later SDKs.** Preserved compiler banners identify GCC 2.8.1 in PSY-Q 4.4, EGCS 2.91.66 in 4.5, and GCC 2.95.2 in 4.6. Matching also depends on the corresponding assembler behaviour, not just the GCC version number [^12].
+
+If the supported compilers consistently fail on plausible C, check the game's existing reverse-engineering research and toolchain evidence before increasing model cost. A compiler that runs successfully still needs matching-output validation for the game.
+
+---
 ### Why the Assembler Matters Too
 PSY-Q used Sony's **ASPSX assembler** after GCC. The app uses **maspsx** to reproduce its behaviours before GNU assembly, including load-delay handling and division checks. This is why selecting an arbitrary modern MIPS GCC is insufficient [^2].
 
 Options such as `-O2` affect optimization. `-G8` controls which small globals can use the `$gp` register for addressing; the app chooses an initial small-data setting from the imported program. Workers can test alternatives when a promising C candidate will not match [^2].
 
-**On Apple Silicon Macs**, [our compiler support fix](https://github.com/RetroReversing/decompdecomp/pull/16) enables native GCC 2.7.2 and 2.8.1 builds and runs maspsx with the app's bundled Python. GCC 2.6.3 and Intel Mac PS1 compiler builds remain unavailable. If the app says a compiler has no build for this computer, check whether your installed version includes that fix.
+**On Apple Silicon Macs**, [our compiler support fix](https://github.com/RetroReversing/decompdecomp/pull/16) enables native GCC 2.7.2 and 2.8.1 builds and runs maspsx with the app's bundled Python. The [GCC 2.6.3 support change](https://github.com/RetroReversing/decompdecomp/pull/18) adds a build from pinned source using Xcode Command Line Tools. That build also supports Intel Macs, although our local compiler check was on Apple Silicon. If the app says a compiler has no build for this computer, check whether your installed version includes the relevant change.
 
 Use **Compilers & tools** to check tool availability. Review proposed compiler changes in the project rather than assuming that one setting must suit every code region. For background on the original development environment, see our [PSY-Q SDK guide](/Official-PlayStation-1-Software-Development-Kit) and [setup article](/psyq-sdk-setup).
 
@@ -159,3 +178,10 @@ For the next Chicken Run checkpoint, record the exact disc edition, detected com
 [^3]: [decompdecomp README](https://github.com/RetroReversing/decompdecomp), installation, automatic matching, tools and project export.
 [^4]: decompdecomp's [agent session manager](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py) and [worker tools and prompts](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/tools.py), sessions, compiled claims and worker lifecycle.
 [^5]: decompdecomp's [function-map logic](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/map.js) and [claim scheduler](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/network.py), status colours and function selection.
+[^6]: [Rayman PS1 decompilation build instructions](https://github.com/rayman-decomp/rayman-ps1-decomp), GCC 2.5.7 requirement.
+[^7]: [Legend of Mana toolchain table](https://github.com/celophi/lom-decomp#toolchain), historical GCC variants and per-region compilation pipelines.
+[^8]: [Vib-Ribbon matching project](https://github.com/PawiX25/revib), EGCS 2.91.66 and its C++ compiler adjustment.
+[^9]: [Yu-Gi-Oh! Forbidden Memories toolchain](https://github.com/gonzaloberteri/ygofm-decomp#toolchain), PSY-Q GCC 2.95.2 and ASPSX 2.86.
+[^10]: [Digimon World build instructions](https://github.com/jype0/dw_decomp), CodeWarrior for PlayStation Release 4 and `cc_mips.dll`.
+[^11]: [Tokimeki Memorial toolchain explanation](https://github.com/CosmicScribe64/tokimemo-ps1-decomp#toolchain), early SGI-family code generation reproduced with IDO 5.3 and compatibility steps. The absence of a PS1 IDO option was checked against decompdecomp's PS1 platform definition on 25 October 2026.
+[^12]: [mkst's preserved PSY-Q compiler version information](https://github.com/mkst/esa/releases), compiler banners and ASPSX versions for PSY-Q 4.4, 4.5 and 4.6.
