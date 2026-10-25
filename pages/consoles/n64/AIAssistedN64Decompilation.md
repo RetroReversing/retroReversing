@@ -121,7 +121,7 @@ Model | Input | Cached input | Output | Suggested use
 DeepSeek Flash (`deepseek-flash`) | $0.15-$0.30 | $0.003-$0.006 | $0.60-$1.20 | Low-cost first pass
 DeepSeek V4 Pro (`deepseek-v4-pro`) | $0.66-$1.32 | $0.022-$0.044 | $1.98-$3.96 | Try for harder work
 
-Our South Park app recorded the label **`deepseek-chat`**; we have not independently identified the underlying model version. Keep that label when reading our results, but use a currently supported model name for a new connection. Peak rates are twice off-peak rates; check the [official rate card](https://api-docs.deepseek.com/quick_start/pricing/) for its UTC schedule and current prices.
+Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V4.1-Flash-1017**. The app displayed the configured label `deepseek-chat`; the participant confirmed the actual model and version. Peak rates are twice off-peak rates; check the [official rate card](https://api-docs.deepseek.com/quick_start/pricing/) for its UTC schedule and current prices.
 
 ---
 ### What the Agent Settings Mean
@@ -150,16 +150,18 @@ Kimi K2.8 Preview High | No verified C; stopped during import | About 18 min | S
 Sonnet produced the largest verified checkpoint at the lowest known run-specific cost. Kimi encountered an importer defect; Sol worked around it, and Sonnet used a later revision with the fix. This difference, along with the unequal run times, means the results compare the full setup experience rather than model matching ability alone.
 
 ### South Park: DeepSeek and Luna in the App
-In our South Park project, we added **$10 of DeepSeek account credit** and recorded the following app statistics. The $10 was a top-up, not a measured session charge. These are dashboard match counts; we have not independently checked a complete cartridge rebuild for this comparison.
+In our South Park project, **DeepSeek Flash spent the full $10 balance and produced 56 app-reported matches**. The model was **DeepSeek-V4.1-Flash-1017**. This is a participant-reported spending result, rather than an API-equivalent estimate. These are dashboard match counts; we have not independently checked a complete cartridge rebuild for this comparison.
 
-Model label | Connection | App-reported matches | Reported tokens per match
----|---|---:|---:
-`deepseek-chat` | API | 56 | 6,646k (6.646 million)
-`gpt-6-luna` | Codex | 22 | 27,383k (27.383 million)
+Model | Connection | App-reported matches | Reported tokens per match | Recorded spending
+---|---|---:|---:|---
+DeepSeek Flash (V4.1-Flash-1017) | API | 56 | 6,646k (6.646 million) | **$10 spent**
+`gpt-6-luna` | Codex | 22 | 27,383k (27.383 million) | Subscription usage; dollar cost unrecorded
+
+**What did $10 buy?** In this run, **56 matches at about $0.18 each**, or **5.6 matches per dollar**. This includes allowance spent on unsuccessful attempts as well as successful matches. Function sizes and difficulty vary, so it is a concrete South Park data point rather than a guaranteed yield for another game [^31].
 
 **DeepSeek used about one-quarter as many reported tokens per match**: Luna's figure was roughly **4.1 times higher**. DeepSeek also recorded more matches in this snapshot, making it a promising option for an inexpensive first pass. We did not record equal runtimes, starting checkpoints, or effort settings, so this does not establish a speed or model-quality ranking.
 
-**Tokens per match is an average, not a bill.** The app divides recorded tokens across the model's sessions by its matches, so unsuccessful work contributes too. It displays this figure when it has no nonzero dollar-cost record. Input, output, cache use, and the provider's tokenizer all affect the relationship to money; Luna's Codex subscription usage is also billed differently from a prepaid API balance. We need DeepSeek's actual balance deduction and usage breakdown to calculate dollars per match [^31].
+**Tokens per match is an average, not a bill.** The app divides recorded tokens across the model's sessions by its matches, so unsuccessful work contributes too. It displays this figure when it has no nonzero dollar-cost record. Input, output, cache use, and the provider's tokenizer all affect the relationship to money; Luna's Codex subscription usage is also billed differently from a prepaid API balance. The confirmed $10 spend lets us calculate DeepSeek's average cost per match, but we cannot calculate Luna's dollar cost or a dollar-for-dollar comparison from these figures [^31].
 
 ---
 ### Same Turok checkpoint: 56.100% with source available
@@ -210,4 +212,4 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 
 [^29]: [DeepSeek API quickstart](https://api-docs.deepseek.com/), API-key creation, OpenAI-compatible base URL, and documented model names.
 [^30]: [DeepSeek model pricing](https://api-docs.deepseek.com/quick_start/pricing/), Flash and Pro rates, cache-hit pricing, peak/off-peak schedule, and deductions from topped-up balances; checked 25 October 2026.
-[^31]: decompdecomp's [agent statistics display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/agents.js) and [session accounting](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py), cumulative tokens per match and dollar-cost fallback. South Park counts and the $10 top-up were supplied by the participant.
+[^31]: decompdecomp's [agent statistics display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/agents.js) and [session accounting](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py), cumulative tokens per match and dollar-cost fallback. South Park counts, DeepSeek Flash model/version, and confirmation that the run consumed the full $10 balance were supplied by the participant. Cost per match is $10 / 56; matches per dollar is 56 / $10.
