@@ -101,7 +101,7 @@ The main Claude families below are sorted by Standard API price, in USD per **on
 
 Model | Input | Cached input | Output | Recommended
 ---|---:|---:|---:|---
-Claude Haiku 5.5 | $0.10 | $0.01 | $0.50 | **Try first for easier matches; untested here**
+Claude Haiku 5.5 | $0.10 | $0.01 | $0.50 | **Try a bounded first pass; see Haiku results below**
 Claude Sonnet 5.5 | $2 | $0.10 | $10 | **Step up when Haiku stalls; tested here**
 Claude Opus 5.5 | $4 | $0.20 | $20 | Twice Sonnet's base rates; untested here
 Claude Fable 5.1 | $10 | $0.25 | $50 | Most expensive here; untested
@@ -109,6 +109,19 @@ Claude Fable 5.1 | $10 | $0.25 | $50 | Most expensive here; untested
 Haiku's listed rates apply to prompts up to 100,000 tokens; longer prompts cost more. Cache writes and fast modes also affect billing. Fable may require separately paid usage credits even with a subscription, so check its label before starting workers. See [Claude API pricing](https://platform.claude.com/docs/en/about-claude/pricing) and [Claude Code model access](https://code.claude.com/docs/en/model-config) [^27].
 
 Return to decompdecomp and select **Installed it already? Look again** if needed. Choose your CLI, model, and effort, then start one worker. The app supplies the task and tool connection.
+
+
+#### What Did Claude Match in V-Rally?
+Our in-app V-Rally results show why price per token is only part of the value calculation. These are additional agent results, separate from the fresh-project Sonnet session compared later in the article. Rows are sorted by total reported cost [^32]:
+
+Model label | App-reported matches | Reported total cost | Reported cost per match
+---|---:|---:|---:
+`claude-sonnet-5-5#low` | 6 | $2.48 | $0.41
+Haiku (version and effort unrecorded) | 337 | $141 | $0.42
+
+**Haiku delivered many more matches, but almost the same cost per match as Sonnet:** about **42 cents versus 41 cents**. Its lower token price did not translate into a lower observed cost per successful function. A cheap model is worth a bounded first pass, but watch what it actually spends to obtain matches.
+
+The runs had different numbers of matches, and their starting checkpoints and runtimes were not recorded here. Sonnet's six-function sample is small, so this does not establish a model ranking. These are app-reported dollar figures; we have not established whether they represent API charges or token-based estimates for subscription use.
 
 ---
 ### Connect DeepSeek Through the API
@@ -221,3 +234,5 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^29]: [DeepSeek API quickstart](https://api-docs.deepseek.com/), API-key creation, OpenAI-compatible base URL, and documented model names.
 [^30]: [DeepSeek model pricing](https://api-docs.deepseek.com/quick_start/pricing/), Flash and Pro rates, cache-hit pricing, peak/off-peak schedule, and deductions from topped-up balances; checked 25 October 2026.
 [^31]: decompdecomp's [agent statistics display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/agents.js) and [session accounting](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py), cumulative tokens per match and dollar-cost fallback. South Park counts, DeepSeek Flash model/version, and confirmation that the run consumed the full $10 balance were supplied by the participant. Cost per match is $10 / 56; matches per dollar is 56 / $10.
+
+[^32]: Participant-supplied decompdecomp V-Rally statistics: `claude-sonnet-5-5#low`, six matches, $2.48 total and $0.41 per match; Haiku, 337 matches, $141 total and $0.42 per match. Haiku version, effort, timing, checkpoints, and billing basis were not supplied.
