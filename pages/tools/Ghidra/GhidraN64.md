@@ -22,11 +22,12 @@ recommend:
 - tutorials
 - ghidra
 editlink: /tools/Ghidra/GhidraN64.md
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-25'
 youtube: "3d3a39LuCwc"
 ---
 
 # Importing a Nintendo 64 ROM
+This guide helps you inspect N64 code in Ghidra. To turn recovered C into compiler-verified matches, continue with the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation), which covers decompdecomp setup, historical compilers, and coding agents.
 
 ## Download and Install Ghidra
 Before following the steps on this post please make sure you have a working Ghidra environment setup.

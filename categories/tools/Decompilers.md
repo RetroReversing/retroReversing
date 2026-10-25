@@ -15,7 +15,7 @@ recommend:
 tags:
  - tools
  - software
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-25'
 ---
 
 # From Machine Code to Pseudo-C
@@ -495,6 +495,8 @@ For concrete game case studies, tools, code examples and a comparison of Claude 
 
 ---
 # Getting Started
+For an N64 matching project, the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation) walks through decompdecomp's free local pass, agent setup, and compiler suggestions, with measured model results and costs.
+
 If you want to experiment with decompilation on a retro binary:
 
 * Pick a small function with clear compiler-generated patterns first, such as math helpers or init code.

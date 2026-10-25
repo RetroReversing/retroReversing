@@ -18,7 +18,7 @@ breadcrumbs:
   - name: AI-Assisted Decompilation
     url: '#'
 editlink: /pages/tools/AIAssistedDecompilation.md
-updatedAt: '2026-10-23'
+updatedAt: '2026-10-25'
 ---
 
 AI can help a reverse engineer turn a game executable into readable C, identify unknown functions, and search for source code that recreates the original machine instructions. The last task is particularly interesting for retro games: an AI agent can write C, run the original compiler, inspect the differences and try again.
@@ -27,7 +27,7 @@ The important distinction is between **code that looks plausible**, **code that 
 
 This guide explains the approach using Nintendo 64 and PlayStation examples, including what recent Claude Opus 5.5 benchmark results actually demonstrate. It also distinguishes matching decompilation from AI-generated ports that run the original machine code through emulation or static recompilation.
 
-For a practical first session, follow the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation). It starts with a single-function browser exercise and continues through a verified local build.
+For a practical first session, follow the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation). It starts in decompdecomp with free local matching, then shows how to connect agents and choose models using recorded results and costs.
 
 For the underlying disassembly, intermediate representations and source reconstruction, start with the existing explanation:
 
@@ -141,7 +141,7 @@ Tool | What it contributes
 [REA](https://github.com/isTurn/REA) | Give agents access to a configured native analysis provider; its documented raw loader excludes MIPS and big-endian targets [^15].
 [decomp.wtf](https://github.com/i12bp8/decomp.wtf) | Archived matching workspace with an N64 demo and compiler judge; discontinued 15 October 2026 [^16].
 
-The [N64 tutorial compares REA and decomp.wtf](/ai-assisted-n64-decompilation#where-rea-and-decompwtf-fit), including provider limits and an optional demo-based exercise.
+The [N64 tutorial's app walkthrough](/ai-assisted-n64-decompilation#start-in-the-app-without-ai-tokens) uses the continuing decompdecomp project. It covers ROM import, compiler settings, and agent setup after the free matching pass.
 
 A tool that explains Ghidra pseudocode and a tool that autonomously writes matching C are not interchangeable. The latter needs a real build environment, not just a text-generation interface.
 

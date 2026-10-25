@@ -22,7 +22,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2026-10-24'
+updatedAt: '2026-10-25'
 ---
 
 This page lists [decompiled](#glossary-decompilation) and [disassembled](#glossary-disassembly) source code projects for retail games, alongside [native ports](#glossary-source-port) and [static recompilations](#glossary-static-recompilation). Projects are grouped by their original platform. Engine reconstructions, fan remakes and unreleased prototypes are labeled in their entries. Independently written reimplementations are maintained in a separate catalog and excluded from these tables.
@@ -73,7 +73,7 @@ The [SNES guide](/snes) covers Super Famicom hardware, SDKs, and reversing. Orig
 ## Nintendo 64
 Recently, mainly in thanks to the huge success of the [Super Mario 64](/super-mario-64) project, there has been revived interest in [Nintendo 64](/n64) decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
 
-The [Nintendo 64 guide](/n64) covers the console, SDK, and reversing introduction. Dedicated game pages cover the [Super Mario 64 decompilation](/super-mario-64) and [Mario Kart 64](/mario-kart-64).
+The [Nintendo 64 guide](/n64) covers the console, SDK, and reversing introduction. Dedicated game pages cover the [Super Mario 64 decompilation](/super-mario-64) and [Mario Kart 64](/mario-kart-64). To start or continue a matching project with coding agents, follow the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation).
 
 {% include decomp-table.html console="nintendo-64" %}
 
