@@ -19,6 +19,8 @@ updatedAt: '2026-10-25'
 excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then connect coding agents and compare verified model results and costs.'
 ---
 
+<link rel="stylesheet" href="{{ "/public/css/decomp-status.css" | relative_url }}">
+
 # AI Assisted N64 Decompilation Tutorial
 **Start with your own N64 ROM in decompdecomp.** Its local autopilot can find matches without spending AI tokens. When that pass finishes, connect a coding agent in the app to work on harder functions. Your first goal is a verified checkpoint, not a finished PC port. Our Turok and V-Rally results help set expectations for model progress and cost.
 
@@ -227,14 +229,14 @@ Each square in the ROM map represents a function. Its colour shows the current s
 
 Status | What it means
 ---|---
-To do | Unmatched, unclaimed, and no scored candidate is recorded. It may never have been attempted, but failed compilations or an inspection without a scored candidate can leave it this colour.
-Tried | A scored candidate exists, but it does not match. The app retains the best attempt for another worker to improve.
-Close | A tried candidate is relatively near a match according to the difference score. This is a colour gradient, not proof that only a small amount of work remains.
-Working | A worker currently holds the function's claim. It may already have earlier attempts; this does not mean it was previously untouched.
-Matched | Accepted C compiles to the target bytes under the project's comparison settings.
-Polished | Matched C has also been given more readable names, types, and comments, while preserving the match. Those interpretations can still need human review.
-Set aside | Excluded from ordinary matching work, for example because it looks like hand-written assembly or a fragment of another function. Its detail view explains why.
-Not C | Agents from multiple models have agreed it should be set aside as code they cannot reproduce in C. This is a recorded assessment, not a mathematical proof; its page can reopen it.
+<span class="rr-decomp-status rr-decomp-status--todo">To do</span> | Unmatched, unclaimed, and no scored candidate is recorded. It may never have been attempted, but failed compilations or an inspection without a scored candidate can leave it this colour.
+<span class="rr-decomp-status rr-decomp-status--tried">Tried</span> | A scored candidate exists, but it does not match. The app retains the best attempt for another worker to improve.
+<span class="rr-decomp-status rr-decomp-status--close">Close</span> | A tried candidate is relatively near a match according to the difference score. This is a colour gradient, not proof that only a small amount of work remains.
+<span class="rr-decomp-status rr-decomp-status--working">Working</span> | A worker currently holds the function's claim. It may already have earlier attempts; this does not mean it was previously untouched.
+<span class="rr-decomp-status rr-decomp-status--matched">Matched</span> | Accepted C compiles to the target bytes under the project's comparison settings.
+<span class="rr-decomp-status rr-decomp-status--polished">Polished</span> | Matched C has also been given more readable names, types, and comments, while preserving the match. Those interpretations can still need human review.
+<span class="rr-decomp-status rr-decomp-status--aside">Set aside</span> | Excluded from ordinary matching work, for example because it looks like hand-written assembly or a fragment of another function. Its detail view explains why.
+<span class="rr-decomp-status rr-decomp-status--not-c">Not C</span> | Agents from multiple models have agreed it should be set aside as code they cannot reproduce in C. This is a recorded assessment, not a mathematical proof; its page can reopen it.
 
 **To do is not an audit of whether anyone has looked at a function.** Open its detail view to check attempts, errors, and notes. The overview's **to go** count is broader still: it includes remaining unmatched work, including previously tried functions.
 

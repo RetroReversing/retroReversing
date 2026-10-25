@@ -1,0 +1,25 @@
+.rr-decomp-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.rr-decomp-status::before {
+  content: "";
+  display: inline-block;
+  flex: 0 0 1rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.2rem;
+  background: var(--rr-status-swatch);
+  border: 1px solid var(--rr-color-content-border-subtle);
+}
+.rr-decomp-status--todo { --rr-status-swatch: var(--rr-color-decomp-ink); }
+.rr-decomp-status--tried { --rr-status-swatch: var(--rr-color-decomp-tried); }
+.rr-decomp-status--close { --rr-status-swatch: var(--rr-color-decomp-close); }
+.rr-decomp-status--working { --rr-status-swatch: var(--rr-color-decomp-working); }
+.rr-decomp-status--matched { --rr-status-swatch: var(--rr-color-decomp-match); }
+.rr-decomp-status--polished { --rr-status-swatch: var(--rr-color-decomp-polished); }
+.rr-decomp-status--aside { --rr-status-swatch: var(--rr-color-decomp-aside); }
+.rr-decomp-status--not-c { --rr-status-swatch: var(--rr-color-decomp-not-c); }
