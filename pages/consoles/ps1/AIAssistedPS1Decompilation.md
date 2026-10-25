@@ -70,7 +70,7 @@ When it finishes, note the matched-function count and code coverage, then save o
 
 The app looks for identical functions after accounting for address differences, adapts symbol names, then recompiles the candidate against the destination game's bytes. Only an exact result counts as a match. This uses local computer time and **zero AI model tokens**; more projects improve the pool of candidates, but do not guarantee more matches. Compatible compiler settings and function boundaries still matter [^13].
 
-Let autopilot run after importing a related project, and run it again after that project's matching progress improves. Check **Matches from other games** for transfer results. Individual functions can also show **Other games and local SDKs** suggestions: similar code is a useful starting point for an agent, but needs adaptation and verification before it counts [^13].
+Let autopilot run after importing a related project, and run it again after that project's matching progress improves. Check **Matches from other games** for transfer results. Individual functions can also show **Other games and local SDKs** suggestions: similar code is a useful starting point for an agent, but needs adaptation and verification before it counts [^13]. See the [V-Rally transfer screenshot in the N64 tutorial](/ai-assisted-n64-decompilation#let-your-projects-help-each-other) for an example of accepted matches and unsuccessful attempts.
 
 ---
 ## Understand the PS1 Compiler

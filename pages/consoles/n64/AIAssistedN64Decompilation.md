@@ -54,6 +54,8 @@ Let autopilot run after importing a related project, and run it again after that
 
 In our V-Rally regional comparison, the app verified **429 North American functions using C from the European project**. The North American project had 859 total matches at that checkpoint. These transfers were free of AI token charges; they were not 429 additional model-produced functions. Regional differences and failed transfers meant the two editions still had different coverage totals.
 
+{% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-cross-project-matches.webp" alt="decompdecomp V-Rally autopilot reporting 684 free matches, with 429 verified matches from other games across 730 transfer attempts and individual match and miss results" width="1180" height="625" size="document" title="Free matches from another V-Rally region" caption="The app reports 429 verified cross-project matches across 730 transfer attempts. The 684 free autopilot matches include those transfers; do not add the two totals together. Misses remain unverified." %}
+
 ---
 ## Understanding the Compiler
 A compiler turns C into the machine instructions executed by the N64. Matching decompilation runs that process again: your recovered C must produce the same bytes. **The compiler version and its flags matter as much as the C source.** A modern compiler can produce working code that fails the original-byte comparison.
