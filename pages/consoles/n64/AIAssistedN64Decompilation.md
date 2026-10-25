@@ -127,7 +127,7 @@ Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V
 
 
 #### What Do You Get for $10 With DeepSeek?
-**Our $10 bought 56 matched functions in South Park.** We used DeepSeek Flash, version **DeepSeek-V4.1-Flash-1017**, through decompdecomp's API agent and consumed the full $10 balance.
+**Our $10 bought 56 matched functions in South Park**, out of **1,423 functions detected in the project** - about **3.9% of its function count**. This is a function-count share, not a percentage of code bytes recovered. We used DeepSeek Flash, version **DeepSeek-V4.1-Flash-1017**, through decompdecomp's API agent and consumed the full $10 balance.
 
 That works out to about **$0.18 per matched function**, including spending on unsuccessful attempts. This is one game's result; function size and difficulty affect how far another $10 will go. See the [South Park comparison](#south-park-deepseek-and-luna-in-the-app) below for the Luna results and token figures.
 
