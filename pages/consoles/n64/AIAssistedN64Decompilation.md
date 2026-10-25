@@ -15,7 +15,7 @@ breadcrumbs:
   - name: AI Assisted N64 Decompilation
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
-updatedAt: '2026-10-24'
+updatedAt: '2026-10-25'
 excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then use a copyable agent prompt and compare verified model results and costs.'
 ---
 
@@ -24,8 +24,18 @@ excerpt: 'Start N64 matching decompilation with free local matches in decompdeco
 
 You can also give the ROM directly to an agent and let it handle setup. The model comparison helps decide where to spend your next session; our Turok and V-Rally results show what each path produced.
 
+## Which decompdecomp Version Should You Use?
+There are two repositories for the same app: [n-delic's upstream project](https://github.com/n-delic/decompdecomp) and [the RetroReversing fork](https://github.com/RetroReversing/decompdecomp). Both provide the matching workflow described here: import a game you own, let local tools find easy matches, then connect coding agents for the remaining work.
+
+| Version | What it currently adds or supports | Choose it when |
+|---|---|---|
+| [Upstream](https://github.com/n-delic/decompdecomp) | The original project and its standard releases; its current install guide covers Linux and Windows. | You want the upstream repository and are using its supported desktop platforms. |
+| [RetroReversing fork](https://github.com/RetroReversing/decompdecomp) | Upstream's app plus native macOS support, including relocatable `.app` bundles for Intel and Apple Silicon with Python and dependencies included. The release bundle can be moved to `/Applications`; a source installer is also documented. | You are on macOS, or want to try changes maintained in the RetroReversing fork. |
+
+The fork is based on n-delic's project and preserves its credits and licenses. We intend to propose useful changes back to upstream as reviewable pull requests. The macOS app-bundle work is already merged into the RetroReversing fork in [PR #5](https://github.com/RetroReversing/decompdecomp/pull/5); as of 25 October 2026, upstream's install instructions still list Linux and Windows, so do not assume that feature is available there. Check both repositories for current release and contribution status. For Linux or Windows, upstream is the straightforward default; for macOS, use the RetroReversing fork for its app bundle.
+
 ## Start in the App Without AI Tokens
-[Install the RetroReversing decompdecomp fork](https://github.com/RetroReversing/decompdecomp#install), open the app, and select **New project**. Supply your own ROM, confirm that you own it, choose the compiler when prompted, and select **Start decompiling**. The screenshot shows the V-Rally import screen just before that step.
+[Install decompdecomp](https://github.com/RetroReversing/decompdecomp#install) using the version that fits your platform, open the app, and select **New project**. Supply your own ROM, confirm that you own it, choose the compiler when prompted, and select **Start decompiling**. The screenshot shows the V-Rally import screen just before that step.
 
 {% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-new-project.png" alt="decompdecomp's New project screen with a V-Rally N64 ROM selected, the compiler menu, and the Start decompiling button" width="1445" height="951" size="document" title="Start with the local app" caption="Select your ROM and compiler, then let the automatic matching pass run before starting an AI agent." %}
 
@@ -268,7 +278,7 @@ For ROM mapping and MIPS background, continue with the [N64 reversing introducti
 [^14]: [REA raw-binary guide](https://github.com/isTurn/REA/blob/main/docs/raw-binary.md), supported processor families, little-endian languages, and excluded big-endian targets.
 [^15]: [decomp.wtf README](https://github.com/i12bp8/decomp.wtf), discontinuation notice, final version, platform support, Demo Quest 64, agent connection, and export behavior; checked 23 October 2026.
 
-[^16]: [RetroReversing decompdecomp README](https://github.com/RetroReversing/decompdecomp), macOS source installation, in-app agents, migration from the archived commands, and project export.
+[^16]: [RetroReversing decompdecomp README](https://github.com/RetroReversing/decompdecomp), macOS app bundles and source installation, in-app agents, migration from the archived commands, and project export; see also the [upstream README](https://github.com/n-delic/decompdecomp) for its supported platforms and releases.
 
 [^17]: [Official Codex quickstart](https://learn.chatgpt.com/docs/quickstart), desktop setup, selecting Codex, signing in, and choosing a local project folder; checked 23 October 2026.
 [^18]: [Claude Code desktop documentation](https://code.claude.com/docs/en/desktop), the Code tab, local sessions, file references, and attachments; checked 23 October 2026.
