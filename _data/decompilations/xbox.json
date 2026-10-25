@@ -16,7 +16,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Inactive",
-        "github_stars": 458
+        "github_stars": 459
       },
       "ai_used": null
     },
@@ -49,8 +49,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T06:47:33Z",
-        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/33b1029150c5d06790a49066015a1ac56bbd6aff",
+        "last_commit_at": "2026-10-24T18:22:04Z",
+        "last_commit_url": "https://github.com/Gumpolas/TooTawersRecomp/commit/6e76b7a73fc7a97cf9fd3bd145d1bb49e78d64b7",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -68,8 +68,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T09:47:23Z",
-        "last_commit_url": "https://github.com/punpckhdq/halo/commit/7263d7480cb0f6983f7e3adc6b5550ccca1ca1e0",
+        "last_commit_at": "2026-10-24T20:01:42Z",
+        "last_commit_url": "https://github.com/punpckhdq/halo/commit/15d4a8fe9b1b42d355e3f2a3faa9af61a16e463d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -106,7 +106,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 179,
+        "github_stars": 181,
         "last_commit_at": "2026-10-22T14:53:24Z",
         "last_commit_url": "https://github.com/portingpete/Black-2006-Recomp/commit/53acebac3f0bc5a7ab5ca025a7ac10240a0b24d5",
         "default_branch": "main",
@@ -125,9 +125,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 158,
-        "last_commit_at": "2026-10-23T21:56:13Z",
-        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/0b3fa17bb8cbe89726b955a04d51985ffbbf64f6",
+        "github_stars": 165,
+        "last_commit_at": "2026-10-24T23:33:59Z",
+        "last_commit_url": "https://github.com/vyanhursky/DefJamFFNY-recomp/commit/c7ed10579093853421887994536358b2f3d0c59b",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -144,9 +144,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 109,
-        "last_commit_at": "2026-10-24T07:58:19Z",
-        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/a40c5445831d8b6c3cec67a99b5430cd8cb1925d",
+        "github_stars": 114,
+        "last_commit_at": "2026-10-25T08:22:29Z",
+        "last_commit_url": "https://github.com/kirklandsig/halo2-decompiled/commit/144eee989d49ecf0eb277728c132aae96f4f57bd",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -163,9 +163,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 339,
-        "last_commit_at": "2026-10-22T02:07:56Z",
-        "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/a455de608838d4ecc62d17250004c47b8fcb5170",
+        "github_stars": 348,
+        "last_commit_at": "2026-10-25T05:32:25Z",
+        "last_commit_url": "https://github.com/TGP482/SCDA-XBERecomp/commit/aa175fbe080b0205b6b0bff438f6cdefa733de11",
         "default_branch": "main",
         "archived": false,
         "status": "Active"
@@ -182,7 +182,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 53,
+        "github_stars": 54,
         "last_commit_at": "2026-10-08T12:42:29Z",
         "last_commit_url": "https://github.com/SirSymo/SM2-Recomp/commit/a11fb1d0a550ded60077b78da04c698052a0ec7e",
         "default_branch": "main",
@@ -201,9 +201,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 142,
-        "last_commit_at": "2026-10-23T16:10:50Z",
-        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/5fc57d84d617aa7f360cf0a5ab707dc9334f4b95",
+        "github_stars": 157,
+        "last_commit_at": "2026-10-24T20:48:26Z",
+        "last_commit_url": "https://github.com/gamboozino/ngbrecomp/commit/0925a846a0932051494818b614671ff925a517d3",
         "default_branch": "master",
         "archived": false,
         "status": "Active"
@@ -220,11 +220,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T01:40:49Z",
-        "last_commit_url": "https://github.com/rafaelkenedy/genma-recomp/commit/1bc94ecd6556ceb19f5103c3449999bae220c9bd",
+        "last_commit_at": "2026-10-25T07:37:26Z",
+        "last_commit_url": "https://github.com/rafaelkenedy/genma-recomp/commit/423dc2732e847a5b4c195dce46249229d99db992",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 15,
+        "github_stars": 16,
         "status": "Active"
       },
       "ai_used": null
@@ -239,11 +239,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T20:37:54Z",
-        "last_commit_url": "https://github.com/hk21x/pgr2-recomp/commit/7ad7195180a601200ad35ff23593e6be7cd7d6b6",
+        "last_commit_at": "2026-10-25T06:45:59Z",
+        "last_commit_url": "https://github.com/hk21x/pgr2-recomp/commit/b0d11a938b38473a92f8d7d8ef409e4c8fc774b3",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 40,
+        "github_stars": 46,
         "status": "Active"
       },
       "ai_used": true
@@ -258,11 +258,11 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T11:37:23Z",
-        "last_commit_url": "https://github.com/Clergyman0013/arizona-vamp-recomp/commit/3114f1bf9c20ed9a8de98b4a86d4104f35618c2d",
+        "last_commit_at": "2026-10-25T03:05:45Z",
+        "last_commit_url": "https://github.com/Clergyman0013/arizona-vamp-recomp/commit/e4fa6f32661decb0850b9336cfc45af238435946",
         "default_branch": "master",
         "archived": false,
-        "github_stars": 22,
+        "github_stars": 25,
         "status": "Active"
       },
       "ai_used": true
@@ -282,7 +282,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 703
+        "github_stars": 736
       },
       "ai_used": null
     },
@@ -296,12 +296,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-21T19:32:45Z",
-        "last_commit_url": "https://github.com/Spark198rus/black-pc/commit/d6a86e5571e8bc4b7b3f8fd483ba2f122e888113",
+        "last_commit_at": "2026-10-24T19:45:14Z",
+        "last_commit_url": "https://github.com/Spark198rus/black-pc/commit/b826153997907272dd555b8ec63b6a54fcde0600",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 326
+        "github_stars": 332
       },
       "ai_used": null
     },
@@ -358,7 +358,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 40
+        "github_stars": 42
       },
       "ai_used": null
     },
@@ -391,12 +391,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T18:24:11Z",
-        "last_commit_url": "https://github.com/timftw21/burnout2-recompilation/commit/a999a85e2f6c8eaec0bd40e5b521f31c11e65dd3",
+        "last_commit_at": "2026-10-24T23:08:16Z",
+        "last_commit_url": "https://github.com/timftw21/burnout2-recompilation/commit/2259fea7d99e16436456ce49467833dd918b1b7c",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 34
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -434,7 +434,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 139
+        "github_stars": 142
       },
       "ai_used": null
     },
@@ -453,7 +453,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 375
+        "github_stars": 394
       },
       "ai_used": null
     },
@@ -472,7 +472,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 77
+        "github_stars": 79
       },
       "ai_used": null
     },
@@ -486,12 +486,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T03:41:23Z",
-        "last_commit_url": "https://github.com/NoRain211/doa3-re/commit/d76349fdcc158678ed15eb58bfbafa306ea6cc4d",
+        "last_commit_at": "2026-10-24T19:26:09Z",
+        "last_commit_url": "https://github.com/NoRain211/doa3-re/commit/8e071f0fea45c5117437aa47c878f280ff4bd4ce",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 15
+        "github_stars": 16
       },
       "ai_used": null
     },
@@ -505,12 +505,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T01:27:05Z",
-        "last_commit_url": "https://github.com/NoRain211/doaxvb-re/commit/4f353654118d1dd6167bb41ce8a8a912902ef10a",
+        "last_commit_at": "2026-10-24T15:38:13Z",
+        "last_commit_url": "https://github.com/NoRain211/doaxvb-re/commit/ab007e4f7ed1f12b914e86d6716f6727a9c42017",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 213
+        "github_stars": 217
       },
       "ai_used": null
     },
@@ -562,12 +562,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T21:40:05Z",
-        "last_commit_url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/commit/dc2c2e3d970411db06462f5e64b6abb77064e963",
+        "last_commit_at": "2026-10-24T18:53:47Z",
+        "last_commit_url": "https://github.com/JuMatt/JetSetRadioFuture-Unleashed/commit/9875cf06f9fd953d9b512a1b6f401d93a5e55012",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 157
+        "github_stars": 161
       },
       "ai_used": null
     },
@@ -586,7 +586,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 150
+        "github_stars": 152
       },
       "ai_used": null
     },
@@ -605,7 +605,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 28
       },
       "ai_used": null
     },
@@ -643,7 +643,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 194
+        "github_stars": 213
       },
       "ai_used": null
     },
@@ -662,7 +662,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 159
+        "github_stars": 167
       },
       "ai_used": null
     },
@@ -676,12 +676,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T01:08:46Z",
-        "last_commit_url": "https://github.com/OpenCommunityEdition/OpenCE/commit/5e27f3a27b2d3c27d3edeb450fe40c24defb9c15",
+        "last_commit_at": "2026-10-24T22:51:56Z",
+        "last_commit_url": "https://github.com/OpenCommunityEdition/OpenCE/commit/7fb941b0b205edb1f7ecbb0aa6c2d7f5b884732d",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1790
+        "github_stars": 1805
       },
       "ai_used": null
     },
@@ -695,12 +695,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T10:23:42Z",
-        "last_commit_url": "https://github.com/FulGerNet/rePOP/commit/d8190090c15186dd55d419ee3a20f6231bac4189",
+        "last_commit_at": "2026-10-24T20:37:34Z",
+        "last_commit_url": "https://github.com/FulGerNet/rePOP/commit/3499c55a1fc4c77a043d4d7bc7410f2cb4a4ecff",
         "default_branch": "reSOT",
         "archived": false,
         "status": "Active",
-        "github_stars": 62
+        "github_stars": 69
       },
       "ai_used": null
     },
@@ -719,7 +719,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 61
+        "github_stars": 63
       },
       "ai_used": null
     },
@@ -738,7 +738,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 42
+        "github_stars": 45
       },
       "ai_used": null
     },
@@ -776,7 +776,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 115
+        "github_stars": 117
       },
       "ai_used": null
     },
@@ -795,7 +795,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 13
+        "github_stars": 14
       },
       "ai_used": null
     },
@@ -809,12 +809,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-10T02:55:21Z",
-        "last_commit_url": "https://github.com/jedijosh920/SWROTS-PC/commit/f459f126fd9a62065fa1764d7127469900a6e653",
+        "last_commit_at": "2026-10-24T18:28:07Z",
+        "last_commit_url": "https://github.com/jedijosh920/SWROTS-PC/commit/fbea4d817669106c70c0a349870774f28d5fdfeb",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 79
+        "github_stars": 83
       },
       "ai_used": null
     },
@@ -833,7 +833,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -847,12 +847,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T23:09:10Z",
-        "last_commit_url": "https://github.com/phobos665/split2-recomp/commit/5271eb0206ae6b6e2cadca446f2cce39f8234453",
+        "last_commit_at": "2026-10-24T21:23:42Z",
+        "last_commit_url": "https://github.com/phobos665/split2-recomp/commit/b3eb4a96689faf23f5b352d420d798b912effe24",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 22
+        "github_stars": 26
       },
       "ai_used": null
     },
@@ -922,7 +922,14 @@
       "project_type": "Static recompilation",
       "completion_status": null,
       "legacy_status": null,
-      "activity": {},
+      "activity": {
+        "last_commit_at": "2026-10-24T22:51:08Z",
+        "last_commit_url": "https://github.com/crazyriddler/FinestHourRemastered/commit/e0810ae0b2bfad8c877fb601e1251eefbb1de079",
+        "default_branch": "main",
+        "archived": false,
+        "github_stars": 123,
+        "status": "Active"
+      },
       "ai_used": null
     }
   },

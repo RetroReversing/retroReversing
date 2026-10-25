@@ -11,12 +11,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T23:28:02Z",
-        "last_commit_url": "https://github.com/JonathanDC64/DemonsSoulsRecomp/commit/4e3473783c899a33c8b02ca449fa5cb6f859a0a2",
+        "last_commit_at": "2026-10-25T00:21:30Z",
+        "last_commit_url": "https://github.com/JonathanDC64/DemonsSoulsRecomp/commit/14c39ec9abf2b29400e805a684179272475805cb",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 97
+        "github_stars": 102
       },
       "ai_used": null
     },
@@ -35,7 +35,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 133
+        "github_stars": 154
       },
       "ai_used": null
     },
@@ -73,7 +73,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 62
+        "github_stars": 66
       },
       "ai_used": null
     },
@@ -87,12 +87,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T02:12:28Z",
-        "last_commit_url": "https://github.com/arnaldolima1/gow-ascension-pc/commit/deede6c71ca9bd330635f40661b900a71f298c0d",
+        "last_commit_at": "2026-10-24T18:37:39Z",
+        "last_commit_url": "https://github.com/arnaldolima1/gow-ascension-pc/commit/6e503ad0761b9ccea0f7ea8948e6833cbe16f43b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 229
+        "github_stars": 260
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 11
+        "github_stars": 12
       },
       "ai_used": null
     },

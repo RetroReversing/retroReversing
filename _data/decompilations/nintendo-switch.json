@@ -38,7 +38,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 484
+        "github_stars": 487
       },
       "ai_used": null
     },
@@ -57,7 +57,7 @@
         "archived": false,
         "default_branch": "master",
         "status": "Active",
-        "github_stars": 2358
+        "github_stars": 2368
       },
       "ai_used": null
     },
@@ -71,12 +71,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-13T09:48:56Z",
-        "last_commit_url": "https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation/commit/7e75adfedcfeb2a3907adb3813c47ce903236dd9",
+        "last_commit_at": "2026-10-24T20:43:58Z",
+        "last_commit_url": "https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation/commit/2b45c422e2e3a8697372f6f25692a7793d118e06",
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 30
+        "github_stars": 31
       },
       "ai_used": null
     },
@@ -114,7 +114,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 406
+        "github_stars": 435
       },
       "ai_used": null
     },
@@ -133,7 +133,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 63
+        "github_stars": 68
       },
       "ai_used": null
     },
@@ -147,12 +147,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T23:47:08Z",
-        "last_commit_url": "https://github.com/peiikai/LASRecomp/commit/59b61fd3c65dcabd0feb62d5d5706240cb3f5bb9",
+        "last_commit_at": "2026-10-25T05:00:41Z",
+        "last_commit_url": "https://github.com/peiikai/LASRecomp/commit/9e8efebba66ae81a1c43c36e4aa01c62fa3bb087",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 1721
+        "github_stars": 1771
       },
       "ai_used": null
     },
@@ -166,12 +166,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T04:04:39Z",
-        "last_commit_url": "https://github.com/Apolinario-coder/SkyRecomp/commit/b3e22edb4fc55a1e998def4c9e32389c7b0ecc5d",
+        "last_commit_at": "2026-10-25T07:11:59Z",
+        "last_commit_url": "https://github.com/Apolinario-coder/SkyRecomp/commit/d08133e4a23593ed5be3529329d1734e286256f5",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 409
+        "github_stars": 419
       },
       "ai_used": null
     },
@@ -185,12 +185,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T04:13:47Z",
-        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/176274f5397dc1e027d942e506aff467b6ab5170",
+        "last_commit_at": "2026-10-24T23:02:49Z",
+        "last_commit_url": "https://github.com/dougchansan/mk8-recomp/commit/7690b2d1cbe8096d6ec826723fa5601c8e7d0d9e",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 99
+        "github_stars": 103
       },
       "ai_used": null
     },
@@ -209,7 +209,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 623
+        "github_stars": 624
       },
       "ai_used": null
     },
@@ -223,8 +223,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T20:10:01Z",
-        "last_commit_url": "https://github.com/charlieduzstuf/pokesword/commit/b0e3e8e7dac9ad2ed9a5e96215029c147f1f215c",
+        "last_commit_at": "2026-10-24T18:29:46Z",
+        "last_commit_url": "https://github.com/charlieduzstuf/pokesword/commit/0594a2f46cca99b86fd616ca8c8227fe2a8a7e8a",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -242,12 +242,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T14:00:58Z",
-        "last_commit_url": "https://github.com/raulzrrs/letsgo-recomp/commit/96894fd8e9ea20c1b38cdea53105ec2a335df620",
+        "last_commit_at": "2026-10-24T22:00:11Z",
+        "last_commit_url": "https://github.com/raulzrrs/letsgo-recomp/commit/60b8bdf6a81033988e0b6d35cb2fd760f15a8cf6",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 171
+        "github_stars": 181
       },
       "ai_used": null
     },
@@ -304,7 +304,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 447
+        "github_stars": 462
       },
       "ai_used": null
     },
@@ -323,7 +323,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 43
+        "github_stars": 45
       },
       "ai_used": null
     }

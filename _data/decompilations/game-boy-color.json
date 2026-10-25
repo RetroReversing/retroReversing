@@ -111,7 +111,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 187
+        "github_stars": 188
       },
       "ai_used": null
     },
@@ -448,12 +448,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T21:30:44Z",
-        "last_commit_url": "https://github.com/kirby-letsgo/oracles-decomp/commit/0ad90d04a8cc257206457440930811834c053d13",
+        "last_commit_at": "2026-10-24T16:42:24Z",
+        "last_commit_url": "https://github.com/kirby-letsgo/oracles-decomp/commit/711fe31bd8510c281384ade60597c849e1f52954",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 93
+        "github_stars": 95
       },
       "ai_used": null
     },
@@ -467,8 +467,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-18T08:44:26Z",
-        "last_commit_url": "https://github.com/thibautbus/top/commit/127081982af7c583f9944225d0109b2d2d4cfa81",
+        "last_commit_at": "2026-10-25T08:13:04Z",
+        "last_commit_url": "https://github.com/thibautbus/top/commit/aa650d0dff4c88fe9bfb18fe51a7699694a90d3b",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -524,8 +524,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-24T07:13:22Z",
-        "last_commit_url": "https://github.com/Medabots/medarot3/commit/b1adb631d2e7ae9e8dfad7000f2f47a9952307c8",
+        "last_commit_at": "2026-10-25T07:17:08Z",
+        "last_commit_url": "https://github.com/Medabots/medarot3/commit/7956270ff3a667372dccba4a5deabe8c0c9b7103",
         "default_branch": "tr_EN",
         "archived": false,
         "status": "Active",
@@ -567,7 +567,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 414
+        "github_stars": 417
       },
       "ai_used": null
     },
@@ -605,7 +605,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 1679
+        "github_stars": 1681
       },
       "ai_used": null
     },
@@ -643,7 +643,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 8
+        "github_stars": 9
       },
       "ai_used": null
     },

@@ -87,8 +87,8 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-17T17:52:45Z",
-        "last_commit_url": "https://github.com/Herringway/ebsrc/commit/68aec5c39e67f3ef4f0be138ee58c1ba0cc33d62",
+        "last_commit_at": "2026-10-24T17:41:24Z",
+        "last_commit_url": "https://github.com/Herringway/ebsrc/commit/868d1a56add3c026e1d282c6563cdd7e99f1da79",
         "archived": false,
         "default_branch": "main",
         "status": "Active",
@@ -354,7 +354,7 @@
         "last_commit_url": "https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/commit/25d73ed4db7033b9177ec116f99f4185e7397a6f",
         "default_branch": "main",
         "archived": false,
-        "github_stars": 50,
+        "github_stars": 51,
         "status": "Active"
       },
       "ai_used": true
@@ -369,12 +369,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-23T02:32:09Z",
-        "last_commit_url": "https://github.com/DerrickGold/ar-recomp/commit/93c2786af6012325cc00c414c7bff07aa22ce672",
+        "last_commit_at": "2026-10-24T22:17:05Z",
+        "last_commit_url": "https://github.com/DerrickGold/ar-recomp/commit/e016e1bc99acdeac49bee7e77a3b49a55390b741",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 23
+        "github_stars": 24
       },
       "ai_used": null
     },
@@ -412,7 +412,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 264
+        "github_stars": 265
       },
       "ai_used": null
     },
@@ -431,7 +431,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 178
+        "github_stars": 179
       },
       "ai_used": null
     },
@@ -488,7 +488,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 16
+        "github_stars": 17
       },
       "ai_used": null
     },
@@ -564,7 +564,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 36
+        "github_stars": 37
       },
       "ai_used": null
     },
@@ -583,7 +583,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 82
+        "github_stars": 83
       },
       "ai_used": null
     },
@@ -697,7 +697,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 29
+        "github_stars": 31
       },
       "ai_used": true
     },
@@ -716,7 +716,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 7
+        "github_stars": 8
       },
       "ai_used": null
     },
@@ -773,7 +773,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 728
+        "github_stars": 730
       },
       "ai_used": null
     },
@@ -868,7 +868,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 206
+        "github_stars": 207
       },
       "ai_used": null
     },
@@ -963,7 +963,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 110
+        "github_stars": 111
       },
       "ai_used": null
     },
@@ -1096,7 +1096,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 11
+        "github_stars": 12
       },
       "ai_used": null
     },
@@ -1210,7 +1210,7 @@
         "default_branch": "master",
         "archived": false,
         "status": "Active",
-        "github_stars": 212
+        "github_stars": 213
       },
       "ai_used": null
     },
@@ -1267,7 +1267,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 25
+        "github_stars": 27
       },
       "ai_used": null
     },
@@ -1324,7 +1324,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 20
+        "github_stars": 21
       },
       "ai_used": null
     },
@@ -1357,9 +1357,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 57,
-        "last_commit_at": "2026-10-20T13:38:17Z",
-        "last_commit_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/commit/d54e9f309c8e367c2c22e93231c29d67b052e22e",
+        "github_stars": 58,
+        "last_commit_at": "2026-10-24T20:51:29Z",
+        "last_commit_url": "https://github.com/mstan/ZeldaAlttPSNESRecomp/commit/8eee8b655c9d00c1fcd3bc825b5a53543417154d",
         "default_branch": "main",
         "archived": false,
         "status": "Active"

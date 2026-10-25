@@ -11,12 +11,12 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-10-22T05:29:02Z",
-        "last_commit_url": "https://github.com/tclamb/mhp2g-decomp/commit/395c16d02c72488a2ead4e0e0b94af2df330a521",
+        "last_commit_at": "2026-10-25T06:58:32Z",
+        "last_commit_url": "https://github.com/tclamb/mhp2g-decomp/commit/61e079182fa4ead79b1cad64b892fbcdea4708e1",
         "default_branch": "development",
         "archived": false,
         "status": "Active",
-        "github_stars": 34
+        "github_stars": 36
       },
       "ai_used": null
     },
@@ -30,7 +30,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {
-        "github_stars": 33,
+        "github_stars": 38,
         "last_commit_at": "2026-10-23T12:21:41Z",
         "last_commit_url": "https://github.com/Mango77x/MHForever/commit/0d229bf7e9143f2680ddd357fea1c0dc3abeaac4",
         "default_branch": "main",
@@ -54,7 +54,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 84
+        "github_stars": 86
       },
       "ai_used": null
     },
@@ -111,7 +111,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 385
+        "github_stars": 391
       },
       "ai_used": null
     },
@@ -130,7 +130,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 38
+        "github_stars": 40
       },
       "ai_used": null
     },
@@ -149,7 +149,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 31
+        "github_stars": 35
       },
       "ai_used": null
     },
@@ -168,7 +168,7 @@
         "default_branch": "main",
         "archived": false,
         "status": "Active",
-        "github_stars": 258
+        "github_stars": 259
       },
       "ai_used": null
     },
