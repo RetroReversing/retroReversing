@@ -61,26 +61,51 @@ The free pass has done the easy work. Give the remaining functions to a coding a
 **Watch the limits.** Subscriptions have usage limits, and additional credits or extra usage can cost more. Sign in with your subscription account to use its allowance; supplying an API key uses API billing. Savings depend on how often you work and which model you use. The API-equivalent costs below are comparison estimates, not subscription bills.
 
 ---
-### Install Codex CLI or Claude Code
-CLI means command-line interface: the terminal program decompdecomp launches to run your agent. Select its card in **Start agents**; if it is missing, the app offers **Install it for me**. You can also install it yourself with the official commands below for macOS or Linux.
-
-For [Codex CLI](https://learn.chatgpt.com/docs/codex/cli), open Terminal and run:
+### Install OpenAI Codex CLI
+Codex CLI is the terminal program decompdecomp launches for OpenAI models. Select **Codex CLI** in **Start agents** and use **Install it for me**, or run the official installer below on macOS or Linux:
 
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
 ```
 
-Open a new terminal, run `codex`, and follow the sign-in prompts. You can also use `codex login` as shown in the app. Check installation with `codex --version` [^22].
+Open a new terminal, run `codex`, and follow the sign-in prompts. You can also use `codex login`; check installation with `codex --version`. The [official Codex CLI guide](https://learn.chatgpt.com/docs/codex/cli) includes Windows installation [^22].
 
-For [Claude Code](https://code.claude.com/docs/en/quickstart), run:
+**Subscription budget.** ChatGPT Plus is about **$20/month**, with Codex CLI access and included Sol/Luna usage. Pro starts at **$100/month**, with higher-priced tiers for heavier use. Available models and limits depend on your account; check the model picker and usage dashboard [^25].
+
+For comparing the main current model families, these are Standard API prices in USD per **one million tokens**, checked 25 October 2026. Input is what the model reads; output is what it generates. Cached input is reused context. These are API rates, not extra charges on top of included subscription usage [^19]:
+
+Model | Input | Cached input | Output | Recommended
+---|---:|---:|---:|---
+GPT-6 Luna | $0.10 | $0.01 | $0.50 | Cheap; little progress in our Turok trials
+GPT-6.1 Sol | $2 | $0.10 | $10 | **Best value in our shared-checkpoint test**
+GPT-6 Astra | $10 | $1 | $50 | Higher cost; try when Sol stalls
+
+Sol costs about one-fifth of Astra at these base rates. Actual session cost depends on retries, context, and output, including reasoning. Cache writes, long contexts, and faster service modes can add charges; the [OpenAI pricing page](https://developers.openai.com/api/docs/pricing) has the full rate card.
+
+---
+### Install Anthropic Claude Code
+Claude Code is the terminal agent for Claude models. Select **Claude Code** in **Start agents** and use **Install it for me**, or run the official installer below on macOS or Linux:
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-Open a new terminal, run `claude`, and complete its browser sign-in. Check installation with `claude --version`. Use an account with access to Claude Code; the official guide also covers API billing and Windows installation. For Windows, follow the Windows instructions in the linked Codex or Claude guide [^23].
+Open a new terminal, run `claude`, and complete browser sign-in. Check installation with `claude --version`. The [Claude Code quickstart](https://code.claude.com/docs/en/quickstart) includes Windows instructions and supported account types [^23].
 
-Return to decompdecomp and select **Installed it already? Look again** if needed. Choose the CLI, model, and effort, then start your worker. The app supplies the decompilation task and tool connection; you do not need to paste a starting prompt.
+**Subscription budget.** Claude Pro is about **$20/month** when billed monthly, or roughly **$17/month** with annual billing. Max starts at **$100/month** for more usage. Both include Claude Code, subject to their limits [^28].
+
+The main Claude families below are sorted by Standard API price, in USD per **one million tokens**, checked 25 October 2026. Subscription availability varies; these prices help compare model costs rather than predict your monthly allowance [^27]:
+
+Model | Input | Cached input | Output | Recommended
+---|---:|---:|---:|---
+Claude Haiku 5.5 | $0.10 | $0.01 | $0.50 | Cheapest; untested in our decomp trials
+Claude Sonnet 5.5 | $2 | $0.10 | $10 | **Our tested Claude starting choice**
+Claude Opus 5.5 | $4 | $0.20 | $20 | Twice Sonnet's base rates; untested here
+Claude Fable 5.1 | $10 | $0.25 | $50 | Most expensive here; untested
+
+Haiku's listed rates apply to prompts up to 100,000 tokens; longer prompts cost more. Cache writes and fast modes also affect billing. Fable may require separately paid usage credits even with a subscription, so check its label before starting workers. See [Claude API pricing](https://platform.claude.com/docs/en/about-claude/pricing) and [Claude Code model access](https://code.claude.com/docs/en/model-config) [^27].
+
+Return to decompdecomp and select **Installed it already? Look again** if needed. Choose your CLI, model, and effort, then start one worker. The app supplies the task and tool connection.
 
 ---
 ### What the Agent Settings Mean
@@ -150,3 +175,6 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^24]: decompdecomp's [agent session manager](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py) and [worker prompts](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/tools.py), default session size, compiled-claim counting, and automatic session renewal.
 [^25]: [Codex pricing](https://learn.chatgpt.com/docs/pricing) and [authentication](https://learn.chatgpt.com/docs/auth), included subscription usage, usage limits, additional credits, and separate API-key billing.
 [^26]: [Claude Code cost guide](https://code.claude.com/docs/en/costs), included Pro and Max subscription usage, plan limits, additional usage credits, and the distinction between estimated session cost and subscription billing.
+
+[^27]: [Claude API pricing](https://platform.claude.com/docs/en/about-claude/pricing) and [Claude Code model configuration](https://code.claude.com/docs/en/model-config), current family prices, Haiku long-context pricing, and Fable usage-credit requirements; checked 25 October 2026.
+[^28]: [Claude subscription pricing](https://claude.com/pricing), Pro monthly and annual pricing, Max entry price, and Claude Code inclusion; checked 25 October 2026.
