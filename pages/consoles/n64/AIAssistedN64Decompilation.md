@@ -43,6 +43,58 @@ In our separate app run on V-Rally, the automatic draft pass reported **469 matc
 
 {% include article-figure.html src="/public/images/n64/decompdecomp-v-rally-free-matches.png" alt="decompdecomp V-Rally project overview showing 551 of 2,101 functions matched, 5.26 percent of code, and zero agents working" width="1462" height="951" size="document" title="After the free matching pass" caption="V-Rally reached 551 matched functions, or 5.26% of detected code, before an AI agent was started." %}
 
+---
+## Understanding the Compiler
+A compiler turns C into the machine instructions executed by the N64. Matching decompilation runs that process again: your recovered C must produce the same bytes. **The compiler version and its flags matter as much as the C source.** A modern compiler can produce working code that fails the original-byte comparison.
+
+The app's compiler dropdown gives these typical usage patterns. They help choose a starting point; matching evidence determines the settings for your game [^33]:
+
+Compiler | What the name means | Why it matters
+---|---|---
+IDO 5.3 | Version 5.3 of SGI's C compiler toolchain | Typically used by early N64 games (1996-97)
+IDO 7.1 | A later version of the IDO toolchain | Typically used by most later first-party N64 games
+KMC GCC 2.7.2 | The N64-era KMC variant of GCC 2.7.2 | Used by many third-party N64 games, including our V-Rally project
+
+**Flags change the recipe.** Settings such as `-O2` control optimization; `-G0` and `-G8` affect small-data addressing. Debug options such as `-g` can also affect generated code with historical compilers. A mismatch can therefore come from compiler settings as well as source code.
+
+### Compilers Missing From the N64 Dropdown
+**decompdecomp does not include every known N64 compiler.** Its built-in ROM workflow currently offers the three choices above. Retail games also used other GCC versions and vendor builds; choosing KMC GCC 2.7.2 is not an exact substitute for all of them.
+
+Documented examples outside those built-in choices include:
+
+Toolchain | Retail-game evidence
+---|---
+GCC 2.8.1, Paper Mario variant | The [Paper Mario team maintains a patched GCC 2.8.1](https://github.com/pmret/gcc-papermario) for matching the game [^35].
+SN Systems SN64 GCC 2.7.2 | The [Excitebike 64 matching project](https://github.com/chasmlol/excitebike64) documents builds 0006 and 0001 for its loader, including supported retail cartridge versions [^36].
+SN Systems SN64 GCC 2.8.1 | Excitebike 64 uses it for game code. The [Turok 2 project](https://github.com/mgrz18/turok2-decomp) also reports confirming it on eight engine functions with `-O2` [^36] [^37].
+
+**Related releases add more variants.** Ocarina of Time's iQue release uses EGCS for selected files. That is evidence from a later iQue release, rather than an original N64 cartridge [^38].
+
+If a game's actual compiler is missing, correct C may still fail to match with every offered choice. Check its existing decompilation project's toolchain before spending more agent time changing the source. A community project using its own build may support compilers beyond the app's built-in ROM dropdown.
+
+---
+### How Detection Works
+The app builds its compiler evidence in stages [^34]:
+* **An initial guess** - N64 import looks for assembly patterns associated with IDO or GCC. For example, their use of unconditional branches and jumps can differ. This chooses a starting point; it does not prove a compiler version or flag set.
+* **Real compilation checks** - Candidate C is compiled and compared with the target bytes. The app can test installed compilers against small drafts; during matching, agents can try alternatives and search flags. A successful comparison provides stronger evidence than the initial guess.
+* **A compiler map** - Matched functions and background compiler surveys reveal ranges that may need different settings. Neighbouring functions help establish whether a setting applies to a range rather than one unusual function. The app guards existing matches against compiler changes; suggestions without enough neighbouring evidence can wait for your review.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-compiler-detection.webp" alt="decompdecomp compiler summary showing IDO 5.3, twelve parts with another compiler, and two changes waiting for review" width="1175" height="257" size="document" title="Compiler evidence can change as matching progresses" caption="The project uses IDO 5.3 as its main compiler, with overrides for 12 code ranges. Two suggested changes are waiting for review." %}
+
+**What should you do?** Click **Look at it** to review pending suggestions. The screenshot's **12 parts** means code ranges with compiler overrides, which may differ by version or flags; it does not mean 12 distinct compiler products. **Two changes waiting** means suggestions awaiting review. Start with the detected settings and let matching evidence guide changes. Proprietary toolchains require your acceptance before installation [^16].
+
+
+---
+### Reading a Compiler Suggestion
+**Same compiler, different optimization.** Both suggestions below keep IDO 5.3 but propose `-O3`. In the first, the agent reports an exact match at `-O3`, while `-O1` and `-O2` leave nonzero difference scores. Those scores measure mismatch, not a percentage of the game recovered; zero represents an exact match in that comparison.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-compiler-suggestions.webp" alt="Two pending IDO 5.3 compiler suggestions proposing O3, with exact-match notes, neighbour checks waiting, Use buttons for one part, and Not now buttons" width="553" height="570" size="document" title="An exact function match can suggest a compiler setting" caption="The candidates match at O3, but the range checks are still waiting for neighbouring evidence. Each Use button targets one part of the project." %}
+
+**Why is it still waiting?** A setting that reproduces one function does not establish how the surrounding code was compiled. Here, **no neighbour settled yet** means the range check lacks a confirmed neighbouring example. Further agent matches may resolve it, or you can review and decide. Read the agent's explanation alongside the compiler-backed evidence [^34].
+
+**What does the button change?** **Use ... for 1 part** applies the proposed settings to that code range, rather than changing the whole game's compiler. `-O3` is the optimization level, `-mips2` selects an instruction-set target, and `-G0` controls small-data addressing. **Not now** leaves the suggestion unapplied. A successful match is evidence that the settings reproduce those bytes; several settings can sometimes reproduce the same function.
+
+---
 ## Start Agents in decompdecomp
 The free pass has done the easy work. Give the remaining functions to a coding agent.
 
@@ -50,7 +102,7 @@ The free pass has done the easy work. Give the remaining functions to a coding a
 
 **Start with one worker.** Open your game and click **Start agents**. Choose an agent, model, and effort. Set **How many** to **1**, then select **Start**.
 
-**Start cheap, then step up.** After the free autopilot pass, try a short run with **Luna or Haiku** to pick up easier remaining matches at low cost. When verified progress slows, switch to **Sol or Sonnet** for harder functions. Keep the same project so the next model can reuse saved attempts and notes. This is a suggested spending strategy; we have not yet measured a full cheap-first run against using a stronger model throughout.
+**Start with the cheapest model.** After free autopilot, use **Luna or Haiku** to collect easier remaining matches. Let it work and watch for the app's [suggestion to move up](#when-to-move-to-a-more-expensive-model) before switching to a more expensive model. Keep the same project so the next model can reuse saved attempts and notes.
 
 {% include article-figure.html src="/public/images/n64/decompdecomp-start-agents.webp" alt="decompdecomp Start agents panel with Codex CLI selected, model and effort menus, five workers, and eight functions per session" width="1193" height="926" size="document" title="Configure your agents" caption="How many controls parallel workers. Functions per session controls how often each worker starts a fresh conversation. The selected model and five-worker count are examples, not recommendations." %}
 
@@ -61,6 +113,16 @@ The free pass has done the easy work. Give the remaining functions to a coding a
 **Use your subscription first.** For regular decompilation work, our first choice is Codex CLI with ChatGPT sign-in or Claude Code with an eligible Claude subscription. The monthly fee includes an allowance, so repeated matching attempts can cost less than paying for every model call through an API. This is especially useful if you already subscribe: work within the included allowance adds no separate API charge [^25] [^26].
 
 **Watch the limits.** Subscriptions have usage limits, and additional credits or extra usage can cost more. Sign in with your subscription account to use its allowance; supplying an API key uses API billing. Savings depend on how often you work and which model you use. The API-equivalent costs below are comparison estimates, not subscription bills.
+
+---
+### When to Move to a More Expensive Model
+**Wait for a suggestion like this before stepping up.** The app can flag when a cheaper model is spending many compilation attempts on few matches, while another model is making better progress on the project.
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-model-upgrade-suggestion.webp" alt="decompdecomp message reporting 9,524 Luna compiles for 19 matches and about 18 compiles per match for Sol low, suggesting fewer Luna helpers" width="553" height="95" size="document" title="The app's cue to move up a model" caption="Luna is still finding matches, but the recorded Sol low workers need far fewer compilation attempts per match." %}
+
+**Read the numbers.** Here Luna made **9,524 compiles for 19 matches**, about **501 compiles per match**. Sol low needed about **18**. This suggests the remaining work may suit Sol better. Compilation counts are local build attempts, not model-call counts or dollar costs.
+
+**Move up one tier.** Reduce or stop the cheaper workers and try the next model, such as Luna to Sol or Haiku to Sonnet. Compare its actual matches and spending before moving higher again. The exact message depends on the project's recorded worker history; this example already has results from both Luna and Sol. Keep your spending limit in place while waiting for useful evidence. We have not measured a complete cheap-first strategy against using one stronger model throughout.
 
 ---
 ### Install OpenAI Codex CLI
@@ -74,14 +136,18 @@ Open a new terminal, run `codex`, and follow the sign-in prompts. You can also u
 
 **Subscription budget.** ChatGPT Plus is about **$20/month**, with Codex CLI access and included Sol/Luna usage. Pro starts at **$100/month**, with higher-priced tiers for heavier use. Available models and limits depend on your account; check the model picker and usage dashboard [^25].
 
+**Paste the exact model name.** In **Start agents**, select **Codex CLI**, choose **Another model...**, and paste one of the identifiers in the table below. Set reasoning separately with the **Effort** menu; the model field should contain just the identifier, without a suffix such as `#low`. Availability depends on your signed-in account [^20].
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-codex-custom-model.webp" alt="decompdecomp Codex CLI launcher with Another model selected, an empty model-name field, Low effort, and one worker" width="560" height="579" size="document" title="Choose a Codex model by name" caption="Paste the model identifier into the field below Another model, then choose effort and start your worker. Functions per session is adjustable; the screenshot shows 10." %}
+
 For comparing the current model families and Terra from our earlier trials, these are Standard API prices in USD per **one million tokens**, checked 25 October 2026. Input is what the model reads; output is what it generates. Cached input is reused context. These are API rates, not extra charges on top of included subscription usage [^19]:
 
 Model | Input | Cached input | Output | Recommended
 ---|---:|---:|---:|---
-GPT-6 Luna | $0.10 | $0.01 | $0.50 | **Try first for easier matches**
-GPT-6.1 Sol | $2 | $0.10 | $10 | **Step up for harder work; best measured value**
-GPT-5.6 Terra | $2 | $0.20 | $12 | Earlier tested model; higher rates than Sol [^20]
-GPT-6 Astra | $10 | $1 | $50 | Higher cost; try when Sol stalls
+GPT-6 Luna (`gpt-6-luna`) | $0.10 | $0.01 | $0.50 | **Try first for easier matches**
+GPT-6.1 Sol (`gpt-6.1-sol`) | $2 | $0.10 | $10 | **Step up for harder work; best measured value**
+GPT-5.6 Terra (`gpt-5.6-terra`) | $2 | $0.20 | $12 | Earlier tested model; higher rates than Sol [^20]
+GPT-6 Astra (`gpt-6-astra`) | $10 | $1 | $50 | Higher cost; try when Sol stalls
 
 Luna costs about one-twentieth of Sol at these base rates. Sol costs about one-fifth of Astra. Terra is included for completeness, but its current cached-input and output rates are higher than Sol's. Our Luna trials began at an already-developed Turok checkpoint and produced little progress; they do not test how much easier work Luna could collect at the start. Actual session cost depends on retries, context, and output, including reasoning. Cache writes, long contexts, and faster service modes can add charges; the [OpenAI pricing page](https://developers.openai.com/api/docs/pricing) has the full rate card.
 
@@ -236,3 +302,11 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^31]: decompdecomp's [agent statistics display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/agents.js) and [session accounting](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/agents.py), cumulative tokens per match and dollar-cost fallback. South Park counts, DeepSeek Flash model/version, and confirmation that the run consumed the full $10 balance were supplied by the participant. Cost per match is $10 / 56; matches per dollar is 56 / $10.
 
 [^32]: Participant-supplied decompdecomp V-Rally statistics: `claude-sonnet-5-5#low`, six matches, $2.48 total and $0.41 per match; Haiku, 337 matches, $141 total and $0.42 per match. Haiku version, effort, timing, checkpoints, and billing basis were not supplied.
+
+[^33]: decompdecomp's [N64 platform definition](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/__init__.py), supported compiler versions; [IDO guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/ido.md), compiler behaviour and matching context.
+[^34]: decompdecomp's [N64 ROM reader](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/rom.py), initial assembly heuristic; [import compiler tests](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/importing.py), small-draft comparison; [compiler engine](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/compilers.py) and [app guide](https://github.com/RetroReversing/decompdecomp/blob/main/docs/GUIDE.md), flag search, surveys, range checks, suggestions, and safeguards for matched code.
+
+[^35]: [Paper Mario GCC repository](https://github.com/pmret/gcc-papermario), GCC 2.8.1 with patches for matching Paper Mario.
+[^36]: [Excitebike 64 toolchain documentation](https://github.com/chasmlol/excitebike64#toolchain), SN64 GCC 2.8.1 for game code, SN64 GCC 2.7.2 builds 0006 and 0001 for the loader, and retail USA Rev 1 and European build targets.
+[^37]: [Turok 2 decompilation project](https://github.com/mgrz18/turok2-decomp), reported confirmation of SN64 GCC 2.8.1 with `-O2` on eight engine functions.
+[^38]: [Ocarina of Time build configuration](https://github.com/zeldaret/oot/blob/main/Makefile), EGCS compiler selection for specific iQue files and libraries.
