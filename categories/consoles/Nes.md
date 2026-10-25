@@ -22,56 +22,49 @@ recommend:
  - introduction
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
-updatedAt: '2022-10-08'
+updatedAt: '2026-10-25'
 tags:
   - nes
   - introduction
 ---
 
-Welcome to our in-depth guide to Nintendo Entertainment System (NES) reverse engineering! This page serves two roles. It groups all of our posts related to reverse engineering for the system, and it aggregates high quality sources from the web into create a unified reference.
+An NES game is more than its program ROM. The cartridge board can add bank switching, extra memory or custom chips, while the console supplies the CPU, graphics and sound hardware. That division matters when identifying a game’s hardware, debugging it or trying to run it in an emulator.
 
-The content starts high level, outlining the system, its history, and its official game development process, then moves into low level details with a focus on reverse engineering and homebrew development.
+This hub brings together our NES posts and outside resources, from the Famicom’s history and original development tools to cartridge boards, ROM hacking and homebrew.
 
 # Introduction
-This section gives a high level overview of the Famicom/NES to give context that can be useful when trying to understand why the system works in a certain way and how officially licensed game developers worked with the system.
+The Famicom’s release history and Nintendo’s approach to licensed development help explain why surviving tools and cartridges vary so much.
 
 ## History of the Nintendo Entertainment System
 The Family Computer (Famicom) was released in Japan on July 15, 1983.
 
 ### How many NES games were released after its successor, the SNES launch?
-Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry.
-
-In 1993, a surprising **55** new NES titles were released [^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. 
+The SNES did not end NES development overnight: **55** new NES titles were released in 1993 [^2]. The older console’s price and installed base likely helped sustain that support.
 
 ---
 ## Official Retail NES Game Source Code
-If you are interested to see officially released or leaked source code for the Nintendo Entertainment System check out our other post:
+Our source-code index collects officially released and leaked NES game code:
 {% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ### Home Alone NES Source Code
-The full source code for the NES game **Home Alone** was released online thats to the **Game History Org** and we have a specific post covering the details of the files included:
+The **Game History Org** released the full source code for **Home Alone**. Our post describes the files in the release:
 {% include_cached link-to-other-post.html post="/home-alone-2-nes-source-code" description="For the official source code to Home Alone for the NES check out this post." %}
 
 ---
 # Hardware
-In this section, we'll explore the hardware that powers the NES and how it can be reverse engineered. Understanding the hardware that drives the NES is key to unlocking its potential and gaining a deeper appreciation for the games that were developed for it.
-
-We'll take a closer look at the different components of the NES hardware, including the CPU, PPU, and APU, and discuss how they work together to create the unique gaming experience of the NES.
+The console’s CPU, PPU and APU set the baseline. Cartridge boards extend it, so identifying the board is often as useful as reading the game code.
 
 ## Development Kit Hardware
-Since Nintendo were very new to the home video game market, they saw themselves as creating most of the software that will run on the NES.
-So they did not make a public NES development kit, so most third parties has to roll their own development kits.
-
-We have a specific post covering all the NES development kits that we know about here:
+Nintendo did not offer a public NES development kit; many third parties assembled their own tools. Our development-hardware post collects the kits we know about:
 {% include_cached link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## Retail NES Hardware
-If you're interested in learning more about the hardware architecture of the NES, we highly recommend checking out the post on **Copetti.org**. This website is dedicated to exploring the technical details of the NES hardware, including the CPU, PPU, and APU, as well as other components that make up the console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the NES.
+For a circuit-level tour of the console, **Copetti.org** explains the CPU, PPU and APU alongside diagrams of how they connect:
 
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.webp" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
 
 ## Retail NES Cartridges (Custom chips, Mappers)
-Although all NES cartridges look similar from the outside apoart from a different sticker and maybe a different color cartridge casing, the internals can be vastly different from game to game.
+NES cartridges can look alike outside but contain very different boards.
 
 This is especially the case in Japan where Nintendo allowed third party developers to manufacture their own cartridges, which means they could add additional microchips inside, such as custom memory mappers.
 
@@ -79,7 +72,10 @@ However the same wasn't the case in the west as described in this quote from [Mo
 > Nintendo didn't normally allow developers to use custom mapper chips in western releases, instead requiring them to reprogram their games for Nintendo's own MMC mappers. This is because Nintendo manufactured all cartridges in the west.
 > Mr. Gimmick and Batman:Return of the Joker (which uses the same FME-7 mapper chip) are the only two official western NES releases to use custom mapper chips.
 
-For emulators to support all the different cartridge hardware, emulator authors came up with the concept of Mappers which are part of the **iNES Header** and are used by emulators to vary the emulation based on what Mapper the game ROM is defined as using.
+### How does a ROM image describe its cartridge hardware?
+A mapper is hardware on the cartridge board, not an invention of emulators. Nintendo’s MMC3, for example, switches program and graphics ROM banks and can generate scanline interrupts [^10]. An emulator must reproduce those behaviours as well as the console itself.
+
+The cartridge has no iNES header. A `.nes` file adds a 16-byte header before the dumped ROM data; its mapper number tells software which board behaviour to emulate [^11]. NES 2.0 extends that description with a *submapper* field because one mapper number can cover boards with meaningful differences [^12]. If a dump behaves incorrectly despite having the right game code, compare its header with a known PCB scan in NESCartDB below. The header is a useful identification clue, but the physical board is the stronger evidence.
 
 ---
 ### Punch-Out and the MMC2
@@ -88,7 +84,7 @@ For emulators to support all the different cartridge hardware, emulator authors 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zfl1dvu5gBo" title="MMC2 Magic - How Punch-Out&#x27;s Graphics Work" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ### NESCartDB: NES Cartridge Database
-**NESCartDB** is the definitive resource for technical information on Nintendo Entertainment System (NES) and Famicom cartridges, originally created by **BootGod**. The database catalogs high-resolution PCB scans, mapper assignments, ROM checksums, and chipset details for thousands of games. It serves as a critical reference for emulator developers and reverse engineers needing to verify hardware configurations and understand how specific titles interface with the console.
+Originally created by **BootGod**, **NESCartDB** catalogs PCB scans, mapper assignments, ROM checksums and chip details for NES and Famicom games. It is useful when a ROM header leaves the exact board in doubt.
 
 {% include link-to-other-site.html url="https://nescartdb.com/" description="BootGod provides NESCartDB, an exhaustive database of NES cartridge PCBs, mappers, and hardware specs vital for accurate emulation and preservation." image="https://nescartdb.com/static/img/nes_cart.png" title="NESCartDB: NES Cartridge Database" %}
 
@@ -168,9 +164,7 @@ Here is a list of a few Open Source emulators that have some of these features:
 
 ---
 # Game Modding and ROM Hacking
-By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. 
-
-Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming.
+ROM hacking starts with the parts a game exposes: code, level data, graphics and sound. The tools below range from contemporary Famicom disk editors to modern emulator-assisted patches.
 
 ## Tonkachi Editor (Hammer Editor)
 ![Tonkachi Editor](https://github.com/user-attachments/assets/4b346317-a9fb-4236-9d75-1535f7a920ec)
@@ -202,11 +196,11 @@ Similar to cheat books that were published for cheat cartridges there was a maga
 ## Quick Hunter Parameter Software (Game Analyzer Group Club)
 ![Quick Hunter Box](https://github.com/user-attachments/assets/8de9d460-c9ae-457f-8f0b-fcd625850c7e)
 
-Despite the success of **Tonkachi Editor** no other companies created competitors, the only thing that came close was the **Quick Hunter Parameter software** (クイックハンター) for the Famicom Disk System [^6].
+Despite the success of **Tonkachi Editor**, we have not found another comparable retail editor. The closest example we know is the **Quick Hunter Parameter software** (クイックハンター) for the Famicom Disk System [^6].
 
 ![Quick Hunter Menu](https://github.com/user-attachments/assets/7c1928ce-d315-499c-a5d4-daf59a6a48af)
 
-It's not quite clear what the **Quick Hunter Parameter software** actually did, but since Quick Hunter itself was a illegal Disk copier, presumably the **Parameter Disks** allowed some minor modifications such as a cheat code to be inserted.
+It's not quite clear what the **Quick Hunter Parameter software** did. Since Quick Hunter itself was an unlicensed disk copier, perhaps the **Parameter Disks** allowed small modifications such as inserting cheat codes.
 
 There was at least 3 Parameter software disks released in japan [^7].
 
@@ -410,7 +404,7 @@ Matthew Earl has an excellent post on how he managed to extract the level data f
 The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a good introduction to some of the limitations you need to think about when developing a NES game.
+The port shows what had to change to fit the NES hardware.
 
 ### How to get the ROM
 According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
@@ -446,4 +440,7 @@ The magazine index collects developer interviews tagged for this system across a
 [^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
 [^8]: [Hammer News Hammer Editor (Eye-2) Famicom Modification Tool Code Page](https://k1ilove.yu-nagi.com/diskto14.html)
 [^9]: [Ikari Warriors, Guerilla War, and The SNK Golden Age - shmuplations.com](https://shmuplations.com/snkgoldenage/)
+[^10]: [MMC3 - NESdev Wiki](https://www.nesdev.org/wiki/MMC3)
+[^11]: [iNES - NESdev Wiki](https://www.nesdev.org/wiki/INES)
+[^12]: [NES 2.0 submappers - NESdev Wiki](https://www.nesdev.org/wiki/NES_2.0_submappers)
 [^nes-memory-visualisation]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)
