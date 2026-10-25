@@ -48,7 +48,7 @@ If you are interested to see officially released or leaked source code check out
 
 The directory includes projects at different stages of development. Check the linked progress reports for their current source coverage and build requirements.
 
-Project links provide build instructions and current progress. Summaries describe each maintainer's stated scope; completion and playability are not inferred from repository activity. The [Greates Games Decompilations List](https://github.com/Carter54git/Greates-Games-Decompilations-List) provides another community-maintained directory.
+Project links provide build instructions and current progress. Summaries describe each maintainer's stated scope; completion and playability are not inferred from repository activity. The [Greates Games Decompilations List](https://github.com/Carter54git/Greates-Games-Decompilations-List) provides another community-maintained directory. [Recompiled Games](https://recompgames.net/) is a player-focused catalog of static recompilations and decompilation-based ports, with each entry labeled by method, the project's stated status and whether original game files are required.
 
 ---
 # Nintendo Systems
