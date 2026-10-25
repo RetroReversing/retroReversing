@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/N64ReversingIntroduction.md
-updatedAt: '2026-10-22'
+updatedAt: '2026-10-25'
 excerpt: 'A practical guide to N64 reverse engineering, from ROM identification and MIPS debugging to asset extraction and matching decompilation.'
 ---
 
@@ -48,6 +48,10 @@ Port a game | Recover behaviour and replace platform dependencies | Tests cover 
 
 For a first session, follow the memory investigation below.
 For a whole-game project, establish a reproducible build before spending weeks matching C functions.
+
+For an app-guided matching workflow, start with our tutorial:
+
+{% include_cached link-to-other-post.html post="/ai-assisted-n64-decompilation" description="Import your ROM into decompdecomp, run free local matches, then connect coding agents. Includes compiler guidance and model cost comparisons." %}
 
 ---
 ## Glossary
