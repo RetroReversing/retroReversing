@@ -15,7 +15,7 @@ recommend:
 - atari
 recommendTitle: All Atari 2600 Posts
 editlink: ../categories/consoles/Atari2600.md
-updatedAt_: '2022-12-08'
+updatedAt: '2026-10-26'
 redirect_from:
  - /atari
 tags:
@@ -23,17 +23,16 @@ tags:
 ---
 
 # Introduction
-Welcome to our page dedicated to Atari 2600 reverse engineering! The Atari 2600 is a classic video game console that was first released in 1977 and has since become an iconic symbol of the golden age of gaming. 
-
-If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Atari 2600 reverse engineering. 
-
-Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your joystick, fire up your Atari 2600, and get ready to dive into the exciting world of Atari 2600 reverse engineering!
+Released in 1977, the Atari 2600 asks its game code to help draw the picture while the television beam is moving. That timing shapes everything from sprite routines to the way a disassembly must be read. This hub collects original hardware documentation, development history and practical tools for investigating 2600 games.
 
 ---
 # Hardware
-If you're interested in reverse engineering Atari 2600 software, it's crucial to have a solid understanding of the hardware that powers this classic gaming console. By understanding the inner workings of the Atari 2600 hardware, you can better comprehend how the software interacts with the hardware and how you can potentially modify or improve it.
+The 6507 CPU writes to the TIA for picture and sound, while the 6532 RIOT supplies 128 bytes of RAM, input ports and a timer. Atari's own [*Stella Programmer's Guide*](https://www.ataricompendium.com/archives/documents/tech_docs/2600_Stella_Guide_12-3-79_reformatted.pdf) documents their registers and the timing a game must meet [^3].
 
-In this section of our guide, we will provide you with detailed information and resources on the hardware of the Atari 2600, including its CPU, RAM, ROM, and other components that make up the console. We'll explore how each component works together to create the classic gaming experience that the Atari 2600 is known for, as well as provide links to other pages that go into greater detail about each component.
+## Why does Atari 2600 code count scanlines?
+Unlike a machine with a full screen bitmap, the TIA holds only the data needed for the line currently being drawn. The NTSC timing described in Atari's guide gives the CPU **76 machine cycles per scanline**. The display routine, usually called the *kernel*, updates TIA registers as the beam advances; a write to `WSYNC` pauses the CPU until the next line begins [^3]. When reading a ROM, a tight loop of TIA writes may therefore be drawing graphics rather than updating game state. The guide also shows why input and other game logic commonly run during vertical blank and overscan [^3].
+
+That guide is a useful companion to [Stella's integrated debugger](https://stella-emu.github.io/docs/debugger.html): it can advance one scanline at a time, show TIA and RIOT state, and distinguish executed code from tentative disassembly [^4]. A register write that looks mysterious in static code can then be matched to the line it changes on screen.
 
 ## Development Kit
 
@@ -44,13 +43,12 @@ In this section of our guide, we will provide you with detailed information and 
  <div markdown="1" class="rr-post-markdown">
 The first games for the Atari 2600 were developed on the **JOLT** which was a low-cost 6502 computer, in fact the original prototype for the Atari 2600 was based on a Jolt computer with hand wired modification and joysticks from the arcade version of the TANK arcade game [^1].
 
-For more information about the JOLT check out this page:
-[Jolt – Retro Computing](http://retro.hansotten.nl/6502-sbc/jolt-and-super-jolt/jolt/)
+The [JOLT history at Retro Computing](http://retro.hansotten.nl/6502-sbc/jolt-and-super-jolt/jolt/) has more on that machine.
  </div>
 </section> 
 
 ### US Gold Atari 7800 Development kit
-In the UK magazine **Zero** issue 7 there is an interview with the game developer **US Gold** where it mentions they are working on Atari 7800 games such as Gauntlet and it gives a brief description of the Development Kit they are using:
+This is a related **Atari 7800** development example, rather than a 2600 kit. In **Zero** issue 7, an interview with **US Gold** mentions its work on 7800 games such as *Gauntlet* and describes the hardware:
 > The 7800 development kit comprises the following: a Mega ST running Atari's proprietary combination 6502/68000 assembler, lead from ST to 7800 RAM cartridge and downloading software [^2].
 
 ### Sluggo ROM emulator development kit
@@ -62,12 +60,12 @@ In the UK magazine **Zero** issue 7 there is an interview with the game develope
 # Reverse Engineering Atari 2600 Games
 
 ## Are there any Atari Reverse Engineered games or active projects?
-Before diving in its best to check if there are any existing reversing projects for the Atari 2600 that you can contribute to, check out our other post specifically on this topic:
+Our index of reverse-engineered games is a starting point for finding an existing 2600 disassembly:
 
 {% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of disassembled games check out this post." %}
 
 ### Haunted House Disassembly
-[brandonrobertz](https://github.com/brandonrobertz) provides a commented disassembly of the classic Atari 2600 game **Haunted House**, often cited as one of the first survival horror titles. The repository includes the reverse-engineered 6502 assembly source code compatible with the DASM assembler, allowing developers to analyze the game's logic or rebuild the ROM from scratch.
+[brandonrobertz](https://github.com/brandonrobertz) maintains a commented **Haunted House** disassembly. Its DASM source and Makefile let readers follow the game logic and build a ROM to compare with the original.
 
 {% include link-to-other-site.html url="https://github.com/brandonrobertz/haunted_house_disassembly" description="This repository hosts a work-in-progress commented disassembly of the Atari 2600 game Haunted House, including a Makefile for building the ROM with **DASM**." image="https://opengraph.githubassets.com/1/brandonrobertz/haunted_house_disassembly" title="Haunted House Disassembly" %}
 
@@ -82,3 +80,5 @@ The magazine index collects developer interviews tagged for this system across a
 # References
 [^1]: [Jolt – Retro Computing](http://retro.hansotten.nl/6502-sbc/jolt-and-super-jolt/jolt/)
 [^2]: [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)
+[^3]: [Steve Wright, *Stella Programmer's Guide* (Atari, 1979), sections on television protocol, TIA synchronization and the 6532](https://www.ataricompendium.com/archives/documents/tech_docs/2600_Stella_Guide_12-3-79_reformatted.pdf)
+[^4]: [Stella emulator, Integrated Debugger documentation](https://stella-emu.github.io/docs/debugger.html)
