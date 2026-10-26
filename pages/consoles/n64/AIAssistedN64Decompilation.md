@@ -15,7 +15,7 @@ breadcrumbs:
   - name: AI Assisted N64 Decompilation
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
-updatedAt: '2026-10-25'
+updatedAt: '2026-10-26'
 excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then connect coding agents and compare verified model results and costs.'
 ---
 
@@ -25,15 +25,34 @@ excerpt: 'Start N64 matching decompilation with free local matches in decompdeco
 **Start with your own N64 ROM in decompdecomp.** Its local autopilot can find matches without spending AI tokens. When that pass finishes, connect a coding agent in the app to work on harder functions. Your first goal is a verified checkpoint, not a finished PC port. Our Turok and V-Rally results help set expectations for model progress and cost.
 
 ## Which decompdecomp Version Should You Use?
-There are two repositories for the same app: [n-delic's upstream project](https://github.com/n-delic/decompdecomp) and [the RetroReversing fork](https://github.com/RetroReversing/decompdecomp). Both provide the matching workflow described here: import a game you own, let local tools find easy matches, then connect coding agents for the remaining work.
+[NDelic's upstream project](https://github.com/n-delic/decompdecomp) and [the RetroReversing fork](https://github.com/RetroReversing/decompdecomp) share the same core workflow: import your game, run free local matching, then connect coding agents. **Both support native macOS, Linux and Windows.** Autopilot, byte-verified matches, identical-code reuse across compatible games, and the supported coding-agent integrations are upstream features too [^42] [^43].
 
-| Version | What it currently adds or supports | Choose it when |
-|---|---|---|
-| [Upstream](https://github.com/n-delic/decompdecomp) | The original project and its standard releases; its current install guide covers Linux and Windows. | You want the upstream repository and are using its supported desktop platforms. |
-| [RetroReversing fork](https://github.com/RetroReversing/decompdecomp) | Upstream's app plus native macOS support, including relocatable `.app` bundles for Intel and Apple Silicon with Python and dependencies included. The release bundle can be moved to `/Applications`; a source installer is also documented. | You are on macOS, or want to try changes maintained in the RetroReversing fork. |
+**Choose upstream** for the original project's installation and update path. **Choose our fork** if you want the additional matching, import and worker controls below. This comparison covers the repositories' `main` branches checked on **26 October 2026**; a packaged release can lag behind source changes [^42] [^43].
 
-The fork is based on n-delic's project and preserves its credits and licenses. We intend to propose useful changes back to upstream as reviewable pull requests. The macOS app-bundle work is already merged into the RetroReversing fork in [PR #5](https://github.com/RetroReversing/decompdecomp/pull/5); as of 25 October 2026, upstream's install instructions still list Linux and Windows, so do not assume that feature is available there. Check both repositories for current release and contribution status. For Linux or Windows, upstream is the straightforward default; for macOS, use the RetroReversing fork for its app bundle.
+### What Our Fork Adds
+These are the practical differences for an N64 project, beyond the shared matching workflow [^43]:
 
+Feature | Upstream baseline | RetroReversing additions
+---|---|---
+Free matching | Machine drafts and reuse of identical functions, including across compatible games | Tries similar C and bounded repairs to addresses, constants, field offsets and simple arguments. Verified matches can trigger reuse in other projects. An optional deeper repair pass is off by default.
+Local SDKs | Existing compiler and matching workflow | Import local SDK archives and optional C sources to identify routines and propose verified matches. Identification alone does not count as decompiled code.
+Community projects | Continue a public decomp from its repository address | Scan and filter repositories already on disk, find a matching ROM in your local library, and prepare independent original-byte references for supported Splat projects missing objdiff configuration.
+Compiler investigation | Compiler probes, surveys and flag search | Adds debug-flag variants such as `-g` and `-g3` to supported old-GCC searches, plus compiler-setting inspection and comparisons for imported projects.
+Packed game code | Standard ROM analysis | Recognizes RNC method-1 code blocks, checks their checksums and supports verified cartridge reconstruction on export. Other RNC methods and packing formats still have limits.
+Agent work selection | Agents can request queue strategies; the scheduler routes work automatically | Choose a strategy per worker in the app, such as largest or untried first. Add a match-percentage ceiling and a maximum candidate-attempt count per function.
+Reviewing model work | Live activity and reported usage totals | Local session transcripts with exposed prompts, tool calls and reported usage; repair examples retain verified winning candidates and available failed attempts for comparison.
+
+**These additions still require an exact match.** Similarity, an SDK name or a plausible repair never counts by itself. The extra similarity-repair pipeline currently targets MIPS ROM projects; imported repositories retain exact-code transfers and have their own build requirements. A function match also remains separate from a verified whole-game rebuild [^43].
+
+---
+### What We Have Contributed Upstream
+Our [native macOS contribution, upstream PR #110](https://github.com/n-delic/decompdecomp/pull/110), **has been merged**. It includes the Cocoa/WebKit window, native file dialogs, Finder launcher, Mac toolchain handling and Intel/Apple Silicon checks. macOS support is therefore no longer a reason by itself to choose the fork [^42].
+
+The [PS1 Mac compiler follow-up, upstream PR #115](https://github.com/n-delic/decompdecomp/pull/115), is **submitted but not merged** at this check. It concerns PlayStation toolchains, rather than an extra N64 compiler. We intend to contribute further useful changes as separate, reviewable PRs; the fork's other enhancements should not be assumed to have landed upstream [^44].
+
+**Mac installation differs from Mac support.** Upstream documents a source installer that creates `~/Applications/decompdecomp.app`; it does not yet advertise a signed DMG or a self-contained Mac release bundle. Our fork also contains tooling to build relocatable `.app` bundles with Python and dependencies included. Check the chosen repository's installation guide and release assets for what is actually available for your processor [^42] [^43].
+
+---
 ## Start in the App Without AI Tokens
 [Install decompdecomp](https://github.com/RetroReversing/decompdecomp#install) using the version that fits your platform, open the app, and select **New project**. Supply your own ROM, confirm that you own it, choose the compiler when prompted, and select **Start decompiling**. The screenshot shows the V-Rally import screen just before that step.
 
@@ -355,3 +374,8 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^40]: decompdecomp's [function claim scheduler and attempt recording](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/network.py), default strategies, duplicate-code priority, dependencies, release cooldowns, regional success, model routing, and failed-compilation accounting.
 
 [^41]: decompdecomp's [cross-project matching and similarity implementation](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/twins.py), [autopilot](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/autopilot.py), and [function suggestions display](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/static/js/function.js). Behaviour checked in the installed RetroReversing app on 25 October 2026. V-Rally counts are from the local app database: 429 distinct North American functions accepted from the European project, among 859 total North American matches.
+
+
+[^42]: [Upstream README and installation guide](https://github.com/n-delic/decompdecomp#install) and [merged upstream macOS PR #110](https://github.com/n-delic/decompdecomp/pull/110), checked 26 October 2026. Native Mac support is in upstream source; its guide describes a source install rather than a signed DMG or self-contained Mac release bundle.
+[^43]: [RetroReversing fork README](https://github.com/RetroReversing/decompdecomp#choose-work-per-agent), [fork changes compared with upstream](https://github.com/n-delic/decompdecomp/compare/main...RetroReversing:decompdecomp:main), [upstream identical-code reuse](https://github.com/n-delic/decompdecomp/blob/main/src/decompnet/app/twins.py), [fork compiler search](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/compilers.py), and [fork Mac bundle builder](https://github.com/RetroReversing/decompdecomp/blob/main/packaging/macos/build.sh), checked 26 October 2026. Comparison describes source-branch capabilities, not a guarantee that every release asset contains them.
+[^44]: [Upstream PS1 macOS toolchain PR #115](https://github.com/n-delic/decompdecomp/pull/115), submitted from the RetroReversing fork and still open, unmerged, when checked on 26 October 2026.
