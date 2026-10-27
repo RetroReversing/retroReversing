@@ -6,6 +6,7 @@ recommend: megadrive
 recommendTitle: All Mega Drive Posts
 editlink: ../categories/consoles/MegaDrive.md
 category: megadrive
+updatedAt: '2026-10-27'
 excerpt: Awesome list of SEGA Mega Drive and Genesis Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -24,17 +25,15 @@ tags:
   - sega
 ---
 
-Welcome to our in-depth guide to Amiga reverse engineering! This page serves two roles. It groups all of our posts related to Amiga reverse engineering, and it aggregates high quality sources from the web into create a unified reference.
-
-The content starts high level, outlining the system, its history, and its official game development process, then moves into low level details with a focus on reverse engineering and homebrew development.
+The Mega Drive pairs a Motorola 68000 with a Z80, a video display processor and separate sound chips. That mix makes a ROM more interesting than a single stream of 68000 instructions: graphics and sound depend on how the processors share the machine. This hub connects our development and reverse-engineering posts with interviews, original documentation and useful outside resources.
 
 # Introduction
-The Sega Mega Drive, also known as the Sega Genesis in North America, was a popular gaming console released by Sega in 1988, and has since become a beloved classic of the gaming world.
+Sega released the Mega Drive in Japan in 1988; it was sold as the Genesis in North America.
 
 
 
 ## History of the Mega Drive
-**Sega Retro** has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly recommended that you read this before anything else:
+**Sega Retro** traces the console's launch, regional releases and later hardware revisions:
 
 {% include link-to-other-site.html url="https://segaretro.org/History_of_the_Sega_Mega_Drive" description="Find out about the history of the SEGA Mega Drive in this excellent post" image="/public/consoles/Sega Megadrive.webp" title="History of the Sega Mega Drive - Sega Retro"  %}
 
@@ -44,7 +43,7 @@ The Sega Mega Drive, also known as the Sega Genesis in North America, was a popu
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-aLfKnJAe0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Are there any Mega Drive Reverse Engineered games or active projects?
-Before diving in its best to check if there are any existing reversing projects for the Sega Mega Drive that you can contribute to, check out our other post specifically on this topic:
+Our reverse-engineered-games index is a place to find existing Mega Drive projects:
 
 {% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
@@ -57,12 +56,13 @@ There were many exclusive games for the Mega Drive and the various hardware add-
 
 ---
 # Hardware
-If you're interested in reverse engineering software for the Sega Mega Drive gaming console, it's essential to have a strong understanding of the hardware that powers it. By comprehending the inner workings of the Mega Drive hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+The retail machine and the equipment used to build its games answer different questions. Development kits show how code reached test hardware; the console's bus and video hardware explain what that code actually does.
 
-In this section of our guide, we will provide you with detailed information and resources on the hardware of the Sega Mega Drive, including retail, prototype, and development hardware.
+## Why does the 68000 request the Z80 bus?
+The 68000 can access the Z80's RAM, but it must request the Z80 bus and wait for acknowledgement before doing so. Sega's [*Genesis Software Development Manual*](https://gendev.spritesmind.net/files/md/tech/Genesis%20Software%20Development%20Manual%20%5BVersion%202.0%5D%20%5B1991-07-09%5D.pdf) warns that releasing the request inside an interrupt can let the Z80 resume before the 68000 finishes a planned access, corrupting Z80 RAM or reading the wrong bank [^5]. That makes bus-request writes around a sound-driver update meaningful when tracing a game's 68000 code. The same manual documents a separate timing precaution when the Z80 accesses the 68000 bus near controller I/O [^5].
 
 ## Development Hardware
-In order for game developers to create software for the SEGA Mega Drive, they had the choice of a number of different development hardware to purchase, or they could go it alone and create their own hardware. To find out more check out the post below.
+Studios could buy development hardware or build their own. Our hardware guide collects the known kits:
 
 {% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-development-kit" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
@@ -112,10 +112,10 @@ Although he also revealed that there was a tight development cycle for Alien Sol
 
 ---
 ## Mega Drive Software Development Kit
-To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:
+Our SDK guide covers Sega's official Mega Drive software tools:
 {% include_cached link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
 
-Developers of the 32X add-on received a full Developer Tool Kit CD with the SNASM2 toolchain, source code, and lockout implementation, which is covered separately:
+The 32X add-on had its own Developer Tool Kit CD, with SNASM2, source code and lockout implementation. We cover it separately:
 {% include_cached link-to-other-post.html post="/sega-32x-sdk" description="Browse the Sega 32X Developer Tool Kit CD with the interactive archive explorer, including the cartridge tools, demos, and dated DTS drops." %}
 
 ---
@@ -195,3 +195,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^2]: [Alien Soldier – 1995 Developer Interview - shmuplations.com](https://shmuplations.com/aliensoldier/)
 [^3]: [Alisia Dragoon – 1992 Developer Interview - shmuplations.com](https://shmuplations.com/alisiadragoon/)
 [^4]: [News/Sega of Japan Sound Documents and Source Code - Hidden Palace](https://hiddenpalace.org/News/Sega_of_Japan_Sound_Documents_and_Source_Code)
+[^5]: [Sega, *Genesis Software Development Manual*, version 2.0 (1991), “Precautions for Software Development”](https://gendev.spritesmind.net/files/md/tech/Genesis%20Software%20Development%20Manual%20%5BVersion%202.0%5D%20%5B1991-07-09%5D.pdf)
