@@ -1408,7 +1408,7 @@
         "status": "Active",
         "github_stars": 1483
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sm64plus": {
       "name": "SM64Plus",
@@ -1484,7 +1484,7 @@
         "status": "Active",
         "github_stars": 5620
       },
-      "ai_used": true
+      "ai_used": null
     },
     "the-legend-of-zelda-majora-s-mask": {
       "name": "The Legend of Zelda: Majora's Mask",
@@ -1503,7 +1503,7 @@
         "status": "Active",
         "github_stars": 1760
       },
-      "ai_used": true
+      "ai_used": null
     },
     "zelda64recomp": {
       "name": "Zelda64Recomp",
@@ -2453,7 +2453,7 @@
         "status": "Active",
         "github_stars": 185
       },
-      "ai_used": null
+      "ai_used": true
     },
     "doom-64-doom64-dc": {
       "name": "Doom 64 (doom64-dc)",
@@ -5980,7 +5980,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. sm64coopdx: A merged contribution disclosed AI-generated translations: [source](https://github.com/coop-deluxe/sm64coopdx/pull/1240#issuecomment-4436846865).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6094,7 +6094,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed. The Legend of Zelda: Ocarina of Time: A published commit credits GitHub Copilot as a co-author: [source](https://github.com/zeldaret/oot/commit/3af589ba3ba1f00beaf8e5730c5292ba9b20336b).",
+          "notes_markdown": "Completed. A Copilot co-author line in this [contribution](https://github.com/zeldaret/oot/pull/2669) dates to a period when [a VS Code bug](https://github.com/microsoft/vscode/issues/314311) could add it without Copilot use; AI use is unconfirmed.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6116,7 +6116,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed. Zelda64Recomp: The maintainers explicitly state that generative AI was not used: [source](https://github.com/Zelda64Recomp/Zelda64Recomp#readme). The Legend of Zelda: Majora's Mask: A published commit credits GitHub Copilot as a co-author: [source](https://github.com/zeldaret/mm/commit/5fd95d51f9ca06194a88c37362461e661c2e9ab6).",
+          "notes_markdown": "Completed. Zelda64Recomp: The maintainers explicitly state that generative AI was not used: [source](https://github.com/Zelda64Recomp/Zelda64Recomp#readme). A Copilot co-author line in this [contribution](https://github.com/zeldaret/mm/pull/1881) dates to a period when [a VS Code bug](https://github.com/microsoft/vscode/issues/314311) could add it without Copilot use; AI use is unconfirmed.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7174,7 +7174,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Golden Balloon - a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM.",
+          "notes_markdown": "Golden Balloon - a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM. Diddy Kong Racing (goldenballoon): A merged contribution received an automated Codex code review: [source](https://github.com/akratch/goldenballoon/pull/3#discussion_r3698943542).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
