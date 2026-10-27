@@ -360,7 +360,7 @@
         "status": "Active",
         "github_stars": 424
       },
-      "ai_used": null
+      "ai_used": true
     },
     "dinosaur-planet": {
       "name": "Dinosaur Planet",
@@ -800,7 +800,7 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": null
+      "ai_used": true
     },
     "kirby-64-the-crystal-shards": {
       "name": "Kirby 64: The Crystal Shards",
@@ -1598,7 +1598,7 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wave-race-64": {
       "name": "Wave Race 64",
@@ -1617,7 +1617,7 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": true
     },
     "yoshi-s-story": {
       "name": "Yoshi's Story",
@@ -1845,7 +1845,7 @@
         "status": "Active",
         "github_stars": 236
       },
-      "ai_used": null
+      "ai_used": true
     },
     "ogre-battle-64-person-of-lordly-caliber": {
       "name": "Ogre Battle 64: Person of Lordly Caliber",
@@ -1864,7 +1864,7 @@
         "status": "Active",
         "github_stars": 79
       },
-      "ai_used": null
+      "ai_used": true
     },
     "perfect-dark-dab-s-mod": {
       "name": "Perfect Dark (Dab's Mod)",
@@ -2111,7 +2111,7 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": true
     },
     "1080-snowboarding": {
       "name": "1080° Snowboarding",
@@ -2225,7 +2225,7 @@
         "status": "Active",
         "github_stars": 524
       },
-      "ai_used": null
+      "ai_used": true
     },
     "banjo-tooie-banjo-tooie-recompiled": {
       "name": "Banjo-Tooie (Banjo-Tooie: Recompiled)",
@@ -3461,7 +3461,7 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-mario-64-nintendo-64": {
       "name": "Super Mario 64",
@@ -3632,7 +3632,7 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-robot-wars-64": {
       "name": "Super Robot Wars 64",
@@ -4088,7 +4088,7 @@
         "status": "Active",
         "github_stars": 2375
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sin-and-punishment-snprecomp": {
       "name": "Sin and Punishment (SnP Recompiled)",
@@ -4618,7 +4618,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Diddy Kong Racing: A merged contribution discloses Claude-assisted analysis: [source](https://github.com/DavidSM64/Diddy-Kong-Racing/pull/772).",
           "completion_percent": 97,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5132,7 +5132,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Jet Force Gemini: A merged contribution discloses Codex-assisted decompilation; the README now says the project does not currently accept AI work: [source](https://github.com/Ryan-Myers/Jet-Force-Gemini/pull/2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6227,7 +6227,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Virtual Pro Wrestling 2: Ōdō Keishō: A merged contribution includes a commit described as a Codex-generated pull request: [source](https://github.com/AKI-Club/vpw2/commit/ce92e580a8f5f4878499615117cfd3cd3666cf91).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6249,7 +6249,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Wave Race 64: A merged matching contribution credits Claude as a co-author: [source](https://github.com/LLONSIT/Wave-Race-64/pull/44).",
           "completion_percent": 49,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6532,7 +6532,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Diddy Kong Racing (Recomp): A merged contribution discloses AI assistance on the build scripts: [source](https://github.com/ThatGuyMcd/DKR-R/pull/15).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6554,7 +6554,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Ogre Battle 64: Person of Lordly Caliber: The maintainer describes the project as an experiment using DeepSeek: [source](https://github.com/lfarroco/ogre-battle-64-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6756,7 +6756,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation distinct from sonicdcer/sk. US C reconstruction is in progress; the Japanese build currently uses extracted assembly. Requires a user-supplied ROM.",
+          "notes_markdown": "Matching decompilation distinct from sonicdcer/sk. US C reconstruction is in progress; the Japanese build currently uses extracted assembly. Requires a user-supplied ROM. Snowboard Kids (cdlewis matching decompilation): A merged contribution credits Claude as a co-author: [source](https://github.com/cdlewis/snowboardkids-decomp/pull/28).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6886,7 +6886,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer.",
+          "notes_markdown": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer. Banjo-Kazooie (Lighthouse): The maintainers disclose AI assistance for information gathering: [source](https://github.com/HarbourMasters/Lighthouse#ai-disclosure).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8332,7 +8332,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64",
+          "notes_markdown": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64. Star Wars: Shadows of the Empire (Recomp): A published commit credits Claude as a co-author: [source](https://github.com/GTTeancum/SotE-Recomp/commit/b0bbb7c1fc94c9c39412ae3a43183f608edb22ea).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8524,7 +8524,7 @@
           "project": "super-mario-64-in-scratch-sm64-scratch",
           "name_markdown": "[Super Mario 64 in Scratch (sm64-scratch)](https://github.com/naegoxdev/sm64-scratch)",
           "images": [],
-          "notes_markdown": "A Super Mario 64 demake built in Scratch",
+          "notes_markdown": "A Super Mario 64 demake built in Scratch. Super Mario 64 in Scratch (sm64-scratch): The project discloses substantial AI assistance in adapting the game to Scratch: [source](https://github.com/naegoxdev/sm64-scratch#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -9054,7 +9054,7 @@
           "project": "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian",
           "name_markdown": "[The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)](https://github.com/2ship2harkinian/2ship2harkinian)",
           "images": [],
-          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM.",
+          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM. The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian): A merged contribution discloses Claude and Codex assistance: [source](https://github.com/2ship2harkinian/2ship2harkinian/pull/2000).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
