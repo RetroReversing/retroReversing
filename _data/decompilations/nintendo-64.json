@@ -37,7 +37,7 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": false
     },
     "banjo-kazooie": {
       "name": "Banjo-Kazooie",
@@ -1275,7 +1275,7 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": null
+      "ai_used": true
     },
     "space-station-silicon-valley": {
       "name": "Space Station Silicon Valley",
@@ -1883,7 +1883,7 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-snap-recomp": {
       "name": "Pokemon Snap (Recomp)",
@@ -2035,7 +2035,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paperboy": {
       "name": "Paperboy",
@@ -2130,7 +2130,7 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": true
     },
     "animal-forest-animal-forest-psp": {
       "name": "Animal Forest (animal_forest_psp)",
@@ -2567,7 +2567,7 @@
         "status": "Active",
         "github_stars": 33
       },
-      "ai_used": null
+      "ai_used": true
     },
     "glover-glover-decomp": {
       "name": "Glover (glover-decomp)",
@@ -2586,7 +2586,7 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": true
     },
     "glover-recomp": {
       "name": "Glover (Recomp)",
@@ -3309,7 +3309,7 @@
         "status": "Active",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": true
     },
     "destruction-derby-64": {
       "name": "Destruction Derby 64",
@@ -3328,7 +3328,7 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": "Claude Opus 5.5 Medium"
+      "ai_used": true
     },
     "rugrats-scavenger-hunt": {
       "name": "Rugrats: Scavenger Hunt",
@@ -3366,7 +3366,7 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": true
     },
     "san-francisco-rush-2049-nintendo-64": {
       "name": "San Francisco Rush 2049",
@@ -3651,7 +3651,7 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-smash-bros-nintendo-64": {
       "name": "Super Smash Bros",
@@ -3727,7 +3727,7 @@
         "status": "Active",
         "github_stars": 515
       },
-      "ai_used": null
+      "ai_used": true
     },
     "tetrisphere": {
       "name": "Tetrisphere",
@@ -3784,7 +3784,7 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": true
     },
     "turok-rage-wars": {
       "name": "Turok: Rage Wars",
@@ -4164,7 +4164,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer explicitly says no LLM or generative AI was used: [project README](https://github.com/blackgamma7/Aidyn#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5826,7 +5826,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer documents using coding agents, including Claude, during this matching decompilation: [workflow article](https://blog.chrislewis.au/using-coding-agents-to-decompile-nintendo-64-games/).",
           "completion_percent": 69,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6576,7 +6576,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The credits say Claude did the bulk of the writing: [credits](https://github.com/DabDavis/perfect-dark-dabs-mod/blob/main/CREDITS.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6686,7 +6686,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation of the USA Nintendo 64 release.",
+          "notes_markdown": "Matching decompilation of the USA Nintendo 64 release. The project documents Claude and other model runs for matching functions: [project README](https://github.com/southcitycapture/hybridheaven-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6778,7 +6778,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The project describes its decompilation as mostly driven by Claude: [project README](https://github.com/djsaunde/1080-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7300,7 +7300,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial 3DS Port of F-Zero X based on G-Diffuser &amp; the decompilation of inspectredc",
+          "notes_markdown": "Unofficial 3DS Port of F-Zero X based on G-Diffuser &amp; the decompilation of inspectredc The author documents Claude Code creating and validating this F-Zero X 3DS port: [author notes](https://github.com/cruxxxxxx/gdx-3ds#author-s-notes).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7322,7 +7322,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The project describes the decompilation as mostly driven by Claude: [project README](https://github.com/djsaunde/glover-decomp-1#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8160,7 +8160,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial Road Rash 64 PC recompilation with 60 FPS presentation, MAX LOD, widescreen, custom music and experimental multiplayer. Requires your own ROM.",
+          "notes_markdown": "Unofficial Road Rash 64 PC recompilation with 60 FPS presentation, MAX LOD, widescreen, custom music and experimental multiplayer. Requires your own ROM. The project credits ChatGPT/Codex AI assistance and requires AI assistance to be disclosed: [credits](https://github.com/linkssy2/RoadRash64Recompiled/blob/main/CREDITS.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8176,7 +8176,7 @@
           "project": "destruction-derby-64",
           "name_markdown": "[Destruction Derby 64](https://github.com/murkantor/Destruction-Decomp-64)",
           "images": [],
-          "notes_markdown": "Matching decompilation for the Nintendo 64 USA release; the repository reports a byte-for-byte matching build and approximately 99% of code by size in C.",
+          "notes_markdown": "Matching decompilation for the Nintendo 64 USA release; the repository reports a byte-for-byte matching build and approximately 99% of code by size in C. The repository describes the decompilation as a Claude Opus 5.5 hands-off experiment: [project README](https://github.com/murkantor/Destruction-Decomp-64#readme).",
           "completion_percent": 99,
           "completion_qualifier": "approximately",
           "completion_metric": "code by size",
@@ -8214,7 +8214,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Decompilation project for the N64 game San Francisco Rush 2049",
+          "notes_markdown": "Decompilation project for the N64 game San Francisco Rush 2049 The repository preserves Codex-assisted matching work and agent handoff records: [frontier handoff](https://github.com/cabi24/SFRush2049-decomp/blob/master/docs/plans/2026-10-06-frontier-handoff.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8540,7 +8540,7 @@
           "project": "super-robot-wars-64",
           "name_markdown": "[Super Robot Wars 64](https://github.com/dyzz/srw64-recomp)",
           "images": [],
-          "notes_markdown": "Experimental Super Robot Wars 64 native recompilation, with Japanese/Chinese text and optional HD presentation.",
+          "notes_markdown": "Experimental Super Robot Wars 64 native recompilation, with Japanese/Chinese text and optional HD presentation. The project documents Codex image_gen-created assets and preserves the generation records: [asset README](https://github.com/dyzz/srw64-recomp/blob/main/assets/README.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8632,7 +8632,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A smashin' port for PC, Mac, and Linux!",
+          "notes_markdown": "A smashin' port for PC, Mac, and Linux! The maintainer says the project was developed with Claude through its v0.3-beta release: [project README](https://github.com/JRickey/BattleShip#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8698,7 +8698,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
+          "notes_markdown": "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine. The project identifies itself as developed with Claude Code (Opus 5): [project README](https://github.com/mgrz18/turok2-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
