@@ -436,7 +436,7 @@
         "status": "Active",
         "github_stars": 543
       },
-      "ai_used": null
+      "ai_used": false
     },
     "doom-64": {
       "name": "Doom 64",
@@ -588,7 +588,7 @@
         "archived": false,
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": false
     },
     "f-zero-x": {
       "name": "F-Zero X",
@@ -4672,7 +4672,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "[source and releases](https://github.com/Rainchus/Donkey-Kong-64-Recompiled).",
+          "notes_markdown": "[source and releases](https://github.com/Rainchus/Donkey-Kong-64-Recompiled). DK64 Rekongpiled: A team member stated at release that no generative AI was used in the project: [release announcement](https://bsky.app/profile/did:plc:a3lzcpaa2mdgo6zpkkmclbcc/post/3mualqfdwmc2r).",
           "completion_percent": 57,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4863,7 +4863,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Extreme-G native-port project.",
+          "notes_markdown": "Extreme-G native-port project. The developer stated that no AI was used in its creation, as reported at release: [Time Extension](https://www.timeextension.com/news/2026/08/n64-racer-extreme-g-just-got-an-unofficial-pc-port-with-increased-frame-rates-and-so-much-more).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
