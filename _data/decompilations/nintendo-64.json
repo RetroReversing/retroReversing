@@ -1294,7 +1294,7 @@
         "status": "Active",
         "github_stars": 66
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sssv-recomp": {
       "name": "SSSV_Recomp",
@@ -5863,7 +5863,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The author of a merged symbol-naming contribution disclosed using LLMs to check findings and help with phrasing: [contributor statement](https://github.com/mkst/sssv/pull/131#issuecomment-4057246880).",
           "completion_percent": 77,
           "completion_qualifier": "",
           "completion_metric": "completion",
