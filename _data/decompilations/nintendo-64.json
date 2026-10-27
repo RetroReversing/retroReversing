@@ -743,7 +743,7 @@
         "status": "Active",
         "github_stars": 805
       },
-      "ai_used": null
+      "ai_used": true
     },
     "harvest-moon-64": {
       "name": "Harvest Moon 64",
@@ -1978,7 +1978,7 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": true
     },
     "battletanx-global-assault-pc-port": {
       "name": "BattleTanx: Global Assault PC port",
@@ -2016,7 +2016,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "hybrid-heaven": {
       "name": "Hybrid Heaven",
@@ -2415,7 +2415,7 @@
         "status": "Active",
         "github_stars": 138
       },
-      "ai_used": null
+      "ai_used": true
     },
     "conker-s-bad-fur-day-conker64-recompiled": {
       "name": "Conker's Bad Fur Day (conker64-recompiled)",
@@ -2757,7 +2757,7 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": true
     },
     "jet-force-gemini-nintendo-64": {
       "name": "Jet Force Gemini",
@@ -3841,7 +3841,7 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": true
     },
     "virtual-pro-wrestling-64": {
       "name": "Virtual Pro Wrestling 64",
@@ -3860,7 +3860,7 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wave-race-64-wave-race-64-recomp": {
       "name": "Wave Race 64 (wave-race-64-recomp)",
@@ -3917,7 +3917,7 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wcw-nwo-revenge-recomp": {
       "name": "WCW/nWo Revenge (Recomp)",
@@ -3936,7 +3936,7 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": true
     },
     "the-world-is-not-enough-i-could-have-given-you-the-world": {
       "name": "The World Is Not Enough (I Could Have Given You the World)",
@@ -3974,7 +3974,7 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wwf-wrestlemania-2000": {
       "name": "WWF WrestleMania 2000",
@@ -3993,7 +3993,7 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": true
     },
     "yoshi-s-story-dinotale": {
       "name": "Yoshi's Story (DinoTale)",
@@ -4302,7 +4302,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets.",
+          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets. Source files identify drafts from a [Claude decompilation workspace](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/ad766d3fcd719c73ba779152440f330481241c41/claude-work/README.md), including [this integrated function](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/main/src/code/effects/800DA1D8_debris_piece_update.c#L2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5039,7 +5039,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The decompilation source attributes part of its collision analysis to DeepSeek: [source](https://github.com/n64decomp/007/blob/master/src/game/propobj.c#L3739).",
           "completion_percent": 71,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6664,7 +6664,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation of the Japanese Nintendo 64 release.",
+          "notes_markdown": "Matching decompilation of the Japanese Nintendo 64 release. Shiren the Wanderer 2: A source-file comment credits GPT-6 Astra and Claude Opus for decompilation work: [source](https://github.com/mschienbein/shiren2-decomp/blob/main/src/units/main_14400/ui/menu/func_80099478.cpp#L5).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7130,7 +7130,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Recompile Castlevania: Legacy of Darkness (N64) into a native executable using N64Recomp",
+          "notes_markdown": "Recompile Castlevania: Legacy of Darkness (N64) into a native executable using N64Recomp. A published development commit links a Claude Code session: [source](https://github.com/fliperama86/cvlod_recomp/commit/60b40b5561c73389d4e5c317749deab601f32644).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7528,7 +7528,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial AI native PC port of Hybrid Heaven (N64) via static recompilation, featuring a purist UI preserving the original design. Multi-language: EN, ES, CA,...",
+          "notes_markdown": "Unofficial AI native PC port of Hybrid Heaven (N64) via static recompilation, featuring a purist UI preserving the original design. Multi-language: EN, ES, CA,... Hybrid Heaven (Recomp): The [repository description](https://github.com/hunkstalker/hybrid-heaven-recomp) calls this an AI native PC port; the project instructions identify a DeepSeek model: [source](https://github.com/hunkstalker/hybrid-heaven-recomp/blob/main/AGENTS.md#L84).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8762,7 +8762,7 @@
           "project": "virtual-pro-wrestling-2",
           "name_markdown": "[Virtual Pro Wrestling 2](https://github.com/jessetbh/VPW2Recomp)",
           "images": [],
-          "notes_markdown": "",
+          "notes_markdown": "A published development commit links a Claude Code session: [source](https://github.com/jessetbh/VPW2Recomp/commit/0531954388c429d9b44be39fda5e9d2764d263d6).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8784,7 +8784,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/VPW64Recomp/commit/ae6133a63911d62cbc79f266f10320632f46c9b5).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8858,7 +8858,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp/commit/3a8ca91d2124c86e70854c8000defcc52cd519c3).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8884,7 +8884,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WCWnWoRevengeRecomp/commit/36f00fca5e084f2db28939a74fa287e4997c0273).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8926,7 +8926,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WWFNoMercyRecomp/commit/f52950baec08f1b462c372d0677bdcc3185d4f2f).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8952,7 +8952,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WWFWrestleMania2000Recomp/commit/4f041770e685b539f81db495f194ed4ac63ba8d2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
