@@ -4108,6 +4108,30 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "super-bowling-64-decomp": {
+      "name": "Super Bowling",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/CalenCyr/superbowling64-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
+    },
+    "v-rally-edition-99-decomp": {
+      "name": "V-Rally Edition 99",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/v-rally-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -9063,6 +9087,50 @@
             {
               "name": "Native port",
               "url": "https://github.com/2ship2harkinian/2ship2harkinian"
+            }
+          ]
+        },
+        {
+          "project": "super-bowling-64-decomp",
+          "name_markdown": "[Super Bowling](https://github.com/CalenCyr/superbowling64-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Super%20Bowling%20%28USA%29.png",
+              "alt": "US Nintendo 64 front box art for Super Bowling, with colourful bowling pins and a black bowling ball",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the Nintendo 64 USA release (NBWE). Reconstructs C with KMC GCC 2.7.2 and rebuilds against a user-supplied ROM; unmatched routines remain assembly. This is a source-reconstruction project, not a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/CalenCyr/superbowling64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "v-rally-edition-99-decomp",
+          "name_markdown": "[V-Rally Edition 99](https://github.com/RetroReversing/v-rally-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/V-Rally%20Edition%2099%20%28Europe%29%20%28En%2CFr%2CDe%29.png",
+              "alt": "European PAL Nintendo 64 front box art for V-Rally Edition 99, showing two rally cars",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Partial matching decompilation of the Nintendo 64 European revision 0 release (NVLP). Requires a user-supplied ROM and rebuilds using reconstructed C plus original assembly for remaining functions. A byte-identical cartridge build does not establish complete C decompilation. Compiler identity, function boundaries, names and types remain provisional. [The README documents AI-assisted source reconstruction](https://github.com/RetroReversing/v-rally-decomp#readme).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/v-rally-decomp"
             }
           ]
         }
