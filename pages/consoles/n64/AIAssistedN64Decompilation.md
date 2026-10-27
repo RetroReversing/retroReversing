@@ -15,7 +15,7 @@ breadcrumbs:
   - name: AI Assisted N64 Decompilation
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
-updatedAt: '2026-10-26'
+updatedAt: '2026-10-27'
 excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then connect coding agents and compare verified model results and costs.'
 ---
 
@@ -243,6 +243,16 @@ Our South Park run used **`deepseek-flash`**, served at the time by **DeepSeek-V
 That works out to about **$0.18 per matched function**, including spending on unsuccessful attempts. This is one game's result; function size and difficulty affect how far another $10 will go. See the [South Park comparison](#south-park-deepseek-and-luna-in-the-app) below for the Luna results and token figures.
 
 ---
+### Kimi Code in Our Matching Tests
+**Kimi Code has been a weaker choice for matching functions in our trials than the alternatives discussed here.** Progress was limited, and we exhausted its five-hour usage allowance well before getting five hours of continuous agent work. For sustained matching, we would start with another model and judge it by verified matches and actual allowance consumption [^45].
+
+In the run below, the app labels the model **`kimi-code/k3-256k`**. It reports **one matched function, two improved candidates and 90 compiles**, using about **7.83 million reported tokens per match** across two sessions. Improved candidates are still unmatched. The worker is waiting for its usage allowance to reset; the latest start shows only **24 minutes** of runtime [^45].
+
+{% include article-figure.html src="/public/images/n64/decompdecomp-kimi-code-usage-limit.webp" alt="Kimi Code worker showing one match, two improvements, 90 compiles, 7833.8k tokens per match, 24 minutes since its latest start, and a usage-limit wait" width="553" height="374" size="document" title="One match before waiting for more allowance" caption="The Kimi Code worker is paused at its usage limit. The 24-minute timer is since the latest start, not the combined duration of both sessions. The five-hour allowance window does not mean five hours of uninterrupted work." %}
+
+This is a separate run from the **K2.8 Preview High** V-Rally setup test below, which also exhausted its allowance but encountered an importer defect. The screenshot does not establish the same game, checkpoint or difficulty as the other matching runs, so it is a practical warning from our experience rather than a controlled model ranking [^45].
+
+---
 ### What the Agent Settings Mean
 The launch panel above has two controls that affect how much work runs and how much context each agent carries:
 
@@ -379,3 +389,5 @@ Turok costs apply published Standard API rates to recorded usage. They exclude s
 [^42]: [Upstream README and installation guide](https://github.com/n-delic/decompdecomp#install) and [merged upstream macOS PR #110](https://github.com/n-delic/decompdecomp/pull/110), checked 26 October 2026. Native Mac support is in upstream source; its guide describes a source install rather than a signed DMG or self-contained Mac release bundle.
 [^43]: [RetroReversing fork README](https://github.com/RetroReversing/decompdecomp#choose-work-per-agent), [fork changes compared with upstream](https://github.com/n-delic/decompdecomp/compare/main...RetroReversing:decompdecomp:main), [upstream identical-code reuse](https://github.com/n-delic/decompdecomp/blob/main/src/decompnet/app/twins.py), [fork compiler search](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/app/engine/compilers.py), and [fork Mac bundle builder](https://github.com/RetroReversing/decompdecomp/blob/main/packaging/macos/build.sh), checked 26 October 2026. Comparison describes source-branch capabilities, not a guarantee that every release asset contains them.
 [^44]: [Upstream PS1 macOS toolchain PR #115](https://github.com/n-delic/decompdecomp/pull/115), submitted from the RetroReversing fork and still open, unmerged, when checked on 26 October 2026.
+
+[^45]: Participant-supplied Kimi Code screenshot and report, added 27 October 2026. The app displays `kimi-code/k3-256k`, one match, two improved candidates, 90 compiles, two sessions, one restart, 7833.8k tokens per match and 24 minutes since the latest start, while waiting for a usage reset. The participant reports exhausting the five-hour allowance quickly. Game, starting checkpoint, full combined runtime and run-specific dollar cost were not supplied for this screenshot; it is distinct from the earlier K2.8 Preview High setup session.
