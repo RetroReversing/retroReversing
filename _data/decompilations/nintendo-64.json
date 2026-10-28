@@ -857,7 +857,7 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": true
     },
     "mario-kart-64": {
       "name": "Mario Kart 64",
@@ -1712,7 +1712,7 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": true
     },
     "body-harvest-jaytheham": {
       "name": "Body Harvest",
@@ -3195,7 +3195,7 @@
         "status": "Inactive",
         "github_stars": 106
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-snap-nintendo-64": {
       "name": "Pokémon Snap",
@@ -3423,7 +3423,7 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": true
     },
     "star-wars-rogue-squadron-nintendo-64": {
       "name": "Star Wars: Rogue Squadron",
@@ -5235,7 +5235,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer describes using AI agents for decompilation in the development branch: [workflow commit](https://github.com/monde-lointain/mariogolf64/commit/a6fb813adfbc44969a130ebc042ddb6c6754bf05).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6402,7 +6402,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer credited Claude for documentation in an earlier [decompilation commit](https://github.com/SlaveOfIDO/blastcorps/commit/fcbd190380ae971b6d9e1214a600a27e1ebaac11). The maintainer says this was an experiment and its output was removed, and that the separate recompilation did not use generative AI: [clarification](https://www.reddit.com/r/decomps/comments/1xfwavy/comment/19rorlhggbujo/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8052,7 +8052,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Android Port!! work in progress port of n64decomp/perfect_dark to modern platforms",
+          "notes_markdown": "Android Port!! work in progress port of n64decomp/perfect_dark to modern platforms. The maintainer credited Claude as a co-author of [an Android port commit](https://github.com/izzy2lost/perfect_dark/commit/4d756ae5f894c855d80f2973f1166935d7d6ac01) on the android-features branch.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8312,7 +8312,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "SF64 Android Port",
+          "notes_markdown": "SF64 Android Port. The maintainer credited Claude as a co-author of [an Android port commit](https://github.com/izzy2lost/Starship/commit/e38d373de00afcdf163c825f1482f5a0cad51a8f) on the android-upstream-sync branch.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
