@@ -170,7 +170,7 @@
         "status": "Active",
         "github_stars": 308
       },
-      "ai_used": null
+      "ai_used": false
     },
     "bomberman-64-the-second-attack": {
       "name": "Bomberman 64: The Second Attack!",
@@ -227,7 +227,7 @@
         "status": "Active",
         "github_stars": 126
       },
-      "ai_used": null
+      "ai_used": false
     },
     "castlevania-64": {
       "name": "Castlevania 64",
@@ -1674,7 +1674,7 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": true
     },
     "aerogauge-recompiled": {
       "name": "AeroGauge",
@@ -2073,7 +2073,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pilotwings-64-matching-decompilation": {
       "name": "Pilotwings 64 (matching decompilation)",
@@ -3099,7 +3099,7 @@
         "status": "Active",
         "github_stars": 73
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paper-mario-pmvita": {
       "name": "Paper Mario ( pmvita)",
@@ -3118,7 +3118,7 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paper-mario-papermario-dx-engine-fork": {
       "name": "Paper Mario (papermario-dx (engine fork))",
@@ -3822,7 +3822,7 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": true
     },
     "virtual-pro-wrestling-2": {
       "name": "Virtual Pro Wrestling 2",
@@ -3955,7 +3955,7 @@
         "status": "Active",
         "github_stars": 70
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wwf-no-mercy": {
       "name": "WWF No Mercy",
@@ -4107,7 +4107,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-bowling-64-decomp": {
       "name": "Super Bowling",
@@ -4119,7 +4119,7 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": true
     },
     "v-rally-edition-99-decomp": {
       "name": "V-Rally Edition 99",
@@ -4405,7 +4405,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "BM64Recomp: A contributor credited in the release said in June 2026 that this port did not use AI: [contributor statement](https://www.resetera.com/threads/decompilation-projects-ot-free-next-gen-update-for-your-favorite-classics.682687/page-45).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4460,7 +4460,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "BMHeroRecomp: A contributor credited in the releases said in June 2026 that this port did not use AI: [contributor statement](https://www.resetera.com/threads/decompilation-projects-ot-free-next-gen-update-for-your-favorite-classics.682687/page-45).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6380,7 +6380,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Project Bumble was withdrawn by its developer. The repository retains a [withdrawal notice](https://github.com/riseio/project-bumble).",
+          "notes_markdown": "Project Bumble was withdrawn by its developer. The repository retains a [withdrawal notice](https://github.com/riseio/project-bumble). The creator's project announcement is labeled as made with AI assistance: [announcement](https://www.reddit.com/r/decomps/comments/1wn2fn8/project_bumble_buck_bumble_recompiled_pc_and/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6754,7 +6754,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Static recompilation using N64Recomp and a software renderer. Targets Apple Silicon macOS and Android; Windows and Linux are cross-built but have not been user-tested. Requires the NTSC-U ROM. Split-screen multiplayer, other regions and widescreen are unsupported.",
+          "notes_markdown": "Static recompilation using N64Recomp and a software renderer. Targets Apple Silicon macOS and Android; Windows and Linux are cross-built but have not been user-tested. Requires the NTSC-U ROM. Split-screen multiplayer, other regions and widescreen are unsupported. The developer's project announcement is labeled as AI-assisted: [announcement](https://www.reddit.com/r/recomps/comments/1x3uujj/starcraft_64_native_port_n64recomp_with/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7942,7 +7942,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native Nintendo 3DS port of Paper Mario (N64), built from the decompilation. Bring your own ROM.",
+          "notes_markdown": "Native Nintendo 3DS port of Paper Mario (N64), built from the decompilation. Bring your own ROM. The developer says Claude Code was used in development: [developer statement](https://www.reddit.com/r/3dshomebrew/comments/1x5zthy/comment/pgqxcx0/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7964,7 +7964,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "WIP Paper Mario 64 PC port based on libultraship",
+          "notes_markdown": "WIP Paper Mario 64 PC port based on libultraship. The developer describes using Claude Code to build the port: [project announcement](https://www.reddit.com/r/papermario/comments/1s3tkp8/paper_mario_pc_port_sharing_my_progress/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8770,7 +8770,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Rage Wars Recompiled by XR64 Studios. Windows PC, local multiplayer and experimental OpenXR PCVR.",
+          "notes_markdown": "Rage Wars Recompiled by XR64 Studios. Windows PC, local multiplayer and experimental OpenXR PCVR. The maintainer describes using Codex while working on project bugs: [maintainer discussion](https://github.com/ArtfulRascal8/rage-wars-recompiled/discussions/3#discussioncomment-18957297).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8928,7 +8928,7 @@
           "project": "the-world-is-not-enough-i-could-have-given-you-the-world",
           "name_markdown": "[The World Is Not Enough (I Could Have Given You the World)](https://github.com/riseio/TWIPE_00Sheven)",
           "images": [],
-          "notes_markdown": "A static recompilation project of the N64 game The World Is Not Enough",
+          "notes_markdown": "A static recompilation project of the N64 game The World Is Not Enough. Quiver reports the developer disclosed some AI assistance: [project listing](https://quiverlauncher.com/apps/the-world-is-not-enough-i-could-have-given-you-the-world).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -9100,7 +9100,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Work-in-progress matching decompilation of the Nintendo 64 USA release (NBWE). Reconstructs C with KMC GCC 2.7.2 and rebuilds against a user-supplied ROM; unmatched routines remain assembly. This is a source-reconstruction project, not a native PC port.",
+          "notes_markdown": "Work-in-progress matching decompilation of the Nintendo 64 USA release (NBWE). Reconstructs C with KMC GCC 2.7.2 and rebuilds against a user-supplied ROM; unmatched routines remain assembly. This is a source-reconstruction project, not a native PC port. A matching contribution credits Claude as a co-author: [commit](https://github.com/CalenCyr/superbowling64-decomp/commit/893b1c62c3c8c9b3a09441c6ac58c09ee95e8416).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
