@@ -1997,7 +1997,7 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": true
     },
     "shiren-the-wanderer-2": {
       "name": "Shiren the Wanderer 2",
@@ -4326,7 +4326,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets. Source files identify drafts from a [Claude decompilation workspace](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/ad766d3fcd719c73ba779152440f330481241c41/claude-work/README.md), including [this integrated function](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/main/src/code/effects/800DA1D8_debris_piece_update.c#L2).",
+          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets. Source files identify drafts from a [Claude decompilation workspace](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/ad766d3fcd719c73ba779152440f330481241c41/claude-work/README.md), including [this integrated function](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/main/src/code/effects/800DA1D8_debris_piece_update.c#L2). The developer's announcement of the PC port is labeled as made with AI assistance: [announcement](https://www.reddit.com/r/decomps/comments/1x3z66s/battletanx_global_assault_fully_decompiled_ported/).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
