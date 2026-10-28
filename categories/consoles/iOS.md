@@ -15,7 +15,7 @@ tags:
 recommend:
   - ios
   - introduction
-_updatedAt: 2025-12-07
+updatedAt: '2026-10-28'
 redirect_from:
   - /iPhone
   - /iPad
@@ -23,18 +23,17 @@ redirect_from:
 ---
 
 # iOS Introduction (iPhone OS)
-The first version of iOS (retroactively called iPhone OS 1.0 after the launch of 2.0) was released on June 29, 2007, alongside the first iPhone [^1].
-It was renamed iOS in 2010 with the release of iOS 4 which is what this page will refer to it as.
+The first iPhone shipped on June 29, 2007 with what later became known as iPhone OS 1.0 [^1]. Apple renamed the system iOS in 2010; this page uses that name for the platform as a whole. Early iPhone games pose a particular preservation problem: their code, operating-system APIs and distribution requirements all have to line up before a surviving app will run.
 
 ## History of iOS
-[Apple Explained](https://www.youtube.com/watch?v=l7eucqQMXDw) presents a comprehensive documentary covering the technical and visual evolution of Apple's mobile operating system, ranging from the secretive "Project Purple" development phase to the release of iOS 16. 
+[Apple Explained](https://www.youtube.com/watch?v=l7eucqQMXDw) follows the operating system from "Project Purple" through iOS 16.
 
 The video details critical milestones in the platform's history, including the pivot from web apps to a native SDK, the architectural changes required for multitasking, the controversial shift away from Google services (Maps/YouTube), and the major interface overhaul introduced in iOS 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7eucqQMXDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## History of the App Store
-[Apple Explained](https://www.youtube.com/watch?v=t_CDefOuAww) documents the pivotal shift in mobile computing history from Steve Jobs' initial vision of web-based applications to the creation of the native iOS App Store. The video details the internal debates that led to the release of the iPhone SDK in 2008, the subsequent explosion of the "app economy," and major platform milestones like the introduction of In-App Purchases (IAP) and the "Walled Garden" censorship controversies.
+[Apple Explained](https://www.youtube.com/watch?v=t_CDefOuAww) traces the move from web apps to the native SDK and App Store, then follows later changes such as in-app purchases and store rules.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t_CDefOuAww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -47,14 +46,13 @@ The video details critical milestones in the platform's history, including the p
 # Reverse Engineering iOS Games
 
 ## touchHLE: High-Level Emulator for Early iOS Games
-**touchHLE** is an open-source high-level emulator (HLE) written in **Rust** that runs classic apps from the early iPhone OS era (specifically versions 2.x and 3.x) on modern platforms like Windows, macOS, and Android. 
+**touchHLE** is an open-source high-level emulator (HLE) written in **Rust** for selected 32-bit games from iPhone OS 2.x, 3.x and iOS 4.0.x. It runs on Windows, macOS and Android, but its developers caution that most apps from those years do not yet work [^2].
 
-Created by **hikari-no-yume**, the project focuses on preserving early mobile gaming history by dynamically recompiling ARM code and reimplementing Apple's system frameworks (such as UIKit and OpenGL ES) rather than emulating the full hardware. 
-This approach allows titles like *Super Monkey Ball* and *Crash Bandicoot Nitro Kart 3D* to run with enhanced performance and resolution scaling.
+Started by **hikari-no-yume**, the project runs app code in an emulated ARM CPU and supplies its own implementations of Apple frameworks such as UIKit and OpenGL ES, instead of booting iPhone OS [^2]. Check the version-specific [compatibility database](https://appdb.touchhle.org/) before treating a listed game as playable.
 
 {% include link-to-other-site.html url="https://github.com/touchHLE/touchHLE" description="hikari-no-yume and contributors have developed touchHLE, a High Level Emulator written in Rust that runs classic iPhone OS 2.x/3.x apps on modern systems by reimplementing the OS frameworks." title="touchHLE: High-level emulator for iPhone OS apps" %}
 
-For a full list of game compatibility check out the [touchHLE app compatibility database](https://appdb.touchhle.org/).
+The compatibility database records community reports, which the project warns may be outdated or inaccurate [^2].
 
 ### Driver iOS (2009) on touchHLE Emulator
 [VortexStory](https://www.youtube.com/watch?v=dviPm_e33pk) showcases the 2009 Gameloft iOS port of *Driver*, now playable via the high-level emulator touchHLE. The video explores this previously "lost" mobile version through gameplay of the Car Park tutorial and Pursuit mode, demonstrating how file modifications can enable controller support and remove on-screen touch overlays.
@@ -62,16 +60,12 @@ For a full list of game compatibility check out the [touchHLE app compatibility 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dviPm_e33pk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Popular iOS 2.x Games (ARMv6) (2008+)
-iPhone OS 2 first introduced the App Store and with it came a bunch of "AAA" game studios aiming to tap into the market, some of these games are quite fun and worth playing others are maybe not as fun but could be fun to reverse engineer.
+iPhone OS 2 brought the App Store and a wave of commercial games. The list below is a period snapshot, with review scores from the 2009 *iPhone Games Directory* bookazine; it is not a touchHLE compatibility list.
 
-Games released for iPhone OS 2 were compiled for the 32-bit **ARMv6** processor so they will **not** run on 32-bit ARMv7 devices (iPhone 3GS+) or any 64-bit devices.
+### Can an ARMv6 iPhone game run on a later device?
+Yes, an ARMv6 app does not inherently require an ARMv6 phone. Apple's ARMv7 programming documentation describes compatibility between apps built for the ARMv6 and ARMv7 environments, while noting that some features differ [^3]. The later hard cutoff is different: **iOS 11 no longer launches 32-bit apps**, regardless of whether they contain ARMv6, ARMv7 or both [^4]. Other API or distribution constraints may still prevent an older game from running.
 
-They can run on later devices **only** if the developer shipped a dual-architecture binary (ARMv6+ARMv7). Many early App Store games never did this, so some games are ARMv6-only and thus can only run on the iPhone (2G) and iPhone 3G!
-
-
-So games in this list must have an ARMv6 executable, either as a dual-architecture or ARMv6 exclusive, as otherwise they would not run on iOS 2.x!
-
-These games require a minimum of iPhone OS 2.x (latest 2.2.1 recommended) to run and the reviews of these games come from the Bookazine **iPhone Games Directory** Volume 001 from 2009 to give time-period accurate reviews.
+The games in this list appeared in the iPhone OS 2 era; individual versions may have different minimum OS requirements. The reviews come from *iPhone Games Directory*, volume 001 (2009).
 
 Name | Developer | Review out of 5 | Description
 ---|---|---|---
@@ -112,7 +106,7 @@ The best way to check for recommended iOS 5.x games is to check out the Bookazin
 
 ---
 ## Frida: Dynamic Instrumentation Toolkit
-**Frida** is a world-class dynamic instrumentation framework created by **Ole André Vadla Ravnås** that allows developers and reverse engineers to inject custom scripts into black-box processes. It enables users to hook functions, trace APIs, and manipulate application behavior in real-time across a wide range of platforms, including Windows, macOS, Linux, iOS, Android, and QNX, without requiring source code or recompilation.
+**Frida**, created by **Ole André Vadla Ravnås**, injects scripts into a running process so a reverse engineer can trace calls and inspect behaviour without rebuilding the app. It supports iOS as well as desktop and other mobile platforms.
 
 {% include link-to-other-site.html url="https://frida.re/" description="Frida is a free, scriptable, and portable dynamic instrumentation toolkit that lets you inject JavaScript into native apps to debug, trace, and reverse engineer software on multiple operating systems." image="https://frida.re/img/logotype.svg" title="Frida: A World-Class Dynamic Instrumentation Toolkit" %}
 
@@ -146,3 +140,6 @@ The magazine index collects developer interviews tagged for this system across a
 ---
 # References
 [^1]: [iPhone OS 1: The Beginning of an Era - Low End MacLow End Mac](https://lowendmac.com/2017/iphone-os-1-the-beginning-of-an-era/?utm_source=chatgpt.com)
+[^2]: [touchHLE README and project scope](https://github.com/touchHLE/touchHLE#touchhle-high-level-emulator-for-early-ios-apps)
+[^3]: [Apple Developer, Writing ARMv7 Code for iOS](https://developer.apple.com/documentation/xcode/writing-armv7-code-for-ios)
+[^4]: [Apple Developer, 64-bit Apps on iOS 11](https://developer.apple.com/news/?id=06282017b)
