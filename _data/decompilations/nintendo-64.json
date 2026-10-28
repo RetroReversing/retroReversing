@@ -37,7 +37,7 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": false
     },
     "banjo-kazooie": {
       "name": "Banjo-Kazooie",
@@ -75,7 +75,7 @@
         "status": "Active",
         "github_stars": 2087
       },
-      "ai_used": null
+      "ai_used": false
     },
     "banjo-tooie": {
       "name": "Banjo-Tooie",
@@ -360,7 +360,7 @@
         "status": "Active",
         "github_stars": 424
       },
-      "ai_used": null
+      "ai_used": true
     },
     "dinosaur-planet": {
       "name": "Dinosaur Planet",
@@ -398,7 +398,7 @@
         "status": "Active",
         "github_stars": 332
       },
-      "ai_used": null
+      "ai_used": false
     },
     "donkey-kong-64": {
       "name": "Donkey Kong 64",
@@ -436,7 +436,7 @@
         "status": "Active",
         "github_stars": 543
       },
-      "ai_used": null
+      "ai_used": false
     },
     "doom-64": {
       "name": "Doom 64",
@@ -588,7 +588,7 @@
         "archived": false,
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": false
     },
     "f-zero-x": {
       "name": "F-Zero X",
@@ -626,7 +626,7 @@
         "status": "Active",
         "github_stars": 295
       },
-      "ai_used": null
+      "ai_used": true
     },
     "f-zero-x-expansion-kit": {
       "name": "F-Zero X Expansion Kit",
@@ -683,7 +683,7 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": true
     },
     "glover": {
       "name": "Glover",
@@ -724,7 +724,7 @@
       "previous_repository_urls": [
         "https://github.com/Fluvian/gga"
       ],
-      "ai_used": null
+      "ai_used": true
     },
     "goldeneye-007": {
       "name": "GoldenEye 007",
@@ -743,7 +743,7 @@
         "status": "Active",
         "github_stars": 805
       },
-      "ai_used": null
+      "ai_used": true
     },
     "harvest-moon-64": {
       "name": "Harvest Moon 64",
@@ -800,7 +800,7 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": null
+      "ai_used": true
     },
     "kirby-64-the-crystal-shards": {
       "name": "Kirby 64: The Crystal Shards",
@@ -933,7 +933,7 @@
         "status": "Active",
         "github_stars": 76
       },
-      "ai_used": null
+      "ai_used": true
     },
     "mario-tennis": {
       "name": "Mario Tennis",
@@ -1066,7 +1066,7 @@
         "status": "Active",
         "github_stars": 1638
       },
-      "ai_used": null
+      "ai_used": true
     },
     "perfect-dark": {
       "name": "Perfect Dark",
@@ -1142,7 +1142,7 @@
         "status": "Active",
         "github_stars": 112
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-stadium": {
       "name": "Pokemon Stadium",
@@ -1275,7 +1275,7 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": null
+      "ai_used": true
     },
     "space-station-silicon-valley": {
       "name": "Space Station Silicon Valley",
@@ -1294,7 +1294,7 @@
         "status": "Active",
         "github_stars": 66
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sssv-recomp": {
       "name": "SSSV_Recomp",
@@ -1408,7 +1408,7 @@
         "status": "Active",
         "github_stars": 1483
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sm64plus": {
       "name": "SM64Plus",
@@ -1446,7 +1446,7 @@
         "status": "Active",
         "github_stars": 271
       },
-      "ai_used": null
+      "ai_used": true
     },
     "superman-64": {
       "name": "Superman 64",
@@ -1522,7 +1522,7 @@
         "status": "Active",
         "github_stars": 7521
       },
-      "ai_used": null
+      "ai_used": false
     },
     "the-new-tetris": {
       "name": "The New Tetris",
@@ -1598,7 +1598,7 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wave-race-64": {
       "name": "Wave Race 64",
@@ -1617,7 +1617,7 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": true
     },
     "yoshi-s-story": {
       "name": "Yoshi's Story",
@@ -1655,7 +1655,7 @@
         "status": "Active",
         "github_stars": 81
       },
-      "ai_used": null
+      "ai_used": true
     },
     "buck-bumble-project-bumble": {
       "name": "Buck Bumble",
@@ -1693,7 +1693,7 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": true
     },
     "blast-corps-slaveofido": {
       "name": "Blast Corps",
@@ -1731,7 +1731,7 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": true
     },
     "ridge-racer-64": {
       "name": "Ridge Racer 64",
@@ -1826,7 +1826,7 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": true
     },
     "diddy-kong-racing-recomp": {
       "name": "Diddy Kong Racing (Recomp)",
@@ -1845,7 +1845,7 @@
         "status": "Active",
         "github_stars": 236
       },
-      "ai_used": null
+      "ai_used": true
     },
     "ogre-battle-64-person-of-lordly-caliber": {
       "name": "Ogre Battle 64: Person of Lordly Caliber",
@@ -1864,7 +1864,7 @@
         "status": "Active",
         "github_stars": 79
       },
-      "ai_used": null
+      "ai_used": true
     },
     "perfect-dark-dab-s-mod": {
       "name": "Perfect Dark (Dab's Mod)",
@@ -1883,7 +1883,7 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-snap-recomp": {
       "name": "Pokemon Snap (Recomp)",
@@ -1902,7 +1902,7 @@
         "status": "Active",
         "github_stars": 122
       },
-      "ai_used": null
+      "ai_used": true
     },
     "snowboard-kids": {
       "name": "Snowboard Kids",
@@ -1940,7 +1940,7 @@
         "status": "Active",
         "github_stars": 171
       },
-      "ai_used": null
+      "ai_used": true
     },
     "battletanx": {
       "name": "BattleTanx",
@@ -1978,7 +1978,7 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": true
     },
     "battletanx-global-assault-pc-port": {
       "name": "BattleTanx: Global Assault PC port",
@@ -2016,7 +2016,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "hybrid-heaven": {
       "name": "Hybrid Heaven",
@@ -2035,7 +2035,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paperboy": {
       "name": "Paperboy",
@@ -2054,7 +2054,7 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": true
     },
     "starcraft-64-n0madic-recomp": {
       "name": "StarCraft 64",
@@ -2111,7 +2111,7 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": true
     },
     "1080-snowboarding": {
       "name": "1080° Snowboarding",
@@ -2130,7 +2130,7 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": true
     },
     "animal-forest-animal-forest-psp": {
       "name": "Animal Forest (animal_forest_psp)",
@@ -2149,7 +2149,7 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": true
     },
     "automobili-lamborghini": {
       "name": "Automobili Lamborghini",
@@ -2168,7 +2168,7 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": true
     },
     "banjo-kazooie-banjo-kazooie": {
       "name": "Banjo-Kazooie (banjo-kazooie)",
@@ -2225,7 +2225,7 @@
         "status": "Active",
         "github_stars": 524
       },
-      "ai_used": null
+      "ai_used": true
     },
     "banjo-tooie-banjo-tooie-recompiled": {
       "name": "Banjo-Tooie (Banjo-Tooie: Recompiled)",
@@ -2282,7 +2282,7 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": true
     },
     "battlezone-rise-of-the-black-dogs-bzrecomp": {
       "name": "Battlezone: Rise of the Black Dogs (BZRecomp)",
@@ -2301,7 +2301,7 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": true
     },
     "beetle-adventure-racing-recomp": {
       "name": "Beetle Adventure Racing! (Recomp)",
@@ -2320,7 +2320,7 @@
         "status": "Active",
         "github_stars": 67
       },
-      "ai_used": null
+      "ai_used": true
     },
     "blast-corps-power-dozer": {
       "name": "Blast Corps (Power Dozer)",
@@ -2339,7 +2339,7 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": true
     },
     "body-harvest-recomp": {
       "name": "Body Harvest (Recomp)",
@@ -2358,7 +2358,7 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": true
     },
     "castlevania-64-cv64-recomp": {
       "name": "Castlevania 64 (CV64-Recomp)",
@@ -2415,7 +2415,7 @@
         "status": "Active",
         "github_stars": 138
       },
-      "ai_used": null
+      "ai_used": true
     },
     "conker-s-bad-fur-day-conker64-recompiled": {
       "name": "Conker's Bad Fur Day (conker64-recompiled)",
@@ -2453,7 +2453,7 @@
         "status": "Active",
         "github_stars": 185
       },
-      "ai_used": null
+      "ai_used": true
     },
     "doom-64-doom64-dc": {
       "name": "Doom 64 (doom64-dc)",
@@ -2491,7 +2491,7 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": true
     },
     "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310": {
       "name": "Duke Nukem: Zero Hour (DukeNukemZeroHourPort (Gillou68310))",
@@ -2567,7 +2567,7 @@
         "status": "Active",
         "github_stars": 33
       },
-      "ai_used": null
+      "ai_used": true
     },
     "glover-glover-decomp": {
       "name": "Glover (glover-decomp)",
@@ -2586,7 +2586,7 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": true
     },
     "glover-recomp": {
       "name": "Glover (Recomp)",
@@ -2624,7 +2624,7 @@
         "status": "Active",
         "github_stars": 189
       },
-      "ai_used": null
+      "ai_used": true
     },
     "goldeneye-007-goldeneye-metal": {
       "name": "GoldenEye 007 (goldeneye-metal)",
@@ -2662,7 +2662,7 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": true
     },
     "goldeneye-007-goldenrecomp": {
       "name": "GoldenEye 007 (GoldenRecomp)",
@@ -2719,7 +2719,7 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": true
     },
     "hybrid-heaven-nintendo-64-ogdanimal": {
       "name": "Hybrid Heaven",
@@ -2738,7 +2738,7 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": true
     },
     "hybrid-heaven-recomp": {
       "name": "Hybrid Heaven (Recomp)",
@@ -2757,7 +2757,7 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": true
     },
     "jet-force-gemini-nintendo-64": {
       "name": "Jet Force Gemini",
@@ -2776,7 +2776,7 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": true
     },
     "kirby-and-the-crystal-shards": {
       "name": "Kirby and the Crystal Shards",
@@ -2890,7 +2890,7 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": true
     },
     "the-legend-of-zelda-ocarina-of-time-oot-psp": {
       "name": "The Legend of Zelda: Ocarina of Time (oot-PSP)",
@@ -2928,7 +2928,7 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": true
     },
     "mario-golf-recomp": {
       "name": "Mario Golf (Recomp)",
@@ -2985,7 +2985,7 @@
         "status": "Active",
         "github_stars": 114
       },
-      "ai_used": null
+      "ai_used": true
     },
     "mario-party-3-recomp": {
       "name": "Mario Party 3 (Recomp)",
@@ -3042,7 +3042,7 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": true
     },
     "mystical-ninja-starring-goemon-nintendo-64": {
       "name": "Mystical Ninja Starring Goemon",
@@ -3061,7 +3061,7 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": true
     },
     "n64-classic-rush-2": {
       "name": "N64 Classic: Rush 2",
@@ -3080,7 +3080,7 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paper-mario-nintendo-64": {
       "name": "Paper Mario",
@@ -3137,7 +3137,7 @@
         "status": "Active",
         "github_stars": 125
       },
-      "ai_used": null
+      "ai_used": true
     },
     "paper-mario-papermariodecompilation": {
       "name": "Paper Mario (PaperMarioDecompilation)",
@@ -3214,7 +3214,7 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-stadium-nintendo-64": {
       "name": "Pokémon Stadium",
@@ -3233,7 +3233,7 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": true
     },
     "pokemon-stadium-pokemonstadium": {
       "name": "Pokémon Stadium (pokemonstadium)",
@@ -3290,7 +3290,7 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": true
     },
     "road-rash-64": {
       "name": "Road Rash 64",
@@ -3309,7 +3309,7 @@
         "status": "Active",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": true
     },
     "destruction-derby-64": {
       "name": "Destruction Derby 64",
@@ -3328,7 +3328,7 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": "Claude Opus 5.5 Medium"
+      "ai_used": true
     },
     "rugrats-scavenger-hunt": {
       "name": "Rugrats: Scavenger Hunt",
@@ -3366,7 +3366,7 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": true
     },
     "san-francisco-rush-2049-nintendo-64": {
       "name": "San Francisco Rush 2049",
@@ -3385,7 +3385,7 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": true
     },
     "snowboard-kids-snowboard-kids-recompiled": {
       "name": "Snowboard Kids (Snowboard Kids: Recompiled)",
@@ -3461,7 +3461,7 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-mario-64-nintendo-64": {
       "name": "Super Mario 64",
@@ -3594,7 +3594,7 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-mario-64-smue5": {
       "name": "Super Mario 64 (SMUE5)",
@@ -3632,7 +3632,7 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-robot-wars-64": {
       "name": "Super Robot Wars 64",
@@ -3651,7 +3651,7 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-smash-bros-nintendo-64": {
       "name": "Super Smash Bros",
@@ -3689,7 +3689,7 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-smash-bros-nintendo-64-beigeceleron": {
       "name": "Super Smash Bros.",
@@ -3708,7 +3708,7 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": true
     },
     "super-smash-bros-battleship": {
       "name": "Super Smash Bros. (BattleShip)",
@@ -3727,7 +3727,7 @@
         "status": "Active",
         "github_stars": 515
       },
-      "ai_used": null
+      "ai_used": true
     },
     "tetrisphere": {
       "name": "Tetrisphere",
@@ -3746,7 +3746,7 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": true
     },
     "toy-story-2-buzz-lightyear-to-the-rescue": {
       "name": "Toy Story 2: Buzz Lightyear to the Rescue",
@@ -3765,7 +3765,7 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": true
     },
     "turok-2-seeds-of-evil": {
       "name": "Turok 2: Seeds of Evil",
@@ -3784,7 +3784,7 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": true
     },
     "turok-rage-wars": {
       "name": "Turok: Rage Wars",
@@ -3803,7 +3803,7 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": true
     },
     "turok-rage-wars-rage-wars-recompiled": {
       "name": "Turok: Rage Wars (rage-wars-recompiled)",
@@ -3841,7 +3841,7 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": true
     },
     "virtual-pro-wrestling-64": {
       "name": "Virtual Pro Wrestling 64",
@@ -3860,7 +3860,7 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wave-race-64-wave-race-64-recomp": {
       "name": "Wave Race 64 (wave-race-64-recomp)",
@@ -3879,7 +3879,7 @@
         "status": "Active",
         "github_stars": 94
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wayne-gretzky-s-3d-hockey": {
       "name": "Wayne Gretzky's 3D Hockey",
@@ -3898,7 +3898,7 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wcw-vs-nwo-world-tour": {
       "name": "WCW vs. nWo: World Tour",
@@ -3917,7 +3917,7 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wcw-nwo-revenge-recomp": {
       "name": "WCW/nWo Revenge (Recomp)",
@@ -3936,7 +3936,7 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": true
     },
     "the-world-is-not-enough-i-could-have-given-you-the-world": {
       "name": "The World Is Not Enough (I Could Have Given You the World)",
@@ -3974,7 +3974,7 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": true
     },
     "wwf-wrestlemania-2000": {
       "name": "WWF WrestleMania 2000",
@@ -3993,7 +3993,7 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": true
     },
     "yoshi-s-story-dinotale": {
       "name": "Yoshi's Story (DinoTale)",
@@ -4012,7 +4012,7 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": true
     },
     "goldeneye-007-gitlab-source-project": {
       "name": "GoldenEye 007 (GitLab source project)",
@@ -4069,7 +4069,7 @@
         "status": "Active",
         "github_stars": 5751
       },
-      "ai_used": null
+      "ai_used": true
     },
     "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian": {
       "name": "The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)",
@@ -4088,7 +4088,7 @@
         "status": "Active",
         "github_stars": 2375
       },
-      "ai_used": null
+      "ai_used": true
     },
     "sin-and-punishment-snprecomp": {
       "name": "Sin and Punishment (SnP Recompiled)",
@@ -4153,7 +4153,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "AeroGauge: A published commit credits Claude as a co-author: [source](https://github.com/alondero/aerogauge-recomp/commit/20e7392f105d97a3adfaabb2fc9a502dfbc2ce00).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4188,7 +4188,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer explicitly says no LLM or generative AI was used: [project README](https://github.com/blackgamma7/Aidyn#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4224,7 +4224,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. BanjoRecomp: The maintainers explicitly state that generative AI was not used: [source](https://github.com/BanjoRecomp/BanjoRecomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4326,7 +4326,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets.",
+          "notes_markdown": "Targets the North American (USA Rev 0) release. Includes matching-build instructions; supply your own ROM and game assets. Source files identify drafts from a [Claude decompilation workspace](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/ad766d3fcd719c73ba779152440f330481241c41/claude-work/README.md), including [this integrated function](https://github.com/TheGh0stShip/BattleTanx-Global-Assault/blob/main/src/code/effects/800DA1D8_debris_piece_update.c#L2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4642,7 +4642,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Diddy Kong Racing: A merged contribution discloses Claude-assisted analysis: [source](https://github.com/DavidSM64/Diddy-Kong-Racing/pull/772).",
           "completion_percent": 97,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4664,7 +4664,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "this is an unreleased game. Uses static recompilation.",
+          "notes_markdown": "this is an unreleased game. Uses static recompilation. Dinosaur Planet: Recompiled: The maintainers explicitly state that generative AI was not used: [source](https://github.com/DinosaurPlanetRecomp/dino-recomp#readme).",
           "completion_percent": 18,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4696,7 +4696,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "[source and releases](https://github.com/Rainchus/Donkey-Kong-64-Recompiled).",
+          "notes_markdown": "[source and releases](https://github.com/Rainchus/Donkey-Kong-64-Recompiled). DK64 Rekongpiled: A team member stated at release that no generative AI was used in the project: [release announcement](https://bsky.app/profile/did:plc:a3lzcpaa2mdgo6zpkkmclbcc/post/3mualqfdwmc2r).",
           "completion_percent": 57,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4887,7 +4887,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Extreme-G native-port project.",
+          "notes_markdown": "Extreme-G native-port project. The developer stated that no AI was used in its creation, as reported at release: [Time Extension](https://www.timeextension.com/news/2026/08/n64-racer-extreme-g-just-got-an-unofficial-pc-port-with-increased-frame-rates-and-so-much-more).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4919,7 +4919,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "G-Diffuser: The author says LLMs assisted with research and code: [source](https://github.com/Zorkats/G-Diffuser#readme).",
           "completion_percent": 95,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4997,7 +4997,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Gex 64: Enter the Gecko: A published commit credits Claude as a co-author: [source](https://github.com/matbourgon/gex64decomp/commit/d2d3e468899d65500e3e6381572cbf9623540f09).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5041,7 +5041,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Disassembly and symbols for the USA version, used by [GGA64Recomp](https://github.com/StopSine/GGA64Recomp). Alternative to the unavailable Fluvian decompilation; this project does not compile game code from C.",
+          "notes_markdown": "Disassembly and symbols for the USA version, used by [GGA64Recomp](https://github.com/StopSine/GGA64Recomp). Alternative to the unavailable Fluvian decompilation; this project does not compile game code from C. Goemon's Great Adventure: A published commit credits Claude as a co-author: [source](https://github.com/StopSine/gga/commit/798aac7a6627331689e27906a2257f8e079e8330).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5063,7 +5063,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The decompilation source attributes part of its collision analysis to DeepSeek: [source](https://github.com/n64decomp/007/blob/master/src/game/propobj.c#L3739).",
           "completion_percent": 71,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5156,7 +5156,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Jet Force Gemini: A merged contribution discloses Codex-assisted decompilation; the README now says the project does not currently accept AI work: [source](https://github.com/Ryan-Myers/Jet-Force-Gemini/pull/2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5406,7 +5406,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Mario Party 3: A published commit credits Claude as a co-author: [source](https://github.com/mariopartyrd/marioparty3/commit/f8a0d70fd5324f35e61a9f0652a41fb2394b4c02).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5549,7 +5549,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. Paper Mario: A published commit credits GitHub Copilot as a co-author: [source](https://github.com/pmret/papermario/commit/fa26a11ece302bc088b98f0209fcf84172f3bd26).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5653,7 +5653,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Pokemon Snap: A published commit credits Claude as a co-author: [source](https://github.com/ethteck/pokemonsnap/commit/63d245f179ff17d7f7463d7573cb710aba8db5df).",
           "completion_percent": 96,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5824,7 +5824,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "N64Recomp and RT64 port for Windows, with experimental Linux and Steam Deck builds that the maintainer has not tested. Requires a Japanese ROM or a supported English fan translation. Beta; widescreen and frame rates above 30 fps are experimental and can expose missing scenery.",
+          "notes_markdown": "N64Recomp and RT64 port for Windows, with experimental Linux and Steam Deck builds that the maintainer has not tested. Requires a Japanese ROM or a supported English fan translation. Beta; widescreen and frame rates above 30 fps are experimental and can expose missing scenery. Sin and Punishment (SnP Recompiled): A published commit credits Claude as a co-author: [source](https://github.com/wootbeer/snprecomp/commit/fdea8a17814c58cc63ed5d4f53759af5c07fdd10).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5850,7 +5850,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The maintainer documents using coding agents, including Claude, during this matching decompilation: [workflow article](https://blog.chrislewis.au/using-coding-agents-to-decompile-nintendo-64-games/).",
           "completion_percent": 69,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -5887,7 +5887,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The author of a merged symbol-naming contribution disclosed using LLMs to check findings and help with phrasing: [contributor statement](https://github.com/mkst/sssv/pull/131#issuecomment-4057246880).",
           "completion_percent": 77,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6004,7 +6004,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. sm64coopdx: A merged contribution disclosed AI-generated translations: [source](https://github.com/coop-deluxe/sm64coopdx/pull/1240#issuecomment-4436846865).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6074,7 +6074,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Super Smash Bros.: A published commit credits Claude as a co-author: [source](https://github.com/vetritheretri/ssb-decomp-re/commit/452d32f53c1baa72cf4a178cff6aa266129017f2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6118,7 +6118,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. A Copilot co-author line in this [contribution](https://github.com/zeldaret/oot/pull/2669) dates to a period when [a VS Code bug](https://github.com/microsoft/vscode/issues/314311) could add it without Copilot use; AI use is unconfirmed.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6140,7 +6140,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Completed",
+          "notes_markdown": "Completed. Zelda64Recomp: The maintainers explicitly state that generative AI was not used: [source](https://github.com/Zelda64Recomp/Zelda64Recomp#readme). A Copilot co-author line in this [contribution](https://github.com/zeldaret/mm/pull/1881) dates to a period when [a VS Code bug](https://github.com/microsoft/vscode/issues/314311) could add it without Copilot use; AI use is unconfirmed.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6251,7 +6251,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Virtual Pro Wrestling 2: Ōdō Keishō: A merged contribution includes a commit described as a Codex-generated pull request: [source](https://github.com/AKI-Club/vpw2/commit/ce92e580a8f5f4878499615117cfd3cd3666cf91).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6273,7 +6273,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Wave Race 64: A merged matching contribution credits Claude as a co-author: [source](https://github.com/LLONSIT/Wave-Race-64/pull/44).",
           "completion_percent": 49,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6330,7 +6330,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation targets the North American release and requires a user-supplied ROM. The separate N64Recomp project provides Windows and Linux builds; its completion has not been independently verified.",
+          "notes_markdown": "Matching decompilation targets the North American release and requires a user-supplied ROM. The separate N64Recomp project provides Windows and Linux builds; its completion has not been independently verified. Pilotwings 64: The maintainer says the recompilation was made with Claude Code: [source](https://github.com/danielgomesvieira2000/pilotwings-64-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6424,7 +6424,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "AI-assisted development is flagged by the source catalogue.",
+          "notes_markdown": "AI-assisted development is flagged by the source catalogue. Body Harvest: A published commit credits GitHub Copilot as a co-author: [source](https://github.com/jaytheham/body-harvest-decompilation/commit/d7021fd385a03dcf65158846785be8c9115ed2a9).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6534,7 +6534,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Conker's Bad Fur Day (DevOldSchool): A published commit credits Claude as a co-author: [source](https://github.com/DevOldSchool/conkers-bfd-decomp/commit/9dad677a7f3786da7d66870f0ebce9fc0824e176).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6556,7 +6556,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Diddy Kong Racing (Recomp): A merged contribution discloses AI assistance on the build scripts: [source](https://github.com/ThatGuyMcd/DKR-R/pull/15).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6578,7 +6578,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Ogre Battle 64: Person of Lordly Caliber: The maintainer describes the project as an experiment using DeepSeek: [source](https://github.com/lfarroco/ogre-battle-64-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6600,7 +6600,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The credits say Claude did the bulk of the writing: [credits](https://github.com/DabDavis/perfect-dark-dabs-mod/blob/dabs-mod/CREDITS.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6622,7 +6622,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Pokemon Snap (Recomp): The author describes using Claude Code to build this port: [source](https://github.com/JackandBeans/Snap64Recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6666,7 +6666,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Wave Race 64 (Recomp): The project credits Claude and Codex for development: [source](https://github.com/elliotttate/wave-race-64-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6688,7 +6688,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation of the Japanese Nintendo 64 release.",
+          "notes_markdown": "Matching decompilation of the Japanese Nintendo 64 release. Shiren the Wanderer 2: A source-file comment credits GPT-6 Astra and Claude Opus for decompilation work: [source](https://github.com/mschienbein/shiren2-decomp/blob/main/src/units/main_14400/ui/menu/func_80099478.cpp#L5).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6710,7 +6710,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation of the USA Nintendo 64 release.",
+          "notes_markdown": "Matching decompilation of the USA Nintendo 64 release. The project documents Claude and other model runs for matching functions: [project README](https://github.com/southcitycapture/hybridheaven-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6732,7 +6732,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Work-in-progress Nintendo 64 decompilation.",
+          "notes_markdown": "Work-in-progress Nintendo 64 decompilation. Paperboy: A published commit credits Claude as a co-author: [source](https://github.com/marijnvdwerf/paperboy-n64/commit/44692a4dba75a0c7a1440cfd3219144d51ef91a8).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6780,7 +6780,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Matching decompilation distinct from sonicdcer/sk. US C reconstruction is in progress; the Japanese build currently uses extracted assembly. Requires a user-supplied ROM.",
+          "notes_markdown": "Matching decompilation distinct from sonicdcer/sk. US C reconstruction is in progress; the Japanese build currently uses extracted assembly. Requires a user-supplied ROM. Snowboard Kids (cdlewis matching decompilation): A merged contribution credits Claude as a co-author: [source](https://github.com/cdlewis/snowboardkids-decomp/pull/28).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6802,7 +6802,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The project describes its decompilation as mostly driven by Claude: [project README](https://github.com/djsaunde/1080-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6818,7 +6818,7 @@
           "project": "animal-forest-animal-forest-psp",
           "name_markdown": "[Animal Forest (animal_forest_psp)](https://github.com/bruder-grimm/animal_forest_psp)",
           "images": [],
-          "notes_markdown": "Port of animal forest to the psp",
+          "notes_markdown": "Port of animal forest to the psp. Animal Forest (animal_forest_psp): The maintainer describes substantial Claude assistance: [source](https://github.com/bruder-grimm/animal_forest_psp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6840,7 +6840,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Static Recompilation of Automobili Lamborghini for the N64",
+          "notes_markdown": "Static Recompilation of Automobili Lamborghini for the N64. Automobili Lamborghini: A published commit credits Claude as a co-author: [source](https://github.com/alondero/automobililamborghini-recomp/commit/5d864f51ab2d9ac3e1ea524733b0b7ae0c8574c3).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6910,7 +6910,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer.",
+          "notes_markdown": "A Banjo-Kazooie PC port with Anchor multiplayer, romhack and multi-language support, and a built-in randomizer. Banjo-Kazooie (Lighthouse): The maintainers disclose AI assistance for information gathering: [source](https://github.com/HarbourMasters/Lighthouse#ai-disclosure).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -6980,7 +6980,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "BattleTanx: Global Assault (1999 N64) Recomp and Port",
+          "notes_markdown": "BattleTanx: Global Assault (1999 N64) Recomp and Port. BattleTanx: Global Assault (BTGARecomp): A published commit credits Claude as a co-author: [source](https://github.com/wootbeer/btgarecomp/commit/4afa89bcb21f38a010f63726ecf9f716fcb04fab).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7006,7 +7006,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Battlezone: Rise of the Black Dogs N64 Recomp",
+          "notes_markdown": "Battlezone: Rise of the Black Dogs N64 Recomp. Battlezone: Rise of the Black Dogs (BZRecomp): A published commit credits Claude as a co-author: [source](https://github.com/wootbeer/bzrecomp/commit/89be9674c28c5a488addb2f8173efc5862ef0dd6).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7032,7 +7032,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Static recompilation port of Beetle Adventure Racing (N64) to native PC, with widescreen, high-FPS and modern input support. Requires your own ROM.",
+          "notes_markdown": "Static recompilation port of Beetle Adventure Racing (N64) to native PC, with widescreen, high-FPS and modern input support. Requires your own ROM. Beetle Adventure Racing! (Recomp): The maintainer discloses Claude Code assistance for continued development: [source](https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7058,7 +7058,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Power Dozer - native Blast Corps PC port using static recompilation. Linux and Windows; bring your own ROM.",
+          "notes_markdown": "Power Dozer - native Blast Corps PC port using static recompilation. Linux and Windows; bring your own ROM. Blast Corps (Power Dozer): The maintainer discloses Codex assistance with development and research: [source](https://github.com/djultra64/Power-Dozer#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7080,7 +7080,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Body Harvest: Recompiled - a native PC port of Body Harvest (N64) built with N64Recomp, RT64 and RecompFrontend. Bring your own ROM.",
+          "notes_markdown": "Body Harvest: Recompiled - a native PC port of Body Harvest (N64) built with N64Recomp, RT64 and RecompFrontend. Bring your own ROM. Body Harvest (Recomp): The maintainer says the recompilation was built with Claude Code: [source](https://github.com/danielgomesvieira2000/body-harvest-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7154,7 +7154,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Recompile Castlevania: Legacy of Darkness (N64) into a native executable using N64Recomp",
+          "notes_markdown": "Recompile Castlevania: Legacy of Darkness (N64) into a native executable using N64Recomp. A published development commit links a Claude Code session: [source](https://github.com/fliperama86/cvlod_recomp/commit/60b40b5561c73389d4e5c317749deab601f32644).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7198,7 +7198,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Golden Balloon - a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM.",
+          "notes_markdown": "Golden Balloon - a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM. Diddy Kong Racing (goldenballoon): A merged contribution received an automated Codex code review: [source](https://github.com/akratch/goldenballoon/pull/3#discussion_r3698943542).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7242,7 +7242,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Dora64 native PC recompilation with ROM-based source generation",
+          "notes_markdown": "Dora64 native PC recompilation with ROM-based source generation. Doraemon: Nobita to Mittsu no Seireiseki (Recomp): The maintainer discloses extensive ChatGPT and Codex assistance: [source](https://github.com/citrongames/Dora64#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7324,7 +7324,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial 3DS Port of F-Zero X based on G-Diffuser &amp; the decompilation of inspectredc",
+          "notes_markdown": "Unofficial 3DS Port of F-Zero X based on G-Diffuser &amp; the decompilation of inspectredc The author documents Claude Code creating and validating this F-Zero X 3DS port: [author notes](https://github.com/cruxxxxxx/gdx-3ds#authors-notes).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7346,7 +7346,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "The project describes the decompilation as mostly driven by Claude: [project README](https://github.com/djsaunde/glover-decomp-1#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7390,7 +7390,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "GoldenEye 007, native for iPhone, iPad, and Apple Silicon Mac. Metal, touch controls, and user-supplied retail data.",
+          "notes_markdown": "GoldenEye 007, native for iPhone, iPad, and Apple Silicon Mac. Metal, touch controls, and user-supplied retail data. GoldenEye 007: The maintainer discloses substantial AI assistance in GoldenPad development: [source](https://github.com/chrissotraidis/goldenpad#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7434,7 +7434,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "GoldenEye 007 (GoldenEye-Recomp-Server (online play for GoldenEye recomp)): A published commit credits Claude as a co-author: [source](https://github.com/SunJaycy/GoldenEye-Recomp-Server/commit/225c64eede97e7bfec977d63bcb0cc9454bf30d7).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7500,7 +7500,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Hybrid Heaven: Recompiled - a native PC port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM.",
+          "notes_markdown": "Hybrid Heaven: Recompiled - a native PC port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM. Hybrid Heaven: The maintainer says this recompilation was built with Claude Code: [source](https://github.com/danielgomesvieira2000/hybrid-heaven-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7526,7 +7526,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM.",
+          "notes_markdown": "Native port of Hybrid Heaven (N64) via static recompilation. Bring your own ROM. Hybrid Heaven: A published commit credits Claude as a co-author: [source](https://github.com/ogdanimal/HybridHeaven-Recomp/commit/faef6b4da84a720555d1cd809487b332cad9329f).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7552,7 +7552,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial AI native PC port of Hybrid Heaven (N64) via static recompilation, featuring a purist UI preserving the original design. Multi-language: EN, ES, CA,...",
+          "notes_markdown": "Unofficial AI native PC port of Hybrid Heaven (N64) via static recompilation, featuring a purist UI preserving the original design. Multi-language: EN, ES, CA,... Hybrid Heaven (Recomp): The [repository description](https://github.com/hunkstalker/hybrid-heaven-recomp) calls this an AI native PC port; the project instructions identify a DeepSeek model: [source](https://github.com/hunkstalker/hybrid-heaven-recomp/blob/main/AGENTS.md#L84).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7574,7 +7574,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Jet Force Gemini on the N64 ported to PC &amp; Steam Deck. Supports Mouse &amp; Keyboard, 60+ FPS and HD texture support. 100% Playable.",
+          "notes_markdown": "Jet Force Gemini on the N64 ported to PC &amp; Steam Deck. Supports Mouse &amp; Keyboard, 60+ FPS and HD texture support. 100% Playable. Jet Force Gemini: The maintainer describes this recompilation as Claude-assisted: [source](https://github.com/VibinToast/JetForceGemini-Recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7700,7 +7700,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A port of the Ocarina of Time decompilation to the Sega Dreamcast.",
+          "notes_markdown": "A port of the Ocarina of Time decompilation to the Sega Dreamcast. The Legend of Zelda: Ocarina of Time (oot-dc): The authors disclose LLM assistance in this Dreamcast port: [source](https://github.com/jnmartin84/oot-dc#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7738,7 +7738,7 @@
           "project": "mabecs-international-superstar-soccer-2000",
           "name_markdown": "[Mabecs International Superstar Soccer 2000](https://github.com/Mabec-games/iss2000-recomp)",
           "images": [],
-          "notes_markdown": "Native Windows &amp; Linux widescreen port of International Superstar Soccer 2000 (N64) via static recompilation",
+          "notes_markdown": "Native Windows &amp; Linux widescreen port of International Superstar Soccer 2000 (N64) via static recompilation. Mabecs International Superstar Soccer 2000: A published commit credits Claude as a co-author: [source](https://github.com/Mabec-games/iss2000-recomp/commit/115a8339cedbd5a240e2f6f1f0913f339f529020).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7808,7 +7808,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Android",
+          "notes_markdown": "Android. Mario Kart 64 (SpaghettiKart [Android Port]): A published commit credits Claude as a co-author: [source](https://github.com/izzy2lost/SpaghettiKart/commit/04fbcfd91a3d4c980af2bde168c0543611b4c804).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7878,7 +7878,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Mischief Makers (Recomp): A published commit credits Claude as a co-author: [source](https://github.com/ThiagoLira/trouble-makers-pc-recomp/commit/e19fdca3e0599c5862fc8ff48171e3ae7e2f041e).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7904,7 +7904,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Android port of Mystical Ninja Starring Goemon via static recompilation, with RT64 Vulkan rendering. Bring your own ROM.",
+          "notes_markdown": "Android port of Mystical Ninja Starring Goemon via static recompilation, with RT64 Vulkan rendering. Bring your own ROM. Mystical Ninja Starring Goemon: A published commit credits Claude as a co-author: [source](https://github.com/ogdanimal/Goemon64Recomp-Android/commit/f2614817ce51aebf15069a8b0f032139cc5aff25).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7920,7 +7920,7 @@
           "project": "n64-classic-rush-2",
           "name_markdown": "[N64 Classic: Rush 2](https://github.com/bryantmh/rush2recompiled)",
           "images": [],
-          "notes_markdown": "A recompilation of the N64 Classic: Rush 2",
+          "notes_markdown": "A recompilation of the N64 Classic: Rush 2. N64 Classic: Rush 2: A published commit credits Claude as a co-author: [source](https://github.com/bryantmh/rush2recompiled/commit/3e93119abe068d3bfaf6ad98a95fa2bea38abdc3).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -7986,7 +7986,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "[MIRROR] Base for making Paper Mario (N64) mods, built on the decompilation",
+          "notes_markdown": "[MIRROR] Base for making Paper Mario (N64) mods, built on the decompilation. Paper Mario (papermario-dx (engine fork)): A published commit credits Claude as a co-author: [source](https://github.com/bates64/papermario-dx/commit/c43bda4f60074e63dfd7fa081e460edc57ff24e4).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8074,7 +8074,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Pokémon Snap, statically recompiled for iPhone, iPad, and Apple Silicon Mac.",
+          "notes_markdown": "Pokémon Snap, statically recompiled for iPhone, iPad, and Apple Silicon Mac. Pokémon Snap: The maintainer discloses substantial AI assistance in SnapPad development: [source](https://github.com/chrissotraidis/snappad#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8096,7 +8096,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, and ROM-free builds.",
+          "notes_markdown": "Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, and ROM-free builds. Pokémon Stadium: The maintainer discloses substantial AI assistance in AnnePad development: [source](https://github.com/chrissotraidis/annepad#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8162,7 +8162,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Quest 64 (Quest 64 Tale: Recompiled): The project credits Codex for implementation and debugging: [source](https://github.com/boricuapab/quest64tale-recompiled#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8184,7 +8184,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Unofficial Road Rash 64 PC recompilation with 60 FPS presentation, MAX LOD, widescreen, custom music and experimental multiplayer. Requires your own ROM.",
+          "notes_markdown": "Unofficial Road Rash 64 PC recompilation with 60 FPS presentation, MAX LOD, widescreen, custom music and experimental multiplayer. Requires your own ROM. The project credits ChatGPT/Codex AI assistance and requires AI assistance to be disclosed: [credits](https://github.com/linkssy2/RoadRash64Recompiled/blob/main/CREDITS.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8200,7 +8200,7 @@
           "project": "destruction-derby-64",
           "name_markdown": "[Destruction Derby 64](https://github.com/murkantor/Destruction-Decomp-64)",
           "images": [],
-          "notes_markdown": "Matching decompilation for the Nintendo 64 USA release; the repository reports a byte-for-byte matching build and approximately 99% of code by size in C.",
+          "notes_markdown": "Matching decompilation for the Nintendo 64 USA release; the repository reports a byte-for-byte matching build and approximately 99% of code by size in C. The repository describes the decompilation as a Claude Opus 5.5 hands-off experiment: [project README](https://github.com/murkantor/Destruction-Decomp-64#readme).",
           "completion_percent": 99,
           "completion_qualifier": "approximately",
           "completion_metric": "code by size",
@@ -8238,7 +8238,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Decompilation project for the N64 game San Francisco Rush 2049",
+          "notes_markdown": "Decompilation project for the N64 game San Francisco Rush 2049. A commit in the locally cloned default branch credits Claude as a co-author; the [repository](https://github.com/cabi24/SFRush2049-decomp) is currently unavailable.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8260,7 +8260,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "San Francisco Rush 2049: The maintainer says AI agents wrote much of this recompilation: [source](https://github.com/amazingalek/rush-2049-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8356,7 +8356,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64",
+          "notes_markdown": "Playable static recompilation of Star Wars: Shadows of the Empire for Nintendo 64. Star Wars: Shadows of the Empire (Recomp): A published commit credits Claude as a co-author: [source](https://github.com/GTTeancum/SotE-Recomp/commit/b0bbb7c1fc94c9c39412ae3a43183f608edb22ea).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8510,7 +8510,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Here is the link ig, took a while to do this, believe me",
+          "notes_markdown": "Here is the link ig, took a while to do this, believe me. Super Mario 64 (SM64-PC-Port-WebGL): A published commit credits GitHub Copilot as a co-author: [source](https://github.com/NotAn127/SM64-PC-Port-WebGL/commit/2cde09e843d8ff3ce4a3dc17e70874cb425d6e64).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8548,7 +8548,7 @@
           "project": "super-mario-64-in-scratch-sm64-scratch",
           "name_markdown": "[Super Mario 64 in Scratch (sm64-scratch)](https://github.com/naegoxdev/sm64-scratch)",
           "images": [],
-          "notes_markdown": "A Super Mario 64 demake built in Scratch",
+          "notes_markdown": "A Super Mario 64 demake built in Scratch. Super Mario 64 in Scratch (sm64-scratch): The project discloses substantial AI assistance in adapting the game to Scratch: [source](https://github.com/naegoxdev/sm64-scratch#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8564,7 +8564,7 @@
           "project": "super-robot-wars-64",
           "name_markdown": "[Super Robot Wars 64](https://github.com/dyzz/srw64-recomp)",
           "images": [],
-          "notes_markdown": "Experimental Super Robot Wars 64 native recompilation, with Japanese/Chinese text and optional HD presentation.",
+          "notes_markdown": "Experimental Super Robot Wars 64 native recompilation, with Japanese/Chinese text and optional HD presentation. The project documents Codex image_gen-created assets and preserves the generation records: [asset README](https://github.com/dyzz/srw64-recomp/blob/main/assets/README.md).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8612,7 +8612,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Nintendo DS source port of Super Smash Bros. 64 via the BattleShip decomp.",
+          "notes_markdown": "Nintendo DS source port of Super Smash Bros. 64 via the BattleShip decomp. Super Smash Bros.: A published commit credits Claude as a co-author: [source](https://github.com/rockenrooster/Smash64DS_Port/commit/8b392340bf81500570207aed54cfbbc0df3fb406).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8634,7 +8634,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A fully native port of Super Smash Bros. (N64) for the Sega Dreamcast.",
+          "notes_markdown": "A fully native port of Super Smash Bros. (N64) for the Sega Dreamcast. Super Smash Bros.: The maintainer explicitly describes heavy LLM use in this port: [source](https://github.com/beigeceleron/ssb64-dc#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8656,7 +8656,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A smashin' port for PC, Mac, and Linux!",
+          "notes_markdown": "A smashin' port for PC, Mac, and Linux! The maintainer says the project was developed with Claude through its v0.3-beta release: [project README](https://github.com/JRickey/BattleShip#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8678,7 +8678,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "A community Tetrisphere PC port for Linux and Windows through static recompilation.",
+          "notes_markdown": "A community Tetrisphere PC port for Linux and Windows through static recompilation. Tetrisphere: The maintainer discloses Codex assistance with development and research: [source](https://github.com/djultra64/Blocksphere#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8700,7 +8700,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "SpaceRanger - a native PC port of Toy Story 2: Buzz Lightyear to the Rescue (N64) via static recompilation. Requires your own ROM.",
+          "notes_markdown": "SpaceRanger - a native PC port of Toy Story 2: Buzz Lightyear to the Rescue (N64) via static recompilation. Requires your own ROM. Toy Story 2: Buzz Lightyear to the Rescue: The maintainer credits Claude and ChatGPT/Codex for development: [source](https://github.com/Capridog/SpaceRanger#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8722,7 +8722,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine.",
+          "notes_markdown": "Work-in-progress decompilation of Turok 2: Seeds of Evil (N64). Stepping stone toward native macOS/Android ports of the Acclaim Studios London engine. The project identifies itself as developed with Claude Code (Opus 5): [project README](https://github.com/mgrz18/turok2-decomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8744,7 +8744,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Turok: Rage Wars Recomp and Modern PC Port",
+          "notes_markdown": "Turok: Rage Wars Recomp and Modern PC Port. Turok: Rage Wars: A published commit credits Claude as a co-author: [source](https://github.com/wootbeer/PaxDino/commit/edfac2ea7bd941ce5df8e04afe930d92711a392b).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8786,7 +8786,7 @@
           "project": "virtual-pro-wrestling-2",
           "name_markdown": "[Virtual Pro Wrestling 2](https://github.com/jessetbh/VPW2Recomp)",
           "images": [],
-          "notes_markdown": "",
+          "notes_markdown": "A published development commit links a Claude Code session: [source](https://github.com/jessetbh/VPW2Recomp/commit/0531954388c429d9b44be39fda5e9d2764d263d6).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8808,7 +8808,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/VPW64Recomp/commit/ae6133a63911d62cbc79f266f10320632f46c9b5).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8834,7 +8834,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'.",
+          "notes_markdown": "An AI-coded PC port of the Nintendo 64 game 'Wave Race 64'. Wave Race 64 (wave-race-64-recomp): The maintainer credits Claude Code for development: [source](https://github.com/danielgomesvieira2000/wave-race-64-recomp#readme).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8860,7 +8860,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of Wayne Gretzky's 3D Hockey (N64) via N64Recomp static recompilation",
+          "notes_markdown": "Native PC port of Wayne Gretzky's 3D Hockey (N64) via N64Recomp static recompilation. Wayne Gretzky's 3D Hockey: A published commit credits Claude as a co-author: [source](https://github.com/geno55/wg3d-recomp/commit/f7de1d6f15f680e995c7894e405361e363a3f1ef).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8882,7 +8882,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp/commit/3a8ca91d2124c86e70854c8000defcc52cd519c3).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8908,7 +8908,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WCWnWoRevengeRecomp/commit/36f00fca5e084f2db28939a74fa287e4997c0273).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8950,7 +8950,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WWFNoMercyRecomp/commit/f52950baec08f1b462c372d0677bdcc3185d4f2f).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -8976,7 +8976,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM.",
+          "notes_markdown": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM. A published development commit links a Claude Code session: [source](https://github.com/jessetbh/WWFWrestleMania2000Recomp/commit/4f041770e685b539f81db495f194ed4ac63ba8d2).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -9002,7 +9002,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Yoshi's Story Recomp",
+          "notes_markdown": "Yoshi's Story Recomp. Yoshi's Story (DinoTale): A published commit credits Claude as a co-author: [source](https://github.com/wootbeer/dinotale/commit/0bd9635a0db14a7e2e31602a6ec33b54714756e3).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -9062,7 +9062,7 @@
           "project": "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian",
           "name_markdown": "[The Legend of Zelda: Ocarina of Time (Ship of Harkinian)](https://github.com/HarbourMasters/Shipwright)",
           "images": [],
-          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM.",
+          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM. The Legend of Zelda: Ocarina of Time (Ship of Harkinian): A published commit credits Claude as a co-author: [source](https://github.com/HarbourMasters/Shipwright/commit/9308ba794023f6cf05fdbc1f2c1a8bd63a52e80d).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -9078,7 +9078,7 @@
           "project": "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian",
           "name_markdown": "[The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)](https://github.com/2ship2harkinian/2ship2harkinian)",
           "images": [],
-          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM.",
+          "notes_markdown": "Native port for Windows, Linux and macOS. Requires a supported user-supplied ROM. The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian): A merged contribution discloses Claude and Codex assistance: [source](https://github.com/2ship2harkinian/2ship2harkinian/pull/2000).",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
