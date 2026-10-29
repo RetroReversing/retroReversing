@@ -24,7 +24,7 @@ tags:
 - industry
 - datel
 editlink: ../categories/companies/datel.md
-updatedAt: '2024-11-24'
+updatedAt: '2026-10-29'
 ---
 
 # Introduction
@@ -32,16 +32,16 @@ updatedAt: '2024-11-24'
     <img data-image-full="https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-  Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. 
+  Datel Design & Development Ltd. was founded in 1980.
    
-   They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. 
+   Its unofficial peripherals, cheat devices and homebrew tools repeatedly tested console makers' licensing boundaries.
    
-   They are one of the few companies who know how to press disks that run on PS1, PS2 and GameCube without using an official disc pressing plant.
+   Datel also sold pressed discs that booted on the PS1, PS2 and GameCube without an official console license. That feat, and what it means for preserving the discs, runs through the products below.
  </div>
 </section> 
 
 
-This page is an extension of our post on twitter:
+This page grew out of our Twitter thread about Datel's unofficial PS2 discs:
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Let us take a moment to appreciate the work Datel did 20 years ago, reverse engineering and developing their own playable unofficial PS2 DVD discs which contained the watermark and decryption key required to boot code which could not be done with a consumer DVD burner. A 🧵… <a href="https://t.co/CP0NQORwwp">pic.twitter.com/CP0NQORwwp</a></p>&mdash; 🕹 RetroReversing - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1478163167335395331?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote>
 
 ---
@@ -69,8 +69,7 @@ Not as useful as Action Replay as it pretty much completes the game for you, hen
 
 One cool feature was that the cartridge has a card slot on it for "Killer cards" which were supposed to be cards that add support for other games but sadly none were ever released. This would be a cool reversing project to see if anyone can implement a working card for the Game Killer!
 
-For more information on the Game Killer and the 6 in built games:
-http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
+For the six built-in games and more photographs, see [NES World's Game Killer article](http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller).
 
 ---
 # Nintendo Game Boy Original (DMG)
@@ -246,13 +245,15 @@ Datel also has the technology to create GameCube discs and created a version of 
 An 8MB GameCube Memory Card that allows loading homebrew applications without any modifications of the hardware [^1]! The Memory Card connects to a PC via a USB cable allowing easy loading of files onto the card.
 
 ## Emulating with Dolphin
-The Dolphin website has an excellent article on how they managed to get the unlicensed Datel games to run in their emulator.
-[Dolphin Emulator - Datel: Unlicensed Product Showcase](https://dolphin-emu.org/blog/2015/03/09/datel-unlicensed-products-showcase/)
+The [Dolphin team's Datel product investigation](https://dolphin-emu.org/blog/2015/03/09/datel-unlicensed-products-showcase/) explains why booting these discs in an emulator is a problem in stages: first obtaining a usable dump, then reproducing the software's expectations of the GameCube BIOS and audio hardware [^2].
 
 > The biggest hurdle of getting these games to run in Dolphin has nothing to do with the emulator whatsoever. To get to that point, the title has to be dumped so Dolphin can read it. The problem is that most Datel products have discs filled with mostly garbage that will error out on any conventional dumper you throw at them.
 > Next, these titles don't boot up in Dolphin without a few settings usually reserved for homebrew. They absolutely need the GameCube BIOS because the software abuses part of the BIOS in order to boot up and then use its exception handlers. LLE audio is also required or else they'll crash spectacularly.
 
-It would be really interesting to find out and document what bugs in the BIOS these games abuse. Also it would be good to know why the garbage data causes most dumpers to fail and how it can be solved.
+### Why is a normal GameCube disc dump not enough?
+Dolphin reports that much of some Datel discs is filled with data that makes conventional dumpers fail. Greyrogue located the relevant data on the *Advance Game Port + Construction Kit* disc; crediar then wrote dedicated dumpers for *Advance Game Port*, *Action Replay* and *Max Drive Pro*. *MaxPlay* did not need its own dumper [^2]. That is a useful distinction when a failed dump looks like an emulator problem: the image may be incomplete before Dolphin even starts.
+
+The same investigation found that these titles rely on the original GameCube BIOS and its exception handlers, plus low-level audio emulation. It also documented product-specific snags, such as *MaxPlay* and *Action Replay* hanging with memory cards inserted [^2]. This does not establish exactly which BIOS behaviour Datel relied on, or why each disc's filler defeats a particular dumper. Those details would still make a worthwhile reverse-engineering project.
 
 ---
 # All Posts
@@ -264,3 +265,4 @@ It would be really interesting to find out and document what bugs in the BIOS th
 ---
 # References
 [^1]: [MAX Drive Pro -A must for the homebrew programmer - run executable code on your GameCube.](https://web.archive.org/web/20040803173400/http://us.codejunkies.com/shop/product.asp?c=US&cr=USD&cs=$&r=0&l=1&ProdID=297)
+[^2]: [JMC47, “Datel: Unlicensed Product Showcase,” Dolphin Emulator (2015; updated 2024)](https://dolphin-emu.org/blog/2015/03/09/datel-unlicensed-products-showcase/)
