@@ -2093,6 +2093,18 @@
         "status": "Inactive"
       },
       "ai_used": null
+    },
+    "sly-2-band-of-thieves-rogue-byte": {
+      "name": "Sly 2: Band of Thieves (Rogue Byte)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/Blightwidow/rogue-byte",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -4595,6 +4607,28 @@
             {
               "name": "Decompilation",
               "url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation"
+            }
+          ]
+        },
+        {
+          "project": "sly-2-band-of-thieves-rogue-byte",
+          "name_markdown": "[Sly 2: Band of Thieves (Rogue Byte)](https://github.com/Blightwidow/rogue-byte)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Sly%202%20-%20Band%20of%20Thieves%20%28USA%29.png",
+              "alt": "US PlayStation 2 Sly 2: Band of Thieves front box art showing Sly, Bentley and Murray",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress byte-matching reconstruction of the USA/NTSC-U PlayStation 2 executable (SCUS_973.16) into readable C. Requires your own supported executable and separately obtained proprietary compiler. Rebuilds the PS2 image from compiled C and remaining generated assembly; matching the executable does not mean all functions are decompiled. Build tooling supports Linux x86-64 and macOS ARM64, with WSL or Docker elsewhere. This project is not a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Blightwidow/rogue-byte"
             }
           ]
         }
