@@ -968,6 +968,18 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": true
+    },
+    "pokemon-dash-liolu": {
+      "name": "Pokemon Dash (liolu)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/pokemon-dash-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -2147,6 +2159,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/RonyxDumb/mkds"
+            }
+          ]
+        },
+        {
+          "project": "pokemon-dash-liolu",
+          "name_markdown": "[Pokemon Dash (liolu)](https://github.com/liolu/pokemon-dash-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Pokemon%20Dash%20%28USA%29.png",
+              "alt": "US Nintendo DS Pokemon Dash front box art showing Pikachu racing ahead of other Pokemon",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA Nintendo DS release (APDE), using Metrowerks mwccarm. Requires your own decrypted USA ROM. The compiler version remains under investigation; raw m2c output still needs cleanup and reused routines are not yet merged into source files. This project reconstructs the DS game rather than providing a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/pokemon-dash-decomp"
             }
           ]
         }
