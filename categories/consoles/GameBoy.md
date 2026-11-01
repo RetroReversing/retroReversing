@@ -21,7 +21,7 @@ recommend:
   - ds
 editlink: ../categories/consoles/GameBoy.md
 excerpt: Hub page for Game Boy and Game Boy Color hardware, development, reverse engineering, and source code resources
-updatedAt: '2026-04-26'
+updatedAt: '2026-11-01'
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
@@ -29,9 +29,7 @@ redirect_from:
 ---
 
 # Introduction
-The original Game Boy (DMG) and Game Boy Color (GBC) are good reverse-engineering targets because the software stack is still small enough to reason about directly, while the hardware is rich in cartridge mappers, boot-time behaviour, audio quirks, and late-1990s toolchains. They sit at a useful midpoint between 8-bit home consoles and later handhelds, so platform details are still visible instead of disappearing behind large SDKs and operating systems.
-
-This page serves two roles. It groups the RetroReversing posts related to the Game Boy family, and it curates a set of external references that are worth keeping close while you work through ROMs, schematics, tools, or source code.
+The original Game Boy (DMG) and Game Boy Color (GBC) reward close reading of both ROM code and cartridge hardware. A bank switch can change what a familiar address means; a boot-ROM check can stop a patched game before its own code runs. This hub collects our Game Boy posts and outside references for following those details through schematics, development tools, games and accessories.
 
 ## Quick Technical Reference
 The quick reference below is useful when choosing an emulator, debugger, or disassembly target:
@@ -44,12 +42,17 @@ RAM | DMG has 8 KB work RAM and 8 KB VRAM; GBC expands the memory available to s
 Audio | Four hardware sound channels
 Cartridges | Commonly include ROM plus mapper hardware such as MBC controllers, battery-backed RAM, or RTC logic
 
+### What can a Game Boy ROM header tell you about its cartridge?
+Nintendo's [*Game Boy Programming Manual*](https://files.nekoblog.org/uploads/pdf/39999184-GameBoy-Programming-Manual.pdf) assigns three consecutive header bytes to the board's parts configuration: `$0147` records the cartridge type (including MBC, RAM, battery, timer or rumble variants), `$0148` records ROM size, and `$0149` records external RAM size [^11]. [Pan Docs' cartridge-header table](https://github.com/gbdev/pandocs/blob/master/src/The_Cartridge_Header.md) is a convenient decoding reference, including types added beyond the manual's examples [^12].
+
+These bytes are the first clue when a disassembly jumps through `$4000-$7FFF`: the same CPU address can expose different ROM banks as the cartridge controller changes state. Treat the header as a claim to check against the actual image and board. Our [*Mr Do!* source analysis](/mrdo), for example, compares a ROM-only source header with a banked MBC1 retail build; copying the source header into the retail image would describe the wrong cartridge.
+
 ---
 # Hardware
-Understanding the platform before opening a ROM saves time. The Game Boy family is simple enough to study at board-level, but it still has enough cartridge and accessory variation that hardware context matters.
+The console board, cartridge controller and optional accessories each affect what a ROM can do. Start with the hardware relevant to the particular game or peripheral you are investigating.
 
 ## Hardware Architecture
-If you want a broad architectural overview before going deeper, Copetti's write-up is one of the best starting points:
+For a broad architectural overview, Copetti follows the CPU, memory, graphics, audio and cartridge connections:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="Rodrigo Copetti provides a practical architectural overview of the Game Boy, covering the CPU, memory layout, graphics pipeline, audio system, and cartridge hardware." image="/public/NintendoGameBoyThumb.png" title="Game Boy Architecture - A Practical Analysis" %}
 
 ---
@@ -77,11 +80,11 @@ If you want to work from recreated board-level documentation, Gekkio's schematic
 {% include link-to-other-site.html url="https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf" description="Recreated schematics for the Game Boy Pocket CPU board, useful for tracing signals and understanding hardware level behaviour." title="Game Boy Pocket Hardware Schematics" %}
 
 ## The Ultimate Game Boy Talk
-The video below is still one of the best broad introductions to the hardware and the programming model, especially if you want one long-form overview before drilling into specific subsystems:
+This long-form talk puts the hardware and programming model together before the subsystem-specific references below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The Game Boy, a hardware autopsy
-These two videos are worth keeping together because they focus on the physical hardware itself rather than the higher-level architectural write-ups above:
+These two videos focus on the physical boards and chips:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RZUDEaLa5Nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ecTQVa42sJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -319,3 +322,5 @@ The magazine index collects developer interviews tagged for this system across a
 [^8]: GBX issue 3 (September 2001) page 11
 [^9]: [JohnnyBareToes - Datel PlayStation Game Booster - YouTube](https://www.youtube.com/watch?v=SxF2e6DUMRo)
 [^10]: [RetroBreak - Datel GameStudio demonstration - YouTube](https://www.youtube.com/watch?v=HgJS8_p0aZk)
+[^11]: [Nintendo, *Game Boy Programming Manual*, Appendix 3, “Software Submission Requirements,” pp. 290–292](https://files.nekoblog.org/uploads/pdf/39999184-GameBoy-Programming-Manual.pdf).
+[^12]: [Pan Docs, “The Cartridge Header,” cartridge type, ROM size and RAM size fields](https://github.com/gbdev/pandocs/blob/master/src/The_Cartridge_Header.md).
