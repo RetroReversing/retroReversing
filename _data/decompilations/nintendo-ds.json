@@ -980,6 +980,18 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": null
+    },
+    "advance-wars-days-of-ruin-sinon-hecate-ii": {
+      "name": "Advance Wars: Days of Ruin (Sinon-Hecate-II)",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/Sinon-Hecate-II/awdordc-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -2181,6 +2193,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/liolu/pokemon-dash-decomp"
+            }
+          ]
+        },
+        {
+          "project": "advance-wars-days-of-ruin-sinon-hecate-ii",
+          "name_markdown": "[Advance Wars: Days of Ruin (Sinon-Hecate-II)](https://github.com/Sinon-Hecate-II/awdordc-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Advance%20Wars%20-%20Days%20of%20Ruin%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "US Nintendo DS Advance Wars: Days of Ruin front box art showing commanders and a tank battle",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching source reconstruction for the USA Nintendo DS release (YW2E) only. European Dark Conflict support is planned. Requires your own supported ROM, ds-decomp and CodeWarrior for DS. Generated source may be incomplete, poorly named or not yet matching; the documented build commands do not establish a successful build of the current checkout. This is not a standalone native port. [The README confirms extensive AI assistance](https://github.com/Sinon-Hecate-II/awdordc-decomp#readme).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/Sinon-Hecate-II/awdordc-decomp"
             }
           ]
         }
