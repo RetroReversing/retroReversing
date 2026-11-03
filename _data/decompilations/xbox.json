@@ -931,6 +931,18 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "black-reblack-xbox-reconstruction": {
+      "name": "BLACK (ReBLACK-XBOX reconstruction)",
+      "platforms": [
+        "Xbox"
+      ],
+      "repository_url": "https://github.com/soldieg/ReBLACK-XBOX",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -1936,6 +1948,28 @@
             {
               "name": "Native port",
               "url": "https://github.com/crazyriddler/FinestHourRemastered"
+            }
+          ]
+        },
+        {
+          "project": "black-reblack-xbox-reconstruction",
+          "name_markdown": "[BLACK (ReBLACK-XBOX reconstruction)](https://github.com/soldieg/ReBLACK-XBOX)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Microsoft_-_Xbox/master/Named_Boxarts/Black%20%28USA%29.png",
+              "alt": "US original Xbox BLACK front box art with the title over a pile of brass cartridge cases",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "C and x86 assembly reconstruction of the original Xbox executable, with per-function evidence notes. Static comparisons cover candidate address ranges after relocation replay; they do not establish complete semantic source recovery, an Xbox-linked XBE, runtime correctness or gameplay. Some sources use address-pinned assembly; the reports retain boundary and ObjDiff review caveats. The native PC port is maintained separately as Project ReBlack. [The README documents AI-assisted, human-directed reconstruction](https://github.com/soldieg/ReBLACK-XBOX#readme).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/soldieg/ReBLACK-XBOX"
             }
           ]
         }
