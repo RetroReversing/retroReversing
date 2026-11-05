@@ -17,17 +17,16 @@ recommend:
   - amiga
   - introduction
 _updatedAt: 2025-12-08
+updatedAt: '2026-11-05'
 redirect_from:
   - /Amiga/
 ---
 
-Welcome to our in-depth guide to Amiga reverse engineering! This page serves two roles. It groups all of our posts related to Amiga reverse engineering, and it aggregates high quality sources from the web into create a unified reference.
-
-The content starts high level, outlining the system, its history, and its official game development process, then moves into low level details with a focus on reverse engineering and homebrew development.
+An Amiga game can depend on more than its 68000 code. Agnus moves data through chip memory, Denise turns bitplanes into a picture, and Paula handles audio and floppy I/O. This hub brings together hardware accounts, developer interviews, game analyses, and tools for examining the disks and files they left behind.
 
 
 # Introduction to the Amiga
-[Nostalgia Nerd](https://www.youtube.com/watch?v=ws3DJF7MbMU) has an excellent two part series about the development and technical architecture of the Amiga computer. It covers the creation of the custom chipset (Agnes, Denise, Paula), the engineering challenges faced by Jay Miner's team, and the hardware evolution from the Amiga 1000 to the 500:
+[Nostalgia Nerd](https://www.youtube.com/watch?v=ws3DJF7MbMU) traces the Amiga's development, Jay Miner's team, and the custom chipset from the Amiga 1000 to the 500:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ws3DJF7MbMU?si=NDn0Qt0VgjUMKEwb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Amiga Engineers Panel: Amiga 40th Anniversary at VCF 2025
@@ -89,12 +88,12 @@ The video from [The Retro Collective](http://www.youtube.com/watch?v=c6wYDiPXVss
 
 ---
 # Hardware
-In this section, we'll explore the hardware that powers the Amiga. Understanding the hardware that drives the system is key to unlocking its potential and gaining a deeper appreciation for the games that were developed for it.
+The 68000 and custom chips share access to memory. For a game, that relationship determines when graphics and sound data can move, and where to look when a display effect is driven by DMA rather than a CPU loop.
 
 ## The Amiga Development System
 Before the Amiga 1000 was commercially released, Commodore provided special Amiga Development Systems (often in tower or rack-style enclosures) to game and software houses. These units typically used early revisions of the custom chips and were meant specifically for developers to start writing and testing Amiga software ahead of launch [^2].
 
-### Developmer Edition Amiga 1000
+### Developer Edition Amiga 1000
 Amiga Love showcases an ultra-rare "Developer Edition" Amiga 1000, one of less than 700 units sent to companies like Hewlett-Packard in 1985 before the computer's retail launch. 
 This specific unit features a glossy plastic case, a "Commodore" logo instead of the Amiga checkmark, and early custom chips (Daphne/Portia) on a motherboard layout that bridges the gap between the known "Velvet" prototype and the final retail version. 
 
@@ -102,18 +101,18 @@ The video details the physical and technical differences, such as the reversed p
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lfUVgHsPoNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-## What was the standard hardware was used to develop Amiga games?
+## What hardware did Amiga game developers use?
 For most of the commercial life of the platform, a normal Amiga (commonly an A2000 or later A3000/A4000) plus the official Amiga Developer Kit (software, documentation, and example code) functioned as the primary dev kit. 
 
 Developers often added hardware like hard drives, memory expansions, and sometimes accelerator cards to create a more capable development machine.
 
 ### Team17's WORMS developer Amiga 4000
-[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development Amiga 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, Chris Blythe.
+[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) explores an Amiga 4000 used to make *Worms*. With developer Chris Blythe, the video recovers aging hard drives containing LightWave 3D files, FMV assets, and unreleased artwork.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rcyHqJ6ZHXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-## What consoles used the Amiga for game development? 
+## Which consoles used Amigas as development hosts?
 Some console dev kits actually used Amigas as the host hardware, such as the Atari Lynx (originally Epyx Handy) development setup that ran on an Amiga 2000 with attached debugging hardware [^3]. Many Sega Mega Drive games were also developed as ports of Amiga games due to the similar CPU.
 
 ---
@@ -234,19 +233,23 @@ Before diving in its best to check if there are any existing reversing projects 
 {% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ### Menace Amiga Code
-[Dave Poo 2](https://www.youtube.com/playlist?list=PLr783JgI3IBd9PZuc9WMmwwxoG2ic-NzB) has an excellent playlist about reverse engineering the Amiga game *Menace*. It covers the detailed analysis of the source code originally published in Amiga Format, walking through the 68000 assembly to understand game logic, fix bugs, and explore the engine's design.
+[Dave Poo 2](https://www.youtube.com/playlist?list=PLr783JgI3IBd9PZuc9WMmwwxoG2ic-NzB) works through the *Menace* source published in *Amiga Format*, using its 68000 assembly to examine game logic, bugs, and engine design.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLr783JgI3IBd9PZuc9WMmwwxoG2ic-NzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 ## File Formats
-When reversing Amiga games you will come across a variety of file formats, this section will try to cover all of the most common formats you will encounter.
+The disk image is only the outer layer. A file extracted from it may use a documented interchange format, or a layout private to one game.
+
+### What does an ADF preserve?
+A standard double-density Amiga disk has 80 cylinders, two sides, and 11 sectors of 512 bytes per track: 901,120 bytes of decoded sector data [^4]. An `.adf` normally holds those sectors in order. The [unADF format FAQ](https://adflib.github.io/FAQ/adf_info.html) describes the geometry and AmigaDOS boot and directory blocks. An ADF is useful for following a filesystem and its files, but it does not retain every magnetic transition on the original disk; [Greaseweazle's imaging guide](https://github.com/keirf/greaseweazle/wiki/Getting-Started) distinguishes sector images from flux captures for unusual or protected tracks [^5].
+
+### How can an IFF asset be recognized?
+Electronic Arts' [IFF 85 specification](https://wiki.amigaos.net/wiki/EA_IFF_85_Standard_for_Interchange_Format_Files) defines a `FORM` container with a four-character type and length-delimited chunks [^6]. An image may be `FORM ILBM`; its `BMHD` chunk describes dimensions and encoding, `CMAP` supplies colours, and `BODY` holds interleaved bitplanes [^7]. The [ILBM format document](https://wiki.amigaos.net/wiki/ILBM_IFF_Interleaved_Bitmap) explains how to read those fields. These signatures are good places to start searching extracted files, but a game's packed or custom assets need their own analysis.
 
 ---
 ## Game Modding and ROM Hacking for Amiga games
-By modifying the code, graphics, or sound of an Amiga game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. 
-
-Additionally, modding games can be a great way to learn more about the technical aspects of game development and programming.
+Modding begins with identifying what can actually be changed: a file in an AmigaDOS volume, an IFF asset, or data embedded in a custom disk layout. The format notes above help distinguish those cases before editing code, graphics, or sound.
 
 ### Amiga X-Copy: The Full Story!
 RobSmithDev has an excellent video about the history and reverse engineering of the iconic Amiga disk copier, X-Copy. It covers the technical evolution of the software, analyzes the "Cyclone" hardware dongles used to bypass copy protection by treating digital data as analog signals, and includes an interview with a former Cachet employee regarding the company's legacy and modern software preservation.
@@ -277,3 +280,7 @@ The magazine index collects developer interviews tagged for this system across a
 [^1]: [MobyGames - Amiga games list](https://www.mobygames.com/platform/amiga/)
 [^2]: [The Amiga Development System - YouTube](https://www.youtube.com/watch?v=lfUVgHsPoNU)
 [^3]: [Handy Devkit files - English Amiga Board](https://eab.abime.net/showthread.php?t=104973)
+[^4]: [unADF, The ADF (Amiga Disk File) format FAQ](https://adflib.github.io/FAQ/adf_info.html).
+[^5]: [Greaseweazle, Getting Started](https://github.com/keirf/greaseweazle/wiki/Getting-Started).
+[^6]: [Electronic Arts, EA IFF 85 Standard](https://wiki.amigaos.net/wiki/EA_IFF_85_Standard_for_Interchange_Format_Files).
+[^7]: [Commodore-Amiga, ILBM IFF Interleaved Bitmap](https://wiki.amigaos.net/wiki/ILBM_IFF_Interleaved_Bitmap).
