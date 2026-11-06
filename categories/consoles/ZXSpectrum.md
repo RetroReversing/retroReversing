@@ -17,25 +17,26 @@ recommend:
 recommendTitle: All ZX Spectrum Posts
 editlink: ../categories/consoles/ZXSpectrum.md
 _updatedAt: '2025-05-17'
+updatedAt: '2026-11-06'
 tags:
   - zxspectrum
 ---
 
-The Sinclair ZX Spectrum, launched in 1982, was a pivotal 8-bit home computer that democratized computing and game development in the UK. 
-Its affordability and accessibility spurred a generation of bedroom coders and laid the groundwork for the British games industry.
+The Sinclair ZX Spectrum arrived in 1982 as a low-cost home computer with a Z80 CPU, cassette storage, and a display whose colours were shared by groups of pixels. For a reverser, the cassette loader, screen memory, and later 128K bank switching can matter as much as the game code itself. The interviews and manuals below show how developers worked within those limits.
 
 ---
 # Hardware
 
 ## Retail Hardware
-The ZX Spectrum line went through several hardware iterations during the 1980s, all centered on the same basic architecture (**Zilog Z80A CPU** running at **3.5 MHz**, ZX Spectrum ULA chip, with models offering either 16KB, 48KB, 128KB of RAM.
+The Spectrum line kept its Z80-based programming model while its memory and sound hardware changed. The original 16K and 48K machines used a roughly 3.5 MHz Z80A and a ULA for display and I/O; the later 128K machines added banked RAM and an AY-3-8912 sound chip [^5].
 
 * **ZX Spectrum 16K/48K (1982)**: The original Spectrum was released in two memory variants – one with 16 KB RAM and one with 48 KB RAM
 * **ZX Spectrum 128 (1985/86)**: The first major upgrade came with the Spectrum 128K nicknamed "Toastrack", it doubled the ROM (32 KB) and expanded RAM to 128 KB! It also introduced an actual sound chip – the General Instrument AY-3-8912, providing 3-channel, multi-voice sound output.
 
-They utilized a membrane keyboard and output video through an RF modulator, supporting a **256×192** pixel resolution with a palette of 15 colors. 
+The 256 x 192 display has 6,144 bytes of pixel bits and 768 colour-attribute bytes: one attribute for each 8 x 8 cell. Each cell can select one ink and one paper colour, so a sprite crossing differently coloured backgrounds may show "attribute clash" [^5] [^6].
 
-However, due to memory constraints, color information was stored separately in a 32×24 grid, leading to the infamous "attribute clash" where only two colors could be displayed per 8×8 pixel block.
+### Where does a screen dump sit in memory?
+On a 48K Spectrum, pixel bytes occupy `$4000-$57FF` and attributes `$5800-$5AFF`. A conventional `.SCR` file is those 6,912 bytes copied in memory order [^6]. The pixel area is arranged in three 2,048-byte bands with interleaved scan lines, not one contiguous row after another. This matters when turning a screen dump into an image or locating graphics data in a snapshot.
 
 ---
 ## Development Hardware
@@ -65,17 +66,11 @@ Later models, like the Spectrum 128K, incorporated the AY-3-8912 sound chip, off
 # Reverse Engineering
 
 ## File Formats
-ZX Spectrum software was commonly distributed on cassette tapes, with data stored in formats like **.TAP**, **.TZX**, and **.Z80**. 
-
-These formats encapsulate the program code and are used by emulators and reverse engineering tools to analyze and run Spectrum software.
+These formats answer different questions. A `.TAP` file stores tape data blocks with length prefixes; a `.TZX` can also describe pulse timings and custom loaders [^7]. If loading behaviour or copy protection matters, inspect the tape representation before relying on a running game state. A `.Z80` file is an emulator snapshot of memory and machine state, not a cassette image: it can help inspect code after loading, but cannot generally reconstruct the original tape [^7] [^8].
 
 ---
 ## Disassembling and Decompiling
-Tools such as **SkoolKit** and **Spectrum Analyser** are instrumental in reverse engineering Spectrum games. 
-
-**SkoolKit** allows for the disassembly of machine code into annotated, human-readable formats, facilitating the understanding of game logic and structure. 
-
-**Spectrum Analyser** combines emulation with debugging and disassembly features, enabling interactive exploration of a program's behavior.
+[SkoolKit](https://skoolkit.ca/) can simulate loading a `.TAP` or `.TZX` into a snapshot, then turn memory into an annotated disassembly and reassemblable source [^9]. That makes the tape-to-memory transition explicit instead of treating a snapshot as the original distribution. **Spectrum Analyser** combines emulation, debugging, and disassembly for inspecting behaviour while a program runs.
 
 ---
 ## ZX Spectrum Emulation
@@ -192,3 +187,8 @@ The magazine index collects developer interviews tagged for this system across a
 [^2]: [Sinclair User](https://worldofspectrum.org/archive/magazines/pages/sinclair-user/61/44) and [User john_e - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/users/1912/john-e)
 [^3]: [history - How were the first ZX Spectrum games written? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/3314/how-were-the-first-zx-spectrum-games-written#:~:text=Zeus%20could%20be%20used%20stand,the%20market%20via%20retail%20outlets)
 [^4]: [Hex Loader](https://worldofspectrum.org/archive/software/utilities/hex-loader-your-sinclair)
+[^5]: [Sinclair Research, ZX Spectrum technical data](https://rk.nvg.ntnu.no/sinclair/computers/zxspectrum/spec_technical.htm); [ZX Spectrum +3 manual, memory and sound architecture](https://worldofspectrum.org/ZXSpectrum128%2B3Manual/chapter8pt30.html).
+[^6]: [World of Spectrum, emulator file formats (.SCR)](https://worldofspectrum.org/faq/reference/formats.htm).
+[^7]: [World of Spectrum, emulator file formats (.TAP, .TZX and snapshots)](https://worldofspectrum.org/faq/reference/formats.htm).
+[^8]: [World of Spectrum, Z80 snapshot format](https://worldofspectrum.org/faq/reference/z80format.htm).
+[^9]: [SkoolKit documentation, What is SkoolKit?](https://skoolkid.github.io/skoolkit/whatis.html).
