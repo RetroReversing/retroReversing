@@ -18,57 +18,46 @@ twitterimage: https://www.retroreversing.com/public/images/categories/Games Indu
 tags:
  - industry
 excerpt: Awesome list of Historic Retro Games Industry Conferences including Audio and Video recordings
-updatedAt: '2023-10-29'
+updatedAt: '2026-11-07'
 ---
 
-# Introduction to Retro Games Industry conferences
-When taking a historical look at the Games Industry one of the most important sources of information are the Conferences that were held to share information before the mainstream internet.
+# Game industry conferences
+Conference programs, talks and trade-show reports preserve how developers described their work at the time. A GDC postmortem can explain a shipping game's compromises; a SIGGRAPH paper can document the rendering technique behind a later engine. This hub points to surviving recordings, proceedings and contemporary coverage from two kinds of event:
+* **Development** - talks and working sessions for developers (GDC, SIGGRAPH, Develop)
+* **Showcase** - demonstrations and announcements for press and trade visitors (CES, E3)
 
-This page will talk about the main Game-related conferences that took place over the period of time that we classify as "Retro", they roughly fit into two distinct categories:
-* **Development** - Conferences for Sharing Game Development Information (SIGGRAPH, GDC, Develop)
-* **Showcase** - Conferences for Showing off the latest Games and Gaming Hardware (CES, E3)
-
-This table below lists all the conferences that we are aware about taking place up until 2007:
+The table lists events represented here from the retro period. Dates identify their run, not the availability of recordings:
 
 Conference | Dates | Category | Notes
 ---|---|---|---
 **32XPOSED** | November 10th 1994 | Development | SEGA 32X Developer's Conference
 3DO Developer Conference | 1992-1994 | Development |
-Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
+Game Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase |
 Develop | 2006-Ongoing | Development | UK Game development Conference
 D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and business topics, not programming or 3D content creation
 Dreamcast Developer's Conference | 1999 | Development | [Dreamcast Developer's Conference - Sega Retro](https://segaretro.org/Dreamcast_Developer%27s_Conference)
 Saturn Developer's Conference | May 1994 | Development | [DTS: The SEGA Developer's 'Game Mag' – SHIRO Media Group](https://www.segasaturnshiro.com/2021/08/19/dts-the-sega-developers-game-mag/)
 Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
-E3 | 1995-Ongoing | Showcase |
+E3 | 1995-2021 | Showcase | The final event was online-only in 2021 [^12]
 Digital World Conference | 1990-1995? | Development |
 **Intertainment** | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 **Intertainment** Conference
 xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
 Quakecon | 1996-Ongoing | Development | ID Software
 Unite | 2007-Ongoing | Development | Unity Technologies
 
-In the sections below we will try to list any audio or video recordings we can find for the sessions, but bare in mind many of the early sessions will now be regarded as lost media.
+Recordings survive unevenly. A program or contemporary report may document a session even when its audio or video has not surfaced.
 
 ---
-# GDC - Game Developer's Conference
-GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+# GDC - Game Developers Conference
+The first Computer Game Developers Conference met in 1988; GDC's own history notes that two meetings took place that year [^13]. Its [1997 archive feature](https://gdconf.com/article/tales-from-the-gdc-vault-a-retrospective-look-at-game-development-in-1997/) links digitized sessions on industry cycles, computer music and online game design [^14]. The linked GDC Vault entries identify their speakers and event year, although access to recordings can vary.
 
-We have so much content on the GDC that we had to split this section out into its **own post** you can find it below:
+The dedicated GDC hub gathers more talks and archive leads:
 {% include_cached link-to-other-post.html post="/gdc" description="For more information about the Game Developers Conference check out this post." %}
 
 ---
 # SIGGRAPH
-SIGGRAPH stands for "Special Interest Group on Computer Graphics and Interactive Techniques." It is an annual conference and organization that focuses on computer graphics, interactive technology, and various related fields. **SIGGRAPH** is highly regarded in the computer graphics and interactive technology industry and is known for its conferences and publications.
-
-SIGGRAPH is an interdisciplinary platform that covers a wide range of topics, including computer graphics, visual effects, gaming, virtual reality, computer-aided design, art, and more.
-
-The conference features technical paper presentations where researchers and experts share their latest findings and innovations in the field.
-SIGGRAPH publishes research papers, proceedings, and a variety of resources that contribute to the advancement of computer graphics and interactive techniques.
-
-The SIGGRAPH conference has a long history, dating back to the 1970s, and it continues to be a vital forum for sharing knowledge, showcasing innovations, and connecting professionals in the field of computer graphics and interactive technology.
-
-They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
+ACM SIGGRAPH held its first conference in 1974 [^15]. Its papers and courses range far beyond games, but they are useful primary sources for graphics methods later adopted by game developers. The [ACM SIGGRAPH History Archive](https://history.siggraph.org/) indexes conference programs, proceedings, course notes and other surviving material by year [^16].
 
 ## SIGGRAPH 2000
 The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game developer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective).
@@ -180,21 +169,11 @@ Showcasing the interoperability between 3ds Max, Maya and MotionBuilder | Kevin 
 
 ---
 # Consumer Electronics Show (CES)
-CES stands for the "Consumer Electronics Show". It is an annual trade show and convention that serves as a showcase for the latest consumer electronics and technology products. CES is one of the most significant and influential tech events globally, and it's where many companies, including industry giants and startups, unveil and demonstrate their innovative products and technologies.
-
-CES is known for its extensive exhibition of consumer electronics and technology products, ranging from smartphones and televisions to smart home devices, automotive technology, gaming hardware, and more.
-
-CES attracts a large number of journalists, bloggers, and media outlets from around the world, generating extensive press coverage and reviews of the showcased products.
-
-CES has played a crucial role in unveiling groundbreaking technologies and products that have subsequently shaped the consumer electronics and technology industries. It is a significant annual event for both industry professionals and tech enthusiasts interested in the latest advancements in the world of electronics and innovation.
-
-The first Consumer Electronics Show (CES) took place in 1967. CES was initially held in New York City and later moved to Las Vegas, Nevada. Although it features gaming products they have always brushed the games industry aside in favour of more mainstream consumer electronics.
+The Consumer Electronics Show began in New York in 1967 and covered games alongside televisions, computers and other consumer hardware [^18]. Games competed for space and attention with the rest of that market. Tom Kalinske's account below describes Sega's frustration with its placement at CES; it is a participant's view of one reason the industry created a separate show.
 
 ---
 # Electronic Entertainment Expo (E3)
-E3, which stands for the "Electronic Entertainment Expo," was one of the most prominent and anticipated events in the video game industry. It served as a showcase for the latest video games, gaming hardware, and interactive entertainment. E3 brought together game developers, publishers, hardware manufacturers, and gamers to unveil and celebrate upcoming titles and innovations in the world of gaming.
-
-The last E3 took place in 2021. After cancellations of the E3 in 2022 and 2023, the discontinuation was announced.
+The Electronic Entertainment Expo (E3) gave games their own trade show in 1995. Its last event was online-only in 2021; the 2022 and 2023 editions were cancelled, and organiser ESA later ended the event [^12]. Period footage and press reports show what companies were ready to demonstrate, which is not always the same as what eventually shipped.
 
 ## Creation of E3
 SEGA was instrumental to setting up E3, in an interview with **Tom Kalinske** (former CEO of SEGA America) he had this to say about the formation of E3:
@@ -231,11 +210,7 @@ For more information check out Chris Covell's excellent page on the 1989 confere
 
 ---
 # QuakeCon
-QuakeCon is an annual convention and gaming event that primarily focuses on the Quake series of video games, as well as other titles developed by id Software, the company behind Quake. The event has been held since 1996 and is known for its emphasis on competitive gaming, LAN parties, and the celebration of the gaming community.
-
-QuakeCon typically features a variety of activities, including tournaments, panel discussions, exhibitor booths, and opportunities for fans to meet and interact with game developers. It has become a significant event in the gaming calendar, attracting thousands of attendees from around the world.
-
-While QuakeCon started with a primary focus on the Quake series, it has expanded over the years to include other games, including those from Bethesda Softworks, which acquired id Software. The convention has also been a platform for showcasing new game releases, updates, and announcements, making it an exciting gathering for both fans and industry professionals.
+QuakeCon began in 1996 as a gathering for *Quake* players and grew into a LAN event with developer talks. John Carmack's 2004 keynote below is more useful here than the show announcements: he revisits renderer decisions made for *Doom 3* and explains what he would change.
 
 ## Quakecon 2004
 John Carmack gave the Keynote speech at Quakecon 2004 where he reflects on Doom 3 Engine Decisions, you can watch it on youtube below:
@@ -351,3 +326,9 @@ Character Maquettes for Animation | Simone Raclin | Covers how to build physical
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
 [^10]: [D.I.C.E. Summit - February 28 March 1, 2002](https://web.archive.org/web/20011130014100/http://dicesummit.org/)
 [^11]: [Japanese Secrets!](https://www.chrismcovell.com/secret/SFC_1989Q3.html)
+[^12]: [The Guardian, ESA ends E3 (December 2023)](https://www.theguardian.com/games/2023/dec/12/e3-video-games-trade-show-canceled).
+[^13]: [GDC, official 25th-conference history outreach](https://gdconf.com/article/gdc-celebrates-25th-conference-with-official-history-outreach/).
+[^14]: [GDC, digitized 1997 conference talks](https://gdconf.com/article/tales-from-the-gdc-vault-a-retrospective-look-at-game-development-in-1997/).
+[^15]: [ACM SIGGRAPH, History](https://www.siggraph.org/about/history/).
+[^16]: [ACM SIGGRAPH History Archive](https://history.siggraph.org/).
+[^18]: [Consumer Technology Association, CES History](https://www.ces.tech/about-ces/ces-history/).
