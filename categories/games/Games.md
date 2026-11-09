@@ -14,22 +14,20 @@ redirect_from:
   - /games/all
   - /games/
 editlink: ../categories/games/Games.md
-updatedAt: '2026-10-12'
+updatedAt: '2026-11-09'
 tags:
   - games
 ---
 
-This page collects all the posts that are related to reverse engineering a specific game rather than an entire console or platform.
-It starts with a curated set of notable game pages grouped by platform, then points to a few external deep dives that are worth studying, and finally ends with an automatically generated index of broader tagged pages.
-This makes it easier to browse the highlights first without losing the wider archive.
+A game can leave behind more than a playable ROM: source code, art workspaces, debug symbols, and even the documents written for porting teams. This hub groups game-specific investigations by platform and ends with the full tagged index. Follow a game page for its own evidence, or use the source-code directories when comparing projects.
 
 ## Decompiled Retail Console Games
-This page maintains a comprehensive, curated list of retail console games that have been successfully reverse engineered and decompiled back into compilable source code (C/C++). It tracks the progress of major community projects across platforms like the **Nintendo 64**, **GameCube**, and **PlayStation**, including high-profile achievements such as *Super Mario 64*, *The Legend of Zelda: Ocarina of Time*, and *Jak and Daxter*. We have a specific post all about it here:
+The decompilation directory tracks retail console projects reconstructing compilable C or C++ from shipped binaries. It covers efforts such as *Super Mario 64* and *The Legend of Zelda: Ocarina of Time*, with project links and progress in one place:
 
 {% include_cached link-to-other-post.html post="/source-code/decompiled-retail-console-games" %}
 
 ## Retail Console Game Source code (C/C++)
-We have a specific page that serves as a directory for officially released or leaked source code of retail console games, specifically focusing on the official source code rather than disassemblies and decompilations:
+The retail source directory covers surviving original code, whether officially released or leaked. It is a useful counterpart to the reconstructed-source projects above:
 
 {% include_cached link-to-other-post.html post="/source-code/retail-console-source-code" %}
 
@@ -44,8 +42,17 @@ We have a specific post that aggregates all our posts on games with debug symbol
 {% include_cached link-to-other-post.html post="/symbols" %}
 
 ---
+# Apple II Games
+The Apple II source for *Prince of Persia* is unusually accessible: its author preserved both the assembly code and the technical notes prepared for porting teams.
+
+### Prince of Persia
+Jordan Mechner's [original Apple II source archive](https://github.com/jmechner/Prince-of-Persia-Apple-II) contains the 6502 assembly he wrote for *Prince of Persia* (1989). The repository separates game source, disk routines, disk protection, and support files. Mechner says the archive was recovered from old 3.5-inch floppies; it is original source, not a later decompilation [^1].
+
+For a way into the code, his [library](https://www.jordanmechner.com/en/library/) hosts the October 1989 technical document he prepared for porting teams, alongside footage used for the game's animation. Read the document next to the source to see what a contemporary developer thought another team needed to know [^2].
+
+---
 # Arcade Games
-This section collects our arcade game-specific posts:
+Arcade boards present a different trail of evidence from home releases, from board-specific code to surviving development files:
 
 ### Batman Forever - The Arcade Game
 This post covers the arcade version of **Batman Forever**, focusing on the game itself rather than the wider Midway arcade hardware family.
@@ -53,7 +60,7 @@ This post covers the arcade version of **Batman Forever**, focusing on the game 
 
 ---
 # NES Games
-This section collects our NES game-specific posts and source code investigations:
+NES investigations here range from well-studied gameplay code to recovered commercial source archives:
 
 ### Super Mario Bros
 This post covers reverse engineering work on the original **Super Mario Bros** for the NES, including analysis and tooling around one of the most studied 8-bit platformers.
@@ -86,7 +93,7 @@ Critical Engine Bugs & Logic Errors:
 
 ---
 # Game Boy Games
-This section collects our Game Boy game-specific posts and source code investigations:
+These Game Boy pages connect code reconstruction with surviving development archives:
 
 ### Pokemon Red and Blue
 This post covers reverse engineering **Pokemon Red and Blue** on the Game Boy, including community reconstruction work and related historical material about the games' development.
@@ -110,7 +117,7 @@ This post covers the **Link's Awakening DX** source code materials, showing how 
 
 ---
 # Super Nintendo Games
-This section collects our Super Nintendo game-specific posts and source code investigations:
+Several Super Nintendo entries preserve original source or art workspaces, making it possible to compare code with the assets it used:
 
 ### F-Zero
 This post covers the leaked **F-Zero** source code and what it shows about early Super Famicom launch-era game development.
@@ -146,7 +153,7 @@ This post covers the leaked **A Link to the Past** source code and its importanc
 
 ---
 # Development Art Archives
-This section collects game-specific archive pages that focus more on art workspaces, asset pipelines, and development materials than on full source code releases:
+Code is only part of a game's production record. These workspaces preserve artwork and other development files that reveal how assets were organised:
 
 ### Pilotwings 2D Art Workspace
 This post covers a recovered **Pilotwings** 2D art workspace, which is useful for studying Nintendo's internal art production flow rather than the gameplay code itself.
@@ -234,7 +241,7 @@ The project extracts assets from a [PlayStation 2](/ps2) disc, decodes RCF archi
 
 ---
 # PC Games
-This section collects our PC game-specific posts and source code investigations:
+PC investigations can begin with surviving data formats, source archives, or tools that still run on modern machines:
 
 ### Planet X3
 This post covers **Planet X3**, a modern MS-DOS strategy game whose tooling and technical design make it relevant to retro PC development research.
@@ -269,3 +276,8 @@ By discovering an embedded Lua debugger (**mobdebug**) and decompiling the game'
 This final section is generated from site tags, so it acts as a wider catch-all index beyond the curated platform sections above:
 
 {% include console.html %}
+
+---
+# References
+[^1]: [Jordan Mechner, Prince of Persia Apple II source archive](https://github.com/jmechner/Prince-of-Persia-Apple-II).
+[^2]: [Jordan Mechner, library of original project materials](https://www.jordanmechner.com/en/library/).
