@@ -2129,6 +2129,18 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": null
+    },
+    "xenosaga-episode-i-designgears": {
+      "name": "Xenosaga Episode I: Der Wille zur Macht (designgears)",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/designgears/xsg-i-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -4697,6 +4709,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/Subarasheese/pes6decomp"
+            }
+          ]
+        },
+        {
+          "project": "xenosaga-episode-i-designgears",
+          "name_markdown": "[Xenosaga Episode I: Der Wille zur Macht (designgears)](https://github.com/designgears/xsg-i-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Xenosaga%20Episode%20I%20-%20Der%20Wille%20zur%20Macht%20%28USA%29.png",
+              "alt": "US PlayStation 2 Xenosaga Episode I: Der Wille zur Macht front box art showing blue-haired KOS-MOS",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Distinct reconstruction fork building on [OpokXeno's project](https://github.com/OpokXeno/xsg-i-decomp), targeting the NTSC-U PS2 executable SLUS_204.69, overlays and IOP modules. Requires your own game files and historical toolchains, including documented compiler and assembler patches; Linux or WSL is documented. Sony SDK and public libraries are outside source-recovery scope. The README states that config/units and config/vu-build.json are untracked, preventing this public tree from independently checking every counted function's matching contract. Its source-level counts include C with assembly and do not establish independently verified complete recovery. [The README discloses AI assistance](https://github.com/designgears/xsg-i-decomp#readme). This is not a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/designgears/xsg-i-decomp"
             }
           ]
         }
