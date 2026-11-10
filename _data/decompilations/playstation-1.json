@@ -3920,6 +3920,18 @@
         "status": "Active"
       },
       "ai_used": null
+    },
+    "thrasher-skate-and-destroy-andrewnakas": {
+      "name": "Thrasher: Skate and Destroy",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/andrewnakas/thrasher-skate-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -8551,6 +8563,28 @@
             {
               "name": "Native port",
               "url": "https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp"
+            }
+          ]
+        },
+        {
+          "project": "thrasher-skate-and-destroy-andrewnakas",
+          "name_markdown": "[Thrasher: Skate and Destroy](https://github.com/andrewnakas/thrasher-skate-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Thrasher%20-%20Skate%20and%20Destroy%20%28USA%29.png",
+              "alt": "US PlayStation Thrasher: Skate and Destroy front box art showing a silhouetted skateboarder jumping over a railing",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching C reconstruction of the NTSC-U PlayStation executable (SLUS_009.35). Requires your own supported single-track MODE2/2352 disc dump; Linux setup and a Docker build are documented. Uses the pinned PsyQ-era gcc 2.8.1 compiler with maspsx. The byte-identical rebuild combines recovered C with remaining assembly; PsyQ 4.4 library routines remain assembly, so executable matching does not establish complete source recovery. This is not a native PC port. [The README documents human-directed AI-assisted contributions](https://github.com/andrewnakas/thrasher-skate-decomp#community).",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/andrewnakas/thrasher-skate-decomp"
             }
           ]
         }
