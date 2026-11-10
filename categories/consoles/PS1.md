@@ -32,19 +32,17 @@ videocarousel:
     image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
     youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2026-10-25'
+updatedAt: '2026-11-10'
 tags:
   - ps1
 ---
 
 # Introduction to Hacking the Sony PlayStation
-The PlayStation One was not only Sony's first commercial video games console it was also the most popular console of its generation. 
-
-The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. However don't be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
+Sony's first PlayStation stores game data on CD-ROM and runs MIPS code alongside dedicated geometry, graphics, and sound hardware. That division of work makes a disc image, an executable, and a frame of 3D graphics three different starting points for reverse engineering. This hub connects them to development tools and game-specific research. The console could look modest beside the Nintendo 64 and Sega Saturn on paper, yet its best games could be just as visually striking.
 
 ---
 ## Games
-What would the Sony PlayStation be without its excellent line-up of games? It was the games that attracted many people away from the Nintendo 64 and Sega Saturn and on to their very first Sony console.
+The game pages below show what survives beyond a retail disc: debug symbols, developer accounts, and reconstructed code.
 
 ### PlayStation 1 Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the PlayStation One and gives you access to all the original function and variables names that were used in the retail source code.
@@ -130,11 +128,7 @@ The [PSXSplash](https://psxsplash.github.io/docs/latest/) documentation provides
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7HOBQ7HifLE" title="How the Sony PlayStation PS1 Security was defeated | MVG" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## Retail PlayStation hardware
-The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
-
-The Hardware initially looks quite clean and simple, especially in comparison to other consoles of its generation, but it still managed to pack a lot of power on to its small design.
-
-The main parts of the hardware are:
+The motherboard separates program execution, polygon drawing, CD access, and audio into distinct components. The main parts are:
 * 32-bit MIPS CPU (33.96Mhz)
 * GPU - Unlike more modern GPUs it Only handled 2D Polygons (360k per second) [^1]
 * Geometry Transformation Engine (GTE) - 1.5M Vertices per second [^1]
@@ -240,8 +234,20 @@ Also provided was the **3D Graphics Tools manual** with tutorials on how to use 
 {% include_cached link-to-other-post.html post="/ps1-file-formats" description="For more information on PS1 File Formats check out this post." %}
 
 ## PS1 Executable Format
-The PS1-EXE (executable) format is detailed in the post below:
-{% include_cached link-to-other-post.html post="/ps1-exe" description="For more information on PS1 EXE File Format check out this post." %}
+### How does a PlayStation disc name its boot program?
+Sony's [PlayStation Developers Guide](https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/scee_dev.pdf) instructs publishers to place `SYSTEM.CNF;1` at the root of the disc. Its `BOOT` line gives the path of the executable to load. For a disc with product code `SLUS-12345`, the prescribed filename is `SLUS_123.45;1`; the underscore and period are part of the filename convention [^8].
+
+```ini
+BOOT = cdrom:\SLUS_123.45;1
+TCB = 4
+EVENT = 10
+STACK = 801fff00
+```
+
+The boot file is a `PS-X EXE`, whose 0x800-byte header records its initial program counter, RAM destination, and code size. The [PSX-SPX executable reference](https://psx-spx.consoledev.net/dev/ps1/cdr/cdromfileformats/executables/) maps those fields. Check `SYSTEM.CNF` first when locating a game's entry point; a disc can also contain other executables and data files [^9].
+
+The PS1-EXE page goes deeper into the file format:
+{% include_cached link-to-other-post.html post="/ps1-exe" description="Read the PS-X EXE header and identify where the program loads in RAM." %}
 
 ---
 ## PS1 Emulation
@@ -275,7 +281,7 @@ Start with your own disc image in decompdecomp, let local tools collect free mat
 
 ---
 ## Radare2
-First you need to find the executable on the PS1 disc image, it will be named after the unique Sony Code e.g `SLES_032.85`.
+Start with the `BOOT` path in `SYSTEM.CNF` to locate the executable on the disc image. For example, a European release might name `SLES_032.85`.
 
 Then open it with radare2 like so:
 ```bash
@@ -315,3 +321,5 @@ The magazine index collects developer interviews tagged for this system across a
 [^5]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
 [^6]: [ www.raphnet.net/electronique/psx_adaptor/Playstation.txt](http://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
 [^7]: [Rotmill, Dino Crisis Modern Edition README](https://github.com/Rotmill/Dino-Crisis-Modern-Edition), features, build process and disc requirements, consulted 24 October 2026.
+[^8]: [Sony Computer Entertainment Europe, PlayStation Developers Guide, section 5.5.1b](https://psx.arthus.net/sdk/Psy-Q/DOCS/TECHNOTE/scee_dev.pdf).
+[^9]: [PSX-SPX, CD-ROM PlayStation EXE and SYSTEM.CNF](https://psx-spx.consoledev.net/dev/ps1/cdr/cdromfileformats/executables/).
