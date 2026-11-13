@@ -2099,7 +2099,7 @@
       "platforms": [
         "PlayStation 2"
       ],
-      "repository_url": "https://github.com/Blightwidow/rogue-byte",
+      "repository_url": "https://github.com/OpenThievius/sly2-decomp",
       "project_type": "Matching decompilation",
       "completion_status": null,
       "legacy_status": null,
@@ -4648,7 +4648,7 @@
         },
         {
           "project": "sly-2-band-of-thieves-rogue-byte",
-          "name_markdown": "[Sly 2: Band of Thieves (Rogue Byte)](https://github.com/Blightwidow/rogue-byte)",
+          "name_markdown": "[Sly 2: Band of Thieves (OpenThievius, formerly Rogue Byte)](https://github.com/OpenThievius/sly2-decomp)",
           "images": [
             {
               "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Sly%202%20-%20Band%20of%20Thieves%20%28USA%29.png",
@@ -4656,7 +4656,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "Work-in-progress byte-matching reconstruction of the USA/NTSC-U PlayStation 2 executable (SCUS_973.16) into readable C. Requires your own supported executable and separately obtained proprietary compiler. Rebuilds the PS2 image from compiled C and remaining generated assembly; matching the executable does not mean all functions are decompiled. Build tooling supports Linux x86-64 and macOS ARM64, with WSL or Docker elsewhere. This project is not a native PC port.",
+          "notes_markdown": "Work-in-progress byte-matching reconstruction of the USA/NTSC-U PlayStation 2 executable (SCUS_973.16) into readable C. Requires your own supported executable and separately obtained proprietary compiler. Rebuilds the PS2 image from compiled C and remaining generated assembly; matching the executable does not mean all functions are decompiled. Build tooling supports Linux x86-64 and macOS ARM64, with WSL or Docker elsewhere. This project is not a native PC port. The repository moved from Blightwidow/rogue-byte to OpenThievius/sly2-decomp. Current documentation also verifies matching C against the European v2.01 executable (SCES_525.29); the USA image remains the rebuild reference, and PAL is checked rather than rebuilt.",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
@@ -4664,7 +4664,7 @@
           "project_types": [
             {
               "name": "Matching decompilation",
-              "url": "https://github.com/Blightwidow/rogue-byte"
+              "url": "https://github.com/OpenThievius/sly2-decomp"
             }
           ]
         },
