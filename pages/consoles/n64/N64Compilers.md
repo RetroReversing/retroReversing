@@ -130,9 +130,61 @@ The inspected N64 profile list does not include CodeWarrior. The sources used he
 
 ---
 ## Paper Mario GCC 2.8.1
-The [Paper Mario team's GCC fork](https://github.com/pmret/gcc-papermario) contains patches for matching Paper Mario. Its companion [binutils fork](https://github.com/pmret/binutils-papermario) supplies the paired assembly tools. Sharing the version string 2.8.1 with SN64 does not make these pipelines interchangeable [^13].
+The [Paper Mario team's GCC fork](https://github.com/pmret/gcc-papermario) is a community-maintained GCC 2.8.1 toolchain with N64 target support, language extensions, host fixes and debugging changes. Its companion [binutils fork](https://github.com/pmret/binutils-papermario) supplies a modified assembler and related tools. Sharing the version string 2.8.1 with SN64 does not make these pipelines interchangeable [^13].
 
-In decompdecomp, `gcc-2.8.1-pm` uses that paired GNU toolchain. A separate profile, `gcc-2.8.1-pm-sn-as`, takes the PM compiler's assembly and processes it with original SN ASN64 2.56 before object conversion. That comparison isolates a different assembler path while keeping the compiler family fixed [^2] [^7].
+**There is no single binary change applied to every function.** Some patches change instructions or data placement when their conditions are met. Others enable source that the unpatched compiler rejects, or change only debug information and object-file metadata. The comparison below is a source audit, not a measured before/after rebuild of the whole game.
+
+The audited revisions are GCC [`d97824f`](https://github.com/pmret/gcc-papermario/tree/d97824ffc7517675646960442b3f512a473e4404) and binutils [`fb13863`](https://github.com/pmret/binutils-papermario/tree/fb13863bb812ac34417916e0b8a6e16f5ca6badb). The GCC repository's initial 1,217 files match GNU's GCC 2.8.1 release archive. The subsequent patches are modern matching/build changes; their presence does not prove that Nintendo's original compiler contained the same source edits [^19].
+
+### What Counts as a Binary Difference?
+A compiler comparison needs to distinguish the executable payload from its container:
+* **Instructions and runtime data** - Changes to `.text`, constants, initialized data, addresses or padding can change the ROM and its execution. Equivalent C behavior can still produce different instruction bytes.
+* **Debug information and object metadata** - `.debug_*`, STABS records, symbol tables and ELF headers can differ while the extracted executable payload remains identical. These differences reach the ROM only if the build packages them or they affect linking/layout.
+* **Build acceptance** - A new target or language feature can make compilation possible. If the unpatched build rejects the input, there is no unpatched binary to compare.
+
+For a controlled comparison, hold the source, headers, compiler host, flags, assembler and linker settings fixed, and change only the patch under investigation. Plain GCC 2.8.1 does not provide this fork's `mips-nintendo-nu64` target, so comparing an unpatched generic MIPS build also requires making target defaults equivalent [^20].
+
+---
+### Compiler Patches and Their Output Effects
+The compiler changes have different triggers. The expected effects below follow from the implementation; the `addu`/`subu` case also has an explicit maintainer report:
+
+Patch | Without the change | With the change and effect on output
+---|---|---
+N64 target configuration | The `mips-nintendo-nu64` target is unavailable | Adds VR4300/MIPS III defaults, Nintendo macros and 32-bit integer/long/pointer definitions. Passing `-mips3` through its driver also selects 32-bit general/floating-point registers. Defaults and macros can change instructions, declarations and data; this is not a fixed byte substitution [^20].
+`naked` functions | This MIPS backend does not implement the attribute; ordinary functions receive compiler-managed entry/exit code | For a function marked `__attribute__((naked))`, skips prologue/epilogue expansion and disallows the automatic return-instruction path. Stack adjustment, register-save/restore and return instructions that would otherwise be generated can disappear. The author must supply the required assembly. Unmarked functions do not take these new early exits [^21].
+Named sections | This backend lacks the added named-section output hook | Emits `.section NAME` for section attributes. The linker can place that function/data elsewhere, changing addresses, relocations and padding. Moving an item does not inherently rewrite its arithmetic, but address-dependent instructions can change [^22].
+Negative-constant optimizer fix | The maintainers report host GCC 6 versus GCC 9 producing different MIPS `addu`/`subu` choices around `0x80000000` | Changes one condition in common-subexpression elimination to preserve the intended matching output across those host builds. This can change actual `.text` instruction bytes in affected expressions; it is not merely a debug-record correction [^23].
+Japanese-text preprocessing | No added N64-specific encoding/line-ending handling | `N64GCC_KANJI` selects optional SJIS/EUC handling and octal escaping of multibyte text. `N64GCC_CUTCR=ON` normalizes CRLF and removes trailing DOS EOF. These can change accepted input, preprocessing and resulting string/data bytes where the original handling differed; neither option applies a universal instruction rewrite [^24].
+Anonymous structs/unions | The parser does not construct these unnamed members in the same way | Enables direct access to their nested fields. A follow-up removes the field-search optimization that breaks this for structures with more than 15 members. This expands accepted source; it does not inherently add a runtime wrapper or an extra pointer indirection [^25].
+64-bit/macOS host support | Old assumptions about host-side floating-point storage and legacy build interfaces can prevent correct builds | Separately copies the low/high halves of compiler-internal floating constants and adds host/build compatibility. The intent is to run the old compiler correctly on modern hosts, not change the N64's pointer width. Output equality still needs checking [^26].
+Debug output fixes | Some debug labels, abbreviation tables and line records are unsuitable for the paired assembler or debugger | Renames DWARF labels, terminates the abbreviation table, corrects line-table size accounting and makes STABS line references function-relative. These directly change debug records/labels. Their interaction with assembler scheduling is covered below [^27].
+
+The negative-constant fix changes the guard from `-INTVAL(const_arg1) >= 0` to `(-INTVAL(const_arg1) >> 0x1f) >= 0`. The [maintainer's explanation](https://github.com/pmret/gcc-papermario/pull/18) identifies the resulting `addu`/`subu` discrepancy. It does not establish that every function changes, or provide a universal byte delta for the game [^23].
+
+The MIPS instruction-description file, `config/mips/mips.md`, is unchanged from the repository's GCC 2.8.1 baseline. The large-looking `mips.c` diff mostly changes whitespace; ignoring whitespace leaves 44 added lines implementing the `naked` checks. That narrow backend change should not be mistaken for a wholesale replacement of GCC's instruction selector [^19] [^21].
+
+---
+### Binutils Patches and Their Output Effects
+The paired assembler can change the final machine code even when the compiler emits the same assembly. The binutils fork starts from GNU binutils 2.9.1 and adds the following behavior:
+
+Patch | Without the change | With the change and effect on output
+---|---|---
+N64 assembly compatibility | Different target defaults, instruction eligibility and directive/register parsing | Adds the Nintendo target, symbolic register parsing, N64-specific handling of MIPS instruction levels and `.set` behavior. Some inputs become accepted; expanded instructions and object flags can differ. This is not evidence of new instructions in the N64 CPU [^28].
+Debug-label delay-slot handling | A label blocks the assembler from moving the previous instruction into a branch's delay slot | Labels with the special `._D_` prefix are excluded from that barrier check; real labels still block the swap. When other safety checks allow it, instruction order and delay-slot filling can change. The maintainers added this so debugging could retain Paper Mario's matching opcodes [^29].
+Global-pointer relaxation control | Eligible references may be relaxed to use `$gp` | Adds `.set nogpopt` to suppress that optimization and `.set gpopt` to restore it. Affected load/address sequences can differ in their instructions and size, which can also affect delay-slot opportunities and later addresses. Merely installing the patch does not disable relaxation everywhere [^30].
+Binary inclusion and common-data alignment | No added `.incbin` directive or `N64ALIGN` policy | `.incbin` inserts the selected file bytes directly. With `N64ALIGN=ON`, common symbols receive at least 8-byte alignment at sizes of 16 bytes or more, and 16-byte alignment at 1,024 bytes or more. This can move BSS symbols and change address references without adding initialized bytes for the BSS itself [^28].
+ELF symbols and file layout | Different symbol classification/counting and load-segment file-offset adjustment | Changes local/global symbol bookkeeping and the symbol table's `sh_info`; skips a load-segment offset-adjustment block in the NU64 configuration. ELF bytes/file offsets can differ independently of the extracted ROM payload [^28] [^31].
+Debugger metadata | Older debug-section/symbol handling | Adds `.MIPS.abiflags` for the relevant debug mode, changes STABS/ECOFF handling, drops selected local-label symbols and forces final MIPS ELF flags to `0x60001101`. These are object/debug metadata changes, not a request for the CPU to execute a different instruction set [^32].
+
+**The debug-label fix crosses the usual code/debug boundary.** A label emits no CPU instruction, but the unpatched assembler treats it as a scheduling barrier. Removing that barrier can move a real instruction into a delay slot and change `.text`. In contrast, repairing a debug-table terminator can change the ELF without changing any instruction. These effects must be checked separately [^27] [^29].
+
+---
+### What This Means for Matching
+For the same ordinary C with no added attributes or encoding options, the fork does not automatically insert a new code sequence. Important differences can still come from target defaults, the optimizer's negative-constant fix and the assembler's scheduling/relaxation behavior. Source using new extensions may have no successful unpatched counterpart at all.
+
+A whole-file ELF comparison will also detect debug and metadata changes. To establish a game-code difference, compare linked instructions, runtime data and symbol placement, then the final ROM. The sources above identify concrete mechanisms and reported cases; this article does not claim a measured count of changed Paper Mario functions or bytes.
+
+In decompdecomp, `gcc-2.8.1-pm` uses the paired GNU toolchain. A separate profile, `gcc-2.8.1-pm-sn-as`, takes the PM compiler's assembly and processes it with original SN ASN64 2.56 before object conversion. This tests a different assembler path with the same compiler family [^2] [^7].
 
 The hybrid profile can help reproduce scheduling and macro encodings. Its existence does not prove that a studio shipped this exact compiler/assembler pairing. A matching implementation is evidence about reproducible output; identifying an original distribution needs additional historical evidence.
 
@@ -246,3 +298,18 @@ For wider context, see the [C/C++ compiler toolchain reference](/compilers), the
 [^17]: HailToDodongo, [RSPL](https://github.com/HailToDodongo/rspl), RSP language, assembly output and libdragon overlay support.
 
 [^18]: Metrowerks, [CodeWarrior's Architectural Advantage](https://www.nxp.jp/docs/en/white-paper/CWX-WP.pdf), finalized 13 September 2000, Table 1, printed p. 11, Nintendo64 MIPS target and Windows hosts.
+
+[^19]: Paper Mario GCC, [initial GCC 2.8.1 import](https://github.com/pmret/gcc-papermario/commit/57261bd), compared with the [GNU GCC 2.8.1 release archive](https://ftp.gnu.org/gnu/gcc/gcc-2.8.1.tar.gz). All 1,217 imported files were byte-identical in this audit. Subsequent changes inspected through revision `d97824ffc7517675646960442b3f512a473e4404`.
+[^20]: Paper Mario GCC, [pinned N64 target configuration](https://github.com/pmret/gcc-papermario/blob/d97824ffc7517675646960442b3f512a473e4404/config/mips/nu64.h) and [configure script](https://github.com/pmret/gcc-papermario/blob/d97824ffc7517675646960442b3f512a473e4404/configure), target definitions, driver specifications and NU64 preprocessing mode.
+[^21]: Paper Mario GCC, [original N64/naked patch](https://github.com/pmret/gcc-papermario/commit/253149a88a983f38df62086e7e1c7f5b64c58bd6), attribute validation/merging, prologue/epilogue early returns and return-instruction eligibility.
+[^22]: Paper Mario GCC, [named-section output hook](https://github.com/pmret/gcc-papermario/commit/f4ab61e56ac00005db7ee7860f800eea74e27b79).
+[^23]: Paper Mario GCC, [PR #18](https://github.com/pmret/gcc-papermario/pull/18), host GCC version differences and the negative-constant test in `cse.c`.
+[^24]: Paper Mario GCC, [pinned preprocessor source](https://github.com/pmret/gcc-papermario/blob/d97824ffc7517675646960442b3f512a473e4404/cccp.c), `kanjienv_check`, `iskanji1`, `safe_write` and `nu64cutcr`.
+[^25]: Paper Mario GCC, [anonymous struct/union parser support](https://github.com/pmret/gcc-papermario/commit/0e70194617ccd9a3f490294c80637f5669529aa6) and [large-structure lookup fix](https://github.com/pmret/gcc-papermario/commit/ec1b55fd4aa9bb53b8d3578ad8c06e233aacd000).
+[^26]: Paper Mario GCC, [64-bit host support](https://github.com/pmret/gcc-papermario/commit/5cfb8c61f7fb5d2d0a67174d4e64d703cc128111) and [pinned host configuration/build instructions](https://github.com/pmret/gcc-papermario/blob/d97824ffc7517675646960442b3f512a473e4404/PAPERMARIO.md).
+[^27]: Paper Mario GCC, [DWARF label changes](https://github.com/pmret/gcc-papermario/commit/7fdb8b13fb4d208be853c4c3d640da45f958b6fe), [abbreviation terminator](https://github.com/pmret/gcc-papermario/commit/8c569243c3fad470937188aa151a5f5a5e403281), [line-table accounting](https://github.com/pmret/gcc-papermario/commit/9ecb77b91abad6ca31f0c4592b0851f5a44b5537) and [STABS changes](https://github.com/pmret/gcc-papermario/commit/80c3e66c4826f20aeaa0ac3aa435f0d7e027da84).
+[^28]: Paper Mario binutils, [initial PM changes](https://github.com/pmret/binutils-papermario/commit/52217868b2cf8ad5ece46edd7c04a063ef9726eb), Nintendo assembly behavior, register parsing, `.incbin`, `N64ALIGN` and ELF file-layout changes. Final source audited through `fb13863bb812ac34417916e0b8a6e16f5ca6badb`.
+[^29]: Paper Mario binutils, [PR #6](https://github.com/pmret/binutils-papermario/pull/6), recognizing debug labels during delay-slot arrangement.
+[^30]: Paper Mario binutils, [global-pointer relaxation control](https://github.com/pmret/binutils-papermario/commit/a4a26910691de92569a0ff16dd0bf8a839073062), `.set gpopt`, `.set nogpopt` and `nopic_need_relax`.
+[^31]: Paper Mario binutils, [symbol-table fix](https://github.com/pmret/binutils-papermario/commit/ff133fd3e5b16a716680e71e14b5dff3c8569606), local symbol count and MIPS symbol classification.
+[^32]: Paper Mario binutils, [GDB compatibility changes](https://github.com/pmret/binutils-papermario/commit/2e31907239ac0d50aaa03f1c8c1e90e8840f0f84), ABI flags, debug sections and symbol filtering.
