@@ -23,7 +23,7 @@ redirect_from:
   - /3ds/
 tags:
   - 3ds
-updatedAt: '2026-10-22'
+updatedAt: '2026-11-12'
 ---
 
 # Introduction
@@ -34,7 +34,7 @@ The 3DS followed the [Nintendo DS](/ds) (NITRO) and DSi (TWL). Its development m
 
 ---
 # Hardware
-The [Nintendo 3DS hardware analysis by Rodrigo Copetti](https://www.copetti.org/writings/consoles/nintendo-3ds/) traces the processors, graphics pipeline, memory, and security model. Start there when a register access, display behavior, or executable's privilege level needs more context [^2].
+The [Nintendo 3DS hardware analysis by Rodrigo Copetti](https://www.copetti.org/writings/consoles/nintendo-3ds/) traces the processors, graphics pipeline, memory, and security model. Start there when a register access, display behaviour, or executable's privilege level needs more context [^2].
 
 ## How did stereoscopic 3D change the graphics workload?
 The upper display presents a separate 400 x 240 view to each eye; the lower display adds another 320 x 240 image [^2]. In [Iwata Asks: The Hardware Concept](https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/1/2/), Nintendo's engineers describe the practical consequence: supporting 3D meant producing three images, while the brighter backlight also consumed power. Their choice of Digital Media Professionals' graphics technology was shaped by that power budget [^4]. When investigating a game's rendering, it helps to ask whether a scene is drawn twice for stereo or shown only on the lower screen.
@@ -55,6 +55,11 @@ The [development hardware guide](/nintendo-3ds-development-kit) collects photogr
 A 3DS game card image uses an NCSD header to describe its partitions. Those partitions contain NCCH files: an executable CXI can hold ARM11 code in ExeFS and game data in RomFS, while a CFA is non-executable content [^5]. This is why opening a cartridge image is only the first step toward finding the program or the files it loads. The [3DS file formats guide](/3DSFileFormats) maps the extensions and containers you are likely to encounter.
 
 {% include_cached link-to-other-post.html post="/3DSFileFormats" description="A guide to the cartridge, executable, and resource containers used by 3DS games." %}
+
+## What can the executable header reveal about a game?
+A CXI has an **extended header** outside ExeFS and RomFS. It records the process name, code segment layout, stack size and dependencies, then access-control data such as kernel capabilities and the services the process may request [^7]. This makes it useful when a disassembly calls a system service: the service list helps distinguish an expected dependency from a call the title was not permitted to make.
+
+The [3dbrew extended-header reference](https://3dbrew.org/wiki/Exheader) maps the fields and describes a signed access descriptor that limits the executable's declared permissions. [Project CTR's makerom documentation](https://github.com/3DSGuy/Project_CTR/blob/master/makerom/README.md) shows the same distinction from the build side: its CXI options accept an extended header and an RSF configuration for permissions and access control [^8]. These fields describe a title's declared capabilities, not proof that every permitted service is used at runtime.
 
 ## How did early 3DS homebrew get started?
 The [ninjhax source repository](https://github.com/smealum/ninjhax) shows one route from a game's QR-code reader to unsigned homebrew. Its README identifies the initial Cubic Ninja QR loader, the secondary payload, and the homebrew menu; the project also links to the author's technical write-up [^6]. The [Tech Rules video](https://www.youtube.com/watch?v=ImR-TdDAIJE) tells the story of this early hacking period, including the unlikely role of that game.
@@ -82,3 +87,5 @@ The magazine index collects developer interviews tagged for this system across a
 [^4]: [Nintendo, "Iwata Asks: The Hardware Concept", page 3](https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/1/2/)
 [^5]: [3dbrew, "NCSD"](https://www.3dbrew.org/wiki/NCSD) and ["NCCH"](https://www.3dbrew.org/wiki/NCCH)
 [^6]: [smealum, ninjhax source and README](https://github.com/smealum/ninjhax)
+[^7]: [3dbrew, NCCH Extended Header](https://3dbrew.org/wiki/Exheader), system-control and access-control fields.
+[^8]: [Project CTR, makerom README](https://github.com/3DSGuy/Project_CTR/blob/master/makerom/README.md), CXI build arguments and RSF files.
