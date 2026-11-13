@@ -80,13 +80,67 @@ The guide uses `-O2 -mips2` as a common starting point, with other optimization 
 
 ---
 ## KMC exeGCC and GCC 2.7.2
-Kyoto Microcomputer, usually shortened to KMC, supplied exeGCC for the PARTNER-N64 environment. Nintendo documents SGI-hosted and PC-hosted exeGCC packages. **PARTNER-N64 names a development system; it is not an alternative name for SN Systems' compiler.** The manual's KMC branding and compiler table help keep those products separate [^1].
+Kyoto Microcomputer, usually shortened to KMC, supplied exeGCC for the PARTNER-N64 environment. **exeGCC is the product/toolchain name; "KMC GCC" usually identifies its GNU compiler lineage in decompilation projects.** They are not two unrelated historical compiler families. A modern KMC-compatible build is a further distinction: it aims to reproduce the older compiler's output on a different host [^1] [^6] [^34].
 
-The [decompals KMC matching compiler](https://github.com/decompals/mips-gcc-2.7.2) is GCC 2.7.2 tailored to reproduce KMC output. In decompdecomp, the `gcc-2.7.2-kmc` profile pairs that compiler with matching binutils 2.6. This is a modern matching build, rather than an untouched copy of the original PC package [^6] [^7].
+Nintendo documents SGI-hosted and PC-hosted exeGCC packages. **PARTNER-N64 names a development system; it is not an alternative name for SN Systems' compiler.** The manual's KMC branding and compiler table help keep those products separate [^1].
 
-The [KMC matching guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/gcc-kmc.md) starts with `-O2 -mips3 -G0`. It notes that GCC commonly uses `j` for an unconditional jump inside a function, where IDO often uses `b`. Local declaration order, variable lifetimes and expression ordering can change registers and stack slots. Those observations explain why changing the spelling of equivalent C can matter [^8].
+### What Was Included in exeGCC?
+The [exeGCC(N64) User's Guide](https://ultra64.ca/files/documentation/nintendo/Nintendo_64_EXEGCC_Compiler_User_Guide_NUS-06-0160-001A.pdf) describes a complete PC development package. Its directory tree includes the `gcc` driver, `cpp` preprocessor, `cc1` compiler, GNU assembler/linker and utilities, `mild` ROM packer, `sgi2gas` conversion tool, `libkmc.a`, startup code and an extender loader [^34].
 
-Debug options deserve attention too. In the documented KMC workflow, `-g` or `-g3` can change instruction placement around calls and returns because debug line labels interact with old assembler scheduling. Recording only `-O2` is therefore an incomplete build recipe [^8].
+Thus, the `gcc` command is one component of exeGCC. The product also supplies host execution, library and ROM-building facilities. The guide's contemporary edition describes C support and explicitly excludes C++ and Objective-C at that time; the language capabilities of generic GCC should not be assumed to describe every shipped exeGCC package [^34].
+
+---
+### Documented KMC N64 Versions
+The preserved package's `VERSION.TXT` documents three PC releases. These dates and changes come from KMC's release history, rather than from a game-release-date estimate [^35]:
+
+exeGCC PC release | Vendor date | Documented changes
+---|---|---
+1.0 | 1 January 1997 | Initial shipping release
+1.1 | 5 July 1997 | Win32 operation for Windows 95/NT and greater virtual-memory access; reduced debug-information size; avoids stack/protection failures on complex optimized functions; adds ROM-packer and make improvements
+1.2 | 26 September 1997 | Adds stronger debug-information shrinking and the `mild` `lba` command; using the shrinking feature requires PARTNER-N64/WIN 1.07
+
+The vendor describes debug information falling to roughly two-thirds in 1.1, and the added 1.2 shrinking facility reducing existing debug information to about one-tenth. Those are vendor-reported debug-data reductions, not measurements of executable instruction size or game performance. The release notes do not establish that all three releases generate identical machine code, or document a new optimizer version for each release [^35].
+
+The preserved 1.2 distribution contains GCC 2.7.2: its driver has the banner format `gcc version %s release 1.2`, with `2.7.2` version strings; `cc1` also contains `2.7.2`. Its assembler carries a `2.6` version string, and the linker identifies itself as 2.6. These are separate component and package versions [^36].
+
+These labels should be recorded independently:
+
+Version label | What it identifies | What it does not establish
+---|---|---
+exeGCC 1.0 / 1.1 / 1.2 | KMC's PC package releases | A GNU GCC 1.x backend
+GCC 2.7.2 | Compiler version found in the preserved 1.2 package | The full exeGCC package release or exact assembler behavior
+GNU binutils 2.6 | Assembler/linker lineage in that package | GCC version 2.6
+PARTNER-N64/WIN 1.07 | Debugger required for the 1.2 shrinking feature | A compiler release called GCC 1.07
+OS/Library 2.0i | Nintendo SDK/library release | An exeGCC or GCC backend version
+Matching compiler v0.1 | A modern decompals release tag | Historical exeGCC 0.1 or GNU GCC 0.1
+
+Nintendo's [PC OS/Library 2.0i release notes](https://ultra64.ca/files/documentation/online-manuals/functions_reference_manual_2.0i/misc/PCReleaseNotes.html) independently refer to exeGCC 1.2's compression facilities and revised makefiles. This supports the package-version distinction [^37].
+
+The exeGCC guide also contains a verbose-command example showing GCC 2.7.0 for **Hitachi SH**, with SH include paths. That reused example is not evidence of an N64/MIPS exeGCC 2.7.0 release. Likewise, later exeGCC products for other processors do not automatically belong in an N64 version list. The three PC releases above are the documented history in the inspected package, not a claim to have found every private or SGI-hosted build [^34] [^35].
+
+---
+### Original KMC Tools Versus Modern Matching Builds
+"KMC GCC" can refer to an original KMC executable, or to a source-built compatibility toolchain. The distinction matters even when both display GCC 2.7.2:
+
+Implementation | What runs | Reproduction boundary
+---|---|---
+Original exeGCC package | KMC's shipped programs and supporting host runtime | Captures a particular historical package; its old host environment still needs support
+Original binaries through a wrapper | A loader such as [kmc-gcc-wrapper](https://github.com/Mr-Wiseguy/kmc-gcc-wrapper) runs the original compiler binaries | Rehosts original tools; does not replace the compiler with current GCC
+Modern KMC-compatible GCC | [decompals/mips-gcc-2.7.2](https://github.com/decompals/mips-gcc-2.7.2), paired with matching binutils | Source-built toolchain tailored to reproduce KMC output; version text alone is not proof of equivalence
+
+The matching repository starts from GCC 2.7.2. Its changes disable particular small-data section selections, select GNU assembler output by default, and change the local-label prefix to match KMC. It also includes modern-host fixes and driver support for passing assembler-related options. These are concrete compatibility changes, not a wholesale upgrade to a newer GNU compiler [^38].
+
+The small-data changes can affect where constants and objects are placed; assembler settings and labels can affect assembly or scheduling. Consequently, substituting stock GCC 2.7.2 or a different assembler is not guaranteed to preserve binary output. Conversely, a host wrapper or debug-information change does not inherently mean that every function's instructions change [^38].
+
+In decompdecomp, `gcc-2.7.2-kmc` pins decompals GCC release `v0.1` with binutils 2.6 release `v0.3`. These are modern distribution tags around historical compiler versions. This profile is a matching build, rather than an untouched copy of exeGCC 1.2 [^7].
+
+---
+### Matching Settings and Package Behavior
+The [KMC matching guide](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/guides/gcc-kmc.md) starts with `-O2 -mips3 -G0`. GCC commonly uses `j` for an unconditional jump inside a function, where IDO often uses `b`. Declaration order, lifetimes and expression ordering can change registers and stack slots [^8].
+
+The original exeGCC guide documents `GCCSW` for default compiler options and `N64ALIGN` for data alignment. Its PC setup uses MIPS III with 32-bit general/floating-point register settings. Capturing only the displayed GCC version therefore misses environment-dependent parts of the build recipe [^34].
+
+Debug options deserve attention too. In the documented matching workflow, `-g` or `-g3` can affect instruction placement because debug labels interact with assembler scheduling. That is separate from exeGCC 1.2's debug-information shrinking facility. A complete recipe records the original or reconstructed tool build, assembler, flags and environment [^8] [^35].
 
 ---
 ## SN Systems SN64 GCC
@@ -429,3 +483,9 @@ For wider context, see the [C/C++ compiler toolchain reference](/compilers), the
 [^32]: Paper Mario binutils, [GDB compatibility changes](https://github.com/pmret/binutils-papermario/commit/2e31907239ac0d50aaa03f1c8c1e90e8840f0f84), ABI flags, debug sections and symbol filtering.
 
 [^33]: RetroReversing, [Paper Mario patch experiment bundle](/public/data/n64-compiler-patches/experiment.zip), [results and SHA-256 hashes](/public/data/n64-compiler-patches/results.json), and [reproduction script](/public/data/n64-compiler-patches/reproduce.py). Seven controlled example pairs compiled/assembled and linked on 13 November 2026; all 14 build paths repeated with stable hashes. Reversions retain the common N64 target and modern-host support. No full-game A/B rebuild or runtime execution is claimed.
+
+[^34]: Nintendo/KMC, [exeGCC(N64) User's Guide](https://ultra64.ca/files/documentation/nintendo/Nintendo_64_EXEGCC_Compiler_User_Guide_NUS-06-0160-001A.pdf), NUS-06-0160-001A, released 31 December 1997, printed pp. 11-15 and 20. Package structure, host/runtime distinction, C-only edition, environment settings and the Hitachi SH verbose-output example.
+[^35]: KMC, `kmc/gcc/MIPSE/VERSION.TXT`, preserved in the [kmc-gcc-wrapper release archive](https://github.com/Mr-Wiseguy/kmc-gcc-wrapper/releases/tag/master), asset `kmc-gcc-wrapper-ubuntu-latest.tar.gz`. Vendor release entries dated 1 January, 5 July and 26 September 1997. Dates and changes were read from the archive, not inferred from its upload date.
+[^36]: Original KMC `GCC.OUT`, `CC1.OUT`, `AS.OUT` and `LD.OUT` in that archive; [inspection record with archive/component SHA-256 hashes](/public/data/n64-kmc-toolchain-evidence.json). Version/banner strings inspected without executing the original binaries; these observations do not establish byte-identical output between releases.
+[^37]: Nintendo, [N64 OS/Library 2.0i for the PC release notes](https://ultra64.ca/files/documentation/online-manuals/functions_reference_manual_2.0i/misc/PCReleaseNotes.html), setup scripts and exeGCC 1.2 compression/makefile compatibility.
+[^38]: decompals/mips-gcc-2.7.2, [small-data changes](https://github.com/decompals/mips-gcc-2.7.2/commit/feeaecf3c47943f186bd156ff29ff7e8f7fd5128), [GNU assembler default](https://github.com/decompals/mips-gcc-2.7.2/commit/f2c2495f07992cd2d721e56a62100cd69acc2376), [KMC label prefix](https://github.com/decompals/mips-gcc-2.7.2/commit/df25f763e0929b654278da9d68e85ff8df5bc239), [ABI-option forwarding](https://github.com/decompals/mips-gcc-2.7.2/commit/8c900d1e48979d504609dcfa03a40750537a66f9) and [symbol-table option forwarding](https://github.com/decompals/mips-gcc-2.7.2/commit/e6271f14b095d7d8b2638c2b5e07d0d5cd05bc14). These changes are present at the inspected `v0.1` tag.
