@@ -19,10 +19,14 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /consoles/n64/SN64_SDK.md
-updatedAt: '2020-06-27'
+updatedAt: '2026-11-13'
 ---
 
 SN64 was a software development kit for the Nintendo 64 created by `SN Systems` and was especially popular with 3rd party game developers.
+
+For the differences between SN64 builds and other N64 toolchains, see the dedicated compiler reference:
+
+{% include_cached link-to-other-post.html post="/n64-compilers" description="Compare SN64 GCC builds and assemblers with KMC GCC, SGI IDO, Paper Mario GCC and EGCS." %}
 
 # Introduction
 <section class="postSection">

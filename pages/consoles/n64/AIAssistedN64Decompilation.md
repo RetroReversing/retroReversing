@@ -15,7 +15,7 @@ breadcrumbs:
   - name: AI Assisted N64 Decompilation
     url: '#'
 editlink: consoles/n64/AIAssistedN64Decompilation.md
-updatedAt: '2026-10-27'
+updatedAt: '2026-11-13'
 excerpt: 'Start N64 matching decompilation with free local matches in decompdecomp, then connect coding agents and compare verified model results and costs.'
 ---
 
@@ -79,7 +79,7 @@ In our V-Rally regional comparison, the app verified **429 North American functi
 ## Understanding the Compiler
 A compiler turns C into the machine instructions executed by the N64. Matching decompilation runs that process again: your recovered C must produce the same bytes. **The compiler version and its flags matter as much as the C source.** A modern compiler can produce working code that fails the original-byte comparison.
 
-The app's compiler dropdown gives these typical usage patterns. They help choose a starting point; matching evidence determines the settings for your game [^33]:
+These three compiler families give useful initial usage patterns. They help choose a starting point; matching evidence determines the settings for your game [^33]:
 
 Compiler | What the name means | Why it matters
 ---|---|---
@@ -89,20 +89,16 @@ KMC GCC 2.7.2 | The N64-era KMC variant of GCC 2.7.2 | Used by many third-party 
 
 **Flags change the recipe.** Settings such as `-O2` control optimization; `-G0` and `-G8` affect small-data addressing. Debug options such as `-g` can also affect generated code with historical compilers. A mismatch can therefore come from compiler settings as well as source code.
 
-### Compilers Missing From the N64 Dropdown
-**decompdecomp does not include every known N64 compiler.** Its built-in ROM workflow currently offers the three choices above. Retail games also used other GCC versions and vendor builds; choosing KMC GCC 2.7.2 is not an exact substitute for all of them.
+### Additional N64 Compiler Profiles
+The [RetroReversing fork's N64 platform definition](https://github.com/RetroReversing/decompdecomp/blob/main/src/decompnet/consoles/n64/__init__.py) includes SN64 GCC 2.7.2 builds 0001/0004/0006, SN64 GCC 2.8.1, Paper Mario GCC, EGCS and reconstructed or experimental profiles in addition to the three starting points above. Availability depends on the app release and installed tools; a registered comparison profile does not establish historical use [^33].
 
-Documented examples outside those built-in choices include:
+The dedicated compiler reference explains their differences, assembler pairings and game-specific evidence:
 
-Toolchain | Retail-game evidence
----|---
-GCC 2.8.1, Paper Mario variant | The [Paper Mario team maintains a patched GCC 2.8.1](https://github.com/pmret/gcc-papermario) for matching the game [^35].
-SN Systems SN64 GCC 2.7.2 | The [Excitebike 64 matching project](https://github.com/chasmlol/excitebike64) documents builds 0006 and 0001 for its loader, including supported retail cartridge versions [^36].
-SN Systems SN64 GCC 2.8.1 | Excitebike 64 uses it for game code. The [Turok 2 project](https://github.com/mgrz18/turok2-decomp) also reports confirming it on eight engine functions with `-O2` [^36] [^37].
+{% include_cached link-to-other-post.html post="/n64-compilers" description="Learn which N64 compilers are documented, how their output differs, and how to identify the right version and flags." %}
 
-**Related releases add more variants.** Ocarina of Time's iQue release uses EGCS for selected files. That is evidence from a later iQue release, rather than an original N64 cartridge [^38].
+For example, the [Paper Mario team maintains a patched GCC 2.8.1](https://github.com/pmret/gcc-papermario) [^35]. [Excitebike 64](https://github.com/chasmlol/excitebike64) documents separate SN64 compiler builds for boot and game code, and [Turok 2](https://github.com/mgrz18/turok2-decomp) reports SN64 GCC 2.8.1 matching [^36] [^37]. Ocarina of Time's later iQue release also uses EGCS for selected files [^38].
 
-If a game's actual compiler is missing, correct C may still fail to match with every offered choice. Check its existing decompilation project's toolchain before spending more agent time changing the source. A community project using its own build may support compilers beyond the app's built-in ROM dropdown.
+Check an existing project's toolchain before spending more agent time changing C. Imported community projects can retain their own build scripts, and a compiler setting verified for one function need not apply to the whole game.
 
 ---
 ### How Detection Works
