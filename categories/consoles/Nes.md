@@ -22,7 +22,7 @@ recommend:
  - introduction
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
-updatedAt: '2026-10-25'
+updatedAt: '2026-11-11'
 tags:
   - nes
   - introduction
@@ -94,17 +94,18 @@ Originally created by **BootGod**, **NESCartDB** catalogs PCB scans, mapper assi
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
 
-Have you ever wondered about how a NES controller actually works, such as the circuits and electronic components used to physically create it?
-
-  Well you are in luck, the YouTuber **Displaced Gamers** explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
+**Displaced Gamers** opens a standard NES controller and traces its wiring, button contacts and 8-bit shift register. The video shows the physical circuit behind the serial button reads a game performs.
 
 He opens up the NES controller revealing the physical wires, traces (green lines on the circuit), rubber membranes and the 8-bit shift register (**HD14021BP**).
 
-  The Controller as with all electronics has both a Power (High) and Ground (Low) lines, with 5V used for Power. Ground is connected to all of the buttons including the 4 D-pad buttons, whereas the Power lines go straight to the Carbon Printed Pull-Up resistors which then in-turn goes to each of the buttons.
-
-  When a button is pressed it completes the circuit at that point meaning it is pulled Low (Grounded) which allows the shift register to know that button is pressed. The resistors are used to make sure the power lines are always High, so we can ensure that when a pin is pulled low it has definitely been pressed.
+  The controller uses a 5 V supply and common ground. Pressing a button closes its contact and pulls that input low; a pull-up resistor keeps an unpressed input high. The shift register samples all eight contacts together, then presents their states one at a time.
 </div>
 </section>
+
+### How does a game read the controller buttons?
+The physical shift register explains why an NES game cannot fetch the whole controller state with one CPU read. Software writes `1`, then `0`, to `$4016` to latch both controllers. It then reads `$4016` for player one or `$4017` for player two eight times. Bit 0 reports A, B, Select, Start, Up, Down, Left and Right in that order [^13]. This is a useful pattern to recognize in a disassembly: a write pair followed by eight reads usually marks an input routine.
+
+The [NESdev controller-reading reference](https://www.nesdev.org/wiki/Controller_Reading) also documents a hardware wrinkle. On NTSC consoles, a DMC sample fetch can collide with a controller read and clock the register an extra time, dropping one button bit. Games that play samples during polling may read again and compare reports to avoid stray inputs [^14].
 
 ---
 # Game Software Development for the NES and Famicom
@@ -444,3 +445,6 @@ The magazine index collects developer interviews tagged for this system across a
 [^11]: [iNES - NESdev Wiki](https://www.nesdev.org/wiki/INES)
 [^12]: [NES 2.0 submappers - NESdev Wiki](https://www.nesdev.org/wiki/NES_2.0_submappers)
 [^nes-memory-visualisation]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)
+
+[^13]: [NESDoc, section 5.1, Control Pad](https://www.nesdev.org/NESDoc.pdf).
+[^14]: [NESdev, Controller reading and DPCM conflict](https://www.nesdev.org/wiki/Controller_Reading).
