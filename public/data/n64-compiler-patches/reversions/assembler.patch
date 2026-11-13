@@ -1,0 +1,41 @@
+diff --git a/gas/config/obj-elf.c b/gas/config/obj-elf.c
+index 5dec3f3..d7fec4d 100644
+--- a/gas/config/obj-elf.c
++++ b/gas/config/obj-elf.c
+@@ -318,22 +318,7 @@ obj_elf_common (ignore)
+ 	      as_warn ("Common alignment negative; 0 assumed");
+ 	    }
+ 	}
+-#ifdef NU64
+-      {
+-	char  *n64align_env;
+-	int    n64align;
+-	static n64align_flag = -1;
+-	
+-	if(n64align_flag == -1){
+-	  n64align_env = getenv("N64ALIGN");
+-	  n64align_flag = (n64align_env && !strcasecmp(n64align_env, "ON") ? 1:0);
+-	}
+-	if(n64align_flag) {
+-	  n64align = (size >= 1024 ? 16:(size >= 16 ? 8:0));
+-	  if (n64align > temp) temp = n64align;
+-	}
+-      }
+-#endif
++
+       if (symbolP->local)
+ 	{
+ 	  segT old_sec;
+diff --git a/gas/config/tc-mips.c b/gas/config/tc-mips.c
+index e2f6caf..9b6097a 100644
+--- a/gas/config/tc-mips.c
++++ b/gas/config/tc-mips.c
+@@ -2158,7 +2158,7 @@ append_insn (place, ip, address_expr, reloc_type, unmatched_hi)
+ 		 whether there is a label on this instruction.  If
+ 		 there are any branches to anything other than a
+ 		 label, users must use .set noreorder.  */
+-	      || (insn_labels != NULL && labels_not_debug())
++	      || insn_labels != NULL
+ 	      /* If the previous instruction is in a variant frag, we
+ 		 can not do the swap.  This does not apply to the
+ 		 mips16, which uses variant frags for different

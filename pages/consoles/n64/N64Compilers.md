@@ -53,6 +53,8 @@ These terms explain the differences discussed below:
 * <a id="glossary-assembler"></a>**Assembler** - Converts assembly into object code. Macro expansion and instruction scheduling can affect the bytes.
 * <a id="glossary-elf"></a>**ELF / ECOFF / PsyQ object** - Object-file formats used along different toolchain paths. Matching tools may convert a historical format into ELF for linking.
 * <a id="glossary-egcs"></a>**EGCS** - Experimental GNU Compiler System, a GNU compiler development branch. EGCS 1.1.2 identifies itself with the GCC version 2.91.66.
+* <a id="glossary-bss"></a>**BSS** - Storage reserved for uninitialized or zero-initialized objects, normally without storing their zero bytes in the executable file.
+* <a id="glossary-debug"></a>**DWARF / STABS** - Debug-information formats used to describe source lines, functions and types to a debugger.
 * <a id="glossary-rsp"></a>**RSP** - Reality Signal Processor. Its microcode is separate from the main CPU's C/C++ compilation.
 
 ---
@@ -132,7 +134,7 @@ The inspected N64 profile list does not include CodeWarrior. The sources used he
 ## Paper Mario GCC 2.8.1
 The [Paper Mario team's GCC fork](https://github.com/pmret/gcc-papermario) is a community-maintained GCC 2.8.1 toolchain with N64 target support, language extensions, host fixes and debugging changes. Its companion [binutils fork](https://github.com/pmret/binutils-papermario) supplies a modified assembler and related tools. Sharing the version string 2.8.1 with SN64 does not make these pipelines interchangeable [^13].
 
-**There is no single binary change applied to every function.** Some patches change instructions or data placement when their conditions are met. Others enable source that the unpatched compiler rejects, or change only debug information and object-file metadata. The comparison below is a source audit, not a measured before/after rebuild of the whole game.
+**There is no single binary change applied to every function.** Some patches change instructions or data placement when their conditions are met. Others enable source that the unpatched compiler rejects, or change only debug information and object-file metadata. The patch inventory below describes source-level mechanisms; the measured examples then test selected effects. No whole-game A/B rebuild is claimed.
 
 The audited revisions are GCC [`d97824f`](https://github.com/pmret/gcc-papermario/tree/d97824ffc7517675646960442b3f512a473e4404) and binutils [`fb13863`](https://github.com/pmret/binutils-papermario/tree/fb13863bb812ac34417916e0b8a6e16f5ca6badb). The GCC repository's initial 1,217 files match GNU's GCC 2.8.1 release archive. The subsequent patches are modern matching/build changes; their presence does not prove that Nintendo's original compiler contained the same source edits [^19].
 
@@ -184,6 +186,118 @@ For the same ordinary C with no added attributes or encoding options, the fork d
 
 A whole-file ELF comparison will also detect debug and metadata changes. To establish a game-code difference, compare linked instructions, runtime data and symbol placement, then the final ROM. The sources above identify concrete mechanisms and reported cases; this article does not claim a measured count of changed Paper Mario functions or bytes.
 
+---
+### Measured Binary Comparisons
+Small controlled examples demonstrate which differences reach executable bytes. Seven example pairs were built on Apple Silicon macOS 27.0.1 using Apple Clang 21.0.0 to build the historical tools. The GCC and binutils source revisions are pinned above. GNU MIPS binutils `2.47.20260726` linked every pair at `0x80000400` with the same linker script [^33].
+
+**Here, "reverted" means selected patch behavior was removed from the Paper Mario fork.** The N64 target and modern-host fixes stayed in both builds. This avoids comparing different target configurations or an original GCC release that cannot build the same target on this host. The downloadable reversion files identify every source edit.
+
+The comparisons isolate these behaviors:
+* **Compiler entry/exit** - Restore ordinary prologue/epilogue and return eligibility, while retaining `naked` attribute recognition so both compilers accept identical C. This is a behavior ablation, not pristine GCC ignoring an unsupported attribute.
+* **Assembler scheduling and alignment** - Restore the debug-label scheduling barrier and remove the `N64ALIGN` block. The scheduling test has no common data; the alignment test has no debug label, so each exercises one of those changes.
+* **Object/debug metadata** - Reverse binutils commit `2e31907` in a separate assembler build.
+* **Negative-constant optimization** - Restore the pre-PR-18 condition in a separate compiler build.
+
+Both compiler variants use `-G0 -mips3 -mgp32 -mfp32 -O2`. Assembly uses `-EB -mips3 -G0`, with `-g2` added for the metadata test. `N64ALIGN=ON` is identical on both sides. Compiler-generated assembly and the linker input object use fixed temporary filenames to avoid filename-only debug/symbol differences. Every pair uses the same final linker and script [^33].
+
+The table compares the extracted, linked `.text` bytes. Lengths include section padding; differing bytes means differing byte positions, not differing instructions:
+
+Example | Reverted / patched .text length | Differing bytes | Measured result
+---|---|---|---
+Ordinary C arithmetic | 16 / 16 bytes | 0 | Instructions, object file and linked ELF are identical
+Naked assembly entry | 16 / 16 bytes | 3 | Function size falls from 16 to 8 bytes; an extra compiler-generated return disappears, but section padding keeps `.text` at 16 bytes
+Special debug label before return | 16 / 16 bytes | 6 | `addiu` moves into the return's delay slot
+Real label before return | 16 / 16 bytes | 0 | The real-label barrier still prevents that swap
+Common-symbol alignment | 32 / 32 bytes | 2 | Both referenced [BSS](#glossary-bss) addresses move by 12 bytes; two address operands change
+Object/debug metadata | 16 / 16 bytes | 0 | Objects differ: 887 bytes reverted, 675 patched. Linked instructions remain identical
+Two uses of `0x80000000U` | 32 / 32 bytes | 0 | Both emit the same `subu` sequence on this host; this does not reproduce the GCC 6 versus GCC 9 case
+
+Every compile/assemble/link sequence was repeated. Object, linked ELF and extracted `.text` hashes were stable across repeats. Full SHA-256 hashes, source files, exact reversions, symbol listings and disassemblies are in the [experiment download](/public/data/n64-compiler-patches/experiment.zip). The [machine-readable results](/public/data/n64-compiler-patches/results.json) record tool versions and flags. These are synthetic examples; no game code or ROM was used [^33].
+
+#### Naked Functions Can Shrink Without Shrinking the Section
+The test C supplies its own return sequence:
+
+```c
+void __attribute__((naked)) naked_entry(void) {
+    __asm__ volatile (".set noreorder\n\tjr $31\n\tnop\n\t.set reorder");
+}
+```
+
+With ordinary entry/exit behavior restored, the compiler adds another return after the inline assembly. The measured function bodies contain these big-endian instruction words:
+
+Output | Function words | Function size
+---|---|---
+Ordinary entry/exit behavior restored | `03e00008 00000000 03e00008 00000000` | 16 bytes
+Patched naked behavior | `03e00008 00000000` | 8 bytes
+
+`03e00008` is `jr $ra`; `00000000` is `nop`. The patched section fills the remaining eight bytes with zero padding, so only three byte positions differ in the complete 16-byte `.text` section. The source intentionally supplies assembly for the whole entry; this is not evidence that arbitrary C is safe inside a naked function [^33].
+
+---
+#### A Debug Label Changes Real Instruction Order
+The assembly example places `._D_LM1` between an arithmetic instruction and a return:
+
+```nasm
+    addiu $2,$4,1
+._D_LM1:
+    jr $31
+    nop
+```
+
+The first two linked instruction words change as follows:
+
+Output | Words at 0x80000400 and 0x80000404 | Execution order
+---|---|---
+Debug-label barrier restored | `24820001 03e00008` | `addiu $v0,$a0,1`, then `jr $ra`; the delay slot is a NOP
+Patched assembler | `03e00008 24820001` | `jr $ra`, with `addiu $v0,$a0,1` in its delay slot
+
+A MIPS delay-slot instruction executes before control transfers. The patch changes the placement of the arithmetic operation without changing this example's intended result. Replacing the special label with `real_label` makes the two assemblers produce identical bytes. This control confirms that the observed change is specific to the debug-label exception [^29] [^33].
+
+---
+#### Alignment Changes Linked Address Operands
+The alignment example declares 32-byte and 1,024-byte common symbols, both requesting four-byte alignment. Its linker script deliberately starts BSS allocation after a one-byte reservation so stronger alignment has a visible effect. This is a constructed layout, not a recovered Paper Mario layout.
+
+With `N64ALIGN=ON` on both sides, the symbols and references change as follows:
+
+Symbol or instruction | Alignment block removed | Patched assembler
+---|---|---
+`large` address | `0x80000424` | `0x80000430`
+`small` address | `0x80000824` | `0x80000830`
+`addiu $v0,$v0,%lo(small)` | `24420824` | `24420830`
+`addiu $v1,$v1,%lo(large)` | `24630424` | `24630430`
+
+Both addresses move by `0x0c`. Only the last byte of each shown instruction changes, giving two differing `.text` bytes. The BSS space is not stored as initialized ROM data; its placement still affects instructions that refer to it [^28] [^33].
+
+---
+#### A Different Object File Can Contain Identical Code
+The metadata test reverses the GDB compatibility commit while retaining the other assembler changes. A two-instruction function assembled with `-g2` produces these objects:
+
+Property | Metadata commit reverted | Patched assembler
+---|---|---
+Object size | 887 bytes | 675 bytes
+ELF flags | `0x10000001` | `0x60001101`
+Relevant section | `.mdebug`, 240 bytes | `.MIPS.abiflags`, 24 bytes
+Linked `.text` SHA-256 | `2235882e0b98070fdcac3cc7d809aa3e768019c7fe2d6a6c0cf08009d32dfde7` | Same hash
+
+The linker script discards those metadata sections. The resulting instruction bytes are identical, while the complete linked ELFs still differ. An ELF checksum alone would therefore overstate the change to the executable payload. The header flags do not turn this two-instruction example into different CPU code [^32] [^33].
+
+---
+#### The Negative-Constant Test Did Not Reproduce the Reported Difference
+The compiler probe uses the same large constant twice:
+
+```c
+unsigned int constant_reuse(unsigned int x, unsigned int y) {
+    unsigned int a = x + 0x80000000U;
+    unsigned int b = y + 0x80000000U;
+    return a ^ b;
+}
+```
+
+Both the patched compiler and the version with only the CSE condition reverted emit identical objects and linked code. Both use `subu` for these operations. This is a negative result for this source and Apple Clang 21 host build, not a refutation of the maintainer's GCC 6/GCC 9 report. Reproducing that reported host-dependent difference requires those host compiler conditions and a triggering input [^23] [^33].
+
+The [reproduction script](/public/data/n64-compiler-patches/reproduce.py) builds the pinned tools, applies the supplied reversions and reruns all examples in an empty directory. It targets the macOS host configuration used here. The archive includes the sources and reversion files it needs; no installed game project or compiler is modified [^33].
+
+---
+### Compiler Profiles in decompdecomp
 In decompdecomp, `gcc-2.8.1-pm` uses the paired GNU toolchain. A separate profile, `gcc-2.8.1-pm-sn-as`, takes the PM compiler's assembly and processes it with original SN ASN64 2.56 before object conversion. This tests a different assembler path with the same compiler family [^2] [^7].
 
 The hybrid profile can help reproduce scheduling and macro encodings. Its existence does not prove that a studio shipped this exact compiler/assembler pairing. A matching implementation is evidence about reproducible output; identifying an original distribution needs additional historical evidence.
@@ -313,3 +427,5 @@ For wider context, see the [C/C++ compiler toolchain reference](/compilers), the
 [^30]: Paper Mario binutils, [global-pointer relaxation control](https://github.com/pmret/binutils-papermario/commit/a4a26910691de92569a0ff16dd0bf8a839073062), `.set gpopt`, `.set nogpopt` and `nopic_need_relax`.
 [^31]: Paper Mario binutils, [symbol-table fix](https://github.com/pmret/binutils-papermario/commit/ff133fd3e5b16a716680e71e14b5dff3c8569606), local symbol count and MIPS symbol classification.
 [^32]: Paper Mario binutils, [GDB compatibility changes](https://github.com/pmret/binutils-papermario/commit/2e31907239ac0d50aaa03f1c8c1e90e8840f0f84), ABI flags, debug sections and symbol filtering.
+
+[^33]: RetroReversing, [Paper Mario patch experiment bundle](/public/data/n64-compiler-patches/experiment.zip), [results and SHA-256 hashes](/public/data/n64-compiler-patches/results.json), and [reproduction script](/public/data/n64-compiler-patches/reproduce.py). Seven controlled example pairs compiled/assembled and linked on 13 November 2026; all 14 build paths repeated with stable hashes. Reversions retain the common N64 target and modern-host support. No full-game A/B rebuild or runtime execution is claimed.

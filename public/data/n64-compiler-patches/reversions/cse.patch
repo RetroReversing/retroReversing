@@ -1,0 +1,13 @@
+diff --git a/cse.c b/cse.c
+index c23c4bf..aaf3e4c 100644
+--- a/cse.c
++++ b/cse.c
+@@ -5660,7 +5660,7 @@ fold_rtx (x, insn)
+ 	     hence not save anything) or be incorrect.  */
+ 	  if (const_arg1 != 0 && GET_CODE (const_arg1) == CONST_INT
+ 	      && INTVAL (const_arg1) < 0
+-	      && (-INTVAL (const_arg1) >> 0x1f) >= 0
++	      && - INTVAL (const_arg1) >= 0
+ 	      && GET_CODE (folded_arg1) == REG)
+ 	    {
+ 	      rtx new_const = GEN_INT (- INTVAL (const_arg1));
