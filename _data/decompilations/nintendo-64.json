@@ -4151,6 +4151,18 @@
         "github_stars": 2
       },
       "ai_used": true
+    },
+    "madden-football-64-thegh0stship": {
+      "name": "Madden Football 64",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/Madden-64",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null
     }
   },
   "consoles": {
@@ -14163,6 +14175,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/RetroReversing/v-rally-decomp"
+            }
+          ]
+        },
+        {
+          "project": "madden-football-64-thegh0stship",
+          "name_markdown": "[Madden Football 64](https://github.com/TheGh0stShip/Madden-64)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Madden%20Football%2064%20%28USA%29.png",
+              "alt": "US Nintendo 64 Madden Football 64 front box art showing John Madden holding a football beside the EA Sports logo",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA Rev 0 Nintendo 64 ROM (N8ME). Requires your own supported big-endian ROM, n64-decomp-kit and configured historical toolchains. Reconstructs the packed resident program and discovered executable overlays; function boundaries and newly identified overlays remain provisional. Compiled C, assembly-assisted C, assembly references, ROM mapping and asset inventory are measured separately. The unpacked analysis wrapper is not a playable game ROM, and this project is not a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheGh0stShip/Madden-64"
             }
           ]
         }
