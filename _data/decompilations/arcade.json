@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 55
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "daytona-arcade-recomp": {
       "name": "Daytona Arcade Recomp",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 223
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-or-alive-jiggle-or-physics": {
       "name": "Dead or Alive ++ (Jiggle-or-Physics)",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "defender-defender-source-code": {
       "name": "Defender (Defender-Source-Code)",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "defender-falcon": {
       "name": "Defender (Falcon)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "double-dragon-double-dragon-snes": {
       "name": "Double Dragon (double-dragon-snes)",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-ax": {
       "name": "F-Zero AX",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "green-beret-cadaver-greenberet-disassembly": {
       "name": "Green Beret (cadaver greenberet-disassembly)",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "initial-d-arcade-stage-ver-3": {
       "name": "Initial D Arcade Stage Ver.3",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 160
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jackal-nes-jackal-disassembly-fully-commented": {
       "name": "Jackal (NES-Jackal_Disassembly_Fully_Commented)",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jackal-uefi-jackal": {
       "name": "Jackal (UEFI_Jackal)",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-arcade-gp-2": {
       "name": "Mario Kart Arcade GP 2",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sega-rally-championship-96": {
       "name": "SEGA Rally Championship 96",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sinistar": {
       "name": "Sinistar",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-fighters-stfdecomp": {
       "name": "Sonic The Fighters (stfdecomp)",
@@ -284,7 +312,9 @@
         "status": "Inactive",
         "github_stars": 110
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "street-fighter-alpha-2-street-fighter-alpha-2-recomp": {
       "name": "Street Fighter Alpha 2 (Street Fighter Alpha 2 Recomp)",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tekken-6-tekken6-recomp": {
       "name": "Tekken 6 (tekken6-recomp)",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 48
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "thrill-drive-2-konami-viper-recomp": {
       "name": "Thrill Drive 2 (konami-viper-recomp)",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "time-crisis-time-crisis-vr": {
       "name": "Time Crisis (Time Crisis VR)",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 82
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "time-crisis-ii-namco22-decompile": {
       "name": "Time Crisis II (namco22-decompile)",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 253
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "vampire-savior-the-lord-of-vampire": {
       "name": "Vampire Savior: The Lord of Vampire",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-cop-2-re-virtua-cop-2": {
       "name": "Virtua Cop 2 (re-virtua-cop-2)",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-fighter-virtua-fighter-recomp": {
       "name": "Virtua Fighter (Virtua Fighter Recomp)",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 61
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-fighter-2": {
       "name": "Virtua Fighter 2",
@@ -455,7 +501,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-fighter-2-arcade": {
       "name": "Virtua Fighter 2",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 67
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-fighter-3": {
       "name": "Virtua Fighter 3",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wizard-of-wor-dabadab-wizardofwor": {
       "name": "Wizard of Wor (dabadab wizardofwor)",
@@ -512,7 +564,9 @@
         "status": "Inactive",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "xevious-xevious-arcade-68k-transcode": {
       "name": "Xevious (xevious (arcade -> 68k transcode))",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bagman-bagman-arcade-68k-transcode": {
       "name": "Bagman (bagman (arcade -> 68k transcode))",
@@ -550,7 +606,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ms-pac-man-mspacman500-arcade-68k-transcode": {
       "name": "Ms. Pac-Man (mspacman500 (arcade -> 68k transcode))",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
