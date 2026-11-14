@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-dream-team": {
       "name": "Sonic Dream Team",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "billy-frontier": {
       "name": "Billy Frontier",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 40
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bugdom": {
       "name": "Bugdom",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 516
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bugdom-2": {
       "name": "Bugdom 2",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 72
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "cro-mag-rally": {
       "name": "Cro-Mag Rally",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 177
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "marathon-marathon-android": {
       "name": "Marathon (Marathon (Android))",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 70
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mighty-mike": {
       "name": "Mighty Mike",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 215
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nanosaur-2-hatchling-nanosaur-2-jorio": {
       "name": "Nanosaur 2: Hatchling (Nanosaur 2 (jorio))",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 108
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "otto-matic": {
       "name": "Otto Matic",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 185
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "simcity-micropolis-java": {
       "name": "SimCity (micropolis-java)",
@@ -208,7 +228,9 @@
         "status": "Inactive",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "simcity-micropolisjs": {
       "name": "SimCity (micropolisJS)",
@@ -227,7 +249,9 @@
         "status": "Inactive",
         "github_stars": 734
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
