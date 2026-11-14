@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 100
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lode-runner-lode-runner-reveng-literate-programming": {
       "name": "Lode Runner (lode_runner_reveng (literate programming))",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lode-runner-piddewitt-loderunner": {
       "name": "Lode Runner (Piddewitt Loderunner)",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 68
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "prince-of-persia-sdlpop-dreamcast": {
       "name": "Prince of Persia (SDLPoP-Dreamcast)",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ultima-iv-quest-of-the-avatar-u4-decompiled": {
       "name": "Ultima IV: Quest of the Avatar (u4-decompiled)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 82
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ultima-iv-quest-of-the-avatar-u4remastereda2": {
       "name": "Ultima IV: Quest of the Avatar (u4remasteredA2)",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
