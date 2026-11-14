@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-warrior-monsters-german": {
       "name": "Dragon Warrior Monsters (German)",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "looney-tunes-carrot-crazy": {
       "name": "Looney Tunes: Carrot Crazy",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-gold-silver": {
       "name": "Pokemon Gold & Silver",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 732
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-crystal": {
       "name": "Pokemon Crystal",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 2540
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "suicune": {
       "name": "suiCune",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 188
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-pinball": {
       "name": "Pokemon Pinball",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 204
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-trading-card-game": {
       "name": "Pokemon Trading Card Game",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 333
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-puzzle-challenge": {
       "name": "Pokémon Puzzle Challenge",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 81
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-3": {
       "name": "Wario Land 3",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-links-awakening-dx": {
       "name": "The Legend of Zelda Links Awakening DX",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 918
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-oracle-of-ages-seasons": {
       "name": "The Legend of Zelda Oracle of Ages & Seasons",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 221
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-tcg-2": {
       "name": "Pokemon TCG 2",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 96
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-warrior-monsters": {
       "name": "Dragon Warrior Monsters",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-ocean-blue-sphere": {
       "name": "Star Ocean: Blue Sphere",
@@ -284,7 +312,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "deja-vu-i-ii-the-casebooks-of-ace-harding": {
       "name": "Deja Vu I & II: The Casebooks of Ace Harding",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-warrior-iii-gbc-dragon-warrior-3-gbc": {
       "name": "Dragon Warrior III (GBC) (dragon-warrior-3-gbc)",
@@ -322,7 +354,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hamtaro-ham-hams-unite-hamtaro-in-pieces": {
       "name": "Hamtaro: Ham-Hams Unite! (hamtaro-in-pieces)",
@@ -341,7 +375,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harry-potter-and-the-sorcerer-s-stone-hpss-disassembly": {
       "name": "Harry Potter and the Sorcerer's Stone (HPSS-Disassembly)",
@@ -360,7 +396,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvest-moon-3-gbc-hm3": {
       "name": "Harvest Moon 3 GBC (hm3)",
@@ -379,7 +417,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "keitai-denjuu-telefang": {
       "name": "Keitai Denjuu Telefang",
@@ -398,7 +438,9 @@
         "status": "Inactive",
         "github_stars": 103
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "keitai-denjuu-telefang-telefang-gb": {
       "name": "Keitai Denjuu Telefang (telefang_gb)",
@@ -417,7 +459,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons": {
       "name": "The Legend of Zelda: Oracle of Ages / Oracle of Seasons",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-oracle-of-ages-oracle-of-seasons-oracles-decomp": {
       "name": "The Legend of Zelda: Oracle of Ages / Oracle of Seasons (Oracles Decomp)",
@@ -455,7 +501,9 @@
         "status": "Active",
         "github_stars": 95
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-oracle-of-ages-seasons-game-boy-color": {
       "name": "The Legend of Zelda: Oracle of Ages/Seasons",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 75
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-golf-game-boy-color": {
       "name": "Mario Golf",
@@ -493,7 +543,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-tennis-game-boy-color": {
       "name": "Mario Tennis (Game Boy Color)",
@@ -512,7 +564,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "medarot-3": {
       "name": "Medarot 3",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "medarot-4": {
       "name": "Medarot 4",
@@ -550,7 +606,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-gold-silver-crystal-gen2recomped": {
       "name": "Pokemon Gold / Silver / Crystal (Gen2Recomped)",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 417
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-crystal-pokekuristaru": {
       "name": "Pokémon Crystal (pokekuristaru)",
@@ -588,7 +648,9 @@
         "status": "Inactive",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-gold-and-silver-pokemon-polished-crystal": {
       "name": "Pokémon Gold and Silver (Pokémon Polished Crystal)",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 1681
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "robot-poncots-robopon-sun-star": {
       "name": "Robot Poncots (Robopon) Sun / Star",
@@ -626,7 +690,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shantae": {
       "name": "Shantae",
@@ -645,7 +711,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-3-warioland3": {
       "name": "Wario Land 3 (warioland3)",
@@ -664,7 +732,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
