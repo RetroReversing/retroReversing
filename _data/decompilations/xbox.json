@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 459
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lord-of-the-rings-the-third-age": {
       "name": "Lord of the Rings; The Third Age",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lord-of-the-rings-the-two-towers-recompiled": {
       "name": "The Lord of the Rings: The Two Towers Recompiled",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 75
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-combat-evolved": {
       "name": "Halo: Combat Evolved",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 198
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-set-radio-future-recomp": {
       "name": "Jet Set Radio Future (Recomp)",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "black": {
       "name": "BLACK",
@@ -113,7 +123,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "def-jam-fight-for-ny": {
       "name": "Def Jam: Fight for NY",
@@ -132,7 +144,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-2": {
       "name": "Halo 2",
@@ -151,7 +165,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tom-clancy-s-splinter-cell-double-agent": {
       "name": "Tom Clancy's Splinter Cell: Double Agent",
@@ -170,7 +186,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "spider-man-2": {
       "name": "Spider-Man 2",
@@ -189,7 +207,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ninja-gaiden-black-gamboozino-recomp": {
       "name": "Ninja Gaiden Black",
@@ -208,7 +228,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "genma-onimusha-recomp": {
       "name": "Genma Onimusha",
@@ -227,7 +249,9 @@
         "github_stars": 16,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "project-gotham-racing-2-recomp": {
       "name": "Project Gotham Racing 2",
@@ -246,7 +270,9 @@
         "github_stars": 46,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "darkwatch-recomp": {
       "name": "Darkwatch",
@@ -265,7 +291,9 @@
         "github_stars": 25,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "black-black-xbe-recomp": {
       "name": "Black (Black - XBE Recomp)",
@@ -284,7 +312,9 @@
         "status": "Active",
         "github_stars": 736
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "black-black-pc": {
       "name": "BLACK (black-pc)",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 332
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blinx-2-masters-of-time-and-space": {
       "name": "Blinx 2: Masters of Time and Space",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "breakdown": {
       "name": "Breakdown",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "buffy-the-vampire-slayer-chaos-bleeds": {
       "name": "Buffy the Vampire Slayer: Chaos Bleeds",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout": {
       "name": "Burnout",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-2-point-of-impact": {
       "name": "Burnout 2: Point of Impact",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-3": {
       "name": "Burnout 3",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-3-takedown": {
       "name": "Burnout 3: Takedown",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 142
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-3-takedown-xbox": {
       "name": "Burnout 3: Takedown",
@@ -455,7 +501,9 @@
         "status": "Active",
         "github_stars": 394
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-or-alive-3": {
       "name": "Dead or Alive 3",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 79
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-or-alive-3-xbox": {
       "name": "Dead or Alive 3",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-or-alive-xtreme-beach-volleyball": {
       "name": "Dead or Alive Xtreme Beach Volleyball",
@@ -512,7 +564,9 @@
         "status": "Active",
         "github_stars": 217
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "def-jam-fight-for-ny-xbox": {
       "name": "Def Jam: Fight for NY",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "far-cry-instincts": {
       "name": "Far Cry Instincts",
@@ -550,7 +606,9 @@
         "status": "Active",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-set-radio-future-jet-set-radio-future-unleashed": {
       "name": "Jet Set Radio Future (Jet Set Radio Future Unleashed)",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 161
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mercenaries-playground-of-destruction": {
       "name": "Mercenaries: Playground of Destruction",
@@ -588,7 +648,9 @@
         "status": "Active",
         "github_stars": 152
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "midtown-madness-3": {
       "name": "Midtown Madness 3",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "midtown-madness-3-xbox": {
       "name": "Midtown Madness 3",
@@ -626,7 +690,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mortal-kombat-shaolin-monks": {
       "name": "Mortal Kombat: Shaolin Monks",
@@ -645,7 +711,9 @@
         "status": "Active",
         "github_stars": 213
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "need-for-speed-underground-2-switch-port": {
       "name": "Need for Speed: Underground 2 (Switch port)",
@@ -664,7 +732,9 @@
         "status": "Active",
         "github_stars": 167
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "opence": {
       "name": "OpenCE",
@@ -683,7 +753,9 @@
         "status": "Active",
         "github_stars": 1805
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "prince-of-persia-the-sands-of-time-resot": {
       "name": "Prince of Persia: The Sands of Time (reSOT)",
@@ -702,7 +774,9 @@
         "status": "Active",
         "github_stars": 69
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rallisport-challenge-2-rallisport-challenge-2-static-recompilation": {
       "name": "RalliSport Challenge 2 (RalliSport Challenge 2 - static recompilation)",
@@ -721,7 +795,9 @@
         "status": "Active",
         "github_stars": 63
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ssx-3-xbox": {
       "name": "SSX 3",
@@ -740,7 +816,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ssx-3-xbox-bertibertig": {
       "name": "SSX 3",
@@ -759,7 +837,9 @@
         "status": "Active",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ssx-tricky-xbox": {
       "name": "SSX Tricky",
@@ -778,7 +858,9 @@
         "status": "Active",
         "github_stars": 117
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ssx-tricky-xbox-reindance": {
       "name": "SSX Tricky",
@@ -797,7 +879,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-wars-episode-iii-revenge-of-the-sith-swrots-pc": {
       "name": "Star Wars: Episode III - Revenge of the Sith (SWROTS-PC)",
@@ -816,7 +900,9 @@
         "status": "Active",
         "github_stars": 83
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "starcraft-ghost": {
       "name": "StarCraft: Ghost",
@@ -835,7 +921,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "timesplitters-2": {
       "name": "TimeSplitters 2",
@@ -854,7 +942,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-urbz-sims-in-the-city-xbox": {
       "name": "The Urbz: Sims in the City",
@@ -873,7 +963,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "x-men-legends": {
       "name": "X-Men Legends",
@@ -892,7 +984,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-set-radio-future-codeberg": {
       "name": "Jet Set Radio Future (Codeberg)",
@@ -911,7 +1005,9 @@
         "github_stars": null,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "call-of-duty-finest-hour-remastered": {
       "name": "Call of Duty: Finest Hour (Finest Hour Remastered)",
@@ -930,7 +1026,9 @@
         "github_stars": 123,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "black-reblack-xbox-reconstruction": {
       "name": "BLACK (ReBLACK-XBOX reconstruction)",
@@ -942,7 +1040,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
