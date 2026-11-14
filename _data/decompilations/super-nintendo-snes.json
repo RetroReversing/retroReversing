@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country": {
       "name": "Donkey Kong Country",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-2": {
       "name": "Donkey Kong Country 2",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 76
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-3": {
       "name": "Donkey Kong Country 3",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthbound-mother-2": {
       "name": "Earthbound / Mother 2",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 187
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-iv": {
       "name": "Final Fantasy IV",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-v": {
       "name": "Final Fantasy V",
@@ -129,7 +141,9 @@
         "check_error": "Static disassembly download; no repository commit history",
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-vi": {
       "name": "Final Fantasy VI",
@@ -148,7 +162,9 @@
         "status": "Active",
         "github_stars": 90
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goof-troop": {
       "name": "Goof Troop",
@@ -167,7 +183,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-bomberman": {
       "name": "Super Bomberman",
@@ -186,7 +204,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-ghouls-n-ghosts": {
       "name": "Super Ghouls 'n Ghosts",
@@ -205,7 +225,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-rpg": {
       "name": "Super Mario RPG",
@@ -224,7 +246,9 @@
         "status": "Inactive",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world": {
       "name": "Super Mario World",
@@ -243,7 +267,9 @@
         "status": "Active",
         "github_stars": 182
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-2-yoshi-s-island": {
       "name": "Super Mario World 2: Yoshi's Island",
@@ -262,7 +288,9 @@
         "status": "Active",
         "github_stars": 162
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-metroid": {
       "name": "Super Metroid",
@@ -281,7 +309,9 @@
         "status": "Inactive",
         "github_stars": 161
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-punch-out": {
       "name": "Super Punch-Out!!",
@@ -300,7 +330,9 @@
         "status": "Inactive",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "soul-blazer": {
       "name": "Soul Blazer",
@@ -319,7 +351,9 @@
         "status": "Inactive",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-v-everything8215": {
       "name": "Final Fantasy V",
@@ -338,7 +372,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-all-stars-recomp": {
       "name": "Super Mario All-Stars",
@@ -357,7 +393,9 @@
         "github_stars": 51,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "actraiser": {
       "name": "ActRaiser",
@@ -376,7 +414,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bs-zelda-no-densetsu-bs-zelda-no-densetsu-disassembly": {
       "name": "BS Zelda no Densetsu (BS-Zelda-no-Densetsu-Disassembly)",
@@ -395,7 +435,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-recomp": {
       "name": "Donkey Kong Country (Recomp)",
@@ -414,7 +456,9 @@
         "status": "Active",
         "github_stars": 265
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-2-diddy-s-kong-quest": {
       "name": "Donkey Kong Country 2: Diddy's Kong Quest",
@@ -433,7 +477,9 @@
         "status": "Active",
         "github_stars": 179
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-2-diddy-s-kong-quest-donkey-kong-country-2-disassembly": {
       "name": "Donkey Kong Country 2: Diddy's Kong Quest (Donkey-Kong-Country-2-Disassembly)",
@@ -452,7 +498,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom": {
       "name": "Doom",
@@ -471,7 +519,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-super-saiya-densetsu": {
       "name": "Dragon Ball Z: Super Saiya Densetsu",
@@ -490,7 +540,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthbound-earthbound-d-port": {
       "name": "EarthBound (earthbound (D port))",
@@ -509,7 +561,9 @@
         "status": "Inactive",
         "github_stars": 38
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthbound-earthbound-disassembly": {
       "name": "EarthBound (EarthBound-Disassembly)",
@@ -528,7 +582,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthbound-phase-distorter": {
       "name": "EarthBound (Phase Distorter)",
@@ -547,7 +603,9 @@
         "status": "Active",
         "github_stars": 124
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthbound-companion": {
       "name": "Earthbound Companion",
@@ -566,7 +624,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero": {
       "name": "F-Zero",
@@ -585,7 +645,9 @@
         "status": "Active",
         "github_stars": 83
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-recomp": {
       "name": "F-Zero (Recomp)",
@@ -604,7 +666,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-thracia-776-fireemblem5": {
       "name": "Fire Emblem: Thracia 776 (FireEmblem5)",
@@ -623,7 +687,9 @@
         "status": "Inactive",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "go-go-ackman": {
       "name": "Go Go Ackman",
@@ -642,7 +708,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvest-moon-hm-decomp": {
       "name": "Harvest Moon (HM-Decomp)",
@@ -661,7 +729,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "international-superstar-soccer-deluxe-international-superstar-soccer-deluxe-snes-disassembly": {
       "name": "International Superstar Soccer Deluxe (International-Superstar-Soccer-Deluxe-SNES-Disassembly)",
@@ -680,7 +750,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "iss-deluxe": {
       "name": "ISS Deluxe",
@@ -699,7 +771,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jungle-strike": {
       "name": "Jungle Strike",
@@ -718,7 +792,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jurassic-park-jurassic-park-1-snes-disassembly": {
       "name": "Jurassic Park (Jurassic-Park-1-SNES-disassembly)",
@@ -737,7 +813,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-super-star-kss-disassembly": {
       "name": "Kirby Super Star (KSS-disassembly)",
@@ -756,7 +834,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes": {
       "name": "The Legend of Zelda: A Link to the Past",
@@ -775,7 +855,9 @@
         "status": "Active",
         "github_stars": 730
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-yeoldpress": {
       "name": "The Legend of Zelda: A Link to the Past",
@@ -794,7 +876,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-super-nintendo-snes-waterdish": {
       "name": "The Legend of Zelda: A Link to the Past",
@@ -813,7 +897,9 @@
         "status": "Inactive",
         "github_stars": 208
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-alttp-disassembly": {
       "name": "The Legend of Zelda: A Link to the Past (alttp-disassembly)",
@@ -832,7 +918,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-7-mega-man-7-disassembly": {
       "name": "Mega Man 7 (Mega-Man-7-Disassembly)",
@@ -851,7 +939,9 @@
         "status": "Inactive",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-x": {
       "name": "Mega Man X",
@@ -870,7 +960,9 @@
         "status": "Active",
         "github_stars": 207
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-x2": {
       "name": "Mega Man X2",
@@ -889,7 +981,9 @@
         "status": "Active",
         "github_stars": 48
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-x3": {
       "name": "Mega Man X3",
@@ -908,7 +1002,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mystery-dungeon-shiren-the-wanderer": {
       "name": "Mystery Dungeon: Shiren the Wanderer",
@@ -927,7 +1023,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shin-megami-tensei-j1-0": {
       "name": "Shin Megami Tensei J1.0",
@@ -946,7 +1044,9 @@
         "status": "Inactive",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-fox": {
       "name": "Star Fox",
@@ -965,7 +1065,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-fox-starfoxdisassembly": {
       "name": "Star Fox (StarFoxDisassembly)",
@@ -984,7 +1086,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "starfox-recomp": {
       "name": "Starfox Recomp",
@@ -1003,7 +1107,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "strike-gunner-s-t-g": {
       "name": "Strike Gunner S.T.G",
@@ -1022,7 +1128,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-bomberman-recomp": {
       "name": "Super Bomberman (Recomp)",
@@ -1041,7 +1149,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-kart": {
       "name": "Super Mario Kart",
@@ -1060,7 +1170,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-kart-super-mario-kart-disassembly": {
       "name": "Super Mario Kart (Super-Mario-Kart-Disassembly)",
@@ -1079,7 +1191,9 @@
         "status": "Inactive",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-rpg-legend-of-the-seven-stars": {
       "name": "Super Mario RPG: Legend of the Seven Stars",
@@ -1098,7 +1212,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-smas-launcher": {
       "name": "Super Mario World (SMAS_Launcher)",
@@ -1117,7 +1233,9 @@
         "status": "Inactive",
         "github_stars": 63
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-smw-smas-smasw-disassembly": {
       "name": "Super Mario World (SMW-SMAS-SMASW-Disassembly)",
@@ -1136,7 +1254,9 @@
         "status": "Inactive",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-smw-src": {
       "name": "Super Mario World (smw-src)",
@@ -1155,7 +1275,9 @@
         "status": "Inactive",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-smwdisc-all-log": {
       "name": "Super Mario World (SMWDisC (All.log++))",
@@ -1174,7 +1296,9 @@
         "status": "Inactive",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-2-yoshi-s-island-yoshi-s-island-disassembly": {
       "name": "Super Mario World 2: Yoshi's Island (Yoshi-s-Island-Disassembly)",
@@ -1193,7 +1317,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-metroid-launcher": {
       "name": "Super Metroid (Launcher)",
@@ -1212,7 +1338,9 @@
         "status": "Active",
         "github_stars": 213
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-metroid-sm-3ds": {
       "name": "Super Metroid (sm-3ds)",
@@ -1231,7 +1359,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-metroid-sm-disassembly": {
       "name": "Super Metroid (sm_disassembly)",
@@ -1250,7 +1380,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tiny-toon-adventures-buster-busts-loose-buster-busts-loose-pc-port": {
       "name": "Tiny Toon Adventures: Buster Busts Loose! (Buster Busts Loose! (PC port))",
@@ -1269,7 +1401,9 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tokimeki-memorial-forever-with-you": {
       "name": "Tokimeki Memorial: Forever With You",
@@ -1288,7 +1422,9 @@
         "status": "Inactive",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "zelda-no-densetsu-kamigami-no-triforce": {
       "name": "Zelda no Densetsu: Kamigami no Triforce",
@@ -1307,7 +1443,9 @@
         "status": "Active",
         "github_stars": 38
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "zombies-ate-my-neighbors-zombies-ate-my-neighbors-pc-port": {
       "name": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
@@ -1326,7 +1464,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-world-super-mario-world-remastered": {
       "name": "Super Mario World (Super Mario World Remastered)",
@@ -1345,7 +1485,9 @@
         "status": "Inactive",
         "github_stars": 281
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-recompilation": {
       "name": "A Link to the Past SNES Recompiled",
@@ -1364,7 +1506,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
