@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /decompilations.json
+hidden: true
+---
+{{ site.data.decompilations | jsonify }}
