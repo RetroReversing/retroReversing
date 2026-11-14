@@ -6,7 +6,7 @@ recommend: megadrive
 recommendTitle: All Mega Drive Posts
 editlink: ../categories/consoles/MegaDrive.md
 category: megadrive
-updatedAt: '2026-10-27'
+updatedAt: '2026-11-14'
 excerpt: Awesome list of SEGA Mega Drive and Genesis Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -28,8 +28,7 @@ tags:
 The Mega Drive pairs a Motorola 68000 with a Z80, a video display processor and separate sound chips. That mix makes a ROM more interesting than a single stream of 68000 instructions: graphics and sound depend on how the processors share the machine. This hub connects our development and reverse-engineering posts with interviews, original documentation and useful outside resources.
 
 # Introduction
-Sega released the Mega Drive in Japan in 1988; it was sold as the Genesis in North America.
-
+Sega released the Mega Drive in Japan in 1988; it was sold as the Genesis in North America. Its cartridge code often coordinates two CPUs and the video display processor, so the bus relationships matter as much as the instruction set.
 
 
 ## History of the Mega Drive
@@ -60,6 +59,11 @@ The retail machine and the equipment used to build its games answer different qu
 
 ## Why does the 68000 request the Z80 bus?
 The 68000 can access the Z80's RAM, but it must request the Z80 bus and wait for acknowledgement before doing so. Sega's [*Genesis Software Development Manual*](https://gendev.spritesmind.net/files/md/tech/Genesis%20Software%20Development%20Manual%20%5BVersion%202.0%5D%20%5B1991-07-09%5D.pdf) warns that releasing the request inside an interrupt can let the Z80 resume before the 68000 finishes a planned access, corrupting Z80 RAM or reading the wrong bank [^5]. That makes bus-request writes around a sound-driver update meaningful when tracing a game's 68000 code. The same manual documents a separate timing precaution when the Z80 accesses the 68000 bus near controller I/O [^5].
+
+## How does graphics data reach the VDP?
+The video display processor (VDP) has its own video RAM (VRAM), colour RAM (CRAM), and vertical-scroll RAM (VSRAM). Sega's [*Genesis Technical Overview*](https://segaretro.org/images/1/18/GenesisTechnicalOverview.pdf) describes direct memory access (DMA) from 68000-addressable ROM or RAM into those stores, plus VRAM fill and VRAM-to-VRAM copy modes [^6]. A trace of a tile or palette upload may therefore show VDP register setup and a destination command, rather than a 68000 loop writing every output byte.
+
+Memory-to-VDP DMA stops the 68000 while the transfer runs. The Z80 can keep running unless it tries to access the 68000 memory space [^6]. This is a different bus relationship from the 68000 requesting the Z80's bus to update sound-driver RAM. Sega's overview lists cartridge ROM and work RAM as DMA sources and shows the VDP registers used for transfer length and source address [^6]. Those details help explain apparently fussy setup code around an otherwise simple graphics upload.
 
 ## Development Hardware
 Studios could buy development hardware or build their own. Our hardware guide collects the known kits:
@@ -120,7 +124,7 @@ The 32X add-on had its own Developer Tool Kit CD, with SNASM2, source code and l
 
 ---
 ## In-House Development Software
-It was common in the industry to develop custom software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.
+Studios also wrote their own editors so art and level data could be prepared for the same hardware across several projects.
 
 ### DARI and KETCHUP (Game Arts)
 For the development of the Mega Drive game **Alisia Dragoon**, Game Arts created some in-house development software called KETCHUP and DARI:
@@ -196,3 +200,4 @@ The magazine index collects developer interviews tagged for this system across a
 [^3]: [Alisia Dragoon – 1992 Developer Interview - shmuplations.com](https://shmuplations.com/alisiadragoon/)
 [^4]: [News/Sega of Japan Sound Documents and Source Code - Hidden Palace](https://hiddenpalace.org/News/Sega_of_Japan_Sound_Documents_and_Source_Code)
 [^5]: [Sega, *Genesis Software Development Manual*, version 2.0 (1991), “Precautions for Software Development”](https://gendev.spritesmind.net/files/md/tech/Genesis%20Software%20Development%20Manual%20%5BVersion%202.0%5D%20%5B1991-07-09%5D.pdf)
+[^6]: [Sega, *Genesis Technical Overview*, sections 2 and 7](https://segaretro.org/images/1/18/GenesisTechnicalOverview.pdf), VDP memories and DMA transfer.
