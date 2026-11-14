@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tails-adventure-tails-adventure-remake": {
       "name": "Tails Adventure (Tails Adventure Remake)",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 156
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
