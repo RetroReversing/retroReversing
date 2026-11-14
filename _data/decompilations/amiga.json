@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "batman-the-movie-markyturtle-batman-amiga": {
       "name": "Batman: The Movie (MarkyTurtle Batman---Amiga)",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "frontier-elite-ii-fe2-intro": {
       "name": "Frontier: Elite II (fe2-intro)",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 51
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "frontier-elite-ii-glfrontier": {
       "name": "Frontier: Elite II (GLFrontier)",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 88
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "speedball-2-brutal-deluxe-speedball2-re-amiga": {
       "name": "Speedball 2: Brutal Deluxe (speedball2-re-amiga)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "stunt-car-racer-stunt-car-racer-ste": {
       "name": "Stunt Car Racer (stunt-car-racer-ste)",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "stunt-car-racer-vesuri-stuntcarracer-framerate-unleashed": {
       "name": "Stunt Car Racer (Vesuri stuntcarracer (Framerate Unleashed))",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "knightmare-knightmareamiga-h0ffman": {
       "name": "Knightmare (KnightmareAmiga (h0ffman))",
@@ -151,7 +165,9 @@
         "status": "Inactive",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sensible-world-of-soccer-96-97-swos-port": {
       "name": "Sensible World of Soccer 96/97 (swos-port)",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
