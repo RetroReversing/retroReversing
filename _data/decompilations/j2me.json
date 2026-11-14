@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bounce-tales": {
       "name": "Bounce Tales",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 53
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "diamond-rush": {
       "name": "Diamond Rush",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom-ii-rpg-doomiirpg-re": {
       "name": "Doom II RPG (DoomIIRPG-RE)",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 100
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom-rpg-doomrpg-re": {
       "name": "Doom RPG (DoomRPG-RE)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 161
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "green-farm-3": {
       "name": "Green Farm 3",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wolfenstein-rpg-wolfensteinrpg-re": {
       "name": "Wolfenstein RPG (WolfensteinRPG-RE)",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 57
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
