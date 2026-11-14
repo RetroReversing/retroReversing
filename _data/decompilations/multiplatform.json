@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fate-extella-link": {
       "name": "Fate/EXTELLA LINK",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mortal-kombat-3d-era-research": {
       "name": "Mortal Kombat 3D-era research",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "soulcalibur-ii-multiplatform": {
       "name": "Soulcalibur II",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "terminator-salvation": {
       "name": "Terminator Salvation",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
