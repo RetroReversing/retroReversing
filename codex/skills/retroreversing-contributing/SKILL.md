@@ -131,3 +131,6 @@ Make sure to have a sentence before any embedded youtube video explaining who cr
 
 ### Reminder
 * `CONTRIBUTING.md` is the source of truth for edge-cases and newer patterns; consult it if unsure.
+
+### Decompilation catalogue build metadata
+Every project under `_data/decompilations/` must have `supported_rom_sha1` and `project_builders` arrays. Start both as `[]` when unknown. Only add verified lowercase SHA-1 hashes of complete supported input ROMs/disc images; never substitute extracted executable or output hashes. Include each verified region/revision without inferring support. Use documented lowercase build/reconstruction tool identifiers such as `splat`, `dsd`, `ninja` or `make` in `project_builders`. Preserve both arrays during unrelated edits. See `scripts/README.md` for the field definitions and evidence rules.
