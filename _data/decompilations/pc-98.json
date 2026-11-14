@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 882
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "touhou-4-lotus-land-story-th04-rea-showcase": {
       "name": "Touhou 4: Lotus Land Story (th04 (REA showcase))",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
