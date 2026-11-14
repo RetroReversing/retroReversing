@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tokyo-bus-guide": {
       "name": "Tokyo Bus Guide",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "resident-evil-code-veronica": {
       "name": "Resident Evil - Code: Veronica",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 40
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-adventure-recompiled": {
       "name": "Sonic Adventure (Recompiled)",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 106
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crazy-taxi": {
       "name": "Crazy Taxi",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-tennis": {
       "name": "Virtua Tennis",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-fighter-3tb": {
       "name": "Virtua Fighter 3tb",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "resident-evil-4-dreamcast-port-re4dc": {
       "name": "Resident Evil 4 (Dreamcast port, re4dc)",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "space-channel-5": {
       "name": "Space Channel 5",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "power-stone-subarasheese": {
       "name": "Power Stone (Subarasheese)",
@@ -182,7 +200,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
