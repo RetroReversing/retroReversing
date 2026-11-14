@@ -15,7 +15,9 @@
         "check_error": "Static disassembly collection; no repository commit history",
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-atari-2600": {
       "name": "Donkey Kong",
@@ -31,7 +33,9 @@
         "check_error": "Forum-hosted disassembly; no repository commit history",
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
