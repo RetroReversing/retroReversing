@@ -1,0 +1,34 @@
+diff --git a/config/mips/mips.c b/config/mips/mips.c
+index 2d18f59..079bb43 100644
+--- a/config/mips/mips.c
++++ b/config/mips/mips.c
+@@ -5362,8 +5362,7 @@ mips_expand_prologue ()
+   tree cur_arg;
+   CUMULATIVE_ARGS args_so_far;
+ 
+-  if (mips_naked_function_p(current_function_decl))
+-    return;
++  /* Experiment: ordinary entry/exit behavior restored. */
+ 
+   /* If struct value address is treated as the first argument, make it so.  */
+   if (aggregate_value_p (DECL_RESULT (fndecl))
+@@ -5660,8 +5659,7 @@ mips_expand_epilogue ()
+     return;
+   }
+   
+-  if(mips_naked_function_p(current_function_decl))
+-    return;
++  /* Experiment: ordinary epilogue behavior restored. */
+ 
+   if (tsize > 32767)
+   {
+@@ -5710,8 +5708,7 @@ mips_expand_epilogue ()
+ int
+ mips_can_use_return_insn ()
+ {
+-  if (mips_naked_function_p(current_function_decl))
+-    return FALSE;
++  /* Experiment: ordinary return eligibility restored. */
+ 
+   if (!reload_completed)
+     return 0;

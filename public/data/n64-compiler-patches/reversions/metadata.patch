@@ -1,0 +1,270 @@
+diff --git a/bfd/elf32-mips.c b/bfd/elf32-mips.c
+index a8fff23..c931db9 100644
+--- a/bfd/elf32-mips.c
++++ b/bfd/elf32-mips.c
+@@ -1840,7 +1840,7 @@ _bfd_mips_elf_final_write_processing (abfd, linker)
+       break;
+ 
+     case 6000:
+-      val = E_MIPS_ARCH_6;
++      val = E_MIPS_ARCH_2;
+       break;
+ 
+     case 4000:
+@@ -2297,14 +2297,6 @@ _bfd_mips_elf_fake_sections (abfd, hdr, sec)
+       else
+ 	hdr->sh_entsize = 1;
+     }
+- else if (strcmp (name, ".MIPS.abiflags") == 0)
+-    {
+-      hdr->sh_type = SHT_MIPS_ABIFLAGS;
+-      hdr->sh_entsize = 0x18;
+-
+-      /* Force the section size to the correct value */
+-      hdr->sh_size = sec->_raw_size = 0x18;
+-    }
+   else if (strcmp (name, ".reginfo") == 0)
+     {
+       hdr->sh_type = SHT_MIPS_REGINFO;
+diff --git a/gas/config/obj-elf.c b/gas/config/obj-elf.c
+index 5dec3f3..c781a4d 100644
+--- a/gas/config/obj-elf.c
++++ b/gas/config/obj-elf.c
+@@ -23,8 +23,6 @@
+ #include "subsegs.h"
+ #include "obstack.h"
+ 
+-extern int mips_debug;
+-
+ #ifndef ECOFF_DEBUGGING
+ #define ECOFF_DEBUGGING 0
+ #else
+@@ -1230,7 +1228,7 @@ obj_elf_init_stab_section (seg)
+   /* Zero it out. */
+   memset (p, 0, 12);
+   as_where (&file, (unsigned int *) NULL);
+-  stabstr_name = (char *) malloc (strlen (segment_name (seg)) + 4);
++  stabstr_name = (char *) alloca (strlen (segment_name (seg)) + 4);
+   strcpy (stabstr_name, segment_name (seg));
+   strcat (stabstr_name, "str");
+   stroff = get_stab_string_offset (file, stabstr_name);
+@@ -1506,7 +1504,6 @@ elf_frob_file_after_relocs ()
+ 	as_fatal ("Failed to set up debugging information: %s",
+ 		  bfd_errmsg (bfd_get_error ()));
+ 
+-      if(mips_debug < 2) {
+       sec = bfd_get_section_by_name (stdoutput, ".mdebug");
+       assert (sec != NULL);
+ 
+@@ -1530,7 +1527,6 @@ elf_frob_file_after_relocs ()
+ 				   sec->filepos))
+ 	as_fatal ("Could not write .mdebug section: %s",
+ 		  bfd_errmsg (bfd_get_error ()));
+-      }
+     }
+ #endif /* NEED_ECOFF_DEBUG */
+ }
+diff --git a/gas/config/obj-elf.h b/gas/config/obj-elf.h
+index 22d3bf9..ff65790 100644
+--- a/gas/config/obj-elf.h
++++ b/gas/config/obj-elf.h
+@@ -159,7 +159,6 @@ extern void obj_elf_init_stab_section PARAMS ((segT));
+ 
+ /* We smuggle stabs in ECOFF rather than using a separate section.
+    The Irix linker can not handle a separate stabs section.  */
+-/*
+ #undef SEPARATE_STAB_SECTIONS
+ #undef INIT_STAB_SECTION
+ #define OBJ_PROCESS_STAB(seg, what, string, type, other, desc) \
+@@ -167,7 +166,7 @@ extern void obj_elf_init_stab_section PARAMS ((segT));
+ 
+ #define OBJ_GENERATE_ASM_LINENO(filename, lineno) \
+   ecoff_generate_asm_lineno ((filename), (lineno))
+-*/
++
+ #endif /* ECOFF_DEBUGGING */
+ 
+ extern void elf_frob_symbol PARAMS ((struct symbol *, int *));
+diff --git a/gas/config/tc-mips.c b/gas/config/tc-mips.c
+index e2f6caf..591fbda 100644
+--- a/gas/config/tc-mips.c
++++ b/gas/config/tc-mips.c
+@@ -601,7 +601,7 @@ static int mips_optimize = 2;
+ 
+ /* Debugging level.  -g sets this to 2.  -gN sets this to N.  -g0 is
+    equivalent to seeing no -g option at all.  */
+-int mips_debug = 0;
++static int mips_debug = 0;
+ 
+ /* The previous instruction.  */
+ static struct mips_cl_insn prev_insn;
+@@ -952,9 +952,7 @@ static const pseudo_typeS mips_pseudo_table[] =
+   {"quad", s_cons, 3},
+   {"short", s_cons, 1},
+   {"single", s_float_cons, 'f'},
+-  {"stabd", s_mips_stab, 'd'},
+   {"stabn", s_mips_stab, 'n'},
+-  {"stabs", s_mips_stab, 's'},
+   {"text", s_change_sec, 't'},
+   {"word", s_cons, 2},
+   { 0 },
+@@ -1366,20 +1364,6 @@ md_begin ()
+ 	if (strcmp (TARGET_OS, "elf") != 0)
+ 	  flags |= SEC_ALLOC | SEC_LOAD;
+ 
+-       if(mips_debug >= 2) {
+-               char abidata[0x18];
+-               memset(abidata, 0, sizeof(abidata));
+-               *(int *)(&abidata[2]) = 0x01010140;
+-               abidata[7] = 0x01;
+-               abidata[0x13] = 0x01;
+-
+-               sec = subseg_new (".MIPS.abiflags", (subsegT) 0);
+-
+-               (void) bfd_set_section_flags (stdoutput, sec, flags);
+-               (void) bfd_set_section_alignment (stdoutput, sec, 3);
+-               memcpy(frag_more(0x18), abidata, sizeof(abidata));
+-       }
+-
+ 	if (! mips_64)
+ 	  {
+ 	    sec = subseg_new (".reginfo", (subsegT) 0);
+@@ -1420,7 +1404,7 @@ md_begin ()
+ #endif
+ 	  }
+ 
+-	if (mips_debug < 2)
++	if (ECOFF_DEBUGGING)
+ 	  {
+ 	    sec = subseg_new (".mdebug", (subsegT) 0);
+ 	    (void) bfd_set_section_flags (stdoutput, sec,
+@@ -10524,6 +10508,7 @@ static void
+ s_insn (ignore)
+      int ignore;
+ {
++  if (mips_opts.mips16)
+     mips16_mark_labels ();
+ 
+   demand_empty_rest_of_line ();
+@@ -11448,7 +11433,6 @@ mips_elf_final_processing ()
+     elf_elfheader (stdoutput)->e_flags |= EF_MIPS_NOREORDER;
+   if (mips_pic != NO_PIC)
+     elf_elfheader (stdoutput)->e_flags |= EF_MIPS_PIC;
+-  elf_elfheader (stdoutput)->e_flags = 0x60001101;
+ }
+ 
+ #endif /* OBJ_ELF || OBJ_MAYBE_ELF */
+diff --git a/gas/config/tc-mips.h b/gas/config/tc-mips.h
+index 0dbaca0..868aede 100644
+--- a/gas/config/tc-mips.h
++++ b/gas/config/tc-mips.h
+@@ -150,6 +150,4 @@ extern void mips_flush_pending_output PARAMS ((void));
+ extern void mips_enable_auto_align PARAMS ((void));
+ #define md_elf_section_change_hook()	mips_enable_auto_align()
+ 
+-extern int mips_debug;
+-
+ #endif /* TC_MIPS */
+diff --git a/gas/ecoff.c b/gas/ecoff.c
+index 722f66b..0cb4d50 100644
+--- a/gas/ecoff.c
++++ b/gas/ecoff.c
+@@ -28,7 +28,7 @@
+    ECOFF debugging information (e.g., MIPS ECOFF, MIPS ELF, Alpha
+    ECOFF).  */
+ 
+-#if ECOFF_DEBUGGING
++#ifdef ECOFF_DEBUGGING
+ 
+ #include "coff/internal.h"
+ #include "coff/symconst.h"
+@@ -3169,11 +3169,6 @@ ecoff_directive_file (ignore)
+   /* FIXME: we don't have to save the name here.  */
+   name = demand_copy_C_string (&len);
+ 
+-  symbolS *sym;
+-  sym = symbol_new(name, absolute_section, 0, &zero_address_frag);
+-  sym->bsym->flags |= BSF_FILE;
+-  symbol_table_insert(sym);
+-
+   add_file (name, indx - 1, 0);
+ 
+   demand_empty_rest_of_line ();
+diff --git a/gas/stabs.c b/gas/stabs.c
+index e0775ca..e58e6ff 100644
+--- a/gas/stabs.c
++++ b/gas/stabs.c
+@@ -61,7 +61,7 @@ static void s_stab_generic PARAMS ((int, char *, char *));
+  */
+ 
+ #ifndef SEPARATE_STAB_SECTIONS
+-#define SEPARATE_STAB_SECTIONS 1
++#define SEPARATE_STAB_SECTIONS 0
+ #endif
+ 
+ unsigned int
+@@ -284,14 +284,10 @@ s_stab_generic (what, stab_secname, stabstr_secname)
+       char *p;
+ 
+       static segT cached_sec;
+-      static char *cached_secname = 0;
++      static char *cached_secname;
+ 
+       dot = frag_now_fix ();
+ 
+-#ifdef md_flush_pending_output
+-      md_flush_pending_output ();
+-#endif
+-
+       if (cached_secname && !strcmp (cached_secname, stab_secname))
+ 	{
+ 	  seg = cached_sec;
+diff --git a/gas/symbols.c b/gas/symbols.c
+index 5d18b35..8bb601f 100644
+--- a/gas/symbols.c
++++ b/gas/symbols.c
+@@ -141,7 +141,6 @@ symbol_create (name, segment, valu, frag)
+   S_SET_VALUE (symbolP, valu);
+   symbol_clear_list_pointers (symbolP);
+ 
+-  symbolP->written = (memcmp(preserved_copy_of_name, ".L", 2) != 0);
+   symbolP->sy_frag = frag;
+ #ifndef BFD_ASSEMBLER
+   symbolP->sy_number = ~0;
+diff --git a/gas/write.c b/gas/write.c
+index 653481d..e59ddb7 100644
+--- a/gas/write.c
++++ b/gas/write.c
+@@ -1803,7 +1803,7 @@ write_object_file ()
+ 	  /* Skip symbols which were equated to undefined or common
+              symbols.  */
+ 	  if (symp->sy_value.X_op == O_symbol
+-	      && (! S_IS_DEFINED (symp) || S_IS_COMMON (symp)) || !symp->written)
++	      && (! S_IS_DEFINED (symp) || S_IS_COMMON (symp)))
+ 	    {
+ 	      symbol_remove (symp, &symbol_rootP, &symbol_lastP);
+ 	      continue;
+diff --git a/include/elf/mips.h b/include/elf/mips.h
+index 0ef4984..f6efad3 100644
+--- a/include/elf/mips.h
++++ b/include/elf/mips.h
+@@ -56,9 +56,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.  */
+ 
+ /* -mips4 code.  */
+ #define E_MIPS_ARCH_4		0x30000000
+-
+-/* -mips64 code.  */
+-#define E_MIPS_ARCH_6          0x60000000
+ 
+ /* Processor specific section indices.  These sections do not actually
+    exist.  Symbols with a st_shndx field corresponding to one of these
+@@ -127,9 +124,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.  */
+ /* Events section.  */
+ #define SHT_MIPS_EVENTS		0x70000021
+ 
+-/* ABI related flags section.  */
+-#define SHT_MIPS_ABIFLAGS       0x7000002a
+-
+ /* A section of type SHT_MIPS_LIBLIST contains an array of the
+    following structure.  The sh_link field is the section index of the
+    string table.  The sh_info field is the number of entries in the

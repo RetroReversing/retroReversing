@@ -18,7 +18,7 @@ recommend:
 - tools
 - sdk
 editlink: /tools/Compiler Toolchains.md
-updatedAt: '2026-10-16'
+updatedAt: '2026-11-13'
 ---
 
 When reverse engineering commercial console binaries built from **C/C++**, the first question is often *which* toolchain produced the code as it can make your job reverse engineering a game so much easier.
@@ -39,7 +39,7 @@ Platform | Primary official compilers (high-level) | Notes
 --- | --- | --
 [PlayStation (PS1)](/ps1) | GCC-based flow in **PSY-Q** feeding [SN Systems](/companies/snsystems) assembler/linker | Later PS1 builds also saw 2.8.x-based drops. [^1]
 [Sega Saturn](/saturn) | **Hitachi SHC** and a bundled **GNU SH-2** (`GNUSH`) in PSY-Q | Teams used either; both target the same ABI.
-[Nintendo 64](/n64) | **SGI MIPSpro** on IRIX as baseline | Windows-based **Partner-N64PC** and SN Systems kits provided GCC-based options based on 2.7.2; many studios used these, but IRIX MIPSpro remained the reference SDK. [^3]
+[Nintendo 64](/n64) | **SGI IDO 5.3/7.1**, **KMC exeGCC**, **SN64 GCC** and **CodeWarrior** | See the [dedicated N64 compiler reference](/n64-compilers) for versions, assembler pairings and game evidence.
 [Sega Dreamcast](/dreamcast) | **Hitachi SHC** via Katana; **Microsoft VC++** for the WinCE path | Sega also licensed CodeWarrior late-gen; all official, non-GCC.
 3DO | **ARM SDT / ARM C++ (proprietary)** | ARM toolchains predate GBA/DS era use.
 [PlayStation 2](/ps2) | **ee-gcc 2.95.2**, **iop-gcc 2.95.x** (Sony/SN builds) | GCC-based official cross tools for EE/IOP.
@@ -75,7 +75,7 @@ Year | Version   | Notes (GCC forks / console SDKs)
 1994 | 2.5.8     | **Saturn**: Sega/SN shipped a GNU C (SH-2) compiler with Psy-Q; Hitachi SH assembler also included. **Jaguar**: GCC was used in the Atari Jaguar SDK, specifically version 2.5.x
 1995 | 2.7.0     | **PS1**: PSY-Q used a GNU C/C++–derived backend plus SN assemblers/linker (mid-90s).
 1996 | 2.7.2     | **Saturn**: Cygnus GCC 2.7 build (Sep 1996) in circulation.
-1997 | 2.7.2.2   | **N64** Partner-N64PC based on GCC 2.7.2 released by SNSystems. **Net Yaroze**: DJGPP-based GCC 2.7.2 toolchain (released mid-90s, kits shipped 1996–97).
+1997 | 2.7.2.2   | **N64** KMC exeGCC and SN64 are separate GCC-based toolchains; see the [N64 compiler reference](/n64-compilers). **Net Yaroze**: DJGPP-based GCC 2.7.2 toolchain (released mid-90s, kits shipped 1996–97).
 1998 | 2.8.0     | **PS1**: SN Systems also distributed experimental GCC 2.8.0/2.8.1 builds.
 1999 | 2.95      | **PS2**: IOP toolchain (iop-gcc) based on GCC 2.95.x.
 2000 | 2.95.2    | **PS2**: EE toolchain (ee-gcc 2.95.2) in official SDKs.
@@ -106,9 +106,12 @@ Here are some of the rules in the o32 ABI that the compiler needs to follow:
 
 
 ---
-## Partner-N64PC - GCC Compiler for N64 (2.7.2)
-Nintendo's **Partner-N64PC** packages shipped with a GCC bundle (e.g., `Debugger v1.08D + GCC v1.2`), used in Windows-hosted workflows that still linked against Nintendo's libraries. 
-Although bare in mind the v1.2 doesn't match to the official GNU releases in this case it was their own versioning system for their port of GCC.
+## Nintendo 64 GCC Toolchains
+KMC exeGCC and SN Systems SN64 are separate GNU-based N64 toolchains. PARTNER-N64 is KMC's development environment; the SN executables listed below belong to the SN64 toolchain. Package and driver version numbers should not be confused with the GCC backend version.
+
+The dedicated reference compares these with SGI IDO, Paper Mario GCC and iQue EGCS, with sources for each family:
+
+{% include_cached link-to-other-post.html post="/n64-compilers" description="Compare N64 compiler families, preserved builds, assembler differences and matching evidence." %}
 
 A leaked version of the SDK was released, distributed as **GNUN6432.zip** (GNU N64 for 32bit Windows) which contained the toolchain, they were compiled on **19th February 1997** based based on version 2.7.2 of GCC (`2.7.2.SN32.3.7 Build 0001`).
 
@@ -117,7 +120,7 @@ These are the files it contains:
 * **CC1PLN64.exe** (1.8MB) - The GNU C++ Compiler based on version **2.7.2** for Nintendo 64
 * **CPPN64.exe** (115KB) - The The C Preprocessor (GNU CPP) based on version **2.7.2** for Nintendo 64
 
-There are possible other versions of the GCC compilers for N64 made by SN systems that are based on a GCC build earlier that 2.7.2, but we have yet to find any.
+Preserved SN64 GCC 2.7.2 builds 0001, 0004 and 0006, SN64 GCC 2.8.1, and a separate 970404 reconstruction are discussed in the [N64 compiler reference](/n64-compilers#sn-systems-sn64-gcc).
 
 For more information check out our post on this SDK:
 {% include_cached link-to-other-post.html post="/sn64-sdk-sn-systems" %}

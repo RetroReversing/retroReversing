@@ -1,0 +1,55 @@
+{
+  "inspected_on": "2026-11-13",
+  "source_url": "https://github.com/Mr-Wiseguy/kmc-gcc-wrapper/releases/download/master/kmc-gcc-wrapper-ubuntu-latest.tar.gz",
+  "archive_sha256": "9a55d17f7099ac5c9940eac7bead5c95ee52a3e69d6fdc845d33b2c6effd556e",
+  "release_history_path": "kmc/gcc/MIPSE/VERSION.TXT",
+  "pc_package_releases": [
+    {
+      "release": "1.0",
+      "date": "1997-01-01"
+    },
+    {
+      "release": "1.1",
+      "date": "1997-07-05"
+    },
+    {
+      "release": "1.2",
+      "date": "1997-09-26"
+    }
+  ],
+  "binary_components": [
+    {
+      "path": "kmc/gcc/MIPSE/BIN/GCC.OUT",
+      "sha256": "24cc3fcc8cbccbaeeed32a4bb2a7a551d9915b2138d3d8587214f44a9d970e7a"
+    },
+    {
+      "path": "kmc/gcc/MIPSE/BIN/CC1.OUT",
+      "sha256": "d48baca4a3b6cf0835ca6100082cf031ba2ca10b364a85c3e1dfd403263e57ee"
+    },
+    {
+      "path": "kmc/gcc/MIPSE/BIN/AS.OUT",
+      "sha256": "cc9314e347eb9e9d3e1046e9ae61ef54671494d216e4166ffd6a37b6e17c8179"
+    },
+    {
+      "path": "kmc/gcc/MIPSE/BIN/LD.OUT",
+      "sha256": "45cc9b874315ec2cceb91e0acd3bf6125a33485c901ccbe1c5d73fe62cff5d06"
+    }
+  ],
+  "observations": {
+    "GCC.OUT": [
+      "2.7.2",
+      "gcc version %s release 1.2"
+    ],
+    "CC1.OUT": [
+      "2.7.2"
+    ],
+    "AS.OUT": [
+      "2.6",
+      "mips-kmc-elf"
+    ],
+    "LD.OUT": [
+      "ld version 2.6 (with BFD %s)"
+    ]
+  },
+  "method": "Read vendor release history and embedded version strings. Original binaries were not executed or redistributed."
+}
