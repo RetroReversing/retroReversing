@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-dream-land": {
       "name": "Kirby's Dream Land",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-ii-return-of-samus": {
       "name": "Metroid II: Return of Samus",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mole-mania": {
       "name": "Mole Mania",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-blue": {
       "name": "Pokemon Red & Blue",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 5008
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-yellow": {
       "name": "Pokemon Yellow",
@@ -113,7 +123,9 @@
         "default_branch": "master",
         "github_stars": 898
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-land": {
       "name": "Super Mario Land",
@@ -132,7 +144,9 @@
         "default_branch": "master",
         "github_stars": 70
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-land-2-six-golden-coins": {
       "name": "Super Mario Land 2: Six Golden Coins",
@@ -151,7 +165,9 @@
         "default_branch": "master",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-land-3-wario-land": {
       "name": "Super Mario Land 3: Wario Land",
@@ -170,7 +186,9 @@
         "default_branch": "master",
         "github_stars": 48
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris-game-boy": {
       "name": "Tetris",
@@ -189,7 +207,9 @@
         "default_branch": "master",
         "github_stars": 52
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battle-arena-toshinden": {
       "name": "Battle Arena Toshinden",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-adventure-ffa-disassembly": {
       "name": "Final Fantasy Adventure (FFA-Disassembly)",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jpn-pokemon-blue": {
       "name": "JPN Pokémon Blue",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jpn-pokemon-gold-silver": {
       "name": "JPN Pokémon Gold/Silver",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jpn-pokemon-red-green": {
       "name": "JPN Pokémon Red/Green",
@@ -284,7 +312,9 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-dream-land-game-boy": {
       "name": "Kirby's Dream Land",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-pinball-land": {
       "name": "Kirby's Pinball Land",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-ii-rw2": {
       "name": "Mega Man II (rw2)",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-dr-wily-s-revenge": {
       "name": "Mega Man: Dr. Wily's Revenge",
@@ -360,7 +396,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-ii-return-of-samus-m2ros": {
       "name": "Metroid II: Return of Samus (M2RoS)",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pocket-love": {
       "name": "Pocket Love",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-gold-spaceworld-demo": {
       "name": "Pokemon Gold SpaceWorld Demo",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 403
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-rby-gsc-frlf-rse-g1r-deluxe": {
       "name": "Pokemon RBY / GSC / FRLF / RSE (G1R Deluxe)",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 4033
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue": {
       "name": "Pokémon Red and Blue",
@@ -455,7 +501,9 @@
         "status": "Inactive",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokemon-claude-red": {
       "name": "Pokémon Red and Blue (pokemon-claude-red)",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 70
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokemonredandbluerecomp": {
       "name": "Pokémon Red and Blue (PokemonRedAndBlueRecomp)",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokered-fr": {
       "name": "Pokémon Red and Blue (pokered-fr)",
@@ -512,7 +564,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokered-gbc": {
       "name": "Pokémon Red and Blue (pokered-gbc)",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 182
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokered-jp": {
       "name": "Pokémon Red and Blue (pokered-jp)",
@@ -550,7 +606,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokered-pro": {
       "name": "Pokémon Red and Blue (Pokered-Pro)",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-red-and-blue-pokemon-anniversary-red": {
       "name": "Pokémon Red and Blue (Pokémon Anniversary Red)",
@@ -588,7 +648,9 @@
         "status": "Inactive",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-land-2-6-golden-coins-supermarioland2recomp": {
       "name": "Super Mario Land 2: 6 Golden Coins (SuperMarioLand2Recomp)",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-land-3-wario-land-recomp": {
       "name": "Super Mario Land 3: Wario Land (Recomp)",
@@ -626,7 +690,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris": {
       "name": "Tetris",
@@ -645,7 +711,9 @@
         "status": "Inactive",
         "github_stars": 85
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris-gbtetris": {
       "name": "Tetris (gbtetris)",
@@ -664,7 +732,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris-kirpich": {
       "name": "Tetris (Kirpich)",
@@ -683,7 +753,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris-tetris-disassembly-davfaithid": {
       "name": "Tetris (tetris-disassembly (davFaithid))",
@@ -702,7 +774,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetris-tetris-gb-disasm": {
       "name": "Tetris (tetris-gb-disasm)",
@@ -721,7 +795,9 @@
         "status": "Inactive",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-super-mario-land-3": {
       "name": "Wario Land: Super Mario Land 3",
@@ -740,7 +816,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
