@@ -171,6 +171,18 @@
         "github_stars": 23
       },
       "ai_used": null
+    },
+    "power-stone-subarasheese": {
+      "name": "Power Stone (Subarasheese)",
+      "platforms": [
+        "Sega Dreamcast"
+      ],
+      "repository_url": "https://github.com/Subarasheese/powerstone-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true
     }
   },
   "consoles": {
@@ -375,6 +387,28 @@
             {
               "name": "Native port",
               "url": "https://github.com/ZoomiesZaggy/Space-Channel-5"
+            }
+          ]
+        },
+        {
+          "project": "power-stone-subarasheese",
+          "name_markdown": "[Power Stone (Subarasheese)](https://github.com/Subarasheese/powerstone-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Power%20Stone%20%28USA%29.png",
+              "alt": "US Dreamcast Power Stone front cover showing Edward Falcon reaching forward with other fighters behind him",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress C reconstruction of the USA Dreamcast release T-1201N, V1.001. Requires your own supported GDI disc and track files, Python, a Katana SDK and the documented SHC toolchain; Docker is the default, with a local Linux x86-64/wibo alternative. Byte-matching C units are distinct from generated and hand-written equivalent C checked against test cases; coverage is uneven and equivalence tests do not establish complete behavioral recovery. The matching baseline retains original assembly, while separate targets build experimental C-based Dreamcast executables and disc images. This is not a native PC port. [The README describes its AI-oriented, agentic reconstruction workflow](https://github.com/Subarasheese/powerstone-decomp#the-steps). Formerly named pwrstn-decomp.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/Subarasheese/powerstone-decomp"
             }
           ]
         }
