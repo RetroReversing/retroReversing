@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom-atari-jaguar": {
       "name": "Doom",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 222
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rayman-rayman-ps1-decomp": {
       "name": "Rayman (rayman-ps1-decomp)",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rayman-rayverse": {
       "name": "Rayman (Rayverse)",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
