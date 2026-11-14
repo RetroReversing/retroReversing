@@ -1,6 +1,13 @@
 # Scripts
 Utilities for maintaining site content and analyzing Markdown files.
 
+## Public decompilation JSON
+The site publishes the complete decompilation catalogue at `/decompilations.json`.
+Jekyll generates it directly from `_data/decompilations/*.json` on every build.
+The top-level keys are platform slugs (for example, `nintendo-64`); each value preserves the corresponding source file, including `schema_version`, `projects`, and `consoles`.
+Project records are available at `catalogue["nintendo-64"]["projects"]`.
+The export includes every recorded project type, as the source catalogue does.
+
 ## update-decomp-activity.py
 Refresh repository activity in `_data/decompilations/<platform>.json` using Python 3.9+ and the standard library. The catalog also supplies complete console tables, including artwork, links, project types, mapper values, and editorial notes. The page renders each table with `{% include decomp-table.html console="nintendo-ds" %}`. The include uses `_includes/decomp-activity.html` internally for activity labels.
 
