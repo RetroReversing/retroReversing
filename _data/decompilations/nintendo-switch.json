@@ -21,7 +21,9 @@
       "previous_repository_urls": [
         "https://github.com/3DWCommunity/3dcomp"
       ],
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-odyssey": {
       "name": "Super Mario Odyssey",
@@ -40,7 +42,9 @@
         "status": "Active",
         "github_stars": 487
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-breath-of-the-wild": {
       "name": "The Legend of Zelda: Breath of the Wild",
@@ -59,7 +63,9 @@
         "status": "Active",
         "github_stars": 2368
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-city-undercover": {
       "name": "Lego City Undercover",
@@ -78,7 +84,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-link-s-awakening": {
       "name": "The Legend of Zelda: Link's Awakening",
@@ -97,7 +105,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bayonetta-2-b2recomp": {
       "name": "Bayonetta 2 (B2recomp)",
@@ -116,7 +126,9 @@
         "status": "Active",
         "github_stars": 435
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hyrule-warriors-definitive-edition-hyrule-warriors-definitive-edition-recomp": {
       "name": "Hyrule Warriors: Definitive Edition (Hyrule Warriors: Definitive Edition Recomp)",
@@ -135,7 +147,9 @@
         "status": "Active",
         "github_stars": 68
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-link-s-awakening-las-recomp": {
       "name": "The Legend of Zelda: Link's Awakening (LAS Recomp)",
@@ -154,7 +168,9 @@
         "status": "Active",
         "github_stars": 1771
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-skyward-sword-hd-sky-recomp": {
       "name": "The Legend of Zelda: Skyward Sword HD (Sky Recomp)",
@@ -173,7 +189,9 @@
         "status": "Active",
         "github_stars": 419
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-8-deluxe": {
       "name": "Mario Kart 8 Deluxe",
@@ -192,7 +210,9 @@
         "status": "Active",
         "github_stars": 103
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "minecraft-nintendo-switch-edition": {
       "name": "Minecraft: Nintendo Switch Edition",
@@ -211,7 +231,9 @@
         "status": "Active",
         "github_stars": 624
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-sword": {
       "name": "Pokémon Sword",
@@ -230,7 +252,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-let-s-go-eevee": {
       "name": "Pokémon: Let's Go, Eevee!",
@@ -249,7 +273,9 @@
         "status": "Active",
         "github_stars": 181
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-3d-world-bowser-s-fury-redcarpet-s": {
       "name": "Super Mario 3D World + Bowser's Fury (RedCarpet-S)",
@@ -268,7 +294,9 @@
         "status": "Inactive",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-ultimate": {
       "name": "Super Smash Bros. Ultimate",
@@ -287,7 +315,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-ultimate-ssbu-recomp": {
       "name": "Super Smash Bros. Ultimate (ssbu-recomp)",
@@ -306,7 +336,9 @@
         "status": "Active",
         "github_stars": 462
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tomodachi-life-living-the-dream-tomodachi-ltd-recomp": {
       "name": "Tomodachi Life: Living the Dream (Tomodachi LTD Recomp)",
@@ -325,7 +357,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
