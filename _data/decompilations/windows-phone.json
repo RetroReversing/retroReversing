@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 160
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "five-nights-at-freddy-s": {
       "name": "Five Nights At Freddy's",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "five-nights-at-freddy-s-2": {
       "name": "Five Nights At Freddy's 2",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-4-episode-1-windows-phone": {
       "name": "Sonic the Hedgehog 4 - Episode 1 (Windows Phone)",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "flappy-bird": {
       "name": "Flappy Bird",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
