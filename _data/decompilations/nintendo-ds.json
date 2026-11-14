@@ -18,7 +18,9 @@
         "default_branch": "main",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-quest-ix": {
       "name": "Dragon Quest IX",
@@ -37,7 +39,9 @@
         "default_branch": "main",
         "github_stars": 53
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-luigi-partners-in-time": {
       "name": "Mario & Luigi - Partners in Time",
@@ -56,7 +60,9 @@
         "default_branch": "main",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-ds": {
       "name": "Mario Party DS",
@@ -75,7 +81,9 @@
         "default_branch": "main",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-diamond-and-pearl": {
       "name": "Pokemon Diamond and Pearl",
@@ -94,7 +102,9 @@
         "default_branch": "master",
         "github_stars": 544
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-heartgold-and-soulsilver": {
       "name": "Pokemon HeartGold and SoulSilver",
@@ -113,7 +123,9 @@
         "default_branch": "master",
         "github_stars": 740
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-platinum": {
       "name": "Pokemon Platinum",
@@ -132,7 +144,9 @@
         "default_branch": "pc_port",
         "github_stars": 132
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rhythm-heaven-gold": {
       "name": "Rhythm Heaven (Gold)",
@@ -151,7 +165,9 @@
         "default_branch": "main",
         "github_stars": 51
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-phantom-hourglass": {
       "name": "The Legend of Zelda: Phantom Hourglass",
@@ -170,7 +186,9 @@
         "default_branch": "main",
         "github_stars": 116
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-spirit-tracks": {
       "name": "The Legend of Zelda: Spirit Tracks",
@@ -189,7 +207,9 @@
         "default_branch": "main",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-super-mario-bros": {
       "name": "New Super Mario Bros.",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 69
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-platinum-pret": {
       "name": "Pokemon Platinum",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 586
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-mystery-dungeon-explorers-of-sky": {
       "name": "Pokemon Mystery Dungeon: Explorers of Sky",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 148
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-rush-adventure": {
       "name": "Sonic Rush Adventure",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-ds": {
       "name": "Super Mario 64 DS",
@@ -284,7 +312,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "air-traffic-chaos": {
       "name": "Air Traffic Chaos",
@@ -304,7 +334,9 @@
         "github_stars": 3,
         "check_error": "GitHub GraphQL repository check failed"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ecrew-development-program-mcdonald-s-training-game": {
       "name": "eCrew Development Program (McDonald's Training Game)",
@@ -323,7 +355,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-shadow-dragon": {
       "name": "Fire Emblem: Shadow Dragon",
@@ -342,7 +376,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "inazuma-eleven-3-sekai-e-no-chousen-the-ogre": {
       "name": "Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!",
@@ -361,7 +397,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-battles": {
       "name": "Lego Battles",
@@ -380,7 +418,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lock-s-quest": {
       "name": "Lock's Quest",
@@ -399,7 +439,9 @@
         "status": "Inactive",
         "github_stars": 0
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "princess-maker-4": {
       "name": "Princess Maker 4",
@@ -418,7 +460,9 @@
         "status": "Active",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-world-ends-with-you": {
       "name": "The World Ends With You",
@@ -437,7 +481,9 @@
         "status": "Active",
         "github_stars": 33
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bomberman-land-touch-2": {
       "name": "Bomberman Land Touch 2",
@@ -456,7 +502,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-quest-iv": {
       "name": "Dragon Quest IV",
@@ -475,7 +523,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-black": {
       "name": "Pokemon Black",
@@ -494,7 +544,9 @@
         "status": "Active",
         "github_stars": 66
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "advance-wars-dual-strike": {
       "name": "Advance Wars: Dual Strike",
@@ -513,7 +565,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-358-2-days": {
       "name": "Kingdom Hearts 358/2 Days",
@@ -532,7 +586,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-luigi-bowser-s-inside-story": {
       "name": "Mario & Luigi: Bowser's Inside Story",
@@ -551,7 +607,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "digimon-world-ds": {
       "name": "Digimon World DS",
@@ -570,7 +628,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "okamiden": {
       "name": "Okamiden",
@@ -589,7 +649,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-re-coded": {
       "name": "Kingdom Hearts Re:coded",
@@ -608,7 +670,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "animal-crossing-wild-world": {
       "name": "Animal Crossing: Wild World",
@@ -627,7 +691,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-quest-iv-chapters-of-the-chosen-dqiv-recompiled": {
       "name": "Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)",
@@ -646,7 +712,9 @@
         "status": "Active",
         "github_stars": 52
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ds-protect": {
       "name": "DS Protect",
@@ -665,7 +733,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-crystal-chronicles-echoes-of-time": {
       "name": "Final Fantasy Crystal Chronicles: Echoes of Time",
@@ -684,7 +754,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-iv-3d-remake": {
       "name": "Final Fantasy IV (3D Remake)",
@@ -703,7 +775,9 @@
         "status": "Inactive",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-chinatown-wars": {
       "name": "Grand Theft Auto: Chinatown Wars",
@@ -722,7 +796,9 @@
         "status": "Active",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-chinatown-wars-nintendo-ds": {
       "name": "Grand Theft Auto: Chinatown Wars",
@@ -741,7 +817,9 @@
         "status": "Active",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-re-coded-nintendo-ds": {
       "name": "Kingdom Hearts Re:coded",
@@ -760,7 +838,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-spirit-tracks-st": {
       "name": "The Legend of Zelda: Spirit Tracks (st)",
@@ -779,7 +859,9 @@
         "status": "Active",
         "github_stars": 72
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-ds": {
       "name": "Mario Kart DS",
@@ -798,7 +880,9 @@
         "status": "Inactive",
         "github_stars": 64
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-prime-hunters": {
       "name": "Metroid Prime Hunters",
@@ -817,7 +901,9 @@
         "status": "Active",
         "github_stars": 269
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-prime-hunters-huntersrecomp-ayn-thor": {
       "name": "Metroid Prime Hunters (HuntersRecomp (AYN Thor))",
@@ -836,7 +922,9 @@
         "status": "Active",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-black-2-and-white-2": {
       "name": "Pokémon Black 2 and White 2",
@@ -855,7 +943,9 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-mystery-dungeon-explorers-of-sky-pmdsky-debug-symbol-database": {
       "name": "Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))",
@@ -874,7 +964,9 @@
         "status": "Active",
         "github_stars": 55
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-platinum-nintendo-ds": {
       "name": "Pokémon Platinum",
@@ -893,7 +985,9 @@
         "status": "Inactive",
         "github_stars": 116
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-ds-nintendo-ds": {
       "name": "Super Mario 64 DS",
@@ -912,7 +1006,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-ds-sm64ds-decomp": {
       "name": "Super Mario 64 DS (sm64ds-decomp)",
@@ -931,7 +1027,9 @@
         "status": "Active",
         "github_stars": 224
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-origins-liolu": {
       "name": "Dragon Ball: Origins",
@@ -943,7 +1041,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "eyeshield-21-max-devil-power-liolu": {
       "name": "Eyeshield 21: Max Devil Power!",
@@ -955,7 +1055,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-ds-ronyxdumb": {
       "name": "Mario Kart DS (RonyxDumb)",
@@ -967,7 +1069,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-dash-liolu": {
       "name": "Pokemon Dash (liolu)",
@@ -979,7 +1083,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "advance-wars-days-of-ruin-sinon-hecate-ii": {
       "name": "Advance Wars: Days of Ruin (Sinon-Hecate-II)",
@@ -991,7 +1097,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nintendogs-dachshund-friends-liolu": {
       "name": "Nintendogs: Dachshund & Friends",
@@ -1003,7 +1111,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tomodachi-collection-manta89640": {
       "name": "Tomodachi Collection",
@@ -1015,7 +1125,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "f37d5ff0e3444cf3fab38890efb71f4f14c96994"
+      ],
+      "project_builders": [
+        "dsd",
+        "ninja"
+      ]
     }
   },
   "consoles": {
