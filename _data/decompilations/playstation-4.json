@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 140
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bloodborne-playstation-4": {
       "name": "Bloodborne",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 3599
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bloodborne-playstation-4-awakenchan": {
       "name": "Bloodborne",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 1019
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bloodborne-playstation-4-bloodborne-native": {
       "name": "Bloodborne",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bloodborne-bloodborne-pc-windows-port": {
       "name": "Bloodborne (bloodborne_pc_windows_port)",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 528
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crash-team-racing-nitro-fueled": {
       "name": "Crash Team Racing Nitro-Fueled",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 630
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crash-team-racing-nitro-fueled-octr-online-ctr-nitro-fueled-pc": {
       "name": "Crash Team Racing Nitro-Fueled (OCTR: Online CTR Nitro-Fueled PC)",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 490
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-s-crown-pro": {
       "name": "Dragon's Crown Pro",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 218
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "driveclub": {
       "name": "Driveclub",
@@ -170,7 +186,9 @@
         "status": "Inactive",
         "github_stars": 125
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "driveclub-driveclub-recomp": {
       "name": "DriveClub (DriveClub Recomp)",
@@ -189,7 +207,9 @@
         "status": "Active",
         "github_stars": 689
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ea-sports-ufc-3": {
       "name": "EA Sports UFC 3",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 179
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "god-of-war-iii-remastered": {
       "name": "God of War III Remastered",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 4104
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gravity-rush-2": {
       "name": "Gravity Rush 2",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 105
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "infamous-second-son": {
       "name": "inFAMOUS Second Son",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 880
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-last-guardian": {
       "name": "The Last Guardian",
@@ -284,7 +312,9 @@
         "status": "Active",
         "github_stars": 428
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "medievil-playstation-4": {
       "name": "MediEvil",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 165
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nhl-24-pc": {
       "name": "NHL 24 PC",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 61
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shadow-of-the-colossus-playstation-4": {
       "name": "Shadow of the Colossus",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 1467
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "uncharted-the-nathan-drake-collection": {
       "name": "Uncharted: The Nathan Drake Collection",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 1941
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
