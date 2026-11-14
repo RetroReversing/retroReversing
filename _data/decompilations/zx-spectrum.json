@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "chuckie-egg-paul-hughes-zxspectrumchuckieegg": {
       "name": "Chuckie Egg (Paul Hughes ZXSpectrumChuckieEgg)",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "cobra-paul-hughes-zxspectrumcobra": {
       "name": "Cobra (Paul Hughes ZXSpectrumCobra)",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "deathchase-ritchie333-deathchase": {
       "name": "Deathchase (Ritchie333 deathchase)",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "exolon-rusarh-exolon-esl": {
       "name": "Exolon (rusarh exolon-esl)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fred-kmatveev-zx-fred-reveng": {
       "name": "Fred (kmatveev zx-fred-reveng)",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-great-escape-dpt-the-great-escape": {
       "name": "The Great Escape (dpt The-Great-Escape)",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 90
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "head-over-heels-simon-frankau-head-over-heels": {
       "name": "Head Over Heels (simon-frankau head-over-heels)",
@@ -151,7 +165,9 @@
         "status": "Inactive",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-hobbit-paul-maddern-pobtastic-skoolkit-disassembly": {
       "name": "The Hobbit (Paul Maddern (pobtastic) SkoolKit disassembly)",
@@ -170,7 +186,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hyper-active-paul-hughes-zxspectrumhyperactive": {
       "name": "Hyper Active (Paul Hughes ZXSpectrumHyperActive)",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-set-willy-jetsetwilly-skoolkit-ca": {
       "name": "Jet Set Willy (jetsetwilly (skoolkit.ca))",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jetpac": {
       "name": "Jetpac",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-lords-of-midnight-mrcook-lords-of-midnight-disassembly-spectrum-dos": {
       "name": "The Lords of Midnight (mrcook lords-of-midnight-disassembly (Spectrum + DOS))",
@@ -246,7 +270,9 @@
         "status": "Inactive",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "manic-miner": {
       "name": "Manic Miner",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "manic-miner-mrcook-manic-miner-manic-miner-retro": {
       "name": "Manic Miner (mrcook manic-miner (Manic Miner: Retro!))",
@@ -284,7 +312,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "manic-miner-tobylobster-manicminer": {
       "name": "Manic Miner (TobyLobster ManicMiner)",
@@ -303,7 +333,9 @@
         "status": "Inactive",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nether-earth-santiontanon-netherearth-disassembly": {
       "name": "Nether Earth (santiontanon netherearth-disassembly)",
@@ -322,7 +354,9 @@
         "status": "Inactive",
         "github_stars": 33
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rex-ultrabolido-skrex": {
       "name": "Rex (ultrabolido skRex)",
@@ -341,7 +375,9 @@
         "status": "Inactive",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "soldier-of-fortune-kmatveev-zx-sof-reveng": {
       "name": "Soldier of Fortune (kmatveev zx-sof-reveng)",
@@ -360,7 +396,9 @@
         "status": "Inactive",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mercenary-mikedailly-mercenarydisassembly": {
       "name": "Mercenary (mikedailly MercenaryDisassembly)",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "green-beret-paul-hughes-zxspectrumgreenberet": {
       "name": "Green Beret (Paul Hughes ZXSpectrumGreenBeret)",
@@ -398,7 +438,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "river-raid-river-raid-disasm-sergei-morozov": {
       "name": "River Raid (river-raid-disasm (Sergei Morozov))",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
