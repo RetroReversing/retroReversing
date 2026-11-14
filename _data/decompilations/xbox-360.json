@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 1165
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "xeo3-recomp-kit": {
       "name": "XEO3 Recomp Kit",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 0
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blue-dragon": {
       "name": "Blue Dragon",
@@ -56,7 +60,9 @@
         "default_branch": "main",
         "github_stars": 843
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "condemned-2-bloodshot": {
       "name": "Condemned 2: Bloodshot",
@@ -75,7 +81,9 @@
         "default_branch": "main",
         "github_stars": 260
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "destroy-all-humans-path-of-the-furon": {
       "name": "Destroy All Humans! Path of the Furon",
@@ -94,7 +102,9 @@
         "default_branch": "main",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-budokai-hd": {
       "name": "Dragon Ball Z: Budokai HD",
@@ -113,7 +123,9 @@
         "default_branch": "main",
         "github_stars": 130
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "eternal-sonata": {
       "name": "Eternal Sonata",
@@ -132,7 +144,9 @@
         "default_branch": "main",
         "github_stars": 162
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kameo-elements-of-power": {
       "name": "Kameo: Elements of Power",
@@ -151,7 +165,9 @@
         "default_branch": "main",
         "github_stars": 67
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lollipop-chainsaw": {
       "name": "Lollipop Chainsaw",
@@ -170,7 +186,9 @@
         "default_branch": "main",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "midnight-club-los-angeles": {
       "name": "Midnight Club: Los Angeles",
@@ -189,7 +207,9 @@
         "default_branch": "main",
         "github_stars": 201
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "naughty-bear": {
       "name": "Naughty Bear",
@@ -208,7 +228,9 @@
         "default_branch": "main",
         "github_stars": 62
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-2006": {
       "name": "Sonic the Hedgehog (2006)",
@@ -227,7 +249,9 @@
         "default_branch": "main",
         "github_stars": 705
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-unleashed": {
       "name": "Sonic Unleashed",
@@ -246,7 +270,9 @@
         "default_branch": "main",
         "github_stars": 5263
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "spider-man-edge-of-time": {
       "name": "Spider-Man: Edge of Time",
@@ -265,7 +291,9 @@
         "default_branch": "main",
         "github_stars": 439
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "terraria": {
       "name": "Terraria",
@@ -284,7 +312,9 @@
         "default_branch": "master",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "viva-pinata-trouble-in-paradise": {
       "name": "Viva Pinata: Trouble in Paradise",
@@ -303,7 +333,9 @@
         "default_branch": "main",
         "github_stars": 229
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "infinite-undiscovery-recomp": {
       "name": "Infinite Undiscovery",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 44
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-darkness-estacado": {
       "name": "The Darkness",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 103
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fifa-street-2012-restreet": {
       "name": "FIFA Street (2012)",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 423
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ace-combat-6-fires-of-liberation": {
       "name": "Ace Combat 6: Fires of Liberation",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 557
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie-nuts-and-bolts": {
       "name": "Banjo-Kazooie Nuts and Bolts",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 179
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crackdown": {
       "name": "Crackdown",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crackdown-2": {
       "name": "Crackdown 2",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dance-central-3": {
       "name": "Dance Central 3",
@@ -455,7 +501,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-or-alive-xtreme-2": {
       "name": "Dead or Alive Xtreme 2",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-reach": {
       "name": "Halo Reach",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 75
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rock-band-3-xbox-360": {
       "name": "Rock Band 3 (Xbox 360)",
@@ -512,7 +564,9 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rumble-roses-xx": {
       "name": "Rumble Roses XX",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-06-demo": {
       "name": "Sonic 06 Demo",
@@ -550,7 +606,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "deadly-premonition-recomp": {
       "name": "Deadly Premonition (Recomp)",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 179
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kinect-sports": {
       "name": "Kinect Sports",
@@ -588,7 +648,9 @@
         "status": "Active",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "project-gotham-racing-4-recomp": {
       "name": "Project Gotham Racing 4 (Recomp)",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 211
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "saw-ii-flesh-blood": {
       "name": "Saw II: Flesh & Blood",
@@ -626,7 +690,9 @@
         "status": "Inactive",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-2006-rjkiv": {
       "name": "Sonic the Hedgehog (2006)",
@@ -645,7 +711,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-simpsons-game-recomp": {
       "name": "The Simpsons Game (Recomp)",
@@ -664,7 +732,9 @@
         "status": "Active",
         "github_stars": 380
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lost-odyssey-recomp": {
       "name": "Lost Odyssey",
@@ -683,7 +753,9 @@
         "status": "Active",
         "github_stars": 802
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "modern-warfare-2-recompiled": {
       "name": "Call of Duty: Modern Warfare 2",
@@ -702,7 +774,9 @@
         "status": "Active",
         "github_stars": 132
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "11eyes-crossover": {
       "name": "11eyes CrossOver",
@@ -721,7 +795,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "3-on-3-nhl-arcade": {
       "name": "3 on 3 NHL Arcade",
@@ -740,7 +816,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "50-cent-blood-on-the-sand": {
       "name": "50 Cent: Blood on the Sand",
@@ -759,7 +837,9 @@
         "status": "Active",
         "github_stars": 52
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ace-combat-6-fires-of-liberation-recomp": {
       "name": "Ace Combat 6: Fires of Liberation (Recomp)",
@@ -778,7 +858,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "army-of-two": {
       "name": "Army of Two",
@@ -797,7 +879,9 @@
         "status": "Active",
         "github_stars": 87
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "army-of-two-xbox-360": {
       "name": "Army of Two",
@@ -816,7 +900,9 @@
         "status": "Active",
         "github_stars": 113
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "army-of-two-recomp": {
       "name": "Army of Two (Recomp)",
@@ -835,7 +921,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "asura-s-wrath": {
       "name": "Asura's Wrath",
@@ -854,7 +942,9 @@
         "status": "Active",
         "github_stars": 70
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie-x360": {
       "name": "Banjo-Kazooie (X360)",
@@ -873,7 +963,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-tooie-xbox-360": {
       "name": "Banjo-Tooie",
@@ -892,7 +984,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-bigs-2": {
       "name": "The Bigs 2",
@@ -911,7 +1005,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blue-dragon-reblue": {
       "name": "Blue Dragon (reblue)",
@@ -930,7 +1026,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bully-scholarship-edition": {
       "name": "Bully: Scholarship Edition",
@@ -949,7 +1047,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-crash": {
       "name": "Burnout CRASH!",
@@ -968,7 +1068,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-paradise": {
       "name": "Burnout Paradise",
@@ -987,7 +1089,9 @@
         "status": "Inactive",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-paradise-xbox-360": {
       "name": "Burnout Paradise",
@@ -1006,7 +1110,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "burnout-revenge": {
       "name": "Burnout Revenge",
@@ -1025,7 +1131,9 @@
         "status": "Active",
         "github_stars": 159
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "call-of-duty-3": {
       "name": "Call of Duty 3",
@@ -1044,7 +1152,9 @@
         "status": "Active",
         "github_stars": 343
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "call-of-duty-3-xbox-360": {
       "name": "Call of Duty 3",
@@ -1063,7 +1173,9 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "call-of-duty-black-ops-bo1-zombies-decompiled": {
       "name": "Call of Duty: Black Ops (bo1-zombies-decompiled)",
@@ -1082,7 +1194,9 @@
         "status": "Active",
         "github_stars": 295
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "call-of-duty-future-warfare": {
       "name": "Call of Duty: Future Warfare",
@@ -1101,7 +1215,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "conan": {
       "name": "Conan",
@@ -1120,7 +1236,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crackdown-xbox-360": {
       "name": "Crackdown",
@@ -1140,7 +1258,9 @@
         "github_stars": 70,
         "check_error": "GitHub GraphQL repository check failed"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crackdown-xbox-360-saulob": {
       "name": "Crackdown",
@@ -1159,7 +1279,9 @@
         "status": "Active",
         "github_stars": 59
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crash-of-the-titans-mojorecomp": {
       "name": "Crash of the Titans (MojoRecomp)",
@@ -1178,7 +1300,9 @@
         "status": "Active",
         "github_stars": 63
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crash-mind-over-mutant": {
       "name": "Crash: Mind over Mutant",
@@ -1197,7 +1321,9 @@
         "status": "Active",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dante-s-inferno": {
       "name": "Dante's Inferno",
@@ -1216,7 +1342,9 @@
         "status": "Active",
         "github_stars": 698
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "daytona-usa": {
       "name": "Daytona USA",
@@ -1235,7 +1363,9 @@
         "status": "Active",
         "github_stars": 216
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-rising-2-case-west": {
       "name": "Dead Rising 2: Case West",
@@ -1254,7 +1384,9 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-rising-2-case-zero": {
       "name": "Dead Rising 2: Case Zero",
@@ -1273,7 +1405,9 @@
         "status": "Active",
         "github_stars": 102
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dead-space-2": {
       "name": "Dead Space 2",
@@ -1292,7 +1426,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "diablo-iii": {
       "name": "Diablo III",
@@ -1311,7 +1447,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-dishwasher-dead-samurai-dishsoap": {
       "name": "The Dishwasher: Dead Samurai (DishSoap)",
@@ -1330,7 +1468,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dodonpachi-saidaioujou": {
       "name": "DoDonPachi Saidaioujou",
@@ -1349,7 +1489,9 @@
         "status": "Active",
         "github_stars": 165
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-age-origins": {
       "name": "Dragon Age: Origins",
@@ -1368,7 +1510,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-budokai-3-hd-budokai-3-hd-recompiled": {
       "name": "Dragon Ball Z: Budokai 3 HD (Budokai 3 HD Recompiled)",
@@ -1387,7 +1531,9 @@
         "status": "Active",
         "github_stars": 209
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-burst-limit": {
       "name": "Dragon Ball Z: Burst Limit",
@@ -1406,7 +1552,9 @@
         "status": "Active",
         "github_stars": 104
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-raging-blast-2": {
       "name": "Dragon Ball: Raging Blast 2",
@@ -1425,7 +1573,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "earthworm-jim-hd-recompiled": {
       "name": "Earthworm Jim HD Recompiled",
@@ -1444,7 +1594,9 @@
         "status": "Active",
         "github_stars": 92
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "exit-exit-2": {
       "name": "Exit / Exit 2",
@@ -1463,7 +1615,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fable-2": {
       "name": "Fable 2",
@@ -1482,7 +1636,9 @@
         "status": "Active",
         "github_stars": 533
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fable-ii": {
       "name": "Fable II",
@@ -1501,7 +1657,9 @@
         "status": "Active",
         "github_stars": 396
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fallout-new-vegas": {
       "name": "Fallout: New Vegas",
@@ -1520,7 +1678,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fight-night-champion": {
       "name": "Fight Night Champion",
@@ -1539,7 +1699,9 @@
         "status": "Active",
         "github_stars": 82
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "flatout-ultimate-carnage": {
       "name": "FlatOut: Ultimate Carnage",
@@ -1558,7 +1720,9 @@
         "status": "Inactive",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon": {
       "name": "Forza Horizon",
@@ -1577,7 +1741,9 @@
         "status": "Active",
         "github_stars": 892
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon-xbox-360": {
       "name": "Forza Horizon",
@@ -1596,7 +1762,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon-1": {
       "name": "Forza Horizon 1",
@@ -1615,7 +1783,9 @@
         "status": "Active",
         "github_stars": 33
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon-1-xbox-360": {
       "name": "Forza Horizon 1",
@@ -1634,7 +1804,9 @@
         "status": "Active",
         "github_stars": 304
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon-2": {
       "name": "Forza Horizon 2",
@@ -1653,7 +1825,9 @@
         "status": "Active",
         "github_stars": 120
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-horizon-2-xbox-360": {
       "name": "Forza Horizon 2",
@@ -1672,7 +1846,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forza-motorsport-4": {
       "name": "Forza Motorsport 4",
@@ -1691,7 +1867,9 @@
         "status": "Active",
         "github_stars": 122
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gears-of-war": {
       "name": "Gears of War",
@@ -1710,7 +1888,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gears-of-war-judgment-gears-of-war-judgement-recomp": {
       "name": "Gears of War: Judgment (Gears of War: Judgement Recomp)",
@@ -1729,7 +1909,9 @@
         "status": "Active",
         "github_stars": 109
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "geometry-wars-retro-evolved-2": {
       "name": "Geometry Wars: Retro Evolved 2",
@@ -1748,7 +1930,9 @@
         "status": "Active",
         "github_stars": 52
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-xbox-360": {
       "name": "Goldeneye 007",
@@ -1767,7 +1951,9 @@
         "status": "Inactive",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-xbla-remaster": {
       "name": "GoldenEye 007 (XBLA Remaster)",
@@ -1786,7 +1972,9 @@
         "status": "Active",
         "github_stars": 908
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-xbla-remaster-goldeneye-recomp-rexglue": {
       "name": "GoldenEye 007 (XBLA remaster) (GoldenEye-Recomp-rexglue)",
@@ -1805,7 +1993,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-xbla-remaster-recomp": {
       "name": "GoldenEye 007 (XBLA Remaster) (Recomp)",
@@ -1824,7 +2014,9 @@
         "status": "Inactive",
         "github_stars": 114
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-xbla-pc-recomp": {
       "name": "GoldenEye 007 XBLA PC Recomp",
@@ -1843,7 +2035,9 @@
         "status": "Active",
         "github_stars": 55
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-iv": {
       "name": "Grand Theft Auto IV",
@@ -1862,7 +2056,9 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-iv-libertyflux": {
       "name": "Grand Theft Auto IV (LibertyFlux)",
@@ -1881,7 +2077,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-iv-libertyrecomp": {
       "name": "Grand Theft Auto IV (LibertyRecomp)",
@@ -1900,7 +2098,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-iv-recomp": {
       "name": "Grand Theft Auto IV (Recomp)",
@@ -1919,7 +2119,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "grand-theft-auto-v": {
       "name": "Grand Theft Auto V",
@@ -1938,7 +2140,9 @@
         "status": "Active",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "guitar-hero-2": {
       "name": "Guitar Hero 2",
@@ -1957,7 +2161,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "guitar-hero-iii-legends-of-rock": {
       "name": "Guitar Hero III: Legends of Rock",
@@ -1976,7 +2182,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "guitar-hero-warriors-of-rock": {
       "name": "Guitar Hero: Warriors of Rock",
@@ -1995,7 +2203,9 @@
         "status": "Active",
         "github_stars": 44
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-3-delta": {
       "name": "Halo 3 Delta",
@@ -2014,7 +2224,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-3-mythic": {
       "name": "Halo 3: Mythic",
@@ -2033,7 +2245,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "halo-reach-xbox-360": {
       "name": "Halo: Reach",
@@ -2052,7 +2266,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hard-corps-uprising": {
       "name": "Hard Corps: Uprising",
@@ -2071,7 +2287,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "king-kong-recompiled": {
       "name": "King Kong Recompiled",
@@ -2090,7 +2308,9 @@
         "status": "Active",
         "github_stars": 211
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-dimensions-dimensionsrecomp": {
       "name": "LEGO Dimensions (DimensionsRecomp)",
@@ -2109,7 +2329,9 @@
         "status": "Active",
         "github_stars": 229
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-star-wars-the-complete-saga": {
       "name": "Lego Star Wars: The Complete Saga",
@@ -2128,7 +2350,9 @@
         "status": "Active",
         "github_stars": 74
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lost-odyssey-recomp-xbox-360": {
       "name": "Lost Odyssey (Recomp)",
@@ -2147,7 +2371,9 @@
         "status": "Inactive",
         "github_stars": 83
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mass-effect-masseffect-nx": {
       "name": "Mass Effect (masseffect-nx)",
@@ -2166,7 +2392,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metal-slug-xx": {
       "name": "Metal Slug XX",
@@ -2185,7 +2413,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "midnight-club-los-angeles-xbox-360": {
       "name": "Midnight Club: Los Angeles",
@@ -2204,7 +2434,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "midnight-club-los-angeles-midnightclub": {
       "name": "Midnight Club: Los Angeles (midnightclub)",
@@ -2223,7 +2455,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "minecraft-xbox-360-edition": {
       "name": "Minecraft: Xbox 360 Edition",
@@ -2242,7 +2476,9 @@
         "status": "Inactive",
         "github_stars": 69
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "minecraft-xbox-360-edition-recomp": {
       "name": "Minecraft: Xbox 360 Edition (Recomp)",
@@ -2261,7 +2497,9 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mortal-kombat-vs-dc-universe": {
       "name": "Mortal Kombat vs. DC Universe",
@@ -2280,7 +2518,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "naruto-rise-of-a-ninja": {
       "name": "Naruto: Rise of a Ninja",
@@ -2299,7 +2539,9 @@
         "status": "Active",
         "github_stars": 152
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nba-jam-on-fire-edition": {
       "name": "NBA JAM: On Fire Edition",
@@ -2318,7 +2560,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "need-for-speed-carbon": {
       "name": "Need for Speed Carbon",
@@ -2337,7 +2581,9 @@
         "status": "Active",
         "github_stars": 99
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "need-for-speed-carbon-xbox-360": {
       "name": "Need for Speed: Carbon",
@@ -2356,7 +2602,9 @@
         "status": "Active",
         "github_stars": 50
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "need-for-speed-most-wanted-xbox-360": {
       "name": "Need for Speed: Most Wanted",
@@ -2375,7 +2623,9 @@
         "status": "Active",
         "github_stars": 172
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "need-for-speed-most-wanted-xbox-360-stevensnd": {
       "name": "Need for Speed: Most Wanted",
@@ -2394,7 +2644,9 @@
         "status": "Active",
         "github_stars": 251
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nfl-head-coach-09": {
       "name": "NFL Head Coach 09",
@@ -2413,7 +2665,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nhl-legacy-edition": {
       "name": "NHL: Legacy Edition",
@@ -2432,7 +2686,9 @@
         "status": "Active",
         "github_stars": 51
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "outpost-kaloki-x": {
       "name": "Outpost Kaloki X",
@@ -2451,7 +2707,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-remaster": {
       "name": "Perfect Dark Remaster",
@@ -2470,7 +2728,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-zero": {
       "name": "Perfect Dark Zero",
@@ -2489,7 +2749,9 @@
         "status": "Active",
         "github_stars": 53
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rayman-origins": {
       "name": "Rayman Origins",
@@ -2508,7 +2770,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ridge-racer-6": {
       "name": "Ridge Racer 6",
@@ -2527,7 +2791,9 @@
         "status": "Active",
         "github_stars": 108
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rockstar-games-presents-table-tennis": {
       "name": "Rockstar Games Presents Table Tennis",
@@ -2546,7 +2812,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rockstar-table-tennis": {
       "name": "Rockstar Table Tennis",
@@ -2565,7 +2833,9 @@
         "status": "Active",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "saints-row": {
       "name": "Saints Row",
@@ -2584,7 +2854,9 @@
         "status": "Active",
         "github_stars": 183
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "saints-row-recomp": {
       "name": "Saints Row (Recomp)",
@@ -2603,7 +2875,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sega-superstars-tennis": {
       "name": "Sega Superstars Tennis",
@@ -2622,7 +2896,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "silent-hill-downpour": {
       "name": "Silent Hill: Downpour",
@@ -2641,7 +2917,9 @@
         "status": "Active",
         "github_stars": 334
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-simpsons-game-the-simpsons-game-nx": {
       "name": "The Simpsons Game (the-simpsons-game-nx)",
@@ -2660,7 +2938,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate": {
       "name": "Skate",
@@ -2679,7 +2959,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-2007": {
       "name": "Skate (2007)",
@@ -2698,7 +2980,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-2": {
       "name": "Skate 2",
@@ -2717,7 +3001,9 @@
         "status": "Inactive",
         "github_stars": 59
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-2-xbox-360": {
       "name": "Skate 2",
@@ -2736,7 +3022,9 @@
         "status": "Active",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-3": {
       "name": "Skate 3",
@@ -2755,7 +3043,9 @@
         "status": "Active",
         "github_stars": 1722
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-3-xbox-360": {
       "name": "Skate 3",
@@ -2774,7 +3064,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-3-xbox-360-helmxgaming": {
       "name": "Skate 3",
@@ -2793,7 +3085,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "skate-3-skate3-ios-setup": {
       "name": "Skate 3 (skate3-ios-setup)",
@@ -2812,7 +3106,9 @@
         "status": "Active",
         "github_stars": 118
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-free-riders": {
       "name": "Sonic Free Riders",
@@ -2831,7 +3127,9 @@
         "status": "Active",
         "github_stars": 98
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-generations-sonic-generations-recomp-android-and-pc-edition": {
       "name": "Sonic Generations (Sonic-Generations-recomp-android-and-pc-edition)",
@@ -2850,7 +3148,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-unleashed-xbox-360": {
       "name": "Sonic Unleashed",
@@ -2869,7 +3169,9 @@
         "status": "Active",
         "github_stars": 228
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "soulcalibur-iv": {
       "name": "Soulcalibur IV",
@@ -2888,7 +3190,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "south-park-tenorman-s-revenge": {
       "name": "South Park: Tenorman's Revenge",
@@ -2907,7 +3211,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "speedbreaker": {
       "name": "SpeedBreaker",
@@ -2926,7 +3232,9 @@
         "status": "Active",
         "github_stars": 473
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "spider-man-web-of-shadows": {
       "name": "Spider-Man: Web of Shadows",
@@ -2945,7 +3253,9 @@
         "status": "Active",
         "github_stars": 51
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "splatterhouse": {
       "name": "Splatterhouse",
@@ -2964,7 +3274,9 @@
         "status": "Active",
         "github_stars": 53
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-street-fighter-ii-turbo-hd-remix": {
       "name": "Super Street Fighter II Turbo HD Remix",
@@ -2983,7 +3295,9 @@
         "status": "Active",
         "github_stars": 65
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tekken-6": {
       "name": "Tekken 6",
@@ -3002,7 +3316,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tekken-tag-tournament-2": {
       "name": "Tekken Tag Tournament 2",
@@ -3021,7 +3337,9 @@
         "status": "Active",
         "github_stars": 172
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "test-drive-unlimited-tdure": {
       "name": "Test Drive Unlimited (TDURE)",
@@ -3040,7 +3358,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tony-hawk-s-project-8": {
       "name": "Tony Hawk's Project 8",
@@ -3059,7 +3379,9 @@
         "status": "Active",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "vigilante-8-arcade": {
       "name": "Vigilante 8 Arcade",
@@ -3078,7 +3400,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "viva-pinata": {
       "name": "Viva Piñata",
@@ -3097,7 +3421,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wet": {
       "name": "Wet",
@@ -3116,7 +3442,9 @@
         "status": "Active",
         "github_stars": 93
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wet-recomp": {
       "name": "Wet (Recomp)",
@@ -3135,7 +3463,9 @@
         "status": "Active",
         "github_stars": 50
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-12-wwe12-pc": {
       "name": "WWE '12 (wwe12-pc)",
@@ -3154,7 +3484,9 @@
         "status": "Active",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-13-wwe-13-recomp": {
       "name": "WWE '13 (WWE '13 Recomp)",
@@ -3173,7 +3505,9 @@
         "status": "Active",
         "github_stars": 109
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-all-stars-wwe-all-stars-recomp": {
       "name": "WWE All Stars (WWE All Stars Recomp)",
@@ -3192,7 +3526,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2007": {
       "name": "WWE SmackDown vs. Raw 2007",
@@ -3211,7 +3547,9 @@
         "status": "Active",
         "github_stars": 158
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2008": {
       "name": "WWE SmackDown vs. Raw 2008",
@@ -3230,7 +3568,9 @@
         "status": "Active",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2009": {
       "name": "WWE SmackDown vs. Raw 2009",
@@ -3249,7 +3589,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2010": {
       "name": "WWE SmackDown vs. Raw 2010",
@@ -3268,7 +3610,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2011": {
       "name": "WWE SmackDown vs. Raw 2011",
@@ -3287,7 +3631,9 @@
         "status": "Active",
         "github_stars": 129
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwe-smackdown-vs-raw-2011-svr2011-recomp": {
       "name": "WWE SmackDown vs. Raw 2011 (SVR2011-Recomp)",
@@ -3306,7 +3652,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "x-men-destiny": {
       "name": "X-Men: Destiny",
@@ -3325,7 +3673,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "naruto-shippuden-ultimate-ninja-storm-3-full-burst": {
       "name": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
@@ -3344,7 +3694,9 @@
         "status": "Active",
         "github_stars": 60
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "torchlight-recomp": {
       "name": "Torchlight (Torchlight Recomp)",
@@ -3363,7 +3715,9 @@
         "github_stars": 2,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fear-nx": {
       "name": "F.E.A.R. (F.E.A.R. NX)",
@@ -3375,7 +3729,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
