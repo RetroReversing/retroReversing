@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-epic-yarn": {
       "name": "Kirby's Epic Yarn",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii": {
       "name": "Mario Kart Wii",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 476
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-8": {
       "name": "Mario Party 8",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-9": {
       "name": "Mario Party 9",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-battle-revolution": {
       "name": "Pokemon Battle Revolution",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokepark-wii-pikachu-s-adventure": {
       "name": "Pokepark Wii: Pikachu's Adventure",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rock-band-3": {
       "name": "Rock_Band_3",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 125
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-riders-zero-gravity": {
       "name": "Sonic Riders: Zero Gravity",
@@ -170,7 +186,9 @@
         "status": "Inactive",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-korean": {
       "name": "Super Mario Galaxy (Korean)",
@@ -189,7 +207,9 @@
         "status": "Active",
         "github_stars": 1305
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-2": {
       "name": "Super Mario Galaxy 2",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 87
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-paper-mario": {
       "name": "Super Paper Mario",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 104
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-brawl": {
       "name": "Super Smash Bros. Brawl",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 108
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-virtual-console": {
       "name": "The Legend of Zelda: Ocarina of Time (Virtual Console)",
@@ -265,7 +291,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-skyward-sword": {
       "name": "The Legend of Zelda: Skyward Sword",
@@ -284,7 +312,9 @@
         "status": "Active",
         "github_stars": 216
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-sims-2-castaway": {
       "name": "The Sims 2: Castaway",
@@ -303,7 +333,9 @@
         "status": "Inactive",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wii-sports": {
       "name": "Wii Sports",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 179
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "xenoblade-chronicles": {
       "name": "Xenoblade Chronicles",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 148
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-play-control-pikmin": {
       "name": "New Play Control! Pikmin",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-play-control-pikmin-2": {
       "name": "New Play Control! Pikmin 2",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-super-mario-bros-wii": {
       "name": "New Super Mario Bros. Wii",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 148
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-rumble": {
       "name": "Pokemon Rumble",
@@ -417,7 +459,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-shake-it": {
       "name": "Wario Land: Shake It!",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "world-of-goo": {
       "name": "World of Goo",
@@ -455,7 +501,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-sports-mix": {
       "name": "Mario Sports Mix",
@@ -474,7 +522,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "alice-in-wonderland": {
       "name": "Alice in Wonderland",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "big-brain-academy-wii-degree": {
       "name": "Big Brain Academy: Wii Degree",
@@ -512,7 +564,9 @@
         "status": "Inactive",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fortune-street": {
       "name": "Fortune Street",
@@ -531,7 +585,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "go-vacation": {
       "name": "Go Vacation",
@@ -550,7 +606,9 @@
         "status": "Inactive",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "i-spy-spooky-mansion": {
       "name": "I Spy Spooky Mansion",
@@ -569,7 +627,9 @@
         "status": "Inactive",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-dream-collection-special-edition": {
       "name": "Kirby's Dream Collection - Special Edition",
@@ -588,7 +648,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-star-wars-iii-the-clone-wars": {
       "name": "Lego Star Wars III: The Clone Wars",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "radio-helicopter": {
       "name": "Radio Helicopter",
@@ -626,7 +690,9 @@
         "status": "Inactive",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rhythm-heaven-fever": {
       "name": "Rhythm Heaven Fever",
@@ -645,7 +711,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-sims-2-castaway-haydntrigg": {
       "name": "The Sims 2: Castaway",
@@ -664,7 +732,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "excite-truck": {
       "name": "Excite Truck",
@@ -683,7 +753,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-strikers-charged": {
       "name": "Mario Strikers Charged",
@@ -702,7 +774,9 @@
         "status": "Active",
         "github_stars": 38
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-riders-zero-gravity-prototype": {
       "name": "Sonic Riders: Zero Gravity Prototype",
@@ -721,7 +795,9 @@
         "status": "Inactive",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wii-play": {
       "name": "Wii Play",
@@ -740,7 +816,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-return-to-dream-land": {
       "name": "Kirby's Return to Dream Land",
@@ -759,7 +837,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-and-the-black-knight-recomp": {
       "name": "Sonic and the Black Knight",
@@ -778,7 +858,9 @@
         "github_stars": 15,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-doldecomp": {
       "name": "Mario Kart Wii (doldecomp)",
@@ -797,7 +879,9 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wii-virtual-console-n64-emulator": {
       "name": "Wii Virtual Console N64 emulator",
@@ -816,7 +900,9 @@
         "status": "Active",
         "github_stars": 96
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "de-blob": {
       "name": "de Blob",
@@ -835,7 +921,9 @@
         "status": "Active",
         "github_stars": 51
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-country-returns": {
       "name": "Donkey Kong Country Returns",
@@ -854,7 +942,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "forecast-channel": {
       "name": "Forecast Channel",
@@ -873,7 +963,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-s-return-to-dream-land-kirby-wii-recomp": {
       "name": "Kirby's Return to Dream Land (Kirby Wii Recomp)",
@@ -892,7 +984,9 @@
         "status": "Active",
         "github_stars": 178
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-skyward-sword-skybreak": {
       "name": "The Legend of Zelda: Skyward Sword (Skybreak)",
@@ -911,7 +1005,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-dismkw": {
       "name": "Mario Kart Wii (DisMKW)",
@@ -930,7 +1026,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-kartpad": {
       "name": "Mario Kart Wii (KartPad)",
@@ -949,7 +1047,9 @@
         "status": "Active",
         "github_stars": 711
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-mkw": {
       "name": "Mario Kart Wii (mkw)",
@@ -968,7 +1068,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-mkw-structures": {
       "name": "Mario Kart Wii (mkw-structures)",
@@ -987,7 +1089,9 @@
         "status": "Inactive",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-recomp": {
       "name": "Mario Kart Wii (Recomp)",
@@ -1006,7 +1110,9 @@
         "status": "Active",
         "github_stars": 1266
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-wii-service-pack-mkw-sp": {
       "name": "Mario Kart Wii - Service Pack (mkw-sp)",
@@ -1025,7 +1131,9 @@
         "status": "Active",
         "github_stars": 102
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-9-marioparty9": {
       "name": "Mario Party 9 (marioparty9)",
@@ -1044,7 +1152,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-strikers-charged-mscharged-port": {
       "name": "Mario Strikers Charged (mscharged-port)",
@@ -1063,7 +1173,9 @@
         "status": "Active",
         "github_stars": 101
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-strikers-charged-strikers-wiicompiled": {
       "name": "Mario Strikers Charged (Strikers-WiiCompiled)",
@@ -1082,7 +1194,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "muscle-march": {
       "name": "Muscle March",
@@ -1101,7 +1215,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-battle-revolution-pokerevo": {
       "name": "Pokémon Battle Revolution (pokerevo)",
@@ -1120,7 +1236,9 @@
         "status": "Inactive",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-all-stars-25th-anniversary-edition": {
       "name": "Super Mario All-Stars 25th Anniversary Edition",
@@ -1139,7 +1257,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-ps4-recomp": {
       "name": "Super Mario Galaxy ( PS4 recomp)",
@@ -1158,7 +1278,9 @@
         "status": "Active",
         "github_stars": 99
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-galaxy-android": {
       "name": "Super Mario Galaxy (Galaxy Android)",
@@ -1177,7 +1299,9 @@
         "status": "Active",
         "github_stars": 267
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-galaxyquest-meta-quest-3-vr": {
       "name": "Super Mario Galaxy (GalaxyQuest (Meta Quest 3 VR))",
@@ -1196,7 +1320,9 @@
         "status": "Active",
         "github_stars": 118
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-nebula": {
       "name": "Super Mario Galaxy (Nebula)",
@@ -1215,7 +1341,9 @@
         "status": "Active",
         "github_stars": 342
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-galaxy-smgdecompilation": {
       "name": "Super Mario Galaxy (SMGDecompilation)",
@@ -1234,7 +1362,9 @@
         "status": "Inactive",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-paper-mario-nintendo-wii": {
       "name": "Super Paper Mario",
@@ -1253,7 +1383,9 @@
         "status": "Active",
         "github_stars": 127
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wii-fit-plus": {
       "name": "Wii Fit Plus",
@@ -1272,7 +1404,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wii-party": {
       "name": "Wii Party",
@@ -1291,7 +1425,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mlb-power-pros-2008": {
       "name": "MLB Power Pros 2008",
@@ -1310,7 +1446,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
