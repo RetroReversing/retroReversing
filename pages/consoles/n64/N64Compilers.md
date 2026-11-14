@@ -15,7 +15,7 @@ breadcrumbs:
   - name: Nintendo 64 Compilers
     url: '#'
 editlink: /consoles/n64/N64Compilers.md
-updatedAt: '2026-11-13'
+updatedAt: '2026-11-14'
 excerpt: 'A reference to N64 compiler families, versions, assemblers and matching differences, covering SGI IDO, KMC GCC, SN64, Paper Mario GCC and iQue EGCS.'
 ---
 
@@ -141,6 +141,51 @@ The [KMC matching guide](https://github.com/RetroReversing/decompdecomp/blob/mai
 The original exeGCC guide documents `GCCSW` for default compiler options and `N64ALIGN` for data alignment. Its PC setup uses MIPS III with 32-bit general/floating-point register settings. Capturing only the displayed GCC version therefore misses environment-dependent parts of the build recipe [^34].
 
 Debug options deserve attention too. In the documented matching workflow, `-g` or `-g3` can affect instruction placement because debug labels interact with assembler scheduling. That is separate from exeGCC 1.2's debug-information shrinking facility. A complete recipe records the original or reconstructed tool build, assembler, flags and environment [^8] [^35].
+
+---
+### Which Version Changes Can Reach the Game Binary?
+The documented exeGCC releases change several parts of the toolchain, but the release number is not a list of new CPU-code optimizations. The vendor notes support the following distinctions [^35]:
+
+Transition | What changed | What that means when comparing binaries
+---|---|---
+1.0 to 1.1 | Win32 execution, memory access and robustness while compiling large optimized functions | These address the host compiler's execution. Avoiding a compiler stack/protection failure does not establish a changed instruction pattern in successfully compiled functions
+1.0 to 1.1 | Smaller debug information; `mild` delta-transfer alignment and diagnostic options; make path handling | Debug objects, development builds or ROM packaging can differ. A warning-option change need not alter a successful build's payload; a packing/alignment change can affect layout without changing the C optimizer
+1.1 to 1.2 | Additional debug-information shrinking and a new `mild` command | Debug data or packer capabilities can identify a newer environment when independently corroborated. These changes do not establish a general `.text` opcode difference
+
+**The sources audited here provide no validated instruction fingerprint that separates exeGCC PC 1.0, 1.1 and 1.2.** The inspected 1.2 package contains GCC 2.7.2; the evidence recorded here does not establish the backend versions in 1.0 or 1.1. Do not invent a mapping such as "exeGCC 1.0 means GCC 2.7.0" [^35] [^36].
+
+Likewise, decompals' modern compatibility commits describe changes to that reconstruction. They do not prove that an original KMC release changed at the same points. A difference between stock GCC 2.7.2 and a KMC-compatible build is a different question from a difference between two historical exeGCC packages [^38].
+
+---
+### Patterns That Suggest a Different KMC Build or Setting
+A pattern is useful when it narrows the next experiment. Its strength depends on which artifact survives: build logs and object files retain evidence that a stripped cartridge ROM normally loses. The following are diagnostic suggestions derived from the documented settings and compatibility changes, not newly measured release fingerprints [^8] [^34] [^35] [^38]:
+
+Observed pattern | Investigate first | What it can establish
+---|---|---
+An original build log records the compiler banner and component paths | Package contents, driver/backend versions and executable hashes | Strong evidence for the tools invoked by that build. A GNU version alone does not identify the exeGCC package or assembler
+Debug information uses an independently identified shrinking facility | Release notes, debugger requirements and retained uncompressed output | Corroborating evidence for the debug-tool environment. Small debug sections alone do not prove 1.2: flags, stripping and source size also affect them
+Only branch/return delay slots or NOP placement disagree | Assembler build, reorder settings and `-g`/`-g3`; compare the compiler's assembly before assembly | Suggests a scheduling difference. If both compilers emit identical assembly but objects differ, the divergence is downstream of C code generation
+Global references use `$gp`-relative loads where another build uses high/low address construction | `-G` threshold, small-data sections, global-pointer setup and assembler relaxation | Suggests a small-data/addressing policy difference; it is not an exeGCC 1.0/1.1/1.2 signature
+Constants or small objects appear in `.sdata` in one output and `.rodata`/`.data` in another | Exact matching-build commit and section-selection settings | The modern KMC compatibility source changes particular small-data selections. This can distinguish those source revisions under triggering inputs, not identify an original package automatically
+Addresses differ while the surrounding operations agree | Linker script, libraries, common-symbol alignment, `N64ALIGN` and ROM packing | Suggests placement or relocation differences. A changed address operand alone is weak evidence for a different optimizer
+Function frames, saved registers or arithmetic ordering differ across many functions | Optimization level, prototypes, source types, ABI/register settings, then compiler build | Makes a different code generator worth testing after context/settings are controlled. One register mismatch is insufficient
+Only local-label spelling or symbol-table organization differs in assembly/objects | Assembler dialect and modern compatibility/driver changes | May identify a tool-path difference. Labels generally disappear from stripped ROMs, and a renamed label need not change instructions
+A region uses `j` while another favors `b`, with other structural differences | A different compiler family, library or separately built module | A family-level clue, including possible GCC/IDO mixing; it does not distinguish KMC package releases
+
+For example, `lw $v0,offset($gp)` versus a `lui` plus address-relative load is a useful clue about data addressing. The first question is whether the same object became eligible for small-data access, not whether the game used a later exeGCC release. Compare relocation types and sections in objects when available; in a ROM, compare resolved addresses and the surrounding global-pointer setup [^34] [^38].
+
+The original guide's `N64ALIGN` option is another potential false version clue. Stronger alignment can move globals and change address operands under the same compiler version. Similarly, a smaller debug file can come from compression without any reduction in executable instructions [^34] [^35].
+
+---
+### Confirming a Suspected Version Difference
+A useful version claim should survive a controlled comparison:
+* **Identify the candidate precisely** - Record exeGCC package, backend, assembler and linker identities separately. For modern builds, include the release tag or source commit and executable hashes.
+* **Freeze the build context** - Keep source, headers, symbol addresses, libraries, linker script and environment fixed. Check `GCCSW`, `N64ALIGN`, optimization, debug, register-width and small-data settings before changing versions.
+* **Locate the first divergence** - Compare compiler-generated assembly, then object code/relocations, then linked code and runtime data, then ROM packing. This separates a compiler decision from an assembler or layout change.
+* **Require more than a tiny match** - Compare several nontrivial functions with calls, global accesses and floating point in the same module. Keep library and engine results separate.
+* **State the level of certainty** - "Matches KMC-compatible GCC 2.7.2 with these flags" is justified by reproduced bytes. "Built with exeGCC PC 1.2" additionally needs evidence identifying that historical package; a match alone need not uniquely identify it.
+
+Without retained build evidence or controlled comparisons of the original releases, the strongest conclusion may be a KMC-family or compiler-profile identification. The [Paper Mario patch experiments](#measured-binary-comparisons) illustrate why this distinction matters: assembler scheduling and alignment can change linked instructions, while other tool changes alter only object metadata. Those experiments are not measurements of differences between KMC releases [^33].
 
 ---
 ## SN Systems SN64 GCC
