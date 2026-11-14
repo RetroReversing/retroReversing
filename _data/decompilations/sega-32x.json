@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtua-racing-deluxe": {
       "name": "Virtua Racing Deluxe",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 185
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "knuckles-chaotix-yuutatsubasa": {
       "name": "Knuckles' Chaotix",
@@ -56,7 +60,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
