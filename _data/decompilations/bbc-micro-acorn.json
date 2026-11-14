@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 59
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-c64-elite-flicker-free-mark-moxon": {
       "name": "Elite (c64-elite-flicker-free (Mark Moxon))",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 96
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-a-source-code-bbc-micro-mark-moxon": {
       "name": "Elite (elite-a-source-code-bbc-micro (Mark Moxon))",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 60
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-source-code-6502-second-processor-mark-moxon": {
       "name": "Elite (elite-source-code-6502-second-processor (Mark Moxon))",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-source-code-acorn-electron-mark-moxon": {
       "name": "Elite (elite-source-code-acorn-electron (Mark Moxon))",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-source-code-apple-ii-mark-moxon": {
       "name": "Elite (elite-source-code-apple-ii (Mark Moxon))",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-source-code-bbc-master-mark-moxon": {
       "name": "Elite (elite-source-code-bbc-master (Mark Moxon))",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-elite-source-code-bbc-micro-disc-mark-moxon": {
       "name": "Elite (elite-source-code-bbc-micro-disc (Mark Moxon))",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 53
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lander-lander-source-code-acorn-archimedes-mark-moxon": {
       "name": "Lander (lander-source-code-acorn-archimedes (Mark Moxon))",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "repton-ajgbarnes-bbc-micro-repton": {
       "name": "Repton (ajgbarnes bbc-micro-repton)",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "revs-revs-source-code-bbc-micro-mark-moxon": {
       "name": "Revs (revs-source-code-bbc-micro (Mark Moxon))",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-sentinel-the-sentinel-source-code-bbc-micro-mark-moxon": {
       "name": "The Sentinel (the-sentinel-source-code-bbc-micro (Mark Moxon))",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 59
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "thrust-kieranhj-thrust-disassembly": {
       "name": "Thrust (kieranhj thrust-disassembly)",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
