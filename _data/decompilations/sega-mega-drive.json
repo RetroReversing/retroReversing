@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "knuckles-the-echidna-in-sonic-the-hedgehog-2": {
       "name": "Knuckles the Echidna in Sonic the Hedgehog 2",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "phantasy-star-ii": {
       "name": "Phantasy Star II",
@@ -59,7 +63,9 @@
       "previous_repository_urls": [
         "https://github.com/lory90/ps2disasm"
       ],
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "phantasy-star-iii": {
       "name": "Phantasy Star III",
@@ -81,7 +87,9 @@
       "previous_repository_urls": [
         "https://github.com/lory90/ps3disasm"
       ],
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "phantasy-star-iv": {
       "name": "Phantasy Star IV",
@@ -103,7 +111,9 @@
       "previous_repository_urls": [
         "https://github.com/lory90/ps4disasm"
       ],
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ristar": {
       "name": "Ristar",
@@ -122,7 +132,9 @@
         "status": "Inactive",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog": {
       "name": "Sonic the Hedgehog",
@@ -141,7 +153,9 @@
         "status": "Active",
         "github_stars": 456
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-2": {
       "name": "Sonic the Hedgehog 2",
@@ -160,7 +174,9 @@
         "status": "Active",
         "github_stars": 320
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-3": {
       "name": "Sonic the Hedgehog 3",
@@ -179,7 +195,9 @@
         "status": "Active",
         "github_stars": 265
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-3d-blast": {
       "name": "Sonic 3D Blast",
@@ -198,7 +216,9 @@
         "status": "Inactive",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-spinball": {
       "name": "Sonic Spinball",
@@ -217,7 +237,9 @@
         "status": "Inactive",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "toy-story": {
       "name": "Toy Story",
@@ -236,7 +258,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-buyuu-retsuden": {
       "name": "Dragon Ball Z: Buyuu Retsuden",
@@ -255,7 +279,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "puyo-puyo-puyodisasm": {
       "name": "Puyo Puyo (puyodisasm)",
@@ -274,7 +300,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "quackshot-starring-donald-duck-quackshot-src": {
       "name": "QuackShot Starring Donald Duck (quackshot_src)",
@@ -293,7 +321,9 @@
         "status": "Inactive",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shining-force": {
       "name": "Shining Force",
@@ -312,7 +342,9 @@
         "status": "Inactive",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-3-knuckles": {
       "name": "Sonic 3 & Knuckles",
@@ -331,7 +363,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-3-knuckles-sonic-clean-engine-s-c-e": {
       "name": "Sonic 3 & Knuckles (Sonic Clean Engine (S.C.E.))",
@@ -350,7 +384,9 @@
         "status": "Active",
         "github_stars": 62
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-recomp": {
       "name": "Sonic the Hedgehog (Recomp)",
@@ -369,7 +405,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-s1disasm": {
       "name": "Sonic the Hedgehog (s1disasm)",
@@ -388,7 +426,9 @@
         "status": "Inactive",
         "github_stars": 49
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-sonic-j2me-decompilation": {
       "name": "Sonic the Hedgehog (sonic-j2me-decompilation)",
@@ -407,7 +447,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-2-recomp": {
       "name": "Sonic the Hedgehog 2 (Recomp)",
@@ -426,7 +468,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-2-sonic-2-nick-arcade-disassembly": {
       "name": "Sonic the Hedgehog 2 (Sonic-2-Nick-Arcade-Disassembly)",
@@ -445,7 +489,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "streets-of-rage": {
       "name": "Streets of Rage",
@@ -464,7 +510,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "toejam-earl-tje-disasm": {
       "name": "ToeJam & Earl (tje-disasm)",
@@ -483,7 +531,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "streets-of-rage-2-new-era": {
       "name": "Streets of Rage 2 New Era",
@@ -497,7 +547,9 @@
       "activity": {
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
