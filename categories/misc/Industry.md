@@ -25,7 +25,7 @@ recommend:
  - companies
  - introduction
  - sdk
-updatedAt: '2025-05-19'
+updatedAt: '2026-11-08'
 tags:
   - industry
   - companies
@@ -35,13 +35,9 @@ tags:
     <img data-image-full="https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-Have you ever wondered what it was like to be a developer in the games industry in the 80s/90s/00s? 
-   
-This page collects documentaries, interviews, magazines, conference history, and company pages that help reconstruct what day-to-day work in the games industry looked like.
+What did a game studio look like before source repositories, production blogs, and video diaries became commonplace? Contemporary footage catches the desks and equipment; interviews and postmortems explain the work behind them.
 
-It is intended as a hub page rather than a complete chronology, so the goal is to point toward the best material we know about and split deeper topics into their own dedicated posts where needed.
-
-If you know of any other footage or information that should be added to this page please get in touch. There must be more out there.
+This is an awesome list of documentaries, oral histories, magazines, and company pages, with enough context to follow the industry from small 1980s teams to later studio productions. If you know of more surviving footage or first-hand accounts, please get in touch.
  </div>
 </section> 
 
@@ -89,7 +85,7 @@ They interview people in programming (David Kivlin), music (Craig Conner), sound
 
 ---
 # Game Industry Research Materials
-When researching a video game, for reverse engineering or otherwise it can be tricky to find all the relevant sources due to most development being done behind closed doors in a time before the internet was the force it is today. So it is important to keep track of the physical media such as magazines, books and conference proceedings as they contain many information that has never been released to the internet.
+Development happened behind closed doors, and much of the surviving technical detail lives in print. Magazines, books, and conference proceedings can identify tools, production constraints, and people who never appeared in a game's credits.
 
 ## Magazines
 Before widespread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general. We have a post covering the most relevant magazines:
@@ -152,7 +148,12 @@ So far we have listed documentaries that are freely available on youtube, mostly
 %}
 
 ## Interviews and Oral Histories
-One of the best sources of information for how retro games were developed are direct interviews with the programmers themselves. This section lists interviews available online, but for even more interviews check out the magazines section above.
+A developer's own account can explain who made a game, how responsibilities were divided, and which compromises never reached the box or manual. Read recollections alongside contemporary records: memories can be selective, but they often point to the right people and artifacts.
+
+### How did Atari's development teams change?
+In a [Computer History Museum interview with Atari engineer Mike Albaugh](https://archive.computerhistory.org/resources/access/text/2011/10/102743036-05-01-acc.pdf), he recalls a core of two or three people, with another three or four contributing to a game when he joined. Atari VCS projects could be smaller still, at one or two people. He describes artwork drafted in coloured pencil on graph paper, then larger teams and more project management as the industry grew. Those are Albaugh's observations across his Atari career, not a universal staffing rule [^3].
+
+[Al Alcorn's oral history](https://archive.computerhistory.org/resources/access/text/2012/09/102658257-05-01-acc.pdf) adds the company side of that change. He recalls the early Atari team as Nolan Bushnell, Ted Dabney, and himself, with a broad engineering role in the small firm. Later, while discussing the Atari 400/800, he names separate consumer engineering leadership and describes the push and pull between engineering and marketing [^4]. Together the two interviews show why a credit list alone cannot reconstruct who had a hand in a project.
 
 ### The Untold History of Japanese Game Developers DVDs
 DVD produced for the Kickstarter for the book The Untold History of Japanese Game Developers back in 2013:
@@ -217,7 +218,7 @@ There are a bunch of notable companies related to game hacking which not only wo
 Over the years game developers have posted "Postmortems" of their games, listing the good and bad parts of the development process, these were often given as talks at GDC or published in the physical **Game Developer** magazine.
 
 ## 2003 book Postmortems from Game Developer
-It is a collection of 25 postmortem articles originally from **Game Developer** magazine. Based on the published table of contents, these are the included games and their primary original platforms. Most chapters are about Windows PC development, but I have listed the main release platforms relevant to the era if the game was ported [^1].
+The 2003 collection reprints 25 postmortems from **Game Developer** magazine. Its table of contents names the games below; the platform column gives the original platform or prominent contemporary ports where relevant [^2].
 
 Game                                 | Primary Platform(s)                     
 ------------------------------------ | ----------------------------------------
@@ -348,3 +349,5 @@ This final section is generated from site tags, so it works as a wider catch-all
 # References
 [^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 [^2]: ["Postmortems from Game Developer: Insights from the ..."](https://www.routledge.com/Postmortems-from-Game-Developer-Insights-from-the-Developers-of-Unreal-Tournament-Black-amp-White-Age-of-Empire-and-Other-Top-Selling-Games/Grossman/p/book/9781578202140)
+[^3]: [Mike Albaugh Interview, Computer History Museum](https://archive.computerhistory.org/resources/access/text/2011/10/102743036-05-01-acc.pdf), pp. 7-8.
+[^4]: [Oral History of Al Alcorn, Computer History Museum](https://archive.computerhistory.org/resources/access/text/2012/09/102658257-05-01-acc.pdf), pp. 8-9, 33-34.
