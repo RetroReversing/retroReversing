@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 50
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "attack-of-the-mutant-camels-attack-of-the-mutant-camels-reverse-engineer": {
       "name": "Attack of the Mutant Camels (Attack of the Mutant Camels (reverse engineer))",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crossroads-ii-pandemonium-crossroads-2-disassembly": {
       "name": "Crossroads II: Pandemonium (crossroads-2-disassembly)",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "elite-commodore-64": {
       "name": "Elite",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 474
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ghost-town-esshahn-ghost-town": {
       "name": "Ghost Town (Esshahn Ghost-Town)",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gridrunner-gridrunner-llamasoft-source-code-project": {
       "name": "Gridrunner (gridrunner (Llamasoft Source Code Project))",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 75
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "iridis-alpha-iridisalpha-llamasoft-source-code-project": {
       "name": "Iridis Alpha (iridisalpha (Llamasoft Source Code Project))",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "maniac-mansion-maniac-mansion-disassembly": {
       "name": "Maniac Mansion (Maniac.Mansion.Disassembly)",
@@ -151,7 +165,9 @@
         "status": "Inactive",
         "github_stars": 43
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "uridium-uridium-uridiumfraktion": {
       "name": "Uridium (uridium (+ UridiumFraktion))",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-way-of-the-exploding-fist-paul-maddern-pobtastic-skoolkit-disassembly": {
       "name": "The Way of the Exploding Fist (Paul Maddern (pobtastic) SkoolKit disassembly)",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "habitat-neohabitat": {
       "name": "Habitat (NeoHabitat)",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 252
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
