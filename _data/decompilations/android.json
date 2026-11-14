@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 1154
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "retro-engine-v4-reconstruction": {
       "name": "Retro Engine v4 reconstruction",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 1154
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-1-sonic-2-and-sonic-cd-game-scripts": {
       "name": "Sonic 1, Sonic 2 and Sonic CD game scripts",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 140
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance": {
       "name": "Sonic Advance",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "brave-frontier": {
       "name": "Brave Frontier",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "spongebob-moves-in": {
       "name": "SpongeBob Moves In!",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "backstab-hd-backstabrecomp-androidrecomp": {
       "name": "Backstab HD (BackStabRecomp (AndroidRecomp))",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hollow-knight-hk-dual-souls": {
       "name": "Hollow Knight (HK: Dual Souls)",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hollow-knight-silksong-silksong-android": {
       "name": "Hollow Knight: Silksong (Silksong Android)",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "modern-combat-2-black-pegasus-backstabrecomp": {
       "name": "Modern Combat 2: Black Pegasus ( BackStabRecomp)",
@@ -189,7 +207,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lionheart-remake": {
       "name": "Lionheart Remake",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 87
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-cat-tales-paws": {
       "name": "Super Cat Tales: PAWS",
@@ -227,7 +249,9 @@
         "github_stars": null,
         "status": "Inactive"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
