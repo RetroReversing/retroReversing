@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "aidyn-chronicles-the-first-mage": {
       "name": "Aidyn Chronicles: The First Mage",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie": {
       "name": "Banjo-Kazooie",
@@ -56,7 +60,9 @@
         "archived": false,
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjorecomp": {
       "name": "BanjoRecomp",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 2087
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-tooie": {
       "name": "Banjo-Tooie",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 152
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blast-corps": {
       "name": "Blast Corps",
@@ -113,7 +123,9 @@
         "status": "Inactive",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "body-harvest": {
       "name": "Body Harvest",
@@ -132,7 +144,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bomberman-64": {
       "name": "Bomberman 64",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bm64recomp": {
       "name": "BM64Recomp",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 308
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bomberman-64-the-second-attack": {
       "name": "Bomberman 64: The Second Attack!",
@@ -189,7 +207,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bomberman-hero": {
       "name": "Bomberman Hero",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 62
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "bmherorecomp": {
       "name": "BMHeroRecomp",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 126
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "castlevania-64": {
       "name": "Castlevania 64",
@@ -246,7 +270,9 @@
         "status": "Inactive",
         "github_stars": 67
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "chameleon-twist": {
       "name": "Chameleon Twist",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "chameleon-twist-recompiled": {
       "name": "Chameleon Twist Recompiled",
@@ -284,7 +312,9 @@
         "status": "Inactive",
         "github_stars": 63
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "chameleon-twist-2": {
       "name": "Chameleon Twist 2",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "conker-s-bad-fur-day": {
       "name": "Conker's Bad Fur Day",
@@ -322,7 +354,9 @@
         "status": "Inactive",
         "github_stars": 239
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dark-rift": {
       "name": "Dark Rift",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "diddy-kong-racing": {
       "name": "Diddy Kong Racing",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 424
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dinosaur-planet": {
       "name": "Dinosaur Planet",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 218
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dinosaur-planet-recompiled": {
       "name": "Dinosaur Planet: Recompiled",
@@ -398,7 +438,9 @@
         "status": "Active",
         "github_stars": 332
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-64": {
       "name": "Donkey Kong 64",
@@ -417,7 +459,9 @@
         "archived": false,
         "github_stars": null
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "donkey-kong-64-recompiled": {
       "name": "source and releases",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 543
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom-64": {
       "name": "Doom 64",
@@ -455,7 +501,9 @@
         "status": "Inactive",
         "github_stars": 237
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doraemon-nobita-to-mittsu-no-seireiseki": {
       "name": "Doraemon: Nobita to Mittsu no Seireiseki",
@@ -474,7 +522,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dobutsu-no-mori": {
       "name": "Dōbutsu no Mori",
@@ -493,7 +543,9 @@
         "status": "Active",
         "github_stars": 303
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dr-mario-64": {
       "name": "Dr. Mario 64",
@@ -512,7 +564,9 @@
         "status": "Active",
         "github_stars": 81
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dr-mario-64-recomp-plus": {
       "name": "Dr. Mario 64 Recomp Plus",
@@ -531,7 +585,9 @@
         "status": "Active",
         "github_stars": 156
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "duke-nukem-64": {
       "name": "Duke Nukem 64",
@@ -550,7 +606,9 @@
         "status": "Inactive",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "duke-nukem-zero-hour": {
       "name": "Duke Nukem: Zero Hour",
@@ -569,7 +627,9 @@
         "status": "Active",
         "github_stars": 277
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "extreme-g": {
       "name": "Extreme-G",
@@ -588,7 +648,9 @@
         "archived": false,
         "github_stars": null
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-x": {
       "name": "F-Zero X",
@@ -607,7 +669,9 @@
         "status": "Active",
         "github_stars": 109
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "g-diffuser": {
       "name": "G-Diffuser",
@@ -626,7 +690,9 @@
         "status": "Active",
         "github_stars": 295
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-x-expansion-kit": {
       "name": "F-Zero X Expansion Kit",
@@ -645,7 +711,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gauntlet-legends": {
       "name": "Gauntlet Legends",
@@ -664,7 +732,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gex-64-enter-the-gecko": {
       "name": "Gex 64: Enter the Gecko",
@@ -683,7 +753,9 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "glover": {
       "name": "Glover",
@@ -702,7 +774,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goemon-s-great-adventure": {
       "name": "Goemon's Great Adventure",
@@ -724,7 +798,9 @@
       "previous_repository_urls": [
         "https://github.com/Fluvian/gga"
       ],
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007": {
       "name": "GoldenEye 007",
@@ -743,7 +819,9 @@
         "status": "Active",
         "github_stars": 805
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvest-moon-64": {
       "name": "Harvest Moon 64",
@@ -762,7 +840,9 @@
         "status": "Active",
         "github_stars": 224
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvestmoon64recomp": {
       "name": "HarvestMoon64Recomp",
@@ -781,7 +861,9 @@
         "status": "Active",
         "github_stars": 173
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-force-gemini": {
       "name": "Jet Force Gemini",
@@ -800,7 +882,9 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-64-the-crystal-shards": {
       "name": "Kirby 64: The Crystal Shards",
@@ -819,7 +903,9 @@
         "status": "Active",
         "github_stars": 235
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-racers": {
       "name": "Lego Racers",
@@ -838,7 +924,9 @@
         "status": "Inactive",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-golf": {
       "name": "Mario Golf",
@@ -857,7 +945,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-64": {
       "name": "Mario Kart 64",
@@ -876,7 +966,9 @@
         "status": "Active",
         "github_stars": 1315
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party": {
       "name": "Mario Party",
@@ -895,7 +987,9 @@
         "status": "Active",
         "github_stars": 84
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-2": {
       "name": "Mario Party 2",
@@ -914,7 +1008,9 @@
         "status": "Active",
         "github_stars": 55
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-3": {
       "name": "Mario Party 3",
@@ -933,7 +1029,9 @@
         "status": "Active",
         "github_stars": 76
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-tennis": {
       "name": "Mario Tennis",
@@ -952,7 +1050,9 @@
         "status": "Inactive",
         "github_stars": 12
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mischief-makers": {
       "name": "Mischief Makers",
@@ -971,7 +1071,9 @@
         "status": "Active",
         "github_stars": 72
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mystical-ninja-starring-goemon": {
       "name": "Mystical Ninja Starring Goemon",
@@ -990,7 +1092,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goemon64recomp": {
       "name": "Goemon64Recomp",
@@ -1009,7 +1113,9 @@
         "status": "Active",
         "github_stars": 326
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "neon-genesis-evangelion": {
       "name": "Neon Genesis Evangelion",
@@ -1028,7 +1134,9 @@
         "status": "Inactive",
         "github_stars": 38
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "onegai-monsters": {
       "name": "Onegai Monsters",
@@ -1047,7 +1155,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario": {
       "name": "Paper Mario",
@@ -1066,7 +1176,9 @@
         "status": "Active",
         "github_stars": 1638
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark": {
       "name": "Perfect Dark",
@@ -1085,7 +1197,9 @@
         "status": "Inactive",
         "github_stars": 876
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-pc-port": {
       "name": "Perfect Dark PC port",
@@ -1104,7 +1218,9 @@
         "status": "Active",
         "github_stars": 2081
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-puzzle-league": {
       "name": "Pokemon Puzzle League",
@@ -1123,7 +1239,9 @@
         "status": "Active",
         "github_stars": 42
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-snap": {
       "name": "Pokemon Snap",
@@ -1142,7 +1260,9 @@
         "status": "Active",
         "github_stars": 112
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-stadium": {
       "name": "Pokemon Stadium",
@@ -1161,7 +1281,9 @@
         "status": "Active",
         "github_stars": 213
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-stadium-2": {
       "name": "Pokemon Stadium 2",
@@ -1180,7 +1302,9 @@
         "status": "Active",
         "github_stars": 60
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "quest-64": {
       "name": "Quest 64",
@@ -1199,7 +1323,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "quest64-recomp": {
       "name": "Quest64-Recomp",
@@ -1218,7 +1344,9 @@
         "status": "Active",
         "github_stars": 281
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rocket-robot-on-wheels": {
       "name": "Rocket: Robot on Wheels",
@@ -1237,7 +1365,9 @@
         "status": "Inactive",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shadowgate-64": {
       "name": "Shadowgate 64",
@@ -1256,7 +1386,9 @@
         "status": "Inactive",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "snowboard-kids-2": {
       "name": "Snowboard Kids 2",
@@ -1275,7 +1407,9 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "space-station-silicon-valley": {
       "name": "Space Station Silicon Valley",
@@ -1294,7 +1428,9 @@
         "status": "Active",
         "github_stars": 66
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sssv-recomp": {
       "name": "SSSV_Recomp",
@@ -1313,7 +1449,9 @@
         "status": "Active",
         "github_stars": 106
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-fox-64": {
       "name": "Star Fox 64",
@@ -1332,7 +1470,9 @@
         "status": "Active",
         "github_stars": 355
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-wars-shadows-of-the-empire": {
       "name": "Star Wars: Shadows of the Empire",
@@ -1351,7 +1491,9 @@
         "status": "Inactive",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64": {
       "name": "Super Mario 64",
@@ -1370,7 +1512,9 @@
         "status": "Inactive",
         "github_stars": 8929
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sm64-port": {
       "name": "SM64 Port",
@@ -1389,7 +1533,9 @@
         "status": "Inactive",
         "github_stars": 1324
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sm64coopdx": {
       "name": "sm64coopdx",
@@ -1408,7 +1554,9 @@
         "status": "Active",
         "github_stars": 1483
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sm64plus": {
       "name": "SM64Plus",
@@ -1427,7 +1575,9 @@
         "status": "Active",
         "github_stars": 648
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros": {
       "name": "Super Smash Bros.",
@@ -1446,7 +1596,9 @@
         "status": "Active",
         "github_stars": 271
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "superman-64": {
       "name": "Superman 64",
@@ -1465,7 +1617,9 @@
         "status": "Inactive",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time": {
       "name": "The Legend of Zelda: Ocarina of Time",
@@ -1484,7 +1638,9 @@
         "status": "Active",
         "github_stars": 5620
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask": {
       "name": "The Legend of Zelda: Majora's Mask",
@@ -1503,7 +1659,9 @@
         "status": "Active",
         "github_stars": 1760
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "zelda64recomp": {
       "name": "Zelda64Recomp",
@@ -1522,7 +1680,9 @@
         "status": "Active",
         "github_stars": 7521
       },
-      "ai_used": false
+      "ai_used": false,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-new-tetris": {
       "name": "The New Tetris",
@@ -1541,7 +1701,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "turok-3-shadow-of-oblivion": {
       "name": "Turok 3: Shadow of Oblivion",
@@ -1560,7 +1722,9 @@
         "status": "Inactive",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtual-pool-64": {
       "name": "Virtual Pool 64",
@@ -1579,7 +1743,9 @@
         "status": "Inactive",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtual-pro-wrestling-2-odo-keisho": {
       "name": "Virtual Pro Wrestling 2: Ōdō Keishō",
@@ -1598,7 +1764,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wave-race-64": {
       "name": "Wave Race 64",
@@ -1617,7 +1785,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yoshi-s-story": {
       "name": "Yoshi's Story",
@@ -1636,7 +1806,9 @@
         "status": "Active",
         "github_stars": 82
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pilotwings-64-recompiled": {
       "name": "Pilotwings 64",
@@ -1655,7 +1827,9 @@
         "status": "Active",
         "github_stars": 81
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "buck-bumble-project-bumble": {
       "name": "Buck Bumble",
@@ -1674,7 +1848,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "aerogauge-recompiled": {
       "name": "AeroGauge",
@@ -1693,7 +1869,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blast-corps-slaveofido": {
       "name": "Blast Corps",
@@ -1712,7 +1890,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "body-harvest-jaytheham": {
       "name": "Body Harvest",
@@ -1731,7 +1911,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ridge-racer-64": {
       "name": "Ridge Racer 64",
@@ -1750,7 +1932,9 @@
         "status": "Inactive",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-wars-rogue-squadron": {
       "name": "Star Wars: Rogue Squadron",
@@ -1769,7 +1953,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wonder-project-j2-josette-of-the-corlo-forest": {
       "name": "Wonder Project J2: Josette of the Corlo Forest",
@@ -1788,7 +1974,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "beetle-adventure-racing": {
       "name": "Beetle Adventure Racing!",
@@ -1807,7 +1995,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "conker-s-bad-fur-day-devoldschool": {
       "name": "Conker's Bad Fur Day (DevOldSchool)",
@@ -1826,7 +2016,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "diddy-kong-racing-recomp": {
       "name": "Diddy Kong Racing (Recomp)",
@@ -1845,7 +2037,9 @@
         "status": "Active",
         "github_stars": 236
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ogre-battle-64-person-of-lordly-caliber": {
       "name": "Ogre Battle 64: Person of Lordly Caliber",
@@ -1864,7 +2058,9 @@
         "status": "Active",
         "github_stars": 79
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-dab-s-mod": {
       "name": "Perfect Dark (Dab's Mod)",
@@ -1883,7 +2079,9 @@
         "status": "Active",
         "github_stars": 196
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-snap-recomp": {
       "name": "Pokemon Snap (Recomp)",
@@ -1902,7 +2100,9 @@
         "status": "Active",
         "github_stars": 122
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "snowboard-kids": {
       "name": "Snowboard Kids",
@@ -1921,7 +2121,9 @@
         "status": "Inactive",
         "github_stars": 5
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wave-race-64-recomp": {
       "name": "Wave Race 64 (Recomp)",
@@ -1940,7 +2142,9 @@
         "status": "Active",
         "github_stars": 171
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battletanx": {
       "name": "BattleTanx",
@@ -1959,7 +2163,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battletanx-global-assault": {
       "name": "BattleTanx: Global Assault",
@@ -1978,7 +2184,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battletanx-global-assault-pc-port": {
       "name": "BattleTanx: Global Assault PC port",
@@ -1997,7 +2205,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "shiren-the-wanderer-2": {
       "name": "Shiren the Wanderer 2",
@@ -2016,7 +2226,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hybrid-heaven": {
       "name": "Hybrid Heaven",
@@ -2035,7 +2247,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paperboy": {
       "name": "Paperboy",
@@ -2054,7 +2268,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "starcraft-64-n0madic-recomp": {
       "name": "StarCraft 64",
@@ -2073,7 +2289,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pilotwings-64-matching-decompilation": {
       "name": "Pilotwings 64 (matching decompilation)",
@@ -2092,7 +2310,9 @@
         "status": "Active",
         "github_stars": 83
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "snowboard-kids-cdlewis": {
       "name": "Snowboard Kids (cdlewis matching decompilation)",
@@ -2111,7 +2331,9 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "1080-snowboarding": {
       "name": "1080° Snowboarding",
@@ -2130,7 +2352,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "animal-forest-animal-forest-psp": {
       "name": "Animal Forest (animal_forest_psp)",
@@ -2149,7 +2373,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "automobili-lamborghini": {
       "name": "Automobili Lamborghini",
@@ -2168,7 +2394,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie-banjo-kazooie": {
       "name": "Banjo-Kazooie (banjo-kazooie)",
@@ -2187,7 +2415,9 @@
         "status": "Active",
         "github_stars": 659
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie-banjo-recompiled-android-port": {
       "name": "Banjo-Kazooie (Banjo: Recompiled [Android Port])",
@@ -2206,7 +2436,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-kazooie-lighthouse": {
       "name": "Banjo-Kazooie (Lighthouse)",
@@ -2225,7 +2457,9 @@
         "status": "Active",
         "github_stars": 524
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "banjo-tooie-banjo-tooie-recompiled": {
       "name": "Banjo-Tooie (Banjo-Tooie: Recompiled)",
@@ -2244,7 +2478,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battletanx-nintendo-64": {
       "name": "BattleTanx",
@@ -2263,7 +2499,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battletanx-global-assault-btgarecomp": {
       "name": "BattleTanx: Global Assault (BTGARecomp)",
@@ -2282,7 +2520,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "battlezone-rise-of-the-black-dogs-bzrecomp": {
       "name": "Battlezone: Rise of the Black Dogs (BZRecomp)",
@@ -2301,7 +2541,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "beetle-adventure-racing-recomp": {
       "name": "Beetle Adventure Racing! (Recomp)",
@@ -2320,7 +2562,9 @@
         "status": "Active",
         "github_stars": 67
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "blast-corps-power-dozer": {
       "name": "Blast Corps (Power Dozer)",
@@ -2339,7 +2583,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "body-harvest-recomp": {
       "name": "Body Harvest (Recomp)",
@@ -2358,7 +2604,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "castlevania-64-cv64-recomp": {
       "name": "Castlevania 64 (CV64-Recomp)",
@@ -2377,7 +2625,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "castlevania-64-recomp": {
       "name": "Castlevania 64 (Recomp)",
@@ -2396,7 +2646,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "castlevania-legacy-of-darkness": {
       "name": "Castlevania: Legacy of Darkness",
@@ -2415,7 +2667,9 @@
         "status": "Active",
         "github_stars": 138
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "conker-s-bad-fur-day-conker64-recompiled": {
       "name": "Conker's Bad Fur Day (conker64-recompiled)",
@@ -2434,7 +2688,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "diddy-kong-racing-goldenballoon": {
       "name": "Diddy Kong Racing (goldenballoon)",
@@ -2453,7 +2709,9 @@
         "status": "Active",
         "github_stars": 185
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doom-64-doom64-dc": {
       "name": "Doom 64 (doom64-dc)",
@@ -2472,7 +2730,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doraemon-nobita-to-mittsu-no-seireiseki-recomp": {
       "name": "Doraemon: Nobita to Mittsu no Seireiseki (Recomp)",
@@ -2491,7 +2751,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310": {
       "name": "Duke Nukem: Zero Hour (DukeNukemZeroHourPort (Gillou68310))",
@@ -2510,7 +2772,9 @@
         "status": "Active",
         "github_stars": 11
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "evo-s-space-adventures": {
       "name": "Evo's Space Adventures",
@@ -2529,7 +2793,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-x-f-zerox": {
       "name": "F-Zero X (f-zerox)",
@@ -2548,7 +2814,9 @@
         "status": "Inactive",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "f-zero-x-gdx-3ds": {
       "name": "F-Zero X (gdx-3ds)",
@@ -2567,7 +2835,9 @@
         "status": "Active",
         "github_stars": 33
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "glover-glover-decomp": {
       "name": "Glover (glover-decomp)",
@@ -2586,7 +2856,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "glover-recomp": {
       "name": "Glover (Recomp)",
@@ -2605,7 +2877,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-nintendo-64": {
       "name": "GoldenEye 007",
@@ -2624,7 +2898,9 @@
         "status": "Active",
         "github_stars": 189
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-goldeneye-metal": {
       "name": "GoldenEye 007 (goldeneye-metal)",
@@ -2643,7 +2919,9 @@
         "status": "Active",
         "github_stars": 88
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-goldeneye-recomp-server-online-play-for-goldeneye-recomp": {
       "name": "GoldenEye 007 (GoldenEye-Recomp-Server (online play for GoldenEye recomp))",
@@ -2662,7 +2940,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-goldenrecomp": {
       "name": "GoldenEye 007 (GoldenRecomp)",
@@ -2681,7 +2961,9 @@
         "status": "Active",
         "github_stars": 219
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hey-you-pikachu": {
       "name": "Hey You, Pikachu!",
@@ -2700,7 +2982,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hybrid-heaven-nintendo-64": {
       "name": "Hybrid Heaven",
@@ -2719,7 +3003,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hybrid-heaven-nintendo-64-ogdanimal": {
       "name": "Hybrid Heaven",
@@ -2738,7 +3024,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hybrid-heaven-recomp": {
       "name": "Hybrid Heaven (Recomp)",
@@ -2757,7 +3045,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "jet-force-gemini-nintendo-64": {
       "name": "Jet Force Gemini",
@@ -2776,7 +3066,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-and-the-crystal-shards": {
       "name": "Kirby and the Crystal Shards",
@@ -2795,7 +3087,9 @@
         "status": "Active",
         "github_stars": 48
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "knife-edge-nose-gunner": {
       "name": "Knife Edge - Nose Gunner",
@@ -2814,7 +3108,9 @@
         "status": "Inactive",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask-mmrecomprando": {
       "name": "The Legend of Zelda: Majora's Mask (MMRecompRando)",
@@ -2833,7 +3129,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask-zelda64-recompiled-android": {
       "name": "The Legend of Zelda: Majora's Mask (Zelda64 Recompiled [Android])",
@@ -2852,7 +3150,9 @@
         "status": "Active",
         "github_stars": 44
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-nintendo-64": {
       "name": "The Legend of Zelda: Ocarina of Time",
@@ -2871,7 +3171,9 @@
         "status": "Inactive",
         "github_stars": 704
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-oot-dc": {
       "name": "The Legend of Zelda: Ocarina of Time (oot-dc)",
@@ -2890,7 +3192,9 @@
         "status": "Active",
         "github_stars": 27
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-oot-psp": {
       "name": "The Legend of Zelda: Ocarina of Time (oot-PSP)",
@@ -2909,7 +3213,9 @@
         "status": "Active",
         "github_stars": 91
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mabecs-international-superstar-soccer-2000": {
       "name": "Mabecs International Superstar Soccer 2000",
@@ -2928,7 +3234,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-golf-recomp": {
       "name": "Mario Golf (Recomp)",
@@ -2947,7 +3255,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-64-mk64recomp": {
       "name": "Mario Kart 64 (MK64Recomp)",
@@ -2966,7 +3276,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-64-spaghettikart-android-port": {
       "name": "Mario Kart 64 (SpaghettiKart [Android Port])",
@@ -2985,7 +3297,9 @@
         "status": "Active",
         "github_stars": 114
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-party-3-recomp": {
       "name": "Mario Party 3 (Recomp)",
@@ -3004,7 +3318,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-64": {
       "name": "Mega Man 64",
@@ -3023,7 +3339,9 @@
         "status": "Active",
         "github_stars": 277
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mischief-makers-recomp": {
       "name": "Mischief Makers (Recomp)",
@@ -3042,7 +3360,9 @@
         "status": "Active",
         "github_stars": 97
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mystical-ninja-starring-goemon-nintendo-64": {
       "name": "Mystical Ninja Starring Goemon",
@@ -3061,7 +3381,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "n64-classic-rush-2": {
       "name": "N64 Classic: Rush 2",
@@ -3080,7 +3402,9 @@
         "status": "Active",
         "github_stars": 58
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario-nintendo-64": {
       "name": "Paper Mario",
@@ -3099,7 +3423,9 @@
         "status": "Active",
         "github_stars": 73
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario-pmvita": {
       "name": "Paper Mario ( pmvita)",
@@ -3118,7 +3444,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario-papermario-dx-engine-fork": {
       "name": "Paper Mario (papermario-dx (engine fork))",
@@ -3137,7 +3465,9 @@
         "status": "Active",
         "github_stars": 125
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario-papermariodecompilation": {
       "name": "Paper Mario (PaperMarioDecompilation)",
@@ -3156,7 +3486,9 @@
         "status": "Inactive",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "paper-mario-recomp": {
       "name": "Paper Mario (Recomp)",
@@ -3176,7 +3508,9 @@
         "github_stars": 13,
         "check_error": "GitHub GraphQL repository check failed"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-perfect-dark-port-android": {
       "name": "Perfect Dark (Perfect Dark Port [Android])",
@@ -3195,7 +3529,9 @@
         "status": "Inactive",
         "github_stars": 106
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-snap-nintendo-64": {
       "name": "Pokémon Snap",
@@ -3214,7 +3550,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-stadium-nintendo-64": {
       "name": "Pokémon Stadium",
@@ -3233,7 +3571,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-stadium-pokemonstadium": {
       "name": "Pokémon Stadium (pokemonstadium)",
@@ -3252,7 +3592,9 @@
         "status": "Inactive",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "quest-64-nintendo-64": {
       "name": "Quest 64",
@@ -3271,7 +3613,9 @@
         "status": "Inactive",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "quest-64-quest-64-tale-recompiled": {
       "name": "Quest 64 (Quest 64 Tale: Recompiled)",
@@ -3290,7 +3634,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "road-rash-64": {
       "name": "Road Rash 64",
@@ -3309,7 +3655,9 @@
         "status": "Active",
         "github_stars": 77
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "destruction-derby-64": {
       "name": "Destruction Derby 64",
@@ -3328,7 +3676,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rugrats-scavenger-hunt": {
       "name": "Rugrats: Scavenger Hunt",
@@ -3347,7 +3697,9 @@
         "status": "Active",
         "github_stars": 7
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "san-francisco-rush-2049": {
       "name": "San Francisco Rush 2049",
@@ -3366,7 +3718,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "san-francisco-rush-2049-nintendo-64": {
       "name": "San Francisco Rush 2049",
@@ -3385,7 +3739,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "snowboard-kids-snowboard-kids-recompiled": {
       "name": "Snowboard Kids (Snowboard Kids: Recompiled)",
@@ -3404,7 +3760,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-fox-64-starship-android-port": {
       "name": "Star Fox 64 (Starship [Android Port])",
@@ -3423,7 +3781,9 @@
         "status": "Active",
         "github_stars": 111
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-wars-rogue-squadron-nintendo-64": {
       "name": "Star Wars: Rogue Squadron",
@@ -3442,7 +3802,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "star-wars-shadows-of-the-empire-recomp": {
       "name": "Star Wars: Shadows of the Empire (Recomp)",
@@ -3461,7 +3823,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-nintendo-64": {
       "name": "Super Mario 64",
@@ -3480,7 +3844,9 @@
         "status": "Inactive",
         "github_stars": 1873
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-libsm64-godot": {
       "name": "Super Mario 64 (libsm64-godot)",
@@ -3499,7 +3865,9 @@
         "status": "Active",
         "github_stars": 219
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-libsm64-rust": {
       "name": "Super Mario 64 (libsm64-rust)",
@@ -3518,7 +3886,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-libsm64-sharp": {
       "name": "Super Mario 64 (libsm64-sharp)",
@@ -3537,7 +3907,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-libsm64-unity": {
       "name": "Super Mario 64 (libsm64-unity)",
@@ -3556,7 +3928,9 @@
         "status": "Inactive",
         "github_stars": 64
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-sm64-decomp": {
       "name": "Super Mario 64 (sm64-decomp)",
@@ -3575,7 +3949,9 @@
         "status": "Inactive",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-sm64-pc-port-webgl": {
       "name": "Super Mario 64 (SM64-PC-Port-WebGL)",
@@ -3594,7 +3970,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-smue5": {
       "name": "Super Mario 64 (SMUE5)",
@@ -3613,7 +3991,9 @@
         "status": "Inactive",
         "github_stars": 27
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-64-in-scratch-sm64-scratch": {
       "name": "Super Mario 64 in Scratch (sm64-scratch)",
@@ -3632,7 +4012,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-robot-wars-64": {
       "name": "Super Robot Wars 64",
@@ -3651,7 +4033,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-nintendo-64": {
       "name": "Super Smash Bros",
@@ -3670,7 +4054,9 @@
         "status": "Inactive",
         "github_stars": 66
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-nintendo-64-rockenrooster": {
       "name": "Super Smash Bros.",
@@ -3689,7 +4075,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-nintendo-64-beigeceleron": {
       "name": "Super Smash Bros.",
@@ -3708,7 +4096,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-smash-bros-battleship": {
       "name": "Super Smash Bros. (BattleShip)",
@@ -3727,7 +4117,9 @@
         "status": "Active",
         "github_stars": 515
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tetrisphere": {
       "name": "Tetrisphere",
@@ -3746,7 +4138,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "toy-story-2-buzz-lightyear-to-the-rescue": {
       "name": "Toy Story 2: Buzz Lightyear to the Rescue",
@@ -3765,7 +4159,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "turok-2-seeds-of-evil": {
       "name": "Turok 2: Seeds of Evil",
@@ -3784,7 +4180,9 @@
         "status": "Active",
         "github_stars": 12
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "turok-rage-wars": {
       "name": "Turok: Rage Wars",
@@ -3803,7 +4201,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "turok-rage-wars-rage-wars-recompiled": {
       "name": "Turok: Rage Wars (rage-wars-recompiled)",
@@ -3822,7 +4222,9 @@
         "status": "Active",
         "github_stars": 15
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtual-pro-wrestling-2": {
       "name": "Virtual Pro Wrestling 2",
@@ -3841,7 +4243,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "virtual-pro-wrestling-64": {
       "name": "Virtual Pro Wrestling 64",
@@ -3860,7 +4264,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wave-race-64-wave-race-64-recomp": {
       "name": "Wave Race 64 (wave-race-64-recomp)",
@@ -3879,7 +4285,9 @@
         "status": "Active",
         "github_stars": 94
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wayne-gretzky-s-3d-hockey": {
       "name": "Wayne Gretzky's 3D Hockey",
@@ -3898,7 +4306,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wcw-vs-nwo-world-tour": {
       "name": "WCW vs. nWo: World Tour",
@@ -3917,7 +4327,9 @@
         "status": "Active",
         "github_stars": 43
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wcw-nwo-revenge-recomp": {
       "name": "WCW/nWo Revenge (Recomp)",
@@ -3936,7 +4348,9 @@
         "status": "Active",
         "github_stars": 26
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-world-is-not-enough-i-could-have-given-you-the-world": {
       "name": "The World Is Not Enough (I Could Have Given You the World)",
@@ -3955,7 +4369,9 @@
         "status": "Active",
         "github_stars": 70
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwf-no-mercy": {
       "name": "WWF No Mercy",
@@ -3974,7 +4390,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wwf-wrestlemania-2000": {
       "name": "WWF WrestleMania 2000",
@@ -3993,7 +4411,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yoshi-s-story-dinotale": {
       "name": "Yoshi's Story (DinoTale)",
@@ -4012,7 +4432,9 @@
         "status": "Active",
         "github_stars": 32
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "goldeneye-007-gitlab-source-project": {
       "name": "GoldenEye 007 (GitLab source project)",
@@ -4031,7 +4453,9 @@
         "github_stars": null,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "perfect-dark-gitlab-source-project": {
       "name": "Perfect Dark (GitLab source project)",
@@ -4050,7 +4474,9 @@
         "github_stars": null,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian": {
       "name": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)",
@@ -4069,7 +4495,9 @@
         "status": "Active",
         "github_stars": 5751
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian": {
       "name": "The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)",
@@ -4088,7 +4516,9 @@
         "status": "Active",
         "github_stars": 2375
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sin-and-punishment-snprecomp": {
       "name": "Sin and Punishment (SnP Recompiled)",
@@ -4107,7 +4537,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-bowling-64-decomp": {
       "name": "Super Bowling",
@@ -4119,7 +4551,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "v-rally-edition-99-decomp": {
       "name": "V-Rally Edition 99",
@@ -4131,7 +4565,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nagano-winter-olympics-98": {
     "name": "Nagano Winter Olympics '98",
@@ -4150,7 +4586,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "madden-football-64-thegh0stship": {
       "name": "Madden Football 64",
@@ -4162,7 +4600,14 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "b0de34b759f18ad86d39a4c68c9840d35ce25809"
+      ],
+      "project_builders": [
+        "n64-decomp-kit",
+        "make"
+      ]
     }
   },
   "consoles": {
