@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "doma-days": {
       "name": "DOMA Days",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dungeons-of-daggorath-dungeons-of-daggorath-pc-port": {
       "name": "Dungeons of Daggorath (Dungeons of Daggorath PC-Port)",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "hazard-1998": {
       "name": "Hazard 1998",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 2
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "legends-of-future-past-lofp": {
       "name": "Legends of Future Past (lofp)",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 183
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lost-ipodclickwheelrecomps": {
       "name": "Lost (iPodClickWheelRecomps)",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 57
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ninja-master-shinobi-iii": {
       "name": "Ninja Master - Shinobi III",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-the-hedgehog-didj": {
       "name": "Sonic the Hedgehog (DIDJ)",
@@ -151,7 +165,9 @@
         "status": "Inactive",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "top-spin-4": {
       "name": "Top Spin 4",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
