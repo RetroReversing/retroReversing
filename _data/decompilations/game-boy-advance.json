@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 45
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "breath-of-fire": {
       "name": "Breath of Fire",
@@ -37,7 +39,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-the-binding-blade": {
       "name": "Fire Emblem: The Binding Blade",
@@ -56,7 +60,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-the-sacred-stones": {
       "name": "Fire Emblem: The Sacred Stones",
@@ -75,7 +81,9 @@
         "status": "Active",
         "github_stars": 229
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvest-moon-friends-of-mineral-town": {
       "name": "Harvest Moon: Friends of Mineral Town",
@@ -94,7 +102,9 @@
         "status": "Active",
         "github_stars": 44
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-chain-of-memories": {
       "name": "Kingdom Hearts: Chain of Memories",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "klonoa-empire-of-dreams-kleod": {
       "name": "Klonoa: Empire of Dreams (kleod)",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 19
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "klonoa-empire-of-dreams": {
       "name": "Klonoa: Empire of Dreams",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-the-amazing-mirror": {
       "name": "Kirby & The Amazing Mirror",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 160
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-luigi-superstar-saga": {
       "name": "Mario & Luigi: Superstar Saga",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-vs-donkey-kong": {
       "name": "Mario VS Donkey Kong",
@@ -208,7 +228,9 @@
         "status": "Inactive",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-zero-mission": {
       "name": "Metroid: Zero Mission",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 158
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mother-1-2-japan": {
       "name": "Mother 1+2 (Japan)",
@@ -246,7 +270,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-ruby-sapphire": {
       "name": "Pokemon Ruby & Sapphire",
@@ -265,7 +291,9 @@
         "status": "Active",
         "github_stars": 1007
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald": {
       "name": "Pokemon Emerald",
@@ -284,7 +312,9 @@
         "status": "Active",
         "github_stars": 3641
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-firered-leafgreen": {
       "name": "Pokemon FireRed & LeafGreen",
@@ -303,7 +333,9 @@
         "status": "Active",
         "github_stars": 1688
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-mystery-dungeon-red-rescue-team": {
       "name": "Pokémon Mystery Dungeon: Red Rescue Team",
@@ -322,7 +354,9 @@
         "status": "Active",
         "github_stars": 290
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-pinball-ruby-sapphire": {
       "name": "Pokémon Pinball: Ruby & Sapphire",
@@ -341,7 +375,9 @@
         "status": "Active",
         "github_stars": 149
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance-2": {
       "name": "Sonic Advance 2",
@@ -360,7 +396,9 @@
         "status": "Active",
         "github_stars": 686
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance-sat-r": {
       "name": "Sonic Advance (SAT-R)",
@@ -379,7 +417,9 @@
         "status": "Active",
         "github_stars": 686
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "summon-night-swordcraft-story-3": {
       "name": "Summon Night Swordcraft Story 3",
@@ -398,7 +438,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-advance-2-super-mario-world": {
       "name": "Super Mario Advance 2: Super Mario World",
@@ -417,7 +459,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-the-minish-cap": {
       "name": "The Legend of Zelda: The Minish Cap",
@@ -436,7 +480,9 @@
         "status": "Active",
         "github_stars": 930
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "project-picori": {
       "name": "Project Picori",
@@ -455,7 +501,9 @@
         "status": "Active",
         "github_stars": 499
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yu-gi-oh-reshef-of-destruction": {
       "name": "Yu-Gi-Oh! Reshef of Destruction",
@@ -477,7 +525,9 @@
       "previous_repository_urls": [
         "https://github.com/shinny456/ygodm8"
       ],
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-luigi-superstar-saga-jellees": {
       "name": "Mario & Luigi: Superstar Saga",
@@ -496,7 +546,9 @@
         "status": "Active",
         "github_stars": 38
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-super-circuit": {
       "name": "Mario Kart: Super Circuit",
@@ -515,7 +567,9 @@
         "status": "Inactive",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gyakuten-saiban-japan": {
       "name": "Gyakuten Saiban (Japan)",
@@ -534,7 +588,9 @@
         "status": "Active",
         "github_stars": 56
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gyakuten-saiban-2-japan": {
       "name": "Gyakuten Saiban 2 (Japan)",
@@ -553,7 +609,9 @@
         "status": "Active",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald-japan": {
       "name": "Pokemon Emerald (Japan)",
@@ -572,7 +630,9 @@
         "status": "Inactive",
         "github_stars": 69
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance-3": {
       "name": "Sonic Advance 3",
@@ -591,7 +651,9 @@
         "status": "Active",
         "github_stars": 88
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-sims-2-gba": {
       "name": "The Sims 2 (GBA)",
@@ -610,7 +672,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-4": {
       "name": "Wario Land 4",
@@ -629,7 +693,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "advance-wars-2-black-hole-rising": {
       "name": "Advance Wars 2: Black Hole Rising",
@@ -648,7 +714,9 @@
         "status": "Inactive",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "castlevania-aria-of-sorrow": {
       "name": "Castlevania: Aria of Sorrow",
@@ -667,7 +735,9 @@
         "status": "Active",
         "github_stars": 29
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "custom-robo-gx": {
       "name": "Custom Robo GX",
@@ -686,7 +756,9 @@
         "status": "Active",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-rekka-no-ken-japan": {
       "name": "Fire Emblem - Rekka no Ken (Japan)",
@@ -705,7 +777,9 @@
         "status": "Active",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-zero-3-japan": {
       "name": "Mega Man Zero 3 (Japan)",
@@ -724,7 +798,9 @@
         "status": "Active",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "metroid-fusion": {
       "name": "Metroid Fusion",
@@ -743,7 +819,9 @@
         "status": "Active",
         "github_stars": 76
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-sims-bustin-out": {
       "name": "The Sims: Bustin' Out",
@@ -762,7 +840,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-urbz-sims-in-the-city": {
       "name": "The Urbz: Sims in the City",
@@ -781,7 +861,9 @@
         "status": "Inactive",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "beyblade-vforce-ultimate-blader-jam": {
       "name": "Beyblade VForce: Ultimate Blader Jam",
@@ -800,7 +882,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "crash-bandicoot-xs-the-huge-adventure": {
       "name": "Crash Bandicoot: XS (The Huge Adventure)",
@@ -819,7 +903,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "frogger-s-adventures-temple-of-the-frog": {
       "name": "Frogger's Adventures: Temple of the Frog",
@@ -838,7 +924,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "golden-sun": {
       "name": "Golden Sun",
@@ -857,7 +945,9 @@
         "status": "Inactive",
         "github_stars": 35
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-battle": {
       "name": "Sonic Battle",
@@ -876,7 +966,9 @@
         "status": "Active",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-tactics-advance-recomp": {
       "name": "Final Fantasy Tactics Advance",
@@ -895,7 +987,9 @@
         "status": "Active",
         "github_stars": 173
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kirby-nightmare-in-dream-land": {
       "name": "Kirby: Nightmare in Dream Land",
@@ -914,7 +1008,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gt-advance-3-pro-concept-racing": {
       "name": "GT Advance 3: Pro Concept Racing",
@@ -933,7 +1029,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "boktai-3-sabata-s-counterattack": {
       "name": "Boktai 3: Sabata's Counterattack",
@@ -952,7 +1050,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yu-gi-oh-the-eternal-duelist-soul": {
       "name": "Yu-Gi-Oh! The Eternal Duelist Soul",
@@ -971,7 +1071,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mother-3-josiahg2502-recomp": {
       "name": "MOTHER 3",
@@ -990,7 +1092,9 @@
         "archived": false,
         "status": "Active"
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "berry-fix-program-included-in-pokemon-emerald-and-firered-leafgreen": {
       "name": "Berry Fix Program included in Pokémon Emerald and FireRed/LeafGreen",
@@ -1009,7 +1113,9 @@
         "status": "Inactive",
         "github_stars": 39
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "boktai-2-solar-boy-django": {
       "name": "Boktai 2: Solar Boy Django",
@@ -1028,7 +1134,9 @@
         "status": "Active",
         "github_stars": 8
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "butt-ugly-martians-b-k-m-battles": {
       "name": "Butt-Ugly Martians: B.K.M. Battles",
@@ -1047,7 +1155,9 @@
         "status": "Active",
         "github_stars": 0
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-buu-s-fury": {
       "name": "Dragon Ball Z: Buu's Fury",
@@ -1066,7 +1176,9 @@
         "status": "Active",
         "github_stars": 34
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "dragon-ball-z-the-legacy-of-goku-ii": {
       "name": "Dragon Ball Z: The Legacy of Goku II",
@@ -1085,7 +1197,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "final-fantasy-tactics-advance": {
       "name": "Final Fantasy Tactics Advance",
@@ -1104,7 +1218,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-the-blazing-blade-fe7-us": {
       "name": "Fire Emblem: The Blazing Blade (fe7_us)",
@@ -1123,7 +1239,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-the-sacred-stones-game-boy-advance": {
       "name": "Fire Emblem: The Sacred Stones",
@@ -1142,7 +1260,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "fire-emblem-the-sacred-stones-fireemblem8u": {
       "name": "Fire Emblem: The Sacred Stones (fireemblem8u)",
@@ -1161,7 +1281,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "golden-sun-alchemy": {
       "name": "Golden Sun (alchemy)",
@@ -1180,7 +1302,9 @@
         "status": "Active",
         "github_stars": 174
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "golden-sun-gsrecomp-golden-sun-recompiled": {
       "name": "Golden Sun (GSRecomp (Golden Sun Recompiled))",
@@ -1199,7 +1323,9 @@
         "status": "Active",
         "github_stars": 64
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "golden-sun-the-broken-seal": {
       "name": "Golden Sun: The Broken Seal",
@@ -1218,7 +1344,9 @@
         "status": "Active",
         "github_stars": 30
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "gundam-seed-battle-assault": {
       "name": "Gundam SEED: Battle Assault",
@@ -1237,7 +1365,9 @@
         "status": "Active",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harry-potter-and-the-prisoner-of-azkaban": {
       "name": "Harry Potter and the Prisoner of Azkaban",
@@ -1256,7 +1386,9 @@
         "status": "Active",
         "github_stars": 4
       },
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "harvest-moon-friends-of-mineral-town-hmfomt": {
       "name": "Harvest Moon: Friends of Mineral Town (hmfomt)",
@@ -1275,7 +1407,9 @@
         "status": "Inactive",
         "github_stars": 47
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-chain-of-memories-game-boy-advance": {
       "name": "Kingdom Hearts: Chain of Memories",
@@ -1294,7 +1428,9 @@
         "status": "Active",
         "github_stars": 63
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "kingdom-hearts-chain-of-memories-kh-com-vita": {
       "name": "Kingdom Hearts: Chain of Memories (KH_COM_VITA)",
@@ -1313,7 +1449,9 @@
         "status": "Active",
         "github_stars": 16
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-a-link-to-the-past-four-swords-zeldaalttp": {
       "name": "The Legend of Zelda: A Link to the Past & Four Swords (zeldaalttp)",
@@ -1332,7 +1470,9 @@
         "status": "Inactive",
         "github_stars": 54
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-the-minish-cap-game-boy-advance": {
       "name": "The Legend of Zelda: The Minish Cap",
@@ -1351,7 +1491,9 @@
         "status": "Active",
         "github_stars": 403
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-the-minish-cap-recomp": {
       "name": "The Legend of Zelda: The Minish Cap (Recomp)",
@@ -1370,7 +1512,9 @@
         "status": "Active",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-super-circuit-mksc-decompilation": {
       "name": "Mario Kart: Super Circuit (mksc-decompilation)",
@@ -1389,7 +1533,9 @@
         "status": "Inactive",
         "github_stars": 32
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mario-kart-super-circuit-recomp": {
       "name": "Mario Kart: Super Circuit (Recomp)",
@@ -1408,7 +1554,9 @@
         "status": "Active",
         "github_stars": 72
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-battle-network-6": {
       "name": "Mega Man Battle Network 6",
@@ -1427,7 +1575,9 @@
         "status": "Active",
         "github_stars": 44
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mega-man-zero": {
       "name": "Mega Man Zero",
@@ -1446,7 +1596,9 @@
         "status": "Active",
         "github_stars": 21
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mother-3": {
       "name": "Mother 3",
@@ -1465,7 +1617,9 @@
         "status": "Active",
         "github_stars": 90
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "mother-3-recomp": {
       "name": "Mother 3 (Recomp)",
@@ -1484,7 +1638,9 @@
         "status": "Active",
         "github_stars": 28
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "nascar-heat-2002": {
       "name": "NASCAR Heat 2002",
@@ -1503,7 +1659,9 @@
         "status": "Active",
         "github_stars": 1
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald-3d-pokeemerald-3d": {
       "name": "Pokemon Emerald 3D (pokeemerald-3d)",
@@ -1522,7 +1680,9 @@
         "status": "Active",
         "github_stars": 48
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald-game-boy-advance": {
       "name": "Pokémon Emerald",
@@ -1541,7 +1701,9 @@
         "status": "Active",
         "github_stars": 610
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald-macos-port": {
       "name": "Pokémon Emerald (macOS port)",
@@ -1560,7 +1722,9 @@
         "status": "Active",
         "github_stars": 3
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-emerald-pokeemerald-rogue": {
       "name": "Pokémon Emerald (pokeemerald-rogue)",
@@ -1579,7 +1743,9 @@
         "status": "Active",
         "github_stars": 143
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-firered-and-leafgreen-disfire": {
       "name": "Pokémon FireRed and LeafGreen (DisFire)",
@@ -1598,7 +1764,9 @@
         "status": "Inactive",
         "github_stars": 37
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-mystery-dungeon-red-rescue-team-game-boy-advance": {
       "name": "Pokémon Mystery Dungeon: Red Rescue Team",
@@ -1617,7 +1785,9 @@
         "status": "Active",
         "github_stars": 14
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-mystery-dungeon-red-rescue-team-pokemdred": {
       "name": "Pokémon Mystery Dungeon: Red Rescue Team (pokemdred)",
@@ -1636,7 +1806,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-pinball-ruby-sapphire-pokemon-pinball-rs-disassembly-project": {
       "name": "Pokémon Pinball: Ruby & Sapphire (Pokemon-Pinball-RS-Disassembly-Project)",
@@ -1655,7 +1827,9 @@
         "status": "Inactive",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "pokemon-ruby-and-pokemon-sapphire": {
       "name": "Pokémon Ruby and Pokémon Sapphire",
@@ -1674,7 +1848,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rayman-3-hoodlum-havoc": {
       "name": "Rayman 3: Hoodlum Havoc",
@@ -1693,7 +1869,9 @@
         "status": "Active",
         "github_stars": 74
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rockman-exe-4": {
       "name": "RockMan EXE 4",
@@ -1712,7 +1890,9 @@
         "status": "Inactive",
         "github_stars": 10
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "rockman-exe-6": {
       "name": "RockMan EXE 6",
@@ -1731,7 +1911,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance-game-boy-advance": {
       "name": "Sonic Advance",
@@ -1750,7 +1932,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-advance-1": {
       "name": "Sonic Advance 1",
@@ -1769,7 +1953,9 @@
         "status": "Inactive",
         "github_stars": 77
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-advance-2-super-mario-world-recomp": {
       "name": "Super Mario Advance 2: Super Mario World (Recomp)",
@@ -1788,7 +1974,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-advance-4-super-mario-bros-3": {
       "name": "Super Mario Advance 4: Super Mario Bros. 3",
@@ -1807,7 +1995,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "super-mario-advance-4-super-mario-bros-3-sma4-disasm": {
       "name": "Super Mario Advance 4: Super Mario Bros. 3 (sma4-disasm)",
@@ -1826,7 +2016,9 @@
         "status": "Inactive",
         "github_stars": 15
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tactics-ogre-the-knight-of-lodis": {
       "name": "Tactics Ogre: The Knight of Lodis",
@@ -1845,7 +2037,9 @@
         "status": "Inactive",
         "github_stars": 25
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "wario-land-4-warioland4": {
       "name": "Wario Land 4 (warioland4)",
@@ -1864,7 +2058,9 @@
         "status": "Active",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "warioware-inc-mega-microgames": {
       "name": "WarioWare, Inc.: Mega Microgames!",
@@ -1883,7 +2079,9 @@
         "status": "Active",
         "github_stars": 13
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "warioware-twisted": {
       "name": "WarioWare: Twisted!",
@@ -1902,7 +2100,9 @@
         "status": "Active",
         "github_stars": 22
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yoshi-s-island-super-mario-advance-3-sma3-recomp-android-yoshi-s-island-super-mario-advance-3-pc-port": {
       "name": "Yoshi's Island: Super Mario Advance 3 (SMA3 Recomp Android - Yoshi's Island: Super Mario Advance 3 PC port)",
@@ -1921,7 +2121,9 @@
         "status": "Active",
         "github_stars": 17
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "zoids-legacy": {
       "name": "Zoids Legacy",
@@ -1940,7 +2142,9 @@
         "status": "Active",
         "github_stars": 23
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "lego-star-wars-gba-lasscat": {
       "name": "LEGO Star Wars: The Video Game (GBA)",
@@ -1952,7 +2156,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "medabots-metabee-lucasderksen": {
       "name": "Medabots: Metabee (lucasderksen)",
@@ -1964,7 +2170,9 @@
       "completion_status": null,
       "legacy_status": null,
       "activity": {},
-      "ai_used": true
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
