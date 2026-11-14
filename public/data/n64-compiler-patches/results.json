@@ -1,0 +1,389 @@
+{
+  "gcc_revision": "d97824ffc7517675646960442b3f512a473e4404",
+  "binutils_revision": "fb13863bb812ac34417916e0b8a6e16f5ca6badb",
+  "host": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "host_compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "host_cflags": "-O2 -std=gnu89 -Wno-return-type -Wno-error -Wno-implicit-function-declaration -Wno-int-conversion -Wno-incompatible-function-pointer-types",
+  "linker": "GNU ld (GNU Binutils) 2.47.20260726\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) a later version.\nThis program has absolutely no warranty.\n",
+  "compiler_flags": [
+    "-quiet",
+    "-G0",
+    "-mips3",
+    "-mgp32",
+    "-mfp32",
+    "-O2"
+  ],
+  "assembler_flags": [
+    "-EB",
+    "-mips3",
+    "-G0"
+  ],
+  "environment": {
+    "N64ALIGN": "ON"
+  },
+  "comparison": "Targeted reversions; N64 target and host-portability patches retained.",
+  "results": [
+    {
+      "case": "control",
+      "variant": "patched",
+      "compiler": "cc1-patched",
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "00041040",
+        "00441021",
+        "03e00008",
+        "00451021"
+      ],
+      "text_sha256": "73a8ed4f5dfc77eda48a298767e2c4b02b94db14588e93d537e8647435e39c98",
+      "object_bytes": 1361,
+      "object_sha256": "d8299423e4c45e2fc34f555649cc7eb58ff3e0eebb3fca4c7fd92a21c82aa6b0",
+      "linked_elf_bytes": 1456,
+      "linked_elf_sha256": "fa4faac0661e31e2bdb91ec69136f51f944a70f342db8c8fd9e07884ac248931"
+    },
+    {
+      "case": "control",
+      "variant": "reverted",
+      "compiler": "cc1-entry-reverted",
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "00041040",
+        "00441021",
+        "03e00008",
+        "00451021"
+      ],
+      "text_sha256": "73a8ed4f5dfc77eda48a298767e2c4b02b94db14588e93d537e8647435e39c98",
+      "object_bytes": 1361,
+      "object_sha256": "d8299423e4c45e2fc34f555649cc7eb58ff3e0eebb3fca4c7fd92a21c82aa6b0",
+      "linked_elf_bytes": 1456,
+      "linked_elf_sha256": "fa4faac0661e31e2bdb91ec69136f51f944a70f342db8c8fd9e07884ac248931"
+    },
+    {
+      "case": "naked",
+      "variant": "patched",
+      "compiler": "cc1-patched",
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "03e00008",
+        "00000000",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "2415714719d85e4a789acee079f28e4e4c4c2b693ab00b843e8d8d91c8c3882c",
+      "object_bytes": 1366,
+      "object_sha256": "034ea20cf9dd47159343e746b032281498aea7ce9a0570f4bb564c5db0ce9909",
+      "linked_elf_bytes": 1456,
+      "linked_elf_sha256": "3ff975a22359aa8d1e607c8ef3e50ff1dec62c7f028671d8d6f3f9c7963deb15"
+    },
+    {
+      "case": "naked",
+      "variant": "reverted",
+      "compiler": "cc1-entry-reverted",
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "03e00008",
+        "00000000",
+        "03e00008",
+        "00000000"
+      ],
+      "text_sha256": "f10e5e336e5fb76e6def91eb6fe9dbb0a6adb09eaa07aced495e21d6525df078",
+      "object_bytes": 1366,
+      "object_sha256": "174070477af0db322d7eec6f03de6146f9da051127be3affc3561b4d1b719e12",
+      "linked_elf_bytes": 1456,
+      "linked_elf_sha256": "ebf48d33c784bee2bef490fc2923510eb2116333114fc7e147a37425a5a1a845"
+    },
+    {
+      "case": "constant",
+      "variant": "patched",
+      "compiler": "cc1-patched",
+      "assembler": "as-patched",
+      "text_bytes": 32,
+      "text_words": [
+        "3c028000",
+        "00822023",
+        "00a21023",
+        "03e00008",
+        "00821026",
+        "00000000",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "12228a431a957172218ff747ba0ef1941a8ac508599a3ae90f538453e5560696",
+      "object_bytes": 1400,
+      "object_sha256": "c318ed6fe90671bda4e930637de91dbccde011dba9257e999afbf82e62584c83",
+      "linked_elf_bytes": 1480,
+      "linked_elf_sha256": "a706d4cb1895d338b73b52a42f80b126bc66ce4b3ffb8c4472e578d090c53684"
+    },
+    {
+      "case": "constant",
+      "variant": "cse-reverted",
+      "compiler": "cc1-cse-reverted",
+      "assembler": "as-patched",
+      "text_bytes": 32,
+      "text_words": [
+        "3c028000",
+        "00822023",
+        "00a21023",
+        "03e00008",
+        "00821026",
+        "00000000",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "12228a431a957172218ff747ba0ef1941a8ac508599a3ae90f538453e5560696",
+      "object_bytes": 1400,
+      "object_sha256": "c318ed6fe90671bda4e930637de91dbccde011dba9257e999afbf82e62584c83",
+      "linked_elf_bytes": 1480,
+      "linked_elf_sha256": "a706d4cb1895d338b73b52a42f80b126bc66ce4b3ffb8c4472e578d090c53684"
+    },
+    {
+      "case": "debug-label",
+      "variant": "patched",
+      "compiler": null,
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "03e00008",
+        "24820001",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "2235882e0b98070fdcac3cc7d809aa3e768019c7fe2d6a6c0cf08009d32dfde7",
+      "object_bytes": 959,
+      "object_sha256": "dca1baf11eb30359b8bb9a95bd80d185c7ceefbf0667ea713f53bd008decbac4",
+      "linked_elf_bytes": 1440,
+      "linked_elf_sha256": "e301fb6643251fc81574f738db257362965e1771ebf439cb53a830072bfb42a3"
+    },
+    {
+      "case": "debug-label",
+      "variant": "reverted",
+      "compiler": null,
+      "assembler": "as-reverted",
+      "text_bytes": 16,
+      "text_words": [
+        "24820001",
+        "03e00008",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "3c9d852db1294112b7bb6d21243edeb3352a56a46817135a8c2648db8ac9e9cd",
+      "object_bytes": 959,
+      "object_sha256": "1840d6c8264f30a254af72c25149e9fab907ae491d36e38fd2321e7629d21806",
+      "linked_elf_bytes": 1440,
+      "linked_elf_sha256": "85e5b8d5ea5777917461c7c23e53cd587859608bf83c1607b062e7238456169d"
+    },
+    {
+      "case": "real-label",
+      "variant": "patched",
+      "compiler": null,
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "24820001",
+        "03e00008",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "3c9d852db1294112b7bb6d21243edeb3352a56a46817135a8c2648db8ac9e9cd",
+      "object_bytes": 966,
+      "object_sha256": "2b1c4e2449985e5bf66ca4634d48b2cc7a2cd2bf1b94930077169eb80995e9b4",
+      "linked_elf_bytes": 1444,
+      "linked_elf_sha256": "06e44a74603066346e404442460a993ee807c090247d18c9acc2db111ced1b02"
+    },
+    {
+      "case": "real-label",
+      "variant": "reverted",
+      "compiler": null,
+      "assembler": "as-reverted",
+      "text_bytes": 16,
+      "text_words": [
+        "24820001",
+        "03e00008",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "3c9d852db1294112b7bb6d21243edeb3352a56a46817135a8c2648db8ac9e9cd",
+      "object_bytes": 966,
+      "object_sha256": "2b1c4e2449985e5bf66ca4634d48b2cc7a2cd2bf1b94930077169eb80995e9b4",
+      "linked_elf_bytes": 1444,
+      "linked_elf_sha256": "06e44a74603066346e404442460a993ee807c090247d18c9acc2db111ced1b02"
+    },
+    {
+      "case": "alignment",
+      "variant": "patched",
+      "compiler": null,
+      "assembler": "as-patched",
+      "text_bytes": 32,
+      "text_words": [
+        "3c028000",
+        "24420830",
+        "3c038000",
+        "24630430",
+        "03e00008",
+        "00000000",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "9581439796a429bf32b710c158892c320258edfb6c4aba04d7e881b2a343abb5",
+      "object_bytes": 1072,
+      "object_sha256": "df8df0f472722d4783b68f90b47159f42128a79c12fb378ff6efe27ea9336cbe",
+      "linked_elf_bytes": 1452,
+      "linked_elf_sha256": "684b1ba4cacab79e6033d162e0448b0c6eac8943d3ac3086d2d3b1a092b1b294"
+    },
+    {
+      "case": "alignment",
+      "variant": "reverted",
+      "compiler": null,
+      "assembler": "as-reverted",
+      "text_bytes": 32,
+      "text_words": [
+        "3c028000",
+        "24420824",
+        "3c038000",
+        "24630424",
+        "03e00008",
+        "00000000",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "61cb841cfa26290a21b95c840a61a062aa1e3d7f546125486379a044efa3dd4f",
+      "object_bytes": 1072,
+      "object_sha256": "cdc3837a025b616af72cbcb80b45a7a0108ae1c4292ca3725dfa58cb34842fc7",
+      "linked_elf_bytes": 1452,
+      "linked_elf_sha256": "0a488a971784d6fbbd31b095439aa98be9342b2dc42d53a88a783b15a2ac949d"
+    },
+    {
+      "case": "metadata",
+      "variant": "patched",
+      "compiler": null,
+      "assembler": "as-patched",
+      "text_bytes": 16,
+      "text_words": [
+        "03e00008",
+        "24820001",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "2235882e0b98070fdcac3cc7d809aa3e768019c7fe2d6a6c0cf08009d32dfde7",
+      "object_bytes": 675,
+      "object_sha256": "7dc74ab182a50051c7355d41b1b73dd46eb660ad1f3162e963481a106ef66e2b",
+      "linked_elf_bytes": 1392,
+      "linked_elf_sha256": "acb9b03ffebf6f501b8c985282e5e6e780a2115cc4549c5fe5f599aa029d8fef"
+    },
+    {
+      "case": "metadata",
+      "variant": "reverted",
+      "compiler": null,
+      "assembler": "as-debug-metadata-reverted",
+      "text_bytes": 16,
+      "text_words": [
+        "03e00008",
+        "24820001",
+        "00000000",
+        "00000000"
+      ],
+      "text_sha256": "2235882e0b98070fdcac3cc7d809aa3e768019c7fe2d6a6c0cf08009d32dfde7",
+      "object_bytes": 887,
+      "object_sha256": "6e2202e576df72e5a30197b152235d8f1f36db9c2a4176e689efeb6ebdce1a8b",
+      "linked_elf_bytes": 1392,
+      "linked_elf_sha256": "4c7e00b853577eedad1edabb3cb87dc32bbd0182904a8f6874006fba6cdf857e"
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "control",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [],
+      "identical_text": true,
+      "identical_object": true,
+      "identical_linked_elf": true
+    },
+    {
+      "case": "naked",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [
+        8,
+        9,
+        11
+      ],
+      "identical_text": false,
+      "identical_object": false,
+      "identical_linked_elf": false
+    },
+    {
+      "case": "constant",
+      "variants": [
+        "patched",
+        "cse-reverted"
+      ],
+      "differing_byte_offsets": [],
+      "identical_text": true,
+      "identical_object": true,
+      "identical_linked_elf": true
+    },
+    {
+      "case": "debug-label",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "identical_text": false,
+      "identical_object": false,
+      "identical_linked_elf": false
+    },
+    {
+      "case": "real-label",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [],
+      "identical_text": true,
+      "identical_object": true,
+      "identical_linked_elf": true
+    },
+    {
+      "case": "alignment",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [
+        7,
+        15
+      ],
+      "identical_text": false,
+      "identical_object": false,
+      "identical_linked_elf": false
+    },
+    {
+      "case": "metadata",
+      "variants": [
+        "patched",
+        "reverted"
+      ],
+      "differing_byte_offsets": [],
+      "identical_text": true,
+      "identical_object": false,
+      "identical_linked_elf": false
+    }
+  ]
+}
