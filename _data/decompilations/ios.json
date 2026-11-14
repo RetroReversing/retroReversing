@@ -18,7 +18,9 @@
         "status": "Inactive",
         "github_stars": 6
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "ultimate-mk3-ios": {
       "name": "Ultimate MK3 iOS",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 50
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
