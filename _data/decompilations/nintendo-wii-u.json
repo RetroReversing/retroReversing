@@ -18,7 +18,9 @@
         "status": "Active",
         "github_stars": 1042
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-super-mario-bros-u": {
       "name": "New Super Mario Bros. U",
@@ -37,7 +39,9 @@
         "status": "Active",
         "github_stars": 46
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "sonic-lost-world": {
       "name": "Sonic Lost World",
@@ -56,7 +60,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "splatoon": {
       "name": "Splatoon",
@@ -75,7 +81,9 @@
         "status": "Inactive",
         "github_stars": 18
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "yoshi-s-woolly-world": {
       "name": "Yoshi's Woolly World",
@@ -94,7 +102,9 @@
         "status": "Inactive",
         "github_stars": 9
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-breath-of-the-wild-nintendo-wii-u": {
       "name": "The Legend of Zelda: Breath of the Wild",
@@ -113,7 +123,9 @@
         "status": "Active",
         "github_stars": 41
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-the-wind-waker-hd-wind-waker-hd-for-playstation-5": {
       "name": "The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)",
@@ -132,7 +144,9 @@
         "status": "Active",
         "github_stars": 24
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "the-legend-of-zelda-the-wind-waker-hd-wwhd-verified-decompilation": {
       "name": "The Legend of Zelda: The Wind Waker HD (wwhd (verified decompilation))",
@@ -151,7 +165,9 @@
         "status": "Active",
         "github_stars": 31
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "new-super-mario-bros-u-nintendo-wii-u": {
       "name": "New Super Mario Bros. U",
@@ -170,7 +186,9 @@
         "status": "Active",
         "github_stars": 52
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "splatoon-splatoon-decomp-splatoon-decomp-lab": {
       "name": "Splatoon (splatoon-decomp (Splatoon Decomp Lab))",
@@ -189,7 +207,9 @@
         "status": "Inactive",
         "github_stars": 20
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "tekken-tag-tournament-2-wii-u-edition": {
       "name": "Tekken Tag Tournament 2 Wii U Edition",
@@ -208,7 +228,9 @@
         "status": "Active",
         "github_stars": 36
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     },
     "zeldawwhdrecompandroid": {
       "name": "ZeldaWWHDRecompAndroid",
@@ -227,7 +249,9 @@
         "status": "Active",
         "github_stars": 83
       },
-      "ai_used": null
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
