@@ -19,7 +19,9 @@
         "github_stars": 32
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "77626171c35fb1a4dfebb0927280897f362225ed"
+      ],
       "project_builders": []
     },
     "aidyn-chronicles-the-first-mage": {
@@ -40,7 +42,9 @@
         "github_stars": 42
       },
       "ai_used": false,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "47ae795a2b12783a13e2b8d03439ce9a39fc826c"
+      ],
       "project_builders": []
     },
     "banjo-kazooie": {
@@ -61,7 +65,12 @@
         "github_stars": null
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "1fe1632098865f639e22c11b9a81ee8f29c75d7a",
+        "ded6ee166e740ad1bc810fd678a84b48e245ab80",
+        "90726d7e7cd5bf6cdfd38f45c9acbf4d45bd9fd8",
+        "bb359a75941df74bf7290212c89fbc6e2c5601fe"
+      ],
       "project_builders": []
     },
     "banjorecomp": {
@@ -103,7 +112,9 @@
         "github_stars": 152
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "af1a89e12b638b8d82cc4c085c8e01d4cba03fb3"
+      ],
       "project_builders": []
     },
     "blast-corps": {
@@ -124,7 +135,12 @@
         "github_stars": 45
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "185a6ef7ba1adb243278062c81a7d4e119bda58c",
+        "483f7161aea39de8b45c9fbc70a2c3883c4dea8c",
+        "b147fdbeb661c89107c440b00dc4810508f58636",
+        "460212600f8b9f0da95219c4c7330f2e626d9a7e"
+      ],
       "project_builders": []
     },
     "body-harvest": {
@@ -145,7 +161,9 @@
         "github_stars": 6
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "bbb6666f5014a473747ee4145f036d9fb25d7348"
+      ],
       "project_builders": []
     },
     "bomberman-64": {
@@ -166,7 +184,9 @@
         "github_stars": 35
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "8a7648d8105ac4fc1ad942291b2ef89aeca921c9"
+      ],
       "project_builders": []
     },
     "bm64recomp": {
@@ -208,7 +228,10 @@
         "github_stars": 14
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "179cab7426755f14bd3f4999f3789eb6d7af64c4",
+        "66b1fd763793ecc6e03aa6c5d023df8de5351b9e"
+      ],
       "project_builders": []
     },
     "bomberman-hero": {
@@ -229,7 +252,9 @@
         "github_stars": 62
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "a36364b7e59351f7551ab351cb3b41ebc4be285b"
+      ],
       "project_builders": []
     },
     "bmherorecomp": {
@@ -271,7 +296,9 @@
         "github_stars": 67
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "989a28782ed6b0bc489a1bbbd7bec355d8f2707e"
+      ],
       "project_builders": []
     },
     "chameleon-twist": {
@@ -292,7 +319,9 @@
         "github_stars": 12
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "a1faf5c4ca961ab2c029c84ecfa556755e7f70c8"
+      ],
       "project_builders": []
     },
     "chameleon-twist-recompiled": {
@@ -334,7 +363,9 @@
         "github_stars": 6
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "b60d0347e7b765195fb27c3ee50a806ea9977dca"
+      ],
       "project_builders": []
     },
     "conker-s-bad-fur-day": {
@@ -355,7 +386,10 @@
         "github_stars": 239
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "ee7bc6656fd1e1d9ffb3d19add759f28b88df710",
+        "4cbadd3c4e0729dec46af64ad018050eada4f47a"
+      ],
       "project_builders": []
     },
     "dark-rift": {
@@ -376,7 +410,9 @@
         "github_stars": 4
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "3254442626ca2f2ac74400dc1c6a306f5d1b6ceb"
+      ],
       "project_builders": []
     },
     "diddy-kong-racing": {
@@ -397,7 +433,13 @@
         "github_stars": 424
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "0cb115d8716dbbc2922fda38e533b9fe63bb9670",
+        "23ba3d302025153d111416e751027cef11213a19",
+        "dd5d64dd140cb7aa28404fa35abdcaba33c29260",
+        "b7f628073237b3d211d40406aa0884ff8fdd70d5",
+        "6d96743d46f8c0cd0edb0ec5600b003c89b93755"
+      ],
       "project_builders": []
     },
     "dinosaur-planet": {
@@ -418,7 +460,9 @@
         "github_stars": 218
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "cb9760b49198f7b754593a01c8ed642211caacde"
+      ],
       "project_builders": []
     },
     "dinosaur-planet-recompiled": {
@@ -460,7 +504,9 @@
         "github_stars": null
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "cf806ff2603640a748fca5026ded28802f1f4a50"
+      ],
       "project_builders": []
     },
     "donkey-kong-64-recompiled": {
@@ -502,7 +548,9 @@
         "github_stars": 237
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "799a588d73da3fcce8031026a8187da92b91c817"
+      ],
       "project_builders": []
     },
     "doraemon-nobita-to-mittsu-no-seireiseki": {
@@ -523,7 +571,9 @@
         "github_stars": 9
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "bbeb7b7a92a68b17ca72dcb9d7fb16f7b771c4f6"
+      ],
       "project_builders": []
     },
     "dobutsu-no-mori": {
@@ -544,7 +594,9 @@
         "github_stars": 303
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e106dff7146f72415337c96deb14f630e1580efb"
+      ],
       "project_builders": []
     },
     "dr-mario-64": {
@@ -565,7 +617,11 @@
         "github_stars": 81
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e396df7729acc70c0e7ab988fca2b75ea167632d",
+        "e63b10abfaa37aa8c7f37643d6d4e82fadb511fe",
+        "a130d3622ce40e0158db2da4247101f6e92206fc"
+      ],
       "project_builders": []
     },
     "dr-mario-64-recomp-plus": {
@@ -607,7 +663,9 @@
         "github_stars": 19
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "98d6778004becc672eba0a5e887f6e3f3d1b5c15"
+      ],
       "project_builders": []
     },
     "duke-nukem-zero-hour": {
@@ -628,7 +686,11 @@
         "github_stars": 277
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "c18ad90fb889f95773fef48c204ce06cff9e6be3",
+        "e69a4dda8cca88d4c149f2b00640da0ff04fa9c8",
+        "de4db292cc6cf5dd1dd1d3c9700cf8e5c3078410"
+      ],
       "project_builders": []
     },
     "extreme-g": {
@@ -670,7 +732,11 @@
         "github_stars": 109
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5f658e88ffa9de23cba6986a8fd3d3a90d7b4340",
+        "a418b0151521b76691fa03f8658c8b567c69498b",
+        "af9038bcb543a2b4faaab876dbdab4663859e092"
+      ],
       "project_builders": []
     },
     "g-diffuser": {
@@ -712,7 +778,9 @@
         "github_stars": 31
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "03209263d2ee7d621353431f3f8512ab8c1c0150"
+      ],
       "project_builders": []
     },
     "gauntlet-legends": {
@@ -733,7 +801,9 @@
         "github_stars": 29
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "0489dcce749c6a5102681d288ed0616a4b94e99d"
+      ],
       "project_builders": []
     },
     "gex-64-enter-the-gecko": {
@@ -754,7 +824,9 @@
         "github_stars": 28
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "16042cd0dfa5439ca436f1bf05ebfb7e9f730cda"
+      ],
       "project_builders": []
     },
     "glover": {
@@ -775,7 +847,9 @@
         "github_stars": 12
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "270be17b3c8da9b88a7b99c2a545b0bce16837f4"
+      ],
       "project_builders": []
     },
     "goemon-s-great-adventure": {
@@ -799,7 +873,9 @@
         "https://github.com/Fluvian/gga"
       ],
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "9f9e860816f9e2a68bb5f4f56086e0c7450c64d7"
+      ],
       "project_builders": []
     },
     "goldeneye-007": {
@@ -820,7 +896,11 @@
         "github_stars": 805
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "167c3c433dec1f1eb921736f7d53fac8cb45ee31",
+        "2a5dade32f7fad6c73c659d2026994632c1b3174",
+        "abe01e4aeb033b6c0836819f549c791b26cfde83"
+      ],
       "project_builders": []
     },
     "harvest-moon-64": {
@@ -841,7 +921,10 @@
         "github_stars": 224
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e41d15c394b5fefd4016add3883a794c48e7e232",
+        "90631460f1876a14849df0541d534012b410a34c"
+      ],
       "project_builders": []
     },
     "harvestmoon64recomp": {
@@ -883,7 +966,11 @@
         "github_stars": 56
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "493ced9008dbe932d6e91179b68e8630cf23a023",
+        "15099233760b36e7afad7da36b9464da1512c4b1",
+        "50651c4e0c46332f7f0b45870263f0a8b9a49602"
+      ],
       "project_builders": []
     },
     "kirby-64-the-crystal-shards": {
@@ -904,7 +991,9 @@
         "github_stars": 235
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "6cea2d46b929a3bb347b060a77fccc83526fb855"
+      ],
       "project_builders": []
     },
     "lego-racers": {
@@ -925,7 +1014,10 @@
         "github_stars": 8
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "6e9c4b097628f0147e9e79393dba6d7b4e59986f",
+        "8decc41869926e20da2eb3da526e6395aa33cece"
+      ],
       "project_builders": []
     },
     "mario-golf": {
@@ -946,7 +1038,9 @@
         "github_stars": 25
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e2c4e7a905b29529b49a1619a401fe699224829b"
+      ],
       "project_builders": []
     },
     "mario-kart-64": {
@@ -967,7 +1061,11 @@
         "github_stars": 1315
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "579c48e211ae952530ffc8738709f078d5dd215e",
+        "a729039453210b84f17019dda3f248d5888f7690",
+        "f6b5f519dd57ea59e9f013cc64816e9d273b2329"
+      ],
       "project_builders": []
     },
     "mario-party": {
@@ -988,7 +1086,9 @@
         "github_stars": 84
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "1159bd56730094bfc71be30113e1cfc8bacf34f3"
+      ],
       "project_builders": []
     },
     "mario-party-2": {
@@ -1009,7 +1109,9 @@
         "github_stars": 55
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "166eda1c05670d337e2c3f15a5db528ae1e5d6e3"
+      ],
       "project_builders": []
     },
     "mario-party-3": {
@@ -1030,7 +1132,9 @@
         "github_stars": 76
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "6beb80ff822b96bcf85dcdb512e8b2b7969d8259"
+      ],
       "project_builders": []
     },
     "mario-tennis": {
@@ -1072,7 +1176,12 @@
         "github_stars": 72
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "811709c6473f74cbf283aa61f056e1de3046ec73",
+        "5eb5a9d6f413a379fe297fe1542d21f728393a27",
+        "e5405aad683959edab641b5da05b8159cac93e63",
+        "039a75636c34d219d489d0a84a671d00dc23e7c4"
+      ],
       "project_builders": []
     },
     "mystical-ninja-starring-goemon": {
@@ -1093,7 +1202,10 @@
         "github_stars": 11
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "9843ee979b5f6c80f5eda85df0baed9ae7c4e73b",
+        "df8083a54296b8c151917c5333e1c85f014a2a66"
+      ],
       "project_builders": []
     },
     "goemon64recomp": {
@@ -1135,7 +1247,9 @@
         "github_stars": 38
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "a9ba0a4afeed48080f54aa237850f3676b3d9980"
+      ],
       "project_builders": []
     },
     "onegai-monsters": {
@@ -1156,7 +1270,9 @@
         "github_stars": 4
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "7592f4c16b8e040539b5dcc201fab2965a5e8c8d"
+      ],
       "project_builders": []
     },
     "paper-mario": {
@@ -1177,7 +1293,12 @@
         "github_stars": 1638
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "3837f44cda784b466c9a2d99df70d77c322b97a0",
+        "b9cca3ff260b9ff427d981626b82f96de73586d3",
+        "5c724685085eba796537573dd6f84aaddedc8582",
+        "2111d39265a317414d359e35a7d971c4dfa5f9e1"
+      ],
       "project_builders": []
     },
     "perfect-dark": {
@@ -1198,7 +1319,12 @@
         "github_stars": 876
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "60dfe17923c03875b499b3cd3200f05cb538b7ad",
+        "af8788ac4d1a57260eae9c53ffe851fcf2a3319b",
+        "a663d3f4eee0b198471132db92e9639a9edd1985",
+        "99bcaaa4841b09c845e1094006df8f637862f02e"
+      ],
       "project_builders": []
     },
     "perfect-dark-pc-port": {
@@ -1240,7 +1366,12 @@
         "github_stars": 42
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "8173866fc8c7652abd44c48efcab85441c6806a1",
+        "184f0cac8fdfad47590c515fc637076d2ded58d7",
+        "72760a2d87ed3e70756a4aa689b9b26786669a52",
+        "dbc9d0de131f3604a9115b58368e9050f1a6303f"
+      ],
       "project_builders": []
     },
     "pokemon-snap": {
@@ -1261,7 +1392,9 @@
         "github_stars": 112
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "edc7c49cc568c045fe48be0d18011c30f393cbaf"
+      ],
       "project_builders": []
     },
     "pokemon-stadium": {
@@ -1282,7 +1415,9 @@
         "github_stars": 213
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "ed7bef5a306f88c0a6e96b15e71fee2ef32058f3"
+      ],
       "project_builders": []
     },
     "pokemon-stadium-2": {
@@ -1303,7 +1438,10 @@
         "github_stars": 60
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "d8343e69a7dc63b869cf6361d87cde64444281d3",
+        "05682e60b13479ca1c54656e5a5b1ee6d099c1a4"
+      ],
       "project_builders": []
     },
     "quest-64": {
@@ -1324,7 +1462,9 @@
         "github_stars": 18
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "91b96e938c6d91699057fad91d726ee5a23ce33a"
+      ],
       "project_builders": []
     },
     "quest64-recomp": {
@@ -1366,7 +1506,9 @@
         "github_stars": 46
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "622d71a44da0b81ea68092cac9198c66154a4f4a"
+      ],
       "project_builders": []
     },
     "shadowgate-64": {
@@ -1387,7 +1529,9 @@
         "github_stars": 7
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "4397729f8143ea9a39f319e1f31f2e0b84335a24"
+      ],
       "project_builders": []
     },
     "snowboard-kids-2": {
@@ -1408,7 +1552,9 @@
         "github_stars": 196
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5ce896fd64276948bc2b8cccd8cd51c25a9f32aa"
+      ],
       "project_builders": []
     },
     "space-station-silicon-valley": {
@@ -1429,7 +1575,12 @@
         "github_stars": 66
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e5e09205aa743a9e5043a42df72adc379c746b0b",
+        "7320f08474c011fc7781093bf1a6818c37ce51e2",
+        "c968bba6a90db9ecbd957e910684a80726b0497d",
+        "23710541bb3394072740b0f0236a7cb1a7d41531"
+      ],
       "project_builders": []
     },
     "sssv-recomp": {
@@ -1471,7 +1622,9 @@
         "github_stars": 355
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "09f0d105f476b00efa5303a3ebc42e60a7753b7a"
+      ],
       "project_builders": []
     },
     "star-wars-shadows-of-the-empire": {
@@ -1492,7 +1645,9 @@
         "github_stars": 22
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "0f642f17693adf1b97121a61bbeca37df59bb55a"
+      ],
       "project_builders": []
     },
     "super-mario-64": {
@@ -1513,7 +1668,13 @@
         "github_stars": 8929
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51",
+        "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+        "4ac5721683d0e0b6bbb561b58a71740845dceea9",
+        "3f319ae697533a255a1003d09202379d78d5a2e0",
+        "2e1db2780985a1f068077dc0444b685f39cd90ec"
+      ],
       "project_builders": []
     },
     "sm64-port": {
@@ -1597,7 +1758,10 @@
         "github_stars": 271
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e2929e10fccc0aa84e5776227e798abc07cedabf",
+        "4b71f0e01878696733eefa9c80d11c147ecb4984"
+      ],
       "project_builders": []
     },
     "superman-64": {
@@ -1618,7 +1782,9 @@
         "github_stars": 22
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "c271db752610c9581e1ba1e9125ea8ecdb56f74f"
+      ],
       "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time": {
@@ -1639,7 +1805,25 @@
         "github_stars": 5620
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "c892bbda3993e66bd0d56a10ecd30b1ee612210f",
+        "ad69c91157f6705e8ab06c79fe08aad47bb57ba7",
+        "dbfc81f655187dc6fefd93fa6798face770d579d",
+        "d3ecb253776cd847a5aa63d859d8c89a2f37b364",
+        "328a1f1beba30ce5e178f031662019eb32c5f3b5",
+        "fa5f5942b27480d60243c2d52c0e93e26b9e6b86",
+        "41b3bdc48d98c48529219919015a1af22f5057c2",
+        "cfbb98d392e4a9d39da8285d10cbef3974c2f012",
+        "0769c84615422d60f16925cd859593cdfa597f84",
+        "dd14e143c4275861fe93ea79d0c02e36ae8c6c2f",
+        "b82710ba2bd3b4c6ee8aa1a7e9acf787dfc72e9b",
+        "8b5d13aac69bfbf989861cfdc50b1d840945fc1d",
+        "0227d7c0074f2d0ac935631990da8ec5914597b4",
+        "f46239439f59a2a594ef83cf68ef65043b1bffe2",
+        "2ce2d1a9f0534c9cd9fa04ea5317b80da21e5e73",
+        "1015d0f3af34b89149bfd773580bbc66466af54e",
+        "079b855b943d6ad8bd1eb026c0ed169ecbdac7da"
+      ],
       "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask": {
@@ -1660,7 +1844,10 @@
         "github_stars": 1760
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "d6133ace5afaa0882cf214cf88daba39e266c078",
+        "41fdb879ab422ec158b4eafea69087f255ea8589"
+      ],
       "project_builders": []
     },
     "zelda64recomp": {
@@ -1702,7 +1889,9 @@
         "github_stars": 6
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "83fff25e82181a6993f28c91b9eeb8430396838b"
+      ],
       "project_builders": []
     },
     "turok-3-shadow-of-oblivion": {
@@ -1723,7 +1912,10 @@
         "github_stars": 26
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "f3fdc0b58d0ae8111f033c5f61c364e6a9425f91",
+        "a2e0a28dc0d3a48c7c02cb9e4c4b38fe04b2d436"
+      ],
       "project_builders": []
     },
     "virtual-pool-64": {
@@ -1744,7 +1936,9 @@
         "github_stars": 8
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "4fed63f7ee35f4d3941f0d61175057481d91d2e0"
+      ],
       "project_builders": []
     },
     "virtual-pro-wrestling-2-odo-keisho": {
@@ -1765,7 +1959,9 @@
         "github_stars": 29
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "82dd25a044689eab57ab362fe10c0da6388c217a"
+      ],
       "project_builders": []
     },
     "wave-race-64": {
@@ -1786,7 +1982,9 @@
         "github_stars": 111
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "508dfc2d4caa42b6f6de5263d0aed5e44ac7966a"
+      ],
       "project_builders": []
     },
     "yoshi-s-story": {
@@ -1807,7 +2005,9 @@
         "github_stars": 82
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "b13072fef6c6df48c07d8822c01e5bc59036f6da"
+      ],
       "project_builders": []
     },
     "pilotwings-64-recompiled": {
@@ -1891,7 +2091,12 @@
         "github_stars": 16
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "185a6ef7ba1adb243278062c81a7d4e119bda58c",
+        "483f7161aea39de8b45c9fbc70a2c3883c4dea8c",
+        "b147fdbeb661c89107c440b00dc4810508f58636",
+        "460212600f8b9f0da95219c4c7330f2e626d9a7e"
+      ],
       "project_builders": []
     },
     "body-harvest-jaytheham": {
@@ -1912,7 +2117,10 @@
         "github_stars": 46
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "bbb6666f5014a473747ee4145f036d9fb25d7348",
+        "67750e2e7ab46fedf65a271ab7f4c7aad92ae355"
+      ],
       "project_builders": []
     },
     "ridge-racer-64": {
@@ -1933,7 +2141,9 @@
         "github_stars": 5
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5f079cd9827b24d12af4961482a0fcc679e53042"
+      ],
       "project_builders": []
     },
     "star-wars-rogue-squadron": {
@@ -1954,7 +2164,9 @@
         "github_stars": 20
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "ed42eed1ee2db646ff7ef94ba8c5421d164a4f0d"
+      ],
       "project_builders": []
     },
     "wonder-project-j2-josette-of-the-corlo-forest": {
@@ -1975,7 +2187,9 @@
         "github_stars": 8
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "3a311ec0d77d4e0fc425a99cb6b9416f072e268e"
+      ],
       "project_builders": []
     },
     "beetle-adventure-racing": {
@@ -1996,7 +2210,9 @@
         "github_stars": 18
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e5ab4d226c08d22f68a2edcc48870203e67454b8"
+      ],
       "project_builders": []
     },
     "conker-s-bad-fur-day-devoldschool": {
@@ -2017,7 +2233,10 @@
         "github_stars": 32
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "4cbadd3c4e0729dec46af64ad018050eada4f47a",
+        "ee7bc6656fd1e1d9ffb3d19add759f28b88df710"
+      ],
       "project_builders": []
     },
     "diddy-kong-racing-recomp": {
@@ -2080,7 +2299,12 @@
         "github_stars": 196
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "af8788ac4d1a57260eae9c53ffe851fcf2a3319b",
+        "99bcaaa4841b09c845e1094006df8f637862f02e",
+        "60dfe17923c03875b499b3cd3200f05cb538b7ad",
+        "a663d3f4eee0b198471132db92e9639a9edd1985"
+      ],
       "project_builders": []
     },
     "pokemon-snap-recomp": {
@@ -2122,7 +2346,9 @@
         "github_stars": 5
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "1583bacc9046a360df8ea4d536942155247e154c"
+      ],
       "project_builders": []
     },
     "wave-race-64-recomp": {
@@ -2164,7 +2390,9 @@
         "github_stars": 7
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "535860d941738ac1210c20a9b80114fea0e0ff17"
+      ],
       "project_builders": []
     },
     "battletanx-global-assault": {
@@ -2185,7 +2413,9 @@
         "github_stars": 7
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "805248fb0a0ee694cad8d7dc927b631d860dd8cf"
+      ],
       "project_builders": []
     },
     "battletanx-global-assault-pc-port": {
@@ -2227,7 +2457,9 @@
         "status": "Active"
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "f97b070a1fa6ab3d190b36d6b68a2ef182d35233"
+      ],
       "project_builders": []
     },
     "hybrid-heaven": {
@@ -2248,7 +2480,9 @@
         "status": "Active"
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "16dbc21620b52deab5c5abf8a309ac60adfbee85"
+      ],
       "project_builders": []
     },
     "paperboy": {
@@ -2269,7 +2503,9 @@
         "status": "Active"
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "b043c47b9758fa6bb289ca7dba2068bda6cafa3a"
+      ],
       "project_builders": []
     },
     "starcraft-64-n0madic-recomp": {
@@ -2311,7 +2547,10 @@
         "github_stars": 83
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "ec771aedf54ee1b214c25404fb4ec51cfd43191a",
+        "892a5472d9a6811b881d093020de81f72baeeec9"
+      ],
       "project_builders": []
     },
     "snowboard-kids-cdlewis": {
@@ -2332,7 +2571,10 @@
         "github_stars": 58
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "1583bacc9046a360df8ea4d536942155247e154c",
+        "96480c8fa7285d9e850f6ba002e56bcb7ada9796"
+      ],
       "project_builders": []
     },
     "1080-snowboarding": {
@@ -2353,7 +2595,9 @@
         "github_stars": 18
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "79cd1166c365e5809dec9b62e6d40d6032d5db3a"
+      ],
       "project_builders": []
     },
     "animal-forest-animal-forest-psp": {
@@ -2416,7 +2660,12 @@
         "github_stars": 659
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "1fe1632098865f639e22c11b9a81ee8f29c75d7a",
+        "ded6ee166e740ad1bc810fd678a84b48e245ab80",
+        "90726d7e7cd5bf6cdfd38f45c9acbf4d45bd9fd8",
+        "bb359a75941df74bf7290212c89fbc6e2c5601fe"
+      ],
       "project_builders": []
     },
     "banjo-kazooie-banjo-recompiled-android-port": {
@@ -2500,7 +2749,9 @@
         "github_stars": 3
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "535860d941738ac1210c20a9b80114fea0e0ff17"
+      ],
       "project_builders": []
     },
     "battletanx-global-assault-btgarecomp": {
@@ -2647,7 +2898,9 @@
         "github_stars": 16
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "989a28782ed6b0bc489a1bbbd7bec355d8f2707e"
+      ],
       "project_builders": []
     },
     "castlevania-legacy-of-darkness": {
@@ -2710,7 +2963,10 @@
         "github_stars": 185
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "6d96743d46f8c0cd0edb0ec5600b003c89b93755",
+        "b7f628073237b3d211d40406aa0884ff8fdd70d5"
+      ],
       "project_builders": []
     },
     "doom-64-doom64-dc": {
@@ -2815,7 +3071,9 @@
         "github_stars": 41
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5f658e88ffa9de23cba6986a8fd3d3a90d7b4340"
+      ],
       "project_builders": []
     },
     "f-zero-x-gdx-3ds": {
@@ -2836,7 +3094,9 @@
         "github_stars": 33
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5f658e88ffa9de23cba6986a8fd3d3a90d7b4340"
+      ],
       "project_builders": []
     },
     "glover-glover-decomp": {
@@ -2857,7 +3117,9 @@
         "github_stars": 2
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "270be17b3c8da9b88a7b99c2a545b0bce16837f4"
+      ],
       "project_builders": []
     },
     "glover-recomp": {
@@ -2983,7 +3245,9 @@
         "github_stars": 10
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "da1a1e47a86720f9d54fb2d2d247480041bda824"
+      ],
       "project_builders": []
     },
     "hybrid-heaven-nintendo-64": {
@@ -3088,7 +3352,9 @@
         "github_stars": 48
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "6cea2d46b929a3bb347b060a77fccc83526fb855"
+      ],
       "project_builders": []
     },
     "knife-edge-nose-gunner": {
@@ -3109,7 +3375,9 @@
         "github_stars": 7
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "b247167e37e7f62924be6b0d2362a091fd2352ac"
+      ],
       "project_builders": []
     },
     "the-legend-of-zelda-majora-s-mask-mmrecomprando": {
@@ -3193,7 +3461,9 @@
         "github_stars": 27
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "079b855b943d6ad8bd1eb026c0ed169ecbdac7da"
+      ],
       "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-oot-psp": {
@@ -3256,7 +3526,9 @@
         "github_stars": 4
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e2c4e7a905b29529b49a1619a401fe699224829b"
+      ],
       "project_builders": []
     },
     "mario-kart-64-mk64recomp": {
@@ -3403,7 +3675,12 @@
         "github_stars": 58
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "01b0a31b1accc18061e8c85f6c5edf0dbd79f097",
+        "3f99351d7bb61656614bdb2aa1a90cfe55d1922c",
+        "cc62539cb30b180c3c7e0aa927786ed061d8d9ab",
+        "bd4c070a71ef58499587cb811fb7490b88dd7c0b"
+      ],
       "project_builders": []
     },
     "paper-mario-nintendo-64": {
@@ -3424,7 +3701,12 @@
         "github_stars": 73
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5c724685085eba796537573dd6f84aaddedc8582",
+        "b9cca3ff260b9ff427d981626b82f96de73586d3",
+        "3837f44cda784b466c9a2d99df70d77c322b97a0",
+        "2111d39265a317414d359e35a7d971c4dfa5f9e1"
+      ],
       "project_builders": []
     },
     "paper-mario-pmvita": {
@@ -3466,7 +3748,12 @@
         "github_stars": 125
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "5c724685085eba796537573dd6f84aaddedc8582",
+        "b9cca3ff260b9ff427d981626b82f96de73586d3",
+        "3837f44cda784b466c9a2d99df70d77c322b97a0",
+        "2111d39265a317414d359e35a7d971c4dfa5f9e1"
+      ],
       "project_builders": []
     },
     "paper-mario-papermariodecompilation": {
@@ -3487,7 +3774,9 @@
         "github_stars": 26
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "3837f44cda784b466c9a2d99df70d77c322b97a0"
+      ],
       "project_builders": []
     },
     "paper-mario-recomp": {
@@ -3593,7 +3882,9 @@
         "github_stars": 41
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "ed7bef5a306f88c0a6e96b15e71fee2ef32058f3"
+      ],
       "project_builders": []
     },
     "quest-64-nintendo-64": {
@@ -3614,7 +3905,9 @@
         "github_stars": 39
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "91b96e938c6d91699057fad91d726ee5a23ce33a"
+      ],
       "project_builders": []
     },
     "quest-64-quest-64-tale-recompiled": {
@@ -3656,7 +3949,9 @@
         "github_stars": 77
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "87727a298f583ec8325f5655088ff21e37b335b2"
+      ],
       "project_builders": []
     },
     "destruction-derby-64": {
@@ -3677,7 +3972,9 @@
         "github_stars": 20
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "a2c0799e13566d1b723299592cfcac9387f25fa7"
+      ],
       "project_builders": []
     },
     "rugrats-scavenger-hunt": {
@@ -3698,7 +3995,9 @@
         "github_stars": 7
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "fb2a62f1625630d6f0beb5fd00a32e12155d50e8"
+      ],
       "project_builders": []
     },
     "san-francisco-rush-2049": {
@@ -3719,7 +4018,9 @@
         "github_stars": 8
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "3f99351d7bb61656614bdb2aa1a90cfe55d1922c"
+      ],
       "project_builders": []
     },
     "san-francisco-rush-2049-nintendo-64": {
@@ -3950,7 +4251,11 @@
         "github_stars": 22
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51",
+        "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+        "4ac5721683d0e0b6bbb561b58a71740845dceea9"
+      ],
       "project_builders": []
     },
     "super-mario-64-sm64-pc-port-webgl": {
@@ -4034,7 +4339,9 @@
         "github_stars": 30
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "9883aef6e20a46e110560c505999f3e21a1897de"
+      ],
       "project_builders": []
     },
     "super-smash-bros-nintendo-64": {
@@ -4118,7 +4425,10 @@
         "github_stars": 515
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "e2929e10fccc0aa84e5776227e798abc07cedabf",
+        "4b71f0e01878696733eefa9c80d11c147ecb4984"
+      ],
       "project_builders": []
     },
     "tetrisphere": {
@@ -4454,7 +4764,11 @@
         "status": "Active"
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "abe01e4aeb033b6c0836819f549c791b26cfde83",
+        "2a5dade32f7fad6c73c659d2026994632c1b3174",
+        "167c3c433dec1f1eb921736f7d53fac8cb45ee31"
+      ],
       "project_builders": []
     },
     "perfect-dark-gitlab-source-project": {
@@ -4475,7 +4789,12 @@
         "status": "Active"
       },
       "ai_used": null,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "60dfe17923c03875b499b3cd3200f05cb538b7ad",
+        "af8788ac4d1a57260eae9c53ffe851fcf2a3319b",
+        "a663d3f4eee0b198471132db92e9639a9edd1985",
+        "99bcaaa4841b09c845e1094006df8f637862f02e"
+      ],
       "project_builders": []
     },
     "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian": {
@@ -4552,7 +4871,9 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "56937a9e9536af55ebed06480413265848c4a04a"
+      ],
       "project_builders": []
     },
     "v-rally-edition-99-decomp": {
@@ -4566,7 +4887,9 @@
       "legacy_status": null,
       "activity": {},
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "da3f262dfb86cff1376c9a1aa081212e5a7aad64"
+      ],
       "project_builders": []
     },
     "nagano-winter-olympics-98": {
@@ -4587,7 +4910,9 @@
         "github_stars": 2
       },
       "ai_used": true,
-      "supported_rom_sha1": [],
+      "supported_rom_sha1": [
+        "eaf543e195731031a84f4136b506449209e3a8f5"
+      ],
       "project_builders": []
     },
     "madden-football-64-thegh0stship": {
