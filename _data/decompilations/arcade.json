@@ -630,6 +630,45 @@
       "ai_used": null,
       "supported_rom_sha1": [],
       "project_builders": []
+    },
+    "the-simpsons-arcade-cheviman": {
+      "name": "The Simpsons (arcade, cheviman)",
+      "platforms": [
+        "Arcade"
+      ],
+      "repository_url": "https://github.com/cheviman/simpsons-decomp",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "arcade-decomp",
+        "cmake"
+      ]
+    },
+    "the-simpsons-arcade-cheviman-port": {
+      "name": "The Simpsons (cheviman native port)",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Nintendo Switch",
+        "Android",
+        "iOS",
+        "Anbernic H700"
+      ],
+      "repository_url": "https://github.com/cheviman/simpsons-port",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "cmake"
+      ]
     }
   },
   "consoles": {
@@ -1126,6 +1165,46 @@
             {
               "name": "Fan remake",
               "url": "https://github.com/jotd666/mspacman500"
+            }
+          ]
+        },
+        {
+          "project": "the-simpsons-arcade-cheviman",
+          "name_markdown": "[The Simpsons](https://github.com/cheviman/simpsons-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/FBNeo_-_Arcade_Games/master/Named_Boxarts/The%20Simpsons%20%284%20Players%20World%2C%20set%201%29.png",
+              "alt": "The Simpsons arcade promotional flyer showing Konami's four-player cabinet",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Reconstruction of Konami's 1991 arcade game into C using arcade-decomp. Requires the user's own MAME `simpsons` ROM set (4 Players World, set 1); other regional and two-player sets are not supported. The [decompilation documentation](https://github.com/cheviman/simpsons-decomp#readme) reports frame-by-frame state, picture and sound comparisons against MAME across 25 scripted scenarios, rather than a byte-matching rebuild or exhaustive correctness proof. Fixed-address RAM and some CPU-derived representations remain. Its SDL2 build has been tried on Windows; the separate port documents additional targets.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "The Simpsons Arcade Game / Mr. Plow Edition",
+              "url": "https://github.com/cheviman/simpsons-port",
+              "platforms": [
+                "Windows",
+                "Linux",
+                "macOS",
+                "Nintendo Switch",
+                "Android",
+                "iOS",
+                "Anbernic H700"
+              ],
+              "description_markdown": "Decompilation-based native port with an arcade mode and a home-console variant. Requires the same 4 Players World set 1 ROM set for asset extraction. Mobile and handheld packages require device-specific preparation; iOS packages are unsigned and require sideloading. See the project's build and installation documentation.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/cheviman/simpsons-decomp"
             }
           ]
         }
