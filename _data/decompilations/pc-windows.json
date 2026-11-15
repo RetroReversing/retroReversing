@@ -8184,6 +8184,22 @@
       "ai_used": null,
       "supported_rom_sha1": [],
       "project_builders": []
+    },
+    "aliens-versus-predator-2-avp2src": {
+      "name": "Aliens versus Predator 2 and Primal Hunt (avp2src)",
+      "platforms": [
+        "Windows"
+      ],
+      "repository_url": "https://github.com/nolffan/avp2src",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "make"
+      ]
     }
   },
   "consoles": {
@@ -9580,7 +9596,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "avp2src (AvP2 and Primal Hunt)",
+              "url": "https://github.com/nolffan/avp2src",
+              "platforms": [
+                "Windows"
+              ],
+              "description_markdown": "Separate source reconstruction of AvP2 1.0.9.6 and Primal Hunt 1.0.2.2, combining released AvP2 game code with reconstructed LithTech Talon engine and Primal Hunt code. Legacy builds target European retail binaries using Visual C++ 6.0; documented function matching masks linker addresses and is not whole-file identity. Modern builds add fixes and open middleware replacements. Linux and macOS use Wine/CrossOver rather than native host builds. Public packages require the player's own supported disc images and game data. See the [README](https://github.com/nolffan/avp2src#readme) and [scoring limitations](https://github.com/nolffan/avp2src/blob/master/progress/README.md).",
+              "project_types": [
+                "Decompilation",
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Matching decompilation",
