@@ -18,14 +18,14 @@ breadcrumbs:
     url: #
 tags:
   - ps3
-updatedAt: '2026-10-24'
+updatedAt: '2026-11-15'
 ---
 
 # Introduction
 Sony launched the PlayStation 3 in November 2006 with two processors that matter immediately to anyone reading its game code: the Cell Broadband Engine and the RSX graphics processor [^1].
 Cell moved PlayStation development away from the MIPS CPUs of the PS1 and PS2. Its PowerPC-based main processor and smaller SPU processors run different instruction sets, so even a single game can lead a reverse engineer down two quite different code paths [^2].
 
-This hub gathers original hardware documentation, accounts of how studios used the machine, development hardware, interviews and emulation work. The links are starting points for following a particular game or subsystem further.
+The links below pair original hardware documentation with accounts of how studios used the machine, development equipment and emulation work. They give you several ways into a particular game or subsystem.
 
 ---
 # Hardware
@@ -62,6 +62,13 @@ The project translates game code ahead of time and implements the required PS3 s
 
 The README reports starting-town rendering, short movement and save/load tests, not a complete playable game. Combat, sustained traversal and a full playthrough remain unverified.
 Building requires the user's own USA BLUS30784 version 01.00 disc files; game files and generated game sources are not included in the repository [^11].
+
+---
+# Game Files and Executables
+## Where is a PS3 game's main program?
+On a disc, the usual starting point is `PS3_GAME/USRDIR/EBOOT.BIN`. The neighbouring `PS3_GAME/PARAM.SFO` identifies the title and carries its display metadata. The [PS3 Developer Wiki's disc layout](https://www.psdevwiki.com/ps3/Bluray_disc#File_system_layout) maps those paths; its [installed-game layout](https://www.psdevwiki.com/ps3/Game_Files) places game data under `/dev_hdd0/game/` [^12]. That distinction matters when a folder contains an update or install data as well as the original game.
+
+`EBOOT.BIN` is commonly a **SELF** container, rather than a plain PowerPC ELF ready for disassembly. The [RPCS3 SELF parser](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Crypto/unself.h) documents its header and embedded executable structures; sections can be compressed or encrypted [^13]. Finding `EBOOT.BIN` locates the main program, but it does not mean all SPU jobs or game assets live in that one file. Follow file loads and SPU dispatches as separate lines of investigation.
 
 ---
 # Game Development
@@ -122,3 +129,5 @@ The magazine index collects developer interviews tagged for this system across a
 [^9]: [Cédric Perthuis, Introduction to the Graphics Pipeline of the PS3](https://download.swiborg.com/dev/pdf/graphics-pipeline-of-the-ps3.pdf), Sony Computer Entertainment Research and Development, pp. 4, 8 and 12.
 [^10]: [Sony Computer Entertainment, Sony Computer Entertainment to Acquire SN Systems](https://sonyinteractive.com/en/press-releases/2005/sony-computer-entertainment-to-acquire-sn-systems/), 21 July 2005.
 [^11]: [WK2D, White Knight Chronicles II Recomp README](https://github.com/WK2D/White-Knight-Chronicles-2-Recomp), status, SPU execution model and build requirements, consulted 24 October 2026.
+[^12]: PS3 Developer Wiki, [Blu-ray disc file-system layout](https://www.psdevwiki.com/ps3/Bluray_disc#File_system_layout) and [Game Files](https://www.psdevwiki.com/ps3/Game_Files), disc and installed-title layouts.
+[^13]: [RPCS3, SELF parser structures](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Crypto/unself.h); see also [SELF and SPRX format notes](https://www.psdevwiki.com/ps3/SELF_-_SPRX).
