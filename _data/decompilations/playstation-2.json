@@ -2372,6 +2372,22 @@
       "ai_used": true,
       "supported_rom_sha1": [],
       "project_builders": []
+    },
+    "battle-stadium-don-ncjokerdev": {
+      "name": "Battle Stadium D.O.N",
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "repository_url": "https://github.com/ncjokerdev/battlestadium-don-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "splat"
+      ]
     }
   },
   "consoles": {
@@ -4962,6 +4978,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/designgears/xsg-i-decomp"
+            }
+          ]
+        },
+        {
+          "project": "battle-stadium-don-ncjokerdev",
+          "name_markdown": "[Battle Stadium D.O.N](https://github.com/ncjokerdev/battlestadium-don-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Battle%20Stadium%20D.O.N%20%28Japan%29.png",
+              "alt": "Battle Stadium D.O.N Japanese PlayStation 2 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted matching decompilation targeting Japanese SLPS-25675, executable version 1.02. The [README](https://github.com/ncjokerdev/battlestadium-don-decomp#readme) confirms Claude use and a byte-identical executable rebuild combining decompiled game functions with assembly for the remainder. Third-party libraries are outside the game-code decompilation target. Uses splat and CodeWarrior PS2 3.0.1; no native PC port is documented. The published SHA-1 identifies the extracted executable, not a complete disc image.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/ncjokerdev/battlestadium-don-decomp"
             }
           ]
         }
