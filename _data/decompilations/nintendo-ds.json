@@ -1169,6 +1169,75 @@
       "project_builders": [
         "ninja"
       ]
+    },
+    "pokemon-platinum-lake-trio": {
+      "name": "Pokemon Platinum (Lake Trio)",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "repository_url": "https://github.com/Royal2-4/Lake-Trio",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": []
+    },
+    "heroes-of-mana-liolu": {
+      "name": "Heroes of Mana",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/heroes-of-mana-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "1cd64ce27274a74b9e807412bcb6b514e4aade59"
+      ],
+      "project_builders": [
+        "ninja"
+      ]
+    },
+    "blue-dragon-awakened-shadow-liolu": {
+      "name": "Blue Dragon: Awakened Shadow",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/blue-dragon-awakened-shadow-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "ec52383d9e98d2c3d4effb2700cf5d13daa39c95"
+      ],
+      "project_builders": [
+        "ninja"
+      ]
+    },
+    "code-lyoko-liolu": {
+      "name": "Code Lyoko",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/code-lyoko-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "b9c6d1649d0a5e920a400142d8621c0f3c57b9e7"
+      ],
+      "project_builders": [
+        "ninja"
+      ]
     }
   },
   "consoles": {
@@ -1459,7 +1528,20 @@
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
-          "ports": [],
+          "ports": [
+            {
+              "name": "Lake Trio",
+              "url": "https://github.com/Royal2-4/Lake-Trio",
+              "platforms": [
+                "Windows",
+                "Linux"
+              ],
+              "description_markdown": "AI-assisted native port forked from xgcModding/platinum, with a controller-friendly dashboard, screen switching and Steam Deck input fixes. Imports the player's own USA or European Platinum ROM; exact revision hashes are not documented in the README. Linux x86-64 requires OpenGL 4.2 and a writable AppImage directory; Windows packages target Windows 11. The [README](https://github.com/Royal2-4/Lake-Trio#readme) confirms generative AI use.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
           "project_types": [
             {
               "name": "Decompilation",
@@ -2480,6 +2562,72 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp"
+            }
+          ]
+        },
+        {
+          "project": "heroes-of-mana-liolu",
+          "name_markdown": "[Heroes of Mana](https://github.com/liolu/heroes-of-mana-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Heroes%20of%20Mana%20%28Europe%29.png",
+              "alt": "Heroes of Mana EU Nintendo DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the EU Nintendo DS release (AHEP), built with Metrowerks mwccarm and Ninja. Requires the user's own decrypted base ROM; its SHA-1 is documented in [extract/README.md](https://github.com/liolu/heroes-of-mana-decomp/blob/main/extract/README.md). The exact compiler version remains unidentified. The [README](https://github.com/liolu/heroes-of-mana-decomp#readme) separates raw m2c output awaiting cleanup from code reused from other decompilations and describes a full-ROM matching check. Matching coverage does not imply readable source completion or a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/heroes-of-mana-decomp"
+            }
+          ]
+        },
+        {
+          "project": "blue-dragon-awakened-shadow-liolu",
+          "name_markdown": "[Blue Dragon: Awakened Shadow](https://github.com/liolu/blue-dragon-awakened-shadow-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Blue%20Dragon%20-%20Awakened%20Shadow%20%28Germany%29.png",
+              "alt": "Blue Dragon: Awakened Shadow Germany Nintendo DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the Germany Nintendo DS release (YBUD), built with Metrowerks mwccarm and Ninja. Requires the user's own decrypted base ROM; its SHA-1 is documented in [extract/README.md](https://github.com/liolu/blue-dragon-awakened-shadow-decomp/blob/main/extract/README.md). The exact compiler version remains unidentified. The [README](https://github.com/liolu/blue-dragon-awakened-shadow-decomp#readme) separates raw m2c output awaiting cleanup from code reused from other decompilations and describes a full-ROM matching check. Matching coverage does not imply readable source completion or a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/blue-dragon-awakened-shadow-decomp"
+            }
+          ]
+        },
+        {
+          "project": "code-lyoko-liolu",
+          "name_markdown": "[Code Lyoko](https://github.com/liolu/code-lyoko-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Code%20Lyoko%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "Code Lyoko USA Nintendo DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo DS release (AL5E), built with Metrowerks mwccarm and Ninja. Requires the user's own decrypted base ROM; its SHA-1 is documented in [extract/README.md](https://github.com/liolu/code-lyoko-decomp/blob/main/extract/README.md). The exact compiler version remains unidentified. The [README](https://github.com/liolu/code-lyoko-decomp#readme) separates raw m2c output awaiting cleanup from code reused from other decompilations and describes a full-ROM matching check. Matching coverage does not imply readable source completion or a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/code-lyoko-decomp"
             }
           ]
         }
