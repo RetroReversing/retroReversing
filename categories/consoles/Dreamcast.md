@@ -6,6 +6,7 @@ recommend: dreamcast
 recommendTitle: All Dreamcast Posts
 editlink: ../categories/consoles/Dreamcast.md
 category: dreamcast
+updatedAt: '2026-11-16'
 excerpt: Awesome list of Sega Dreamcast Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -41,6 +42,15 @@ So grab your VMU, fire up your Dreamcast, and get ready to dive into the excitin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bC2o92Jp0Dc" title="How bleem Made PS1 Discs Run on the Dreamcast | Tech Rules" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
+---
+### Randy Linden on bleem! and bleemcast
+[Zophar interviews Randy Linden](https://www.youtube.com/watch?v=RCw6LpHx9wM), creator of bleem! and bleemcast, about his work on [PlayStation](/ps1) emulation.
+The bleemcast discussion provides a developer's perspective on bringing PlayStation games to the Dreamcast and Sega's behind-the-scenes technical support.
+It complements the technical overview above and the Dreamcast Junkyard interview below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCw6LpHx9wM" title="Zophar interviews Randy Linden about bleem!, bleemcast and SNES Doom" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
 ### Bleemcasting: An Interview With Bleemcast! Developer Randy Linden
 [The Dreamcast Junkyard](https://www.thedreamcastjunkyard.co.uk/2019/10/bleemcasting-interview-with-bleemcast.html) speaks with Randy Linden, the core developer behind the Bleemcast! emulator. The interview covers the technical challenges of porting the PC emulator to the Dreamcast's SH-4 architecture, the reverse engineering of the MIL-CD format to bypass Sega's licensing, and the history behind the unreleased "BleemPod" hardware.
 

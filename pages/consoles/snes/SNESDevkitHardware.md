@@ -27,7 +27,7 @@ editlink: /consoles/snes/SNESDevkitHardware.md
 redirect_from:
   - /official-snes-devkit/
   - /super-famicom-snes-development-kit/
-updatedAt: '2020-06-26'
+updatedAt: '2026-11-16'
 ---
 
 # Official Nintendo Development kits
@@ -139,6 +139,14 @@ Nintendo also sold flashable cartridges with up to 8MB of EPROM that could be wr
 # Third Party development kits
 Although Nintendo sold a very good development kit, many game studios still created their own hardware for development. They did this for various reasons such as cost and flexibility, the main in-house and commercial development kits that we know about will be described in this section.
 
+## Randy Linden's Doom development hardware
+[Zophar's interview with Randy Linden](https://www.youtube.com/watch?v=RCw6LpHx9wM) includes Linden's account of creating his own development hardware for the [Super Nintendo](/snes) port of Doom.
+The discussion connects his custom development setup with the challenge of bringing Doom to the Super FX chip.
+It is a first-hand example of a programmer building tools for a particular project, alongside the commercial and studio-built kits documented here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCw6LpHx9wM" title="Zophar interviews Randy Linden about bleem!, bleemcast and SNES Doom" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+
+---
 ## Super Magicom
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/-nDu9Z6MUXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
