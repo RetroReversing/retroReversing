@@ -1133,6 +1133,42 @@
         "dsd",
         "ninja"
       ]
+    },
+    "resident-evil-deadly-silence-liolu": {
+      "name": "Resident Evil: Deadly Silence",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/resident-evil-deadly-silence-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "b7dee8c12078d347ed28d85f095ab3bdd0e4d87f"
+      ],
+      "project_builders": [
+        "ninja"
+      ]
+    },
+    "lego-star-wars-ii-the-original-trilogy-liolu": {
+      "name": "LEGO Star Wars II: The Original Trilogy",
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "repository_url": "https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "7c1afa070797945ba5a2577c7ddfded5cf2fc443"
+      ],
+      "project_builders": [
+        "ninja"
+      ]
     }
   },
   "consoles": {
@@ -2400,6 +2436,50 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/manta89640/tomocolle"
+            }
+          ]
+        },
+        {
+          "project": "resident-evil-deadly-silence-liolu",
+          "name_markdown": "[Resident Evil: Deadly Silence](https://github.com/liolu/resident-evil-deadly-silence-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/Resident%20Evil%20-%20Deadly%20Silence%20%28USA%29.png",
+              "alt": "Resident Evil: Deadly Silence USA Nintendo DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo DS release (ABHE) using Metrowerks mwccarm and Ninja. Requires the user's own decrypted base ROM; its SHA-1 is documented in the [input requirements](https://github.com/liolu/resident-evil-deadly-silence-decomp/blob/main/extract/README.md). The exact compiler version remains unidentified. The [README](https://github.com/liolu/resident-evil-deadly-silence-decomp#readme) distinguishes raw m2c output awaiting cleanup from code reused from other decompilations and describes a full-ROM byte-matching check; a matching function count does not establish source readability or a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/resident-evil-deadly-silence-decomp"
+            }
+          ]
+        },
+        {
+          "project": "lego-star-wars-ii-the-original-trilogy-liolu",
+          "name_markdown": "[LEGO Star Wars II: The Original Trilogy](https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_DS/master/Named_Boxarts/LEGO%20Star%20Wars%20II%20-%20The%20Original%20Trilogy%20%28USA%29.png",
+              "alt": "LEGO Star Wars II: The Original Trilogy USA Nintendo DS box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching decompilation of the USA Nintendo DS release (AL7E) using Metrowerks mwccarm and Ninja. Requires the user's own decrypted base ROM; its SHA-1 is documented in the [input requirements](https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp/blob/main/extract/README.md). The exact compiler version remains unidentified. The [README](https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp#readme) distinguishes raw m2c output awaiting cleanup from code reused from other decompilations and describes a full-ROM byte-matching check; a matching function count does not establish source readability or a native PC port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/liolu/lego-star-wars-ii-the-original-trilogy-decomp"
             }
           ]
         }
