@@ -203,6 +203,25 @@
       "ai_used": true,
       "supported_rom_sha1": [],
       "project_builders": []
+    },
+    "marvel-vs-capcom-2-gibletto": {
+      "name": "Marvel vs. Capcom 2: New Age of Heroes (NAOMI and Dreamcast)",
+      "platforms": [
+        "Arcade",
+        "Dreamcast"
+      ],
+      "repository_url": "https://github.com/gibletto/mvc2-naomi-dc",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "make",
+        "cmake",
+        "ninja"
+      ]
     }
   },
   "consoles": {
@@ -429,6 +448,41 @@
             {
               "name": "Decompilation",
               "url": "https://github.com/Subarasheese/powerstone-decomp"
+            }
+          ]
+        },
+        {
+          "project": "marvel-vs-capcom-2-gibletto",
+          "name_markdown": "[Marvel vs. Capcom 2: New Age of Heroes (NAOMI and Dreamcast)](https://github.com/gibletto/mvc2-naomi-dc)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sega_-_Dreamcast/master/Named_Boxarts/Marvel%20vs.%20Capcom%202%20%28USA%29.png",
+              "alt": "Marvel vs. Capcom 2 USA Dreamcast cover art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "One source tree reconstructs the NAOMI export (mvsc2) and US (mvsc2u) program ROMs and the USA Dreamcast executable and character overlays. The [README](https://github.com/gibletto/mvc2-naomi-dc#readme) confirms Claude use and describes matching program builds with original Hitachi tools and Sega SDK libraries; most SDK modules remain precompiled, and several arcade blocks are extracted from the user's ROM. Matching programs do not imply a rebuilt complete disc or wholly reconstructed assets. Published executable, overlay and SDK hashes are not complete-disc hashes.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [
+            {
+              "name": "MVC2 native ports",
+              "url": "https://github.com/gibletto/mvc2-naomi-dc/tree/main/ports",
+              "platforms": [
+                "Windows",
+                "Nintendo 3DS"
+              ],
+              "description_markdown": "Decompilation-based ports of both arcade and Dreamcast versions. Requires the user's own MAME mvsc2 set or USA Dreamcast disc data. Windows is 32-bit; 32-bit ARM Linux is buildable but untested, so it is not listed as a verified runtime target. Some library calls remain stubs. Old 3DS arcade mode requires the CIA memory mode; the 3DS sound path disables the AICA DSP. See the port documentation for setup and limitations.",
+              "project_types": [
+                "Native port"
+              ]
+            }
+          ],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/gibletto/mvc2-naomi-dc"
             }
           ]
         }
