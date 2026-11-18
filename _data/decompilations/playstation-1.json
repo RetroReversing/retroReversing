@@ -4350,6 +4350,23 @@
         "ninja"
       ]
     },
+    "die-hard-trilogy-feverdreams420": {
+      "name": "Die Hard Trilogy",
+      "platforms": [
+        "PlayStation"
+      ],
+      "repository_url": "https://github.com/FeverDreams420/die-hard-trilogy-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": [
+        "splat",
+        "make"
+      ]
+    },
     "evo-s-space-adventures": {
       "name": "Evo's Space Adventures",
       "platforms": [
@@ -9023,6 +9040,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/andrewnakas/thrasher-skate-decomp"
+            }
+          ]
+        },
+        {
+          "project": "die-hard-trilogy-feverdreams420",
+          "name_markdown": "[Die Hard Trilogy](https://github.com/FeverDreams420/die-hard-trilogy-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Die%20Hard%20Trilogy%20%28USA%29.png",
+              "alt": "Die Hard Trilogy USA PlayStation box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation targeting the USA Rev 1 disc (SLUS_001.19), covering Die Hard, Die Harder and With a Vengeance. Requires the user's own extracted disc files. Uses splat, Make, PS1 GCC and maspsx; see the [README](https://github.com/FeverDreams420/die-hard-trilogy-decomp#readme) and [compiler research](https://github.com/FeverDreams420/die-hard-trilogy-decomp/blob/main/docs/compiler-notes.md). Matching coverage measures code rebuilt from C. A native PC port is a future goal, not an available port.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/FeverDreams420/die-hard-trilogy-decomp"
             }
           ]
         },
