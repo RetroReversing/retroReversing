@@ -1,0 +1,44 @@
+{%- comment -%}
+Build-time article view of the existing catalogue. Recompilation takes precedence
+over Native port, and repository URLs are case-insensitive deduplication keys.
+Keep the headings at article-body level for the shared TOC and section controls.
+{%- endcomment -%}
+{%- assign article_catalogue = site.data.decompilations[include.console] -%}
+{%- assign article_rows = article_catalogue.consoles[include.console].rows | sort_natural: 'name_markdown' -%}
+{%- assign article_recomp_urls = '' -%}
+{%- assign article_seen_urls = '' -%}
+{%- for record in article_catalogue.projects -%}
+  {%- if record[1].project_type contains 'recompilation' or record[1].project_type == 'Recompilation' -%}
+    {%- capture article_url_key -%}|{{ record[1].repository_url | downcase | split: '/' | join: '/' }}|{%- endcapture -%}
+    {%- assign article_recomp_urls = article_recomp_urls | append: article_url_key -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for article_row in article_rows -%}
+  {%- for type in article_row.project_types -%}
+    {%- if type.name contains 'recompilation' or type.name == 'Recompilation' -%}
+      {%- capture article_url_key -%}|{{ type.url | downcase | split: '/' | join: '/' }}|{%- endcapture -%}
+      {%- assign article_recomp_urls = article_recomp_urls | append: article_url_key -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for port in article_row.ports -%}
+    {%- if port.project_types contains 'Static recompilation' or port.project_types contains 'Recompilation' -%}
+      {%- capture article_url_key -%}|{{ port.url | downcase | split: '/' | join: '/' }}|{%- endcapture -%}
+      {%- assign article_recomp_urls = article_recomp_urls | append: article_url_key -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+
+<hr>
+<h2 id="byte-accurate-decompilations">Byte-Accurate Decompilations</h2>
+<p>Reconstructing a game's source makes its systems readable and gives matching projects a demanding test: compile the recovered code back to the original bytes. This section includes the catalogue's decompilation and matching-decompilation projects, alongside assembly reconstructions explicitly labelled as disassemblies. These are projects at different stages, rather than a list of completed, verified byte-identical builds. A general Decompilation label alone does not establish a matching build.</p>
+{% include decomp-project-section.html kind="decompilation" platform=include.console %}
+
+<hr>
+<h2 id="recompilations">Recompilations</h2>
+<p>Recompilation offers a route from the original executable to another platform without first recovering hand-written C or C++. The projects below are labelled as recompilations in the catalogue; many also provide native ports. Each entry retains the recorded limitations and supported targets. The <a href="{{ '/how-to-create-an-n64-recomp' | relative_url }}">guide to creating an N64 recomp</a> explains ROM mapping and runtime integration, while <a href="{{ '/testing-an-n64-recomp' | relative_url }}">Testing and Automating an N64 Recomp</a> covers validation.</p>
+{% include decomp-project-section.html kind="recompilation" platform=include.console %}
+
+<hr>
+<h2 id="ports">Ports</h2>
+<p>A native port adapts a game for another platform, opening up different controls, displays and hardware. This section collects projects labelled as native ports that are not also labelled as recompilations. Their notes describe the particular targets and changes recorded in the catalogue; inclusion does not imply a finished or playable release.</p>
+{% include decomp-project-section.html kind="port" platform=include.console %}

@@ -1,0 +1,60 @@
+{%- assign feature_url = include.url | downcase | split: '/' | join: '/' -%}
+{%- assign feature_project = nil -%}
+{%- assign feature_port = include.port -%}
+{%- for record in article_catalogue.projects -%}
+  {%- assign record_url = record[1].repository_url | downcase | split: '/' | join: '/' -%}
+  {%- if record_url == feature_url -%}{%- assign feature_project = record[1] -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- unless feature_port -%}
+  {%- for related_row in article_rows -%}
+    {%- for related_port in related_row.ports -%}
+      {%- assign related_url = related_port.url | downcase | split: '/' | join: '/' -%}
+      {%- if related_url == feature_url -%}{%- assign feature_port = related_port -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if feature_port -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+{%- endunless -%}
+{%- assign feature_row_project = article_catalogue.projects[include.row.project] -%}
+{%- assign feature_row_url = feature_row_project.repository_url | downcase | split: '/' | join: '/' -%}
+{%- assign feature_is_main = false -%}
+{%- if feature_url == feature_row_url -%}{%- assign feature_is_main = true -%}{%- endif -%}
+{%- assign feature_game = include.row.name_markdown | markdownify | strip_html | strip -%}
+{%- assign feature_qualifier_length = include.row.completion_qualifier | size -%}
+{%- if feature_is_main -%}
+  {%- assign feature_title = feature_project.name | default: feature_game -%}
+{%- else -%}
+  {%- assign feature_title = feature_port.name | default: feature_project.name | default: feature_game -%}
+{%- endif -%}
+
+<hr>
+<h3 id="project-{{ feature_url | remove: 'https://' | remove: 'http://' | slugify }}">{{ feature_title | escape }}</h3>
+<div class="rr-project-article{% if include.row.images.size == 0 %} rr-project-article--text-only{% endif %}">
+{% if include.row.images.size > 0 %}
+  <div class="rr-project-article__artwork">
+    {% for image in include.row.images %}
+      {% include article-figure.html src=image.url alt=image.alt width=image.width height=image.height crossorigin="anonymous" %}
+    {% endfor %}
+  </div>
+{% endif %}
+  <div class="rr-project-article__copy">
+    <p>{% if include.type == 'Disassembly' %}The <a href="{{ include.url | escape }}">{{ feature_title | escape }} project</a> documents the game as assembly code, rather than recovered C or C++.
+    {% elsif include.kind == 'decompilation' %}The <a href="{{ include.url | escape }}">{{ feature_title | escape }} project</a> is catalogued as a {% if include.type == 'Matching decompilation' %}matching decompilation, aiming to reproduce the original machine code when compiled{% else %}decompilation, recovering higher-level source code from a compiled game{% endif %}.
+    {% elsif include.kind == 'recompilation' %}<a href="{{ include.url | escape }}">{{ feature_title | escape }}</a> is a recompilation project{% unless feature_is_main %} for {{ feature_game | escape }}{% endunless %}, translating the original game code for execution on another platform.
+    {% else %}<a href="{{ include.url | escape }}">{{ feature_title | escape }}</a> is a native-port project{% unless feature_is_main %} for {{ feature_game | escape }}{% endunless %}, adapting the game to run on other hardware.{% endif %}</p>
+    {% if feature_is_main and include.row.notes_markdown != empty %}
+      {{ include.row.notes_markdown | markdownify }}
+    {% endif %}
+    {% if feature_port.description_markdown and feature_port.description_markdown != empty and feature_port.description_markdown != include.row.notes_markdown %}
+      {{ feature_port.description_markdown | markdownify }}
+    {% endif %}
+    {% if feature_port.platforms.size > 0 %}<p><strong>Recorded targets:</strong> {{ feature_port.platforms | join: ', ' | escape }}.</p>{% endif %}
+    {% if feature_is_main and include.row.completion_percent != nil %}
+      <p><strong>Recorded progress:</strong> {{ include.row.completion_qualifier | escape }}{% if feature_qualifier_length > 1 %}{{ ' ' }}{% endif %}{{ include.row.completion_percent }}% {% case include.row.completion_metric %}{% when 'functional' %}functional coverage{% when 'accuracy' %}accuracy{% when 'executable-byte-matching' %}executable byte matching{% when 'code-and-data-byte-matching' %}code and data byte matching{% when 'completion' %}complete{% else %}{{ include.row.completion_metric | escape }}{% endcase %}.</p>
+    {% endif %}
+    {% if feature_project.activity.last_commit_at %}
+      <p class="rr-project-article__activity">{{ feature_project.activity.status | escape }} repository. Last recorded commit: <a href="{{ feature_project.activity.last_commit_url | escape }}"><time datetime="{{ feature_project.activity.last_commit_at | date: '%Y-%m-%d' }}">{{ feature_project.activity.last_commit_at | date: '%-d %B %Y' }}</time></a>.{% if feature_project.activity.check_error %} Latest activity check unavailable.{% endif %}</p>
+    {% elsif feature_project.activity.check_error %}
+      <p class="rr-project-article__activity">Repository activity unverified; the latest check was unavailable.</p>
+    {% endif %}
+  </div>
+</div>

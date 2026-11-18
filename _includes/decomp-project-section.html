@@ -1,0 +1,37 @@
+{%- comment -%}Prefer standalone rows so their full notes and progress survive deduplication.{%- endcomment -%}
+{%- for article_row in article_rows -%}
+  {%- for article_type in article_row.project_types -%}
+    {%- capture article_url_key -%}|{{ article_type.url | downcase | split: '/' | join: '/' }}|{%- endcapture -%}
+    {%- assign article_matches = false -%}
+    {%- if include.kind == 'decompilation' -%}
+      {%- if article_type.name == 'Decompilation' or article_type.name == 'Matching decompilation' or article_type.name == 'Disassembly' -%}{%- assign article_matches = true -%}{%- endif -%}
+    {%- elsif include.kind == 'recompilation' -%}
+      {%- if article_recomp_urls contains article_url_key -%}{%- assign article_matches = true -%}{%- endif -%}
+    {%- elsif article_type.name == 'Native port' -%}
+      {%- unless article_recomp_urls contains article_url_key -%}{%- assign article_matches = true -%}{%- endunless -%}
+    {%- endif -%}
+    {%- if article_matches -%}
+      {%- unless article_seen_urls contains article_url_key -%}
+        {% include decomp-project-article.html row=article_row url=article_type.url type=article_type.name kind=include.kind platform=include.platform %}
+        {%- assign article_seen_urls = article_seen_urls | append: article_url_key -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- for article_row in article_rows -%}
+  {%- for article_related_port in article_row.ports -%}
+    {%- capture article_url_key -%}|{{ article_related_port.url | downcase | split: '/' | join: '/' }}|{%- endcapture -%}
+    {%- assign article_matches = false -%}
+    {%- if include.kind == 'recompilation' -%}
+      {%- if article_recomp_urls contains article_url_key -%}{%- assign article_matches = true -%}{%- endif -%}
+    {%- elsif include.kind == 'port' -%}
+      {%- unless article_recomp_urls contains article_url_key -%}{%- assign article_matches = true -%}{%- endunless -%}
+    {%- endif -%}
+    {%- if article_matches -%}
+      {%- unless article_seen_urls contains article_url_key -%}
+        {% include decomp-project-article.html row=article_row port=article_related_port url=article_related_port.url kind=include.kind platform=include.platform %}
+        {%- assign article_seen_urls = article_seen_urls | append: article_url_key -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

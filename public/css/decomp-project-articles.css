@@ -1,0 +1,31 @@
+/* An illustrated article column, with the shared figure component for artwork. */
+.post .rr-project-article {
+  display: grid;
+  grid-template-columns: minmax(140px, 220px) minmax(0, 1fr);
+  align-items: start;
+  gap: 1.75rem;
+  margin: 1rem 0 2.5rem;
+}
+.post .rr-project-article--text-only { grid-template-columns: minmax(0, 1fr); }
+.post .rr-project-article__artwork .rr-article-figure {
+  margin: 0 0 1rem;
+  border: 0;
+  background: var(--rr-color-main-bg);
+}
+.post .rr-project-article__artwork .rr-article-figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.post .rr-project-article__copy { min-width: 0; overflow-wrap: anywhere; }
+.post .rr-project-article__copy > :first-child { margin-top: 0; }
+.post .rr-project-article__activity {
+  padding-top: .75rem;
+  border-top: 1px solid var(--rr-color-content-border);
+  color: var(--rr-color-content-text);
+  font-size: .9rem;
+}
+@media (max-width: 700px) {
+  .post .rr-project-article { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+  .post .rr-project-article__artwork { max-width: 220px; }
+}
