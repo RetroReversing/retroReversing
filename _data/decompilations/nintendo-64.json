@@ -4933,6 +4933,26 @@
         "n64-decomp-kit",
         "make"
       ]
+    },
+    "super-mario-64-vflash-sm64": {
+      "name": "Super Mario 64 (V.Flash port)",
+      "platforms": [
+        "VTech V.Flash (V.Smile Pro)"
+      ],
+      "repository_url": "https://github.com/neofodere/vflash-sm64",
+      "project_type": "Native port",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "9bef1128717f958171a4afac3ed78ee2bb4e86ce",
+        "8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51",
+        "4ac5721683d0e0b6bbb561b58a71740845dceea9"
+      ],
+      "project_builders": [
+        "make"
+      ]
     }
   },
   "consoles": {
@@ -6853,6 +6873,17 @@
                 "Android"
               ],
               "description_markdown": "Decompilation-based native port of Super Mario 64.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SM64 for V.Flash",
+              "url": "https://github.com/neofodere/vflash-sm64",
+              "platforms": [
+                "VTech V.Flash (V.Smile Pro)"
+              ],
+              "description_markdown": "Experimental decompilation-based port; the converter builds a V.Flash disc image from the user's own US, Japanese or European 8 MiB ROM. Shindou and iQue are unsupported. Tested only in FlashEm and V.Dream, never on real hardware; verified play is limited to boot, menus, intro and castle grounds. Saves are not persisted, rendering is approximate, busy scenes are slow, and audio is experimental (US effects/voices work, music is incorrect; Japanese/European audio untested). See the [README](https://github.com/neofodere/vflash-sm64#readme) and [status/limitations](https://github.com/neofodere/vflash-sm64/blob/main/docs/STATUS.md).",
               "project_types": [
                 "Native port"
               ]
@@ -11866,6 +11897,17 @@
                 "Android"
               ],
               "description_markdown": "Decompilation-based native port of Super Mario 64.",
+              "project_types": [
+                "Native port"
+              ]
+            },
+            {
+              "name": "SM64 for V.Flash",
+              "url": "https://github.com/neofodere/vflash-sm64",
+              "platforms": [
+                "VTech V.Flash (V.Smile Pro)"
+              ],
+              "description_markdown": "Experimental decompilation-based port; the converter builds a V.Flash disc image from the user's own US, Japanese or European 8 MiB ROM. Shindou and iQue are unsupported. Tested only in FlashEm and V.Dream, never on real hardware; verified play is limited to boot, menus, intro and castle grounds. Saves are not persisted, rendering is approximate, busy scenes are slow, and audio is experimental (US effects/voices work, music is incorrect; Japanese/European audio untested). See the [README](https://github.com/neofodere/vflash-sm64#readme) and [status/limitations](https://github.com/neofodere/vflash-sm64/blob/main/docs/STATUS.md).",
               "project_types": [
                 "Native port"
               ]
