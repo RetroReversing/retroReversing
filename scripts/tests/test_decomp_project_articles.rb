@@ -16,7 +16,7 @@ class DecompProjectArticlesTest < Minitest::Test
     @source = File.join(@temp, 'source')
     FileUtils.mkdir_p(File.join(@source, '_data', 'decompilations'))
     FileUtils.mkdir_p(File.join(@source, '_includes'))
-    %w[decomp-project-articles decomp-project-section decomp-project-article article-figure].each do |name|
+    %w[decomp-project-articles decomp-project-section decomp-project-game decomp-project-article article-figure].each do |name|
       FileUtils.cp(File.join(ROOT, '_includes', "#{name}.html"), File.join(@source, '_includes'))
     end
     File.write(File.join(@source, 'index.html'), "---\n---\n{% include decomp-project-articles.html console=\"nintendo-64\" %}")
@@ -34,7 +34,7 @@ class DecompProjectArticlesTest < Minitest::Test
       'activity' => {}, 'completion_status' => nil
     }
     result = {
-      'project' => id, 'name_markdown' => "[#{name}](#{url})",
+      'project' => id, 'game' => name, 'name_markdown' => "[#{name}](#{url})",
       'project_types' => [{ 'name' => type, 'url' => url }],
       'notes_markdown' => notes, 'images' => images, 'ports' => ports,
       'completion_percent' => nil, 'completion_metric' => 'completion', 'completion_qualifier' => ''
@@ -56,7 +56,7 @@ class DecompProjectArticlesTest < Minitest::Test
   end
 
   def section_for(heading)
-    heading.xpath('preceding-sibling::h2[1]').text
+    heading.xpath('preceding::h2[1]').text
   end
 
   def test_every_method_has_its_own_heading_and_recompilation_wins_over_port
@@ -73,7 +73,7 @@ class DecompProjectArticlesTest < Minitest::Test
     assert_equal 'Byte-Accurate Decompilations', section_for(doc.at_css('#project-example-org-source'))
     assert_equal 'Recompilations', section_for(doc.at_css('#project-example-org-recomp'))
     assert_equal 'Ports', section_for(doc.at_css('#project-example-org-native'))
-    copy = doc.at_css('#project-example-org-recomp').next_element.text
+    copy = doc.at_css('#project-example-org-recomp').text
     assert_includes copy, 'Experimental build.'
     assert_includes copy, 'Widescreen support.'
     assert_includes copy, 'Recorded targets: Linux.'
@@ -130,4 +130,36 @@ class DecompProjectArticlesTest < Minitest::Test
     assert_empty doc.css('img')
     refute_includes doc.text, '100%'
   end
+  def test_multiple_projects_share_one_game_heading_and_cover_in_each_section
+    cover = [{'url' => 'https://example.org/cover.png', 'alt' => 'Game cover', 'width' => 100}]
+    first = row('game', 'Game', 'Decompilation', 'https://example.org/source', images: cover, ports: [{
+      'name' => 'Game PC', 'url' => 'https://example.org/pc', 'project_types' => ['Native port'],
+      'platforms' => ['Windows'], 'description_markdown' => 'PC enhancements.'
+    }])
+    second = row('alternate', 'Game (Alternate source)', 'Decompilation', 'https://example.org/alternate', images: cover, notes: 'Alternate build details.')
+    second['game'] = 'Game'
+    native = row('native', 'Game (Console port)', 'Native port', 'https://example.org/console', images: cover, notes: 'Console build details.')
+    native['game'] = 'Game'
+    row('sequel', 'Game 2', 'Decompilation', 'https://example.org/sequel', images: cover)
+    doc = render
+    assert_equal ['Game', 'Game 2', 'Game'], doc.css('h3').map(&:text)
+    assert_equal 3, doc.css('.rr-project-article img').size
+    assert_equal 5, doc.css('.rr-project-article__copy').size
+    assert_equal 5, doc.css('.rr-project-article__copy[id]').map { |e| e['id'] }.uniq.size
+    source = doc.at_css('#decompilation-game').next_element
+    assert_equal 2, source.css('.rr-project-article__copy').size
+    assert_includes source.text, 'Alternate build details.'
+    ports = doc.at_css('#port-game').next_element
+    assert_equal 2, ports.css('.rr-project-article__copy').size
+    assert_equal 1, ports.css('img').size
+    assert_includes ports.text, 'PC enhancements.'
+    assert_includes ports.text, 'Console build details.'
+  end
+
+  def test_new_rows_without_game_metadata_do_not_merge_unrelated_games
+    row('one', 'One', 'Decompilation', 'https://example.org/one').delete('game')
+    row('two', 'Two', 'Decompilation', 'https://example.org/two').delete('game')
+    assert_equal ['One', 'Two'], render.css('h3').map(&:text)
+  end
+
 end

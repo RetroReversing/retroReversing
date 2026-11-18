@@ -23,7 +23,8 @@ placeholderimages:
 
 [Nintendo 64](/n64) decompilation projects recover the code behind cartridge games, from Super Mario 64 and Mario Kart 64 to less familiar corners of the library.
 This illustrated guide follows three routes into that code: source reconstruction, recompilation and native ports.
-Each project links to its repository, with artwork, progress and technical notes drawn from the [RetroReversing project catalogue](/decompilations.json).
+Each game has one heading and cover per section, followed by its different projects.
+Project links, progress and technical notes are drawn from the [RetroReversing project catalogue](/decompilations.json).
 
 A matching decompilation aims to rebuild the original machine code from recovered source.
 A static recompilation translates the original instructions into code for another platform.

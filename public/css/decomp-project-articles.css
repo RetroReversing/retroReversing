@@ -29,3 +29,10 @@
   .post .rr-project-article { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
   .post .rr-project-article__artwork { max-width: 220px; }
 }
+
+.post .rr-project-article__projects { min-width: 0; }
+.post .rr-project-article__copy + .rr-project-article__copy {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rr-color-content-border);
+}

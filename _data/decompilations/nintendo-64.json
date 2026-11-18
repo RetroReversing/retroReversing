@@ -4935,7 +4935,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/AeroGauge"
             }
-          ]
+          ],
+          "game": "AeroGauge"
         },
         {
           "project": "aidyn-chronicles-the-first-mage",
@@ -4971,7 +4972,8 @@
               "name": "Decompilation",
               "url": "https://github.com/blackgamma7/Aidyn"
             }
-          ]
+          ],
+          "game": "Aidyn Chronicles: The First Mage"
         },
         {
           "project": "banjo-kazooie",
@@ -5004,7 +5006,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/banjo.decomp/banjo-kazooie"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-tooie",
@@ -5051,7 +5054,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mr-wiseguy/banjo-tooie"
             }
-          ]
+          ],
+          "game": "Banjo-Tooie"
         },
         {
           "project": "battletanx",
@@ -5073,7 +5077,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/BattleTanx"
             }
-          ]
+          ],
+          "game": "BattleTanx"
         },
         {
           "project": "battletanx-global-assault",
@@ -5108,7 +5113,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault"
             }
-          ]
+          ],
+          "game": "BattleTanx: Global Assault"
         },
         {
           "project": "blast-corps",
@@ -5130,7 +5136,8 @@
               "name": "Decompilation",
               "url": "https://github.com/retroplastic/blastcorps"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest",
@@ -5152,7 +5159,8 @@
               "name": "Decompilation",
               "url": "https://github.com/deltaniumindustries/bodyharvestdecomp"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "bomberman-64",
@@ -5185,7 +5193,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/bm64"
             }
-          ]
+          ],
+          "game": "Bomberman 64"
         },
         {
           "project": "bomberman-64-the-second-attack",
@@ -5207,7 +5216,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/tsa"
             }
-          ]
+          ],
+          "game": "Bomberman 64: The Second Attack!"
         },
         {
           "project": "bomberman-hero",
@@ -5240,7 +5250,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/bmhero"
             }
-          ]
+          ],
+          "game": "Bomberman Hero"
         },
         {
           "project": "castlevania-64",
@@ -5262,7 +5273,8 @@
               "name": "Decompilation",
               "url": "https://github.com/k64ret/cv64"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "chameleon-twist",
@@ -5295,7 +5307,8 @@
               "name": "Decompilation",
               "url": "https://github.com/chameleontwistret/chameleontwistv1.0-jp"
             }
-          ]
+          ],
+          "game": "Chameleon Twist"
         },
         {
           "project": "chameleon-twist-2",
@@ -5317,7 +5330,8 @@
               "name": "Decompilation",
               "url": "https://github.com/chameleontwistret/chameleontwist2v1.0-jp"
             }
-          ]
+          ],
+          "game": "Chameleon Twist 2"
         },
         {
           "project": "conker-s-bad-fur-day",
@@ -5367,7 +5381,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mkst/conker"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "dark-rift",
@@ -5389,7 +5404,8 @@
               "name": "Decompilation",
               "url": "https://github.com/unnunu/darkrift"
             }
-          ]
+          ],
+          "game": "Dark Rift"
         },
         {
           "project": "diddy-kong-racing",
@@ -5411,7 +5427,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DavidSM64/Diddy-Kong-Racing"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "dinosaur-planet",
@@ -5443,7 +5460,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zestydevy/dinosaur-planet"
             }
-          ]
+          ],
+          "game": "Dinosaur Planet"
         },
         {
           "project": "donkey-kong-64",
@@ -5476,7 +5494,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/dk64_decomp/dk64"
             }
-          ]
+          ],
+          "game": "Donkey Kong 64"
         },
         {
           "project": "doom-64",
@@ -5498,7 +5517,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Erick194/DOOM64-RE"
             }
-          ]
+          ],
+          "game": "Doom 64"
         },
         {
           "project": "doraemon-nobita-to-mittsu-no-seireiseki",
@@ -5520,7 +5540,8 @@
               "name": "Decompilation",
               "url": "https://github.com/prakxo/doraemon1"
             }
-          ]
+          ],
+          "game": "Doraemon: Nobita to Mittsu no Seireiseki"
         },
         {
           "project": "dobutsu-no-mori",
@@ -5542,7 +5563,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/af"
             }
-          ]
+          ],
+          "game": "Dōbutsu no Mori"
         },
         {
           "project": "dr-mario-64",
@@ -5575,7 +5597,8 @@
               "name": "Decompilation",
               "url": "https://github.com/angheloalf/drmario64"
             }
-          ]
+          ],
+          "game": "Dr. Mario 64"
         },
         {
           "project": "duke-nukem-64",
@@ -5597,7 +5620,8 @@
               "name": "Decompilation",
               "url": "https://github.com/nblood/duke64-re"
             }
-          ]
+          ],
+          "game": "Duke Nukem 64"
         },
         {
           "project": "duke-nukem-zero-hour",
@@ -5634,7 +5658,8 @@
               "name": "Decompilation",
               "url": "https://github.com/gillou68310/dukenukemzerohour"
             }
-          ]
+          ],
+          "game": "Duke Nukem: Zero Hour"
         },
         {
           "project": "extreme-g",
@@ -5666,7 +5691,8 @@
               "name": "Static recompilation",
               "url": "https://gitlab.com/sonicdcer/ExtremeGRecomp"
             }
-          ]
+          ],
+          "game": "Extreme-G"
         },
         {
           "project": "f-zero-x",
@@ -5700,7 +5726,8 @@
               "name": "Decompilation",
               "url": "https://github.com/inspectredc/fzerox"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "f-zero-x-expansion-kit",
@@ -5722,7 +5749,8 @@
               "name": "Decompilation",
               "url": "https://github.com/inspectredc/fzerox-expansion-kit"
             }
-          ]
+          ],
+          "game": "F-Zero X Expansion Kit"
         },
         {
           "project": "gauntlet-legends",
@@ -5744,7 +5772,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Drahsid/gauntlet-legends"
             }
-          ]
+          ],
+          "game": "Gauntlet Legends"
         },
         {
           "project": "gex-64-enter-the-gecko",
@@ -5766,7 +5795,8 @@
               "name": "Decompilation",
               "url": "https://github.com/matbourgon/gex64decomp"
             }
-          ]
+          ],
+          "game": "Gex 64: Enter the Gecko"
         },
         {
           "project": "glover",
@@ -5788,7 +5818,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/glover"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "goemon-s-great-adventure",
@@ -5810,7 +5841,8 @@
               "name": "Disassembly",
               "url": "https://github.com/StopSine/gga"
             }
-          ]
+          ],
+          "game": "Goemon's Great Adventure"
         },
         {
           "project": "goldeneye-007",
@@ -5870,7 +5902,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/007"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "harvest-moon-64",
@@ -5903,7 +5936,8 @@
               "name": "Decompilation",
               "url": "https://github.com/harvestwhisperer/hm64-decomp"
             }
-          ]
+          ],
+          "game": "Harvest Moon 64"
         },
         {
           "project": "jet-force-gemini",
@@ -5938,7 +5972,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ryan-myers/jet-force-gemini"
             }
-          ]
+          ],
+          "game": "Jet Force Gemini"
         },
         {
           "project": "kirby-64-the-crystal-shards",
@@ -5960,7 +5995,8 @@
               "name": "Decompilation",
               "url": "https://github.com/kirby64ret/kirby64"
             }
-          ]
+          ],
+          "game": "Kirby 64: The Crystal Shards"
         },
         {
           "project": "lego-racers",
@@ -5982,7 +6018,8 @@
               "name": "Decompilation",
               "url": "https://github.com/marijnvdwerf/lego-racers"
             }
-          ]
+          ],
+          "game": "Lego Racers"
         },
         {
           "project": "mario-golf",
@@ -6004,7 +6041,8 @@
               "name": "Decompilation",
               "url": "https://github.com/monde-lointain/mariogolf64"
             }
-          ]
+          ],
+          "game": "Mario Golf"
         },
         {
           "project": "mario-kart-64",
@@ -6109,7 +6147,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/mk64"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-party",
@@ -6131,7 +6170,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty"
             }
-          ]
+          ],
+          "game": "Mario Party"
         },
         {
           "project": "mario-party-2",
@@ -6153,7 +6193,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty2"
             }
-          ]
+          ],
+          "game": "Mario Party 2"
         },
         {
           "project": "mario-party-3",
@@ -6175,7 +6216,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty3"
             }
-          ]
+          ],
+          "game": "Mario Party 3"
         },
         {
           "project": "mario-tennis",
@@ -6197,7 +6239,8 @@
               "name": "Decompilation",
               "url": "https://github.com/dellm-79/mariotennisn64"
             }
-          ]
+          ],
+          "game": "Mario Tennis"
         },
         {
           "project": "mischief-makers",
@@ -6219,7 +6262,8 @@
               "name": "Decompilation",
               "url": "https://github.com/drahsid/mischief-makers"
             }
-          ]
+          ],
+          "game": "Mischief Makers"
         },
         {
           "project": "mystical-ninja-starring-goemon",
@@ -6252,7 +6296,8 @@
               "name": "Decompilation",
               "url": "https://github.com/klorfmorf/mnsg"
             }
-          ]
+          ],
+          "game": "Mystical Ninja Starring Goemon"
         },
         {
           "project": "neon-genesis-evangelion",
@@ -6274,7 +6319,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/evangelion"
             }
-          ]
+          ],
+          "game": "Neon Genesis Evangelion"
         },
         {
           "project": "onegai-monsters",
@@ -6296,7 +6342,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ryan-myers/onegaimonsters"
             }
-          ]
+          ],
+          "game": "Onegai Monsters"
         },
         {
           "project": "paper-mario",
@@ -6344,7 +6391,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pmret/papermario"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "perfect-dark",
@@ -6378,7 +6426,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/perfect_dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-puzzle-league",
@@ -6400,7 +6449,8 @@
               "name": "Decompilation",
               "url": "https://github.com/angheloalf/puzzleleague64"
             }
-          ]
+          ],
+          "game": "Pokemon Puzzle League"
         },
         {
           "project": "pokemon-snap",
@@ -6422,7 +6472,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ethteck/pokemonsnap"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "pokemon-stadium",
@@ -6457,7 +6508,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pret/pokestadium"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "pokemon-stadium-2",
@@ -6479,7 +6531,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pret/pokestadiumgs"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium 2"
         },
         {
           "project": "quest-64",
@@ -6512,7 +6565,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/quest64-decomp"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "rocket-robot-on-wheels",
@@ -6549,7 +6603,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels"
             }
-          ]
+          ],
+          "game": "Rocket: Robot on Wheels"
         },
         {
           "project": "shadowgate-64",
@@ -6571,7 +6626,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/shadowgate64"
             }
-          ]
+          ],
+          "game": "Shadowgate 64"
         },
         {
           "project": "sin-and-punishment-snprecomp",
@@ -6597,7 +6653,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/snprecomp"
             }
-          ]
+          ],
+          "game": "Sin and Punishment"
         },
         {
           "project": "snowboard-kids-2",
@@ -6634,7 +6691,8 @@
               "name": "Decompilation",
               "url": "https://github.com/cdlewis/snowboardkids2-decomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids 2"
         },
         {
           "project": "space-station-silicon-valley",
@@ -6667,7 +6725,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mkst/sssv"
             }
-          ]
+          ],
+          "game": "Space Station Silicon Valley"
         },
         {
           "project": "star-fox-64",
@@ -6729,7 +6788,8 @@
               "name": "Decompilation",
               "url": "https://github.com/sonicdcer/sf64"
             }
-          ]
+          ],
+          "game": "Star Fox 64"
         },
         {
           "project": "star-wars-shadows-of-the-empire",
@@ -6751,7 +6811,8 @@
               "name": "Decompilation",
               "url": "https://github.com/eltalelibrarian/sote"
             }
-          ]
+          ],
+          "game": "Star Wars: Shadows of the Empire"
         },
         {
           "project": "super-mario-64",
@@ -6821,7 +6882,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/sm64"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-smash-bros",
@@ -6843,7 +6905,8 @@
               "name": "Decompilation",
               "url": "https://github.com/vetritheretri/ssb-decomp-re"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "superman-64",
@@ -6865,7 +6928,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/superman"
             }
-          ]
+          ],
+          "game": "Superman 64"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time",
@@ -6887,7 +6951,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/oot"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask",
@@ -6932,7 +6997,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/mm"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-new-tetris",
@@ -6954,7 +7020,8 @@
               "name": "Decompilation",
               "url": "https://github.com/kiritodv/tnt"
             }
-          ]
+          ],
+          "game": "The New Tetris"
         },
         {
           "project": "turok-3-shadow-of-oblivion",
@@ -6976,7 +7043,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Drahsid/turok3"
             }
-          ]
+          ],
+          "game": "Turok 3: Shadow of Oblivion"
         },
         {
           "project": "virtual-pool-64",
@@ -6998,7 +7066,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/virtualpool64"
             }
-          ]
+          ],
+          "game": "Virtual Pool 64"
         },
         {
           "project": "virtual-pro-wrestling-2-odo-keisho",
@@ -7020,7 +7089,8 @@
               "name": "Decompilation",
               "url": "https://github.com/aki-club/vpw2"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 2: Ōdō Keishō"
         },
         {
           "project": "wave-race-64",
@@ -7055,7 +7125,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/Wave-Race-64"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "yoshi-s-story",
@@ -7077,7 +7148,8 @@
               "name": "Decompilation",
               "url": "https://github.com/decompals/yoshis-story"
             }
-          ]
+          ],
+          "game": "Yoshi's Story"
         },
         {
           "project": "pilotwings-64-matching-decompilation",
@@ -7127,7 +7199,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp"
             }
-          ]
+          ],
+          "game": "Pilotwings 64"
         },
         {
           "project": "buck-bumble-project-bumble",
@@ -7149,7 +7222,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/riseio/project-bumble"
             }
-          ]
+          ],
+          "game": "Buck Bumble"
         },
         {
           "project": "blast-corps-slaveofido",
@@ -7171,7 +7245,8 @@
               "name": "Decompilation",
               "url": "https://github.com/SlaveOfIDO/blastcorps"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest-jaytheham",
@@ -7193,7 +7268,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jaytheham/body-harvest-decompilation"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "ridge-racer-64",
@@ -7215,7 +7291,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jvicu2001/rr64-decomp"
             }
-          ]
+          ],
+          "game": "Ridge Racer 64"
         },
         {
           "project": "star-wars-rogue-squadron",
@@ -7237,7 +7314,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Tmcg2/rogue_squadron64"
             }
-          ]
+          ],
+          "game": "Star Wars: Rogue Squadron"
         },
         {
           "project": "wonder-project-j2-josette-of-the-corlo-forest",
@@ -7259,7 +7337,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT-glitch/wonder"
             }
-          ]
+          ],
+          "game": "Wonder Project J2: Josette of the Corlo Forest"
         },
         {
           "project": "beetle-adventure-racing",
@@ -7281,7 +7360,8 @@
               "name": "Decompilation",
               "url": "https://github.com/synamaxmusic/bar-decomp"
             }
-          ]
+          ],
+          "game": "Beetle Adventure Racing!"
         },
         {
           "project": "conker-s-bad-fur-day-devoldschool",
@@ -7303,7 +7383,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DevOldSchool/conkers-bfd-decomp"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "diddy-kong-racing-recomp",
@@ -7325,7 +7406,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ThatGuyMcd/DKR-R"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "ogre-battle-64-person-of-lordly-caliber",
@@ -7347,7 +7429,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/lfarroco/ogre-battle-64-recomp"
             }
-          ]
+          ],
+          "game": "Ogre Battle 64: Person of Lordly Caliber"
         },
         {
           "project": "perfect-dark-dab-s-mod",
@@ -7369,7 +7452,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DabDavis/perfect-dark-dabs-mod"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-snap-recomp",
@@ -7391,7 +7475,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/JackandBeans/Snap64Recomp"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "snowboard-kids",
@@ -7413,7 +7498,8 @@
               "name": "Disassembly",
               "url": "https://github.com/sonicdcer/sk"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "wave-race-64-recomp",
@@ -7435,7 +7521,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/elliotttate/wave-race-64-recomp"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "shiren-the-wanderer-2",
@@ -7457,7 +7544,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mschienbein/shiren2-decomp"
             }
-          ]
+          ],
+          "game": "Shiren the Wanderer 2"
         },
         {
           "project": "hybrid-heaven",
@@ -7479,7 +7567,8 @@
               "name": "Decompilation",
               "url": "https://github.com/southcitycapture/hybridheaven-decomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "paperboy",
@@ -7501,7 +7590,8 @@
               "name": "Decompilation",
               "url": "https://github.com/marijnvdwerf/paperboy-n64"
             }
-          ]
+          ],
+          "game": "Paperboy"
         },
         {
           "project": "starcraft-64-n0madic-recomp",
@@ -7527,7 +7617,8 @@
               "name": "Native port",
               "url": "https://github.com/n0madic/StarCraft64-recomp"
             }
-          ]
+          ],
+          "game": "StarCraft 64"
         },
         {
           "project": "snowboard-kids-cdlewis",
@@ -7549,7 +7640,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/cdlewis/snowboardkids-decomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "1080-snowboarding",
@@ -7571,7 +7663,8 @@
               "name": "Decompilation",
               "url": "https://github.com/djsaunde/1080-decomp"
             }
-          ]
+          ],
+          "game": "1080° Snowboarding"
         },
         {
           "project": "animal-forest-animal-forest-psp",
@@ -7594,7 +7687,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/bruder-grimm/animal_forest_psp"
             }
-          ]
+          ],
+          "game": "Dōbutsu no Mori"
         },
         {
           "project": "automobili-lamborghini",
@@ -7620,7 +7714,8 @@
               "name": "Native port",
               "url": "https://github.com/alondero/automobililamborghini-recomp"
             }
-          ]
+          ],
+          "game": "Automobili Lamborghini"
         },
         {
           "project": "banjo-kazooie-banjo-kazooie",
@@ -7642,7 +7737,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/banjo-kazooie"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-kazooie-banjo-recompiled-android-port",
@@ -7664,7 +7760,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/AurelioB/BanjoRecomp-Android"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-kazooie-lighthouse",
@@ -7686,7 +7783,8 @@
               "name": "Native port",
               "url": "https://github.com/HarbourMasters/Lighthouse"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-tooie-banjo-tooie-recompiled",
@@ -7712,7 +7810,8 @@
               "name": "Native port",
               "url": "https://github.com/Vidanox/BanjoTooieRecompiled"
             }
-          ]
+          ],
+          "game": "Banjo-Tooie"
         },
         {
           "project": "battletanx-nintendo-64",
@@ -7734,7 +7833,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/AbuN64/battletanx-decomp"
             }
-          ]
+          ],
+          "game": "BattleTanx"
         },
         {
           "project": "battletanx-global-assault-btgarecomp",
@@ -7760,7 +7860,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/btgarecomp"
             }
-          ]
+          ],
+          "game": "BattleTanx: Global Assault"
         },
         {
           "project": "battlezone-rise-of-the-black-dogs-bzrecomp",
@@ -7786,7 +7887,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/bzrecomp"
             }
-          ]
+          ],
+          "game": "Battlezone: Rise of the Black Dogs"
         },
         {
           "project": "beetle-adventure-racing-recomp",
@@ -7812,7 +7914,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"
             }
-          ]
+          ],
+          "game": "Beetle Adventure Racing!"
         },
         {
           "project": "blast-corps-power-dozer",
@@ -7834,7 +7937,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/djultra64/Power-Dozer"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest-recomp",
@@ -7860,7 +7964,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/body-harvest-recomp"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "castlevania-64-cv64-recomp",
@@ -7886,7 +7991,8 @@
               "name": "Native port",
               "url": "https://github.com/spacefarergames/CV64-Recomp"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "castlevania-64-recomp",
@@ -7908,7 +8014,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RevoSucks/CV64Recomp"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "castlevania-legacy-of-darkness",
@@ -7930,7 +8037,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/fliperama86/cvlod_recomp"
             }
-          ]
+          ],
+          "game": "Castlevania: Legacy of Darkness"
         },
         {
           "project": "conker-s-bad-fur-day-conker64-recompiled",
@@ -7952,7 +8060,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Conker64Recomp/conker64-recompiled"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "diddy-kong-racing-goldenballoon",
@@ -7974,7 +8083,8 @@
               "name": "Decompilation",
               "url": "https://github.com/akratch/goldenballoon"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "doom-64-doom64-dc",
@@ -7996,7 +8106,8 @@
               "name": "Native port",
               "url": "https://github.com/jnmartin84/doom64-dc"
             }
-          ]
+          ],
+          "game": "Doom 64"
         },
         {
           "project": "doraemon-nobita-to-mittsu-no-seireiseki-recomp",
@@ -8018,7 +8129,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/citrongames/Dora64"
             }
-          ]
+          ],
+          "game": "Doraemon: Nobita to Mittsu no Seireiseki"
         },
         {
           "project": "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310",
@@ -8040,7 +8152,8 @@
               "name": "Native port",
               "url": "https://github.com/Gillou68310/DukeNukemZeroHourPort"
             }
-          ]
+          ],
+          "game": "Duke Nukem: Zero Hour"
         },
         {
           "project": "f-zero-x-f-zerox",
@@ -8062,7 +8175,8 @@
               "name": "Decompilation",
               "url": "https://github.com/BttrDrgn/f-zerox"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "f-zero-x-gdx-3ds",
@@ -8084,7 +8198,8 @@
               "name": "Decompilation",
               "url": "https://github.com/cruxxxxxx/gdx-3ds"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "glover-glover-decomp",
@@ -8106,7 +8221,8 @@
               "name": "Decompilation",
               "url": "https://github.com/djsaunde/glover-decomp-1"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "glover-recomp",
@@ -8128,7 +8244,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ThatGuyMcd/Glover-R"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "goldeneye-007-nintendo-64",
@@ -8150,7 +8267,8 @@
               "name": "Native port",
               "url": "https://github.com/chrissotraidis/goldenpad"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldeneye-metal",
@@ -8172,7 +8290,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ysrdevs/goldeneye-metal"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldeneye-recomp-server-online-play-for-goldeneye-recomp",
@@ -8194,7 +8313,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/SunJaycy/GoldenEye-Recomp-Server"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldenrecomp",
@@ -8216,7 +8336,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/kholdfuzion/GoldenRecomp"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "hey-you-pikachu",
@@ -8238,7 +8359,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/hey_you_pikachu"
             }
-          ]
+          ],
+          "game": "Hey You, Pikachu!"
         },
         {
           "project": "hybrid-heaven-nintendo-64",
@@ -8264,7 +8386,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "hybrid-heaven-nintendo-64-ogdanimal",
@@ -8290,7 +8413,8 @@
               "name": "Native port",
               "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "hybrid-heaven-recomp",
@@ -8312,7 +8436,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/hunkstalker/hybrid-heaven-recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "jet-force-gemini-nintendo-64",
@@ -8334,7 +8459,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/VibinToast/JetForceGemini-Recomp"
             }
-          ]
+          ],
+          "game": "Jet Force Gemini"
         },
         {
           "project": "kirby-and-the-crystal-shards",
@@ -8357,7 +8483,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Kirby64Ret/Kirby64Recomp"
             }
-          ]
+          ],
+          "game": "Kirby 64: The Crystal Shards"
         },
         {
           "project": "knife-edge-nose-gunner",
@@ -8379,7 +8506,8 @@
               "name": "Decompilation",
               "url": "https://github.com/disi33/KE-NG_Reversing"
             }
-          ]
+          ],
+          "game": "Knife Edge - Nose Gunner"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-mmrecomprando",
@@ -8401,7 +8529,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/RecompRando/MMRecompRando"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-zelda64-recompiled-android",
@@ -8423,7 +8552,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/linkzenic/Zelda64Recomp-Android"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-nintendo-64",
@@ -8445,7 +8575,8 @@
               "name": "Native port",
               "url": "https://github.com/blawar/ooot"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-oot-dc",
@@ -8467,7 +8598,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jnmartin84/oot-dc"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-oot-psp",
@@ -8489,7 +8621,8 @@
               "name": "Native port",
               "url": "https://github.com/z2442/oot-PSP"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "mabecs-international-superstar-soccer-2000",
@@ -8512,7 +8645,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Mabec-games/iss2000-recomp"
             }
-          ]
+          ],
+          "game": "International Superstar Soccer 2000"
         },
         {
           "project": "mario-golf-recomp",
@@ -8534,7 +8668,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Rainchus/MarioGolf64"
             }
-          ]
+          ],
+          "game": "Mario Golf"
         },
         {
           "project": "mario-kart-64-mk64recomp",
@@ -8560,7 +8695,8 @@
               "name": "Native port",
               "url": "https://github.com/arefdsg/MK64Recomp"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-kart-64-spaghettikart-android-port",
@@ -8582,7 +8718,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/SpaghettiKart"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-party-3-recomp",
@@ -8608,7 +8745,8 @@
               "name": "Native port",
               "url": "https://github.com/Rainchus/MarioParty3-Recomp"
             }
-          ]
+          ],
+          "game": "Mario Party 3"
         },
         {
           "project": "mega-man-64",
@@ -8630,7 +8768,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled"
             }
-          ]
+          ],
+          "game": "Mega Man 64"
         },
         {
           "project": "mischief-makers-recomp",
@@ -8656,7 +8795,8 @@
               "name": "Native port",
               "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp"
             }
-          ]
+          ],
+          "game": "Mischief Makers"
         },
         {
           "project": "mystical-ninja-starring-goemon-nintendo-64",
@@ -8678,7 +8818,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ogdanimal/Goemon64Recomp-Android"
             }
-          ]
+          ],
+          "game": "Mystical Ninja Starring Goemon"
         },
         {
           "project": "n64-classic-rush-2",
@@ -8701,7 +8842,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/bryantmh/rush2recompiled"
             }
-          ]
+          ],
+          "game": "Rush 2: Extreme Racing USA"
         },
         {
           "project": "paper-mario-nintendo-64",
@@ -8723,7 +8865,8 @@
               "name": "Decompilation",
               "url": "https://github.com/SecondaryLifer/StarHaven"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-pmvita",
@@ -8745,7 +8888,8 @@
               "name": "Native port",
               "url": "https://github.com/versacepapermario/papermario-pc-upload"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-papermario-dx-engine-fork",
@@ -8767,7 +8911,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bates64/papermario-dx"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-papermariodecompilation",
@@ -8789,7 +8934,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RetroReversing/PaperMarioDecompilation"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-recomp",
@@ -8811,7 +8957,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/lucyawrey/Paper_Mario_64_Recomp"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "perfect-dark-perfect-dark-port-android",
@@ -8833,7 +8980,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/perfect_dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-snap-nintendo-64",
@@ -8855,7 +9003,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/chrissotraidis/snappad"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "pokemon-stadium-nintendo-64",
@@ -8877,7 +9026,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/chrissotraidis/annepad"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "pokemon-stadium-pokemonstadium",
@@ -8899,7 +9049,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ethteck/pokemonstadium"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "quest-64-nintendo-64",
@@ -8921,7 +9072,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Mallos31/Quest"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "quest-64-quest-64-tale-recompiled",
@@ -8943,7 +9095,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/boricuapab/quest64tale-recompiled"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "road-rash-64",
@@ -8965,7 +9118,8 @@
               "name": "Decompilation",
               "url": "https://github.com/linkssy2/RoadRash64Recompiled"
             }
-          ]
+          ],
+          "game": "Road Rash 64"
         },
         {
           "project": "destruction-derby-64",
@@ -8988,7 +9142,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/murkantor/Destruction-Decomp-64"
             }
-          ]
+          ],
+          "game": "Destruction Derby 64"
         },
         {
           "project": "rugrats-scavenger-hunt",
@@ -9011,7 +9166,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Rugrats-Scavenger-Hunt"
             }
-          ]
+          ],
+          "game": "Rugrats: Scavenger Hunt"
         },
         {
           "project": "san-francisco-rush-2049",
@@ -9033,7 +9189,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/cabi24/SFRush2049-decomp"
             }
-          ]
+          ],
+          "game": "San Francisco Rush 2049"
         },
         {
           "project": "san-francisco-rush-2049-nintendo-64",
@@ -9059,7 +9216,8 @@
               "name": "Native port",
               "url": "https://github.com/amazingalek/rush-2049-recomp"
             }
-          ]
+          ],
+          "game": "San Francisco Rush 2049"
         },
         {
           "project": "snowboard-kids-snowboard-kids-recompiled",
@@ -9085,7 +9243,8 @@
               "name": "Native port",
               "url": "https://github.com/cdlewis/snowboardkids-recomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "star-fox-64-starship-android-port",
@@ -9107,7 +9266,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/Starship"
             }
-          ]
+          ],
+          "game": "Star Fox 64"
         },
         {
           "project": "star-wars-rogue-squadron-nintendo-64",
@@ -9129,7 +9289,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp"
             }
-          ]
+          ],
+          "game": "Star Wars: Rogue Squadron"
         },
         {
           "project": "star-wars-shadows-of-the-empire-recomp",
@@ -9151,7 +9312,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/GTTeancum/SotE-Recomp"
             }
-          ]
+          ],
+          "game": "Star Wars: Shadows of the Empire"
         },
         {
           "project": "super-mario-64-nintendo-64",
@@ -9173,7 +9335,8 @@
               "name": "Native port",
               "url": "https://github.com/sm64pc/sm64ex"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-godot",
@@ -9195,7 +9358,8 @@
               "name": "Native port",
               "url": "https://github.com/Brawmario/libsm64-godot"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-rust",
@@ -9217,7 +9381,8 @@
               "name": "Native port",
               "url": "https://github.com/nickmass/libsm64-rust"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-sharp",
@@ -9239,7 +9404,8 @@
               "name": "Native port",
               "url": "https://github.com/MeltyPlayer/libsm64-sharp"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-unity",
@@ -9261,7 +9427,8 @@
               "name": "Native port",
               "url": "https://github.com/libsm64/libsm64-unity"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-sm64-decomp",
@@ -9283,7 +9450,8 @@
               "name": "Decompilation",
               "url": "https://github.com/justinwash/sm64-decomp"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-sm64-pc-port-webgl",
@@ -9305,7 +9473,8 @@
               "name": "Native port",
               "url": "https://github.com/NotAn127/SM64-PC-Port-WebGL"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-smue5",
@@ -9327,7 +9496,8 @@
               "name": "Native port",
               "url": "https://github.com/TheEnbyWitch/SMUE5"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-robot-wars-64",
@@ -9350,7 +9520,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/dyzz/srw64-recomp"
             }
-          ]
+          ],
+          "game": "Super Robot Wars 64"
         },
         {
           "project": "super-smash-bros-nintendo-64",
@@ -9376,7 +9547,8 @@
               "name": "Native port",
               "url": "https://github.com/zestydevy/smash64r"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-nintendo-64-rockenrooster",
@@ -9398,7 +9570,8 @@
               "name": "Native port",
               "url": "https://github.com/rockenrooster/Smash64DS_Port"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-nintendo-64-beigeceleron",
@@ -9420,7 +9593,8 @@
               "name": "Native port",
               "url": "https://github.com/beigeceleron/ssb64-dc"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-battleship",
@@ -9442,7 +9616,8 @@
               "name": "Decompilation",
               "url": "https://github.com/JRickey/BattleShip"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "tetrisphere",
@@ -9464,7 +9639,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/djultra64/Blocksphere"
             }
-          ]
+          ],
+          "game": "Tetrisphere"
         },
         {
           "project": "toy-story-2-buzz-lightyear-to-the-rescue",
@@ -9486,7 +9662,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Capridog/SpaceRanger"
             }
-          ]
+          ],
+          "game": "Toy Story 2: Buzz Lightyear to the Rescue"
         },
         {
           "project": "turok-2-seeds-of-evil",
@@ -9508,7 +9685,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/mgrz18/turok2-decomp"
             }
-          ]
+          ],
+          "game": "Turok 2: Seeds of Evil"
         },
         {
           "project": "turok-rage-wars",
@@ -9534,7 +9712,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/PaxDino"
             }
-          ]
+          ],
+          "game": "Turok: Rage Wars"
         },
         {
           "project": "turok-rage-wars-rage-wars-recompiled",
@@ -9556,7 +9735,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ArtfulRascal8/rage-wars-recompiled"
             }
-          ]
+          ],
+          "game": "Turok: Rage Wars"
         },
         {
           "project": "virtual-pro-wrestling-2",
@@ -9579,7 +9759,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/jessetbh/VPW2Recomp"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 2: Ōdō Keishō"
         },
         {
           "project": "virtual-pro-wrestling-64",
@@ -9605,7 +9786,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/VPW64Recomp"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 64"
         },
         {
           "project": "wave-race-64-wave-race-64-recomp",
@@ -9631,7 +9813,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "wayne-gretzky-s-3d-hockey",
@@ -9653,7 +9836,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/geno55/wg3d-recomp"
             }
-          ]
+          ],
+          "game": "Wayne Gretzky's 3D Hockey"
         },
         {
           "project": "wcw-vs-nwo-world-tour",
@@ -9679,7 +9863,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp"
             }
-          ]
+          ],
+          "game": "WCW vs. nWo: World Tour"
         },
         {
           "project": "wcw-nwo-revenge-recomp",
@@ -9705,7 +9890,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WCWnWoRevengeRecomp"
             }
-          ]
+          ],
+          "game": "WCW/nWo Revenge"
         },
         {
           "project": "the-world-is-not-enough-i-could-have-given-you-the-world",
@@ -9728,7 +9914,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/riseio/TWIPE_00Sheven"
             }
-          ]
+          ],
+          "game": "The World Is Not Enough"
         },
         {
           "project": "wwf-no-mercy",
@@ -9754,7 +9941,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WWFNoMercyRecomp"
             }
-          ]
+          ],
+          "game": "WWF No Mercy"
         },
         {
           "project": "wwf-wrestlemania-2000",
@@ -9780,7 +9968,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp"
             }
-          ]
+          ],
+          "game": "WWF WrestleMania 2000"
         },
         {
           "project": "yoshi-s-story-dinotale",
@@ -9802,7 +9991,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/wootbeer/dinotale"
             }
-          ]
+          ],
+          "game": "Yoshi's Story"
         },
         {
           "project": "goldeneye-007-gitlab-source-project",
@@ -9824,7 +10014,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/kholdfuzion/goldeneye_src"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "perfect-dark-gitlab-source-project",
@@ -9846,7 +10037,8 @@
               "name": "Matching decompilation",
               "url": "https://gitlab.com/ryandwyer/perfect-dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian",
@@ -9869,7 +10061,8 @@
               "name": "Native port",
               "url": "https://github.com/HarbourMasters/Shipwright"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian",
@@ -9892,7 +10085,8 @@
               "name": "Native port",
               "url": "https://github.com/2ship2harkinian/2ship2harkinian"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "super-bowling-64-decomp",
@@ -9914,7 +10108,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/CalenCyr/superbowling64-decomp"
             }
-          ]
+          ],
+          "game": "Super Bowling"
         },
         {
           "project": "v-rally-edition-99-decomp",
@@ -9936,7 +10131,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/RetroReversing/v-rally-decomp"
             }
-          ]
+          ],
+          "game": "V-Rally Edition 99"
         },
         {
           "project": "nagano-winter-olympics-98",
@@ -9958,7 +10154,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Nagano-Winter-Olympics-98-N64"
             }
-          ]
+          ],
+          "game": "Nagano Winter Olympics '98"
         },
         {
           "project": "aerogauge",
@@ -9993,7 +10190,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/AeroGauge"
             }
-          ]
+          ],
+          "game": "AeroGauge"
         },
         {
           "project": "aidyn-chronicles-the-first-mage",
@@ -10029,7 +10227,8 @@
               "name": "Decompilation",
               "url": "https://github.com/blackgamma7/Aidyn"
             }
-          ]
+          ],
+          "game": "Aidyn Chronicles: The First Mage"
         },
         {
           "project": "banjo-kazooie",
@@ -10062,7 +10261,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/banjo.decomp/banjo-kazooie"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-tooie",
@@ -10109,7 +10309,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mr-wiseguy/banjo-tooie"
             }
-          ]
+          ],
+          "game": "Banjo-Tooie"
         },
         {
           "project": "battletanx",
@@ -10131,7 +10332,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/BattleTanx"
             }
-          ]
+          ],
+          "game": "BattleTanx"
         },
         {
           "project": "battletanx-global-assault",
@@ -10166,7 +10368,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/BattleTanx-Global-Assault"
             }
-          ]
+          ],
+          "game": "BattleTanx: Global Assault"
         },
         {
           "project": "blast-corps",
@@ -10188,7 +10391,8 @@
               "name": "Decompilation",
               "url": "https://github.com/retroplastic/blastcorps"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest",
@@ -10210,7 +10414,8 @@
               "name": "Decompilation",
               "url": "https://github.com/deltaniumindustries/bodyharvestdecomp"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "bomberman-64",
@@ -10243,7 +10448,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/bm64"
             }
-          ]
+          ],
+          "game": "Bomberman 64"
         },
         {
           "project": "bomberman-64-the-second-attack",
@@ -10265,7 +10471,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/tsa"
             }
-          ]
+          ],
+          "game": "Bomberman 64: The Second Attack!"
         },
         {
           "project": "bomberman-hero",
@@ -10298,7 +10505,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bomberhackers/bmhero"
             }
-          ]
+          ],
+          "game": "Bomberman Hero"
         },
         {
           "project": "castlevania-64",
@@ -10320,7 +10528,8 @@
               "name": "Decompilation",
               "url": "https://github.com/k64ret/cv64"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "chameleon-twist",
@@ -10353,7 +10562,8 @@
               "name": "Decompilation",
               "url": "https://github.com/chameleontwistret/chameleontwistv1.0-jp"
             }
-          ]
+          ],
+          "game": "Chameleon Twist"
         },
         {
           "project": "chameleon-twist-2",
@@ -10375,7 +10585,8 @@
               "name": "Decompilation",
               "url": "https://github.com/chameleontwistret/chameleontwist2v1.0-jp"
             }
-          ]
+          ],
+          "game": "Chameleon Twist 2"
         },
         {
           "project": "conker-s-bad-fur-day",
@@ -10425,7 +10636,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mkst/conker"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "dark-rift",
@@ -10447,7 +10659,8 @@
               "name": "Decompilation",
               "url": "https://github.com/unnunu/darkrift"
             }
-          ]
+          ],
+          "game": "Dark Rift"
         },
         {
           "project": "diddy-kong-racing",
@@ -10469,7 +10682,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DavidSM64/Diddy-Kong-Racing"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "dinosaur-planet",
@@ -10501,7 +10715,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zestydevy/dinosaur-planet"
             }
-          ]
+          ],
+          "game": "Dinosaur Planet"
         },
         {
           "project": "donkey-kong-64",
@@ -10534,7 +10749,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/dk64_decomp/dk64"
             }
-          ]
+          ],
+          "game": "Donkey Kong 64"
         },
         {
           "project": "doom-64",
@@ -10556,7 +10772,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Erick194/DOOM64-RE"
             }
-          ]
+          ],
+          "game": "Doom 64"
         },
         {
           "project": "doraemon-nobita-to-mittsu-no-seireiseki",
@@ -10578,7 +10795,8 @@
               "name": "Decompilation",
               "url": "https://github.com/prakxo/doraemon1"
             }
-          ]
+          ],
+          "game": "Doraemon: Nobita to Mittsu no Seireiseki"
         },
         {
           "project": "dobutsu-no-mori",
@@ -10600,7 +10818,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/af"
             }
-          ]
+          ],
+          "game": "Dōbutsu no Mori"
         },
         {
           "project": "dr-mario-64",
@@ -10633,7 +10852,8 @@
               "name": "Decompilation",
               "url": "https://github.com/angheloalf/drmario64"
             }
-          ]
+          ],
+          "game": "Dr. Mario 64"
         },
         {
           "project": "duke-nukem-64",
@@ -10655,7 +10875,8 @@
               "name": "Decompilation",
               "url": "https://github.com/nblood/duke64-re"
             }
-          ]
+          ],
+          "game": "Duke Nukem 64"
         },
         {
           "project": "duke-nukem-zero-hour",
@@ -10692,7 +10913,8 @@
               "name": "Decompilation",
               "url": "https://github.com/gillou68310/dukenukemzerohour"
             }
-          ]
+          ],
+          "game": "Duke Nukem: Zero Hour"
         },
         {
           "project": "extreme-g",
@@ -10724,7 +10946,8 @@
               "name": "Static recompilation",
               "url": "https://gitlab.com/sonicdcer/ExtremeGRecomp"
             }
-          ]
+          ],
+          "game": "Extreme-G"
         },
         {
           "project": "f-zero-x",
@@ -10758,7 +10981,8 @@
               "name": "Decompilation",
               "url": "https://github.com/inspectredc/fzerox"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "f-zero-x-expansion-kit",
@@ -10780,7 +11004,8 @@
               "name": "Decompilation",
               "url": "https://github.com/inspectredc/fzerox-expansion-kit"
             }
-          ]
+          ],
+          "game": "F-Zero X Expansion Kit"
         },
         {
           "project": "gauntlet-legends",
@@ -10802,7 +11027,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Drahsid/gauntlet-legends"
             }
-          ]
+          ],
+          "game": "Gauntlet Legends"
         },
         {
           "project": "gex-64-enter-the-gecko",
@@ -10824,7 +11050,8 @@
               "name": "Decompilation",
               "url": "https://github.com/matbourgon/gex64decomp"
             }
-          ]
+          ],
+          "game": "Gex 64: Enter the Gecko"
         },
         {
           "project": "glover",
@@ -10846,7 +11073,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/glover"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "goemon-s-great-adventure",
@@ -10868,7 +11096,8 @@
               "name": "Disassembly",
               "url": "https://github.com/StopSine/gga"
             }
-          ]
+          ],
+          "game": "Goemon's Great Adventure"
         },
         {
           "project": "goldeneye-007",
@@ -10928,7 +11157,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/007"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "harvest-moon-64",
@@ -10961,7 +11191,8 @@
               "name": "Decompilation",
               "url": "https://github.com/harvestwhisperer/hm64-decomp"
             }
-          ]
+          ],
+          "game": "Harvest Moon 64"
         },
         {
           "project": "jet-force-gemini",
@@ -10996,7 +11227,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ryan-myers/jet-force-gemini"
             }
-          ]
+          ],
+          "game": "Jet Force Gemini"
         },
         {
           "project": "kirby-64-the-crystal-shards",
@@ -11018,7 +11250,8 @@
               "name": "Decompilation",
               "url": "https://github.com/kirby64ret/kirby64"
             }
-          ]
+          ],
+          "game": "Kirby 64: The Crystal Shards"
         },
         {
           "project": "lego-racers",
@@ -11040,7 +11273,8 @@
               "name": "Decompilation",
               "url": "https://github.com/marijnvdwerf/lego-racers"
             }
-          ]
+          ],
+          "game": "Lego Racers"
         },
         {
           "project": "mario-golf",
@@ -11062,7 +11296,8 @@
               "name": "Decompilation",
               "url": "https://github.com/monde-lointain/mariogolf64"
             }
-          ]
+          ],
+          "game": "Mario Golf"
         },
         {
           "project": "mario-kart-64",
@@ -11167,7 +11402,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/mk64"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-party",
@@ -11189,7 +11425,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty"
             }
-          ]
+          ],
+          "game": "Mario Party"
         },
         {
           "project": "mario-party-2",
@@ -11211,7 +11448,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty2"
             }
-          ]
+          ],
+          "game": "Mario Party 2"
         },
         {
           "project": "mario-party-3",
@@ -11233,7 +11471,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mariopartyrd/marioparty3"
             }
-          ]
+          ],
+          "game": "Mario Party 3"
         },
         {
           "project": "mario-tennis",
@@ -11255,7 +11494,8 @@
               "name": "Decompilation",
               "url": "https://github.com/dellm-79/mariotennisn64"
             }
-          ]
+          ],
+          "game": "Mario Tennis"
         },
         {
           "project": "mischief-makers",
@@ -11277,7 +11517,8 @@
               "name": "Decompilation",
               "url": "https://github.com/drahsid/mischief-makers"
             }
-          ]
+          ],
+          "game": "Mischief Makers"
         },
         {
           "project": "mystical-ninja-starring-goemon",
@@ -11310,7 +11551,8 @@
               "name": "Decompilation",
               "url": "https://github.com/klorfmorf/mnsg"
             }
-          ]
+          ],
+          "game": "Mystical Ninja Starring Goemon"
         },
         {
           "project": "neon-genesis-evangelion",
@@ -11332,7 +11574,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/evangelion"
             }
-          ]
+          ],
+          "game": "Neon Genesis Evangelion"
         },
         {
           "project": "onegai-monsters",
@@ -11354,7 +11597,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ryan-myers/onegaimonsters"
             }
-          ]
+          ],
+          "game": "Onegai Monsters"
         },
         {
           "project": "paper-mario",
@@ -11402,7 +11646,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pmret/papermario"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "perfect-dark",
@@ -11436,7 +11681,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/perfect_dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-puzzle-league",
@@ -11458,7 +11704,8 @@
               "name": "Decompilation",
               "url": "https://github.com/angheloalf/puzzleleague64"
             }
-          ]
+          ],
+          "game": "Pokemon Puzzle League"
         },
         {
           "project": "pokemon-snap",
@@ -11480,7 +11727,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ethteck/pokemonsnap"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "pokemon-stadium",
@@ -11515,7 +11763,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pret/pokestadium"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "pokemon-stadium-2",
@@ -11537,7 +11786,8 @@
               "name": "Decompilation",
               "url": "https://github.com/pret/pokestadiumgs"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium 2"
         },
         {
           "project": "quest-64",
@@ -11570,7 +11820,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/quest64-decomp"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "rocket-robot-on-wheels",
@@ -11607,7 +11858,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RocketRet/Rocket-Robot-On-Wheels"
             }
-          ]
+          ],
+          "game": "Rocket: Robot on Wheels"
         },
         {
           "project": "shadowgate-64",
@@ -11629,7 +11881,8 @@
               "name": "Decompilation",
               "url": "https://github.com/rainchus/shadowgate64"
             }
-          ]
+          ],
+          "game": "Shadowgate 64"
         },
         {
           "project": "sin-and-punishment-snprecomp",
@@ -11655,7 +11908,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/snprecomp"
             }
-          ]
+          ],
+          "game": "Sin and Punishment"
         },
         {
           "project": "snowboard-kids-2",
@@ -11692,7 +11946,8 @@
               "name": "Decompilation",
               "url": "https://github.com/cdlewis/snowboardkids2-decomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids 2"
         },
         {
           "project": "space-station-silicon-valley",
@@ -11725,7 +11980,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mkst/sssv"
             }
-          ]
+          ],
+          "game": "Space Station Silicon Valley"
         },
         {
           "project": "star-fox-64",
@@ -11787,7 +12043,8 @@
               "name": "Decompilation",
               "url": "https://github.com/sonicdcer/sf64"
             }
-          ]
+          ],
+          "game": "Star Fox 64"
         },
         {
           "project": "star-wars-shadows-of-the-empire",
@@ -11809,7 +12066,8 @@
               "name": "Decompilation",
               "url": "https://github.com/eltalelibrarian/sote"
             }
-          ]
+          ],
+          "game": "Star Wars: Shadows of the Empire"
         },
         {
           "project": "super-mario-64",
@@ -11879,7 +12137,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/sm64"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-smash-bros",
@@ -11901,7 +12160,8 @@
               "name": "Decompilation",
               "url": "https://github.com/vetritheretri/ssb-decomp-re"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "superman-64",
@@ -11923,7 +12183,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/superman"
             }
-          ]
+          ],
+          "game": "Superman 64"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time",
@@ -11945,7 +12206,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/oot"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask",
@@ -11990,7 +12252,8 @@
               "name": "Decompilation",
               "url": "https://github.com/zeldaret/mm"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-new-tetris",
@@ -12012,7 +12275,8 @@
               "name": "Decompilation",
               "url": "https://github.com/kiritodv/tnt"
             }
-          ]
+          ],
+          "game": "The New Tetris"
         },
         {
           "project": "turok-3-shadow-of-oblivion",
@@ -12034,7 +12298,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Drahsid/turok3"
             }
-          ]
+          ],
+          "game": "Turok 3: Shadow of Oblivion"
         },
         {
           "project": "virtual-pool-64",
@@ -12056,7 +12321,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/virtualpool64"
             }
-          ]
+          ],
+          "game": "Virtual Pool 64"
         },
         {
           "project": "virtual-pro-wrestling-2-odo-keisho",
@@ -12078,7 +12344,8 @@
               "name": "Decompilation",
               "url": "https://github.com/aki-club/vpw2"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 2: Ōdō Keishō"
         },
         {
           "project": "wave-race-64",
@@ -12113,7 +12380,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT/Wave-Race-64"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "yoshi-s-story",
@@ -12135,7 +12403,8 @@
               "name": "Decompilation",
               "url": "https://github.com/decompals/yoshis-story"
             }
-          ]
+          ],
+          "game": "Yoshi's Story"
         },
         {
           "project": "pilotwings-64-matching-decompilation",
@@ -12185,7 +12454,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp"
             }
-          ]
+          ],
+          "game": "Pilotwings 64"
         },
         {
           "project": "buck-bumble-project-bumble",
@@ -12207,7 +12477,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/riseio/project-bumble"
             }
-          ]
+          ],
+          "game": "Buck Bumble"
         },
         {
           "project": "blast-corps-slaveofido",
@@ -12229,7 +12500,8 @@
               "name": "Decompilation",
               "url": "https://github.com/SlaveOfIDO/blastcorps"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest-jaytheham",
@@ -12251,7 +12523,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jaytheham/body-harvest-decompilation"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "ridge-racer-64",
@@ -12273,7 +12546,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jvicu2001/rr64-decomp"
             }
-          ]
+          ],
+          "game": "Ridge Racer 64"
         },
         {
           "project": "star-wars-rogue-squadron",
@@ -12295,7 +12569,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Tmcg2/rogue_squadron64"
             }
-          ]
+          ],
+          "game": "Star Wars: Rogue Squadron"
         },
         {
           "project": "wonder-project-j2-josette-of-the-corlo-forest",
@@ -12317,7 +12592,8 @@
               "name": "Decompilation",
               "url": "https://github.com/LLONSIT-glitch/wonder"
             }
-          ]
+          ],
+          "game": "Wonder Project J2: Josette of the Corlo Forest"
         },
         {
           "project": "beetle-adventure-racing",
@@ -12339,7 +12615,8 @@
               "name": "Decompilation",
               "url": "https://github.com/synamaxmusic/bar-decomp"
             }
-          ]
+          ],
+          "game": "Beetle Adventure Racing!"
         },
         {
           "project": "conker-s-bad-fur-day-devoldschool",
@@ -12361,7 +12638,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DevOldSchool/conkers-bfd-decomp"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "diddy-kong-racing-recomp",
@@ -12383,7 +12661,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ThatGuyMcd/DKR-R"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "ogre-battle-64-person-of-lordly-caliber",
@@ -12405,7 +12684,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/lfarroco/ogre-battle-64-recomp"
             }
-          ]
+          ],
+          "game": "Ogre Battle 64: Person of Lordly Caliber"
         },
         {
           "project": "perfect-dark-dab-s-mod",
@@ -12427,7 +12707,8 @@
               "name": "Decompilation",
               "url": "https://github.com/DabDavis/perfect-dark-dabs-mod"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-snap-recomp",
@@ -12449,7 +12730,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/JackandBeans/Snap64Recomp"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "snowboard-kids",
@@ -12471,7 +12753,8 @@
               "name": "Disassembly",
               "url": "https://github.com/sonicdcer/sk"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "wave-race-64-recomp",
@@ -12493,7 +12776,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/elliotttate/wave-race-64-recomp"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "shiren-the-wanderer-2",
@@ -12515,7 +12799,8 @@
               "name": "Decompilation",
               "url": "https://github.com/mschienbein/shiren2-decomp"
             }
-          ]
+          ],
+          "game": "Shiren the Wanderer 2"
         },
         {
           "project": "hybrid-heaven",
@@ -12537,7 +12822,8 @@
               "name": "Decompilation",
               "url": "https://github.com/southcitycapture/hybridheaven-decomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "paperboy",
@@ -12559,7 +12845,8 @@
               "name": "Decompilation",
               "url": "https://github.com/marijnvdwerf/paperboy-n64"
             }
-          ]
+          ],
+          "game": "Paperboy"
         },
         {
           "project": "starcraft-64-n0madic-recomp",
@@ -12585,7 +12872,8 @@
               "name": "Native port",
               "url": "https://github.com/n0madic/StarCraft64-recomp"
             }
-          ]
+          ],
+          "game": "StarCraft 64"
         },
         {
           "project": "snowboard-kids-cdlewis",
@@ -12607,7 +12895,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/cdlewis/snowboardkids-decomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "1080-snowboarding",
@@ -12629,7 +12918,8 @@
               "name": "Decompilation",
               "url": "https://github.com/djsaunde/1080-decomp"
             }
-          ]
+          ],
+          "game": "1080° Snowboarding"
         },
         {
           "project": "animal-forest-animal-forest-psp",
@@ -12652,7 +12942,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/bruder-grimm/animal_forest_psp"
             }
-          ]
+          ],
+          "game": "Dōbutsu no Mori"
         },
         {
           "project": "automobili-lamborghini",
@@ -12678,7 +12969,8 @@
               "name": "Native port",
               "url": "https://github.com/alondero/automobililamborghini-recomp"
             }
-          ]
+          ],
+          "game": "Automobili Lamborghini"
         },
         {
           "project": "banjo-kazooie-banjo-kazooie",
@@ -12700,7 +12992,8 @@
               "name": "Decompilation",
               "url": "https://github.com/n64decomp/banjo-kazooie"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-kazooie-banjo-recompiled-android-port",
@@ -12722,7 +13015,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/AurelioB/BanjoRecomp-Android"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-kazooie-lighthouse",
@@ -12744,7 +13038,8 @@
               "name": "Native port",
               "url": "https://github.com/HarbourMasters/Lighthouse"
             }
-          ]
+          ],
+          "game": "Banjo-Kazooie"
         },
         {
           "project": "banjo-tooie-banjo-tooie-recompiled",
@@ -12770,7 +13065,8 @@
               "name": "Native port",
               "url": "https://github.com/Vidanox/BanjoTooieRecompiled"
             }
-          ]
+          ],
+          "game": "Banjo-Tooie"
         },
         {
           "project": "battletanx-nintendo-64",
@@ -12792,7 +13088,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/AbuN64/battletanx-decomp"
             }
-          ]
+          ],
+          "game": "BattleTanx"
         },
         {
           "project": "battletanx-global-assault-btgarecomp",
@@ -12818,7 +13115,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/btgarecomp"
             }
-          ]
+          ],
+          "game": "BattleTanx: Global Assault"
         },
         {
           "project": "battlezone-rise-of-the-black-dogs-bzrecomp",
@@ -12844,7 +13142,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/bzrecomp"
             }
-          ]
+          ],
+          "game": "Battlezone: Rise of the Black Dogs"
         },
         {
           "project": "beetle-adventure-racing-recomp",
@@ -12870,7 +13169,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp"
             }
-          ]
+          ],
+          "game": "Beetle Adventure Racing!"
         },
         {
           "project": "blast-corps-power-dozer",
@@ -12892,7 +13192,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/djultra64/Power-Dozer"
             }
-          ]
+          ],
+          "game": "Blast Corps"
         },
         {
           "project": "body-harvest-recomp",
@@ -12918,7 +13219,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/body-harvest-recomp"
             }
-          ]
+          ],
+          "game": "Body Harvest"
         },
         {
           "project": "castlevania-64-cv64-recomp",
@@ -12944,7 +13246,8 @@
               "name": "Native port",
               "url": "https://github.com/spacefarergames/CV64-Recomp"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "castlevania-64-recomp",
@@ -12966,7 +13269,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RevoSucks/CV64Recomp"
             }
-          ]
+          ],
+          "game": "Castlevania 64"
         },
         {
           "project": "castlevania-legacy-of-darkness",
@@ -12988,7 +13292,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/fliperama86/cvlod_recomp"
             }
-          ]
+          ],
+          "game": "Castlevania: Legacy of Darkness"
         },
         {
           "project": "conker-s-bad-fur-day-conker64-recompiled",
@@ -13010,7 +13315,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Conker64Recomp/conker64-recompiled"
             }
-          ]
+          ],
+          "game": "Conker's Bad Fur Day"
         },
         {
           "project": "diddy-kong-racing-goldenballoon",
@@ -13032,7 +13338,8 @@
               "name": "Decompilation",
               "url": "https://github.com/akratch/goldenballoon"
             }
-          ]
+          ],
+          "game": "Diddy Kong Racing"
         },
         {
           "project": "doom-64-doom64-dc",
@@ -13054,7 +13361,8 @@
               "name": "Native port",
               "url": "https://github.com/jnmartin84/doom64-dc"
             }
-          ]
+          ],
+          "game": "Doom 64"
         },
         {
           "project": "doraemon-nobita-to-mittsu-no-seireiseki-recomp",
@@ -13076,7 +13384,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/citrongames/Dora64"
             }
-          ]
+          ],
+          "game": "Doraemon: Nobita to Mittsu no Seireiseki"
         },
         {
           "project": "duke-nukem-zero-hour-dukenukemzerohourport-gillou68310",
@@ -13098,7 +13407,8 @@
               "name": "Native port",
               "url": "https://github.com/Gillou68310/DukeNukemZeroHourPort"
             }
-          ]
+          ],
+          "game": "Duke Nukem: Zero Hour"
         },
         {
           "project": "f-zero-x-f-zerox",
@@ -13120,7 +13430,8 @@
               "name": "Decompilation",
               "url": "https://github.com/BttrDrgn/f-zerox"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "f-zero-x-gdx-3ds",
@@ -13142,7 +13453,8 @@
               "name": "Decompilation",
               "url": "https://github.com/cruxxxxxx/gdx-3ds"
             }
-          ]
+          ],
+          "game": "F-Zero X"
         },
         {
           "project": "glover-glover-decomp",
@@ -13164,7 +13476,8 @@
               "name": "Decompilation",
               "url": "https://github.com/djsaunde/glover-decomp-1"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "glover-recomp",
@@ -13186,7 +13499,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ThatGuyMcd/Glover-R"
             }
-          ]
+          ],
+          "game": "Glover"
         },
         {
           "project": "goldeneye-007-nintendo-64",
@@ -13208,7 +13522,8 @@
               "name": "Native port",
               "url": "https://github.com/chrissotraidis/goldenpad"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldeneye-metal",
@@ -13230,7 +13545,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ysrdevs/goldeneye-metal"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldeneye-recomp-server-online-play-for-goldeneye-recomp",
@@ -13252,7 +13568,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/SunJaycy/GoldenEye-Recomp-Server"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "goldeneye-007-goldenrecomp",
@@ -13274,7 +13591,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/kholdfuzion/GoldenRecomp"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "hey-you-pikachu",
@@ -13296,7 +13614,8 @@
               "name": "Decompilation",
               "url": "https://github.com/farisawan-2000/hey_you_pikachu"
             }
-          ]
+          ],
+          "game": "Hey You, Pikachu!"
         },
         {
           "project": "hybrid-heaven-nintendo-64",
@@ -13322,7 +13641,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/hybrid-heaven-recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "hybrid-heaven-nintendo-64-ogdanimal",
@@ -13348,7 +13668,8 @@
               "name": "Native port",
               "url": "https://github.com/ogdanimal/HybridHeaven-Recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "hybrid-heaven-recomp",
@@ -13370,7 +13691,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/hunkstalker/hybrid-heaven-recomp"
             }
-          ]
+          ],
+          "game": "Hybrid Heaven"
         },
         {
           "project": "jet-force-gemini-nintendo-64",
@@ -13392,7 +13714,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/VibinToast/JetForceGemini-Recomp"
             }
-          ]
+          ],
+          "game": "Jet Force Gemini"
         },
         {
           "project": "kirby-and-the-crystal-shards",
@@ -13415,7 +13738,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Kirby64Ret/Kirby64Recomp"
             }
-          ]
+          ],
+          "game": "Kirby 64: The Crystal Shards"
         },
         {
           "project": "knife-edge-nose-gunner",
@@ -13437,7 +13761,8 @@
               "name": "Decompilation",
               "url": "https://github.com/disi33/KE-NG_Reversing"
             }
-          ]
+          ],
+          "game": "Knife Edge - Nose Gunner"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-mmrecomprando",
@@ -13459,7 +13784,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/RecompRando/MMRecompRando"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-zelda64-recompiled-android",
@@ -13481,7 +13807,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/linkzenic/Zelda64Recomp-Android"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-nintendo-64",
@@ -13503,7 +13830,8 @@
               "name": "Native port",
               "url": "https://github.com/blawar/ooot"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-oot-dc",
@@ -13525,7 +13853,8 @@
               "name": "Decompilation",
               "url": "https://github.com/jnmartin84/oot-dc"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-oot-psp",
@@ -13547,7 +13876,8 @@
               "name": "Native port",
               "url": "https://github.com/z2442/oot-PSP"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "mabecs-international-superstar-soccer-2000",
@@ -13570,7 +13900,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Mabec-games/iss2000-recomp"
             }
-          ]
+          ],
+          "game": "International Superstar Soccer 2000"
         },
         {
           "project": "mario-golf-recomp",
@@ -13592,7 +13923,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Rainchus/MarioGolf64"
             }
-          ]
+          ],
+          "game": "Mario Golf"
         },
         {
           "project": "mario-kart-64-mk64recomp",
@@ -13618,7 +13950,8 @@
               "name": "Native port",
               "url": "https://github.com/arefdsg/MK64Recomp"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-kart-64-spaghettikart-android-port",
@@ -13640,7 +13973,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/SpaghettiKart"
             }
-          ]
+          ],
+          "game": "Mario Kart 64"
         },
         {
           "project": "mario-party-3-recomp",
@@ -13666,7 +14000,8 @@
               "name": "Native port",
               "url": "https://github.com/Rainchus/MarioParty3-Recomp"
             }
-          ]
+          ],
+          "game": "Mario Party 3"
         },
         {
           "project": "mega-man-64",
@@ -13688,7 +14023,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled"
             }
-          ]
+          ],
+          "game": "Mega Man 64"
         },
         {
           "project": "mischief-makers-recomp",
@@ -13714,7 +14050,8 @@
               "name": "Native port",
               "url": "https://github.com/ThiagoLira/trouble-makers-pc-recomp"
             }
-          ]
+          ],
+          "game": "Mischief Makers"
         },
         {
           "project": "mystical-ninja-starring-goemon-nintendo-64",
@@ -13736,7 +14073,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ogdanimal/Goemon64Recomp-Android"
             }
-          ]
+          ],
+          "game": "Mystical Ninja Starring Goemon"
         },
         {
           "project": "n64-classic-rush-2",
@@ -13759,7 +14097,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/bryantmh/rush2recompiled"
             }
-          ]
+          ],
+          "game": "Rush 2: Extreme Racing USA"
         },
         {
           "project": "paper-mario-nintendo-64",
@@ -13781,7 +14120,8 @@
               "name": "Decompilation",
               "url": "https://github.com/SecondaryLifer/StarHaven"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-pmvita",
@@ -13803,7 +14143,8 @@
               "name": "Native port",
               "url": "https://github.com/versacepapermario/papermario-pc-upload"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-papermario-dx-engine-fork",
@@ -13825,7 +14166,8 @@
               "name": "Decompilation",
               "url": "https://github.com/bates64/papermario-dx"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-papermariodecompilation",
@@ -13847,7 +14189,8 @@
               "name": "Decompilation",
               "url": "https://github.com/RetroReversing/PaperMarioDecompilation"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "paper-mario-recomp",
@@ -13869,7 +14212,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/lucyawrey/Paper_Mario_64_Recomp"
             }
-          ]
+          ],
+          "game": "Paper Mario"
         },
         {
           "project": "perfect-dark-perfect-dark-port-android",
@@ -13891,7 +14235,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/perfect_dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "pokemon-snap-nintendo-64",
@@ -13913,7 +14258,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/chrissotraidis/snappad"
             }
-          ]
+          ],
+          "game": "Pokemon Snap"
         },
         {
           "project": "pokemon-stadium-nintendo-64",
@@ -13935,7 +14281,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/chrissotraidis/annepad"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "pokemon-stadium-pokemonstadium",
@@ -13957,7 +14304,8 @@
               "name": "Decompilation",
               "url": "https://github.com/ethteck/pokemonstadium"
             }
-          ]
+          ],
+          "game": "Pokemon Stadium"
         },
         {
           "project": "quest-64-nintendo-64",
@@ -13979,7 +14327,8 @@
               "name": "Decompilation",
               "url": "https://github.com/Mallos31/Quest"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "quest-64-quest-64-tale-recompiled",
@@ -14001,7 +14350,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/boricuapab/quest64tale-recompiled"
             }
-          ]
+          ],
+          "game": "Quest 64"
         },
         {
           "project": "road-rash-64",
@@ -14023,7 +14373,8 @@
               "name": "Decompilation",
               "url": "https://github.com/linkssy2/RoadRash64Recompiled"
             }
-          ]
+          ],
+          "game": "Road Rash 64"
         },
         {
           "project": "destruction-derby-64",
@@ -14046,7 +14397,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/murkantor/Destruction-Decomp-64"
             }
-          ]
+          ],
+          "game": "Destruction Derby 64"
         },
         {
           "project": "rugrats-scavenger-hunt",
@@ -14069,7 +14421,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Rugrats-Scavenger-Hunt"
             }
-          ]
+          ],
+          "game": "Rugrats: Scavenger Hunt"
         },
         {
           "project": "san-francisco-rush-2049",
@@ -14091,7 +14444,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/cabi24/SFRush2049-decomp"
             }
-          ]
+          ],
+          "game": "San Francisco Rush 2049"
         },
         {
           "project": "san-francisco-rush-2049-nintendo-64",
@@ -14117,7 +14471,8 @@
               "name": "Native port",
               "url": "https://github.com/amazingalek/rush-2049-recomp"
             }
-          ]
+          ],
+          "game": "San Francisco Rush 2049"
         },
         {
           "project": "snowboard-kids-snowboard-kids-recompiled",
@@ -14143,7 +14498,8 @@
               "name": "Native port",
               "url": "https://github.com/cdlewis/snowboardkids-recomp"
             }
-          ]
+          ],
+          "game": "Snowboard Kids"
         },
         {
           "project": "star-fox-64-starship-android-port",
@@ -14165,7 +14521,8 @@
               "name": "Native port",
               "url": "https://github.com/izzy2lost/Starship"
             }
-          ]
+          ],
+          "game": "Star Fox 64"
         },
         {
           "project": "star-wars-rogue-squadron-nintendo-64",
@@ -14187,7 +14544,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/MikeSemicolonD/RogueSquadron64Recomp"
             }
-          ]
+          ],
+          "game": "Star Wars: Rogue Squadron"
         },
         {
           "project": "star-wars-shadows-of-the-empire-recomp",
@@ -14209,7 +14567,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/GTTeancum/SotE-Recomp"
             }
-          ]
+          ],
+          "game": "Star Wars: Shadows of the Empire"
         },
         {
           "project": "super-mario-64-nintendo-64",
@@ -14231,7 +14590,8 @@
               "name": "Native port",
               "url": "https://github.com/sm64pc/sm64ex"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-godot",
@@ -14253,7 +14613,8 @@
               "name": "Native port",
               "url": "https://github.com/Brawmario/libsm64-godot"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-rust",
@@ -14275,7 +14636,8 @@
               "name": "Native port",
               "url": "https://github.com/nickmass/libsm64-rust"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-sharp",
@@ -14297,7 +14659,8 @@
               "name": "Native port",
               "url": "https://github.com/MeltyPlayer/libsm64-sharp"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-libsm64-unity",
@@ -14319,7 +14682,8 @@
               "name": "Native port",
               "url": "https://github.com/libsm64/libsm64-unity"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-sm64-decomp",
@@ -14341,7 +14705,8 @@
               "name": "Decompilation",
               "url": "https://github.com/justinwash/sm64-decomp"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-sm64-pc-port-webgl",
@@ -14363,7 +14728,8 @@
               "name": "Native port",
               "url": "https://github.com/NotAn127/SM64-PC-Port-WebGL"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-mario-64-smue5",
@@ -14385,7 +14751,8 @@
               "name": "Native port",
               "url": "https://github.com/TheEnbyWitch/SMUE5"
             }
-          ]
+          ],
+          "game": "Super Mario 64"
         },
         {
           "project": "super-robot-wars-64",
@@ -14408,7 +14775,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/dyzz/srw64-recomp"
             }
-          ]
+          ],
+          "game": "Super Robot Wars 64"
         },
         {
           "project": "super-smash-bros-nintendo-64",
@@ -14434,7 +14802,8 @@
               "name": "Native port",
               "url": "https://github.com/zestydevy/smash64r"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-nintendo-64-rockenrooster",
@@ -14456,7 +14825,8 @@
               "name": "Native port",
               "url": "https://github.com/rockenrooster/Smash64DS_Port"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-nintendo-64-beigeceleron",
@@ -14478,7 +14848,8 @@
               "name": "Native port",
               "url": "https://github.com/beigeceleron/ssb64-dc"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "super-smash-bros-battleship",
@@ -14500,7 +14871,8 @@
               "name": "Decompilation",
               "url": "https://github.com/JRickey/BattleShip"
             }
-          ]
+          ],
+          "game": "Super Smash Bros."
         },
         {
           "project": "tetrisphere",
@@ -14522,7 +14894,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/djultra64/Blocksphere"
             }
-          ]
+          ],
+          "game": "Tetrisphere"
         },
         {
           "project": "toy-story-2-buzz-lightyear-to-the-rescue",
@@ -14544,7 +14917,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/Capridog/SpaceRanger"
             }
-          ]
+          ],
+          "game": "Toy Story 2: Buzz Lightyear to the Rescue"
         },
         {
           "project": "turok-2-seeds-of-evil",
@@ -14566,7 +14940,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/mgrz18/turok2-decomp"
             }
-          ]
+          ],
+          "game": "Turok 2: Seeds of Evil"
         },
         {
           "project": "turok-rage-wars",
@@ -14592,7 +14967,8 @@
               "name": "Native port",
               "url": "https://github.com/wootbeer/PaxDino"
             }
-          ]
+          ],
+          "game": "Turok: Rage Wars"
         },
         {
           "project": "turok-rage-wars-rage-wars-recompiled",
@@ -14614,7 +14990,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/ArtfulRascal8/rage-wars-recompiled"
             }
-          ]
+          ],
+          "game": "Turok: Rage Wars"
         },
         {
           "project": "virtual-pro-wrestling-2",
@@ -14637,7 +15014,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/jessetbh/VPW2Recomp"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 2: Ōdō Keishō"
         },
         {
           "project": "virtual-pro-wrestling-64",
@@ -14663,7 +15041,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/VPW64Recomp"
             }
-          ]
+          ],
+          "game": "Virtual Pro Wrestling 64"
         },
         {
           "project": "wave-race-64-wave-race-64-recomp",
@@ -14689,7 +15068,8 @@
               "name": "Native port",
               "url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp"
             }
-          ]
+          ],
+          "game": "Wave Race 64"
         },
         {
           "project": "wayne-gretzky-s-3d-hockey",
@@ -14711,7 +15091,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/geno55/wg3d-recomp"
             }
-          ]
+          ],
+          "game": "Wayne Gretzky's 3D Hockey"
         },
         {
           "project": "wcw-vs-nwo-world-tour",
@@ -14737,7 +15118,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp"
             }
-          ]
+          ],
+          "game": "WCW vs. nWo: World Tour"
         },
         {
           "project": "wcw-nwo-revenge-recomp",
@@ -14763,7 +15145,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WCWnWoRevengeRecomp"
             }
-          ]
+          ],
+          "game": "WCW/nWo Revenge"
         },
         {
           "project": "the-world-is-not-enough-i-could-have-given-you-the-world",
@@ -14786,7 +15169,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/riseio/TWIPE_00Sheven"
             }
-          ]
+          ],
+          "game": "The World Is Not Enough"
         },
         {
           "project": "wwf-no-mercy",
@@ -14812,7 +15196,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WWFNoMercyRecomp"
             }
-          ]
+          ],
+          "game": "WWF No Mercy"
         },
         {
           "project": "wwf-wrestlemania-2000",
@@ -14838,7 +15223,8 @@
               "name": "Native port",
               "url": "https://github.com/jessetbh/WWFWrestleMania2000Recomp"
             }
-          ]
+          ],
+          "game": "WWF WrestleMania 2000"
         },
         {
           "project": "yoshi-s-story-dinotale",
@@ -14860,7 +15246,8 @@
               "name": "Static recompilation",
               "url": "https://github.com/wootbeer/dinotale"
             }
-          ]
+          ],
+          "game": "Yoshi's Story"
         },
         {
           "project": "goldeneye-007-gitlab-source-project",
@@ -14882,7 +15269,8 @@
               "name": "Decompilation",
               "url": "https://gitlab.com/kholdfuzion/goldeneye_src"
             }
-          ]
+          ],
+          "game": "GoldenEye 007"
         },
         {
           "project": "perfect-dark-gitlab-source-project",
@@ -14904,7 +15292,8 @@
               "name": "Matching decompilation",
               "url": "https://gitlab.com/ryandwyer/perfect-dark"
             }
-          ]
+          ],
+          "game": "Perfect Dark"
         },
         {
           "project": "the-legend-of-zelda-ocarina-of-time-ship-of-harkinian",
@@ -14927,7 +15316,8 @@
               "name": "Native port",
               "url": "https://github.com/HarbourMasters/Shipwright"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Ocarina of Time"
         },
         {
           "project": "the-legend-of-zelda-majora-s-mask-2-ship-2-harkinian",
@@ -14950,7 +15340,8 @@
               "name": "Native port",
               "url": "https://github.com/2ship2harkinian/2ship2harkinian"
             }
-          ]
+          ],
+          "game": "The Legend of Zelda: Majora's Mask"
         },
         {
           "project": "super-bowling-64-decomp",
@@ -14972,7 +15363,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/CalenCyr/superbowling64-decomp"
             }
-          ]
+          ],
+          "game": "Super Bowling"
         },
         {
           "project": "v-rally-edition-99-decomp",
@@ -14994,7 +15386,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/RetroReversing/v-rally-decomp"
             }
-          ]
+          ],
+          "game": "V-Rally Edition 99"
         },
         {
           "project": "madden-football-64-thegh0stship",
@@ -15016,7 +15409,8 @@
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Madden-64"
             }
-          ]
+          ],
+          "game": "Madden Football 64"
         }
       ]
     }

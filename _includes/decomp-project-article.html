@@ -26,17 +26,7 @@
   {%- assign feature_title = feature_port.name | default: feature_project.name | default: feature_game -%}
 {%- endif -%}
 
-<hr>
-<h3 id="project-{{ feature_url | remove: 'https://' | remove: 'http://' | slugify }}">{{ feature_title | escape }}</h3>
-<div class="rr-project-article{% if include.row.images.size == 0 %} rr-project-article--text-only{% endif %}">
-{% if include.row.images.size > 0 %}
-  <div class="rr-project-article__artwork">
-    {% for image in include.row.images %}
-      {% include article-figure.html src=image.url alt=image.alt width=image.width height=image.height crossorigin="anonymous" %}
-    {% endfor %}
-  </div>
-{% endif %}
-  <div class="rr-project-article__copy">
+<div role="group" class="rr-project-article__copy" id="project-{{ feature_url | remove: 'https://' | remove: 'http://' | slugify }}" aria-label="{{ feature_title | escape }}">
     <p>{% if include.type == 'Disassembly' %}The <a href="{{ include.url | escape }}">{{ feature_title | escape }} project</a> documents the game as assembly code, rather than recovered C or C++.
     {% elsif include.kind == 'decompilation' %}The <a href="{{ include.url | escape }}">{{ feature_title | escape }} project</a> is catalogued as a {% if include.type == 'Matching decompilation' %}matching decompilation, aiming to reproduce the original machine code when compiled{% else %}decompilation, recovering higher-level source code from a compiled game{% endif %}.
     {% elsif include.kind == 'recompilation' %}<a href="{{ include.url | escape }}">{{ feature_title | escape }}</a> is a recompilation project{% unless feature_is_main %} for {{ feature_game | escape }}{% endunless %}, translating the original game code for execution on another platform.
@@ -56,5 +46,4 @@
     {% elsif feature_project.activity.check_error %}
       <p class="rr-project-article__activity">Repository activity unverified; the latest check was unavailable.</p>
     {% endif %}
-  </div>
 </div>
