@@ -1,0 +1,13 @@
+{%- assign game_groups = article_rows | group_by: 'game' | sort_natural: 'name' -%}
+{%- for game_group in game_groups -%}
+  {%- if game_group.name == empty -%}
+    {%- comment -%}New rows without explicit game metadata keep their own title.{%- endcomment -%}
+    {%- for fallback_row in game_group.items -%}
+      {%- assign fallback_rows = article_rows | where: 'project', fallback_row.project -%}
+      {%- assign fallback_title = fallback_row.name_markdown | markdownify | strip_html | strip -%}
+      {% include decomp-project-game.html rows=fallback_rows game_title=fallback_title kind=include.kind platform=include.platform %}
+    {%- endfor -%}
+  {%- else -%}
+    {% include decomp-project-game.html rows=game_group.items game_title=game_group.name kind=include.kind platform=include.platform %}
+  {%- endif -%}
+{%- endfor -%}

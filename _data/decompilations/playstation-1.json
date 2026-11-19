@@ -4366,6 +4366,27 @@
         "splat",
         "make"
       ]
+    },
+    "evo-s-space-adventures": {
+      "name": "Evo's Space Adventures",
+      "platforms": [
+        "PlayStation 1"
+      ],
+      "repository_url": "https://github.com/mkst/esa",
+      "project_type": "Decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {
+        "last_commit_at": "2026-05-10T10:03:16Z",
+        "last_commit_url": "https://github.com/mkst/esa/commit/914e9dbd1414eed3ae890da11ec16d77a590c23c",
+        "default_branch": "master",
+        "archived": false,
+        "status": "Active",
+        "github_stars": 14
+      },
+      "ai_used": null,
+      "supported_rom_sha1": [],
+      "project_builders": []
     }
   },
   "consoles": {
@@ -9041,6 +9062,29 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/FeverDreams420/die-hard-trilogy-decomp"
+            }
+          ]
+        },
+        {
+          "project": "evo-s-space-adventures",
+          "name_markdown": "[Evo's Space Adventures](https://github.com/mkst/esa)",
+          "images": [
+            {
+              "alt": "Evo's Space Adventures PlayStation box art (Europe)",
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Boxarts/Evo%27s%20Space%20Adventures%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "notes_markdown": "Work-in-progress PlayStation decompilation of Evo's Space Adventures. The [project README](https://github.com/mkst/esa#readme) identifies the target as PSX; the tooling builds on Nintendo 64 decompilation projects.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Decompilation",
+              "url": "https://github.com/mkst/esa"
             }
           ]
         }

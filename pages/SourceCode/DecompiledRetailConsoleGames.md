@@ -77,6 +77,8 @@ The [SNES guide](/snes) covers Super Famicom hardware, SDKs, and reversing. Orig
 ## Nintendo 64
 Recently, mainly in thanks to the huge success of the [Super Mario 64](/super-mario-64) project, there has been revived interest in [Nintendo 64](/n64) decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
 
+For an illustrated guide to the projects, read [N64 Decompilation Projects, Recompilations and Ports](/n64-decompilation-projects), generated from the same catalogue as this table.
+
 The [Nintendo 64 guide](/n64) covers the console, SDK, and reversing introduction. Dedicated game pages cover the [Super Mario 64 decompilation](/super-mario-64) and [Mario Kart 64](/mario-kart-64). To start or continue a matching project with coding agents, follow the [AI Assisted N64 Decompilation Tutorial](/ai-assisted-n64-decompilation).
 
 {% include decomp-table.html console="nintendo-64" %}

@@ -35,6 +35,8 @@ jobs:
           ruby-version: '3.3.12'
           bundler-cache: true
       - uses: actions/configure-pages@v5
+      - name: Test generated project articles
+        run: bundle exec ruby scripts/tests/test_decomp_project_articles.rb
       - name: Build Jekyll
         env:
           JEKYLL_ENV: production

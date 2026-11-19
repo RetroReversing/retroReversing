@@ -9,6 +9,12 @@ Project records are available at `catalogue["nintendo-64"]["projects"]`.
 The export includes every recorded project type, as the source catalogue does.
 
 ## update-decomp-activity.py
+The illustrated `/n64-decompilation-projects` page also renders directly from the Nintendo 64 JSON at build time using `decomp-project-articles.html`. Each game gets one H3 and cover per section, followed by its repositories with their recorded notes, progress and activity. Set the row's `game` to the canonical game title, shared by all projects for that game. Attached ports inherit their parent row's game. This explicit field keeps alternate titles together while keeping sequels and expansion kits separate. Recompilation labels take precedence over Native port labels; URL matching is case-insensitive and ignores trailing slashes. Standalone rows take precedence over attached port descriptions, which are also shown when available. Edit the JSON to update project details; no separate article generation command or browser JavaScript is needed. Missing artwork is omitted, and no completion percentage is inferred.
+
+Run `bundle exec ruby scripts/tests/test_decomp_project_articles.rb` to check automatic catalogue updates, section grouping, duplicate repositories, artwork and progress measures. The Pages build runs these checks before building the site.
+
+The article view also preserves the catalogue's `approximately` qualifier and its `code by size` and `code-and-data-byte-matching` measures. These describe the recorded source coverage or byte comparison, rather than an inferred overall completion figure. See `scripts/reports/n64-project-artwork-audit.md` for the artwork sources and project-scope corrections.
+
 Refresh repository activity in `_data/decompilations/<platform>.json` using Python 3.9+ and the standard library. The catalog also supplies complete console tables, including artwork, links, project types, mapper values, and editorial notes. The page renders each table with `{% include decomp-table.html console="nintendo-ds" %}`. The include uses `_includes/decomp-activity.html` internally for activity labels.
 
 ```bash
