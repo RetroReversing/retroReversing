@@ -4953,6 +4953,24 @@
       "project_builders": [
         "make"
       ]
+    },
+    "wheel-of-fortune-n64-thegh0stship": {
+      "name": "Wheel of Fortune",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/Wheel-of-Fortune-N64",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "b51b28660699bf029f862f51c319a5962fe9de9b"
+      ],
+      "project_builders": [
+        "n64-decomp-kit"
+      ]
     }
   },
   "consoles": {
@@ -15009,6 +15027,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Madden-64"
+            }
+          ]
+        },
+        {
+          "project": "wheel-of-fortune-n64-thegh0stship",
+          "name_markdown": "[Wheel of Fortune](https://github.com/TheGh0stShip/Wheel-of-Fortune-N64)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Wheel%20of%20Fortune%20%28USA%29.png",
+              "alt": "Wheel of Fortune USA Nintendo 64 box art featuring Vanna White",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA release using N64 Decomp Kit. Requires the user's own 4 MiB USA ROM; its SHA-1 is documented in the [README](https://github.com/TheGh0stShip/Wheel-of-Fortune-N64#readme). The [pinned-link verification](https://github.com/TheGh0stShip/Wheel-of-Fortune-N64/blob/main/docs/pinned-link.md) reports a byte-identical mixed cartridge built from verified C units plus remaining code/data extracted from the local ROM. Reported matching coverage uses an incomplete function catalogue; source-only rebuilding and original placement freedom remain unverified. No native PC port is documented.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheGh0stShip/Wheel-of-Fortune-N64"
             }
           ]
         }
