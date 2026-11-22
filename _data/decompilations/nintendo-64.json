@@ -4971,6 +4971,25 @@
       "project_builders": [
         "n64-decomp-kit"
       ]
+    },
+    "jeopardy-n64-thegh0stship": {
+      "name": "Jeopardy!",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/TheGh0stShip/Jeopardy-N64",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "c5bcf3eff6bcdd9e7846ce5fd5db3095db9c58ed"
+      ],
+      "project_builders": [
+        "n64-decomp-kit",
+        "make"
+      ]
     }
   },
   "consoles": {
@@ -15049,6 +15068,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Wheel-of-Fortune-N64"
+            }
+          ]
+        },
+        {
+          "project": "jeopardy-n64-thegh0stship",
+          "name_markdown": "[Jeopardy!](https://github.com/TheGh0stShip/Jeopardy-N64)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Jeopardy%21%20%28USA%29.png",
+              "alt": "Jeopardy! USA Nintendo 64 box art featuring Alex Trebek",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-source reconstruction of the USA revision 0 release (NJOE), using N64 Decomp Kit and Make with KMC GCC and SGI IDO toolchains. Requires the user's own 4 MiB ROM; [build requirements](https://github.com/TheGh0stShip/Jeopardy-N64/blob/main/BUILD.md) document its SHA-1. The [README](https://github.com/TheGh0stShip/Jeopardy-N64#readme) reports a byte-identical fixed-address cartridge rebuild from main-program source, distinguishing ordinary C, assembly-assisted C and original handwritten assembly. Header, IPL3 and assets outside the main program are extracted from the user's ROM. No native PC port is documented.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/TheGh0stShip/Jeopardy-N64"
             }
           ]
         }
