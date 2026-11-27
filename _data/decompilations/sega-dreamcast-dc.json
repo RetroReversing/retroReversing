@@ -134,11 +134,11 @@
       ],
       "repository_url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp",
       "project_type": "Decompilation",
-      "completion_status": null,
+      "completion_status": "Completed",
       "legacy_status": null,
       "activity": {
-        "last_commit_at": "2026-11-15T15:15:09Z",
-        "last_commit_url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp/commit/501f7538eee265e19c873db65a986287678aec72",
+        "last_commit_at": "2026-11-16T22:20:59Z",
+        "last_commit_url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp/commit/fd5b8ea29af46f833a215e2fa9ece0eab8242e59",
         "default_branch": "main",
         "archived": false,
         "status": "Active",
@@ -396,7 +396,7 @@
               "width": 100
             }
           ],
-          "notes_markdown": "",
+          "notes_markdown": "Completed",
           "completion_percent": null,
           "completion_qualifier": "",
           "completion_metric": "completion",
