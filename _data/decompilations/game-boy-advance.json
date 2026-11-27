@@ -2173,6 +2173,24 @@
       "ai_used": true,
       "supported_rom_sha1": [],
       "project_builders": []
+    },
+    "jazz-jackrabbit-gba-turboboy215": {
+      "name": "Jazz Jackrabbit",
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "repository_url": "https://github.com/turboboy215/jazz-gba-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "9fb012b46350615cfa4dd0fc7d11fc21903d39e0"
+      ],
+      "project_builders": [
+        "make"
+      ]
     }
   },
   "consoles": {
@@ -4432,6 +4450,28 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/lucasderksen/medabot-decomp"
+            }
+          ]
+        },
+        {
+          "project": "jazz-jackrabbit-gba-turboboy215",
+          "name_markdown": "[Jazz Jackrabbit](https://github.com/turboboy215/jazz-gba-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Game_Boy_Advance/master/Named_Boxarts/Jazz%20Jackrabbit%20%28USA%2C%20Europe%29.png",
+              "alt": "Jazz Jackrabbit Game Boy Advance box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Work-in-progress matching decompilation of the USA AJJE release using a patched pret old_agbcc compiler and Make. Requires the user's own ROM; the [README](https://github.com/turboboy215/jazz-gba-decomp#readme) documents its SHA-1 and a byte-identical ROM comparison. Matching coverage counts C bytes against live code and excludes the multiboot client image; remaining code and assets are still supplied from the user's ROM. Native PC and PlayStation ports are [plans](https://github.com/turboboy215/jazz-gba-decomp/blob/master/docs/PC_PORT.md), not available port targets.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/turboboy215/jazz-gba-decomp"
             }
           ]
         }
