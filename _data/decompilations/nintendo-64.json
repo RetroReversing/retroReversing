@@ -4990,6 +4990,195 @@
         "n64-decomp-kit",
         "make"
       ]
+    },
+    "micromachines64turbo-n64-decomp-retroreversing": {
+      "name": "Micro Machines 64 Turbo (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/micromachines64turbo-n64-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "9672fa010a06adf01074c9720ee46031f5d9e101"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "blues-brothers-2000-decomp-retroreversing": {
+      "name": "Blues Brothers 2000 (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/blues-brothers-2000-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "ed0fe7c9a2e8015bdf8262d35065f53c6fcea60f"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "brunswickbowling-n64-decomp-retroreversing": {
+      "name": "Brunswick Circuit Pro Bowling (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/brunswickbowling-n64-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "91f6f7843a7413126a7b4026104526615f979134"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "aero-fighters-assault-decomp-retroreversing": {
+      "name": "AeroFighters Assault (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/aero-fighters-assault-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "6742f67d7d2639072e186d240237be1c662cb25a"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "aero-fighters-assaul-decomp-retroreversing": {
+      "name": "AeroFighters Assault (earlier assaul repository) (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/aero-fighters-assaul-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "6742f67d7d2639072e186d240237be1c662cb25a"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "shadowman-decomp-retroreversing": {
+      "name": "Shadow Man (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/shadowman-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "cfb99dd949fdb2b2a0002ef595ab1813fe865b2c"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "twine-n64-decomp-retroreversing": {
+      "name": "The World Is Not Enough (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/twine-n64-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "d347159808f0374a93cf44cfb6135d8f56279f7b"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "penny-racers-decomp-retroreversing": {
+      "name": "Penny Racers (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/penny-racers-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "1d4fce8ad6b1f0072d89aeb4c3187bc853b750a0"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
+    },
+    "south-park-decomp-retroreversing": {
+      "name": "South Park (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/south-park-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": null,
+      "supported_rom_sha1": [
+        "c70c9fd6ebf1ae9f79155f9384ab1c4b29dc6882"
+      ],
+      "project_builders": [
+        "decompdecomp"
+      ]
+    },
+    "turok-decomp-retroreversing": {
+      "name": "Turok: Dinosaur Hunter (RetroReversing)",
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "repository_url": "https://github.com/RetroReversing/turok-decomp",
+      "project_type": "Matching decompilation",
+      "completion_status": null,
+      "legacy_status": null,
+      "activity": {},
+      "ai_used": true,
+      "supported_rom_sha1": [
+        "88916d5d2e2470f395ad8f4245d34138ef2d156a"
+      ],
+      "project_builders": [
+        "decompdecomp",
+        "splat"
+      ]
     }
   },
   "consoles": {
@@ -15090,6 +15279,226 @@
             {
               "name": "Matching decompilation",
               "url": "https://github.com/TheGh0stShip/Jeopardy-N64"
+            }
+          ]
+        },
+        {
+          "project": "micromachines64turbo-n64-decomp-retroreversing",
+          "name_markdown": "[Micro Machines 64 Turbo (RetroReversing)](https://github.com/RetroReversing/micromachines64turbo-n64-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Micro%20Machines%2064%20Turbo%20%28USA%29.png",
+              "alt": "Micro Machines 64 Turbo USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/micromachines64turbo-n64-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/micromachines64turbo-n64-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/micromachines64turbo-n64-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/micromachines64turbo-n64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "blues-brothers-2000-decomp-retroreversing",
+          "name_markdown": "[Blues Brothers 2000 (RetroReversing)](https://github.com/RetroReversing/blues-brothers-2000-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Blues%20Brothers%202000%20%28USA%29.png",
+              "alt": "Blues Brothers 2000 USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/blues-brothers-2000-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/blues-brothers-2000-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/blues-brothers-2000-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/blues-brothers-2000-decomp"
+            }
+          ]
+        },
+        {
+          "project": "brunswickbowling-n64-decomp-retroreversing",
+          "name_markdown": "[Brunswick Circuit Pro Bowling (RetroReversing)](https://github.com/RetroReversing/brunswickbowling-n64-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Brunswick%20Circuit%20Pro%20Bowling%20%28USA%29.png",
+              "alt": "Brunswick Circuit Pro Bowling USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/brunswickbowling-n64-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/brunswickbowling-n64-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/brunswickbowling-n64-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/brunswickbowling-n64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "aero-fighters-assault-decomp-retroreversing",
+          "name_markdown": "[AeroFighters Assault (RetroReversing)](https://github.com/RetroReversing/aero-fighters-assault-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/AeroFighters%20Assault%20%28USA%29.png",
+              "alt": "AeroFighters Assault USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/aero-fighters-assault-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/aero-fighters-assault-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/aero-fighters-assault-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build. A separately listed earlier repository, aero-fighters-assaul-decomp, targets the same ROM; no documented migration is assumed.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/aero-fighters-assault-decomp"
+            }
+          ]
+        },
+        {
+          "project": "aero-fighters-assaul-decomp-retroreversing",
+          "name_markdown": "[AeroFighters Assault (earlier assaul repository) (RetroReversing)](https://github.com/RetroReversing/aero-fighters-assaul-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/AeroFighters%20Assault%20%28USA%29.png",
+              "alt": "AeroFighters Assault USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/aero-fighters-assaul-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/aero-fighters-assaul-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/aero-fighters-assaul-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build. This earlier repository and the separately listed aero-fighters-assault-decomp publish different saved checkpoints for the same ROM. No migration or withdrawal is documented, so both repository identities are retained.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/aero-fighters-assaul-decomp"
+            }
+          ]
+        },
+        {
+          "project": "shadowman-decomp-retroreversing",
+          "name_markdown": "[Shadow Man (RetroReversing)](https://github.com/RetroReversing/shadowman-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Shadow%20Man%20%28USA%29.png",
+              "alt": "Shadow Man USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/shadowman-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/shadowman-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/shadowman-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/shadowman-decomp"
+            }
+          ]
+        },
+        {
+          "project": "twine-n64-decomp-retroreversing",
+          "name_markdown": "[The World Is Not Enough (RetroReversing)](https://github.com/RetroReversing/twine-n64-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/007%20-%20The%20World%20Is%20Not%20Enough%20%28USA%29.png",
+              "alt": "The World Is Not Enough USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/twine-n64-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/twine-n64-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/twine-n64-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/twine-n64-decomp"
+            }
+          ]
+        },
+        {
+          "project": "penny-racers-decomp-retroreversing",
+          "name_markdown": "[Penny Racers (RetroReversing)](https://github.com/RetroReversing/penny-racers-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Penny%20Racers%20%28USA%29.png",
+              "alt": "Penny Racers USA Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Matching-decompilation project for the USA release, exported with decompdecomp. Requires the user's own ROM and the project's period compiler/assembler settings. The [build configuration](https://github.com/RetroReversing/penny-racers-decomp/blob/main/build.json) and [splat configuration](https://github.com/RetroReversing/penny-racers-decomp/blob/main/splat.yaml) record the supported whole-ROM SHA-1. The [README](https://github.com/RetroReversing/penny-racers-decomp#readme) documents build.py and saved progress; remaining assembly and extracted data contribute to matching builds. Source completion and a native PC port are not established by a byte-identical mixed build.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/penny-racers-decomp"
+            }
+          ]
+        },
+        {
+          "project": "south-park-decomp-retroreversing",
+          "name_markdown": "[South Park (RetroReversing)](https://github.com/RetroReversing/south-park-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/South%20Park%20%28Europe%29%20%28En%2CFr%2CEs%29.png",
+              "alt": "South Park Europe Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "Saved decompdecomp project for the European NDTP release. Open it with the app's Open a saved project workflow and supply the user's own matching ROM. The [README](https://github.com/RetroReversing/south-park-decomp#readme) documents the complete normalized cartridge SHA-1 and notes that some archived matches need fresh verification after import; unfinished best attempts are not matches. This is an unfinished saved project, not a claim of a complete cartridge rebuilt from C.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/south-park-decomp"
+            }
+          ]
+        },
+        {
+          "project": "turok-decomp-retroreversing",
+          "name_markdown": "[Turok: Dinosaur Hunter (RetroReversing)](https://github.com/RetroReversing/turok-decomp)",
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Boxarts/Turok%20-%20Dinosaur%20Hunter%20%28Europe%29.png",
+              "alt": "Turok: Dinosaur Hunter Europe revision 0 Nintendo 64 box art",
+              "width": 100
+            }
+          ],
+          "notes_markdown": "AI-assisted, source-assisted partial reconstruction of European revision 0 (NTUP). The [README](https://github.com/RetroReversing/turok-decomp#readme) documents the original normalized cartridge SHA-1 separately from the expanded analysis image, the decompdecomp/splat build and a byte-identical cartridge checkpoint. Raw binary preservation contributes to that identity. Truncated C candidates, unclassified code/data blocks and assembly fallbacks remain; candidate-code percentages are not whole-game coverage. Compression-template constraints also limit modifications.",
+          "completion_percent": null,
+          "completion_qualifier": "",
+          "completion_metric": "completion",
+          "ports": [],
+          "project_types": [
+            {
+              "name": "Matching decompilation",
+              "url": "https://github.com/RetroReversing/turok-decomp"
             }
           ]
         }
