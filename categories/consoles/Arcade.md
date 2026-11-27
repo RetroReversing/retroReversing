@@ -21,17 +21,20 @@ tags:
   - arcade
   - introduction
   - hardware
-updatedAt: '2026-10-24'
+updatedAt: '2026-11-22'
 ---
 
-### What was the first Arcade Video Game?
+# Arcade hardware, code and preservation
+Arcade games are tied to physical boards: changing the program can mean replacing a ROM, while recreating a game may require understanding separate graphics, sound and timing chips. The examples below move from the earliest wired logic to surviving source code and MAME board descriptions.
+
+## What was the first arcade video game?
 <img width="700" height="933" alt="Computer Space Restoration in progress by Archer Maclean" src="https://github.com/user-attachments/assets/eb6050cb-e640-4d01-a53b-96d85a646e7f" />
 
-**Computer Space** released in 1971 by **Nolan Bushnell** and **Ted Dabney** is widely considered the first arcade game. While it wasn't a massive commercial hit, it proved that money could be made from creating video games and the authors went on to found **Atari** to take the concept to the next level with **Pong** [^12].
+**Computer Space**, released in 1971 by **Nolan Bushnell** and **Ted Dabney**, is widely described as the first commercially sold arcade video game. Its creators later founded **Atari** and made **Pong** [^12].
 
-It has a unique **fiberglass** design that aimed to appear futuristic and still makes it look unique to this day compared to the wooden arcade cabinates that followed it.
+Its fiberglass cabinet looked unlike the wooden cabinets that followed. The photograph above shows Archer Maclean restoring one.
 
-Despite its name it is not actually a "computer" as microchips were too expensive in 1971 so it used **TTL** (Transistor-Transistor Logic) which meant that the "code" was actually the series of wires and switches that connected to each other. So to change the functinality or fix a bug it meant actually physically resoldering the connections.
+Despite its name, *Computer Space* did not run a stored program on a CPU. Its game logic was built from TTL chips and their connections; changing that logic meant changing hardware rather than patching a ROM [^17].
 
 ---
 # Development of Arcade Games
@@ -43,9 +46,7 @@ Despite its name it is not actually a "computer" as microchips were too expensiv
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NKKfW8X9uYk" title="Pac-Man Kill Screen Explained" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width:100%;height:auto;aspect-ratio:16/9;"></iframe>
 
 ## What programming languages were used to create Arcade games?
-Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
-
-As for later arcade games that had a microprocessor the programming language used can depend on the power of the system, some less powerful boards used pure assembly to write the game code and others used a higher level language such as C.
+Early boards such as *Computer Space* expressed game rules in hardware. Once arcade boards adopted microprocessors, programmers could write assembly for the board's CPU or use a higher-level language when the toolchain and performance budget allowed it.
 
 For example the 1990 game **Klax** was written in C according to **Greg Omi** who was sent the source code for his Atari Lynx port of the game [^4].
 
@@ -59,30 +60,23 @@ In the 1990 interview with **Mark Stephen Pierce** the following was published (
 
 
 ## What did a Typical Arcade Game Development Team Look Like?
-In the early days of arcade gaming, development teams needed to be highly specialized. Unlike today's streamlined development environments, both **hardware and software** had to be built **from scratch** for each new game. This required expertise across a wide range of disciplines, from custom chip design to game logic and audiovisual presentation.
-
-As arcade hardware evolved and became more standardized-often borrowing from or influencing console architectures-the **hardware workload** decreased slightly. However, the **software and design** demands increased, calling for larger, more diverse teams to handle game mechanics, visual design, sound, and player experience.
-
-A great example is Taito's groundbreaking 1987 arcade title, **Darius**, which employed a team with clearly defined roles:
+A cabinet could involve people working on electronics, code, controls, art and sound. Taito's 1987 *Darius* offers one named example; its three-screen presentation and custom cabinet make the hardware role especially visible. The [translated developer interviews](https://shmuplations.com/dariusii/) identify these contributors:
 * **Sound Designer** – Yasuhiko Tanaka
 * **Composer** – Hisayoshi "OGR" Ogura
 * **Cabinet Designer** – Natsuki Hirosawa
 * **Game Designer** – Junji Yarita
 * **Planner** – Akira Fujita
-* **Programmer** – Toru Sagawara
+* **Programmer** – Toru Sugawara
 * **Hardware Engineer** – Takeki Nakamura
 
-For a deeper look into the development of *Darius*, check out this excellent translated interview on **shmuplations**:  
-[Darius I & II – 1986/89 Developer Interviews – shmuplations.com](https://shmuplations.com/dariusii/)
+The interviews describe this project, not a standard team size for every arcade game.
 
 ## How long did it take to develop an Arcade game?
 In 1990 Atari developer **Mark Stephen Pierce** had the following to say about the length of time for developing an Arcade game:
 > An Atari game takes, on average, around a year to produce ‑ but then an average can come from two extremes, which is certainly in Mark's case - Escape took over two years to put together, whereas Klax was written in just four months!
 
 ## How were Arcade games tested?
-The challenge with Arcade games is they are expensive to produce and need to be visually appealing, easy to grasp, and have a carefully balanced difficulty level. Challenging enough to be engaging but not so hard that it drives players away or so easy that it allows endless play on a single coin.
-
-So prototype Arcade games were placed into various arcades and player behaviour was closely monitored to strike the right balance of difficulty and engagement. The Atari games even had a video recorder built in so that the development team could watch how players played the game, along with a computer that tracked the money made for the game [^5]. 
+Difficulty and coin use mattered to arcade operators. In a 1990 Atari interview, Mark Stephen Pierce describes placing prototypes in arcades, recording play and tracking receipts to see how people responded [^5]. That is evidence of Atari's process at the time, rather than a rule for every studio.
 
 ---
 # Arcade Development Hardware
@@ -98,8 +92,8 @@ Taito put together a **250-page Hardware Manual** for new developers who joined 
 
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">With the Taito Hardware Manual for reference, new engineers were sent out to Akihabara to get some ROM and RAM chips and a CPU, solder them all together onto a test PCB, then write a brick breaker game.<a href="https://t.co/huXblA0rv4">https://t.co/huXblA0rv4</a><a href="https://t.co/CXlnKUPHkH">https://t.co/CXlnKUPHkH</a> <a href="https://t.co/Yip45KbLIE">pic.twitter.com/Yip45KbLIE</a></p>&mdash; Taito Corporation (@TaitoCorp) <a href="https://twitter.com/TaitoCorp/status/1748438175977226708?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote>
 
-They used an In-Circuit Emulator to debug the programs they were creating as can be seen in this diagram:
-![Alt text](/public/images/arcade/TaitoArcadeICE.png)
+The diagram shows an in-circuit emulator connected to the prototype board for debugging:
+![Taito prototype board connected to an in-circuit emulator](/public/images/arcade/TaitoArcadeICE.png)
 
 ---
 ## Development of RoboTron (1981)
@@ -196,9 +190,16 @@ MAME (Multiple Arcade Machine Emulator) is a free and open-source project that e
 
 {% include_cached link-to-other-post.html post="/mame-source-code" description="For a tour of the MAME source tree, including the CPU cores, see this page." %}
 
+---
+## What can a MAME driver tell you about a board?
+A MAME driver is more than a list of games. For [*Jr. Pac-Man*](https://github.com/mamedev/mame/blob/master/src/mame/pacman/jrpacman.cpp), the source separates `maincpu` program ROMs from `gfx1` tile and sprite ROMs, small colour PROMs and Namco sound data. Each `ROM_LOAD` records a filename, placement, size and checksums [^14]. That layout helps explain why disassembling only the main CPU ROM cannot reveal every image or sound you see in the game.
+
+MAME's [ROM-set guide](https://docs.mamedev.org/usingmame/aboutromsets.html) also explains why a set can change when a missing colour PROM or bad dump is found [^15]. Its [command-line reference](https://docs.mamedev.org/commandline/commandline-all.html) documents `-listroms` for required chips and `-listsource` for locating the relevant driver file [^16]. These are useful starting points for matching a board or dump to the source description before investigating game behavior.
+
+---
 ## History of MAME
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mse3Wo0hbLE?si=8otkKlDYUzI7koyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-MAME version 0.1 was released on February 5, 1997, by Italian programmer **Nicola Salmoria**. This first version was a command-line application for MS-DOS and supported five games: ￼ ￼
+MAME version 0.1 was released on February 5, 1997, by **Nicola Salmoria**. The first MS-DOS release supported five games:
 * Pac-Man
 * Pengo
 * Phoenix
@@ -278,3 +279,7 @@ The magazine index collects developer interviews tagged for this system across a
 [^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)
 [^12]: [Before Pong, There Was Computer Space - The MIT Press Reader](https://thereader.mitpress.mit.edu/before-pong-there-was-computer-space/)
 [^13]: [Pasky, Acrobat Mission rank-system thread](https://x.com/TheRealPasky/status/2113201618447425646), with [rank timing](https://x.com/TheRealPasky/status/2113202537549484214), [damage behavior](https://x.com/TheRealPasky/status/2113203228212912546) and [World-version addresses](https://x.com/TheRealPasky/status/2113204133184573925), 22 October 2026.
+[^14]: [MAME, Jr. Pac-Man driver](https://github.com/mamedev/mame/blob/master/src/mame/pacman/jrpacman.cpp), ROM regions and hashes.
+[^15]: [MAME Documentation, About ROMs and Sets](https://docs.mamedev.org/usingmame/aboutromsets.html), incomplete dumps and set revisions.
+[^16]: [MAME Documentation, Universal Command-line Options](https://docs.mamedev.org/commandline/commandline-all.html), `-listroms` and `-listsource`.
+[^17]: [Computer History Museum, 1971 timeline](https://www.computerhistory.org/timeline/1971/), Computer Space hardware.
