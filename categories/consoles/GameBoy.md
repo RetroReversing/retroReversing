@@ -21,7 +21,7 @@ recommend:
   - ds
 editlink: ../categories/consoles/GameBoy.md
 excerpt: Hub page for Game Boy and Game Boy Color hardware, development, reverse engineering, and source code resources
-updatedAt: '2026-11-01'
+updatedAt: '2026-11-27'
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
@@ -43,9 +43,11 @@ Audio | Four hardware sound channels
 Cartridges | Commonly include ROM plus mapper hardware such as MBC controllers, battery-backed RAM, or RTC logic
 
 ### What can a Game Boy ROM header tell you about its cartridge?
-Nintendo's [*Game Boy Programming Manual*](https://files.nekoblog.org/uploads/pdf/39999184-GameBoy-Programming-Manual.pdf) assigns three consecutive header bytes to the board's parts configuration: `$0147` records the cartridge type (including MBC, RAM, battery, timer or rumble variants), `$0148` records ROM size, and `$0149` records external RAM size [^11]. [Pan Docs' cartridge-header table](https://github.com/gbdev/pandocs/blob/master/src/The_Cartridge_Header.md) is a convenient decoding reference, including types added beyond the manual's examples [^12].
+Nintendo's [*Game Boy Programming Manual*](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) assigns three consecutive header bytes to the board's parts configuration: `$0147` records the cartridge type (including MBC, RAM, battery, timer or rumble variants), `$0148` records ROM size, and `$0149` records external RAM size [^11]. [Pan Docs' cartridge-header table](https://github.com/gbdev/pandocs/blob/master/src/The_Cartridge_Header.md) is a convenient decoding reference, including types added beyond the manual's examples [^12].
 
 These bytes are the first clue when a disassembly jumps through `$4000-$7FFF`: the same CPU address can expose different ROM banks as the cartridge controller changes state. Treat the header as a claim to check against the actual image and board. Our [*Mr Do!* source analysis](/mrdo), for example, compares a ROM-only source header with a banked MBC1 retail build; copying the source header into the retail image would describe the wrong cartridge.
+
+For a physical cross-check, [Gekkio's Game Boy hardware database](https://gbhwdb.gekkio.fi/) has photographed cartridge boards and recorded their chips. Match the game's release and board revision before comparing its ROM header with a database entry [^13].
 
 ---
 # Hardware
@@ -54,6 +56,11 @@ The console board, cartridge controller and optional accessories each affect wha
 ## Hardware Architecture
 For a broad architectural overview, Copetti follows the CPU, memory, graphics, audio and cartridge connections:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="Rodrigo Copetti provides a practical architectural overview of the Game Boy, covering the CPU, memory layout, graphics pipeline, audio system, and cartridge hardware." image="/public/NintendoGameBoyThumb.png" title="Game Boy Architecture - A Practical Analysis" %}
+
+### Why does a sprite update use a routine in high RAM?
+Sprites use object attribute memory (OAM), a 160-byte table at `$FE00-$FE9F`. Writing the source page's high byte to `$FF46` starts an OAM DMA transfer: the controller copies 160 bytes from that page, regardless of how many sprites changed [^14]. For example, a write of `$C0` selects `$C000-$C09F` as the source.
+
+On the original Game Boy, the transfer occupies the bus used for ordinary instruction fetches. Nintendo's [*Game Boy Programming Manual*](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) therefore puts its example DMA routine in high RAM (`$FF80-$FFFE`), where it starts the copy and waits for it to finish [^15]. This explains a short routine at an otherwise surprising address in a disassembly. [Gekkio's *GB: Complete Technical Reference*](https://gekkio.fi/files/gb-docs/gbctr.pdf) goes further into DMA timing and bus conflicts, which matter when an emulator runs a game correctly except during sprite updates [^14].
 
 ---
 ### Game Boy Color graphics
@@ -167,11 +174,9 @@ Some game-specific anecdotes are worth keeping because they point to development
 ## R-Type
 According to Jas Austin, the Game Boy version of `R-Type` was largely built from memory after arcade research trips rather than from shared code or art assets [^2].
 
-He also described being hired after showing a one-week demo to B.I.T.S, which is a useful glimpse into how quickly Game Boy contract work could move in that era [^2].
+Austin heard through his agency that B.I.T.S needed a programmer for its licensed port. He travelled to London, received a development kit and had a week to produce a demo. The studio then hired him [^2].
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I agree, it&#39;s amazing some of the lengths we have to go to when we didn&#39;t have code or assets. For R-Type I did most of it from memory after visits to the Trocadero in London. And I didn&#39;t live in London.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1251581149643780097?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote>
-
-The company **B.I.T.S** obtained the license to develop the Game Boy version of the game but required a programmer to work on the title. **Jas Austin** heard about this through his agency and travelled to London to meet up, he impressed them so much that he was given a development kit and a deadline of a week to come up with a demo. He did such a good job he got a permanent job at **B.I.T.S** [^2].
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway's game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
 
@@ -322,5 +327,8 @@ The magazine index collects developer interviews tagged for this system across a
 [^8]: GBX issue 3 (September 2001) page 11
 [^9]: [JohnnyBareToes - Datel PlayStation Game Booster - YouTube](https://www.youtube.com/watch?v=SxF2e6DUMRo)
 [^10]: [RetroBreak - Datel GameStudio demonstration - YouTube](https://www.youtube.com/watch?v=HgJS8_p0aZk)
-[^11]: [Nintendo, *Game Boy Programming Manual*, Appendix 3, “Software Submission Requirements,” pp. 290–292](https://files.nekoblog.org/uploads/pdf/39999184-GameBoy-Programming-Manual.pdf).
+[^11]: [Nintendo, *Game Boy Programming Manual*, Appendix 3, “Software Submission Requirements,” pp. 290–292](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf).
 [^12]: [Pan Docs, “The Cartridge Header,” cartridge type, ROM size and RAM size fields](https://github.com/gbdev/pandocs/blob/master/src/The_Cartridge_Header.md).
+[^13]: [Gekkio and contributors, Game Boy hardware database](https://gbhwdb.gekkio.fi/).
+[^14]: [Gekkio, *GB: Complete Technical Reference*, chapter 8, OAM DMA](https://gekkio.fi/files/gb-docs/gbctr.pdf).
+[^15]: [Nintendo, *Game Boy Programming Manual*, section 1.8.1, DMA transfers in DMG](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf).
